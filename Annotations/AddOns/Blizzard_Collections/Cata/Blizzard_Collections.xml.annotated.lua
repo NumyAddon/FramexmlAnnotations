@@ -34,7 +34,7 @@ CollectionsJournalTab1Middle = {}
 --- @type Texture
 CollectionsJournalTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Collections.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Collections.xml#L114)
 --- child of CollectionsJournalTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CollectionsJournalTab1HighlightTexture = {}
@@ -74,7 +74,7 @@ CollectionsJournalTab2Middle = {}
 --- @type Texture
 CollectionsJournalTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Collections.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Collections.xml#L114)
 --- child of CollectionsJournalTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CollectionsJournalTab2HighlightTexture = {}
@@ -114,7 +114,7 @@ CollectionsJournalTab3Middle = {}
 --- @type Texture
 CollectionsJournalTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Collections.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Collections.xml#L114)
 --- child of CollectionsJournalTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CollectionsJournalTab3HighlightTexture = {}
@@ -154,7 +154,7 @@ CollectionsJournalTab4Middle = {}
 --- @type Texture
 CollectionsJournalTab4Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Collections.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Collections.xml#L114)
 --- child of CollectionsJournalTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CollectionsJournalTab4HighlightTexture = {}
@@ -194,7 +194,7 @@ CollectionsJournalTab5Middle = {}
 --- @type Texture
 CollectionsJournalTab5Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Collections.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Collections.xml#L114)
 --- child of CollectionsJournalTab5 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CollectionsJournalTab5HighlightTexture = {}

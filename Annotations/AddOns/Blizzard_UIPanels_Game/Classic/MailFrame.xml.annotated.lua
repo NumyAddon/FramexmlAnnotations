@@ -849,7 +849,7 @@ MailFrameTab1Middle = {}
 --- @type Texture
 MailFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L114)
 --- child of MailFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 MailFrameTab1HighlightTexture = {}
@@ -889,7 +889,7 @@ MailFrameTab2Middle = {}
 --- @type Texture
 MailFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L114)
 --- child of MailFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 MailFrameTab2HighlightTexture = {}

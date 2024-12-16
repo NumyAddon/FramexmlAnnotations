@@ -217,42 +217,42 @@ CharSelectAccountUpgradeMiniPanelBanner = {}
 --- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradeMiniPanel_CharSelectAccountUpgradeMiniPanelUpgradeLogo : Texture
 CharSelectAccountUpgradeMiniPanelUpgradeLogo = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L257)
 --- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradeMiniPanelBorderTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L264)
 --- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradeMiniPanelBorderTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L271)
 --- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradeMiniPanelBorderBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L278)
 --- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradeMiniPanelBorderBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L317)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L285)
 --- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradeMiniPanelBorderBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L292)
 --- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradeMiniPanelBorderTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L332)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L300)
 --- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradeMiniPanelBorderLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L307)
 --- child of CharSelectAccountUpgradeMiniPanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradeMiniPanelBorderRight = {}
@@ -266,17 +266,17 @@ CharSelectAccountUpgradeMiniPanel = {}
 CharSelectAccountUpgradeMiniPanel["banner"] = CharSelectAccountUpgradeMiniPanelBanner
 CharSelectAccountUpgradeMiniPanel["logo"] = CharSelectAccountUpgradeMiniPanelUpgradeLogo
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L322)
 --- child of CharSelectAccountUpgradePanelFeature1 (created in template UpgradeFrameFeatureTemplate)
 --- @type Texture
 CharSelectAccountUpgradePanelFeature1IconFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L331)
 --- child of CharSelectAccountUpgradePanelFeature1 (created in template UpgradeFrameFeatureTemplate)
 --- @type UpgradeFrameFeatureTemplate_UpgradeFrameFeatureTemplateText
 CharSelectAccountUpgradePanelFeature1Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L337)
 --- child of CharSelectAccountUpgradePanelFeature1 (created in template UpgradeFrameFeatureTemplate)
 --- @type Texture
 CharSelectAccountUpgradePanelFeature1Icon = {}
@@ -313,42 +313,42 @@ CharSelectAccountUpgradePanelBanner = {}
 --- @class CharacterSelect_CharacterSelectUI_CharSelectAccountUpgradePanel_CharSelectAccountUpgradePanelUpgradeLogo : Texture
 CharSelectAccountUpgradePanelUpgradeLogo = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L257)
 --- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradePanelBorderTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L264)
 --- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradePanelBorderTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L271)
 --- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradePanelBorderBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L278)
 --- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradePanelBorderBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L317)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L285)
 --- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradePanelBorderBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L292)
 --- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradePanelBorderTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L332)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L300)
 --- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradePanelBorderLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L307)
 --- child of CharSelectAccountUpgradePanel (created in template UpgradeFrameBorderedTemplate)
 --- @type Texture
 CharSelectAccountUpgradePanelBorderRight = {}
@@ -492,17 +492,12 @@ CharSelectCharacterButton1ButtonText["name"] = CharSelectCharacterButtonTemplate
 CharSelectCharacterButton1ButtonText["Info"] = CharSelectCharacterButtonTemplateButtonTextInfo
 CharSelectCharacterButton1ButtonText["Location"] = CharSelectCharacterButtonTemplateButtonTextLocation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L106)
---- child of CharSelectCharacterButton1 (created in template CharSelectCharacterButtonTemplate)
---- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateSelfFoundButton
-CharSelectCharacterButton1SelfFoundButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButton1 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp
 CharSelectCharacterButton1MoveUp = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButton1 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown
 CharSelectCharacterButton1MoveDown = {}
@@ -512,7 +507,6 @@ CharSelectCharacterButton1MoveDown = {}
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_CharSelectCharacterButton1 : Button, CharSelectCharacterButtonTemplate
 CharSelectCharacterButton1 = {}
 CharSelectCharacterButton1["buttonText"] = CharSelectCharacterButton1ButtonText -- inherited
-CharSelectCharacterButton1["selfFoundButton"] = CharSelectCharacterButton1SelfFoundButton -- inherited
 CharSelectCharacterButton1["upButton"] = CharSelectCharacterButton1MoveUp -- inherited
 CharSelectCharacterButton1["downButton"] = CharSelectCharacterButton1MoveDown -- inherited
 
@@ -541,17 +535,12 @@ CharSelectCharacterButton2ButtonText["name"] = CharSelectCharacterButtonTemplate
 CharSelectCharacterButton2ButtonText["Info"] = CharSelectCharacterButtonTemplateButtonTextInfo
 CharSelectCharacterButton2ButtonText["Location"] = CharSelectCharacterButtonTemplateButtonTextLocation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L106)
---- child of CharSelectCharacterButton2 (created in template CharSelectCharacterButtonTemplate)
---- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateSelfFoundButton
-CharSelectCharacterButton2SelfFoundButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButton2 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp
 CharSelectCharacterButton2MoveUp = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButton2 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown
 CharSelectCharacterButton2MoveDown = {}
@@ -561,7 +550,6 @@ CharSelectCharacterButton2MoveDown = {}
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_CharSelectCharacterButton2 : Button, CharSelectCharacterButtonTemplate
 CharSelectCharacterButton2 = {}
 CharSelectCharacterButton2["buttonText"] = CharSelectCharacterButton2ButtonText -- inherited
-CharSelectCharacterButton2["selfFoundButton"] = CharSelectCharacterButton2SelfFoundButton -- inherited
 CharSelectCharacterButton2["upButton"] = CharSelectCharacterButton2MoveUp -- inherited
 CharSelectCharacterButton2["downButton"] = CharSelectCharacterButton2MoveDown -- inherited
 
@@ -590,17 +578,12 @@ CharSelectCharacterButton3ButtonText["name"] = CharSelectCharacterButtonTemplate
 CharSelectCharacterButton3ButtonText["Info"] = CharSelectCharacterButtonTemplateButtonTextInfo
 CharSelectCharacterButton3ButtonText["Location"] = CharSelectCharacterButtonTemplateButtonTextLocation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L106)
---- child of CharSelectCharacterButton3 (created in template CharSelectCharacterButtonTemplate)
---- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateSelfFoundButton
-CharSelectCharacterButton3SelfFoundButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButton3 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp
 CharSelectCharacterButton3MoveUp = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButton3 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown
 CharSelectCharacterButton3MoveDown = {}
@@ -610,7 +593,6 @@ CharSelectCharacterButton3MoveDown = {}
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_CharSelectCharacterButton3 : Button, CharSelectCharacterButtonTemplate
 CharSelectCharacterButton3 = {}
 CharSelectCharacterButton3["buttonText"] = CharSelectCharacterButton3ButtonText -- inherited
-CharSelectCharacterButton3["selfFoundButton"] = CharSelectCharacterButton3SelfFoundButton -- inherited
 CharSelectCharacterButton3["upButton"] = CharSelectCharacterButton3MoveUp -- inherited
 CharSelectCharacterButton3["downButton"] = CharSelectCharacterButton3MoveDown -- inherited
 
@@ -639,17 +621,12 @@ CharSelectCharacterButton4ButtonText["name"] = CharSelectCharacterButtonTemplate
 CharSelectCharacterButton4ButtonText["Info"] = CharSelectCharacterButtonTemplateButtonTextInfo
 CharSelectCharacterButton4ButtonText["Location"] = CharSelectCharacterButtonTemplateButtonTextLocation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L106)
---- child of CharSelectCharacterButton4 (created in template CharSelectCharacterButtonTemplate)
---- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateSelfFoundButton
-CharSelectCharacterButton4SelfFoundButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButton4 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp
 CharSelectCharacterButton4MoveUp = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButton4 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown
 CharSelectCharacterButton4MoveDown = {}
@@ -659,7 +636,6 @@ CharSelectCharacterButton4MoveDown = {}
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_CharSelectCharacterButton4 : Button, CharSelectCharacterButtonTemplate
 CharSelectCharacterButton4 = {}
 CharSelectCharacterButton4["buttonText"] = CharSelectCharacterButton4ButtonText -- inherited
-CharSelectCharacterButton4["selfFoundButton"] = CharSelectCharacterButton4SelfFoundButton -- inherited
 CharSelectCharacterButton4["upButton"] = CharSelectCharacterButton4MoveUp -- inherited
 CharSelectCharacterButton4["downButton"] = CharSelectCharacterButton4MoveDown -- inherited
 
@@ -688,17 +664,12 @@ CharSelectCharacterButton5ButtonText["name"] = CharSelectCharacterButtonTemplate
 CharSelectCharacterButton5ButtonText["Info"] = CharSelectCharacterButtonTemplateButtonTextInfo
 CharSelectCharacterButton5ButtonText["Location"] = CharSelectCharacterButtonTemplateButtonTextLocation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L106)
---- child of CharSelectCharacterButton5 (created in template CharSelectCharacterButtonTemplate)
---- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateSelfFoundButton
-CharSelectCharacterButton5SelfFoundButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButton5 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp
 CharSelectCharacterButton5MoveUp = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButton5 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown
 CharSelectCharacterButton5MoveDown = {}
@@ -708,7 +679,6 @@ CharSelectCharacterButton5MoveDown = {}
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_CharSelectCharacterButton5 : Button, CharSelectCharacterButtonTemplate
 CharSelectCharacterButton5 = {}
 CharSelectCharacterButton5["buttonText"] = CharSelectCharacterButton5ButtonText -- inherited
-CharSelectCharacterButton5["selfFoundButton"] = CharSelectCharacterButton5SelfFoundButton -- inherited
 CharSelectCharacterButton5["upButton"] = CharSelectCharacterButton5MoveUp -- inherited
 CharSelectCharacterButton5["downButton"] = CharSelectCharacterButton5MoveDown -- inherited
 
@@ -737,17 +707,12 @@ CharSelectCharacterButton6ButtonText["name"] = CharSelectCharacterButtonTemplate
 CharSelectCharacterButton6ButtonText["Info"] = CharSelectCharacterButtonTemplateButtonTextInfo
 CharSelectCharacterButton6ButtonText["Location"] = CharSelectCharacterButtonTemplateButtonTextLocation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L106)
---- child of CharSelectCharacterButton6 (created in template CharSelectCharacterButtonTemplate)
---- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateSelfFoundButton
-CharSelectCharacterButton6SelfFoundButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButton6 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp
 CharSelectCharacterButton6MoveUp = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButton6 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown
 CharSelectCharacterButton6MoveDown = {}
@@ -757,7 +722,6 @@ CharSelectCharacterButton6MoveDown = {}
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_CharSelectCharacterButton6 : Button, CharSelectCharacterButtonTemplate
 CharSelectCharacterButton6 = {}
 CharSelectCharacterButton6["buttonText"] = CharSelectCharacterButton6ButtonText -- inherited
-CharSelectCharacterButton6["selfFoundButton"] = CharSelectCharacterButton6SelfFoundButton -- inherited
 CharSelectCharacterButton6["upButton"] = CharSelectCharacterButton6MoveUp -- inherited
 CharSelectCharacterButton6["downButton"] = CharSelectCharacterButton6MoveDown -- inherited
 
@@ -786,17 +750,12 @@ CharSelectCharacterButton7ButtonText["name"] = CharSelectCharacterButtonTemplate
 CharSelectCharacterButton7ButtonText["Info"] = CharSelectCharacterButtonTemplateButtonTextInfo
 CharSelectCharacterButton7ButtonText["Location"] = CharSelectCharacterButtonTemplateButtonTextLocation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L106)
---- child of CharSelectCharacterButton7 (created in template CharSelectCharacterButtonTemplate)
---- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateSelfFoundButton
-CharSelectCharacterButton7SelfFoundButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButton7 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp
 CharSelectCharacterButton7MoveUp = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButton7 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown
 CharSelectCharacterButton7MoveDown = {}
@@ -806,7 +765,6 @@ CharSelectCharacterButton7MoveDown = {}
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_CharSelectCharacterButton7 : Button, CharSelectCharacterButtonTemplate
 CharSelectCharacterButton7 = {}
 CharSelectCharacterButton7["buttonText"] = CharSelectCharacterButton7ButtonText -- inherited
-CharSelectCharacterButton7["selfFoundButton"] = CharSelectCharacterButton7SelfFoundButton -- inherited
 CharSelectCharacterButton7["upButton"] = CharSelectCharacterButton7MoveUp -- inherited
 CharSelectCharacterButton7["downButton"] = CharSelectCharacterButton7MoveDown -- inherited
 
@@ -835,17 +793,12 @@ CharSelectCharacterButton8ButtonText["name"] = CharSelectCharacterButtonTemplate
 CharSelectCharacterButton8ButtonText["Info"] = CharSelectCharacterButtonTemplateButtonTextInfo
 CharSelectCharacterButton8ButtonText["Location"] = CharSelectCharacterButtonTemplateButtonTextLocation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L106)
---- child of CharSelectCharacterButton8 (created in template CharSelectCharacterButtonTemplate)
---- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateSelfFoundButton
-CharSelectCharacterButton8SelfFoundButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButton8 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp
 CharSelectCharacterButton8MoveUp = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButton8 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown
 CharSelectCharacterButton8MoveDown = {}
@@ -855,7 +808,6 @@ CharSelectCharacterButton8MoveDown = {}
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_CharSelectCharacterButton8 : Button, CharSelectCharacterButtonTemplate
 CharSelectCharacterButton8 = {}
 CharSelectCharacterButton8["buttonText"] = CharSelectCharacterButton8ButtonText -- inherited
-CharSelectCharacterButton8["selfFoundButton"] = CharSelectCharacterButton8SelfFoundButton -- inherited
 CharSelectCharacterButton8["upButton"] = CharSelectCharacterButton8MoveUp -- inherited
 CharSelectCharacterButton8["downButton"] = CharSelectCharacterButton8MoveDown -- inherited
 
@@ -884,17 +836,12 @@ CharSelectCharacterButton9ButtonText["name"] = CharSelectCharacterButtonTemplate
 CharSelectCharacterButton9ButtonText["Info"] = CharSelectCharacterButtonTemplateButtonTextInfo
 CharSelectCharacterButton9ButtonText["Location"] = CharSelectCharacterButtonTemplateButtonTextLocation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L106)
---- child of CharSelectCharacterButton9 (created in template CharSelectCharacterButtonTemplate)
---- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateSelfFoundButton
-CharSelectCharacterButton9SelfFoundButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButton9 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp
 CharSelectCharacterButton9MoveUp = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButton9 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown
 CharSelectCharacterButton9MoveDown = {}
@@ -904,7 +851,6 @@ CharSelectCharacterButton9MoveDown = {}
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_CharSelectCharacterButton9 : Button, CharSelectCharacterButtonTemplate
 CharSelectCharacterButton9 = {}
 CharSelectCharacterButton9["buttonText"] = CharSelectCharacterButton9ButtonText -- inherited
-CharSelectCharacterButton9["selfFoundButton"] = CharSelectCharacterButton9SelfFoundButton -- inherited
 CharSelectCharacterButton9["upButton"] = CharSelectCharacterButton9MoveUp -- inherited
 CharSelectCharacterButton9["downButton"] = CharSelectCharacterButton9MoveDown -- inherited
 
@@ -933,17 +879,12 @@ CharSelectCharacterButton10ButtonText["name"] = CharSelectCharacterButtonTemplat
 CharSelectCharacterButton10ButtonText["Info"] = CharSelectCharacterButtonTemplateButtonTextInfo
 CharSelectCharacterButton10ButtonText["Location"] = CharSelectCharacterButtonTemplateButtonTextLocation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L106)
---- child of CharSelectCharacterButton10 (created in template CharSelectCharacterButtonTemplate)
---- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateSelfFoundButton
-CharSelectCharacterButton10SelfFoundButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L98)
 --- child of CharSelectCharacterButton10 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveUp
 CharSelectCharacterButton10MoveUp = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/TBC/CharacterSelect.xml#L120)
 --- child of CharSelectCharacterButton10 (created in template CharSelectCharacterButtonTemplate)
 --- @type CharSelectCharacterButtonTemplate_CharSelectCharacterButtonTemplateMoveDown
 CharSelectCharacterButton10MoveDown = {}
@@ -953,7 +894,6 @@ CharSelectCharacterButton10MoveDown = {}
 --- @class CharacterSelect_CharacterSelectUI_CharacterSelectCharacterFrame_CharSelectCharacterButton10 : Button, CharSelectCharacterButtonTemplate
 CharSelectCharacterButton10 = {}
 CharSelectCharacterButton10["buttonText"] = CharSelectCharacterButton10ButtonText -- inherited
-CharSelectCharacterButton10["selfFoundButton"] = CharSelectCharacterButton10SelfFoundButton -- inherited
 CharSelectCharacterButton10["upButton"] = CharSelectCharacterButton10MoveUp -- inherited
 CharSelectCharacterButton10["downButton"] = CharSelectCharacterButton10MoveDown -- inherited
 

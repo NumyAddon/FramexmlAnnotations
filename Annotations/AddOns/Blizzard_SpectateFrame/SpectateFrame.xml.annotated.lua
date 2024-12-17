@@ -36,12 +36,12 @@ SpectateFrameArrowRight["spectateNext"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L95)
 --- child of SpectateFrame
---- @class SpectateFrame_ViewRewardsButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, SpectateViewRewardsButtonMixin
+--- @class SpectateFrame_LeaveMatchButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, SpectateLeaveMatchButtonMixin
 --- @field fixedHeight number # 32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L110)
 --- child of SpectateFrame
---- @class SpectateFrame_LeaveMatchButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, SpectateLeaveMatchButtonMixin
+--- @class SpectateFrame_MatchDetailsButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, MatchDetailsButtonMixin
 --- @field fixedHeight number # 32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SpectateFrame/SpectateFrame.xml#L13)
@@ -56,8 +56,8 @@ SpectateFrameArrowRight["spectateNext"] = true
 --- @class SpectateFrame : Frame, SpectateFrameMixin
 --- @field ArrowLeft SpectateFrame_SpectateFrameArrowLeft
 --- @field ArrowRight SpectateFrame_SpectateFrameArrowRight
---- @field ViewRewardsButton SpectateFrame_ViewRewardsButton
 --- @field LeaveMatchButton SpectateFrame_LeaveMatchButton
+--- @field MatchDetailsButton SpectateFrame_MatchDetailsButton
 --- @field Shadow Texture
 --- @field Spectating SpectateFrame_Spectating
 --- @field PlayerName SpectateFrame_PlayerName

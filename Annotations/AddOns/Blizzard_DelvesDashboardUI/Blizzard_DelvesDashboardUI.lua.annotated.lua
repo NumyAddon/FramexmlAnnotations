@@ -32,6 +32,10 @@ GreatVaultButtonPanelMixin = {}
 --- @class DelvesDashboardButtonPanelFrameMixin
 DelvesDashboardButtonPanelFrameMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDashboardUI/Blizzard_DelvesDashboardUI.lua#L432)
+--- @class DelvesThresholdBarMixin
+DelvesThresholdBarMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDashboardUI/Blizzard_DelvesDashboardUI.lua#L33)
 function DelvesDashboardFrameMixin:OnLoad() end
 
@@ -100,3 +104,9 @@ function DelvesDashboardButtonPanelFrameMixin:OnEnter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDashboardUI/Blizzard_DelvesDashboardUI.lua#L426)
 function DelvesDashboardButtonPanelFrameMixin:OnLeave() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDashboardUI/Blizzard_DelvesDashboardUI.lua#L434)
+function DelvesThresholdBarMixin:OnEnter() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDashboardUI/Blizzard_DelvesDashboardUI.lua#L451)
+function DelvesThresholdBarMixin:OnLeave() end

@@ -50,49 +50,53 @@ AchievementMicroButton = {}
 QuestLogMicroButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L226)
+--- @class SocialsMicroButton : Button, MainMenuBarMicroButton, SocialsMicroButtonMixin
+SocialsMicroButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L238)
 --- @class GuildMicroButton : Button, MainMenuBarMicroButton, GuildMicroButtonMixin
 --- @field commandName string # "TOGGLEGUILDTAB"
 --- @field NotificationOverlay Frame
 GuildMicroButton = {}
 GuildMicroButton["commandName"] = "TOGGLEGUILDTAB"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L256)
 --- @class CollectionsMicroButton : Button, MainMenuBarMicroButton, CollectionMicroButtonMixin
 --- @field lastNumMountsNeedingFanfare number # 0
 CollectionsMicroButton = {}
 CollectionsMicroButton["lastNumMountsNeedingFanfare"] = 0
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L287)
 --- child of PVPMicroButton
 --- @class PVPMicroButton_PVPMicroButtonTexture : Texture
 PVPMicroButtonTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L277)
 --- @class PVPMicroButton : Button, MainMenuBarMicroButton
 --- @field texture PVPMicroButton_PVPMicroButtonTexture
 PVPMicroButton = {}
 PVPMicroButton["texture"] = PVPMicroButtonTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L357)
 --- @class LFGMicroButton : Button, MainMenuBarMicroButton
 LFGMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L399)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L408)
 --- @class EJMicroButton : Button, MainMenuBarMicroButton, EJMicroButtonMixin
 --- @field commandName string # "TOGGLEENCOUNTERJOURNAL"
 EJMicroButton = {}
 EJMicroButton["commandName"] = "TOGGLEENCOUNTERJOURNAL"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L432)
 --- child of MainMenuMicroButton
 --- @class MainMenuMicroButton_MainMenuBarPerformanceBar : Texture
 MainMenuBarPerformanceBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L426)
 --- @class MainMenuMicroButton : Button, MainMenuBarMicroButton
 MainMenuMicroButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L519)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L528)
 --- @class HelpMicroButton : Button, MainMenuBarMicroButton
 HelpMicroButton = {}
 

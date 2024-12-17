@@ -24,27 +24,27 @@ WardrobeTransmogClearAllPendingButtonMixin = {}
 --- @class WardrobeCollectionFrameMixin
 WardrobeCollectionFrameMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1367)
 --- @class WardrobeItemsCollectionSlotButtonMixin
 WardrobeItemsCollectionSlotButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1391)
 --- @class WardrobeItemsCollectionMixin
 WardrobeItemsCollectionMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2330)
 --- @class TransmogToggleSecondaryAppearanceCheckboxMixin
 TransmogToggleSecondaryAppearanceCheckboxMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2344)
 --- @class WardrobeItemsModelMixin
 WardrobeItemsModelMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2545)
 --- @class WardrobeCollectionFrameSearchBoxProgressMixin
 WardrobeCollectionFrameSearchBoxProgressMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2588)
 --- @class WardrobeCollectionFrameSearchBoxMixin
 WardrobeCollectionFrameSearchBoxMixin = { }
 
@@ -183,281 +183,281 @@ function WardrobeCollectionFrameMixin:ClickTab(tab) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L998)
 function WardrobeCollectionFrameMixin:SetTab(tabID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1020)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1031)
 function WardrobeCollectionFrameMixin:InitItemsFilterButton() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1081)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1092)
 function WardrobeCollectionFrameMixin:InitBaseSetsFilterButton() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1116)
 function WardrobeCollectionFrameMixin:GetActiveTab() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1124)
 function WardrobeCollectionFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1139)
 function WardrobeCollectionFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1169)
 function WardrobeCollectionFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1195)
 function WardrobeCollectionFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1214)
 function WardrobeCollectionFrameMixin:OnKeyDown(key) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1224)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1235)
 function WardrobeCollectionFrameMixin:OpenTransmogLink(link) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1242)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1253)
 function WardrobeCollectionFrameMixin:GoToItem(sourceID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1263)
 function WardrobeCollectionFrameMixin:UpdateTabButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1268)
 function WardrobeCollectionFrameMixin:SetAppearanceTooltip(contentFrame, sources, primarySourceID, warningString) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1277)
 function WardrobeCollectionFrameMixin:HideAppearanceTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1284)
 function WardrobeCollectionFrameMixin:UpdateUsableAppearances() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1291)
 function WardrobeCollectionFrameMixin:RefreshCameras() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1297)
 function WardrobeCollectionFrameMixin:GetAppearanceNameTextAndColor(appearanceInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1291)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1302)
 function WardrobeCollectionFrameMixin:GetAppearanceSourceTextAndColor(appearanceInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1306)
 function WardrobeCollectionFrameMixin:GetAppearanceItemHyperlink(appearanceInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1317)
 function WardrobeCollectionFrameMixin:UpdateProgressBar(value, max) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1323)
 function WardrobeCollectionFrameMixin:SwitchSearchCategory() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1323)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1334)
 function WardrobeCollectionFrameMixin:RestartSearchTracking() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1348)
 function WardrobeCollectionFrameMixin:SetSearch(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1346)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1357)
 function WardrobeCollectionFrameMixin:ClearSearch(searchType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1363)
 function WardrobeCollectionFrameMixin:GetSearchType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1358)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1369)
 function WardrobeItemsCollectionSlotButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1374)
 function WardrobeItemsCollectionSlotButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1398)
 function WardrobeItemsCollectionMixin:CreateSlotButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1427)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1438)
 function WardrobeItemsCollectionMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1454)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1465)
 function WardrobeItemsCollectionMixin:CheckLatestAppearance(changeTab) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1467)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1478)
 function WardrobeItemsCollectionMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1486)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1497)
 function WardrobeItemsCollectionMixin:CheckHelpTip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1508)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1519)
 function WardrobeItemsCollectionMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1557)
 function WardrobeItemsCollectionMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1565)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1576)
 function WardrobeItemsCollectionMixin:DressUpVisual(visualInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1572)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1583)
 function WardrobeItemsCollectionMixin:OnMouseWheel(delta) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1576)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1587)
 function WardrobeItemsCollectionMixin:CanHandleKey(key) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1594)
 function WardrobeItemsCollectionMixin:HandleKey(key) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1612)
 function WardrobeItemsCollectionMixin:ChangeModelsSlot(newTransmogLocation, oldTransmogLocation) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1661)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1672)
 function WardrobeItemsCollectionMixin:RefreshCameras() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1672)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1683)
 function WardrobeItemsCollectionMixin:OnUnitModelChangedEvent() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1682)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1693)
 function WardrobeItemsCollectionMixin:GetActiveSlot() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1686)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1697)
 function WardrobeItemsCollectionMixin:GetActiveCategory() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1690)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1701)
 function WardrobeItemsCollectionMixin:IsValidWeaponCategoryForSlot(categoryID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1710)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1721)
 function WardrobeItemsCollectionMixin:SetActiveSlot(transmogLocation, category, ignorePreviousSlot) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1761)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1772)
 function WardrobeItemsCollectionMixin:SetTransmogrifierAppearancesShown(hasAnyValidSlots) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1766)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1777)
 function WardrobeItemsCollectionMixin:UpdateWeaponDropdown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1822)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1833)
 function WardrobeItemsCollectionMixin:SetActiveCategory(category) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1867)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1878)
 function WardrobeItemsCollectionMixin:ResetPage() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1905)
 function WardrobeItemsCollectionMixin:FilterVisuals() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1919)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1930)
 function WardrobeItemsCollectionMixin:SortVisuals() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1945)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1956)
 function WardrobeItemsCollectionMixin:GetActiveSlotInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1949)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1960)
 function WardrobeItemsCollectionMixin:GetWeaponInfoForEnchant() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1973)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1984)
 function WardrobeItemsCollectionMixin:CanEnchantSource(sourceID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1982)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L1993)
 function WardrobeItemsCollectionMixin:GetCameraVariation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2002)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2013)
 function WardrobeItemsCollectionMixin:UpdateItems() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2154)
 function WardrobeItemsCollectionMixin:UpdateProgressBar() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2151)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2162)
 function WardrobeItemsCollectionMixin:RefreshVisualsList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2170)
 function WardrobeItemsCollectionMixin:GetFilteredVisualsList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2174)
 function WardrobeItemsCollectionMixin:GetAnAppearanceSourceFromVisual(visualID, mustBeUsable) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2189)
 function WardrobeItemsCollectionMixin:SelectVisual(visualID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2213)
 function WardrobeItemsCollectionMixin:GoToSourceID(sourceID, transmogLocation, forceGo, forTransmog, overrideCategoryID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2234)
 function WardrobeItemsCollectionMixin:SetAppearanceTooltip(frame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2241)
 function WardrobeItemsCollectionMixin:RefreshAppearanceTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2251)
 function WardrobeItemsCollectionMixin:ClearAppearanceTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2256)
 function WardrobeItemsCollectionMixin:UpdateSlotButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2295)
 function WardrobeItemsCollectionMixin:OnPageChanged(userAction) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2291)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2302)
 function WardrobeItemsCollectionMixin:OnSearchUpdate(category) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2325)
 function WardrobeItemsCollectionMixin:IsAppearanceUsableForActiveCategory(appearanceInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2332)
 function TransmogToggleSecondaryAppearanceCheckboxMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2335)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2346)
 function WardrobeItemsModelMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2343)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2354)
 function WardrobeItemsModelMixin:OnModelLoaded() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2360)
 function WardrobeItemsModelMixin:OnMouseDown(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2373)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2384)
 function WardrobeItemsModelMixin:OnMouseUp(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2420)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2431)
 function WardrobeItemsModelMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2452)
 function WardrobeItemsModelMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2447)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2458)
 function WardrobeItemsModelMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2460)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2471)
 function WardrobeItemsModelMixin:Reload(reloadSlot) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2483)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2494)
 function WardrobeItemsModelMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2500)
 function WardrobeItemsCollectionMixin:GetChosenVisualSource(visualID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2493)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2504)
 function WardrobeItemsCollectionMixin:SetChosenVisualSource(visualID, sourceID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2497)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2508)
 function WardrobeItemsCollectionMixin:ValidateChosenVisualSources() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2547)
 function WardrobeCollectionFrameSearchBoxProgressMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2545)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2556)
 function WardrobeCollectionFrameSearchBoxProgressMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2549)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2560)
 function WardrobeCollectionFrameSearchBoxProgressMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2574)
 function WardrobeCollectionFrameSearchBoxProgressMixin:ShowLoadingFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2581)
 function WardrobeCollectionFrameSearchBoxProgressMixin:ShowProgressBar() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2579)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2590)
 function WardrobeCollectionFrameSearchBoxMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2594)
 function WardrobeCollectionFrameSearchBoxMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2587)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2598)
 function WardrobeCollectionFrameSearchBoxMixin:OnKeyDown(key, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2593)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2604)
 function WardrobeCollectionFrameSearchBoxMixin:StartCheckingProgress() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2610)
 function WardrobeCollectionFrameSearchBoxMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2618)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2629)
 function WardrobeCollectionFrameSearchBoxMixin:OnTextChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2623)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.lua#L2634)
 function WardrobeCollectionFrameSearchBoxMixin:OnEnter() end

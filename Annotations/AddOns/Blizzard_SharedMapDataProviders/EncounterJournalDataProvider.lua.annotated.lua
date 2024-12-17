@@ -4,70 +4,67 @@
 --- @class EncounterJournalDataProviderMixin : MapCanvasDataProviderMixin
 EncounterJournalDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L83)
 --- @class EncounterJournalPinMixin : MapCanvasPinMixin
 EncounterJournalPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L141)
 --- @class EncounterMapTrackingPinMixin : MapCanvasPinMixin
 EncounterMapTrackingPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L7)
-function EncounterJournalDataProviderMixin:OnAdded(mapCanvas) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L13)
 function EncounterJournalDataProviderMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L14)
 function EncounterJournalDataProviderMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L21)
 function EncounterJournalDataProviderMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L25)
 function EncounterJournalDataProviderMixin:RemoveAllData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L30)
 function EncounterJournalDataProviderMixin:RefreshAllData(fromOnShow) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L46)
 function EncounterJournalDataProviderMixin:CheckForContentTracking(encounterID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L85)
 function EncounterJournalPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L90)
 function EncounterJournalPinMixin:OnAcquired(encounterID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L95)
 function EncounterJournalPinMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L115)
 function EncounterJournalPinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L129)
 function EncounterJournalPinMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L141)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L135)
 function EncounterJournalPinMixin:OnMouseClickAction() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L143)
 function EncounterMapTrackingPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L148)
 function EncounterMapTrackingPinMixin:DisableInheritedMotionScriptsWarning() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L152)
 function EncounterMapTrackingPinMixin:Init(dataProvider, trackableEncounterInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L157)
 function EncounterMapTrackingPinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L197)
 function EncounterMapTrackingPinMixin:IsSuperTracked() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L212)
 function EncounterMapTrackingPinMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L224)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/EncounterJournalDataProvider.lua#L218)
 function EncounterMapTrackingPinMixin:OnMouseClickAction(...) end

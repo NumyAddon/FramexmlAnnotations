@@ -28,11 +28,11 @@ UnitPopupGuildRecruitmentSettingButtonMixin = CreateFromMixins(UnitPopupButtonBa
 --- @class UnitPopupGuildInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L527)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L508)
 --- @class UnitPopupGlueInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGlueInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L553)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L534)
 --- @class UnitPopupGlueReportButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGlueReportButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
@@ -96,26 +96,26 @@ function UnitPopupGuildInviteButtonMixin:OnClick(contextData) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L159)
 function UnitPopupGuildInviteButtonMixin:CanShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L529)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L510)
 function UnitPopupGlueInviteButtonMixin:GetButtonName() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L514)
 function UnitPopupGlueInviteButtonMixin:GetText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L537)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L518)
 function UnitPopupGlueInviteButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L522)
 function UnitPopupGlueInviteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L547)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L528)
 function UnitPopupGlueInviteButtonMixin:IsEnabled(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L555)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L536)
 function UnitPopupGlueReportButtonMixin:GetText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L559)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L540)
 function UnitPopupGlueReportButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L571)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/WoWLabs/UnitPopupButtons.lua#L552)
 function UnitPopupGlueReportButtonMixin:OnClick(contextData) end

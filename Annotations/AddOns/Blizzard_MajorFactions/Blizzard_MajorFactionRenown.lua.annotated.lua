@@ -8,7 +8,7 @@ MajorFactionRenownMixin = {}
 --- @class MajorFactionRenownHeaderFrameMixin
 MajorFactionRenownHeaderFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L529)
 --- @class MajorFactionRenownTrackProgressBarMixin
 MajorFactionRenownTrackProgressBarMixin = {}
 
@@ -72,11 +72,11 @@ function MajorFactionRenownMixin:CheckTutorials() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L507)
 function MajorFactionRenownHeaderFrameMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L524)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L525)
 function MajorFactionRenownHeaderFrameMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L530)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L531)
 function MajorFactionRenownTrackProgressBarMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.lua#L535)
 function MajorFactionRenownTrackProgressBarMixin:RefreshBar() end

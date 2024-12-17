@@ -53,7 +53,37 @@
 --- @field SelectedTexture Texture
 --- @field HighlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L220)
+--- child of PerksProgramProductButtonTemplate_ContentsContainer_DiscountContainer
+--- @class PerksProgramProductButtonTemplate_ContentsContainer_DiscountContainer_Background : Texture, store-corner-discount-middle
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L226)
+--- child of PerksProgramProductButtonTemplate_ContentsContainer_DiscountContainer
+--- @class PerksProgramProductButtonTemplate_ContentsContainer_DiscountContainer_Text : FontString, GameFontHighlightSmall2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L213)
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
+--- @class PerksProgramProductButtonTemplate_ContentsContainer_DiscountContainer : Frame
+--- @field Background PerksProgramProductButtonTemplate_ContentsContainer_DiscountContainer_Background
+--- @field Text PerksProgramProductButtonTemplate_ContentsContainer_DiscountContainer_Text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L244)
+--- child of PerksProgramProductButtonTemplate_ContentsContainer_PriceContainer
+--- @class PerksProgramProductButtonTemplate_ContentsContainer_PriceContainer_SalePrice : FontString, GameFontNormalMed3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L250)
+--- child of PerksProgramProductButtonTemplate_ContentsContainer_PriceContainer
+--- @class PerksProgramProductButtonTemplate_ContentsContainer_PriceContainer_Price : FontString, GameFontNormalMed3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L234)
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
+--- @class PerksProgramProductButtonTemplate_ContentsContainer_PriceContainer : Frame, ResizeLayoutFrame
+--- @field fixedWidth number # 44
+--- @field SalePrice PerksProgramProductButtonTemplate_ContentsContainer_PriceContainer_SalePrice
+--- @field Price PerksProgramProductButtonTemplate_ContentsContainer_PriceContainer_Price
+--- @field PriceStrikethrough Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L266)
 --- child of PerksProgramProductButtonTemplate_ContentsContainer
 --- @class PerksProgramProductButtonTemplate_ContentsContainer_PurchasePendingSpinner : Frame, SpinnerTemplate, PerksProgramPurchasePendingSpinnerMixin
 
@@ -61,34 +91,15 @@
 --- child of PerksProgramProductButtonTemplate_ContentsContainer
 --- @class PerksProgramProductButtonTemplate_ContentsContainer_Label : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L210)
---- child of PerksProgramProductButtonTemplate_ContentsContainer
---- @class PerksProgramProductButtonTemplate_ContentsContainer_Price : FontString, GameFontNormalMed3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L217)
---- child of PerksProgramProductButtonTemplate_ContentsContainer
---- @class PerksProgramProductButtonTemplate_ContentsContainer_RefundIcon : Texture, PerksRefundIconTooltipMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L232)
---- child of PerksProgramProductButtonTemplate_ContentsContainer
---- @class PerksProgramProductButtonTemplate_ContentsContainer_TimeRemaining : FontString, GameFontNormalMed3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L241)
---- child of PerksProgramProductButtonTemplate_ContentsContainer
---- @class PerksProgramProductButtonTemplate_ContentsContainer_NewItems : Texture, store-icon-new
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L180)
 --- child of PerksProgramProductButtonTemplate
 --- @class PerksProgramProductButtonTemplate_ContentsContainer : Frame
+--- @field DiscountContainer PerksProgramProductButtonTemplate_ContentsContainer_DiscountContainer
+--- @field PriceContainer PerksProgramProductButtonTemplate_ContentsContainer_PriceContainer
 --- @field PurchasePendingSpinner PerksProgramProductButtonTemplate_ContentsContainer_PurchasePendingSpinner
 --- @field Icon Texture
 --- @field IconMask MaskTexture
 --- @field Label PerksProgramProductButtonTemplate_ContentsContainer_Label
---- @field Price PerksProgramProductButtonTemplate_ContentsContainer_Price
---- @field RefundIcon PerksProgramProductButtonTemplate_ContentsContainer_RefundIcon
---- @field PurchasedIcon Texture
---- @field TimeRemaining PerksProgramProductButtonTemplate_ContentsContainer_TimeRemaining
---- @field NewItems PerksProgramProductButtonTemplate_ContentsContainer_NewItems
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L153)
 --- Template
@@ -97,24 +108,24 @@
 --- @field ArtContainer PerksProgramProductButtonTemplate_ArtContainer
 --- @field ContentsContainer PerksProgramProductButtonTemplate_ContentsContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L334)
 --- child of PerksProgramFrozenProductButtonTemplate_FrozenContentContainer
 --- @class PerksProgramFrozenProductButtonTemplate_FrozenContentContainer_InstructionsText : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L331)
 --- child of PerksProgramFrozenProductButtonTemplate
 --- @class PerksProgramFrozenProductButtonTemplate_FrozenContentContainer : Frame
 --- @field InstructionsText PerksProgramFrozenProductButtonTemplate_FrozenContentContainer_InstructionsText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L350)
 --- child of PerksProgramFrozenProductButtonTemplate_FrozenArtContainer
 --- @class PerksProgramFrozenProductButtonTemplate_FrozenArtContainer_CancelledFreezeAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L355)
 --- child of PerksProgramFrozenProductButtonTemplate_FrozenArtContainer
 --- @class PerksProgramFrozenProductButtonTemplate_FrozenArtContainer_ConfirmedFreezeAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L344)
 --- child of PerksProgramFrozenProductButtonTemplate
 --- @class PerksProgramFrozenProductButtonTemplate_FrozenArtContainer : Frame
 --- @field FrozenSlot Texture
@@ -137,48 +148,48 @@
 --- @field CancelledFreezeAnim PerksProgramFrozenProductButtonTemplate_FrozenArtContainer_CancelledFreezeAnim
 --- @field ConfirmedFreezeAnim PerksProgramFrozenProductButtonTemplate_FrozenArtContainer_ConfirmedFreezeAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L329)
 --- Template
 --- @class PerksProgramFrozenProductButtonTemplate : Button, PerksProgramProductButtonTemplate, PerksProgramFrozenProductButtonMixin
 --- @field FrozenContentContainer PerksProgramFrozenProductButtonTemplate_FrozenContentContainer
 --- @field FrozenArtContainer PerksProgramFrozenProductButtonTemplate_FrozenArtContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L434)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L490)
 --- child of PerksProgramProductHeaderTemplate
 --- @class PerksProgramProductHeaderTemplate_Text : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L430)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L486)
 --- Template
 --- @class PerksProgramProductHeaderTemplate : Frame
 --- @field Text PerksProgramProductHeaderTemplate_Text
 --- @field BarTexture Texture
 --- @field BarMask MaskTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L459)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L515)
 --- Template
 --- @class PerksProgramButtonTemplate : Button, SharedButtonLargeTemplate, PerksProgramButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L471)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L527)
 --- child of PerksProgramDetailsFrameTemplate
 --- @class PerksProgramDetailsFrameTemplate_CategoryText : FontString, GameFontNormalMed3
 --- @field layoutIndex number # 10
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L480)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L536)
 --- child of PerksProgramDetailsFrameTemplate
 --- @class PerksProgramDetailsFrameTemplate_ProductNameText : FontString, SystemFont_Huge2
 --- @field layoutIndex number # 20
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L545)
 --- child of PerksProgramDetailsFrameTemplate
 --- @class PerksProgramDetailsFrameTemplate_DescriptionText : FontString, GameFontNormalMed3
 --- @field layoutIndex number # 30
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L498)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L554)
 --- child of PerksProgramDetailsFrameTemplate
 --- @class PerksProgramDetailsFrameTemplate_TimeRemaining : FontString, GameFontNormalMed3
 --- @field layoutIndex number # 40
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L524)
 --- Template
 --- @class PerksProgramDetailsFrameTemplate : Frame, VerticalLayoutFrame, PerksProgramProductDetailsFrameMixin
 --- @field CategoryText PerksProgramDetailsFrameTemplate_CategoryText
@@ -186,35 +197,35 @@
 --- @field DescriptionText PerksProgramDetailsFrameTemplate_DescriptionText
 --- @field TimeRemaining PerksProgramDetailsFrameTemplate_TimeRemaining
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L574)
 --- child of PerksProgramToyDetailsFrameTemplate
 --- @class PerksProgramToyDetailsFrameTemplate_ProductNameText : FontString, SystemFont_Huge2
 --- @field layoutIndex number # 20
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L530)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L586)
 --- child of PerksProgramToyDetailsFrameTemplate
 --- @class PerksProgramToyDetailsFrameTemplate_DescriptionText : FontString, GameFontNormalMed3
 --- @field layoutIndex number # 30
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L514)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L570)
 --- Template
 --- @class PerksProgramToyDetailsFrameTemplate : Frame, PerksProgramToyDetailsFrameMixin
 --- @field ProductNameText PerksProgramToyDetailsFrameTemplate_ProductNameText
 --- @field DescriptionText PerksProgramToyDetailsFrameTemplate_DescriptionText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L574)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L630)
 --- child of PerksProgramDetailsFrameScrollButtonTemplate
 --- @class PerksProgramDetailsFrameScrollButtonTemplate_ItemSlotLeft : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L580)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L636)
 --- child of PerksProgramDetailsFrameScrollButtonTemplate
 --- @class PerksProgramDetailsFrameScrollButtonTemplate_ItemSlotRight : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L587)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L643)
 --- child of PerksProgramDetailsFrameScrollButtonTemplate
 --- @class PerksProgramDetailsFrameScrollButtonTemplate_ItemName : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L550)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L606)
 --- Template
 --- @class PerksProgramDetailsFrameScrollButtonTemplate : Button, PerksProgramSetDetailsItemMixin
 --- @field BackgroundTexture Texture
@@ -227,7 +238,7 @@
 --- @field ItemName PerksProgramDetailsFrameScrollButtonTemplate_ItemName
 --- @field IconOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L610)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L666)
 --- Template
 --- @class PerksModelSceneControlButtonTemplate : Button, PerksModelSceneControlButtonMixin
 --- @field Icon Texture

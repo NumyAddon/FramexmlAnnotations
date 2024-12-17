@@ -60,62 +60,62 @@ function AuctionHouseItemListMixin:SetLineTemplate(lineTemplate, ...) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L126)
 function AuctionHouseItemListMixin:SetCustomError(errorText) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L132)
 function AuctionHouseItemListMixin:Init() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L194)
 function AuctionHouseItemListMixin:SetLineOnEnterCallback(callback) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L198)
 function AuctionHouseItemListMixin:OnEnterListLine(line, rowData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L204)
 function AuctionHouseItemListMixin:SetLineOnLeaveCallback(callback) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L208)
 function AuctionHouseItemListMixin:OnLeaveListLine(line, rowData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L214)
 function AuctionHouseItemListMixin:SetSelectedEntry(rowData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L225)
 function AuctionHouseItemListMixin:GetSelectedEntry() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L229)
 function AuctionHouseItemListMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L242)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L239)
 function AuctionHouseItemListMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L248)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L245)
 function AuctionHouseItemListMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L253)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L250)
 function AuctionHouseItemListMixin:SetState(state) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L279)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L276)
 function AuctionHouseItemListMixin:SetSelectedEntryByCondition(condition, scrollTo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L295)
 function AuctionHouseItemListMixin:ScrollToEntryIndex(entryIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L302)
 function AuctionHouseItemListMixin:GetScrollBoxDataIndexBegin() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L309)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L306)
 function AuctionHouseItemListMixin:UpdateRefreshFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L325)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L322)
 function AuctionHouseItemListMixin:DirtyScrollFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L329)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L326)
 function AuctionHouseItemListMixin:RefreshScrollFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L360)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L357)
 function AuctionHouseItemListMixin:CallRefreshCallback() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L364)
 function AuctionHouseItemListMixin:OnScrollBoxScroll(scrollPercentage, visibleExtentPercentage, panExtentPercentage) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemList.lua#L368)
 function AuctionHouseItemListMixin:GetHeaderContainer() end

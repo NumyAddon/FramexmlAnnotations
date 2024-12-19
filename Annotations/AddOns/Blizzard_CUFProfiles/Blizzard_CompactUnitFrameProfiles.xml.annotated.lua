@@ -65,7 +65,7 @@ CompactUnitFrameProfilesSaveButton["fitTextCanWidthDecrease"] = true -- inherite
 CompactUnitFrameProfilesDeleteButton = {}
 CompactUnitFrameProfilesDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L476)
 --- child of CompactUnitFrameProfilesRaidStylePartyFrames (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 CompactUnitFrameProfilesRaidStylePartyFramesText = {}
@@ -343,7 +343,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderLow = {}
 --- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderHigh = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1131)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider (created in template HorizontalSliderTemplate)
 --- @type Texture
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderThumb = {}
@@ -373,7 +373,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderLow = {}
 --- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderHigh = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1131)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider (created in template HorizontalSliderTemplate)
 --- @type Texture
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderThumb = {}

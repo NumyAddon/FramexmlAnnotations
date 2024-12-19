@@ -732,7 +732,7 @@ CharacterCreateNameEdit = {}
 CharacterCreateNameEdit["layoutType"] = "TooltipGluesLayout"
 CharacterCreateNameEdit["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L476)
 --- child of CharacterCreateSelfFound (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 CharacterCreateSelfFoundText = {}

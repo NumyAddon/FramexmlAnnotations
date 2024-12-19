@@ -55,7 +55,7 @@ TimeManagerAlarmMessageLabel = {}
 --- @class TimeManagerFrame_TimeManagerAlarmMessageFrame : Frame
 TimeManagerAlarmMessageFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L476)
 --- child of TimeManagerAlarmEnabledButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TimeManagerAlarmEnabledButtonText = {}
@@ -66,7 +66,7 @@ TimeManagerAlarmEnabledButtonText = {}
 TimeManagerAlarmEnabledButton = {}
 TimeManagerAlarmEnabledButton["Text"] = TimeManagerAlarmEnabledButtonText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L476)
 --- child of TimeManagerMilitaryTimeCheck (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TimeManagerMilitaryTimeCheckText = {}
@@ -77,7 +77,7 @@ TimeManagerMilitaryTimeCheckText = {}
 TimeManagerMilitaryTimeCheck = {}
 TimeManagerMilitaryTimeCheck["Text"] = TimeManagerMilitaryTimeCheckText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L476)
 --- child of TimeManagerLocalTimeCheck (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TimeManagerLocalTimeCheckText = {}
@@ -98,52 +98,52 @@ TimeManagerGlobe = {}
 --- @class TimeManagerFrame_TimeManagerFrameTicker : FontString, GameFontHighlightLarge
 TimeManagerFrameTicker = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L802)
 --- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 TimeManagerFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L804)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L810)
 --- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
 TimeManagerFrameInsetInsetTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L809)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L815)
 --- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
 TimeManagerFrameInsetInsetTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L815)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L821)
 --- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
 TimeManagerFrameInsetInsetBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L821)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L827)
 --- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
 TimeManagerFrameInsetInsetBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L827)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L833)
 --- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
 TimeManagerFrameInsetInsetTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L833)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L839)
 --- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
 TimeManagerFrameInsetInsetBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L839)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L845)
 --- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
 TimeManagerFrameInsetInsetLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L845)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L851)
 --- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 TimeManagerFrameInsetInsetRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L888)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L894)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 TimeManagerFrameInset = {}
@@ -157,92 +157,92 @@ TimeManagerFrameInset["InsetBorderBottom"] = TimeManagerFrameInsetInsetBottomBor
 TimeManagerFrameInset["InsetBorderLeft"] = TimeManagerFrameInsetInsetLeftBorder -- inherited
 TimeManagerFrameInset["InsetBorderRight"] = TimeManagerFrameInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L869)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L875)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
 TimeManagerFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L874)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L880)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
 TimeManagerFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L879)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L885)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 TimeManagerFrameButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L657)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L663)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 TimeManagerFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L569)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 TimeManagerFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L575)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
 TimeManagerFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L583)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 TimeManagerFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L591)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
 TimeManagerFramePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L596)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
 TimeManagerFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L601)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
 TimeManagerFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L606)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
 TimeManagerFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L612)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
 TimeManagerFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L621)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
 TimeManagerFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L627)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
 TimeManagerFrameBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L632)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
 TimeManagerFrameBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L637)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
 TimeManagerFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L637)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L643)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
 TimeManagerFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L649)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
 TimeManagerFrameRightBorder = {}
@@ -268,6 +268,7 @@ TimeManagerFrame["BotRightCorner"] = TimeManagerFrameBotRightCorner -- inherited
 TimeManagerFrame["BottomBorder"] = TimeManagerFrameBottomBorder -- inherited
 TimeManagerFrame["LeftBorder"] = TimeManagerFrameLeftBorder -- inherited
 TimeManagerFrame["RightBorder"] = TimeManagerFrameRightBorder -- inherited
+TimeManagerFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L193)
 --- child of TimeManagerClockButton

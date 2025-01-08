@@ -21,8 +21,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L3)
 --- Template
 --- @class PartyPoseRewardsButtonTemplate : Button, PartyPoseRewardsMixin
---- @field NameFrame Texture
 --- @field Icon Texture
+--- @field NameFrame Texture
 --- @field IconOverlay Texture
 --- @field IconBorder Texture
 --- @field Name PartyPoseRewardsButtonTemplate_Name

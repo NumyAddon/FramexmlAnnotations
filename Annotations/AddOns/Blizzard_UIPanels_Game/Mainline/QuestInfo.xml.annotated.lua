@@ -585,17 +585,17 @@ MapQuestInfoRewardsFrameIconTexture = {}
 --- @field RewardButtons table<number, MapQuestInfoRewardsFrame_MapQuestInfoRewardsFrameQuestInfoItem1>
 MapQuestInfoRewardsFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L754)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L750)
 --- child of QuestInfoFrame
 --- @class QuestInfoFrame_QuestInfoSpacerFrame : Frame
 QuestInfoSpacerFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L761)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L757)
 --- child of QuestInfoSealFrame
 --- @class QuestInfoFrame_QuestInfoSealFrame_Text : FontString, QuestFont_Huge, AutoScalingFontStringMixin
 --- @field minLineHeight number # 12
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L757)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L753)
 --- child of QuestInfoFrame
 --- @class QuestInfoFrame_QuestInfoSealFrame : Frame
 --- @field Text QuestInfoFrame_QuestInfoSealFrame_Text
@@ -651,11 +651,6 @@ QuestInfoObjectivesHeader = {}
 --- child of QuestInfoFrame
 --- @class QuestInfoFrame_QuestInfoDescriptionText : FontString, QuestFont
 QuestInfoDescriptionText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L747)
---- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoAccountCompletedNotice : FontString, SystemFont_Small2
-QuestInfoAccountCompletedNotice = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L719)
 --- @class QuestInfoFrame : Frame

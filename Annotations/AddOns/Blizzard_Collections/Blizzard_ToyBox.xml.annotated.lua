@@ -8,12 +8,12 @@
 --- child of ToyBox
 --- @class ToyBox_progressBar : StatusBar, CollectionsProgressBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L1504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L1516)
 --- child of ToyBox_searchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 ToyBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L1495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L1507)
 --- child of ToyBox_searchBox (created in template SearchBoxTemplate)
 --- @type Texture
 ToyBoxSearchIcon = {}
@@ -27,75 +27,75 @@ ToyBoxSearchIcon = {}
 --- @class ToyBox_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 --- @field resizeToText boolean # false
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L50)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton1 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L55)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton2 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L60)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton3 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L65)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton4 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L70)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton5 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L75)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton6 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L80)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton7 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L85)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton8 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L90)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton9 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L95)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton10 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L100)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton11 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L105)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton12 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L110)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton13 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L115)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton14 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L120)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton15 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L125)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton16 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L139)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L130)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton17 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L135)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton18 : CheckButton, ToySpellButtonTemplate
 
@@ -120,9 +120,8 @@ ToyBoxSearchIcon = {}
 --- @field spellButton16 ToyBox_iconsFrame_spellButton16
 --- @field spellButton17 ToyBox_iconsFrame_spellButton17
 --- @field spellButton18 ToyBox_iconsFrame_spellButton18
---- @field watermark Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_ToyBox.xml#L144)
 --- child of ToyBox
 --- @class ToyBox_PagingFrame : Frame, CollectionsPagingFrameTemplate
 

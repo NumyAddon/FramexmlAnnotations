@@ -207,12 +207,12 @@ PVEFrameTopFiligree = {}
 --- @class PVEFrame_PVEFrameBottomFiligree : Texture
 PVEFrameBottomFiligree = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L1107)
 --- child of PVEFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 PVEFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L1074)
 --- child of PVEFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 PVEFrameBg = {}
@@ -235,4 +235,14 @@ PVEFrame["tab4"] = PVEFrameTab4
 PVEFrame["CloseButton"] = PVEFrameCloseButton -- inherited
 PVEFrame["Bg"] = PVEFrameBg -- inherited
 PVEFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L283)
+--- child of PlunderstormQueueTutorialFrame
+--- @class PlunderstormQueueTutorialFrame_NewText : Frame, NewFeatureLabelNoAnimateTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L271)
+--- @class PlunderstormQueueTutorialFrame : Frame, PlunderstormQueueTutorialMixin
+--- @field NewText PlunderstormQueueTutorialFrame_NewText
+--- @field BadgeTexture Texture
+PlunderstormQueueTutorialFrame = {}
 

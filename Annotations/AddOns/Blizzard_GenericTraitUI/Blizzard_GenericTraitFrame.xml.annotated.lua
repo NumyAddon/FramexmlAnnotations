@@ -20,21 +20,21 @@
 --- @field Title GenericTraitFrame_Header_Title
 --- @field TitleDivider Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L91)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_Inset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L115)
 --- child of GenericTraitFrame_Currency
 --- @class GenericTraitFrame_Currency_UnspentPointsCount : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L97)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_Currency : Button, GenericTraitFrameCurrencyFrameMixin
 --- @field CurrencyBackground Texture
 --- @field UnspentPointsCount GenericTraitFrame_Currency_UnspentPointsCount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L125)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 

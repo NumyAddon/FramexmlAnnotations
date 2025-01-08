@@ -187,22 +187,7 @@ PlayerLevelText = {}
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerPlayTime : Frame
 --- @field PlayTimeIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L428)
---- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator_PlayerFrameGroupIndicatorLeft : Texture
-PlayerFrameGroupIndicatorLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L435)
---- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator_PlayerFrameGroupIndicatorRight : Texture
-PlayerFrameGroupIndicatorRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L442)
---- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator_PlayerFrameGroupIndicatorMiddle : Texture
-PlayerFrameGroupIndicatorMiddle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L450)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L444)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator_PlayerFrameGroupIndicatorText : FontString, GameFontHighlightSmall
 PlayerFrameGroupIndicatorText = {}
@@ -210,6 +195,8 @@ PlayerFrameGroupIndicatorText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L421)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator : Frame
+--- @field GroupIndicatorLeft Texture
+--- @field GroupIndicatorRight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L363)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
@@ -249,23 +236,23 @@ PlayerFrame["disablePortraitMask"] = true
 PlayerFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Player -- inherited
 PlayerFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L481)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L467)
 --- Template
 --- @class PlayerFrameBottomManagedFrameTemplate : Frame, UIParentManagedFrameTemplate
 --- @field layoutParent any # PlayerFrameBottomManagedFramesContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L496)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L482)
 --- child of PlayerFrameManagedContainerTemplate
 --- @class PlayerFrameManagedContainerTemplate_BottomManagedLayoutContainer : Frame, HorizontalLayoutFrame
 --- @field layoutIndex number # 500
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L475)
 --- Template
 --- @class PlayerFrameManagedContainerTemplate : Frame, VerticalLayoutFrame, UIParentManagedFrameContainerMixin
 --- @field spacing number # 2
 --- @field BottomManagedLayoutContainer PlayerFrameManagedContainerTemplate_BottomManagedLayoutContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L496)
 --- @class PlayerFrameBottomManagedFramesContainer : Frame, PlayerFrameManagedContainerTemplate, PlayerFrameBottomManagedFramesContainerMixin
 --- @field fixedWidth number # 160
 PlayerFrameBottomManagedFramesContainer = {}

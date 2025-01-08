@@ -4,7 +4,7 @@
 --- @class PartyMemberFrameMixin : PartyMemberAuraMixin
 PartyMemberFrameMixin=CreateFromMixins(PartyMemberAuraMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L763)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L766)
 --- @class PartyMemberPetFrameMixin : PartyMemberAuraMixin
 PartyMemberPetFrameMixin=CreateFromMixins(PartyMemberAuraMixin)
 
@@ -12,19 +12,11 @@ PartyMemberPetFrameMixin=CreateFromMixins(PartyMemberAuraMixin)
 --- @class PartyMemberAuraMixin
 PartyMemberAuraMixin={}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L793)
---- @class PartyBuffFrameMixin
-PartyBuffFrameMixin={}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L815)
---- @class PartyDebuffFrameMixin
-PartyDebuffFrameMixin = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L844)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L796)
 --- @class PartyAuraFrameMixin
 PartyAuraFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L909)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L861)
 --- @class ResurrectableIndicatorMixin
 ResurrectableIndicatorMixin = {}
 
@@ -46,131 +38,107 @@ function PartyMemberFrameMixin:UpdateArt() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L164)
 function PartyMemberFrameMixin:ToPlayerArt() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L215)
 function PartyMemberFrameMixin:ToVehicleArt() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L252)
 function PartyMemberFrameMixin:UpdateHealthBarTextAnchors() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L271)
 function PartyMemberFrameMixin:UpdateManaBarTextAnchors() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L289)
 function PartyMemberFrameMixin:UpdateNameTextAnchors() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L302)
 function PartyMemberFrameMixin:Setup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L394)
 function PartyMemberFrameMixin:UpdateVoiceActivityNotification() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L402)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L405)
 function PartyMemberFrameMixin:VoiceActivityNotificationCreatedCallback(notification) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L409)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L412)
 function PartyMemberFrameMixin:UpdateMember() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L452)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L455)
 function PartyMemberFrameMixin:UpdatePet() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L468)
 function PartyMemberFrameMixin:UpdateMemberHealth(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L487)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L490)
 function PartyMemberFrameMixin:UpdateLeader() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L505)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L508)
 function PartyMemberFrameMixin:UpdatePvPStatus() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L520)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L523)
 function PartyMemberFrameMixin:UpdateAssignedRoles() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L538)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L541)
 function PartyMemberFrameMixin:UpdateReadyCheck() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L557)
 function PartyMemberFrameMixin:UpdateNotPresentIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L604)
 function PartyMemberFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L687)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L690)
 function PartyMemberFrameMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L696)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L699)
 function PartyMemberFrameMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L705)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L708)
 function PartyMemberFrameMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L709)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L712)
 function PartyMemberFrameMixin:UpdateOnlineStatus() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L728)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L731)
 function PartyMemberFrameMixin:UpdateAuras(unitAuraUpdateInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L732)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L735)
 function PartyMemberFrameMixin:PartyMemberHealthCheck(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L765)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L768)
 function PartyMemberPetFrameMixin:UpdateAuras(unitAuraUpdateInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L769)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L772)
 function PartyMemberPetFrameMixin:Setup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L780)
 function PartyMemberPetFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L781)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L784)
 function PartyMemberPetFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L785)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L788)
 function PartyMemberPetFrameMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L789)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L792)
 function PartyMemberPetFrameMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L795)
-function PartyBuffFrameMixin:Setup(unit, index) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L800)
-function PartyBuffFrameMixin:OnUpdate() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L806)
-function PartyBuffFrameMixin:OnEnter() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L811)
-function PartyBuffFrameMixin:OnLeave() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L816)
-function PartyDebuffFrameMixin:Setup(unit, index) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L821)
-function PartyDebuffFrameMixin:OnUpdate() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L831)
-function PartyDebuffFrameMixin:OnEnter() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L840)
-function PartyDebuffFrameMixin:OnLeave() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L845)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L797)
 function PartyAuraFrameMixin:Setup(unit, aura, isBuff) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L884)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L836)
 function PartyAuraFrameMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L890)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L842)
 function PartyAuraFrameMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L895)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L847)
 function PartyAuraFrameMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L899)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L851)
 function PartyAuraFrameMixin:UpdateTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L910)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L862)
 function ResurrectableIndicatorMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L916)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyMemberFrame.lua#L868)
 function ResurrectableIndicatorMixin:OnLeave() end

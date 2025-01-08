@@ -4,61 +4,61 @@
 --- @class AlertFrameSystemsRegistrar : Frame
 AlertFrameSystemsRegistrar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L9)
 --- Template
 --- Adds itself to the parent inside the array `RewardFrames`
 --- @class DungeonCompletionAlertFrameRewardTemplate : Button
 --- @field texture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L32)
 --- Template
 --- @class InvasionAlertFrameRewardTemplate : Button, DungeonCompletionAlertFrameRewardTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L38)
 --- Template
 --- @class WorldQuestFrameRewardTemplate : Button, DungeonCompletionAlertFrameRewardTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L139)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L140)
 --- child of DungeonCompletionAlertFrameTemplate_glowFrame_glow
 --- @class DungeonCompletionAlertFrameTemplate_glowFrame_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L134)
 --- child of DungeonCompletionAlertFrameTemplate_glowFrame
 --- @class DungeonCompletionAlertFrameTemplate_glowFrame_glow : Texture
 --- @field animIn DungeonCompletionAlertFrameTemplate_glowFrame_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L131)
 --- child of DungeonCompletionAlertFrameTemplate
 --- @class DungeonCompletionAlertFrameTemplate_glowFrame : Frame
 --- @field glow DungeonCompletionAlertFrameTemplate_glowFrame_glow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L88)
 --- child of DungeonCompletionAlertFrameTemplate
 --- @class DungeonCompletionAlertFrameTemplate_completionText : FontString, GameFontWhiteTiny
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L94)
 --- child of DungeonCompletionAlertFrameTemplate
 --- @class DungeonCompletionAlertFrameTemplate_instanceName : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L115)
 --- child of DungeonCompletionAlertFrameTemplate_shine
 --- @class DungeonCompletionAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L109)
 --- child of DungeonCompletionAlertFrameTemplate
 --- @class DungeonCompletionAlertFrameTemplate_shine : Texture
 --- @field animIn DungeonCompletionAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L50)
 --- child of DungeonCompletionAlertFrameTemplate
 --- @class DungeonCompletionAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L54)
 --- child of DungeonCompletionAlertFrameTemplate
 --- @class DungeonCompletionAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L44)
 --- Template
 --- @class DungeonCompletionAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field glowFrame DungeonCompletionAlertFrameTemplate_glowFrame
@@ -72,63 +72,63 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn DungeonCompletionAlertFrameTemplate_animIn
 --- @field waitAndAnimOut DungeonCompletionAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L261)
 --- child of AchievementAlertFrameTemplate
 --- @class AchievementAlertFrameTemplate_Icon : Frame
 --- @field Bling Texture
 --- @field Texture Texture
 --- @field Overlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L305)
 --- child of AchievementAlertFrameTemplate_Shield
 --- @class AchievementAlertFrameTemplate_Shield_Points : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L291)
 --- child of AchievementAlertFrameTemplate
 --- @class AchievementAlertFrameTemplate_Shield : Frame
 --- @field Icon Texture
 --- @field Points AchievementAlertFrameTemplate_Shield_Points
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L190)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L191)
 --- child of AchievementAlertFrameTemplate
 --- @class AchievementAlertFrameTemplate_Unlocked : FontString, GameFontBlackTiny
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L196)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L197)
 --- child of AchievementAlertFrameTemplate
 --- @class AchievementAlertFrameTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L203)
 --- child of AchievementAlertFrameTemplate
 --- @class AchievementAlertFrameTemplate_GuildName : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L230)
 --- child of AchievementAlertFrameTemplate_glow
 --- @class AchievementAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L224)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L225)
 --- child of AchievementAlertFrameTemplate
 --- @class AchievementAlertFrameTemplate_glow : Texture
 --- @field animIn AchievementAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L246)
 --- child of AchievementAlertFrameTemplate_shine
 --- @class AchievementAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L241)
 --- child of AchievementAlertFrameTemplate
 --- @class AchievementAlertFrameTemplate_shine : Texture
 --- @field animIn AchievementAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L170)
 --- child of AchievementAlertFrameTemplate
 --- @class AchievementAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L174)
 --- child of AchievementAlertFrameTemplate
 --- @class AchievementAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L164)
 --- Template
 --- @class AchievementAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Icon AchievementAlertFrameTemplate_Icon
@@ -144,49 +144,49 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn AchievementAlertFrameTemplate_animIn
 --- @field waitAndAnimOut AchievementAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L398)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L399)
 --- child of CriteriaAlertFrameTemplate
 --- @class CriteriaAlertFrameTemplate_Icon : Frame
 --- @field Bling Texture
 --- @field Texture Texture
 --- @field Overlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L349)
 --- child of CriteriaAlertFrameTemplate
 --- @class CriteriaAlertFrameTemplate_Unlocked : FontString, GameFontBlackTiny
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L355)
 --- child of CriteriaAlertFrameTemplate
 --- @class CriteriaAlertFrameTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L368)
 --- child of CriteriaAlertFrameTemplate_glow
 --- @class CriteriaAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L362)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L363)
 --- child of CriteriaAlertFrameTemplate
 --- @class CriteriaAlertFrameTemplate_glow : Texture
 --- @field animIn CriteriaAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L383)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L384)
 --- child of CriteriaAlertFrameTemplate_shine
 --- @class CriteriaAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L379)
 --- child of CriteriaAlertFrameTemplate
 --- @class CriteriaAlertFrameTemplate_shine : Texture
 --- @field animIn CriteriaAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L328)
 --- child of CriteriaAlertFrameTemplate
 --- @class CriteriaAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L332)
 --- child of CriteriaAlertFrameTemplate
 --- @class CriteriaAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L322)
 --- Template
 --- @class CriteriaAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Icon CriteriaAlertFrameTemplate_Icon
@@ -198,42 +198,42 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn CriteriaAlertFrameTemplate_animIn
 --- @field waitAndAnimOut CriteriaAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L492)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L493)
 --- child of GuildChallengeAlertFrameTemplate
 --- @class GuildChallengeAlertFrameTemplate_Type : FontString, GameFontWhiteTiny
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L497)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L498)
 --- child of GuildChallengeAlertFrameTemplate
 --- @class GuildChallengeAlertFrameTemplate_Count : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L511)
 --- child of GuildChallengeAlertFrameTemplate_glow
 --- @class GuildChallengeAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L505)
 --- child of GuildChallengeAlertFrameTemplate
 --- @class GuildChallengeAlertFrameTemplate_glow : Texture
 --- @field animIn GuildChallengeAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L529)
 --- child of GuildChallengeAlertFrameTemplate_shine
 --- @class GuildChallengeAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L523)
 --- child of GuildChallengeAlertFrameTemplate
 --- @class GuildChallengeAlertFrameTemplate_shine : Texture
 --- @field animIn GuildChallengeAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L440)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L441)
 --- child of GuildChallengeAlertFrameTemplate
 --- @class GuildChallengeAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L444)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L445)
 --- child of GuildChallengeAlertFrameTemplate
 --- @class GuildChallengeAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L434)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L435)
 --- Template
 --- @class GuildChallengeAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field EmblemBackground Texture
@@ -246,20 +246,20 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn GuildChallengeAlertFrameTemplate_animIn
 --- @field waitAndAnimOut GuildChallengeAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L592)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L593)
 --- child of ScenarioLegionInvasionAlertFrameTemplate
 --- @class ScenarioLegionInvasionAlertFrameTemplate_ZoneName : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L555)
 --- child of ScenarioLegionInvasionAlertFrameTemplate
 --- @class ScenarioLegionInvasionAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L558)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L559)
 --- child of ScenarioLegionInvasionAlertFrameTemplate
 --- @class ScenarioLegionInvasionAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L549)
 --- Template
 --- @class ScenarioLegionInvasionAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field ZoneName ScenarioLegionInvasionAlertFrameTemplate_ZoneName
@@ -267,43 +267,43 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn ScenarioLegionInvasionAlertFrameTemplate_animIn
 --- @field waitAndAnimOut ScenarioLegionInvasionAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L694)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L695)
 --- child of ScenarioAlertFrameTemplate_glowFrame_glow
 --- @class ScenarioAlertFrameTemplate_glowFrame_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L692)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L693)
 --- child of ScenarioAlertFrameTemplate_glowFrame
 --- @class ScenarioAlertFrameTemplate_glowFrame_glow : Texture
 --- @field animIn ScenarioAlertFrameTemplate_glowFrame_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L689)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L690)
 --- child of ScenarioAlertFrameTemplate
 --- @class ScenarioAlertFrameTemplate_glowFrame : Frame
 --- @field glow ScenarioAlertFrameTemplate_glowFrame_glow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L654)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L655)
 --- child of ScenarioAlertFrameTemplate
 --- @class ScenarioAlertFrameTemplate_dungeonName : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L673)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L674)
 --- child of ScenarioAlertFrameTemplate_shine
 --- @class ScenarioAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L667)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L668)
 --- child of ScenarioAlertFrameTemplate
 --- @class ScenarioAlertFrameTemplate_shine : Texture
 --- @field animIn ScenarioAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L613)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L614)
 --- child of ScenarioAlertFrameTemplate
 --- @class ScenarioAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L617)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L618)
 --- child of ScenarioAlertFrameTemplate
 --- @class ScenarioAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L608)
 --- Template
 --- @class ScenarioAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field glowFrame ScenarioAlertFrameTemplate_glowFrame
@@ -314,24 +314,24 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn ScenarioAlertFrameTemplate_animIn
 --- @field waitAndAnimOut ScenarioAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L760)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L761)
 --- child of MoneyWonAlertFrameTemplate
 --- @class MoneyWonAlertFrameTemplate_Label : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L765)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L766)
 --- child of MoneyWonAlertFrameTemplate
 --- @class MoneyWonAlertFrameTemplate_Amount : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L722)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L723)
 --- child of MoneyWonAlertFrameTemplate
 --- @class MoneyWonAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L726)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L727)
 --- child of MoneyWonAlertFrameTemplate
 --- @class MoneyWonAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L719)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L720)
 --- Template
 --- @class MoneyWonAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Background Texture
@@ -342,24 +342,24 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn MoneyWonAlertFrameTemplate_animIn
 --- @field waitAndAnimOut MoneyWonAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L815)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L816)
 --- child of HonorAwardedAlertFrameTemplate
 --- @class HonorAwardedAlertFrameTemplate_Label : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L820)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L821)
 --- child of HonorAwardedAlertFrameTemplate
 --- @class HonorAwardedAlertFrameTemplate_Amount : FontString, GameFontHighlightMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L778)
 --- child of HonorAwardedAlertFrameTemplate
 --- @class HonorAwardedAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L781)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L782)
 --- child of HonorAwardedAlertFrameTemplate
 --- @class HonorAwardedAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L774)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L775)
 --- Template
 --- @class HonorAwardedAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Background Texture
@@ -370,54 +370,54 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn HonorAwardedAlertFrameTemplate_animIn
 --- @field waitAndAnimOut HonorAwardedAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L829)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L830)
 --- Template
 --- @class LootUpgradeFrame_ArrowTemplate : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L848)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L849)
 --- child of LootWonAlertFrameTemplate
 --- @class LootWonAlertFrameTemplate_lootItem : Frame, LootItemExtended
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L882)
 --- child of LootWonAlertFrameTemplate
 --- @class LootWonAlertFrameTemplate_Label : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L888)
 --- child of LootWonAlertFrameTemplate
 --- @class LootWonAlertFrameTemplate_ItemName : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L899)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L900)
 --- child of LootWonAlertFrameTemplate
 --- @class LootWonAlertFrameTemplate_RollValue : FontString, GameFontGreen
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L913)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L914)
 --- child of LootWonAlertFrameTemplate_glow
 --- @class LootWonAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L907)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L908)
 --- child of LootWonAlertFrameTemplate
 --- @class LootWonAlertFrameTemplate_glow : Texture
 --- @field animIn LootWonAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L931)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L932)
 --- child of LootWonAlertFrameTemplate_shine
 --- @class LootWonAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L925)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L926)
 --- child of LootWonAlertFrameTemplate
 --- @class LootWonAlertFrameTemplate_shine : Texture
 --- @field animIn LootWonAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L833)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L834)
 --- child of LootWonAlertFrameTemplate
 --- @class LootWonAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L837)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L838)
 --- child of LootWonAlertFrameTemplate
 --- @class LootWonAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L830)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L831)
 --- Template
 --- @class LootWonAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field lootItem LootWonAlertFrameTemplate_lootItem
@@ -434,60 +434,60 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn LootWonAlertFrameTemplate_animIn
 --- @field waitAndAnimOut LootWonAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L962)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L963)
 --- Template
 --- @class LootUpgradeFrame_ItemNameTemplate : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1010)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1011)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_Arrow1 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1015)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1016)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_Arrow2 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1020)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1021)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_Arrow3 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1025)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1026)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_Arrow4 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1030)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1031)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_Arrow5 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1037)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1038)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_TitleText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1043)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1044)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_BaseQualityItemName : FontString, LootUpgradeFrame_ItemNameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1051)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1052)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_UpgradeQualityItemName : FontString, LootUpgradeFrame_ItemNameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1059)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1060)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_WhiteText : FontString, LootUpgradeFrame_ItemNameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1066)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1067)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_WhiteText2 : FontString, LootUpgradeFrame_ItemNameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1082)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1083)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1116)
 --- child of LootUpgradeFrameTemplate
 --- @class LootUpgradeFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L967)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L968)
 --- Template
 --- @class LootUpgradeFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field numArrows number # 5
@@ -510,42 +510,42 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn LootUpgradeFrameTemplate_animIn
 --- @field waitAndAnimOut LootUpgradeFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1170)
 --- child of DigsiteCompleteToastFrameTemplate
 --- @class DigsiteCompleteToastFrameTemplate_DigsiteType : FontString, GameFontWhite
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1174)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1175)
 --- child of DigsiteCompleteToastFrameTemplate
 --- @class DigsiteCompleteToastFrameTemplate_Title : FontString, GameFontWhiteSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1194)
 --- child of DigsiteCompleteToastFrameTemplate_glow
 --- @class DigsiteCompleteToastFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1187)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1188)
 --- child of DigsiteCompleteToastFrameTemplate
 --- @class DigsiteCompleteToastFrameTemplate_glow : Texture
 --- @field animIn DigsiteCompleteToastFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1212)
 --- child of DigsiteCompleteToastFrameTemplate_shine
 --- @class DigsiteCompleteToastFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1205)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1206)
 --- child of DigsiteCompleteToastFrameTemplate
 --- @class DigsiteCompleteToastFrameTemplate_shine : Texture
 --- @field animIn DigsiteCompleteToastFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1145)
 --- child of DigsiteCompleteToastFrameTemplate
 --- @class DigsiteCompleteToastFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1149)
 --- child of DigsiteCompleteToastFrameTemplate
 --- @class DigsiteCompleteToastFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1139)
 --- Template
 --- @class DigsiteCompleteToastFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field DigsiteType DigsiteCompleteToastFrameTemplate_DigsiteType
@@ -556,34 +556,34 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn DigsiteCompleteToastFrameTemplate_animIn
 --- @field waitAndAnimOut DigsiteCompleteToastFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1258)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1259)
 --- child of EntitlementDeliveredAlertFrameBaseTemplate_glow
 --- @class EntitlementDeliveredAlertFrameBaseTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1253)
 --- child of EntitlementDeliveredAlertFrameBaseTemplate
 --- @class EntitlementDeliveredAlertFrameBaseTemplate_glow : Texture
 --- @field animIn EntitlementDeliveredAlertFrameBaseTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1277)
 --- child of EntitlementDeliveredAlertFrameBaseTemplate_shine
 --- @class EntitlementDeliveredAlertFrameBaseTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1270)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1271)
 --- child of EntitlementDeliveredAlertFrameBaseTemplate
 --- @class EntitlementDeliveredAlertFrameBaseTemplate_shine : Texture
 --- @field animIn EntitlementDeliveredAlertFrameBaseTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1236)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1237)
 --- child of EntitlementDeliveredAlertFrameBaseTemplate
 --- @class EntitlementDeliveredAlertFrameBaseTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1241)
 --- child of EntitlementDeliveredAlertFrameBaseTemplate
 --- @class EntitlementDeliveredAlertFrameBaseTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1234)
 --- Template
 --- @class EntitlementDeliveredAlertFrameBaseTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field glow EntitlementDeliveredAlertFrameBaseTemplate_glow
@@ -591,15 +591,15 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn EntitlementDeliveredAlertFrameBaseTemplate_animIn
 --- @field waitAndAnimOut EntitlementDeliveredAlertFrameBaseTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1311)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1312)
 --- child of EntitlementDeliveredAlertFrameTemplate
 --- @class EntitlementDeliveredAlertFrameTemplate_Title : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1317)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1318)
 --- child of EntitlementDeliveredAlertFrameTemplate
 --- @class EntitlementDeliveredAlertFrameTemplate_Description : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1297)
 --- Template
 --- @class EntitlementDeliveredAlertFrameTemplate : ContainedAlertFrame, EntitlementDeliveredAlertFrameBaseTemplate
 --- @field Background Texture
@@ -607,15 +607,15 @@ AlertFrameSystemsRegistrar = {}
 --- @field Title EntitlementDeliveredAlertFrameTemplate_Title
 --- @field Description EntitlementDeliveredAlertFrameTemplate_Description
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1362)
 --- child of RafRewardDeliveredAlertFrameTemplate
 --- @class RafRewardDeliveredAlertFrameTemplate_Description : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1368)
 --- child of RafRewardDeliveredAlertFrameTemplate
 --- @class RafRewardDeliveredAlertFrameTemplate_Title : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1326)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1327)
 --- Template
 --- @class RafRewardDeliveredAlertFrameTemplate : ContainedAlertFrame, EntitlementDeliveredAlertFrameBaseTemplate
 --- @field legacyStandardToastAtlas string # "recruitafriend_toast_standard"
@@ -626,42 +626,42 @@ AlertFrameSystemsRegistrar = {}
 --- @field Description RafRewardDeliveredAlertFrameTemplate_Description
 --- @field Title RafRewardDeliveredAlertFrameTemplate_Title
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1414)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1415)
 --- child of GarrisonBuildingAlertFrameTemplate
 --- @class GarrisonBuildingAlertFrameTemplate_Title : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1420)
 --- child of GarrisonBuildingAlertFrameTemplate
 --- @class GarrisonBuildingAlertFrameTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1432)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1433)
 --- child of GarrisonBuildingAlertFrameTemplate_glow
 --- @class GarrisonBuildingAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1426)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1427)
 --- child of GarrisonBuildingAlertFrameTemplate
 --- @class GarrisonBuildingAlertFrameTemplate_glow : Texture
 --- @field animIn GarrisonBuildingAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1450)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1451)
 --- child of GarrisonBuildingAlertFrameTemplate_shine
 --- @class GarrisonBuildingAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1444)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1445)
 --- child of GarrisonBuildingAlertFrameTemplate
 --- @class GarrisonBuildingAlertFrameTemplate_shine : Texture
 --- @field animIn GarrisonBuildingAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1383)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1384)
 --- child of GarrisonBuildingAlertFrameTemplate
 --- @class GarrisonBuildingAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1388)
 --- child of GarrisonBuildingAlertFrameTemplate
 --- @class GarrisonBuildingAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1377)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1378)
 --- Template
 --- @class GarrisonBuildingAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Icon Texture
@@ -672,46 +672,46 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn GarrisonBuildingAlertFrameTemplate_animIn
 --- @field waitAndAnimOut GarrisonBuildingAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1544)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1545)
 --- child of GarrisonRandomMissionAlertFrameTemplate
 --- @class GarrisonRandomMissionAlertFrameTemplate_Level : FontString, Game24Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1550)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1551)
 --- child of GarrisonRandomMissionAlertFrameTemplate
 --- @class GarrisonRandomMissionAlertFrameTemplate_ItemLevel : FontString, InvoiceFont_Small
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1557)
 --- child of GarrisonRandomMissionAlertFrameTemplate
 --- @class GarrisonRandomMissionAlertFrameTemplate_Rare : FontString, MailFont_Large
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1576)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1577)
 --- child of GarrisonRandomMissionAlertFrameTemplate_glow
 --- @class GarrisonRandomMissionAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1571)
 --- child of GarrisonRandomMissionAlertFrameTemplate
 --- @class GarrisonRandomMissionAlertFrameTemplate_glow : Texture
 --- @field animIn GarrisonRandomMissionAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1595)
 --- child of GarrisonRandomMissionAlertFrameTemplate_shine
 --- @class GarrisonRandomMissionAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1588)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1589)
 --- child of GarrisonRandomMissionAlertFrameTemplate
 --- @class GarrisonRandomMissionAlertFrameTemplate_shine : Texture
 --- @field animIn GarrisonRandomMissionAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1477)
 --- child of GarrisonRandomMissionAlertFrameTemplate
 --- @class GarrisonRandomMissionAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1480)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1481)
 --- child of GarrisonRandomMissionAlertFrameTemplate
 --- @class GarrisonRandomMissionAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1470)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1471)
 --- Template
 --- @class GarrisonRandomMissionAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Background Texture
@@ -726,38 +726,38 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn GarrisonRandomMissionAlertFrameTemplate_animIn
 --- @field waitAndAnimOut GarrisonRandomMissionAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1633)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1634)
 --- child of GarrisonMissionAlertFrameTemplate
 --- @class GarrisonMissionAlertFrameTemplate_Title : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1651)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1652)
 --- child of GarrisonMissionAlertFrameTemplate_glow
 --- @class GarrisonMissionAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1645)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1646)
 --- child of GarrisonMissionAlertFrameTemplate
 --- @class GarrisonMissionAlertFrameTemplate_glow : Texture
 --- @field animIn GarrisonMissionAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1669)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1670)
 --- child of GarrisonMissionAlertFrameTemplate_shine
 --- @class GarrisonMissionAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1663)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1664)
 --- child of GarrisonMissionAlertFrameTemplate
 --- @class GarrisonMissionAlertFrameTemplate_shine : Texture
 --- @field animIn GarrisonMissionAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1617)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1618)
 --- child of GarrisonMissionAlertFrameTemplate
 --- @class GarrisonMissionAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1622)
 --- child of GarrisonMissionAlertFrameTemplate
 --- @class GarrisonMissionAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1611)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1612)
 --- Template
 --- @class GarrisonMissionAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Title GarrisonMissionAlertFrameTemplate_Title
@@ -767,31 +767,31 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn GarrisonMissionAlertFrameTemplate_animIn
 --- @field waitAndAnimOut GarrisonMissionAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1782)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1783)
 --- child of GarrisonFollowerAlertFrameTemplate_Arrows
 --- @class GarrisonFollowerAlertFrameTemplate_Arrows_Arrow1 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1787)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1788)
 --- child of GarrisonFollowerAlertFrameTemplate_Arrows
 --- @class GarrisonFollowerAlertFrameTemplate_Arrows_Arrow2 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1792)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1793)
 --- child of GarrisonFollowerAlertFrameTemplate_Arrows
 --- @class GarrisonFollowerAlertFrameTemplate_Arrows_Arrow3 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1797)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1798)
 --- child of GarrisonFollowerAlertFrameTemplate_Arrows
 --- @class GarrisonFollowerAlertFrameTemplate_Arrows_Arrow4 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1803)
 --- child of GarrisonFollowerAlertFrameTemplate_Arrows
 --- @class GarrisonFollowerAlertFrameTemplate_Arrows_Arrow5 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1810)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1811)
 --- child of GarrisonFollowerAlertFrameTemplate_Arrows
 --- @class GarrisonFollowerAlertFrameTemplate_Arrows_ArrowsAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1776)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1777)
 --- child of GarrisonFollowerAlertFrameTemplate
 --- @class GarrisonFollowerAlertFrameTemplate_Arrows : Frame
 --- @field numArrows number # 5
@@ -802,34 +802,34 @@ AlertFrameSystemsRegistrar = {}
 --- @field Arrow5 GarrisonFollowerAlertFrameTemplate_Arrows_Arrow5
 --- @field ArrowsAnim GarrisonFollowerAlertFrameTemplate_Arrows_ArrowsAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1742)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1743)
 --- child of GarrisonFollowerAlertFrameTemplate_glow
 --- @class GarrisonFollowerAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1736)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1737)
 --- child of GarrisonFollowerAlertFrameTemplate
 --- @class GarrisonFollowerAlertFrameTemplate_glow : Texture
 --- @field animIn GarrisonFollowerAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1760)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1761)
 --- child of GarrisonFollowerAlertFrameTemplate_shine
 --- @class GarrisonFollowerAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1754)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1755)
 --- child of GarrisonFollowerAlertFrameTemplate
 --- @class GarrisonFollowerAlertFrameTemplate_shine : Texture
 --- @field animIn GarrisonFollowerAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1706)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1707)
 --- child of GarrisonFollowerAlertFrameTemplate
 --- @class GarrisonFollowerAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1709)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1710)
 --- child of GarrisonFollowerAlertFrameTemplate
 --- @class GarrisonFollowerAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1700)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1701)
 --- Template
 --- @class GarrisonFollowerAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Arrows GarrisonFollowerAlertFrameTemplate_Arrows
@@ -840,39 +840,39 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn GarrisonFollowerAlertFrameTemplate_animIn
 --- @field waitAndAnimOut GarrisonFollowerAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1864)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1865)
 --- child of GarrisonStandardFollowerAlertFrameTemplate
 --- @class GarrisonStandardFollowerAlertFrameTemplate_PortraitFrame : Frame, GarrisonFollowerPortraitTemplate, GarrisonFollowerPortraitMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1847)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1848)
 --- child of GarrisonStandardFollowerAlertFrameTemplate
 --- @class GarrisonStandardFollowerAlertFrameTemplate_Title : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1852)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1853)
 --- child of GarrisonStandardFollowerAlertFrameTemplate
 --- @class GarrisonStandardFollowerAlertFrameTemplate_Name : FontString, GameFontHighlight, AutoScalingFontStringMixin
 --- @field minLineHeight number # 10
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1837)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1838)
 --- Template
 --- @class GarrisonStandardFollowerAlertFrameTemplate : ContainedAlertFrame, GarrisonFollowerAlertFrameTemplate
 --- @field PortraitFrame GarrisonStandardFollowerAlertFrameTemplate_PortraitFrame
 --- @field Title GarrisonStandardFollowerAlertFrameTemplate_Title
 --- @field Name GarrisonStandardFollowerAlertFrameTemplate_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1890)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1891)
 --- child of GarrisonShipFollowerAlertFrameTemplate
 --- @class GarrisonShipFollowerAlertFrameTemplate_Title : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1895)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1896)
 --- child of GarrisonShipFollowerAlertFrameTemplate
 --- @class GarrisonShipFollowerAlertFrameTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1900)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1901)
 --- child of GarrisonShipFollowerAlertFrameTemplate
 --- @class GarrisonShipFollowerAlertFrameTemplate_Class : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1872)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1873)
 --- Template
 --- @class GarrisonShipFollowerAlertFrameTemplate : ContainedAlertFrame, GarrisonFollowerAlertFrameTemplate
 --- @field Background Texture
@@ -881,7 +881,7 @@ AlertFrameSystemsRegistrar = {}
 --- @field Name GarrisonShipFollowerAlertFrameTemplate_Name
 --- @field Class GarrisonShipFollowerAlertFrameTemplate_Class
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1936)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1937)
 --- child of GarrisonStandardMissionAlertFrameTemplate
 --- Template
 --- Adds itself to the parent with key `EncounterIcon`
@@ -892,11 +892,11 @@ AlertFrameSystemsRegistrar = {}
 --- @field RareOverlay Texture
 --- @field EliteOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1927)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1928)
 --- child of GarrisonStandardMissionAlertFrameTemplate
 --- @class GarrisonStandardMissionAlertFrameTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1910)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1911)
 --- Template
 --- @class GarrisonStandardMissionAlertFrameTemplate : ContainedAlertFrame, GarrisonMissionAlertFrameTemplate
 --- @field EncounterIcon GarrisonStandardMissionAlertFrameTemplate_EncounterIcon
@@ -904,52 +904,52 @@ AlertFrameSystemsRegistrar = {}
 --- @field IconBG Texture
 --- @field Name GarrisonStandardMissionAlertFrameTemplate_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1992)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1993)
 --- child of GarrisonShipMissionAlertFrameTemplate
 --- @class GarrisonShipMissionAlertFrameTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1982)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1983)
 --- Template
 --- @class GarrisonShipMissionAlertFrameTemplate : ContainedAlertFrame, GarrisonMissionAlertFrameTemplate
 --- @field Background Texture
 --- @field Name GarrisonShipMissionAlertFrameTemplate_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2039)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2040)
 --- child of GarrisonTalentAlertFrameTemplate
 --- @class GarrisonTalentAlertFrameTemplate_Title : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2044)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2045)
 --- child of GarrisonTalentAlertFrameTemplate
 --- @class GarrisonTalentAlertFrameTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2057)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2058)
 --- child of GarrisonTalentAlertFrameTemplate_glow
 --- @class GarrisonTalentAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2051)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2052)
 --- child of GarrisonTalentAlertFrameTemplate
 --- @class GarrisonTalentAlertFrameTemplate_glow : Texture
 --- @field animIn GarrisonTalentAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2075)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2076)
 --- child of GarrisonTalentAlertFrameTemplate_shine
 --- @class GarrisonTalentAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2069)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2070)
 --- child of GarrisonTalentAlertFrameTemplate
 --- @class GarrisonTalentAlertFrameTemplate_shine : Texture
 --- @field animIn GarrisonTalentAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2008)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2009)
 --- child of GarrisonTalentAlertFrameTemplate
 --- @class GarrisonTalentAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2012)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2013)
 --- child of GarrisonTalentAlertFrameTemplate
 --- @class GarrisonTalentAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2002)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2003)
 --- Template
 --- @class GarrisonTalentAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Icon Texture
@@ -960,42 +960,42 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn GarrisonTalentAlertFrameTemplate_animIn
 --- @field waitAndAnimOut GarrisonTalentAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2130)
 --- child of NewRecipeLearnedAlertFrameTemplate
 --- @class NewRecipeLearnedAlertFrameTemplate_Title : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2135)
 --- child of NewRecipeLearnedAlertFrameTemplate
 --- @class NewRecipeLearnedAlertFrameTemplate_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2149)
 --- child of NewRecipeLearnedAlertFrameTemplate_glow
 --- @class NewRecipeLearnedAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2143)
 --- child of NewRecipeLearnedAlertFrameTemplate
 --- @class NewRecipeLearnedAlertFrameTemplate_glow : Texture
 --- @field animIn NewRecipeLearnedAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2167)
 --- child of NewRecipeLearnedAlertFrameTemplate_shine
 --- @class NewRecipeLearnedAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2161)
 --- child of NewRecipeLearnedAlertFrameTemplate
 --- @class NewRecipeLearnedAlertFrameTemplate_shine : Texture
 --- @field animIn NewRecipeLearnedAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2098)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2099)
 --- child of NewRecipeLearnedAlertFrameTemplate
 --- @class NewRecipeLearnedAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2103)
 --- child of NewRecipeLearnedAlertFrameTemplate
 --- @class NewRecipeLearnedAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2096)
 --- Template
 --- @class NewRecipeLearnedAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Icon Texture
@@ -1006,42 +1006,42 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn NewRecipeLearnedAlertFrameTemplate_animIn
 --- @field waitAndAnimOut NewRecipeLearnedAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2221)
 --- child of SkillLineSpecsUnlockedAlertFrameTemplate
 --- @class SkillLineSpecsUnlockedAlertFrameTemplate_Title : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2226)
 --- child of SkillLineSpecsUnlockedAlertFrameTemplate
 --- @class SkillLineSpecsUnlockedAlertFrameTemplate_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2240)
 --- child of SkillLineSpecsUnlockedAlertFrameTemplate_glow
 --- @class SkillLineSpecsUnlockedAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2234)
 --- child of SkillLineSpecsUnlockedAlertFrameTemplate
 --- @class SkillLineSpecsUnlockedAlertFrameTemplate_glow : Texture
 --- @field animIn SkillLineSpecsUnlockedAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2258)
 --- child of SkillLineSpecsUnlockedAlertFrameTemplate_shine
 --- @class SkillLineSpecsUnlockedAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2251)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2252)
 --- child of SkillLineSpecsUnlockedAlertFrameTemplate
 --- @class SkillLineSpecsUnlockedAlertFrameTemplate_shine : Texture
 --- @field animIn SkillLineSpecsUnlockedAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2190)
 --- child of SkillLineSpecsUnlockedAlertFrameTemplate
 --- @class SkillLineSpecsUnlockedAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2194)
 --- child of SkillLineSpecsUnlockedAlertFrameTemplate
 --- @class SkillLineSpecsUnlockedAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2187)
 --- Template
 --- @class SkillLineSpecsUnlockedAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate, SkillLineSpecsUnlockedAlertFrameMixin
 --- @field Icon Texture
@@ -1052,33 +1052,33 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn SkillLineSpecsUnlockedAlertFrameTemplate_animIn
 --- @field waitAndAnimOut SkillLineSpecsUnlockedAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2315)
 --- child of WorldQuestCompleteAlertFrameTemplate
 --- @class WorldQuestCompleteAlertFrameTemplate_ToastText : FontString, GameFontWhiteTiny
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2320)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2321)
 --- child of WorldQuestCompleteAlertFrameTemplate
 --- @class WorldQuestCompleteAlertFrameTemplate_QuestName : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2335)
 --- child of WorldQuestCompleteAlertFrameTemplate_shine
 --- @class WorldQuestCompleteAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2329)
 --- child of WorldQuestCompleteAlertFrameTemplate
 --- @class WorldQuestCompleteAlertFrameTemplate_shine : Texture
 --- @field animIn WorldQuestCompleteAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2284)
 --- child of WorldQuestCompleteAlertFrameTemplate
 --- @class WorldQuestCompleteAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2287)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2288)
 --- child of WorldQuestCompleteAlertFrameTemplate
 --- @class WorldQuestCompleteAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2278)
 --- Template
 --- @class WorldQuestCompleteAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field QuestTexture Texture
@@ -1089,56 +1089,56 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn WorldQuestCompleteAlertFrameTemplate_animIn
 --- @field waitAndAnimOut WorldQuestCompleteAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2412)
 --- child of LegendaryItemAlertFrameTemplate_Background2
 --- @class LegendaryItemAlertFrameTemplate_Background2_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2407)
 --- child of LegendaryItemAlertFrameTemplate
 --- @class LegendaryItemAlertFrameTemplate_Background2 : Texture
 --- @field animIn LegendaryItemAlertFrameTemplate_Background2_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2422)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2423)
 --- child of LegendaryItemAlertFrameTemplate_Background3
 --- @class LegendaryItemAlertFrameTemplate_Background3_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2418)
 --- child of LegendaryItemAlertFrameTemplate
 --- @class LegendaryItemAlertFrameTemplate_Background3 : Texture
 --- @field animIn LegendaryItemAlertFrameTemplate_Background3_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2435)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2436)
 --- child of LegendaryItemAlertFrameTemplate
 --- @class LegendaryItemAlertFrameTemplate_ItemName : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2450)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2451)
 --- child of LegendaryItemAlertFrameTemplate_glow
 --- @class LegendaryItemAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2444)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2445)
 --- child of LegendaryItemAlertFrameTemplate
 --- @class LegendaryItemAlertFrameTemplate_glow : Texture
 --- @field animIn LegendaryItemAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2469)
 --- child of LegendaryItemAlertFrameTemplate_shine
 --- @class LegendaryItemAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2462)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2463)
 --- child of LegendaryItemAlertFrameTemplate
 --- @class LegendaryItemAlertFrameTemplate_shine : Texture
 --- @field animIn LegendaryItemAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2485)
 --- child of LegendaryItemAlertFrameTemplate
 --- @class LegendaryItemAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2498)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2499)
 --- child of LegendaryItemAlertFrameTemplate
 --- @class LegendaryItemAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2351)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2352)
 --- Template
 --- @class LegendaryItemAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Icon Texture
@@ -1156,42 +1156,42 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn LegendaryItemAlertFrameTemplate_animIn
 --- @field waitAndAnimOut LegendaryItemAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2549)
 --- child of ItemAlertFrameTemplate
 --- @class ItemAlertFrameTemplate_Label : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2555)
 --- child of ItemAlertFrameTemplate
 --- @class ItemAlertFrameTemplate_Name : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2570)
 --- child of ItemAlertFrameTemplate_glow
 --- @class ItemAlertFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2564)
 --- child of ItemAlertFrameTemplate
 --- @class ItemAlertFrameTemplate_glow : Texture
 --- @field animIn ItemAlertFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2587)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2588)
 --- child of ItemAlertFrameTemplate_shine
 --- @class ItemAlertFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2581)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2582)
 --- child of ItemAlertFrameTemplate
 --- @class ItemAlertFrameTemplate_shine : Texture
 --- @field animIn ItemAlertFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2519)
 --- child of ItemAlertFrameTemplate
 --- @class ItemAlertFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2523)
 --- child of ItemAlertFrameTemplate
 --- @class ItemAlertFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2516)
 --- Template
 --- @class ItemAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate, ItemAlertFrameMixin
 --- @field Icon Texture
@@ -1204,84 +1204,89 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn ItemAlertFrameTemplate_animIn
 --- @field waitAndAnimOut ItemAlertFrameTemplate_waitAndAnimOut
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2616)
 --- Template
 --- @class NewPetAlertFrameTemplate : ContainedAlertFrame, ItemAlertFrameTemplate, NewPetAlertFrameMixin
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2627)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2628)
 --- Template
 --- @class NewMountAlertFrameTemplate : ContainedAlertFrame, ItemAlertFrameTemplate, NewMountAlertFrameMixin
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2640)
 --- Template
 --- @class NewToyAlertFrameTemplate : ContainedAlertFrame, ItemAlertFrameTemplate, NewToyAlertFrameMixin
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2651)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2652)
+--- Template
+--- @class NewWarbandSceneAlertFrameTemplate : ContainedAlertFrame, ItemAlertFrameTemplate, NewWarbandSceneAlertFrameMixin
+--- @field Background Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2664)
 --- Template
 --- @class NewRuneforgePowerAlertFrameTemplate : ContainedAlertFrame, ItemAlertFrameTemplate, NewRuneforgePowerAlertFrameMixin
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2680)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2693)
 --- child of NewCosmeticAlertFrameTemplate
 --- @class NewCosmeticAlertFrameTemplate_LeftModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2686)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2699)
 --- child of NewCosmeticAlertFrameTemplate
 --- @class NewCosmeticAlertFrameTemplate_RightModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2669)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2682)
 --- Template
 --- @class NewCosmeticAlertFrameTemplate : ContainedAlertFrame, ItemAlertFrameTemplate, NewCosmeticAlertFrameMixin
 --- @field LeftModelScene NewCosmeticAlertFrameTemplate_LeftModelScene
 --- @field RightModelScene NewCosmeticAlertFrameTemplate_RightModelScene
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2772)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2785)
 --- child of MonthlyActivityFrameTemplate
 --- @class MonthlyActivityFrameTemplate_Icon : Frame
 --- @field Bling Texture
 --- @field Texture Texture
 --- @field Overlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2722)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2735)
 --- child of MonthlyActivityFrameTemplate
 --- @class MonthlyActivityFrameTemplate_Unlocked : FontString, GameFontBlackTiny
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2728)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2741)
 --- child of MonthlyActivityFrameTemplate
 --- @class MonthlyActivityFrameTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2741)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2754)
 --- child of MonthlyActivityFrameTemplate_glow
 --- @class MonthlyActivityFrameTemplate_glow_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2736)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2749)
 --- child of MonthlyActivityFrameTemplate
 --- @class MonthlyActivityFrameTemplate_glow : Texture
 --- @field animIn MonthlyActivityFrameTemplate_glow_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2757)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2770)
 --- child of MonthlyActivityFrameTemplate_shine
 --- @class MonthlyActivityFrameTemplate_shine_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2752)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2765)
 --- child of MonthlyActivityFrameTemplate
 --- @class MonthlyActivityFrameTemplate_shine : Texture
 --- @field animIn MonthlyActivityFrameTemplate_shine_animIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2701)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2714)
 --- child of MonthlyActivityFrameTemplate
 --- @class MonthlyActivityFrameTemplate_animIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2705)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2718)
 --- child of MonthlyActivityFrameTemplate
 --- @class MonthlyActivityFrameTemplate_waitAndAnimOut : AnimationGroup
 --- @field animOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2695)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2708)
 --- Template
 --- @class MonthlyActivityFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
 --- @field Icon MonthlyActivityFrameTemplate_Icon

@@ -7,181 +7,97 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L11)
 --- Template
---- @class AccountLoginEditBoxBehaviorTemplate : EditBox, AccountLoginEditBoxBehaviorMixin
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L17)
---- Template
 --- @class AccountNameButtonTemplate : Button, AccountNameMixin
 --- @field BGHighlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L85)
---- child of KoreanRatings
---- @class KoreanRatings_Border : Frame, DialogBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L52)
---- child of KoreanRatings
---- @class KoreanRatings_KoreanRatingsViolence : Texture
-KoreanRatingsViolence = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L58)
---- child of KoreanRatings
---- @class KoreanRatings_KoreanRatingsCrime : Texture
-KoreanRatingsCrime = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L64)
---- child of KoreanRatings
---- @class KoreanRatings_KoreanRatingsDrugs : Texture
-KoreanRatingsDrugs = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L70)
---- child of KoreanRatings
---- @class KoreanRatings_KoreanRatingsAge : Texture
-KoreanRatingsAge = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L76)
---- child of KoreanRatings
---- @class KoreanRatings_KoreanRatingsText : FontString, GlueFontNormalGigantor
-KoreanRatingsText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L45)
---- @class KoreanRatings : Button, KoreanRatingsMixin
---- @field Border KoreanRatings_Border
-KoreanRatings = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L105)
---- child of ChinaAgeAppropriatenessWarning
---- @class ChinaAgeAppropriatenessWarning_Border : Frame, DialogBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L124)
---- child of TextContainer
---- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_HealthyGamingTextTitle : FontString, GlueFontNormalLarge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L129)
---- child of TextContainer
---- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_HealthyGamingText : FontString, GlueFontNormalLarge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L135)
---- child of TextContainer
---- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_AgeAppropriatenessTextTitle : FontString, GlueFontNormalLarge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L140)
---- child of TextContainer
---- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_AgeAppropriatenessText : FontString, GlueFontNormalLarge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L117)
---- child of ChinaAgeAppropriatenessWarning_ScrollTextFrame
---- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer : Button
---- @field HealthyGamingTextTitle ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_HealthyGamingTextTitle
---- @field HealthyGamingText ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_HealthyGamingText
---- @field AgeAppropriatenessTextTitle ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_AgeAppropriatenessTextTitle
---- @field AgeAppropriatenessText ChinaAgeAppropriatenessWarning_ScrollTextFrame_TextContainer_AgeAppropriatenessText
-TextContainer = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L106)
---- child of ChinaAgeAppropriatenessWarning
---- @class ChinaAgeAppropriatenessWarning_ScrollTextFrame : ScrollFrame, ScrollFrameTemplate
---- @field scrollBarHideIfUnscrollable boolean # true
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L156)
---- child of ChinaAgeAppropriatenessWarning
---- @class ChinaAgeAppropriatenessWarning_OkayButton : Button, GlueButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L93)
---- @class ChinaAgeAppropriatenessWarning : Frame
---- @field Border ChinaAgeAppropriatenessWarning_Border
---- @field ScrollTextFrame ChinaAgeAppropriatenessWarning_ScrollTextFrame
---- @field OkayButton ChinaAgeAppropriatenessWarning_OkayButton
---- @field Icon Texture
-ChinaAgeAppropriatenessWarning = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L47)
 --- child of AccountLogin
 --- @class AccountLogin_LoginBackgroundModel : ModelFFX
 LoginBackgroundModel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L222)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L93)
 --- child of AccountLogin_UI_AccountEditBox
 --- @class AccountLogin_UI_AccountEditBox_Label : FontString, GlueFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L99)
 --- child of AccountLogin_UI_AccountEditBox
 --- @class AccountLogin_UI_AccountEditBox_Fill : FontString, GlueFontDisableSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L215)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L86)
 --- child of AccountLogin_UI
---- @class AccountLogin_UI_AccountEditBox : EditBox, AccountLoginEditBoxBehaviorTemplateAccountLoginBackdropTemplate
+--- @class AccountLogin_UI_AccountEditBox : EditBox, AccountLoginBackdropTemplate
 --- @field Label AccountLogin_UI_AccountEditBox_Label
 --- @field Fill AccountLogin_UI_AccountEditBox_Fill
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L136)
 --- child of AccountLogin_UI
---- @class AccountLogin_UI_PasswordEditBox : EditBox, AccountLoginEditBoxBehaviorTemplateAccountLoginBackdropTemplate
+--- @class AccountLogin_UI_PasswordEditBox : EditBox, AccountLoginBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L168)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_LoginButton : Button, GlueButtonBigTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L183)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_SaveAccountNameCheckButton : CheckButton, ResizeCheckButtonTemplate, SaveAccountNameCheckButton
 --- @field labelText any # SAVE_ACCOUNT_NAME
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L192)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_ReconnectLoginButton : Button, GlueButtonBigTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L207)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_ReconnectSwitchButton : Button, GlueButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L223)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_ExitButton : Button, GlueButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L358)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L231)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_CreateAccountButton : Button, GlueButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L239)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_MenuButton : Button, GlueButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L244)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_ServerAlertFrame : Frame, CollapsibleServerAlertTemplate
 ServerAlertFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L278)
 --- child of AccountLogin_UI_WoWAccountSelectDialog_Background
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L416)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L289)
 --- child of AccountLogin_UI_WoWAccountSelectDialog_Background_Container
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Container_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L279)
 --- child of AccountLogin_UI_WoWAccountSelectDialog_Background
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Container : Frame, TooltipBackdropTemplate
 --- @field layoutType string # "TooltipMixedLayout"
 --- @field ScrollBox AccountLogin_UI_WoWAccountSelectDialog_Background_Container_ScrollBox
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L424)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L297)
 --- child of AccountLogin_UI_WoWAccountSelectDialog_Background
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_AcceptButton : Button, GlueButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L436)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L309)
 --- child of AccountLogin_UI_WoWAccountSelectDialog_Background
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_CancelButton : Button, GlueButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L392)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L265)
 --- child of AccountLogin_UI_WoWAccountSelectDialog_Background
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Title : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L397)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L270)
 --- child of AccountLogin_UI_WoWAccountSelectDialog_Background
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background_Text : FontString, TOSFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L385)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L258)
 --- child of AccountLogin_UI_WoWAccountSelectDialog
 --- @class AccountLogin_UI_WoWAccountSelectDialog_Background : Frame
 --- @field Border AccountLogin_UI_WoWAccountSelectDialog_Background_Border
@@ -191,36 +107,36 @@ ServerAlertFrame = {}
 --- @field Title AccountLogin_UI_WoWAccountSelectDialog_Background_Title
 --- @field Text AccountLogin_UI_WoWAccountSelectDialog_Background_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L249)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_WoWAccountSelectDialog : Frame
 --- @field Background AccountLogin_UI_WoWAccountSelectDialog_Background
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L494)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L367)
 --- child of AccountLogin_UI_CaptchaEntryDialog_Background
 --- @class AccountLogin_UI_CaptchaEntryDialog_Background_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L368)
 --- child of AccountLogin_UI_CaptchaEntryDialog_Background
 --- @class AccountLogin_UI_CaptchaEntryDialog_Background_EditBox : EditBox, AccountLoginBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L525)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L398)
 --- child of AccountLogin_UI_CaptchaEntryDialog_Background
 --- @class AccountLogin_UI_CaptchaEntryDialog_Background_OkayButton : Button, GlueButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L407)
 --- child of AccountLogin_UI_CaptchaEntryDialog_Background
 --- @class AccountLogin_UI_CaptchaEntryDialog_Background_CancelButton : Button, GlueButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L473)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L346)
 --- child of AccountLogin_UI_CaptchaEntryDialog_Background
 --- @class AccountLogin_UI_CaptchaEntryDialog_Background_Title : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L479)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L352)
 --- child of AccountLogin_UI_CaptchaEntryDialog_Background
 --- @class AccountLogin_UI_CaptchaEntryDialog_Background_Text : FontString, TOSFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L466)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L339)
 --- child of AccountLogin_UI_CaptchaEntryDialog
 --- @class AccountLogin_UI_CaptchaEntryDialog_Background : Frame
 --- @field Border AccountLogin_UI_CaptchaEntryDialog_Background_Border
@@ -231,36 +147,36 @@ ServerAlertFrame = {}
 --- @field Text AccountLogin_UI_CaptchaEntryDialog_Background_Text
 --- @field CaptchaImage Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L457)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L330)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_CaptchaEntryDialog : Frame
 --- @field Background AccountLogin_UI_CaptchaEntryDialog_Background
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L581)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L454)
 --- child of AccountLogin_UI_TokenEntryDialog_Background
 --- @class AccountLogin_UI_TokenEntryDialog_Background_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L582)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L455)
 --- child of AccountLogin_UI_TokenEntryDialog_Background
 --- @class AccountLogin_UI_TokenEntryDialog_Background_EditBox : EditBox, AccountLoginBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L612)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L485)
 --- child of AccountLogin_UI_TokenEntryDialog_Background
 --- @class AccountLogin_UI_TokenEntryDialog_Background_OkayButton : Button, GlueButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L494)
 --- child of AccountLogin_UI_TokenEntryDialog_Background
 --- @class AccountLogin_UI_TokenEntryDialog_Background_CancelButton : Button, GlueButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L568)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L441)
 --- child of AccountLogin_UI_TokenEntryDialog_Background
 --- @class AccountLogin_UI_TokenEntryDialog_Background_Title : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L573)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L446)
 --- child of AccountLogin_UI_TokenEntryDialog_Background
 --- @class AccountLogin_UI_TokenEntryDialog_Background_Text : FontString, TOSFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L561)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L434)
 --- child of AccountLogin_UI_TokenEntryDialog
 --- @class AccountLogin_UI_TokenEntryDialog_Background : Frame
 --- @field Border AccountLogin_UI_TokenEntryDialog_Background_Border
@@ -270,33 +186,33 @@ ServerAlertFrame = {}
 --- @field Title AccountLogin_UI_TokenEntryDialog_Background_Title
 --- @field Text AccountLogin_UI_TokenEntryDialog_Background_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L552)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L425)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_TokenEntryDialog : Frame
 --- @field Background AccountLogin_UI_TokenEntryDialog_Background
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L512)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_AccountsDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L59)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_BlizzDisclaimer : FontString, GlueFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L64)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_ClientVersion : FontString, GlueFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L77)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_WorldOfWarcraftRating : Texture
 WorldOfWarcraftRating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L646)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L519)
 --- child of AccountLogin_UI
 --- @class AccountLogin_UI_FadeIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L50)
 --- child of AccountLogin
 --- @class AccountLogin_UI : Frame
 --- @field AccountEditBox AccountLogin_UI_AccountEditBox
@@ -320,7 +236,7 @@ WorldOfWarcraftRating = {}
 --- @field ReconnectLoginRegions table<number, AccountLogin_UI_ReconnectLoginButton | AccountLogin_UI_ReconnectSwitchButton>
 --- @field NormalLoginRegions table<number, AccountLogin_UI_CreateAccountButton | AccountLogin_UI_MenuButton>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L167)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountLogin.xml#L38)
 --- @class AccountLogin : Frame
 --- @field UI AccountLogin_UI
 --- @field BlackLoginBackground Texture

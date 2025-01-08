@@ -49,58 +49,29 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L168)
 --- Template
---- @class CollectionsBackgroundTemplate : Frame, InsetFrameTemplate
---- @field BackgroundTile Texture
---- @field ShadowCornerTopLeft Texture
---- @field ShadowCornerTopRight Texture
---- @field ShadowCornerBottomLeft Texture
---- @field ShadowCornerBottomRight Texture
---- @field ShadowCornerTop Texture
---- @field ShadowCornerLeft Texture
---- @field ShadowCornerRight Texture
---- @field ShadowCornerBottom Texture
---- @field OverlayShadowTopLeft Texture
---- @field OverlayShadowTopRight Texture
---- @field OverlayShadowBottomLeft Texture
---- @field OverlayShadowBottomRight Texture
---- @field OverlayShadowTop Texture
---- @field OverlayShadowLeft Texture
---- @field OverlayShadowRight Texture
---- @field OverlayShadowBottom Texture
---- @field BGCornerFilagreeBottomLeft Texture
---- @field BGCornerFilagreeBottomRight Texture
---- @field BGCornerTopLeft Texture
---- @field BGCornerTopRight Texture
---- @field BGCornerBottomLeft Texture
---- @field BGCornerBottomRight Texture
---- @field ShadowLineTop Texture
---- @field ShadowLineBottom Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L370)
---- Template
 --- @class CollectionsPageTextTemplate : FontString, GameFontWhite
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L170)
 --- Template
 --- @class CollectionsPrevPageButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L178)
 --- Template
 --- @class CollectionsNextPageButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L392)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L190)
 --- child of CollectionsPagingFrameTemplate
 --- @class CollectionsPagingFrameTemplate_PrevPageButton : Button, CollectionsPrevPageButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L402)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L200)
 --- child of CollectionsPagingFrameTemplate
 --- @class CollectionsPagingFrameTemplate_NextPageButton : Button, CollectionsNextPageButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L415)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L213)
 --- child of CollectionsPagingFrameTemplate
 --- @class CollectionsPagingFrameTemplate_PageText : FontString, CollectionsPageTextTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_CollectionTemplates.xml#L186)
 --- Template
 --- @class CollectionsPagingFrameTemplate : Frame, CollectionsPagingMixin
 --- @field PrevPageButton CollectionsPagingFrameTemplate_PrevPageButton

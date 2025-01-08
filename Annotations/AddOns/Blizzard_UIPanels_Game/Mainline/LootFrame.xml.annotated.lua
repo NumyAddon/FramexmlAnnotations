@@ -48,7 +48,7 @@
 --- @class LootFrameMoneyElementTemplate : Frame, LootFrameElementTemplate, LootFrameElementMixin
 --- @field Text LootFrameMoneyElementTemplate_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L991)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L1003)
 --- child of LootFrame (created in template DefaultPanelFlatTemplate)
 --- @type DefaultPanelFlatTemplate_DefaultPanelFlatTemplateBg
 LootFrameBg = {}

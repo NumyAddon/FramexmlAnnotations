@@ -26,10 +26,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.xml#L49)
 --- Template
 --- @class TorghastLevelPickerRewardCircleTemplate : Button, TorghastLevelPickerRewardCircleMixin
---- @field HighlightGlow Texture
---- @field HighlightGlow2 Texture
 --- @field RewardBorder Texture
 --- @field QuestComplete Texture
+--- @field HighlightGlow Texture
+--- @field HighlightGlow2 Texture
 --- @field LockedIcon Texture
 --- @field Icon Texture
 --- @field CircleMask MaskTexture

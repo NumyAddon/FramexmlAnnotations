@@ -1,42 +1,42 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L5)
 --- child of ReactivateDialogBackground
 --- @class ReactivateDialogBackground_Border : Frame, DialogBorderTranslucentTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L3)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L3)
 --- Template
 --- @class ReactivateDialogBackground : Frame
 --- @field Border ReactivateDialogBackground_Border
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L33)
 --- child of ReactivateAccountDialog
 --- @class ReactivateAccountDialog_Accept : Button, GlueDialogButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L17)
 --- child of ReactivateAccountDialog
 --- @class ReactivateAccountDialog_Title : FontString, GlueFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L23)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L23)
 --- child of ReactivateAccountDialog
 --- @class ReactivateAccountDialog_Description : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L10)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L10)
 --- @class ReactivateAccountDialog : Frame, ReactivateDialogBackground
 --- @field Accept ReactivateAccountDialog_Accept
 --- @field Title ReactivateAccountDialog_Title
 --- @field Description ReactivateAccountDialog_Description
 ReactivateAccountDialog = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L73)
 --- child of AccountReactivationInProgressDialog
 --- @class AccountReactivationInProgressDialog_Title : FontString, GlueFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L86)
 --- child of AccountReactivationInProgressDialog
 --- @class AccountReactivationInProgressDialog_Notice : FontString, GameFontGreen
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L59)
 --- @class AccountReactivationInProgressDialog : Frame, ReactivateDialogBackground
 --- @field Icon Texture
 --- @field Title AccountReactivationInProgressDialog_Title
@@ -44,43 +44,43 @@ ReactivateAccountDialog = {}
 --- @field Notice AccountReactivationInProgressDialog_Notice
 AccountReactivationInProgressDialog = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L155)
 --- child of GoldReactivateConfirmationDialog
 --- @class GoldReactivateConfirmationDialog_Accept : Button, GlueDialogButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L170)
 --- child of GoldReactivateConfirmationDialog
 --- @class GoldReactivateConfirmationDialog_Cancel : Button, GlueDialogButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L108)
 --- child of GoldReactivateConfirmationDialog
 --- @class GoldReactivateConfirmationDialog_Title : FontString, GlueFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L114)
 --- child of GoldReactivateConfirmationDialog
 --- @class GoldReactivateConfirmationDialog_Description : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L121)
 --- child of GoldReactivateConfirmationDialog
 --- @class GoldReactivateConfirmationDialog_Expires : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L129)
 --- child of GoldReactivateConfirmationDialog
 --- @class GoldReactivateConfirmationDialog_Price : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L135)
 --- child of GoldReactivateConfirmationDialog
 --- @class GoldReactivateConfirmationDialog_Remaining : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L141)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L141)
 --- child of GoldReactivateConfirmationDialog
 --- @class GoldReactivateConfirmationDialog_LogoutNotice : FontString, GameFontGreen
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L147)
 --- child of GoldReactivateConfirmationDialog
 --- @class GoldReactivateConfirmationDialog_CautionText : FontString, GameFontRed
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L101)
 --- @class GoldReactivateConfirmationDialog : Frame, ReactivateDialogBackground
 --- @field Accept GoldReactivateConfirmationDialog_Accept
 --- @field Cancel GoldReactivateConfirmationDialog_Cancel
@@ -93,31 +93,31 @@ AccountReactivationInProgressDialog = {}
 --- @field CautionText GoldReactivateConfirmationDialog_CautionText
 GoldReactivateConfirmationDialog = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L233)
 --- child of TokenReactivateConfirmationDialog
 --- @class TokenReactivateConfirmationDialog_Accept : Button, GlueDialogButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L248)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L248)
 --- child of TokenReactivateConfirmationDialog
 --- @class TokenReactivateConfirmationDialog_Cancel : Button, GlueDialogButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L205)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L205)
 --- child of TokenReactivateConfirmationDialog
 --- @class TokenReactivateConfirmationDialog_Title : FontString, GlueFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L211)
 --- child of TokenReactivateConfirmationDialog
 --- @class TokenReactivateConfirmationDialog_Description : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L218)
 --- child of TokenReactivateConfirmationDialog
 --- @class TokenReactivateConfirmationDialog_Expires : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L224)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L224)
 --- child of TokenReactivateConfirmationDialog
 --- @class TokenReactivateConfirmationDialog_LogoutNotice : FontString, GameFontGreen
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L198)
 --- @class TokenReactivateConfirmationDialog : Frame, ReactivateDialogBackground
 --- @field Accept TokenReactivateConfirmationDialog_Accept
 --- @field Cancel TokenReactivateConfirmationDialog_Cancel
@@ -127,27 +127,27 @@ GoldReactivateConfirmationDialog = {}
 --- @field LogoutNotice TokenReactivateConfirmationDialog_LogoutNotice
 TokenReactivateConfirmationDialog = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L293)
 --- child of SubscriptionRequestDialog
 --- @class SubscriptionRequestDialog_Accept : Button, GlueDialogButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L302)
 --- child of SubscriptionRequestDialog
 --- @class SubscriptionRequestDialog_Reactivate : Button, GlueDialogButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L321)
 --- child of SubscriptionRequestDialog
 --- @class SubscriptionRequestDialog_CloseButton : Button, BigRedExitButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L277)
 --- child of SubscriptionRequestDialog
 --- @class SubscriptionRequestDialog_Text : FontString, GlueFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L283)
 --- child of SubscriptionRequestDialog
 --- @class SubscriptionRequestDialog_ButtonDivider : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Mainline/AccountReactivate.xml#L270)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueXML/Shared/AccountReactivate.xml#L270)
 --- @class SubscriptionRequestDialog : Frame, ReactivateDialogBackground
 --- @field Accept SubscriptionRequestDialog_Accept
 --- @field Reactivate SubscriptionRequestDialog_Reactivate

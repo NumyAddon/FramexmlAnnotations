@@ -726,7 +726,7 @@ function EditModeBagsSystemMixin:UpdateSystem(systemInfo) end
 function EditModeBagsSystemMixin:UpdateDisplayInfoOptions(displayInfo) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.lua#L2238)
-function EditModeBagsSystemMixin:UpdateSystemSettingOrientation() end
+function EditModeBagsSystemMixin:UpdateSystemSettingOrientation(entireSystemUpdate) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.lua#L2251)
 function EditModeBagsSystemMixin:UpdateSystemSettingDirection() end

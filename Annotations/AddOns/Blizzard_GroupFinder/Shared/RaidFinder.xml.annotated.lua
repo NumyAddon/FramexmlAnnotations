@@ -163,7 +163,7 @@ RaidFinderQueueFrameScrollFrameChildFrameItem1Name = {}
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 RaidFinderQueueFrameScrollFrameChildFrameItem1Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L783)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L787)
 --- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
 --- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateItem1
 RaidFinderQueueFrameScrollFrameChildFrameItem1 = {}
@@ -196,7 +196,7 @@ RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardName = {}
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L788)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L792)
 --- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
 --- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateMoneyReward
 RaidFinderQueueFrameScrollFrameChildFrameMoneyReward = {}
@@ -206,17 +206,17 @@ RaidFinderQueueFrameScrollFrameChildFrameMoneyReward["NameFrame"] = RaidFinderQu
 RaidFinderQueueFrameScrollFrameChildFrameMoneyReward["Name"] = RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardName -- inherited
 RaidFinderQueueFrameScrollFrameChildFrameMoneyReward["Count"] = RaidFinderQueueFrameScrollFrameChildFrameMoneyRewardCount -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L803)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L807)
 --- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
 --- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateRandomList
 RaidFinderQueueFrameScrollFrameChildFrameRandomList = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L829)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L833)
 --- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
 --- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateEncounterList
 RaidFinderQueueFrameScrollFrameChildFrameEncounterList = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L846)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L850)
 --- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
 --- @type Frame
 RaidFinderQueueFrameScrollFrameChildFrameSpacer = {}
@@ -226,27 +226,27 @@ RaidFinderQueueFrameScrollFrameChildFrameSpacer = {}
 --- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateTitle
 RaidFinderQueueFrameScrollFrameChildFrameTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L745)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L749)
 --- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
 --- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateDescription
 RaidFinderQueueFrameScrollFrameChildFrameDescription = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L754)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L758)
 --- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
 --- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsLabel
 RaidFinderQueueFrameScrollFrameChildFrameRewardsLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L759)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L763)
 --- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
 --- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsDescription
 RaidFinderQueueFrameScrollFrameChildFrameRewardsDescription = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L768)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L772)
 --- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
 --- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateXPLabel
 RaidFinderQueueFrameScrollFrameChildFrameXPLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L773)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L777)
 --- child of RaidFinderQueueFrameScrollFrameChildFrame (created in template LFGRewardFrameTemplate)
 --- @type LFGRewardFrameTemplate_LFGRewardFrameTemplateXPAmount
 RaidFinderQueueFrameScrollFrameChildFrameXPAmount = {}
@@ -273,24 +273,24 @@ RaidFinderQueueFrameScrollFrameChildFrame["xpAmount"] = RaidFinderQueueFrameScro
 RaidFinderQueueFrameScrollFrame = {}
 RaidFinderQueueFrameScrollFrame["scrollBarHideIfUnscrollable"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1096)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1100)
 --- child of RaidFinderQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
 --- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateBackfillButton
 RaidFinderQueueFramePartyBackfillBackfillButton = {}
 RaidFinderQueueFramePartyBackfillBackfillButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1112)
 --- child of RaidFinderQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
 --- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateNoBackfillButton
 RaidFinderQueueFramePartyBackfillNoBackfillButton = {}
 RaidFinderQueueFramePartyBackfillNoBackfillButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1082)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1086)
 --- child of RaidFinderQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
 --- @type Texture
 RaidFinderQueueFramePartyBackfillBlackFilter = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1087)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1091)
 --- child of RaidFinderQueueFramePartyBackfill (created in template LFGBackfillCoverTemplate)
 --- @type LFGBackfillCoverTemplate_LFGBackfillCoverTemplateDescription
 RaidFinderQueueFramePartyBackfillDescription = {}
@@ -301,97 +301,97 @@ RaidFinderQueueFramePartyBackfillDescription = {}
 RaidFinderQueueFramePartyBackfill = {}
 RaidFinderQueueFramePartyBackfill["Description"] = RaidFinderQueueFramePartyBackfillDescription -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L960)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L964)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type Texture
 RaidFinderQueueFrameCooldownFrameBlackFilter = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L965)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L969)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateDescription
 RaidFinderQueueFrameCooldownFrameDescription = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L971)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L975)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateTime
 RaidFinderQueueFrameCooldownFrameTime = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L976)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L980)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName1
 RaidFinderQueueFrameCooldownFrameName1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L982)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L986)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus1
 RaidFinderQueueFrameCooldownFrameStatus1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L988)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L992)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName2
 RaidFinderQueueFrameCooldownFrameName2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L994)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L998)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus2
 RaidFinderQueueFrameCooldownFrameStatus2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1000)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1004)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName3
 RaidFinderQueueFrameCooldownFrameName3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1006)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1010)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus3
 RaidFinderQueueFrameCooldownFrameStatus3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1012)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1016)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName4
 RaidFinderQueueFrameCooldownFrameName4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1018)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1022)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus4
 RaidFinderQueueFrameCooldownFrameStatus4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1024)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1028)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName5
 RaidFinderQueueFrameCooldownFrameName5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1030)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1034)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus5
 RaidFinderQueueFrameCooldownFrameStatus5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1036)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1040)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName6
 RaidFinderQueueFrameCooldownFrameName6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1042)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1046)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus6
 RaidFinderQueueFrameCooldownFrameStatus6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1048)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1052)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName7
 RaidFinderQueueFrameCooldownFrameName7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1054)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1058)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus7
 RaidFinderQueueFrameCooldownFrameStatus7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1060)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1064)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName8
 RaidFinderQueueFrameCooldownFrameName8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1066)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L1070)
 --- child of RaidFinderQueueFrameCooldownFrame (created in template LFGCooldownCoverTemplate)
 --- @type LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus8
 RaidFinderQueueFrameCooldownFrameStatus8 = {}

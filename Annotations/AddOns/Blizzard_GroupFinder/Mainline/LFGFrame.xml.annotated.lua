@@ -506,43 +506,43 @@ LFGDungeonReadyPopup = {}
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L783)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L787)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateItem1 : Button, LFGRewardsLootTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L788)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L792)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateMoneyReward : Frame, LargeItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L803)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L807)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateRandomList : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L829)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L833)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateEncounterList : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L739)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateTitle : FontString, QuestTitleFontBlackShadow
+--- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateTitle : FontString, TruncatedTooltipFontStringTemplate, LFGRewardFrameTemplateTitleMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L745)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L749)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateDescription : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L754)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L758)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsLabel : FontString, QuestTitleFontBlackShadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L759)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L763)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsDescription : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L768)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L772)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateXPLabel : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L773)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L777)
 --- child of LFGRewardFrameTemplate
 --- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateXPAmount : FontString, NumberFontNormalLarge
 
@@ -560,136 +560,136 @@ LFGDungeonReadyPopup = {}
 --- @field xpLabel LFGRewardFrameTemplate_LFGRewardFrameTemplateXPLabel
 --- @field xpAmount LFGRewardFrameTemplate_LFGRewardFrameTemplateXPAmount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L858)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L862)
 --- @class LFGEventFrame : Frame
 LFGEventFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L884)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L888)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L885)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L889)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_LFGInvitePopupRoleButtonTank : Button, LFGRoleButtonTemplate
 --- @field role string # "TANK"
 LFGInvitePopupRoleButtonTank = {}
 LFGInvitePopupRoleButtonTank["role"] = "TANK"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L898)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_LFGInvitePopupRoleButtonHealer : Button, LFGRoleButtonTemplate
 --- @field role string # "HEALER"
 LFGInvitePopupRoleButtonHealer = {}
 LFGInvitePopupRoleButtonHealer["role"] = "HEALER"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L903)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L907)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_LFGInvitePopupRoleButtonDPS : Button, LFGRoleButtonTemplate
 --- @field role string # "DAMAGER"
 LFGInvitePopupRoleButtonDPS = {}
 LFGInvitePopupRoleButtonDPS["role"] = "DAMAGER"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L912)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L916)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_LFGInvitePopupAcceptButton : Button, UIPanelButtonTemplate
 LFGInvitePopupAcceptButton = {}
 LFGInvitePopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L930)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L934)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_LFGInvitePopupDeclineButton : Button, UIPanelButtonTemplate
 LFGInvitePopupDeclineButton = {}
 LFGInvitePopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L869)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L873)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_LFGInvitePopupText : FontString, GameFontHighlight
 LFGInvitePopupText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L875)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L879)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_QueueWarningText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L865)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L869)
 --- @class LFGInvitePopup : Frame
 --- @field Border LFGInvitePopup_Border
 --- @field QueueWarningText LFGInvitePopup_QueueWarningText
 --- @field RoleButtons table<number, LFGInvitePopup_LFGInvitePopupRoleButtonTank | LFGInvitePopup_LFGInvitePopupRoleButtonHealer | LFGInvitePopup_LFGInvitePopupRoleButtonDPS>
 LFGInvitePopup = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L965)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L969)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateDescription : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L971)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L975)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateTime : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L976)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L980)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName1 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L982)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L986)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus1 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L988)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L992)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName2 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L994)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L998)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus2 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1000)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1004)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName3 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1006)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1010)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus3 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1012)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1016)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName4 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1018)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1022)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus4 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1024)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1028)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName5 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1030)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1034)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus5 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1036)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1040)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName6 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1042)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1046)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus6 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1048)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1052)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName7 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1054)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1058)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus7 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1060)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1064)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName8 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1066)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1070)
 --- child of LFGCooldownCoverTemplate
 --- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus8 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L957)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L961)
 --- Template
 --- @class LFGCooldownCoverTemplate : Frame
 --- @field description LFGCooldownCoverTemplate_LFGCooldownCoverTemplateDescription
@@ -697,19 +697,19 @@ LFGInvitePopup = {}
 --- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName1 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName2 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName3 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName4 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName5 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName6 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName7 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName8>
 --- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus1 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus2 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus3 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus4 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus5 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus6 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus7 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus8>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1096)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1100)
 --- child of LFGBackfillCoverTemplate
 --- @class LFGBackfillCoverTemplate_LFGBackfillCoverTemplateBackfillButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1112)
 --- child of LFGBackfillCoverTemplate
 --- @class LFGBackfillCoverTemplate_LFGBackfillCoverTemplateNoBackfillButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1087)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1091)
 --- child of LFGBackfillCoverTemplate
 --- @class LFGBackfillCoverTemplate_LFGBackfillCoverTemplateDescription : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1079)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1083)
 --- Template
 --- Adds itself to the parent with key `PartyBackfill`
 --- @class LFGBackfillCoverTemplate : Frame

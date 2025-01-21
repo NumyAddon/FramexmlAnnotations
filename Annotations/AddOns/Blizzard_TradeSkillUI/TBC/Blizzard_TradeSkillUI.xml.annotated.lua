@@ -108,13 +108,11 @@ TradeSkillExpandButtonFrame = {}
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillInvSlotDropdown : DropdownButton, WowStyle1DropdownTemplate
 TradeSkillInvSlotDropdown = {}
-TradeSkillInvSlotDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/TBC/Blizzard_TradeSkillUI.xml#L396)
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillSubClassDropdown : DropdownButton, WowStyle1DropdownTemplate
 TradeSkillSubClassDropdown = {}
-TradeSkillSubClassDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/TBC/Blizzard_TradeSkillUI.xml#L415)
 --- child of TradeSkillHighlightFrame

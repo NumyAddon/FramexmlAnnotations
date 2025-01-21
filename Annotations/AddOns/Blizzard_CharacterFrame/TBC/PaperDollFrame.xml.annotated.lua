@@ -50,7 +50,6 @@
 --- child of PaperDollFrame
 --- @class PaperDollFrame_PlayerTitleDropdown : Frame, WowStyle1DropdownTemplate
 PlayerTitleDropdown = {}
-PlayerTitleDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L234)
 --- child of CharacterModelFrame
@@ -67,16 +66,16 @@ CharacterModelFrameRotateLeftButton = {}
 --- @class PaperDollFrame_CharacterModelFrame : PlayerModel
 CharacterModelFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameLeft1 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameLeft1Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameLeft1 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameLeft1Label = {}
@@ -87,16 +86,16 @@ PlayerStatFrameLeft1Label = {}
 PlayerStatFrameLeft1 = {}
 PlayerStatFrameLeft1["Label"] = PlayerStatFrameLeft1Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameLeft2 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameLeft2Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameLeft2 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameLeft2Label = {}
@@ -107,16 +106,16 @@ PlayerStatFrameLeft2Label = {}
 PlayerStatFrameLeft2 = {}
 PlayerStatFrameLeft2["Label"] = PlayerStatFrameLeft2Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameLeft3 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameLeft3Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameLeft3 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameLeft3Label = {}
@@ -127,16 +126,16 @@ PlayerStatFrameLeft3Label = {}
 PlayerStatFrameLeft3 = {}
 PlayerStatFrameLeft3["Label"] = PlayerStatFrameLeft3Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameLeft4 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameLeft4Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameLeft4 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameLeft4Label = {}
@@ -147,16 +146,16 @@ PlayerStatFrameLeft4Label = {}
 PlayerStatFrameLeft4 = {}
 PlayerStatFrameLeft4["Label"] = PlayerStatFrameLeft4Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameLeft5 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameLeft5Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameLeft5 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameLeft5Label = {}
@@ -167,16 +166,16 @@ PlayerStatFrameLeft5Label = {}
 PlayerStatFrameLeft5 = {}
 PlayerStatFrameLeft5["Label"] = PlayerStatFrameLeft5Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameLeft6 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameLeft6Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameLeft6 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameLeft6Label = {}
@@ -187,16 +186,16 @@ PlayerStatFrameLeft6Label = {}
 PlayerStatFrameLeft6 = {}
 PlayerStatFrameLeft6["Label"] = PlayerStatFrameLeft6Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameRight1 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameRight1Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameRight1 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameRight1Label = {}
@@ -207,16 +206,16 @@ PlayerStatFrameRight1Label = {}
 PlayerStatFrameRight1 = {}
 PlayerStatFrameRight1["Label"] = PlayerStatFrameRight1Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameRight2 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameRight2Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameRight2 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameRight2Label = {}
@@ -227,16 +226,16 @@ PlayerStatFrameRight2Label = {}
 PlayerStatFrameRight2 = {}
 PlayerStatFrameRight2["Label"] = PlayerStatFrameRight2Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameRight3 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameRight3Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameRight3 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameRight3Label = {}
@@ -247,16 +246,16 @@ PlayerStatFrameRight3Label = {}
 PlayerStatFrameRight3 = {}
 PlayerStatFrameRight3["Label"] = PlayerStatFrameRight3Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameRight4 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameRight4Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameRight4 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameRight4Label = {}
@@ -267,16 +266,16 @@ PlayerStatFrameRight4Label = {}
 PlayerStatFrameRight4 = {}
 PlayerStatFrameRight4["Label"] = PlayerStatFrameRight4Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameRight5 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameRight5Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameRight5 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameRight5Label = {}
@@ -287,16 +286,16 @@ PlayerStatFrameRight5Label = {}
 PlayerStatFrameRight5 = {}
 PlayerStatFrameRight5["Label"] = PlayerStatFrameRight5Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L64)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L55)
 --- child of PlayerStatFrameRight6 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PlayerStatFrameRight6Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L47)
 --- child of PlayerStatFrameRight6 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PlayerStatFrameRight6Label = {}
@@ -311,13 +310,11 @@ PlayerStatFrameRight6["Label"] = PlayerStatFrameRight6Label -- inherited
 --- child of CharacterAttributesFrame
 --- @class PaperDollFrame_CharacterAttributesFrame_PlayerStatFrameLeftDropdown : Frame, WowStyle1DropdownTemplate
 PlayerStatFrameLeftDropdown = {}
-PlayerStatFrameLeftDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L510)
 --- child of CharacterAttributesFrame
 --- @class PaperDollFrame_CharacterAttributesFrame_PlayerStatFrameRightDropdown : Frame, WowStyle1DropdownTemplate
 PlayerStatFrameRightDropdown = {}
-PlayerStatFrameRightDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L312)
 --- child of CharacterAttributesFrame
@@ -413,7 +410,7 @@ MagicResFrame5 = {}
 --- @class PaperDollFrame_CharacterResistanceFrame : Frame
 CharacterResistanceFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterHeadSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterHeadSlotCooldown = {}
@@ -457,7 +454,7 @@ CharacterHeadSlot["Count"] = CharacterHeadSlotCount -- inherited
 CharacterHeadSlot["searchOverlay"] = CharacterHeadSlotSearchOverlay -- inherited
 CharacterHeadSlot["subicon"] = CharacterHeadSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterNeckSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterNeckSlotCooldown = {}
@@ -501,7 +498,7 @@ CharacterNeckSlot["Count"] = CharacterNeckSlotCount -- inherited
 CharacterNeckSlot["searchOverlay"] = CharacterNeckSlotSearchOverlay -- inherited
 CharacterNeckSlot["subicon"] = CharacterNeckSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterShoulderSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterShoulderSlotCooldown = {}
@@ -545,7 +542,7 @@ CharacterShoulderSlot["Count"] = CharacterShoulderSlotCount -- inherited
 CharacterShoulderSlot["searchOverlay"] = CharacterShoulderSlotSearchOverlay -- inherited
 CharacterShoulderSlot["subicon"] = CharacterShoulderSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterBackSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterBackSlotCooldown = {}
@@ -589,7 +586,7 @@ CharacterBackSlot["Count"] = CharacterBackSlotCount -- inherited
 CharacterBackSlot["searchOverlay"] = CharacterBackSlotSearchOverlay -- inherited
 CharacterBackSlot["subicon"] = CharacterBackSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterChestSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterChestSlotCooldown = {}
@@ -633,7 +630,7 @@ CharacterChestSlot["Count"] = CharacterChestSlotCount -- inherited
 CharacterChestSlot["searchOverlay"] = CharacterChestSlotSearchOverlay -- inherited
 CharacterChestSlot["subicon"] = CharacterChestSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterShirtSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterShirtSlotCooldown = {}
@@ -677,7 +674,7 @@ CharacterShirtSlot["Count"] = CharacterShirtSlotCount -- inherited
 CharacterShirtSlot["searchOverlay"] = CharacterShirtSlotSearchOverlay -- inherited
 CharacterShirtSlot["subicon"] = CharacterShirtSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterTabardSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterTabardSlotCooldown = {}
@@ -721,7 +718,7 @@ CharacterTabardSlot["Count"] = CharacterTabardSlotCount -- inherited
 CharacterTabardSlot["searchOverlay"] = CharacterTabardSlotSearchOverlay -- inherited
 CharacterTabardSlot["subicon"] = CharacterTabardSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterWristSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterWristSlotCooldown = {}
@@ -765,7 +762,7 @@ CharacterWristSlot["Count"] = CharacterWristSlotCount -- inherited
 CharacterWristSlot["searchOverlay"] = CharacterWristSlotSearchOverlay -- inherited
 CharacterWristSlot["subicon"] = CharacterWristSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterHandsSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterHandsSlotCooldown = {}
@@ -809,7 +806,7 @@ CharacterHandsSlot["Count"] = CharacterHandsSlotCount -- inherited
 CharacterHandsSlot["searchOverlay"] = CharacterHandsSlotSearchOverlay -- inherited
 CharacterHandsSlot["subicon"] = CharacterHandsSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterWaistSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterWaistSlotCooldown = {}
@@ -853,7 +850,7 @@ CharacterWaistSlot["Count"] = CharacterWaistSlotCount -- inherited
 CharacterWaistSlot["searchOverlay"] = CharacterWaistSlotSearchOverlay -- inherited
 CharacterWaistSlot["subicon"] = CharacterWaistSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterLegsSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterLegsSlotCooldown = {}
@@ -897,7 +894,7 @@ CharacterLegsSlot["Count"] = CharacterLegsSlotCount -- inherited
 CharacterLegsSlot["searchOverlay"] = CharacterLegsSlotSearchOverlay -- inherited
 CharacterLegsSlot["subicon"] = CharacterLegsSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterFeetSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterFeetSlotCooldown = {}
@@ -941,7 +938,7 @@ CharacterFeetSlot["Count"] = CharacterFeetSlotCount -- inherited
 CharacterFeetSlot["searchOverlay"] = CharacterFeetSlotSearchOverlay -- inherited
 CharacterFeetSlot["subicon"] = CharacterFeetSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterFinger0Slot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterFinger0SlotCooldown = {}
@@ -985,7 +982,7 @@ CharacterFinger0Slot["Count"] = CharacterFinger0SlotCount -- inherited
 CharacterFinger0Slot["searchOverlay"] = CharacterFinger0SlotSearchOverlay -- inherited
 CharacterFinger0Slot["subicon"] = CharacterFinger0SlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterFinger1Slot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterFinger1SlotCooldown = {}
@@ -1029,7 +1026,7 @@ CharacterFinger1Slot["Count"] = CharacterFinger1SlotCount -- inherited
 CharacterFinger1Slot["searchOverlay"] = CharacterFinger1SlotSearchOverlay -- inherited
 CharacterFinger1Slot["subicon"] = CharacterFinger1SlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterTrinket0Slot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterTrinket0SlotCooldown = {}
@@ -1073,7 +1070,7 @@ CharacterTrinket0Slot["Count"] = CharacterTrinket0SlotCount -- inherited
 CharacterTrinket0Slot["searchOverlay"] = CharacterTrinket0SlotSearchOverlay -- inherited
 CharacterTrinket0Slot["subicon"] = CharacterTrinket0SlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterTrinket1Slot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterTrinket1SlotCooldown = {}
@@ -1117,7 +1114,7 @@ CharacterTrinket1Slot["Count"] = CharacterTrinket1SlotCount -- inherited
 CharacterTrinket1Slot["searchOverlay"] = CharacterTrinket1SlotSearchOverlay -- inherited
 CharacterTrinket1Slot["subicon"] = CharacterTrinket1SlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterMainHandSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterMainHandSlotCooldown = {}
@@ -1161,7 +1158,7 @@ CharacterMainHandSlot["Count"] = CharacterMainHandSlotCount -- inherited
 CharacterMainHandSlot["searchOverlay"] = CharacterMainHandSlotSearchOverlay -- inherited
 CharacterMainHandSlot["subicon"] = CharacterMainHandSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterSecondaryHandSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterSecondaryHandSlotCooldown = {}
@@ -1205,7 +1202,7 @@ CharacterSecondaryHandSlot["Count"] = CharacterSecondaryHandSlotCount -- inherit
 CharacterSecondaryHandSlot["searchOverlay"] = CharacterSecondaryHandSlotSearchOverlay -- inherited
 CharacterSecondaryHandSlot["subicon"] = CharacterSecondaryHandSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/TBC/PaperDollFrame.xml#L5)
 --- child of CharacterRangedSlot (created in template PaperDollItemSlotButtonTemplate)
 --- @type PaperDollItemSlotButtonTemplate_PaperDollItemSlotButtonTemplateCooldown
 CharacterRangedSlotCooldown = {}

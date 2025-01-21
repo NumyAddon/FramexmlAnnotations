@@ -92,7 +92,6 @@ CompactRaidFrameManagerDisplayFrameOptionFlowContainer = {}
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameProfileSelector : DropdownButton, WowStyle1DropdownTemplate
 CompactRaidFrameManagerDisplayFrameProfileSelector = {}
-CompactRaidFrameManagerDisplayFrameProfileSelector["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L6)
 --- child of CompactRaidFrameManagerDisplayFrameFilterOptionsFilterGroup1 (created in template CRFManagerFilterButtonTemplate)

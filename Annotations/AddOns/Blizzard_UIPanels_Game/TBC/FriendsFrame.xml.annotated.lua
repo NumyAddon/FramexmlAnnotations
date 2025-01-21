@@ -291,7 +291,6 @@ FriendsFrameBattlenetFrame = {}
 --- child of FriendsTabHeader
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameStatusDropdown : DropdownButton, WowStyle1DropdownTemplate
 FriendsFrameStatusDropdown = {}
-FriendsFrameStatusDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L1109)
 --- child of FriendsFrameBroadcastInput
@@ -610,7 +609,7 @@ FriendsFrameIgnorePlayerButton["fitTextCanWidthDecrease"] = true -- inherited
 FriendsFrameUnsquelchButton = {}
 FriendsFrameUnsquelchButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L27)
 --- child of FriendsFrameIgnoredHeader (created in template FriendsFrameHeaderTemplate)
 --- @type FriendsFrameHeaderTemplate_FriendsFrameHeaderTemplateTitle
 FriendsFrameIgnoredHeaderTitle = {}
@@ -620,7 +619,7 @@ FriendsFrameIgnoredHeaderTitle = {}
 --- @class FriendsFrame_IgnoreListFrame_FriendsFrameIgnoredHeader : Frame, FriendsFrameHeaderTemplate
 FriendsFrameIgnoredHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L27)
 --- child of FriendsFrameBlockedInviteHeader (created in template FriendsFrameHeaderTemplate)
 --- @type FriendsFrameHeaderTemplate_FriendsFrameHeaderTemplateTitle
 FriendsFrameBlockedInviteHeaderTitle = {}
@@ -630,7 +629,7 @@ FriendsFrameBlockedInviteHeaderTitle = {}
 --- @class FriendsFrame_IgnoreListFrame_FriendsFrameBlockedInviteHeader : Frame, FriendsFrameHeaderTemplate
 FriendsFrameBlockedInviteHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L27)
 --- child of FriendsFrameMutedHeader (created in template FriendsFrameHeaderTemplate)
 --- @type FriendsFrameHeaderTemplate_FriendsFrameHeaderTemplateTitle
 FriendsFrameMutedHeaderTitle = {}
@@ -640,7 +639,7 @@ FriendsFrameMutedHeaderTitle = {}
 --- @class FriendsFrame_IgnoreListFrame_FriendsFrameMutedHeader : Frame, FriendsFrameHeaderTemplate
 FriendsFrameMutedHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L261)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L258)
 --- child of FriendsFrameIgnoreButton1 (created in template FriendsFrameIgnoreButtonTemplate)
 --- @type FriendsFrameIgnoreButtonTemplate_FriendsFrameIgnoreButtonTemplateName
 FriendsFrameIgnoreButton1Name = {}
@@ -770,22 +769,22 @@ WhoFrameListInset["InsetBorderBottom"] = WhoFrameListInsetInsetBottomBorder -- i
 WhoFrameListInset["InsetBorderLeft"] = WhoFrameListInsetInsetLeftBorder -- inherited
 WhoFrameListInset["InsetBorderRight"] = WhoFrameListInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L364)
 --- child of WhoFrameColumnHeader1 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader1Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L371)
 --- child of WhoFrameColumnHeader1 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader1Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L378)
 --- child of WhoFrameColumnHeader1 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L404)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L401)
 --- child of WhoFrameColumnHeader1 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader1HighlightTexture = {}
@@ -804,24 +803,23 @@ WhoFrameColumnHeader1["HighlightTexture"] = WhoFrameColumnHeader1HighlightTextur
 --- @class FriendsFrame_WhoFrame_WhoFrameColumnHeader2_WhoFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 --- @field TabHighlight Texture
 WhoFrameDropdown = {}
-WhoFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L364)
 --- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader2Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L371)
 --- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader2Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L378)
 --- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L404)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L401)
 --- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader2HighlightTexture = {}
@@ -835,22 +833,22 @@ WhoFrameColumnHeader2["Middle"] = WhoFrameColumnHeader2Middle -- inherited
 WhoFrameColumnHeader2["Right"] = WhoFrameColumnHeader2Right -- inherited
 WhoFrameColumnHeader2["HighlightTexture"] = WhoFrameColumnHeader2HighlightTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L364)
 --- child of WhoFrameColumnHeader3 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader3Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L371)
 --- child of WhoFrameColumnHeader3 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader3Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L378)
 --- child of WhoFrameColumnHeader3 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L404)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L401)
 --- child of WhoFrameColumnHeader3 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader3HighlightTexture = {}
@@ -864,22 +862,22 @@ WhoFrameColumnHeader3["Middle"] = WhoFrameColumnHeader3Middle -- inherited
 WhoFrameColumnHeader3["Right"] = WhoFrameColumnHeader3Right -- inherited
 WhoFrameColumnHeader3["HighlightTexture"] = WhoFrameColumnHeader3HighlightTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L364)
 --- child of WhoFrameColumnHeader4 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader4Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L371)
 --- child of WhoFrameColumnHeader4 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader4Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L378)
 --- child of WhoFrameColumnHeader4 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader4Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L404)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L401)
 --- child of WhoFrameColumnHeader4 (created in template WhoFrameColumnHeaderTemplate)
 --- @type Texture
 WhoFrameColumnHeader4HighlightTexture = {}
@@ -893,22 +891,22 @@ WhoFrameColumnHeader4["Middle"] = WhoFrameColumnHeader4Middle -- inherited
 WhoFrameColumnHeader4["Right"] = WhoFrameColumnHeader4Right -- inherited
 WhoFrameColumnHeader4["HighlightTexture"] = WhoFrameColumnHeader4HighlightTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L295)
 --- child of WhoFrameButton1 (created in template FriendsFrameWhoButtonTemplate)
 --- @type FriendsFrameWhoButtonTemplate_FriendsFrameWhoButtonTemplateName
 WhoFrameButton1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L301)
 --- child of WhoFrameButton1 (created in template FriendsFrameWhoButtonTemplate)
 --- @type FriendsFrameWhoButtonTemplate_FriendsFrameWhoButtonTemplateVariable
 WhoFrameButton1Variable = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L307)
 --- child of WhoFrameButton1 (created in template FriendsFrameWhoButtonTemplate)
 --- @type FriendsFrameWhoButtonTemplate_FriendsFrameWhoButtonTemplateLevel
 WhoFrameButton1Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L313)
 --- child of WhoFrameButton1 (created in template FriendsFrameWhoButtonTemplate)
 --- @type FriendsFrameWhoButtonTemplate_FriendsFrameWhoButtonTemplateClass
 WhoFrameButton1Class = {}
@@ -1071,17 +1069,17 @@ GuildFrameLFGFrameLeft = {}
 --- @class FriendsFrame_GuildFrame_GuildFrameLFGFrame : Frame
 GuildFrameLFGFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L582)
 --- child of GuildFrameColumnHeader1 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader1Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L591)
 --- child of GuildFrameColumnHeader1 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader1Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L600)
 --- child of GuildFrameColumnHeader1 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader1Right = {}
@@ -1091,17 +1089,17 @@ GuildFrameColumnHeader1Right = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameColumnHeader1 : Button, GuildFrameColumnHeaderTemplate
 GuildFrameColumnHeader1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L582)
 --- child of GuildFrameColumnHeader2 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader2Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L591)
 --- child of GuildFrameColumnHeader2 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader2Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L600)
 --- child of GuildFrameColumnHeader2 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader2Right = {}
@@ -1111,17 +1109,17 @@ GuildFrameColumnHeader2Right = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameColumnHeader2 : Button, GuildFrameColumnHeaderTemplate
 GuildFrameColumnHeader2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L582)
 --- child of GuildFrameColumnHeader3 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader3Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L591)
 --- child of GuildFrameColumnHeader3 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader3Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L600)
 --- child of GuildFrameColumnHeader3 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader3Right = {}
@@ -1131,17 +1129,17 @@ GuildFrameColumnHeader3Right = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameColumnHeader3 : Button, GuildFrameColumnHeaderTemplate
 GuildFrameColumnHeader3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L582)
 --- child of GuildFrameColumnHeader4 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader4Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L591)
 --- child of GuildFrameColumnHeader4 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader4Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L600)
 --- child of GuildFrameColumnHeader4 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameColumnHeader4Right = {}
@@ -1151,27 +1149,27 @@ GuildFrameColumnHeader4Right = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameColumnHeader4 : Button, GuildFrameColumnHeaderTemplate
 GuildFrameColumnHeader4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton1 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton1 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton1Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton1 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton1Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton1 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton1Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton1 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton1Group = {}
@@ -1181,27 +1179,27 @@ GuildFrameButton1Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton1 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton2 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton2Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton2 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton2Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton2 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton2Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton2 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton2Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton2 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton2Group = {}
@@ -1211,27 +1209,27 @@ GuildFrameButton2Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton2 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton3 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton3Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton3 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton3Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton3 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton3Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton3 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton3Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton3 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton3Group = {}
@@ -1241,27 +1239,27 @@ GuildFrameButton3Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton3 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton4 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton4Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton4 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton4Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton4 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton4Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton4 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton4Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton4 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton4Group = {}
@@ -1271,27 +1269,27 @@ GuildFrameButton4Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton4 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton5 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton5Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton5 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton5Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton5 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton5Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton5 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton5Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton5 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton5Group = {}
@@ -1301,27 +1299,27 @@ GuildFrameButton5Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton5 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton6 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton6Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton6 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton6Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton6 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton6Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton6 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton6Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton6 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton6Group = {}
@@ -1331,27 +1329,27 @@ GuildFrameButton6Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton6 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton7 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton7Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton7 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton7Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton7 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton7Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton7 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton7Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton7 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton7Group = {}
@@ -1361,27 +1359,27 @@ GuildFrameButton7Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton7 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton8 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton8Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton8 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton8Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton8 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton8Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton8 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton8Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton8 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton8Group = {}
@@ -1391,27 +1389,27 @@ GuildFrameButton8Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton8 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton9 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton9Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton9 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton9Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton9 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton9Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton9 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton9Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton9 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton9Group = {}
@@ -1421,27 +1419,27 @@ GuildFrameButton9Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton9 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton10 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton10Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton10 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton10Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton10 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton10Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton10 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton10Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton10 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton10Group = {}
@@ -1451,27 +1449,27 @@ GuildFrameButton10Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton10 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton11 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton11Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton11 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton11Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton11 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton11Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton11 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton11Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton11 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton11Group = {}
@@ -1481,27 +1479,27 @@ GuildFrameButton11Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton11 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton12 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton12Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton12 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton12Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton12 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton12Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton12 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton12Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton12 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton12Group = {}
@@ -1511,27 +1509,27 @@ GuildFrameButton12Group = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame_GuildFrameButton12 : Button, FriendsFrameGuildPlayerStatusButtonTemplate
 GuildFrameButton12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L417)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L414)
 --- child of GuildFrameButton13 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateName
 GuildFrameButton13Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L426)
 --- child of GuildFrameButton13 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateZone
 GuildFrameButton13Zone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L438)
 --- child of GuildFrameButton13 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateLevel
 GuildFrameButton13Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L453)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L450)
 --- child of GuildFrameButton13 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateClass
 GuildFrameButton13Class = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L465)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L462)
 --- child of GuildFrameButton13 (created in template FriendsFrameGuildPlayerStatusButtonTemplate)
 --- @type FriendsFrameGuildPlayerStatusButtonTemplate_FriendsFrameGuildPlayerStatusButtonTemplateGroup
 GuildFrameButton13Group = {}
@@ -1546,17 +1544,17 @@ GuildFrameButton13 = {}
 --- @class FriendsFrame_GuildFrame_GuildPlayerStatusFrame : Frame
 GuildPlayerStatusFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L582)
 --- child of GuildFrameGuildStatusColumnHeader1 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader1Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L591)
 --- child of GuildFrameGuildStatusColumnHeader1 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader1Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L600)
 --- child of GuildFrameGuildStatusColumnHeader1 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader1Right = {}
@@ -1566,17 +1564,17 @@ GuildFrameGuildStatusColumnHeader1Right = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusColumnHeader1 : Button, GuildFrameColumnHeaderTemplate
 GuildFrameGuildStatusColumnHeader1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L582)
 --- child of GuildFrameGuildStatusColumnHeader2 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader2Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L591)
 --- child of GuildFrameGuildStatusColumnHeader2 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader2Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L600)
 --- child of GuildFrameGuildStatusColumnHeader2 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader2Right = {}
@@ -1586,17 +1584,17 @@ GuildFrameGuildStatusColumnHeader2Right = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusColumnHeader2 : Button, GuildFrameColumnHeaderTemplate
 GuildFrameGuildStatusColumnHeader2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L582)
 --- child of GuildFrameGuildStatusColumnHeader3 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader3Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L591)
 --- child of GuildFrameGuildStatusColumnHeader3 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader3Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L600)
 --- child of GuildFrameGuildStatusColumnHeader3 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader3Right = {}
@@ -1606,17 +1604,17 @@ GuildFrameGuildStatusColumnHeader3Right = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusColumnHeader3 : Button, GuildFrameColumnHeaderTemplate
 GuildFrameGuildStatusColumnHeader3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L582)
 --- child of GuildFrameGuildStatusColumnHeader4 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader4Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L591)
 --- child of GuildFrameGuildStatusColumnHeader4 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader4Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L600)
 --- child of GuildFrameGuildStatusColumnHeader4 (created in template GuildFrameColumnHeaderTemplate)
 --- @type Texture
 GuildFrameGuildStatusColumnHeader4Right = {}
@@ -1626,22 +1624,22 @@ GuildFrameGuildStatusColumnHeader4Right = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusColumnHeader4 : Button, GuildFrameColumnHeaderTemplate
 GuildFrameGuildStatusColumnHeader4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton1 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton1 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton1Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton1 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton1Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton1 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton1Online = {}
@@ -1651,22 +1649,22 @@ GuildFrameGuildStatusButton1Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton1 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton2 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton2Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton2 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton2Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton2 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton2Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton2 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton2Online = {}
@@ -1676,22 +1674,22 @@ GuildFrameGuildStatusButton2Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton2 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton3 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton3Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton3 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton3Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton3 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton3Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton3 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton3Online = {}
@@ -1701,22 +1699,22 @@ GuildFrameGuildStatusButton3Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton3 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton4 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton4Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton4 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton4Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton4 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton4Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton4 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton4Online = {}
@@ -1726,22 +1724,22 @@ GuildFrameGuildStatusButton4Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton4 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton5 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton5Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton5 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton5Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton5 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton5Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton5 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton5Online = {}
@@ -1751,22 +1749,22 @@ GuildFrameGuildStatusButton5Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton5 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton6 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton6Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton6 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton6Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton6 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton6Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton6 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton6Online = {}
@@ -1776,22 +1774,22 @@ GuildFrameGuildStatusButton6Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton6 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton7 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton7Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton7 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton7Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton7 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton7Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton7 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton7Online = {}
@@ -1801,22 +1799,22 @@ GuildFrameGuildStatusButton7Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton7 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton8 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton8Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton8 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton8Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton8 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton8Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton8 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton8Online = {}
@@ -1826,22 +1824,22 @@ GuildFrameGuildStatusButton8Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton8 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton9 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton9Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton9 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton9Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton9 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton9Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton9 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton9Online = {}
@@ -1851,22 +1849,22 @@ GuildFrameGuildStatusButton9Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton9 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton10 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton10Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton10 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton10Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton10 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton10Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton10 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton10Online = {}
@@ -1876,22 +1874,22 @@ GuildFrameGuildStatusButton10Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton10 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton11 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton11Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton11 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton11Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton11 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton11Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton11 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton11Online = {}
@@ -1901,22 +1899,22 @@ GuildFrameGuildStatusButton11Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton11 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton12 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton12Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton12 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton12Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton12 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton12Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton12 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton12Online = {}
@@ -1926,22 +1924,22 @@ GuildFrameGuildStatusButton12Online = {}
 --- @class FriendsFrame_GuildFrame_GuildStatusFrame_GuildFrameGuildStatusButton12 : Button, FriendsFrameGuildStatusButtonTemplate
 GuildFrameGuildStatusButton12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L507)
 --- child of GuildFrameGuildStatusButton13 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateName
 GuildFrameGuildStatusButton13Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L519)
 --- child of GuildFrameGuildStatusButton13 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateRank
 GuildFrameGuildStatusButton13Rank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L531)
 --- child of GuildFrameGuildStatusButton13 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateNote
 GuildFrameGuildStatusButton13Note = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L543)
 --- child of GuildFrameGuildStatusButton13 (created in template FriendsFrameGuildStatusButtonTemplate)
 --- @type FriendsFrameGuildStatusButtonTemplate_FriendsFrameGuildStatusButtonTemplateOnline
 GuildFrameGuildStatusButton13Online = {}
@@ -2238,7 +2236,6 @@ GuildFrame["nameAlert"] = GuildNameChangeAlertFrame
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 GuildControlPopupFrameDropdown = {}
-GuildControlPopupFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2756)
 --- child of GuildControlPopupFrameCheckboxes
@@ -2250,70 +2247,70 @@ GuildControlPopupFrameAddRankButton = {}
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameRemoveRankButton : Button
 GuildControlPopupFrameRemoveRankButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox1 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox1Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox1Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2815)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox1 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox3 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox3Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox3Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2824)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox3 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox5 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox5Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox5Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2833)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox5 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox7 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox7Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox7Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2842)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox7 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox9 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox9Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox9Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2851)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox9 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox11 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox11Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox11Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2860)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox11 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox13 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox13Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox13Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2869)
 --- child of GuildControlPopupFrameCheckboxes
@@ -2345,80 +2342,80 @@ GuildControlWithdrawGoldAmountText = {}
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlWithdrawGold : Frame
 GuildControlWithdrawGold = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox2 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox2Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox2Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2939)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox2 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox4 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox4Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox4Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2948)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox4 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox6 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox6Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox6Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2957)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox6 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox8 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox8Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox8Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2966)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox8 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox10 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox10Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox10Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2975)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox10 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox12 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox12Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox12Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2984)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox12 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox16 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox16Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox16Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L2993)
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameCheckbox16 : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlPopupFrameCheckbox16 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlPopupFrameCheckbox15 (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlPopupFrameCheckbox15Text = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlPopupFrameCheckbox15Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3019)
 --- child of GuildControlPopupFrameCheckboxes
@@ -2447,30 +2444,30 @@ GuildControlPopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameEditBox : EditBox
 GuildControlPopupFrameEditBox = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlTabPermissionsViewTab (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlTabPermissionsViewTabText = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlTabPermissionsViewTabLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3174)
 --- child of GuildControlPopupFrameTabPermissions
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameTabPermissions_GuildControlTabPermissionsViewTab : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlTabPermissionsViewTab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlTabPermissionsDepositItems (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlTabPermissionsDepositItemsText = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlTabPermissionsDepositItemsLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3188)
 --- child of GuildControlPopupFrameTabPermissions
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameTabPermissions_GuildControlTabPermissionsDepositItems : CheckButton, GuildControlPopupFrameCheckboxTemplate
 GuildControlTabPermissionsDepositItems = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L637)
 --- child of GuildControlTabPermissionsUpdateText (created in template GuildControlPopupFrameCheckboxTemplate)
---- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateText
-GuildControlTabPermissionsUpdateTextText = {}
+--- @type GuildControlPopupFrameCheckboxTemplate_GuildControlPopupFrameCheckboxTemplateLabel
+GuildControlTabPermissionsUpdateTextLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L3201)
 --- child of GuildControlPopupFrameTabPermissions
@@ -2497,7 +2494,7 @@ GuildControlTabPermissionsWithdrawItemsText = {}
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameTabPermissions_GuildControlTabPermissionsWithdrawItems : Frame
 GuildControlTabPermissionsWithdrawItems = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L672)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L669)
 --- child of GuildBankTabPermissionsTab6 (created in template GuildBankTabPermissionsTabTemplate)
 --- @type Texture
 GuildBankTabPermissionsTab6Background = {}
@@ -2507,7 +2504,7 @@ GuildBankTabPermissionsTab6Background = {}
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameTabPermissions_GuildBankTabPermissionsTab6 : Button, GuildBankTabPermissionsTabTemplate
 GuildBankTabPermissionsTab6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L672)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L669)
 --- child of GuildBankTabPermissionsTab5 (created in template GuildBankTabPermissionsTabTemplate)
 --- @type Texture
 GuildBankTabPermissionsTab5Background = {}
@@ -2517,7 +2514,7 @@ GuildBankTabPermissionsTab5Background = {}
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameTabPermissions_GuildBankTabPermissionsTab5 : Button, GuildBankTabPermissionsTabTemplate
 GuildBankTabPermissionsTab5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L672)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L669)
 --- child of GuildBankTabPermissionsTab4 (created in template GuildBankTabPermissionsTabTemplate)
 --- @type Texture
 GuildBankTabPermissionsTab4Background = {}
@@ -2527,7 +2524,7 @@ GuildBankTabPermissionsTab4Background = {}
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameTabPermissions_GuildBankTabPermissionsTab4 : Button, GuildBankTabPermissionsTabTemplate
 GuildBankTabPermissionsTab4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L672)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L669)
 --- child of GuildBankTabPermissionsTab3 (created in template GuildBankTabPermissionsTabTemplate)
 --- @type Texture
 GuildBankTabPermissionsTab3Background = {}
@@ -2537,7 +2534,7 @@ GuildBankTabPermissionsTab3Background = {}
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameTabPermissions_GuildBankTabPermissionsTab3 : Button, GuildBankTabPermissionsTabTemplate
 GuildBankTabPermissionsTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L672)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L669)
 --- child of GuildBankTabPermissionsTab2 (created in template GuildBankTabPermissionsTabTemplate)
 --- @type Texture
 GuildBankTabPermissionsTab2Background = {}
@@ -2547,7 +2544,7 @@ GuildBankTabPermissionsTab2Background = {}
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameTabPermissions_GuildBankTabPermissionsTab2 : Button, GuildBankTabPermissionsTabTemplate
 GuildBankTabPermissionsTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L672)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L669)
 --- child of GuildBankTabPermissionsTab1 (created in template GuildBankTabPermissionsTabTemplate)
 --- @type Texture
 GuildBankTabPermissionsTab1Background = {}
@@ -3485,7 +3482,6 @@ AddFriendFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsFrame_FriendsFriendsFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 FriendsFriendsFrameDropdown = {}
-FriendsFriendsFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L4516)
 --- child of FriendsFriendsFrame
@@ -3495,7 +3491,7 @@ FriendsFriendsList = {}
 FriendsFriendsList["backdropColor"] = BLACK_FONT_COLOR
 FriendsFriendsList["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton1 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton1Name = {}
@@ -3506,7 +3502,7 @@ FriendsFriendsButton1Name = {}
 FriendsFriendsButton1 = {}
 FriendsFriendsButton1["name"] = FriendsFriendsButton1Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton2 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton2Name = {}
@@ -3517,7 +3513,7 @@ FriendsFriendsButton2Name = {}
 FriendsFriendsButton2 = {}
 FriendsFriendsButton2["name"] = FriendsFriendsButton2Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton3 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton3Name = {}
@@ -3528,7 +3524,7 @@ FriendsFriendsButton3Name = {}
 FriendsFriendsButton3 = {}
 FriendsFriendsButton3["name"] = FriendsFriendsButton3Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton4 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton4Name = {}
@@ -3539,7 +3535,7 @@ FriendsFriendsButton4Name = {}
 FriendsFriendsButton4 = {}
 FriendsFriendsButton4["name"] = FriendsFriendsButton4Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton5 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton5Name = {}
@@ -3550,7 +3546,7 @@ FriendsFriendsButton5Name = {}
 FriendsFriendsButton5 = {}
 FriendsFriendsButton5["name"] = FriendsFriendsButton5Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton6 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton6Name = {}
@@ -3561,7 +3557,7 @@ FriendsFriendsButton6Name = {}
 FriendsFriendsButton6 = {}
 FriendsFriendsButton6["name"] = FriendsFriendsButton6Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton7 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton7Name = {}
@@ -3572,7 +3568,7 @@ FriendsFriendsButton7Name = {}
 FriendsFriendsButton7 = {}
 FriendsFriendsButton7["name"] = FriendsFriendsButton7Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton8 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton8Name = {}
@@ -3583,7 +3579,7 @@ FriendsFriendsButton8Name = {}
 FriendsFriendsButton8 = {}
 FriendsFriendsButton8["name"] = FriendsFriendsButton8Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton9 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton9Name = {}
@@ -3594,7 +3590,7 @@ FriendsFriendsButton9Name = {}
 FriendsFriendsButton9 = {}
 FriendsFriendsButton9["name"] = FriendsFriendsButton9Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton10 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton10Name = {}
@@ -3605,7 +3601,7 @@ FriendsFriendsButton10Name = {}
 FriendsFriendsButton10 = {}
 FriendsFriendsButton10["name"] = FriendsFriendsButton10Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton11 (created in template FriendsFriendsButtonTemplate)
 --- @type FriendsFriendsButtonTemplate_FriendsFriendsButtonTemplateName
 FriendsFriendsButton11Name = {}

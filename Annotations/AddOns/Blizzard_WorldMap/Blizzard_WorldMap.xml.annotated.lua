@@ -50,19 +50,16 @@ WorldMapTitleButton = {}
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapContinentDropdown : DropdownButton, WowStyle1DropdownTemplate
 WorldMapContinentDropdown = {}
-WorldMapContinentDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L296)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapZoneDropdown : DropdownButton, WowStyle1DropdownTemplate
 WorldMapZoneDropdown = {}
-WorldMapZoneDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L322)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_WorldMapZoneMinimapDropdown : DropdownButton, WowStyle1DropdownTemplate
 WorldMapZoneMinimapDropdown = {}
-WorldMapZoneMinimapDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L350)
 --- child of WorldMapFrame

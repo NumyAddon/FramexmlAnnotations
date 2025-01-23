@@ -27,12 +27,12 @@ HelpBrowser = {}
 --- child of HelpFrame
 --- @class HelpFrame_SpinnerOverlay : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L1728)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L1686)
 --- child of HelpFrame (created in template DefaultPanelTemplate)
 --- @type Texture
 HelpFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L1736)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L1694)
 --- child of HelpFrame (created in template DefaultPanelTemplate)
 --- @type DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks
 HelpFrameTopTileStreaks = {}

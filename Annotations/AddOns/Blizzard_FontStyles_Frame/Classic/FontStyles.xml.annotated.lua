@@ -202,237 +202,281 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L131)
 --- Template
---- @class QuestTitleFont : Font, QuestFont_Shadow_Huge
+--- @class GameFontNormalSmallBattleNetBlueLeft : Font, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L135)
 --- Template
---- @class QuestTitleFontBlackShadow : Font, QuestFont_Shadow_Huge
+--- @class Number13FontWhite : Font, Number13Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L145)
 --- Template
---- @class QuestTitleFontBlackShadowSmaller : Font, QuestFont_Shadow_Larger
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L152)
---- Template
---- @class QuestFont : Font, SystemFont_Med2
+--- @class Number13FontYellow : Font, Number13Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L155)
 --- Template
---- @class QuestFontLeft : Font, QuestFont
+--- @class Number13FontGray : Font, Number13Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L165)
 --- Template
---- @class QuestFontNormalSmall : Font, GameFontBlack
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L160)
---- Template
---- @class QuestDifficulty_Impossible : Font, GameFontNormalLeft
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L163)
---- Template
---- @class QuestDifficulty_VeryDifficult : Font, GameFontNormalLeft
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L166)
---- Template
---- @class QuestDifficulty_Difficult : Font, GameFontNormalLeft
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L169)
---- Template
---- @class QuestDifficulty_Standard : Font, GameFontNormalLeft
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L172)
---- Template
---- @class QuestDifficulty_Trivial : Font, GameFontNormalLeft
+--- @class PriceFontWhite : Font, PriceFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L175)
 --- Template
---- @class QuestDifficulty_Header : Font, GameFontNormalLeft
+--- @class PriceFontGray : Font, PriceFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L185)
 --- Template
---- @class ItemTextFontNormal : Font, QuestFont_Large
+--- @class PriceFontRed : Font, PriceFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L195)
 --- Template
---- @class MailTextFontNormal : Font, MailFont_Large
+--- @class PriceFontGreen : Font, PriceFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L187)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L205)
 --- Template
---- @class SubSpellFont : Font, SpellFont_Small
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L190)
---- Template
---- @class NewSubSpellFont : Font, SubSpellFont
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L200)
---- Template
---- @class DialogButtonNormalText : Font, SystemFont_Large
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L203)
---- Template
---- @class DialogButtonHighlightText : Font, DialogButtonNormalText
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L207)
---- Template
---- @class ZoneTextFont : Font, SystemFont_OutlineThick_WTF
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L210)
---- Template
---- @class SubZoneTextFont : Font, SystemFont_OutlineThick_Huge4
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L211)
---- Template
---- @class PVPInfoTextFont : Font, SystemFont_OutlineThick_Huge2
+--- @class Number14FontGray : Font, NumberFont_Normal_Med
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L212)
 --- Template
---- @class ErrorFont : Font, GameFontNormalLarge
+--- @class Number15FontWhite : Font, Number15Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L222)
 --- Template
---- @class TextStatusBarText : Font, NumberFontNormal
+--- @class QuestTitleFont : Font, QuestFont_Shadow_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L225)
 --- Template
---- @class GameNormalNumberFont : Font, NumberFont_GameNormal
+--- @class QuestTitleFontBlackShadow : Font, QuestFont_Shadow_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L234)
 --- Template
---- @class WhiteNormalNumberFont : Font, NumberFont_GameNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L220)
---- Template
---- @class TextStatusBarTextLarge : Font, SystemFont_Outline
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L223)
---- Template
---- @class CombatLogFont : Font, GameFontHighlight
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L224)
---- Template
---- @class WorldMapTextFont : Font, SystemFont_OutlineThick_WTF
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L227)
---- Template
---- @class InvoiceTextFontNormal : Font, InvoiceFont_Med
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L230)
---- Template
---- @class InvoiceTextFontSmall : Font, InvoiceFont_Small
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L233)
---- Template
---- @class CombatTextFont : Font, SystemFont_World
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L236)
---- Template
---- @class CombatTextFontOutline : Font, SystemFont_World_ThickOutline
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L239)
---- Template
---- @class MovieSubtitleFont : Font, GameFontNormalHugeOutline2
+--- @class QuestTitleFontBlackShadowSmaller : Font, QuestFont_Shadow_Larger
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L243)
 --- Template
---- @class AchievementPointsFont : Font, SystemFont_Shadow_Large
+--- @class QuestFont : Font, SystemFont_Med2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L246)
 --- Template
---- @class AchievementPointsFontSmall : Font, SystemFont_Shadow_Med1
+--- @class QuestFontLeft : Font, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L247)
 --- Template
---- @class AchievementDescriptionFont : Font, SystemFont_Small
+--- @class QuestFontNormalSmall : Font, GameFontBlack
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L261)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L251)
 --- Template
---- @class AchievementCriteriaFont : Font, AchievementDescriptionFont
+--- @class QuestDifficulty_Impossible : Font, GameFontNormalLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L254)
 --- Template
---- @class AchievementDateFont : Font, AchievementFont_Small
+--- @class QuestDifficulty_VeryDifficult : Font, GameFontNormalLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L257)
 --- Template
---- @class VehicleMenuBarStatusBarText : Font, SystemFont_Shadow_Med1
+--- @class QuestDifficulty_Difficult : Font, GameFontNormalLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L260)
 --- Template
---- @class FocusFontSmall : Font, SystemFont_Shadow_Med2
+--- @class QuestDifficulty_Standard : Font, GameFontNormalLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L271)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L263)
 --- Template
---- @class ObjectiveFont : Font, GameFontHighlight
+--- @class QuestDifficulty_Trivial : Font, GameFontNormalLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L266)
+--- Template
+--- @class QuestDifficulty_Header : Font, GameFontNormalLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L270)
+--- Template
+--- @class ItemTextFontNormal : Font, QuestFont_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L274)
 --- Template
---- @class ArtifactAppearanceSetNormalFont : Font, Fancy24Font
+--- @class MailTextFontNormal : Font, MailFont_Large
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L278)
 --- Template
---- @class ArtifactAppearanceSetHighlightFont : Font, Fancy24Font
+--- @class SubSpellFont : Font, SpellFont_Small
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L281)
 --- Template
---- @class CommentatorTeamScoreFont : Font, SystemFont_Shadow_Large
+--- @class NewSubSpellFont : Font, SubSpellFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L291)
 --- Template
---- @class CommentatorDampeningFont : Font, CommentatorTeamScoreFont
+--- @class DialogButtonNormalText : Font, SystemFont_Large
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L294)
 --- Template
---- @class CommentatorTeamNameFont : Font, SystemFont_Large
+--- @class DialogButtonHighlightText : Font, DialogButtonNormalText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L298)
 --- Template
---- @class CommentatorCCFont : Font, SystemFont_OutlineThick_WTF
+--- @class ZoneTextFont : Font, SystemFont_OutlineThick_WTF
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L301)
+--- Template
+--- @class SubZoneTextFont : Font, SystemFont_OutlineThick_Huge4
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L302)
+--- Template
+--- @class PVPInfoTextFont : Font, SystemFont_OutlineThick_Huge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L303)
 --- Template
---- @class CommentatorFontSmall : Font, SystemFont_Med1
+--- @class ErrorFont : Font, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L304)
+--- Template
+--- @class TextStatusBarText : Font, NumberFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L305)
+--- Template
+--- @class GameNormalNumberFont : Font, NumberFont_GameNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L308)
 --- Template
---- @class CommentatorFontMedium : Font, SystemFont_Shadow_Large2
+--- @class WhiteNormalNumberFont : Font, NumberFont_GameNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L311)
 --- Template
---- @class CommentatorVictoryFanfare : Font, Game120Font
+--- @class TextStatusBarTextLarge : Font, SystemFont_Outline
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L323)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L314)
 --- Template
---- @class CommentatorVictoryFanfareTeam : Font, Game72Font
+--- @class CombatLogFont : Font, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L315)
 --- Template
---- @class LFGActivityHeader : Font, GameFontNormalLeft
+--- @class WorldMapTextFont : Font, SystemFont_OutlineThick_WTF
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L336)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L318)
 --- Template
---- @class LFGActivityEntry : Font, GameFontNormalLeft
+--- @class InvoiceTextFontNormal : Font, InvoiceFont_Med
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L321)
+--- Template
+--- @class InvoiceTextFontSmall : Font, InvoiceFont_Small
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L324)
+--- Template
+--- @class CombatTextFont : Font, SystemFont_World
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L327)
+--- Template
+--- @class CombatTextFontOutline : Font, SystemFont_World_ThickOutline
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L330)
+--- Template
+--- @class MovieSubtitleFont : Font, GameFontNormalHugeOutline2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L334)
+--- Template
+--- @class AchievementPointsFont : Font, SystemFont_Shadow_Large
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L337)
 --- Template
---- @class LFGActivityEntryTrivial : Font, GameFontNormalLeft
+--- @class AchievementPointsFontSmall : Font, SystemFont_Shadow_Med1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L340)
 --- Template
+--- @class AchievementDescriptionFont : Font, SystemFont_Small
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L352)
+--- Template
+--- @class AchievementCriteriaFont : Font, AchievementDescriptionFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L353)
+--- Template
+--- @class AchievementDateFont : Font, AchievementFont_Small
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L356)
+--- Template
+--- @class VehicleMenuBarStatusBarText : Font, SystemFont_Shadow_Med1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L359)
+--- Template
+--- @class FocusFontSmall : Font, SystemFont_Shadow_Med2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L362)
+--- Template
+--- @class ObjectiveFont : Font, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L365)
+--- Template
+--- @class ArtifactAppearanceSetNormalFont : Font, Fancy24Font
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L368)
+--- Template
+--- @class ArtifactAppearanceSetHighlightFont : Font, Fancy24Font
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L372)
+--- Template
+--- @class CommentatorTeamScoreFont : Font, SystemFont_Shadow_Large
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L380)
+--- Template
+--- @class CommentatorDampeningFont : Font, CommentatorTeamScoreFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L381)
+--- Template
+--- @class CommentatorTeamNameFont : Font, SystemFont_Large
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L390)
+--- Template
+--- @class CommentatorCCFont : Font, SystemFont_OutlineThick_WTF
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L394)
+--- Template
+--- @class CommentatorFontSmall : Font, SystemFont_Med1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L399)
+--- Template
+--- @class CommentatorFontMedium : Font, SystemFont_Shadow_Large2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L404)
+--- Template
+--- @class CommentatorVictoryFanfare : Font, Game120Font
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L414)
+--- Template
+--- @class CommentatorVictoryFanfareTeam : Font, Game72Font
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L424)
+--- Template
+--- @class LFGActivityHeader : Font, GameFontNormalLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L427)
+--- Template
+--- @class LFGActivityEntry : Font, GameFontNormalLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L428)
+--- Template
+--- @class LFGActivityEntryTrivial : Font, GameFontNormalLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L431)
+--- Template
+--- @class LFGActivityEntryDifficult : Font, GameFontNormalLeft
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L434)
+--- Template
 --- @class OptionsFontSmall : Font, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L341)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L435)
 --- Template
 --- @class OptionsFontHighlightSmall : Font, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L436)
 --- Template
 --- @class OptionsFontHighlight : Font, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L343)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L437)
 --- Template
 --- @class OptionsFontLarge : Font, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L344)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L438)
 --- Template
 --- @class OptionsFontLeft : Font, GameFontNormal
 

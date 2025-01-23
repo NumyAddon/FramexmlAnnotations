@@ -127,12 +127,12 @@
 --- child of EventTrace_Log_Bar
 --- @class EventTrace_Log_Bar_DiscardAllButton : Button, EventTraceMenuButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1220)
 --- child of EventTrace_Log_Bar_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 EventTraceClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1253)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1211)
 --- child of EventTrace_Log_Bar_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 EventTraceSearchIcon = {}
@@ -230,151 +230,104 @@ EventTraceSearchIcon = {}
 --- @field ScrollBox EventTrace_Filter_ScrollBox
 --- @field ScrollBar EventTrace_Filter_ScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L805)
 --- child of EventTraceInset (created in template InsetFrameTemplate)
 --- @type Texture
 EventTraceInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L804)
---- child of EventTraceInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-EventTraceInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L809)
---- child of EventTraceInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-EventTraceInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L815)
---- child of EventTraceInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-EventTraceInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L821)
---- child of EventTraceInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-EventTraceInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L827)
---- child of EventTraceInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-EventTraceInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L833)
---- child of EventTraceInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-EventTraceInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L839)
---- child of EventTraceInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-EventTraceInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L845)
---- child of EventTraceInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-EventTraceInsetInsetRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L888)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L846)
 --- child of EventTrace (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 EventTraceInset = {}
+EventTraceInset["layoutType"] = "InsetFrameTemplate" -- inherited
 EventTraceInset["Bg"] = EventTraceInsetBg -- inherited
-EventTraceInset["InsetBorderTopLeft"] = EventTraceInsetInsetTopLeftCorner -- inherited
-EventTraceInset["InsetBorderTopRight"] = EventTraceInsetInsetTopRightCorner -- inherited
-EventTraceInset["InsetBorderBottomLeft"] = EventTraceInsetInsetBotLeftCorner -- inherited
-EventTraceInset["InsetBorderBottomRight"] = EventTraceInsetInsetBotRightCorner -- inherited
-EventTraceInset["InsetBorderTop"] = EventTraceInsetInsetTopBorder -- inherited
-EventTraceInset["InsetBorderBottom"] = EventTraceInsetInsetBottomBorder -- inherited
-EventTraceInset["InsetBorderLeft"] = EventTraceInsetInsetLeftBorder -- inherited
-EventTraceInset["InsetBorderRight"] = EventTraceInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L869)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L827)
 --- child of EventTrace (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
 EventTraceBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L874)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L832)
 --- child of EventTrace (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
 EventTraceBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L879)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L837)
 --- child of EventTrace (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 EventTraceButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L657)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L663)
 --- child of EventTrace (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 EventTraceCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L569)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 EventTraceBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L575)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
 EventTraceTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L583)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 EventTracePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L591)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
 EventTracePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L596)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
 EventTraceTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L601)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
 EventTraceTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L606)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
 EventTraceTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L612)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
 EventTraceTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L621)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
 EventTraceTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L627)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
 EventTraceBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L632)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
 EventTraceBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L637)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
 EventTraceBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L637)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L643)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
 EventTraceLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L649)
 --- child of EventTrace (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
 EventTraceRightBorder = {}
@@ -403,6 +356,7 @@ EventTrace["BotRightCorner"] = EventTraceBotRightCorner -- inherited
 EventTrace["BottomBorder"] = EventTraceBottomBorder -- inherited
 EventTrace["LeftBorder"] = EventTraceLeftBorder -- inherited
 EventTrace["RightBorder"] = EventTraceRightBorder -- inherited
+EventTrace["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L35)
 --- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)

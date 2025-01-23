@@ -134,50 +134,10 @@
 --- child of ProductChoiceFrame_Inset
 --- @class ProductChoiceFrame_Inset_PageText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L805)
 --- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
 --- @type Texture
 ProductChoiceFrameBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L804)
---- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-ProductChoiceFrameInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L809)
---- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-ProductChoiceFrameInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L815)
---- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-ProductChoiceFrameInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L821)
---- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-ProductChoiceFrameInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L827)
---- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-ProductChoiceFrameInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L833)
---- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-ProductChoiceFrameInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L839)
---- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-ProductChoiceFrameInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L845)
---- child of ProductChoiceFrame_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-ProductChoiceFrameInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L161)
 --- child of ProductChoiceFrame
@@ -193,77 +153,77 @@ ProductChoiceFrameInsetRightBorder = {}
 --- child of ProductChoiceFrame
 --- @class ProductChoiceFrame_Instruction : FontString, GameFontNormalHuge3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L657)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L663)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ProductChoiceFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L569)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 ProductChoiceFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L575)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
 ProductChoiceFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L583)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 ProductChoiceFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L591)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
 ProductChoiceFramePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L596)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
 ProductChoiceFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L601)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
 ProductChoiceFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L606)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
 ProductChoiceFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L612)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
 ProductChoiceFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L621)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
 ProductChoiceFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L627)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
 ProductChoiceFrameBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L632)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
 ProductChoiceFrameBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L637)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
 ProductChoiceFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L637)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L643)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
 ProductChoiceFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ProductChoice.xml#L649)
 --- child of ProductChoiceFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
 ProductChoiceFrameRightBorder = {}
@@ -288,4 +248,5 @@ ProductChoiceFrame["BotRightCorner"] = ProductChoiceFrameBotRightCorner -- inher
 ProductChoiceFrame["BottomBorder"] = ProductChoiceFrameBottomBorder -- inherited
 ProductChoiceFrame["LeftBorder"] = ProductChoiceFrameLeftBorder -- inherited
 ProductChoiceFrame["RightBorder"] = ProductChoiceFrameRightBorder -- inherited
+ProductChoiceFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

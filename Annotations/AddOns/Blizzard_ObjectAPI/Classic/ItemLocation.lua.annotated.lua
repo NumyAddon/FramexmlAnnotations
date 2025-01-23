@@ -29,10 +29,13 @@ function ItemLocationMixin:IsBagAndSlot() end
 function ItemLocationMixin:HasAnyLocation() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L60)
+function ItemLocationMixin:IsValid() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L64)
 function ItemLocationMixin:IsEqualToBagAndSlot(otherBagID, otherSlotIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L68)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L72)
 function ItemLocationMixin:IsEqualToEquipmentSlot(otherEquipmentSlotIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ObjectAPI/Classic/ItemLocation.lua#L80)
 function ItemLocationMixin:IsEqualTo(otherItemLocation) end

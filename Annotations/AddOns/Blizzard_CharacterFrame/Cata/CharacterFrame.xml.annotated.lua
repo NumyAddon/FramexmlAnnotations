@@ -171,7 +171,7 @@ CharacterFrameTab1Middle = {}
 --- @type Texture
 CharacterFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L114)
 --- child of CharacterFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab1HighlightTexture = {}
@@ -211,7 +211,7 @@ CharacterFrameTab2Middle = {}
 --- @type Texture
 CharacterFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L114)
 --- child of CharacterFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab2HighlightTexture = {}
@@ -251,7 +251,7 @@ CharacterFrameTab3Middle = {}
 --- @type Texture
 CharacterFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L114)
 --- child of CharacterFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab3HighlightTexture = {}
@@ -291,7 +291,7 @@ CharacterFrameTab4Middle = {}
 --- @type Texture
 CharacterFrameTab4Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L114)
 --- child of CharacterFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 CharacterFrameTab4HighlightTexture = {}
@@ -301,64 +301,17 @@ CharacterFrameTab4HighlightTexture = {}
 --- @class CharacterFrame_CharacterFrameTab4 : Button, CharacterFrameTabButtonTemplate
 CharacterFrameTab4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L805)
 --- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
 --- @type Texture
 CharacterFrameInsetRightBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L804)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-CharacterFrameInsetRightInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L809)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-CharacterFrameInsetRightInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L815)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-CharacterFrameInsetRightInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L821)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-CharacterFrameInsetRightInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L827)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-CharacterFrameInsetRightInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L833)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-CharacterFrameInsetRightInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L839)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-CharacterFrameInsetRightInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L845)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-CharacterFrameInsetRightInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L344)
 --- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameInsetRight : Frame, InsetFrameTemplate
 CharacterFrameInsetRight = {}
+CharacterFrameInsetRight["layoutType"] = "InsetFrameTemplate" -- inherited
 CharacterFrameInsetRight["Bg"] = CharacterFrameInsetRightBg -- inherited
-CharacterFrameInsetRight["InsetBorderTopLeft"] = CharacterFrameInsetRightInsetTopLeftCorner -- inherited
-CharacterFrameInsetRight["InsetBorderTopRight"] = CharacterFrameInsetRightInsetTopRightCorner -- inherited
-CharacterFrameInsetRight["InsetBorderBottomLeft"] = CharacterFrameInsetRightInsetBotLeftCorner -- inherited
-CharacterFrameInsetRight["InsetBorderBottomRight"] = CharacterFrameInsetRightInsetBotRightCorner -- inherited
-CharacterFrameInsetRight["InsetBorderTop"] = CharacterFrameInsetRightInsetTopBorder -- inherited
-CharacterFrameInsetRight["InsetBorderBottom"] = CharacterFrameInsetRightInsetBottomBorder -- inherited
-CharacterFrameInsetRight["InsetBorderLeft"] = CharacterFrameInsetRightInsetLeftBorder -- inherited
-CharacterFrameInsetRight["InsetBorderRight"] = CharacterFrameInsetRightInsetRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L350)
 --- child of CharacterFrame
@@ -382,22 +335,10 @@ CharacterStatsPaneCategory1Toolbar = {}
 CharacterStatsPaneCategory1Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory1Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
---- child of CharacterStatsPaneCategory1Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
-CharacterStatsPaneCategory1Stat1Label = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
---- child of CharacterStatsPaneCategory1Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
-CharacterStatsPaneCategory1Stat1StatText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory1 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory1Stat1 = {}
-CharacterStatsPaneCategory1Stat1["Label"] = CharacterStatsPaneCategory1Stat1Label -- inherited
-CharacterStatsPaneCategory1Stat1["Value"] = CharacterStatsPaneCategory1Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory1 (created in template StatGroupTemplate)
@@ -434,7 +375,7 @@ CharacterStatsPaneCategory1CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory1ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L421)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory1 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory1 = {}
@@ -463,22 +404,10 @@ CharacterStatsPaneCategory2Toolbar = {}
 CharacterStatsPaneCategory2Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory2Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
---- child of CharacterStatsPaneCategory2Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
-CharacterStatsPaneCategory2Stat1Label = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
---- child of CharacterStatsPaneCategory2Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
-CharacterStatsPaneCategory2Stat1StatText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory2 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory2Stat1 = {}
-CharacterStatsPaneCategory2Stat1["Label"] = CharacterStatsPaneCategory2Stat1Label -- inherited
-CharacterStatsPaneCategory2Stat1["Value"] = CharacterStatsPaneCategory2Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory2 (created in template StatGroupTemplate)
@@ -515,7 +444,7 @@ CharacterStatsPaneCategory2CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory2ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L422)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory2 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory2 = {}
@@ -544,22 +473,10 @@ CharacterStatsPaneCategory3Toolbar = {}
 CharacterStatsPaneCategory3Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory3Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
---- child of CharacterStatsPaneCategory3Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
-CharacterStatsPaneCategory3Stat1Label = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
---- child of CharacterStatsPaneCategory3Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
-CharacterStatsPaneCategory3Stat1StatText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory3 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory3Stat1 = {}
-CharacterStatsPaneCategory3Stat1["Label"] = CharacterStatsPaneCategory3Stat1Label -- inherited
-CharacterStatsPaneCategory3Stat1["Value"] = CharacterStatsPaneCategory3Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory3 (created in template StatGroupTemplate)
@@ -596,7 +513,7 @@ CharacterStatsPaneCategory3CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory3ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L420)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L423)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory3 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory3 = {}
@@ -625,22 +542,10 @@ CharacterStatsPaneCategory4Toolbar = {}
 CharacterStatsPaneCategory4Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory4Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
---- child of CharacterStatsPaneCategory4Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
-CharacterStatsPaneCategory4Stat1Label = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
---- child of CharacterStatsPaneCategory4Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
-CharacterStatsPaneCategory4Stat1StatText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory4 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory4Stat1 = {}
-CharacterStatsPaneCategory4Stat1["Label"] = CharacterStatsPaneCategory4Stat1Label -- inherited
-CharacterStatsPaneCategory4Stat1["Value"] = CharacterStatsPaneCategory4Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory4 (created in template StatGroupTemplate)
@@ -677,7 +582,7 @@ CharacterStatsPaneCategory4CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory4ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L421)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L424)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory4 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory4 = {}
@@ -706,22 +611,10 @@ CharacterStatsPaneCategory5Toolbar = {}
 CharacterStatsPaneCategory5Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory5Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
---- child of CharacterStatsPaneCategory5Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
-CharacterStatsPaneCategory5Stat1Label = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
---- child of CharacterStatsPaneCategory5Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
-CharacterStatsPaneCategory5Stat1StatText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory5 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory5Stat1 = {}
-CharacterStatsPaneCategory5Stat1["Label"] = CharacterStatsPaneCategory5Stat1Label -- inherited
-CharacterStatsPaneCategory5Stat1["Value"] = CharacterStatsPaneCategory5Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory5 (created in template StatGroupTemplate)
@@ -758,7 +651,7 @@ CharacterStatsPaneCategory5CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory5ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L422)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L425)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory5 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory5 = {}
@@ -787,22 +680,10 @@ CharacterStatsPaneCategory6Toolbar = {}
 CharacterStatsPaneCategory6Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory6Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
---- child of CharacterStatsPaneCategory6Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
-CharacterStatsPaneCategory6Stat1Label = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
---- child of CharacterStatsPaneCategory6Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
-CharacterStatsPaneCategory6Stat1StatText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory6 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory6Stat1 = {}
-CharacterStatsPaneCategory6Stat1["Label"] = CharacterStatsPaneCategory6Stat1Label -- inherited
-CharacterStatsPaneCategory6Stat1["Value"] = CharacterStatsPaneCategory6Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory6 (created in template StatGroupTemplate)
@@ -839,7 +720,7 @@ CharacterStatsPaneCategory6CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory6ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L426)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory6 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory6 = {}
@@ -868,22 +749,10 @@ CharacterStatsPaneCategory7Toolbar = {}
 CharacterStatsPaneCategory7Toolbar["SortUpArrow"] = StatGroupTemplateToolbarSortUpArrow
 CharacterStatsPaneCategory7Toolbar["SortDownArrow"] = StatGroupTemplateToolbarSortDownArrow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L253)
---- child of CharacterStatsPaneCategory7Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateLabel
-CharacterStatsPaneCategory7Stat1Label = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L258)
---- child of CharacterStatsPaneCategory7Stat1 (created in template CharacterStatFrameTemplate)
---- @type CharacterStatFrameTemplate_CharacterStatFrameTemplateStatText
-CharacterStatsPaneCategory7Stat1StatText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L240)
 --- child of CharacterStatsPaneCategory7 (created in template StatGroupTemplate)
 --- @type StatGroupTemplate_StatGroupTemplateStat1
 CharacterStatsPaneCategory7Stat1 = {}
-CharacterStatsPaneCategory7Stat1["Label"] = CharacterStatsPaneCategory7Stat1Label -- inherited
-CharacterStatsPaneCategory7Stat1["Value"] = CharacterStatsPaneCategory7Stat1StatText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L81)
 --- child of CharacterStatsPaneCategory7 (created in template StatGroupTemplate)
@@ -920,7 +789,7 @@ CharacterStatsPaneCategory7CollapsedIcon = {}
 --- @type StatGroupTemplate_StatGroupTemplateExpandedIcon
 CharacterStatsPaneCategory7ExpandedIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L424)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L427)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents_CharacterStatsPaneCategory7 : Frame, StatGroupTemplate
 CharacterStatsPaneCategory7 = {}
@@ -932,7 +801,7 @@ CharacterStatsPaneCategory7["NameText"] = CharacterStatsPaneCategory7NameText --
 CharacterStatsPaneCategory7["CollapsedIcon"] = CharacterStatsPaneCategory7CollapsedIcon -- inherited
 CharacterStatsPaneCategory7["ExpandedIcon"] = CharacterStatsPaneCategory7ExpandedIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L412)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L415)
 --- child of CharacterFrame_CharacterStatsPane_ScrollBox
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox_Contents : Frame, ResizeLayoutFrame
 --- @field scrollable boolean # true
@@ -940,11 +809,13 @@ CharacterStatsPaneCategory7["ExpandedIcon"] = CharacterStatsPaneCategory7Expande
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L406)
 --- child of CharacterStatsPane
 --- @class CharacterFrame_CharacterStatsPane_ScrollBox : Frame, WowScrollBox
+--- @field wheelPanScalar number # 0.1
 --- @field Contents CharacterFrame_CharacterStatsPane_ScrollBox_Contents
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L432)
 --- child of CharacterStatsPane
 --- @class CharacterFrame_CharacterStatsPane_ScrollBar : EventFrame, MinimalScrollBar
+--- @field wheelPanScalar number # 0.1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L391)
 --- child of CharacterFrame
@@ -954,151 +825,104 @@ CharacterStatsPaneCategory7["ExpandedIcon"] = CharacterStatsPaneCategory7Expande
 --- @field ClassBackground Texture
 CharacterStatsPane = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L805)
 --- child of CharacterFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 CharacterFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L804)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-CharacterFrameInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L809)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-CharacterFrameInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L815)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-CharacterFrameInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L821)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-CharacterFrameInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L827)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-CharacterFrameInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L833)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-CharacterFrameInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L839)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-CharacterFrameInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L845)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-CharacterFrameInsetInsetRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L888)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L846)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CharacterFrameInset = {}
+CharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 CharacterFrameInset["Bg"] = CharacterFrameInsetBg -- inherited
-CharacterFrameInset["InsetBorderTopLeft"] = CharacterFrameInsetInsetTopLeftCorner -- inherited
-CharacterFrameInset["InsetBorderTopRight"] = CharacterFrameInsetInsetTopRightCorner -- inherited
-CharacterFrameInset["InsetBorderBottomLeft"] = CharacterFrameInsetInsetBotLeftCorner -- inherited
-CharacterFrameInset["InsetBorderBottomRight"] = CharacterFrameInsetInsetBotRightCorner -- inherited
-CharacterFrameInset["InsetBorderTop"] = CharacterFrameInsetInsetTopBorder -- inherited
-CharacterFrameInset["InsetBorderBottom"] = CharacterFrameInsetInsetBottomBorder -- inherited
-CharacterFrameInset["InsetBorderLeft"] = CharacterFrameInsetInsetLeftBorder -- inherited
-CharacterFrameInset["InsetBorderRight"] = CharacterFrameInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L869)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L827)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
 CharacterFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L874)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L832)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
 CharacterFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L879)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L837)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 CharacterFrameButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L657)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L663)
 --- child of CharacterFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 CharacterFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L569)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 CharacterFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L575)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
 CharacterFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L583)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 CharacterFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L591)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
 CharacterFramePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L596)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
 CharacterFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L601)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
 CharacterFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L606)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
 CharacterFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L612)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
 CharacterFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L621)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
 CharacterFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L627)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
 CharacterFrameBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L632)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
 CharacterFrameBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L637)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
 CharacterFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L637)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L643)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
 CharacterFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L649)
 --- child of CharacterFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
 CharacterFrameRightBorder = {}
@@ -1124,4 +948,5 @@ CharacterFrame["BotRightCorner"] = CharacterFrameBotRightCorner -- inherited
 CharacterFrame["BottomBorder"] = CharacterFrameBottomBorder -- inherited
 CharacterFrame["LeftBorder"] = CharacterFrameLeftBorder -- inherited
 CharacterFrame["RightBorder"] = CharacterFrameRightBorder -- inherited
+CharacterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

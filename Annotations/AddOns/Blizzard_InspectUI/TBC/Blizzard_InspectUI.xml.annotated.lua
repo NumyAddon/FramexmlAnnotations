@@ -45,7 +45,7 @@ InspectFrameTab1Middle = {}
 --- @type Texture
 InspectFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/TBC/Blizzard_InspectUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/TBC/Blizzard_InspectUI.xml#L114)
 --- child of InspectFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 InspectFrameTab1HighlightTexture = {}
@@ -85,7 +85,7 @@ InspectFrameTab2Middle = {}
 --- @type Texture
 InspectFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/TBC/Blizzard_InspectUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/TBC/Blizzard_InspectUI.xml#L114)
 --- child of InspectFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 InspectFrameTab2HighlightTexture = {}
@@ -125,7 +125,7 @@ InspectFrameTab3Middle = {}
 --- @type Texture
 InspectFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/TBC/Blizzard_InspectUI.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/TBC/Blizzard_InspectUI.xml#L114)
 --- child of InspectFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 InspectFrameTab3HighlightTexture = {}

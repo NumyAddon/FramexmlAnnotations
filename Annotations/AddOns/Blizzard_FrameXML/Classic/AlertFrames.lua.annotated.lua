@@ -180,14 +180,14 @@ function AlertFrameMixin:OnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L426)
 function AlertFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L596)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L593)
 function AlertFrameMixin:BuildLFGRewardData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L628)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L625)
 function AlertFrameMixin:BuildScenarioRewardData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L638)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L635)
 function AlertFrameMixin:BuildQuestData(questID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L664)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrames.lua#L661)
 function AlertFrameMixin:ShouldSupressDungeonOrScenarioAlert() end

@@ -40,7 +40,6 @@
 --- child of ArchaeologyFrame
 --- @class ArchaeologyFrame_ArchaeologyFrameRaceFilter : DropdownButton, WowStyle1DropdownTemplate
 ArchaeologyFrameRaceFilter = {}
-ArchaeologyFrameRaceFilter["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L283)
 --- child of ArchaeologyFrameRankBar
@@ -1028,151 +1027,104 @@ ArchaeologyFrameBgLeft = {}
 --- @class ArchaeologyFrame_ArchaeologyFrameBgRight : Texture
 ArchaeologyFrameBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L805)
 --- child of ArchaeologyFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 ArchaeologyFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L804)
---- child of ArchaeologyFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-ArchaeologyFrameInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L809)
---- child of ArchaeologyFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-ArchaeologyFrameInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L815)
---- child of ArchaeologyFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-ArchaeologyFrameInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L821)
---- child of ArchaeologyFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-ArchaeologyFrameInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L827)
---- child of ArchaeologyFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-ArchaeologyFrameInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L833)
---- child of ArchaeologyFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-ArchaeologyFrameInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L839)
---- child of ArchaeologyFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-ArchaeologyFrameInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L845)
---- child of ArchaeologyFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-ArchaeologyFrameInsetInsetRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L888)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L846)
 --- child of ArchaeologyFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ArchaeologyFrameInset = {}
+ArchaeologyFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 ArchaeologyFrameInset["Bg"] = ArchaeologyFrameInsetBg -- inherited
-ArchaeologyFrameInset["InsetBorderTopLeft"] = ArchaeologyFrameInsetInsetTopLeftCorner -- inherited
-ArchaeologyFrameInset["InsetBorderTopRight"] = ArchaeologyFrameInsetInsetTopRightCorner -- inherited
-ArchaeologyFrameInset["InsetBorderBottomLeft"] = ArchaeologyFrameInsetInsetBotLeftCorner -- inherited
-ArchaeologyFrameInset["InsetBorderBottomRight"] = ArchaeologyFrameInsetInsetBotRightCorner -- inherited
-ArchaeologyFrameInset["InsetBorderTop"] = ArchaeologyFrameInsetInsetTopBorder -- inherited
-ArchaeologyFrameInset["InsetBorderBottom"] = ArchaeologyFrameInsetInsetBottomBorder -- inherited
-ArchaeologyFrameInset["InsetBorderLeft"] = ArchaeologyFrameInsetInsetLeftBorder -- inherited
-ArchaeologyFrameInset["InsetBorderRight"] = ArchaeologyFrameInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L869)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L827)
 --- child of ArchaeologyFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
 ArchaeologyFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L874)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L832)
 --- child of ArchaeologyFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
 ArchaeologyFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L879)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L837)
 --- child of ArchaeologyFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 ArchaeologyFrameButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L657)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L663)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ArchaeologyFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L569)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 ArchaeologyFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L575)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
 ArchaeologyFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L583)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 ArchaeologyFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L591)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
 ArchaeologyFramePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L596)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
 ArchaeologyFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L601)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
 ArchaeologyFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L606)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
 ArchaeologyFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L612)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
 ArchaeologyFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L621)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
 ArchaeologyFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L627)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
 ArchaeologyFrameBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L632)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
 ArchaeologyFrameBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L637)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
 ArchaeologyFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L637)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L643)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
 ArchaeologyFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L649)
 --- child of ArchaeologyFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
 ArchaeologyFrameRightBorder = {}
@@ -1220,4 +1172,5 @@ ArchaeologyFrame["BotRightCorner"] = ArchaeologyFrameBotRightCorner -- inherited
 ArchaeologyFrame["BottomBorder"] = ArchaeologyFrameBottomBorder -- inherited
 ArchaeologyFrame["LeftBorder"] = ArchaeologyFrameLeftBorder -- inherited
 ArchaeologyFrame["RightBorder"] = ArchaeologyFrameRightBorder -- inherited
+ArchaeologyFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

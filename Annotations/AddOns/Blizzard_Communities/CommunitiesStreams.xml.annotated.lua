@@ -145,22 +145,21 @@
 --- @field TitleLabel CommunitiesNotificationSettingsDialogTemplate_TitleLabel
 --- @field BG Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L292)
 --- child of AddToChatButtonTemplate
 --- @class AddToChatButtonTemplate_Label : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L289)
 --- Template
---- @class AddToChatButtonTemplate : DropdownButton, UIMenuButtonStretchTemplate, CommunitiesAddToChatMixin
---- @field icon Texture
+--- @class AddToChatButtonTemplate : DropdownButton, WowStyle1ArrowDropdownTemplate, CommunitiesAddToChatMixin
 --- @field Label AddToChatButtonTemplate_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L317)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L306)
 --- child of StreamDropdownTemplate
 --- @class StreamDropdownTemplate_NotificationOverlay : Frame
 --- @field UnreadNotificationIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L315)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L304)
 --- Template
 --- @class StreamDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, CommunitiesStreamDropdownMixin
 --- @field NotificationOverlay StreamDropdownTemplate_NotificationOverlay

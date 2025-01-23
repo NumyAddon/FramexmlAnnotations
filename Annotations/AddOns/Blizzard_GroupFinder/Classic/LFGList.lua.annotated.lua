@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3728)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3724)
 --- @class LFGEditBoxMixin : LFGAuthenticatorMessagingMixin
 LFGEditBoxMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin)
 
@@ -16,11 +16,11 @@ LFGListCreationDescriptionMixin = CreateFromMixins(LFGEditBoxMixin)
 --- @class LFGListCreateGroupDisabledStateButtonMixin : LFGAuthenticatorMessagingMixin
 LFGListCreateGroupDisabledStateButtonMixin = CreateFromMixins(LFGAuthenticatorMessagingMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L1795)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L1811)
 --- @class LFGApplicationBrowseGroupsButtonMixin
 LFGApplicationBrowseGroupsButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3717)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3713)
 --- @class LFGAuthenticatorMessagingMixin
 LFGAuthenticatorMessagingMixin = {}
 
@@ -32,23 +32,26 @@ LFGListSearchBackToGroupButtonMixin = { }
 --- @class LFGListSearchBackButtonMixin
 LFGListSearchBackButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L1796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L1812)
 function LFGApplicationBrowseGroupsButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3718)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3714)
 function LFGAuthenticatorMessagingMixin:DisplayTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3724)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3720)
 function LFGAuthenticatorMessagingMixin:DisplayStaticPopup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3729)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3725)
 function LFGEditBoxMixin:AddToTabCategory(tabCategory, editBox) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3734)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3730)
 function LFGEditBoxMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3736)
 function LFGEditBoxMixin:GetSelectedActivityID() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3740)
+function LFGEditBoxMixin:GetSelectedCategoryID() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.lua#L3744)
 function LFGEditBoxMixin:OnShow() end

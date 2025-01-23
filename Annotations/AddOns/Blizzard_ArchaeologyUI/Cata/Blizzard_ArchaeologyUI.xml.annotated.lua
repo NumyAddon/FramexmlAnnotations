@@ -40,7 +40,6 @@
 --- child of ArchaeologyFrame
 --- @class ArchaeologyFrame_ArchaeologyFrameRaceFilter : DropdownButton, WowStyle1DropdownTemplate
 ArchaeologyFrameRaceFilter = {}
-ArchaeologyFrameRaceFilter["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Cata/Blizzard_ArchaeologyUI.xml#L283)
 --- child of ArchaeologyFrameRankBar

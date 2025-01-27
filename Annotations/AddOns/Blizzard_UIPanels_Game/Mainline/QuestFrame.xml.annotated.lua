@@ -128,22 +128,22 @@ QuestProgressRequiredMoneyFrame["CopperButton"] = QuestProgressRequiredMoneyFram
 QuestProgressRequiredMoneyFrame["SilverButton"] = QuestProgressRequiredMoneyFrameSilverButton -- inherited
 QuestProgressRequiredMoneyFrame["GoldButton"] = QuestProgressRequiredMoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L174)
 --- child of QuestProgressItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem1IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L180)
 --- child of QuestProgressItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem1NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L188)
 --- child of QuestProgressItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestProgressItem1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L220)
 --- child of QuestProgressItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestProgressItem1Count = {}
@@ -158,22 +158,22 @@ QuestProgressItem1["NameFrame"] = QuestProgressItem1NameFrame -- inherited
 QuestProgressItem1["Name"] = QuestProgressItem1Name -- inherited
 QuestProgressItem1["Count"] = QuestProgressItem1Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L174)
 --- child of QuestProgressItem2 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem2IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L180)
 --- child of QuestProgressItem2 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem2NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L188)
 --- child of QuestProgressItem2 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestProgressItem2Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L220)
 --- child of QuestProgressItem2 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestProgressItem2Count = {}
@@ -188,22 +188,22 @@ QuestProgressItem2["NameFrame"] = QuestProgressItem2NameFrame -- inherited
 QuestProgressItem2["Name"] = QuestProgressItem2Name -- inherited
 QuestProgressItem2["Count"] = QuestProgressItem2Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L174)
 --- child of QuestProgressItem3 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem3IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L180)
 --- child of QuestProgressItem3 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem3NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L188)
 --- child of QuestProgressItem3 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestProgressItem3Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L220)
 --- child of QuestProgressItem3 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestProgressItem3Count = {}
@@ -218,22 +218,22 @@ QuestProgressItem3["NameFrame"] = QuestProgressItem3NameFrame -- inherited
 QuestProgressItem3["Name"] = QuestProgressItem3Name -- inherited
 QuestProgressItem3["Count"] = QuestProgressItem3Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L174)
 --- child of QuestProgressItem4 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem4IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L180)
 --- child of QuestProgressItem4 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem4NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L188)
 --- child of QuestProgressItem4 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestProgressItem4Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L220)
 --- child of QuestProgressItem4 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestProgressItem4Count = {}
@@ -248,22 +248,22 @@ QuestProgressItem4["NameFrame"] = QuestProgressItem4NameFrame -- inherited
 QuestProgressItem4["Name"] = QuestProgressItem4Name -- inherited
 QuestProgressItem4["Count"] = QuestProgressItem4Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L174)
 --- child of QuestProgressItem5 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem5IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L180)
 --- child of QuestProgressItem5 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem5NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L188)
 --- child of QuestProgressItem5 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestProgressItem5Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L220)
 --- child of QuestProgressItem5 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestProgressItem5Count = {}
@@ -278,22 +278,22 @@ QuestProgressItem5["NameFrame"] = QuestProgressItem5NameFrame -- inherited
 QuestProgressItem5["Name"] = QuestProgressItem5Name -- inherited
 QuestProgressItem5["Count"] = QuestProgressItem5Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L174)
 --- child of QuestProgressItem6 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem6IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L180)
 --- child of QuestProgressItem6 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestProgressItem6NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L188)
 --- child of QuestProgressItem6 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestProgressItem6Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L220)
 --- child of QuestProgressItem6 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestProgressItem6Count = {}

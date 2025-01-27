@@ -193,7 +193,6 @@ LFDQueueFrameTypeDropdownName = {}
 --- child of LFDQueueFrame
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameTypeDropdown : DropdownButton, WowStyle1DropdownTemplate
 LFDQueueFrameTypeDropdown = {}
-LFDQueueFrameTypeDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L654)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameItem1RoleIcon1 (created in template LFGRewardsLootShortageTemplate)
@@ -222,22 +221,22 @@ LFDQueueFrameRandomScrollFrameChildFrameItem1RoleIcon2["texture"] = LFDQueueFram
 --- @type LFGRewardsLootTemplate_LFGRewardsLootTemplateShortageBorder
 LFDQueueFrameRandomScrollFrameChildFrameItem1ShortageBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L174)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 LFDQueueFrameRandomScrollFrameChildFrameItem1IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L180)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 LFDQueueFrameRandomScrollFrameChildFrameItem1NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L188)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 LFDQueueFrameRandomScrollFrameChildFrameItem1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L220)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 LFDQueueFrameRandomScrollFrameChildFrameItem1Count = {}
@@ -255,22 +254,22 @@ LFDQueueFrameRandomScrollFrameChildFrameItem1["NameFrame"] = LFDQueueFrameRandom
 LFDQueueFrameRandomScrollFrameChildFrameItem1["Name"] = LFDQueueFrameRandomScrollFrameChildFrameItem1Name -- inherited
 LFDQueueFrameRandomScrollFrameChildFrameItem1["Count"] = LFDQueueFrameRandomScrollFrameChildFrameItem1Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L174)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type Texture
 LFDQueueFrameRandomScrollFrameChildFrameMoneyRewardIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L180)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type Texture
 LFDQueueFrameRandomScrollFrameChildFrameMoneyRewardNameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L188)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 LFDQueueFrameRandomScrollFrameChildFrameMoneyRewardName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L220)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 LFDQueueFrameRandomScrollFrameChildFrameMoneyRewardCount = {}

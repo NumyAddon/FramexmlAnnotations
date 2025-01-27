@@ -28,7 +28,6 @@ ScenarioQueueFrameTypeDropdownName = {}
 --- child of ScenarioQueueFrame
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameTypeDropdown : DropdownButton, WowStyle1DropdownTemplate
 ScenarioQueueFrameTypeDropdown = {}
-ScenarioQueueFrameTypeDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L654)
 --- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon1 (created in template LFGRewardsLootShortageTemplate)
@@ -57,22 +56,22 @@ ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon2["texture"] = Scenari
 --- @type LFGRewardsLootTemplate_LFGRewardsLootTemplateShortageBorder
 ScenarioQueueFrameRandomScrollFrameChildFrameItem1ShortageBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L174)
 --- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 ScenarioQueueFrameRandomScrollFrameChildFrameItem1IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L180)
 --- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 ScenarioQueueFrameRandomScrollFrameChildFrameItem1NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L188)
 --- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 ScenarioQueueFrameRandomScrollFrameChildFrameItem1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L220)
 --- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 ScenarioQueueFrameRandomScrollFrameChildFrameItem1Count = {}
@@ -90,22 +89,22 @@ ScenarioQueueFrameRandomScrollFrameChildFrameItem1["NameFrame"] = ScenarioQueueF
 ScenarioQueueFrameRandomScrollFrameChildFrameItem1["Name"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1Name -- inherited
 ScenarioQueueFrameRandomScrollFrameChildFrameItem1["Count"] = ScenarioQueueFrameRandomScrollFrameChildFrameItem1Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L174)
 --- child of ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type Texture
 ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L180)
 --- child of ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type Texture
 ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardNameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L188)
 --- child of ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L220)
 --- child of ScenarioQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 ScenarioQueueFrameRandomScrollFrameChildFrameMoneyRewardCount = {}

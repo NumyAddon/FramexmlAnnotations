@@ -109,3 +109,9 @@ function PartyPoseMixin:OnLoad() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L421)
 function PartyPoseMixin:OnEvent(event, ...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L429)
+function PartyPoseMixin:OnKeyDown(key) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L435)
+function PartyPoseMixin:Dismiss() end

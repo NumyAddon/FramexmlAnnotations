@@ -67,47 +67,47 @@
 --- @class GlyphFrame_GlyphFrameSideInset_GlyphFrameSideInsetBackground : Texture
 GlyphFrameSideInsetBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L802)
 --- child of GlyphFrameSideInset (created in template InsetFrameTemplate)
 --- @type Texture
 GlyphFrameSideInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L804)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L810)
 --- child of GlyphFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
 GlyphFrameSideInsetInsetTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L809)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L815)
 --- child of GlyphFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
 GlyphFrameSideInsetInsetTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L815)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L821)
 --- child of GlyphFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
 GlyphFrameSideInsetInsetBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L821)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L827)
 --- child of GlyphFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
 GlyphFrameSideInsetInsetBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L827)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L833)
 --- child of GlyphFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
 GlyphFrameSideInsetInsetTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L833)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L839)
 --- child of GlyphFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
 GlyphFrameSideInsetInsetBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L839)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L845)
 --- child of GlyphFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
 GlyphFrameSideInsetInsetLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L845)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L851)
 --- child of GlyphFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 GlyphFrameSideInsetInsetRightBorder = {}

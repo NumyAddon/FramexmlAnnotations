@@ -77,7 +77,7 @@ SpellBookCloseButton = {}
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
 ShowAllSpellRanksCheckboxText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.xml#L476)
 --- child of ShowAllSpellRanksCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 ShowAllSpellRanksCheckboxText = {}

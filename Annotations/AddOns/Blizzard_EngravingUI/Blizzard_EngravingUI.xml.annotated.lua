@@ -50,47 +50,47 @@
 --- @class EngravingFrame_EngravingFrameSideInset_EngravingFrameSideInsetBackground : Texture
 EngravingFrameSideInsetBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L802)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type Texture
 EngravingFrameSideInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L804)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L810)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
 EngravingFrameSideInsetInsetTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L809)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L815)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
 EngravingFrameSideInsetInsetTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L815)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L821)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
 EngravingFrameSideInsetInsetBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L821)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L827)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
 EngravingFrameSideInsetInsetBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L827)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L833)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
 EngravingFrameSideInsetInsetTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L833)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L839)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
 EngravingFrameSideInsetInsetBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L839)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L845)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
 EngravingFrameSideInsetInsetLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L845)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L851)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
 EngravingFrameSideInsetInsetRightBorder = {}

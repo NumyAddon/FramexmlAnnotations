@@ -92,7 +92,7 @@ WorldMapMagnifyingGlassButton = {}
 --- @class WorldMapFrame_WorldMapFrameCloseButton : Button, UIPanelCloseButton
 WorldMapFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L476)
 --- child of WorldMapTrackQuest (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 WorldMapTrackQuestText = {}
@@ -108,7 +108,7 @@ WorldMapTrackQuest["Text"] = WorldMapTrackQuestText -- inherited
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
 WorldMapQuestShowObjectivesText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L476)
 --- child of WorldMapQuestShowObjectives (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 WorldMapQuestShowObjectivesText = {}
@@ -124,7 +124,7 @@ WorldMapQuestShowObjectives["Text"] = WorldMapQuestShowObjectivesText -- inherit
 --- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
 WorldMapShowDigsitesText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L476)
 --- child of WorldMapShowDigsites (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 WorldMapShowDigsitesText = {}

@@ -84,3 +84,27 @@
 --- @field Text UIDropDownMenuTemplate_UIDropDownMenuTemplateText
 --- @field Icon Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L355)
+--- Template
+--- @class UIDropDownMenuButtonScriptTemplate : DropDownToggleButton, DropDownMenuButtonMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L365)
+--- child of LargeUIDropDownMenuTemplate
+--- @class LargeUIDropDownMenuTemplate_Button : DropDownToggleButton, UIDropDownMenuButtonScriptTemplate, LargeDropDownMenuButtonMixin
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L411)
+--- child of LargeUIDropDownMenuTemplate
+--- @class LargeUIDropDownMenuTemplate_Text : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenuTemplates.xml#L363)
+--- Template
+--- @class LargeUIDropDownMenuTemplate : Frame
+--- @field Button LargeUIDropDownMenuTemplate_Button
+--- @field Left Texture
+--- @field Right Texture
+--- @field Middle Texture
+--- @field Text LargeUIDropDownMenuTemplate_Text
+--- @field Icon Texture
+

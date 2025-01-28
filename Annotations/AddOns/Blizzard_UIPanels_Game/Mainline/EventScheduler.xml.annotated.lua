@@ -19,11 +19,11 @@
 --- @class EventSchedulerScheduledHeaderTemplate : Frame, EventSchedulerHeaderTemplate
 --- @field Timeline Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L67)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L74)
 --- child of EventSchedulerOngoingEntryTemplate
 --- @class EventSchedulerOngoingEntryTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L81)
 --- child of EventSchedulerOngoingEntryTemplate
 --- @class EventSchedulerOngoingEntryTemplate_Location : FontString, GameFontNormalSmall
 
@@ -31,16 +31,17 @@
 --- Template
 --- @class EventSchedulerOngoingEntryTemplate : Frame, EventSchedulerOngoingEntryMixin
 --- @field Background Texture
+--- @field Highlight Texture
 --- @field Icon Texture
 --- @field CheckIcon Texture
 --- @field Name EventSchedulerOngoingEntryTemplate_Name
 --- @field Location EventSchedulerOngoingEntryTemplate_Location
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L152)
 --- child of EventSchedulerScheduledEntryTemplate
 --- @class EventSchedulerScheduledEntryTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L159)
 --- child of EventSchedulerScheduledEntryTemplate
 --- @class EventSchedulerScheduledEntryTemplate_Location : FontString, GameFontNormalSmall
 
@@ -62,6 +63,7 @@
 --- @field TopDot Texture
 --- @field BottomDotDark Texture
 --- @field BottomDotLight Texture
+--- @field Highlight Texture
 --- @field ReminderIcon Texture
 --- @field Name EventSchedulerScheduledEntryTemplate_Name
 --- @field Location EventSchedulerScheduledEntryTemplate_Location

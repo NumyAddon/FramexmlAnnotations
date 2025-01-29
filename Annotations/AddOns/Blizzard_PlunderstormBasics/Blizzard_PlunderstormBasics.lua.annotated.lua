@@ -26,17 +26,17 @@ function PlunderstormBasicsContainerFrameMixin:OnHide() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L91)
 function PlunderstormBasicsContainerFrameMixin:OnEvent(event) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L102)
 function PlunderstormBasicsContainerFrameMixin:GetLifetimePlunder() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L121)
 function PlunderstormBasicsContainerFrameMixin:UpdatePlunderAmount() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L134)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L136)
 function PlunderstormBasicsContainerFrameMixin:SetBottomFrame(bottomFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L139)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L141)
 function PlunderstormBasicsContainerFrameMixin:OnCleaned() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.lua#L145)
 function PlunderstormBasicsContainerFrameMixin:UpdateScaleToFit() end

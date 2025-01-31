@@ -19,3 +19,7 @@
 --- @field FavoriteButton AuctionHouseItemDisplayTemplate_FavoriteButton
 --- @field Name AuctionHouseItemDisplayTemplate_Name
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseSharedTemplates.xml#L35)
+--- Template
+--- @class DummyAuctionHouseScrollBarTemplate : EventFrame, MinimalScrollBar
+

@@ -25,7 +25,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseTableBuilder.xml#L39)
 --- child of AuctionHouseTableMoneyDisplayTemplate
 --- @class AuctionHouseTableMoneyDisplayTemplate_MoneyDisplay : Frame, MoneyDisplayFrameTemplate
---- @field hideCopper boolean # true
+--- @field useAuctionHouseCopperValue boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseTableBuilder.xml#L36)
 --- Template

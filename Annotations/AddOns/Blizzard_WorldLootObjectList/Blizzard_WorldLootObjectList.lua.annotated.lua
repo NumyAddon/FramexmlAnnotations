@@ -50,8 +50,8 @@ function WorldLootObjectListMixin:EvaluateVisibility() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldLootObjectList/Blizzard_WorldLootObjectList.lua#L194)
 function WorldLootObjectListMixin:InsertNewWidget(widget) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldLootObjectList/Blizzard_WorldLootObjectList.lua#L205)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldLootObjectList/Blizzard_WorldLootObjectList.lua#L207)
 function WorldLootObjectListMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldLootObjectList/Blizzard_WorldLootObjectList.lua#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldLootObjectList/Blizzard_WorldLootObjectList.lua#L219)
 function WorldLootObjectListMixin:RefreshScrollBox() end

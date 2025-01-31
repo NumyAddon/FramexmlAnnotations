@@ -36,7 +36,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.xml#L76)
 --- child of AuctionHouseAlignedPriceInputFrameTemplate
 --- @class AuctionHouseAlignedPriceInputFrameTemplate_MoneyInputFrame : Frame, LargeMoneyInputFrameTemplate
---- @field hideCopper boolean # true
+--- @field useAuctionHouseCopperValue boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.xml#L85)
 --- child of AuctionHouseAlignedPriceInputFrameTemplate
@@ -65,7 +65,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.xml#L140)
 --- child of AuctionHouseAlignedPriceDisplayTemplate
 --- @class AuctionHouseAlignedPriceDisplayTemplate_MoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
---- @field hideCopper boolean # true
+--- @field useAuctionHouseCopperValue boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSellFrame.xml#L138)
 --- Template

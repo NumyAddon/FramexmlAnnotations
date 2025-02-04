@@ -31,17 +31,17 @@ function GlueWarbandSceneJounalMixin:OnEvent(event, ...) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L91)
 function GlueWarbandSceneJounalMixin:SetupJournalDropdown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L143)
 function GlueWarbandSceneJounalMixin:SetupJournalEntries() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L155)
 function GlueWarbandSceneJounalMixin:SetJournalEntries(entries, retainCurrentPage) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L180)
 function GlueWarbandSceneJounalMixin:UpdateWarbandScenes() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L209)
 function GlueWarbandSceneJounalMixin:SelectWarbandScene(warbandSceneID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L222)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L223)
 function GlueWarbandSceneJounalMixin:GetSelectedStateForEntry(warbandSceneID) end

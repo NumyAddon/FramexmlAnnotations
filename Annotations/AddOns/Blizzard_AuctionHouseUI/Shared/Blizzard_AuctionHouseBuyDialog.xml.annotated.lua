@@ -35,7 +35,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseBuyDialog.xml#L71)
 --- child of AuctionHouseBuyDialogTemplate
 --- @class AuctionHouseBuyDialogTemplate_PriceFrame : Frame, MoneyDisplayFrameTemplate
---- @field hideCopper boolean # true
+--- @field useAuctionHouseCopperValue boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseBuyDialog.xml#L82)
 --- child of AuctionHouseBuyDialogTemplate

@@ -53,26 +53,26 @@ function MoneyDenominationDisplayMixin:UpdateWidth() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L399)
 function MoneyDisplayFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L422)
 function MoneyDisplayFrameMixin:SetFontAndIconDisabled(disabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L432)
 function MoneyDisplayFrameMixin:SetFontObject(fontObject) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L438)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L442)
 function MoneyDisplayFrameMixin:GetFontObject() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L442)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L446)
 function MoneyDisplayFrameMixin:UpdateAnchoring() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L478)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L482)
 function MoneyDisplayFrameMixin:SetAmount(rawCopper) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L499)
 function MoneyDisplayFrameMixin:UpdateWidth() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L526)
 function MoneyDisplayFrameMixin:GetAmount() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L526)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyFrame.lua#L530)
 function MoneyDisplayFrameMixin:SetResizeToFit(resizeToFit) end

@@ -4,122 +4,122 @@
 --- @class DeveloperConsoleMixin
 DeveloperConsoleMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L15)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L16)
 function DeveloperConsoleMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L60)
 function DeveloperConsoleMixin:RestoreMessageHistory() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L77)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L82)
 function DeveloperConsoleMixin:RestoreCommandHistory() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L99)
 function DeveloperConsoleMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L153)
 function DeveloperConsoleMixin:AddMessage(message, colorType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L165)
 function DeveloperConsoleMixin:AddMessageInternal(message, r, g, b, colorType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L171)
 function DeveloperConsoleMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L176)
 function DeveloperConsoleMixin:SetFontHeight(fontHeight) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L191)
 function DeveloperConsoleMixin:RefreshMessageFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L204)
 function DeveloperConsoleMixin:CalculateAnchorOffset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L212)
 function DeveloperConsoleMixin:UpdateAnchors() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L222)
 function DeveloperConsoleMixin:OnMouseWheel(delta) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L232)
 function DeveloperConsoleMixin:Toggle(shownRequested) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L253)
 function DeveloperConsoleMixin:OnEscapePressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L266)
 function DeveloperConsoleMixin:ShouldEditBoxTakeFocus() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L282)
 function DeveloperConsoleMixin:OnEditBoxUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L288)
 function DeveloperConsoleMixin:ValidateHeight(newHeight) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L298)
 function DeveloperConsoleMixin:StartDragResizing() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L312)
 function DeveloperConsoleMixin:StopDragResizing() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L319)
 function DeveloperConsoleMixin:SetExecuteCommandOverrideFunction(func) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L324)
 function DeveloperConsoleMixin:CheckExecuteOverrideCommand(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L333)
 function DeveloperConsoleMixin:ExecuteCommand(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L344)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L350)
 function DeveloperConsoleMixin:AddToCommandHistory(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L351)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L357)
 function DeveloperConsoleMixin:InsertLinkedCommand(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L361)
 function DeveloperConsoleMixin:OnEditBoxTextChanged(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L373)
 function DeveloperConsoleMixin:OnEditBoxCursorChanged(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L380)
 function DeveloperConsoleMixin:OnEditBoxArrowPressed(key) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L394)
 function DeveloperConsoleMixin:OnEditBoxPageUpPressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L392)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L398)
 function DeveloperConsoleMixin:OnEditBoxPageDownPressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L396)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L402)
 function DeveloperConsoleMixin:OnEditBoxTabPressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L460)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L466)
 function DeveloperConsoleMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L464)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L470)
 function DeveloperConsoleMixin:StepFilteringCoroutine(extendedTime) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L478)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L484)
 function DeveloperConsoleMixin:CheckFilterCoroutineYield() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L490)
 function DeveloperConsoleMixin:SetAutoCompleteText(newCommand, keepAutoComplete) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L497)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L503)
 function DeveloperConsoleMixin:FindBestEditCommandPositions() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L524)
 function DeveloperConsoleMixin:FindBestEditCommand() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L529)
 function DeveloperConsoleMixin:ResetCommandHistoryIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L527)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L533)
 function DeveloperConsoleMixin:GetCommandHistoryIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L531)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L537)
 function DeveloperConsoleMixin:SetCommandHistoryIndex(commandHistoryIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L535)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Console/Blizzard_Console.lua#L541)
 function DeveloperConsoleMixin:HasSetCommandHistoryIndex() end

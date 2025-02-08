@@ -104,25 +104,30 @@
 --- child of EventSchedulerFrameTemplate
 --- @class EventSchedulerFrameTemplate_BorderFrame : Frame, QuestLogBorderFrameTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L268)
+--- child of EventSchedulerFrameTemplate_ScrollBox
+--- @class EventSchedulerFrameTemplate_ScrollBox_EmptyText : FontString, Game16Font
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L255)
 --- child of EventSchedulerFrameTemplate
 --- @class EventSchedulerFrameTemplate_ScrollBox : Frame, WowScrollBoxList
 --- @field Background Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L271)
---- child of EventSchedulerFrameTemplate
---- @class EventSchedulerFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
+--- @field EmptyText EventSchedulerFrameTemplate_ScrollBox_EmptyText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L277)
 --- child of EventSchedulerFrameTemplate
---- @class EventSchedulerFrameTemplate_LoadingFrame : Frame, SpinnerTemplate
+--- @class EventSchedulerFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L283)
+--- child of EventSchedulerFrameTemplate
+--- @class EventSchedulerFrameTemplate_LoadingFrame : Frame, SpinnerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L289)
 --- child of EventSchedulerFrameTemplate
 --- @class EventSchedulerFrameTemplate_SettingsDropdown : DropdownButton, QuestLogSettingsButtonMixin
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L318)
 --- child of EventSchedulerFrameTemplate
 --- @class EventSchedulerFrameTemplate_TitleText : FontString, Game15Font_Shadow
 

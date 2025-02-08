@@ -4,7 +4,7 @@
 --- @class WarbandSceneGlueEntryMixin : WarbandSceneEntryMixin
 WarbandSceneGlueEntryMixin = CreateFromMixins(WarbandSceneEntryMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L23)
 --- @class GlueWarbandSceneJounalMixin
 GlueWarbandSceneJounalMixin = {
 	ApplyForAllCheckboxWidthBuffer = 25;
@@ -19,29 +19,29 @@ function WarbandSceneGlueEntryMixin:Init(elementData) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L13)
 function WarbandSceneGlueEntryMixin:SetSelectedState(isSelected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L41)
 function GlueWarbandSceneJounalMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L79)
 function GlueWarbandSceneJounalMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L89)
 function GlueWarbandSceneJounalMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L95)
 function GlueWarbandSceneJounalMixin:SetupJournalDropdown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L147)
 function GlueWarbandSceneJounalMixin:SetupJournalEntries() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L159)
 function GlueWarbandSceneJounalMixin:SetJournalEntries(entries, retainCurrentPage) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L184)
 function GlueWarbandSceneJounalMixin:UpdateWarbandScenes() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L213)
 function GlueWarbandSceneJounalMixin:SelectWarbandScene(warbandSceneID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GlueCollections/GlueWarbandSceneCollection.lua#L227)
 function GlueWarbandSceneJounalMixin:GetSelectedStateForEntry(warbandSceneID) end

@@ -54,7 +54,6 @@ CompactRaidFrameManagerToggleButton = {}
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameModeControlDropdown : DropdownButton, WowStyle1DropdownTemplate
 CompactRaidFrameManagerDisplayFrameModeControlDropdown = {}
-CompactRaidFrameManagerDisplayFrameModeControlDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L3270)
 --- child of CompactRaidFrameManagerDisplayFrameOptionsButton (created in template UIPanelInfoButton)
@@ -204,7 +203,6 @@ CompactRaidFrameManagerDisplayFrameRaidMarkers["raidMarkerGroundTab"] = CompactR
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameRestrictPingsDropdown : DropdownButton, WowStyle1DropdownTemplate
 CompactRaidFrameManagerDisplayFrameRestrictPingsDropdown = {}
-CompactRaidFrameManagerDisplayFrameRestrictPingsDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L403)
 --- child of parentBottomButtons

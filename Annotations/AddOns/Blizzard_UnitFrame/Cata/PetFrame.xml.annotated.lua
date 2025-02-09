@@ -59,14 +59,14 @@ PetAttackModeTexture = {}
 --- child of PetFrameHealthBar
 --- @class PetFrame_PetFrameHealthBar_PetFrameMyHealPredictionBar : Frame, PetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
 PetFrameMyHealPredictionBar = {}
-PetFrameMyHealPredictionBar["fillTexture"] = "Interface\\TargetingFrame\\UI-StatusBar" -- inherited
+PetFrameMyHealPredictionBar["fillAtlas"] = "UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status" -- inherited
 PetFrameMyHealPredictionBar["fillColor"] = HEALTHBAR_MY_HEAL_PREDICTION_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L108)
 --- child of PetFrameHealthBar
 --- @class PetFrame_PetFrameHealthBar_PetFrameOtherHealPredictionBar : Frame, PetFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
 PetFrameOtherHealPredictionBar = {}
-PetFrameOtherHealPredictionBar["fillTexture"] = "Interface\\TargetingFrame\\UI-StatusBar" -- inherited
+PetFrameOtherHealPredictionBar["fillAtlas"] = "UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status" -- inherited
 PetFrameOtherHealPredictionBar["fillColor"] = HEALTHBAR_OTHER_HEAL_PREDICTION_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L101)

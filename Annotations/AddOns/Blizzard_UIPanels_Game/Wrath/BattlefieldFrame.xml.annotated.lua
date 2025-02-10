@@ -86,7 +86,7 @@
 --- @class PVPBattlegroundButtonTemplate : Button
 --- @field status PVPBattlegroundButtonTemplate_status
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
 --- child of BattlegroundType1 (created in template PVPBattlegroundButtonTemplate)
 --- @type Texture
 BattlegroundType1Highlight = {}
@@ -95,9 +95,8 @@ BattlegroundType1Highlight = {}
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlegroundType1 : Button, PVPBattlegroundButtonTemplate
 BattlegroundType1 = {}
-BattlegroundType1["highlight"] = BattlegroundType1Highlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
 --- child of BattlegroundType2 (created in template PVPBattlegroundButtonTemplate)
 --- @type Texture
 BattlegroundType2Highlight = {}
@@ -106,9 +105,8 @@ BattlegroundType2Highlight = {}
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlegroundType2 : Button, PVPBattlegroundButtonTemplate
 BattlegroundType2 = {}
-BattlegroundType2["highlight"] = BattlegroundType2Highlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
 --- child of BattlegroundType3 (created in template PVPBattlegroundButtonTemplate)
 --- @type Texture
 BattlegroundType3Highlight = {}
@@ -117,9 +115,8 @@ BattlegroundType3Highlight = {}
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlegroundType3 : Button, PVPBattlegroundButtonTemplate
 BattlegroundType3 = {}
-BattlegroundType3["highlight"] = BattlegroundType3Highlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
 --- child of BattlegroundType4 (created in template PVPBattlegroundButtonTemplate)
 --- @type Texture
 BattlegroundType4Highlight = {}
@@ -128,9 +125,8 @@ BattlegroundType4Highlight = {}
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlegroundType4 : Button, PVPBattlegroundButtonTemplate
 BattlegroundType4 = {}
-BattlegroundType4["highlight"] = BattlegroundType4Highlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
 --- child of BattlegroundType5 (created in template PVPBattlegroundButtonTemplate)
 --- @type Texture
 BattlegroundType5Highlight = {}
@@ -139,7 +135,6 @@ BattlegroundType5Highlight = {}
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlegroundType5 : Button, PVPBattlegroundButtonTemplate
 BattlegroundType5 = {}
-BattlegroundType5["highlight"] = BattlegroundType5Highlight -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L163)
 --- child of BattlefieldFrameTypeScrollFrame (created in template FauxScrollFrameTemplate)

@@ -30,7 +30,7 @@ AuctionFrameTab1Middle = {}
 --- @type Texture
 AuctionFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
 --- child of AuctionFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionFrameTab1HighlightTexture = {}
@@ -70,7 +70,7 @@ AuctionFrameTab2Middle = {}
 --- @type Texture
 AuctionFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
 --- child of AuctionFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionFrameTab2HighlightTexture = {}
@@ -110,7 +110,7 @@ AuctionFrameTab3Middle = {}
 --- @type Texture
 AuctionFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
 --- child of AuctionFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionFrameTab3HighlightTexture = {}
@@ -4580,7 +4580,7 @@ AuctionsCancelAuctionButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2394)
 --- child of AuctionFrameAuctions
---- @class AuctionFrame_AuctionFrameAuctions_AuctionsCreateAuctionButton : Button, UIPanelButtonTemplate
+--- @class AuctionFrame_AuctionFrameAuctions_AuctionsCreateAuctionButton : Button, UIPanelButtonTemplate, AuctionPostMixin
 AuctionsCreateAuctionButton = {}
 AuctionsCreateAuctionButton["fitTextCanWidthDecrease"] = true -- inherited
 
@@ -4661,39 +4661,40 @@ AuctionFrameBot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L3)
 --- @class AuctionFrame : Frame
+--- @field DialogOverlay Button
 AuctionFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2520)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2527)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressBar : StatusBar, CastingBarFrameTemplate
 AuctionProgressBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2545)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2552)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameCancelButton : Button
 AuctionProgressFrameCancelButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2483)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameFill : Texture
 AuctionProgressFrameFill = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2494)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2501)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameLeft : Texture
 AuctionProgressFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2502)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2509)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameRight : Texture
 AuctionProgressFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2517)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameMiddle : Texture
 AuctionProgressFrameMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2470)
 --- @class AuctionProgressFrame : Frame
 AuctionProgressFrame = {}
 

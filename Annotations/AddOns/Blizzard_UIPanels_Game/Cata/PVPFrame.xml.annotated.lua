@@ -165,7 +165,7 @@ PVPFrameTab1Middle = {}
 --- @type Texture
 PVPFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L113)
 --- child of PVPFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 PVPFrameTab1HighlightTexture = {}
@@ -205,7 +205,7 @@ PVPFrameTab2Middle = {}
 --- @type Texture
 PVPFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L113)
 --- child of PVPFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 PVPFrameTab2HighlightTexture = {}
@@ -245,7 +245,7 @@ PVPFrameTab3Middle = {}
 --- @type Texture
 PVPFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L113)
 --- child of PVPFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 PVPFrameTab3HighlightTexture = {}
@@ -285,7 +285,7 @@ PVPFrameTab4Middle = {}
 --- @type Texture
 PVPFrameTab4Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L113)
 --- child of PVPFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 PVPFrameTab4HighlightTexture = {}

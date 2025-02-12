@@ -21,7 +21,7 @@ ArenaRegistrarFrameCloseButton = {}
 ArenaRegistrarFrameGoodbyeButton = {}
 ArenaRegistrarFrameGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L165)
 --- child of ArenaRegistrarButton1 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 ArenaRegistrarButton1QuestIcon = {}
@@ -31,7 +31,7 @@ ArenaRegistrarButton1QuestIcon = {}
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarButton1 : Button, QuestTitleButtonTemplate
 ArenaRegistrarButton1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L165)
 --- child of ArenaRegistrarButton2 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 ArenaRegistrarButton2QuestIcon = {}
@@ -41,7 +41,7 @@ ArenaRegistrarButton2QuestIcon = {}
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarButton2 : Button, QuestTitleButtonTemplate
 ArenaRegistrarButton2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L165)
 --- child of ArenaRegistrarButton3 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 ArenaRegistrarButton3QuestIcon = {}
@@ -51,7 +51,7 @@ ArenaRegistrarButton3QuestIcon = {}
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarButton3 : Button, QuestTitleButtonTemplate
 ArenaRegistrarButton3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L165)
 --- child of ArenaRegistrarButton4 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 ArenaRegistrarButton4QuestIcon = {}
@@ -61,7 +61,7 @@ ArenaRegistrarButton4QuestIcon = {}
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarButton4 : Button, QuestTitleButtonTemplate
 ArenaRegistrarButton4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L165)
 --- child of ArenaRegistrarButton5 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 ArenaRegistrarButton5QuestIcon = {}
@@ -71,7 +71,7 @@ ArenaRegistrarButton5QuestIcon = {}
 --- @class ArenaRegistrarFrame_ArenaRegistrarGreetingFrame_ArenaRegistrarButton5 : Button, QuestTitleButtonTemplate
 ArenaRegistrarButton5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ArenaRegistrarFrame.xml#L165)
 --- child of ArenaRegistrarButton6 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 ArenaRegistrarButton6QuestIcon = {}

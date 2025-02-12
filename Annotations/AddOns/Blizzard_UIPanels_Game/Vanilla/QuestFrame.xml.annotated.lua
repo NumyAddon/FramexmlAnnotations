@@ -64,17 +64,17 @@ QuestFrameCompleteQuestButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class QuestFrame_QuestFrameRewardPanel_QuestRewardScrollFrame_QuestRewardScrollChildFrame : Frame
 QuestRewardScrollChildFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L327)
 --- child of QuestRewardScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestRewardScrollFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L334)
 --- child of QuestRewardScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestRewardScrollFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L341)
 --- child of QuestRewardScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestRewardScrollFrameMiddle = {}
@@ -367,17 +367,17 @@ QuestProgressRequiredMoneyText = {}
 --- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame_QuestProgressScrollChildFrame : Frame
 QuestProgressScrollChildFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L327)
 --- child of QuestProgressScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestProgressScrollFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L334)
 --- child of QuestProgressScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestProgressScrollFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L341)
 --- child of QuestProgressScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestProgressScrollFrameMiddle = {}
@@ -453,17 +453,17 @@ QuestFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class QuestFrame_QuestFrameDetailPanel_QuestDetailScrollFrame_QuestDetailScrollChildFrame : Frame
 QuestDetailScrollChildFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L327)
 --- child of QuestDetailScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestDetailScrollFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L334)
 --- child of QuestDetailScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestDetailScrollFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L341)
 --- child of QuestDetailScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestDetailScrollFrameMiddle = {}
@@ -528,7 +528,7 @@ QuestFrameDetailPanel = {}
 QuestFrameGreetingGoodbyeButton = {}
 QuestFrameGreetingGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton1 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton1QuestIcon = {}
@@ -538,7 +538,7 @@ QuestTitleButton1QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton1 : Button, QuestTitleButtonTemplate
 QuestTitleButton1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton2 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton2QuestIcon = {}
@@ -548,7 +548,7 @@ QuestTitleButton2QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton2 : Button, QuestTitleButtonTemplate
 QuestTitleButton2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton3 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton3QuestIcon = {}
@@ -558,7 +558,7 @@ QuestTitleButton3QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton3 : Button, QuestTitleButtonTemplate
 QuestTitleButton3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton4 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton4QuestIcon = {}
@@ -568,7 +568,7 @@ QuestTitleButton4QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton4 : Button, QuestTitleButtonTemplate
 QuestTitleButton4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton5 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton5QuestIcon = {}
@@ -578,7 +578,7 @@ QuestTitleButton5QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton5 : Button, QuestTitleButtonTemplate
 QuestTitleButton5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton6 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton6QuestIcon = {}
@@ -588,7 +588,7 @@ QuestTitleButton6QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton6 : Button, QuestTitleButtonTemplate
 QuestTitleButton6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton7 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton7QuestIcon = {}
@@ -598,7 +598,7 @@ QuestTitleButton7QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton7 : Button, QuestTitleButtonTemplate
 QuestTitleButton7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton8 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton8QuestIcon = {}
@@ -608,7 +608,7 @@ QuestTitleButton8QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton8 : Button, QuestTitleButtonTemplate
 QuestTitleButton8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton9 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton9QuestIcon = {}
@@ -618,7 +618,7 @@ QuestTitleButton9QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton9 : Button, QuestTitleButtonTemplate
 QuestTitleButton9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton10 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton10QuestIcon = {}
@@ -628,7 +628,7 @@ QuestTitleButton10QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton10 : Button, QuestTitleButtonTemplate
 QuestTitleButton10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton11 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton11QuestIcon = {}
@@ -638,7 +638,7 @@ QuestTitleButton11QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton11 : Button, QuestTitleButtonTemplate
 QuestTitleButton11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton12 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton12QuestIcon = {}
@@ -648,7 +648,7 @@ QuestTitleButton12QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton12 : Button, QuestTitleButtonTemplate
 QuestTitleButton12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton13 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton13QuestIcon = {}
@@ -658,7 +658,7 @@ QuestTitleButton13QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton13 : Button, QuestTitleButtonTemplate
 QuestTitleButton13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton14 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton14QuestIcon = {}
@@ -668,7 +668,7 @@ QuestTitleButton14QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton14 : Button, QuestTitleButtonTemplate
 QuestTitleButton14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton15 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton15QuestIcon = {}
@@ -678,7 +678,7 @@ QuestTitleButton15QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton15 : Button, QuestTitleButtonTemplate
 QuestTitleButton15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton16 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton16QuestIcon = {}
@@ -688,7 +688,7 @@ QuestTitleButton16QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton16 : Button, QuestTitleButtonTemplate
 QuestTitleButton16 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton17 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton17QuestIcon = {}
@@ -698,7 +698,7 @@ QuestTitleButton17QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton17 : Button, QuestTitleButtonTemplate
 QuestTitleButton17 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton18 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton18QuestIcon = {}
@@ -708,7 +708,7 @@ QuestTitleButton18QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton18 : Button, QuestTitleButtonTemplate
 QuestTitleButton18 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton19 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton19QuestIcon = {}
@@ -718,7 +718,7 @@ QuestTitleButton19QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton19 : Button, QuestTitleButtonTemplate
 QuestTitleButton19 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton20 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton20QuestIcon = {}
@@ -728,7 +728,7 @@ QuestTitleButton20QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton20 : Button, QuestTitleButtonTemplate
 QuestTitleButton20 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton21 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton21QuestIcon = {}
@@ -738,7 +738,7 @@ QuestTitleButton21QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton21 : Button, QuestTitleButtonTemplate
 QuestTitleButton21 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton22 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton22QuestIcon = {}
@@ -748,7 +748,7 @@ QuestTitleButton22QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton22 : Button, QuestTitleButtonTemplate
 QuestTitleButton22 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton23 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton23QuestIcon = {}
@@ -758,7 +758,7 @@ QuestTitleButton23QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton23 : Button, QuestTitleButtonTemplate
 QuestTitleButton23 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton24 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton24QuestIcon = {}
@@ -768,7 +768,7 @@ QuestTitleButton24QuestIcon = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame_QuestTitleButton24 : Button, QuestTitleButtonTemplate
 QuestTitleButton24 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L165)
 --- child of QuestTitleButton25 (created in template QuestTitleButtonTemplate)
 --- @type Texture
 QuestTitleButton25QuestIcon = {}
@@ -803,17 +803,17 @@ AvailableQuestsText = {}
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame_QuestGreetingScrollChildFrame : Frame
 QuestGreetingScrollChildFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L327)
 --- child of QuestGreetingScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestGreetingScrollFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L334)
 --- child of QuestGreetingScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestGreetingScrollFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L341)
 --- child of QuestGreetingScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestGreetingScrollFrameMiddle = {}

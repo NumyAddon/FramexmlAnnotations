@@ -2772,7 +2772,7 @@ FriendsFrameTab1Middle = {}
 --- @type Texture
 FriendsFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L113)
 --- child of FriendsFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTab1HighlightTexture = {}
@@ -2812,7 +2812,7 @@ FriendsFrameTab2Middle = {}
 --- @type Texture
 FriendsFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L113)
 --- child of FriendsFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTab2HighlightTexture = {}
@@ -2852,7 +2852,7 @@ FriendsFrameTab3Middle = {}
 --- @type Texture
 FriendsFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L113)
 --- child of FriendsFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTab3HighlightTexture = {}
@@ -2892,7 +2892,7 @@ FriendsFrameTab4Middle = {}
 --- @type Texture
 FriendsFrameTab4Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L113)
 --- child of FriendsFrameTab4 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 FriendsFrameTab4HighlightTexture = {}

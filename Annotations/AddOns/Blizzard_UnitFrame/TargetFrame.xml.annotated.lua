@@ -356,6 +356,110 @@ TargetFramePowerBarAlt["statusFrame"] = TargetFramePowerBarAltStatusFrame -- inh
 TargetFramePowerBarAlt["fill"] = TargetFramePowerBarAltFill -- inherited
 TargetFramePowerBarAlt["flash"] = TargetFramePowerBarAltFlash -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L184)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L190)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameLevelText : FontString, GameNormalNumberFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L196)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L201)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L206)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L211)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L216)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L221)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L226)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameDeadText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L231)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameUnconsciousText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L178)
+--- child of TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateTextureFrame
+TargetFrameTextureFrame = {}
+TargetFrameTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L297)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_MyHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L298)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_OtherHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L291)
+--- child of TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
+TargetFrameHealthBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L318)
+--- child of TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateManaBar
+TargetFrameManaBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L334)
+--- child of TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+TargetFrameBuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L337)
+--- child of TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+TargetFrameDebuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L347)
+--- child of TargetFrameTemplateNumericalThreat
+--- @class TargetFrameTemplate_TargetFrameTemplateNumericalThreat_TargetFrameTemplateNumericalThreatValue : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L340)
+--- child of TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateNumericalThreat
+TargetFrameNumericalThreat = {}
+TargetFrameNumericalThreat["text"] = TargetFrameTemplateNumericalThreatValue
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L147)
+--- child of TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+TargetFrameFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L154)
+--- child of TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+TargetFrameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L163)
+--- child of TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+TargetFrameNameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L169)
+--- child of TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+TargetFramePortrait = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L631)
 --- @class TargetFrame : Button, TargetFrameTemplate, EditModeUnitFrameSystemTemplate, TargetFrameMixin
 --- @field systemIndex any # Enum.EditModeUnitFrameSystemIndices.Target
@@ -363,6 +467,13 @@ TargetFramePowerBarAlt["flash"] = TargetFramePowerBarAltFlash -- inherited
 TargetFrame = {}
 TargetFrame["powerBarAlt"] = TargetFramePowerBarAlt
 TargetFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Target
+TargetFrame["textureFrame"] = TargetFrameTextureFrame -- inherited
+TargetFrame["HealthBar"] = TargetFrameHealthBar -- inherited
+TargetFrame["PowerBar"] = TargetFrameManaBar -- inherited
+TargetFrame["buffs"] = TargetFrameBuffs -- inherited
+TargetFrame["debuffs"] = TargetFrameDebuffs -- inherited
+TargetFrame["Background"] = TargetFrameBackground -- inherited
+TargetFrame["nameBackground"] = TargetFrameNameBackground -- inherited
 TargetFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L98)
@@ -441,6 +552,110 @@ FocusFramePowerBarAlt["statusFrame"] = FocusFramePowerBarAltStatusFrame -- inher
 FocusFramePowerBarAlt["fill"] = FocusFramePowerBarAltFill -- inherited
 FocusFramePowerBarAlt["flash"] = FocusFramePowerBarAltFlash -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L184)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L190)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameLevelText : FontString, GameNormalNumberFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L196)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L201)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L206)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L211)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L216)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L221)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L226)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameDeadText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L231)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameUnconsciousText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L178)
+--- child of FocusFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateTextureFrame
+FocusFrameTextureFrame = {}
+FocusFrameTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L297)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_MyHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L298)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_OtherHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L291)
+--- child of FocusFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
+FocusFrameHealthBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L318)
+--- child of FocusFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateManaBar
+FocusFrameManaBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L334)
+--- child of FocusFrame (created in template TargetFrameTemplate)
+--- @type Frame
+FocusFrameBuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L337)
+--- child of FocusFrame (created in template TargetFrameTemplate)
+--- @type Frame
+FocusFrameDebuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L347)
+--- child of TargetFrameTemplateNumericalThreat
+--- @class TargetFrameTemplate_TargetFrameTemplateNumericalThreat_TargetFrameTemplateNumericalThreatValue : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L340)
+--- child of FocusFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateNumericalThreat
+FocusFrameNumericalThreat = {}
+FocusFrameNumericalThreat["text"] = TargetFrameTemplateNumericalThreatValue
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L147)
+--- child of FocusFrame (created in template TargetFrameTemplate)
+--- @type Texture
+FocusFrameFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L154)
+--- child of FocusFrame (created in template TargetFrameTemplate)
+--- @type Texture
+FocusFrameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L163)
+--- child of FocusFrame (created in template TargetFrameTemplate)
+--- @type Texture
+FocusFrameNameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L169)
+--- child of FocusFrame (created in template TargetFrameTemplate)
+--- @type Texture
+FocusFramePortrait = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L672)
 --- @class FocusFrame : Button, TargetFrameTemplate, EditModeUnitFrameSystemTemplate, FocusFrameMixin
 --- @field systemIndex any # Enum.EditModeUnitFrameSystemIndices.Focus
@@ -448,6 +663,13 @@ FocusFramePowerBarAlt["flash"] = FocusFramePowerBarAltFlash -- inherited
 FocusFrame = {}
 FocusFrame["powerBarAlt"] = FocusFramePowerBarAlt
 FocusFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Focus
+FocusFrame["textureFrame"] = FocusFrameTextureFrame -- inherited
+FocusFrame["HealthBar"] = FocusFrameHealthBar -- inherited
+FocusFrame["PowerBar"] = FocusFrameManaBar -- inherited
+FocusFrame["buffs"] = FocusFrameBuffs -- inherited
+FocusFrame["debuffs"] = FocusFrameDebuffs -- inherited
+FocusFrame["Background"] = FocusFrameBackground -- inherited
+FocusFrame["nameBackground"] = FocusFrameNameBackground -- inherited
 FocusFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L707)
@@ -527,7 +749,7 @@ Boss1TargetFramePowerBarAltFill = {}
 --- @type Texture
 Boss1TargetFramePowerBarAltFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L380)
 --- child of Boss1TargetFrame (created in template BossTargetFrameTemplate)
 --- @type BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
 Boss1TargetFramePowerBarAlt = {}
@@ -536,13 +758,123 @@ Boss1TargetFramePowerBarAlt["statusFrame"] = Boss1TargetFramePowerBarAltStatusFr
 Boss1TargetFramePowerBarAlt["fill"] = Boss1TargetFramePowerBarAltFill -- inherited
 Boss1TargetFramePowerBarAlt["flash"] = Boss1TargetFramePowerBarAltFlash -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L184)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L190)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameLevelText : FontString, GameNormalNumberFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L196)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L201)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L206)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L211)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L216)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L221)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L226)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameDeadText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L231)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameUnconsciousText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L178)
+--- child of Boss1TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateTextureFrame
+Boss1TargetFrameTextureFrame = {}
+Boss1TargetFrameTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L297)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_MyHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L298)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_OtherHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L291)
+--- child of Boss1TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
+Boss1TargetFrameHealthBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L318)
+--- child of Boss1TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateManaBar
+Boss1TargetFrameManaBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L334)
+--- child of Boss1TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+Boss1TargetFrameBuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L337)
+--- child of Boss1TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+Boss1TargetFrameDebuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L347)
+--- child of TargetFrameTemplateNumericalThreat
+--- @class TargetFrameTemplate_TargetFrameTemplateNumericalThreat_TargetFrameTemplateNumericalThreatValue : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L340)
+--- child of Boss1TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateNumericalThreat
+Boss1TargetFrameNumericalThreat = {}
+Boss1TargetFrameNumericalThreat["text"] = TargetFrameTemplateNumericalThreatValue
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L147)
+--- child of Boss1TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss1TargetFrameFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L154)
+--- child of Boss1TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss1TargetFrameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L163)
+--- child of Boss1TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss1TargetFrameNameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L169)
+--- child of Boss1TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss1TargetFramePortrait = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L721)
 --- @class Boss1TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 4
 Boss1TargetFrame = {}
 Boss1TargetFrame["layoutIndex"] = 4
-Boss1TargetFrame["align"] = "right" -- inherited
 Boss1TargetFrame["powerBarAlt"] = Boss1TargetFramePowerBarAlt -- inherited
+Boss1TargetFrame["textureFrame"] = Boss1TargetFrameTextureFrame -- inherited
+Boss1TargetFrame["HealthBar"] = Boss1TargetFrameHealthBar -- inherited
+Boss1TargetFrame["PowerBar"] = Boss1TargetFrameManaBar -- inherited
+Boss1TargetFrame["buffs"] = Boss1TargetFrameBuffs -- inherited
+Boss1TargetFrame["debuffs"] = Boss1TargetFrameDebuffs -- inherited
+Boss1TargetFrame["Background"] = Boss1TargetFrameBackground -- inherited
+Boss1TargetFrame["nameBackground"] = Boss1TargetFrameNameBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L98)
 --- child of Boss2TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -611,7 +943,7 @@ Boss2TargetFramePowerBarAltFill = {}
 --- @type Texture
 Boss2TargetFramePowerBarAltFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L380)
 --- child of Boss2TargetFrame (created in template BossTargetFrameTemplate)
 --- @type BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
 Boss2TargetFramePowerBarAlt = {}
@@ -620,13 +952,123 @@ Boss2TargetFramePowerBarAlt["statusFrame"] = Boss2TargetFramePowerBarAltStatusFr
 Boss2TargetFramePowerBarAlt["fill"] = Boss2TargetFramePowerBarAltFill -- inherited
 Boss2TargetFramePowerBarAlt["flash"] = Boss2TargetFramePowerBarAltFlash -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L184)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L190)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameLevelText : FontString, GameNormalNumberFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L196)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L201)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L206)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L211)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L216)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L221)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L226)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameDeadText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L231)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameUnconsciousText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L178)
+--- child of Boss2TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateTextureFrame
+Boss2TargetFrameTextureFrame = {}
+Boss2TargetFrameTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L297)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_MyHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L298)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_OtherHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L291)
+--- child of Boss2TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
+Boss2TargetFrameHealthBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L318)
+--- child of Boss2TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateManaBar
+Boss2TargetFrameManaBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L334)
+--- child of Boss2TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+Boss2TargetFrameBuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L337)
+--- child of Boss2TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+Boss2TargetFrameDebuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L347)
+--- child of TargetFrameTemplateNumericalThreat
+--- @class TargetFrameTemplate_TargetFrameTemplateNumericalThreat_TargetFrameTemplateNumericalThreatValue : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L340)
+--- child of Boss2TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateNumericalThreat
+Boss2TargetFrameNumericalThreat = {}
+Boss2TargetFrameNumericalThreat["text"] = TargetFrameTemplateNumericalThreatValue
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L147)
+--- child of Boss2TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss2TargetFrameFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L154)
+--- child of Boss2TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss2TargetFrameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L163)
+--- child of Boss2TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss2TargetFrameNameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L169)
+--- child of Boss2TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss2TargetFramePortrait = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L728)
 --- @class Boss2TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 5
 Boss2TargetFrame = {}
 Boss2TargetFrame["layoutIndex"] = 5
-Boss2TargetFrame["align"] = "right" -- inherited
 Boss2TargetFrame["powerBarAlt"] = Boss2TargetFramePowerBarAlt -- inherited
+Boss2TargetFrame["textureFrame"] = Boss2TargetFrameTextureFrame -- inherited
+Boss2TargetFrame["HealthBar"] = Boss2TargetFrameHealthBar -- inherited
+Boss2TargetFrame["PowerBar"] = Boss2TargetFrameManaBar -- inherited
+Boss2TargetFrame["buffs"] = Boss2TargetFrameBuffs -- inherited
+Boss2TargetFrame["debuffs"] = Boss2TargetFrameDebuffs -- inherited
+Boss2TargetFrame["Background"] = Boss2TargetFrameBackground -- inherited
+Boss2TargetFrame["nameBackground"] = Boss2TargetFrameNameBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L98)
 --- child of Boss3TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -695,7 +1137,7 @@ Boss3TargetFramePowerBarAltFill = {}
 --- @type Texture
 Boss3TargetFramePowerBarAltFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L380)
 --- child of Boss3TargetFrame (created in template BossTargetFrameTemplate)
 --- @type BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
 Boss3TargetFramePowerBarAlt = {}
@@ -704,13 +1146,123 @@ Boss3TargetFramePowerBarAlt["statusFrame"] = Boss3TargetFramePowerBarAltStatusFr
 Boss3TargetFramePowerBarAlt["fill"] = Boss3TargetFramePowerBarAltFill -- inherited
 Boss3TargetFramePowerBarAlt["flash"] = Boss3TargetFramePowerBarAltFlash -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L184)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L190)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameLevelText : FontString, GameNormalNumberFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L196)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L201)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L206)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L211)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L216)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L221)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L226)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameDeadText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L231)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameUnconsciousText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L178)
+--- child of Boss3TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateTextureFrame
+Boss3TargetFrameTextureFrame = {}
+Boss3TargetFrameTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L297)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_MyHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L298)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_OtherHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L291)
+--- child of Boss3TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
+Boss3TargetFrameHealthBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L318)
+--- child of Boss3TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateManaBar
+Boss3TargetFrameManaBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L334)
+--- child of Boss3TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+Boss3TargetFrameBuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L337)
+--- child of Boss3TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+Boss3TargetFrameDebuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L347)
+--- child of TargetFrameTemplateNumericalThreat
+--- @class TargetFrameTemplate_TargetFrameTemplateNumericalThreat_TargetFrameTemplateNumericalThreatValue : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L340)
+--- child of Boss3TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateNumericalThreat
+Boss3TargetFrameNumericalThreat = {}
+Boss3TargetFrameNumericalThreat["text"] = TargetFrameTemplateNumericalThreatValue
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L147)
+--- child of Boss3TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss3TargetFrameFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L154)
+--- child of Boss3TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss3TargetFrameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L163)
+--- child of Boss3TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss3TargetFrameNameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L169)
+--- child of Boss3TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss3TargetFramePortrait = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L734)
 --- @class Boss3TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 6
 Boss3TargetFrame = {}
 Boss3TargetFrame["layoutIndex"] = 6
-Boss3TargetFrame["align"] = "right" -- inherited
 Boss3TargetFrame["powerBarAlt"] = Boss3TargetFramePowerBarAlt -- inherited
+Boss3TargetFrame["textureFrame"] = Boss3TargetFrameTextureFrame -- inherited
+Boss3TargetFrame["HealthBar"] = Boss3TargetFrameHealthBar -- inherited
+Boss3TargetFrame["PowerBar"] = Boss3TargetFrameManaBar -- inherited
+Boss3TargetFrame["buffs"] = Boss3TargetFrameBuffs -- inherited
+Boss3TargetFrame["debuffs"] = Boss3TargetFrameDebuffs -- inherited
+Boss3TargetFrame["Background"] = Boss3TargetFrameBackground -- inherited
+Boss3TargetFrame["nameBackground"] = Boss3TargetFrameNameBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L98)
 --- child of Boss4TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -779,7 +1331,7 @@ Boss4TargetFramePowerBarAltFill = {}
 --- @type Texture
 Boss4TargetFramePowerBarAltFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L380)
 --- child of Boss4TargetFrame (created in template BossTargetFrameTemplate)
 --- @type BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
 Boss4TargetFramePowerBarAlt = {}
@@ -788,13 +1340,123 @@ Boss4TargetFramePowerBarAlt["statusFrame"] = Boss4TargetFramePowerBarAltStatusFr
 Boss4TargetFramePowerBarAlt["fill"] = Boss4TargetFramePowerBarAltFill -- inherited
 Boss4TargetFramePowerBarAlt["flash"] = Boss4TargetFramePowerBarAltFlash -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L184)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L190)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameLevelText : FontString, GameNormalNumberFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L196)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L201)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L206)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L211)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L216)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L221)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L226)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameDeadText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L231)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameUnconsciousText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L178)
+--- child of Boss4TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateTextureFrame
+Boss4TargetFrameTextureFrame = {}
+Boss4TargetFrameTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L297)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_MyHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L298)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_OtherHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L291)
+--- child of Boss4TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
+Boss4TargetFrameHealthBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L318)
+--- child of Boss4TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateManaBar
+Boss4TargetFrameManaBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L334)
+--- child of Boss4TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+Boss4TargetFrameBuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L337)
+--- child of Boss4TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+Boss4TargetFrameDebuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L347)
+--- child of TargetFrameTemplateNumericalThreat
+--- @class TargetFrameTemplate_TargetFrameTemplateNumericalThreat_TargetFrameTemplateNumericalThreatValue : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L340)
+--- child of Boss4TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateNumericalThreat
+Boss4TargetFrameNumericalThreat = {}
+Boss4TargetFrameNumericalThreat["text"] = TargetFrameTemplateNumericalThreatValue
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L147)
+--- child of Boss4TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss4TargetFrameFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L154)
+--- child of Boss4TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss4TargetFrameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L163)
+--- child of Boss4TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss4TargetFrameNameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L169)
+--- child of Boss4TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss4TargetFramePortrait = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L740)
 --- @class Boss4TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 7
 Boss4TargetFrame = {}
 Boss4TargetFrame["layoutIndex"] = 7
-Boss4TargetFrame["align"] = "right" -- inherited
 Boss4TargetFrame["powerBarAlt"] = Boss4TargetFramePowerBarAlt -- inherited
+Boss4TargetFrame["textureFrame"] = Boss4TargetFrameTextureFrame -- inherited
+Boss4TargetFrame["HealthBar"] = Boss4TargetFrameHealthBar -- inherited
+Boss4TargetFrame["PowerBar"] = Boss4TargetFrameManaBar -- inherited
+Boss4TargetFrame["buffs"] = Boss4TargetFrameBuffs -- inherited
+Boss4TargetFrame["debuffs"] = Boss4TargetFrameDebuffs -- inherited
+Boss4TargetFrame["Background"] = Boss4TargetFrameBackground -- inherited
+Boss4TargetFrame["nameBackground"] = Boss4TargetFrameNameBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L98)
 --- child of Boss5TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -863,7 +1525,7 @@ Boss5TargetFramePowerBarAltFill = {}
 --- @type Texture
 Boss5TargetFramePowerBarAltFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L380)
 --- child of Boss5TargetFrame (created in template BossTargetFrameTemplate)
 --- @type BossTargetFrameTemplate_BossTargetFrameTemplatePowerBarAlt
 Boss5TargetFramePowerBarAlt = {}
@@ -872,11 +1534,121 @@ Boss5TargetFramePowerBarAlt["statusFrame"] = Boss5TargetFramePowerBarAltStatusFr
 Boss5TargetFramePowerBarAlt["fill"] = Boss5TargetFramePowerBarAltFill -- inherited
 Boss5TargetFramePowerBarAlt["flash"] = Boss5TargetFramePowerBarAltFlash -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L184)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameName : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L190)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameLevelText : FontString, GameNormalNumberFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L196)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L201)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L206)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_HealthBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L211)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarText : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L216)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextLeft : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L221)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_ManaBarTextRight : FontString, TextStatusBarText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L226)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameDeadText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L231)
+--- child of TargetFrameTemplateTextureFrame
+--- @class TargetFrameTemplate_TargetFrameTemplateTextureFrame_TargetFrameTemplateTextureFrameUnconsciousText : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L178)
+--- child of Boss5TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateTextureFrame
+Boss5TargetFrameTextureFrame = {}
+Boss5TargetFrameTextureFrame["Name"] = TargetFrameTemplateTextureFrameName
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L297)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_MyHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L298)
+--- child of TargetFrameTemplateHealthBar
+--- @class TargetFrameTemplate_TargetFrameTemplateHealthBar_OtherHealPredictionBar : Frame, TargetFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L291)
+--- child of Boss5TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateHealthBar
+Boss5TargetFrameHealthBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L318)
+--- child of Boss5TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateManaBar
+Boss5TargetFrameManaBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L334)
+--- child of Boss5TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+Boss5TargetFrameBuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L337)
+--- child of Boss5TargetFrame (created in template TargetFrameTemplate)
+--- @type Frame
+Boss5TargetFrameDebuffs = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L347)
+--- child of TargetFrameTemplateNumericalThreat
+--- @class TargetFrameTemplate_TargetFrameTemplateNumericalThreat_TargetFrameTemplateNumericalThreatValue : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L340)
+--- child of Boss5TargetFrame (created in template TargetFrameTemplate)
+--- @type TargetFrameTemplate_TargetFrameTemplateNumericalThreat
+Boss5TargetFrameNumericalThreat = {}
+Boss5TargetFrameNumericalThreat["text"] = TargetFrameTemplateNumericalThreatValue
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L147)
+--- child of Boss5TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss5TargetFrameFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L154)
+--- child of Boss5TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss5TargetFrameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L163)
+--- child of Boss5TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss5TargetFrameNameBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L169)
+--- child of Boss5TargetFrame (created in template TargetFrameTemplate)
+--- @type Texture
+Boss5TargetFramePortrait = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L746)
 --- @class Boss5TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 8
 Boss5TargetFrame = {}
 Boss5TargetFrame["layoutIndex"] = 8
-Boss5TargetFrame["align"] = "right" -- inherited
 Boss5TargetFrame["powerBarAlt"] = Boss5TargetFramePowerBarAlt -- inherited
+Boss5TargetFrame["textureFrame"] = Boss5TargetFrameTextureFrame -- inherited
+Boss5TargetFrame["HealthBar"] = Boss5TargetFrameHealthBar -- inherited
+Boss5TargetFrame["PowerBar"] = Boss5TargetFrameManaBar -- inherited
+Boss5TargetFrame["buffs"] = Boss5TargetFrameBuffs -- inherited
+Boss5TargetFrame["debuffs"] = Boss5TargetFrameDebuffs -- inherited
+Boss5TargetFrame["Background"] = Boss5TargetFrameBackground -- inherited
+Boss5TargetFrame["nameBackground"] = Boss5TargetFrameNameBackground -- inherited
 

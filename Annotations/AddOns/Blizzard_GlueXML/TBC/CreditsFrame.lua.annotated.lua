@@ -4,7 +4,7 @@
 --- @class CreditsFrameMixin
 CreditsFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L410)
 --- @class CreditsExpansionListMixin
 CreditsExpansionListMixin = {}
 
@@ -32,44 +32,44 @@ function CreditsFrameMixin:JumpToCreditsIndex(position) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L84)
 function CreditsFrameMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L121)
 function CreditsFrameMixin:Switch(expansion, releaseType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L146)
 function CreditsFrameMixin:SetArtTextures(textureName, index, alpha) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L185)
 function CreditsFrameMixin:CacheTextures(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L221)
 function CreditsFrameMixin:UpdateArt(index, elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L270)
 function CreditsFrameMixin:SetSpeed(speed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L276)
 function CreditsFrameMixin:SetSpeedButtonActive(button, active) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L286)
 function CreditsFrameMixin:UpdateSpeedButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L304)
 function CreditsFrameMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L390)
 function CreditsFrameMixin:OnKeyDown(key) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L402)
 function CreditsFrameMixin:ToggleExpansionList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L410)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L412)
 function CreditsExpansionListMixin:OnOKClicked() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L416)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L418)
 function CreditsExpansionListMixin:OnCancelClicked() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L421)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L423)
 function CreditsExpansionListMixin:SetSelectedExpansion(expansion, releaseType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.lua#L431)
 function CreditsExpansionListMixin:OpenExpansionList(selectedExpansion, maxExpansion, releaseType, maxReleaseType) end

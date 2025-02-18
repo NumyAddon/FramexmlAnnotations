@@ -246,21 +246,33 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L190)
 --- Template
---- @class GameTooltipHeaderText : Font, GameTooltipHeader
+--- @class GameFontNormalHuge4 : Font, SystemFont_Shadow_Huge4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L193)
 --- Template
---- @class GameTooltipText : Font, Tooltip_Med
+--- @class GameFontNormalHuge4Outline : Font, SystemFont_Shadow_Huge4_Outline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L196)
 --- Template
---- @class GameTooltipTextSmall : Font, Tooltip_Small
+--- @class GameTooltipHeaderText : Font, GameTooltipHeader
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L199)
 --- Template
---- @class IMENormal : Font, System_IME
+--- @class GameTooltipText : Font, Tooltip_Med
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L202)
 --- Template
+--- @class GameTooltipTextSmall : Font, Tooltip_Small
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L205)
+--- Template
+--- @class IMENormal : Font, System_IME
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L208)
+--- Template
 --- @class IMEHighlight : Font, System_IME
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L212)
+--- Template
+--- @class Number14FontWhite : Font, NumberFont_Normal_Med
 

@@ -98,64 +98,17 @@ LFDRoleCheckPopup = {}
 --- @field Text LFDReadyCheckPopup_Text
 LFDReadyCheckPopup = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L805)
 --- child of LFDParentFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 LFDParentFrameInsetBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L804)
---- child of LFDParentFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-LFDParentFrameInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L809)
---- child of LFDParentFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-LFDParentFrameInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L815)
---- child of LFDParentFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-LFDParentFrameInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L821)
---- child of LFDParentFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-LFDParentFrameInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L827)
---- child of LFDParentFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-LFDParentFrameInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L833)
---- child of LFDParentFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-LFDParentFrameInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L839)
---- child of LFDParentFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-LFDParentFrameInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L845)
---- child of LFDParentFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-LFDParentFrameInsetInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L206)
 --- child of LFDParentFrame
 --- @class LFDParentFrame_LFDParentFrameInset : Frame, InsetFrameTemplate
 LFDParentFrameInset = {}
+LFDParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 LFDParentFrameInset["Bg"] = LFDParentFrameInsetBg -- inherited
-LFDParentFrameInset["InsetBorderTopLeft"] = LFDParentFrameInsetInsetTopLeftCorner -- inherited
-LFDParentFrameInset["InsetBorderTopRight"] = LFDParentFrameInsetInsetTopRightCorner -- inherited
-LFDParentFrameInset["InsetBorderBottomLeft"] = LFDParentFrameInsetInsetBotLeftCorner -- inherited
-LFDParentFrameInset["InsetBorderBottomRight"] = LFDParentFrameInsetInsetBotRightCorner -- inherited
-LFDParentFrameInset["InsetBorderTop"] = LFDParentFrameInsetInsetTopBorder -- inherited
-LFDParentFrameInset["InsetBorderBottom"] = LFDParentFrameInsetInsetBottomBorder -- inherited
-LFDParentFrameInset["InsetBorderLeft"] = LFDParentFrameInsetInsetLeftBorder -- inherited
-LFDParentFrameInset["InsetBorderRight"] = LFDParentFrameInsetInsetRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L188)
 --- child of LFDQueueFrameRoleButtonTank (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
@@ -274,22 +227,22 @@ LFDQueueFrameRandomScrollFrameChildFrameItem1RoleIcon2["texture"] = LFDQueueFram
 --- @type LFGRewardsLootTemplate_LFGRewardsLootTemplateShortageBorder
 LFDQueueFrameRandomScrollFrameChildFrameItem1ShortageBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L131)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 LFDQueueFrameRandomScrollFrameChildFrameItem1IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L137)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 LFDQueueFrameRandomScrollFrameChildFrameItem1NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L145)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 LFDQueueFrameRandomScrollFrameChildFrameItem1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L153)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 LFDQueueFrameRandomScrollFrameChildFrameItem1Count = {}
@@ -306,22 +259,22 @@ LFDQueueFrameRandomScrollFrameChildFrameItem1["NameFrame"] = LFDQueueFrameRandom
 LFDQueueFrameRandomScrollFrameChildFrameItem1["Name"] = LFDQueueFrameRandomScrollFrameChildFrameItem1Name -- inherited
 LFDQueueFrameRandomScrollFrameChildFrameItem1["Count"] = LFDQueueFrameRandomScrollFrameChildFrameItem1Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L131)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type Texture
 LFDQueueFrameRandomScrollFrameChildFrameMoneyRewardIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L137)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type Texture
 LFDQueueFrameRandomScrollFrameChildFrameMoneyRewardNameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L145)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 LFDQueueFrameRandomScrollFrameChildFrameMoneyRewardName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L153)
 --- child of LFDQueueFrameRandomScrollFrameChildFrameMoneyReward (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 LFDQueueFrameRandomScrollFrameChildFrameMoneyRewardCount = {}

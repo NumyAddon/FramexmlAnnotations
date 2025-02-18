@@ -1145,7 +1145,7 @@ CombatLogDefaultButton["fitTextCanWidthDecrease"] = true -- inherited
 TextToSpeechDefaultButton = {}
 TextToSpeechDefaultButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L476)
 --- child of TextToSpeechCharacterSpecificButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TextToSpeechCharacterSpecificButtonText = {}

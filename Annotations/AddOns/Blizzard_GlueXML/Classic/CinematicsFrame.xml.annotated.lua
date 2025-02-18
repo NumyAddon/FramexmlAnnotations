@@ -1,28 +1,28 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L34)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame : Frame
 --- @field Background Texture
 --- @field Alpha Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L44)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin : Frame
 --- @field Spinner Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L25)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_Loop : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L23)
 --- child of CinematicsButtonTemplate
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon : Frame
 --- @field Frame CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame
 --- @field Spin CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin
 --- @field Loop CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_Loop
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L62)
 --- child of CinematicsButtonTemplate
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar : StatusBar
 
@@ -34,49 +34,49 @@
 --- @field PlayButton Texture
 --- @field DownloadIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L159)
 --- child of CinematicsFrame
 --- @class CinematicsFrame_CinematicsFrameCloseButton : Button, GlueCloseButton
 CinematicsFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L34)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame : Frame
 --- @field Background Texture
 --- @field Alpha Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L44)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin : Frame
 --- @field Spinner Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L25)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_Loop : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L23)
 --- child of CinematicsButton1 (created in template CinematicsButtonTemplate)
 --- @type CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon
 CinematicsButton1StreamingIcon = {}
 CinematicsButton1StreamingIcon["Frame"] = CinematicsButtonTemplateStreamingIconFrame
 CinematicsButton1StreamingIcon["Spin"] = CinematicsButtonTemplateStreamingIconSpin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L62)
 --- child of CinematicsButton1 (created in template CinematicsButtonTemplate)
 --- @type CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar
 CinematicsButton1StatusBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L7)
 --- child of CinematicsButton1 (created in template CinematicsButtonTemplate)
 --- @type Texture
 CinematicsButton1PlayButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L13)
 --- child of CinematicsButton1 (created in template CinematicsButtonTemplate)
 --- @type Texture
 CinematicsButton1DownloadIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L165)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L170)
 --- child of CinematicsFrame
 --- @class CinematicsFrame_CinematicsButton1 : Button, CinematicsButtonTemplate
 CinematicsButton1 = {}
@@ -85,44 +85,44 @@ CinematicsButton1["StatusBar"] = CinematicsButton1StatusBar -- inherited
 CinematicsButton1["PlayButton"] = CinematicsButton1PlayButton -- inherited
 CinematicsButton1["DownloadIcon"] = CinematicsButton1DownloadIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L34)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame : Frame
 --- @field Background Texture
 --- @field Alpha Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L44)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin : Frame
 --- @field Spinner Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L25)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_Loop : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L23)
 --- child of CinematicsButton2 (created in template CinematicsButtonTemplate)
 --- @type CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon
 CinematicsButton2StreamingIcon = {}
 CinematicsButton2StreamingIcon["Frame"] = CinematicsButtonTemplateStreamingIconFrame
 CinematicsButton2StreamingIcon["Spin"] = CinematicsButtonTemplateStreamingIconSpin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L62)
 --- child of CinematicsButton2 (created in template CinematicsButtonTemplate)
 --- @type CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar
 CinematicsButton2StatusBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L7)
 --- child of CinematicsButton2 (created in template CinematicsButtonTemplate)
 --- @type Texture
 CinematicsButton2PlayButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L13)
 --- child of CinematicsButton2 (created in template CinematicsButtonTemplate)
 --- @type Texture
 CinematicsButton2DownloadIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L177)
 --- child of CinematicsFrame
 --- @class CinematicsFrame_CinematicsButton2 : Button, CinematicsButtonTemplate
 CinematicsButton2 = {}
@@ -131,44 +131,44 @@ CinematicsButton2["StatusBar"] = CinematicsButton2StatusBar -- inherited
 CinematicsButton2["PlayButton"] = CinematicsButton2PlayButton -- inherited
 CinematicsButton2["DownloadIcon"] = CinematicsButton2DownloadIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L34)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame : Frame
 --- @field Background Texture
 --- @field Alpha Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L44)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin : Frame
 --- @field Spinner Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L25)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_Loop : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L23)
 --- child of CinematicsButton3 (created in template CinematicsButtonTemplate)
 --- @type CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon
 CinematicsButton3StreamingIcon = {}
 CinematicsButton3StreamingIcon["Frame"] = CinematicsButtonTemplateStreamingIconFrame
 CinematicsButton3StreamingIcon["Spin"] = CinematicsButtonTemplateStreamingIconSpin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L62)
 --- child of CinematicsButton3 (created in template CinematicsButtonTemplate)
 --- @type CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar
 CinematicsButton3StatusBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L7)
 --- child of CinematicsButton3 (created in template CinematicsButtonTemplate)
 --- @type Texture
 CinematicsButton3PlayButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L13)
 --- child of CinematicsButton3 (created in template CinematicsButtonTemplate)
 --- @type Texture
 CinematicsButton3DownloadIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L184)
 --- child of CinematicsFrame
 --- @class CinematicsFrame_CinematicsButton3 : Button, CinematicsButtonTemplate
 CinematicsButton3 = {}
@@ -177,44 +177,44 @@ CinematicsButton3["StatusBar"] = CinematicsButton3StatusBar -- inherited
 CinematicsButton3["PlayButton"] = CinematicsButton3PlayButton -- inherited
 CinematicsButton3["DownloadIcon"] = CinematicsButton3DownloadIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L34)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconFrame : Frame
 --- @field Background Texture
 --- @field Alpha Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L44)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_CinematicsButtonTemplateStreamingIconSpin : Frame
 --- @field Spinner Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L26)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L25)
 --- child of CinematicsButtonTemplateStreamingIcon
 --- @class CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon_Loop : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L23)
 --- child of CinematicsButton4 (created in template CinematicsButtonTemplate)
 --- @type CinematicsButtonTemplate_CinematicsButtonTemplateStreamingIcon
 CinematicsButton4StreamingIcon = {}
 CinematicsButton4StreamingIcon["Frame"] = CinematicsButtonTemplateStreamingIconFrame
 CinematicsButton4StreamingIcon["Spin"] = CinematicsButtonTemplateStreamingIconSpin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L62)
 --- child of CinematicsButton4 (created in template CinematicsButtonTemplate)
 --- @type CinematicsButtonTemplate_CinematicsButtonTemplateStatusBar
 CinematicsButton4StatusBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L7)
 --- child of CinematicsButton4 (created in template CinematicsButtonTemplate)
 --- @type Texture
 CinematicsButton4PlayButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L13)
 --- child of CinematicsButton4 (created in template CinematicsButtonTemplate)
 --- @type Texture
 CinematicsButton4DownloadIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L191)
 --- child of CinematicsFrame
 --- @class CinematicsFrame_CinematicsButton4 : Button, CinematicsButtonTemplate
 CinematicsButton4 = {}
@@ -228,23 +228,23 @@ CinematicsButton4["DownloadIcon"] = CinematicsButton4DownloadIcon -- inherited
 --- @type GlueCheckButtonTemplate_GlueCheckButtonTemplateText
 CinematicSubtitlesCheckboxText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L198)
 --- child of CinematicsFrame
 --- @class CinematicsFrame_CinematicSubtitlesCheckbox : CheckButton, GlueCheckButtonTemplate
 CinematicSubtitlesCheckbox = {}
 CinematicSubtitlesCheckbox["Text"] = CinematicSubtitlesCheckboxText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L136)
 --- child of CinematicsFrame
 --- @class CinematicsFrame_CinematicsFrameBg : Texture
 CinematicsFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L151)
 --- child of CinematicsFrame
 --- @class CinematicsFrame_CinematicSubtitlesLabel : FontString, GlueFontNormalExtraSmall
 CinematicSubtitlesLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Classic/CinematicsFrame.xml#L120)
 --- @class CinematicsFrame : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DIALOG_EDGE_32
 CinematicsFrame = {}

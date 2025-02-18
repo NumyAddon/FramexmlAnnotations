@@ -41,16 +41,16 @@ PetPaperDollPetInfo = {}
 PetPaperDollCloseButton = {}
 PetPaperDollCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L134)
 --- child of AttributeFrameTemplateStat
 --- @class AttributeFrameTemplate_AttributeFrameTemplateStat_AttributeFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L125)
 --- child of PetStatFrame1 (created in template AttributeFrameTemplate)
 --- @type AttributeFrameTemplate_AttributeFrameTemplateStat
 PetStatFrame1Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L117)
 --- child of PetStatFrame1 (created in template AttributeFrameTemplate)
 --- @type AttributeFrameTemplate_AttributeFrameTemplateLabel
 PetStatFrame1Label = {}
@@ -61,16 +61,16 @@ PetStatFrame1Label = {}
 PetStatFrame1 = {}
 PetStatFrame1["Label"] = PetStatFrame1Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L134)
 --- child of AttributeFrameTemplateStat
 --- @class AttributeFrameTemplate_AttributeFrameTemplateStat_AttributeFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L125)
 --- child of PetStatFrame2 (created in template AttributeFrameTemplate)
 --- @type AttributeFrameTemplate_AttributeFrameTemplateStat
 PetStatFrame2Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L117)
 --- child of PetStatFrame2 (created in template AttributeFrameTemplate)
 --- @type AttributeFrameTemplate_AttributeFrameTemplateLabel
 PetStatFrame2Label = {}
@@ -81,16 +81,16 @@ PetStatFrame2Label = {}
 PetStatFrame2 = {}
 PetStatFrame2["Label"] = PetStatFrame2Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L134)
 --- child of AttributeFrameTemplateStat
 --- @class AttributeFrameTemplate_AttributeFrameTemplateStat_AttributeFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L125)
 --- child of PetStatFrame3 (created in template AttributeFrameTemplate)
 --- @type AttributeFrameTemplate_AttributeFrameTemplateStat
 PetStatFrame3Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L117)
 --- child of PetStatFrame3 (created in template AttributeFrameTemplate)
 --- @type AttributeFrameTemplate_AttributeFrameTemplateLabel
 PetStatFrame3Label = {}
@@ -101,16 +101,16 @@ PetStatFrame3Label = {}
 PetStatFrame3 = {}
 PetStatFrame3["Label"] = PetStatFrame3Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L134)
 --- child of AttributeFrameTemplateStat
 --- @class AttributeFrameTemplate_AttributeFrameTemplateStat_AttributeFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L125)
 --- child of PetStatFrame4 (created in template AttributeFrameTemplate)
 --- @type AttributeFrameTemplate_AttributeFrameTemplateStat
 PetStatFrame4Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L117)
 --- child of PetStatFrame4 (created in template AttributeFrameTemplate)
 --- @type AttributeFrameTemplate_AttributeFrameTemplateLabel
 PetStatFrame4Label = {}
@@ -121,16 +121,16 @@ PetStatFrame4Label = {}
 PetStatFrame4 = {}
 PetStatFrame4["Label"] = PetStatFrame4Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L134)
 --- child of AttributeFrameTemplateStat
 --- @class AttributeFrameTemplate_AttributeFrameTemplateStat_AttributeFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L125)
 --- child of PetStatFrame5 (created in template AttributeFrameTemplate)
 --- @type AttributeFrameTemplate_AttributeFrameTemplateStat
 PetStatFrame5Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L117)
 --- child of PetStatFrame5 (created in template AttributeFrameTemplate)
 --- @type AttributeFrameTemplate_AttributeFrameTemplateLabel
 PetStatFrame5Label = {}
@@ -141,16 +141,16 @@ PetStatFrame5Label = {}
 PetStatFrame5 = {}
 PetStatFrame5["Label"] = PetStatFrame5Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L84)
 --- child of PetAttackPowerFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetAttackPowerFrameStat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L76)
 --- child of PetAttackPowerFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetAttackPowerFrameLabel = {}
@@ -161,16 +161,16 @@ PetAttackPowerFrameLabel = {}
 PetAttackPowerFrame = {}
 PetAttackPowerFrame["Label"] = PetAttackPowerFrameLabel -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L84)
 --- child of PetDamageFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetDamageFrameStat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L76)
 --- child of PetDamageFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetDamageFrameLabel = {}
@@ -181,16 +181,16 @@ PetDamageFrameLabel = {}
 PetDamageFrame = {}
 PetDamageFrame["Label"] = PetDamageFrameLabel -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L84)
 --- child of PetSpellDamageFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetSpellDamageFrameStat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L76)
 --- child of PetSpellDamageFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetSpellDamageFrameLabel = {}
@@ -201,16 +201,16 @@ PetSpellDamageFrameLabel = {}
 PetSpellDamageFrame = {}
 PetSpellDamageFrame["Label"] = PetSpellDamageFrameLabel -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L84)
 --- child of PetArmorFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetArmorFrameStat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/TBC/PetPaperDollFrame.xml#L76)
 --- child of PetArmorFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetArmorFrameLabel = {}

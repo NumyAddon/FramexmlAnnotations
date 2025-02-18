@@ -17,7 +17,7 @@
 --- @class TradeSkillFrame_TradeSkillLinkButton : Button
 TradeSkillLinkButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L476)
 --- child of TradeSkillFrameAvailableFilterCheckButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TradeSkillFrameAvailableFilterCheckButtonText = {}
@@ -123,6 +123,11 @@ TradeSkillHighlight = {}
 --- @class TradeSkillFrame_TradeSkillHighlightFrame : Frame
 TradeSkillHighlightFrame = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L6)
+--- child of TradeSkillSkill1 (created in template TradeSkillSkillButtonTemplate)
+--- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
+TradeSkillSkill1Count = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill1 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
@@ -137,6 +142,11 @@ TradeSkillSkill1Highlight = {}
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillSkill1 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L6)
+--- child of TradeSkillSkill2 (created in template TradeSkillSkillButtonTemplate)
+--- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
+TradeSkillSkill2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill2 (created in template ClassTrainerSkillButtonTemplate)
@@ -153,6 +163,11 @@ TradeSkillSkill2Highlight = {}
 --- @class TradeSkillFrame_TradeSkillSkill2 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill2 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L6)
+--- child of TradeSkillSkill3 (created in template TradeSkillSkillButtonTemplate)
+--- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
+TradeSkillSkill3Count = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill3 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
@@ -167,6 +182,11 @@ TradeSkillSkill3Highlight = {}
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillSkill3 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill3 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L6)
+--- child of TradeSkillSkill4 (created in template TradeSkillSkillButtonTemplate)
+--- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
+TradeSkillSkill4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill4 (created in template ClassTrainerSkillButtonTemplate)
@@ -183,6 +203,11 @@ TradeSkillSkill4Highlight = {}
 --- @class TradeSkillFrame_TradeSkillSkill4 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill4 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L6)
+--- child of TradeSkillSkill5 (created in template TradeSkillSkillButtonTemplate)
+--- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
+TradeSkillSkill5Count = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill5 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
@@ -197,6 +222,11 @@ TradeSkillSkill5Highlight = {}
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillSkill5 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill5 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L6)
+--- child of TradeSkillSkill6 (created in template TradeSkillSkillButtonTemplate)
+--- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
+TradeSkillSkill6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill6 (created in template ClassTrainerSkillButtonTemplate)
@@ -213,6 +243,11 @@ TradeSkillSkill6Highlight = {}
 --- @class TradeSkillFrame_TradeSkillSkill6 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill6 = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L6)
+--- child of TradeSkillSkill7 (created in template TradeSkillSkillButtonTemplate)
+--- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
+TradeSkillSkill7Count = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill7 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
@@ -227,6 +262,11 @@ TradeSkillSkill7Highlight = {}
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillSkill7 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill7 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L6)
+--- child of TradeSkillSkill8 (created in template TradeSkillSkillButtonTemplate)
+--- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
+TradeSkillSkill8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill8 (created in template ClassTrainerSkillButtonTemplate)
@@ -288,22 +328,22 @@ TradeSkillSkillIconCount = {}
 --- @class TradeSkillFrame_TradeSkillDetailScrollFrame_TradeSkillDetailScrollChildFrame_TradeSkillSkillIcon : Button
 TradeSkillSkillIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L131)
 --- child of TradeSkillReagent1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent1IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L137)
 --- child of TradeSkillReagent1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent1NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L145)
 --- child of TradeSkillReagent1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 TradeSkillReagent1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L153)
 --- child of TradeSkillReagent1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 TradeSkillReagent1Count = {}
@@ -317,22 +357,22 @@ TradeSkillReagent1["NameFrame"] = TradeSkillReagent1NameFrame -- inherited
 TradeSkillReagent1["Name"] = TradeSkillReagent1Name -- inherited
 TradeSkillReagent1["Count"] = TradeSkillReagent1Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L131)
 --- child of TradeSkillReagent2 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent2IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L137)
 --- child of TradeSkillReagent2 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent2NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L145)
 --- child of TradeSkillReagent2 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 TradeSkillReagent2Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L153)
 --- child of TradeSkillReagent2 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 TradeSkillReagent2Count = {}
@@ -346,22 +386,22 @@ TradeSkillReagent2["NameFrame"] = TradeSkillReagent2NameFrame -- inherited
 TradeSkillReagent2["Name"] = TradeSkillReagent2Name -- inherited
 TradeSkillReagent2["Count"] = TradeSkillReagent2Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L131)
 --- child of TradeSkillReagent3 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent3IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L137)
 --- child of TradeSkillReagent3 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent3NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L145)
 --- child of TradeSkillReagent3 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 TradeSkillReagent3Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L153)
 --- child of TradeSkillReagent3 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 TradeSkillReagent3Count = {}
@@ -375,22 +415,22 @@ TradeSkillReagent3["NameFrame"] = TradeSkillReagent3NameFrame -- inherited
 TradeSkillReagent3["Name"] = TradeSkillReagent3Name -- inherited
 TradeSkillReagent3["Count"] = TradeSkillReagent3Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L131)
 --- child of TradeSkillReagent4 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent4IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L137)
 --- child of TradeSkillReagent4 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent4NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L145)
 --- child of TradeSkillReagent4 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 TradeSkillReagent4Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L153)
 --- child of TradeSkillReagent4 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 TradeSkillReagent4Count = {}
@@ -404,22 +444,22 @@ TradeSkillReagent4["NameFrame"] = TradeSkillReagent4NameFrame -- inherited
 TradeSkillReagent4["Name"] = TradeSkillReagent4Name -- inherited
 TradeSkillReagent4["Count"] = TradeSkillReagent4Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L131)
 --- child of TradeSkillReagent5 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent5IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L137)
 --- child of TradeSkillReagent5 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent5NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L145)
 --- child of TradeSkillReagent5 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 TradeSkillReagent5Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L153)
 --- child of TradeSkillReagent5 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 TradeSkillReagent5Count = {}
@@ -433,22 +473,22 @@ TradeSkillReagent5["NameFrame"] = TradeSkillReagent5NameFrame -- inherited
 TradeSkillReagent5["Name"] = TradeSkillReagent5Name -- inherited
 TradeSkillReagent5["Count"] = TradeSkillReagent5Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L131)
 --- child of TradeSkillReagent6 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent6IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L137)
 --- child of TradeSkillReagent6 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent6NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L145)
 --- child of TradeSkillReagent6 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 TradeSkillReagent6Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L153)
 --- child of TradeSkillReagent6 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 TradeSkillReagent6Count = {}
@@ -462,22 +502,22 @@ TradeSkillReagent6["NameFrame"] = TradeSkillReagent6NameFrame -- inherited
 TradeSkillReagent6["Name"] = TradeSkillReagent6Name -- inherited
 TradeSkillReagent6["Count"] = TradeSkillReagent6Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L131)
 --- child of TradeSkillReagent7 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent7IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L137)
 --- child of TradeSkillReagent7 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent7NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L145)
 --- child of TradeSkillReagent7 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 TradeSkillReagent7Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L153)
 --- child of TradeSkillReagent7 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 TradeSkillReagent7Count = {}
@@ -491,22 +531,22 @@ TradeSkillReagent7["NameFrame"] = TradeSkillReagent7NameFrame -- inherited
 TradeSkillReagent7["Name"] = TradeSkillReagent7Name -- inherited
 TradeSkillReagent7["Count"] = TradeSkillReagent7Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L131)
 --- child of TradeSkillReagent8 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent8IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L137)
 --- child of TradeSkillReagent8 (created in template LargeItemButtonTemplate)
 --- @type Texture
 TradeSkillReagent8NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L145)
 --- child of TradeSkillReagent8 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 TradeSkillReagent8Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L153)
 --- child of TradeSkillReagent8 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 TradeSkillReagent8Count = {}

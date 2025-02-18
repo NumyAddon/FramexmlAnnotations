@@ -12,15 +12,20 @@
 --- @field Arrow Texture
 --- @field Text WowStyle1DropdownTemplate_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L45)
+--- Template
+--- @class WowStyle1ArrowDropdownTemplate : DropdownButton, WowStyle1ArrowDropdownMixin
+--- @field Arrow Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L80)
 --- child of WowStyle1FilterDropdownTemplate
 --- @class WowStyle1FilterDropdownTemplate_ResetButton : Button, UIResetButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L96)
 --- child of WowStyle1FilterDropdownTemplate
 --- @class WowStyle1FilterDropdownTemplate_Text : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L67)
 --- Template
 --- @class WowStyle1FilterDropdownTemplate : DropdownButton, WowStyle1FilterDropdownMixin
 --- @field text any # FILTER

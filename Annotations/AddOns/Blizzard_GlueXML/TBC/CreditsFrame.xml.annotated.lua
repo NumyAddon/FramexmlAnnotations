@@ -51,49 +51,53 @@
 --- @field OKButton CreditsExpansionListTemplate_OKButton
 --- @field CancelButton CreditsExpansionListTemplate_CancelButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L348)
+--- child of CreditsFrame
+--- @class CreditsFrame_GameLogo : Frame, GlueGameLogoTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L368)
 --- child of CreditsFrame_ScrollFrame
 --- @class CreditsFrame_ScrollFrame_Text : SimpleHTML
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L354)
 --- child of CreditsFrame
 --- @class CreditsFrame_ScrollFrame : ScrollFrame
 --- @field Text CreditsFrame_ScrollFrame_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L379)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L377)
 --- child of CreditsFrame
 --- @class CreditsFrame_Slider : Slider, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_SLIDER_8_8
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L399)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L397)
 --- child of CreditsFrame
 --- @class CreditsFrame_BackButton : Button, GlueButtonSmallTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L406)
 --- child of CreditsFrame
 --- @class CreditsFrame_ExpansionsButton : Button, GlueButtonSmallTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L417)
 --- child of CreditsFrame
 --- @class CreditsFrame_CreditsFrameRewindButton : Button, CreditsSpeedButtonTemplate
 CreditsFrameRewindButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L430)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L428)
 --- child of CreditsFrame
 --- @class CreditsFrame_CreditsFramePauseButton : Button, CreditsSpeedButtonTemplate
 CreditsFramePauseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L439)
 --- child of CreditsFrame
 --- @class CreditsFrame_CreditsFramePlayButton : Button, CreditsSpeedButtonTemplate
 CreditsFramePlayButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L452)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L450)
 --- child of CreditsFrame
 --- @class CreditsFrame_CreditsFrameFastForwardButton : Button, CreditsSpeedButtonTemplate
 CreditsFrameFastForwardButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L461)
 --- child of CreditsFrame
 --- @class CreditsFrame_ExpansionList : Frame, CreditsExpansionListTemplate
 
@@ -277,34 +281,34 @@ CreditsBackground11 = {}
 --- @class CreditsFrame_CreditsBackground12 : Texture
 CreditsBackground12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L313)
 --- child of CreditsFrame
 --- @class CreditsFrame_CreditsBorder1 : Texture
 CreditsBorder1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L320)
 --- child of CreditsFrame
 --- @class CreditsFrame_CreditsBorder9 : Texture
 CreditsBorder9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L329)
 --- child of CreditsFrame
 --- @class CreditsFrame_UpperBlackBar : Texture
 UpperBlackBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L337)
 --- child of CreditsFrame
 --- @class CreditsFrame_LowerBlackBar : Texture
 LowerBlackBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/TBC/CreditsFrame.xml#L84)
 --- @class CreditsFrame : Frame, CreditsFrameMixin
+--- @field GameLogo CreditsFrame_GameLogo
 --- @field ScrollFrame CreditsFrame_ScrollFrame
 --- @field ClipFrame Frame
 --- @field Slider CreditsFrame_Slider
 --- @field BackButton CreditsFrame_BackButton
 --- @field ExpansionsButton CreditsFrame_ExpansionsButton
 --- @field ExpansionList CreditsFrame_ExpansionList
---- @field Logo Texture
 CreditsFrame = {}
 

@@ -319,50 +319,10 @@
 --- Template
 --- @class LFGListPanelTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L805)
 --- child of LFGListFrame_CategorySelection_Inset (created in template InsetFrameTemplate)
 --- @type Texture
 LFGListFrameBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L804)
---- child of LFGListFrame_CategorySelection_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-LFGListFrameInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L809)
---- child of LFGListFrame_CategorySelection_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-LFGListFrameInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L815)
---- child of LFGListFrame_CategorySelection_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-LFGListFrameInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L821)
---- child of LFGListFrame_CategorySelection_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-LFGListFrameInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L827)
---- child of LFGListFrame_CategorySelection_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-LFGListFrameInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L833)
---- child of LFGListFrame_CategorySelection_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-LFGListFrameInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L839)
---- child of LFGListFrame_CategorySelection_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-LFGListFrameInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L845)
---- child of LFGListFrame_CategorySelection_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-LFGListFrameInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1020)
 --- child of LFGListFrame_CategorySelection
@@ -391,50 +351,10 @@ LFGListFrameInsetRightBorder = {}
 --- @field Label LFGListFrame_CategorySelection_Label
 --- @field CategoryButtons table<number, LFGListCategoryTemplate>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L805)
 --- child of LFGListFrame_NothingAvailable_Inset (created in template InsetFrameTemplate)
 --- @type Texture
 LFGListFrameBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L804)
---- child of LFGListFrame_NothingAvailable_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-LFGListFrameInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L809)
---- child of LFGListFrame_NothingAvailable_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-LFGListFrameInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L815)
---- child of LFGListFrame_NothingAvailable_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-LFGListFrameInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L821)
---- child of LFGListFrame_NothingAvailable_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-LFGListFrameInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L827)
---- child of LFGListFrame_NothingAvailable_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-LFGListFrameInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L833)
---- child of LFGListFrame_NothingAvailable_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-LFGListFrameInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L839)
---- child of LFGListFrame_NothingAvailable_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-LFGListFrameInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L845)
---- child of LFGListFrame_NothingAvailable_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-LFGListFrameInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1070)
 --- child of LFGListFrame_NothingAvailable
@@ -456,12 +376,12 @@ LFGListFrameInsetRightBorder = {}
 --- @field Inset LFGListFrame_NothingAvailable_Inset
 --- @field Label LFGListFrame_NothingAvailable_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1220)
 --- child of LFGListFrame_SearchPanel_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 LFGListFrameClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1253)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1211)
 --- child of LFGListFrame_SearchPanel_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 LFGListFrameSearchIcon = {}
@@ -510,50 +430,10 @@ LFGListFrameSearchIcon = {}
 --- @class LFGListFrame_SearchPanel_RefreshButton : Button
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L805)
 --- child of LFGListFrame_SearchPanel_ResultsInset (created in template InsetFrameTemplate)
 --- @type Texture
 LFGListFrameBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L804)
---- child of LFGListFrame_SearchPanel_ResultsInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-LFGListFrameInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L809)
---- child of LFGListFrame_SearchPanel_ResultsInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-LFGListFrameInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L815)
---- child of LFGListFrame_SearchPanel_ResultsInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-LFGListFrameInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L821)
---- child of LFGListFrame_SearchPanel_ResultsInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-LFGListFrameInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L827)
---- child of LFGListFrame_SearchPanel_ResultsInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-LFGListFrameInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L833)
---- child of LFGListFrame_SearchPanel_ResultsInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-LFGListFrameInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L839)
---- child of LFGListFrame_SearchPanel_ResultsInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-LFGListFrameInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L845)
---- child of LFGListFrame_SearchPanel_ResultsInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-LFGListFrameInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1247)
 --- child of LFGListFrame_SearchPanel
@@ -644,50 +524,10 @@ LFGListFrameInsetRightBorder = {}
 --- @class LFGListFrame_ApplicationViewer_AutoAcceptButton : CheckButton
 --- @field Label LFGListFrame_ApplicationViewer_AutoAcceptButton_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L805)
 --- child of LFGListFrame_ApplicationViewer_Inset (created in template InsetFrameTemplate)
 --- @type Texture
 LFGListFrameBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L804)
---- child of LFGListFrame_ApplicationViewer_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-LFGListFrameInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L809)
---- child of LFGListFrame_ApplicationViewer_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-LFGListFrameInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L815)
---- child of LFGListFrame_ApplicationViewer_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-LFGListFrameInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L821)
---- child of LFGListFrame_ApplicationViewer_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-LFGListFrameInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L827)
---- child of LFGListFrame_ApplicationViewer_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-LFGListFrameInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L833)
---- child of LFGListFrame_ApplicationViewer_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-LFGListFrameInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L839)
---- child of LFGListFrame_ApplicationViewer_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-LFGListFrameInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L845)
---- child of LFGListFrame_ApplicationViewer_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-LFGListFrameInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1442)
 --- child of LFGListFrame_ApplicationViewer
@@ -794,50 +634,10 @@ LFGApplicationViewerRatingColumnHeader = {}
 --- @field PrivateGroup LFGListFrame_ApplicationViewer_PrivateGroup
 --- @field ItemLevel LFGListFrame_ApplicationViewer_ItemLevel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L805)
 --- child of LFGListFrame_EntryCreation_Inset (created in template InsetFrameTemplate)
 --- @type Texture
 LFGListFrameBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L804)
---- child of LFGListFrame_EntryCreation_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-LFGListFrameInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L809)
---- child of LFGListFrame_EntryCreation_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-LFGListFrameInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L815)
---- child of LFGListFrame_EntryCreation_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-LFGListFrameInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L821)
---- child of LFGListFrame_EntryCreation_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-LFGListFrameInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L827)
---- child of LFGListFrame_EntryCreation_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-LFGListFrameInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L833)
---- child of LFGListFrame_EntryCreation_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-LFGListFrameInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L839)
---- child of LFGListFrame_EntryCreation_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-LFGListFrameInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L845)
---- child of LFGListFrame_EntryCreation_Inset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-LFGListFrameInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1670)
 --- child of LFGListFrame_EntryCreation
@@ -1049,59 +849,47 @@ LFGListApplicationDialogDescription["maxLetters"] = 0 -- inherited
 LFGListApplicationDialog = {}
 LFGListApplicationDialog["Description"] = LFGListApplicationDialogDescription -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L938)
---- child of LFGListCreateRoleDialog (created in template LFGListApplicationDialogTemplate)
---- @type LFGListApplicationDialogTemplate_LFGListApplicationDialogDescription
-LFGListApplicationDialogDescription = {}
-LFGListApplicationDialogDescription["maxLetters"] = 63
-LFGListApplicationDialogDescription["maxLetters"] = 0 -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2008)
---- @class LFGListCreateRoleDialog : Frame, LFGListApplicationDialogTemplate
-LFGListCreateRoleDialog = {}
-LFGListCreateRoleDialog["Description"] = LFGListApplicationDialogDescription -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2058)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2052)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2059)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2053)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_AcceptButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2072)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2066)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_DeclineButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2084)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2078)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_AcknowledgeButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2018)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2012)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_Label : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2023)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2017)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_GroupName : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2028)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2022)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_ActivityName : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2039)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2033)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_RoleDescription : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2044)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2038)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_Role : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2049)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2043)
 --- child of LFGListInviteDialog
 --- @class LFGListInviteDialog_OfflineNotice : FontString, GameFontRed
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2014)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2008)
 --- @class LFGListInviteDialog : Frame
 --- @field Border LFGListInviteDialog_Border
 --- @field AcceptButton LFGListInviteDialog_AcceptButton

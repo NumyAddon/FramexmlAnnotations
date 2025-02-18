@@ -26,22 +26,22 @@ QuestLogExpandTabLeft = {}
 --- @class QuestLogFrame_QuestLogExpandButtonFrame_QuestLogCollapseAllButton_QuestLogExpandTabMiddle : Texture
 QuestLogExpandTabMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
 --- child of QuestLogCollapseAllButton (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
 QuestLogCollapseAllButtonTag = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L22)
 --- child of QuestLogCollapseAllButton (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
 QuestLogCollapseAllButtonGroupMates = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L34)
 --- child of QuestLogCollapseAllButton (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogCollapseAllButtonCheck = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L73)
 --- child of QuestLogCollapseAllButton (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogCollapseAllButtonHighlight = {}
@@ -50,6 +50,9 @@ QuestLogCollapseAllButtonHighlight = {}
 --- child of QuestLogExpandButtonFrame
 --- @class QuestLogFrame_QuestLogExpandButtonFrame_QuestLogCollapseAllButton : Button, QuestLogTitleButtonTemplate
 QuestLogCollapseAllButton = {}
+QuestLogCollapseAllButton["tag"] = QuestLogCollapseAllButtonTag -- inherited
+QuestLogCollapseAllButton["groupMates"] = QuestLogCollapseAllButtonGroupMates -- inherited
+QuestLogCollapseAllButton["check"] = QuestLogCollapseAllButtonCheck -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L243)
 --- child of QuestLogFrame
@@ -114,22 +117,22 @@ QuestLogSkillHighlight = {}
 --- @class QuestLogFrame_QuestLogHighlightFrame : Frame
 QuestLogHighlightFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle1 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
 QuestLogTitle1Tag = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L22)
 --- child of QuestLogTitle1 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
 QuestLogTitle1GroupMates = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L34)
 --- child of QuestLogTitle1 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle1Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L73)
 --- child of QuestLogTitle1 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle1Highlight = {}
@@ -138,23 +141,26 @@ QuestLogTitle1Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle1 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle1 = {}
+QuestLogTitle1["tag"] = QuestLogTitle1Tag -- inherited
+QuestLogTitle1["groupMates"] = QuestLogTitle1GroupMates -- inherited
+QuestLogTitle1["check"] = QuestLogTitle1Check -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle2 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
 QuestLogTitle2Tag = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L22)
 --- child of QuestLogTitle2 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
 QuestLogTitle2GroupMates = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L34)
 --- child of QuestLogTitle2 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle2Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L73)
 --- child of QuestLogTitle2 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle2Highlight = {}
@@ -163,23 +169,26 @@ QuestLogTitle2Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle2 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle2 = {}
+QuestLogTitle2["tag"] = QuestLogTitle2Tag -- inherited
+QuestLogTitle2["groupMates"] = QuestLogTitle2GroupMates -- inherited
+QuestLogTitle2["check"] = QuestLogTitle2Check -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle3 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
 QuestLogTitle3Tag = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L22)
 --- child of QuestLogTitle3 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
 QuestLogTitle3GroupMates = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L34)
 --- child of QuestLogTitle3 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle3Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L73)
 --- child of QuestLogTitle3 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle3Highlight = {}
@@ -188,23 +197,26 @@ QuestLogTitle3Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle3 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle3 = {}
+QuestLogTitle3["tag"] = QuestLogTitle3Tag -- inherited
+QuestLogTitle3["groupMates"] = QuestLogTitle3GroupMates -- inherited
+QuestLogTitle3["check"] = QuestLogTitle3Check -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle4 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
 QuestLogTitle4Tag = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L22)
 --- child of QuestLogTitle4 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
 QuestLogTitle4GroupMates = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L34)
 --- child of QuestLogTitle4 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle4Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L73)
 --- child of QuestLogTitle4 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle4Highlight = {}
@@ -213,23 +225,26 @@ QuestLogTitle4Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle4 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle4 = {}
+QuestLogTitle4["tag"] = QuestLogTitle4Tag -- inherited
+QuestLogTitle4["groupMates"] = QuestLogTitle4GroupMates -- inherited
+QuestLogTitle4["check"] = QuestLogTitle4Check -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle5 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
 QuestLogTitle5Tag = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L22)
 --- child of QuestLogTitle5 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
 QuestLogTitle5GroupMates = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L34)
 --- child of QuestLogTitle5 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle5Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L73)
 --- child of QuestLogTitle5 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle5Highlight = {}
@@ -238,23 +253,26 @@ QuestLogTitle5Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle5 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle5 = {}
+QuestLogTitle5["tag"] = QuestLogTitle5Tag -- inherited
+QuestLogTitle5["groupMates"] = QuestLogTitle5GroupMates -- inherited
+QuestLogTitle5["check"] = QuestLogTitle5Check -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
 --- child of QuestLogTitle6 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
 QuestLogTitle6Tag = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L22)
 --- child of QuestLogTitle6 (created in template QuestLogTitleButtonTemplate)
 --- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
 QuestLogTitle6GroupMates = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L34)
 --- child of QuestLogTitle6 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle6Check = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L73)
 --- child of QuestLogTitle6 (created in template QuestLogTitleButtonTemplate)
 --- @type Texture
 QuestLogTitle6Highlight = {}
@@ -263,6 +281,9 @@ QuestLogTitle6Highlight = {}
 --- child of QuestLogFrame
 --- @class QuestLogFrame_QuestLogTitle6 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle6 = {}
+QuestLogTitle6["tag"] = QuestLogTitle6Tag -- inherited
+QuestLogTitle6["groupMates"] = QuestLogTitle6GroupMates -- inherited
+QuestLogTitle6["check"] = QuestLogTitle6Check -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L163)
 --- child of QuestLogListScrollFrame (created in template FauxScrollFrameTemplate)
@@ -299,22 +320,22 @@ QuestLogListScrollFrame = {}
 QuestLogListScrollFrame["ScrollChildFrame"] = QuestLogListScrollFrameScrollChildFrame -- inherited
 QuestLogListScrollFrame["ScrollBar"] = QuestLogListScrollFrameScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L131)
 --- child of QuestLogItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem1IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L137)
 --- child of QuestLogItem1 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem1NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestLogItem1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem1 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestLogItem1Count = {}
@@ -328,22 +349,22 @@ QuestLogItem1["NameFrame"] = QuestLogItem1NameFrame -- inherited
 QuestLogItem1["Name"] = QuestLogItem1Name -- inherited
 QuestLogItem1["Count"] = QuestLogItem1Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L131)
 --- child of QuestLogItem2 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem2IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L137)
 --- child of QuestLogItem2 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem2NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem2 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestLogItem2Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem2 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestLogItem2Count = {}
@@ -357,22 +378,22 @@ QuestLogItem2["NameFrame"] = QuestLogItem2NameFrame -- inherited
 QuestLogItem2["Name"] = QuestLogItem2Name -- inherited
 QuestLogItem2["Count"] = QuestLogItem2Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L131)
 --- child of QuestLogItem3 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem3IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L137)
 --- child of QuestLogItem3 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem3NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem3 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestLogItem3Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem3 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestLogItem3Count = {}
@@ -386,22 +407,22 @@ QuestLogItem3["NameFrame"] = QuestLogItem3NameFrame -- inherited
 QuestLogItem3["Name"] = QuestLogItem3Name -- inherited
 QuestLogItem3["Count"] = QuestLogItem3Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L131)
 --- child of QuestLogItem4 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem4IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L137)
 --- child of QuestLogItem4 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem4NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem4 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestLogItem4Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem4 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestLogItem4Count = {}
@@ -415,22 +436,22 @@ QuestLogItem4["NameFrame"] = QuestLogItem4NameFrame -- inherited
 QuestLogItem4["Name"] = QuestLogItem4Name -- inherited
 QuestLogItem4["Count"] = QuestLogItem4Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L131)
 --- child of QuestLogItem5 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem5IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L137)
 --- child of QuestLogItem5 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem5NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem5 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestLogItem5Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem5 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestLogItem5Count = {}
@@ -444,22 +465,22 @@ QuestLogItem5["NameFrame"] = QuestLogItem5NameFrame -- inherited
 QuestLogItem5["Name"] = QuestLogItem5Name -- inherited
 QuestLogItem5["Count"] = QuestLogItem5Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L131)
 --- child of QuestLogItem6 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem6IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L137)
 --- child of QuestLogItem6 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem6NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem6 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestLogItem6Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem6 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestLogItem6Count = {}
@@ -473,22 +494,22 @@ QuestLogItem6["NameFrame"] = QuestLogItem6NameFrame -- inherited
 QuestLogItem6["Name"] = QuestLogItem6Name -- inherited
 QuestLogItem6["Count"] = QuestLogItem6Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L131)
 --- child of QuestLogItem7 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem7IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L137)
 --- child of QuestLogItem7 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem7NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem7 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestLogItem7Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem7 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestLogItem7Count = {}
@@ -502,22 +523,22 @@ QuestLogItem7["NameFrame"] = QuestLogItem7NameFrame -- inherited
 QuestLogItem7["Name"] = QuestLogItem7Name -- inherited
 QuestLogItem7["Count"] = QuestLogItem7Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L131)
 --- child of QuestLogItem8 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem8IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L137)
 --- child of QuestLogItem8 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem8NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem8 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestLogItem8Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem8 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestLogItem8Count = {}
@@ -531,22 +552,22 @@ QuestLogItem8["NameFrame"] = QuestLogItem8NameFrame -- inherited
 QuestLogItem8["Name"] = QuestLogItem8Name -- inherited
 QuestLogItem8["Count"] = QuestLogItem8Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L131)
 --- child of QuestLogItem9 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem9IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L137)
 --- child of QuestLogItem9 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem9NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem9 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestLogItem9Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem9 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestLogItem9Count = {}
@@ -560,22 +581,22 @@ QuestLogItem9["NameFrame"] = QuestLogItem9NameFrame -- inherited
 QuestLogItem9["Name"] = QuestLogItem9Name -- inherited
 QuestLogItem9["Count"] = QuestLogItem9Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L131)
 --- child of QuestLogItem10 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem10IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L137)
 --- child of QuestLogItem10 (created in template LargeItemButtonTemplate)
 --- @type Texture
 QuestLogItem10NameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem10 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
 QuestLogItem10Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem10 (created in template LargeItemButtonTemplate)
 --- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
 QuestLogItem10Count = {}

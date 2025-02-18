@@ -87,151 +87,104 @@ ModelPreviewFrameRight = {}
 ModelPreviewFrameCloseButton = {}
 ModelPreviewFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L805)
 --- child of ModelPreviewFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 ModelPreviewFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L804)
---- child of ModelPreviewFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-ModelPreviewFrameInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L809)
---- child of ModelPreviewFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-ModelPreviewFrameInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L815)
---- child of ModelPreviewFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-ModelPreviewFrameInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L821)
---- child of ModelPreviewFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-ModelPreviewFrameInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L827)
---- child of ModelPreviewFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-ModelPreviewFrameInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L833)
---- child of ModelPreviewFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-ModelPreviewFrameInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L839)
---- child of ModelPreviewFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-ModelPreviewFrameInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L845)
---- child of ModelPreviewFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-ModelPreviewFrameInsetInsetRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L888)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L846)
 --- child of ModelPreviewFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ModelPreviewFrameInset = {}
+ModelPreviewFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 ModelPreviewFrameInset["Bg"] = ModelPreviewFrameInsetBg -- inherited
-ModelPreviewFrameInset["InsetBorderTopLeft"] = ModelPreviewFrameInsetInsetTopLeftCorner -- inherited
-ModelPreviewFrameInset["InsetBorderTopRight"] = ModelPreviewFrameInsetInsetTopRightCorner -- inherited
-ModelPreviewFrameInset["InsetBorderBottomLeft"] = ModelPreviewFrameInsetInsetBotLeftCorner -- inherited
-ModelPreviewFrameInset["InsetBorderBottomRight"] = ModelPreviewFrameInsetInsetBotRightCorner -- inherited
-ModelPreviewFrameInset["InsetBorderTop"] = ModelPreviewFrameInsetInsetTopBorder -- inherited
-ModelPreviewFrameInset["InsetBorderBottom"] = ModelPreviewFrameInsetInsetBottomBorder -- inherited
-ModelPreviewFrameInset["InsetBorderLeft"] = ModelPreviewFrameInsetInsetLeftBorder -- inherited
-ModelPreviewFrameInset["InsetBorderRight"] = ModelPreviewFrameInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L869)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L827)
 --- child of ModelPreviewFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
 ModelPreviewFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L874)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L832)
 --- child of ModelPreviewFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
 ModelPreviewFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L879)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L837)
 --- child of ModelPreviewFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 ModelPreviewFrameButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L657)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L663)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ModelPreviewFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L569)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 ModelPreviewFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L575)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
 ModelPreviewFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L583)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 ModelPreviewFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L591)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
 ModelPreviewFramePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L596)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
 ModelPreviewFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L601)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
 ModelPreviewFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L606)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
 ModelPreviewFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L612)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
 ModelPreviewFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L621)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
 ModelPreviewFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L627)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
 ModelPreviewFrameBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L632)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
 ModelPreviewFrameBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L637)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
 ModelPreviewFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L637)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L643)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
 ModelPreviewFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L649)
 --- child of ModelPreviewFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
 ModelPreviewFrameRightBorder = {}
@@ -258,4 +211,5 @@ ModelPreviewFrame["BotRightCorner"] = ModelPreviewFrameBotRightCorner -- inherit
 ModelPreviewFrame["BottomBorder"] = ModelPreviewFrameBottomBorder -- inherited
 ModelPreviewFrame["LeftBorder"] = ModelPreviewFrameLeftBorder -- inherited
 ModelPreviewFrame["RightBorder"] = ModelPreviewFrameRightBorder -- inherited
+ModelPreviewFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

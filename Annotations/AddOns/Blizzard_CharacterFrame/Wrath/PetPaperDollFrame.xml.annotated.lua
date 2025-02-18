@@ -49,16 +49,16 @@ PetPaperDollPetInfo = {}
 PetPaperDollCloseButton = {}
 PetPaperDollCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L84)
 --- child of PetStatFrame1 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetStatFrame1Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L76)
 --- child of PetStatFrame1 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetStatFrame1Label = {}
@@ -69,16 +69,16 @@ PetStatFrame1Label = {}
 PetStatFrame1 = {}
 PetStatFrame1["Label"] = PetStatFrame1Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L84)
 --- child of PetStatFrame2 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetStatFrame2Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L76)
 --- child of PetStatFrame2 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetStatFrame2Label = {}
@@ -89,16 +89,16 @@ PetStatFrame2Label = {}
 PetStatFrame2 = {}
 PetStatFrame2["Label"] = PetStatFrame2Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L84)
 --- child of PetStatFrame3 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetStatFrame3Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L76)
 --- child of PetStatFrame3 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetStatFrame3Label = {}
@@ -109,16 +109,16 @@ PetStatFrame3Label = {}
 PetStatFrame3 = {}
 PetStatFrame3["Label"] = PetStatFrame3Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L84)
 --- child of PetStatFrame4 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetStatFrame4Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L76)
 --- child of PetStatFrame4 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetStatFrame4Label = {}
@@ -129,16 +129,16 @@ PetStatFrame4Label = {}
 PetStatFrame4 = {}
 PetStatFrame4["Label"] = PetStatFrame4Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L84)
 --- child of PetStatFrame5 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetStatFrame5Stat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L76)
 --- child of PetStatFrame5 (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetStatFrame5Label = {}
@@ -149,16 +149,16 @@ PetStatFrame5Label = {}
 PetStatFrame5 = {}
 PetStatFrame5["Label"] = PetStatFrame5Label -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L84)
 --- child of PetAttackPowerFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetAttackPowerFrameStat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L76)
 --- child of PetAttackPowerFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetAttackPowerFrameLabel = {}
@@ -169,16 +169,16 @@ PetAttackPowerFrameLabel = {}
 PetAttackPowerFrame = {}
 PetAttackPowerFrame["Label"] = PetAttackPowerFrameLabel -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L84)
 --- child of PetDamageFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetDamageFrameStat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L76)
 --- child of PetDamageFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetDamageFrameLabel = {}
@@ -189,16 +189,16 @@ PetDamageFrameLabel = {}
 PetDamageFrame = {}
 PetDamageFrame["Label"] = PetDamageFrameLabel -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L84)
 --- child of PetSpellDamageFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetSpellDamageFrameStat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L76)
 --- child of PetSpellDamageFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetSpellDamageFrameLabel = {}
@@ -209,16 +209,16 @@ PetSpellDamageFrameLabel = {}
 PetSpellDamageFrame = {}
 PetSpellDamageFrame["Label"] = PetSpellDamageFrameLabel -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L93)
 --- child of StatFrameTemplateStat
 --- @class StatFrameTemplate_StatFrameTemplateStat_StatFrameTemplateStatText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L84)
 --- child of PetArmorFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateStat
 PetArmorFrameStat = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L76)
 --- child of PetArmorFrame (created in template StatFrameTemplate)
 --- @type StatFrameTemplate_StatFrameTemplateLabel
 PetArmorFrameLabel = {}
@@ -585,37 +585,37 @@ CompanionSelectedName = {}
 --- @class PetPaperDollFrame_PetPaperDollFrameCompanionFrame : Frame
 PetPaperDollFrameCompanionFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1272)
 --- child of PetPaperDollFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab1LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1285)
 --- child of PetPaperDollFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab1MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1336)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1294)
 --- child of PetPaperDollFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab1RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1303)
 --- child of PetPaperDollFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab1Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1312)
 --- child of PetPaperDollFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab1Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1321)
 --- child of PetPaperDollFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1352)
 --- child of PetPaperDollFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab1HighlightTexture = {}
@@ -632,37 +632,37 @@ PetPaperDollFrameTab1["Middle"] = PetPaperDollFrameTab1Middle -- inherited
 PetPaperDollFrameTab1["Right"] = PetPaperDollFrameTab1Right -- inherited
 PetPaperDollFrameTab1["HighlightTexture"] = PetPaperDollFrameTab1HighlightTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1272)
 --- child of PetPaperDollFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab2LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1285)
 --- child of PetPaperDollFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab2MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1336)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1294)
 --- child of PetPaperDollFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab2RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1303)
 --- child of PetPaperDollFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab2Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1312)
 --- child of PetPaperDollFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab2Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1321)
 --- child of PetPaperDollFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1352)
 --- child of PetPaperDollFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab2HighlightTexture = {}
@@ -679,37 +679,37 @@ PetPaperDollFrameTab2["Middle"] = PetPaperDollFrameTab2Middle -- inherited
 PetPaperDollFrameTab2["Right"] = PetPaperDollFrameTab2Right -- inherited
 PetPaperDollFrameTab2["HighlightTexture"] = PetPaperDollFrameTab2HighlightTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1272)
 --- child of PetPaperDollFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab3LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1285)
 --- child of PetPaperDollFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab3MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1336)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1294)
 --- child of PetPaperDollFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab3RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1303)
 --- child of PetPaperDollFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab3Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1312)
 --- child of PetPaperDollFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab3Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1321)
 --- child of PetPaperDollFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Wrath/PetPaperDollFrame.xml#L1352)
 --- child of PetPaperDollFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 PetPaperDollFrameTab3HighlightTexture = {}

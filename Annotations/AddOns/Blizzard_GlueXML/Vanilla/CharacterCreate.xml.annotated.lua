@@ -233,767 +233,803 @@ CharacterCreateClassScrollFrame = {}
 CharacterCreateCharacterClass = {}
 CharacterCreateCharacterClass["backdropInfo"] = BACKDROP_CHARACTER_CREATE_TOOLTIP_32_32
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L766)
---- child of CharacterCreateWoWLogo
---- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateWoWLogo_CharacterCreateLogo : Texture
-CharacterCreateLogo = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L753)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L700)
 --- child of CharacterCreateConfigurationFrame
---- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateWoWLogo : Frame
-CharacterCreateWoWLogo = {}
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_Headers : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L720)
+--- child of CharacterCreateConfigurationFrame
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_GameLogo : Frame, GlueGameLogoTemplate
+--- @field useShrunkenLogoHeight boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L69)
+--- child of CharacterCreateRaceButton1 (created in template CharacterCreateRaceButtonTemplate)
+--- @type CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText
+CharacterCreateRaceButton1Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L84)
 --- child of CharacterCreateRaceButton1 (created in template CharacterCreateRaceButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton1NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButton1 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButton1HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateRaceButton1 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton1Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateRaceButton1 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton1BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateRaceButton1 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton1DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L777)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L729)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton1 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L69)
+--- child of CharacterCreateRaceButton2 (created in template CharacterCreateRaceButtonTemplate)
+--- @type CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText
+CharacterCreateRaceButton2Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L84)
 --- child of CharacterCreateRaceButton2 (created in template CharacterCreateRaceButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton2NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButton2 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButton2HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateRaceButton2 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton2Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateRaceButton2 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton2BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateRaceButton2 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton2DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L786)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L738)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton2 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L69)
+--- child of CharacterCreateRaceButton3 (created in template CharacterCreateRaceButtonTemplate)
+--- @type CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText
+CharacterCreateRaceButton3Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L84)
 --- child of CharacterCreateRaceButton3 (created in template CharacterCreateRaceButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton3NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButton3 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButton3HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateRaceButton3 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton3Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateRaceButton3 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton3BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateRaceButton3 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton3DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L795)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L747)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton3 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L69)
+--- child of CharacterCreateRaceButton4 (created in template CharacterCreateRaceButtonTemplate)
+--- @type CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText
+CharacterCreateRaceButton4Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L84)
 --- child of CharacterCreateRaceButton4 (created in template CharacterCreateRaceButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton4NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButton4 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButton4HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateRaceButton4 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton4Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateRaceButton4 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton4BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateRaceButton4 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton4DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L804)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L756)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton4 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L69)
+--- child of CharacterCreateRaceButton5 (created in template CharacterCreateRaceButtonTemplate)
+--- @type CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText
+CharacterCreateRaceButton5Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L84)
 --- child of CharacterCreateRaceButton5 (created in template CharacterCreateRaceButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton5NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButton5 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButton5HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateRaceButton5 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton5Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateRaceButton5 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton5BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateRaceButton5 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton5DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L813)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L765)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton5 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L69)
+--- child of CharacterCreateRaceButton6 (created in template CharacterCreateRaceButtonTemplate)
+--- @type CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText
+CharacterCreateRaceButton6Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L84)
 --- child of CharacterCreateRaceButton6 (created in template CharacterCreateRaceButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton6NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButton6 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButton6HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateRaceButton6 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton6Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateRaceButton6 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton6BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateRaceButton6 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton6DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L822)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L774)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton6 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L69)
+--- child of CharacterCreateRaceButton7 (created in template CharacterCreateRaceButtonTemplate)
+--- @type CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText
+CharacterCreateRaceButton7Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L84)
 --- child of CharacterCreateRaceButton7 (created in template CharacterCreateRaceButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton7NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButton7 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButton7HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateRaceButton7 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton7Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateRaceButton7 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton7BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateRaceButton7 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton7DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L831)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L783)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton7 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L69)
+--- child of CharacterCreateRaceButton8 (created in template CharacterCreateRaceButtonTemplate)
+--- @type CharacterCreateRaceButtonTemplate_CharacterCreateRaceButtonTemplateText
+CharacterCreateRaceButton8Text = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L84)
 --- child of CharacterCreateRaceButton8 (created in template CharacterCreateRaceButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton8NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateRaceButton8 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateRaceButton8HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateRaceButton8 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton8Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateRaceButton8 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton8BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateRaceButton8 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateRaceButton8DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L840)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L792)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateRaceButton8 : CheckButton, CharacterCreateRaceButtonTemplate
 CharacterCreateRaceButton8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L122)
 --- child of CharacterCreateGenderButtonMale (created in template CharacterCreateGenderButtonTemplate)
 --- @type Texture
 CharacterCreateGenderButtonMaleNormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateGenderButtonMale (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateGenderButtonMaleHighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateGenderButtonMale (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateGenderButtonMaleShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateGenderButtonMale (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateGenderButtonMaleBevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateGenderButtonMale (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateGenderButtonMaleDisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L849)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L801)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateGenderButtonMale : CheckButton, CharacterCreateGenderButtonTemplate
 CharacterCreateGenderButtonMale = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L122)
 --- child of CharacterCreateGenderButtonFemale (created in template CharacterCreateGenderButtonTemplate)
 --- @type Texture
 CharacterCreateGenderButtonFemaleNormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateGenderButtonFemale (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateGenderButtonFemaleHighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateGenderButtonFemale (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateGenderButtonFemaleShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateGenderButtonFemale (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateGenderButtonFemaleBevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateGenderButtonFemale (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateGenderButtonFemaleDisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L872)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L824)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateGenderButtonFemale : CheckButton, CharacterCreateGenderButtonTemplate
 CharacterCreateGenderButtonFemale = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L97)
 --- child of CharacterCreateClassButton1 (created in template CharacterCreateClassButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton1NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButton1 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButton1HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateClassButton1 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton1Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateClassButton1 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton1BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateClassButton1 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton1DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L895)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L847)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton1 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L97)
 --- child of CharacterCreateClassButton2 (created in template CharacterCreateClassButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton2NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButton2 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButton2HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateClassButton2 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton2Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateClassButton2 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton2BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateClassButton2 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton2DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L904)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L856)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton2 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L97)
 --- child of CharacterCreateClassButton3 (created in template CharacterCreateClassButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton3NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButton3 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButton3HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateClassButton3 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton3Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateClassButton3 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton3BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateClassButton3 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton3DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L913)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L865)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton3 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L97)
 --- child of CharacterCreateClassButton4 (created in template CharacterCreateClassButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton4NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButton4 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButton4HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateClassButton4 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton4Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateClassButton4 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton4BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateClassButton4 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton4DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L922)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L874)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton4 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L97)
 --- child of CharacterCreateClassButton5 (created in template CharacterCreateClassButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton5NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButton5 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButton5HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateClassButton5 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton5Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateClassButton5 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton5BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateClassButton5 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton5DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L931)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L883)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton5 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L97)
 --- child of CharacterCreateClassButton6 (created in template CharacterCreateClassButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton6NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButton6 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButton6HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateClassButton6 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton6Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateClassButton6 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton6BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateClassButton6 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton6DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L940)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L892)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton6 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L97)
 --- child of CharacterCreateClassButton7 (created in template CharacterCreateClassButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton7NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButton7 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButton7HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateClassButton7 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton7Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateClassButton7 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton7BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateClassButton7 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton7DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L949)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L901)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton7 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L97)
 --- child of CharacterCreateClassButton8 (created in template CharacterCreateClassButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton8NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L7)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L9)
 --- child of CharacterCreateClassButton8 (created in template CharacterCreateIconButtonTemplate)
---- @type FontString
+--- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
 CharacterCreateClassButton8HighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L20)
 --- child of CharacterCreateClassButton8 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton8Shadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L29)
 --- child of CharacterCreateClassButton8 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton8BevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L36)
 --- child of CharacterCreateClassButton8 (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 CharacterCreateClassButton8DisableTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L958)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L910)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateClassButton8 : CheckButton, CharacterCreateClassButtonTemplate
 CharacterCreateClassButton8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L178)
 --- child of CharacterCustomizationButtonFrame1 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateRightButton
 CharacterCustomizationButtonFrame1RightButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L194)
 --- child of CharacterCustomizationButtonFrame1 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateLeftButton
 CharacterCustomizationButtonFrame1LeftButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L130)
 --- child of CharacterCustomizationButtonFrame1 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame1Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L143)
 --- child of CharacterCustomizationButtonFrame1 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L156)
 --- child of CharacterCustomizationButtonFrame1 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame1Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L166)
 --- child of CharacterCustomizationButtonFrame1 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText
 CharacterCustomizationButtonFrame1Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L967)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L919)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCustomizationButtonFrame1 : Frame, CharacterCustomizationFrameTemplate
 CharacterCustomizationButtonFrame1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L178)
 --- child of CharacterCustomizationButtonFrame2 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateRightButton
 CharacterCustomizationButtonFrame2RightButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L194)
 --- child of CharacterCustomizationButtonFrame2 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateLeftButton
 CharacterCustomizationButtonFrame2LeftButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L130)
 --- child of CharacterCustomizationButtonFrame2 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame2Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L143)
 --- child of CharacterCustomizationButtonFrame2 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L156)
 --- child of CharacterCustomizationButtonFrame2 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame2Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L166)
 --- child of CharacterCustomizationButtonFrame2 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText
 CharacterCustomizationButtonFrame2Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L976)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L928)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCustomizationButtonFrame2 : Frame, CharacterCustomizationFrameTemplate
 CharacterCustomizationButtonFrame2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L178)
 --- child of CharacterCustomizationButtonFrame3 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateRightButton
 CharacterCustomizationButtonFrame3RightButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L194)
 --- child of CharacterCustomizationButtonFrame3 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateLeftButton
 CharacterCustomizationButtonFrame3LeftButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L130)
 --- child of CharacterCustomizationButtonFrame3 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame3Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L143)
 --- child of CharacterCustomizationButtonFrame3 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L156)
 --- child of CharacterCustomizationButtonFrame3 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame3Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L166)
 --- child of CharacterCustomizationButtonFrame3 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText
 CharacterCustomizationButtonFrame3Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L985)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L937)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCustomizationButtonFrame3 : Frame, CharacterCustomizationFrameTemplate
 CharacterCustomizationButtonFrame3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L178)
 --- child of CharacterCustomizationButtonFrame4 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateRightButton
 CharacterCustomizationButtonFrame4RightButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L194)
 --- child of CharacterCustomizationButtonFrame4 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateLeftButton
 CharacterCustomizationButtonFrame4LeftButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L130)
 --- child of CharacterCustomizationButtonFrame4 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame4Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L143)
 --- child of CharacterCustomizationButtonFrame4 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame4Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L156)
 --- child of CharacterCustomizationButtonFrame4 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame4Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L166)
 --- child of CharacterCustomizationButtonFrame4 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText
 CharacterCustomizationButtonFrame4Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L994)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L946)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCustomizationButtonFrame4 : Frame, CharacterCustomizationFrameTemplate
 CharacterCustomizationButtonFrame4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L178)
 --- child of CharacterCustomizationButtonFrame5 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateRightButton
 CharacterCustomizationButtonFrame5RightButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L194)
 --- child of CharacterCustomizationButtonFrame5 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateLeftButton
 CharacterCustomizationButtonFrame5LeftButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L130)
 --- child of CharacterCustomizationButtonFrame5 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame5Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L143)
 --- child of CharacterCustomizationButtonFrame5 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame5Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L156)
 --- child of CharacterCustomizationButtonFrame5 (created in template CharacterCustomizationFrameTemplate)
 --- @type Texture
 CharacterCustomizationButtonFrame5Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L166)
 --- child of CharacterCustomizationButtonFrame5 (created in template CharacterCustomizationFrameTemplate)
 --- @type CharacterCustomizationFrameTemplate_CharacterCustomizationFrameTemplateText
 CharacterCustomizationButtonFrame5Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1003)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L955)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCustomizationButtonFrame5 : Frame, CharacterCustomizationFrameTemplate
 CharacterCustomizationButtonFrame5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1012)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L964)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharCreateRandomizeButton : Button, GlueButtonSmallTemplate
 CharCreateRandomizeButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L662)
 --- child of CharacterCreateConfigurationFrame
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateBanners : Texture
+CharacterCreateBanners = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L676)
+--- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateOuterBorder1 : Texture
 CharacterCreateOuterBorder1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L675)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L683)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateOuterBorder2 : Texture
 CharacterCreateOuterBorder2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L688)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L690)
 --- child of CharacterCreateConfigurationFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateOuterBorder3 : Texture
 CharacterCreateOuterBorder3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L701)
---- child of CharacterCreateConfigurationFrame
---- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateBanners : Texture
-CharacterCreateBanners = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L733)
---- child of CharacterCreateConfigurationFrame
---- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_CharacterCreateBackground : Texture
-CharacterCreateBackground = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L649)
 --- child of CharacterCreateFrame
---- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame : Frame
+--- @class CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame : Frame, CharacterCreateConfigurationMixin
+--- @field Headers CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_Headers
+--- @field GameLogo CharacterCreate_CharacterCreateFrame_CharacterCreateConfigurationFrame_GameLogo
 CharacterCreateConfigurationFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1034)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L990)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateNameEdit : EditBox, TooltipBackdropTemplate
 --- @field layoutType string # "TooltipGluesLayout"
@@ -1001,38 +1037,38 @@ CharacterCreateNameEdit = {}
 CharacterCreateNameEdit["layoutType"] = "TooltipGluesLayout"
 CharacterCreateNameEdit["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L476)
 --- child of CharacterCreateSelfFound (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 CharacterCreateSelfFoundText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1079)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1035)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateSelfFound : CheckButton, UICheckButtonTemplate
 CharacterCreateSelfFound = {}
 CharacterCreateSelfFound["Text"] = CharacterCreateSelfFoundText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1079)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateRandomName : Button, GlueButtonSmallTemplate
 CharacterCreateRandomName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1100)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateRotateLeft : Button
 CharacterCreateRotateLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1138)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharacterCreateRotateRight : Button
 CharacterCreateRotateRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1172)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharCreateBackButton : Button, GlueButtonSmallTemplate
 CharCreateBackButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GlueXML/Vanilla/CharacterCreate.xml#L1189)
 --- child of CharacterCreateFrame
 --- @class CharacterCreate_CharacterCreateFrame_CharCreateOkayButton : Button, GlueButtonTemplate
 CharCreateOkayButton = {}

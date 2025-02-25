@@ -291,6 +291,7 @@ FriendsFrameBattlenetFrame = {}
 --- child of FriendsTabHeader
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameStatusDropdown : DropdownButton, WowStyle1DropdownTemplate
 FriendsFrameStatusDropdown = {}
+FriendsFrameStatusDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1107)
 --- child of FriendsFrameBroadcastInput
@@ -756,6 +757,7 @@ WhoFrameColumnHeader1["HighlightTexture"] = WhoFrameColumnHeader1HighlightTextur
 --- @class FriendsFrame_WhoFrame_WhoFrameColumnHeader2_WhoFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 --- @field TabHighlight Texture
 WhoFrameDropdown = {}
+WhoFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L364)
 --- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
@@ -2142,6 +2144,7 @@ GuildFrame["nameAlert"] = GuildNameChangeAlertFrame
 --- child of GuildControlPopupFrameCheckboxes
 --- @class FriendsFrame_GuildControlPopupFrame_GuildControlPopupFrameCheckboxes_GuildControlPopupFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 GuildControlPopupFrameDropdown = {}
+GuildControlPopupFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L2715)
 --- child of GuildControlPopupFrameCheckboxes
@@ -3375,6 +3378,7 @@ AddFriendFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsFrame_FriendsFriendsFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 FriendsFriendsFrameDropdown = {}
+FriendsFriendsFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L4574)
 --- child of FriendsFriendsFrame

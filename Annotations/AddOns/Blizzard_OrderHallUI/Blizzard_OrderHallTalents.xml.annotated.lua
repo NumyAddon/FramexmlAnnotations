@@ -150,12 +150,12 @@
 --- child of OrderHallTalentFrame
 --- @class OrderHallTalentFrame_Tick8 : FontString, OrderHallTalentFrameTick
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1107)
 --- child of OrderHallTalentFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 OrderHallTalentFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1074)
 --- child of OrderHallTalentFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 OrderHallTalentFrameBg = {}

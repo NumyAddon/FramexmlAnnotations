@@ -4,9 +4,9 @@
 --- @class AlertMountEquipmentFeatureMixin : NewFeatureLabelMixin
 AlertMountEquipmentFeatureMixin = CreateFromMixins(NewFeatureLabelMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1103)
---- @class MountJournalToggleDynamicFlightFlyoutButtonMixin : ButtonStateBehaviorMixin
-MountJournalToggleDynamicFlightFlyoutButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1094)
+--- @class MountJournalToggleDynamicFlightFlyoutButtonMixin : FlyoutButtonMixin
+MountJournalToggleDynamicFlightFlyoutButtonMixin = CreateFromMixins(FlyoutButtonMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L38)
 --- @class SuppressedMountEquipmentButtonMixin
@@ -24,7 +24,7 @@ MountJournalSummonRandomFavoriteButtonMixin = {}
 --- @class MountJournalDynamicFlightModeButtonMixin
 MountJournalDynamicFlightModeButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1072)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1067)
 --- @class MountJournalOpenDynamicFlightSkillTreeButtonMixin
 MountJournalOpenDynamicFlightSkillTreeButtonMixin = {}
 
@@ -94,71 +94,47 @@ function MountJournalDynamicFlightModeButtonMixin:OnEvent(event, ...) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1040)
 function MountJournalDynamicFlightModeButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1046)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1045)
 function MountJournalDynamicFlightModeButtonMixin:OnDragStart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1050)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1049)
 function MountJournalDynamicFlightModeButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1054)
-function MountJournalDynamicFlightModeButtonMixin:SetFlyoutButton(flyoutButton) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1058)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1053)
 function MountJournalDynamicFlightModeButtonMixin:UpdateIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1063)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1058)
 function MountJournalDynamicFlightModeButtonMixin:DisplayTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1069)
 function MountJournalOpenDynamicFlightSkillTreeButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1079)
-function MountJournalOpenDynamicFlightSkillTreeButtonMixin:SetFlyoutButton(flyoutButton) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1083)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1074)
 function MountJournalOpenDynamicFlightSkillTreeButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1093)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1084)
 function MountJournalOpenDynamicFlightSkillTreeButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1098)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1089)
 function MountJournalOpenDynamicFlightSkillTreeButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1105)
-function MountJournalToggleDynamicFlightFlyoutButtonMixin:SetFlyout(flyout) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1113)
-function MountJournalToggleDynamicFlightFlyoutButtonMixin:ToggleFlyout() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1120)
-function MountJournalToggleDynamicFlightFlyoutButtonMixin:CloseFlyout() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1096)
 function MountJournalToggleDynamicFlightFlyoutButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1105)
+function MountJournalToggleDynamicFlightFlyoutButtonMixin:OnPopupToggled() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1111)
 function MountJournalToggleDynamicFlightFlyoutButtonMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1117)
 function MountJournalToggleDynamicFlightFlyoutButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1148)
-function MountJournalToggleDynamicFlightFlyoutButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1152)
-function MountJournalToggleDynamicFlightFlyoutButtonMixin:OnButtonStateChanged() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1156)
-function MountJournalToggleDynamicFlightFlyoutButtonMixin:SetArrowPosition(arrow, rotation, offset) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1123)
 function MountJournalToggleDynamicFlightFlyoutButtonMixin:UpdateCanSpendGlyphs() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1134)
 function MountJournalToggleDynamicFlightFlyoutButtonMixin:UpdateVisibility() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1139)
 function MountJournalToggleDynamicFlightFlyoutButtonMixin:UpdateUnspentGlyphsAnimation() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_MountCollection.lua#L1187)
-function MountJournalToggleDynamicFlightFlyoutButtonMixin:UpdateArrow() end

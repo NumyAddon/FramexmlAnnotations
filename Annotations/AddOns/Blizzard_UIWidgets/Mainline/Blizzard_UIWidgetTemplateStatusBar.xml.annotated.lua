@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L69)
 --- child of UIWidgetTemplateStatusBar_Bar
 --- @class UIWidgetTemplateStatusBar_Bar_Label : FontString, GameFontHighlightMedium, UIWidgetBaseTextMixin
 
@@ -15,15 +15,15 @@
 --- @field BGLeft Texture
 --- @field BGRight Texture
 --- @field BGCenter Texture
---- @field GlowLeft Texture
---- @field GlowRight Texture
---- @field GlowCenter Texture
 --- @field BorderLeft Texture
 --- @field BorderRight Texture
 --- @field BorderCenter Texture
 --- @field Spark Texture
 --- @field SparkMask MaskTexture
 --- @field Label UIWidgetTemplateStatusBar_Bar_Label
+--- @field GlowLeft Texture
+--- @field GlowRight Texture
+--- @field GlowCenter Texture
 --- @field GlowPulseAnim UIWidgetTemplateStatusBar_Bar_GlowPulseAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L105)

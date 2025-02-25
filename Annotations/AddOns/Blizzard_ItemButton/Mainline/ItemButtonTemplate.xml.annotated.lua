@@ -1,38 +1,15 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L22)
---- child of ItemButton
---- @class ItemButton_ItemButtonCount : FontString, NumberFontNormal
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L27)
---- child of ItemButton
---- @class ItemButton_ItemButtonStock : FontString, NumberFontNormalYellow
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L5)
---- Intrinsic
---- @class ItemButton : Button, ItemButtonMixin
---- @field showMatchHighlight boolean # true
---- @field icon Texture
---- @field Count ItemButton_ItemButtonCount
---- @field Stock ItemButton_ItemButtonStock
---- @field searchOverlay Texture
---- @field ItemContextOverlay Texture
---- @field IconBorder Texture
---- @field IconOverlay Texture
---- @field IconOverlay2 Texture
---- @field NormalTexture Texture
---- @field HighlightTexture Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L81)
 --- Template
 --- @class CircularItemButtonTemplate : Frame
 --- @field CircleMask MaskTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L59)
 --- child of CircularGiantItemButtonTemplate
 --- @class CircularGiantItemButtonTemplate_Count : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L23)
 --- Template
 --- @class CircularGiantItemButtonTemplate : Button, CircularGiantItemButtonMixin
 --- @field Icon Texture
@@ -42,11 +19,11 @@
 --- @field IconOverlay2 Texture
 --- @field Count CircularGiantItemButtonTemplate_Count
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L123)
 --- child of GiantItemButtonTemplate
 --- @class GiantItemButtonTemplate_Count : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L150)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L74)
 --- Template
 --- @class GiantItemButtonTemplate : Button
 --- @field EmptyBackground Texture
@@ -58,24 +35,24 @@
 --- @field Count GiantItemButtonTemplate_Count
 --- @field Highlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L224)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L148)
 --- child of SimplePopupButtonTemplate
 --- @class SimplePopupButtonTemplate_SimplePopupButtonTemplateName : FontString, GameFontHighlightSmallOutline
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L144)
 --- Template
 --- @class SimplePopupButtonTemplate : CheckButton
 --- @field Name SimplePopupButtonTemplate_SimplePopupButtonTemplateName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L188)
 --- child of LargeItemButtonTemplate
 --- @class LargeItemButtonTemplate_LargeItemButtonTemplateName : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L220)
 --- child of LargeItemButtonTemplate
 --- @class LargeItemButtonTemplate_LargeItemButtonTemplateCount : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L167)
 --- Template
 --- @class LargeItemButtonTemplate : Button
 --- @field largeItemButton boolean # true
@@ -87,15 +64,15 @@
 --- @field IconOverlay2 Texture
 --- @field Count LargeItemButtonTemplate_LargeItemButtonTemplateCount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L325)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L249)
 --- child of SmallItemButtonTemplate
 --- @class SmallItemButtonTemplate_Name : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L255)
 --- child of SmallItemButtonTemplate
 --- @class SmallItemButtonTemplate_Count : FontString, NumberFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L229)
 --- Template
 --- @class SmallItemButtonTemplate : Button
 --- @field smallItemButton boolean # true
@@ -104,11 +81,11 @@
 --- @field Name SmallItemButtonTemplate_Name
 --- @field Count SmallItemButtonTemplate_Count
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L266)
 --- child of EnchantingItemButtonAnimTemplate
 --- @class EnchantingItemButtonAnimTemplate_AugmentBorderAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L264)
 --- Template
 --- @class EnchantingItemButtonAnimTemplate : Button, EnchantingItemButtonAnimMixin
 --- @field AugmentBorderAnimTexture Texture

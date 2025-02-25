@@ -729,12 +729,12 @@ ItemUpgradeFramePlayerCurrenciesBorder = {}
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_IdleGlowSlide : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1107)
 --- child of ItemUpgradeFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ItemUpgradeFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemUpgradeUI/Blizzard_ItemUpgradeUI.xml#L1074)
 --- child of ItemUpgradeFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ItemUpgradeFrameBg = {}

@@ -62,18 +62,18 @@ ItemTextMaterialBotRight = {}
 --- @class ItemTextFrame_ItemTextCurrentPage : FontString, GameFontNormal
 ItemTextCurrentPage = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L1148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L1160)
 --- child of ItemTextFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ItemTextFrameInset = {}
 ItemTextFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L1142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L1154)
 --- child of ItemTextFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 ItemTextFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L1125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L1137)
 --- child of ItemTextFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ItemTextFrameBg = {}

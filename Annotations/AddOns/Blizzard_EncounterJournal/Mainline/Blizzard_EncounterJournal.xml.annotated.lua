@@ -703,25 +703,25 @@
 --- child of EncounterJournal
 --- @class EncounterJournal_LootJournalViewDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2872)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2898)
 --- child of SearchBoxListTemplateSearchProgressLoading
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_spinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2863)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2889)
 --- child of SearchBoxListTemplateSearchProgressLoading
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_SearchBoxListTemplateSearchProgressLoadingText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2856)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2882)
 --- child of SearchBoxListTemplateSearchProgress
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading : Frame
 --- @field spinner SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_spinner
 --- @field text SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressLoading_SearchBoxListTemplateSearchProgressLoadingText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2896)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2922)
 --- child of SearchBoxListTemplateSearchProgressBar
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar_text : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2880)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2906)
 --- child of SearchBoxListTemplateSearchProgress
 --- @class SearchBoxListTemplate_SearchBoxListTemplateSearchProgress_SearchBoxListTemplateSearchProgressBar : StatusBar
 --- @field barBackground Texture
@@ -730,19 +730,19 @@
 --- @field barBorderRight Texture
 --- @field barBorderCenter Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2838)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2864)
 --- child of EncounterJournalSearchBox (created in template SearchBoxListTemplate)
 --- @type SearchBoxListTemplate_SearchBoxListTemplateSearchProgress
 EncounterJournalSearchBoxSearchProgress = {}
 EncounterJournalSearchBoxSearchProgress["loading"] = SearchBoxListTemplateSearchProgressLoading
 EncounterJournalSearchBoxSearchProgress["bar"] = SearchBoxListTemplateSearchProgressBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1516)
 --- child of EncounterJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 EncounterJournalSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1507)
 --- child of EncounterJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 EncounterJournalSearchBoxSearchIcon = {}
@@ -758,62 +758,62 @@ EncounterJournalSearchBox["instructionText"] = SEARCH -- inherited
 EncounterJournalSearchBox["clearButton"] = EncounterJournalSearchBoxClearButton -- inherited
 EncounterJournalSearchBox["searchIcon"] = EncounterJournalSearchBoxSearchIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2746)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2772)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateCloseButton
 EncounterJournalSearchResultsCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2673)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2699)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type Texture
 EncounterJournalSearchResultsBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2682)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2708)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTitleText
 EncounterJournalSearchResultsTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2689)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2715)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopLeftCorner
 EncounterJournalSearchResultsTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2694)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2720)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopRightCorner
 EncounterJournalSearchResultsTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2699)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2725)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopBorder
 EncounterJournalSearchResultsTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2705)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2731)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateLeftBorder
 EncounterJournalSearchResultsLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2711)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2737)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateRightBorder
 EncounterJournalSearchResultsRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2719)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2745)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopTileStreaks
 EncounterJournalSearchResultsTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2727)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2753)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopLeftCorner2
 EncounterJournalSearchResultsTopLeftCorner2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2732)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2758)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopRightCorner2
 EncounterJournalSearchResultsTopRightCorner2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2737)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2763)
 --- child of EncounterJournalSearchResults (created in template BottomPopupScrollBoxTemplate)
 --- @type BottomPopupScrollBoxTemplate_BottomPopupScrollBoxTemplateTopBorder2
 EncounterJournalSearchResultsTopBorder2 = {}
@@ -942,12 +942,39 @@ EncounterJournalEncounterFrameInstanceFrameMapButtonHighlight = {}
 EncounterJournalEncounterFrameInstanceFrameMapButton = {}
 EncounterJournalEncounterFrameInstanceFrameMapButton["texture"] = EncounterJournalEncounterFrameInstanceFrameMapButtonTexture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1536)
+--- child of EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton
+--- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonBorder : Texture
+EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1544)
+--- child of EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton
+--- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonBackground : Texture
+EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonBackground = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1562)
+--- child of EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton
+--- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonIcon : Texture
+EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonIcon = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1529)
+--- child of EncounterJournalEncounterFrameInstanceFrame
+--- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton : Button
+--- @field majorFactionRewardsButtonBorder EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonBorder
+--- @field majorFactionRewardsButtonBackground EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonBackground
+--- @field CircleMask MaskTexture
+--- @field majorFactionRewardsButtonIcon EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonIcon
+EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton = {}
+EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton["majorFactionRewardsButtonBorder"] = EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonBorder
+EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton["majorFactionRewardsButtonBackground"] = EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonBackground
+EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton["majorFactionRewardsButtonIcon"] = EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButtonMajorFactionRewardsButtonIcon
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1587)
 --- child of EncounterJournalEncounterFrameInstanceFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_LoreScrollingFont : Frame, ScrollingFontTemplate
 --- @field fontName string # "GameFontBlack"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1538)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1596)
 --- child of EncounterJournalEncounterFrameInstanceFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_LoreScrollBar : EventFrame, MinimalScrollBar
 --- @field hideTrack boolean # true
@@ -970,6 +997,7 @@ EncounterJournalEncounterFrameInstanceFrameTitle = {}
 --- child of EncounterJournalEncounterFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame : Frame
 --- @field mapButton EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_EncounterJournalEncounterFrameInstanceFrameMapButton
+--- @field majorFactionRewardsButton EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton
 --- @field LoreScrollingFont EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_LoreScrollingFont
 --- @field LoreScrollBar EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_LoreScrollBar
 --- @field loreBG EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_EncounterJournalEncounterFrameInstanceFrameBG
@@ -977,32 +1005,33 @@ EncounterJournalEncounterFrameInstanceFrameTitle = {}
 --- @field titleBG EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInstanceFrame_titleBG
 EncounterJournalEncounterFrameInstanceFrame = {}
 EncounterJournalEncounterFrameInstanceFrame["mapButton"] = EncounterJournalEncounterFrameInstanceFrameMapButton
+EncounterJournalEncounterFrameInstanceFrame["majorFactionRewardsButton"] = EncounterJournalEncounterFrameInstanceFrameMajorFactionRewardsButton
 EncounterJournalEncounterFrameInstanceFrame["loreBG"] = EncounterJournalEncounterFrameInstanceFrameBG
 EncounterJournalEncounterFrameInstanceFrame["title"] = EncounterJournalEncounterFrameInstanceFrameTitle
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1610)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1668)
 --- child of EncounterJournalEncounterFrameInfoInstanceButton
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoInstanceButton_EncounterJournalEncounterFrameInfoInstanceButtonIcon : Texture
 EncounterJournalEncounterFrameInfoInstanceButtonIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1661)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoInstanceButton : Button
 --- @field icon EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoInstanceButton_EncounterJournalEncounterFrameInfoInstanceButtonIcon
 EncounterJournalEncounterFrameInfoInstanceButton = {}
 EncounterJournalEncounterFrameInfoInstanceButton["icon"] = EncounterJournalEncounterFrameInfoInstanceButtonIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1630)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1688)
 --- child of EncounterJournalEncounterFrameInfoOverviewTab
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewTab_EncounterJournalEncounterFrameInfoOverviewTabUnselect : Texture, UI-EJ-Tab-BossIcon-UnSelected
 EncounterJournalEncounterFrameInfoOverviewTabUnselect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1635)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1693)
 --- child of EncounterJournalEncounterFrameInfoOverviewTab
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewTab_EncounterJournalEncounterFrameInfoOverviewTabSelect : Texture, UI-EJ-Tab-BossIcon-Selected
 EncounterJournalEncounterFrameInfoOverviewTabSelect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1624)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1682)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewTab : Button, EncounterTabTemplate
 --- @field unselected EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewTab_EncounterJournalEncounterFrameInfoOverviewTabUnselect
@@ -1011,17 +1040,17 @@ EncounterJournalEncounterFrameInfoOverviewTab = {}
 EncounterJournalEncounterFrameInfoOverviewTab["unselected"] = EncounterJournalEncounterFrameInfoOverviewTabUnselect
 EncounterJournalEncounterFrameInfoOverviewTab["selected"] = EncounterJournalEncounterFrameInfoOverviewTabSelect
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1660)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1718)
 --- child of EncounterJournalEncounterFrameInfoLootTab
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoLootTab_EncounterJournalEncounterFrameInfoLootTabUnselect : Texture, UI-EJ-Tab-LootIcon-UnSelected
 EncounterJournalEncounterFrameInfoLootTabUnselect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1665)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1723)
 --- child of EncounterJournalEncounterFrameInfoLootTab
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoLootTab_EncounterJournalEncounterFrameInfoLootTabSelect : Texture, UI-EJ-Tab-LootIcon-Selected
 EncounterJournalEncounterFrameInfoLootTabSelect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1654)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1712)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoLootTab : Button, EncounterTabTemplate
 --- @field unselected EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoLootTab_EncounterJournalEncounterFrameInfoLootTabUnselect
@@ -1030,17 +1059,17 @@ EncounterJournalEncounterFrameInfoLootTab = {}
 EncounterJournalEncounterFrameInfoLootTab["unselected"] = EncounterJournalEncounterFrameInfoLootTabUnselect
 EncounterJournalEncounterFrameInfoLootTab["selected"] = EncounterJournalEncounterFrameInfoLootTabSelect
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1684)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1742)
 --- child of EncounterJournalEncounterFrameInfoBossTab
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoBossTab_EncounterJournalEncounterFrameInfoBossTabUnselect : Texture, UI-EJ-Tab-AbilitiesIcon-UnSelected
 EncounterJournalEncounterFrameInfoBossTabUnselect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1689)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1747)
 --- child of EncounterJournalEncounterFrameInfoBossTab
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoBossTab_EncounterJournalEncounterFrameInfoBossTabSelect : Texture, UI-EJ-Tab-AbilitiesIcon-Selected
 EncounterJournalEncounterFrameInfoBossTabSelect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1678)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1736)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoBossTab : Button, EncounterTabTemplate
 --- @field unselected EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoBossTab_EncounterJournalEncounterFrameInfoBossTabUnselect
@@ -1049,17 +1078,17 @@ EncounterJournalEncounterFrameInfoBossTab = {}
 EncounterJournalEncounterFrameInfoBossTab["unselected"] = EncounterJournalEncounterFrameInfoBossTabUnselect
 EncounterJournalEncounterFrameInfoBossTab["selected"] = EncounterJournalEncounterFrameInfoBossTabSelect
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1714)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1772)
 --- child of EncounterJournalEncounterFrameInfoModelTab
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelTab_EncounterJournalEncounterFrameInfoModelTabUnselect : Texture, UI-EJ-Tab-ModelIcon-UnSelected
 EncounterJournalEncounterFrameInfoModelTabUnselect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1719)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1777)
 --- child of EncounterJournalEncounterFrameInfoModelTab
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelTab_EncounterJournalEncounterFrameInfoModelTabSelect : Texture, UI-EJ-Tab-ModelIcon-Selected
 EncounterJournalEncounterFrameInfoModelTabSelect = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1708)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1766)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelTab : Button, EncounterTabTemplate
 --- @field unselected EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelTab_EncounterJournalEncounterFrameInfoModelTabUnselect
@@ -1068,33 +1097,32 @@ EncounterJournalEncounterFrameInfoModelTab = {}
 EncounterJournalEncounterFrameInfoModelTab["unselected"] = EncounterJournalEncounterFrameInfoModelTabUnselect
 EncounterJournalEncounterFrameInfoModelTab["selected"] = EncounterJournalEncounterFrameInfoModelTabSelect
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1736)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1794)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_BossesScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1742)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1800)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_BossesScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1748)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1806)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoDifficulty : DropdownButton, WowStyle1DropdownTemplate
 EncounterJournalEncounterFrameInfoDifficulty = {}
-EncounterJournalEncounterFrameInfoDifficulty["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1771)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1829)
 --- child of EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChild
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoDetailsScrollFrame_EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChild_EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChildDescription : FontString, GameFontBlack
 EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChildDescription = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1764)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1822)
 --- child of EncounterJournalEncounterFrameInfoDetailsScrollFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoDetailsScrollFrame_EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChild : Frame
 --- @field description EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoDetailsScrollFrame_EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChild_EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChildDescription
 EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChild = {}
 EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChild["description"] = EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChildDescription
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1753)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1811)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoDetailsScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # -15
@@ -1103,26 +1131,26 @@ EncounterJournalEncounterFrameInfoDetailsScrollFrame = {}
 EncounterJournalEncounterFrameInfoDetailsScrollFrame["child"] = EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChild
 EncounterJournalEncounterFrameInfoDetailsScrollFrame["scrollBarX"] = -15
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1831)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1889)
 --- child of EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewScrollFrame_EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild_overviewDescription : Frame, EncounterDescriptionTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1809)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1867)
 --- child of EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewScrollFrame_EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild_EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChildLoreDescription : FontString, GameFontBlack
 EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChildLoreDescription = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1816)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1874)
 --- child of EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewScrollFrame_EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild_EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChildHeader : Texture, UI-EJ-Header-Overview
 EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChildHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1821)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1879)
 --- child of EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewScrollFrame_EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild_EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChildTitle : FontString, GameFontNormal
 EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChildTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1860)
 --- child of EncounterJournalEncounterFrameInfoOverviewScrollFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewScrollFrame_EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild : Frame
 --- @field overviewDescription EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewScrollFrame_EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild_overviewDescription
@@ -1132,7 +1160,7 @@ EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild = {}
 EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild["loreDescription"] = EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChildLoreDescription
 EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild["header"] = EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChildHeader
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1791)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1849)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # -15
@@ -1141,39 +1169,39 @@ EncounterJournalEncounterFrameInfoOverviewScrollFrame = {}
 EncounterJournalEncounterFrameInfoOverviewScrollFrame["child"] = EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild
 EncounterJournalEncounterFrameInfoOverviewScrollFrame["scrollBarX"] = -15
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1939)
 --- child of EncounterJournalEncounterFrameInfoClassFilterClearFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame_EncounterJournalEncounterFrameInfoClassFilterClearFrameExitButton : Button
 --- @field texture Texture
 EncounterJournalEncounterFrameInfoClassFilterClearFrameExitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1871)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1929)
 --- child of EncounterJournalEncounterFrameInfoClassFilterClearFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame_text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1856)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1914)
 --- child of EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame : Frame
 --- @field text EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame_text
 EncounterJournalEncounterFrameInfoClassFilterClearFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1919)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1977)
 --- child of EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1925)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1983)
 --- child of EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1931)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1989)
 --- child of EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_filter : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1932)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1990)
 --- child of EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_slotFilter : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1850)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1908)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer : Frame
 --- @field classClearFilter EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_EncounterJournalEncounterFrameInfoClassFilterClearFrame
@@ -1182,43 +1210,43 @@ EncounterJournalEncounterFrameInfoClassFilterClearFrame = {}
 --- @field filter EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_filter
 --- @field slotFilter EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_LootContainer_slotFilter
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1951)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2009)
 --- child of EncounterJournalEncounterFrameInfoModelFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame_EncounterJournalEncounterFrameInfoModelFrameDungeonBG : Texture
 EncounterJournalEncounterFrameInfoModelFrameDungeonBG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1960)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2018)
 --- child of EncounterJournalEncounterFrameInfoModelFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame_EncounterJournalEncounterFrameInfoModelFrameShadow : Texture
 EncounterJournalEncounterFrameInfoModelFrameShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1969)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2027)
 --- child of EncounterJournalEncounterFrameInfoModelFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame_EncounterJournalEncounterFrameInfoModelFrameTitleBG : Texture, UI-EJ-BossNameShadow
 EncounterJournalEncounterFrameInfoModelFrameTitleBG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1976)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2034)
 --- child of EncounterJournalEncounterFrameInfoModelFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame_EncounterJournalEncounterFrameInfoModelFrameImageTile : FontString, QuestTitleFontBlackShadow
 EncounterJournalEncounterFrameInfoModelFrameImageTile = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1982)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2040)
 --- child of EncounterJournalEncounterFrameInfoModelFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame_modelDisplayIdLabel : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1988)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2046)
 --- child of EncounterJournalEncounterFrameInfoModelFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame_modelDisplayId : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1994)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2052)
 --- child of EncounterJournalEncounterFrameInfoModelFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame_modelName : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2000)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2058)
 --- child of EncounterJournalEncounterFrameInfoModelFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame_modelNameLabel : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1944)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2002)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame : ModelScene, ModelSceneMixinTemplate
 --- @field dungeonBG EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoModelFrame_EncounterJournalEncounterFrameInfoModelFrameDungeonBG
@@ -1236,45 +1264,45 @@ EncounterJournalEncounterFrameInfoModelFrame["imageTitle"] = EncounterJournalEnc
 --- @type Texture
 EncounterJournalEncounterFrameInfoCreatureButton1Creature = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2019)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2077)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoCreatureButton1 : Button, EncounterCreatureButtonTemplate
 EncounterJournalEncounterFrameInfoCreatureButton1 = {}
 EncounterJournalEncounterFrameInfoCreatureButton1["creature"] = EncounterJournalEncounterFrameInfoCreatureButton1Creature -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1614)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoBG : Texture
 EncounterJournalEncounterFrameInfoBG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1565)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1623)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoLeftHeaderShadow : Texture, UI-EJ-LeftPageHeader
 EncounterJournalEncounterFrameInfoLeftHeaderShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1628)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoRightHeaderShadow : Texture, UI-EJ-RightPageHeader
 EncounterJournalEncounterFrameInfoRightHeaderShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1635)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoEncounterTitle : FontString, GameFontNormalLarge, AutoScalingFontStringMixin
 --- @field minLineHeight number # 9
 EncounterJournalEncounterFrameInfoEncounterTitle = {}
 EncounterJournalEncounterFrameInfoEncounterTitle["minLineHeight"] = 9
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1587)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1645)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoDifficultyIcon : Texture
 EncounterJournalEncounterFrameInfoDifficultyIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1593)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1651)
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoInstanceTitle : FontString, GameFontNormalLarge
 EncounterJournalEncounterFrameInfoInstanceTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1549)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1607)
 --- child of EncounterJournalEncounterFrame
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo : Frame
 --- @field instanceButton EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoInstanceButton
@@ -1320,32 +1348,32 @@ EncounterJournalEncounterFrame = {}
 EncounterJournalEncounterFrame["instance"] = EncounterJournalEncounterFrameInstanceFrame
 EncounterJournalEncounterFrame["info"] = EncounterJournalEncounterFrameInfo
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2029)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2087)
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalMonthlyActivitiesFrame : Frame, MonthlyActivitiesFrameTemplate
 EncounterJournalMonthlyActivitiesFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2078)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2136)
 --- child of EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_centerDisplay
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_centerDisplay_title : Frame
 --- @field text FontString
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2092)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2150)
 --- child of EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_centerDisplay
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_centerDisplay_description : Frame
 --- @field text FontString
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2072)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2130)
 --- child of EncounterJournal_EncounterJournalSuggestFrame_Suggestion1
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_centerDisplay : Frame
 --- @field title EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_centerDisplay_title
 --- @field description EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_centerDisplay_description
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2166)
 --- child of EncounterJournal_EncounterJournalSuggestFrame_Suggestion1
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_button : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2179)
 --- child of EncounterJournal_EncounterJournalSuggestFrame_Suggestion1
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_reward : Frame
 --- @field icon Texture
@@ -1353,17 +1381,17 @@ EncounterJournalMonthlyActivitiesFrame = {}
 --- @field iconRing Texture
 --- @field iconRingHighlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2167)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2225)
 --- child of EncounterJournal_EncounterJournalSuggestFrame_Suggestion1
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_EncounterJournalSuggestFramePrevButton : Button
 EncounterJournalSuggestFramePrevButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2241)
 --- child of EncounterJournal_EncounterJournalSuggestFrame_Suggestion1
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion1_EncounterJournalSuggestFrameNextButton : Button
 EncounterJournalSuggestFrameNextButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2042)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2100)
 --- child of EncounterJournalSuggestFrame
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion1 : Frame
 --- @field index number # 1
@@ -1376,17 +1404,17 @@ EncounterJournalSuggestFrameNextButton = {}
 --- @field icon Texture
 --- @field iconRing Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2264)
 --- child of EncounterJournalSuggestFrame
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion2 : Frame, AdventureJournal_SecondaryTemplate
 --- @field index number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2215)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2273)
 --- child of EncounterJournalSuggestFrame
 --- @class EncounterJournal_EncounterJournalSuggestFrame_Suggestion3 : Frame, AdventureJournal_SecondaryTemplate
 --- @field index number # 3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2036)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2094)
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalSuggestFrame : Frame
 --- @field Suggestion1 EncounterJournal_EncounterJournalSuggestFrame_Suggestion1
@@ -1394,337 +1422,37 @@ EncounterJournalSuggestFrameNextButton = {}
 --- @field Suggestion3 EncounterJournal_EncounterJournalSuggestFrame_Suggestion3
 EncounterJournalSuggestFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1189)
---- child of EncounterJournalMonthlyActivitiesTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMid
-EncounterJournalMonthlyActivitiesTabMid = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1195)
---- child of EncounterJournalMonthlyActivitiesTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeft
-EncounterJournalMonthlyActivitiesTabLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1201)
---- child of EncounterJournalMonthlyActivitiesTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRight
-EncounterJournalMonthlyActivitiesTabRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1209)
---- child of EncounterJournalMonthlyActivitiesTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidSelect
-EncounterJournalMonthlyActivitiesTabMidSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1215)
---- child of EncounterJournalMonthlyActivitiesTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftSelect
-EncounterJournalMonthlyActivitiesTabLeftSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1221)
---- child of EncounterJournalMonthlyActivitiesTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightSelect
-EncounterJournalMonthlyActivitiesTabRightSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1227)
---- child of EncounterJournalMonthlyActivitiesTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateSelectedGlow
-EncounterJournalMonthlyActivitiesTabSelectedGlow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1235)
---- child of EncounterJournalMonthlyActivitiesTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidHighlight
-EncounterJournalMonthlyActivitiesTabMidHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1241)
---- child of EncounterJournalMonthlyActivitiesTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftHighlight
-EncounterJournalMonthlyActivitiesTabLeftHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1247)
---- child of EncounterJournalMonthlyActivitiesTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightHighlight
-EncounterJournalMonthlyActivitiesTabRightHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2290)
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalMonthlyActivitiesTab : Button, BottomEncounterTierTabTemplate, MonthlyActivitiesTabButtonMixin
 EncounterJournalMonthlyActivitiesTab = {}
-EncounterJournalMonthlyActivitiesTab["mid"] = EncounterJournalMonthlyActivitiesTabMid -- inherited
-EncounterJournalMonthlyActivitiesTab["left"] = EncounterJournalMonthlyActivitiesTabLeft -- inherited
-EncounterJournalMonthlyActivitiesTab["right"] = EncounterJournalMonthlyActivitiesTabRight -- inherited
-EncounterJournalMonthlyActivitiesTab["midSelect"] = EncounterJournalMonthlyActivitiesTabMidSelect -- inherited
-EncounterJournalMonthlyActivitiesTab["leftSelect"] = EncounterJournalMonthlyActivitiesTabLeftSelect -- inherited
-EncounterJournalMonthlyActivitiesTab["rightSelect"] = EncounterJournalMonthlyActivitiesTabRightSelect -- inherited
-EncounterJournalMonthlyActivitiesTab["selectedGlow"] = EncounterJournalMonthlyActivitiesTabSelectedGlow -- inherited
-EncounterJournalMonthlyActivitiesTab["midHighlight"] = EncounterJournalMonthlyActivitiesTabMidHighlight -- inherited
-EncounterJournalMonthlyActivitiesTab["leftHighlight"] = EncounterJournalMonthlyActivitiesTabLeftHighlight -- inherited
-EncounterJournalMonthlyActivitiesTab["rightHighlight"] = EncounterJournalMonthlyActivitiesTabRightHighlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1189)
---- child of EncounterJournalSuggestTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMid
-EncounterJournalSuggestTabMid = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1195)
---- child of EncounterJournalSuggestTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeft
-EncounterJournalSuggestTabLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1201)
---- child of EncounterJournalSuggestTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRight
-EncounterJournalSuggestTabRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1209)
---- child of EncounterJournalSuggestTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidSelect
-EncounterJournalSuggestTabMidSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1215)
---- child of EncounterJournalSuggestTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftSelect
-EncounterJournalSuggestTabLeftSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1221)
---- child of EncounterJournalSuggestTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightSelect
-EncounterJournalSuggestTabRightSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1227)
---- child of EncounterJournalSuggestTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateSelectedGlow
-EncounterJournalSuggestTabSelectedGlow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1235)
---- child of EncounterJournalSuggestTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidHighlight
-EncounterJournalSuggestTabMidHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1241)
---- child of EncounterJournalSuggestTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftHighlight
-EncounterJournalSuggestTabLeftHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1247)
---- child of EncounterJournalSuggestTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightHighlight
-EncounterJournalSuggestTabRightHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2295)
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalSuggestTab : Button, BottomEncounterTierTabTemplate
 EncounterJournalSuggestTab = {}
-EncounterJournalSuggestTab["mid"] = EncounterJournalSuggestTabMid -- inherited
-EncounterJournalSuggestTab["left"] = EncounterJournalSuggestTabLeft -- inherited
-EncounterJournalSuggestTab["right"] = EncounterJournalSuggestTabRight -- inherited
-EncounterJournalSuggestTab["midSelect"] = EncounterJournalSuggestTabMidSelect -- inherited
-EncounterJournalSuggestTab["leftSelect"] = EncounterJournalSuggestTabLeftSelect -- inherited
-EncounterJournalSuggestTab["rightSelect"] = EncounterJournalSuggestTabRightSelect -- inherited
-EncounterJournalSuggestTab["selectedGlow"] = EncounterJournalSuggestTabSelectedGlow -- inherited
-EncounterJournalSuggestTab["midHighlight"] = EncounterJournalSuggestTabMidHighlight -- inherited
-EncounterJournalSuggestTab["leftHighlight"] = EncounterJournalSuggestTabLeftHighlight -- inherited
-EncounterJournalSuggestTab["rightHighlight"] = EncounterJournalSuggestTabRightHighlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1189)
---- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMid
-EncounterJournalDungeonTabMid = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1195)
---- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeft
-EncounterJournalDungeonTabLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1201)
---- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRight
-EncounterJournalDungeonTabRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1209)
---- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidSelect
-EncounterJournalDungeonTabMidSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1215)
---- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftSelect
-EncounterJournalDungeonTabLeftSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1221)
---- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightSelect
-EncounterJournalDungeonTabRightSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1227)
---- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateSelectedGlow
-EncounterJournalDungeonTabSelectedGlow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1235)
---- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidHighlight
-EncounterJournalDungeonTabMidHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1241)
---- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftHighlight
-EncounterJournalDungeonTabLeftHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1247)
---- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightHighlight
-EncounterJournalDungeonTabRightHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2242)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2300)
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalDungeonTab : Button, BottomEncounterTierTabTemplate
 EncounterJournalDungeonTab = {}
-EncounterJournalDungeonTab["mid"] = EncounterJournalDungeonTabMid -- inherited
-EncounterJournalDungeonTab["left"] = EncounterJournalDungeonTabLeft -- inherited
-EncounterJournalDungeonTab["right"] = EncounterJournalDungeonTabRight -- inherited
-EncounterJournalDungeonTab["midSelect"] = EncounterJournalDungeonTabMidSelect -- inherited
-EncounterJournalDungeonTab["leftSelect"] = EncounterJournalDungeonTabLeftSelect -- inherited
-EncounterJournalDungeonTab["rightSelect"] = EncounterJournalDungeonTabRightSelect -- inherited
-EncounterJournalDungeonTab["selectedGlow"] = EncounterJournalDungeonTabSelectedGlow -- inherited
-EncounterJournalDungeonTab["midHighlight"] = EncounterJournalDungeonTabMidHighlight -- inherited
-EncounterJournalDungeonTab["leftHighlight"] = EncounterJournalDungeonTabLeftHighlight -- inherited
-EncounterJournalDungeonTab["rightHighlight"] = EncounterJournalDungeonTabRightHighlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1189)
---- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMid
-EncounterJournalRaidTabMid = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1195)
---- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeft
-EncounterJournalRaidTabLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1201)
---- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRight
-EncounterJournalRaidTabRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1209)
---- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidSelect
-EncounterJournalRaidTabMidSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1215)
---- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftSelect
-EncounterJournalRaidTabLeftSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1221)
---- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightSelect
-EncounterJournalRaidTabRightSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1227)
---- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateSelectedGlow
-EncounterJournalRaidTabSelectedGlow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1235)
---- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidHighlight
-EncounterJournalRaidTabMidHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1241)
---- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftHighlight
-EncounterJournalRaidTabLeftHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1247)
---- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightHighlight
-EncounterJournalRaidTabRightHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2305)
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalRaidTab : Button, BottomEncounterTierTabTemplate
 EncounterJournalRaidTab = {}
-EncounterJournalRaidTab["mid"] = EncounterJournalRaidTabMid -- inherited
-EncounterJournalRaidTab["left"] = EncounterJournalRaidTabLeft -- inherited
-EncounterJournalRaidTab["right"] = EncounterJournalRaidTabRight -- inherited
-EncounterJournalRaidTab["midSelect"] = EncounterJournalRaidTabMidSelect -- inherited
-EncounterJournalRaidTab["leftSelect"] = EncounterJournalRaidTabLeftSelect -- inherited
-EncounterJournalRaidTab["rightSelect"] = EncounterJournalRaidTabRightSelect -- inherited
-EncounterJournalRaidTab["selectedGlow"] = EncounterJournalRaidTabSelectedGlow -- inherited
-EncounterJournalRaidTab["midHighlight"] = EncounterJournalRaidTabMidHighlight -- inherited
-EncounterJournalRaidTab["leftHighlight"] = EncounterJournalRaidTabLeftHighlight -- inherited
-EncounterJournalRaidTab["rightHighlight"] = EncounterJournalRaidTabRightHighlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1189)
---- child of EncounterJournalLootJournalTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMid
-EncounterJournalLootJournalTabMid = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1195)
---- child of EncounterJournalLootJournalTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeft
-EncounterJournalLootJournalTabLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1201)
---- child of EncounterJournalLootJournalTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRight
-EncounterJournalLootJournalTabRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1209)
---- child of EncounterJournalLootJournalTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidSelect
-EncounterJournalLootJournalTabMidSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1215)
---- child of EncounterJournalLootJournalTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftSelect
-EncounterJournalLootJournalTabLeftSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1221)
---- child of EncounterJournalLootJournalTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightSelect
-EncounterJournalLootJournalTabRightSelect = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1227)
---- child of EncounterJournalLootJournalTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateSelectedGlow
-EncounterJournalLootJournalTabSelectedGlow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1235)
---- child of EncounterJournalLootJournalTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidHighlight
-EncounterJournalLootJournalTabMidHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1241)
---- child of EncounterJournalLootJournalTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftHighlight
-EncounterJournalLootJournalTabLeftHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1247)
---- child of EncounterJournalLootJournalTab (created in template BottomEncounterTierTabTemplate)
---- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightHighlight
-EncounterJournalLootJournalTabRightHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2310)
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalLootJournalTab : Button, BottomEncounterTierTabTemplate
 EncounterJournalLootJournalTab = {}
-EncounterJournalLootJournalTab["mid"] = EncounterJournalLootJournalTabMid -- inherited
-EncounterJournalLootJournalTab["left"] = EncounterJournalLootJournalTabLeft -- inherited
-EncounterJournalLootJournalTab["right"] = EncounterJournalLootJournalTabRight -- inherited
-EncounterJournalLootJournalTab["midSelect"] = EncounterJournalLootJournalTabMidSelect -- inherited
-EncounterJournalLootJournalTab["leftSelect"] = EncounterJournalLootJournalTabLeftSelect -- inherited
-EncounterJournalLootJournalTab["rightSelect"] = EncounterJournalLootJournalTabRightSelect -- inherited
-EncounterJournalLootJournalTab["selectedGlow"] = EncounterJournalLootJournalTabSelectedGlow -- inherited
-EncounterJournalLootJournalTab["midHighlight"] = EncounterJournalLootJournalTabMidHighlight -- inherited
-EncounterJournalLootJournalTab["leftHighlight"] = EncounterJournalLootJournalTabLeftHighlight -- inherited
-EncounterJournalLootJournalTab["rightHighlight"] = EncounterJournalLootJournalTabRightHighlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1107)
 --- child of EncounterJournal (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 EncounterJournalCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1074)
 --- child of EncounterJournal (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 EncounterJournalBg = {}
@@ -1939,7 +1667,7 @@ EncounterJournalTooltipItem1TooltipTexture29 = {}
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
 EncounterJournalTooltipItem1TooltipTexture30 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2341)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2399)
 --- child of EncounterJournalTooltipItem1
 --- @class EncounterJournalTooltip_EncounterJournalTooltipItem1_EncounterJournalTooltipItem1Tooltip : GameTooltip, GameTooltipTemplate
 --- @field IsEmbedded boolean # true
@@ -1953,17 +1681,17 @@ EncounterJournalTooltipItem1Tooltip["TextRight1"] = EncounterJournalTooltipItem1
 EncounterJournalTooltipItem1Tooltip["TextLeft2"] = EncounterJournalTooltipItem1TooltipTextLeft2 -- inherited
 EncounterJournalTooltipItem1Tooltip["TextRight2"] = EncounterJournalTooltipItem1TooltipTextRight2 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2360)
 --- child of EncounterJournalTooltipItem1
 --- @class EncounterJournalTooltip_EncounterJournalTooltipItem1_EncounterJournalTooltipItem1Count : FontString, NumberFontNormalSmall
 EncounterJournalTooltipItem1Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2307)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2365)
 --- child of EncounterJournalTooltipItem1
 --- @class EncounterJournalTooltip_EncounterJournalTooltipItem1_EncounterJournalTooltipItem1Text : FontString, GameTooltipText
 EncounterJournalTooltipItem1Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2348)
 --- child of EncounterJournalTooltip
 --- @class EncounterJournalTooltip_EncounterJournalTooltipItem1 : Frame
 --- @field tooltip EncounterJournalTooltip_EncounterJournalTooltipItem1_EncounterJournalTooltipItem1Tooltip
@@ -1978,17 +1706,17 @@ EncounterJournalTooltipItem1["tooltip"] = EncounterJournalTooltipItem1Tooltip
 EncounterJournalTooltipItem1["Count"] = EncounterJournalTooltipItem1Count
 EncounterJournalTooltipItem1["text"] = EncounterJournalTooltipItem1Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2373)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2431)
 --- child of EncounterJournalTooltipItem2
 --- @class EncounterJournalTooltip_EncounterJournalTooltipItem2_EncounterJournalTooltipItem2Count : FontString, NumberFontNormalSmall
 EncounterJournalTooltipItem2Count = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2436)
 --- child of EncounterJournalTooltipItem2
 --- @class EncounterJournalTooltip_EncounterJournalTooltipItem2_EncounterJournalTooltipItem2Text : FontString, GameTooltipText
 EncounterJournalTooltipItem2Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2417)
 --- child of EncounterJournalTooltip
 --- @class EncounterJournalTooltip_EncounterJournalTooltipItem2 : Frame
 --- @field icon Texture
@@ -2001,17 +1729,17 @@ EncounterJournalTooltipItem2 = {}
 EncounterJournalTooltipItem2["Count"] = EncounterJournalTooltipItem2Count
 EncounterJournalTooltipItem2["text"] = EncounterJournalTooltipItem2Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2331)
 --- child of EncounterJournalTooltip
 --- @class EncounterJournalTooltip_EncounterJournalTooltipHeaderText : FontString, GameTooltipText
 EncounterJournalTooltipHeaderText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2338)
 --- child of EncounterJournalTooltip
 --- @class EncounterJournalTooltip_EncounterJournalTooltipClickText : FontString, GameTooltipText
 EncounterJournalTooltipClickText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2324)
 --- @class EncounterJournalTooltip : Frame, TooltipBackdropTemplate
 --- @field Item1 EncounterJournalTooltip_EncounterJournalTooltipItem1
 --- @field Item2 EncounterJournalTooltip_EncounterJournalTooltipItem2

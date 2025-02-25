@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L60)
 --- @class SpaceToFitVerticalLayoutMixin : SpaceToFitDirectionalLayoutMixin
 SpaceToFitVerticalLayoutMixin = CreateFromMixins(SpaceToFitDirectionalLayoutMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L109)
 --- @class SpaceToFitHorizontalLayoutMixin : SpaceToFitDirectionalLayoutMixin
 SpaceToFitHorizontalLayoutMixin = CreateFromMixins(SpaceToFitDirectionalLayoutMixin)
 
@@ -19,37 +19,37 @@ function SpaceToFitDirectionalLayoutMixin:SetFixedMaxSpace(maxSpace) end
 function SpaceToFitDirectionalLayoutMixin:GetAvailableSpace() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L21)
-function SpaceToFitDirectionalLayoutMixin:GetChildSize(child) end
+function SpaceToFitDirectionalLayoutMixin:GetChildSpaceRequired(child) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L25)
 function SpaceToFitDirectionalLayoutMixin:UpdateSpacing(children) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L51)
 function SpaceToFitDirectionalLayoutMixin:IsSpacingAdjusted() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L55)
 function SpaceToFitDirectionalLayoutMixin:GetSpacing() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L62)
 function SpaceToFitVerticalLayoutMixin:LayoutChildren(children, expandToWidth) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L67)
 function SpaceToFitVerticalLayoutMixin:GetAvailableSpace() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L89)
-function SpaceToFitVerticalLayoutMixin:GetChildSize(child) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L86)
+function SpaceToFitVerticalLayoutMixin:GetChildSpaceRequired(child) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L93)
 function SpaceToFitVerticalLayoutMixin:SetBottomFrame(bottomFrame, minBottomSpacing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L99)
 function SpaceToFitVerticalLayoutMixin:SetTopFrame(topFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L103)
 function SpaceToFitVerticalLayoutMixin:GetTopMax() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L111)
 function SpaceToFitHorizontalLayoutMixin:LayoutChildren(children, expandToWidth) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L119)
-function SpaceToFitHorizontalLayoutMixin:GetChildSize(child) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/SpaceToFitLayoutFrame.lua#L116)
+function SpaceToFitHorizontalLayoutMixin:GetChildSpaceRequired(child) end

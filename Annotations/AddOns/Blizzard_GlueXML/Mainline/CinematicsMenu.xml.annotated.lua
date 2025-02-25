@@ -46,12 +46,12 @@ CinematicsMenuText = {}
 --- child of CinematicsMenu
 --- @class CinematicsMenu_SubtitlesLabel : FontString, GlueFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L971)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L983)
 --- child of CinematicsMenu (created in template DefaultPanelTemplate)
 --- @type Texture
 CinematicsMenuBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L979)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GlueXML/Mainline/CinematicsMenu.xml#L991)
 --- child of CinematicsMenu (created in template DefaultPanelTemplate)
 --- @type DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks
 CinematicsMenuTopTileStreaks = {}

@@ -204,12 +204,52 @@ CollectionsJournalTab5HighlightTexture = {}
 --- @class CollectionsJournal_CollectionsJournalTab5 : Button, CollectionsJournalTab
 CollectionsJournalTab5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L9)
+--- child of CollectionsJournalTab6 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+CollectionsJournalTab6LeftDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L22)
+--- child of CollectionsJournalTab6 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+CollectionsJournalTab6MiddleDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L31)
+--- child of CollectionsJournalTab6 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+CollectionsJournalTab6RightDisabled = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L40)
+--- child of CollectionsJournalTab6 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+CollectionsJournalTab6Left = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L49)
+--- child of CollectionsJournalTab6 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+CollectionsJournalTab6Middle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L58)
+--- child of CollectionsJournalTab6 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+CollectionsJournalTab6Right = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L113)
+--- child of CollectionsJournalTab6 (created in template CharacterFrameTabButtonTemplate)
+--- @type Texture
+CollectionsJournalTab6HighlightTexture = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L45)
+--- child of CollectionsJournal
+--- @class CollectionsJournal_CollectionsJournalTab6 : Button, CollectionsJournalTab
+CollectionsJournalTab6 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L1107)
 --- child of CollectionsJournal (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 CollectionsJournalCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L1074)
 --- child of CollectionsJournal (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 CollectionsJournalBg = {}
@@ -221,12 +261,14 @@ CollectionsJournalBg = {}
 --- @field ToysTab CollectionsJournal_CollectionsJournalTab3
 --- @field HeirloomsTab CollectionsJournal_CollectionsJournalTab4
 --- @field WardrobeTab CollectionsJournal_CollectionsJournalTab5
+--- @field WarbandScenesTab CollectionsJournal_CollectionsJournalTab6
 CollectionsJournal = {}
 CollectionsJournal["MountsTab"] = CollectionsJournalTab1
 CollectionsJournal["PetsTab"] = CollectionsJournalTab2
 CollectionsJournal["ToysTab"] = CollectionsJournalTab3
 CollectionsJournal["HeirloomsTab"] = CollectionsJournalTab4
 CollectionsJournal["WardrobeTab"] = CollectionsJournalTab5
+CollectionsJournal["WarbandScenesTab"] = CollectionsJournalTab6
 CollectionsJournal["CloseButton"] = CollectionsJournalCloseButton -- inherited
 CollectionsJournal["Bg"] = CollectionsJournalBg -- inherited
 CollectionsJournal["layoutType"] = "PortraitFrameTemplate" -- inherited

@@ -189,7 +189,7 @@
 --- child of FriendsFrameBattlenetFrame
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_BroadcastButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L3272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L3298)
 --- child of FriendsFrame_FriendsTabHeader_FriendsFrameBattlenetFrame_UnavailableInfoButton (created in template UIPanelInfoButton)
 --- @type Texture
 FriendsFrameBattlenetFrameTexture = {}
@@ -273,7 +273,6 @@ FriendsFrameBattlenetFrame = {}
 --- child of FriendsTabHeader
 --- @class FriendsFrame_FriendsTabHeader_FriendsFrameStatusDropdown : DropdownButton, WowStyle1DropdownTemplate
 FriendsFrameStatusDropdown = {}
-FriendsFrameStatusDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L748)
 --- child of FriendsTabHeader
@@ -436,7 +435,6 @@ WhoFrameColumnHeader1["HighlightTexture"] = WhoFrameColumnHeader1HighlightTextur
 --- @class FriendsFrame_WhoFrame_WhoFrameColumnHeader2_WhoFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 --- @field TabHighlight Texture
 WhoFrameDropdown = {}
-WhoFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L445)
 --- child of WhoFrameColumnHeader2 (created in template WhoFrameColumnHeaderTemplate)
@@ -695,18 +693,18 @@ FriendsFrameIcon = {}
 --- @class FriendsFrame_FriendsFrameTitleText : FontString, GameFontNormal
 FriendsFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1160)
 --- child of FriendsFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 FriendsFrameInset = {}
 FriendsFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1154)
 --- child of FriendsFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 FriendsFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1137)
 --- child of FriendsFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 FriendsFrameBg = {}
@@ -762,7 +760,7 @@ AddFriendInfoFrameRightTitle = {}
 --- @class AddFriendFrame_AddFriendInfoFrame : Frame
 AddFriendInfoFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L3272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L3298)
 --- child of AddFriendEntryFrameInfoButton (created in template UIPanelInfoButton)
 --- @type Texture
 AddFriendEntryFrameInfoButtonTexture = {}
@@ -878,7 +876,6 @@ AddFriendFrame = {}
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsFrame_FriendsFriendsFrameDropdown : DropdownButton, WowStyle1DropdownTemplate
 FriendsFriendsFrameDropdown = {}
-FriendsFriendsFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1491)
 --- child of FriendsFriendsFrame

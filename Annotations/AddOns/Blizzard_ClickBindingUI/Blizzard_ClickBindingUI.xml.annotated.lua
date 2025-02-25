@@ -113,12 +113,12 @@
 --- child of ClickBindingFrame_TutorialFrame
 --- @class ClickBindingFrame_TutorialFrame_ThrallName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1107)
 --- child of ClickBindingFrame_TutorialFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ClickBindingFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1074)
 --- child of ClickBindingFrame_TutorialFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ClickBindingFrameBg = {}
@@ -141,12 +141,12 @@ ClickBindingFrameBg = {}
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_UnboundText : FontString, GameFontRed
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1107)
 --- child of ClickBindingFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 ClickBindingFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1074)
 --- child of ClickBindingFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ClickBindingFrameBg = {}

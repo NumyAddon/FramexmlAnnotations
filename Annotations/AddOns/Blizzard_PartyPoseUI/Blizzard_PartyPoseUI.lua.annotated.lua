@@ -92,20 +92,26 @@ function PartyPoseMixin:PlaySounds() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L372)
 function PartyPoseMixin:GetPartyPoseData(mapID, winner) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L385)
 function PartyPoseMixin:GetPartyPoseDataFromPartyPoseID(partyPoseID, winner) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L398)
 function PartyPoseMixin:LoadScreen(mapID, winner) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L402)
 function PartyPoseMixin:LoadScreenByPartyPoseID(partyPoseID, winner) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L398)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L406)
 function PartyPoseMixin:ReloadPartyPose() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L414)
 function PartyPoseMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L413)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L421)
 function PartyPoseMixin:OnEvent(event, ...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L429)
+function PartyPoseMixin:OnKeyDown(key) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.lua#L435)
+function PartyPoseMixin:Dismiss() end

@@ -33,12 +33,12 @@ xx = {}
 --- child of NPE_TutorialKeyboardMouseFrame_Frame
 --- @class NPE_TutorialKeyboardMouseFrame_Frame_Anim_UnDim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L1107)
 --- child of NPE_TutorialKeyboardMouseFrame_Frame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 NPE_TutorialKeyboardMouseFrame_FrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L1074)
 --- child of NPE_TutorialKeyboardMouseFrame_Frame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 NPE_TutorialKeyboardMouseFrame_FrameBg = {}

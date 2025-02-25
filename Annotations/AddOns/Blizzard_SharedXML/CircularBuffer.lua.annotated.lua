@@ -20,31 +20,34 @@ function CircularBufferMixin:PushFront(element) end
 function CircularBufferMixin:PushBack(element) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L66)
+function CircularBufferMixin:IsValidIndex(index) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L70)
 function CircularBufferMixin:GetEntryAtIndex(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L77)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L81)
 function CircularBufferMixin:RemoveIf(predicateFunction, transformFunction) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L99)
 function CircularBufferMixin:TransformIf(predicateFunction, transformFunction, entryTransform) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L116)
 function CircularBufferMixin:GetNumElements() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L120)
 function CircularBufferMixin:IsFull() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L124)
 function CircularBufferMixin:IsEmpty() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L159)
 function CircularBufferMixin:OnLoad(maxElements) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L165)
 function CircularBufferMixin:CalculateElementIndex(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L170)
 function CircularBufferMixin:CalculateElementIndexFromGlobalIndex(globalIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L179)
 function CircularBufferMixin:ReplaceElements(elements) end

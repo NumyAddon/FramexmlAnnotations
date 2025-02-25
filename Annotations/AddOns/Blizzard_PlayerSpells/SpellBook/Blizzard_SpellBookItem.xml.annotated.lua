@@ -47,29 +47,30 @@
 --- child of SpellBookItemTemplate_Button
 --- @class SpellBookItemTemplate_Button_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L149)
 --- child of SpellBookItemTemplate_Button_BorderSheen
 --- @class SpellBookItemTemplate_Button_BorderSheen_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate, SyncedAnimGroupTemplate
 --- @field syncKey string # "SpellBookItemLoops"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L144)
 --- child of SpellBookItemTemplate_Button
 --- @class SpellBookItemTemplate_Button_BorderSheen : Texture
 --- @field Anim SpellBookItemTemplate_Button_BorderSheen_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L218)
 --- child of SpellBookItemTemplate_Button_ActionBarHighlight
 --- @class SpellBookItemTemplate_Button_ActionBarHighlight_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate, SyncedAnimGroupTemplate
 --- @field syncKey string # "SpellBookItemLoops"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L205)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L212)
 --- child of SpellBookItemTemplate_Button
 --- @class SpellBookItemTemplate_Button_ActionBarHighlight : Texture
 --- @field Anim SpellBookItemTemplate_Button_ActionBarHighlight_Anim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L98)
 --- child of SpellBookItemTemplate
---- @class SpellBookItemTemplate_Button : Button, SpellBookItemButtonMixin
+--- @class SpellBookItemTemplate_Button : Button, FlyoutButtonTemplate, SpellBookItemButtonMixin
+--- @field popupDirection string # "RIGHT"
 --- @field AutoCastOverlay SpellBookItemTemplate_Button_AutoCastOverlay
 --- @field Cooldown SpellBookItemTemplate_Button_Cooldown
 --- @field FxModelScene SpellBookItemTemplate_Button_FxModelScene
@@ -89,7 +90,6 @@
 --- @field LevelLinkLock Texture
 --- @field GlyphActiveIcon Texture
 --- @field ActionBarHighlight SpellBookItemTemplate_Button_ActionBarHighlight
---- @field FlyoutArrow Texture
 --- @field ClickBindingHighlight Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L266)

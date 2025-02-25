@@ -290,12 +290,12 @@ BankFrameTab2 = {}
 --- @class BankFrame_BankFrameTab3 : Button, PanelTabButtonTemplate
 BankFrameTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1516)
 --- child of BankItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 BankItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1507)
 --- child of BankItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 BankItemSearchBoxSearchIcon = {}
@@ -695,12 +695,12 @@ AccountBankPanel["layoutType"] = "InsetFrameTemplate"
 --- @class BankFrame_BankFrameTitleText : FontString, GameFontHighlight
 BankFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1107)
 --- child of BankFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 BankFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1074)
 --- child of BankFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 BankFrameBg = {}

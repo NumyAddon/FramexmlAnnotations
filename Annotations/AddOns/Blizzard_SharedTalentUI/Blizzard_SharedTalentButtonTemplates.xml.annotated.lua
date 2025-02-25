@@ -73,18 +73,7 @@
 --- @field Ghost Texture
 --- @field spendTextShadows table<number, TalentButtonArtTemplate_SpendTextShadow1 | TalentButtonArtTemplate_SpendTextShadow2 | TalentButtonArtTemplate_SpendTextShadow3 | TalentButtonArtTemplate_SpendTextShadow4>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L221)
---- child of TalentButtonBasicArtTemplate
---- @class TalentButtonBasicArtTemplate_SpendText : FontString, SystemFont18_Shadow_ThickOutline
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L200)
---- Template
---- @class TalentButtonBasicArtTemplate : Button, TalentDisplayTemplate, TalentButtonBasicArtMixin
---- @field Icon Texture
---- @field SpendText TalentButtonBasicArtTemplate_SpendText
---- @field DisabledOverlay Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L199)
 --- Template
 --- @class TalentButtonChoiceTemplate : Button, TalentButtonArtTemplate, TalentButtonSplitIconMixin
 --- @field GetEdgeDiameterOffset any # TalentButtonArtMixin.GetChoiceEdgeDiameterOffset
@@ -92,36 +81,22 @@
 --- @field IconSplitMask MaskTexture
 --- @field Icon2Mask MaskTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L281)
---- Template
---- @class TalenButtonOldCircleTemplate : Button, TalentButtonBasicArtTemplate
---- @field sizingAdjustment any # TalentButtonBasicArtMixin.SizingAdjustment.Circle
---- @field BorderShadow Texture
---- @field StateBorder Texture
---- @field Border2 Texture
---- @field Border Texture
---- @field IconMask MaskTexture
---- @field BorderMask MaskTexture
---- @field Border2Mask MaskTexture
---- @field DisabledOverlayMask MaskTexture
---- @field BorderShadowMask MaskTexture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L239)
 --- Template
 --- @class TalentButtonCircleTemplate : Button, TalentButtonArtTemplate
 --- @field GetEdgeDiameterOffset any # TalentButtonArtMixin.GetCircleEdgeDiameterOffset
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L247)
 --- Template
 --- @class TalentButtonSquareTemplate : Button, TalentButtonArtTemplate
 --- @field GetEdgeDiameterOffset any # TalentButtonArtMixin.GetSquareEdgeDiameterOffset
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L383)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L255)
 --- Template
 --- @class TalentButtonLargeSquareTemplate : Button, TalentButtonArtTemplate
 --- @field artSet any # TalentButtonArtMixin.ArtSet.LargeSquare
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentButtonTemplates.xml#L263)
 --- Template
 --- @class TalentButtonLargeCircleTemplate : Button, TalentButtonArtTemplate
 --- @field artSet any # TalentButtonArtMixin.ArtSet.LargeCircle

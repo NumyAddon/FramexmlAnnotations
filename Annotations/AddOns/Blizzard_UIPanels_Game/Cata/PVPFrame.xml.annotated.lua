@@ -399,19 +399,19 @@ PVPFrameRightButton["fitTextCanWidthDecrease"] = true -- inherited
 --- child of PVPHonorFrame
 --- @class PVPFrame_PVPHonorFrame_bgTypeScrollBar : EventFrame, WowClassicScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L174)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardLabel : FontString, GameFontHighlightMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L194)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardHonorAmount : FontString, NumberFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L214)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardArenaAmount : FontString, NumberFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L242)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L156)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward : Frame
 --- @field honorSymbol Texture
@@ -419,19 +419,19 @@ PVPFrameRightButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @field arenaSymbol Texture
 --- @field arenaAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardArenaAmount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L245)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardLabel : FontString, GameFontHighlightMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L351)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L265)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardHonorAmount : FontString, NumberFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L285)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardArenaAmount : FontString, NumberFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L227)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward : Frame
 --- @field honorSymbol Texture
@@ -439,19 +439,19 @@ PVPFrameRightButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @field arenaSymbol Texture
 --- @field arenaAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardArenaAmount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L123)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoTitle : FontString, QuestTitleFontBlackShadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L132)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoDescription : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L144)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoRewardsLabel : FontString, QuestTitleFontBlackShadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L114)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrame
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo : Frame
 --- @field winReward PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
@@ -460,11 +460,11 @@ PVPFrameRightButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @field description PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoDescription
 --- @field rewardsLabel PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoRewardsLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L99)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrame
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameDescription : FontString, GameFontBlackMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L90)
 --- child of PVPHonorFrameInfoScrollFrame (created in template PVPQueueInfoScrollFrameTemplate)
 --- @type PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame
 PVPHonorFrameInfoScrollFrameChildFrame = {}

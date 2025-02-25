@@ -126,6 +126,7 @@ TransmogAndMountDressupFrame["hasOutfitControls"] = false
 --- @field width number # 163
 DressUpFrameOutfitDropdown = {}
 DressUpFrameOutfitDropdown["width"] = 163
+DressUpFrameOutfitDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L296)
 --- child of DressUpFrame

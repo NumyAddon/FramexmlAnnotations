@@ -1083,6 +1083,7 @@ EncounterJournalEncounterFrameInfoModelTab["selected"] = EncounterJournalEncount
 --- child of EncounterJournalEncounterFrameInfo
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoDifficulty : DropdownButton, WowStyle1DropdownTemplate
 EncounterJournalEncounterFrameInfoDifficulty = {}
+EncounterJournalEncounterFrameInfoDifficulty["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1714)
 --- child of EncounterJournalEncounterFrameInfoResetButton
@@ -1334,15 +1335,135 @@ EncounterJournalEncounterFrame = {}
 EncounterJournalEncounterFrame["instance"] = EncounterJournalEncounterFrameInstanceFrame
 EncounterJournalEncounterFrame["info"] = EncounterJournalEncounterFrameInfo
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1189)
+--- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMid
+EncounterJournalDungeonTabMid = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1195)
+--- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeft
+EncounterJournalDungeonTabLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1201)
+--- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRight
+EncounterJournalDungeonTabRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1209)
+--- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidSelect
+EncounterJournalDungeonTabMidSelect = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1215)
+--- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftSelect
+EncounterJournalDungeonTabLeftSelect = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1221)
+--- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightSelect
+EncounterJournalDungeonTabRightSelect = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1227)
+--- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateSelectedGlow
+EncounterJournalDungeonTabSelectedGlow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1235)
+--- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidHighlight
+EncounterJournalDungeonTabMidHighlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1241)
+--- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftHighlight
+EncounterJournalDungeonTabLeftHighlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1247)
+--- child of EncounterJournalDungeonTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightHighlight
+EncounterJournalDungeonTabRightHighlight = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2032)
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalDungeonTab : Button, BottomEncounterTierTabTemplate
 EncounterJournalDungeonTab = {}
+EncounterJournalDungeonTab["mid"] = EncounterJournalDungeonTabMid -- inherited
+EncounterJournalDungeonTab["left"] = EncounterJournalDungeonTabLeft -- inherited
+EncounterJournalDungeonTab["right"] = EncounterJournalDungeonTabRight -- inherited
+EncounterJournalDungeonTab["midSelect"] = EncounterJournalDungeonTabMidSelect -- inherited
+EncounterJournalDungeonTab["leftSelect"] = EncounterJournalDungeonTabLeftSelect -- inherited
+EncounterJournalDungeonTab["rightSelect"] = EncounterJournalDungeonTabRightSelect -- inherited
+EncounterJournalDungeonTab["selectedGlow"] = EncounterJournalDungeonTabSelectedGlow -- inherited
+EncounterJournalDungeonTab["midHighlight"] = EncounterJournalDungeonTabMidHighlight -- inherited
+EncounterJournalDungeonTab["leftHighlight"] = EncounterJournalDungeonTabLeftHighlight -- inherited
+EncounterJournalDungeonTab["rightHighlight"] = EncounterJournalDungeonTabRightHighlight -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1189)
+--- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMid
+EncounterJournalRaidTabMid = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1195)
+--- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeft
+EncounterJournalRaidTabLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1201)
+--- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRight
+EncounterJournalRaidTabRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1209)
+--- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidSelect
+EncounterJournalRaidTabMidSelect = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1215)
+--- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftSelect
+EncounterJournalRaidTabLeftSelect = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1221)
+--- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightSelect
+EncounterJournalRaidTabRightSelect = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1227)
+--- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateSelectedGlow
+EncounterJournalRaidTabSelectedGlow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1235)
+--- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateMidHighlight
+EncounterJournalRaidTabMidHighlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1241)
+--- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateLeftHighlight
+EncounterJournalRaidTabLeftHighlight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1247)
+--- child of EncounterJournalRaidTab (created in template BottomEncounterTierTabTemplate)
+--- @type BottomEncounterTierTabTemplate_BottomEncounterTierTabTemplateRightHighlight
+EncounterJournalRaidTabRightHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2037)
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalRaidTab : Button, BottomEncounterTierTabTemplate
 EncounterJournalRaidTab = {}
+EncounterJournalRaidTab["mid"] = EncounterJournalRaidTabMid -- inherited
+EncounterJournalRaidTab["left"] = EncounterJournalRaidTabLeft -- inherited
+EncounterJournalRaidTab["right"] = EncounterJournalRaidTabRight -- inherited
+EncounterJournalRaidTab["midSelect"] = EncounterJournalRaidTabMidSelect -- inherited
+EncounterJournalRaidTab["leftSelect"] = EncounterJournalRaidTabLeftSelect -- inherited
+EncounterJournalRaidTab["rightSelect"] = EncounterJournalRaidTabRightSelect -- inherited
+EncounterJournalRaidTab["selectedGlow"] = EncounterJournalRaidTabSelectedGlow -- inherited
+EncounterJournalRaidTab["midHighlight"] = EncounterJournalRaidTabMidHighlight -- inherited
+EncounterJournalRaidTab["leftHighlight"] = EncounterJournalRaidTabLeftHighlight -- inherited
+EncounterJournalRaidTab["rightHighlight"] = EncounterJournalRaidTabRightHighlight -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1095)
 --- child of EncounterJournal (created in template PortraitFrameTemplate)

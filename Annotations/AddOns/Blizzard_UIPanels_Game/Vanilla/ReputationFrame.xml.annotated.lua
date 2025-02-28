@@ -20,45 +20,39 @@
 --- Template
 --- @class ReputationBarTemplate : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar1 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar1AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar1ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar1 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar1ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar1 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar1ReputationBarLeft = {}
+ReputationBar1Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar1 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar1ReputationBarRight = {}
+ReputationBar1LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar1 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar1BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar1 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar1FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar1 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar1FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar1 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar1Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar1 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar1Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar1 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar1Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L277)
 --- child of ReputationFrame
@@ -75,45 +69,39 @@ ReputationHeader1Highlight = {}
 --- @class ReputationFrame_ReputationHeader1 : Button, ReputationHeaderTemplate
 ReputationHeader1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar2 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar2AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar2ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar2 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar2ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar2 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar2ReputationBarLeft = {}
+ReputationBar2Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar2 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar2ReputationBarRight = {}
+ReputationBar2LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar2 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar2BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar2 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar2FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar2 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar2FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar2 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar2Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar2 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar2Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar2 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar2Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L295)
 --- child of ReputationFrame
@@ -130,45 +118,39 @@ ReputationHeader2Highlight = {}
 --- @class ReputationFrame_ReputationHeader2 : Button, ReputationHeaderTemplate
 ReputationHeader2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar3 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar3AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar3ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar3 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar3ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar3 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar3ReputationBarLeft = {}
+ReputationBar3Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar3 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar3ReputationBarRight = {}
+ReputationBar3LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar3 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar3BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar3 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar3FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar3 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar3FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar3 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar3Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar3 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar3Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar3 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar3Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L313)
 --- child of ReputationFrame
@@ -185,45 +167,39 @@ ReputationHeader3Highlight = {}
 --- @class ReputationFrame_ReputationHeader3 : Button, ReputationHeaderTemplate
 ReputationHeader3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar4 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar4AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar4ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar4 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar4ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar4 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar4ReputationBarLeft = {}
+ReputationBar4Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar4 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar4ReputationBarRight = {}
+ReputationBar4LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar4 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar4BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar4 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar4FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar4 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar4FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar4 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar4Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar4 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar4Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar4 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar4Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L331)
 --- child of ReputationFrame
@@ -240,45 +216,39 @@ ReputationHeader4Highlight = {}
 --- @class ReputationFrame_ReputationHeader4 : Button, ReputationHeaderTemplate
 ReputationHeader4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar5 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar5AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar5ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar5 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar5ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar5 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar5ReputationBarLeft = {}
+ReputationBar5Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar5 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar5ReputationBarRight = {}
+ReputationBar5LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar5 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar5BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar5 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar5FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar5 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar5FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar5 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar5Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar5 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar5Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar5 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar5Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L349)
 --- child of ReputationFrame
@@ -295,45 +265,39 @@ ReputationHeader5Highlight = {}
 --- @class ReputationFrame_ReputationHeader5 : Button, ReputationHeaderTemplate
 ReputationHeader5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar6 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar6AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar6ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar6 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar6ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar6 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar6ReputationBarLeft = {}
+ReputationBar6Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar6 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar6ReputationBarRight = {}
+ReputationBar6LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar6 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar6BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar6 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar6FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar6 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar6FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar6 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar6Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar6 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar6Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar6 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar6Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L367)
 --- child of ReputationFrame
@@ -350,45 +314,39 @@ ReputationHeader6Highlight = {}
 --- @class ReputationFrame_ReputationHeader6 : Button, ReputationHeaderTemplate
 ReputationHeader6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar7 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar7AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar7ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar7 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar7ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar7 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar7ReputationBarLeft = {}
+ReputationBar7Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar7 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar7ReputationBarRight = {}
+ReputationBar7LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar7 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar7BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar7 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar7FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar7 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar7FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar7 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar7Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar7 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar7Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar7 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar7Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L385)
 --- child of ReputationFrame
@@ -405,45 +363,39 @@ ReputationHeader7Highlight = {}
 --- @class ReputationFrame_ReputationHeader7 : Button, ReputationHeaderTemplate
 ReputationHeader7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar8 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar8AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar8ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar8 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar8ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar8 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar8ReputationBarLeft = {}
+ReputationBar8Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar8 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar8ReputationBarRight = {}
+ReputationBar8LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar8 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar8BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar8 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar8FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar8 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar8FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar8 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar8Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar8 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar8Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar8 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar8Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L403)
 --- child of ReputationFrame
@@ -460,45 +412,39 @@ ReputationHeader8Highlight = {}
 --- @class ReputationFrame_ReputationHeader8 : Button, ReputationHeaderTemplate
 ReputationHeader8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar9 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar9AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar9ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar9 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar9ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar9 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar9ReputationBarLeft = {}
+ReputationBar9Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar9 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar9ReputationBarRight = {}
+ReputationBar9LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar9 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar9BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar9 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar9FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar9 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar9FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar9 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar9Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar9 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar9Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar9 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar9Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L421)
 --- child of ReputationFrame
@@ -515,45 +461,39 @@ ReputationHeader9Highlight = {}
 --- @class ReputationFrame_ReputationHeader9 : Button, ReputationHeaderTemplate
 ReputationHeader9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar10 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar10AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar10ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar10 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar10ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar10 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar10ReputationBarLeft = {}
+ReputationBar10Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar10 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar10ReputationBarRight = {}
+ReputationBar10LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar10 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar10BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar10 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar10FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar10 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar10FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar10 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar10Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar10 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar10Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar10 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar10Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L439)
 --- child of ReputationFrame
@@ -570,45 +510,39 @@ ReputationHeader10Highlight = {}
 --- @class ReputationFrame_ReputationHeader10 : Button, ReputationHeaderTemplate
 ReputationHeader10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar11 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar11AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar11ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar11 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar11ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar11 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar11ReputationBarLeft = {}
+ReputationBar11Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar11 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar11ReputationBarRight = {}
+ReputationBar11LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar11 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar11BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar11 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar11FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar11 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar11FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar11 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar11Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar11 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar11Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar11 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar11Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L457)
 --- child of ReputationFrame
@@ -625,45 +559,39 @@ ReputationHeader11Highlight = {}
 --- @class ReputationFrame_ReputationHeader11 : Button, ReputationHeaderTemplate
 ReputationHeader11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar12 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar12AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar12ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar12 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar12ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar12 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar12ReputationBarLeft = {}
+ReputationBar12Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar12 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar12ReputationBarRight = {}
+ReputationBar12LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar12 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar12BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar12 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar12FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar12 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar12FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar12 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar12Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar12 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar12Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar12 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar12Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L475)
 --- child of ReputationFrame
@@ -680,45 +608,39 @@ ReputationHeader12Highlight = {}
 --- @class ReputationFrame_ReputationHeader12 : Button, ReputationHeaderTemplate
 ReputationHeader12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar13 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar13AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar13ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar13 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar13ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar13 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar13ReputationBarLeft = {}
+ReputationBar13Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar13 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar13ReputationBarRight = {}
+ReputationBar13LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar13 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar13BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar13 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar13FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar13 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar13FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar13 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar13Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar13 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar13Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar13 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar13Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L493)
 --- child of ReputationFrame
@@ -735,45 +657,39 @@ ReputationHeader13Highlight = {}
 --- @class ReputationFrame_ReputationHeader13 : Button, ReputationHeaderTemplate
 ReputationHeader13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar14 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar14AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar14ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar14 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar14ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar14 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar14ReputationBarLeft = {}
+ReputationBar14Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar14 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar14ReputationBarRight = {}
+ReputationBar14LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar14 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar14BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar14 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar14FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar14 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar14FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar14 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar14Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar14 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar14Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar14 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar14Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L511)
 --- child of ReputationFrame
@@ -790,45 +706,39 @@ ReputationHeader14Highlight = {}
 --- @class ReputationFrame_ReputationHeader14 : Button, ReputationHeaderTemplate
 ReputationHeader14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L8)
 --- child of ReputationBar15 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateAtWarCheck
-ReputationBar15AtWarCheck = {}
+--- @type ReputationBarTemplate_ReputationBarTemplateExpandOrCollapseButton
+ReputationBar15ExpandOrCollapseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L119)
+--- child of ReputationBarTemplateReputationBar
+--- @class ReputationBarTemplate_ReputationBarTemplateReputationBar_ReputationBarTemplateReputationBarFactionStanding : FontString, GameFontHighlightSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L56)
+--- child of ReputationBar15 (created in template ReputationBarTemplate)
+--- @type ReputationBarTemplate_ReputationBarTemplateReputationBar
+ReputationBar15ReputationBar = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L158)
 --- child of ReputationBar15 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar15ReputationBarLeft = {}
+ReputationBar15Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L171)
 --- child of ReputationBar15 (created in template ReputationBarTemplate)
 --- @type Texture
-ReputationBar15ReputationBarRight = {}
+ReputationBar15LeftLine = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L182)
+--- child of ReputationBar15 (created in template ReputationBarTemplate)
+--- @type Texture
+ReputationBar15BottomLine = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L193)
 --- child of ReputationBar15 (created in template ReputationBarTemplate)
 --- @type ReputationBarTemplate_ReputationBarTemplateFactionName
 ReputationBar15FactionName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L98)
---- child of ReputationBar15 (created in template ReputationBarTemplate)
---- @type ReputationBarTemplate_ReputationBarTemplateFactionStanding
-ReputationBar15FactionStanding = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L109)
---- child of ReputationBar15 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar15Highlight1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L122)
---- child of ReputationBar15 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar15Highlight2 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L131)
---- child of ReputationBar15 (created in template ReputationBarTemplate)
---- @type Texture
-ReputationBar15Check = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L529)
 --- child of ReputationFrame

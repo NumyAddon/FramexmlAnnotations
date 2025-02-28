@@ -30,7 +30,7 @@ AuctionFrameTab1Middle = {}
 --- @type Texture
 AuctionFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
 --- child of AuctionFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionFrameTab1HighlightTexture = {}
@@ -70,7 +70,7 @@ AuctionFrameTab2Middle = {}
 --- @type Texture
 AuctionFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
 --- child of AuctionFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionFrameTab2HighlightTexture = {}
@@ -110,7 +110,7 @@ AuctionFrameTab3Middle = {}
 --- @type Texture
 AuctionFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L113)
 --- child of AuctionFrameTab3 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 AuctionFrameTab3HighlightTexture = {}
@@ -1899,6 +1899,7 @@ BrowseDropdownName = {}
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseDropdown : DropdownButton, WowStyle1DropdownTemplate
 BrowseDropdown = {}
+BrowseDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L476)
 --- child of IsUsableCheckButton (created in template UICheckButtonTemplate)

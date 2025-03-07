@@ -1,73 +1,73 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L138)
---- @class GameEnvironmentButtonPulsingMixin : GameEnvironmentButtonMixin
-GameEnvironmentButtonPulsingMixin = CreateFromMixins(GameEnvironmentButtonMixin)
+--- @class GameModeButtonPulsingMixin : GameModeButtonMixin
+GameModeButtonPulsingMixin = CreateFromMixins(GameModeButtonMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L85)
---- @class GameEnvironmentButtonMixin
-GameEnvironmentButtonMixin = {}
+--- @class GameModeButtonMixin
+GameModeButtonMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L203)
---- @class GameEnvironmentFrameMixin
-GameEnvironmentFrameMixin = {}
+--- @class GameModeFrameMixin
+GameModeFrameMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L92)
-function GameEnvironmentButtonMixin:OnLoad() end
+function GameModeButtonMixin:OnLoad() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L100)
-function GameEnvironmentButtonMixin:OnShow() end
+function GameModeButtonMixin:OnShow() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L104)
-function GameEnvironmentButtonMixin:OnEnter() end
+function GameModeButtonMixin:OnEnter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L110)
-function GameEnvironmentButtonMixin:OnLeave() end
+function GameModeButtonMixin:OnLeave() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L121)
-function GameEnvironmentButtonMixin:SetSelectedState(selected) end
+function GameModeButtonMixin:SetSelectedState(selected) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L140)
-function GameEnvironmentButtonPulsingMixin:OnLoad() end
+function GameModeButtonPulsingMixin:OnLoad() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L152)
-function GameEnvironmentButtonPulsingMixin:RefreshScale() end
+function GameModeButtonPulsingMixin:RefreshScale() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L158)
-function GameEnvironmentButtonPulsingMixin:OnShow() end
+function GameModeButtonPulsingMixin:OnShow() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L164)
-function GameEnvironmentButtonPulsingMixin:OnEnter() end
+function GameModeButtonPulsingMixin:OnEnter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L170)
-function GameEnvironmentButtonPulsingMixin:OnLeave() end
+function GameModeButtonPulsingMixin:OnLeave() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L176)
-function GameEnvironmentButtonPulsingMixin:OnSelected(newSelected) end
+function GameModeButtonPulsingMixin:OnSelected(newSelected) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L180)
-function GameEnvironmentButtonPulsingMixin:SetPulsePlaying(playing) end
+function GameModeButtonPulsingMixin:SetPulsePlaying(playing) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L204)
-function GameEnvironmentFrameMixin:OnLoad() end
+function GameModeFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L214)
-function GameEnvironmentFrameMixin:OnShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L213)
+function GameModeFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L220)
-function GameEnvironmentFrameMixin:TryShowEnvironmentButtons() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L219)
+function GameModeFrameMixin:TryShowGameModeButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L235)
-function GameEnvironmentFrameMixin:OnKeyDown(key) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L234)
+function GameModeFrameMixin:OnKeyDown(key) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L241)
-function GameEnvironmentFrameMixin:ChangeGameEnvironment(newEnvironment) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L240)
+function GameModeFrameMixin:ChangeGameMode(newGameMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L266)
-function GameEnvironmentFrameMixin:SelectRadioButtonForEnvironment(requestedEnvironment) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L264)
+function GameModeFrameMixin:SelectRadioButtonForGameMode(requestedGameMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L274)
-function GameEnvironmentFrameMixin:SelectGameEnvironment(button, buttonIndex) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L275)
+function GameModeFrameMixin:SelectGameMode(button, _buttonIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L281)
-function GameEnvironmentFrameMixin:GetSelectedGameEnvironment() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXMLBase/Mainline/GlueTemplates.lua#L282)
+function GameModeFrameMixin:GetSelectedGameMode() end

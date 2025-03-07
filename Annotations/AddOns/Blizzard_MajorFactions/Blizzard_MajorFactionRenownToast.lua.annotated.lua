@@ -14,7 +14,7 @@ function MajorFactionsRenownToastMixin:OnEvent(event, ...) end
 function MajorFactionsRenownToastMixin:OnHide() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L69)
-function MajorFactionsRenownToastMixin:AddSwirlEffects(textureKit) end
+function MajorFactionsRenownToastMixin:AddSwirlEffects(expansion) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L81)
 function MajorFactionsRenownToastMixin:ShowRenownLevelUpToast(majorFactionData, renownLevel) end
@@ -25,20 +25,20 @@ function MajorFactionsRenownToastMixin:SetupRewardVisuals(majorFactionID, renown
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L138)
 function MajorFactionsRenownToastMixin:PlayBanner(data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L168)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L169)
 function MajorFactionsRenownToastMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L186)
 function MajorFactionsRenownToastMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L195)
 function MajorFactionsRenownToastMixin:OnHoldAnimStarted() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L201)
 function MajorFactionsRenownToastMixin:RefreshTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L235)
 function MajorFactionsRenownToastMixin:StopBanner() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.lua#L240)
 function MajorFactionsRenownToastMixin:OnAnimFinished() end

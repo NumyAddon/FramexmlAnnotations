@@ -40,5 +40,5 @@ function ProfessionsReagentSlotButtonMixin:UpdateCursor() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L78)
 function ProfessionsReagentSlotButtonMixin:SetSlotQuality(quality) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L94)
 function ProfessionsReagentSlotButtonMixin:SetItemInternal(item) end

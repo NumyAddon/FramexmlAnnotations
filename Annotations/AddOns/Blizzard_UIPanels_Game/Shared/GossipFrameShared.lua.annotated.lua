@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L26)
 --- @class GossipSharedQuestButtonMixin : GossipSharedTitleButtonMixin
 GossipSharedQuestButtonMixin = CreateFromMixins(GossipSharedTitleButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L44)
 --- @class GossipSharedAvailableQuestButtonMixin : GossipSharedQuestButtonMixin
 GossipSharedAvailableQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L55)
 --- @class GossipSharedActiveQuestButtonMixin : GossipSharedQuestButtonMixin
 GossipSharedActiveQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMixin)
 
@@ -16,15 +16,15 @@ GossipSharedActiveQuestButtonMixin = CreateFromMixins(GossipSharedQuestButtonMix
 --- @class GossipSharedTitleButtonMixin
 GossipSharedTitleButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L66)
 --- @class GossipOptionButtonMixin
 GossipOptionButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L103)
 --- @class GossipGreetingTextMixin
 GossipGreetingTextMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L110)
 --- @class GossipFrameSharedMixin
 GossipFrameSharedMixin = {}
 
@@ -32,61 +32,64 @@ GossipFrameSharedMixin = {}
 function GossipSharedTitleButtonMixin:Resize() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L13)
+function GossipSharedTitleButtonMixin:SetTextAndResize(text) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L18)
 function GossipSharedTitleButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L22)
 function GossipSharedTitleButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L27)
 function GossipSharedQuestButtonMixin:UpdateTitleForQuest(questID, titleText, isIgnored, isTrivial) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L46)
 function GossipSharedAvailableQuestButtonMixin:Setup(questInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L51)
 function GossipSharedAvailableQuestButtonMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L56)
 function GossipSharedActiveQuestButtonMixin:Setup(questInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L62)
 function GossipSharedActiveQuestButtonMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L68)
 function GossipOptionButtonMixin:Setup(optionInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L99)
 function GossipOptionButtonMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L104)
 function GossipGreetingTextMixin:Setup(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L112)
 function GossipFrameSharedMixin:AvailableQuestButtonInit(button, elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L119)
 function GossipFrameSharedMixin:UpdateScrollBox() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L170)
 function GossipFrameSharedMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L177)
 function GossipFrameSharedMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L198)
-function GossipFrameSharedMixin:HandleShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L192)
+function GossipFrameSharedMixin:HandleShow(_textureKit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L212)
 function GossipFrameSharedMixin:HandleHide(interactionIsContinuing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L219)
 function GossipFrameSharedMixin:SetInteractionIsContinuing(interactionIsContinuing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L224)
 function GossipFrameSharedMixin:SelectGossipOption(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L241)
 function GossipFrameSharedMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/GossipFrameShared.lua#L296)
 function GossipFrameSharedMixin:SetGossipTitle(title) end

@@ -67,7 +67,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L213)
 --- Template
---- @class CommunitiesGuildRewardsFrameTemplate : Frame
+--- @class CommunitiesGuildRewardsFrameTemplate : Frame, CommunitiesGuildRewardsFrameMixin
 --- @field ScrollBox CommunitiesGuildRewardsFrameTemplate_ScrollBox
 --- @field ScrollBar CommunitiesGuildRewardsFrameTemplate_ScrollBar
 --- @field Bg Texture

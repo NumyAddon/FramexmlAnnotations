@@ -188,3 +188,9 @@
 --- @field system any # Enum.EditModeSystem.ArchaeologyBar
 --- @field Selection EditModeSystemSelectionTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.xml#L334)
+--- Template
+--- @class EditModeCooldownViewerSystemTemplate : Frame, EditModeSystemTemplate, EditModeCooldownViewerSystemMixin
+--- @field system any # Enum.EditModeSystem.CooldownViewer
+--- @field Selection EditModeSystemSelectionTemplate
+

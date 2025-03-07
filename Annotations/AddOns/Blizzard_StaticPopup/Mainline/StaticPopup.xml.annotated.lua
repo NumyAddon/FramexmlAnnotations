@@ -42,41 +42,42 @@
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_StaticPopupTemplateExtraButton : Button, StaticPopupButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L147)
 --- child of StaticPopupTemplateEditBox
 --- @class StaticPopupTemplate_StaticPopupTemplateEditBox_Instructions : FontString, GameFontDisableSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L116)
 --- child of StaticPopupTemplate
---- @class StaticPopupTemplate_StaticPopupTemplateEditBox : EditBox, AutoCompleteEditBoxTemplate
+--- @class StaticPopupTemplate_StaticPopupTemplateEditBox : EditBox, AutoCompleteEditBoxTemplate, StaticPopupEditBoxMixin
+--- @field addHighlightedText boolean # true
 --- @field Instructions StaticPopupTemplate_StaticPopupTemplateEditBox_Instructions
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L160)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_Dropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L165)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_StaticPopupTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L177)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_StaticPopupTemplateMoneyInputFrame : Frame, MoneyInputFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L195)
 --- child of StaticPopupTemplateItemFrame
 --- @class StaticPopupTemplate_StaticPopupTemplateItemFrame_StaticPopupTemplateItemFrameText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L182)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_StaticPopupTemplateItemFrame : ItemButton, StaticPopupItemFrameMixin
 --- @field Text StaticPopupTemplate_StaticPopupTemplateItemFrame_StaticPopupTemplateItemFrameText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L210)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_DarkOverlay : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup/Mainline/StaticPopup.xml#L223)
 --- child of StaticPopupTemplate
 --- @class StaticPopupTemplate_Spinner : Frame, SpinnerTemplate
 
@@ -101,6 +102,7 @@
 --- @field button3 StaticPopupTemplate_StaticPopupTemplateButton3
 --- @field button4 StaticPopupTemplate_StaticPopupTemplateButton4
 --- @field extraButton StaticPopupTemplate_StaticPopupTemplateExtraButton
+--- @field editBox StaticPopupTemplate_StaticPopupTemplateEditBox
 --- @field Dropdown StaticPopupTemplate_Dropdown
 --- @field ItemFrame StaticPopupTemplate_StaticPopupTemplateItemFrame
 --- @field DarkOverlay StaticPopupTemplate_DarkOverlay

@@ -6,32 +6,37 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L38)
 --- child of CharacterSelectListTemplate
+--- @class CharacterSelectListTemplate_AddGroupButton : Button, UIButtonTemplate
+--- @field buttonArtKit string # "128-redbutton-plus"
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L50)
+--- child of CharacterSelectListTemplate
 --- @class CharacterSelectListTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L44)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L56)
 --- child of CharacterSelectListTemplate
 --- @class CharacterSelectListTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L70)
 --- child of CharSelectCreateCharacterButton
 --- @class CharacterSelectListTemplate_CharSelectCreateCharacterButton_NewFeatureFrame : Frame, NewFeatureLabelNoAnimateTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L64)
 --- child of CharacterSelectListTemplate
 --- @class CharacterSelectListTemplate_CharSelectCreateCharacterButton : Button, GlueButtonTemplate
 --- @field NewFeatureFrame CharacterSelectListTemplate_CharSelectCreateCharacterButton_NewFeatureFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L77)
 --- child of CharacterSelectListTemplate
 --- @class CharacterSelectListTemplate_DeleteCharacterButton : Button, UIButtonTemplate
 --- @field buttonArtKit string # "128-redbutton-delete"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L90)
 --- child of CharacterSelectListTemplate
 --- @class CharacterSelectListTemplate_CharSelectUndeleteCharacterButton : Button, BigRedRefreshButtonTemplate
 --- @field tooltipText any # UNDELETE_TOOLTIP
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L102)
 --- child of CharacterSelectListTemplate
 --- @class CharacterSelectListTemplate_BackToActiveButton : Button, GlueButtonTemplate
 
@@ -47,6 +52,7 @@
 --- Template
 --- @class CharacterSelectListTemplate : Frame, CallbackRegistrantTemplate, CharacterSelectListMixin
 --- @field SearchBox CharacterSelectListTemplate_SearchBox
+--- @field AddGroupButton CharacterSelectListTemplate_AddGroupButton
 --- @field ScrollBox CharacterSelectListTemplate_ScrollBox
 --- @field ScrollBar CharacterSelectListTemplate_ScrollBar
 --- @field CreateCharacterButton CharacterSelectListTemplate_CharSelectCreateCharacterButton
@@ -58,7 +64,7 @@
 --- @field UndeleteRealmLabel CharacterSelectListTemplate_UndeleteRealmLabel
 --- @field UndeleteRealmBackdrop Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectList.xml#L115)
 --- Template
 --- @class CharacterSelectListDragIndicatorTemplate : Frame
 --- @field Texture Texture

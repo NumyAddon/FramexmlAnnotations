@@ -4,7 +4,7 @@
 --- @class BarberShopMixin : CharCustomizeParentFrameBaseMixin
 BarberShopMixin = CreateFromMixins(CharCustomizeParentFrameBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L229)
 --- @class BarberShopButtonMixin
 BarberShopButtonMixin = {}
 
@@ -20,80 +20,80 @@ function BarberShopMixin:OnShow() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L61)
 function BarberShopMixin:UpdateSex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L85)
 function BarberShopMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L93)
 function BarberShopMixin:OnKeyDown(key) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L102)
 function BarberShopMixin:Cancel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L107)
 function BarberShopMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L115)
 function BarberShopMixin:ApplyChanges() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L119)
 function BarberShopMixin:UpdateButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L125)
 function BarberShopMixin:UpdateCharCustomizationFrame(alsoReset) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L141)
 function BarberShopMixin:SetCustomizationChoice(optionID, choiceID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L149)
 function BarberShopMixin:ResetCustomizationPreview(clearSavedChoices) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L153)
 function BarberShopMixin:PreviewCustomizationChoice(optionID, choiceID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L157)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L158)
 function BarberShopMixin:MarkCustomizationChoiceAsSeen(choiceID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L162)
 function BarberShopMixin:MarkCustomizationOptionAsSeen(optionID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L165)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L166)
 function BarberShopMixin:SaveSeenChoices() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L170)
 function BarberShopMixin:GetCurrentCameraZoom() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L174)
 function BarberShopMixin:SetCameraZoomLevel(zoomLevel, keepCustomZoom) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L178)
 function BarberShopMixin:ZoomCamera(zoomAmount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L181)
-function BarberShopMixin:RotateCharacter(rotationAmount) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L182)
+function BarberShopMixin:RotateSubject(rotationAmount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L185)
-function BarberShopMixin:ResetCharacterRotation() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L186)
+function BarberShopMixin:ResetSubjectRotation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L190)
 function BarberShopMixin:SetViewingAlteredForm(viewingAlteredForm, resetCategory) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L195)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L196)
 function BarberShopMixin:SetViewingShapeshiftForm(formID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L202)
 function BarberShopMixin:SetViewingChrModel(chrModelID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L208)
 function BarberShopMixin:SetModelDressState(dressedState) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L212)
 function BarberShopMixin:SetCameraDistanceOffset(offset) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L215)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L216)
 function BarberShopMixin:RandomizeAppearance() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L221)
 function BarberShopMixin:SetCharacterSex(sexID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.lua#L231)
 function BarberShopButtonMixin:OnClick() end

@@ -36,3 +36,38 @@
 --- @field RotateLeft CharacterFooterFrameTemplate_RotateLeft
 --- @field RotateRight CharacterFooterFrameTemplate_RotateRight
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectUI.xml#L96)
+--- child of CharacterListEditGroupFrame
+--- @class CharacterListEditGroupFrame_Border : Frame, DialogBorderTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectUI.xml#L97)
+--- child of CharacterListEditGroupFrame
+--- @class CharacterListEditGroupFrame_EditBox : EditBox, InputBoxTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectUI.xml#L104)
+--- child of CharacterListEditGroupFrame
+--- @class CharacterListEditGroupFrame_AcceptButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectUI.xml#L110)
+--- child of CharacterListEditGroupFrame
+--- @class CharacterListEditGroupFrame_CancelButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectUI.xml#L116)
+--- child of CharacterListEditGroupFrame
+--- @class CharacterListEditGroupFrame_DeleteButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectUI.xml#L81)
+--- child of CharacterListEditGroupFrame
+--- @class CharacterListEditGroupFrame_Title : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect/CharacterSelectUI.xml#L74)
+--- @class CharacterListEditGroupFrame : Frame, CharacterListEditGroupFrameMixin
+--- @field Border CharacterListEditGroupFrame_Border
+--- @field EditBox CharacterListEditGroupFrame_EditBox
+--- @field AcceptButton CharacterListEditGroupFrame_AcceptButton
+--- @field CancelButton CharacterListEditGroupFrame_CancelButton
+--- @field DeleteButton CharacterListEditGroupFrame_DeleteButton
+--- @field Title CharacterListEditGroupFrame_Title
+--- @field Separator Texture
+CharacterListEditGroupFrame = {}
+

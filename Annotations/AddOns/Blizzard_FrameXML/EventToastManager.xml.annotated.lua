@@ -522,3 +522,37 @@ EventToastManagerSideDisplay = {}
 --- @field Filigree Texture
 --- @field FiligreeGlow Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1433)
+--- child of EventToastScoreboardTemplate
+--- @class EventToastScoreboardTemplate_WidgetContainer : Frame, UIWidgetContainerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1438)
+--- child of EventToastScoreboardTemplate
+--- @class EventToastScoreboardTemplate_CloseButton : Button, SharedButtonSmallTemplate
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1403)
+--- child of EventToastScoreboardTemplate
+--- @class EventToastScoreboardTemplate_TopLine : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1411)
+--- child of EventToastScoreboardTemplate
+--- @class EventToastScoreboardTemplate_BottomLine : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1421)
+--- child of EventToastScoreboardTemplate
+--- @class EventToastScoreboardTemplate_Background : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1392)
+--- Template
+--- @class EventToastScoreboardTemplate : Frame, ResizeLayoutFrame, EventToastAnimationsTemplate, EventToastScoreboardMixin
+--- @field animInStartDelay number # 0
+--- @field WidgetContainer EventToastScoreboardTemplate_WidgetContainer
+--- @field CloseButton EventToastScoreboardTemplate_CloseButton
+--- @field TopLine EventToastScoreboardTemplate_TopLine
+--- @field BottomLine EventToastScoreboardTemplate_BottomLine
+--- @field Background EventToastScoreboardTemplate_Background
+

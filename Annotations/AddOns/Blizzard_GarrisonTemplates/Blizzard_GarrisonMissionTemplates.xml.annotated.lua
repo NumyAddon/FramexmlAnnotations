@@ -360,44 +360,44 @@
 --- @field Model GarrisonMissionCompleteDialogTemplate_Model
 --- @field LoadingFrame GarrisonMissionCompleteDialogTemplate_LoadingFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L888)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L887)
 --- child of GarrisonMissionCompleteModelTemplate
 --- @class GarrisonMissionCompleteModelTemplate_FadeIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L885)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L884)
 --- Template
 --- @class GarrisonMissionCompleteModelTemplate : CinematicModel, GarrisonCinematicModelBaseTemplate
 --- @field FadeIn GarrisonMissionCompleteModelTemplate_FadeIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L898)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L897)
 --- Template
 --- @class GarrisonFollowerTabModelClusterModel : CinematicModel, ModelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L917)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L916)
 --- child of GarrisonMissionCompleteModelCluster
 --- @class GarrisonMissionCompleteModelCluster_Model1 : CinematicModel, GarrisonMissionCompleteModelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L918)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L917)
 --- child of GarrisonMissionCompleteModelCluster
 --- @class GarrisonMissionCompleteModelCluster_Model2 : CinematicModel, GarrisonMissionCompleteModelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L919)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L918)
 --- child of GarrisonMissionCompleteModelCluster
 --- @class GarrisonMissionCompleteModelCluster_Model3 : CinematicModel, GarrisonMissionCompleteModelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L920)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L919)
 --- child of GarrisonMissionCompleteModelCluster
 --- @class GarrisonMissionCompleteModelCluster_Model4 : CinematicModel, GarrisonMissionCompleteModelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L921)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L920)
 --- child of GarrisonMissionCompleteModelCluster
 --- @class GarrisonMissionCompleteModelCluster_Model5 : CinematicModel, GarrisonMissionCompleteModelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L924)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L923)
 --- child of GarrisonMissionCompleteModelCluster
 --- @class GarrisonMissionCompleteModelCluster_FadeOut : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L914)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L913)
 --- Template
 --- @class GarrisonMissionCompleteModelCluster : Frame, GarrisonMissionCompleteModelClusterMixin
 --- @field Model1 GarrisonMissionCompleteModelCluster_Model1
@@ -408,32 +408,32 @@
 --- @field FadeOut GarrisonMissionCompleteModelCluster_FadeOut
 --- @field Model table<number, GarrisonMissionCompleteModelCluster_Model1 | GarrisonMissionCompleteModelCluster_Model2 | GarrisonMissionCompleteModelCluster_Model3 | GarrisonMissionCompleteModelCluster_Model4 | GarrisonMissionCompleteModelCluster_Model5>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L937)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L936)
 --- child of GarrisonFollowerTabModelCluster_Child
 --- @class GarrisonFollowerTabModelCluster_Child_Model1 : CinematicModel, GarrisonFollowerTabModelClusterModel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L938)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L937)
 --- child of GarrisonFollowerTabModelCluster_Child
 --- @class GarrisonFollowerTabModelCluster_Child_Model2 : CinematicModel, GarrisonFollowerTabModelClusterModel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L939)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L938)
 --- child of GarrisonFollowerTabModelCluster_Child
 --- @class GarrisonFollowerTabModelCluster_Child_Model3 : CinematicModel, GarrisonFollowerTabModelClusterModel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L940)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L939)
 --- child of GarrisonFollowerTabModelCluster_Child
 --- @class GarrisonFollowerTabModelCluster_Child_Model4 : CinematicModel, GarrisonFollowerTabModelClusterModel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L941)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L940)
 --- child of GarrisonFollowerTabModelCluster_Child
 --- @class GarrisonFollowerTabModelCluster_Child_Model5 : CinematicModel, GarrisonFollowerTabModelClusterModel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L942)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L941)
 --- child of GarrisonFollowerTabModelCluster_Child
 --- @class GarrisonFollowerTabModelCluster_Child_Shadows : Frame
 --- @field Shadow table<number, Texture>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L931)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L930)
 --- child of GarrisonFollowerTabModelCluster
 --- @class GarrisonFollowerTabModelCluster_Child : Frame
 --- @field Model1 GarrisonFollowerTabModelCluster_Child_Model1
@@ -444,33 +444,33 @@
 --- @field Shadows GarrisonFollowerTabModelCluster_Child_Shadows
 --- @field Model table<number, GarrisonFollowerTabModelCluster_Child_Model1 | GarrisonFollowerTabModelCluster_Child_Model2 | GarrisonFollowerTabModelCluster_Child_Model3 | GarrisonFollowerTabModelCluster_Child_Model4 | GarrisonFollowerTabModelCluster_Child_Model5>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L977)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L976)
 --- child of GarrisonFollowerTabModelCluster
 --- @class GarrisonFollowerTabModelCluster_UpgradeFrame : Frame, GarrisonFollowerModelUpgradeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L929)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L928)
 --- Template
 --- @class GarrisonFollowerTabModelCluster : ScrollFrame
 --- @field Child GarrisonFollowerTabModelCluster_Child
 --- @field UpgradeFrame GarrisonFollowerTabModelCluster_UpgradeFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1007)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1006)
 --- child of GarrisonMissionChanceFrameTemplate
 --- @class GarrisonMissionChanceFrameTemplate_ChanceText : FontString, Game24Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1013)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1012)
 --- child of GarrisonMissionChanceFrameTemplate
 --- @class GarrisonMissionChanceFrameTemplate_ResultText : FontString, QuestFont_Super_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1034)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1033)
 --- child of GarrisonMissionChanceFrameTemplate
 --- @class GarrisonMissionChanceFrameTemplate_ResultAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1049)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1048)
 --- child of GarrisonMissionChanceFrameTemplate
 --- @class GarrisonMissionChanceFrameTemplate_SuccessChanceInAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L985)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L984)
 --- Template
 --- @class GarrisonMissionChanceFrameTemplate : Frame
 --- @field ChanceBG Texture
@@ -483,15 +483,15 @@
 --- @field ResultAnim GarrisonMissionChanceFrameTemplate_ResultAnim
 --- @field SuccessChanceInAnim GarrisonMissionChanceFrameTemplate_SuccessChanceInAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1122)
 --- child of GarrisonMissionBonusRewardsTemplate_ChestModel
 --- @class GarrisonMissionBonusRewardsTemplate_ChestModel_LockBurstAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1145)
 --- child of GarrisonMissionBonusRewardsTemplate_ChestModel
 --- @class GarrisonMissionBonusRewardsTemplate_ChestModel_OpenAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1078)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1077)
 --- child of GarrisonMissionBonusRewardsTemplate
 --- @class GarrisonMissionBonusRewardsTemplate_ChestModel : CinematicModel, GarrisonCinematicModelBaseTemplate
 --- @field ClickFrame Frame
@@ -504,11 +504,11 @@
 --- @field LockBurstAnim GarrisonMissionBonusRewardsTemplate_ChestModel_LockBurstAnim
 --- @field OpenAnim GarrisonMissionBonusRewardsTemplate_ChestModel_OpenAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1180)
 --- child of GarrisonMissionBonusRewardsTemplate_Saturated
 --- @class GarrisonMissionBonusRewardsTemplate_Saturated_FadeIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1178)
 --- child of GarrisonMissionBonusRewardsTemplate
 --- @class GarrisonMissionBonusRewardsTemplate_Saturated : Frame
 --- @field TL Texture
@@ -518,41 +518,41 @@
 --- @field Banner Texture
 --- @field FadeIn GarrisonMissionBonusRewardsTemplate_Saturated_FadeIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1058)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1057)
 --- Template
 --- @class GarrisonMissionBonusRewardsTemplate : Frame
 --- @field ChestModel GarrisonMissionBonusRewardsTemplate_ChestModel
 --- @field Saturated GarrisonMissionBonusRewardsTemplate_Saturated
 --- @field Banner Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1264)
 --- child of GarrisonMissionCompleteStageTemplate
 --- @class GarrisonMissionCompleteStageTemplate_ModelLeft : Frame, GarrisonMissionCompleteModelCluster
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1270)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1269)
 --- child of GarrisonMissionCompleteStageTemplate
 --- @class GarrisonMissionCompleteStageTemplate_ModelRight : Frame, GarrisonMissionCompleteModelCluster
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1275)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1274)
 --- child of GarrisonMissionCompleteStageTemplate
 --- @class GarrisonMissionCompleteStageTemplate_ModelMiddle : Frame, GarrisonMissionCompleteModelCluster
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1287)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1286)
 --- child of GarrisonMissionCompleteStageTemplate_Miss
 --- @class GarrisonMissionCompleteStageTemplate_Miss_MissText : FontString, Game32Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1298)
 --- child of GarrisonMissionCompleteStageTemplate_Miss
 --- @class GarrisonMissionCompleteStageTemplate_Miss_Anim : AnimationGroup
 --- @field WaitAlpha Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1279)
 --- child of GarrisonMissionCompleteStageTemplate
 --- @class GarrisonMissionCompleteStageTemplate_Miss : Frame
 --- @field MissText GarrisonMissionCompleteStageTemplate_Miss_MissText
 --- @field Anim GarrisonMissionCompleteStageTemplate_Miss_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1261)
 --- Template
 --- @class GarrisonMissionCompleteStageTemplate : Frame
 --- @field ModelLeft GarrisonMissionCompleteStageTemplate_ModelLeft
@@ -561,20 +561,20 @@
 --- @field Miss GarrisonMissionCompleteStageTemplate_Miss
 --- @field ModelCluster table<number, GarrisonMissionCompleteStageTemplate_ModelLeft | GarrisonMissionCompleteStageTemplate_ModelRight | GarrisonMissionCompleteStageTemplate_ModelMiddle>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1336)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1335)
 --- child of GarrisonMissionCompleteTemplate
 --- @class GarrisonMissionCompleteTemplate_NextMissionButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1351)
 --- child of GarrisonMissionCompleteTemplate_LoadingFrame
 --- @class GarrisonMissionCompleteTemplate_LoadingFrame_Label : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1347)
 --- child of GarrisonMissionCompleteTemplate
 --- @class GarrisonMissionCompleteTemplate_LoadingFrame : Frame, SpinnerTemplate
 --- @field Label GarrisonMissionCompleteTemplate_LoadingFrame_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1312)
 --- Template
 --- @class GarrisonMissionCompleteTemplate : Frame, GarrisonMissionComplete
 --- @field NextMissionButton GarrisonMissionCompleteTemplate_NextMissionButton
@@ -582,35 +582,35 @@
 --- @field ButtonFrameLeft Texture
 --- @field ButtonFrameRight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1373)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1372)
 --- Template
 --- @class GarrisonFollowerXPBarTemplate : StatusBar
 --- @field XPLeft Texture
 --- @field XPRight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1427)
 --- child of GarrisonFollowerXPGainTemplate
 --- @class GarrisonFollowerXPGainTemplate_Text : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1416)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1415)
 --- child of GarrisonFollowerXPGainTemplate
 --- @class GarrisonFollowerXPGainTemplate_FadeIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1413)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1412)
 --- Template
 --- @class GarrisonFollowerXPGainTemplate : Frame
 --- @field Text GarrisonFollowerXPGainTemplate_Text
 --- @field FadeIn GarrisonFollowerXPGainTemplate_FadeIn
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1483)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1482)
 --- child of GarrisonFollowerLevelUpTemplate
 --- @class GarrisonFollowerLevelUpTemplate_Text : FontString, QuestFont_Shadow_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1491)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1490)
 --- child of GarrisonFollowerLevelUpTemplate
 --- @class GarrisonFollowerLevelUpTemplate_Anim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1445)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1444)
 --- Template
 --- @class GarrisonFollowerLevelUpTemplate : Frame
 --- @field LevelupLines1 Texture
@@ -622,15 +622,15 @@
 --- @field Text GarrisonFollowerLevelUpTemplate_Text
 --- @field Anim GarrisonFollowerLevelUpTemplate_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1526)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1525)
 --- @class GarrisonFollowerPlacerFrame : Button
 GarrisonFollowerPlacerFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1555)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1554)
 --- child of GarrisonMissionMechanicTooltip
 --- @class GarrisonMissionMechanicTooltip_Name : FontString, GameFontHighlightMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1560)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1559)
 --- child of GarrisonMissionMechanicTooltip
 --- @class GarrisonMissionMechanicTooltip_Description : FontString, GameFontNormal
 
@@ -809,7 +809,7 @@ GarrisonMissionMechanicTooltipTexture29 = {}
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
 GarrisonMissionMechanicTooltipTexture30 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1535)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1534)
 --- @class GarrisonMissionMechanicTooltip : GameTooltip, GameTooltipTemplate
 --- @field Icon Texture
 --- @field Border Texture
@@ -824,23 +824,23 @@ GarrisonMissionMechanicTooltip["TextRight1"] = GarrisonMissionMechanicTooltipTex
 GarrisonMissionMechanicTooltip["TextLeft2"] = GarrisonMissionMechanicTooltipTextLeft2 -- inherited
 GarrisonMissionMechanicTooltip["TextRight2"] = GarrisonMissionMechanicTooltipTextRight2 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1584)
 --- child of GarrisonMissionMechanicFollowerCounterTooltip
 --- @class GarrisonMissionMechanicFollowerCounterTooltip_Title : FontString, GameFontHighlightMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1589)
 --- child of GarrisonMissionMechanicFollowerCounterTooltip
 --- @class GarrisonMissionMechanicFollowerCounterTooltip_Subtitle : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1599)
 --- child of GarrisonMissionMechanicFollowerCounterTooltip
 --- @class GarrisonMissionMechanicFollowerCounterTooltip_Name : FontString, GameFontHighlightMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1605)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1604)
 --- child of GarrisonMissionMechanicFollowerCounterTooltip
 --- @class GarrisonMissionMechanicFollowerCounterTooltip_CounterFrom : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1618)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1617)
 --- child of GarrisonMissionMechanicFollowerCounterTooltip
 --- @class GarrisonMissionMechanicFollowerCounterTooltip_CounterName : FontString, GameFontHighlight
 
@@ -1019,7 +1019,7 @@ GarrisonMissionMechanicFollowerCounterTooltipTexture29 = {}
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
 GarrisonMissionMechanicFollowerCounterTooltipTexture30 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L1569)
 --- @class GarrisonMissionMechanicFollowerCounterTooltip : GameTooltip, GameTooltipTemplate
 --- @field Icon Texture
 --- @field Title GarrisonMissionMechanicFollowerCounterTooltip_Title

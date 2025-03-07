@@ -55,5 +55,8 @@ function PlayerChoicePowerChoiceTemplateMixin:SetupTextColors() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L186)
 function PlayerChoicePowerChoiceTemplateMixin:SetupOptionText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L193)
+function PlayerChoicePowerChoiceTemplateMixin:SetupButtons() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L208)
 function PlayerChoicePowerChoiceTemplateMixin:GetRarityDescriptionString() end

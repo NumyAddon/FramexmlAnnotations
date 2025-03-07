@@ -4,21 +4,29 @@
 --- @class QuestOfferDataProviderMixin : CVarMapCanvasDataProviderMixin, { PIN_LEVEL_RANGE = GetMaxPinLevel(
 QuestOfferDataProviderMixin = CreateFromMixins(CVarMapCanvasDataProviderMixin, { PIN_LEVEL_RANGE = GetMaxPinLevel()
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L489)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L402)
 --- @class QuestOfferPinMixin : MapCanvasPinMixin, SuperTrackablePinMixin
 QuestOfferPinMixin = CreateFromMixins(MapCanvasPinMixin, SuperTrackablePinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L475)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L388)
 --- @class IconWithHeightIndicatorMapPinMixin
 IconWithHeightIndicatorMapPinMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L588)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L444)
 --- @class QuestHubPinMixin
 QuestHubPinMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L717)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L832)
 --- @class QuestHubPinGlowMixin
 QuestHubPinGlowMixin = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L882)
+--- @class SuppressedPinTooltipMixin
+SuppressedPinTooltipMixin = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L903)
+--- @class SuppressedPinTooltipContainerMixin
+SuppressedPinTooltipContainerMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L25)
 function QuestOfferDataProviderMixin:BuildPinSubTypeData(pinSubType, info) end
@@ -81,172 +89,172 @@ function QuestOfferDataProviderMixin:IsSuppressionDisabled(mapID, questHubPin) e
 function QuestOfferDataProviderMixin:GetLinkedQuestHub(questOffer) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L271)
-function QuestOfferDataProviderMixin:CheckQuestIsRelatedToHub(questID, questHubPin) end
+function QuestOfferDataProviderMixin:CheckQuestIsLinkedToHub(questID, questHubPin) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L284)
-function QuestOfferDataProviderMixin:RefreshRelatedQuests(questHubPin) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L300)
 function QuestOfferDataProviderMixin:CheckAddQuestOfferPins(mapID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L290)
 function QuestOfferDataProviderMixin:CheckAddHubPins(mapID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L296)
 function QuestOfferDataProviderMixin:CacheFilterSettings() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L300)
 function QuestOfferDataProviderMixin:ShouldShowLocalStories() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L320)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L304)
 function QuestOfferDataProviderMixin:RefreshAllData(fromOnShow) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L317)
 function QuestOfferDataProviderMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L324)
 function QuestOfferDataProviderMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L346)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L330)
 function QuestOfferDataProviderMixin:OnMapChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L338)
 function QuestOfferDataProviderMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L353)
 function QuestOfferDataProviderMixin:RequestQuestLinesForMap() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L384)
-function QuestOfferDataProviderMixin:OnCanvasScaleChanged() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L391)
-function QuestOfferDataProviderMixin:CheckUpdateMaxZoom() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L401)
-function QuestOfferDataProviderMixin:IsAtMaxZoom() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L406)
-function QuestOfferDataProviderMixin:GetCurrentAnimProgress() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L410)
-function QuestOfferDataProviderMixin:SetCurrentAnimProgress(progress) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L414)
-function QuestOfferDataProviderMixin:GetTargetAnimValue() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L418)
-function QuestOfferDataProviderMixin:SetTargetAnimValue(targetValue) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L422)
-function QuestOfferDataProviderMixin:CalculateTargetAnimValue() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L426)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L361)
 function QuestOfferDataProviderMixin:OnAdded(mapCanvas) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L431)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L366)
 function QuestOfferDataProviderMixin:OnRemoved(mapCanvas) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L436)
-function QuestOfferDataProviderMixin:OnUpdate() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L448)
-function QuestOfferDataProviderMixin:RunPinOnUpdate() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L458)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L371)
 function QuestOfferDataProviderMixin:SetBounty(bountyQuestID, bountyFactionID, bountyFrameType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L470)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L383)
 function QuestOfferDataProviderMixin:GetBountyInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L477)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L390)
 function IconWithHeightIndicatorMapPinMixin:SetHeightIndicator(floorLocation) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L491)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L404)
 function QuestOfferPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L496)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L409)
 function QuestOfferPinMixin:OnAcquired(questOffer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L515)
-function QuestOfferPinMixin:SetLinkedHub(linkedHub) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L519)
-function QuestOfferPinMixin:GetLinkedHub() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L523)
-function QuestOfferPinMixin:CheckCreateAnimationData() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L537)
-function QuestOfferPinMixin:GetAnimatedPosition(progress) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L546)
-function QuestOfferPinMixin:GetAnimationProgress() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L560)
-function QuestOfferPinMixin:ApplyAnimation() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L424)
 function QuestOfferPinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L575)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L428)
 function QuestOfferPinMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L580)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L432)
 function QuestOfferPinMixin:GetSuperTrackData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L584)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L436)
 function QuestOfferPinMixin:GetQuestClassification() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L440)
+function QuestOfferPinMixin:GetDisplayName() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L446)
 function QuestHubPinMixin:OnAcquired(poiInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L599)
-function QuestHubPinMixin:GetAnimationProgress() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L455)
+function QuestHubPinMixin:BuildRelatedQuests() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L607)
-function QuestHubPinMixin:ApplyAnimation() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L611)
-function QuestHubPinMixin:SetIsQuestHubForCityMap(isForCity) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L615)
-function QuestHubPinMixin:IsQuestHubForCityMap() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L645)
-function QuestHubPinMixin:ConsolidateRelatedQuests() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L650)
-function QuestHubPinMixin:UpdatePriorityQuestDisplay() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L660)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L472)
 function QuestHubPinMixin:GetRelatedQuests() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L664)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L476)
+function QuestHubPinMixin:SetIsQuestHubForCityMap(isForCity) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L480)
+function QuestHubPinMixin:IsQuestHubForCityMap() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L528)
+function QuestHubPinMixin:UpdatePriorityQuestDisplay() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L558)
 function QuestHubPinMixin:ShouldMouseButtonBePassthrough(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L668)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L562)
 function QuestHubPinMixin:GetLinkedUIMapID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L672)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L587)
 function QuestHubPinMixin:AddCustomTooltipData(tooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L683)
-function QuestHubPinMixin:AddRelatedQuestsToTooltip(tooltip) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L601)
+function QuestHubPinMixin:AddSuppressedPinsToTooltip(tooltip, allSuppressedPins, formatData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L704)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L629)
+function QuestHubPinMixin:ShouldAddSuppressedPinToTooltip(pin) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L634)
+function QuestHubPinMixin:AddSuppressedPinToTooltipContainer(container, pin) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L638)
+function QuestHubPinMixin:CreatePinTooltipFrame(pin) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L645)
+function QuestHubPinMixin:GetOrCreateSuppressedPinTooltipPool() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L653)
+function QuestHubPinMixin:ResetSuppressedPinTooltipPool() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L659)
+function QuestHubPinMixin:GetSuppressedPinTooltipContainer(formatData) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L673)
 function QuestHubPinMixin:OnMouseClickAction(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L719)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L678)
+function QuestHubPinMixin:IsPinSuppressor() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L682)
+function QuestHubPinMixin:GetSuppressedPins() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L747)
+function QuestHubPinMixin:GetSuppressedPinsSorted() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L769)
+function QuestHubPinMixin:ShouldSuppressPin(pin) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L792)
+function QuestHubPinMixin:IsRelatedQuestOfferPin(pin) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L800)
+function QuestHubPinMixin:ResetSuppression() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L812)
+function QuestHubPinMixin:TrackSuppressedPin(pin) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L820)
+function QuestHubPinMixin:FinalizeSuppression() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L834)
 function QuestHubPinGlowMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L724)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L839)
 function QuestHubPinGlowMixin:OnReleased() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L731)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L846)
 function QuestHubPinGlowMixin:GetHighlightType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L745)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L860)
 function QuestHubPinGlowMixin:GetHighlightAnimType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L754)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L869)
 function QuestHubPinGlowMixin:AcknowledgeGlow() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L884)
+function SuppressedPinTooltipMixin:SetupFromPin(pin) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L905)
+function SuppressedPinTooltipContainerMixin:Reset() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L915)
+function SuppressedPinTooltipContainerMixin:AddLine(line) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/QuestOfferDataProvider.lua#L930)
+function SuppressedPinTooltipContainerMixin:SetAdditionalItemsText(text) end

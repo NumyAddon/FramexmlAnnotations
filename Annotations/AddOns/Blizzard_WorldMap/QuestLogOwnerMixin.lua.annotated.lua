@@ -34,50 +34,50 @@ function QuestLogOwnerMixin:SetDisplayState(displayState) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L157)
 function QuestLogOwnerMixin:SetQuestLogPanelShown(shown) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L173)
 function QuestLogOwnerMixin:RefreshQuestLog() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L179)
 function QuestLogOwnerMixin:OnUIClose() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L185)
 function QuestLogOwnerMixin:ShouldShowQuestLogPanel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L190)
 function QuestLogOwnerMixin:ShouldBeMinimized() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L195)
 function QuestLogOwnerMixin:ShouldBeMaximized() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L199)
 function QuestLogOwnerMixin:IsSidePanelShown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L203)
 function QuestLogOwnerMixin:SetHighlightedQuestID(questID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L205)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L207)
 function QuestLogOwnerMixin:GetHighlightedQuestID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L211)
 function QuestLogOwnerMixin:ClearHighlightedQuestID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L213)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L215)
 function QuestLogOwnerMixin:SetFocusedQuestID(questID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L219)
 function QuestLogOwnerMixin:ClearFocusedQuestID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L221)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L223)
 function QuestLogOwnerMixin:CanDisplayQuestLog() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L227)
 function QuestLogOwnerMixin:OnQuestLogShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L231)
 function QuestLogOwnerMixin:OnQuestLogHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L235)
 function QuestLogOwnerMixin:OnQuestLogOpen() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/QuestLogOwnerMixin.lua#L239)
 function QuestLogOwnerMixin:OnQuestLogUpdate() end

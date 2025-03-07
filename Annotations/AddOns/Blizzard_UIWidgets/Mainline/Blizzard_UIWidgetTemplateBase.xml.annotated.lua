@@ -82,76 +82,94 @@
 --- @field DebuffBorder Texture
 --- @field AmountBorder Texture
 --- @field StackCount UIWidgetBaseSpellTemplate_StackCount
+--- @field EarnedCheck Texture
 --- @field ColoredStrings table<number, UIWidgetBaseSpellTemplate_Text>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L216)
 --- child of UIWidgetBaseStatusBarPartitionTemplate
 --- @class UIWidgetBaseStatusBarPartitionTemplate_FlashAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L197)
 --- Template
 --- @class UIWidgetBaseStatusBarPartitionTemplate : Frame, UIWidgetBaseStatusBarPartitionTemplateMixin
 --- @field Tex Texture
 --- @field FlashOverlay Texture
 --- @field FlashAnim UIWidgetBaseStatusBarPartitionTemplate_FlashAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L215)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L223)
 --- Template
 --- @class UIWidgetBaseStatusBarTemplate : StatusBar, UIWidgetTemplateTooltipFrame, UIWidgetBaseStatusBarTemplateMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L225)
 --- Template
 --- @class UIWidgetBaseStateIconTemplate : Frame, UIWidgetTemplateTooltipFrame, UIWidgetBaseStateIconTemplateMixin
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L253)
 --- child of UIWidgetBaseTextureAndTextTemplate
 --- @class UIWidgetBaseTextureAndTextTemplate_Text : FontString, GameFontNormalLarge, AutoScalingFontStringMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L260)
+--- child of UIWidgetBaseTextureAndTextTemplate
+--- @class UIWidgetBaseTextureAndTextTemplate_SoftGlow : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L268)
+--- child of UIWidgetBaseTextureAndTextTemplate
+--- @class UIWidgetBaseTextureAndTextTemplate_StarBurst : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L279)
+--- child of UIWidgetBaseTextureAndTextTemplate
+--- @class UIWidgetBaseTextureAndTextTemplate_Flash : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L238)
 --- Template
 --- @class UIWidgetBaseTextureAndTextTemplate : Frame, UIWidgetTemplateTooltipFrame, ResizeLayoutFrame, UIWidgetBaseTextureAndTextTemplateMixin
 --- @field Background Texture
 --- @field Foreground Texture
 --- @field Text UIWidgetBaseTextureAndTextTemplate_Text
+--- @field SoftGlow UIWidgetBaseTextureAndTextTemplate_SoftGlow
+--- @field StarBurst UIWidgetBaseTextureAndTextTemplate_StarBurst
+--- @field Flash UIWidgetBaseTextureAndTextTemplate_Flash
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L301)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L337)
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_UncapturedSection : Cooldown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L308)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L344)
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_Progress : Cooldown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L293)
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_DangerGlowBackground : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L310)
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_DangerGlowOverlay : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L318)
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_CapturedGlow : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L326)
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_CapturedGlowStar : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L358)
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_DangerGlowAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L332)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L368)
 --- child of UIWidgetBaseControlZoneTemplate
 --- @class UIWidgetBaseControlZoneTemplate_CapturedGlowAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L290)
 --- Template
 --- @class UIWidgetBaseControlZoneTemplate : Frame, UIWidgetTemplateTooltipFrame, ResizeLayoutFrame, UIWidgetBaseControlZoneTemplateMixin
 --- @field UncapturedSection UIWidgetBaseControlZoneTemplate_UncapturedSection
@@ -164,45 +182,45 @@
 --- @field DangerGlowAnim UIWidgetBaseControlZoneTemplate_DangerGlowAnim
 --- @field CapturedGlowAnim UIWidgetBaseControlZoneTemplate_CapturedGlowAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L351)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L387)
 --- child of UIWidgetBaseScenarioHeaderTemplate
 --- @class UIWidgetBaseScenarioHeaderTemplate_HeaderText : FontString, QuestTitleFont, AutoScalingFontStringMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L341)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L377)
 --- Template
 --- @class UIWidgetBaseScenarioHeaderTemplate : Frame, UIWidgetBaseTemplate, UIWidgetBaseScenarioHeaderTemplateMixin
 --- @field Frame Texture
 --- @field HeaderText UIWidgetBaseScenarioHeaderTemplate_HeaderText
 --- @field DecorationBottomLeft Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L412)
 --- child of UIWidgetBaseCircularStatusBarTemplate
 --- @class UIWidgetBaseCircularStatusBarTemplate_Progress : Cooldown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L373)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L409)
 --- Template
 --- @class UIWidgetBaseCircularStatusBarTemplate : Frame, UIWidgetTemplateTooltipFrame, UIWidgetBaseCircularStatusBarTemplateMixin
 --- @field Progress UIWidgetBaseCircularStatusBarTemplate_Progress
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L424)
 --- Template
 --- Adds itself to the parent with key `Tooltip`
 --- @class UIWidgetBaseItemEmbeddedTooltipTemplate : GameTooltip, GameTooltipTemplate
 --- @field IsEmbedded boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L403)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L439)
 --- child of UIWidgetBaseItemTemplate
 --- @class UIWidgetBaseItemTemplate_Count : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L413)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L449)
 --- child of UIWidgetBaseItemTemplate
 --- @class UIWidgetBaseItemTemplate_ItemName : FontString, SystemFont_Med3, UIWidgetBaseTextMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L454)
 --- child of UIWidgetBaseItemTemplate
 --- @class UIWidgetBaseItemTemplate_InfoText : FontString, SystemFont_Med1, UIWidgetBaseTextMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L430)
 --- Template
 --- @class UIWidgetBaseItemTemplate : Frame, UIWidgetTemplateTooltipFrame, UIWidgetBaseItemTemplateMixin
 --- @field Icon Texture
@@ -216,11 +234,11 @@
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L540)
 --- child of UIWidgetBaseIconTemplate
 --- @class UIWidgetBaseIconTemplate_GlowPulseAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L466)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L502)
 --- Template
 --- @class UIWidgetBaseIconTemplate : Frame, UIWidgetTemplateTooltipFrame, UIWidgetBaseIconTemplateMixin
 --- @field Glow Texture

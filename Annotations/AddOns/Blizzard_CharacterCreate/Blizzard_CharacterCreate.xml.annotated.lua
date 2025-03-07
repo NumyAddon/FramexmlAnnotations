@@ -1,189 +1,189 @@
 --- @meta _
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L35)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
-CharCustomizeTooltipTextLeft1 = {}
+CharCreateTooltipTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L36)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
-CharCustomizeTooltipTextRight1 = {}
+CharCreateTooltipTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L41)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
-CharCustomizeTooltipTextLeft2 = {}
+CharCreateTooltipTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L42)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
-CharCustomizeTooltipTextRight2 = {}
+CharCreateTooltipTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L47)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
-CharCustomizeTooltipTexture1 = {}
+CharCreateTooltipTexture1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L48)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
-CharCustomizeTooltipTexture2 = {}
+CharCreateTooltipTexture2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L49)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
-CharCustomizeTooltipTexture3 = {}
+CharCreateTooltipTexture3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L50)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
-CharCustomizeTooltipTexture4 = {}
+CharCreateTooltipTexture4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L51)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
-CharCustomizeTooltipTexture5 = {}
+CharCreateTooltipTexture5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L52)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
-CharCustomizeTooltipTexture6 = {}
+CharCreateTooltipTexture6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L53)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
-CharCustomizeTooltipTexture7 = {}
+CharCreateTooltipTexture7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L54)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
-CharCustomizeTooltipTexture8 = {}
+CharCreateTooltipTexture8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L55)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
-CharCustomizeTooltipTexture9 = {}
+CharCreateTooltipTexture9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L56)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
-CharCustomizeTooltipTexture10 = {}
+CharCreateTooltipTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L57)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
-CharCustomizeTooltipTexture11 = {}
+CharCreateTooltipTexture11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L58)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
-CharCustomizeTooltipTexture12 = {}
+CharCreateTooltipTexture12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L59)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
-CharCustomizeTooltipTexture13 = {}
+CharCreateTooltipTexture13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L60)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
-CharCustomizeTooltipTexture14 = {}
+CharCreateTooltipTexture14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L61)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
-CharCustomizeTooltipTexture15 = {}
+CharCreateTooltipTexture15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L62)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
-CharCustomizeTooltipTexture16 = {}
+CharCreateTooltipTexture16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L63)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
-CharCustomizeTooltipTexture17 = {}
+CharCreateTooltipTexture17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L64)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
-CharCustomizeTooltipTexture18 = {}
+CharCreateTooltipTexture18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L65)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
-CharCustomizeTooltipTexture19 = {}
+CharCreateTooltipTexture19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L66)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
-CharCustomizeTooltipTexture20 = {}
+CharCreateTooltipTexture20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L67)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
-CharCustomizeTooltipTexture21 = {}
+CharCreateTooltipTexture21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L68)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
-CharCustomizeTooltipTexture22 = {}
+CharCreateTooltipTexture22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L69)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
-CharCustomizeTooltipTexture23 = {}
+CharCreateTooltipTexture23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L70)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
-CharCustomizeTooltipTexture24 = {}
+CharCreateTooltipTexture24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L71)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
-CharCustomizeTooltipTexture25 = {}
+CharCreateTooltipTexture25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L72)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
-CharCustomizeTooltipTexture26 = {}
+CharCreateTooltipTexture26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L73)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
-CharCustomizeTooltipTexture27 = {}
+CharCreateTooltipTexture27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L74)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
-CharCustomizeTooltipTexture28 = {}
+CharCreateTooltipTexture28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L75)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
-CharCustomizeTooltipTexture29 = {}
+CharCreateTooltipTexture29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L76)
---- child of CharCustomizeTooltip (created in template SharedTooltipArtTemplate)
+--- child of CharCreateTooltip (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
-CharCustomizeTooltipTexture30 = {}
+CharCreateTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L3)
---- @class CharCustomizeTooltip : GameTooltip, SharedTooltipTemplate
+--- @class CharCreateTooltip : GameTooltip, SharedTooltipTemplate
 --- @field textLeft1Font string # "GameFontNormalLarge2"
-CharCustomizeTooltip = {}
-CharCustomizeTooltip["textLeft1Font"] = "GameFontNormalLarge2"
-CharCustomizeTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
-CharCustomizeTooltip["TextLeft1"] = CharCustomizeTooltipTextLeft1 -- inherited
-CharCustomizeTooltip["TextRight1"] = CharCustomizeTooltipTextRight1 -- inherited
-CharCustomizeTooltip["TextLeft2"] = CharCustomizeTooltipTextLeft2 -- inherited
-CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
+CharCreateTooltip = {}
+CharCreateTooltip["textLeft1Font"] = "GameFontNormalLarge2"
+CharCreateTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+CharCreateTooltip["TextLeft1"] = CharCreateTooltipTextLeft1 -- inherited
+CharCreateTooltip["TextRight1"] = CharCreateTooltipTextRight1 -- inherited
+CharCreateTooltip["TextLeft2"] = CharCreateTooltipTextLeft2 -- inherited
+CharCreateTooltip["TextRight2"] = CharCreateTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L12)
 --- Template
---- @class CharacterCreateNavButtonTemplate : Button, CharCustomizeBaseButtonTemplate, GlueButtonTemplate, CharacterCreateNavButtonMixin
+--- @class CharacterCreateNavButtonTemplate : Button, CustomizationBaseButtonTemplate, GlueButtonTemplate, CharacterCreateNavButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L31)
 --- child of CharacterCreateFrameRacialAbilityTemplate
@@ -203,7 +203,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L57)
 --- Template
---- @class CharacterCreateClassButtonTemplate : CheckButton, CharCustomizeMaskedButtonTemplate, CharacterCreateClassButtonMixin
+--- @class CharacterCreateClassButtonTemplate : CheckButton, CustomizationMaskedButtonTemplate, CharacterCreateClassButtonMixin
 --- @field ringAtlas string # "charactercreate-ring-metaldark"
 --- @field ClassName CharacterCreateClassButtonTemplate_ClassName
 
@@ -218,7 +218,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L82)
 --- Template
---- @class CharacterCreateRaceButtonTemplate : CheckButton, CharCustomizeMaskedButtonTemplate, CharacterCreateRaceButtonMixin
+--- @class CharacterCreateRaceButtonTemplate : CheckButton, CustomizationMaskedButtonTemplate, CharacterCreateRaceButtonMixin
 --- @field ringWidth number # 139
 --- @field RaceName CharacterCreateRaceButtonTemplate_RaceName
 
@@ -252,7 +252,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L142)
 --- Template
---- @class CharacterCreateSpecButtonTemplate : CheckButton, CharCustomizeMaskedButtonTemplate, CharacterCreateSpecButtonMixin
+--- @class CharacterCreateSpecButtonTemplate : CheckButton, CustomizationMaskedButtonTemplate, CharacterCreateSpecButtonMixin
 --- @field ringAtlas string # "charactercreate-ring-metaldark"
 --- @field SpecName CharacterCreateSpecButtonTemplate_SpecName
 --- @field RoleName CharacterCreateSpecButtonTemplate_RoleName
@@ -264,7 +264,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L175)
 --- child of CharacterCreateStartingZoneTemplate
---- @class CharacterCreateStartingZoneTemplate_ZoneArt : Button, CharCustomizeBaseButtonTemplate, CharacterCreateStartingZoneArtMixin
+--- @class CharacterCreateStartingZoneTemplate_ZoneArt : Button, CharacterCreateStartingZoneArtMixin
 --- @field Border CharacterCreateStartingZoneTemplate_ZoneArt_Border
 --- @field BGTex Texture
 
@@ -316,7 +316,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L355)
 --- child of CharacterCreateFrame_RaceAndClassFrame
---- @class CharacterCreateFrame_RaceAndClassFrame_AllianceHeader : Frame, ResizeLayoutFrame, CharCustomizeFrameWithTooltipTemplate, CharacterCreateFactionHeaderMixin
+--- @class CharacterCreateFrame_RaceAndClassFrame_AllianceHeader : Frame, ResizeLayoutFrame, CustomizationFrameWithTooltipTemplate, CharacterCreateFactionHeaderMixin
 --- @field tooltipAnchor string # "ANCHOR_TOPLEFT"
 --- @field Logo Texture
 --- @field Text CharacterCreateFrame_RaceAndClassFrame_AllianceHeader_Text
@@ -327,7 +327,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L379)
 --- child of CharacterCreateFrame_RaceAndClassFrame
---- @class CharacterCreateFrame_RaceAndClassFrame_HordeHeader : Frame, ResizeLayoutFrame, CharCustomizeFrameWithTooltipTemplate, CharacterCreateFactionHeaderMixin
+--- @class CharacterCreateFrame_RaceAndClassFrame_HordeHeader : Frame, ResizeLayoutFrame, CustomizationFrameWithTooltipTemplate, CharacterCreateFactionHeaderMixin
 --- @field tooltipAnchor string # "ANCHOR_TOPRIGHT"
 --- @field Logo Texture
 --- @field Text CharacterCreateFrame_RaceAndClassFrame_HordeHeader_Text
@@ -355,7 +355,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L439)
 --- child of CharacterCreateFrame_RaceAndClassFrame
---- @class CharacterCreateFrame_RaceAndClassFrame_ClassTrialCheckButton : Frame, CharCustomizeFrameWithTooltipTemplate, ResizeCheckButtonTemplate, ClassTrialCheckButtonMixin
+--- @class CharacterCreateFrame_RaceAndClassFrame_ClassTrialCheckButton : Frame, CustomizationFrameWithTooltipTemplate, ResizeCheckButtonTemplate, ClassTrialCheckButtonMixin
 --- @field labelText any # CHARACTER_TYPE_FRAME_TRIAL_BOOST_CHARACTER
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L456)
@@ -390,7 +390,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L497)
 --- child of CharacterCreateFrame_NameChoiceFrame_EditBox
---- @class CharacterCreateFrame_NameChoiceFrame_EditBox_NameAvailabilityState : Button, CharCustomizeFrameWithTooltipTemplate, CharacterCreateNameAvailabilityStateMixin
+--- @class CharacterCreateFrame_NameChoiceFrame_EditBox_NameAvailabilityState : Button, CustomizationFrameWithTooltipTemplate, CharacterCreateNameAvailabilityStateMixin
 --- @field tooltipMinWidth any # nil
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L489)
@@ -401,7 +401,7 @@ CharCustomizeTooltip["TextRight2"] = CharCustomizeTooltipTextRight2 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L523)
 --- child of CharacterCreateFrame_NameChoiceFrame
---- @class CharacterCreateFrame_NameChoiceFrame_RandomNameButton : Button, CharCustomizeSmallButtonTemplate, CharacterCreateRandomNameButtonMixin
+--- @class CharacterCreateFrame_NameChoiceFrame_RandomNameButton : Button, CustomizationSmallButtonTemplate, CharacterCreateRandomNameButtonMixin
 --- @field simpleTooltipLine any # RANDOMIZE
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCreate/Blizzard_CharacterCreate.xml#L475)

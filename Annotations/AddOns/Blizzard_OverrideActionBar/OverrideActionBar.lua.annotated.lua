@@ -4,6 +4,10 @@
 --- @class OverrideActionBarMixin
 OverrideActionBarMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L301)
+--- @class OverrideActionBarButtonMixin
+OverrideActionBarButtonMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L46)
 function OverrideActionBarMixin:OnLoad() end
 
@@ -45,3 +49,6 @@ function OverrideActionBarMixin:UpdateXpBar(newLevel) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L297)
 function OverrideActionBarMixin:IsShownOverride() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.lua#L305)
+function OverrideActionBarButtonMixin:EvaluateTutorials(spellType, id) end

@@ -31,11 +31,11 @@ WoWLabsSubscribeButtonMixin = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.lua#L22)
 function PlunderstormLobbyMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.lua#L33)
-function PlunderstormLobbyMixin:ChangeGameEnvironment(newEnvironment) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.lua#L34)
+function PlunderstormLobbyMixin:ChangeGameMode(newGameMode) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.lua#L56)
-function PlunderstormLobbyMixin:OnGameEnvironmentSelected(requestedEnvironment) end
+function PlunderstormLobbyMixin:OnGameModeSelected(requestedGameMode) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/WoWLabs/PlunderstormLobby.lua#L63)
 function PlunderstormLobbyMixin:OnShow() end

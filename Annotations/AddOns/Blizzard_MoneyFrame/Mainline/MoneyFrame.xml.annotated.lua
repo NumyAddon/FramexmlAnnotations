@@ -67,47 +67,15 @@
 --- Template
 --- @class SmallAlternateCurrencyFrameTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L295)
---- child of MoneyDenominationDisplayTemplate
---- @class MoneyDenominationDisplayTemplate_Text : FontString, PriceFont
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L280)
---- Template
---- @class MoneyDenominationDisplayTemplate : Frame, MoneyDenominationDisplayMixin
---- @field Icon Texture
---- @field Text MoneyDenominationDisplayTemplate_Text
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L327)
---- child of MoneyDisplayFrameTemplate
---- @class MoneyDisplayFrameTemplate_CopperDisplay : Frame, MoneyDenominationDisplayTemplate
---- @field displayType any # MoneyDenominationDisplayType.Copper
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L332)
---- child of MoneyDisplayFrameTemplate
---- @class MoneyDisplayFrameTemplate_SilverDisplay : Frame, MoneyDenominationDisplayTemplate
---- @field displayType any # MoneyDenominationDisplayType.Silver
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L337)
---- child of MoneyDisplayFrameTemplate
---- @class MoneyDisplayFrameTemplate_GoldDisplay : Frame, MoneyDenominationDisplayTemplate
---- @field displayType any # MoneyDenominationDisplayType.Gold
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L310)
---- Template
---- @class MoneyDisplayFrameTemplate : Frame, MoneyDisplayFrameMixin
---- @field CopperDisplay MoneyDisplayFrameTemplate_CopperDisplay
---- @field SilverDisplay MoneyDisplayFrameTemplate_SilverDisplay
---- @field GoldDisplay MoneyDisplayFrameTemplate_GoldDisplay
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L284)
 --- child of TooltipMoneyFrameTemplate
 --- @class TooltipMoneyFrameTemplate_TooltipMoneyFrameTemplatePrefixText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L357)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L289)
 --- child of TooltipMoneyFrameTemplate
 --- @class TooltipMoneyFrameTemplate_TooltipMoneyFrameTemplateSuffixText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.xml#L280)
 --- Template
 --- @class TooltipMoneyFrameTemplate : Frame, SmallMoneyFrameTemplate
 --- @field PrefixText TooltipMoneyFrameTemplate_TooltipMoneyFrameTemplatePrefixText

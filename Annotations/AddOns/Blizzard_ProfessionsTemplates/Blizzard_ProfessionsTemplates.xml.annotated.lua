@@ -153,57 +153,57 @@
 --- @class ProfessionsCustomerTableCellExpirationTemplate : Frame, ProfessionsCustomerTableCellExpirationMixin
 --- @field Text ProfessionsCustomerTableCellExpirationTemplate_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L260)
 --- Template
 --- @class ProfessionsCustomerTableCellActualCommissionTemplate : Frame, ProfessionsCrafterTableCellCommissionTemplate
 --- @field tipKey string # "tipAmount"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L266)
 --- Template
 --- @class ProfessionsCrafterTableHeaderStringTemplate : Button, ColumnDisplayButtonShortTemplate, ProfessionsCrafterTableHeaderStringMixin
 --- @field Arrow Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L286)
 --- child of ProfessionsOutputButtonTemplate
 --- @class ProfessionsOutputButtonTemplate_Count : FontString, NumberFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L282)
 --- Template
 --- @class ProfessionsOutputButtonTemplate : Button, CircularGiantItemButtonTemplate
 --- @field Count ProfessionsOutputButtonTemplate_Count
 --- @field CountShadow Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L306)
 --- child of ProfessionsReagentContainerTemplate
 --- @class ProfessionsReagentContainerTemplate_Label : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L303)
 --- Template
 --- @class ProfessionsReagentContainerTemplate : Frame, ResizeLayoutFrame, ProfessionsReagentContainerMixin
 --- @field Label ProfessionsReagentContainerTemplate_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L329)
 --- child of ProfessionsCurrencyTemplate
 --- @class ProfessionsCurrencyTemplate_Amount : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L319)
 --- Template
 --- @class ProfessionsCurrencyTemplate : Frame, ProfessionsCurrencyWithLabelMixin
 --- @field Icon Texture
 --- @field Amount ProfessionsCurrencyTemplate_Amount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L356)
 --- child of ProfessionsConcentrateContainerTemplate
 --- @class ProfessionsConcentrateContainerTemplate_ConcentrateToggleButton : CheckButton, ProfessionsConcentrateToggleButtonMixin
 --- @field Icon Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L346)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L347)
 --- child of ProfessionsConcentrateContainerTemplate
 --- @class ProfessionsConcentrateContainerTemplate_Label : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L343)
 --- Template
 --- @class ProfessionsConcentrateContainerTemplate : Frame
 --- @field ConcentrateToggleButton ProfessionsConcentrateContainerTemplate_ConcentrateToggleButton

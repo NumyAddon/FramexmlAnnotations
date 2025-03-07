@@ -149,48 +149,41 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field TargetReticleAnimFrame ActionButtonSpellFXTemplate_TargetReticleAnimFrame
 --- @field CooldownFlash ActionButtonSpellFXTemplate_CooldownFlash
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L362)
 --- child of ActionButtonTemplate_TextOverlayContainer
 --- @class ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateHotKey : FontString, NumberFontNormalSmallGray
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L365)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L368)
 --- child of ActionButtonTemplate_TextOverlayContainer
 --- @class ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateCount : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L359)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_TextOverlayContainer : Frame, ActionButtonTextOverlayContainerMixin
 --- @field HotKey ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateHotKey
 --- @field Count ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateCount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L376)
---- child of ActionButtonTemplate
---- @class ActionButtonTemplate_FlyoutArrowContainer : Frame
---- @field FlyoutArrowNormal Texture
---- @field FlyoutArrowPushed Texture
---- @field FlyoutArrowHighlight Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L401)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L380)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_AutoCastOverlay : Frame, AutoCastOverlayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L387)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_ActionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L317)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L320)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_ActionButtonTemplateName : FontString, GameFontHighlightSmallOutline
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L352)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_SpellHighlightAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L287)
 --- Template
---- @class ActionButtonTemplate : CheckButton, ActionButtonSpellFXTemplate, BaseActionButtonMixin
+--- @class ActionButtonTemplate : CheckButton, ActionButtonSpellFXTemplate, FlyoutButtonTemplate, BaseActionButtonMixin
+--- @field popupDirection string # "UP"
 --- @field TextOverlayContainer ActionButtonTemplate_TextOverlayContainer
---- @field FlyoutArrowContainer ActionButtonTemplate_FlyoutArrowContainer
 --- @field AutoCastOverlay ActionButtonTemplate_AutoCastOverlay
 --- @field cooldown ActionButtonTemplate_ActionButtonTemplateCooldown
 --- @field icon Texture
@@ -198,7 +191,6 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field SlotBackground Texture
 --- @field SlotArt Texture
 --- @field Flash Texture
---- @field FlyoutBorderShadow Texture
 --- @field Name ActionButtonTemplate_ActionButtonTemplateName
 --- @field Border Texture
 --- @field NewActionTexture Texture
@@ -208,15 +200,15 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L449)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L432)
 --- Template
 --- @class ActionBarButtonCodeTemplate : CheckButton, SecureActionButtonTemplate, QuickKeybindButtonTemplate, ActionButtonSpellFXTemplate, ActionBarActionButtonDerivedMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L466)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L449)
 --- Template
---- @class ActionBarButtonTemplate : CheckButton, ActionButtonTemplate, ActionBarButtonCodeTemplate
+--- @class ActionBarButtonTemplate : CheckButton, ActionButtonTemplate, ActionBarButtonCodeTemplate, ActionBarButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L468)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L458)
 --- Template
 --- @class SmallActionButtonTemplate : CheckButton, ActionButtonTemplate, SmallActionButtonMixin
 

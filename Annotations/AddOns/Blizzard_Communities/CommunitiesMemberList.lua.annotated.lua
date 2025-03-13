@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1521)
 --- @class GuildMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
 GuildMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1630)
 --- @class CommunityMemberListDropdownMixin : CommunitiesFrameMemberListDropdownMixin
 CommunityMemberListDropdownMixin = CreateFromMixins(CommunitiesFrameMemberListDropdownMixin)
 
@@ -16,11 +16,11 @@ CommunitiesMemberListMixin = {}
 --- @class CommunitiesMemberListEntryMixin
 CommunitiesMemberListEntryMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1494)
 --- @class CommunitiesFrameMemberListDropdownMixin
 CommunitiesFrameMemberListDropdownMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1738)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1737)
 --- @class CommunitiesMemberListFactionButtonMixin
 CommunitiesMemberListFactionButtonMixin = { }
 
@@ -234,86 +234,86 @@ function CommunitiesMemberListEntryMixin:OnClick(button) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1218)
 function CommunitiesMemberListEntryMixin:RefreshExpandedColumns() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1320)
 function CommunitiesMemberListEntryMixin:SetExpanded(expanded) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1332)
 function CommunitiesMemberListEntryMixin:SetGuildColumnIndex(guildColumnIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1351)
 function CommunitiesMemberListEntryMixin:UpdateNameFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1415)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1414)
 function CommunitiesMemberListEntryMixin:IsLocalPlayer() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1418)
 function CommunitiesMemberListEntryMixin:GetVoiceMemberID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1423)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1422)
 function CommunitiesMemberListEntryMixin:GetVoiceChannelID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1427)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1426)
 function CommunitiesMemberListEntryMixin:GetMemberPlayerLocation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1431)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1430)
 function CommunitiesMemberListEntryMixin:SetMemberPlayerLocationFromGuid(memberGuid) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1443)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1442)
 function CommunitiesMemberListEntryMixin:IsChannelActive() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1452)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1451)
 function CommunitiesMemberListEntryMixin:IsChannelPublic() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1456)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1455)
 function CommunitiesMemberListEntryMixin:IsVoiceActive() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1460)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1459)
 function CommunitiesMemberListEntryMixin:SetVoiceActive(voiceActive) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1497)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1496)
 function CommunitiesFrameMemberListDropdownMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1506)
 function CommunitiesFrameMemberListDropdownMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1512)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1511)
 function CommunitiesFrameMemberListDropdownMixin:UpdateNotificationFlash(shouldShowFlash) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1517)
 function CommunitiesFrameMemberListDropdownMixin:GetCommunitiesFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1524)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1523)
 function GuildMemberListDropdownMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1538)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1537)
 function GuildMemberListDropdownMixin:ResetGuildColumnIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1547)
 function GuildMemberListDropdownMixin:SetupMenu() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1614)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1613)
 function GuildMemberListDropdownMixin:OnCommunitiesClubSelected(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1625)
 function GuildMemberListDropdownMixin:ResetDisplayMode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1633)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1632)
 function CommunityMemberListDropdownMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1639)
 function CommunityMemberListDropdownMixin:ResetCurrentIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1648)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1647)
 function CommunityMemberListDropdownMixin:SetupMenu() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1721)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1720)
 function CommunityMemberListDropdownMixin:OnCommunitiesClubSelected(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1733)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1732)
 function CommunityMemberListDropdownMixin:ResetDisplayMode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1739)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1738)
 function CommunitiesMemberListFactionButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1752)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.lua#L1751)
 function CommunitiesMemberListFactionButtonMixin:OnEnter() end

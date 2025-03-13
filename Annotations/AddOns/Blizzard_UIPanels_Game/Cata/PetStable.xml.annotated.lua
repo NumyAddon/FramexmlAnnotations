@@ -79,50 +79,10 @@ PetStableActiveBg = {}
 --- @class PetStableFrame_PetStableLeftInset_PetStableActivePetsLabel : FontString, GameFontNormal
 PetStableActivePetsLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L805)
 --- child of PetStableLeftInset (created in template InsetFrameTemplate)
 --- @type Texture
 PetStableLeftInsetBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L810)
---- child of PetStableLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-PetStableLeftInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L815)
---- child of PetStableLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-PetStableLeftInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L821)
---- child of PetStableLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-PetStableLeftInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L827)
---- child of PetStableLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-PetStableLeftInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L833)
---- child of PetStableLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-PetStableLeftInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L839)
---- child of PetStableLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-PetStableLeftInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L845)
---- child of PetStableLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-PetStableLeftInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L851)
---- child of PetStableLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-PetStableLeftInsetInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L144)
 --- child of PetStableFrame
@@ -130,79 +90,25 @@ PetStableLeftInsetInsetRightBorder = {}
 --- @field ActivePetsLabel PetStableFrame_PetStableLeftInset_PetStableActivePetsLabel
 PetStableLeftInset = {}
 PetStableLeftInset["ActivePetsLabel"] = PetStableActivePetsLabel
+PetStableLeftInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetStableLeftInset["Bg"] = PetStableLeftInsetBg -- inherited
-PetStableLeftInset["InsetBorderTopLeft"] = PetStableLeftInsetInsetTopLeftCorner -- inherited
-PetStableLeftInset["InsetBorderTopRight"] = PetStableLeftInsetInsetTopRightCorner -- inherited
-PetStableLeftInset["InsetBorderBottomLeft"] = PetStableLeftInsetInsetBotLeftCorner -- inherited
-PetStableLeftInset["InsetBorderBottomRight"] = PetStableLeftInsetInsetBotRightCorner -- inherited
-PetStableLeftInset["InsetBorderTop"] = PetStableLeftInsetInsetTopBorder -- inherited
-PetStableLeftInset["InsetBorderBottom"] = PetStableLeftInsetInsetBottomBorder -- inherited
-PetStableLeftInset["InsetBorderLeft"] = PetStableLeftInsetInsetLeftBorder -- inherited
-PetStableLeftInset["InsetBorderRight"] = PetStableLeftInsetInsetRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L164)
 --- child of PetStableBottomInset
 --- @class PetStableFrame_PetStableBottomInset_PetStableFrameStableBg : Texture, PetStable-StableBG
 PetStableFrameStableBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L805)
 --- child of PetStableBottomInset (created in template InsetFrameTemplate)
 --- @type Texture
 PetStableBottomInsetBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L810)
---- child of PetStableBottomInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-PetStableBottomInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L815)
---- child of PetStableBottomInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-PetStableBottomInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L821)
---- child of PetStableBottomInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-PetStableBottomInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L827)
---- child of PetStableBottomInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-PetStableBottomInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L833)
---- child of PetStableBottomInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-PetStableBottomInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L839)
---- child of PetStableBottomInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-PetStableBottomInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L845)
---- child of PetStableBottomInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-PetStableBottomInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L851)
---- child of PetStableBottomInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-PetStableBottomInsetInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L161)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableBottomInset : Frame, InsetFrameTemplate
 PetStableBottomInset = {}
+PetStableBottomInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetStableBottomInset["Bg"] = PetStableBottomInsetBg -- inherited
-PetStableBottomInset["InsetBorderTopLeft"] = PetStableBottomInsetInsetTopLeftCorner -- inherited
-PetStableBottomInset["InsetBorderTopRight"] = PetStableBottomInsetInsetTopRightCorner -- inherited
-PetStableBottomInset["InsetBorderBottomLeft"] = PetStableBottomInsetInsetBotLeftCorner -- inherited
-PetStableBottomInset["InsetBorderBottomRight"] = PetStableBottomInsetInsetBotRightCorner -- inherited
-PetStableBottomInset["InsetBorderTop"] = PetStableBottomInsetInsetTopBorder -- inherited
-PetStableBottomInset["InsetBorderBottom"] = PetStableBottomInsetInsetBottomBorder -- inherited
-PetStableBottomInset["InsetBorderLeft"] = PetStableBottomInsetInsetLeftBorder -- inherited
-PetStableBottomInset["InsetBorderRight"] = PetStableBottomInsetInsetRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L179)
 --- child of PetStableModelScene
@@ -273,20 +179,20 @@ PetStableActivePet1PetName = {}
 --- @type PetStableActiveSlotTemplate_PetStableActiveSlotTemplateBorder
 PetStableActivePet1Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableActivePet1 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableActivePet1IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableActivePet1 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableActivePet1Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableActivePet1 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableActivePet1NormalTexture = {}
+PetStableActivePet1Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L246)
 --- child of PetStableFrame
@@ -295,6 +201,8 @@ PetStableActivePet1 = {}
 PetStableActivePet1["LockIcon"] = PetStableActivePet1LockIcon -- inherited
 PetStableActivePet1["PetName"] = PetStableActivePet1PetName -- inherited
 PetStableActivePet1["Border"] = PetStableActivePet1Border -- inherited
+PetStableActivePet1["Background"] = PetStableActivePet1Background -- inherited
+PetStableActivePet1["Checked"] = PetStableActivePet1Checked -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L111)
 --- child of PetStableActiveSlotTemplateLockIcon
@@ -315,20 +223,20 @@ PetStableActivePet2PetName = {}
 --- @type PetStableActiveSlotTemplate_PetStableActiveSlotTemplateBorder
 PetStableActivePet2Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableActivePet2 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableActivePet2IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableActivePet2 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableActivePet2Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableActivePet2 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableActivePet2NormalTexture = {}
+PetStableActivePet2Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L251)
 --- child of PetStableFrame
@@ -337,6 +245,8 @@ PetStableActivePet2 = {}
 PetStableActivePet2["LockIcon"] = PetStableActivePet2LockIcon -- inherited
 PetStableActivePet2["PetName"] = PetStableActivePet2PetName -- inherited
 PetStableActivePet2["Border"] = PetStableActivePet2Border -- inherited
+PetStableActivePet2["Background"] = PetStableActivePet2Background -- inherited
+PetStableActivePet2["Checked"] = PetStableActivePet2Checked -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L111)
 --- child of PetStableActiveSlotTemplateLockIcon
@@ -357,20 +267,20 @@ PetStableActivePet3PetName = {}
 --- @type PetStableActiveSlotTemplate_PetStableActiveSlotTemplateBorder
 PetStableActivePet3Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableActivePet3 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableActivePet3IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableActivePet3 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableActivePet3Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableActivePet3 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableActivePet3NormalTexture = {}
+PetStableActivePet3Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L256)
 --- child of PetStableFrame
@@ -379,6 +289,8 @@ PetStableActivePet3 = {}
 PetStableActivePet3["LockIcon"] = PetStableActivePet3LockIcon -- inherited
 PetStableActivePet3["PetName"] = PetStableActivePet3PetName -- inherited
 PetStableActivePet3["Border"] = PetStableActivePet3Border -- inherited
+PetStableActivePet3["Background"] = PetStableActivePet3Background -- inherited
+PetStableActivePet3["Checked"] = PetStableActivePet3Checked -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L111)
 --- child of PetStableActiveSlotTemplateLockIcon
@@ -399,20 +311,20 @@ PetStableActivePet4PetName = {}
 --- @type PetStableActiveSlotTemplate_PetStableActiveSlotTemplateBorder
 PetStableActivePet4Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableActivePet4 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableActivePet4IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableActivePet4 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableActivePet4Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableActivePet4 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableActivePet4NormalTexture = {}
+PetStableActivePet4Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L261)
 --- child of PetStableFrame
@@ -421,6 +333,8 @@ PetStableActivePet4 = {}
 PetStableActivePet4["LockIcon"] = PetStableActivePet4LockIcon -- inherited
 PetStableActivePet4["PetName"] = PetStableActivePet4PetName -- inherited
 PetStableActivePet4["Border"] = PetStableActivePet4Border -- inherited
+PetStableActivePet4["Background"] = PetStableActivePet4Background -- inherited
+PetStableActivePet4["Checked"] = PetStableActivePet4Checked -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L111)
 --- child of PetStableActiveSlotTemplateLockIcon
@@ -441,20 +355,20 @@ PetStableActivePet5PetName = {}
 --- @type PetStableActiveSlotTemplate_PetStableActiveSlotTemplateBorder
 PetStableActivePet5Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableActivePet5 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableActivePet5IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableActivePet5 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableActivePet5Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableActivePet5 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableActivePet5NormalTexture = {}
+PetStableActivePet5Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L266)
 --- child of PetStableFrame
@@ -463,206 +377,228 @@ PetStableActivePet5 = {}
 PetStableActivePet5["LockIcon"] = PetStableActivePet5LockIcon -- inherited
 PetStableActivePet5["PetName"] = PetStableActivePet5PetName -- inherited
 PetStableActivePet5["Border"] = PetStableActivePet5Border -- inherited
+PetStableActivePet5["Background"] = PetStableActivePet5Background -- inherited
+PetStableActivePet5["Checked"] = PetStableActivePet5Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet1IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableStabledPet1Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableStabledPet1 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet1NormalTexture = {}
+PetStableStabledPet1Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L271)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet1 : Button, PetStableSlotTemplate
 PetStableStabledPet1 = {}
+PetStableStabledPet1["Background"] = PetStableStabledPet1Background -- inherited
+PetStableStabledPet1["Checked"] = PetStableStabledPet1Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet2IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableStabledPet2Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableStabledPet2 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet2NormalTexture = {}
+PetStableStabledPet2Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L276)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet2 : Button, PetStableSlotTemplate
 PetStableStabledPet2 = {}
+PetStableStabledPet2["Background"] = PetStableStabledPet2Background -- inherited
+PetStableStabledPet2["Checked"] = PetStableStabledPet2Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableStabledPet3 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet3IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableStabledPet3 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableStabledPet3Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableStabledPet3 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet3NormalTexture = {}
+PetStableStabledPet3Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L281)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet3 : Button, PetStableSlotTemplate
 PetStableStabledPet3 = {}
+PetStableStabledPet3["Background"] = PetStableStabledPet3Background -- inherited
+PetStableStabledPet3["Checked"] = PetStableStabledPet3Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableStabledPet4 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet4IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableStabledPet4 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableStabledPet4Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableStabledPet4 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet4NormalTexture = {}
+PetStableStabledPet4Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L286)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet4 : Button, PetStableSlotTemplate
 PetStableStabledPet4 = {}
+PetStableStabledPet4["Background"] = PetStableStabledPet4Background -- inherited
+PetStableStabledPet4["Checked"] = PetStableStabledPet4Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableStabledPet5 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet5IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableStabledPet5 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableStabledPet5Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableStabledPet5 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet5NormalTexture = {}
+PetStableStabledPet5Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L291)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet5 : Button, PetStableSlotTemplate
 PetStableStabledPet5 = {}
+PetStableStabledPet5["Background"] = PetStableStabledPet5Background -- inherited
+PetStableStabledPet5["Checked"] = PetStableStabledPet5Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableStabledPet6 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet6IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableStabledPet6 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableStabledPet6Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableStabledPet6 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet6NormalTexture = {}
+PetStableStabledPet6Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L296)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet6 : Button, PetStableSlotTemplate
 PetStableStabledPet6 = {}
+PetStableStabledPet6["Background"] = PetStableStabledPet6Background -- inherited
+PetStableStabledPet6["Checked"] = PetStableStabledPet6Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableStabledPet7 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet7IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableStabledPet7 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableStabledPet7Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableStabledPet7 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet7NormalTexture = {}
+PetStableStabledPet7Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L301)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet7 : Button, PetStableSlotTemplate
 PetStableStabledPet7 = {}
+PetStableStabledPet7["Background"] = PetStableStabledPet7Background -- inherited
+PetStableStabledPet7["Checked"] = PetStableStabledPet7Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableStabledPet8 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet8IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableStabledPet8 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableStabledPet8Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableStabledPet8 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet8NormalTexture = {}
+PetStableStabledPet8Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L306)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet8 : Button, PetStableSlotTemplate
 PetStableStabledPet8 = {}
+PetStableStabledPet8["Background"] = PetStableStabledPet8Background -- inherited
+PetStableStabledPet8["Checked"] = PetStableStabledPet8Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableStabledPet9 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet9IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableStabledPet9 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableStabledPet9Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableStabledPet9 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet9NormalTexture = {}
+PetStableStabledPet9Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L311)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet9 : Button, PetStableSlotTemplate
 PetStableStabledPet9 = {}
+PetStableStabledPet9["Background"] = PetStableStabledPet9Background -- inherited
+PetStableStabledPet9["Checked"] = PetStableStabledPet9Checked -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L44)
 --- child of PetStableStabledPet10 (created in template PetStableSlotTemplate)
 --- @type Texture
 PetStableStabledPet10IconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L47)
 --- child of PetStableStabledPet10 (created in template PetStableSlotTemplate)
---- @type Texture
+--- @type PetStableSlotTemplate_PetStableSlotTemplateBackground
 PetStableStabledPet10Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L54)
 --- child of PetStableStabledPet10 (created in template PetStableSlotTemplate)
 --- @type Texture
-PetStableStabledPet10NormalTexture = {}
+PetStableStabledPet10Checked = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L316)
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableStabledPet10 : Button, PetStableSlotTemplate
 PetStableStabledPet10 = {}
+PetStableStabledPet10["Background"] = PetStableStabledPet10Background -- inherited
+PetStableStabledPet10["Checked"] = PetStableStabledPet10Checked -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L200)
 --- child of PetStableNextPageButton (created in template UIPanelSquareButton)
@@ -696,76 +632,29 @@ PetStablePrevPageButton["icon"] = PetStablePrevPageButtonIcon -- inherited
 --- @class PetStableFrame_PetStableFrameModelBg : Texture, PetStable-ModelBG
 PetStableFrameModelBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L805)
 --- child of PetStableFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 PetStableFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L810)
---- child of PetStableFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-PetStableFrameInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L815)
---- child of PetStableFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-PetStableFrameInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L821)
---- child of PetStableFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-PetStableFrameInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L827)
---- child of PetStableFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-PetStableFrameInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L833)
---- child of PetStableFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-PetStableFrameInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L839)
---- child of PetStableFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-PetStableFrameInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L845)
---- child of PetStableFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-PetStableFrameInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L851)
---- child of PetStableFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-PetStableFrameInsetInsetRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L846)
 --- child of PetStableFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 PetStableFrameInset = {}
+PetStableFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetStableFrameInset["Bg"] = PetStableFrameInsetBg -- inherited
-PetStableFrameInset["InsetBorderTopLeft"] = PetStableFrameInsetInsetTopLeftCorner -- inherited
-PetStableFrameInset["InsetBorderTopRight"] = PetStableFrameInsetInsetTopRightCorner -- inherited
-PetStableFrameInset["InsetBorderBottomLeft"] = PetStableFrameInsetInsetBotLeftCorner -- inherited
-PetStableFrameInset["InsetBorderBottomRight"] = PetStableFrameInsetInsetBotRightCorner -- inherited
-PetStableFrameInset["InsetBorderTop"] = PetStableFrameInsetInsetTopBorder -- inherited
-PetStableFrameInset["InsetBorderBottom"] = PetStableFrameInsetInsetBottomBorder -- inherited
-PetStableFrameInset["InsetBorderLeft"] = PetStableFrameInsetInsetLeftBorder -- inherited
-PetStableFrameInset["InsetBorderRight"] = PetStableFrameInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L875)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L827)
 --- child of PetStableFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
 PetStableFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L880)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L832)
 --- child of PetStableFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
 PetStableFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L885)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L837)
 --- child of PetStableFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 PetStableFrameButtonBottomBorder = {}

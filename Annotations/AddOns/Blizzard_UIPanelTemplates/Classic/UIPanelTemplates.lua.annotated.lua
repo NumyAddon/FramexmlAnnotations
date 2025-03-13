@@ -8,6 +8,10 @@ CurrencyTemplateMixin = {}
 --- @class UIExpandingButtonMixin
 UIExpandingButtonMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L289)
+--- @class ButtonWithDisableMixin
+ButtonWithDisableMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L218)
 function CurrencyTemplateMixin:SetCurrencyFromID(currencyID, amount, formatString, colorCode) end
 
@@ -31,3 +35,9 @@ function UIExpandingButtonMixin:RegisterCallback(callback) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L284)
 function UIExpandingButtonMixin:OnClick(button, down) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L291)
+function ButtonWithDisableMixin:SetDisableTooltip(tooltipTitle, tooltipText) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L297)
+function ButtonWithDisableMixin:OnEnter() end

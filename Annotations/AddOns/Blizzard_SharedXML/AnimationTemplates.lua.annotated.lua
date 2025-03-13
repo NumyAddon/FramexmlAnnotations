@@ -12,7 +12,7 @@ TargetsVisibleWhilePlayingAnimGroupMixin = {}
 --- @class SyncedAnimGroupMixin
 SyncedAnimGroupMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L71)
 --- @class AnimateWhileShownMixin
 AnimateWhileShownMixin = { }
 
@@ -34,8 +34,11 @@ function TargetsVisibleWhilePlayingAnimGroupMixin:SetTargetsShown(shown, ...) en
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L52)
 function SyncedAnimGroupMixin:PlaySynced(reverse, syncKey) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L76)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L62)
+function SyncedAnimGroupMixin:ClearSyncedStart(syncKey) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L85)
 function AnimateWhileShownMixin:PlayAnims() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.lua#L95)
 function AnimateWhileShownMixin:StopAnims() end

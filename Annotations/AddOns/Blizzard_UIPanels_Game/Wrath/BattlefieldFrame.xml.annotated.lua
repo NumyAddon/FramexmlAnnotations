@@ -76,65 +76,64 @@
 --- @field scrollBarArtTop Texture
 --- @field scrollBarArtBottom Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L309)
---- child of PVPBattlegroundButtonTemplate
---- @class PVPBattlegroundButtonTemplate_status : Frame
---- @field texture Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L304)
 --- Template
---- @class PVPBattlegroundButtonTemplate : Button
---- @field status PVPBattlegroundButtonTemplate_status
+--- @class PVPBattlegroundButtonTemplateWrath : Button, PVPBattlegroundButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L594)
 --- child of BattlegroundType1 (created in template PVPBattlegroundButtonTemplate)
 --- @type Texture
 BattlegroundType1Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L457)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L413)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlegroundType1 : Button, PVPBattlegroundButtonTemplate
+--- @class BattlefieldFrame_BattlegroundType1 : Button, PVPBattlegroundButtonTemplateWrath
 BattlegroundType1 = {}
+BattlegroundType1["highlight"] = BattlegroundType1Highlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L594)
 --- child of BattlegroundType2 (created in template PVPBattlegroundButtonTemplate)
 --- @type Texture
 BattlegroundType2Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L466)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L422)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlegroundType2 : Button, PVPBattlegroundButtonTemplate
+--- @class BattlefieldFrame_BattlegroundType2 : Button, PVPBattlegroundButtonTemplateWrath
 BattlegroundType2 = {}
+BattlegroundType2["highlight"] = BattlegroundType2Highlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L594)
 --- child of BattlegroundType3 (created in template PVPBattlegroundButtonTemplate)
 --- @type Texture
 BattlegroundType3Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L475)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L431)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlegroundType3 : Button, PVPBattlegroundButtonTemplate
+--- @class BattlefieldFrame_BattlegroundType3 : Button, PVPBattlegroundButtonTemplateWrath
 BattlegroundType3 = {}
+BattlegroundType3["highlight"] = BattlegroundType3Highlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L594)
 --- child of BattlegroundType4 (created in template PVPBattlegroundButtonTemplate)
 --- @type Texture
 BattlegroundType4Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L440)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlegroundType4 : Button, PVPBattlegroundButtonTemplate
+--- @class BattlefieldFrame_BattlegroundType4 : Button, PVPBattlegroundButtonTemplateWrath
 BattlegroundType4 = {}
+BattlegroundType4["highlight"] = BattlegroundType4Highlight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L594)
 --- child of BattlegroundType5 (created in template PVPBattlegroundButtonTemplate)
 --- @type Texture
 BattlegroundType5Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L493)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L449)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlegroundType5 : Button, PVPBattlegroundButtonTemplate
+--- @class BattlefieldFrame_BattlegroundType5 : Button, PVPBattlegroundButtonTemplateWrath
 BattlegroundType5 = {}
+BattlegroundType5["highlight"] = BattlegroundType5Highlight -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L163)
 --- child of BattlefieldFrameTypeScrollFrame (created in template FauxScrollFrameTemplate)
@@ -164,32 +163,32 @@ BattlefieldFrameTypeScrollFrameScrollBar["ScrollUpButton"] = BattlefieldFrameTyp
 BattlefieldFrameTypeScrollFrameScrollBar["ScrollDownButton"] = BattlefieldFrameTypeScrollFrameScrollBarScrollDownButton -- inherited
 BattlefieldFrameTypeScrollFrameScrollBar["ThumbTexture"] = BattlefieldFrameTypeScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L502)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L458)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFrameTypeScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BattlefieldFrameTypeScrollFrame = {}
 BattlefieldFrameTypeScrollFrame["ScrollChildFrame"] = BattlefieldFrameTypeScrollFrameScrollChildFrame -- inherited
 BattlefieldFrameTypeScrollFrame["ScrollBar"] = BattlefieldFrameTypeScrollFrameScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L551)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L507)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFrameCancelButton : Button, UIPanelButtonTemplate
 BattlefieldFrameCancelButton = {}
 BattlefieldFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L174)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L260)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardLabel : FontString, GameFontHighlightMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L280)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardHonorAmount : FontString, NumberFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L300)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardArenaAmount : FontString, NumberFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L242)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward : Frame
 --- @field honorSymbol Texture
@@ -197,19 +196,19 @@ BattlefieldFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @field arenaSymbol Texture
 --- @field arenaAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinRewardArenaAmount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L245)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L331)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardLabel : FontString, GameFontHighlightMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L351)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardHonorAmount : FontString, NumberFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L371)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardArenaAmount : FontString, NumberFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L227)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L313)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward : Frame
 --- @field honorSymbol Texture
@@ -217,19 +216,19 @@ BattlefieldFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @field arenaSymbol Texture
 --- @field arenaAmount PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossReward_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoLossRewardArenaAmount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L209)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoTitle : FontString, QuestTitleFontBlackShadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L218)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoDescription : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L230)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoRewardsLabel : FontString, QuestTitleFontBlackShadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L200)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrame
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo : Frame
 --- @field winReward PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoWinReward
@@ -238,11 +237,11 @@ BattlefieldFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @field description PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoDescription
 --- @field rewardsLabel PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfo_PVPQueueInfoScrollFrameTemplateChildFrameRewardsInfoRewardsLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L185)
 --- child of PVPQueueInfoScrollFrameTemplateChildFrame
 --- @class PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame_PVPQueueInfoScrollFrameTemplateChildFrameDescription : FontString, GameFontBlackMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L176)
 --- child of BattlefieldFrameInfoScrollFrame (created in template PVPQueueInfoScrollFrameTemplate)
 --- @type PVPQueueInfoScrollFrameTemplate_PVPQueueInfoScrollFrameTemplateChildFrame
 BattlefieldFrameInfoScrollFrameChildFrame = {}
@@ -270,54 +269,54 @@ BattlefieldFrameInfoScrollFrameScrollBar["ScrollUpButton"] = BattlefieldFrameInf
 BattlefieldFrameInfoScrollFrameScrollBar["ScrollDownButton"] = BattlefieldFrameInfoScrollFrameScrollBarScrollDownButton -- inherited
 BattlefieldFrameInfoScrollFrameScrollBar["ThumbTexture"] = BattlefieldFrameInfoScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L525)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFrameInfoScrollFrame : ScrollFrame, PVPQueueInfoScrollFrameTemplate
 BattlefieldFrameInfoScrollFrame = {}
 BattlefieldFrameInfoScrollFrame["ScrollBar"] = BattlefieldFrameInfoScrollFrameScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L526)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFrameJoinButton : Button, UIPanelButtonTemplate
 BattlefieldFrameJoinButton = {}
 BattlefieldFrameJoinButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L541)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFrameGroupJoinButton : Button, UIPanelButtonTemplate
 BattlefieldFrameGroupJoinButton = {}
 BattlefieldFrameGroupJoinButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L563)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFrameCloseButton : Button, UIPanelCloseButton
 BattlefieldFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L331)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFramePortrait : Texture
 BattlefieldFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L421)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L377)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFrameFrameLabel : FontString, GameFontNormal
 BattlefieldFrameFrameLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L430)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L386)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFrameNameHeader : FontString, GameFontHighlight
 BattlefieldFrameNameHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L397)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrame_BattlefieldFrameBGTex : Texture
 BattlefieldFrameBGTex = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L365)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L321)
 --- @class BattlefieldFrame : Frame
 BattlefieldFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L629)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/BattlefieldFrame.xml#L585)
 --- @class BattlefieldTimerFrame : Frame
 BattlefieldTimerFrame = {}
 

@@ -169,966 +169,970 @@ ACTIONBUTTON11 = {}
 ACTIONBUTTON12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L225)
+--- @class EXTRAACTIONBUTTON1 : Binding
+EXTRAACTIONBUTTON1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L229)
 --- @class SHAPESHIFTBUTTON1 : Binding
 SHAPESHIFTBUTTON1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L232)
 --- @class SHAPESHIFTBUTTON2 : Binding
 SHAPESHIFTBUTTON2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L235)
 --- @class SHAPESHIFTBUTTON3 : Binding
 SHAPESHIFTBUTTON3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L238)
 --- @class SHAPESHIFTBUTTON4 : Binding
 SHAPESHIFTBUTTON4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L241)
 --- @class SHAPESHIFTBUTTON5 : Binding
 SHAPESHIFTBUTTON5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L244)
 --- @class SHAPESHIFTBUTTON6 : Binding
 SHAPESHIFTBUTTON6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L247)
 --- @class SHAPESHIFTBUTTON7 : Binding
 SHAPESHIFTBUTTON7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L246)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L250)
 --- @class SHAPESHIFTBUTTON8 : Binding
 SHAPESHIFTBUTTON8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L253)
 --- @class SHAPESHIFTBUTTON9 : Binding
 SHAPESHIFTBUTTON9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L256)
 --- @class SHAPESHIFTBUTTON10 : Binding
 SHAPESHIFTBUTTON10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L260)
 --- @class BONUSACTIONBUTTON1 : Binding
 BONUSACTIONBUTTON1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L269)
 --- @class BONUSACTIONBUTTON2 : Binding
 BONUSACTIONBUTTON2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L278)
 --- @class BONUSACTIONBUTTON3 : Binding
 BONUSACTIONBUTTON3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L287)
 --- @class BONUSACTIONBUTTON4 : Binding
 BONUSACTIONBUTTON4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L296)
 --- @class BONUSACTIONBUTTON5 : Binding
 BONUSACTIONBUTTON5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L301)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L305)
 --- @class BONUSACTIONBUTTON6 : Binding
 BONUSACTIONBUTTON6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L314)
 --- @class BONUSACTIONBUTTON7 : Binding
 BONUSACTIONBUTTON7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L323)
 --- @class BONUSACTIONBUTTON8 : Binding
 BONUSACTIONBUTTON8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L332)
 --- @class BONUSACTIONBUTTON9 : Binding
 BONUSACTIONBUTTON9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L341)
 --- @class BONUSACTIONBUTTON10 : Binding
 BONUSACTIONBUTTON10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L351)
 --- @class ACTIONPAGE1 : Binding
 ACTIONPAGE1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L354)
 --- @class ACTIONPAGE2 : Binding
 ACTIONPAGE2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L357)
 --- @class ACTIONPAGE3 : Binding
 ACTIONPAGE3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L360)
 --- @class ACTIONPAGE4 : Binding
 ACTIONPAGE4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L363)
 --- @class ACTIONPAGE5 : Binding
 ACTIONPAGE5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L362)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L366)
 --- @class ACTIONPAGE6 : Binding
 ACTIONPAGE6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L365)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L369)
 --- @class PREVIOUSACTIONPAGE : Binding
 PREVIOUSACTIONPAGE = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L368)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L372)
 --- @class NEXTACTIONPAGE : Binding
 NEXTACTIONPAGE = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L375)
 --- @class TOGGLEACTIONBARLOCK : Binding
 TOGGLEACTIONBARLOCK = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L379)
 --- @class TOGGLEAUTOSELFCAST : Binding
 TOGGLEAUTOSELFCAST = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L385)
 --- @class MULTICASTSUMMONBUTTON1 : Binding
 MULTICASTSUMMONBUTTON1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L386)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L390)
 --- @class MULTICASTACTIONBUTTON1 : Binding
 MULTICASTACTIONBUTTON1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L397)
 --- @class MULTICASTACTIONBUTTON2 : Binding
 MULTICASTACTIONBUTTON2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L404)
 --- @class MULTICASTACTIONBUTTON3 : Binding
 MULTICASTACTIONBUTTON3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L407)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L411)
 --- @class MULTICASTACTIONBUTTON4 : Binding
 MULTICASTACTIONBUTTON4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L414)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L418)
 --- @class MULTICASTSUMMONBUTTON2 : Binding
 MULTICASTSUMMONBUTTON2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L423)
 --- @class MULTICASTACTIONBUTTON5 : Binding
 MULTICASTACTIONBUTTON5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L426)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L430)
 --- @class MULTICASTACTIONBUTTON6 : Binding
 MULTICASTACTIONBUTTON6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L433)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L437)
 --- @class MULTICASTACTIONBUTTON7 : Binding
 MULTICASTACTIONBUTTON7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L440)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L444)
 --- @class MULTICASTACTIONBUTTON8 : Binding
 MULTICASTACTIONBUTTON8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L447)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L451)
 --- @class MULTICASTSUMMONBUTTON3 : Binding
 MULTICASTSUMMONBUTTON3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L452)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L456)
 --- @class MULTICASTACTIONBUTTON9 : Binding
 MULTICASTACTIONBUTTON9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L459)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L463)
 --- @class MULTICASTACTIONBUTTON10 : Binding
 MULTICASTACTIONBUTTON10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L466)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L470)
 --- @class MULTICASTACTIONBUTTON11 : Binding
 MULTICASTACTIONBUTTON11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L473)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L477)
 --- @class MULTICASTACTIONBUTTON12 : Binding
 MULTICASTACTIONBUTTON12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L480)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L484)
 --- @class MULTICASTRECALLBUTTON1 : Binding
 MULTICASTRECALLBUTTON1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L487)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L491)
 --- @class MULTIACTIONBAR1BUTTON1 : Binding
 MULTIACTIONBAR1BUTTON1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L494)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L498)
 --- @class MULTIACTIONBAR1BUTTON2 : Binding
 MULTIACTIONBAR1BUTTON2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L501)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L505)
 --- @class MULTIACTIONBAR1BUTTON3 : Binding
 MULTIACTIONBAR1BUTTON3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L508)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L512)
 --- @class MULTIACTIONBAR1BUTTON4 : Binding
 MULTIACTIONBAR1BUTTON4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L519)
 --- @class MULTIACTIONBAR1BUTTON5 : Binding
 MULTIACTIONBAR1BUTTON5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L526)
 --- @class MULTIACTIONBAR1BUTTON6 : Binding
 MULTIACTIONBAR1BUTTON6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L529)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L533)
 --- @class MULTIACTIONBAR1BUTTON7 : Binding
 MULTIACTIONBAR1BUTTON7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L540)
 --- @class MULTIACTIONBAR1BUTTON8 : Binding
 MULTIACTIONBAR1BUTTON8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L547)
 --- @class MULTIACTIONBAR1BUTTON9 : Binding
 MULTIACTIONBAR1BUTTON9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L550)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L554)
 --- @class MULTIACTIONBAR1BUTTON10 : Binding
 MULTIACTIONBAR1BUTTON10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L557)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L561)
 --- @class MULTIACTIONBAR1BUTTON11 : Binding
 MULTIACTIONBAR1BUTTON11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L564)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L568)
 --- @class MULTIACTIONBAR1BUTTON12 : Binding
 MULTIACTIONBAR1BUTTON12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L571)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L575)
 --- @class MULTIACTIONBAR2BUTTON1 : Binding
 MULTIACTIONBAR2BUTTON1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L578)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L582)
 --- @class MULTIACTIONBAR2BUTTON2 : Binding
 MULTIACTIONBAR2BUTTON2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L589)
 --- @class MULTIACTIONBAR2BUTTON3 : Binding
 MULTIACTIONBAR2BUTTON3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L592)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L596)
 --- @class MULTIACTIONBAR2BUTTON4 : Binding
 MULTIACTIONBAR2BUTTON4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L603)
 --- @class MULTIACTIONBAR2BUTTON5 : Binding
 MULTIACTIONBAR2BUTTON5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L610)
 --- @class MULTIACTIONBAR2BUTTON6 : Binding
 MULTIACTIONBAR2BUTTON6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L613)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L617)
 --- @class MULTIACTIONBAR2BUTTON7 : Binding
 MULTIACTIONBAR2BUTTON7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L620)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L624)
 --- @class MULTIACTIONBAR2BUTTON8 : Binding
 MULTIACTIONBAR2BUTTON8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L627)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L631)
 --- @class MULTIACTIONBAR2BUTTON9 : Binding
 MULTIACTIONBAR2BUTTON9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L634)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L638)
 --- @class MULTIACTIONBAR2BUTTON10 : Binding
 MULTIACTIONBAR2BUTTON10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L641)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L645)
 --- @class MULTIACTIONBAR2BUTTON11 : Binding
 MULTIACTIONBAR2BUTTON11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L648)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L652)
 --- @class MULTIACTIONBAR2BUTTON12 : Binding
 MULTIACTIONBAR2BUTTON12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L655)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L659)
 --- @class MULTIACTIONBAR3BUTTON1 : Binding
 MULTIACTIONBAR3BUTTON1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L662)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L666)
 --- @class MULTIACTIONBAR3BUTTON2 : Binding
 MULTIACTIONBAR3BUTTON2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L669)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L673)
 --- @class MULTIACTIONBAR3BUTTON3 : Binding
 MULTIACTIONBAR3BUTTON3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L676)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L680)
 --- @class MULTIACTIONBAR3BUTTON4 : Binding
 MULTIACTIONBAR3BUTTON4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L683)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L687)
 --- @class MULTIACTIONBAR3BUTTON5 : Binding
 MULTIACTIONBAR3BUTTON5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L690)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L694)
 --- @class MULTIACTIONBAR3BUTTON6 : Binding
 MULTIACTIONBAR3BUTTON6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L697)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L701)
 --- @class MULTIACTIONBAR3BUTTON7 : Binding
 MULTIACTIONBAR3BUTTON7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L704)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L708)
 --- @class MULTIACTIONBAR3BUTTON8 : Binding
 MULTIACTIONBAR3BUTTON8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L711)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L715)
 --- @class MULTIACTIONBAR3BUTTON9 : Binding
 MULTIACTIONBAR3BUTTON9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L718)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L722)
 --- @class MULTIACTIONBAR3BUTTON10 : Binding
 MULTIACTIONBAR3BUTTON10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L725)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L729)
 --- @class MULTIACTIONBAR3BUTTON11 : Binding
 MULTIACTIONBAR3BUTTON11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L732)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L736)
 --- @class MULTIACTIONBAR3BUTTON12 : Binding
 MULTIACTIONBAR3BUTTON12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L739)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L743)
 --- @class MULTIACTIONBAR4BUTTON1 : Binding
 MULTIACTIONBAR4BUTTON1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L746)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L750)
 --- @class MULTIACTIONBAR4BUTTON2 : Binding
 MULTIACTIONBAR4BUTTON2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L753)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L757)
 --- @class MULTIACTIONBAR4BUTTON3 : Binding
 MULTIACTIONBAR4BUTTON3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L760)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L764)
 --- @class MULTIACTIONBAR4BUTTON4 : Binding
 MULTIACTIONBAR4BUTTON4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L767)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L771)
 --- @class MULTIACTIONBAR4BUTTON5 : Binding
 MULTIACTIONBAR4BUTTON5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L774)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L778)
 --- @class MULTIACTIONBAR4BUTTON6 : Binding
 MULTIACTIONBAR4BUTTON6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L781)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L785)
 --- @class MULTIACTIONBAR4BUTTON7 : Binding
 MULTIACTIONBAR4BUTTON7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L788)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L792)
 --- @class MULTIACTIONBAR4BUTTON8 : Binding
 MULTIACTIONBAR4BUTTON8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L795)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L799)
 --- @class MULTIACTIONBAR4BUTTON9 : Binding
 MULTIACTIONBAR4BUTTON9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L806)
 --- @class MULTIACTIONBAR4BUTTON10 : Binding
 MULTIACTIONBAR4BUTTON10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L809)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L813)
 --- @class MULTIACTIONBAR4BUTTON11 : Binding
 MULTIACTIONBAR4BUTTON11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L816)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L820)
 --- @class MULTIACTIONBAR4BUTTON12 : Binding
 MULTIACTIONBAR4BUTTON12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L825)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L829)
 --- @class TARGETNEARESTENEMY : Binding
 TARGETNEARESTENEMY = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L833)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L837)
 --- @class TARGETPREVIOUSENEMY : Binding
 TARGETPREVIOUSENEMY = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L836)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L840)
 --- @class TARGETSCANENEMY : Binding
 TARGETSCANENEMY = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L843)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L847)
 --- @class TARGETNEARESTFRIEND : Binding
 TARGETNEARESTFRIEND = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L846)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L850)
 --- @class TARGETPREVIOUSFRIEND : Binding
 TARGETPREVIOUSFRIEND = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L849)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L853)
 --- @class TARGETNEARESTENEMYPLAYER : Binding
 TARGETNEARESTENEMYPLAYER = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L852)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L856)
 --- @class TARGETPREVIOUSENEMYPLAYER : Binding
 TARGETPREVIOUSENEMYPLAYER = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L855)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L859)
 --- @class TARGETNEARESTFRIENDPLAYER : Binding
 TARGETNEARESTFRIENDPLAYER = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L858)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L862)
 --- @class TARGETPREVIOUSFRIENDPLAYER : Binding
 TARGETPREVIOUSFRIENDPLAYER = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L869)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L873)
 --- @class TARGETSELF : Binding
 TARGETSELF = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L876)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L880)
 --- @class TARGETPARTYMEMBER1 : Binding
 TARGETPARTYMEMBER1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L887)
 --- @class TARGETPARTYMEMBER2 : Binding
 TARGETPARTYMEMBER2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L890)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L894)
 --- @class TARGETPARTYMEMBER3 : Binding
 TARGETPARTYMEMBER3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L897)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L901)
 --- @class TARGETPARTYMEMBER4 : Binding
 TARGETPARTYMEMBER4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L904)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L908)
 --- @class TARGETPET : Binding
 TARGETPET = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L907)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L911)
 --- @class TARGETPARTYPET1 : Binding
 TARGETPARTYPET1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L910)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L914)
 --- @class TARGETPARTYPET2 : Binding
 TARGETPARTYPET2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L913)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L917)
 --- @class TARGETPARTYPET3 : Binding
 TARGETPARTYPET3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L916)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L920)
 --- @class TARGETPARTYPET4 : Binding
 TARGETPARTYPET4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L919)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L923)
 --- @class TARGETLASTHOSTILE : Binding
 TARGETLASTHOSTILE = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L922)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L926)
 --- @class TARGETLASTTARGET : Binding
 TARGETLASTTARGET = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L926)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L930)
 --- @class NAMEPLATES : Binding
 NAMEPLATES = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L940)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L944)
 --- @class FRIENDNAMEPLATES : Binding
 FRIENDNAMEPLATES = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L954)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L958)
 --- @class ALLNAMEPLATES : Binding
 ALLNAMEPLATES = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L971)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L975)
 --- @class INTERACTMOUSEOVER : Binding
 INTERACTMOUSEOVER = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L976)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L980)
 --- @class INTERACTTARGET : Binding
 INTERACTTARGET = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L979)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L983)
 --- @class ASSISTTARGET : Binding
 ASSISTTARGET = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L982)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L986)
 --- @class ATTACKTARGET : Binding
 ATTACKTARGET = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L985)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L989)
 --- @class STARTATTACK : Binding
 STARTATTACK = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L988)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L992)
 --- @class PETATTACK : Binding
 PETATTACK = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L991)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L995)
 --- @class FOCUSTARGET : Binding
 FOCUSTARGET = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L994)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L998)
 --- @class TARGETFOCUS : Binding
 TARGETFOCUS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L997)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1001)
 --- @class TARGETMOUSEOVER : Binding
 TARGETMOUSEOVER = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1000)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1004)
 --- @class TARGETTALKER : Binding
 TARGETTALKER = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1005)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1009)
 --- @class TOGGLEGAMEMENU : Binding
 TOGGLEGAMEMENU = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1008)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1012)
 --- @class TOGGLEBACKPACK : Binding
 TOGGLEBACKPACK = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1011)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1015)
 --- @class TOGGLEBAG1 : Binding
 TOGGLEBAG1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1014)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1018)
 --- @class TOGGLEBAG2 : Binding
 TOGGLEBAG2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1017)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1021)
 --- @class TOGGLEBAG3 : Binding
 TOGGLEBAG3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1020)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1024)
 --- @class TOGGLEBAG4 : Binding
 TOGGLEBAG4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1023)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1027)
 --- @class OPENALLBAGS : Binding
 OPENALLBAGS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1027)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1031)
 --- @class TOGGLECHARACTER0 : Binding
 TOGGLECHARACTER0 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1030)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1034)
 --- @class TOGGLECHARACTER3 : Binding
 TOGGLECHARACTER3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1033)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1037)
 --- @class TOGGLECHARACTER2 : Binding
 TOGGLECHARACTER2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1036)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1040)
 --- @class TOGGLECHARACTER1 : Binding
 TOGGLECHARACTER1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1040)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1044)
 --- @class TOGGLECHARACTER4 : Binding
 TOGGLECHARACTER4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1044)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1048)
 --- @class TOGGLECOLLECTIONS : Binding
 TOGGLECOLLECTIONS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1047)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1051)
 --- @class TOGGLECOLLECTIONSMOUNTJOURNAL : Binding
 TOGGLECOLLECTIONSMOUNTJOURNAL = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1050)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1054)
 --- @class TOGGLECOLLECTIONSPETJOURNAL : Binding
 TOGGLECOLLECTIONSPETJOURNAL = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1053)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1057)
 --- @class TOGGLECOLLECTIONSTOYBOX : Binding
 TOGGLECOLLECTIONSTOYBOX = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1056)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1060)
 --- @class TOGGLECOLLECTIONSHEIRLOOM : Binding
 TOGGLECOLLECTIONSHEIRLOOM = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1059)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1063)
 --- @class TOGGLECOLLECTIONSWARDROBE : Binding
 TOGGLECOLLECTIONSWARDROBE = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1066)
 --- @class TOGGLEENCOUNTERJOURNAL : Binding
 TOGGLEENCOUNTERJOURNAL = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1065)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1069)
 --- @class TOGGLESPELLBOOK : Binding
 TOGGLESPELLBOOK = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1068)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1072)
 --- @class TOGGLEPROFESSIONBOOK : Binding
 TOGGLEPROFESSIONBOOK = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1071)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1075)
 --- @class TOGGLEPETBOOK : Binding
 TOGGLEPETBOOK = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1078)
 --- @class TOGGLEINSCRIPTION : Binding
 TOGGLEINSCRIPTION = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1077)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1081)
 --- @class TOGGLETALENTS : Binding
 TOGGLETALENTS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1081)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1085)
 --- @class TOGGLEQUESTLOG : Binding
 TOGGLEQUESTLOG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1084)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1088)
 --- @class TOGGLEWORLDMAP : Binding
 TOGGLEWORLDMAP = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1087)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1091)
 --- @class TOGGLEMINIMAP : Binding
 TOGGLEMINIMAP = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1090)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1094)
 --- @class TOGGLEMINIMAPROTATION : Binding
 TOGGLEMINIMAPROTATION = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1093)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1097)
 --- @class TOGGLEBATTLEFIELDMINIMAP : Binding
 TOGGLEBATTLEFIELDMINIMAP = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1096)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1100)
 --- @class TOGGLEWORLDSTATESCORES : Binding
 TOGGLEWORLDSTATESCORES = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1099)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1103)
 --- @class TOGGLEACHIEVEMENT : Binding
 TOGGLEACHIEVEMENT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1106)
 --- @class TOGGLESTATISTICS : Binding
 TOGGLESTATISTICS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1109)
 --- @class TOGGLECURRENCY : Binding
 TOGGLECURRENCY = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1113)
 --- @class TOGGLESOCIAL : Binding
 TOGGLESOCIAL = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1116)
 --- @class TOGGLEFRIENDSTAB : Binding
 TOGGLEFRIENDSTAB = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1119)
 --- @class TOGGLEWHOTAB : Binding
 TOGGLEWHOTAB = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1118)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1122)
 --- @class TOGGLEGUILDTAB : Binding
 TOGGLEGUILDTAB = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1125)
 --- @class TOGGLERAIDTAB : Binding
 TOGGLERAIDTAB = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1128)
 --- @class TOGGLEBLIZZARDGROUPSTAB : Binding
 TOGGLEBLIZZARDGROUPSTAB = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1131)
 --- @class TOGGLECHATTAB : Binding
 TOGGLECHATTAB = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1134)
 --- @class TOGGLEGROUPFINDER : Binding
 TOGGLEGROUPFINDER = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1139)
 --- @class STOPCASTING : Binding
 STOPCASTING = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1142)
 --- @class STOPATTACK : Binding
 STOPATTACK = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1141)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1145)
 --- @class DISMOUNT : Binding
 DISMOUNT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1148)
 --- @class MINIMAPZOOMIN : Binding
 MINIMAPZOOMIN = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1151)
 --- @class MINIMAPZOOMOUT : Binding
 MINIMAPZOOMOUT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1150)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1154)
 --- @class TOGGLEMUSIC : Binding
 TOGGLEMUSIC = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1157)
 --- @class TOGGLESOUND : Binding
 TOGGLESOUND = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1160)
 --- @class MASTERVOLUMEUP : Binding
 MASTERVOLUMEUP = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1163)
 --- @class MASTERVOLUMEDOWN : Binding
 MASTERVOLUMEDOWN = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1166)
 --- @class TOGGLEUI : Binding
 TOGGLEUI = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1172)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1176)
 --- @class TOGGLEFPS : Binding
 TOGGLEFPS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1179)
 --- @class SCREENSHOT : Binding
 SCREENSHOT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1182)
 --- @class ITEMCOMPARISONCYCLING : Binding
 ITEMCOMPARISONCYCLING = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1185)
 --- @class TOGGLEGRAPHICSSETTINGS : Binding
 TOGGLEGRAPHICSSETTINGS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1197)
 --- @class TOGGLESELFHIGHLIGHT : Binding
 TOGGLESELFHIGHLIGHT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1206)
 --- @class TOGGLEWINDOWED : Binding
 TOGGLEWINDOWED = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1211)
 --- @class RELOADUI : Binding
 RELOADUI = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1214)
 --- @class FSTACK : Binding
 FSTACK = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1218)
 --- @class TOGGLESTATS : Binding
 TOGGLESTATS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1221)
 --- @class TOGGLETRIS : Binding
 TOGGLETRIS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1224)
 --- @class TOGGLEPORTALS : Binding
 TOGGLEPORTALS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1227)
 --- @class TOGGLECOLLISION : Binding
 TOGGLECOLLISION = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1230)
 --- @class TOGGLECOLLISIONDISPLAY : Binding
 TOGGLECOLLISIONDISPLAY = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1233)
 --- @class TOGGLEPLAYERBOUNDS : Binding
 TOGGLEPLAYERBOUNDS = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1236)
 --- @class TOGGLEPERFORMANCEPAUSE : Binding
 TOGGLEPERFORMANCEPAUSE = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1235)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1239)
 --- @class TOGGLEPERFORMANCEVALUES : Binding
 TOGGLEPERFORMANCEVALUES = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1238)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1242)
 --- @class TOGGLEPERFORMANCEVALUES_OLD : Binding
 TOGGLEPERFORMANCEVALUES_OLD = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1245)
 --- @class RESETPERFORMANCEVALUES : Binding
 RESETPERFORMANCEVALUES = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1244)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1248)
 --- @class TOGGLEANIMKITDISPLAY : Binding
 TOGGLEANIMKITDISPLAY = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1251)
 --- @class TOGGLEDEBUGAIDISPLAY : Binding
 TOGGLEDEBUGAIDISPLAY = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1251)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1255)
 --- @class TOGGLECOMMENTATOR : Binding
 TOGGLECOMMENTATOR = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1258)
 --- @class DUMPMOVEMENTCAPTURE : Binding
 DUMPMOVEMENTCAPTURE = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1263)
 --- @class NEXTVIEW : Binding
 NEXTVIEW = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1262)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1266)
 --- @class PREVVIEW : Binding
 PREVVIEW = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1269)
 --- @class CAMERAZOOMIN : Binding
 CAMERAZOOMIN = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1272)
 --- @class CAMERAZOOMOUT : Binding
 CAMERAZOOMOUT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1271)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1275)
 --- @class SETVIEW1 : Binding
 SETVIEW1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1274)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1278)
 --- @class SETVIEW2 : Binding
 SETVIEW2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1281)
 --- @class SETVIEW3 : Binding
 SETVIEW3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1284)
 --- @class SETVIEW4 : Binding
 SETVIEW4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1283)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1287)
 --- @class SETVIEW5 : Binding
 SETVIEW5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1290)
 --- @class SAVEVIEW1 : Binding
 SAVEVIEW1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1293)
 --- @class SAVEVIEW2 : Binding
 SAVEVIEW2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1296)
 --- @class SAVEVIEW3 : Binding
 SAVEVIEW3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1299)
 --- @class SAVEVIEW4 : Binding
 SAVEVIEW4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1302)
 --- @class SAVEVIEW5 : Binding
 SAVEVIEW5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1301)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1305)
 --- @class RESETVIEW1 : Binding
 RESETVIEW1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1308)
 --- @class RESETVIEW2 : Binding
 RESETVIEW2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1307)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1311)
 --- @class RESETVIEW3 : Binding
 RESETVIEW3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1314)
 --- @class RESETVIEW4 : Binding
 RESETVIEW4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1317)
 --- @class RESETVIEW5 : Binding
 RESETVIEW5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1320)
 --- @class FLIPCAMERAYAW : Binding
 FLIPCAMERAYAW = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1325)
 --- @class RAIDTARGET8 : Binding
 RAIDTARGET8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1328)
 --- @class RAIDTARGET7 : Binding
 RAIDTARGET7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1331)
 --- @class RAIDTARGET6 : Binding
 RAIDTARGET6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1330)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1334)
 --- @class RAIDTARGET5 : Binding
 RAIDTARGET5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1333)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1337)
 --- @class RAIDTARGET4 : Binding
 RAIDTARGET4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1336)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1340)
 --- @class RAIDTARGET3 : Binding
 RAIDTARGET3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1343)
 --- @class RAIDTARGET2 : Binding
 RAIDTARGET2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1346)
 --- @class RAIDTARGET1 : Binding
 RAIDTARGET1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1349)
 --- @class RAIDTARGETNONE : Binding
 RAIDTARGETNONE = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1354)
 --- @class VEHICLEEXIT : Binding
 VEHICLEEXIT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1357)
 --- @class VEHICLEPREVSEAT : Binding
 VEHICLEPREVSEAT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1360)
 --- @class VEHICLENEXTSEAT : Binding
 VEHICLENEXTSEAT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1363)
 --- @class VEHICLEAIMUP : Binding
 VEHICLEAIMUP = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1370)
 --- @class VEHICLEAIMDOWN : Binding
 VEHICLEAIMDOWN = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1373)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1377)
 --- @class VEHICLEAIMINCREMENT : Binding
 VEHICLEAIMINCREMENT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1380)
 --- @class VEHICLEAIMDECREMENT : Binding
 VEHICLEAIMDECREMENT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1379)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1383)
 --- @class VEHICLECAMERAZOOMIN : Binding
 VEHICLECAMERAZOOMIN = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1382)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1386)
 --- @class VEHICLECAMERAZOOMOUT : Binding
 VEHICLECAMERAZOOMOUT = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1391)
 --- @class TURNORACTION : Binding
 TURNORACTION = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Bindings_Cata.xml#L1398)
 --- @class CAMERAORSELECTORMOVE : Binding
 CAMERAORSELECTORMOVE = {}
 

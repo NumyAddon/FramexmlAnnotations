@@ -50,64 +50,17 @@
 --- @class EngravingFrame_EngravingFrameSideInset_EngravingFrameSideInsetBackground : Texture
 EngravingFrameSideInsetBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L805)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type Texture
 EngravingFrameSideInsetBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L810)
---- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-EngravingFrameSideInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L815)
---- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-EngravingFrameSideInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L821)
---- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-EngravingFrameSideInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L827)
---- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-EngravingFrameSideInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L833)
---- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-EngravingFrameSideInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L839)
---- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-EngravingFrameSideInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L845)
---- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-EngravingFrameSideInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L851)
---- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-EngravingFrameSideInsetInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L157)
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameSideInset : Frame, InsetFrameTemplate
 EngravingFrameSideInset = {}
+EngravingFrameSideInset["layoutType"] = "InsetFrameTemplate" -- inherited
 EngravingFrameSideInset["Bg"] = EngravingFrameSideInsetBg -- inherited
-EngravingFrameSideInset["InsetBorderTopLeft"] = EngravingFrameSideInsetInsetTopLeftCorner -- inherited
-EngravingFrameSideInset["InsetBorderTopRight"] = EngravingFrameSideInsetInsetTopRightCorner -- inherited
-EngravingFrameSideInset["InsetBorderBottomLeft"] = EngravingFrameSideInsetInsetBotLeftCorner -- inherited
-EngravingFrameSideInset["InsetBorderBottomRight"] = EngravingFrameSideInsetInsetBotRightCorner -- inherited
-EngravingFrameSideInset["InsetBorderTop"] = EngravingFrameSideInsetInsetTopBorder -- inherited
-EngravingFrameSideInset["InsetBorderBottom"] = EngravingFrameSideInsetInsetBottomBorder -- inherited
-EngravingFrameSideInset["InsetBorderLeft"] = EngravingFrameSideInsetInsetLeftBorder -- inherited
-EngravingFrameSideInset["InsetBorderRight"] = EngravingFrameSideInsetInsetRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L183)
 --- child of EngravingFrameSearchBox

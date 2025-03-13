@@ -12,64 +12,17 @@
 --- @field icon Texture
 --- @field name GroupFinderGroupButtonTemplate_GroupFinderGroupButtonTemplateName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L805)
 --- child of PVEFrameLeftInset (created in template InsetFrameTemplate)
 --- @type Texture
 PVEFrameLeftInsetBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L810)
---- child of PVEFrameLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-PVEFrameLeftInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L815)
---- child of PVEFrameLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-PVEFrameLeftInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L821)
---- child of PVEFrameLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-PVEFrameLeftInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L827)
---- child of PVEFrameLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-PVEFrameLeftInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L833)
---- child of PVEFrameLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-PVEFrameLeftInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L839)
---- child of PVEFrameLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-PVEFrameLeftInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L845)
---- child of PVEFrameLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-PVEFrameLeftInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L851)
---- child of PVEFrameLeftInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-PVEFrameLeftInsetInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L147)
 --- child of PVEFrame
 --- @class PVEFrame_PVEFrameLeftInset : Frame, InsetFrameTemplate
 PVEFrameLeftInset = {}
+PVEFrameLeftInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PVEFrameLeftInset["Bg"] = PVEFrameLeftInsetBg -- inherited
-PVEFrameLeftInset["InsetBorderTopLeft"] = PVEFrameLeftInsetInsetTopLeftCorner -- inherited
-PVEFrameLeftInset["InsetBorderTopRight"] = PVEFrameLeftInsetInsetTopRightCorner -- inherited
-PVEFrameLeftInset["InsetBorderBottomLeft"] = PVEFrameLeftInsetInsetBotLeftCorner -- inherited
-PVEFrameLeftInset["InsetBorderBottomRight"] = PVEFrameLeftInsetInsetBotRightCorner -- inherited
-PVEFrameLeftInset["InsetBorderTop"] = PVEFrameLeftInsetInsetTopBorder -- inherited
-PVEFrameLeftInset["InsetBorderBottom"] = PVEFrameLeftInsetInsetBottomBorder -- inherited
-PVEFrameLeftInset["InsetBorderLeft"] = PVEFrameLeftInsetInsetLeftBorder -- inherited
-PVEFrameLeftInset["InsetBorderRight"] = PVEFrameLeftInsetInsetRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L16)
 --- child of GroupFinderFrameGroupButton1 (created in template GroupFinderGroupButtonTemplate)

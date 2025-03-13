@@ -82,5 +82,5 @@ function DeveloperConsoleAutoCompleteMixin:FinishWork() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Console/Blizzard_Console_AutoComplete.lua#L362)
 function DeveloperConsoleAutoCompleteMixin:CheckYield() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Console/Blizzard_Console_AutoComplete.lua#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Console/Blizzard_Console_AutoComplete.lua#L368)
 function DeveloperConsoleAutoCompleteMixin:StepAutoCompleteSearchCoroutine(searchText) end

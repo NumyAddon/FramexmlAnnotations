@@ -61,107 +61,15 @@ BasicMessageDialog = {}
 --- Template
 --- @class TitleDragAreaTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L213)
---- child of ScriptErrorsFrame
---- @class ScriptErrorsFrame_DragArea : Frame, TitleDragAreaTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L219)
---- child of ScriptErrorsFrame
---- @class ScriptErrorsFrame_ScrollFrame : ScrollFrame, ScrollFrameTemplate
---- @field scrollBarTemplate string # "MinimalScrollBar"
---- @field Text EditBox
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L245)
---- child of ScriptErrorsFrame
---- @class ScriptErrorsFrame_Reload : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L254)
---- child of ScriptErrorsFrame
---- @class ScriptErrorsFrame_PreviousError : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L271)
---- child of ScriptErrorsFrame
---- @class ScriptErrorsFrame_NextError : Button
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L288)
---- child of ScriptErrorsFrame
---- @class ScriptErrorsFrame_Close : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L136)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type UIPanelDialogTemplate_UIPanelDialogTemplateClose
-ScriptErrorsFrameClose = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L52)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type Texture
-ScriptErrorsFrameTopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L59)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type Texture
-ScriptErrorsFrameTopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L66)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type Texture
-ScriptErrorsFrameTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L74)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type Texture
-ScriptErrorsFrameBottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L81)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type Texture
-ScriptErrorsFrameBottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L88)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type Texture
-ScriptErrorsFrameBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L96)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type Texture
-ScriptErrorsFrameLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L104)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type Texture
-ScriptErrorsFrameRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L120)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type Texture
-ScriptErrorsFrameTitleBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L126)
---- child of ScriptErrorsFrame (created in template UIPanelDialogTemplate)
---- @type Texture
-ScriptErrorsFrameDialogBG = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L197)
---- @class ScriptErrorsFrame : Frame, UIPanelDialogTemplate, ScriptErrorsFrameMixin
---- @field DragArea ScriptErrorsFrame_DragArea
---- @field ScrollFrame ScriptErrorsFrame_ScrollFrame
---- @field Reload ScriptErrorsFrame_Reload
---- @field PreviousError ScriptErrorsFrame_PreviousError
---- @field NextError ScriptErrorsFrame_NextError
---- @field Close ScriptErrorsFrame_Close
---- @field IndexLabel FontString
-ScriptErrorsFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L198)
 --- Template
 --- @class BaseTextTimer : Frame, BaseTextTimerMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L338)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L231)
 --- child of BaseExpandableDialog
 --- @class BaseExpandableDialog_CloseButton : Button, UIPanelCloseButtonNoScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L307)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L200)
 --- Template
 --- @class BaseExpandableDialog : Frame, BaseExpandableDialogMixin
 --- @field CloseButton BaseExpandableDialog_CloseButton
@@ -170,29 +78,29 @@ ScriptErrorsFrame = {}
 --- @field Middle Texture
 --- @field CloseButtonBG Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L260)
 --- child of BaseNineSliceDialog
 --- @class BaseNineSliceDialog_Underlay : Frame
 --- @field ignoreInLayout boolean # true
 --- @field Tex Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L437)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L330)
 --- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_CloseButton : Button, SharedButtonLargeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L293)
 --- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_Title : FontString, Game30Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L412)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L305)
 --- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_Description : FontString, System15Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L312)
 --- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_DescriptionDuplicate : FontString, System15Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L280)
 --- child of BaseNineSliceDialog
 --- @class BaseNineSliceDialog_Contents : Frame
 --- @field CloseButton BaseNineSliceDialog_Contents_CloseButton
@@ -204,7 +112,7 @@ ScriptErrorsFrame = {}
 --- @field DescriptionDuplicate BaseNineSliceDialog_Contents_DescriptionDuplicate
 --- @field ParchmentMiddle Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L242)
 --- Template
 --- @class BaseNineSliceDialog : Frame, ResizeLayoutFrame, DefaultScaleFrame, BaseNineSliceDialogMixin
 --- @field fixedWidth number # 586

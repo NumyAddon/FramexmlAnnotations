@@ -301,64 +301,17 @@ CharacterFrameTab4HighlightTexture = {}
 --- @class CharacterFrame_CharacterFrameTab4 : Button, CharacterFrameTabButtonTemplate
 CharacterFrameTab4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L805)
 --- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
 --- @type Texture
 CharacterFrameInsetRightBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L810)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-CharacterFrameInsetRightInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L815)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-CharacterFrameInsetRightInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L821)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-CharacterFrameInsetRightInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L827)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-CharacterFrameInsetRightInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L833)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-CharacterFrameInsetRightInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L839)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-CharacterFrameInsetRightInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L845)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-CharacterFrameInsetRightInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L851)
---- child of CharacterFrameInsetRight (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-CharacterFrameInsetRightInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L344)
 --- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameInsetRight : Frame, InsetFrameTemplate
 CharacterFrameInsetRight = {}
+CharacterFrameInsetRight["layoutType"] = "InsetFrameTemplate" -- inherited
 CharacterFrameInsetRight["Bg"] = CharacterFrameInsetRightBg -- inherited
-CharacterFrameInsetRight["InsetBorderTopLeft"] = CharacterFrameInsetRightInsetTopLeftCorner -- inherited
-CharacterFrameInsetRight["InsetBorderTopRight"] = CharacterFrameInsetRightInsetTopRightCorner -- inherited
-CharacterFrameInsetRight["InsetBorderBottomLeft"] = CharacterFrameInsetRightInsetBotLeftCorner -- inherited
-CharacterFrameInsetRight["InsetBorderBottomRight"] = CharacterFrameInsetRightInsetBotRightCorner -- inherited
-CharacterFrameInsetRight["InsetBorderTop"] = CharacterFrameInsetRightInsetTopBorder -- inherited
-CharacterFrameInsetRight["InsetBorderBottom"] = CharacterFrameInsetRightInsetBottomBorder -- inherited
-CharacterFrameInsetRight["InsetBorderLeft"] = CharacterFrameInsetRightInsetLeftBorder -- inherited
-CharacterFrameInsetRight["InsetBorderRight"] = CharacterFrameInsetRightInsetRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L350)
 --- child of CharacterFrame
@@ -956,76 +909,29 @@ CharacterStatsPaneCategory7["ExpandedIcon"] = CharacterStatsPaneCategory7Expande
 --- @field ClassBackground Texture
 CharacterStatsPane = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L805)
 --- child of CharacterFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 CharacterFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L810)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-CharacterFrameInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L815)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-CharacterFrameInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L821)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-CharacterFrameInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L827)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-CharacterFrameInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L833)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-CharacterFrameInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L839)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-CharacterFrameInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L845)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-CharacterFrameInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L851)
---- child of CharacterFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-CharacterFrameInsetInsetRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L846)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CharacterFrameInset = {}
+CharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 CharacterFrameInset["Bg"] = CharacterFrameInsetBg -- inherited
-CharacterFrameInset["InsetBorderTopLeft"] = CharacterFrameInsetInsetTopLeftCorner -- inherited
-CharacterFrameInset["InsetBorderTopRight"] = CharacterFrameInsetInsetTopRightCorner -- inherited
-CharacterFrameInset["InsetBorderBottomLeft"] = CharacterFrameInsetInsetBotLeftCorner -- inherited
-CharacterFrameInset["InsetBorderBottomRight"] = CharacterFrameInsetInsetBotRightCorner -- inherited
-CharacterFrameInset["InsetBorderTop"] = CharacterFrameInsetInsetTopBorder -- inherited
-CharacterFrameInset["InsetBorderBottom"] = CharacterFrameInsetInsetBottomBorder -- inherited
-CharacterFrameInset["InsetBorderLeft"] = CharacterFrameInsetInsetLeftBorder -- inherited
-CharacterFrameInset["InsetBorderRight"] = CharacterFrameInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L875)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L827)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
 CharacterFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L880)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L832)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
 CharacterFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L885)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L837)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 CharacterFrameButtonBottomBorder = {}

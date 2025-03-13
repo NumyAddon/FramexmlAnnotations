@@ -5,22 +5,22 @@
 EffectFactoryMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L16)
-function EffectFactoryMixin:Init(frameType, template, strata) end
+function EffectFactoryMixin:Init(frameType, template) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L22)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L21)
 function EffectFactoryMixin:Attach(frame, target, offsetX, offsetY, width, height) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L40)
 function EffectFactoryMixin:Show(target, animEnum, offsetX, offsetY, width, height) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L56)
 function EffectFactoryMixin:Hide(target) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L67)
 function EffectFactoryMixin:SetShown(shown, target, animEnum, offsetX, offsetY, width, height) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L75)
 function EffectFactoryMixin:GetExisting(target) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameEffects/EffectFactory.lua#L83)
 function EffectFactoryMixin:HasExisting(target) end

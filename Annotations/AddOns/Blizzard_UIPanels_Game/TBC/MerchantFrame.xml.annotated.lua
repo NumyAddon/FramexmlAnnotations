@@ -22,32 +22,32 @@
 --- @field ItemButton MerchantItemTemplate_MerchantItemTemplateItemButton
 --- @field Name MerchantItemTemplate_MerchantItemTemplateName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem1ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem1ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem1ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem1ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem1ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem1ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem1ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem1ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem1ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem1ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem1ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem1ItemButtonNormalTexture = {}
@@ -147,32 +147,32 @@ MerchantItem1 = {}
 MerchantItem1["ItemButton"] = MerchantItem1ItemButton -- inherited
 MerchantItem1["Name"] = MerchantItem1Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem2ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem2ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem2ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem2ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem2ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem2ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem2ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem2ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem2ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem2ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem2ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem2ItemButtonNormalTexture = {}
@@ -272,32 +272,32 @@ MerchantItem2 = {}
 MerchantItem2["ItemButton"] = MerchantItem2ItemButton -- inherited
 MerchantItem2["Name"] = MerchantItem2Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem3ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem3ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem3ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem3ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem3ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem3ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem3ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem3ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem3ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem3ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem3ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem3ItemButtonNormalTexture = {}
@@ -397,32 +397,32 @@ MerchantItem3 = {}
 MerchantItem3["ItemButton"] = MerchantItem3ItemButton -- inherited
 MerchantItem3["Name"] = MerchantItem3Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem4ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem4ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem4ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem4ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem4ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem4ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem4ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem4ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem4ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem4ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem4ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem4ItemButtonNormalTexture = {}
@@ -522,32 +522,32 @@ MerchantItem4 = {}
 MerchantItem4["ItemButton"] = MerchantItem4ItemButton -- inherited
 MerchantItem4["Name"] = MerchantItem4Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem5ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem5ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem5ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem5ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem5ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem5ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem5ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem5ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem5ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem5ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem5ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem5ItemButtonNormalTexture = {}
@@ -647,32 +647,32 @@ MerchantItem5 = {}
 MerchantItem5["ItemButton"] = MerchantItem5ItemButton -- inherited
 MerchantItem5["Name"] = MerchantItem5Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem6ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem6ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem6ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem6ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem6ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem6ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem6ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem6ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem6ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem6ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem6ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem6ItemButtonNormalTexture = {}
@@ -772,32 +772,32 @@ MerchantItem6 = {}
 MerchantItem6["ItemButton"] = MerchantItem6ItemButton -- inherited
 MerchantItem6["Name"] = MerchantItem6Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem7ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem7ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem7ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem7ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem7ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem7ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem7ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem7ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem7ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem7ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem7ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem7ItemButtonNormalTexture = {}
@@ -897,32 +897,32 @@ MerchantItem7 = {}
 MerchantItem7["ItemButton"] = MerchantItem7ItemButton -- inherited
 MerchantItem7["Name"] = MerchantItem7Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem8ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem8ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem8ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem8ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem8ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem8ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem8ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem8ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem8ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem8ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem8ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem8ItemButtonNormalTexture = {}
@@ -1022,32 +1022,32 @@ MerchantItem8 = {}
 MerchantItem8["ItemButton"] = MerchantItem8ItemButton -- inherited
 MerchantItem8["Name"] = MerchantItem8Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem9ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem9ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem9ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem9ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem9ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem9ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem9ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem9ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem9ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem9ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem9ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem9ItemButtonNormalTexture = {}
@@ -1147,32 +1147,32 @@ MerchantItem9 = {}
 MerchantItem9["ItemButton"] = MerchantItem9ItemButton -- inherited
 MerchantItem9["Name"] = MerchantItem9Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem10ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem10ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem10ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem10ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem10ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem10ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem10ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem10ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem10ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem10ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem10ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem10ItemButtonNormalTexture = {}
@@ -1272,32 +1272,32 @@ MerchantItem10 = {}
 MerchantItem10["ItemButton"] = MerchantItem10ItemButton -- inherited
 MerchantItem10["Name"] = MerchantItem10Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem11ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem11ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem11ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem11ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem11ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem11ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem11ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem11ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem11ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem11ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem11ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem11ItemButtonNormalTexture = {}
@@ -1397,32 +1397,32 @@ MerchantItem11 = {}
 MerchantItem11["ItemButton"] = MerchantItem11ItemButton -- inherited
 MerchantItem11["Name"] = MerchantItem11Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem12ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem12ItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem12ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantItem12ItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem12ItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantItem12ItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantItem12ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem12ItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantItem12ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem12ItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantItem12ItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantItem12ItemButtonNormalTexture = {}
@@ -1547,32 +1547,32 @@ MerchantGuildBankRepairButtonIcon = {}
 --- @class MerchantFrame_MerchantGuildBankRepairButton : Button
 MerchantGuildBankRepairButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantBuyBackItemItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantBuyBackItemItemButtonIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantBuyBackItemItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 MerchantBuyBackItemItemButtonCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantBuyBackItemItemButton (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 MerchantBuyBackItemItemButtonStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
 --- child of MerchantBuyBackItemItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantBuyBackItemItemButtonSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L52)
 --- child of MerchantBuyBackItemItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantBuyBackItemItemButtonSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L60)
 --- child of MerchantBuyBackItemItemButton (created in template ItemButtonTemplate)
 --- @type Texture
 MerchantBuyBackItemItemButtonNormalTexture = {}
@@ -1639,64 +1639,17 @@ MerchantBuyBackItem = {}
 MerchantBuyBackItem["ItemButton"] = MerchantBuyBackItemItemButton
 MerchantBuyBackItem["Name"] = MerchantBuyBackItemName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L805)
 --- child of MerchantMoneyInset (created in template InsetFrameTemplate)
 --- @type Texture
 MerchantMoneyInsetBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L810)
---- child of MerchantMoneyInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-MerchantMoneyInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L815)
---- child of MerchantMoneyInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-MerchantMoneyInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L821)
---- child of MerchantMoneyInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-MerchantMoneyInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L827)
---- child of MerchantMoneyInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-MerchantMoneyInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L833)
---- child of MerchantMoneyInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-MerchantMoneyInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L839)
---- child of MerchantMoneyInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-MerchantMoneyInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L845)
---- child of MerchantMoneyInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-MerchantMoneyInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L851)
---- child of MerchantMoneyInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-MerchantMoneyInsetInsetRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L414)
 --- child of MerchantFrame
 --- @class MerchantFrame_MerchantMoneyInset : Frame, InsetFrameTemplate
 MerchantMoneyInset = {}
+MerchantMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 MerchantMoneyInset["Bg"] = MerchantMoneyInsetBg -- inherited
-MerchantMoneyInset["InsetBorderTopLeft"] = MerchantMoneyInsetInsetTopLeftCorner -- inherited
-MerchantMoneyInset["InsetBorderTopRight"] = MerchantMoneyInsetInsetTopRightCorner -- inherited
-MerchantMoneyInset["InsetBorderBottomLeft"] = MerchantMoneyInsetInsetBotLeftCorner -- inherited
-MerchantMoneyInset["InsetBorderBottomRight"] = MerchantMoneyInsetInsetBotRightCorner -- inherited
-MerchantMoneyInset["InsetBorderTop"] = MerchantMoneyInsetInsetTopBorder -- inherited
-MerchantMoneyInset["InsetBorderBottom"] = MerchantMoneyInsetInsetBottomBorder -- inherited
-MerchantMoneyInset["InsetBorderLeft"] = MerchantMoneyInsetInsetLeftBorder -- inherited
-MerchantMoneyInset["InsetBorderRight"] = MerchantMoneyInsetInsetRightBorder -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L1665)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
@@ -1872,76 +1825,29 @@ MerchantFrameBottomLeftBorder = {}
 --- @class MerchantFrame_MerchantFrameBottomRightBorder : Texture
 MerchantFrameBottomRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L805)
 --- child of MerchantFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 MerchantFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L810)
---- child of MerchantFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-MerchantFrameInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L815)
---- child of MerchantFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-MerchantFrameInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L821)
---- child of MerchantFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-MerchantFrameInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L827)
---- child of MerchantFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-MerchantFrameInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L833)
---- child of MerchantFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-MerchantFrameInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L839)
---- child of MerchantFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-MerchantFrameInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L845)
---- child of MerchantFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-MerchantFrameInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L851)
---- child of MerchantFrameInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-MerchantFrameInsetInsetRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L846)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MerchantFrameInset = {}
+MerchantFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 MerchantFrameInset["Bg"] = MerchantFrameInsetBg -- inherited
-MerchantFrameInset["InsetBorderTopLeft"] = MerchantFrameInsetInsetTopLeftCorner -- inherited
-MerchantFrameInset["InsetBorderTopRight"] = MerchantFrameInsetInsetTopRightCorner -- inherited
-MerchantFrameInset["InsetBorderBottomLeft"] = MerchantFrameInsetInsetBotLeftCorner -- inherited
-MerchantFrameInset["InsetBorderBottomRight"] = MerchantFrameInsetInsetBotRightCorner -- inherited
-MerchantFrameInset["InsetBorderTop"] = MerchantFrameInsetInsetTopBorder -- inherited
-MerchantFrameInset["InsetBorderBottom"] = MerchantFrameInsetInsetBottomBorder -- inherited
-MerchantFrameInset["InsetBorderLeft"] = MerchantFrameInsetInsetLeftBorder -- inherited
-MerchantFrameInset["InsetBorderRight"] = MerchantFrameInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L875)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L827)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
 MerchantFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L880)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L832)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
 MerchantFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L885)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L837)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 MerchantFrameButtonBottomBorder = {}

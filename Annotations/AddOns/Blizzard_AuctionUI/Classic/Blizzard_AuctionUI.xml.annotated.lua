@@ -504,76 +504,29 @@ StoreButton = {}
 --- @field Tutorial3 AuctionFrame_AuctionFrameBrowse_BrowseWowTokenResults_WowTokenGameTimeTutorial_RightDisplay_Tutorial3
 --- @field infoarrow Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L802)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L805)
 --- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
 --- @type Texture
 WowTokenGameTimeTutorialInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L810)
---- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopLeftCorner
-WowTokenGameTimeTutorialInsetInsetTopLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L815)
---- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopRightCorner
-WowTokenGameTimeTutorialInsetInsetTopRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L821)
---- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotLeftCorner
-WowTokenGameTimeTutorialInsetInsetBotLeftCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L827)
---- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBotRightCorner
-WowTokenGameTimeTutorialInsetInsetBotRightCorner = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L833)
---- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetTopBorder
-WowTokenGameTimeTutorialInsetInsetTopBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L839)
---- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetBottomBorder
-WowTokenGameTimeTutorialInsetInsetBottomBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L845)
---- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetLeftBorder
-WowTokenGameTimeTutorialInsetInsetLeftBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L851)
---- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
---- @type InsetFrameTemplate_InsetFrameTemplateInsetRightBorder
-WowTokenGameTimeTutorialInsetInsetRightBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L894)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L846)
 --- child of WowTokenGameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 WowTokenGameTimeTutorialInset = {}
+WowTokenGameTimeTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
 WowTokenGameTimeTutorialInset["Bg"] = WowTokenGameTimeTutorialInsetBg -- inherited
-WowTokenGameTimeTutorialInset["InsetBorderTopLeft"] = WowTokenGameTimeTutorialInsetInsetTopLeftCorner -- inherited
-WowTokenGameTimeTutorialInset["InsetBorderTopRight"] = WowTokenGameTimeTutorialInsetInsetTopRightCorner -- inherited
-WowTokenGameTimeTutorialInset["InsetBorderBottomLeft"] = WowTokenGameTimeTutorialInsetInsetBotLeftCorner -- inherited
-WowTokenGameTimeTutorialInset["InsetBorderBottomRight"] = WowTokenGameTimeTutorialInsetInsetBotRightCorner -- inherited
-WowTokenGameTimeTutorialInset["InsetBorderTop"] = WowTokenGameTimeTutorialInsetInsetTopBorder -- inherited
-WowTokenGameTimeTutorialInset["InsetBorderBottom"] = WowTokenGameTimeTutorialInsetInsetBottomBorder -- inherited
-WowTokenGameTimeTutorialInset["InsetBorderLeft"] = WowTokenGameTimeTutorialInsetInsetLeftBorder -- inherited
-WowTokenGameTimeTutorialInset["InsetBorderRight"] = WowTokenGameTimeTutorialInsetInsetRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L875)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L827)
 --- child of WowTokenGameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
 WowTokenGameTimeTutorialBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L880)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L832)
 --- child of WowTokenGameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
 WowTokenGameTimeTutorialBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L885)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L837)
 --- child of WowTokenGameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
 WowTokenGameTimeTutorialButtonBottomBorder = {}
@@ -1899,6 +1852,7 @@ BrowseDropdownName = {}
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseDropdown : DropdownButton, WowStyle1DropdownTemplate
 BrowseDropdown = {}
+BrowseDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L476)
 --- child of IsUsableCheckButton (created in template UICheckButtonTemplate)
@@ -4627,7 +4581,7 @@ AuctionsCancelAuctionButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2394)
 --- child of AuctionFrameAuctions
---- @class AuctionFrame_AuctionFrameAuctions_AuctionsCreateAuctionButton : Button, UIPanelButtonTemplate
+--- @class AuctionFrame_AuctionFrameAuctions_AuctionsCreateAuctionButton : Button, UIPanelButtonTemplate, AuctionPostMixin
 AuctionsCreateAuctionButton = {}
 AuctionsCreateAuctionButton["fitTextCanWidthDecrease"] = true -- inherited
 
@@ -4708,39 +4662,40 @@ AuctionFrameBot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L3)
 --- @class AuctionFrame : Frame
+--- @field DialogOverlay Button
 AuctionFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2520)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2527)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressBar : StatusBar, CastingBarFrameTemplate
 AuctionProgressBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2545)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2552)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameCancelButton : Button
 AuctionProgressFrameCancelButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2483)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameFill : Texture
 AuctionProgressFrameFill = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2494)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2501)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameLeft : Texture
 AuctionProgressFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2502)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2509)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameRight : Texture
 AuctionProgressFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2517)
 --- child of AuctionProgressFrame
 --- @class AuctionProgressFrame_AuctionProgressFrameMiddle : Texture
 AuctionProgressFrameMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2470)
 --- @class AuctionProgressFrame : Frame
 AuctionProgressFrame = {}
 

@@ -686,7 +686,7 @@ CharacterSelectUI["LogoHoist"] = LogoHoist
 CharacterSelectUI["VisibilityFramesContainer"] = VisibilityFramesContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L260)
---- @class CharacterSelect : Frame, CallbackRegistrantTemplate, CharacterSelectFrameMixin
+--- @class CharacterSelect : Frame, CharacterSelectFrameMixin
 --- @field CharacterSelectUI CharacterSelect_CharacterSelectUI
 --- @field LeftBlackBar Texture
 --- @field RightBlackBar Texture

@@ -25,8 +25,8 @@ function GameMenuFrameMixin:OnUIPanelHidden(contextKey) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L61)
 function GameMenuFrameMixin:InitButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L127)
 function GameMenuFrameMixin:SetRatingsButtonShown(shown) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Standard/GameMenuFrame.lua#L131)
 function GameMenuFrameMixin:GetRatingsButtonShown() end

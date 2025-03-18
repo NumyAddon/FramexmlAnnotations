@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.lua#L2481)
+--- @class EditModeCooldownViewerSystemMixin : EditModeSystemMixin
+EditModeCooldownViewerSystemMixin = CreateFromMixins(EditModeSystemMixin)
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.lua#L1)
 --- @class EditModeSystemMixin
 EditModeSystemMixin = {}
@@ -103,10 +107,6 @@ EditModeVehicleSeatIndicatorSystemMixin = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.lua#L2454)
 --- @class EditModeArchaeologyBarSystemMixin
 EditModeArchaeologyBarSystemMixin = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.lua#L2481)
---- @class EditModeCooldownViewerSystemMixin
-EditModeCooldownViewerSystemMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.lua#L2654)
 --- @class EditModeSystemSelectionBaseMixin

@@ -164,8 +164,10 @@ StoreMicroButtonFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L275)
 --- @class StoreMicroButton : Button, MainMenuBarMicroButton, StoreMicroButtonMixin
+--- @field buttonContext string # "StoreMicroButton"
 --- @field FlashContent Texture
 StoreMicroButton = {}
+StoreMicroButton["buttonContext"] = "StoreMicroButton"
 StoreMicroButton["Flash"] = StoreMicroButtonFlash -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L12)
@@ -173,7 +175,7 @@ StoreMicroButton["Flash"] = StoreMicroButtonFlash -- inherited
 --- @type Texture
 MainMenuMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L292)
 --- @class MainMenuMicroButton : Button, MainMenuBarMicroButton, MainMenuMicroButtonMixin
 --- @field commandName string # "TOGGLEGAMEMENU"
 --- @field FlashContent Texture
@@ -182,7 +184,7 @@ MainMenuMicroButton = {}
 MainMenuMicroButton["commandName"] = "TOGGLEGAMEMENU"
 MainMenuMicroButton["Flash"] = MainMenuMicroButtonFlash -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L317)
 --- @class MicroMenu : Frame, GridLayoutFrame, MicroMenuMixin
 --- @field childXPadding number # -5
 MicroMenu = {}

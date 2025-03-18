@@ -45,7 +45,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L119)
 --- child of GuildRenameFrame
---- @class GuildRenameFrame_ContextButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate
+--- @class GuildRenameFrame_ContextButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, GuildRenameContextButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L110)
 --- child of GuildRenameFrame_MoneyFrame (created in template SmallMoneyFrameTemplate)
@@ -67,11 +67,11 @@ GuildRenameFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 GuildRenameFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L128)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_MoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L133)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_Spinner : Frame, SpinnerTemplate
 

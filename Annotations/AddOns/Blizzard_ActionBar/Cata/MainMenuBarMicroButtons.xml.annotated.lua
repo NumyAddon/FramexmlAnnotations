@@ -64,7 +64,7 @@ TalentMicroButton["Flash"] = TalentMicroButtonFlash -- inherited
 --- @type Texture
 AchievementMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L180)
 --- @class AchievementMicroButton : Button, MainMenuBarMicroButton
 AchievementMicroButton = {}
 AchievementMicroButton["Flash"] = AchievementMicroButtonFlash -- inherited
@@ -74,7 +74,7 @@ AchievementMicroButton["Flash"] = AchievementMicroButtonFlash -- inherited
 --- @type Texture
 QuestLogMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L204)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L203)
 --- @class QuestLogMicroButton : Button, MainMenuBarMicroButton
 QuestLogMicroButton = {}
 QuestLogMicroButton["Flash"] = QuestLogMicroButtonFlash -- inherited
@@ -84,7 +84,7 @@ QuestLogMicroButton["Flash"] = QuestLogMicroButtonFlash -- inherited
 --- @type Texture
 SocialsMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L225)
 --- @class SocialsMicroButton : Button, MainMenuBarMicroButton, SocialsMicroButtonMixin
 SocialsMicroButton = {}
 SocialsMicroButton["Flash"] = SocialsMicroButtonFlash -- inherited
@@ -94,7 +94,7 @@ SocialsMicroButton["Flash"] = SocialsMicroButtonFlash -- inherited
 --- @type Texture
 GuildMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L238)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L237)
 --- @class GuildMicroButton : Button, MainMenuBarMicroButton, GuildMicroButtonMixin
 --- @field commandName string # "TOGGLEGUILDTAB"
 --- @field NotificationOverlay Frame
@@ -107,14 +107,14 @@ GuildMicroButton["Flash"] = GuildMicroButtonFlash -- inherited
 --- @type Texture
 CollectionsMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L255)
 --- @class CollectionsMicroButton : Button, MainMenuBarMicroButton, CollectionMicroButtonMixin
 --- @field lastNumMountsNeedingFanfare number # 0
 CollectionsMicroButton = {}
 CollectionsMicroButton["lastNumMountsNeedingFanfare"] = 0
 CollectionsMicroButton["Flash"] = CollectionsMicroButtonFlash -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L287)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L286)
 --- child of PVPMicroButton
 --- @class PVPMicroButton_PVPMicroButtonTexture : Texture
 PVPMicroButtonTexture = {}
@@ -124,7 +124,7 @@ PVPMicroButtonTexture = {}
 --- @type Texture
 PVPMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L276)
 --- @class PVPMicroButton : Button, MainMenuBarMicroButton
 --- @field texture PVPMicroButton_PVPMicroButtonTexture
 PVPMicroButton = {}
@@ -136,7 +136,7 @@ PVPMicroButton["Flash"] = PVPMicroButtonFlash -- inherited
 --- @type Texture
 LFGMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L357)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L356)
 --- @class LFGMicroButton : Button, MainMenuBarMicroButton
 LFGMicroButton = {}
 LFGMicroButton["Flash"] = LFGMicroButtonFlash -- inherited
@@ -146,14 +146,14 @@ LFGMicroButton["Flash"] = LFGMicroButtonFlash -- inherited
 --- @type Texture
 EJMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L407)
 --- @class EJMicroButton : Button, MainMenuBarMicroButton, EJMicroButtonMixin
 --- @field commandName string # "TOGGLEENCOUNTERJOURNAL"
 EJMicroButton = {}
 EJMicroButton["commandName"] = "TOGGLEENCOUNTERJOURNAL"
 EJMicroButton["Flash"] = EJMicroButtonFlash -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L432)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L431)
 --- child of MainMenuMicroButton
 --- @class MainMenuMicroButton_MainMenuBarPerformanceBar : Texture
 MainMenuBarPerformanceBar = {}
@@ -163,7 +163,7 @@ MainMenuBarPerformanceBar = {}
 --- @type Texture
 MainMenuMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L426)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L425)
 --- @class MainMenuMicroButton : Button, MainMenuBarMicroButton
 MainMenuMicroButton = {}
 MainMenuMicroButton["Flash"] = MainMenuMicroButtonFlash -- inherited
@@ -173,8 +173,114 @@ MainMenuMicroButton["Flash"] = MainMenuMicroButtonFlash -- inherited
 --- @type Texture
 HelpMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L527)
 --- @class HelpMicroButton : Button, MainMenuBarMicroButton
 HelpMicroButton = {}
 HelpMicroButton["Flash"] = HelpMicroButtonFlash -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L607)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type Texture
+TalentMicroButtonAlertBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L620)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTopLeft
+TalentMicroButtonAlertGlowTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L625)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTopRight
+TalentMicroButtonAlertGlowTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L631)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomLeft
+TalentMicroButtonAlertGlowBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L637)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottomRight
+TalentMicroButtonAlertGlowBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L643)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowTop
+TalentMicroButtonAlertGlowTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L649)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowBottom
+TalentMicroButtonAlertGlowBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L655)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowLeft
+TalentMicroButtonAlertGlowLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L661)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateGlowRight
+TalentMicroButtonAlertGlowRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L669)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTopLeft
+TalentMicroButtonAlertShadowTopLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L674)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTopRight
+TalentMicroButtonAlertShadowTopRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L680)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomLeft
+TalentMicroButtonAlertShadowBottomLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L686)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottomRight
+TalentMicroButtonAlertShadowBottomRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L692)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowTop
+TalentMicroButtonAlertShadowTop = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L698)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowBottom
+TalentMicroButtonAlertShadowBottom = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L704)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowLeft
+TalentMicroButtonAlertShadowLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L710)
+--- child of TalentMicroButtonAlert (created in template GlowBoxTemplate)
+--- @type GlowBoxTemplate_GlowBoxTemplateShadowRight
+TalentMicroButtonAlertShadowRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L547)
+--- @class TalentMicroButtonAlert : Frame, MicroButtonAlertTemplate
+TalentMicroButtonAlert = {}
+TalentMicroButtonAlert["BG"] = TalentMicroButtonAlertBg -- inherited
+TalentMicroButtonAlert["GlowTopLeft"] = TalentMicroButtonAlertGlowTopLeft -- inherited
+TalentMicroButtonAlert["GlowTopRight"] = TalentMicroButtonAlertGlowTopRight -- inherited
+TalentMicroButtonAlert["GlowBottomLeft"] = TalentMicroButtonAlertGlowBottomLeft -- inherited
+TalentMicroButtonAlert["GlowBottomRight"] = TalentMicroButtonAlertGlowBottomRight -- inherited
+TalentMicroButtonAlert["GlowTop"] = TalentMicroButtonAlertGlowTop -- inherited
+TalentMicroButtonAlert["GlowBottom"] = TalentMicroButtonAlertGlowBottom -- inherited
+TalentMicroButtonAlert["GlowLeft"] = TalentMicroButtonAlertGlowLeft -- inherited
+TalentMicroButtonAlert["GlowRight"] = TalentMicroButtonAlertGlowRight -- inherited
+TalentMicroButtonAlert["ShadowTopLeft"] = TalentMicroButtonAlertShadowTopLeft -- inherited
+TalentMicroButtonAlert["ShadowTopRight"] = TalentMicroButtonAlertShadowTopRight -- inherited
+TalentMicroButtonAlert["ShadowBottomLeft"] = TalentMicroButtonAlertShadowBottomLeft -- inherited
+TalentMicroButtonAlert["ShadowBottomRight"] = TalentMicroButtonAlertShadowBottomRight -- inherited
+TalentMicroButtonAlert["ShadowTop"] = TalentMicroButtonAlertShadowTop -- inherited
+TalentMicroButtonAlert["ShadowBottom"] = TalentMicroButtonAlertShadowBottom -- inherited
+TalentMicroButtonAlert["ShadowLeft"] = TalentMicroButtonAlertShadowLeft -- inherited
+TalentMicroButtonAlert["ShadowRight"] = TalentMicroButtonAlertShadowRight -- inherited
 

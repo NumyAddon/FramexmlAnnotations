@@ -126,27 +126,33 @@
 --- @field Bar CooldownViewerBuffBarItemTemplate_Bar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L268)
---- @class EssentialCooldownViewer : Frame, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, EssentialCooldownViewerMixin
+--- @class EssentialCooldownViewer : Frame, UIParentBottomManagedFrameTemplate, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, EssentialCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.Essential
 EssentialCooldownViewer = {}
 EssentialCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.Essential
+EssentialCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+EssentialCooldownViewer["isManagedFrame"] = true -- inherited
 EssentialCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L281)
---- @class UtilityCooldownViewer : Frame, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, UtilityCooldownViewerMixin
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L284)
+--- @class UtilityCooldownViewer : Frame, UIParentBottomManagedFrameTemplate, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, UtilityCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.Utility
 UtilityCooldownViewer = {}
 UtilityCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.Utility
+UtilityCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+UtilityCooldownViewer["isManagedFrame"] = true -- inherited
 UtilityCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L294)
---- @class BuffIconCooldownViewer : Frame, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, BuffIconCooldownViewerMixin
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L300)
+--- @class BuffIconCooldownViewer : Frame, UIParentBottomManagedFrameTemplate, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, BuffIconCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.BuffIcon
 BuffIconCooldownViewer = {}
 BuffIconCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.BuffIcon
+BuffIconCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+BuffIconCooldownViewer["isManagedFrame"] = true -- inherited
 BuffIconCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L308)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L318)
 --- @class BuffBarCooldownViewer : Frame, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, BuffBarCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.BuffBar
 BuffBarCooldownViewer = {}

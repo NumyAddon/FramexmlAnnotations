@@ -28,5 +28,5 @@ function GlueGameLogoMixin:SetGameLogoDefaultHeight(gameLogoDefaultHeight) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueGameLogo.lua#L38)
 function GlueGameLogoMixin:UpdateLogoTexture() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueGameLogo.lua#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/GlueGameLogo.lua#L79)
 function GlueGameLogoMixin:GetDisplayedExpansionLogo(expansionLevel, desiredReleaseType) end

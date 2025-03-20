@@ -20,15 +20,15 @@ CharacterBoostMixin = {}
 --- @class GameLogoDarkBackdropMixin
 GameLogoDarkBackdropMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3625)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3622)
 --- @class CharacterSelectMailIndicationButtonMixin
 CharacterSelectMailIndicationButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3640)
 --- @class CharSelectServicesFlowFrameMixin
 CharSelectServicesFlowFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3666)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3663)
 --- @class FlowErrorContainerMixin
 FlowErrorContainerMixin = {}
 
@@ -65,23 +65,23 @@ function GameLogoDarkBackdropMixin:OnEvent(event) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L2829)
 function GameLogoDarkBackdropMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3627)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3624)
 function CharacterSelectMailIndicationButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3635)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3632)
 function CharacterSelectMailIndicationButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3636)
 function CharacterSelectMailIndicationButtonMixin:SetMailSenders(mailSenders) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3645)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3642)
 function CharSelectServicesFlowFrameMixin:SetErrorMessage(msg) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3660)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3657)
 function CharSelectServicesFlowFrameMixin:ClearErrorMessage() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3668)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3665)
 function FlowErrorContainerMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3678)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GlueXML/Classic/CharacterSelect.lua#L3675)
 function FlowErrorContainerMixin:OnLeave() end

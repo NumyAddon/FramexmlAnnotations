@@ -272,7 +272,11 @@
 --- Template
 --- @class IMEHighlight : Font, System_IME
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L211)
+--- Template
+--- @class MovieSubtitleFont : Font, SystemFont22_Shadow_Outline
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FontStyles_Shared/SharedFontStyles.xml#L215)
 --- Template
 --- @class Number14FontWhite : Font, NumberFont_Normal_Med
 

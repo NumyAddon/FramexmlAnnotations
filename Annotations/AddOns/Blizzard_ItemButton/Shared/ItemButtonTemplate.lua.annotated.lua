@@ -97,5 +97,5 @@ function ItemButtonMixin:OnUpdateItemContextMatching(bagID) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Shared/ItemButtonTemplate.lua#L250)
 function ItemButtonMixin:RegisterBagButtonUpdateItemContextMatching() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Shared/ItemButtonTemplate.lua#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Shared/ItemButtonTemplate.lua#L259)
 function ItemButtonMixin:GetItemButtonIconTexture() end

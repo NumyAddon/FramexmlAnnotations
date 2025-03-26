@@ -78,6 +78,9 @@ function BonusObjectivePinMixin:OnMouseUpAction() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua#L182)
 function BonusObjectivePinMixin:OnMouseClickAction(button) end
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua#L186)
+function BonusObjectivePinMixin:GetDisplayName() end
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedMapDataProviders/BonusObjectiveDataProvider.lua#L194)
 function ThreatObjectivePinMixin:OnLoad() end
 

@@ -19,6 +19,10 @@
 --- @class ItemQualityColorOverrides_ItemQualities : Frame, VerticalLayoutFrame
 --- @field spacing number # 10
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/Colorblind.xml#L47)
+--- child of ItemQualityColorOverrides
+--- @class ItemQualityColorOverrides_NewFeature : Frame, NewFeatureLabelTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/Colorblind.xml#L30)
 --- child of ItemQualityColorOverrides
 --- @class ItemQualityColorOverrides_Header : FontString, GameFontNormal
@@ -27,5 +31,6 @@
 --- Template
 --- @class ItemQualityColorOverrides : Frame, ItemQualityColorOverrideMixin
 --- @field ItemQualities ItemQualityColorOverrides_ItemQualities
+--- @field NewFeature ItemQualityColorOverrides_NewFeature
 --- @field Header ItemQualityColorOverrides_Header
 

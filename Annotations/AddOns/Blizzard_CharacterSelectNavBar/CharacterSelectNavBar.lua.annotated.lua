@@ -28,47 +28,65 @@ function CharacterSelectNavBarButtonMixin:SetLockHighlight(lockHighlight) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L85)
 function CharacterSelectNavBarMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L114)
 function CharacterSelectNavBarMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L121)
 function CharacterSelectNavBarMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L143)
 function CharacterSelectNavBarMixin:OnGameModeFrameHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L147)
 function CharacterSelectNavBarMixin:OnGameModeUpdateNavBar() end
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L151)
+function CharacterSelectNavBarMixin:AddButton(label, controlCallback, ...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L160)
+function CharacterSelectNavBarMixin:TrySetUpGameModeButton() end
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L192)
+function CharacterSelectNavBarMixin:TrySetUpStoreButton() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L238)
+function CharacterSelectNavBarMixin:TrySetUpMenuButton() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L246)
+function CharacterSelectNavBarMixin:TrySetUpRealmsButton() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L255)
+function CharacterSelectNavBarMixin:TrySetUpCampsButton() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L267)
 function CharacterSelectNavBarMixin:ToggleGameModeDrawer() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L277)
 function CharacterSelectNavBarMixin:SetButtonVisuals() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L302)
 function CharacterSelectNavBarMixin:UpdateSelectedGameMode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L311)
 function CharacterSelectNavBarMixin:UpdateButtonDividerState(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L330)
 function CharacterSelectNavBarMixin:UpdateGameModeSelectionTutorial() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L342)
 function CharacterSelectNavBarMixin:SetGameModeButtonEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L315)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L353)
 function CharacterSelectNavBarMixin:SetStoreButtonEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L329)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L367)
 function CharacterSelectNavBarMixin:SetMenuButtonEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L336)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L374)
 function CharacterSelectNavBarMixin:SetRealmsButtonEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L343)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L381)
 function CharacterSelectNavBarMixin:SetCampsButtonEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L388)
 function CharacterSelectNavBarMixin:EvaluateHelptips() end

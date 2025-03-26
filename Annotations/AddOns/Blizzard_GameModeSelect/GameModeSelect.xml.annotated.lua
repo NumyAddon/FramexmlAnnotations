@@ -8,56 +8,42 @@
 --- @field BackgroundGlowBottom Texture
 --- @field NormalTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L63)
---- child of GameModeButtonPulsingTemplate
---- @class GameModeButtonPulsingTemplate_PulseAnim : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L46)
---- Template
---- @class GameModeButtonPulsingTemplate : Button, GameModeButtonTemplate, SelectableButtonMixin, GameModeButtonPulsingMixin
---- @field PulseTexture Texture
---- @field PulseTextureTwo Texture
---- @field PulseAnim GameModeButtonPulsingTemplate_PulseAnim
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L102)
---- child of GameModeFrameTemplate
---- @class GameModeFrameTemplate_SelectWoWToggle : Button, GameModeButtonTemplate
---- @field gameMode any # Enum.GameMode.Standard
---- @field NormalTexture Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L142)
---- child of GameModeFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText
---- @class GameModeFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText_BGLabel : FontString, GameFontNormal_NoShadow
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L74)
+--- child of GameModePromoButtonTemplate_PromoText
+--- @class GameModePromoButtonTemplate_PromoText_BGLabel : FontString, GameFontNormal_NoShadow
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L151)
---- child of GameModeFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText
---- @class GameModeFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText_Label : FontString, GameFontHighlight
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L83)
+--- child of GameModePromoButtonTemplate_PromoText
+--- @class GameModePromoButtonTemplate_PromoText_Label : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L134)
---- child of GameModeFrameTemplate_SelectWoWLabsToggle
---- @class GameModeFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText : Frame
---- @field BGLabel GameModeFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText_BGLabel
---- @field Label GameModeFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText_Label
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L67)
+--- child of GameModePromoButtonTemplate
+--- @class GameModePromoButtonTemplate_PromoText : Frame
+--- @field BGLabel GameModePromoButtonTemplate_PromoText_BGLabel
+--- @field Label GameModePromoButtonTemplate_PromoText_Label
 --- @field Glow Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L122)
---- child of GameModeFrameTemplate
---- @class GameModeFrameTemplate_SelectWoWLabsToggle : Button, GameModeButtonPulsingTemplate
---- @field gameMode any # Enum.GameMode.Plunderstorm
---- @field LimitedTimeEventText GameModeFrameTemplate_SelectWoWLabsToggle_LimitedTimeEventText
---- @field NormalTexture Texture
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L104)
+--- child of GameModePromoButtonTemplate
+--- @class GameModePromoButtonTemplate_PulseAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L50)
+--- Template
+--- @class GameModePromoButtonTemplate : Button, GameModeButtonTemplate, SelectableButtonMixin, GameModeButtonPromoMixin
+--- @field PromoText GameModePromoButtonTemplate_PromoText
+--- @field PulseTexture Texture
+--- @field PulseTextureTwo Texture
+--- @field PulseAnim GameModePromoButtonTemplate_PulseAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L134)
 --- child of GameModeFrameTemplate
 --- @class GameModeFrameTemplate_NoGameModesText : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L120)
 --- Template
 --- @class GameModeFrameTemplate : Frame, CallbackRegistrantTemplate, ResizeLayoutFrame, GameModeFrameMixin
 --- @field fixedHeight string # "122"
---- @field SelectWoWToggle GameModeFrameTemplate_SelectWoWToggle
---- @field SelectWoWLabsToggle GameModeFrameTemplate_SelectWoWLabsToggle
 --- @field Background Texture
 --- @field NoGameModesText GameModeFrameTemplate_NoGameModesText
 

@@ -164,12 +164,12 @@ CharacterUpgradeSecondChanceWarningFrame = {}
 --- @field Description CharacterSelect_CharacterSelectUI_UpgradePopupFrame_Description
 UpgradePopupFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L850)
 --- child of CharacterSelect_CharacterSelectUI_CollectionsFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 CharacterSelectUICloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L817)
 --- child of CharacterSelect_CharacterSelectUI_CollectionsFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 CharacterSelectUIBg = {}
@@ -854,18 +854,18 @@ CopyCharacterFrameRegionID["menuMixin"] = MenuStyle1Mixin -- inherited
 --- child of CopyCharacterFrame
 --- @class CopyCharacterFrame_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L903)
 --- child of CopyCharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CopyCharacterFrameInset = {}
 CopyCharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L897)
 --- child of CopyCharacterFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 CopyCharacterFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GlueXML/Mainline/CharacterSelect.xml#L880)
 --- child of CopyCharacterFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 CopyCharacterFrameBg = {}

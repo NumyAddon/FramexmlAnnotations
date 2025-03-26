@@ -66,7 +66,7 @@ CompactRaidFrameManagerToggleButtonBack["hoverTex"] = "gm-btnback-hover"
 CompactRaidFrameManagerDisplayFrameModeControlDropdown = {}
 CompactRaidFrameManagerDisplayFrameModeControlDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L3298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L2970)
 --- child of CompactRaidFrameManagerDisplayFrameOptionsButton (created in template UIPanelInfoButton)
 --- @type Texture
 CompactRaidFrameManagerDisplayFrameOptionsButtonTexture = {}

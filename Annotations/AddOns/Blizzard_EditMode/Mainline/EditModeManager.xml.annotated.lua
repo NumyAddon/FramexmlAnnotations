@@ -8,7 +8,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L29)
 --- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_Tutorial : Button, MainHelpPlateButton, EditModeManagerTutorialMixin
---- @field MainHelpPlateButtonTooltipText any # EDIT_MODE_HELPTIP_BUTTON_TOOLTIP
+--- @field mainHelpPlateButtonTooltipText any # EDIT_MODE_HELPTIP_BUTTON_TOOLTIP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L42)
 --- child of EditModeManagerFrame

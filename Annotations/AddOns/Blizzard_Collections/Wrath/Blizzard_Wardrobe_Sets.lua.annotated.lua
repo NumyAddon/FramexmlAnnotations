@@ -351,5 +351,5 @@ function WardrobeSetsTransmogMixin:CanHandleKey(key) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe_Sets.lua#L1593)
 function WardrobeSetsTransmogMixin:HandleKey(key) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe_Sets.lua#L1617)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe_Sets.lua#L1613)
 function WardrobeSetsTransmogMixin:ResetPage() end

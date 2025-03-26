@@ -10,8 +10,8 @@ function BlackMarketItemMixin:OnClick(buttonName, down) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L70)
 function BlackMarketItemMixin:Init(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L122)
 function BlackMarketItemMixin:ShouldSelect(selected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.lua#L126)
 function BlackMarketItemMixin:SetSelected(selected) end

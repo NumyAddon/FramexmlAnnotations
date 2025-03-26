@@ -15,7 +15,7 @@
 --- @field Bar Texture
 --- @field TutorialBadge Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.xml#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.xml#L76)
 --- child of CharacterSelectNavBarTemplate
 --- @class CharacterSelectNavBarTemplate_ButtonTray : Frame, HorizontalButtonTrayTemplate
 --- @field expand boolean # true
@@ -23,5 +23,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.xml#L60)
 --- Template
 --- @class CharacterSelectNavBarTemplate : Frame, CallbackRegistrantTemplate, CharacterSelectNavBarMixin
+--- @field gameModeButtonAvailable boolean # true
 --- @field ButtonTray CharacterSelectNavBarTemplate_ButtonTray
 

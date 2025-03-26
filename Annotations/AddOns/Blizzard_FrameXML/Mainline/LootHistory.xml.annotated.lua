@@ -158,7 +158,7 @@
 --- child of GroupLootHistoryFrame
 --- @class GroupLootHistoryFrame_NoInfoString : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L1003)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L746)
 --- child of GroupLootHistoryFrame (created in template DefaultPanelFlatTemplate)
 --- @type DefaultPanelFlatTemplate_DefaultPanelFlatTemplateBg
 GroupLootHistoryFrameBg = {}

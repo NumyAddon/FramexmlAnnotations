@@ -3072,18 +3072,18 @@ SpellBookPage1 = {}
 --- @class SpellBookFrame_SpellBookPage2 : Texture
 SpellBookPage2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L903)
 --- child of SpellBookFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 SpellBookFrameInset = {}
 SpellBookFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L897)
 --- child of SpellBookFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 SpellBookFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L880)
 --- child of SpellBookFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 SpellBookFrameBg = {}

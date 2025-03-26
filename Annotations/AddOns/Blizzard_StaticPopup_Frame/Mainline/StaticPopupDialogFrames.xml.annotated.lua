@@ -45,22 +45,22 @@ StaticPopup1ExtraButton = {}
 StaticPopup1EditBox = {}
 StaticPopup1EditBox["addHighlightedText"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L102)
 --- child of StaticPopup1MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
 StaticPopup1MoneyFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L130)
 --- child of StaticPopup1MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
 StaticPopup1MoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L154)
 --- child of StaticPopup1MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
 StaticPopup1MoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L178)
 --- child of StaticPopup1MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 StaticPopup1MoneyFrameGoldButton = {}
@@ -69,6 +69,7 @@ StaticPopup1MoneyFrameGoldButton = {}
 --- child of StaticPopup1 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateMoneyFrame
 StaticPopup1MoneyFrame = {}
+StaticPopup1MoneyFrame["small"] = 1 -- inherited
 StaticPopup1MoneyFrame["trialErrorButton"] = StaticPopup1MoneyFrameTrialErrorButton -- inherited
 StaticPopup1MoneyFrame["CopperButton"] = StaticPopup1MoneyFrameCopperButton -- inherited
 StaticPopup1MoneyFrame["SilverButton"] = StaticPopup1MoneyFrameSilverButton -- inherited
@@ -178,22 +179,22 @@ StaticPopup2ExtraButton = {}
 StaticPopup2EditBox = {}
 StaticPopup2EditBox["addHighlightedText"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L102)
 --- child of StaticPopup2MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
 StaticPopup2MoneyFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L130)
 --- child of StaticPopup2MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
 StaticPopup2MoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L154)
 --- child of StaticPopup2MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
 StaticPopup2MoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L178)
 --- child of StaticPopup2MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 StaticPopup2MoneyFrameGoldButton = {}
@@ -202,6 +203,7 @@ StaticPopup2MoneyFrameGoldButton = {}
 --- child of StaticPopup2 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateMoneyFrame
 StaticPopup2MoneyFrame = {}
+StaticPopup2MoneyFrame["small"] = 1 -- inherited
 StaticPopup2MoneyFrame["trialErrorButton"] = StaticPopup2MoneyFrameTrialErrorButton -- inherited
 StaticPopup2MoneyFrame["CopperButton"] = StaticPopup2MoneyFrameCopperButton -- inherited
 StaticPopup2MoneyFrame["SilverButton"] = StaticPopup2MoneyFrameSilverButton -- inherited
@@ -311,22 +313,22 @@ StaticPopup3ExtraButton = {}
 StaticPopup3EditBox = {}
 StaticPopup3EditBox["addHighlightedText"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L102)
 --- child of StaticPopup3MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
 StaticPopup3MoneyFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L130)
 --- child of StaticPopup3MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
 StaticPopup3MoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L154)
 --- child of StaticPopup3MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
 StaticPopup3MoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L178)
 --- child of StaticPopup3MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 StaticPopup3MoneyFrameGoldButton = {}
@@ -335,6 +337,7 @@ StaticPopup3MoneyFrameGoldButton = {}
 --- child of StaticPopup3 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateMoneyFrame
 StaticPopup3MoneyFrame = {}
+StaticPopup3MoneyFrame["small"] = 1 -- inherited
 StaticPopup3MoneyFrame["trialErrorButton"] = StaticPopup3MoneyFrameTrialErrorButton -- inherited
 StaticPopup3MoneyFrame["CopperButton"] = StaticPopup3MoneyFrameCopperButton -- inherited
 StaticPopup3MoneyFrame["SilverButton"] = StaticPopup3MoneyFrameSilverButton -- inherited
@@ -444,22 +447,22 @@ StaticPopup4ExtraButton = {}
 StaticPopup4EditBox = {}
 StaticPopup4EditBox["addHighlightedText"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L102)
 --- child of StaticPopup4MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
 StaticPopup4MoneyFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L130)
 --- child of StaticPopup4MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
 StaticPopup4MoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L154)
 --- child of StaticPopup4MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
 StaticPopup4MoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StaticPopup_Frame/Mainline/StaticPopupDialogFrames.xml#L178)
 --- child of StaticPopup4MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 StaticPopup4MoneyFrameGoldButton = {}
@@ -468,6 +471,7 @@ StaticPopup4MoneyFrameGoldButton = {}
 --- child of StaticPopup4 (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_StaticPopupTemplateMoneyFrame
 StaticPopup4MoneyFrame = {}
+StaticPopup4MoneyFrame["small"] = 1 -- inherited
 StaticPopup4MoneyFrame["trialErrorButton"] = StaticPopup4MoneyFrameTrialErrorButton -- inherited
 StaticPopup4MoneyFrame["CopperButton"] = StaticPopup4MoneyFrameCopperButton -- inherited
 StaticPopup4MoneyFrame["SilverButton"] = StaticPopup4MoneyFrameSilverButton -- inherited

@@ -1,41 +1,41 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L176)
 --- child of ModelPreviewFrame_Display_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 ModelPreviewFrameTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L181)
 --- child of ModelPreviewFrame_Display_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 ModelPreviewFrameTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L189)
 --- child of ModelPreviewFrame_Display_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 ModelPreviewFrameBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L197)
 --- child of ModelPreviewFrame_Display_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 ModelPreviewFrameBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L205)
 --- child of ModelPreviewFrame_Display_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 ModelPreviewFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L211)
 --- child of ModelPreviewFrame_Display_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 ModelPreviewFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L217)
 --- child of ModelPreviewFrame_Display_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 ModelPreviewFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L223)
 --- child of ModelPreviewFrame_Display_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 ModelPreviewFrameRight = {}
@@ -87,18 +87,18 @@ ModelPreviewFrameRight = {}
 ModelPreviewFrameCloseButton = {}
 ModelPreviewFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L903)
 --- child of ModelPreviewFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ModelPreviewFrameInset = {}
 ModelPreviewFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L897)
 --- child of ModelPreviewFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 ModelPreviewFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L880)
 --- child of ModelPreviewFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ModelPreviewFrameBg = {}

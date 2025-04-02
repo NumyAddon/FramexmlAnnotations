@@ -79,14 +79,14 @@ function CharacterSelectNavBarMixin:SetGameModeButtonEnabled(enabled) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L353)
 function CharacterSelectNavBarMixin:SetStoreButtonEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L369)
 function CharacterSelectNavBarMixin:SetMenuButtonEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L376)
 function CharacterSelectNavBarMixin:SetRealmsButtonEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L383)
 function CharacterSelectNavBarMixin:SetCampsButtonEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CharacterSelectNavBar/CharacterSelectNavBar.lua#L390)
 function CharacterSelectNavBarMixin:EvaluateHelptips() end

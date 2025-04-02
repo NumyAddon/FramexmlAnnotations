@@ -42,7 +42,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GameModeSelect/GameModeSelect.xml#L120)
 --- Template
---- @class GameModeFrameTemplate : Frame, CallbackRegistrantTemplate, ResizeLayoutFrame, GameModeFrameMixin
+--- @class GameModeFrameTemplate : Frame, CallbackRegistrantTemplate, ResizeLayoutFrame, DefaultScaleFrame, GameModeFrameMixin
 --- @field fixedHeight string # "122"
 --- @field Background Texture
 --- @field NoGameModesText GameModeFrameTemplate_NoGameModesText

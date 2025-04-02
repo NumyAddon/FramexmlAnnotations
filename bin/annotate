@@ -2,10 +2,13 @@
 <?php
 declare(strict_types=1);
 
+use App\FlavorEnum;
 use App\LuaFileParser;
 use App\Registry;
+use App\TocFileParser;
 use App\XmlFileParser;
 use Symfony\Component\Console\Input\ArgvInput;
+use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputDefinition;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\ConsoleOutput;
@@ -23,15 +26,77 @@ $inputDefinition->addOption(
 $inputDefinition->addOption(
     new InputOption('linkPrefix', 'l', InputOption::VALUE_REQUIRED, 'Prefix for links in the output'),
 );
+$inputDefinition->addArgument(
+        // it's actually required, but --help doesn't work with required arguments atm
+    new InputArgument('flavor', InputArgument::OPTIONAL, 'Flavor to filter toc files on. E.g. "mainline", "cata", "vanilla"'),
+);
+$inputDefinition->addOption(
+    new InputOption('help', 'h', InputOption::VALUE_NONE, 'Display this help message'),
+);
 $input = new ArgvInput(definition: $inputDefinition);
 $output = new ConsoleOutput();
 $io = new SymfonyStyle($input, $output);
 
+if ($input->getOption('help')) {
+    // should probably just bite the bullet and use the Symfony Console component properly :)
+    $io->writeln('Usage: annotate [options] <flavor>');
+    $io->writeln('');
+    $io->writeln('Options:');
+    foreach ($inputDefinition->getOptions() as $option) {
+        $message = '  ';
+        if ($option->getShortcut()) {
+            $message .= sprintf('-%s, ', $option->getShortcut());
+        }
+        $message .= sprintf('--%s', $option->getName());
+        if ($option->acceptValue()) {
+            $message .= '=VALUE';
+        }
+        $message .= sprintf('  %s', $option->getDescription());
+        if ($option->acceptValue()) {
+            $defaultValue = $option->getDefault();
+            if (null !== $defaultValue && !is_array($defaultValue)) {
+                $message .= sprintf(' (default: %s)', $defaultValue);
+            }
+        }
+        $io->writeln($message);
+    }
+    $io->writeln('');
+    $io->writeln('Arguments:');
+    foreach ($inputDefinition->getArguments() as $argument) {
+        $message = '  ';
+        if ($argument->isRequired()) {
+            $message .= '<';
+        } else {
+            $message .= '[';
+        }
+        $message .= sprintf('%s', $argument->getName());
+        if ($argument->isRequired()) {
+            $message .= '>';
+        } else {
+            $message .= ']';
+        }
+        $message .= sprintf('  %s', $argument->getDescription());
+        $io->writeln($message);
+    }
+
+    exit(0);
+}
+
 $outputDir = $input->getOption('outputDir');
 $inputDir = $input->getOption('inputDir');
 $linkPrefix = $input->getOption('linkPrefix');
+try {
+    $flavor = FlavorEnum::from($input->getArgument('flavor'));
+} catch (Throwable) {
+    $io->error(
+        'Invalid flavor. Must be one of: ' . implode(
+            ', ',
+            array_map(fn (FlavorEnum $flavor) => $flavor->value, FlavorEnum::cases()),
+        ),
+    );
+    exit(1);
+}
 
-// todo: parse tocs instead?
 $fileList = [];
 if (is_file($inputDir) && (str_ends_with($inputDir, '.lua') || str_ends_with($inputDir, '.xml'))) {
     $fileList[$inputDir] = pathinfo($inputDir, PATHINFO_EXTENSION);
@@ -40,34 +105,24 @@ if (is_file($inputDir) && (str_ends_with($inputDir, '.lua') || str_ends_with($in
     $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($inputDir));
     $iterator->rewind();
 
-    $tocFiles = [];
+    $dirsWithToc = [];
     /** @var $iterator RecursiveDirectoryIterator */
     while ($iterator->valid()) {
-        if (
-            !$iterator->isDot() && $iterator->isFile()
-            && ('lua' === $iterator->getExtension() || 'xml' === $iterator->getExtension())
-        ) {
-            $fileList[$iterator->getPath() . '/' . $iterator->getFilename()] = $iterator->getExtension();
-        }
         if ('toc' === $iterator->getExtension()) {
-            $tocFiles[] = $iterator->getPath() . '/' . $iterator->getFilename();
+            $dirsWithToc[$iterator->getPath()] = true;
         }
         $iterator->next();
     }
 
-    foreach ($tocFiles as $tocFile) {
-        $toc = file_get_contents($tocFile);
-        if (str_contains($toc, '## AllowLoad: glue')) {
-            // remove all files with shared basepath from $fileList
-            $basePath = dirname($tocFile);
-            foreach ($fileList as $filePath => $extension) {
-                if (str_starts_with($filePath, $basePath)) {
-                    unset($fileList[$filePath]);
-                }
-            }
+    $tocParser = new TocFileParser($flavor);
+    foreach (array_keys($dirsWithToc) as $dirWithToc) {
+        $tocFile = $tocParser->findTocFile($dirWithToc);
+        if ($tocFile) {
+            $fileList = array_merge($fileList, $tocParser->listFiles($tocFile));
         }
     }
 }
+$fileList = array_unique($fileList);
 
 $intrinsicRegistry = new Registry();
 $templateRegistry = new Registry();
@@ -77,10 +132,10 @@ $luaFileParser = new LuaFileParser();
 
 $io->writeln('Parsing files...');
 $progressBar = $io->createProgressBar(count($fileList));
-foreach ($fileList as $filePath => $extension) {
-    if ('xml' === $extension) {
+foreach ($fileList as $filePath) {
+    if (str_ends_with($filePath, 'xml')) {
         $xmlFileParser->parse($filePath);
-    } elseif ('lua' === $extension) {
+    } elseif (str_ends_with($filePath, 'lua')) {
         $luaFileParser->parse($filePath, $inputDir, $linkPrefix);
     }
     $progressBar->advance();
@@ -89,10 +144,10 @@ $progressBar->finish();
 $io->newLine();
 $io->writeln('Writing annotations...');
 $progressBar = $io->createProgressBar(count($fileList));
-foreach($fileList as $filePath => $extension) {
-    if ('xml' === $extension) {
+foreach($fileList as $filePath) {
+    if (str_ends_with($filePath, 'xml')) {
         $xmlFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir, $linkPrefix);
-    } elseif ('lua' === $extension) {
+    } elseif (str_ends_with($filePath, 'lua')) {
         $luaFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir);
     }
     $progressBar->advance();

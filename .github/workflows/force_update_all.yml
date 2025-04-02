@@ -9,45 +9,53 @@ jobs:
     with:
       BRANCH: live
       FORCE_UPDATE: true
+      FLAVOR: mainline
 
   ptr:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: ptr
       FORCE_UPDATE: true
+      FLAVOR: mainline
 
   ptr2:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: ptr2
       FORCE_UPDATE: true
+      FLAVOR: mainline
 
   beta:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: beta
       FORCE_UPDATE: true
+      FLAVOR: mainline
 
   classic:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic
       FORCE_UPDATE: true
+      FLAVOR: cata
 
   classic_ptr:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic_ptr
       FORCE_UPDATE: true
+      FLAVOR: cata
 
   classic_era:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic_era
       FORCE_UPDATE: true
+      FLAVOR: vanilla
 
   classic_era_ptr:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic_era_ptr
       FORCE_UPDATE: true
+      FLAVOR: vanilla

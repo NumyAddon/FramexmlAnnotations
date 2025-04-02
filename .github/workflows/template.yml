@@ -1,6 +1,30 @@
 name: template
 
 on:
+  workflow_dispatch:
+    inputs:
+      BRANCH:
+        description: 'Branch to run the workflow on'
+        required: true
+        default: 'live'
+        type: string
+      FLAVOR:
+        description: 'Flavor to filter the input for'
+        required: true
+        default: 'mainline'
+        type: choice
+        options:
+          - mainline
+          - mists
+          - cata
+          - wrath
+          - tbc
+          - vanilla
+      FORCE_UPDATE:
+        description: 'Force update the branch'
+        required: false
+        default: false
+        type: boolean
   workflow_call:
     inputs:
       BRANCH:
@@ -8,17 +32,10 @@ on:
         required: true
         default: 'live'
         type: string
-      FORCE_UPDATE:
-        description: 'Force update the branch'
-        required: false
-        default: false
-        type: boolean
-  workflow_dispatch:
-    inputs:
-      BRANCH:
-        description: 'Branch to run the workflow on'
+      FLAVOR:
+        description: 'Flavor to filter the input for'
         required: true
-        default: 'live'
+        default: 'mainline'
         type: string
       FORCE_UPDATE:
         description: 'Force update the branch'
@@ -112,11 +129,12 @@ jobs:
         run: |
           set -ex
           branch=${{ inputs.BRANCH }}
+          flavor=${{ inputs.FLAVOR }}
           cd ./.wow-ui-source
           remote_commit_hash=$(git rev-parse HEAD)
           message="Synced to commit ${remote_commit_hash}"
           cd ..
-          bin/annotate --inputDir=./.wow-ui-source/Interface --outputDir=./.annotations_temp/Annotations --linkPrefix="https://github.com/Gethe/wow-ui-source/blob/${branch}/Interface"
+          bin/annotate ${flavor} --inputDir=./.wow-ui-source/Interface --outputDir=./.annotations_temp/Annotations --linkPrefix="https://github.com/Gethe/wow-ui-source/blob/${branch}/Interface"
           cd ./.annotations_temp
           git config user.name "GitHub Actions"
           git config user.email noreply@github.com

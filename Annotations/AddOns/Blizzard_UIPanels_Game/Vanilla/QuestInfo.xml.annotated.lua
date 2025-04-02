@@ -70,17 +70,22 @@ QuestInfoObjective1 = {}
 --- @field Objectives table<number, QuestInfoObjectivesFrame_QuestInfoObjective1>
 QuestInfoObjectivesFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L123)
 --- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
 --- @type Texture
 QuestInfoSpellObjectiveFrameIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L129)
 --- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
 --- @type Texture
 QuestInfoSpellObjectiveFrameNameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L137)
+--- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
+--- @type Texture
+QuestInfoSpellObjectiveFrameSpellBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestInfo.xml#L144)
 --- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
 --- @type QuestSpellTemplate_QuestSpellTemplateName
 QuestInfoSpellObjectiveFrameName = {}

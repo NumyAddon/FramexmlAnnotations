@@ -40,7 +40,7 @@ LFGParentFrameTab1Middle = {}
 --- @type Texture
 LFGParentFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L114)
 --- child of LFGParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 LFGParentFrameTab1HighlightTexture = {}
@@ -80,7 +80,7 @@ LFGParentFrameTab2Middle = {}
 --- @type Texture
 LFGParentFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L114)
 --- child of LFGParentFrameTab2 (created in template CharacterFrameTabButtonTemplate)
 --- @type Texture
 LFGParentFrameTab2HighlightTexture = {}

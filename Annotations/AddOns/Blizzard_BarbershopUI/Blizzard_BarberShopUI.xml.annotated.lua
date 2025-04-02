@@ -71,27 +71,27 @@ BarberShopAlternateFormBottomHighlight = {}
 --- @class BarberShopFrame_BarberShopAlternateFormBottom : CheckButton
 BarberShopAlternateFormBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L80)
 --- child of BarberShopFrameMaleButton (created in template CharacterCreateGenderButtonTemplate)
 --- @type Texture
 BarberShopFrameMaleButtonNormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L7)
 --- child of BarberShopFrameMaleButton (created in template CharacterCreateIconButtonTemplate)
---- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
+--- @type FontString
 BarberShopFrameMaleButtonHighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L18)
 --- child of BarberShopFrameMaleButton (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 BarberShopFrameMaleButtonShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L27)
 --- child of BarberShopFrameMaleButton (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 BarberShopFrameMaleButtonBevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L34)
 --- child of BarberShopFrameMaleButton (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 BarberShopFrameMaleButtonDisableTexture = {}
@@ -103,27 +103,27 @@ BarberShopFrameMaleButtonDisableTexture = {}
 BarberShopFrameMaleButton = {}
 BarberShopFrameMaleButton["layoutIndex"] = 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L80)
 --- child of BarberShopFrameFemaleButton (created in template CharacterCreateGenderButtonTemplate)
 --- @type Texture
 BarberShopFrameFemaleButtonNormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L7)
 --- child of BarberShopFrameFemaleButton (created in template CharacterCreateIconButtonTemplate)
---- @type CharacterCreateIconButtonTemplate_CharacterCreateIconButtonTemplateHighlightText
+--- @type FontString
 BarberShopFrameFemaleButtonHighlightText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L20)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L18)
 --- child of BarberShopFrameFemaleButton (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 BarberShopFrameFemaleButtonShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L29)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L27)
 --- child of BarberShopFrameFemaleButton (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 BarberShopFrameFemaleButtonBevelEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L34)
 --- child of BarberShopFrameFemaleButton (created in template CharacterCreateIconButtonTemplate)
 --- @type Texture
 BarberShopFrameFemaleButtonDisableTexture = {}

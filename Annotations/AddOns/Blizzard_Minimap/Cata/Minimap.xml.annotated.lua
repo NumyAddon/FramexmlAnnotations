@@ -104,7 +104,7 @@ MiniMapTrackingIconOverlay = {}
 --- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking : Frame
 MiniMapTracking = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L9)
 --- child of MiniMapLFGFrameIcon (created in template EyeTemplate)
 --- @type Texture
 MiniMapLFGFrameIconTexture = {}

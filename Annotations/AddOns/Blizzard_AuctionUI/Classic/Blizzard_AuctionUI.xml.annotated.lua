@@ -1852,6 +1852,7 @@ BrowseDropdownName = {}
 --- child of AuctionFrameBrowse
 --- @class AuctionFrame_AuctionFrameBrowse_BrowseDropdown : DropdownButton, WowStyle1DropdownTemplate
 BrowseDropdown = {}
+BrowseDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L476)
 --- child of IsUsableCheckButton (created in template UICheckButtonTemplate)

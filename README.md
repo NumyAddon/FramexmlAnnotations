@@ -1,6 +1,6 @@
 Status: beta
 
-The logic to pull annotations can be find in the [master branch](https://github.com/NumyAddon/FramexmlAnnotations/tree/master).
+The logic to pull annotations can be found in the [master branch](https://github.com/NumyAddon/FramexmlAnnotations/tree/master).
 
 This repository is configured to automatically pull the latest version of [Gethe/wow-ui-source](https://github.com/Gethe/wow-ui-source/), and generate annotations from _all_ files.
 Currently, the annotations are generated for the following branches:
@@ -23,4 +23,4 @@ Generated annotations are limited to
     - "methods" for a given mixin
     - inheritence through `CreateFromMixins`
 - Global functions
-  - for now disabled, using Ketho's annotations, and including the wow source as workspace libraries is probably better
+  - for now disabled, using Ketho's annotations and including the wow source as workspace libraries is probably better

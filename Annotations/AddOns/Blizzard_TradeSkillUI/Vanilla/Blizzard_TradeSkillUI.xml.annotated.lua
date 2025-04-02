@@ -95,11 +95,6 @@ TradeSkillHighlight = {}
 --- @class TradeSkillFrame_TradeSkillHighlightFrame : Frame
 TradeSkillHighlightFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L6)
---- child of TradeSkillSkill1 (created in template TradeSkillSkillButtonTemplate)
---- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
-TradeSkillSkill1Count = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill1 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
@@ -114,11 +109,6 @@ TradeSkillSkill1Highlight = {}
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillSkill1 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill1 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L6)
---- child of TradeSkillSkill2 (created in template TradeSkillSkillButtonTemplate)
---- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
-TradeSkillSkill2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill2 (created in template ClassTrainerSkillButtonTemplate)
@@ -135,11 +125,6 @@ TradeSkillSkill2Highlight = {}
 --- @class TradeSkillFrame_TradeSkillSkill2 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L6)
---- child of TradeSkillSkill3 (created in template TradeSkillSkillButtonTemplate)
---- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
-TradeSkillSkill3Count = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill3 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
@@ -154,11 +139,6 @@ TradeSkillSkill3Highlight = {}
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillSkill3 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill3 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L6)
---- child of TradeSkillSkill4 (created in template TradeSkillSkillButtonTemplate)
---- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
-TradeSkillSkill4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill4 (created in template ClassTrainerSkillButtonTemplate)
@@ -175,11 +155,6 @@ TradeSkillSkill4Highlight = {}
 --- @class TradeSkillFrame_TradeSkillSkill4 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L6)
---- child of TradeSkillSkill5 (created in template TradeSkillSkillButtonTemplate)
---- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
-TradeSkillSkill5Count = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill5 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
@@ -194,11 +169,6 @@ TradeSkillSkill5Highlight = {}
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillSkill5 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill5 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L6)
---- child of TradeSkillSkill6 (created in template TradeSkillSkillButtonTemplate)
---- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
-TradeSkillSkill6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill6 (created in template ClassTrainerSkillButtonTemplate)
@@ -215,11 +185,6 @@ TradeSkillSkill6Highlight = {}
 --- @class TradeSkillFrame_TradeSkillSkill6 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L6)
---- child of TradeSkillSkill7 (created in template TradeSkillSkillButtonTemplate)
---- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
-TradeSkillSkill7Count = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill7 (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_ClassTrainerSkillButtonTemplateSubText
@@ -234,11 +199,6 @@ TradeSkillSkill7Highlight = {}
 --- child of TradeSkillFrame
 --- @class TradeSkillFrame_TradeSkillSkill7 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill7 = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L6)
---- child of TradeSkillSkill8 (created in template TradeSkillSkillButtonTemplate)
---- @type TradeSkillSkillButtonTemplate_TradeSkillSkillButtonTemplateCount
-TradeSkillSkill8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L9)
 --- child of TradeSkillSkill8 (created in template ClassTrainerSkillButtonTemplate)

@@ -11,23 +11,20 @@ class TocFileParser
 {
     public function __construct(
         private readonly FlavorEnum $flavor,
+        /**
+         * @var array<string, string> [lowercase path => real path]
+         */
+        private readonly array $normalizedPathsMap,
     ) {
     }
 
     public function findTocFile(string $dirWithToc): ?string
     {
-        $dir = new DirectoryIterator($dirWithToc);
-        $tocFiles = [];
-        foreach ($dir as $fileInfo) {
-            if ($fileInfo->isFile() && $fileInfo->getExtension() === 'toc') {
-                $tocFiles[strtolower($fileInfo->getFilename())] = $fileInfo->getFilename();
-            }
-        }
         $dirName = basename($dirWithToc);
         foreach ($this->getSuffixesForFlavor($this->flavor) as $suffix) {
-            $tocFileName = strtolower($dirName . $suffix . '.toc');
-            if (isset($tocFiles[$tocFileName])) {
-                return $dirWithToc . '/' . $tocFiles[$tocFileName];
+            $tocFileName = strtolower($dirWithToc . '/' . $dirName . $suffix . '.toc');
+            if (isset($this->normalizedPathsMap[$tocFileName])) {
+                return $this->normalizedPathsMap[$tocFileName];
             }
         }
 
@@ -117,10 +114,14 @@ class TocFileParser
 
             $line = trim($line);
             $filePath = $dir . '/' . ltrim($line, '/');
-            $files[] = $filePath;
+            $realPath = $this->normalizedPathsMap[strtolower($filePath)] ?? null;
+            if (!$realPath) {
+                continue;
+            }
+            $files[] = $realPath;
 
             if (str_ends_with($line, '.xml')) {
-                $files = array_merge($files, $this->parseXmlIncludes($filePath));
+                $files = array_merge($files, $this->parseXmlIncludes($realPath));
             }
         }
 
@@ -195,10 +196,11 @@ class TocFileParser
                 if ($file) {
                     $file = (string) $file;
                     $filePath = dirname($filePath) . '/' . ltrim($file, '/');
-                    if (is_file($filePath)) {
-                        $files[] = $filePath;
-                        if (str_ends_with($filePath, '.xml')) {
-                            $files = array_merge($files, $this->parseXmlIncludes($filePath, $tree));
+                    $realPath = $this->normalizedPathsMap[strtolower($filePath)] ?? null;
+                    if ($realPath) {
+                        $files[] = $realPath;
+                        if (str_ends_with($realPath, '.xml')) {
+                            $files = array_merge($files, $this->parseXmlIncludes($realPath, $tree));
                         }
                     }
                 }

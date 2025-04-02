@@ -97,9 +97,11 @@ try {
     exit(1);
 }
 
+$fileMap = [];
 $fileList = [];
 if (is_file($inputDir) && (str_ends_with($inputDir, '.lua') || str_ends_with($inputDir, '.xml'))) {
-    $fileList[$inputDir] = pathinfo($inputDir, PATHINFO_EXTENSION);
+    $fileList[] = $inputDir;
+    $fileMap[strtolower($inputDir)] = $inputDir;
 } elseif (is_dir($inputDir)) {
     $inputDir = rtrim($inputDir, '/');
     $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($inputDir));
@@ -111,10 +113,12 @@ if (is_file($inputDir) && (str_ends_with($inputDir, '.lua') || str_ends_with($in
         if ('toc' === $iterator->getExtension()) {
             $dirsWithToc[$iterator->getPath()] = true;
         }
+        $filePath = $iterator->getPath() . '/' . $iterator->getFilename();
+        $fileMap[strtolower($filePath)] = $filePath;
         $iterator->next();
     }
 
-    $tocParser = new TocFileParser($flavor);
+    $tocParser = new TocFileParser($flavor, $fileMap);
     foreach (array_keys($dirsWithToc) as $dirWithToc) {
         $tocFile = $tocParser->findTocFile($dirWithToc);
         if ($tocFile) {

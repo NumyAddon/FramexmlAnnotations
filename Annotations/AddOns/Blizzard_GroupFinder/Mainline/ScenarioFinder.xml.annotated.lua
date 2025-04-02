@@ -28,7 +28,6 @@ ScenarioQueueFrameTypeDropdownName = {}
 --- child of ScenarioQueueFrame
 --- @class ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameTypeDropdown : DropdownButton, WowStyle1DropdownTemplate
 ScenarioQueueFrameTypeDropdown = {}
-ScenarioQueueFrameTypeDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L654)
 --- child of ScenarioQueueFrameRandomScrollFrameChildFrameItem1RoleIcon1 (created in template LFGRewardsLootShortageTemplate)

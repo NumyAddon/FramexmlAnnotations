@@ -114,7 +114,6 @@ RaidFinderQueueFrameSelectionDropdownName = {}
 --- child of RaidFinderQueueFrame
 --- @class RaidFinderFrame_RaidFinderQueueFrame_RaidFinderQueueFrameSelectionDropdown : DropdownButton, WowStyle1DropdownTemplate
 RaidFinderQueueFrameSelectionDropdown = {}
-RaidFinderQueueFrameSelectionDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L654)
 --- child of RaidFinderQueueFrameScrollFrameChildFrameItem1RoleIcon1 (created in template LFGRewardsLootShortageTemplate)

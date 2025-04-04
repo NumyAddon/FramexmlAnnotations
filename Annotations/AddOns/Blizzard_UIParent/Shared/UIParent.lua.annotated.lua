@@ -35,8 +35,8 @@ function UIParentManagedFrameContainerMixin:RemoveManagedFrame(frame) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIParent/Shared/UIParent.lua#L128)
 function UIParentManagedFrameContainerMixin:UpdateManagedFramesAlphaState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIParent/Shared/UIParent.lua#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIParent/Shared/UIParent.lua#L148)
 function UIParentManagedFrameContainerMixin:AnimOutManagedFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIParent/Shared/UIParent.lua#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIParent/Shared/UIParent.lua#L154)
 function UIParentManagedFrameContainerMixin:AnimInManagedFrames() end

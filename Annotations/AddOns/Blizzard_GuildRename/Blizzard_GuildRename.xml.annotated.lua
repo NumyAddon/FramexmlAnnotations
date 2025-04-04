@@ -19,31 +19,31 @@
 --- @field RefundOption GuildRenameFrame_TitleFlow_RefundOption
 --- @field Description GuildRenameFrame_TitleFlow_Description
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L71)
 --- child of GuildRenameFrame_RenameFlow_NameBox
 --- @class GuildRenameFrame_RenameFlow_NameBox_Instructions : FontString, GameFontDisableSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L63)
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_NameBox : EditBox, InputBoxTemplate
 --- @field Instructions GuildRenameFrame_RenameFlow_NameBox_Instructions
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L80)
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_Spinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L54)
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_Description : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L47)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_RenameFlow : Frame, GuildRenameFlowMixin
 --- @field NameBox GuildRenameFrame_RenameFlow_NameBox
 --- @field Spinner GuildRenameFrame_RenameFlow_Spinner
 --- @field Description GuildRenameFrame_RenameFlow_Description
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L123)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_ContextButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, GuildRenameContextButtonMixin
 
@@ -67,12 +67,12 @@ GuildRenameFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
 GuildRenameFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L132)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_MoneyFrame : Frame, SmallMoneyFrameTemplate, SimpleTooltipRegionMixin
 --- @field moneyType string # "STATIC"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L145)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_GuildIcon : Frame, GuildIconDisplayMixin
 --- @field tooltip any # GUILD_RENAME_COSTS_TOOLTIP
@@ -80,7 +80,7 @@ GuildRenameFrameGoldButton = {}
 --- @field Emblem Texture
 --- @field HighlightEmblem Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L179)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_Spinner : Frame, SpinnerTemplate
 

@@ -165,6 +165,20 @@ class XmlFileParser
         file_put_contents($targetFile, $data);
     }
 
+    public function writeRawXmlToFile(string $filename, string $outDir, string $prefixToStrip): void
+    {
+        $targetFile = $filename;
+        if (str_starts_with($targetFile, $prefixToStrip)) {
+            $targetFile = substr($targetFile, strlen($prefixToStrip));
+        }
+        $targetFile = rtrim($outDir, '/') . '/' . ltrim($targetFile, '/');
+        if (!is_dir(dirname($targetFile))) {
+            mkdir($outDir . '/' . dirname($filename), recursive: true);
+        }
+
+        copy($filename, $targetFile);
+    }
+
     private function childHasInterestingData(Frame $child): bool
     {
         return

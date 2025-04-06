@@ -35,6 +35,11 @@ on:
         required: false
         default: false
         type: boolean
+      INCLUDE_RAW_XML_SOURCE:
+        description: 'Include raw XML source files'
+        required: false
+        default: false
+        type: boolean
   workflow_call:
     inputs:
       BRANCH:
@@ -59,6 +64,11 @@ on:
         type: boolean
       MIX_ANNOTATIONS_INTO_SOURCE:
         description: 'Include all lua source files, and add class annotations to the source files'
+        required: false
+        default: false
+        type: boolean
+      INCLUDE_RAW_XML_SOURCE:
+        description: 'Include raw XML source files'
         required: false
         default: false
         type: boolean
@@ -155,11 +165,14 @@ jobs:
           remote_commit_hash=$(git rev-parse HEAD)
           message="Synced to commit ${remote_commit_hash}"
           cd ..
-          mixAnnotationsIntoSource=""
+          extraArgs=""
           if [[ "${{ inputs.MIX_ANNOTATIONS_INTO_SOURCE }}" == "true" ]]; then
-            mixAnnotationsIntoSource="--mixAnnotationsIntoSource"
+            extraArgs="${extraArgs} --mixAnnotationsIntoSource"
           fi
-          bin/annotate ${flavor} --inputDir=./.wow-ui-source/Interface --outputDir=./.annotations_temp/Annotations --linkPrefix="https://github.com/Gethe/wow-ui-source/blob/${branch_name}/Interface" ${mixAnnotationsIntoSource}
+          if [[ "${{ inputs.INCLUDE_RAW_XML_SOURCE }}" == "true" ]]; then
+              extraArgs="${extraArgs} --includeRawXmlSource"
+          fi
+          bin/annotate ${flavor} --inputDir=./.wow-ui-source/Interface --outputDir=./.annotations_temp/Annotations --linkPrefix="https://github.com/Gethe/wow-ui-source/blob/${branch_name}/Interface" ${extraArgs}
           cd ./.annotations_temp
           git config user.name "GitHub Actions"
           git config user.email noreply@github.com

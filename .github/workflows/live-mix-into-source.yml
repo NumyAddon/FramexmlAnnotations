@@ -13,3 +13,4 @@ jobs:
       TARGET_BRANCH_SUFFIX: '-mix-into-source'
       FLAVOR: mainline
       MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true

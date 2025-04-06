@@ -31,7 +31,8 @@ require_once __DIR__ . '/../vendor/autoload.php';
     ->addOption('outputDir', 'o', InputOption::VALUE_REQUIRED, 'Output directory', './.annotated')
     ->addOption('inputDir', 'i', InputOption::VALUE_REQUIRED, 'Directory containing the files to annotate', '.')
     ->addOption('linkPrefix', 'l', InputOption::VALUE_REQUIRED, 'Prefix for links in the output')
-    ->addOption('mixAnnotationsIntoSource', 'm', InputOption::VALUE_NONE, 'Include all lua source files, and add class annotations to the source files')
+    ->addOption('mixAnnotationsIntoSource', 'm', InputOption::VALUE_NONE, 'Include all Lua source files, and add class annotations to the source files')
+    ->addOption('includeRawXmlSource', 'x', InputOption::VALUE_NONE, 'Include the raw XML source files in the output')
     ->setCode(function (InputInterface $input, ConsoleOutput $output) {
         $io = new SymfonyStyle($input, $output);
 
@@ -39,6 +40,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
         $inputDir = $input->getOption('inputDir');
         $linkPrefix = $input->getOption('linkPrefix');
         $mixAnnotationsIntoSource = $input->getOption('mixAnnotationsIntoSource');
+        $includeRawXmlSource = $input->getOption('includeRawXmlSource');
         try {
             $flavor = FlavorEnum::from($input->getArgument('flavor'));
         } catch (Throwable) {
@@ -105,6 +107,9 @@ require_once __DIR__ . '/../vendor/autoload.php';
         foreach($fileList as $filePath) {
             if (str_ends_with($filePath, 'xml')) {
                 $xmlFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir, $linkPrefix);
+                if ($includeRawXmlSource) {
+                    $xmlFileParser->writeRawXmlToFile($filePath, $outputDir, $inputDir);
+                }
             } elseif (str_ends_with($filePath, 'lua')) {
                 $luaFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir);
             }

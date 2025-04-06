@@ -12,7 +12,7 @@ class LuaFileParser
     private array $functions = [];
 
     public function __construct(
-        private readonly bool $mixAnnotationIntoSource,
+        private readonly bool $mixAnnotationsIntoSource,
     ) {
     }
 
@@ -27,7 +27,7 @@ class LuaFileParser
         $mixins = $this->extractMixins($fileContents, $linkPrefix);
         $this->mixins[$filename] = $mixins;
 
-        if (!$this->mixAnnotationIntoSource) {
+        if (!$this->mixAnnotationsIntoSource) {
             $functions = $this->extractFunctions($fileContents, $mixins, $linkPrefix);
             $this->functions[$filename] = $functions;
         }
@@ -35,7 +35,7 @@ class LuaFileParser
 
     public function writeAnnotationsToFile(string $filename, string $outDir, string $prefixToStrip): void
     {
-        if ($this->mixAnnotationIntoSource) {
+        if ($this->mixAnnotationsIntoSource) {
             $data = file_get_contents($filename);
             $byLine = explode("\n", $data);
             foreach ($this->mixins[$filename] ?? [] as $funcInfo) {
@@ -114,7 +114,7 @@ class LuaFileParser
                 $funcInfo['classAnnotation'] .= ' : ' . $match['extends'][0];
             }
             $funcInfo['annotated'] = $funcInfo['classAnnotation'];
-            if (!$this->mixAnnotationIntoSource) {
+            if (!$this->mixAnnotationsIntoSource) {
                 $funcInfo['annotated'] .= "\n" . $match['match'][0];
                 if ($linkPrefix) {
                     $funcInfo['annotated'] = sprintf(

@@ -31,14 +31,14 @@ require_once __DIR__ . '/../vendor/autoload.php';
     ->addOption('outputDir', 'o', InputOption::VALUE_REQUIRED, 'Output directory', './.annotated')
     ->addOption('inputDir', 'i', InputOption::VALUE_REQUIRED, 'Directory containing the files to annotate', '.')
     ->addOption('linkPrefix', 'l', InputOption::VALUE_REQUIRED, 'Prefix for links in the output')
-    ->addOption('mixAnnotationIntoSource', 'm', InputOption::VALUE_NONE, 'Include all lua source files, and add class annotations to the source files')
+    ->addOption('mixAnnotationsIntoSource', 'm', InputOption::VALUE_NONE, 'Include all lua source files, and add class annotations to the source files')
     ->setCode(function (InputInterface $input, ConsoleOutput $output) {
         $io = new SymfonyStyle($input, $output);
 
         $outputDir = $input->getOption('outputDir');
         $inputDir = $input->getOption('inputDir');
         $linkPrefix = $input->getOption('linkPrefix');
-        $mixAnnotationIntoSource = $input->getOption('mixAnnotationIntoSource');
+        $mixAnnotationsIntoSource = $input->getOption('mixAnnotationsIntoSource');
         try {
             $flavor = FlavorEnum::from($input->getArgument('flavor'));
         } catch (Throwable) {
@@ -86,7 +86,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
         $templateRegistry = new Registry();
         $frameRegistry = new Registry();
         $xmlFileParser = new XmlFileParser($intrinsicRegistry, $templateRegistry, $frameRegistry);
-        $luaFileParser = new LuaFileParser($mixAnnotationIntoSource);
+        $luaFileParser = new LuaFileParser($mixAnnotationsIntoSource);
 
         $io->writeln('Parsing files...');
         $progressBar = $io->createProgressBar(count($fileList));

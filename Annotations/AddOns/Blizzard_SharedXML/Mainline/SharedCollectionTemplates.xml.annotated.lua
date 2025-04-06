@@ -1,0 +1,41 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.xml#L30)
+--- child of WarbandSceneTemplate
+--- @class WarbandSceneTemplate_Name : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.xml#L3)
+--- Template
+--- @class WarbandSceneTemplate : Button, WarbandSceneEntryMixin
+--- @field Icon Texture
+--- @field NameBackground Texture
+--- @field Border Texture
+--- @field Name WarbandSceneTemplate_Name
+--- @field SlotFavorite Texture
+--- @field HighlightTexture Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.xml#L56)
+--- Template
+--- @class CollectionsBackgroundTemplate : Frame, InsetFrameTemplate
+--- @field BackgroundTile Texture
+--- @field ShadowCornerTopLeft Texture
+--- @field ShadowCornerTopRight Texture
+--- @field ShadowCornerBottomLeft Texture
+--- @field ShadowCornerBottomRight Texture
+--- @field ShadowCornerTop Texture
+--- @field ShadowCornerLeft Texture
+--- @field ShadowCornerRight Texture
+--- @field ShadowCornerBottom Texture
+--- @field OverlayShadowTopLeft Texture
+--- @field OverlayShadowTopRight Texture
+--- @field OverlayShadowBottomLeft Texture
+--- @field OverlayShadowBottomRight Texture
+--- @field OverlayShadowTop Texture
+--- @field OverlayShadowLeft Texture
+--- @field OverlayShadowRight Texture
+--- @field OverlayShadowBottom Texture
+--- @field BGCornerTopLeft Texture
+--- @field BGCornerTopRight Texture
+--- @field BGCornerBottomLeft Texture
+--- @field BGCornerBottomRight Texture
+

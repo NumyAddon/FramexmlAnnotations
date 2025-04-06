@@ -1,0 +1,15 @@
+name: live-mix-into-source
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  build:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: live
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      FLAVOR: mainline
+      MIX_ANNOTATIONS_INTO_SOURCE: true

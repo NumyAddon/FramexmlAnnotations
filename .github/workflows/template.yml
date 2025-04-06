@@ -8,6 +8,11 @@ on:
         required: true
         default: 'live'
         type: string
+      TARGET_BRANCH_SUFFIX:
+        description: 'Suffix for the target branch of this repo'
+        required: false
+        default: ''
+        type: string
       FLAVOR:
         description: 'Flavor to filter the input for'
         required: true
@@ -25,12 +30,22 @@ on:
         required: false
         default: false
         type: boolean
+      MIX_ANNOTATIONS_INTO_SOURCE:
+        description: 'Include all lua source files, and add class annotations to the source files'
+        required: false
+        default: false
+        type: boolean
   workflow_call:
     inputs:
       BRANCH:
         description: 'Branch to run the workflow on'
         required: true
         default: 'live'
+        type: string
+      TARGET_BRANCH_SUFFIX:
+        description: 'Suffix for the target branch of this repo'
+        required: false
+        default: ''
         type: string
       FLAVOR:
         description: 'Flavor to filter the input for'
@@ -39,6 +54,11 @@ on:
         type: string
       FORCE_UPDATE:
         description: 'Force update the branch'
+        required: false
+        default: false
+        type: boolean
+      MIX_ANNOTATIONS_INTO_SOURCE:
+        description: 'Include all lua source files, and add class annotations to the source files'
         required: false
         default: false
         type: boolean
@@ -68,26 +88,26 @@ jobs:
           git clone "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY" ./.annotations_temp
           cd ./.annotations_temp
           git fetch --prune origin
-          branch_name="${{ inputs.BRANCH }}"
+          target_branch_name="${{ inputs.BRANCH }}${{ inputs.TARGET_BRANCH_SUFFIX }}"
           git config user.name "GitHub Actions"
           git config user.email noreply@github.com
           cleanup() {
             find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rf {} +
           }
-          if git show-ref --quiet "refs/remotes/origin/${branch_name}"; then
+          if git show-ref --quiet "refs/remotes/origin/${target_branch_name}"; then
             echo "Re-using existing branch..."
-            git fetch origin "${branch_name}"
-            git checkout -b "${branch_name}" "origin/${branch_name}"
-            git pull --rebase origin "${branch_name}"
+            git fetch origin "${target_branch_name}"
+            git checkout -b "${target_branch_name}" "origin/${target_branch_name}"
+            git pull --rebase origin "${target_branch_name}"
             git rm -rfq . || true
             cleanup
           else
             echo "Creating new branch..."
             cleanup
             git rm -rfq . || true
-            git checkout --orphan "${branch_name}"
+            git checkout --orphan "${target_branch_name}"
             git commit --allow-empty --message "Initialize"
-            git push --set-upstream origin "${branch_name}"
+            git push --set-upstream origin "${target_branch_name}"
           fi
           cp ../annotation_branch_readme.md README.md
 
@@ -99,12 +119,12 @@ jobs:
             echo "skip=false" >> $GITHUB_OUTPUT
             exit 0
           fi
-          branch=${{ inputs.BRANCH }}
+          target_branch_name="${{ inputs.BRANCH }}${{ inputs.TARGET_BRANCH_SUFFIX }}"
           cd ./.wow-ui-source
           remote_commit_hash=$(git rev-parse HEAD)
           cd ../.annotations_temp
           local_commit_hash=$(git log --oneline -n1 | grep -Po "Synced to commit \K.*" || echo "unknown")
-          echo "${branch}: ${local_commit_hash} -> ${remote_commit_hash}"
+          echo "${target_branch_name}: ${local_commit_hash} -> ${remote_commit_hash}"
           if [[ "${local_commit_hash}" == "${remote_commit_hash}" ]]; then
             echo "Branch is already up-to-date."
             echo "skip=true" >> $GITHUB_OUTPUT
@@ -128,13 +148,18 @@ jobs:
         if: ${{ steps.check.outputs.skip != 'true' }}
         run: |
           set -ex
-          branch=${{ inputs.BRANCH }}
+          branch_name="${{ inputs.BRANCH }}"
+          target_branch_name="${{ inputs.BRANCH }}${{ inputs.TARGET_BRANCH_SUFFIX }}"
           flavor=${{ inputs.FLAVOR }}
           cd ./.wow-ui-source
           remote_commit_hash=$(git rev-parse HEAD)
           message="Synced to commit ${remote_commit_hash}"
           cd ..
-          bin/annotate ${flavor} --inputDir=./.wow-ui-source/Interface --outputDir=./.annotations_temp/Annotations --linkPrefix="https://github.com/Gethe/wow-ui-source/blob/${branch}/Interface"
+          mixAnnotationsIntoSource=""
+          if [[ "${{ inputs.MIX_ANNOTATIONS_INTO_SOURCE }}" == "true" ]]; then
+            mixAnnotationsIntoSource="--mixAnnotationsIntoSource"
+          fi
+          bin/annotate ${flavor} --inputDir=./.wow-ui-source/Interface --outputDir=./.annotations_temp/Annotations --linkPrefix="https://github.com/Gethe/wow-ui-source/blob/${branch_name}/Interface" ${mixAnnotationsIntoSource}
           cd ./.annotations_temp
           git config user.name "GitHub Actions"
           git config user.email noreply@github.com
@@ -143,7 +168,7 @@ jobs:
           if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
             if git commit --message "${message}" >/dev/null 2>&1; then
               echo "Commiting and pushing..."
-              git push --force-with-lease --set-upstream origin "${branch}"
+              git push --force-with-lease --set-upstream origin "${target_branch_name}"
             else
               echo "Unable to commit."
             fi

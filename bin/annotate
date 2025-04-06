@@ -7,155 +7,113 @@ use App\LuaFileParser;
 use App\Registry;
 use App\TocFileParser;
 use App\XmlFileParser;
-use Symfony\Component\Console\Input\ArgvInput;
+use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
-use Symfony\Component\Console\Input\InputDefinition;
+use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\ConsoleOutput;
+use Symfony\Component\Console\SingleCommandApplication;
 use Symfony\Component\Console\Style\SymfonyStyle;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$inputDefinition = new InputDefinition();
-$inputDefinition->addOption(
-    new InputOption('outputDir', 'o', InputOption::VALUE_REQUIRED, 'Output directory', './.annotated'),
-);
-$inputDefinition->addOption(
-    new InputOption('inputDir', 'i', InputOption::VALUE_REQUIRED, 'Directory containing the files to annotate', '.'),
-);
-$inputDefinition->addOption(
-    new InputOption('linkPrefix', 'l', InputOption::VALUE_REQUIRED, 'Prefix for links in the output'),
-);
-$inputDefinition->addArgument(
-        // it's actually required, but --help doesn't work with required arguments atm
-    new InputArgument('flavor', InputArgument::OPTIONAL, 'Flavor to filter toc files on. E.g. "mainline", "cata", "vanilla"'),
-);
-$inputDefinition->addOption(
-    new InputOption('help', 'h', InputOption::VALUE_NONE, 'Display this help message'),
-);
-$input = new ArgvInput(definition: $inputDefinition);
-$output = new ConsoleOutput();
-$io = new SymfonyStyle($input, $output);
+(new SingleCommandApplication())
+    ->setName('WoW FrameXML Annotator')
+    ->addArgument(
+        'flavor',
+        InputArgument::REQUIRED,
+        'Flavor to filter toc files on. E.g. "mainline", "cata", "vanilla"',
+        suggestedValues: fn () => array_map(
+            fn (FlavorEnum $flavor) => $flavor->value,
+            FlavorEnum::cases(),
+        ),
+    )
+    ->addOption('outputDir', 'o', InputOption::VALUE_REQUIRED, 'Output directory', './.annotated')
+    ->addOption('inputDir', 'i', InputOption::VALUE_REQUIRED, 'Directory containing the files to annotate', '.')
+    ->addOption('linkPrefix', 'l', InputOption::VALUE_REQUIRED, 'Prefix for links in the output')
+    ->addOption('mixAnnotationIntoSource', 'm', InputOption::VALUE_NONE, 'Include all lua source files, and add class annotations to the source files')
+    ->setCode(function (InputInterface $input, ConsoleOutput $output) {
+        $io = new SymfonyStyle($input, $output);
 
-if ($input->getOption('help')) {
-    // should probably just bite the bullet and use the Symfony Console component properly :)
-    $io->writeln('Usage: annotate [options] <flavor>');
-    $io->writeln('');
-    $io->writeln('Options:');
-    foreach ($inputDefinition->getOptions() as $option) {
-        $message = '  ';
-        if ($option->getShortcut()) {
-            $message .= sprintf('-%s, ', $option->getShortcut());
+        $outputDir = $input->getOption('outputDir');
+        $inputDir = $input->getOption('inputDir');
+        $linkPrefix = $input->getOption('linkPrefix');
+        $mixAnnotationIntoSource = $input->getOption('mixAnnotationIntoSource');
+        try {
+            $flavor = FlavorEnum::from($input->getArgument('flavor'));
+        } catch (Throwable) {
+            $io->error(
+                'Invalid flavor. Must be one of: ' . implode(
+                    ', ',
+                    array_map(fn (FlavorEnum $flavor) => $flavor->value, FlavorEnum::cases()),
+                ),
+            );
+            return Command::INVALID;
         }
-        $message .= sprintf('--%s', $option->getName());
-        if ($option->acceptValue()) {
-            $message .= '=VALUE';
-        }
-        $message .= sprintf('  %s', $option->getDescription());
-        if ($option->acceptValue()) {
-            $defaultValue = $option->getDefault();
-            if (null !== $defaultValue && !is_array($defaultValue)) {
-                $message .= sprintf(' (default: %s)', $defaultValue);
+
+        $fileMap = [];
+        $fileList = [];
+        if (is_file($inputDir) && (str_ends_with($inputDir, '.lua') || str_ends_with($inputDir, '.xml'))) {
+            $fileList[] = $inputDir;
+            $fileMap[strtolower($inputDir)] = $inputDir;
+        } elseif (is_dir($inputDir)) {
+            $inputDir = rtrim($inputDir, '/');
+            $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($inputDir));
+            $iterator->rewind();
+
+            $dirsWithToc = [];
+            /** @var $iterator RecursiveDirectoryIterator */
+            while ($iterator->valid()) {
+                if ('toc' === $iterator->getExtension()) {
+                    $dirsWithToc[$iterator->getPath()] = true;
+                }
+                $filePath = $iterator->getPath() . '/' . $iterator->getFilename();
+                $fileMap[strtolower($filePath)] = $filePath;
+                $iterator->next();
+            }
+
+            $tocParser = new TocFileParser($flavor, $fileMap);
+            foreach (array_keys($dirsWithToc) as $dirWithToc) {
+                $tocFile = $tocParser->findTocFile($dirWithToc);
+                if ($tocFile) {
+                    $fileList = array_merge($fileList, $tocParser->listFiles($tocFile));
+                }
             }
         }
-        $io->writeln($message);
-    }
-    $io->writeln('');
-    $io->writeln('Arguments:');
-    foreach ($inputDefinition->getArguments() as $argument) {
-        $message = '  ';
-        if ($argument->isRequired()) {
-            $message .= '<';
-        } else {
-            $message .= '[';
+        $fileList = array_unique($fileList);
+
+        $intrinsicRegistry = new Registry();
+        $templateRegistry = new Registry();
+        $frameRegistry = new Registry();
+        $xmlFileParser = new XmlFileParser($intrinsicRegistry, $templateRegistry, $frameRegistry);
+        $luaFileParser = new LuaFileParser($mixAnnotationIntoSource);
+
+        $io->writeln('Parsing files...');
+        $progressBar = $io->createProgressBar(count($fileList));
+        foreach ($fileList as $filePath) {
+            if (str_ends_with($filePath, 'xml')) {
+                $xmlFileParser->parse($filePath);
+            } elseif (str_ends_with($filePath, 'lua')) {
+                $luaFileParser->parse($filePath, $inputDir, $linkPrefix);
+            }
+            $progressBar->advance();
         }
-        $message .= sprintf('%s', $argument->getName());
-        if ($argument->isRequired()) {
-            $message .= '>';
-        } else {
-            $message .= ']';
+        $progressBar->finish();
+        $io->newLine();
+        $io->writeln('Writing annotations...');
+        $progressBar = $io->createProgressBar(count($fileList));
+        foreach($fileList as $filePath) {
+            if (str_ends_with($filePath, 'xml')) {
+                $xmlFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir, $linkPrefix);
+            } elseif (str_ends_with($filePath, 'lua')) {
+                $luaFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir);
+            }
+            $progressBar->advance();
         }
-        $message .= sprintf('  %s', $argument->getDescription());
-        $io->writeln($message);
-    }
+        $progressBar->finish();
 
-    exit(0);
-}
+        $io->success('Done!');
 
-$outputDir = $input->getOption('outputDir');
-$inputDir = $input->getOption('inputDir');
-$linkPrefix = $input->getOption('linkPrefix');
-try {
-    $flavor = FlavorEnum::from($input->getArgument('flavor'));
-} catch (Throwable) {
-    $io->error(
-        'Invalid flavor. Must be one of: ' . implode(
-            ', ',
-            array_map(fn (FlavorEnum $flavor) => $flavor->value, FlavorEnum::cases()),
-        ),
-    );
-    exit(1);
-}
-
-$fileMap = [];
-$fileList = [];
-if (is_file($inputDir) && (str_ends_with($inputDir, '.lua') || str_ends_with($inputDir, '.xml'))) {
-    $fileList[] = $inputDir;
-    $fileMap[strtolower($inputDir)] = $inputDir;
-} elseif (is_dir($inputDir)) {
-    $inputDir = rtrim($inputDir, '/');
-    $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($inputDir));
-    $iterator->rewind();
-
-    $dirsWithToc = [];
-    /** @var $iterator RecursiveDirectoryIterator */
-    while ($iterator->valid()) {
-        if ('toc' === $iterator->getExtension()) {
-            $dirsWithToc[$iterator->getPath()] = true;
-        }
-        $filePath = $iterator->getPath() . '/' . $iterator->getFilename();
-        $fileMap[strtolower($filePath)] = $filePath;
-        $iterator->next();
-    }
-
-    $tocParser = new TocFileParser($flavor, $fileMap);
-    foreach (array_keys($dirsWithToc) as $dirWithToc) {
-        $tocFile = $tocParser->findTocFile($dirWithToc);
-        if ($tocFile) {
-            $fileList = array_merge($fileList, $tocParser->listFiles($tocFile));
-        }
-    }
-}
-$fileList = array_unique($fileList);
-
-$intrinsicRegistry = new Registry();
-$templateRegistry = new Registry();
-$frameRegistry = new Registry();
-$xmlFileParser = new XmlFileParser($intrinsicRegistry, $templateRegistry, $frameRegistry);
-$luaFileParser = new LuaFileParser();
-
-$io->writeln('Parsing files...');
-$progressBar = $io->createProgressBar(count($fileList));
-foreach ($fileList as $filePath) {
-    if (str_ends_with($filePath, 'xml')) {
-        $xmlFileParser->parse($filePath);
-    } elseif (str_ends_with($filePath, 'lua')) {
-        $luaFileParser->parse($filePath, $inputDir, $linkPrefix);
-    }
-    $progressBar->advance();
-}
-$progressBar->finish();
-$io->newLine();
-$io->writeln('Writing annotations...');
-$progressBar = $io->createProgressBar(count($fileList));
-foreach($fileList as $filePath) {
-    if (str_ends_with($filePath, 'xml')) {
-        $xmlFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir, $linkPrefix);
-    } elseif (str_ends_with($filePath, 'lua')) {
-        $luaFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir);
-    }
-    $progressBar->advance();
-}
-$progressBar->finish();
-
-$io->success('Done!');
+        return Command::SUCCESS;
+    })
+    ->run();

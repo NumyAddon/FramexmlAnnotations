@@ -26,23 +26,23 @@ function CommunitiesCreateDialogMixin:OnShow() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L56)
 function CommunitiesCreateDialogMixin:SetClubType(clubType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L73)
 function CommunitiesCreateDialogMixin:GetClubType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L77)
 function CommunitiesCreateDialogMixin:SetAvatarId(avatarId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L82)
 function CommunitiesCreateDialogMixin:GetAvatarId() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L86)
 function CommunitiesCreateDialogMixin:OnAttributeChanged(name, value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L98)
 function CommunitiesCreateDialogMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L103)
 function CommunitiesCreateDialogMixin:CreateCommunity() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CommunitiesSecure/CommunitiesAddDialog.lua#L110)
 function CommunitiesCreateDialogMixin:UpdateCreateButton() end

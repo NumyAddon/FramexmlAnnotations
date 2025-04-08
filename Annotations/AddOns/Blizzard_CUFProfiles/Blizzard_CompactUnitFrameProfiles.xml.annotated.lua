@@ -343,7 +343,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderLow = {}
 --- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderHigh = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1083)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider (created in template HorizontalSliderTemplate)
 --- @type Texture
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderThumb = {}
@@ -373,7 +373,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderLow = {}
 --- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderHigh = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1083)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider (created in template HorizontalSliderTemplate)
 --- @type Texture
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderThumb = {}

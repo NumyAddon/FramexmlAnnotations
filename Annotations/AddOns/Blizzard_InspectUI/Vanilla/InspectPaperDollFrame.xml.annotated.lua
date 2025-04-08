@@ -19,32 +19,32 @@ InspectModelFrameRotateLeftButton = {}
 --- @class InspectPaperDollFrame_InspectModelFrame : PlayerModel
 InspectModelFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectHeadSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectHeadSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectHeadSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectHeadSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectHeadSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectHeadSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectHeadSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectHeadSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectHeadSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectHeadSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectHeadSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectHeadSlotNormalTexture = {}
@@ -58,32 +58,32 @@ InspectHeadSlot["Count"] = InspectHeadSlotCount -- inherited
 InspectHeadSlot["searchOverlay"] = InspectHeadSlotSearchOverlay -- inherited
 InspectHeadSlot["subicon"] = InspectHeadSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectNeckSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectNeckSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectNeckSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectNeckSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectNeckSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectNeckSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectNeckSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectNeckSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectNeckSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectNeckSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectNeckSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectNeckSlotNormalTexture = {}
@@ -97,32 +97,32 @@ InspectNeckSlot["Count"] = InspectNeckSlotCount -- inherited
 InspectNeckSlot["searchOverlay"] = InspectNeckSlotSearchOverlay -- inherited
 InspectNeckSlot["subicon"] = InspectNeckSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectShoulderSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectShoulderSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectShoulderSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectShoulderSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectShoulderSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectShoulderSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectShoulderSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectShoulderSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectShoulderSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectShoulderSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectShoulderSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectShoulderSlotNormalTexture = {}
@@ -136,32 +136,32 @@ InspectShoulderSlot["Count"] = InspectShoulderSlotCount -- inherited
 InspectShoulderSlot["searchOverlay"] = InspectShoulderSlotSearchOverlay -- inherited
 InspectShoulderSlot["subicon"] = InspectShoulderSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectBackSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectBackSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectBackSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectBackSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectBackSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectBackSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectBackSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectBackSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectBackSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectBackSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectBackSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectBackSlotNormalTexture = {}
@@ -175,32 +175,32 @@ InspectBackSlot["Count"] = InspectBackSlotCount -- inherited
 InspectBackSlot["searchOverlay"] = InspectBackSlotSearchOverlay -- inherited
 InspectBackSlot["subicon"] = InspectBackSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectChestSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectChestSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectChestSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectChestSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectChestSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectChestSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectChestSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectChestSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectChestSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectChestSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectChestSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectChestSlotNormalTexture = {}
@@ -214,32 +214,32 @@ InspectChestSlot["Count"] = InspectChestSlotCount -- inherited
 InspectChestSlot["searchOverlay"] = InspectChestSlotSearchOverlay -- inherited
 InspectChestSlot["subicon"] = InspectChestSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectShirtSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectShirtSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectShirtSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectShirtSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectShirtSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectShirtSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectShirtSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectShirtSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectShirtSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectShirtSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectShirtSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectShirtSlotNormalTexture = {}
@@ -253,32 +253,32 @@ InspectShirtSlot["Count"] = InspectShirtSlotCount -- inherited
 InspectShirtSlot["searchOverlay"] = InspectShirtSlotSearchOverlay -- inherited
 InspectShirtSlot["subicon"] = InspectShirtSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectTabardSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTabardSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectTabardSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectTabardSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectTabardSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectTabardSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectTabardSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTabardSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectTabardSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTabardSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectTabardSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTabardSlotNormalTexture = {}
@@ -292,32 +292,32 @@ InspectTabardSlot["Count"] = InspectTabardSlotCount -- inherited
 InspectTabardSlot["searchOverlay"] = InspectTabardSlotSearchOverlay -- inherited
 InspectTabardSlot["subicon"] = InspectTabardSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectWristSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectWristSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectWristSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectWristSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectWristSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectWristSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectWristSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectWristSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectWristSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectWristSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectWristSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectWristSlotNormalTexture = {}
@@ -331,32 +331,32 @@ InspectWristSlot["Count"] = InspectWristSlotCount -- inherited
 InspectWristSlot["searchOverlay"] = InspectWristSlotSearchOverlay -- inherited
 InspectWristSlot["subicon"] = InspectWristSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectHandsSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectHandsSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectHandsSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectHandsSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectHandsSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectHandsSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectHandsSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectHandsSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectHandsSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectHandsSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectHandsSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectHandsSlotNormalTexture = {}
@@ -370,32 +370,32 @@ InspectHandsSlot["Count"] = InspectHandsSlotCount -- inherited
 InspectHandsSlot["searchOverlay"] = InspectHandsSlotSearchOverlay -- inherited
 InspectHandsSlot["subicon"] = InspectHandsSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectWaistSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectWaistSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectWaistSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectWaistSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectWaistSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectWaistSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectWaistSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectWaistSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectWaistSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectWaistSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectWaistSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectWaistSlotNormalTexture = {}
@@ -409,32 +409,32 @@ InspectWaistSlot["Count"] = InspectWaistSlotCount -- inherited
 InspectWaistSlot["searchOverlay"] = InspectWaistSlotSearchOverlay -- inherited
 InspectWaistSlot["subicon"] = InspectWaistSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectLegsSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectLegsSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectLegsSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectLegsSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectLegsSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectLegsSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectLegsSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectLegsSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectLegsSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectLegsSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectLegsSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectLegsSlotNormalTexture = {}
@@ -448,32 +448,32 @@ InspectLegsSlot["Count"] = InspectLegsSlotCount -- inherited
 InspectLegsSlot["searchOverlay"] = InspectLegsSlotSearchOverlay -- inherited
 InspectLegsSlot["subicon"] = InspectLegsSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectFeetSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFeetSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectFeetSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectFeetSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectFeetSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectFeetSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectFeetSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFeetSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectFeetSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFeetSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectFeetSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFeetSlotNormalTexture = {}
@@ -487,32 +487,32 @@ InspectFeetSlot["Count"] = InspectFeetSlotCount -- inherited
 InspectFeetSlot["searchOverlay"] = InspectFeetSlotSearchOverlay -- inherited
 InspectFeetSlot["subicon"] = InspectFeetSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectFinger0Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFinger0SlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectFinger0Slot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectFinger0SlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectFinger0Slot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectFinger0SlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectFinger0Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFinger0SlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectFinger0Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFinger0SlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectFinger0Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFinger0SlotNormalTexture = {}
@@ -526,32 +526,32 @@ InspectFinger0Slot["Count"] = InspectFinger0SlotCount -- inherited
 InspectFinger0Slot["searchOverlay"] = InspectFinger0SlotSearchOverlay -- inherited
 InspectFinger0Slot["subicon"] = InspectFinger0SlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectFinger1Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFinger1SlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectFinger1Slot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectFinger1SlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectFinger1Slot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectFinger1SlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectFinger1Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFinger1SlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectFinger1Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFinger1SlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectFinger1Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectFinger1SlotNormalTexture = {}
@@ -565,32 +565,32 @@ InspectFinger1Slot["Count"] = InspectFinger1SlotCount -- inherited
 InspectFinger1Slot["searchOverlay"] = InspectFinger1SlotSearchOverlay -- inherited
 InspectFinger1Slot["subicon"] = InspectFinger1SlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectTrinket0Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTrinket0SlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectTrinket0Slot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectTrinket0SlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectTrinket0Slot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectTrinket0SlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectTrinket0Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTrinket0SlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectTrinket0Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTrinket0SlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectTrinket0Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTrinket0SlotNormalTexture = {}
@@ -604,32 +604,32 @@ InspectTrinket0Slot["Count"] = InspectTrinket0SlotCount -- inherited
 InspectTrinket0Slot["searchOverlay"] = InspectTrinket0SlotSearchOverlay -- inherited
 InspectTrinket0Slot["subicon"] = InspectTrinket0SlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectTrinket1Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTrinket1SlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectTrinket1Slot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectTrinket1SlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectTrinket1Slot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectTrinket1SlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectTrinket1Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTrinket1SlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectTrinket1Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTrinket1SlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectTrinket1Slot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectTrinket1SlotNormalTexture = {}
@@ -643,32 +643,32 @@ InspectTrinket1Slot["Count"] = InspectTrinket1SlotCount -- inherited
 InspectTrinket1Slot["searchOverlay"] = InspectTrinket1SlotSearchOverlay -- inherited
 InspectTrinket1Slot["subicon"] = InspectTrinket1SlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectMainHandSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectMainHandSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectMainHandSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectMainHandSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectMainHandSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectMainHandSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectMainHandSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectMainHandSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectMainHandSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectMainHandSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectMainHandSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectMainHandSlotNormalTexture = {}
@@ -682,32 +682,32 @@ InspectMainHandSlot["Count"] = InspectMainHandSlotCount -- inherited
 InspectMainHandSlot["searchOverlay"] = InspectMainHandSlotSearchOverlay -- inherited
 InspectMainHandSlot["subicon"] = InspectMainHandSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectSecondaryHandSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectSecondaryHandSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectSecondaryHandSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectSecondaryHandSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectSecondaryHandSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectSecondaryHandSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectSecondaryHandSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectSecondaryHandSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectSecondaryHandSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectSecondaryHandSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectSecondaryHandSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectSecondaryHandSlotNormalTexture = {}
@@ -721,32 +721,32 @@ InspectSecondaryHandSlot["Count"] = InspectSecondaryHandSlotCount -- inherited
 InspectSecondaryHandSlot["searchOverlay"] = InspectSecondaryHandSlotSearchOverlay -- inherited
 InspectSecondaryHandSlot["subicon"] = InspectSecondaryHandSlotSubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L10)
 --- child of InspectRangedSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectRangedSlotIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L13)
 --- child of InspectRangedSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateCount
 InspectRangedSlotCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L22)
 --- child of InspectRangedSlot (created in template ItemButtonTemplate)
 --- @type ItemButtonTemplate_ItemButtonTemplateStock
 InspectRangedSlotStock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L33)
 --- child of InspectRangedSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectRangedSlotSearchOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L52)
 --- child of InspectRangedSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectRangedSlotSubIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectPaperDollFrame.xml#L60)
 --- child of InspectRangedSlot (created in template ItemButtonTemplate)
 --- @type Texture
 InspectRangedSlotNormalTexture = {}

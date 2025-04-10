@@ -172,12 +172,12 @@ MountJournalSummonRandomFavoriteButton["spellname"] = MountJournalSummonRandomFa
 --- child of MountJournal
 --- @class MountJournal_RightInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L1249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L1239)
 --- child of MountJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 MountJournalSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L1240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L1230)
 --- child of MountJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 MountJournalSearchBoxSearchIcon = {}
@@ -209,42 +209,42 @@ MountJournalSearchBox["searchIcon"] = MountJournalSearchBoxSearchIcon -- inherit
 --- @field Count MountJournal_MountCount_Count
 --- @field Label MountJournal_MountCount_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L166)
 --- child of MountJournal_MountDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 MountJournalTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L171)
 --- child of MountJournal_MountDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 MountJournalTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L179)
 --- child of MountJournal_MountDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 MountJournalBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L187)
 --- child of MountJournal_MountDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 MountJournalBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L205)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L195)
 --- child of MountJournal_MountDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 MountJournalTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L201)
 --- child of MountJournal_MountDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 MountJournalBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L207)
 --- child of MountJournal_MountDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 MountJournalLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L213)
 --- child of MountJournal_MountDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 MountJournalRight = {}
@@ -296,7 +296,7 @@ MountJournalLore = {}
 --- child of MountJournal_MountDisplay_ModelScene_TogglePlayer
 --- @class MountJournal_MountDisplay_ModelScene_TogglePlayer_TogglePlayerText : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L380)
 --- child of MountJournal_MountDisplay_ModelScene_TogglePlayer (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 MountJournalText = {}

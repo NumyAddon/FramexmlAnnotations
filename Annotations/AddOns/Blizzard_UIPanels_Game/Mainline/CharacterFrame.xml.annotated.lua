@@ -163,18 +163,18 @@ CharacterFrameInsetRight["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field ClassBackground Texture
 CharacterStatsPane = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L883)
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CharacterFrameInset = {}
 CharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L877)
 --- child of CharacterFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 CharacterFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L870)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L860)
 --- child of CharacterFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 CharacterFrameBg = {}

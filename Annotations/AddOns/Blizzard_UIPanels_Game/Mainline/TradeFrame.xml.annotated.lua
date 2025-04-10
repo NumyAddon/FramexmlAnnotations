@@ -627,18 +627,18 @@ TradeFramePlayerEnchantText = {}
 --- @class TradeFrame_TradeFrameRecipientEnchantText : FontString, GameFontHighlightSmall
 TradeFrameRecipientEnchantText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L883)
 --- child of TradeFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 TradeFrameInset = {}
 TradeFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L877)
 --- child of TradeFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 TradeFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L870)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L860)
 --- child of TradeFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 TradeFrameBg = {}

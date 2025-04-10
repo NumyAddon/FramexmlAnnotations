@@ -119,12 +119,12 @@ SubscriptionInterstitialFrameRight = {}
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_ClosePanelButton : Button, UIPanelButtonTemplate, SubscriptionInterstitialCloseButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L716)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L706)
 --- child of SubscriptionInterstitialFrame (created in template DefaultPanelTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L724)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L714)
 --- child of SubscriptionInterstitialFrame (created in template DefaultPanelTemplate)
 --- @type DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks
 SubscriptionInterstitialFrameTopTileStreaks = {}

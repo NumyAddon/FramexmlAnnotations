@@ -354,12 +354,12 @@ VoidStorageFrameLines = {}
 --- @field Page2 VoidStorageFrame_Page2
 VoidStorageFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1239)
 --- child of VoidItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 VoidItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1230)
 --- child of VoidItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 VoidItemSearchBoxSearchIcon = {}

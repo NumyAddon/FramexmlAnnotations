@@ -16,7 +16,7 @@
 --- @field Background Texture
 --- @field MinimalBackground Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsInspectRecipe.xml#L807)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsInspectRecipe.xml#L797)
 --- child of InspectRecipeFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 InspectRecipeFrameBg = {}

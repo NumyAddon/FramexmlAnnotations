@@ -146,12 +146,12 @@ WardrobeCollectionFrameSearchBoxText = {}
 --- @field rightBorder WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_rightBorder
 --- @field topBorder WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_topBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L1249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L1239)
 --- child of WardrobeCollectionFrameSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 WardrobeCollectionFrameSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L1240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L1230)
 --- child of WardrobeCollectionFrameSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 WardrobeCollectionFrameSearchBoxSearchIcon = {}
@@ -631,47 +631,47 @@ WardrobeCollectionFrame["SearchBox"] = WardrobeCollectionFrameSearchBox
 --- child of WardrobeFrame_WardrobeTransmogFrame_ModelScene
 --- @class WardrobeFrame_WardrobeTransmogFrame_ModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L956)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L946)
 --- child of WardrobeFrame_WardrobeTransmogFrame_ModelScene_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L963)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L953)
 --- child of WardrobeFrame_WardrobeTransmogFrame_ModelScene_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L970)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L960)
 --- child of WardrobeFrame_WardrobeTransmogFrame_ModelScene_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L977)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L967)
 --- child of WardrobeFrame_WardrobeTransmogFrame_ModelScene_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L984)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L974)
 --- child of WardrobeFrame_WardrobeTransmogFrame_ModelScene_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameTopMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L992)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L982)
 --- child of WardrobeFrame_WardrobeTransmogFrame_ModelScene_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameMiddleLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L1000)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L990)
 --- child of WardrobeFrame_WardrobeTransmogFrame_ModelScene_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameMiddleRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L1008)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L998)
 --- child of WardrobeFrame_WardrobeTransmogFrame_ModelScene_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameBottomMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L1016)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L1006)
 --- child of WardrobeFrame_WardrobeTransmogFrame_ModelScene_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameMiddleMiddle = {}
@@ -839,12 +839,12 @@ WardrobeTransmogMoneyFrame["GoldButton"] = WardrobeTransmogMoneyFrameGoldButton 
 WardrobeTransmogFrame = {}
 WardrobeTransmogFrame["MoneyFrame"] = WardrobeTransmogMoneyFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L840)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L830)
 --- child of WardrobeFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 WardrobeFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L807)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Wardrobe.xml#L797)
 --- child of WardrobeFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 WardrobeFrameBg = {}

@@ -58,7 +58,7 @@ SideDressUpFrame["BGTopLeft"] = SideDressUpFrameBackgroundTop
 SideDressUpFrame["BGBottomLeft"] = SideDressUpFrameBackgroundBot
 SideDressUpFrame["hasOutfitControls"] = false
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L380)
 --- child of TransmogAndMountDressupFrame_ShowMountCheckButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TransmogAndMountDressupFrameText = {}
@@ -172,18 +172,18 @@ DressUpFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class DressUpFrame_LinkButton : DropdownButton, UIPanelButtonTemplate, DressUpModelFrameLinkButtonMixin
 --- @field menuPointX number # 15
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L883)
 --- child of DressUpFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 DressUpFrameInset = {}
 DressUpFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L877)
 --- child of DressUpFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 DressUpFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L870)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L860)
 --- child of DressUpFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 DressUpFrameBg = {}

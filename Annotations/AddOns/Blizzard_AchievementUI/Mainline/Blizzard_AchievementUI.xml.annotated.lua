@@ -1200,12 +1200,12 @@ AchievementFrameFilterDropdown = {}
 AchievementFrameFilterDropdown["resizeToText"] = false
 AchievementFrameFilterDropdown["text"] = FILTER -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1239)
 --- child of AchievementFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_SearchBoxTemplateClearButton
 AchievementFrameClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1230)
 --- child of AchievementFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 AchievementFrameSearchIcon = {}

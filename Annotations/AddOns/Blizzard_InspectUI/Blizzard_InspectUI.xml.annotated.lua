@@ -15,18 +15,18 @@ InspectFrameTab2 = {}
 --- @class InspectFrame_InspectFrameTab3 : Button, PanelTabButtonTemplate
 InspectFrameTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L883)
 --- child of InspectFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 InspectFrameInset = {}
 InspectFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L877)
 --- child of InspectFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 InspectFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L870)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L860)
 --- child of InspectFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 InspectFrameBg = {}

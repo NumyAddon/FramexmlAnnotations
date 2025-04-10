@@ -369,12 +369,12 @@
 --- @class AzeriteEssenceUI_ActivationGlow : Texture
 --- @field Anim AzeriteEssenceUI_ActivationGlow_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L840)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L830)
 --- child of AzeriteEssenceUI (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 AzeriteEssenceUICloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L807)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L797)
 --- child of AzeriteEssenceUI (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 AzeriteEssenceUIBg = {}

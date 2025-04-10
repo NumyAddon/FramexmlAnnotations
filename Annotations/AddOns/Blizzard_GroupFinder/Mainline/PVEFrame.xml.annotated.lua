@@ -207,12 +207,12 @@ PVEFrameTopFiligree = {}
 --- @class PVEFrame_PVEFrameBottomFiligree : Texture
 PVEFrameBottomFiligree = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L840)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L830)
 --- child of PVEFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 PVEFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L807)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L797)
 --- child of PVEFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 PVEFrameBg = {}

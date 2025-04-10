@@ -1022,18 +1022,18 @@ ArchaeologyFrameBgLeft = {}
 --- @class ArchaeologyFrame_ArchaeologyFrameBgRight : Texture
 ArchaeologyFrameBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L883)
 --- child of ArchaeologyFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ArchaeologyFrameInset = {}
 ArchaeologyFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L877)
 --- child of ArchaeologyFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 ArchaeologyFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L870)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L860)
 --- child of ArchaeologyFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ArchaeologyFrameBg = {}

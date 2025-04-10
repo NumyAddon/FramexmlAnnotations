@@ -55,7 +55,7 @@ TimeManagerAlarmMessageLabel = {}
 --- @class TimeManagerFrame_TimeManagerAlarmMessageFrame : Frame
 TimeManagerAlarmMessageFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L380)
 --- child of TimeManagerAlarmEnabledButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TimeManagerAlarmEnabledButtonText = {}
@@ -66,7 +66,7 @@ TimeManagerAlarmEnabledButtonText = {}
 TimeManagerAlarmEnabledButton = {}
 TimeManagerAlarmEnabledButton["Text"] = TimeManagerAlarmEnabledButtonText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L380)
 --- child of TimeManagerMilitaryTimeCheck (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TimeManagerMilitaryTimeCheckText = {}
@@ -77,7 +77,7 @@ TimeManagerMilitaryTimeCheckText = {}
 TimeManagerMilitaryTimeCheck = {}
 TimeManagerMilitaryTimeCheck["Text"] = TimeManagerMilitaryTimeCheckText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L380)
 --- child of TimeManagerLocalTimeCheck (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 TimeManagerLocalTimeCheckText = {}
@@ -98,18 +98,18 @@ TimeManagerGlobe = {}
 --- @class TimeManagerFrame_TimeManagerFrameTicker : FontString, GameFontHighlightLarge
 TimeManagerFrameTicker = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L883)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 TimeManagerFrameInset = {}
 TimeManagerFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L877)
 --- child of TimeManagerFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 TimeManagerFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L870)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TimeManager/Mainline/Blizzard_TimeManager.xml#L860)
 --- child of TimeManagerFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 TimeManagerFrameBg = {}

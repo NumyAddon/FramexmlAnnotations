@@ -178,18 +178,18 @@ ClassTrainerFrameMoneyBg = {}
 --- @class ClassTrainerFrame_ClassTrainerFrameBg : Texture
 ClassTrainerFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L883)
 --- child of ClassTrainerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ClassTrainerFrameInset = {}
 ClassTrainerFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L877)
 --- child of ClassTrainerFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
 ClassTrainerFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L870)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L860)
 --- child of ClassTrainerFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ClassTrainerFrameBg = {}

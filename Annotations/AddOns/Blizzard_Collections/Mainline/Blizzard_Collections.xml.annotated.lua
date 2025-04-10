@@ -34,12 +34,12 @@ CollectionsJournalTab5 = {}
 --- @class CollectionsJournal_CollectionsJournalTab6 : Button, CollectionsJournalTab
 CollectionsJournalTab6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L840)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L830)
 --- child of CollectionsJournal (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
 CollectionsJournalCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L807)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L797)
 --- child of CollectionsJournal (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 CollectionsJournalBg = {}

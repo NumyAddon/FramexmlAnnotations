@@ -513,7 +513,7 @@ CalendarCreateEventTitleEdit = {}
 --- child of CalendarCreateEventFrame
 --- @class CalendarCreateEventFrame_CommunityDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L380)
 --- child of CalendarCreateEventAutoApproveCheck (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 CalendarCreateEventAutoApproveCheckText = {}
@@ -524,7 +524,7 @@ CalendarCreateEventAutoApproveCheckText = {}
 CalendarCreateEventAutoApproveCheck = {}
 CalendarCreateEventAutoApproveCheck["Text"] = CalendarCreateEventAutoApproveCheckText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L380)
 --- child of CalendarCreateEventLockEventCheck (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_UICheckButtonTemplateText
 CalendarCreateEventLockEventCheckText = {}

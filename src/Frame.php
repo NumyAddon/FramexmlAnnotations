@@ -126,7 +126,13 @@ class Frame
         $mixins = (string) $this->xmlElement->attributes()['mixin'] ?? '';
         $mixins = str_replace(' ', '', $mixins);
 
-        return $mixins === '' ? [] : explode(',', $mixins);
+        $mixins = $mixins === '' ? [] : explode(',', $mixins);
+
+        $secureMixins = (string) $this->xmlElement->attributes()['secureMixin'] ?? '';
+        $secureMixins = str_replace(' ', '', $secureMixins);
+        $secureMixins = $secureMixins === '' ? [] : explode(',', $secureMixins);
+
+        return array_unique(array_merge($mixins, $secureMixins));
     }
 
     public function getInherits(): array

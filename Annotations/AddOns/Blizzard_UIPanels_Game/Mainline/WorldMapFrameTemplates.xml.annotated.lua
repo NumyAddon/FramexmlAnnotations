@@ -59,7 +59,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L200)
 --- Template
---- @class WorldMapActionButtonTemplate : Frame
+--- @class WorldMapActionButtonTemplate : Frame, WorldMapActionButtonMixin
 --- @field SpellButton WorldMapActionButtonTemplate_SpellButton
 --- @field ActionFrameTexture Texture
 

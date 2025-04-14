@@ -27,5 +27,5 @@
 --- @field background Texture
 --- @field ManaCostPredictionBar Texture
 ClassNameplateManaBarFrame = {}
-ClassNameplateManaBarFrame["scale"] = _G["\"1\""]
+ClassNameplateManaBarFrame["scale"] = "1"
 

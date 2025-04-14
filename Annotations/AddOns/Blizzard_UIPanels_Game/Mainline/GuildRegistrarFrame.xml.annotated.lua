@@ -126,7 +126,7 @@ GuildRegistrarText = {}
 --- child of GuildRegistrarFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 GuildRegistrarFrameInset = {}
-GuildRegistrarFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+GuildRegistrarFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L1154)
 --- child of GuildRegistrarFrame (created in template ButtonFrameBaseTemplate)
@@ -147,5 +147,5 @@ GuildRegistrarFrame["Bg"] = GuildRegistrarFrameBg
 GuildRegistrarFrame["Inset"] = GuildRegistrarFrameInset -- inherited
 GuildRegistrarFrame["CloseButton"] = GuildRegistrarFrameCloseButton -- inherited
 GuildRegistrarFrame["Bg"] = GuildRegistrarFrameBg -- inherited
-GuildRegistrarFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+GuildRegistrarFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

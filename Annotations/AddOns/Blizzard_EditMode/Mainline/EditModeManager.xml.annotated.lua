@@ -320,5 +320,5 @@
 --- @field Title EditModeManagerFrame_Title
 --- @field LayoutLabel EditModeManagerFrame_LayoutLabel
 EditModeManagerFrame = {}
-EditModeManagerFrame["fixedWidth"] = _G["510"]
+EditModeManagerFrame["fixedWidth"] = 510
 

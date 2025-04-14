@@ -17,7 +17,7 @@ KeyboardMouseConfirmButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @field Keyboard Texture
 --- @field Text TutorialKeyboardMouseFrame_Frame_Text
 TutorialKeyboardMouseFrame_Frame = {}
-TutorialKeyboardMouseFrame_Frame["widthPadding"] = _G["288"]
+TutorialKeyboardMouseFrame_Frame["widthPadding"] = 288
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L60)
 --- child of TutorialWalk_Frame_ContainerFrame
@@ -53,5 +53,5 @@ TutorialKeyboardMouseFrame_Frame["widthPadding"] = _G["288"]
 --- @field widthPadding number # 180
 --- @field ContainerFrame TutorialWalk_Frame_ContainerFrame
 TutorialWalk_Frame = {}
-TutorialWalk_Frame["widthPadding"] = _G["180"]
+TutorialWalk_Frame["widthPadding"] = 180
 

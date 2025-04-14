@@ -460,7 +460,7 @@ GuildBankTabInfoEditBox = {}
 --- @field EditBox GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame_GuildBankTabInfoEditBox
 GuildBankInfoScrollFrame = {}
 GuildBankInfoScrollFrame["EditBox"] = GuildBankTabInfoEditBox
-GuildBankInfoScrollFrame["scrollBarX"] = _G["4"]
+GuildBankInfoScrollFrame["scrollBarX"] = 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L708)
 --- child of GuildBankFrame
@@ -606,7 +606,7 @@ GuildBankFrame["Info"] = GuildBankInfo
 --- @field editBoxHeaderText any # GUILDBANK_POPUP_TEXT
 GuildBankPopupFrame = {}
 GuildBankPopupFrame["editBoxHeaderText"] = GUILDBANK_POPUP_TEXT
-GuildBankPopupFrame["editBoxHeaderText"] = _G[""] -- inherited
+GuildBankPopupFrame["editBoxHeaderText"] =  -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1516)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)

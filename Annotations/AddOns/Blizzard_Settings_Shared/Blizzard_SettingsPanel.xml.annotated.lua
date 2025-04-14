@@ -240,7 +240,7 @@ SettingsTooltipTexture30 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L115)
 --- @class SettingsTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate
 SettingsTooltip = {}
-SettingsTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+SettingsTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 SettingsTooltip["TextLeft1"] = SettingsTooltipTextLeft1 -- inherited
 SettingsTooltip["TextRight1"] = SettingsTooltipTextRight1 -- inherited
 SettingsTooltip["TextLeft2"] = SettingsTooltipTextLeft2 -- inherited

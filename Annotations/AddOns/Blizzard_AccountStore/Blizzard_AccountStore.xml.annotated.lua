@@ -140,7 +140,7 @@ AccountStoreFrameBg = {}
 AccountStoreFrame = {}
 AccountStoreFrame["CloseButton"] = AccountStoreFrameCloseButton -- inherited
 AccountStoreFrame["Bg"] = AccountStoreFrameBg -- inherited
-AccountStoreFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+AccountStoreFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L167)
 --- child of FullscreenAccountStoreContainer

@@ -97,7 +97,7 @@
 --- @class RuneFrame : Frame, RuneFrameTemplate
 --- @field layoutIndex number # 2
 RuneFrame = {}
-RuneFrame["layoutIndex"] = _G["2"]
+RuneFrame["layoutIndex"] = 2
 RuneFrame["spacing"] = _G["-1"] -- inherited
 RuneFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 RuneFrame["isManagedFrame"] = true -- inherited

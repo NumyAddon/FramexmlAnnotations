@@ -169,7 +169,7 @@ GarrisonRecruiterFrameText = {}
 --- child of GarrisonRecruiterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 GarrisonRecruiterFrameInset = {}
-GarrisonRecruiterFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+GarrisonRecruiterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L1154)
 --- child of GarrisonRecruiterFrame (created in template ButtonFrameBaseTemplate)
@@ -192,7 +192,7 @@ GarrisonRecruiterFrame = {}
 GarrisonRecruiterFrame["Inset"] = GarrisonRecruiterFrameInset -- inherited
 GarrisonRecruiterFrame["CloseButton"] = GarrisonRecruiterFrameCloseButton -- inherited
 GarrisonRecruiterFrame["Bg"] = GarrisonRecruiterFrameBg -- inherited
-GarrisonRecruiterFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+GarrisonRecruiterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L1516)
 --- child of GarrisonRecruitSelectFrame_FollowerList_SearchBox (created in template SearchBoxTemplate)

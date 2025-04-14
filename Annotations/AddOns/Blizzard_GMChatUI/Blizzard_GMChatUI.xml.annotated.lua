@@ -282,5 +282,5 @@ GMChatFrame["Background"] = GMChatFrameBackground -- inherited
 --- @field SubtitleText GMChatStatusFrame_SubtitleText
 --- @field Icon Texture
 GMChatStatusFrame = {}
-GMChatStatusFrame["layoutType"] = _G["\"GMChatRequest\""]
+GMChatStatusFrame["layoutType"] = "GMChatRequest"
 

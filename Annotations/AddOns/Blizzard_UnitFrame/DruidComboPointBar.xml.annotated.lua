@@ -33,9 +33,9 @@
 --- @class DruidComboPointBarFrame : Frame, DruidComboPointBarTemplate
 --- @field topPadding number # 7
 DruidComboPointBarFrame = {}
-DruidComboPointBarFrame["topPadding"] = _G["7"]
-DruidComboPointBarFrame["powerToken"] = _G["\"COMBO_POINTS\""] -- inherited
-DruidComboPointBarFrame["maxUsablePoints"] = _G["5"] -- inherited
+DruidComboPointBarFrame["topPadding"] = 7
+DruidComboPointBarFrame["powerToken"] = "COMBO_POINTS" -- inherited
+DruidComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
 DruidComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 DruidComboPointBarFrame["isManagedFrame"] = true -- inherited
 

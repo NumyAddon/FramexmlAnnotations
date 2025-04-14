@@ -239,7 +239,7 @@ EventTraceInsetBg = {}
 --- child of EventTrace (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 EventTraceInset = {}
-EventTraceInset["layoutType"] = "InsetFrameTemplate" -- inherited
+EventTraceInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 EventTraceInset["Bg"] = EventTraceInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L827)
@@ -356,7 +356,7 @@ EventTrace["BotRightCorner"] = EventTraceBotRightCorner -- inherited
 EventTrace["BottomBorder"] = EventTraceBottomBorder -- inherited
 EventTrace["LeftBorder"] = EventTraceLeftBorder -- inherited
 EventTrace["RightBorder"] = EventTraceRightBorder -- inherited
-EventTrace["layoutType"] = "PortraitFrameTemplate" -- inherited
+EventTrace["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L35)
 --- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
@@ -531,7 +531,7 @@ EventTraceTooltipTexture30 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L385)
 --- @class EventTraceTooltip : GameTooltip, SharedTooltipTemplate
 EventTraceTooltip = {}
-EventTraceTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+EventTraceTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
 EventTraceTooltip["TextLeft1"] = EventTraceTooltipTextLeft1 -- inherited
 EventTraceTooltip["TextRight1"] = EventTraceTooltipTextRight1 -- inherited
 EventTraceTooltip["TextLeft2"] = EventTraceTooltipTextLeft2 -- inherited

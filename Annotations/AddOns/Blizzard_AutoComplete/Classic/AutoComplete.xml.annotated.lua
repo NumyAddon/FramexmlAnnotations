@@ -41,5 +41,5 @@ AutoCompleteInstructions = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AutoComplete/Classic/AutoComplete.xml#L32)
 --- @class AutoCompleteBox : Frame, TooltipBackdropTemplate
 AutoCompleteBox = {}
-AutoCompleteBox["layoutType"] = "TooltipDefaultLayout" -- inherited
+AutoCompleteBox["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 

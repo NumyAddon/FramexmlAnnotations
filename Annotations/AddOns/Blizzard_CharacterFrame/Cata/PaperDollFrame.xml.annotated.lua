@@ -730,5 +730,5 @@ PaperDollFrame = {}
 --- @field editBoxHeaderText any # GEARSETS_POPUP_TEXT
 GearManagerPopupFrame = {}
 GearManagerPopupFrame["editBoxHeaderText"] = GEARSETS_POPUP_TEXT
-GearManagerPopupFrame["editBoxHeaderText"] =  -- inherited
+GearManagerPopupFrame["editBoxHeaderText"] = _G[""] -- inherited
 

@@ -99,7 +99,7 @@ GuildMicroButtonFlash = {}
 --- @field commandName string # "TOGGLEGUILDTAB"
 --- @field NotificationOverlay Frame
 GuildMicroButton = {}
-GuildMicroButton["commandName"] = "TOGGLEGUILDTAB"
+GuildMicroButton["commandName"] = _G["\"TOGGLEGUILDTAB\""]
 GuildMicroButton["Flash"] = GuildMicroButtonFlash -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L12)
@@ -111,7 +111,7 @@ CollectionsMicroButtonFlash = {}
 --- @class CollectionsMicroButton : Button, MainMenuBarMicroButton, CollectionMicroButtonMixin
 --- @field lastNumMountsNeedingFanfare number # 0
 CollectionsMicroButton = {}
-CollectionsMicroButton["lastNumMountsNeedingFanfare"] = 0
+CollectionsMicroButton["lastNumMountsNeedingFanfare"] = _G["0"]
 CollectionsMicroButton["Flash"] = CollectionsMicroButtonFlash -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L287)
@@ -150,7 +150,7 @@ EJMicroButtonFlash = {}
 --- @class EJMicroButton : Button, MainMenuBarMicroButton, EJMicroButtonMixin
 --- @field commandName string # "TOGGLEENCOUNTERJOURNAL"
 EJMicroButton = {}
-EJMicroButton["commandName"] = "TOGGLEENCOUNTERJOURNAL"
+EJMicroButton["commandName"] = _G["\"TOGGLEENCOUNTERJOURNAL\""]
 EJMicroButton["Flash"] = EJMicroButtonFlash -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L432)

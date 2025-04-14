@@ -118,7 +118,7 @@ TradeRecipientItemsInsetBg = {}
 --- child of TradeFrame
 --- @class TradeFrame_TradeRecipientItemsInset : Frame, InsetFrameTemplate
 TradeRecipientItemsInset = {}
-TradeRecipientItemsInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TradeRecipientItemsInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 TradeRecipientItemsInset["Bg"] = TradeRecipientItemsInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
@@ -490,7 +490,7 @@ TradeRecipientEnchantInsetBg = {}
 --- child of TradeFrame
 --- @class TradeFrame_TradeRecipientEnchantInset : Frame, InsetFrameTemplate
 TradeRecipientEnchantInset = {}
-TradeRecipientEnchantInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TradeRecipientEnchantInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 TradeRecipientEnchantInset["Bg"] = TradeRecipientEnchantInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
@@ -562,7 +562,7 @@ TradePlayerItemsInsetBg = {}
 --- child of TradeFrame
 --- @class TradeFrame_TradePlayerItemsInset : Frame, InsetFrameTemplate
 TradePlayerItemsInset = {}
-TradePlayerItemsInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TradePlayerItemsInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 TradePlayerItemsInset["Bg"] = TradePlayerItemsInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
@@ -934,7 +934,7 @@ TradePlayerEnchantInsetBg = {}
 --- child of TradeFrame
 --- @class TradeFrame_TradePlayerEnchantInset : Frame, InsetFrameTemplate
 TradePlayerEnchantInset = {}
-TradePlayerEnchantInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TradePlayerEnchantInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 TradePlayerEnchantInset["Bg"] = TradePlayerEnchantInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
@@ -1018,7 +1018,7 @@ TradePlayerInputMoneyInsetBg = {}
 --- child of TradeFrame
 --- @class TradeFrame_TradePlayerInputMoneyInset : Frame, InsetFrameTemplate
 TradePlayerInputMoneyInset = {}
-TradePlayerInputMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TradePlayerInputMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 TradePlayerInputMoneyInset["Bg"] = TradePlayerInputMoneyInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L8)
@@ -1053,7 +1053,7 @@ TradeRecipientMoneyInsetBg = {}
 --- child of TradeFrame
 --- @class TradeFrame_TradeRecipientMoneyInset : Frame, InsetFrameTemplate
 TradeRecipientMoneyInset = {}
-TradeRecipientMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TradeRecipientMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 TradeRecipientMoneyInset["Bg"] = TradeRecipientMoneyInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L1665)
@@ -1164,7 +1164,7 @@ TradeFrameInsetBg = {}
 --- child of TradeFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 TradeFrameInset = {}
-TradeFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TradeFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 TradeFrameInset["Bg"] = TradeFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L827)
@@ -1282,5 +1282,5 @@ TradeFrame["BotRightCorner"] = TradeFrameBotRightCorner -- inherited
 TradeFrame["BottomBorder"] = TradeFrameBottomBorder -- inherited
 TradeFrame["LeftBorder"] = TradeFrameLeftBorder -- inherited
 TradeFrame["RightBorder"] = TradeFrameRightBorder -- inherited
-TradeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+TradeFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

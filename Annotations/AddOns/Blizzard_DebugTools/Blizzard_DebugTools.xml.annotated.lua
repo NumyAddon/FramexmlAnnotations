@@ -173,7 +173,7 @@ FrameStackTooltipTexture30 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L4)
 --- @class FrameStackTooltip : GameTooltip, SharedTooltipTemplate
 FrameStackTooltip = {}
-FrameStackTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+FrameStackTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
 FrameStackTooltip["TextLeft1"] = FrameStackTooltipTextLeft1 -- inherited
 FrameStackTooltip["TextRight1"] = FrameStackTooltipTextRight1 -- inherited
 FrameStackTooltip["TextLeft2"] = FrameStackTooltipTextLeft2 -- inherited

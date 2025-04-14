@@ -76,7 +76,7 @@ GlyphFrameSideInsetBg = {}
 --- child of GlyphFrame
 --- @class GlyphFrame_GlyphFrameSideInset : Frame, InsetFrameTemplate
 GlyphFrameSideInset = {}
-GlyphFrameSideInset["layoutType"] = "InsetFrameTemplate" -- inherited
+GlyphFrameSideInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 GlyphFrameSideInset["Bg"] = GlyphFrameSideInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L345)

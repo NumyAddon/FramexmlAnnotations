@@ -362,8 +362,8 @@ TargetFramePowerBarAlt["flash"] = TargetFramePowerBarAltFlash -- inherited
 --- @field powerBarAlt TargetFrame_TargetFramePowerBarAlt
 TargetFrame = {}
 TargetFrame["powerBarAlt"] = TargetFramePowerBarAlt
-TargetFrame["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Target"]
-TargetFrame["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
+TargetFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Target
+TargetFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L96)
 --- child of FocusFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -447,18 +447,18 @@ FocusFramePowerBarAlt["flash"] = FocusFramePowerBarAltFlash -- inherited
 --- @field powerBarAlt FocusFrame_FocusFramePowerBarAlt
 FocusFrame = {}
 FocusFrame["powerBarAlt"] = FocusFramePowerBarAlt
-FocusFrame["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Focus"]
-FocusFrame["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
+FocusFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Focus
+FocusFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L707)
 --- @class BossTargetFrameContainer : Frame, VerticalLayoutFrame, UIParentRightManagedFrameTemplate, EditModeBossUnitFrameSystemTemplate, BossTargetFrameContainerMixin
 --- @field layoutIndex number # 4
 BossTargetFrameContainer = {}
-BossTargetFrameContainer["layoutIndex"] = _G["4"]
+BossTargetFrameContainer["layoutIndex"] = 4
 BossTargetFrameContainer["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
 BossTargetFrameContainer["isManagedFrame"] = true -- inherited
-BossTargetFrameContainer["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Boss"] -- inherited
-BossTargetFrameContainer["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
+BossTargetFrameContainer["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Boss -- inherited
+BossTargetFrameContainer["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L96)
 --- child of Boss1TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -540,8 +540,8 @@ Boss1TargetFramePowerBarAlt["flash"] = Boss1TargetFramePowerBarAltFlash -- inher
 --- @class Boss1TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 4
 Boss1TargetFrame = {}
-Boss1TargetFrame["layoutIndex"] = _G["4"]
-Boss1TargetFrame["align"] = _G["\"right\""] -- inherited
+Boss1TargetFrame["layoutIndex"] = 4
+Boss1TargetFrame["align"] = "right" -- inherited
 Boss1TargetFrame["powerBarAlt"] = Boss1TargetFramePowerBarAlt -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L96)
@@ -624,8 +624,8 @@ Boss2TargetFramePowerBarAlt["flash"] = Boss2TargetFramePowerBarAltFlash -- inher
 --- @class Boss2TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 5
 Boss2TargetFrame = {}
-Boss2TargetFrame["layoutIndex"] = _G["5"]
-Boss2TargetFrame["align"] = _G["\"right\""] -- inherited
+Boss2TargetFrame["layoutIndex"] = 5
+Boss2TargetFrame["align"] = "right" -- inherited
 Boss2TargetFrame["powerBarAlt"] = Boss2TargetFramePowerBarAlt -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L96)
@@ -708,8 +708,8 @@ Boss3TargetFramePowerBarAlt["flash"] = Boss3TargetFramePowerBarAltFlash -- inher
 --- @class Boss3TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 6
 Boss3TargetFrame = {}
-Boss3TargetFrame["layoutIndex"] = _G["6"]
-Boss3TargetFrame["align"] = _G["\"right\""] -- inherited
+Boss3TargetFrame["layoutIndex"] = 6
+Boss3TargetFrame["align"] = "right" -- inherited
 Boss3TargetFrame["powerBarAlt"] = Boss3TargetFramePowerBarAlt -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L96)
@@ -792,8 +792,8 @@ Boss4TargetFramePowerBarAlt["flash"] = Boss4TargetFramePowerBarAltFlash -- inher
 --- @class Boss4TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 7
 Boss4TargetFrame = {}
-Boss4TargetFrame["layoutIndex"] = _G["7"]
-Boss4TargetFrame["align"] = _G["\"right\""] -- inherited
+Boss4TargetFrame["layoutIndex"] = 7
+Boss4TargetFrame["align"] = "right" -- inherited
 Boss4TargetFrame["powerBarAlt"] = Boss4TargetFramePowerBarAlt -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L96)
@@ -876,7 +876,7 @@ Boss5TargetFramePowerBarAlt["flash"] = Boss5TargetFramePowerBarAltFlash -- inher
 --- @class Boss5TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 8
 Boss5TargetFrame = {}
-Boss5TargetFrame["layoutIndex"] = _G["8"]
-Boss5TargetFrame["align"] = _G["\"right\""] -- inherited
+Boss5TargetFrame["layoutIndex"] = 8
+Boss5TargetFrame["align"] = "right" -- inherited
 Boss5TargetFrame["powerBarAlt"] = Boss5TargetFramePowerBarAlt -- inherited
 

@@ -344,7 +344,7 @@ CalendarViewEventTimeLabel = {}
 --- @field ScrollBar CalendarViewEventFrame_CalendarViewEventDescriptionContainer_ScrollBar
 CalendarViewEventDescriptionContainer = {}
 CalendarViewEventDescriptionContainer["backdropColor"] = BLACK_FONT_COLOR
-CalendarViewEventDescriptionContainer["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+CalendarViewEventDescriptionContainer["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L372)
 --- child of CalendarViewEventAcceptButton (created in template CalendarViewEventRSVPButtonTemplate)
@@ -423,9 +423,9 @@ CalendarViewEventInviteListStatusSortButton = {}
 --- @class CalendarViewEventFrame_CalendarViewEventInviteListSection_CalendarViewEventInviteList : Frame, CalendarEventInviteListTemplate
 --- @field buttonTemplate string # "CalendarViewEventInviteListButtonTemplate"
 CalendarViewEventInviteList = {}
-CalendarViewEventInviteList["buttonTemplate"] = _G["\"CalendarViewEventInviteListButtonTemplate\""]
+CalendarViewEventInviteList["buttonTemplate"] = "CalendarViewEventInviteListButtonTemplate"
 CalendarViewEventInviteList["backdropColor"] = BLACK_FONT_COLOR -- inherited
-CalendarViewEventInviteList["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+CalendarViewEventInviteList["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L539)
 --- child of CalendarViewEventInviteListSection
@@ -570,7 +570,7 @@ CalendarCreateEventInviteListStatusSortButton = {}
 --- @class CalendarCreateEventFrame_CalendarCreateEventInviteListSection_CalendarCreateEventInviteList : Frame, CalendarEventInviteListTemplate
 CalendarCreateEventInviteList = {}
 CalendarCreateEventInviteList["backdropColor"] = BLACK_FONT_COLOR -- inherited
-CalendarCreateEventInviteList["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+CalendarCreateEventInviteList["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L796)
 --- child of CalendarCreateEventInviteListSection
@@ -611,7 +611,7 @@ CalendarCreateEventInviteListSection = {}
 --- @field ScrollBar CalendarCreateEventFrame_CalendarCreateEventDescriptionContainer_ScrollBar
 CalendarCreateEventDescriptionContainer = {}
 CalendarCreateEventDescriptionContainer["backdropColor"] = BLACK_FONT_COLOR
-CalendarCreateEventDescriptionContainer["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+CalendarCreateEventDescriptionContainer["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Calendar/Mainline/Blizzard_Calendar.xml#L887)
 --- child of CalendarCreateEventMassInviteButton

@@ -7,5 +7,5 @@ ExtraAbilityContainer = {}
 ExtraAbilityContainer["spacing"] = _G["-30"]
 ExtraAbilityContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 ExtraAbilityContainer["isManagedFrame"] = true -- inherited
-ExtraAbilityContainer["system"] = _G["Enum.EditModeSystem.ExtraAbilities"] -- inherited
+ExtraAbilityContainer["system"] = Enum.EditModeSystem.ExtraAbilities -- inherited
 

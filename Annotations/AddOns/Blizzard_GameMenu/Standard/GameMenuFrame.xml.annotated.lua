@@ -4,6 +4,6 @@
 --- @class GameMenuFrame : Frame, MainMenuFrameTemplate, CallbackRegistrantTemplate, GameMenuFrameMixin
 --- @field dialogHeaderFont string # "GameFontNormalMed1"
 GameMenuFrame = {}
-GameMenuFrame["dialogHeaderFont"] = _G["\"GameFontNormalMed1\""]
-GameMenuFrame["buttonTemplate"] = _G["\"MainMenuFrameButtonTemplate\""] -- inherited
+GameMenuFrame["dialogHeaderFont"] = "GameFontNormalMed1"
+GameMenuFrame["buttonTemplate"] = "MainMenuFrameButtonTemplate" -- inherited
 

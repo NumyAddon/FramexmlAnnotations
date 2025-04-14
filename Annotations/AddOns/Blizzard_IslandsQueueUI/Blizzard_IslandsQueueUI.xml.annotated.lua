@@ -177,5 +177,5 @@ IslandsQueueFrameBg = {}
 IslandsQueueFrame = {}
 IslandsQueueFrame["CloseButton"] = IslandsQueueFrameCloseButton -- inherited
 IslandsQueueFrame["Bg"] = IslandsQueueFrameBg -- inherited
-IslandsQueueFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+IslandsQueueFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

@@ -109,7 +109,7 @@
 --- @field scrollBarX number # 6
 --- @field ScrollChild Frame
 QuestLogPopupDetailFrameScrollFrame = {}
-QuestLogPopupDetailFrameScrollFrame["scrollBarX"] = _G["6"]
+QuestLogPopupDetailFrameScrollFrame["scrollBarX"] = 6
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L394)
 --- child of QuestLogPopupDetailFrame_ShowMapButton
@@ -144,7 +144,7 @@ QuestLogPopupDetailFrameShareButton["fitTextCanWidthDecrease"] = true -- inherit
 --- child of QuestLogPopupDetailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 QuestLogPopupDetailFrameInset = {}
-QuestLogPopupDetailFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+QuestLogPopupDetailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L1154)
 --- child of QuestLogPopupDetailFrame (created in template ButtonFrameBaseTemplate)
@@ -196,7 +196,7 @@ QuestLogPopupDetailFrame["ShareButton"] = QuestLogPopupDetailFrameShareButton
 QuestLogPopupDetailFrame["Inset"] = QuestLogPopupDetailFrameInset -- inherited
 QuestLogPopupDetailFrame["CloseButton"] = QuestLogPopupDetailFrameCloseButton -- inherited
 QuestLogPopupDetailFrame["Bg"] = QuestLogPopupDetailFrameBg -- inherited
-QuestLogPopupDetailFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+QuestLogPopupDetailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 QuestLogPopupDetailFrame["MaterialTopLeft"] = QuestLogPopupDetailFrameMaterialTopLeft -- inherited
 QuestLogPopupDetailFrame["MaterialTopRight"] = QuestLogPopupDetailFrameMaterialTopRight -- inherited
 QuestLogPopupDetailFrame["MaterialBotLeft"] = QuestLogPopupDetailFrameMaterialBotLeft -- inherited
@@ -288,7 +288,7 @@ QuestScrollFrameSearchIcon = {}
 --- @field EmptyText QuestMapFrame_QuestsFrame_QuestScrollFrame_EmptyText
 --- @field Edge Texture
 QuestScrollFrame = {}
-QuestScrollFrame["scrollBarX"] = _G["8"]
+QuestScrollFrame["scrollBarX"] = 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L752)
 --- child of QuestMapFrame_QuestsFrame_DetailsFrame
@@ -340,7 +340,7 @@ QuestScrollFrame["scrollBarX"] = _G["8"]
 --- @class QuestMapFrame_QuestsFrame_DetailsFrame_QuestMapDetailsScrollFrame : EventScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 13
 QuestMapDetailsScrollFrame = {}
-QuestMapDetailsScrollFrame["scrollBarX"] = _G["13"]
+QuestMapDetailsScrollFrame["scrollBarX"] = 13
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L887)
 --- child of QuestMapFrame_QuestsFrame_DetailsFrame
@@ -421,7 +421,7 @@ QuestMapDetailsScrollFrame["scrollBarX"] = _G["13"]
 --- child of QuestMapFrame_MapLegend (created in template MapLegendFrameTemplate)
 --- @type MapLegendFrameTemplate_MapLegendScrollFrame
 MapLegendScrollFrame = {}
-MapLegendScrollFrame["scrollBarX"] = _G["8"]
+MapLegendScrollFrame["scrollBarX"] = 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L1034)
 --- child of QuestMapFrame

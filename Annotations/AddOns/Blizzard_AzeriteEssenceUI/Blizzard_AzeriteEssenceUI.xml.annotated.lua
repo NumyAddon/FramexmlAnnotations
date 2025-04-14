@@ -399,7 +399,7 @@ AzeriteEssenceUIBg = {}
 AzeriteEssenceUI = {}
 AzeriteEssenceUI["CloseButton"] = AzeriteEssenceUICloseButton -- inherited
 AzeriteEssenceUI["Bg"] = AzeriteEssenceUIBg -- inherited
-AzeriteEssenceUI["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+AzeriteEssenceUI["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L834)
 --- child of AzeriteEssenceLearnAnimFrame

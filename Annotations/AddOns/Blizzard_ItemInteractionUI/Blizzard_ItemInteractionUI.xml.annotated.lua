@@ -197,5 +197,5 @@ ItemInteractionFrameBg = {}
 ItemInteractionFrame = {}
 ItemInteractionFrame["CloseButton"] = ItemInteractionFrameCloseButton -- inherited
 ItemInteractionFrame["Bg"] = ItemInteractionFrameBg -- inherited
-ItemInteractionFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ItemInteractionFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

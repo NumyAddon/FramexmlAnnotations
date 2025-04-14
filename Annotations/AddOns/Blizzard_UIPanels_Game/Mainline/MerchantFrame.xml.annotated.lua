@@ -1222,7 +1222,7 @@ MerchantBuyBackItem["Name"] = MerchantBuyBackItemName
 --- child of MerchantFrame
 --- @class MerchantFrame_MerchantExtraCurrencyInset : Frame, InsetFrameTemplate
 MerchantExtraCurrencyInset = {}
-MerchantExtraCurrencyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+MerchantExtraCurrencyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1484)
 --- child of MerchantExtraCurrencyBg (created in template ThinGoldEdgeTemplate)
@@ -1248,7 +1248,7 @@ MerchantExtraCurrencyBg = {}
 --- child of MerchantFrame
 --- @class MerchantFrame_MerchantMoneyInset : Frame, InsetFrameTemplate
 MerchantMoneyInset = {}
-MerchantMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+MerchantMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1484)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
@@ -1347,7 +1347,7 @@ MerchantFrameBottomLeftBorder = {}
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MerchantFrameInset = {}
-MerchantFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+MerchantFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1154)
 --- child of MerchantFrame (created in template ButtonFrameBaseTemplate)
@@ -1367,5 +1367,5 @@ MerchantFrame = {}
 MerchantFrame["Inset"] = MerchantFrameInset -- inherited
 MerchantFrame["CloseButton"] = MerchantFrameCloseButton -- inherited
 MerchantFrame["Bg"] = MerchantFrameBg -- inherited
-MerchantFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+MerchantFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

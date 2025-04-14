@@ -234,7 +234,7 @@ EventTraceSearchIcon = {}
 --- child of EventTrace (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 EventTraceInset = {}
-EventTraceInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+EventTraceInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1154)
 --- child of EventTrace (created in template ButtonFrameBaseTemplate)
@@ -257,7 +257,7 @@ EventTrace = {}
 EventTrace["Inset"] = EventTraceInset -- inherited
 EventTrace["CloseButton"] = EventTraceCloseButton -- inherited
 EventTrace["Bg"] = EventTraceBg -- inherited
-EventTrace["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+EventTrace["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L35)
 --- child of EventTraceTooltip (created in template SharedTooltipArtTemplate)
@@ -432,7 +432,7 @@ EventTraceTooltipTexture30 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L385)
 --- @class EventTraceTooltip : GameTooltip, SharedTooltipTemplate
 EventTraceTooltip = {}
-EventTraceTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+EventTraceTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 EventTraceTooltip["TextLeft1"] = EventTraceTooltipTextLeft1 -- inherited
 EventTraceTooltip["TextRight1"] = EventTraceTooltipTextRight1 -- inherited
 EventTraceTooltip["TextLeft2"] = EventTraceTooltipTextLeft2 -- inherited

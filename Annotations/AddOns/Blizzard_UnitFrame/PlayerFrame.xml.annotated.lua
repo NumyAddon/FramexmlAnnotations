@@ -233,8 +233,8 @@ PlayerPVPTimerText = {}
 --- @field PlayerFrameContent PlayerFrame_PlayerFrameContent
 PlayerFrame = {}
 PlayerFrame["disablePortraitMask"] = true
-PlayerFrame["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Player"] -- inherited
-PlayerFrame["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
+PlayerFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Player -- inherited
+PlayerFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L467)
 --- Template
@@ -256,6 +256,6 @@ PlayerFrame["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
 --- @class PlayerFrameBottomManagedFramesContainer : Frame, PlayerFrameManagedContainerTemplate, PlayerFrameBottomManagedFramesContainerMixin
 --- @field fixedWidth number # 160
 PlayerFrameBottomManagedFramesContainer = {}
-PlayerFrameBottomManagedFramesContainer["fixedWidth"] = _G["160"]
-PlayerFrameBottomManagedFramesContainer["spacing"] = _G["2"] -- inherited
+PlayerFrameBottomManagedFramesContainer["fixedWidth"] = 160
+PlayerFrameBottomManagedFramesContainer["spacing"] = 2 -- inherited
 

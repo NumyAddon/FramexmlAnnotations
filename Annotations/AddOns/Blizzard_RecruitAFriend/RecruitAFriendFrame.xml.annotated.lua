@@ -61,7 +61,7 @@
 --- @field Title RecruitAFriendRewardsFrame_Title
 --- @field Description RecruitAFriendRewardsFrame_Description
 RecruitAFriendRewardsFrame = {}
-RecruitAFriendRewardsFrame["widthPadding"] = _G["20"]
+RecruitAFriendRewardsFrame["widthPadding"] = 20
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L179)
 --- child of RecruitAFriendRewardTabTemplate

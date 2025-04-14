@@ -15,7 +15,7 @@ ItemTextPageScrollChild = {}
 --- @class ItemTextFrame_ItemTextScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 7
 ItemTextScrollFrame = {}
-ItemTextScrollFrame["scrollBarX"] = _G["7"]
+ItemTextScrollFrame["scrollBarX"] = 7
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L82)
 --- child of ItemTextFrame
@@ -66,7 +66,7 @@ ItemTextCurrentPage = {}
 --- child of ItemTextFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ItemTextFrameInset = {}
-ItemTextFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+ItemTextFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemTextFrame.xml#L1154)
 --- child of ItemTextFrame (created in template ButtonFrameBaseTemplate)
@@ -84,5 +84,5 @@ ItemTextFrame = {}
 ItemTextFrame["Inset"] = ItemTextFrameInset -- inherited
 ItemTextFrame["CloseButton"] = ItemTextFrameCloseButton -- inherited
 ItemTextFrame["Bg"] = ItemTextFrameBg -- inherited
-ItemTextFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ItemTextFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

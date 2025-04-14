@@ -247,7 +247,7 @@ CovenantMissionFrameTab3 = {}
 --- @field HealAllButton CovenantMissionFrame_CovenantMissionFrameFollowers_HealAllButton
 --- @field AdventurersLabel CovenantMissionFrame_CovenantMissionFrameFollowers_AdventurersLabel
 CovenantMissionFrameFollowers = {}
-CovenantMissionFrameFollowers["followerTemplate"] = _G["\"CovenantMissionFollowerOrCategoryListButtonTemplate\""]
+CovenantMissionFrameFollowers["followerTemplate"] = "CovenantMissionFollowerOrCategoryListButtonTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L526)
 --- child of CovenantMissionFrame_MapTab_ScrollContainer
@@ -319,5 +319,5 @@ CovenantMissionFrame["Tab1"] = CovenantMissionFrameTab1
 CovenantMissionFrame["Tab2"] = CovenantMissionFrameTab2
 CovenantMissionFrame["Tab3"] = CovenantMissionFrameTab3
 CovenantMissionFrame["FollowerList"] = CovenantMissionFrameFollowers
-CovenantMissionFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_9_0_GarrisonFollower"]
+CovenantMissionFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_9_0_GarrisonFollower
 

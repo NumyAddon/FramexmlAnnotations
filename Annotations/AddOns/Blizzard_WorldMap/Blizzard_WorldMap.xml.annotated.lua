@@ -51,5 +51,5 @@ WorldMapFrameBg = {}
 --- @field BlackoutFrame WorldMapFrame_BlackoutFrame
 --- @field BorderFrame WorldMapFrame_BorderFrame
 WorldMapFrame = {}
-WorldMapFrame["debugInspectionSystem"] = _G["\"MapCanvas\""] -- inherited
+WorldMapFrame["debugInspectionSystem"] = "MapCanvas" -- inherited
 

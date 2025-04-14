@@ -56,5 +56,5 @@
 --- @field ExpansionImage ExpansionTrialCheckPointDialog_ExpansionImage
 --- @field Description ExpansionTrialCheckPointDialog_Description
 ExpansionTrialCheckPointDialog = {}
-ExpansionTrialCheckPointDialog["fixedWidth"] = _G["521"]
+ExpansionTrialCheckPointDialog["fixedWidth"] = 521
 

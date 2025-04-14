@@ -4,7 +4,7 @@
 --- @class UIWidgetBelowMinimapContainerFrame : Frame, UIWidgetContainerTemplate, UIParentRightManagedFrameTemplate, UIWidgetBelowMinimapContainerMixin
 --- @field verticalAnchorPoint string # "TOPRIGHT"
 UIWidgetBelowMinimapContainerFrame = {}
-UIWidgetBelowMinimapContainerFrame["verticalAnchorPoint"] = _G["\"TOPRIGHT\""]
+UIWidgetBelowMinimapContainerFrame["verticalAnchorPoint"] = "TOPRIGHT"
 UIWidgetBelowMinimapContainerFrame["showAndHideOnWidgetSetRegistration"] = true -- inherited
 UIWidgetBelowMinimapContainerFrame["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
 UIWidgetBelowMinimapContainerFrame["isManagedFrame"] = true -- inherited

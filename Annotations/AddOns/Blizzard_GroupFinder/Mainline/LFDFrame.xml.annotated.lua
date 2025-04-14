@@ -21,21 +21,21 @@
 --- @class LFDRoleCheckPopup_LFDRoleCheckPopupRoleButtonTank : Button, LFDRoleCheckPopupButtonTemplate
 --- @field role string # "TANK"
 LFDRoleCheckPopupRoleButtonTank = {}
-LFDRoleCheckPopupRoleButtonTank["role"] = _G["\"TANK\""]
+LFDRoleCheckPopupRoleButtonTank["role"] = "TANK"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L57)
 --- child of LFDRoleCheckPopup
 --- @class LFDRoleCheckPopup_LFDRoleCheckPopupRoleButtonHealer : Button, LFDRoleCheckPopupButtonTemplate
 --- @field role string # "HEALER"
 LFDRoleCheckPopupRoleButtonHealer = {}
-LFDRoleCheckPopupRoleButtonHealer["role"] = _G["\"HEALER\""]
+LFDRoleCheckPopupRoleButtonHealer["role"] = "HEALER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L69)
 --- child of LFDRoleCheckPopup
 --- @class LFDRoleCheckPopup_LFDRoleCheckPopupRoleButtonDPS : Button, LFDRoleCheckPopupButtonTemplate
 --- @field role string # "DAMAGER"
 LFDRoleCheckPopupRoleButtonDPS = {}
-LFDRoleCheckPopupRoleButtonDPS["role"] = _G["\"DAMAGER\""]
+LFDRoleCheckPopupRoleButtonDPS["role"] = "DAMAGER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L81)
 --- child of LFDRoleCheckPopup
@@ -102,7 +102,7 @@ LFDReadyCheckPopup = {}
 --- child of LFDParentFrame
 --- @class LFDParentFrame_LFDParentFrameInset : Frame, InsetFrameTemplate
 LFDParentFrameInset = {}
-LFDParentFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+LFDParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFDFrame.xml#L188)
 --- child of LFDQueueFrameRoleButtonTank (created in template LFGRoleButtonWithBackgroundAndRewardTemplate)
@@ -124,7 +124,7 @@ LFDQueueFrameRoleButtonTankBackground = {}
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameRoleButtonTank : Button, LFDRoleButtonTemplate
 --- @field role string # "TANK"
 LFDQueueFrameRoleButtonTank = {}
-LFDQueueFrameRoleButtonTank["role"] = _G["\"TANK\""]
+LFDQueueFrameRoleButtonTank["role"] = "TANK"
 LFDQueueFrameRoleButtonTank["incentiveIcon"] = LFDQueueFrameRoleButtonTankIncentiveIcon -- inherited
 LFDQueueFrameRoleButtonTank["shortageBorder"] = LFDQueueFrameRoleButtonTankShortageBorder -- inherited
 LFDQueueFrameRoleButtonTank["background"] = LFDQueueFrameRoleButtonTankBackground -- inherited
@@ -149,7 +149,7 @@ LFDQueueFrameRoleButtonHealerBackground = {}
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameRoleButtonHealer : Button, LFDRoleButtonTemplate
 --- @field role string # "HEALER"
 LFDQueueFrameRoleButtonHealer = {}
-LFDQueueFrameRoleButtonHealer["role"] = _G["\"HEALER\""]
+LFDQueueFrameRoleButtonHealer["role"] = "HEALER"
 LFDQueueFrameRoleButtonHealer["incentiveIcon"] = LFDQueueFrameRoleButtonHealerIncentiveIcon -- inherited
 LFDQueueFrameRoleButtonHealer["shortageBorder"] = LFDQueueFrameRoleButtonHealerShortageBorder -- inherited
 LFDQueueFrameRoleButtonHealer["background"] = LFDQueueFrameRoleButtonHealerBackground -- inherited
@@ -174,7 +174,7 @@ LFDQueueFrameRoleButtonDPSBackground = {}
 --- @class LFDParentFrame_LFDQueueFrame_LFDQueueFrameRoleButtonDPS : Button, LFDRoleButtonTemplate
 --- @field role string # "DAMAGER"
 LFDQueueFrameRoleButtonDPS = {}
-LFDQueueFrameRoleButtonDPS["role"] = _G["\"DAMAGER\""]
+LFDQueueFrameRoleButtonDPS["role"] = "DAMAGER"
 LFDQueueFrameRoleButtonDPS["incentiveIcon"] = LFDQueueFrameRoleButtonDPSIncentiveIcon -- inherited
 LFDQueueFrameRoleButtonDPS["shortageBorder"] = LFDQueueFrameRoleButtonDPSShortageBorder -- inherited
 LFDQueueFrameRoleButtonDPS["background"] = LFDQueueFrameRoleButtonDPSBackground -- inherited

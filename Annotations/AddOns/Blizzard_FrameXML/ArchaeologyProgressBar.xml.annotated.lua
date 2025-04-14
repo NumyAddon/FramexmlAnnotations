@@ -44,8 +44,8 @@
 --- @field AnimOut ArcheologyDigsiteProgressBar_AnimOut
 --- @field AnimOutAndTriggerToast ArcheologyDigsiteProgressBar_AnimOutAndTriggerToast
 ArcheologyDigsiteProgressBar = {}
-ArcheologyDigsiteProgressBar["layoutIndex"] = _G["7"]
+ArcheologyDigsiteProgressBar["layoutIndex"] = 7
 ArcheologyDigsiteProgressBar["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 ArcheologyDigsiteProgressBar["isManagedFrame"] = true -- inherited
-ArcheologyDigsiteProgressBar["system"] = _G["Enum.EditModeSystem.ArchaeologyBar"] -- inherited
+ArcheologyDigsiteProgressBar["system"] = Enum.EditModeSystem.ArchaeologyBar -- inherited
 

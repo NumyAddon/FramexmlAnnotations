@@ -126,7 +126,7 @@ ItemInteractionFrameMoneyFrameGoldButton = {}
 --- child of ItemInteractionFrame_ButtonFrame
 --- @class ItemInteractionFrame_ButtonFrame_ItemInteractionFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 ItemInteractionFrameMoneyFrame = {}
-ItemInteractionFrameMoneyFrame["small"] = 1 -- inherited
+ItemInteractionFrameMoneyFrame["small"] = _G["1"] -- inherited
 ItemInteractionFrameMoneyFrame["trialErrorButton"] = ItemInteractionFrameMoneyFrameTrialErrorButton -- inherited
 ItemInteractionFrameMoneyFrame["CopperButton"] = ItemInteractionFrameMoneyFrameCopperButton -- inherited
 ItemInteractionFrameMoneyFrame["SilverButton"] = ItemInteractionFrameMoneyFrameSilverButton -- inherited
@@ -198,5 +198,5 @@ ItemInteractionFrameBg = {}
 ItemInteractionFrame = {}
 ItemInteractionFrame["CloseButton"] = ItemInteractionFrameCloseButton -- inherited
 ItemInteractionFrame["Bg"] = ItemInteractionFrameBg -- inherited
-ItemInteractionFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ItemInteractionFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

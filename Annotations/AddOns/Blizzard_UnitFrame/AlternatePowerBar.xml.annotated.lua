@@ -9,7 +9,7 @@ AlternatePowerBarText = {}
 --- @class AlternatePowerBar : StatusBar, PlayerFrameAlternatePowerBarBaseTemplate, SecureFrameParentPropagationTemplate, AlternatePowerBarMixin
 --- @field powerName string # "MANA"
 AlternatePowerBar = {}
-AlternatePowerBar["powerName"] = "MANA"
+AlternatePowerBar["powerName"] = _G["\"MANA\""]
 AlternatePowerBar["baseMixin"] = PlayerFrameAlternatePowerBarBaseMixin -- inherited
-AlternatePowerBar["powerName"] = "MANA" -- inherited
+AlternatePowerBar["powerName"] = _G["\"MANA\""] -- inherited
 

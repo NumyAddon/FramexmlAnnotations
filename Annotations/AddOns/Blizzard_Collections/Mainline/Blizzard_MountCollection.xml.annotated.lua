@@ -61,6 +61,7 @@
 --- @field align string # "center"
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L226)
 --- child of MountJournalSummonRandomFavoriteButton

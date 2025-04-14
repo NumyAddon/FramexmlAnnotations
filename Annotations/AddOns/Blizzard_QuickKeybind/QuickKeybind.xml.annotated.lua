@@ -178,7 +178,7 @@ QuickKeybindTooltipTexture30 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L18)
 --- @class QuickKeybindTooltip : GameTooltip, SharedTooltipTemplate
 QuickKeybindTooltip = {}
-QuickKeybindTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+QuickKeybindTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
 QuickKeybindTooltip["TextLeft1"] = QuickKeybindTooltipTextLeft1 -- inherited
 QuickKeybindTooltip["TextRight1"] = QuickKeybindTooltipTextRight1 -- inherited
 QuickKeybindTooltip["TextLeft2"] = QuickKeybindTooltipTextLeft2 -- inherited

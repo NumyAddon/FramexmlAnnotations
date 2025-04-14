@@ -119,7 +119,7 @@
 --- @field BonusArea GarrisonBonusAreaTooltip_BonusArea
 --- @field BonusAreas table<number, GarrisonBonusAreaTooltip_BonusArea>
 GarrisonBonusAreaTooltip = {}
-GarrisonBonusAreaTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+GarrisonBonusAreaTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L9)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template GameTooltipTemplate)
@@ -303,7 +303,7 @@ GarrisonShipyardMapMissionTooltipTooltip = {}
 GarrisonShipyardMapMissionTooltipTooltip["IsEmbedded"] = true
 GarrisonShipyardMapMissionTooltipTooltip["supportsDataRefresh"] = true -- inherited
 GarrisonShipyardMapMissionTooltipTooltip["StatusBar"] = GarrisonShipyardMapMissionTooltipTooltipStatusBar -- inherited
-GarrisonShipyardMapMissionTooltipTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+GarrisonShipyardMapMissionTooltipTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
 GarrisonShipyardMapMissionTooltipTooltip["TextLeft1"] = GarrisonShipyardMapMissionTooltipTooltipTextLeft1 -- inherited
 GarrisonShipyardMapMissionTooltipTooltip["TextRight1"] = GarrisonShipyardMapMissionTooltipTooltipTextRight1 -- inherited
 GarrisonShipyardMapMissionTooltipTooltip["TextLeft2"] = GarrisonShipyardMapMissionTooltipTooltipTextLeft2 -- inherited
@@ -446,7 +446,7 @@ GarrisonShipyardMapMissionTooltipGarrisonFollowerTooltip = {}
 --- @field Lines table<number, GarrisonShipyardMapMissionTooltip_Name | GarrisonShipyardMapMissionTooltip_RareMission | GarrisonShipyardMapMissionTooltip_Description | GarrisonShipyardMapMissionTooltip_NumFollowers | GarrisonShipyardMapMissionTooltip_MissionDuration | GarrisonShipyardMapMissionTooltip_MissionExpires | GarrisonShipyardMapMissionTooltip_TimeRemaining | GarrisonShipyardMapMissionTooltip_RewardString | GarrisonShipyardMapMissionTooltip_Reward | GarrisonShipyardMapMissionTooltip_BonusTitle | GarrisonShipyardMapMissionTooltip_SiegebreakerWarning | GarrisonShipyardMapMissionTooltip_InProgress | GarrisonShipyardMapMissionTooltip_InProgressTimeLeft | GarrisonShipyardMapMissionTooltip_SuccessChance | GarrisonShipyardMapMissionTooltip_ShipsString>
 --- @field Ships table<number, GarrisonShipyardMapMissionTooltip_Ship1 | GarrisonShipyardMapMissionTooltip_Ship2 | GarrisonShipyardMapMissionTooltip_Ship3>
 GarrisonShipyardMapMissionTooltip = {}
-GarrisonShipyardMapMissionTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+GarrisonShipyardMapMissionTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L484)
 --- Template
@@ -1010,5 +1010,5 @@ GarrisonShipyardFrame = {}
 GarrisonShipyardFrame["Tab1"] = GarrisonShipyardFrameTab1
 GarrisonShipyardFrame["Tab2"] = GarrisonShipyardFrameTab2
 GarrisonShipyardFrame["FollowerList"] = GarrisonShipyardFrameFollowers
-GarrisonShipyardFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_6_0_Boat
+GarrisonShipyardFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_6_0_Boat"]
 

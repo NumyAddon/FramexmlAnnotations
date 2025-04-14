@@ -90,6 +90,6 @@
 --- @field Options CharCustomizeFrame_Options
 --- @field SmallButtons CharCustomizeFrame_SmallButtons
 CharCustomizeFrame = {}
-CharCustomizeFrame["categoryButtonTemplate"] = "CharCustomizeCategoryButtonTemplate"
-CharCustomizeFrame["categoryButtonTemplate"] = "CustomizationCategoryButtonTemplate" -- inherited
+CharCustomizeFrame["categoryButtonTemplate"] = _G["\"CharCustomizeCategoryButtonTemplate\""]
+CharCustomizeFrame["categoryButtonTemplate"] = _G["\"CustomizationCategoryButtonTemplate\""] -- inherited
 

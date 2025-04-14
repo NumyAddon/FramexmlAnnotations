@@ -386,7 +386,7 @@
 --- @field hideAnim EventToastManagerFrame_hideAnim
 --- @field fastHide EventToastManagerFrame_fastHide
 EventToastManagerFrame = {}
-EventToastManagerFrame["fixedWidth"] = 418
+EventToastManagerFrame["fixedWidth"] = _G["418"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L728)
 --- child of EventToastManagerSideDisplay

@@ -122,7 +122,7 @@ PetitionFrameInstructions = {}
 --- child of PetitionFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 PetitionFrameInset = {}
-PetitionFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+PetitionFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PetitionFrame.xml#L877)
 --- child of PetitionFrame (created in template ButtonFrameBaseTemplate)
@@ -142,5 +142,5 @@ PetitionFrame = {}
 PetitionFrame["Inset"] = PetitionFrameInset -- inherited
 PetitionFrame["CloseButton"] = PetitionFrameCloseButton -- inherited
 PetitionFrame["Bg"] = PetitionFrameBg -- inherited
-PetitionFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+PetitionFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

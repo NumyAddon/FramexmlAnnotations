@@ -335,4 +335,5 @@
 --- @field Icon Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 

@@ -25,5 +25,5 @@ FlightMapFrameBg = {}
 --- @field BorderFrame FlightMapFrame_BorderFrame
 --- @field ScrollContainer FlightMapFrame_ScrollContainer
 FlightMapFrame = {}
-FlightMapFrame["debugInspectionSystem"] = "MapCanvas" -- inherited
+FlightMapFrame["debugInspectionSystem"] = _G["\"MapCanvas\""] -- inherited
 

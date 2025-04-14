@@ -17,7 +17,7 @@
 --- child of ScenarioFinderFrame
 --- @class ScenarioFinderFrame_ScenarioFinderFrameInset : Frame, InsetFrameTemplate
 ScenarioFinderFrameInset = {}
-ScenarioFinderFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+ScenarioFinderFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/ScenarioFinder.xml#L67)
 --- child of ScenarioQueueFrameTypeDropdown

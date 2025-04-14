@@ -8,7 +8,7 @@
 --- @class FloatingPetBattleAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 --- @field CloseButton FloatingPetBattleAbilityTooltip_CloseButton
 FloatingPetBattleAbilityTooltip = {}
-FloatingPetBattleAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+FloatingPetBattleAbilityTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/FloatingPetBattleTooltip.xml#L24)
 --- child of BattlePetTooltipTemplate
@@ -68,5 +68,5 @@ FloatingPetBattleAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inheri
 --- @field JournalClick Button
 --- @field Delimiter Texture
 FloatingBattlePetTooltip = {}
-FloatingBattlePetTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+FloatingBattlePetTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 

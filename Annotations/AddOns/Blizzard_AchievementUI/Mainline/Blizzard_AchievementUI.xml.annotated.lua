@@ -452,8 +452,8 @@ AchievementFrameAchievementsObjectives = {}
 --- @field ScrollBox AchievementFrame_AchievementFrameCategories_ScrollBox
 --- @field ScrollBar AchievementFrame_AchievementFrameCategories_ScrollBar
 AchievementFrameCategories = {}
-AchievementFrameCategories["backdropColorAlpha"] = 0 -- inherited
-AchievementFrameCategories["layoutType"] = "TooltipDefaultLayout" -- inherited
+AchievementFrameCategories["backdropColorAlpha"] = _G["0"] -- inherited
+AchievementFrameCategories["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1797)
 --- child of AchievementFrameAchievements

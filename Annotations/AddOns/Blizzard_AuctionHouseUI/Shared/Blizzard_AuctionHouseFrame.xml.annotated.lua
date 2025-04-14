@@ -33,21 +33,21 @@ AuctionHouseFrameMiddle = {}
 --- @class AuctionHouseFrame_AuctionHouseFrameBuyTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.Buy
 AuctionHouseFrameBuyTab = {}
-AuctionHouseFrameBuyTab["displayMode"] = AuctionHouseFrameDisplayMode.Buy
+AuctionHouseFrameBuyTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.Buy"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L52)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_AuctionHouseFrameSellTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.ItemSell
 AuctionHouseFrameSellTab = {}
-AuctionHouseFrameSellTab["displayMode"] = AuctionHouseFrameDisplayMode.ItemSell
+AuctionHouseFrameSellTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.ItemSell"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L60)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_AuctionHouseFrameAuctionsTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.Auctions
 AuctionHouseFrameAuctionsTab = {}
-AuctionHouseFrameAuctionsTab["displayMode"] = AuctionHouseFrameDisplayMode.Auctions
+AuctionHouseFrameAuctionsTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.Auctions"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L71)
 --- child of AuctionHouseFrame
@@ -120,7 +120,7 @@ AuctionHouseFrameAuctionsTab["displayMode"] = AuctionHouseFrameDisplayMode.Aucti
 --- child of GameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 GameTimeTutorialInset = {}
-GameTimeTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
+GameTimeTutorialInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L877)
 --- child of GameTimeTutorial (created in template ButtonFrameBaseTemplate)
@@ -139,7 +139,7 @@ GameTimeTutorial = {}
 GameTimeTutorial["Inset"] = GameTimeTutorialInset -- inherited
 GameTimeTutorial["CloseButton"] = GameTimeTutorialCloseButton -- inherited
 GameTimeTutorial["Bg"] = GameTimeTutorialBg -- inherited
-GameTimeTutorial["layoutType"] = "PortraitFrameTemplate" -- inherited
+GameTimeTutorial["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L89)
 --- child of AuctionHouseFrame
@@ -240,5 +240,5 @@ AuctionHouseFrame["AuctionsTab"] = AuctionHouseFrameAuctionsTab
 AuctionHouseFrame["AuctionsFrame"] = AuctionHouseFrameAuctionsFrame
 AuctionHouseFrame["CloseButton"] = AuctionHouseFrameCloseButton -- inherited
 AuctionHouseFrame["Bg"] = AuctionHouseFrameBg -- inherited
-AuctionHouseFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+AuctionHouseFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

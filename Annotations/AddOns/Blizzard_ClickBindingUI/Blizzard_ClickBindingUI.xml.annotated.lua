@@ -170,5 +170,5 @@ ClickBindingFrameBg = {}
 ClickBindingFrame = {}
 ClickBindingFrame["CloseButton"] = ClickBindingFrameCloseButton -- inherited
 ClickBindingFrame["Bg"] = ClickBindingFrameBg -- inherited
-ClickBindingFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ClickBindingFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

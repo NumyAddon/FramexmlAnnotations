@@ -126,7 +126,7 @@ GarrisonCapacitiveDisplayFrameMiddle = {}
 --- child of GarrisonCapacitiveDisplayFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 GarrisonCapacitiveDisplayFrameInset = {}
-GarrisonCapacitiveDisplayFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+GarrisonCapacitiveDisplayFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L877)
 --- child of GarrisonCapacitiveDisplayFrame (created in template ButtonFrameBaseTemplate)
@@ -151,5 +151,5 @@ GarrisonCapacitiveDisplayFrame = {}
 GarrisonCapacitiveDisplayFrame["Inset"] = GarrisonCapacitiveDisplayFrameInset -- inherited
 GarrisonCapacitiveDisplayFrame["CloseButton"] = GarrisonCapacitiveDisplayFrameCloseButton -- inherited
 GarrisonCapacitiveDisplayFrame["Bg"] = GarrisonCapacitiveDisplayFrameBg -- inherited
-GarrisonCapacitiveDisplayFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+GarrisonCapacitiveDisplayFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

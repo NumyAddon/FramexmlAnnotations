@@ -4,9 +4,9 @@
 --- @class ClassNameplateBarWarlockFrame : Frame, WarlockPowerFrameTemplate, ClassNameplateBar, ClassNameplateBarWarlock
 --- @field scale number # 0.7
 ClassNameplateBarWarlockFrame = {}
-ClassNameplateBarWarlockFrame["scale"] = 0.7
-ClassNameplateBarWarlockFrame["powerToken"] = "SOUL_SHARDS" -- inherited
-ClassNameplateBarWarlockFrame["maxUsablePoints"] = 5 -- inherited
+ClassNameplateBarWarlockFrame["scale"] = _G["0.7"]
+ClassNameplateBarWarlockFrame["powerToken"] = _G["\"SOUL_SHARDS\""] -- inherited
+ClassNameplateBarWarlockFrame["maxUsablePoints"] = _G["5"] -- inherited
 ClassNameplateBarWarlockFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 ClassNameplateBarWarlockFrame["isManagedFrame"] = true -- inherited
 

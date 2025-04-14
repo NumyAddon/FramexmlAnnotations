@@ -53,7 +53,7 @@ AzeriteRespecFrameMoneyFrameGoldButton = {}
 --- child of AzeriteRespecFrame_ButtonFrame
 --- @class AzeriteRespecFrame_ButtonFrame_AzeriteRespecFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 AzeriteRespecFrameMoneyFrame = {}
-AzeriteRespecFrameMoneyFrame["small"] = 1 -- inherited
+AzeriteRespecFrameMoneyFrame["small"] = _G["1"] -- inherited
 AzeriteRespecFrameMoneyFrame["trialErrorButton"] = AzeriteRespecFrameMoneyFrameTrialErrorButton -- inherited
 AzeriteRespecFrameMoneyFrame["CopperButton"] = AzeriteRespecFrameMoneyFrameCopperButton -- inherited
 AzeriteRespecFrameMoneyFrame["SilverButton"] = AzeriteRespecFrameMoneyFrameSilverButton -- inherited
@@ -138,5 +138,5 @@ AzeriteRespecFrame["CornerBL"] = AzeriteRespecFrameCornerBL -- inherited
 AzeriteRespecFrame["CornerBR"] = AzeriteRespecFrameCornerBR -- inherited
 AzeriteRespecFrame["CloseButton"] = AzeriteRespecFrameCloseButton -- inherited
 AzeriteRespecFrame["Bg"] = AzeriteRespecFrameBg -- inherited
-AzeriteRespecFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+AzeriteRespecFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

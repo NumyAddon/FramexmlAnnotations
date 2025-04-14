@@ -185,7 +185,7 @@ HotItemCurrentBidMoneyFrameGoldButton = {}
 --- @field CurrentBid BlackMarketFrame_HotDeal_HotItemCurrentBidMoneyFrame_CurrentBid
 --- @field YourBid BlackMarketFrame_HotDeal_HotItemCurrentBidMoneyFrame_YourBid
 HotItemCurrentBidMoneyFrame = {}
-HotItemCurrentBidMoneyFrame["small"] = 1 -- inherited
+HotItemCurrentBidMoneyFrame["small"] = _G["1"] -- inherited
 HotItemCurrentBidMoneyFrame["trialErrorButton"] = HotItemCurrentBidMoneyFrameTrialErrorButton -- inherited
 HotItemCurrentBidMoneyFrame["CopperButton"] = HotItemCurrentBidMoneyFrameCopperButton -- inherited
 HotItemCurrentBidMoneyFrame["SilverButton"] = HotItemCurrentBidMoneyFrameSilverButton -- inherited
@@ -314,7 +314,7 @@ BlackMarketMoneyFrameGoldButton = {}
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_BlackMarketMoneyFrame : Frame, SmallMoneyFrameTemplate
 BlackMarketMoneyFrame = {}
-BlackMarketMoneyFrame["small"] = 1 -- inherited
+BlackMarketMoneyFrame["small"] = _G["1"] -- inherited
 BlackMarketMoneyFrame["trialErrorButton"] = BlackMarketMoneyFrameTrialErrorButton -- inherited
 BlackMarketMoneyFrame["CopperButton"] = BlackMarketMoneyFrameCopperButton -- inherited
 BlackMarketMoneyFrame["SilverButton"] = BlackMarketMoneyFrameSilverButton -- inherited

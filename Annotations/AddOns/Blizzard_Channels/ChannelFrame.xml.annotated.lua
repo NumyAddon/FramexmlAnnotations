@@ -28,7 +28,7 @@
 --- child of ChannelFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ChannelFrameInset = {}
-ChannelFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+ChannelFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L877)
 --- child of ChannelFrame (created in template ButtonFrameBaseTemplate)
@@ -53,5 +53,5 @@ ChannelFrame = {}
 ChannelFrame["Inset"] = ChannelFrameInset -- inherited
 ChannelFrame["CloseButton"] = ChannelFrameCloseButton -- inherited
 ChannelFrame["Bg"] = ChannelFrameBg -- inherited
-ChannelFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ChannelFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

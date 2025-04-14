@@ -53,7 +53,7 @@ MerchantItem1MoneyFrameGoldButton = {}
 --- child of MerchantItem1 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem1MoneyFrame = {}
-MerchantItem1MoneyFrame["small"] = 1 -- inherited
+MerchantItem1MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem1MoneyFrame["trialErrorButton"] = MerchantItem1MoneyFrameTrialErrorButton -- inherited
 MerchantItem1MoneyFrame["CopperButton"] = MerchantItem1MoneyFrameCopperButton -- inherited
 MerchantItem1MoneyFrame["SilverButton"] = MerchantItem1MoneyFrameSilverButton -- inherited
@@ -146,7 +146,7 @@ MerchantItem2MoneyFrameGoldButton = {}
 --- child of MerchantItem2 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem2MoneyFrame = {}
-MerchantItem2MoneyFrame["small"] = 1 -- inherited
+MerchantItem2MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem2MoneyFrame["trialErrorButton"] = MerchantItem2MoneyFrameTrialErrorButton -- inherited
 MerchantItem2MoneyFrame["CopperButton"] = MerchantItem2MoneyFrameCopperButton -- inherited
 MerchantItem2MoneyFrame["SilverButton"] = MerchantItem2MoneyFrameSilverButton -- inherited
@@ -239,7 +239,7 @@ MerchantItem3MoneyFrameGoldButton = {}
 --- child of MerchantItem3 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem3MoneyFrame = {}
-MerchantItem3MoneyFrame["small"] = 1 -- inherited
+MerchantItem3MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem3MoneyFrame["trialErrorButton"] = MerchantItem3MoneyFrameTrialErrorButton -- inherited
 MerchantItem3MoneyFrame["CopperButton"] = MerchantItem3MoneyFrameCopperButton -- inherited
 MerchantItem3MoneyFrame["SilverButton"] = MerchantItem3MoneyFrameSilverButton -- inherited
@@ -332,7 +332,7 @@ MerchantItem4MoneyFrameGoldButton = {}
 --- child of MerchantItem4 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem4MoneyFrame = {}
-MerchantItem4MoneyFrame["small"] = 1 -- inherited
+MerchantItem4MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem4MoneyFrame["trialErrorButton"] = MerchantItem4MoneyFrameTrialErrorButton -- inherited
 MerchantItem4MoneyFrame["CopperButton"] = MerchantItem4MoneyFrameCopperButton -- inherited
 MerchantItem4MoneyFrame["SilverButton"] = MerchantItem4MoneyFrameSilverButton -- inherited
@@ -425,7 +425,7 @@ MerchantItem5MoneyFrameGoldButton = {}
 --- child of MerchantItem5 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem5MoneyFrame = {}
-MerchantItem5MoneyFrame["small"] = 1 -- inherited
+MerchantItem5MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem5MoneyFrame["trialErrorButton"] = MerchantItem5MoneyFrameTrialErrorButton -- inherited
 MerchantItem5MoneyFrame["CopperButton"] = MerchantItem5MoneyFrameCopperButton -- inherited
 MerchantItem5MoneyFrame["SilverButton"] = MerchantItem5MoneyFrameSilverButton -- inherited
@@ -518,7 +518,7 @@ MerchantItem6MoneyFrameGoldButton = {}
 --- child of MerchantItem6 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem6MoneyFrame = {}
-MerchantItem6MoneyFrame["small"] = 1 -- inherited
+MerchantItem6MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem6MoneyFrame["trialErrorButton"] = MerchantItem6MoneyFrameTrialErrorButton -- inherited
 MerchantItem6MoneyFrame["CopperButton"] = MerchantItem6MoneyFrameCopperButton -- inherited
 MerchantItem6MoneyFrame["SilverButton"] = MerchantItem6MoneyFrameSilverButton -- inherited
@@ -611,7 +611,7 @@ MerchantItem7MoneyFrameGoldButton = {}
 --- child of MerchantItem7 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem7MoneyFrame = {}
-MerchantItem7MoneyFrame["small"] = 1 -- inherited
+MerchantItem7MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem7MoneyFrame["trialErrorButton"] = MerchantItem7MoneyFrameTrialErrorButton -- inherited
 MerchantItem7MoneyFrame["CopperButton"] = MerchantItem7MoneyFrameCopperButton -- inherited
 MerchantItem7MoneyFrame["SilverButton"] = MerchantItem7MoneyFrameSilverButton -- inherited
@@ -704,7 +704,7 @@ MerchantItem8MoneyFrameGoldButton = {}
 --- child of MerchantItem8 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem8MoneyFrame = {}
-MerchantItem8MoneyFrame["small"] = 1 -- inherited
+MerchantItem8MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem8MoneyFrame["trialErrorButton"] = MerchantItem8MoneyFrameTrialErrorButton -- inherited
 MerchantItem8MoneyFrame["CopperButton"] = MerchantItem8MoneyFrameCopperButton -- inherited
 MerchantItem8MoneyFrame["SilverButton"] = MerchantItem8MoneyFrameSilverButton -- inherited
@@ -797,7 +797,7 @@ MerchantItem9MoneyFrameGoldButton = {}
 --- child of MerchantItem9 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem9MoneyFrame = {}
-MerchantItem9MoneyFrame["small"] = 1 -- inherited
+MerchantItem9MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem9MoneyFrame["trialErrorButton"] = MerchantItem9MoneyFrameTrialErrorButton -- inherited
 MerchantItem9MoneyFrame["CopperButton"] = MerchantItem9MoneyFrameCopperButton -- inherited
 MerchantItem9MoneyFrame["SilverButton"] = MerchantItem9MoneyFrameSilverButton -- inherited
@@ -890,7 +890,7 @@ MerchantItem10MoneyFrameGoldButton = {}
 --- child of MerchantItem10 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem10MoneyFrame = {}
-MerchantItem10MoneyFrame["small"] = 1 -- inherited
+MerchantItem10MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem10MoneyFrame["trialErrorButton"] = MerchantItem10MoneyFrameTrialErrorButton -- inherited
 MerchantItem10MoneyFrame["CopperButton"] = MerchantItem10MoneyFrameCopperButton -- inherited
 MerchantItem10MoneyFrame["SilverButton"] = MerchantItem10MoneyFrameSilverButton -- inherited
@@ -983,7 +983,7 @@ MerchantItem11MoneyFrameGoldButton = {}
 --- child of MerchantItem11 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem11MoneyFrame = {}
-MerchantItem11MoneyFrame["small"] = 1 -- inherited
+MerchantItem11MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem11MoneyFrame["trialErrorButton"] = MerchantItem11MoneyFrameTrialErrorButton -- inherited
 MerchantItem11MoneyFrame["CopperButton"] = MerchantItem11MoneyFrameCopperButton -- inherited
 MerchantItem11MoneyFrame["SilverButton"] = MerchantItem11MoneyFrameSilverButton -- inherited
@@ -1076,7 +1076,7 @@ MerchantItem12MoneyFrameGoldButton = {}
 --- child of MerchantItem12 (created in template MerchantItemTemplate)
 --- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
 MerchantItem12MoneyFrame = {}
-MerchantItem12MoneyFrame["small"] = 1 -- inherited
+MerchantItem12MoneyFrame["small"] = _G["1"] -- inherited
 MerchantItem12MoneyFrame["trialErrorButton"] = MerchantItem12MoneyFrameTrialErrorButton -- inherited
 MerchantItem12MoneyFrame["CopperButton"] = MerchantItem12MoneyFrameCopperButton -- inherited
 MerchantItem12MoneyFrame["SilverButton"] = MerchantItem12MoneyFrameSilverButton -- inherited
@@ -1199,7 +1199,7 @@ MerchantBuyBackItemMoneyFrameGoldButton = {}
 --- child of MerchantBuyBackItem
 --- @class MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemMoneyFrame : Frame, SmallMoneyFrameTemplate
 MerchantBuyBackItemMoneyFrame = {}
-MerchantBuyBackItemMoneyFrame["small"] = 1 -- inherited
+MerchantBuyBackItemMoneyFrame["small"] = _G["1"] -- inherited
 MerchantBuyBackItemMoneyFrame["trialErrorButton"] = MerchantBuyBackItemMoneyFrameTrialErrorButton -- inherited
 MerchantBuyBackItemMoneyFrame["CopperButton"] = MerchantBuyBackItemMoneyFrameCopperButton -- inherited
 MerchantBuyBackItemMoneyFrame["SilverButton"] = MerchantBuyBackItemMoneyFrameSilverButton -- inherited
@@ -1235,7 +1235,7 @@ MerchantBuyBackItem["Name"] = MerchantBuyBackItemName
 --- child of MerchantFrame
 --- @class MerchantFrame_MerchantExtraCurrencyInset : Frame, InsetFrameTemplate
 MerchantExtraCurrencyInset = {}
-MerchantExtraCurrencyInset["layoutType"] = "InsetFrameTemplate" -- inherited
+MerchantExtraCurrencyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1353)
 --- child of MerchantExtraCurrencyBg (created in template ThinGoldEdgeTemplate)
@@ -1261,7 +1261,7 @@ MerchantExtraCurrencyBg = {}
 --- child of MerchantFrame
 --- @class MerchantFrame_MerchantMoneyInset : Frame, InsetFrameTemplate
 MerchantMoneyInset = {}
-MerchantMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
+MerchantMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1353)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
@@ -1307,7 +1307,7 @@ MerchantMoneyFrameGoldButton = {}
 --- child of MerchantFrame
 --- @class MerchantFrame_MerchantMoneyFrame : Frame, SmallMoneyFrameTemplate
 MerchantMoneyFrame = {}
-MerchantMoneyFrame["small"] = 1 -- inherited
+MerchantMoneyFrame["small"] = _G["1"] -- inherited
 MerchantMoneyFrame["trialErrorButton"] = MerchantMoneyFrameTrialErrorButton -- inherited
 MerchantMoneyFrame["CopperButton"] = MerchantMoneyFrameCopperButton -- inherited
 MerchantMoneyFrame["SilverButton"] = MerchantMoneyFrameSilverButton -- inherited
@@ -1361,7 +1361,7 @@ MerchantFrameBottomLeftBorder = {}
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MerchantFrameInset = {}
-MerchantFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+MerchantFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L877)
 --- child of MerchantFrame (created in template ButtonFrameBaseTemplate)
@@ -1381,5 +1381,5 @@ MerchantFrame = {}
 MerchantFrame["Inset"] = MerchantFrameInset -- inherited
 MerchantFrame["CloseButton"] = MerchantFrameCloseButton -- inherited
 MerchantFrame["Bg"] = MerchantFrameBg -- inherited
-MerchantFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+MerchantFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

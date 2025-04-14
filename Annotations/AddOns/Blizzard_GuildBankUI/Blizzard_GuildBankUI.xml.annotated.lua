@@ -269,7 +269,7 @@ GuildBankMoneyFrameGoldButton = {}
 --- child of GuildBankFrame
 --- @class GuildBankFrame_GuildBankMoneyFrame : Frame, SmallMoneyFrameTemplate
 GuildBankMoneyFrame = {}
-GuildBankMoneyFrame["small"] = 1 -- inherited
+GuildBankMoneyFrame["small"] = _G["1"] -- inherited
 GuildBankMoneyFrame["trialErrorButton"] = GuildBankMoneyFrameTrialErrorButton -- inherited
 GuildBankMoneyFrame["CopperButton"] = GuildBankMoneyFrameCopperButton -- inherited
 GuildBankMoneyFrame["SilverButton"] = GuildBankMoneyFrameSilverButton -- inherited
@@ -299,7 +299,7 @@ GuildBankWithdrawMoneyFrameGoldButton = {}
 --- child of GuildBankFrame
 --- @class GuildBankFrame_GuildBankWithdrawMoneyFrame : Frame, SmallMoneyFrameTemplate
 GuildBankWithdrawMoneyFrame = {}
-GuildBankWithdrawMoneyFrame["small"] = 1 -- inherited
+GuildBankWithdrawMoneyFrame["small"] = _G["1"] -- inherited
 GuildBankWithdrawMoneyFrame["trialErrorButton"] = GuildBankWithdrawMoneyFrameTrialErrorButton -- inherited
 GuildBankWithdrawMoneyFrame["CopperButton"] = GuildBankWithdrawMoneyFrameCopperButton -- inherited
 GuildBankWithdrawMoneyFrame["SilverButton"] = GuildBankWithdrawMoneyFrameSilverButton -- inherited
@@ -397,7 +397,7 @@ GuildBankFrameTabCostMoneyFrameGoldButton = {}
 --- child of GuildBankFrame_BuyInfo
 --- @class GuildBankFrame_BuyInfo_GuildBankFrameTabCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 GuildBankFrameTabCostMoneyFrame = {}
-GuildBankFrameTabCostMoneyFrame["small"] = 1 -- inherited
+GuildBankFrameTabCostMoneyFrame["small"] = _G["1"] -- inherited
 GuildBankFrameTabCostMoneyFrame["trialErrorButton"] = GuildBankFrameTabCostMoneyFrameTrialErrorButton -- inherited
 GuildBankFrameTabCostMoneyFrame["CopperButton"] = GuildBankFrameTabCostMoneyFrameCopperButton -- inherited
 GuildBankFrameTabCostMoneyFrame["SilverButton"] = GuildBankFrameTabCostMoneyFrameSilverButton -- inherited
@@ -463,7 +463,7 @@ GuildBankTabInfoEditBox = {}
 --- @field EditBox GuildBankFrame_GuildBankInfo_GuildBankInfoScrollFrame_GuildBankTabInfoEditBox
 GuildBankInfoScrollFrame = {}
 GuildBankInfoScrollFrame["EditBox"] = GuildBankTabInfoEditBox
-GuildBankInfoScrollFrame["scrollBarX"] = 4
+GuildBankInfoScrollFrame["scrollBarX"] = _G["4"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L708)
 --- child of GuildBankFrame
@@ -609,7 +609,7 @@ GuildBankFrame["Info"] = GuildBankInfo
 --- @field editBoxHeaderText any # GUILDBANK_POPUP_TEXT
 GuildBankPopupFrame = {}
 GuildBankPopupFrame["editBoxHeaderText"] = GUILDBANK_POPUP_TEXT
-GuildBankPopupFrame["editBoxHeaderText"] =  -- inherited
+GuildBankPopupFrame["editBoxHeaderText"] = _G[""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1239)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)

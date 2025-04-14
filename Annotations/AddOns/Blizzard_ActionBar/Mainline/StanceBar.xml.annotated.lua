@@ -8,6 +8,6 @@
 --- @class StanceBar : Frame, EditModeActionBarTemplate, StanceBarMixin
 --- @field buttonTemplate string # "StanceButtonTemplate"
 StanceBar = {}
-StanceBar["buttonTemplate"] = "StanceButtonTemplate"
-StanceBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
+StanceBar["buttonTemplate"] = _G["\"StanceButtonTemplate\""]
+StanceBar["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
 

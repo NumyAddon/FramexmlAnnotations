@@ -25,15 +25,15 @@
 --- child of StatusTrackingBarManager
 --- @class StatusTrackingBarManager_MainStatusTrackingBarContainer : Frame, StatusTrackingBarContainerTemplate, EditModeStatusTrackingBar1SystemTemplate, EditModeStatusTrackingBarContainerMixin
 MainStatusTrackingBarContainer = {}
-MainStatusTrackingBarContainer["systemIndex"] = Enum.EditModeStatusTrackingBarSystemIndices.StatusTrackingBar1 -- inherited
-MainStatusTrackingBarContainer["system"] = Enum.EditModeSystem.StatusTrackingBar -- inherited
+MainStatusTrackingBarContainer["systemIndex"] = _G["Enum.EditModeStatusTrackingBarSystemIndices.StatusTrackingBar1"] -- inherited
+MainStatusTrackingBarContainer["system"] = _G["Enum.EditModeSystem.StatusTrackingBar"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L49)
 --- child of StatusTrackingBarManager
 --- @class StatusTrackingBarManager_SecondaryStatusTrackingBarContainer : Frame, StatusTrackingBarContainerTemplate, EditModeStatusTrackingBar2SystemTemplate, EditModeStatusTrackingBarContainerMixin
 SecondaryStatusTrackingBarContainer = {}
-SecondaryStatusTrackingBarContainer["systemIndex"] = Enum.EditModeStatusTrackingBarSystemIndices.StatusTrackingBar2 -- inherited
-SecondaryStatusTrackingBarContainer["system"] = Enum.EditModeSystem.StatusTrackingBar -- inherited
+SecondaryStatusTrackingBarContainer["systemIndex"] = _G["Enum.EditModeStatusTrackingBarSystemIndices.StatusTrackingBar2"] -- inherited
+SecondaryStatusTrackingBarContainer["system"] = _G["Enum.EditModeSystem.StatusTrackingBar"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L35)
 --- @class StatusTrackingBarManager : Frame, StatusTrackingManagerMixin

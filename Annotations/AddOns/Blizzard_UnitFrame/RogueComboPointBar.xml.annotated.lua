@@ -94,9 +94,9 @@
 --- @class RogueComboPointBarFrame : Frame, RogueComboPointBarTemplate
 --- @field topPadding number # 10
 RogueComboPointBarFrame = {}
-RogueComboPointBarFrame["topPadding"] = 10
-RogueComboPointBarFrame["powerToken"] = "COMBO_POINTS" -- inherited
-RogueComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
+RogueComboPointBarFrame["topPadding"] = _G["10"]
+RogueComboPointBarFrame["powerToken"] = _G["\"COMBO_POINTS\""] -- inherited
+RogueComboPointBarFrame["maxUsablePoints"] = _G["5"] -- inherited
 RogueComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 RogueComboPointBarFrame["isManagedFrame"] = true -- inherited
 

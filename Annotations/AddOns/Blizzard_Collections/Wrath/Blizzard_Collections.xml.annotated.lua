@@ -297,5 +297,5 @@ CollectionsJournal["BotRightCorner"] = CollectionsJournalBotRightCorner -- inher
 CollectionsJournal["BottomBorder"] = CollectionsJournalBottomBorder -- inherited
 CollectionsJournal["LeftBorder"] = CollectionsJournalLeftBorder -- inherited
 CollectionsJournal["RightBorder"] = CollectionsJournalRightBorder -- inherited
-CollectionsJournal["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+CollectionsJournal["layoutType"] = "PortraitFrameTemplate" -- inherited
 

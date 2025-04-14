@@ -376,7 +376,7 @@ PVPFrameTopInsetBg = {}
 --- child of PVPFrame
 --- @class PVPFrame_PVPFrameTopInset : Frame, InsetFrameTemplate
 PVPFrameTopInset = {}
-PVPFrameTopInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+PVPFrameTopInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PVPFrameTopInset["Bg"] = PVPFrameTopInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L544)
@@ -2420,7 +2420,7 @@ PVPFrameInsetBg = {}
 --- child of PVPFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 PVPFrameInset = {}
-PVPFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+PVPFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PVPFrameInset["Bg"] = PVPFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L827)
@@ -2547,7 +2547,7 @@ PVPFrame["BotRightCorner"] = PVPFrameBotRightCorner -- inherited
 PVPFrame["BottomBorder"] = PVPFrameBottomBorder -- inherited
 PVPFrame["LeftBorder"] = PVPFrameLeftBorder -- inherited
 PVPFrame["RightBorder"] = PVPFrameRightBorder -- inherited
-PVPFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+PVPFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2056)
 --- @class PVPTimerFrame : Frame

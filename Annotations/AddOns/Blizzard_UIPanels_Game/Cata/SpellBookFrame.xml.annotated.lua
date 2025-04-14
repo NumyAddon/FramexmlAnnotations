@@ -2991,7 +2991,7 @@ SpellBookFrameInsetBg = {}
 --- child of SpellBookFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 SpellBookFrameInset = {}
-SpellBookFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+SpellBookFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 SpellBookFrameInset["Bg"] = SpellBookFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/SpellBookFrame.xml#L827)
@@ -3103,5 +3103,5 @@ SpellBookFrame["BotRightCorner"] = SpellBookFrameBotRightCorner -- inherited
 SpellBookFrame["BottomBorder"] = SpellBookFrameBottomBorder -- inherited
 SpellBookFrame["LeftBorder"] = SpellBookFrameLeftBorder -- inherited
 SpellBookFrame["RightBorder"] = SpellBookFrameRightBorder -- inherited
-SpellBookFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+SpellBookFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

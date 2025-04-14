@@ -451,8 +451,8 @@ AchievementFrameCategoriesContainer["ScrollChild"] = AchievementFrameCategoriesC
 --- child of AchievementFrame
 --- @class AchievementFrame_AchievementFrameCategories : Frame, AchivementGoldBorderBackdrop
 AchievementFrameCategories = {}
-AchievementFrameCategories["backdropColorAlpha"] = _G["0"] -- inherited
-AchievementFrameCategories["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+AchievementFrameCategories["backdropColorAlpha"] = 0 -- inherited
+AchievementFrameCategories["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L51)
 --- child of AchievementFrameAchievementsContainerScrollBar (created in template HybridScrollBarTemplate)
@@ -1143,8 +1143,8 @@ AchievementFrameComparisonSummaryPlayerBackground = {}
 --- @field statusBar AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonSummary_AchievementFrameComparisonSummaryPlayer_AchievementFrameComparisonSummaryPlayerStatusBar
 AchievementFrameComparisonSummaryPlayer = {}
 AchievementFrameComparisonSummaryPlayer["statusBar"] = AchievementFrameComparisonSummaryPlayerStatusBar
-AchievementFrameComparisonSummaryPlayer["backdropColorAlpha"] = _G["0"] -- inherited
-AchievementFrameComparisonSummaryPlayer["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+AchievementFrameComparisonSummaryPlayer["backdropColorAlpha"] = 0 -- inherited
+AchievementFrameComparisonSummaryPlayer["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L641)
 --- child of AchievementFrameComparisonSummaryFriendStatusBar (created in template AchievementHeaderStatusBarTemplate)
@@ -1194,8 +1194,8 @@ AchievementFrameComparisonSummaryFriendBackground = {}
 --- @field statusBar AchievementFrame_AchievementFrameComparison_AchievementFrameComparisonSummary_AchievementFrameComparisonSummaryFriend_AchievementFrameComparisonSummaryFriendStatusBar
 AchievementFrameComparisonSummaryFriend = {}
 AchievementFrameComparisonSummaryFriend["statusBar"] = AchievementFrameComparisonSummaryFriendStatusBar
-AchievementFrameComparisonSummaryFriend["backdropColorAlpha"] = _G["0"] -- inherited
-AchievementFrameComparisonSummaryFriend["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+AchievementFrameComparisonSummaryFriend["backdropColorAlpha"] = 0 -- inherited
+AchievementFrameComparisonSummaryFriend["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AchievementUI/Cata/Blizzard_AchievementUI.xml#L3021)
 --- child of AchievementFrameComparison

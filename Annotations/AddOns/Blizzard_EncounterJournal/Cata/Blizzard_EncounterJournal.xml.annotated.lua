@@ -755,7 +755,7 @@ EncounterJournalSearchBoxSearchIcon = {}
 --- @class EncounterJournal_EncounterJournalSearchBox : EditBox, SearchBoxListTemplate
 --- @field buttonTemplate string # "EncounterSearchSMTemplate"
 EncounterJournalSearchBox = {}
-EncounterJournalSearchBox["buttonTemplate"] = _G["\"EncounterSearchSMTemplate\""]
+EncounterJournalSearchBox["buttonTemplate"] = "EncounterSearchSMTemplate"
 EncounterJournalSearchBox["searchProgress"] = EncounterJournalSearchBoxSearchProgress -- inherited
 EncounterJournalSearchBox["clearButton"] = EncounterJournalSearchBoxClearButton -- inherited
 EncounterJournalSearchBox["searchIcon"] = EncounterJournalSearchBoxSearchIcon -- inherited
@@ -888,7 +888,7 @@ EncounterJournalInsetBg = {}
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalInset : Frame, InsetFrameTemplate
 EncounterJournalInset = {}
-EncounterJournalInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+EncounterJournalInset["layoutType"] = "InsetFrameTemplate" -- inherited
 EncounterJournalInset["Bg"] = EncounterJournalInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1373)
@@ -1280,7 +1280,7 @@ EncounterJournalEncounterFrameInfoRightHeaderShadow = {}
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoEncounterTitle : FontString, GameFontNormalLarge, AutoScalingFontStringMixin
 --- @field minLineHeight number # 9
 EncounterJournalEncounterFrameInfoEncounterTitle = {}
-EncounterJournalEncounterFrameInfoEncounterTitle["minLineHeight"] = _G["9"]
+EncounterJournalEncounterFrameInfoEncounterTitle["minLineHeight"] = 9
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L1541)
 --- child of EncounterJournalEncounterFrameInfo
@@ -1580,7 +1580,7 @@ EncounterJournal["BotRightCorner"] = EncounterJournalBotRightCorner -- inherited
 EncounterJournal["BottomBorder"] = EncounterJournalBottomBorder -- inherited
 EncounterJournal["LeftBorder"] = EncounterJournalLeftBorder -- inherited
 EncounterJournal["RightBorder"] = EncounterJournalRightBorder -- inherited
-EncounterJournal["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+EncounterJournal["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L222)
 --- child of EncounterJournalTooltipItem1Tooltip (created in template GameTooltipTemplate)
@@ -1723,7 +1723,7 @@ EncounterJournalTooltipItem1TooltipTexture10 = {}
 --- @field IsEmbedded boolean # true
 EncounterJournalTooltipItem1Tooltip = {}
 EncounterJournalTooltipItem1Tooltip["IsEmbedded"] = true
-EncounterJournalTooltipItem1Tooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+EncounterJournalTooltipItem1Tooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.xml#L2088)
 --- child of EncounterJournalTooltipItem1
@@ -1794,5 +1794,5 @@ EncounterJournalTooltip["Item1"] = EncounterJournalTooltipItem1
 EncounterJournalTooltip["Item2"] = EncounterJournalTooltipItem2
 EncounterJournalTooltip["headerText"] = EncounterJournalTooltipHeaderText
 EncounterJournalTooltip["clickText"] = EncounterJournalTooltipClickText
-EncounterJournalTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+EncounterJournalTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

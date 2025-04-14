@@ -96,7 +96,7 @@ ModelPreviewFrameInsetBg = {}
 --- child of ModelPreviewFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ModelPreviewFrameInset = {}
-ModelPreviewFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+ModelPreviewFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 ModelPreviewFrameInset["Bg"] = ModelPreviewFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L827)
@@ -211,5 +211,5 @@ ModelPreviewFrame["BotRightCorner"] = ModelPreviewFrameBotRightCorner -- inherit
 ModelPreviewFrame["BottomBorder"] = ModelPreviewFrameBottomBorder -- inherited
 ModelPreviewFrame["LeftBorder"] = ModelPreviewFrameLeftBorder -- inherited
 ModelPreviewFrame["RightBorder"] = ModelPreviewFrameRightBorder -- inherited
-ModelPreviewFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ModelPreviewFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

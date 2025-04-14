@@ -56,7 +56,7 @@
 --- @field Contents QuestMapFrame_QuestScrollFrame_Contents
 --- @field DetailFrame Frame
 QuestScrollFrame = {}
-QuestScrollFrame["scrollBarX"] = _G["0"]
+QuestScrollFrame["scrollBarX"] = 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.xml#L217)
 --- child of QuestMapDetailsScrollFrame

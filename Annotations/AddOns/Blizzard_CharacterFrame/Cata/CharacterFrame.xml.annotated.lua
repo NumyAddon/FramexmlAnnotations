@@ -310,7 +310,7 @@ CharacterFrameInsetRightBg = {}
 --- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameInsetRight : Frame, InsetFrameTemplate
 CharacterFrameInsetRight = {}
-CharacterFrameInsetRight["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+CharacterFrameInsetRight["layoutType"] = "InsetFrameTemplate" -- inherited
 CharacterFrameInsetRight["Bg"] = CharacterFrameInsetRightBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L350)
@@ -918,7 +918,7 @@ CharacterFrameInsetBg = {}
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CharacterFrameInset = {}
-CharacterFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+CharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 CharacterFrameInset["Bg"] = CharacterFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/CharacterFrame.xml#L827)
@@ -1032,5 +1032,5 @@ CharacterFrame["BotRightCorner"] = CharacterFrameBotRightCorner -- inherited
 CharacterFrame["BottomBorder"] = CharacterFrameBottomBorder -- inherited
 CharacterFrame["LeftBorder"] = CharacterFrameLeftBorder -- inherited
 CharacterFrame["RightBorder"] = CharacterFrameRightBorder -- inherited
-CharacterFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+CharacterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

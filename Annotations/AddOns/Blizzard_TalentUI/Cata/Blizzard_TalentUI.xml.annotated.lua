@@ -1085,7 +1085,7 @@ PlayerTalentFrameInsetBg = {}
 --- child of PlayerTalentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 PlayerTalentFrameInset = {}
-PlayerTalentFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+PlayerTalentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PlayerTalentFrameInset["Bg"] = PlayerTalentFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L827)
@@ -1197,7 +1197,7 @@ PlayerTalentFrame["BotRightCorner"] = PlayerTalentFrameBotRightCorner -- inherit
 PlayerTalentFrame["BottomBorder"] = PlayerTalentFrameBottomBorder -- inherited
 PlayerTalentFrame["LeftBorder"] = PlayerTalentFrameLeftBorder -- inherited
 PlayerTalentFrame["RightBorder"] = PlayerTalentFrameRightBorder -- inherited
-PlayerTalentFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+PlayerTalentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TalentUI/Cata/Blizzard_TalentUI.xml#L119)
 --- child of PlayerTalentFramePanel1RoleIcon (created in template PlayerTalentFrameRoleIconTemplate)

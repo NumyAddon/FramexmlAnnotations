@@ -122,7 +122,7 @@ RaidParentFrameInsetBg = {}
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 RaidParentFrameInset = {}
-RaidParentFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+RaidParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 RaidParentFrameInset["Bg"] = RaidParentFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L827)
@@ -234,7 +234,7 @@ RaidParentFrame["BotRightCorner"] = RaidParentFrameBotRightCorner -- inherited
 RaidParentFrame["BottomBorder"] = RaidParentFrameBottomBorder -- inherited
 RaidParentFrame["LeftBorder"] = RaidParentFrameLeftBorder -- inherited
 RaidParentFrame["RightBorder"] = RaidParentFrameRightBorder -- inherited
-RaidParentFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+RaidParentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L476)
 --- child of RaidFrameAllAssistCheckButton (created in template UICheckButtonTemplate)

@@ -90,7 +90,7 @@ PetStableLeftInsetBg = {}
 --- @field ActivePetsLabel PetStableFrame_PetStableLeftInset_PetStableActivePetsLabel
 PetStableLeftInset = {}
 PetStableLeftInset["ActivePetsLabel"] = PetStableActivePetsLabel
-PetStableLeftInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+PetStableLeftInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetStableLeftInset["Bg"] = PetStableLeftInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L164)
@@ -107,7 +107,7 @@ PetStableBottomInsetBg = {}
 --- child of PetStableFrame
 --- @class PetStableFrame_PetStableBottomInset : Frame, InsetFrameTemplate
 PetStableBottomInset = {}
-PetStableBottomInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+PetStableBottomInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetStableBottomInset["Bg"] = PetStableBottomInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L179)
@@ -641,7 +641,7 @@ PetStableFrameInsetBg = {}
 --- child of PetStableFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 PetStableFrameInset = {}
-PetStableFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+PetStableFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetStableFrameInset["Bg"] = PetStableFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PetStable.xml#L827)
@@ -759,5 +759,5 @@ PetStableFrame["BotRightCorner"] = PetStableFrameBotRightCorner -- inherited
 PetStableFrame["BottomBorder"] = PetStableFrameBottomBorder -- inherited
 PetStableFrame["LeftBorder"] = PetStableFrameLeftBorder -- inherited
 PetStableFrame["RightBorder"] = PetStableFrameRightBorder -- inherited
-PetStableFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+PetStableFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

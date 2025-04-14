@@ -21,7 +21,7 @@ PVEFrameLeftInsetBg = {}
 --- child of PVEFrame
 --- @class PVEFrame_PVEFrameLeftInset : Frame, InsetFrameTemplate
 PVEFrameLeftInset = {}
-PVEFrameLeftInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+PVEFrameLeftInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PVEFrameLeftInset["Bg"] = PVEFrameLeftInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVEFrame.xml#L16)
@@ -264,5 +264,5 @@ PVEFrame["BotRightCorner"] = PVEFrameBotRightCorner -- inherited
 PVEFrame["BottomBorder"] = PVEFrameBottomBorder -- inherited
 PVEFrame["LeftBorder"] = PVEFrameLeftBorder -- inherited
 PVEFrame["RightBorder"] = PVEFrameRightBorder -- inherited
-PVEFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+PVEFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

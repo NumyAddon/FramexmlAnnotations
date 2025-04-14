@@ -71,7 +71,7 @@ TabardFrameCostMoneyFrame["GoldButton"] = TabardFrameCostMoneyFrameGoldButton --
 --- @field backdropColor any # TOOLTIP_DEFAULT_BACKGROUND_COLOR
 TabardFrameCostFrame = {}
 TabardFrameCostFrame["backdropColor"] = TOOLTIP_DEFAULT_BACKGROUND_COLOR
-TabardFrameCostFrame["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+TabardFrameCostFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L37)
 --- child of TabardFrameCustomization1 (created in template TabardFrameCustomizeTemplate)

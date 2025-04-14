@@ -162,7 +162,7 @@ ItemSocketingDescriptionTexture10 = {}
 --- @field IsEmbedded boolean # true
 ItemSocketingDescription = {}
 ItemSocketingDescription["IsEmbedded"] = true
-ItemSocketingDescription["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+ItemSocketingDescription["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L241)
 --- child of ItemSocketingScrollFrame

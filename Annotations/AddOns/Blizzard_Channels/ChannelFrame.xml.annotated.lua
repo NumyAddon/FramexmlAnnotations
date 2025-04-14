@@ -161,7 +161,7 @@ ChannelFrameInsetBg = {}
 --- child of ChannelFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ChannelFrameInset = {}
-ChannelFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+ChannelFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 ChannelFrameInset["Bg"] = ChannelFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L827)
@@ -282,5 +282,5 @@ ChannelFrame["BotRightCorner"] = ChannelFrameBotRightCorner -- inherited
 ChannelFrame["BottomBorder"] = ChannelFrameBottomBorder -- inherited
 ChannelFrame["LeftBorder"] = ChannelFrameLeftBorder -- inherited
 ChannelFrame["RightBorder"] = ChannelFrameRightBorder -- inherited
-ChannelFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ChannelFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

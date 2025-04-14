@@ -15,7 +15,7 @@
 --- child of ObliterumForgeFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ObliterumForgeFrameInset = {}
-ObliterumForgeFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+ObliterumForgeFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.xml#L1154)
 --- child of ObliterumForgeFrame (created in template ButtonFrameBaseTemplate)
@@ -36,5 +36,5 @@ ObliterumForgeFrame = {}
 ObliterumForgeFrame["Inset"] = ObliterumForgeFrameInset -- inherited
 ObliterumForgeFrame["CloseButton"] = ObliterumForgeFrameCloseButton -- inherited
 ObliterumForgeFrame["Bg"] = ObliterumForgeFrameBg -- inherited
-ObliterumForgeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ObliterumForgeFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

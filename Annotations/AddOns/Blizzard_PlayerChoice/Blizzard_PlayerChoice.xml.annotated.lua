@@ -50,5 +50,5 @@
 --- @field BorderLayerModelScene PlayerChoiceFrame_BorderLayerModelScene
 --- @field BorderOverlay Texture
 PlayerChoiceFrame = {}
-PlayerChoiceFrame["fixedWidth"] = 100
+PlayerChoiceFrame["fixedWidth"] = _G["100"]
 

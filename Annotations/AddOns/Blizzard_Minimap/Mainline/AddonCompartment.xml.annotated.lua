@@ -4,5 +4,5 @@
 --- @class AddonCompartmentFrame : DropdownButton, AddonCompartmentMixin
 --- @field menuPoint string # "TOPRIGHT"
 AddonCompartmentFrame = {}
-AddonCompartmentFrame["menuPoint"] = "TOPRIGHT"
+AddonCompartmentFrame["menuPoint"] = _G["\"TOPRIGHT\""]
 

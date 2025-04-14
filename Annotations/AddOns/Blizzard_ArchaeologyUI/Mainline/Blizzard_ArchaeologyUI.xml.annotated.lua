@@ -1026,7 +1026,7 @@ ArchaeologyFrameBgRight = {}
 --- child of ArchaeologyFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ArchaeologyFrameInset = {}
-ArchaeologyFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+ArchaeologyFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1154)
 --- child of ArchaeologyFrame (created in template ButtonFrameBaseTemplate)
@@ -1068,5 +1068,5 @@ ArchaeologyFrame["bgRight"] = ArchaeologyFrameBgRight
 ArchaeologyFrame["Inset"] = ArchaeologyFrameInset -- inherited
 ArchaeologyFrame["CloseButton"] = ArchaeologyFrameCloseButton -- inherited
 ArchaeologyFrame["Bg"] = ArchaeologyFrameBg -- inherited
-ArchaeologyFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ArchaeologyFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

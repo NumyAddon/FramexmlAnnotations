@@ -14,5 +14,5 @@ MonkStaggerBarText = {}
 --- @class MonkStaggerBar : StatusBar, PlayerFrameAlternatePowerBarBaseTemplate, MonkStaggerBarTemplate
 MonkStaggerBar = {}
 MonkStaggerBar["baseMixin"] = PlayerFrameAlternatePowerBarBaseMixin -- inherited
-MonkStaggerBar["powerName"] = "STAGGER" -- inherited
+MonkStaggerBar["powerName"] = _G["\"STAGGER\""] -- inherited
 

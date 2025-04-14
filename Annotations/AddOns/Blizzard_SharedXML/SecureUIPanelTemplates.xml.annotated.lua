@@ -34,11 +34,16 @@
 --- child of UIPanelScrollUpButtonTemplate
 --- @class UIPanelScrollUpButtonTemplate_Highlight : Texture, UIPanelScrollBarButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L79)
+--- child of UIPanelScrollUpButtonTemplate
+--- @class UIPanelScrollUpButtonTemplate_Pushed : Texture, UIPanelScrollBarButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L76)
 --- Template
 --- @class UIPanelScrollUpButtonTemplate : Button
 --- @field Normal UIPanelScrollUpButtonTemplate_Normal
 --- @field Highlight UIPanelScrollUpButtonTemplate_Highlight
+--- @field Pushed UIPanelScrollUpButtonTemplate_Pushed
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L86)
 --- child of UIPanelScrollDownButtonTemplate
@@ -48,11 +53,16 @@
 --- child of UIPanelScrollDownButtonTemplate
 --- @class UIPanelScrollDownButtonTemplate_Highlight : Texture, UIPanelScrollBarButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L87)
+--- child of UIPanelScrollDownButtonTemplate
+--- @class UIPanelScrollDownButtonTemplate_Pushed : Texture, UIPanelScrollBarButton
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L84)
 --- Template
 --- @class UIPanelScrollDownButtonTemplate : Button
 --- @field Normal UIPanelScrollDownButtonTemplate_Normal
 --- @field Highlight UIPanelScrollDownButtonTemplate_Highlight
+--- @field Pushed UIPanelScrollDownButtonTemplate_Pushed
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L92)
 --- Template

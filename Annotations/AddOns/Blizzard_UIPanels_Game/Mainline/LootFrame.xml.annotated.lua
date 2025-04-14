@@ -58,7 +58,7 @@ LootFrameBg = {}
 --- @field panelTitle any # ITEMS
 LootFrame = {}
 LootFrame["panelTitle"] = ITEMS
-LootFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
+LootFrame["layoutType"] = _G["\"ButtonFrameTemplateNoPortrait\""] -- inherited
 LootFrame["Bg"] = LootFrameBg -- inherited
-LootFrame["system"] = Enum.EditModeSystem.LootFrame -- inherited
+LootFrame["system"] = _G["Enum.EditModeSystem.LootFrame"] -- inherited
 

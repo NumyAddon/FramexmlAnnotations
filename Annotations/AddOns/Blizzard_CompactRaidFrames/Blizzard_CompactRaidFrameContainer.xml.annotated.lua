@@ -51,6 +51,6 @@ CompactRaidFrameContainerBorderFrame = {}
 --- @field borderFrame CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame
 CompactRaidFrameContainer = {}
 CompactRaidFrameContainer["borderFrame"] = CompactRaidFrameContainerBorderFrame
-CompactRaidFrameContainer["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Raid
-CompactRaidFrameContainer["system"] = Enum.EditModeSystem.UnitFrame -- inherited
+CompactRaidFrameContainer["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Raid"]
+CompactRaidFrameContainer["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
 

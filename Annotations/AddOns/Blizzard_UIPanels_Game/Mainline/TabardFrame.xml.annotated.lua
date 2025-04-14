@@ -21,14 +21,14 @@
 --- @class TabardFrame_TabardModel_TabardCharacterModelRotateLeftButton : Button, TabardModelControlRotateButtonMixin
 --- @field rotateDirection string # "left"
 TabardCharacterModelRotateLeftButton = {}
-TabardCharacterModelRotateLeftButton["rotateDirection"] = "left"
+TabardCharacterModelRotateLeftButton["rotateDirection"] = _G["\"left\""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L214)
 --- child of TabardModel
 --- @class TabardFrame_TabardModel_TabardCharacterModelRotateRightButton : Button, TabardModelControlRotateButtonMixin
 --- @field rotateDirection string # "right"
 TabardCharacterModelRotateRightButton = {}
-TabardCharacterModelRotateRightButton["rotateDirection"] = "right"
+TabardCharacterModelRotateRightButton["rotateDirection"] = _G["\"right\""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L195)
 --- child of TabardFrame
@@ -75,7 +75,7 @@ TabardFrameCostMoneyFrame["GoldButton"] = TabardFrameCostMoneyFrameGoldButton --
 --- @field backdropBorderColor any # DARKGRAY_COLOR
 TabardFrameCostFrame = {}
 TabardFrameCostFrame["backdropBorderColor"] = DARKGRAY_COLOR
-TabardFrameCostFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
+TabardFrameCostFrame["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L37)
 --- child of TabardFrameCustomization1 (created in template TabardFrameCustomizeTemplate)
@@ -266,7 +266,7 @@ TabardFrameCustomizationFrame = {}
 --- child of TabardFrame
 --- @class TabardFrame_TabardFrameMoneyInset : Frame, InsetFrameTemplate
 TabardFrameMoneyInset = {}
-TabardFrameMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TabardFrameMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1484)
 --- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
@@ -418,7 +418,7 @@ TabardFrameGreetingText = {}
 --- child of TabardFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 TabardFrameInset = {}
-TabardFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TabardFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1154)
 --- child of TabardFrame (created in template ButtonFrameBaseTemplate)
@@ -436,5 +436,5 @@ TabardFrame = {}
 TabardFrame["Inset"] = TabardFrameInset -- inherited
 TabardFrame["CloseButton"] = TabardFrameCloseButton -- inherited
 TabardFrame["Bg"] = TabardFrameBg -- inherited
-TabardFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+TabardFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

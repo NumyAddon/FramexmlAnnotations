@@ -46,7 +46,7 @@ HelpFrame = {}
 HelpFrame["Browser"] = HelpBrowser
 HelpFrame["Bg"] = HelpFrameBg -- inherited
 HelpFrame["TopTileStreaks"] = HelpFrameTopTileStreaks -- inherited
-HelpFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
+HelpFrame["layoutType"] = _G["\"ButtonFrameTemplateNoPortrait\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L90)
 --- child of BrowserSettingsTooltip
@@ -61,8 +61,8 @@ HelpFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 --- @field CookiesButton BrowserSettingsTooltip_CookiesButton
 --- @field Title BrowserSettingsTooltip_Title
 BrowserSettingsTooltip = {}
-BrowserSettingsTooltip["backdropColorAlpha"] = 0.8 -- inherited
-BrowserSettingsTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+BrowserSettingsTooltip["backdropColorAlpha"] = _G["0.8"] -- inherited
+BrowserSettingsTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L143)
 --- @class HelpOpenWebTicketButton : Button
@@ -73,7 +73,7 @@ HelpOpenWebTicketButton = {}
 --- @class TicketStatusFrame_TicketStatusFrameButton : Button, HelpFrameContainerFrameTemplate
 TicketStatusFrameButton = {}
 TicketStatusFrameButton["backdropColor"] = BLACK_FONT_COLOR -- inherited
-TicketStatusFrameButton["layoutType"] = "TooltipDefaultLayout" -- inherited
+TicketStatusFrameButton["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L188)
 --- child of TicketStatusFrame

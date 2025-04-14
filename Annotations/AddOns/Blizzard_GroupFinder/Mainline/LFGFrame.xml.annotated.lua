@@ -573,21 +573,21 @@ LFGEventFrame = {}
 --- @class LFGInvitePopup_LFGInvitePopupRoleButtonTank : Button, LFGRoleButtonTemplate
 --- @field role string # "TANK"
 LFGInvitePopupRoleButtonTank = {}
-LFGInvitePopupRoleButtonTank["role"] = "TANK"
+LFGInvitePopupRoleButtonTank["role"] = _G["\"TANK\""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L898)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_LFGInvitePopupRoleButtonHealer : Button, LFGRoleButtonTemplate
 --- @field role string # "HEALER"
 LFGInvitePopupRoleButtonHealer = {}
-LFGInvitePopupRoleButtonHealer["role"] = "HEALER"
+LFGInvitePopupRoleButtonHealer["role"] = _G["\"HEALER\""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L907)
 --- child of LFGInvitePopup
 --- @class LFGInvitePopup_LFGInvitePopupRoleButtonDPS : Button, LFGRoleButtonTemplate
 --- @field role string # "DAMAGER"
 LFGInvitePopupRoleButtonDPS = {}
-LFGInvitePopupRoleButtonDPS["role"] = "DAMAGER"
+LFGInvitePopupRoleButtonDPS["role"] = _G["\"DAMAGER\""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L916)
 --- child of LFGInvitePopup

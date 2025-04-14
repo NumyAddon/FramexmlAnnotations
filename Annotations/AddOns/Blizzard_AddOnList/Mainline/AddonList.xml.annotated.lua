@@ -9,6 +9,7 @@
 --- @class AddonListCategoryTemplate_CollapseExpand : Button, AddonCategoryCollapseExpandMixin
 --- @field Normal Texture
 --- @field Highlight Texture
+--- @field Pushed Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L32)
 --- child of AddonListCategoryTemplate
@@ -70,7 +71,7 @@ AddonDialogText = {}
 --- child of AddonDialog
 --- @class AddonDialog_AddonDialogBackground : Frame, DialogBorderTemplate
 AddonDialogBackground = {}
-AddonDialogBackground["layoutType"] = "Dialog" -- inherited
+AddonDialogBackground["layoutType"] = _G["\"Dialog\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L91)
 --- @class AddonDialog : Frame, AddonDialogMixin
@@ -151,7 +152,7 @@ AddonListSearchIcon = {}
 --- child of AddonList (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 AddonListInset = {}
-AddonListInset["layoutType"] = "InsetFrameTemplate" -- inherited
+AddonListInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1154)
 --- child of AddonList (created in template ButtonFrameBaseTemplate)
@@ -179,5 +180,5 @@ AddonList = {}
 AddonList["Inset"] = AddonListInset -- inherited
 AddonList["CloseButton"] = AddonListCloseButton -- inherited
 AddonList["Bg"] = AddonListBg -- inherited
-AddonList["layoutType"] = "PortraitFrameTemplate" -- inherited
+AddonList["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

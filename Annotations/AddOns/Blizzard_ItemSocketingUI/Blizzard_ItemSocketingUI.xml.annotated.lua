@@ -255,7 +255,7 @@ ItemSocketingSocketButton = {}
 --- child of ItemSocketingFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ItemSocketingFrameInset = {}
-ItemSocketingFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+ItemSocketingFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L1154)
 --- child of ItemSocketingFrame (created in template ButtonFrameBaseTemplate)
@@ -309,5 +309,5 @@ ItemSocketingFrame["ScrollFrame"] = ItemSocketingScrollFrame
 ItemSocketingFrame["Inset"] = ItemSocketingFrameInset -- inherited
 ItemSocketingFrame["CloseButton"] = ItemSocketingFrameCloseButton -- inherited
 ItemSocketingFrame["Bg"] = ItemSocketingFrameBg -- inherited
-ItemSocketingFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ItemSocketingFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

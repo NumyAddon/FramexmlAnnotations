@@ -25,7 +25,7 @@
 --- @field Anim_FadeIn TutorialMainFrame_Frame_Anim_FadeIn
 --- @field Anim_FadeOut TutorialMainFrame_Frame_Anim_FadeOut
 TutorialMainFrame_Frame = {}
-TutorialMainFrame_Frame["widthPadding"] = 180
+TutorialMainFrame_Frame["widthPadding"] = _G["180"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L72)
 --- child of TutorialSingleKey_Frame_ContainerFrame
@@ -46,5 +46,5 @@ TutorialMainFrame_Frame["widthPadding"] = 180
 --- @field widthPadding number # 180
 --- @field ContainerFrame TutorialSingleKey_Frame_ContainerFrame
 TutorialSingleKey_Frame = {}
-TutorialSingleKey_Frame["widthPadding"] = 180
+TutorialSingleKey_Frame["widthPadding"] = _G["180"]
 

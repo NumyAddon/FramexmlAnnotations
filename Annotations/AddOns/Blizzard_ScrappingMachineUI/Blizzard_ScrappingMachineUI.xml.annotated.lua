@@ -19,7 +19,7 @@
 --- child of ScrappingMachineFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ScrappingMachineFrameInset = {}
-ScrappingMachineFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+ScrappingMachineFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L1154)
 --- child of ScrappingMachineFrame (created in template ButtonFrameBaseTemplate)
@@ -40,5 +40,5 @@ ScrappingMachineFrame = {}
 ScrappingMachineFrame["Inset"] = ScrappingMachineFrameInset -- inherited
 ScrappingMachineFrame["CloseButton"] = ScrappingMachineFrameCloseButton -- inherited
 ScrappingMachineFrame["Bg"] = ScrappingMachineFrameBg -- inherited
-ScrappingMachineFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ScrappingMachineFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

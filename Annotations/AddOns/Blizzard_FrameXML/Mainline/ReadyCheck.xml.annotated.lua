@@ -53,7 +53,7 @@ ReadyCheckFrameText = {}
 --- @field PortraitContainer ReadyCheckFrame_ReadyCheckListenerFrame_PortraitContainer
 --- @field Bg Texture
 ReadyCheckListenerFrame = {}
-ReadyCheckListenerFrame["layoutType"] = "PortraitFrameTemplate"
+ReadyCheckListenerFrame["layoutType"] = _G["\"PortraitFrameTemplate\""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/ReadyCheck.xml#L15)
 --- @class ReadyCheckFrame : Frame

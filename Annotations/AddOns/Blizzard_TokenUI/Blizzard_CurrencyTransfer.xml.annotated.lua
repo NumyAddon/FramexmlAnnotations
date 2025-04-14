@@ -130,7 +130,7 @@
 --- child of CurrencyTransferMenu (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CurrencyTransferMenuInset = {}
-CurrencyTransferMenuInset["layoutType"] = "InsetFrameTemplate" -- inherited
+CurrencyTransferMenuInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1154)
 --- child of CurrencyTransferMenu (created in template ButtonFrameBaseTemplate)
@@ -148,7 +148,7 @@ CurrencyTransferMenu = {}
 CurrencyTransferMenu["Inset"] = CurrencyTransferMenuInset -- inherited
 CurrencyTransferMenu["CloseButton"] = CurrencyTransferMenuCloseButton -- inherited
 CurrencyTransferMenu["Bg"] = CurrencyTransferMenuBg -- inherited
-CurrencyTransferMenu["layoutType"] = "PortraitFrameTemplate" -- inherited
+CurrencyTransferMenu["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L304)
 --- child of CurrencyTransferLogEntryTemplate
@@ -186,6 +186,7 @@ CurrencyTransferMenu["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- @class CurrencyTransferLogToggleButtonTemplate : Button, CurrencyTransferLogToggleButtonMixin
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L371)
 --- child of CurrencyTransferLogTemplate

@@ -17,4 +17,5 @@
 --- @field HighlightTexture Texture
 --- @field Glow Texture
 --- @field NormalTexture Texture
+--- @field PushedTexture Texture
 

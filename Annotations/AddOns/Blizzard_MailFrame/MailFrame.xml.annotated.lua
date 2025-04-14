@@ -355,7 +355,7 @@ SendStationeryBackgroundRight = {}
 --- @class MailFrame_SendMailFrame_SendMailScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 10
 SendMailScrollFrame = {}
-SendMailScrollFrame["scrollBarX"] = 10
+SendMailScrollFrame["scrollBarX"] = _G["10"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L574)
 --- child of SendMailNameEditBox
@@ -661,7 +661,7 @@ SendMailMoneyButton = {}
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_SendMailMoneyInset : Frame, InsetFrameTemplate
 SendMailMoneyInset = {}
-SendMailMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
+SendMailMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1484)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
@@ -779,7 +779,7 @@ MailFrameTrialError = {}
 --- child of MailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MailFrameInset = {}
-MailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+MailFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1154)
 --- child of MailFrame (created in template ButtonFrameBaseTemplate)
@@ -800,7 +800,7 @@ MailFrame["trialError"] = MailFrameTrialError
 MailFrame["Inset"] = MailFrameInset -- inherited
 MailFrame["CloseButton"] = MailFrameCloseButton -- inherited
 MailFrame["Bg"] = MailFrameBg -- inherited
-MailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+MailFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L929)
 --- child of OpenMailFrame
@@ -1068,7 +1068,7 @@ OpenStationeryBackgroundRight = {}
 --- @class OpenMailFrame_OpenMailScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 10
 OpenMailScrollFrame = {}
-OpenMailScrollFrame["scrollBarX"] = 10
+OpenMailScrollFrame["scrollBarX"] = _G["10"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1232)
 --- child of OpenMailFrame
@@ -1212,7 +1212,7 @@ OpenMailHorizontalBarLeft = {}
 --- child of OpenMailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 OpenMailFrameInset = {}
-OpenMailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+OpenMailFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1154)
 --- child of OpenMailFrame (created in template ButtonFrameBaseTemplate)
@@ -1231,5 +1231,5 @@ OpenMailFrame = {}
 OpenMailFrame["Inset"] = OpenMailFrameInset -- inherited
 OpenMailFrame["CloseButton"] = OpenMailFrameCloseButton -- inherited
 OpenMailFrame["Bg"] = OpenMailFrameBg -- inherited
-OpenMailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+OpenMailFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

@@ -16,6 +16,7 @@
 --- child of OrderHallCommandBar
 --- @class OrderHallCommandBar_WorldMapButton : Button
 --- @field Normal Texture
+--- @field Pushed Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallCommandBar.xml#L52)
 --- child of OrderHallCommandBar

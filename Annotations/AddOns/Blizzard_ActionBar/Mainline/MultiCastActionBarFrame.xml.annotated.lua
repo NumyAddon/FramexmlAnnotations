@@ -106,7 +106,7 @@ MultiCastSummonSpellButtonNormalTexture = {}
 --- @field flyoutButton MultiCastActionBarFrame_MultiCastSummonSpellButton_MultiCastSummonSpellButtonFlyoutButton
 MultiCastSummonSpellButton = {}
 MultiCastSummonSpellButton["flyoutButton"] = MultiCastSummonSpellButtonFlyoutButton
-MultiCastSummonSpellButton["popupDirection"] = "DOWN" -- inherited
+MultiCastSummonSpellButton["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastSummonSpellButton["cooldown"] = MultiCastSummonSpellButtonCooldown -- inherited
 MultiCastSummonSpellButton["icon"] = MultiCastSummonSpellButtonIcon -- inherited
 MultiCastSummonSpellButton["Flash"] = MultiCastSummonSpellButtonFlash -- inherited
@@ -168,7 +168,7 @@ MultiCastActionButton1NormalTexture = {}
 --- child of MultiCastActionPage1
 --- @class MultiCastActionBarFrame_MultiCastActionPage1_MultiCastActionButton1 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton1 = {}
-MultiCastActionButton1["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton1["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton1["cooldown"] = MultiCastActionButton1Cooldown -- inherited
 MultiCastActionButton1["icon"] = MultiCastActionButton1Icon -- inherited
 MultiCastActionButton1["Flash"] = MultiCastActionButton1Flash -- inherited
@@ -210,7 +210,7 @@ MultiCastActionButton2NormalTexture = {}
 --- child of MultiCastActionPage1
 --- @class MultiCastActionBarFrame_MultiCastActionPage1_MultiCastActionButton2 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton2 = {}
-MultiCastActionButton2["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton2["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton2["cooldown"] = MultiCastActionButton2Cooldown -- inherited
 MultiCastActionButton2["icon"] = MultiCastActionButton2Icon -- inherited
 MultiCastActionButton2["Flash"] = MultiCastActionButton2Flash -- inherited
@@ -252,7 +252,7 @@ MultiCastActionButton3NormalTexture = {}
 --- child of MultiCastActionPage1
 --- @class MultiCastActionBarFrame_MultiCastActionPage1_MultiCastActionButton3 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton3 = {}
-MultiCastActionButton3["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton3["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton3["cooldown"] = MultiCastActionButton3Cooldown -- inherited
 MultiCastActionButton3["icon"] = MultiCastActionButton3Icon -- inherited
 MultiCastActionButton3["Flash"] = MultiCastActionButton3Flash -- inherited
@@ -294,7 +294,7 @@ MultiCastActionButton4NormalTexture = {}
 --- child of MultiCastActionPage1
 --- @class MultiCastActionBarFrame_MultiCastActionPage1_MultiCastActionButton4 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton4 = {}
-MultiCastActionButton4["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton4["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton4["cooldown"] = MultiCastActionButton4Cooldown -- inherited
 MultiCastActionButton4["icon"] = MultiCastActionButton4Icon -- inherited
 MultiCastActionButton4["Flash"] = MultiCastActionButton4Flash -- inherited
@@ -341,7 +341,7 @@ MultiCastActionButton5NormalTexture = {}
 --- child of MultiCastActionPage2
 --- @class MultiCastActionBarFrame_MultiCastActionPage2_MultiCastActionButton5 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton5 = {}
-MultiCastActionButton5["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton5["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton5["cooldown"] = MultiCastActionButton5Cooldown -- inherited
 MultiCastActionButton5["icon"] = MultiCastActionButton5Icon -- inherited
 MultiCastActionButton5["Flash"] = MultiCastActionButton5Flash -- inherited
@@ -383,7 +383,7 @@ MultiCastActionButton6NormalTexture = {}
 --- child of MultiCastActionPage2
 --- @class MultiCastActionBarFrame_MultiCastActionPage2_MultiCastActionButton6 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton6 = {}
-MultiCastActionButton6["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton6["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton6["cooldown"] = MultiCastActionButton6Cooldown -- inherited
 MultiCastActionButton6["icon"] = MultiCastActionButton6Icon -- inherited
 MultiCastActionButton6["Flash"] = MultiCastActionButton6Flash -- inherited
@@ -425,7 +425,7 @@ MultiCastActionButton7NormalTexture = {}
 --- child of MultiCastActionPage2
 --- @class MultiCastActionBarFrame_MultiCastActionPage2_MultiCastActionButton7 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton7 = {}
-MultiCastActionButton7["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton7["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton7["cooldown"] = MultiCastActionButton7Cooldown -- inherited
 MultiCastActionButton7["icon"] = MultiCastActionButton7Icon -- inherited
 MultiCastActionButton7["Flash"] = MultiCastActionButton7Flash -- inherited
@@ -467,7 +467,7 @@ MultiCastActionButton8NormalTexture = {}
 --- child of MultiCastActionPage2
 --- @class MultiCastActionBarFrame_MultiCastActionPage2_MultiCastActionButton8 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton8 = {}
-MultiCastActionButton8["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton8["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton8["cooldown"] = MultiCastActionButton8Cooldown -- inherited
 MultiCastActionButton8["icon"] = MultiCastActionButton8Icon -- inherited
 MultiCastActionButton8["Flash"] = MultiCastActionButton8Flash -- inherited
@@ -514,7 +514,7 @@ MultiCastActionButton9NormalTexture = {}
 --- child of MultiCastActionPage3
 --- @class MultiCastActionBarFrame_MultiCastActionPage3_MultiCastActionButton9 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton9 = {}
-MultiCastActionButton9["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton9["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton9["cooldown"] = MultiCastActionButton9Cooldown -- inherited
 MultiCastActionButton9["icon"] = MultiCastActionButton9Icon -- inherited
 MultiCastActionButton9["Flash"] = MultiCastActionButton9Flash -- inherited
@@ -556,7 +556,7 @@ MultiCastActionButton10NormalTexture = {}
 --- child of MultiCastActionPage3
 --- @class MultiCastActionBarFrame_MultiCastActionPage3_MultiCastActionButton10 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton10 = {}
-MultiCastActionButton10["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton10["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton10["cooldown"] = MultiCastActionButton10Cooldown -- inherited
 MultiCastActionButton10["icon"] = MultiCastActionButton10Icon -- inherited
 MultiCastActionButton10["Flash"] = MultiCastActionButton10Flash -- inherited
@@ -598,7 +598,7 @@ MultiCastActionButton11NormalTexture = {}
 --- child of MultiCastActionPage3
 --- @class MultiCastActionBarFrame_MultiCastActionPage3_MultiCastActionButton11 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton11 = {}
-MultiCastActionButton11["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton11["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton11["cooldown"] = MultiCastActionButton11Cooldown -- inherited
 MultiCastActionButton11["icon"] = MultiCastActionButton11Icon -- inherited
 MultiCastActionButton11["Flash"] = MultiCastActionButton11Flash -- inherited
@@ -640,7 +640,7 @@ MultiCastActionButton12NormalTexture = {}
 --- child of MultiCastActionPage3
 --- @class MultiCastActionBarFrame_MultiCastActionPage3_MultiCastActionButton12 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton12 = {}
-MultiCastActionButton12["popupDirection"] = "DOWN" -- inherited
+MultiCastActionButton12["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastActionButton12["cooldown"] = MultiCastActionButton12Cooldown -- inherited
 MultiCastActionButton12["icon"] = MultiCastActionButton12Icon -- inherited
 MultiCastActionButton12["Flash"] = MultiCastActionButton12Flash -- inherited
@@ -697,7 +697,7 @@ MultiCastRecallSpellButtonNormalTexture = {}
 --- child of MultiCastActionBarFrame
 --- @class MultiCastActionBarFrame_MultiCastRecallSpellButton : CheckButton, MultiCastSpellButton
 MultiCastRecallSpellButton = {}
-MultiCastRecallSpellButton["popupDirection"] = "DOWN" -- inherited
+MultiCastRecallSpellButton["popupDirection"] = _G["\"DOWN\""] -- inherited
 MultiCastRecallSpellButton["cooldown"] = MultiCastRecallSpellButtonCooldown -- inherited
 MultiCastRecallSpellButton["icon"] = MultiCastRecallSpellButtonIcon -- inherited
 MultiCastRecallSpellButton["Flash"] = MultiCastRecallSpellButtonFlash -- inherited
@@ -709,7 +709,7 @@ MultiCastRecallSpellButton["NormalTexture"] = MultiCastRecallSpellButtonNormalTe
 --- @class MultiCastActionBarFrame : Frame, UIParentBottomManagedFrameTemplate
 --- @field layoutIndex number # 203
 MultiCastActionBarFrame = {}
-MultiCastActionBarFrame["layoutIndex"] = 203
+MultiCastActionBarFrame["layoutIndex"] = _G["203"]
 MultiCastActionBarFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 MultiCastActionBarFrame["isManagedFrame"] = true -- inherited
 

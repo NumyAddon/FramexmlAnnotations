@@ -183,5 +183,5 @@ OrderHallTalentFrameBg = {}
 OrderHallTalentFrame = {}
 OrderHallTalentFrame["CloseButton"] = OrderHallTalentFrameCloseButton -- inherited
 OrderHallTalentFrame["Bg"] = OrderHallTalentFrameBg -- inherited
-OrderHallTalentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+OrderHallTalentFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

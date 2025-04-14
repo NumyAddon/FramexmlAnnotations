@@ -329,6 +329,7 @@
 --- @class MinimalCheckboxArtTemplate : CheckButton
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L521)
 --- Template
@@ -969,6 +970,7 @@
 --- @field iconSize number # 24
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2159)
 --- Template
@@ -1384,6 +1386,7 @@
 --- @field CircleMask MaskTexture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L3114)
 --- Template

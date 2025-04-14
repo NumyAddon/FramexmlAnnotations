@@ -50,6 +50,7 @@
 --- @class UIDropDownMenuTemplate_UIDropDownMenuTemplateButton : DropDownToggleButton, UIDropDownMenuButtonScriptTemplate
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L171)
 --- child of UIDropDownMenuTemplate
@@ -70,6 +71,7 @@
 --- @class LargeUIDropDownMenuTemplate_Button : DropDownToggleButton, UIDropDownMenuButtonScriptTemplate, LargeDropDownMenuButtonMixin
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L276)
 --- child of LargeUIDropDownMenuTemplate

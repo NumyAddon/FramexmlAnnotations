@@ -51,7 +51,7 @@
 --- @field Highlight Texture
 MainMenuBarVehicleLeaveButton = {}
 MainMenuBarVehicleLeaveButton["ignoreInLayout"] = true
-MainMenuBarVehicleLeaveButton["system"] = Enum.EditModeSystem.VehicleLeaveButton -- inherited
+MainMenuBarVehicleLeaveButton["system"] = _G["Enum.EditModeSystem.VehicleLeaveButton"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L51)
 --- child of MainMenuBar
@@ -71,6 +71,6 @@ MainMenuBarVehicleLeaveButton["system"] = Enum.EditModeSystem.VehicleLeaveButton
 --- @field QuickKeybindGlowSmall Texture
 MainMenuBar = {}
 MainMenuBar["VehicleLeaveButton"] = MainMenuBarVehicleLeaveButton
-MainMenuBar["buttonTemplate"] = "MainBarActionBarButtonTemplate"
-MainMenuBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MainMenuBar["buttonTemplate"] = _G["\"MainBarActionBarButtonTemplate\""]
+MainMenuBar["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
 

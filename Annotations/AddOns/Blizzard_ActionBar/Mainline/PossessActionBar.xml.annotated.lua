@@ -8,6 +8,6 @@
 --- @class PossessActionBar : Frame, EditModeActionBarTemplate, PossessActionBarMixin
 --- @field buttonTemplate string # "PossessButtonTemplate"
 PossessActionBar = {}
-PossessActionBar["buttonTemplate"] = "PossessButtonTemplate"
-PossessActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
+PossessActionBar["buttonTemplate"] = _G["\"PossessButtonTemplate\""]
+PossessActionBar["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
 

@@ -153,7 +153,7 @@ ContainerFrame1Background1Slot = {}
 --- @class ContainerFrame1 : Frame, ContainerFrameBackpackTemplate
 ContainerFrame1 = {}
 ContainerFrame1["MoneyFrame"] = ContainerFrame1MoneyFrame -- inherited
-ContainerFrame1["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame1["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame1["PortraitButton"] = ContainerFrame1PortraitButton -- inherited
 ContainerFrame1["Background1Slot"] = ContainerFrame1Background1Slot -- inherited
 
@@ -170,7 +170,7 @@ ContainerFrame2Background1Slot = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L290)
 --- @class ContainerFrame2 : Frame, ContainerFrameTemplate
 ContainerFrame2 = {}
-ContainerFrame2["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame2["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame2["PortraitButton"] = ContainerFrame2PortraitButton -- inherited
 ContainerFrame2["Background1Slot"] = ContainerFrame2Background1Slot -- inherited
 
@@ -187,7 +187,7 @@ ContainerFrame3Background1Slot = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L291)
 --- @class ContainerFrame3 : Frame, ContainerFrameTemplate
 ContainerFrame3 = {}
-ContainerFrame3["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame3["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame3["PortraitButton"] = ContainerFrame3PortraitButton -- inherited
 ContainerFrame3["Background1Slot"] = ContainerFrame3Background1Slot -- inherited
 
@@ -204,7 +204,7 @@ ContainerFrame4Background1Slot = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L292)
 --- @class ContainerFrame4 : Frame, ContainerFrameTemplate
 ContainerFrame4 = {}
-ContainerFrame4["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame4["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame4["PortraitButton"] = ContainerFrame4PortraitButton -- inherited
 ContainerFrame4["Background1Slot"] = ContainerFrame4Background1Slot -- inherited
 
@@ -221,7 +221,7 @@ ContainerFrame5Background1Slot = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L293)
 --- @class ContainerFrame5 : Frame, ContainerFrameTemplate
 ContainerFrame5 = {}
-ContainerFrame5["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame5["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame5["PortraitButton"] = ContainerFrame5PortraitButton -- inherited
 ContainerFrame5["Background1Slot"] = ContainerFrame5Background1Slot -- inherited
 
@@ -239,7 +239,7 @@ ContainerFrame6Background1Slot = {}
 --- @class ContainerFrame6 : Frame, ContainerFrameReagentBagTemplate
 ContainerFrame6 = {}
 ContainerFrame6["canUseForReagentBag"] = true -- inherited
-ContainerFrame6["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame6["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame6["PortraitButton"] = ContainerFrame6PortraitButton -- inherited
 ContainerFrame6["Background1Slot"] = ContainerFrame6Background1Slot -- inherited
 
@@ -257,7 +257,7 @@ ContainerFrame7Background1Slot = {}
 --- @class ContainerFrame7 : Frame, ContainerFrameBankTemplate
 ContainerFrame7 = {}
 ContainerFrame7["canUseForBankBag"] = true -- inherited
-ContainerFrame7["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame7["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame7["PortraitButton"] = ContainerFrame7PortraitButton -- inherited
 ContainerFrame7["Background1Slot"] = ContainerFrame7Background1Slot -- inherited
 
@@ -275,7 +275,7 @@ ContainerFrame8Background1Slot = {}
 --- @class ContainerFrame8 : Frame, ContainerFrameBankTemplate
 ContainerFrame8 = {}
 ContainerFrame8["canUseForBankBag"] = true -- inherited
-ContainerFrame8["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame8["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame8["PortraitButton"] = ContainerFrame8PortraitButton -- inherited
 ContainerFrame8["Background1Slot"] = ContainerFrame8Background1Slot -- inherited
 
@@ -293,7 +293,7 @@ ContainerFrame9Background1Slot = {}
 --- @class ContainerFrame9 : Frame, ContainerFrameBankTemplate
 ContainerFrame9 = {}
 ContainerFrame9["canUseForBankBag"] = true -- inherited
-ContainerFrame9["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame9["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame9["PortraitButton"] = ContainerFrame9PortraitButton -- inherited
 ContainerFrame9["Background1Slot"] = ContainerFrame9Background1Slot -- inherited
 
@@ -311,7 +311,7 @@ ContainerFrame10Background1Slot = {}
 --- @class ContainerFrame10 : Frame, ContainerFrameBankTemplate
 ContainerFrame10 = {}
 ContainerFrame10["canUseForBankBag"] = true -- inherited
-ContainerFrame10["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame10["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame10["PortraitButton"] = ContainerFrame10PortraitButton -- inherited
 ContainerFrame10["Background1Slot"] = ContainerFrame10Background1Slot -- inherited
 
@@ -329,7 +329,7 @@ ContainerFrame11Background1Slot = {}
 --- @class ContainerFrame11 : Frame, ContainerFrameBankTemplate
 ContainerFrame11 = {}
 ContainerFrame11["canUseForBankBag"] = true -- inherited
-ContainerFrame11["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame11["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame11["PortraitButton"] = ContainerFrame11PortraitButton -- inherited
 ContainerFrame11["Background1Slot"] = ContainerFrame11Background1Slot -- inherited
 
@@ -347,7 +347,7 @@ ContainerFrame12Background1Slot = {}
 --- @class ContainerFrame12 : Frame, ContainerFrameBankTemplate
 ContainerFrame12 = {}
 ContainerFrame12["canUseForBankBag"] = true -- inherited
-ContainerFrame12["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame12["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame12["PortraitButton"] = ContainerFrame12PortraitButton -- inherited
 ContainerFrame12["Background1Slot"] = ContainerFrame12Background1Slot -- inherited
 
@@ -365,7 +365,7 @@ ContainerFrame13Background1Slot = {}
 --- @class ContainerFrame13 : Frame, ContainerFrameBankTemplate
 ContainerFrame13 = {}
 ContainerFrame13["canUseForBankBag"] = true -- inherited
-ContainerFrame13["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrame13["layoutType"] = "PortraitFrameTemplate" -- inherited
 ContainerFrame13["PortraitButton"] = ContainerFrame13PortraitButton -- inherited
 ContainerFrame13["Background1Slot"] = ContainerFrame13Background1Slot -- inherited
 
@@ -405,8 +405,8 @@ ContainerFrameCombinedBagsGoldButton = {}
 --- @field MoneyFrame ContainerFrameCombinedBags_MoneyFrame
 ContainerFrameCombinedBags = {}
 ContainerFrameCombinedBags["PortraitButton"] = ContainerFrameCombinedBagsPortraitButton
-ContainerFrameCombinedBags["onCloseCallback"] = _G["ContainerFrameCombinedBagsMixin.Close"]
-ContainerFrameCombinedBags["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ContainerFrameCombinedBags["onCloseCallback"] = ContainerFrameCombinedBagsMixin.Close
+ContainerFrameCombinedBags["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L1516)
 --- child of BagItemSearchBox (created in template SearchBoxTemplate)

@@ -25,14 +25,14 @@ PVPScoreboardTab1["factionEnum"] = _G["-1"]
 --- @class PVPMatchScoreboard_Content_TabContainer_TabGroup_PVPScoreboardTab2 : Button, PanelTabButtonTemplate
 --- @field factionEnum number # 1
 PVPScoreboardTab2 = {}
-PVPScoreboardTab2["factionEnum"] = _G["1"]
+PVPScoreboardTab2["factionEnum"] = 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.xml#L142)
 --- child of PVPMatchScoreboard_Content_TabContainer_TabGroup
 --- @class PVPMatchScoreboard_Content_TabContainer_TabGroup_PVPScoreboardTab3 : Button, PanelTabButtonTemplate
 --- @field factionEnum number # 0
 PVPScoreboardTab3 = {}
-PVPScoreboardTab3["factionEnum"] = _G["0"]
+PVPScoreboardTab3["factionEnum"] = 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.xml#L123)
 --- child of PVPMatchScoreboard_Content_TabContainer

@@ -47,7 +47,7 @@ RaidParentFrameTab2 = {}
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 RaidParentFrameInset = {}
-RaidParentFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+RaidParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1154)
 --- child of RaidParentFrame (created in template ButtonFrameBaseTemplate)
@@ -66,7 +66,7 @@ RaidParentFrame = {}
 RaidParentFrame["Inset"] = RaidParentFrameInset -- inherited
 RaidParentFrame["CloseButton"] = RaidParentFrameCloseButton -- inherited
 RaidParentFrame["Bg"] = RaidParentFrameBg -- inherited
-RaidParentFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+RaidParentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L141)
 --- child of RaidFrame

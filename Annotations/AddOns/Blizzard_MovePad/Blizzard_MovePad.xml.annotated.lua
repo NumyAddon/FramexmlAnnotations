@@ -90,6 +90,6 @@ MovePadStrafeRight["icon"] = MovePadStrafeRightIcon -- inherited
 --- @class MovePadFrame : Frame, TooltipBackdropTemplate, MovePadMixin
 --- @field backdropColorAlpha number # 0.5
 MovePadFrame = {}
-MovePadFrame["backdropColorAlpha"] = _G["0.5"]
-MovePadFrame["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+MovePadFrame["backdropColorAlpha"] = 0.5
+MovePadFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 

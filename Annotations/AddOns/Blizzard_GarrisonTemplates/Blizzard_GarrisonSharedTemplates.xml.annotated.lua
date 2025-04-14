@@ -226,7 +226,7 @@ GarrisonTruncationFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L705)
 --- @class GarrisonThreatCountersFrame : Frame, GarrisonThreatCountersFrameTemplate
 GarrisonThreatCountersFrame = {}
-GarrisonThreatCountersFrame["listName"] = _G["\"FollowerList\""] -- inherited
+GarrisonThreatCountersFrame["listName"] = "FollowerList" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L711)
 --- child of GarrisonConfirmFollowerAbilityUpgradeFrame

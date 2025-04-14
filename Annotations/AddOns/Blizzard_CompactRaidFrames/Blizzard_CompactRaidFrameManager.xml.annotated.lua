@@ -51,14 +51,14 @@
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerToggleButtonForward : Button, RaidFrameToggleButtonMixin
 --- @field hoverTex string # "gm-btnforward-hover"
 CompactRaidFrameManagerToggleButtonForward = {}
-CompactRaidFrameManagerToggleButtonForward["hoverTex"] = _G["\"gm-btnforward-hover\""]
+CompactRaidFrameManagerToggleButtonForward["hoverTex"] = _G[""gm-btnforward-hover""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L195)
 --- child of CompactRaidFrameManager
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerToggleButtonBack : Button, RaidFrameToggleButtonMixin
 --- @field hoverTex string # "gm-btnback-hover"
 CompactRaidFrameManagerToggleButtonBack = {}
-CompactRaidFrameManagerToggleButtonBack["hoverTex"] = _G["\"gm-btnback-hover\""]
+CompactRaidFrameManagerToggleButtonBack["hoverTex"] = _G[""gm-btnback-hover""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L230)
 --- child of CompactRaidFrameManagerDisplayFrame
@@ -112,14 +112,14 @@ CompactRaidFrameManagerDisplayFrameFilterOptions["filterRoleDamager"] = CompactR
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_TankMarkerCheckButton : Frame, CRFManagerRoleMarkerCheckTemplate
 --- @field id number # 0
 _G["$TankMarkerCheckButton"] = {}
-_G["$TankMarkerCheckButton"]["id"] = _G["0"]
+_G["$TankMarkerCheckButton"]["id"] = 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L287)
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_HealerMarkerCheckButton : Frame, CRFManagerRoleMarkerCheckTemplate
 --- @field id number # 1
 _G["$HealerMarkerCheckButton"] = {}
-_G["$HealerMarkerCheckButton"]["id"] = _G["1"]
+_G["$HealerMarkerCheckButton"]["id"] = 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L293)
 --- child of CompactRaidFrameManagerDisplayFrame

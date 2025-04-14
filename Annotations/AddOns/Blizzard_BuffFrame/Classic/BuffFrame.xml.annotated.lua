@@ -64,7 +64,7 @@ ConsolidatedBuffsContainer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L135)
 --- @class ConsolidatedBuffsTooltip : Frame, TooltipBackdropTemplate
 ConsolidatedBuffsTooltip = {}
-ConsolidatedBuffsTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+ConsolidatedBuffsTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BuffFrame/Classic/BuffFrame.xml#L75)
 --- child of TempEnchant1 (created in template TempEnchantButtonTemplate)

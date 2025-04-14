@@ -52,7 +52,7 @@ AddonDialogText = {}
 --- child of AddonDialog
 --- @class AddonDialog_AddonDialogBackground : Frame, DialogBorderTemplate
 AddonDialogBackground = {}
-AddonDialogBackground["layoutType"] = _G["\"Dialog\""] -- inherited
+AddonDialogBackground["layoutType"] = "Dialog" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L97)
 --- @class AddonDialog : Frame
@@ -896,7 +896,7 @@ AddonListInsetBg = {}
 --- child of AddonList (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 AddonListInset = {}
-AddonListInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+AddonListInset["layoutType"] = "InsetFrameTemplate" -- inherited
 AddonListInset["Bg"] = AddonListInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L827)
@@ -1017,5 +1017,5 @@ AddonList["BotRightCorner"] = AddonListBotRightCorner -- inherited
 AddonList["BottomBorder"] = AddonListBottomBorder -- inherited
 AddonList["LeftBorder"] = AddonListLeftBorder -- inherited
 AddonList["RightBorder"] = AddonListRightBorder -- inherited
-AddonList["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+AddonList["layoutType"] = "PortraitFrameTemplate" -- inherited
 

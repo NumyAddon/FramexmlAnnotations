@@ -80,7 +80,7 @@ MacroSaveButton["fitTextCanWidthDecrease"] = true -- inherited
 --- child of MacroFrame
 --- @class MacroFrame_MacroFrameTextBackground : Frame, TooltipBackdropTemplate
 MacroFrameTextBackground = {}
-MacroFrameTextBackground["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+MacroFrameTextBackground["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1272)
 --- child of MacroFrameTab1 (created in template TabButtonTemplate)
@@ -233,7 +233,7 @@ MacroFrameInsetBg = {}
 --- child of MacroFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MacroFrameInset = {}
-MacroFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+MacroFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 MacroFrameInset["Bg"] = MacroFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L827)
@@ -333,7 +333,7 @@ MacroFrameRightBorder = {}
 --- @field MacroSelector MacroFrame_MacroSelector
 MacroFrame = {}
 MacroFrame["SelectedMacroButton"] = MacroFrameSelectedMacroButton
-MacroFrame["maxTabWidth"] = _G["140"]
+MacroFrame["maxTabWidth"] = 140
 MacroFrame["Inset"] = MacroFrameInset -- inherited
 MacroFrame["CloseButton"] = MacroFrameCloseButton -- inherited
 MacroFrame["Bg"] = MacroFrameBg -- inherited
@@ -350,5 +350,5 @@ MacroFrame["BotRightCorner"] = MacroFrameBotRightCorner -- inherited
 MacroFrame["BottomBorder"] = MacroFrameBottomBorder -- inherited
 MacroFrame["LeftBorder"] = MacroFrameLeftBorder -- inherited
 MacroFrame["RightBorder"] = MacroFrameRightBorder -- inherited
-MacroFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+MacroFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

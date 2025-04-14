@@ -58,7 +58,7 @@ ShoppingTooltip1Texture3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L3)
 --- @class ShoppingTooltip1 : GameTooltip, ShoppingTooltipTemplate
 ShoppingTooltip1 = {}
-ShoppingTooltip1["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+ShoppingTooltip1["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L268)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
@@ -118,7 +118,7 @@ ShoppingTooltip2Texture3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L8)
 --- @class ShoppingTooltip2 : GameTooltip, ShoppingTooltipTemplate
 ShoppingTooltip2 = {}
-ShoppingTooltip2["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+ShoppingTooltip2["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L222)
 --- child of GameTooltip (created in template GameTooltipTemplate)
@@ -258,7 +258,7 @@ GameTooltipTexture10 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L13)
 --- @class GameTooltip : GameTooltip, GameTooltipTemplate
 GameTooltip = {}
-GameTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+GameTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L45)
 --- child of SmallTextTooltip
@@ -268,7 +268,7 @@ SmallTextTooltipText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L36)
 --- @class SmallTextTooltip : Frame, TooltipBackdropTemplate
 SmallTextTooltip = {}
-SmallTextTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+SmallTextTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L103)
 --- child of InternalEmbeddedItemTooltipTemplate
@@ -433,7 +433,7 @@ EmbeddedItemTooltipTooltipTexture10 = {}
 --- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip
 EmbeddedItemTooltipTooltip = {}
 EmbeddedItemTooltipTooltip["IsEmbedded"] = true
-EmbeddedItemTooltipTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+EmbeddedItemTooltipTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L134)
 --- child of EmbeddedItemTooltip
@@ -579,5 +579,5 @@ EmbeddedItemTooltipTexture10 = {}
 --- @field ItemTooltip EmbeddedItemTooltip_ItemTooltip
 --- @field BottomFontString FontString
 EmbeddedItemTooltip = {}
-EmbeddedItemTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+EmbeddedItemTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

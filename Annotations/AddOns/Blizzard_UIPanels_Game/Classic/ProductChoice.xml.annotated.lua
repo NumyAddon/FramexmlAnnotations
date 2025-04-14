@@ -248,5 +248,5 @@ ProductChoiceFrame["BotRightCorner"] = ProductChoiceFrameBotRightCorner -- inher
 ProductChoiceFrame["BottomBorder"] = ProductChoiceFrameBottomBorder -- inherited
 ProductChoiceFrame["LeftBorder"] = ProductChoiceFrameLeftBorder -- inherited
 ProductChoiceFrame["RightBorder"] = ProductChoiceFrameRightBorder -- inherited
-ProductChoiceFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ProductChoiceFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

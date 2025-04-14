@@ -60,11 +60,24 @@ class Frame
         if (!$name) {
             return null;
         }
-
+  
+        $segments = array_filter(explode('.', str_replace('_', '.', $prefix . '.' . $name)));
+  
+        $deduped = [];
+        foreach ($segments as $segment) {
+            foreach ($deduped as $existing) {
+                if (str_starts_with($segment, $existing)) {
+                    $segment = substr($segment, strlen($existing));
+                    $segment = ltrim($segment, '._');
+                }
+            }
+            $deduped[] = $segment;
+        }
+  
         return str_replace(
             ['$', ' ', '-', '.'],
             ['', '_', '_', '_'],
-            $prefix === '' ? $name : $prefix . '_' . $name,
+            implode('.', array_filter($deduped))
         );
     }
 

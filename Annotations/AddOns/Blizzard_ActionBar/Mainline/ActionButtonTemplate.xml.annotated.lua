@@ -207,6 +207,7 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field SpellHighlightAnim ActionButtonTemplate_SpellHighlightAnim
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L449)
 --- Template

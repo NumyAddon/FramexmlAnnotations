@@ -198,6 +198,7 @@
 --- @field Icon Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L346)
 --- child of ProfessionsConcentrateContainerTemplate

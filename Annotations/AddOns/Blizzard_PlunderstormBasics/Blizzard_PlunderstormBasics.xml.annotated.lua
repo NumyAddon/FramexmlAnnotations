@@ -70,5 +70,5 @@
 --- @field PlunderstormLine PlunderstormBasicsContainerFrame_PlunderstormLine
 --- @field PlunderstormBasicsBody PlunderstormBasicsContainerFrame_PlunderstormBasicsBody
 PlunderstormBasicsContainerFrame = {}
-PlunderstormBasicsContainerFrame["fixedWidth"] = "476"
+PlunderstormBasicsContainerFrame["fixedWidth"] = _G["\"476\""]
 

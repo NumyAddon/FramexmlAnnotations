@@ -146,6 +146,7 @@
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_ViewListingsButton : Button
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L408)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer

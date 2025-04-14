@@ -164,7 +164,7 @@ ClassTrainerFrameSkillStepButton["subText"] = ClassTrainerFrameSkillStepButtonSu
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrame_ClassTrainerFrameBottomInset : Frame, InsetFrameTemplate
 ClassTrainerFrameBottomInset = {}
-ClassTrainerFrameBottomInset["layoutType"] = "InsetFrameTemplate" -- inherited
+ClassTrainerFrameBottomInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L113)
 --- child of ClassTrainerFrame
@@ -180,7 +180,7 @@ ClassTrainerFrameBg = {}
 --- child of ClassTrainerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ClassTrainerFrameInset = {}
-ClassTrainerFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+ClassTrainerFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1142)
 --- child of ClassTrainerFrame (created in template ButtonFrameBaseTemplate)
@@ -207,5 +207,5 @@ ClassTrainerFrame["BG"] = ClassTrainerFrameBg
 ClassTrainerFrame["Inset"] = ClassTrainerFrameInset -- inherited
 ClassTrainerFrame["CloseButton"] = ClassTrainerFrameCloseButton -- inherited
 ClassTrainerFrame["Bg"] = ClassTrainerFrameBg -- inherited
-ClassTrainerFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ClassTrainerFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

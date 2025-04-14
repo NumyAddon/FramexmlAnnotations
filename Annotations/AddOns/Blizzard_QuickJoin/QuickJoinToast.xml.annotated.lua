@@ -58,5 +58,5 @@
 --- @field ToastToToastAnim QuickJoinToastButton_ToastToToastAnim
 --- @field ToastToFriendAnim QuickJoinToastButton_ToastToFriendAnim
 QuickJoinToastButton = {}
-QuickJoinToastButton["commandName"] = "TOGGLESOCIAL"
+QuickJoinToastButton["commandName"] = _G["\"TOGGLESOCIAL\""]
 

@@ -89,7 +89,7 @@ TokenFrame = {}
 --- child of CurrencyTransferLog (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CurrencyTransferLogInset = {}
-CurrencyTransferLogInset["layoutType"] = "InsetFrameTemplate" -- inherited
+CurrencyTransferLogInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L1142)
 --- child of CurrencyTransferLog (created in template ButtonFrameBaseTemplate)
@@ -107,7 +107,7 @@ CurrencyTransferLog = {}
 CurrencyTransferLog["Inset"] = CurrencyTransferLogInset -- inherited
 CurrencyTransferLog["CloseButton"] = CurrencyTransferLogCloseButton -- inherited
 CurrencyTransferLog["Bg"] = CurrencyTransferLogBg -- inherited
-CurrencyTransferLog["layoutType"] = "PortraitFrameTemplate" -- inherited
+CurrencyTransferLog["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L230)
 --- child of TokenFramePopup

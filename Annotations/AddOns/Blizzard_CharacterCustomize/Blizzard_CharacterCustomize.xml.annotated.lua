@@ -183,8 +183,8 @@ CharCustomizeNoHeaderTooltipTexture30 = {}
 --- @class CharCustomizeNoHeaderTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate
 --- @field textLeft1Font string # "GameFontNormalMed2"
 CharCustomizeNoHeaderTooltip = {}
-CharCustomizeNoHeaderTooltip["textLeft1Font"] = "GameFontNormalMed2"
-CharCustomizeNoHeaderTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+CharCustomizeNoHeaderTooltip["textLeft1Font"] = _G["\"GameFontNormalMed2\""]
+CharCustomizeNoHeaderTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
 CharCustomizeNoHeaderTooltip["TextLeft1"] = CharCustomizeNoHeaderTooltipTextLeft1 -- inherited
 CharCustomizeNoHeaderTooltip["TextRight1"] = CharCustomizeNoHeaderTooltipTextRight1 -- inherited
 CharCustomizeNoHeaderTooltip["TextLeft2"] = CharCustomizeNoHeaderTooltipTextLeft2 -- inherited
@@ -209,6 +209,7 @@ CharCustomizeNoHeaderTooltip["TextRight2"] = CharCustomizeNoHeaderTooltipTextRig
 --- @field Icon Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L68)
 --- Template
@@ -335,6 +336,7 @@ CharCustomizeNoHeaderTooltip["TextRight2"] = CharCustomizeNoHeaderTooltipTextRig
 --- child of CharCustomizeAudioInterface
 --- @class CharCustomizeAudioInterface_PlayButton : Button, AlphaHighlightButtonTemplate, CharCustomizeAudioInterfacePlayButtonMixin
 --- @field NormalTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L412)
 --- child of CharCustomizeAudioInterface_MuteButton
@@ -346,6 +348,7 @@ CharCustomizeNoHeaderTooltip["TextRight2"] = CharCustomizeNoHeaderTooltipTextRig
 --- @field UnmuteGlow Texture
 --- @field PulseAnim CharCustomizeAudioInterface_MuteButton_PulseAnim
 --- @field NormalTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L357)
 --- Template

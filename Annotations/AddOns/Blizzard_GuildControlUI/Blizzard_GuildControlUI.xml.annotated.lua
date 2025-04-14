@@ -224,7 +224,7 @@ GuildControlUIRankBankFrameRankDropdown = {}
 --- @class GuildControlUI_GuildControlUIRankBankFrame_GuildControlUIRankBankFrameInset_GuildControlUIRankBankFrameInsetScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 8
 GuildControlUIRankBankFrameInsetScrollFrame = {}
-GuildControlUIRankBankFrameInsetScrollFrame["scrollBarX"] = 8
+GuildControlUIRankBankFrameInsetScrollFrame["scrollBarX"] = _G["8"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L411)
 --- child of GuildControlUIRankBankFrame

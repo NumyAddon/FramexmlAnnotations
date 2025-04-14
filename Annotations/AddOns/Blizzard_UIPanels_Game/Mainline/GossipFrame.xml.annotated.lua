@@ -47,7 +47,7 @@ GossipFrameMaterialBotRight = {}
 --- child of GossipFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 GossipFrameInset = {}
-GossipFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+GossipFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L1142)
 --- child of GossipFrame (created in template ButtonFrameBaseTemplate)
@@ -68,7 +68,7 @@ GossipFrame = {}
 GossipFrame["Inset"] = GossipFrameInset -- inherited
 GossipFrame["CloseButton"] = GossipFrameCloseButton -- inherited
 GossipFrame["Bg"] = GossipFrameBg -- inherited
-GossipFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+GossipFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L90)
 --- Template

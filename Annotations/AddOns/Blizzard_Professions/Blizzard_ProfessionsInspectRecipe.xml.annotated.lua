@@ -27,5 +27,5 @@ InspectRecipeFrameBg = {}
 --- @field SchematicForm InspectRecipeFrame_SchematicForm
 InspectRecipeFrame = {}
 InspectRecipeFrame["Bg"] = InspectRecipeFrameBg -- inherited
-InspectRecipeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+InspectRecipeFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

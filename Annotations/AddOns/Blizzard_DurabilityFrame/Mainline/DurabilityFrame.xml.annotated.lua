@@ -64,8 +64,8 @@ DurabilityRanged = {}
 --- @class DurabilityFrame : Frame, EditModeDurabilityFrameSystemTemplate, UIParentRightManagedFrameTemplate, DurabilityFrameMixin
 --- @field layoutIndex number # 9
 DurabilityFrame = {}
-DurabilityFrame["layoutIndex"] = 9
-DurabilityFrame["system"] = Enum.EditModeSystem.DurabilityFrame -- inherited
+DurabilityFrame["layoutIndex"] = _G["9"]
+DurabilityFrame["system"] = _G["Enum.EditModeSystem.DurabilityFrame"] -- inherited
 DurabilityFrame["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
 DurabilityFrame["isManagedFrame"] = true -- inherited
 

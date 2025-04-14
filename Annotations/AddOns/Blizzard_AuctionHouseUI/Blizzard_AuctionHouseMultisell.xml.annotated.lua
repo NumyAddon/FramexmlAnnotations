@@ -18,7 +18,7 @@
 --- @field Right Texture
 --- @field Middle Texture
 AuctionHouseMultisellProgressFrame = {}
-AuctionHouseMultisellProgressFrame["layoutIndex"] = 61
+AuctionHouseMultisellProgressFrame["layoutIndex"] = _G["61"]
 AuctionHouseMultisellProgressFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 AuctionHouseMultisellProgressFrame["isManagedFrame"] = true -- inherited
 

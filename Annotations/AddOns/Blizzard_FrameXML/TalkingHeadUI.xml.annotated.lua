@@ -123,8 +123,8 @@
 --- @field PortraitFrame TalkingHeadFrame_PortraitFrame
 --- @field MainFrame TalkingHeadFrame_MainFrame
 TalkingHeadFrame = {}
-TalkingHeadFrame["layoutIndex"] = 8
+TalkingHeadFrame["layoutIndex"] = _G["8"]
 TalkingHeadFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 TalkingHeadFrame["isManagedFrame"] = true -- inherited
-TalkingHeadFrame["system"] = Enum.EditModeSystem.TalkingHeadFrame -- inherited
+TalkingHeadFrame["system"] = _G["Enum.EditModeSystem.TalkingHeadFrame"] -- inherited
 

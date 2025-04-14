@@ -779,7 +779,7 @@ MultiCastRecallSpellButton["NormalTexture"] = MultiCastRecallSpellButtonNormalTe
 --- @class MultiCastActionBarFrame : Frame, UIParentBottomManagedFrameTemplate
 --- @field layoutIndex number # 203
 MultiCastActionBarFrame = {}
-MultiCastActionBarFrame["layoutIndex"] = 203
+MultiCastActionBarFrame["layoutIndex"] = _G["203"]
 MultiCastActionBarFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 MultiCastActionBarFrame["isManagedFrame"] = true -- inherited
 

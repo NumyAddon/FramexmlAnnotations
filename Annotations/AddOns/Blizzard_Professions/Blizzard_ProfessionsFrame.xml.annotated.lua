@@ -46,5 +46,5 @@ ProfessionsFrameBg = {}
 --- @field Pages table<number, ProfessionsFrame_CraftingPage | ProfessionsFrame_SpecPage | ProfessionsFrame_OrdersPage>
 ProfessionsFrame = {}
 ProfessionsFrame["Bg"] = ProfessionsFrameBg -- inherited
-ProfessionsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ProfessionsFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

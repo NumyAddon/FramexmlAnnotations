@@ -17,7 +17,7 @@
 --- @class BagsBar_MainMenuBarBackpackButton : ItemButton, QuickKeybindButtonTemplate, BaseBagSlotButtonTemplate, MainMenuBarBackpackMixin
 --- @field commandName string # "TOGGLEBACKPACK"
 MainMenuBarBackpackButton = {}
-MainMenuBarBackpackButton["commandName"] = "TOGGLEBACKPACK"
+MainMenuBarBackpackButton["commandName"] = _G["\"TOGGLEBACKPACK\""]
 MainMenuBarBackpackButton["showMatchHighlight"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.xml#L67)
@@ -25,6 +25,7 @@ MainMenuBarBackpackButton["showMatchHighlight"] = false -- inherited
 --- @class BagsBar_BagBarExpandToggle : Button, BagBarExpandToggleMixin
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 BagBarExpandToggle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.xml#L94)
@@ -32,7 +33,7 @@ BagBarExpandToggle = {}
 --- @class BagsBar_CharacterBag0Slot : ItemButton, BaseBagSlotButtonTemplate
 --- @field commandName string # "TOGGLEBAG4"
 CharacterBag0Slot = {}
-CharacterBag0Slot["commandName"] = "TOGGLEBAG4"
+CharacterBag0Slot["commandName"] = _G["\"TOGGLEBAG4\""]
 CharacterBag0Slot["showMatchHighlight"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.xml#L102)
@@ -40,7 +41,7 @@ CharacterBag0Slot["showMatchHighlight"] = false -- inherited
 --- @class BagsBar_CharacterBag1Slot : ItemButton, BaseBagSlotButtonTemplate
 --- @field commandName string # "TOGGLEBAG3"
 CharacterBag1Slot = {}
-CharacterBag1Slot["commandName"] = "TOGGLEBAG3"
+CharacterBag1Slot["commandName"] = _G["\"TOGGLEBAG3\""]
 CharacterBag1Slot["showMatchHighlight"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.xml#L110)
@@ -48,7 +49,7 @@ CharacterBag1Slot["showMatchHighlight"] = false -- inherited
 --- @class BagsBar_CharacterBag2Slot : ItemButton, BaseBagSlotButtonTemplate
 --- @field commandName string # "TOGGLEBAG2"
 CharacterBag2Slot = {}
-CharacterBag2Slot["commandName"] = "TOGGLEBAG2"
+CharacterBag2Slot["commandName"] = _G["\"TOGGLEBAG2\""]
 CharacterBag2Slot["showMatchHighlight"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.xml#L118)
@@ -56,7 +57,7 @@ CharacterBag2Slot["showMatchHighlight"] = false -- inherited
 --- @class BagsBar_CharacterBag3Slot : ItemButton, BaseBagSlotButtonTemplate
 --- @field commandName string # "TOGGLEBAG1"
 CharacterBag3Slot = {}
-CharacterBag3Slot["commandName"] = "TOGGLEBAG1"
+CharacterBag3Slot["commandName"] = _G["\"TOGGLEBAG1\""]
 CharacterBag3Slot["showMatchHighlight"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.xml#L126)
@@ -64,7 +65,7 @@ CharacterBag3Slot["showMatchHighlight"] = false -- inherited
 --- @class BagsBar_CharacterReagentBag0Slot : ItemButton, BaseBagSlotButtonTemplate, CharacterReagentBagMixin
 --- @field commandName string # "TOGGLEREAGENTBAG1"
 CharacterReagentBag0Slot = {}
-CharacterReagentBag0Slot["commandName"] = "TOGGLEREAGENTBAG1"
+CharacterReagentBag0Slot["commandName"] = _G["\"TOGGLEREAGENTBAG1\""]
 CharacterReagentBag0Slot["showMatchHighlight"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarBagButtons.xml#L44)
@@ -72,5 +73,5 @@ CharacterReagentBag0Slot["showMatchHighlight"] = false -- inherited
 --- @field isHorizontal boolean # true
 BagsBar = {}
 BagsBar["isHorizontal"] = true
-BagsBar["system"] = Enum.EditModeSystem.Bags -- inherited
+BagsBar["system"] = _G["Enum.EditModeSystem.Bags"] -- inherited
 

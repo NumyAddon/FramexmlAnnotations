@@ -242,7 +242,7 @@ ChallengeModeCompleteBanner = {}
 --- child of ChallengesFrame
 --- @class ChallengesFrame_ChallengesFrameInset : Frame, InsetFrameTemplate
 ChallengesFrameInset = {}
-ChallengesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+ChallengesFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChallengesUI/Blizzard_ChallengesUI.xml#L844)
 --- child of ChallengesFrame_WeeklyInfo_Child

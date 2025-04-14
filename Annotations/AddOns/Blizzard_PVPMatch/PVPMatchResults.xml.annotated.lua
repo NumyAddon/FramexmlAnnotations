@@ -39,21 +39,21 @@
 --- @class PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab1 : Button, PanelTabButtonTemplate
 --- @field factionEnum number # -1
 PVPScoreFrameTab1 = {}
-PVPScoreFrameTab1["factionEnum"] = -1
+PVPScoreFrameTab1["factionEnum"] = _G["-1"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L212)
 --- child of PVPMatchResults_content_tabContainer_tabGroup
 --- @class PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab2 : Button, PanelTabButtonTemplate
 --- @field factionEnum number # 1
 PVPScoreFrameTab2 = {}
-PVPScoreFrameTab2["factionEnum"] = 1
+PVPScoreFrameTab2["factionEnum"] = _G["1"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L217)
 --- child of PVPMatchResults_content_tabContainer_tabGroup
 --- @class PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab3 : Button, PanelTabButtonTemplate
 --- @field factionEnum number # 0
 PVPScoreFrameTab3 = {}
-PVPScoreFrameTab3["factionEnum"] = 0
+PVPScoreFrameTab3["factionEnum"] = _G["0"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L198)
 --- child of PVPMatchResults_content_tabContainer

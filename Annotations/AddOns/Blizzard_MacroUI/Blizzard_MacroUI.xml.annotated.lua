@@ -34,7 +34,7 @@ MacroFrameText = {}
 --- child of MacroFrame
 --- @class MacroFrame_MacroFrameScrollFrame : ScrollFrame, MacroFrameScrollFrameTemplate
 MacroFrameScrollFrame = {}
-MacroFrameScrollFrame["scrollBarX"] = 6 -- inherited
+MacroFrameScrollFrame["scrollBarX"] = _G["6"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L145)
 --- child of MacroFrame
@@ -57,7 +57,7 @@ MacroSaveButton["fitTextCanWidthDecrease"] = true -- inherited
 --- child of MacroFrame
 --- @class MacroFrame_MacroFrameTextBackground : Frame, TooltipBackdropTemplate
 MacroFrameTextBackground = {}
-MacroFrameTextBackground["layoutType"] = "TooltipDefaultLayout" -- inherited
+MacroFrameTextBackground["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L180)
 --- child of MacroFrame
@@ -121,7 +121,7 @@ MacroFrameCharLimitText = {}
 --- child of MacroFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MacroFrameInset = {}
-MacroFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+MacroFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1142)
 --- child of MacroFrame (created in template ButtonFrameBaseTemplate)
@@ -141,9 +141,9 @@ MacroFrameBg = {}
 --- @field Tabs table<number, MacroFrame_MacroFrameTab1 | MacroFrame_MacroFrameTab2>
 MacroFrame = {}
 MacroFrame["SelectedMacroButton"] = MacroFrameSelectedMacroButton
-MacroFrame["maxTabWidth"] = 140
+MacroFrame["maxTabWidth"] = _G["140"]
 MacroFrame["Inset"] = MacroFrameInset -- inherited
 MacroFrame["CloseButton"] = MacroFrameCloseButton -- inherited
 MacroFrame["Bg"] = MacroFrameBg -- inherited
-MacroFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+MacroFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

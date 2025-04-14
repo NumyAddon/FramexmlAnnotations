@@ -33,21 +33,21 @@ AuctionHouseFrameMiddle = {}
 --- @class AuctionHouseFrame_AuctionHouseFrameBuyTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.Buy
 AuctionHouseFrameBuyTab = {}
-AuctionHouseFrameBuyTab["displayMode"] = AuctionHouseFrameDisplayMode.Buy
+AuctionHouseFrameBuyTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.Buy"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L53)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_AuctionHouseFrameSellTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.ItemSell
 AuctionHouseFrameSellTab = {}
-AuctionHouseFrameSellTab["displayMode"] = AuctionHouseFrameDisplayMode.ItemSell
+AuctionHouseFrameSellTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.ItemSell"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L61)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_AuctionHouseFrameAuctionsTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.Auctions
 AuctionHouseFrameAuctionsTab = {}
-AuctionHouseFrameAuctionsTab["displayMode"] = AuctionHouseFrameDisplayMode.Auctions
+AuctionHouseFrameAuctionsTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.Auctions"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseFrame.xml#L72)
 --- child of AuctionHouseFrame
@@ -160,5 +160,5 @@ AuctionHouseFrame["AuctionsTab"] = AuctionHouseFrameAuctionsTab
 AuctionHouseFrame["AuctionsFrame"] = AuctionHouseFrameAuctionsFrame
 AuctionHouseFrame["CloseButton"] = AuctionHouseFrameCloseButton -- inherited
 AuctionHouseFrame["Bg"] = AuctionHouseFrameBg -- inherited
-AuctionHouseFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+AuctionHouseFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

@@ -171,7 +171,7 @@
 --- @class GroupLootContainer : ContainedAlertFrame, UIParentBottomManagedFrameTemplate
 --- @field layoutIndex number # 3
 GroupLootContainer = {}
-GroupLootContainer["layoutIndex"] = 3
+GroupLootContainer["layoutIndex"] = _G["3"]
 GroupLootContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 GroupLootContainer["isManagedFrame"] = true -- inherited
 
@@ -237,5 +237,5 @@ BonusRollMoneyWonFrame = {}
 --- @field Item MasterLooterFrame_Item
 --- @field player1 MasterLooterFrame_player1
 MasterLooterFrame = {}
-MasterLooterFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
+MasterLooterFrame["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 

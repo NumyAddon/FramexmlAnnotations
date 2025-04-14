@@ -752,7 +752,7 @@ EncounterJournalSearchBoxSearchIcon = {}
 --- @class EncounterJournal_EncounterJournalSearchBox : EditBox, SearchBoxListTemplate
 --- @field buttonTemplate string # "EncounterSearchSMTemplate"
 EncounterJournalSearchBox = {}
-EncounterJournalSearchBox["buttonTemplate"] = "EncounterSearchSMTemplate"
+EncounterJournalSearchBox["buttonTemplate"] = _G["\"EncounterSearchSMTemplate\""]
 EncounterJournalSearchBox["searchProgress"] = EncounterJournalSearchBoxSearchProgress -- inherited
 EncounterJournalSearchBox["instructionText"] = SEARCH -- inherited
 EncounterJournalSearchBox["clearButton"] = EncounterJournalSearchBoxClearButton -- inherited
@@ -881,7 +881,7 @@ EncounterJournalNavBar["home"] = EncounterJournalNavBarHomeButton -- inherited
 --- child of EncounterJournal
 --- @class EncounterJournal_EncounterJournalInset : Frame, InsetFrameTemplate
 EncounterJournalInset = {}
-EncounterJournalInset["layoutType"] = "InsetFrameTemplate" -- inherited
+EncounterJournalInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1419)
 --- child of EncounterJournalInstanceSelect
@@ -1100,7 +1100,7 @@ EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChild["description"] =
 --- @field child EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoDetailsScrollFrame_EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChild
 EncounterJournalEncounterFrameInfoDetailsScrollFrame = {}
 EncounterJournalEncounterFrameInfoDetailsScrollFrame["child"] = EncounterJournalEncounterFrameInfoDetailsScrollFrameScrollChild
-EncounterJournalEncounterFrameInfoDetailsScrollFrame["scrollBarX"] = -15
+EncounterJournalEncounterFrameInfoDetailsScrollFrame["scrollBarX"] = _G["-15"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1831)
 --- child of EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild
@@ -1138,7 +1138,7 @@ EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild["header"] = Enc
 --- @field child EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoOverviewScrollFrame_EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild
 EncounterJournalEncounterFrameInfoOverviewScrollFrame = {}
 EncounterJournalEncounterFrameInfoOverviewScrollFrame["child"] = EncounterJournalEncounterFrameInfoOverviewScrollFrameScrollChild
-EncounterJournalEncounterFrameInfoOverviewScrollFrame["scrollBarX"] = -15
+EncounterJournalEncounterFrameInfoOverviewScrollFrame["scrollBarX"] = _G["-15"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1881)
 --- child of EncounterJournalEncounterFrameInfoClassFilterClearFrame
@@ -1261,7 +1261,7 @@ EncounterJournalEncounterFrameInfoRightHeaderShadow = {}
 --- @class EncounterJournal_EncounterJournalEncounterFrame_EncounterJournalEncounterFrameInfo_EncounterJournalEncounterFrameInfoEncounterTitle : FontString, GameFontNormalLarge, AutoScalingFontStringMixin
 --- @field minLineHeight number # 9
 EncounterJournalEncounterFrameInfoEncounterTitle = {}
-EncounterJournalEncounterFrameInfoEncounterTitle["minLineHeight"] = 9
+EncounterJournalEncounterFrameInfoEncounterTitle["minLineHeight"] = _G["9"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L1587)
 --- child of EncounterJournalEncounterFrameInfo
@@ -1461,7 +1461,7 @@ EncounterJournal["raidsTab"] = EncounterJournalRaidTab
 EncounterJournal["LootJournalTab"] = EncounterJournalLootJournalTab
 EncounterJournal["CloseButton"] = EncounterJournalCloseButton -- inherited
 EncounterJournal["Bg"] = EncounterJournalBg -- inherited
-EncounterJournal["layoutType"] = "PortraitFrameTemplate" -- inherited
+EncounterJournal["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L9)
 --- child of EncounterJournalTooltipItem1Tooltip (created in template GameTooltipTemplate)
@@ -1646,7 +1646,7 @@ EncounterJournalTooltipItem1Tooltip = {}
 EncounterJournalTooltipItem1Tooltip["IsEmbedded"] = true
 EncounterJournalTooltipItem1Tooltip["supportsDataRefresh"] = true -- inherited
 EncounterJournalTooltipItem1Tooltip["StatusBar"] = EncounterJournalTooltipItem1TooltipStatusBar -- inherited
-EncounterJournalTooltipItem1Tooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+EncounterJournalTooltipItem1Tooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
 EncounterJournalTooltipItem1Tooltip["TextLeft1"] = EncounterJournalTooltipItem1TooltipTextLeft1 -- inherited
 EncounterJournalTooltipItem1Tooltip["TextRight1"] = EncounterJournalTooltipItem1TooltipTextRight1 -- inherited
 EncounterJournalTooltipItem1Tooltip["TextLeft2"] = EncounterJournalTooltipItem1TooltipTextLeft2 -- inherited
@@ -1721,5 +1721,5 @@ EncounterJournalTooltip["Item1"] = EncounterJournalTooltipItem1
 EncounterJournalTooltip["Item2"] = EncounterJournalTooltipItem2
 EncounterJournalTooltip["headerText"] = EncounterJournalTooltipHeaderText
 EncounterJournalTooltip["clickText"] = EncounterJournalTooltipClickText
-EncounterJournalTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+EncounterJournalTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 

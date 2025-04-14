@@ -56,7 +56,7 @@ NPE_TutorialKeyboardMouseFrame_Frame = {}
 NPE_TutorialKeyboardMouseFrame_Frame["txtKey_TURNRIGHT"] = xx
 NPE_TutorialKeyboardMouseFrame_Frame["CloseButton"] = NPE_TutorialKeyboardMouseFrame_FrameCloseButton -- inherited
 NPE_TutorialKeyboardMouseFrame_Frame["Bg"] = NPE_TutorialKeyboardMouseFrame_FrameBg -- inherited
-NPE_TutorialKeyboardMouseFrame_Frame["layoutType"] = "PortraitFrameTemplate" -- inherited
+NPE_TutorialKeyboardMouseFrame_Frame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L181)
 --- child of NPE_TutorialInterfaceHelp

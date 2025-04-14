@@ -39,5 +39,5 @@
 --- @field CancelButton ClassTalentLoadoutImportDialog_CancelButton
 ClassTalentLoadoutImportDialog = {}
 ClassTalentLoadoutImportDialog["titleText"] = HUD_CLASS_TALENTS_IMPORT_DIALOG_TITLE
-ClassTalentLoadoutImportDialog["titleText"] =  -- inherited
+ClassTalentLoadoutImportDialog["titleText"] = _G[""] -- inherited
 

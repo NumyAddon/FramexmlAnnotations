@@ -22,6 +22,7 @@
 --- @field IconOverlay2 Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L81)
 --- Template

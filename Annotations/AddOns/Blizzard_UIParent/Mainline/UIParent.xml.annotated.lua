@@ -29,10 +29,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.xml#L81)
 --- @class UIParentBottomManagedFrameContainer : Frame, UIParentManagedFrameContainer
 UIParentBottomManagedFrameContainer = {}
-UIParentBottomManagedFrameContainer["spacing"] = 10 -- inherited
+UIParentBottomManagedFrameContainer["spacing"] = _G["10"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.xml#L82)
 --- @class UIParentRightManagedFrameContainer : Frame, UIParentManagedFrameContainer
 UIParentRightManagedFrameContainer = {}
-UIParentRightManagedFrameContainer["spacing"] = 10 -- inherited
+UIParentRightManagedFrameContainer["spacing"] = _G["10"] -- inherited
 

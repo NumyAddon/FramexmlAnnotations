@@ -22,4 +22,5 @@
 --- @field IconOverlay2 Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 

@@ -720,7 +720,7 @@ WhoFrameListInsetBg = {}
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameListInset : Frame, InsetFrameTemplate
 WhoFrameListInset = {}
-WhoFrameListInset["layoutType"] = "InsetFrameTemplate" -- inherited
+WhoFrameListInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 WhoFrameListInset["Bg"] = WhoFrameListInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L364)
@@ -898,7 +898,7 @@ WhoFrameEditBoxInsetBg = {}
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameEditBoxInset : Frame, InsetFrameTemplate
 WhoFrameEditBoxInset = {}
-WhoFrameEditBoxInset["layoutType"] = "InsetFrameTemplate" -- inherited
+WhoFrameEditBoxInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 WhoFrameEditBoxInset["Bg"] = WhoFrameEditBoxInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1623)
@@ -2474,7 +2474,7 @@ GuildBankTabLabel = {}
 --- @field backdropColor any # VERY_DARK_GRAY_COLOR
 GuildControlPopupFrameTabPermissions = {}
 GuildControlPopupFrameTabPermissions["backdropColor"] = VERY_DARK_GRAY_COLOR
-GuildControlPopupFrameTabPermissions["layoutType"] = "TooltipDefaultLayout" -- inherited
+GuildControlPopupFrameTabPermissions["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L2596)
 --- child of FriendsFrame
@@ -2519,7 +2519,7 @@ GuildInfoFrameScrollFrame["ScrollBar"] = GuildInfoFrameScrollFrameScrollBar -- i
 --- child of GuildInfoFrame
 --- @class FriendsFrame_GuildInfoFrame_GuildInfoTextBackground : Frame, TooltipBackdropTemplate
 GuildInfoTextBackground = {}
-GuildInfoTextBackground["layoutType"] = "TooltipDefaultLayout" -- inherited
+GuildInfoTextBackground["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3419)
 --- child of GuildInfoFrame
@@ -2597,7 +2597,7 @@ PersonalNoteText = {}
 --- child of GuildMemberDetailFrame
 --- @class FriendsFrame_GuildMemberDetailFrame_GuildMemberNoteBackground : Frame, TooltipBackdropTemplate
 GuildMemberNoteBackground = {}
-GuildMemberNoteBackground["layoutType"] = "TooltipDefaultLayout" -- inherited
+GuildMemberNoteBackground["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3807)
 --- child of GuildMemberOfficerNoteBackground
@@ -2608,7 +2608,7 @@ OfficerNoteText = {}
 --- child of GuildMemberDetailFrame
 --- @class FriendsFrame_GuildMemberDetailFrame_GuildMemberOfficerNoteBackground : Frame, TooltipBackdropTemplate
 GuildMemberOfficerNoteBackground = {}
-GuildMemberOfficerNoteBackground["layoutType"] = "TooltipDefaultLayout" -- inherited
+GuildMemberOfficerNoteBackground["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3503)
 --- child of GuildMemberDetailFrame
@@ -2715,7 +2715,7 @@ GuildEventLogScrollFrame["ScrollBar"] = GuildEventLogScrollFrameScrollBar -- inh
 --- child of GuildEventLogFrame
 --- @class FriendsFrame_GuildEventLogFrame_GuildEventFrame : Frame, TooltipBackdropTemplate
 GuildEventFrame = {}
-GuildEventFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
+GuildEventFrame["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3918)
 --- child of GuildEventLogFrame
@@ -2999,7 +2999,7 @@ FriendsTooltipGameAccountMany = {}
 --- child of FriendsFrame
 --- @class FriendsFrame_FriendsTooltip : Frame, TooltipBackdropTemplate
 FriendsTooltip = {}
-FriendsTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+FriendsTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L735)
 --- child of FriendsFrame
@@ -3020,7 +3020,7 @@ FriendsFrameInsetBg = {}
 --- child of FriendsFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 FriendsFrameInset = {}
-FriendsFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+FriendsFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 FriendsFrameInset["Bg"] = FriendsFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L827)
@@ -3134,7 +3134,7 @@ FriendsFrame["BotRightCorner"] = FriendsFrameBotRightCorner -- inherited
 FriendsFrame["BottomBorder"] = FriendsFrameBottomBorder -- inherited
 FriendsFrame["LeftBorder"] = FriendsFrameLeftBorder -- inherited
 FriendsFrame["RightBorder"] = FriendsFrameRightBorder -- inherited
-FriendsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+FriendsFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L4233)
 --- child of AddFriendInfoFrame
@@ -3386,7 +3386,7 @@ FriendsFriendsFrameDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 --- @field backdropColor any # BLACK_FONT_COLOR
 FriendsFriendsList = {}
 FriendsFriendsList["backdropColor"] = BLACK_FONT_COLOR
-FriendsFriendsList["layoutType"] = "TooltipDefaultLayout" -- inherited
+FriendsFriendsList["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L278)
 --- child of FriendsFriendsButton1 (created in template FriendsFriendsButtonTemplate)

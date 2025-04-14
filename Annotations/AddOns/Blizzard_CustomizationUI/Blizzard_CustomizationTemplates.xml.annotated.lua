@@ -174,8 +174,8 @@ CustomizationNoHeaderTooltipTexture30 = {}
 --- @class CustomizationNoHeaderTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate
 --- @field textLeft1Font string # "GameFontNormalMed2"
 CustomizationNoHeaderTooltip = {}
-CustomizationNoHeaderTooltip["textLeft1Font"] = "GameFontNormalMed2"
-CustomizationNoHeaderTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+CustomizationNoHeaderTooltip["textLeft1Font"] = _G["\"GameFontNormalMed2\""]
+CustomizationNoHeaderTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
 CustomizationNoHeaderTooltip["TextLeft1"] = CustomizationNoHeaderTooltipTextLeft1 -- inherited
 CustomizationNoHeaderTooltip["TextRight1"] = CustomizationNoHeaderTooltipTextRight1 -- inherited
 CustomizationNoHeaderTooltip["TextLeft2"] = CustomizationNoHeaderTooltipTextLeft2 -- inherited
@@ -200,6 +200,7 @@ CustomizationNoHeaderTooltip["TextRight2"] = CustomizationNoHeaderTooltipTextRig
 --- @field Icon Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L60)
 --- Template

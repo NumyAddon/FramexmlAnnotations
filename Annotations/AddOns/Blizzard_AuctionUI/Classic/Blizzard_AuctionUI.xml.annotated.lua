@@ -513,7 +513,7 @@ WowTokenGameTimeTutorialInsetBg = {}
 --- child of WowTokenGameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 WowTokenGameTimeTutorialInset = {}
-WowTokenGameTimeTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
+WowTokenGameTimeTutorialInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 WowTokenGameTimeTutorialInset["Bg"] = WowTokenGameTimeTutorialInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L827)
@@ -631,7 +631,7 @@ WowTokenGameTimeTutorial["BotRightCorner"] = WowTokenGameTimeTutorialBotRightCor
 WowTokenGameTimeTutorial["BottomBorder"] = WowTokenGameTimeTutorialBottomBorder -- inherited
 WowTokenGameTimeTutorial["LeftBorder"] = WowTokenGameTimeTutorialLeftBorder -- inherited
 WowTokenGameTimeTutorial["RightBorder"] = WowTokenGameTimeTutorialRightBorder -- inherited
-WowTokenGameTimeTutorial["layoutType"] = "PortraitFrameTemplate" -- inherited
+WowTokenGameTimeTutorial["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L617)
 --- child of BrowseWowTokenResults

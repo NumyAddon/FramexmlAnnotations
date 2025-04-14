@@ -235,7 +235,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdownLabel = {}
 --- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown : DropdownButton, CompactUnitFrameProfilesDropdownTemplate
 --- @field width number # 110
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown = {}
-CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["width"] = 110
+CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["width"] = _G["110"]
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["label"] = CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdownLabel -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 

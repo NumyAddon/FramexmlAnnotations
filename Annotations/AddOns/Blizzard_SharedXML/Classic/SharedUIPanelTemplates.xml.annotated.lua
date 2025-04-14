@@ -835,6 +835,7 @@
 --- @field iconSize number # 24
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2062)
 --- Template

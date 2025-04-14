@@ -5,6 +5,7 @@
 --- @class NavButtonTemplate_MenuArrowButton : DropdownButton
 --- @field Art Texture
 --- @field NormalTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L4)
 --- Template

@@ -348,14 +348,14 @@ SendStationeryBackgroundRight = {}
 --- @class MailFrame_SendMailFrame_MailEditBox : Frame, ScrollingEditBoxTemplate
 --- @field maxLetters number # 500
 MailEditBox = {}
-MailEditBox["maxLetters"] = 500
-MailEditBox["fontName"] = "GameFontHighlight" -- inherited
+MailEditBox["maxLetters"] = _G["500"]
+MailEditBox["fontName"] = _G["\"GameFontHighlight\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L541)
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_MailEditBoxScrollBar : EventFrame, WowClassicScrollBar
 MailEditBoxScrollBar = {}
-MailEditBoxScrollBar["minThumbExtent"] = 24 -- inherited
+MailEditBoxScrollBar["minThumbExtent"] = _G["24"] -- inherited
 MailEditBoxScrollBar["canInterpolateScroll"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L559)
@@ -667,7 +667,7 @@ SendMailMoneyInsetBg = {}
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_SendMailMoneyInset : Frame, InsetFrameTemplate
 SendMailMoneyInset = {}
-SendMailMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
+SendMailMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 SendMailMoneyInset["Bg"] = SendMailMoneyInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1665)
@@ -866,7 +866,7 @@ MailFrameInsetBg = {}
 --- child of MailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MailFrameInset = {}
-MailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+MailFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 MailFrameInset["Bg"] = MailFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L827)
@@ -980,7 +980,7 @@ MailFrame["BotRightCorner"] = MailFrameBotRightCorner -- inherited
 MailFrame["BottomBorder"] = MailFrameBottomBorder -- inherited
 MailFrame["LeftBorder"] = MailFrameLeftBorder -- inherited
 MailFrame["RightBorder"] = MailFrameRightBorder -- inherited
-MailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+MailFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L918)
 --- child of OpenMailFrame
@@ -1988,7 +1988,7 @@ OpenMailFrameInsetBg = {}
 --- child of OpenMailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 OpenMailFrameInset = {}
-OpenMailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+OpenMailFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 OpenMailFrameInset["Bg"] = OpenMailFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L827)
@@ -2101,5 +2101,5 @@ OpenMailFrame["BotRightCorner"] = OpenMailFrameBotRightCorner -- inherited
 OpenMailFrame["BottomBorder"] = OpenMailFrameBottomBorder -- inherited
 OpenMailFrame["LeftBorder"] = OpenMailFrameLeftBorder -- inherited
 OpenMailFrame["RightBorder"] = OpenMailFrameRightBorder -- inherited
-OpenMailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+OpenMailFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

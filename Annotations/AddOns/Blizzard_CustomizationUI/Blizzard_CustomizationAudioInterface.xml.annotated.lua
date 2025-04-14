@@ -4,6 +4,7 @@
 --- Template
 --- @class CustomizationAudioInterfacePlayButtonTemplate : Button, AlphaHighlightButtonTemplate, CustomizationAudioInterfacePlayButtonMixin
 --- @field NormalTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationAudioInterface.xml#L30)
 --- child of CustomizationAudioInterfaceMuteButtonTemplate
@@ -15,6 +16,7 @@
 --- @field UnmuteGlow Texture
 --- @field PulseAnim CustomizationAudioInterfaceMuteButtonTemplate_PulseAnim
 --- @field NormalTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationAudioInterface.xml#L45)
 --- child of CustomizationAudioInterface

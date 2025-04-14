@@ -73,5 +73,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L124)
 --- @class QueueStatusFrame : Frame, TooltipBackdropTemplate, QueueStatusFrameMixin
 QueueStatusFrame = {}
-QueueStatusFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
+QueueStatusFrame["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 

@@ -6,8 +6,8 @@
 --- @field fixedIconWidth number # 20
 --- @field Background Texture
 TextToSpeechButton = {}
-TextToSpeechButton["fixedIconWidth"] = 20
-TextToSpeechButton["fixedWidth"] = 27 -- inherited
+TextToSpeechButton["fixedIconWidth"] = _G["20"]
+TextToSpeechButton["fixedWidth"] = _G["27"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeech.xml#L3)
 --- @class TextToSpeechButtonFrame : ContainedAlertFrame
@@ -15,5 +15,5 @@ TextToSpeechButton["fixedWidth"] = 27 -- inherited
 --- @field Button TextToSpeechButtonFrame_TextToSpeechButton
 TextToSpeechButtonFrame = {}
 TextToSpeechButtonFrame["Button"] = TextToSpeechButton
-TextToSpeechButtonFrame["commandName"] = "TOGGLETEXTTOSPEECH"
+TextToSpeechButtonFrame["commandName"] = _G["\"TOGGLETEXTTOSPEECH\""]
 

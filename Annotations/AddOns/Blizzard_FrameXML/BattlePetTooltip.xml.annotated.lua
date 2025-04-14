@@ -3,5 +3,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/BattlePetTooltip.xml#L3)
 --- @class BattlePetTooltip : Frame, BattlePetTooltipTemplate
 BattlePetTooltip = {}
-BattlePetTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+BattlePetTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

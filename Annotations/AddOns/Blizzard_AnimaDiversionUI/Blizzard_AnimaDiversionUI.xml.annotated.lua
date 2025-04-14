@@ -78,5 +78,5 @@
 --- @field ReinforceProgressFrame AnimaDiversionFrame_ReinforceProgressFrame
 --- @field ReinforceInfoFrame AnimaDiversionFrame_ReinforceInfoFrame
 AnimaDiversionFrame = {}
-AnimaDiversionFrame["debugInspectionSystem"] = _G["\"MapCanvas\""] -- inherited
+AnimaDiversionFrame["debugInspectionSystem"] = "MapCanvas" -- inherited
 

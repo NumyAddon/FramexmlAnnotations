@@ -121,7 +121,7 @@ TradeHighlightRecipientEnchant = {}
 --- child of TradeFrame
 --- @class TradeFrame_TradeRecipientItemsInset : Frame, InsetFrameTemplate
 TradeRecipientItemsInset = {}
-TradeRecipientItemsInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+TradeRecipientItemsInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L58)
 --- child of TradeRecipientItem1 (created in template RecipientTradeItemTemplate)
@@ -283,7 +283,7 @@ TradeRecipientItem6["SlotTexture"] = TradeRecipientItem6SlotTexture -- inherited
 --- child of TradeFrame
 --- @class TradeFrame_TradeRecipientEnchantInset : Frame, InsetFrameTemplate
 TradeRecipientEnchantInset = {}
-TradeRecipientEnchantInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+TradeRecipientEnchantInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L58)
 --- child of TradeRecipientItem7 (created in template RecipientTradeItemTemplate)
@@ -315,7 +315,7 @@ TradeRecipientItem7["SlotTexture"] = TradeRecipientItem7SlotTexture -- inherited
 --- child of TradeFrame
 --- @class TradeFrame_TradePlayerItemsInset : Frame, InsetFrameTemplate
 TradePlayerItemsInset = {}
-TradePlayerItemsInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+TradePlayerItemsInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L99)
 --- child of TradePlayerItem1 (created in template PlayerTradeItemTemplate)
@@ -477,7 +477,7 @@ TradePlayerItem6["SlotTexture"] = TradePlayerItem6SlotTexture -- inherited
 --- child of TradeFrame
 --- @class TradeFrame_TradePlayerEnchantInset : Frame, InsetFrameTemplate
 TradePlayerEnchantInset = {}
-TradePlayerEnchantInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+TradePlayerEnchantInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L99)
 --- child of TradePlayerItem7 (created in template PlayerTradeItemTemplate)
@@ -521,7 +521,7 @@ TradeFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 --- child of TradeFrame
 --- @class TradeFrame_TradePlayerInputMoneyInset : Frame, InsetFrameTemplate
 TradePlayerInputMoneyInset = {}
-TradePlayerInputMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+TradePlayerInputMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L6)
 --- child of TradePlayerInputMoneyFrame (created in template MoneyInputFrameTemplate)
@@ -550,7 +550,7 @@ TradePlayerInputMoneyFrame["copper"] = TradePlayerInputMoneyFrameCopper -- inher
 --- child of TradeFrame
 --- @class TradeFrame_TradeRecipientMoneyInset : Frame, InsetFrameTemplate
 TradeRecipientMoneyInset = {}
-TradeRecipientMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+TradeRecipientMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L1353)
 --- child of TradeRecipientMoneyBg (created in template ThinGoldEdgeTemplate)
@@ -596,7 +596,7 @@ TradeRecipientMoneyFrameGoldButton = {}
 --- child of TradeFrame
 --- @class TradeFrame_TradeRecipientMoneyFrame : Frame, SmallMoneyFrameTemplate
 TradeRecipientMoneyFrame = {}
-TradeRecipientMoneyFrame["small"] = _G["1"] -- inherited
+TradeRecipientMoneyFrame["small"] = 1 -- inherited
 TradeRecipientMoneyFrame["trialErrorButton"] = TradeRecipientMoneyFrameTrialErrorButton -- inherited
 TradeRecipientMoneyFrame["CopperButton"] = TradeRecipientMoneyFrameCopperButton -- inherited
 TradeRecipientMoneyFrame["SilverButton"] = TradeRecipientMoneyFrameSilverButton -- inherited
@@ -631,7 +631,7 @@ TradeFrameRecipientEnchantText = {}
 --- child of TradeFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 TradeFrameInset = {}
-TradeFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+TradeFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L877)
 --- child of TradeFrame (created in template ButtonFrameBaseTemplate)
@@ -654,5 +654,5 @@ TradeFrame["leftBorderBar"] = TradeRecipientLeftBorder
 TradeFrame["Inset"] = TradeFrameInset -- inherited
 TradeFrame["CloseButton"] = TradeFrameCloseButton -- inherited
 TradeFrame["Bg"] = TradeFrameBg -- inherited
-TradeFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+TradeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

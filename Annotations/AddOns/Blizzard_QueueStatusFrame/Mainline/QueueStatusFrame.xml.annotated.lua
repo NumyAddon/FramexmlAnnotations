@@ -200,5 +200,5 @@ QueueStatusButton["Eye"] = QueueStatusButtonIcon
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L401)
 --- @class QueueStatusFrame : Frame, TooltipBackdropTemplate, QueueStatusFrameMixin
 QueueStatusFrame = {}
-QueueStatusFrame["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+QueueStatusFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 

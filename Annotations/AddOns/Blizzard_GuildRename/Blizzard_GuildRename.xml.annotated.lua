@@ -88,7 +88,7 @@ GuildRenameFrameGoldButton = {}
 --- child of GuildRenameFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 GuildRenameFrameInset = {}
-GuildRenameFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+GuildRenameFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L877)
 --- child of GuildRenameFrame (created in template ButtonFrameBaseTemplate)
@@ -113,5 +113,5 @@ GuildRenameFrame = {}
 GuildRenameFrame["Inset"] = GuildRenameFrameInset -- inherited
 GuildRenameFrame["CloseButton"] = GuildRenameFrameCloseButton -- inherited
 GuildRenameFrame["Bg"] = GuildRenameFrameBg -- inherited
-GuildRenameFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+GuildRenameFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

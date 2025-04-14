@@ -131,7 +131,7 @@ GeneralDockManagerOverflowButton["list"] = DockManagerTemplateOverflowButtonList
 --- child of GeneralDockManager (created in template DockManagerTemplate)
 --- @type DockManagerTemplate_DockManagerTemplateScrollFrame
 GeneralDockManagerScrollFrame = {}
-GeneralDockManagerScrollFrame["dynTabSize"] = _G["1"]
+GeneralDockManagerScrollFrame["dynTabSize"] = 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L139)
 --- child of GeneralDockManager (created in template DockManagerTemplate)
@@ -348,7 +348,7 @@ ChatFrame1["ResizeButton"] = ChatFrame1ResizeButton -- inherited
 ChatFrame1["buttonFrame"] = ChatFrame1ButtonFrame -- inherited
 ChatFrame1["editBox"] = ChatFrame1EditBox -- inherited
 ChatFrame1["Background"] = ChatFrame1Background -- inherited
-ChatFrame1["system"] = _G["Enum.EditModeSystem.ChatFrame"] -- inherited
+ChatFrame1["system"] = Enum.EditModeSystem.ChatFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L667)
 --- @class ChatFrameMenuButton : DropdownButton, ChatFrameMenuButtonMixin

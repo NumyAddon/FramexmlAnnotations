@@ -120,7 +120,7 @@ CharacterFrameTab3 = {}
 --- child of CharacterFrame
 --- @class CharacterFrame_CharacterFrameInsetRight : Frame, InsetFrameTemplate
 CharacterFrameInsetRight = {}
-CharacterFrameInsetRight["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+CharacterFrameInsetRight["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L214)
 --- child of CharacterStatsPane
@@ -167,7 +167,7 @@ CharacterStatsPane = {}
 --- child of CharacterFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CharacterFrameInset = {}
-CharacterFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+CharacterFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CharacterFrame.xml#L877)
 --- child of CharacterFrame (created in template ButtonFrameBaseTemplate)
@@ -189,5 +189,5 @@ CharacterFrame["InsetRight"] = CharacterFrameInsetRight
 CharacterFrame["Inset"] = CharacterFrameInset -- inherited
 CharacterFrame["CloseButton"] = CharacterFrameCloseButton -- inherited
 CharacterFrame["Bg"] = CharacterFrameBg -- inherited
-CharacterFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+CharacterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

@@ -150,7 +150,7 @@ NamePlateDriverFrame = {}
 --- @class PersonalFriendlyBuffFrame : Frame, HorizontalLayoutFrame, PersonalFriendlyBuffContainerMixin
 --- @field spacing number # 4
 PersonalFriendlyBuffFrame = {}
-PersonalFriendlyBuffFrame["spacing"] = _G["4"]
+PersonalFriendlyBuffFrame["spacing"] = 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L387)
 --- Template
@@ -340,7 +340,7 @@ NamePlateTooltipTexture30 = {}
 NamePlateTooltip = {}
 NamePlateTooltip["supportsDataRefresh"] = true -- inherited
 NamePlateTooltip["StatusBar"] = NamePlateTooltipStatusBar -- inherited
-NamePlateTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+NamePlateTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 NamePlateTooltip["TextLeft1"] = NamePlateTooltipTextLeft1 -- inherited
 NamePlateTooltip["TextRight1"] = NamePlateTooltipTextRight1 -- inherited
 NamePlateTooltip["TextLeft2"] = NamePlateTooltipTextLeft2 -- inherited

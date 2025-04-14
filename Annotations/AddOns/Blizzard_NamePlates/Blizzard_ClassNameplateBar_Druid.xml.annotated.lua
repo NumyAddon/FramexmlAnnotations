@@ -4,10 +4,10 @@
 --- @class ClassNameplateBarFeralDruidFrame : Frame, DruidComboPointBarTemplate, ClassNameplateBarFrame, ClassNameplateBar, ClassNameplateBarFeralDruid
 --- @field scale string # "0.7"
 ClassNameplateBarFeralDruidFrame = {}
-ClassNameplateBarFeralDruidFrame["scale"] = _G["\"0.7\""]
-ClassNameplateBarFeralDruidFrame["powerToken"] = _G["\"COMBO_POINTS\""] -- inherited
-ClassNameplateBarFeralDruidFrame["maxUsablePoints"] = _G["5"] -- inherited
+ClassNameplateBarFeralDruidFrame["scale"] = "0.7"
+ClassNameplateBarFeralDruidFrame["powerToken"] = "COMBO_POINTS" -- inherited
+ClassNameplateBarFeralDruidFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarFeralDruidFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 ClassNameplateBarFeralDruidFrame["isManagedFrame"] = true -- inherited
-ClassNameplateBarFeralDruidFrame["scale"] = _G["\".75\""] -- inherited
+ClassNameplateBarFeralDruidFrame["scale"] = ".75" -- inherited
 

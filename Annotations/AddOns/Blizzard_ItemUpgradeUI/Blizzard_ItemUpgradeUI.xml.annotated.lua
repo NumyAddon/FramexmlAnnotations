@@ -277,7 +277,7 @@ ItemUpgradeFrameLeftItemPreviewFrameTexture30 = {}
 --- @field isUpgrade boolean # false
 ItemUpgradeFrameLeftItemPreviewFrame = {}
 ItemUpgradeFrameLeftItemPreviewFrame["isUpgrade"] = false
-ItemUpgradeFrameLeftItemPreviewFrame["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+ItemUpgradeFrameLeftItemPreviewFrame["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 ItemUpgradeFrameLeftItemPreviewFrame["TextLeft1"] = ItemUpgradeFrameLeftItemPreviewFrameTextLeft1 -- inherited
 ItemUpgradeFrameLeftItemPreviewFrame["TextRight1"] = ItemUpgradeFrameLeftItemPreviewFrameTextRight1 -- inherited
 ItemUpgradeFrameLeftItemPreviewFrame["TextLeft2"] = ItemUpgradeFrameLeftItemPreviewFrameTextLeft2 -- inherited
@@ -459,7 +459,7 @@ ItemUpgradeFrameRightItemPreviewFrameTexture30 = {}
 --- @field isUpgrade boolean # true
 ItemUpgradeFrameRightItemPreviewFrame = {}
 ItemUpgradeFrameRightItemPreviewFrame["isUpgrade"] = true
-ItemUpgradeFrameRightItemPreviewFrame["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+ItemUpgradeFrameRightItemPreviewFrame["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 ItemUpgradeFrameRightItemPreviewFrame["TextLeft1"] = ItemUpgradeFrameRightItemPreviewFrameTextLeft1 -- inherited
 ItemUpgradeFrameRightItemPreviewFrame["TextRight1"] = ItemUpgradeFrameRightItemPreviewFrameTextRight1 -- inherited
 ItemUpgradeFrameRightItemPreviewFrame["TextLeft2"] = ItemUpgradeFrameRightItemPreviewFrameTextLeft2 -- inherited
@@ -639,7 +639,7 @@ ItemUpgradeFrameItemHoverPreviewFrameTexture30 = {}
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_ItemUpgradeFrameItemHoverPreviewFrame : GameTooltip, ItemUpgradeTooltipTemplate
 ItemUpgradeFrameItemHoverPreviewFrame = {}
-ItemUpgradeFrameItemHoverPreviewFrame["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+ItemUpgradeFrameItemHoverPreviewFrame["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 ItemUpgradeFrameItemHoverPreviewFrame["TextLeft1"] = ItemUpgradeFrameItemHoverPreviewFrameTextLeft1 -- inherited
 ItemUpgradeFrameItemHoverPreviewFrame["TextRight1"] = ItemUpgradeFrameItemHoverPreviewFrameTextRight1 -- inherited
 ItemUpgradeFrameItemHoverPreviewFrame["TextLeft2"] = ItemUpgradeFrameItemHoverPreviewFrameTextLeft2 -- inherited
@@ -774,5 +774,5 @@ ItemUpgradeFrame["ItemHoverPreviewFrame"] = ItemUpgradeFrameItemHoverPreviewFram
 ItemUpgradeFrame["PlayerCurrenciesBorder"] = ItemUpgradeFramePlayerCurrenciesBorder
 ItemUpgradeFrame["CloseButton"] = ItemUpgradeFrameCloseButton -- inherited
 ItemUpgradeFrame["Bg"] = ItemUpgradeFrameBg -- inherited
-ItemUpgradeFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ItemUpgradeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

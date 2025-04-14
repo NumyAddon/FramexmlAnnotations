@@ -23,7 +23,7 @@
 --- @field hidePowersSound any # SOUNDKIT.UI_PLAYER_CHOICE_JAILERS_TOWER_HIDE_POWERS
 --- @field RerollButton TorghastPlayerChoiceToggleButton_RerollButton
 TorghastPlayerChoiceToggleButton = {}
-TorghastPlayerChoiceToggleButton["hidePowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHOICE_JAILERS_TOWER_HIDE_POWERS"]
+TorghastPlayerChoiceToggleButton["hidePowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_JAILERS_TOWER_HIDE_POWERS
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L58)
 --- @class CypherPlayerChoiceToggleButton : Button, PlayerChoiceToggleButtonTemplate, CypherPlayerChoiceToggleButtonMixin
@@ -33,7 +33,7 @@ TorghastPlayerChoiceToggleButton["hidePowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHO
 --- @field pendingPieces table<number, Texture>
 --- @field pendingAnimations table<number, AnimationGroup>
 CypherPlayerChoiceToggleButton = {}
-CypherPlayerChoiceToggleButton["hidePowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHOICE_CYPHER_HIDE_POWERS"]
+CypherPlayerChoiceToggleButton["hidePowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_CYPHER_HIDE_POWERS
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L120)
 --- child of GenericPlayerChoiceToggleButton
@@ -46,5 +46,5 @@ CypherPlayerChoiceToggleButton["hidePowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHOIC
 --- @field ShineMask MaskTexture
 --- @field HighlightAnimation GenericPlayerChoiceToggleButton_HighlightAnimation
 GenericPlayerChoiceToggleButton = {}
-GenericPlayerChoiceToggleButton["hidePowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHOICE_GENERIC_HIDE_POWERS"]
+GenericPlayerChoiceToggleButton["hidePowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_GENERIC_HIDE_POWERS
 

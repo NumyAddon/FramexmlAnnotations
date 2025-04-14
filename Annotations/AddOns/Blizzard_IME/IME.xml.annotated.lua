@@ -62,6 +62,6 @@
 --- @field selection Texture
 --- @field reading FontString
 IMECandidatesFrame = {}
-IMECandidatesFrame["backdropColorAlpha"] = _G["0"] -- inherited
-IMECandidatesFrame["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+IMECandidatesFrame["backdropColorAlpha"] = 0 -- inherited
+IMECandidatesFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 

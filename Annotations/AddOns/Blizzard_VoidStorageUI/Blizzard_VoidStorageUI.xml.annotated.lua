@@ -49,7 +49,7 @@ VoidStorageDepositButton1["searchOverlay"] = VoidStorageDepositButton1SearchOver
 --- child of VoidStorageContentFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageDepositFrame : Frame, VoidStorageInsetFrameTemplate
 VoidStorageDepositFrame = {}
-VoidStorageDepositFrame["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+VoidStorageDepositFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L102)
 --- child of VoidStorageWithdrawButton1 (created in template VoidStorageItemButtonTemplate)
@@ -77,7 +77,7 @@ VoidStorageWithdrawButton1["searchOverlay"] = VoidStorageWithdrawButton1SearchOv
 --- child of VoidStorageContentFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageWithdrawFrame : Frame, VoidStorageInsetFrameTemplate
 VoidStorageWithdrawFrame = {}
-VoidStorageWithdrawFrame["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+VoidStorageWithdrawFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L102)
 --- child of VoidStorageStorageButton1 (created in template VoidStorageItemButtonTemplate)
@@ -125,7 +125,7 @@ VoidStorageStorageFrameLine4 = {}
 --- child of VoidStorageContentFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageStorageFrame : Frame, VoidStorageInsetFrameTemplate
 VoidStorageStorageFrame = {}
-VoidStorageStorageFrame["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+VoidStorageStorageFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L376)
 --- child of VoidStorageCostFrame
@@ -157,7 +157,7 @@ VoidStorageMoneyFrameGoldButton = {}
 --- child of VoidStorageCostFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageCostFrame_VoidStorageMoneyFrame : Frame, SmallMoneyFrameTemplate
 VoidStorageMoneyFrame = {}
-VoidStorageMoneyFrame["small"] = _G["1"] -- inherited
+VoidStorageMoneyFrame["small"] = 1 -- inherited
 VoidStorageMoneyFrame["trialErrorButton"] = VoidStorageMoneyFrameTrialErrorButton -- inherited
 VoidStorageMoneyFrame["CopperButton"] = VoidStorageMoneyFrameCopperButton -- inherited
 VoidStorageMoneyFrame["SilverButton"] = VoidStorageMoneyFrameSilverButton -- inherited
@@ -167,7 +167,7 @@ VoidStorageMoneyFrame["GoldButton"] = VoidStorageMoneyFrameGoldButton -- inherit
 --- child of VoidStorageContentFrame
 --- @class VoidStorageFrame_VoidStorageContentFrame_VoidStorageCostFrame : Frame, VoidStorageInsetFrameTemplate
 VoidStorageCostFrame = {}
-VoidStorageCostFrame["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+VoidStorageCostFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L250)
 --- child of VoidStorageFrame
@@ -214,7 +214,7 @@ VoidStoragePurchaseMoneyFrameGoldButton = {}
 --- @class VoidStorageFrame_VoidStorageBorderFrame_VoidStoragePurchaseFrame_VoidStoragePurchaseMoneyFrame : Frame, SmallMoneyFrameTemplate
 --- @field PrefixText VoidStorageFrame_VoidStorageBorderFrame_VoidStoragePurchaseFrame_VoidStoragePurchaseMoneyFrame_PrefixText
 VoidStoragePurchaseMoneyFrame = {}
-VoidStoragePurchaseMoneyFrame["small"] = _G["1"] -- inherited
+VoidStoragePurchaseMoneyFrame["small"] = 1 -- inherited
 VoidStoragePurchaseMoneyFrame["trialErrorButton"] = VoidStoragePurchaseMoneyFrameTrialErrorButton -- inherited
 VoidStoragePurchaseMoneyFrame["CopperButton"] = VoidStoragePurchaseMoneyFrameCopperButton -- inherited
 VoidStoragePurchaseMoneyFrame["SilverButton"] = VoidStoragePurchaseMoneyFrameSilverButton -- inherited

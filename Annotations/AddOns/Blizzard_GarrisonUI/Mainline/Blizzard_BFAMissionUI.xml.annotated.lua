@@ -209,5 +209,5 @@ BFAMissionFrame["Tab1"] = BFAMissionFrameTab1
 BFAMissionFrame["Tab2"] = BFAMissionFrameTab2
 BFAMissionFrame["Tab3"] = BFAMissionFrameTab3
 BFAMissionFrame["FollowerList"] = BFAMissionFrameFollowers
-BFAMissionFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_8_0_GarrisonFollower"]
+BFAMissionFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_8_0_GarrisonFollower
 

@@ -21,14 +21,14 @@
 --- @class TabardFrame_TabardModel_TabardCharacterModelRotateLeftButton : Button, TabardModelControlRotateButtonMixin
 --- @field rotateDirection string # "left"
 TabardCharacterModelRotateLeftButton = {}
-TabardCharacterModelRotateLeftButton["rotateDirection"] = _G["\"left\""]
+TabardCharacterModelRotateLeftButton["rotateDirection"] = "left"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L214)
 --- child of TabardModel
 --- @class TabardFrame_TabardModel_TabardCharacterModelRotateRightButton : Button, TabardModelControlRotateButtonMixin
 --- @field rotateDirection string # "right"
 TabardCharacterModelRotateRightButton = {}
-TabardCharacterModelRotateRightButton["rotateDirection"] = _G["\"right\""]
+TabardCharacterModelRotateRightButton["rotateDirection"] = "right"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L195)
 --- child of TabardFrame
@@ -64,7 +64,7 @@ TabardFrameCostMoneyFrameGoldButton = {}
 --- child of TabardFrameCostFrame
 --- @class TabardFrame_TabardFrameCostFrame_TabardFrameCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 TabardFrameCostMoneyFrame = {}
-TabardFrameCostMoneyFrame["small"] = _G["1"] -- inherited
+TabardFrameCostMoneyFrame["small"] = 1 -- inherited
 TabardFrameCostMoneyFrame["trialErrorButton"] = TabardFrameCostMoneyFrameTrialErrorButton -- inherited
 TabardFrameCostMoneyFrame["CopperButton"] = TabardFrameCostMoneyFrameCopperButton -- inherited
 TabardFrameCostMoneyFrame["SilverButton"] = TabardFrameCostMoneyFrameSilverButton -- inherited
@@ -76,7 +76,7 @@ TabardFrameCostMoneyFrame["GoldButton"] = TabardFrameCostMoneyFrameGoldButton --
 --- @field backdropBorderColor any # DARKGRAY_COLOR
 TabardFrameCostFrame = {}
 TabardFrameCostFrame["backdropBorderColor"] = DARKGRAY_COLOR
-TabardFrameCostFrame["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+TabardFrameCostFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L37)
 --- child of TabardFrameCustomization1 (created in template TabardFrameCustomizeTemplate)
@@ -267,7 +267,7 @@ TabardFrameCustomizationFrame = {}
 --- child of TabardFrame
 --- @class TabardFrame_TabardFrameMoneyInset : Frame, InsetFrameTemplate
 TabardFrameMoneyInset = {}
-TabardFrameMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+TabardFrameMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1353)
 --- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
@@ -313,7 +313,7 @@ TabardFrameMoneyFrameGoldButton = {}
 --- child of TabardFrame
 --- @class TabardFrame_TabardFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 TabardFrameMoneyFrame = {}
-TabardFrameMoneyFrame["small"] = _G["1"] -- inherited
+TabardFrameMoneyFrame["small"] = 1 -- inherited
 TabardFrameMoneyFrame["trialErrorButton"] = TabardFrameMoneyFrameTrialErrorButton -- inherited
 TabardFrameMoneyFrame["CopperButton"] = TabardFrameMoneyFrameCopperButton -- inherited
 TabardFrameMoneyFrame["SilverButton"] = TabardFrameMoneyFrameSilverButton -- inherited
@@ -420,7 +420,7 @@ TabardFrameGreetingText = {}
 --- child of TabardFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 TabardFrameInset = {}
-TabardFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+TabardFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L877)
 --- child of TabardFrame (created in template ButtonFrameBaseTemplate)
@@ -438,5 +438,5 @@ TabardFrame = {}
 TabardFrame["Inset"] = TabardFrameInset -- inherited
 TabardFrame["CloseButton"] = TabardFrameCloseButton -- inherited
 TabardFrame["Bg"] = TabardFrameBg -- inherited
-TabardFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+TabardFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

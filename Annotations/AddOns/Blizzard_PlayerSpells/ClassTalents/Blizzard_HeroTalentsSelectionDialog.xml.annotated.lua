@@ -36,10 +36,10 @@ HeroTalentsSelectionDialogTopTileStreaks = {}
 --- @field DisabledOverlay HeroTalentsSelectionDialog_DisabledOverlay
 --- @field Background Texture
 HeroTalentsSelectionDialog = {}
-HeroTalentsSelectionDialog["checkFitExtraWidth"] = _G["0"]
+HeroTalentsSelectionDialog["checkFitExtraWidth"] = 0
 HeroTalentsSelectionDialog["Bg"] = HeroTalentsSelectionDialogBg -- inherited
 HeroTalentsSelectionDialog["TopTileStreaks"] = HeroTalentsSelectionDialogTopTileStreaks -- inherited
-HeroTalentsSelectionDialog["layoutType"] = _G["\"ButtonFrameTemplateNoPortrait\""] -- inherited
+HeroTalentsSelectionDialog["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L159)
 --- child of HeroTalentSpecFXTemplate

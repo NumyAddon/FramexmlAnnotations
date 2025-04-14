@@ -43,5 +43,5 @@
 --- @field CloseButton UIWidgetCenterDisplayFrame_CloseButton
 --- @field Background UIWidgetCenterDisplayFrame_Background
 UIWidgetCenterDisplayFrame = {}
-UIWidgetCenterDisplayFrame["layoutType"] = _G["\"Dialog\""]
+UIWidgetCenterDisplayFrame["layoutType"] = "Dialog"
 

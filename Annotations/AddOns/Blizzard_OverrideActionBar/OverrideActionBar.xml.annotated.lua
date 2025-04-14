@@ -208,7 +208,7 @@ OverrideActionBarButton1NormalTexture = {}
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton1 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton1 = {}
-OverrideActionBarButton1["popupDirection"] = _G["\"DOWN\""] -- inherited
+OverrideActionBarButton1["popupDirection"] = "DOWN" -- inherited
 OverrideActionBarButton1["cooldown"] = OverrideActionBarButton1Cooldown -- inherited
 OverrideActionBarButton1["icon"] = OverrideActionBarButton1Icon -- inherited
 OverrideActionBarButton1["Flash"] = OverrideActionBarButton1Flash -- inherited
@@ -250,7 +250,7 @@ OverrideActionBarButton2NormalTexture = {}
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton2 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton2 = {}
-OverrideActionBarButton2["popupDirection"] = _G["\"DOWN\""] -- inherited
+OverrideActionBarButton2["popupDirection"] = "DOWN" -- inherited
 OverrideActionBarButton2["cooldown"] = OverrideActionBarButton2Cooldown -- inherited
 OverrideActionBarButton2["icon"] = OverrideActionBarButton2Icon -- inherited
 OverrideActionBarButton2["Flash"] = OverrideActionBarButton2Flash -- inherited
@@ -292,7 +292,7 @@ OverrideActionBarButton3NormalTexture = {}
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton3 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton3 = {}
-OverrideActionBarButton3["popupDirection"] = _G["\"DOWN\""] -- inherited
+OverrideActionBarButton3["popupDirection"] = "DOWN" -- inherited
 OverrideActionBarButton3["cooldown"] = OverrideActionBarButton3Cooldown -- inherited
 OverrideActionBarButton3["icon"] = OverrideActionBarButton3Icon -- inherited
 OverrideActionBarButton3["Flash"] = OverrideActionBarButton3Flash -- inherited
@@ -334,7 +334,7 @@ OverrideActionBarButton4NormalTexture = {}
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton4 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton4 = {}
-OverrideActionBarButton4["popupDirection"] = _G["\"DOWN\""] -- inherited
+OverrideActionBarButton4["popupDirection"] = "DOWN" -- inherited
 OverrideActionBarButton4["cooldown"] = OverrideActionBarButton4Cooldown -- inherited
 OverrideActionBarButton4["icon"] = OverrideActionBarButton4Icon -- inherited
 OverrideActionBarButton4["Flash"] = OverrideActionBarButton4Flash -- inherited
@@ -376,7 +376,7 @@ OverrideActionBarButton5NormalTexture = {}
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton5 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton5 = {}
-OverrideActionBarButton5["popupDirection"] = _G["\"DOWN\""] -- inherited
+OverrideActionBarButton5["popupDirection"] = "DOWN" -- inherited
 OverrideActionBarButton5["cooldown"] = OverrideActionBarButton5Cooldown -- inherited
 OverrideActionBarButton5["icon"] = OverrideActionBarButton5Icon -- inherited
 OverrideActionBarButton5["Flash"] = OverrideActionBarButton5Flash -- inherited
@@ -418,7 +418,7 @@ OverrideActionBarButton6NormalTexture = {}
 --- child of OverrideActionBar
 --- @class OverrideActionBar_OverrideActionBarButton6 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton6 = {}
-OverrideActionBarButton6["popupDirection"] = _G["\"DOWN\""] -- inherited
+OverrideActionBarButton6["popupDirection"] = "DOWN" -- inherited
 OverrideActionBarButton6["cooldown"] = OverrideActionBarButton6Cooldown -- inherited
 OverrideActionBarButton6["icon"] = OverrideActionBarButton6Icon -- inherited
 OverrideActionBarButton6["Flash"] = OverrideActionBarButton6Flash -- inherited

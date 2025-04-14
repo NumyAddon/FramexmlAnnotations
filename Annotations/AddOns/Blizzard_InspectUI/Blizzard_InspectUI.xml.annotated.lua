@@ -19,7 +19,7 @@ InspectFrameTab3 = {}
 --- child of InspectFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 InspectFrameInset = {}
-InspectFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+InspectFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L877)
 --- child of InspectFrame (created in template ButtonFrameBaseTemplate)
@@ -38,5 +38,5 @@ InspectFrame = {}
 InspectFrame["Inset"] = InspectFrameInset -- inherited
 InspectFrame["CloseButton"] = InspectFrameCloseButton -- inherited
 InspectFrame["Bg"] = InspectFrameBg -- inherited
-InspectFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+InspectFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

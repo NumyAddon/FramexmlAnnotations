@@ -62,5 +62,5 @@ CollectionsJournal["WardrobeTab"] = CollectionsJournalTab5
 CollectionsJournal["WarbandScenesTab"] = CollectionsJournalTab6
 CollectionsJournal["CloseButton"] = CollectionsJournalCloseButton -- inherited
 CollectionsJournal["Bg"] = CollectionsJournalBg -- inherited
-CollectionsJournal["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+CollectionsJournal["layoutType"] = "PortraitFrameTemplate" -- inherited
 

@@ -169,10 +169,10 @@
 --- @class PlayerCastingBarFrame : StatusBar, CastingBarFrameTemplate, UIParentBottomManagedFrameTemplate, EditModeCastBarSystemTemplate, PlayerCastingBarMixin
 --- @field layoutIndex number # 2
 PlayerCastingBarFrame = {}
-PlayerCastingBarFrame["layoutIndex"] = _G["2"]
+PlayerCastingBarFrame["layoutIndex"] = 2
 PlayerCastingBarFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 PlayerCastingBarFrame["isManagedFrame"] = true -- inherited
-PlayerCastingBarFrame["system"] = _G["Enum.EditModeSystem.CastBar"] -- inherited
+PlayerCastingBarFrame["system"] = Enum.EditModeSystem.CastBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L498)
 --- @class OverlayPlayerCastingBarFrame : StatusBar, CastingBarFrameTemplate, OverlayPlayerCastingBarMixin

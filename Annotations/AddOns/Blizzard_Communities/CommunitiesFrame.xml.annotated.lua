@@ -446,7 +446,7 @@ CommunitiesFrameGuildDetailsFrame["News"] = CommunitiesFrameGuildDetailsFrameNew
 --- child of CommunitiesFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CommunitiesFrameInset = {}
-CommunitiesFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+CommunitiesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L877)
 --- child of CommunitiesFrame (created in template ButtonFrameBaseTemplate)
@@ -504,7 +504,7 @@ CommunitiesFrame["CommunitiesList"] = CommunitiesFrameCommunitiesList
 CommunitiesFrame["GuildFinderFrame"] = ClubFinderGuildFinderFrame
 CommunitiesFrame["CommunityFinderFrame"] = ClubFinderCommunityAndGuildFinderFrame
 CommunitiesFrame["GuildDetailsFrame"] = CommunitiesFrameGuildDetailsFrame
-CommunitiesFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+CommunitiesFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 CommunitiesFrame["Inset"] = CommunitiesFrameInset -- inherited
 CommunitiesFrame["CloseButton"] = CommunitiesFrameCloseButton -- inherited
 CommunitiesFrame["Bg"] = CommunitiesFrameBg -- inherited

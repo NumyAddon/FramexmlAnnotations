@@ -304,7 +304,7 @@ FriendsTabHeader["StatusDropdown"] = FriendsFrameStatusDropdown
 FriendsTabHeader["Tab1"] = FriendsTabHeaderTab1
 FriendsTabHeader["Tab2"] = FriendsTabHeaderTab2
 FriendsTabHeader["Tab3"] = FriendsTabHeaderTab3
-FriendsTabHeader["maxTabWidth"] = _G["110"]
+FriendsTabHeader["maxTabWidth"] = 110
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L763)
 --- child of FriendsListFrame
@@ -400,7 +400,7 @@ WhoFrameTotals = {}
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameListInset : Frame, InsetFrameTemplate
 WhoFrameListInset = {}
-WhoFrameListInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+WhoFrameListInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L445)
 --- child of WhoFrameColumnHeader1 (created in template WhoFrameColumnHeaderTemplate)
@@ -546,7 +546,7 @@ WhoFrameWhoButton["fitTextCanWidthDecrease"] = true -- inherited
 --- child of WhoFrame
 --- @class FriendsFrame_WhoFrame_WhoFrameEditBoxInset : Frame, InsetFrameTemplate
 WhoFrameEditBoxInset = {}
-WhoFrameEditBoxInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+WhoFrameEditBoxInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1002)
 --- child of WhoFrame
@@ -682,7 +682,7 @@ FriendsTooltipGameAccountMany = {}
 --- child of FriendsFrame
 --- @class FriendsFrame_FriendsTooltip : Frame, TooltipBackdropTemplate
 FriendsTooltip = {}
-FriendsTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+FriendsTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L498)
 --- child of FriendsFrame
@@ -698,7 +698,7 @@ FriendsFrameTitleText = {}
 --- child of FriendsFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 FriendsFrameInset = {}
-FriendsFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+FriendsFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L877)
 --- child of FriendsFrame (created in template ButtonFrameBaseTemplate)
@@ -719,7 +719,7 @@ FriendsFrame["FriendsTabHeader"] = FriendsTabHeader
 FriendsFrame["Inset"] = FriendsFrameInset -- inherited
 FriendsFrame["CloseButton"] = FriendsFrameCloseButton -- inherited
 FriendsFrame["Bg"] = FriendsFrameBg -- inherited
-FriendsFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+FriendsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L1222)
 --- child of AddFriendFrame

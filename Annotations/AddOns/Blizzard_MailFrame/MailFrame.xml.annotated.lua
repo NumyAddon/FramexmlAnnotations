@@ -355,7 +355,7 @@ SendStationeryBackgroundRight = {}
 --- @class MailFrame_SendMailFrame_SendMailScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 10
 SendMailScrollFrame = {}
-SendMailScrollFrame["scrollBarX"] = _G["10"]
+SendMailScrollFrame["scrollBarX"] = 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L574)
 --- child of SendMailNameEditBox
@@ -401,7 +401,7 @@ SendMailCostMoneyFrameGoldButton = {}
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_SendMailCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 SendMailCostMoneyFrame = {}
-SendMailCostMoneyFrame["small"] = _G["1"] -- inherited
+SendMailCostMoneyFrame["small"] = 1 -- inherited
 SendMailCostMoneyFrame["trialErrorButton"] = SendMailCostMoneyFrameTrialErrorButton -- inherited
 SendMailCostMoneyFrame["CopperButton"] = SendMailCostMoneyFrameCopperButton -- inherited
 SendMailCostMoneyFrame["SilverButton"] = SendMailCostMoneyFrameSilverButton -- inherited
@@ -662,7 +662,7 @@ SendMailMoneyButton = {}
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_SendMailMoneyInset : Frame, InsetFrameTemplate
 SendMailMoneyInset = {}
-SendMailMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+SendMailMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1353)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
@@ -708,7 +708,7 @@ SendMailMoneyFrameGoldButton = {}
 --- child of SendMailFrame
 --- @class MailFrame_SendMailFrame_SendMailMoneyFrame : Frame, SmallMoneyFrameTemplate
 SendMailMoneyFrame = {}
-SendMailMoneyFrame["small"] = _G["1"] -- inherited
+SendMailMoneyFrame["small"] = 1 -- inherited
 SendMailMoneyFrame["trialErrorButton"] = SendMailMoneyFrameTrialErrorButton -- inherited
 SendMailMoneyFrame["CopperButton"] = SendMailMoneyFrameCopperButton -- inherited
 SendMailMoneyFrame["SilverButton"] = SendMailMoneyFrameSilverButton -- inherited
@@ -781,7 +781,7 @@ MailFrameTrialError = {}
 --- child of MailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MailFrameInset = {}
-MailFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+MailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L877)
 --- child of MailFrame (created in template ButtonFrameBaseTemplate)
@@ -802,7 +802,7 @@ MailFrame["trialError"] = MailFrameTrialError
 MailFrame["Inset"] = MailFrameInset -- inherited
 MailFrame["CloseButton"] = MailFrameCloseButton -- inherited
 MailFrame["Bg"] = MailFrameBg -- inherited
-MailFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+MailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L929)
 --- child of OpenMailFrame
@@ -903,7 +903,7 @@ OpenMailTransactionAmountMoneyFrameGoldButton = {}
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailTransactionAmountMoneyFrame : Frame, SmallMoneyFrameTemplate
 OpenMailTransactionAmountMoneyFrame = {}
-OpenMailTransactionAmountMoneyFrame["small"] = _G["1"] -- inherited
+OpenMailTransactionAmountMoneyFrame["small"] = 1 -- inherited
 OpenMailTransactionAmountMoneyFrame["trialErrorButton"] = OpenMailTransactionAmountMoneyFrameTrialErrorButton -- inherited
 OpenMailTransactionAmountMoneyFrame["CopperButton"] = OpenMailTransactionAmountMoneyFrameCopperButton -- inherited
 OpenMailTransactionAmountMoneyFrame["SilverButton"] = OpenMailTransactionAmountMoneyFrameSilverButton -- inherited
@@ -933,7 +933,7 @@ OpenMailDepositMoneyFrameGoldButton = {}
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailDepositMoneyFrame : Frame, SmallMoneyFrameTemplate
 OpenMailDepositMoneyFrame = {}
-OpenMailDepositMoneyFrame["small"] = _G["1"] -- inherited
+OpenMailDepositMoneyFrame["small"] = 1 -- inherited
 OpenMailDepositMoneyFrame["trialErrorButton"] = OpenMailDepositMoneyFrameTrialErrorButton -- inherited
 OpenMailDepositMoneyFrame["CopperButton"] = OpenMailDepositMoneyFrameCopperButton -- inherited
 OpenMailDepositMoneyFrame["SilverButton"] = OpenMailDepositMoneyFrameSilverButton -- inherited
@@ -963,7 +963,7 @@ OpenMailHouseCutMoneyFrameGoldButton = {}
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailHouseCutMoneyFrame : Frame, SmallMoneyFrameTemplate
 OpenMailHouseCutMoneyFrame = {}
-OpenMailHouseCutMoneyFrame["small"] = _G["1"] -- inherited
+OpenMailHouseCutMoneyFrame["small"] = 1 -- inherited
 OpenMailHouseCutMoneyFrame["trialErrorButton"] = OpenMailHouseCutMoneyFrameTrialErrorButton -- inherited
 OpenMailHouseCutMoneyFrame["CopperButton"] = OpenMailHouseCutMoneyFrameCopperButton -- inherited
 OpenMailHouseCutMoneyFrame["SilverButton"] = OpenMailHouseCutMoneyFrameSilverButton -- inherited
@@ -998,7 +998,7 @@ OpenMailSalePriceMoneyFrameGoldButton = {}
 --- @class OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailSalePriceMoneyFrame : Frame, SmallMoneyFrameTemplate
 --- @field Count OpenMailFrame_OpenMailScrollFrame_OpenMailScrollChildFrame_OpenMailInvoiceFrame_OpenMailSalePriceMoneyFrame_Count
 OpenMailSalePriceMoneyFrame = {}
-OpenMailSalePriceMoneyFrame["small"] = _G["1"] -- inherited
+OpenMailSalePriceMoneyFrame["small"] = 1 -- inherited
 OpenMailSalePriceMoneyFrame["trialErrorButton"] = OpenMailSalePriceMoneyFrameTrialErrorButton -- inherited
 OpenMailSalePriceMoneyFrame["CopperButton"] = OpenMailSalePriceMoneyFrameCopperButton -- inherited
 OpenMailSalePriceMoneyFrame["SilverButton"] = OpenMailSalePriceMoneyFrameSilverButton -- inherited
@@ -1074,7 +1074,7 @@ OpenStationeryBackgroundRight = {}
 --- @class OpenMailFrame_OpenMailScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 10
 OpenMailScrollFrame = {}
-OpenMailScrollFrame["scrollBarX"] = _G["10"]
+OpenMailScrollFrame["scrollBarX"] = 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1232)
 --- child of OpenMailFrame
@@ -1218,7 +1218,7 @@ OpenMailHorizontalBarLeft = {}
 --- child of OpenMailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 OpenMailFrameInset = {}
-OpenMailFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+OpenMailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L877)
 --- child of OpenMailFrame (created in template ButtonFrameBaseTemplate)
@@ -1237,5 +1237,5 @@ OpenMailFrame = {}
 OpenMailFrame["Inset"] = OpenMailFrameInset -- inherited
 OpenMailFrame["CloseButton"] = OpenMailFrameCloseButton -- inherited
 OpenMailFrame["Bg"] = OpenMailFrameBg -- inherited
-OpenMailFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+OpenMailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

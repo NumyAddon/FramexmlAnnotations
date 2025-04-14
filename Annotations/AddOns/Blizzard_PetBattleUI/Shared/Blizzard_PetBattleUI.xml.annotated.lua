@@ -723,12 +723,12 @@ PetBattleFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Shared/Blizzard_PetBattleUI.xml#L1590)
 --- @class PetBattlePrimaryUnitTooltip : Frame, PetBattleUnitTooltipTemplate
 PetBattlePrimaryUnitTooltip = {}
-PetBattlePrimaryUnitTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+PetBattlePrimaryUnitTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Shared/Blizzard_PetBattleUI.xml#L1591)
 --- @class PetBattlePrimaryAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 PetBattlePrimaryAbilityTooltip = {}
-PetBattlePrimaryAbilityTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+PetBattlePrimaryAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PetBattleUI/Shared/Blizzard_PetBattleUI.xml#L1609)
 --- child of StartSplashTexture

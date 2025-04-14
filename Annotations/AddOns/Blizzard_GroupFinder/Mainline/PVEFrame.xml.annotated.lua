@@ -16,7 +16,7 @@
 --- child of PVEFrame
 --- @class PVEFrame_PVEFrameLeftInset : Frame, InsetFrameTemplate
 PVEFrameLeftInset = {}
-PVEFrameLeftInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+PVEFrameLeftInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L154)
 --- child of PVEFrame
@@ -234,5 +234,5 @@ PVEFrame["tab3"] = PVEFrameTab3
 PVEFrame["tab4"] = PVEFrameTab4
 PVEFrame["CloseButton"] = PVEFrameCloseButton -- inherited
 PVEFrame["Bg"] = PVEFrameBg -- inherited
-PVEFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+PVEFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

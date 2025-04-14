@@ -76,21 +76,21 @@ PVPFramePopup["timer"] = PVPFramePopupTimer
 --- @class PVPRoleCheckPopup_PVPRoleCheckPopupRoleButtonTank : Button, LFGRoleButtonTemplate
 --- @field role string # "TANK"
 PVPRoleCheckPopupRoleButtonTank = {}
-PVPRoleCheckPopupRoleButtonTank["role"] = _G["\"TANK\""]
+PVPRoleCheckPopupRoleButtonTank["role"] = "TANK"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L130)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopup_PVPRoleCheckPopupRoleButtonHealer : Button, LFGRoleButtonTemplate
 --- @field role string # "HEALER"
 PVPRoleCheckPopupRoleButtonHealer = {}
-PVPRoleCheckPopupRoleButtonHealer["role"] = _G["\"HEALER\""]
+PVPRoleCheckPopupRoleButtonHealer["role"] = "HEALER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L145)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopup_PVPRoleCheckPopupRoleButtonDPS : Button, LFGRoleButtonTemplate
 --- @field role string # "DAMAGER"
 PVPRoleCheckPopupRoleButtonDPS = {}
-PVPRoleCheckPopupRoleButtonDPS["role"] = _G["\"DAMAGER\""]
+PVPRoleCheckPopupRoleButtonDPS["role"] = "DAMAGER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L160)
 --- child of PVPRoleCheckPopup

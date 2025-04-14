@@ -181,7 +181,7 @@ PerksProgramTooltipTexture30 = {}
 PerksProgramTooltip = {}
 PerksProgramTooltip["supportsDataRefresh"] = true -- inherited
 PerksProgramTooltip["StatusBar"] = PerksProgramTooltipStatusBar -- inherited
-PerksProgramTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+PerksProgramTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 PerksProgramTooltip["TextLeft1"] = PerksProgramTooltipTextLeft1 -- inherited
 PerksProgramTooltip["TextRight1"] = PerksProgramTooltipTextRight1 -- inherited
 PerksProgramTooltip["TextLeft2"] = PerksProgramTooltipTextLeft2 -- inherited
@@ -456,5 +456,5 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- @field ThemeContainer PerksProgramFrame_ThemeContainer
 PerksProgramFrame = {}
 PerksProgramFrame["PerksProgramTooltip"] = PerksProgramTooltip
-PerksProgramFrame["maxScale"] = _G["0.75"]
+PerksProgramFrame["maxScale"] = 0.75
 

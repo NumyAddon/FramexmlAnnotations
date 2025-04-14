@@ -679,8 +679,8 @@ LFGListEntryCreationActivityDropdown = {}
 --- @field maxLetters number # 255
 --- @field LockButton LFGListFrame_EntryCreation_LFGListCreationDescription_LockButton
 LFGListCreationDescription = {}
-LFGListCreationDescription["maxLetters"] = _G["255"]
-LFGListCreationDescription["maxLetters"] = _G["0"] -- inherited
+LFGListCreationDescription["maxLetters"] = 255
+LFGListCreationDescription["maxLetters"] = 0 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1769)
 --- child of LFGListFrame_EntryCreation
@@ -810,8 +810,8 @@ LFGListFrame = {}
 --- @class LFGListApplicationDialog_LFGListApplicationDialogDescription : ScrollFrame, InputScrollFrameTemplate
 --- @field maxLetters number # 63
 LFGListApplicationDialogDescription = {}
-LFGListApplicationDialogDescription["maxLetters"] = _G["63"]
-LFGListApplicationDialogDescription["maxLetters"] = _G["0"] -- inherited
+LFGListApplicationDialogDescription["maxLetters"] = 63
+LFGListApplicationDialogDescription["maxLetters"] = 0 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1965)
 --- child of LFGListApplicationDialog

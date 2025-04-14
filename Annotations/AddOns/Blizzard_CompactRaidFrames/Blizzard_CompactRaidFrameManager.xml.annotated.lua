@@ -102,35 +102,35 @@ CompactRaidFrameManagerDisplayFrameFilterOptions["filterRoleDamager"] = CompactR
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_TankMarkerCheckButton : Frame, CRFManagerRoleMarkerCheckTemplate
 --- @field id number # 0
 _G["$TankMarkerCheckButton"] = {}
-_G["$TankMarkerCheckButton"]["id"] = _G["0"]
+_G["$TankMarkerCheckButton"]["id"] = 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L267)
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_HealerMarkerCheckButton : Frame, CRFManagerRoleMarkerCheckTemplate
 --- @field id number # 1
 _G["$HealerMarkerCheckButton"] = {}
-_G["$HealerMarkerCheckButton"]["id"] = _G["1"]
+_G["$HealerMarkerCheckButton"]["id"] = 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L273)
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameEditMode : Button, CRFManagerTooltipButtonTemplate, RaidFrameEditModeMixin
 --- @field tooltip string # "CRF_EDIT_MODE"
 CompactRaidFrameManagerDisplayFrameEditMode = {}
-CompactRaidFrameManagerDisplayFrameEditMode["tooltip"] = _G["\"CRF_EDIT_MODE\""]
+CompactRaidFrameManagerDisplayFrameEditMode["tooltip"] = "CRF_EDIT_MODE"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L284)
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameSettings : Button, CRFManagerTooltipButtonTemplate, RaidFrameSettingsMixin
 --- @field tooltip string # "CRF_SETTINGS"
 CompactRaidFrameManagerDisplayFrameSettings = {}
-CompactRaidFrameManagerDisplayFrameSettings["tooltip"] = _G["\"CRF_SETTINGS\""]
+CompactRaidFrameManagerDisplayFrameSettings["tooltip"] = "CRF_SETTINGS"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L294)
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameHiddenModeToggle : Button, CRFManagerTooltipButtonTemplate, RaidFrameHiddenModeToggleMixin
 --- @field tooltip string # "CRF_HIDE_GROUPS"
 CompactRaidFrameManagerDisplayFrameHiddenModeToggle = {}
-CompactRaidFrameManagerDisplayFrameHiddenModeToggle["tooltip"] = _G["\"CRF_HIDE_GROUPS\""]
+CompactRaidFrameManagerDisplayFrameHiddenModeToggle["tooltip"] = "CRF_HIDE_GROUPS"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L304)
 --- child of CompactRaidFrameManagerDisplayFrame
@@ -142,28 +142,28 @@ CompactRaidFrameManagerDisplayFrameEveryoneIsAssistButton = {}
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameDifficulty : DropdownButton, CRFManagerTooltipButtonTemplate
 --- @field tooltip string # "CRF_DIFFICULTY"
 CompactRaidFrameManagerDisplayFrameDifficulty = {}
-CompactRaidFrameManagerDisplayFrameDifficulty["tooltip"] = _G["\"CRF_DIFFICULTY\""]
+CompactRaidFrameManagerDisplayFrameDifficulty["tooltip"] = "CRF_DIFFICULTY"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L329)
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameInitiateReadyCheck : Button, CRFManagerTooltipButtonTemplate, RaidFrameReadyCheckMixin
 --- @field tooltip string # "CRF_READY_CHECK"
 CompactRaidFrameManagerDisplayFrameInitiateReadyCheck = {}
-CompactRaidFrameManagerDisplayFrameInitiateReadyCheck["tooltip"] = _G["\"CRF_READY_CHECK\""]
+CompactRaidFrameManagerDisplayFrameInitiateReadyCheck["tooltip"] = "CRF_READY_CHECK"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L339)
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameInitiateRolePoll : Button, CRFManagerTooltipButtonTemplate, RaidFrameRolePollMixin
 --- @field tooltip string # "CRF_ROLE_POLL"
 CompactRaidFrameManagerDisplayFrameInitiateRolePoll = {}
-CompactRaidFrameManagerDisplayFrameInitiateRolePoll["tooltip"] = _G["\"CRF_ROLE_POLL\""]
+CompactRaidFrameManagerDisplayFrameInitiateRolePoll["tooltip"] = "CRF_ROLE_POLL"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L349)
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManager_CompactRaidFrameManagerDisplayFrame_CompactRaidFrameManagerDisplayFrameCountdown : Button, CRFManagerTooltipButtonTemplate, RaidFrameCountdownMixin
 --- @field tooltip string # "CRF_COUNTDOWN"
 CompactRaidFrameManagerDisplayFrameCountdown = {}
-CompactRaidFrameManagerDisplayFrameCountdown["tooltip"] = _G["\"CRF_COUNTDOWN\""]
+CompactRaidFrameManagerDisplayFrameCountdown["tooltip"] = "CRF_COUNTDOWN"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L372)
 --- child of CompactRaidFrameManagerDisplayFrameRaidMarkers

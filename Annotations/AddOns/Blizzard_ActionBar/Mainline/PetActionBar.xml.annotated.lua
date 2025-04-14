@@ -14,6 +14,6 @@
 --- @class PetActionBar : Frame, EditModeActionBarTemplate, PetActionBarMixin
 --- @field buttonTemplate string # "PetActionButtonTemplate"
 PetActionBar = {}
-PetActionBar["buttonTemplate"] = _G["\"PetActionButtonTemplate\""]
-PetActionBar["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
+PetActionBar["buttonTemplate"] = "PetActionButtonTemplate"
+PetActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 

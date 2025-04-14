@@ -77,7 +77,7 @@
 --- child of AlliedRacesFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 AlliedRacesFrameInset = {}
-AlliedRacesFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+AlliedRacesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L1142)
 --- child of AlliedRacesFrame (created in template ButtonFrameBaseTemplate)
@@ -99,5 +99,5 @@ AlliedRacesFrame = {}
 AlliedRacesFrame["Inset"] = AlliedRacesFrameInset -- inherited
 AlliedRacesFrame["CloseButton"] = AlliedRacesFrameCloseButton -- inherited
 AlliedRacesFrame["Bg"] = AlliedRacesFrameBg -- inherited
-AlliedRacesFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+AlliedRacesFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

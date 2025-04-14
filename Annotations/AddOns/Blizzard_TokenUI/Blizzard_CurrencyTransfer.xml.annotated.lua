@@ -125,7 +125,7 @@
 --- child of CurrencyTransferMenu (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 CurrencyTransferMenuInset = {}
-CurrencyTransferMenuInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+CurrencyTransferMenuInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1142)
 --- child of CurrencyTransferMenu (created in template ButtonFrameBaseTemplate)
@@ -143,7 +143,7 @@ CurrencyTransferMenu = {}
 CurrencyTransferMenu["Inset"] = CurrencyTransferMenuInset -- inherited
 CurrencyTransferMenu["CloseButton"] = CurrencyTransferMenuCloseButton -- inherited
 CurrencyTransferMenu["Bg"] = CurrencyTransferMenuBg -- inherited
-CurrencyTransferMenu["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+CurrencyTransferMenu["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L297)
 --- child of CurrencyTransferLogEntryTemplate

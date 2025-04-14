@@ -317,8 +317,8 @@ StableFrameBg = {}
 --- @field ActivePetList StableFrame_ActivePetList
 --- @field Topper Texture
 StableFrame = {}
-StableFrame["portraitIcon"] = _G["\"Interface\\Icons\\ClassIcon_Hunter\""]
+StableFrame["portraitIcon"] = "Interface\\Icons\\ClassIcon_Hunter"
 StableFrame["CloseButton"] = StableFrameCloseButton -- inherited
 StableFrame["Bg"] = StableFrameBg -- inherited
-StableFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+StableFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

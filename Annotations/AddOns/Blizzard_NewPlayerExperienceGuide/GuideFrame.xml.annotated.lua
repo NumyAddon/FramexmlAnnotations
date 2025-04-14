@@ -48,5 +48,5 @@ GuideFrameBg = {}
 GuideFrame = {}
 GuideFrame["CloseButton"] = GuideFrameCloseButton -- inherited
 GuideFrame["Bg"] = GuideFrameBg -- inherited
-GuideFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+GuideFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

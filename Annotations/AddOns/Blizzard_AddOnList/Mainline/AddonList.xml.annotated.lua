@@ -56,7 +56,7 @@ AddonDialogText = {}
 --- child of AddonDialog
 --- @class AddonDialog_AddonDialogBackground : Frame, DialogBorderTemplate
 AddonDialogBackground = {}
-AddonDialogBackground["layoutType"] = _G["\"Dialog\""] -- inherited
+AddonDialogBackground["layoutType"] = "Dialog" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L97)
 --- @class AddonDialog : Frame
@@ -75,25 +75,25 @@ AddonListForceLoad = {}
 --- child of AddonList
 --- @class AddonList_AddonListCancelButton : Button, SharedButtonSmallTemplate
 AddonListCancelButton = {}
-AddonListCancelButton["atlasName"] = _G["\"128-RedButton\""] -- inherited
+AddonListCancelButton["atlasName"] = _G[""128-RedButton""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L191)
 --- child of AddonList
 --- @class AddonList_AddonListOkayButton : Button, SharedButtonSmallTemplate
 AddonListOkayButton = {}
-AddonListOkayButton["atlasName"] = _G["\"128-RedButton\""] -- inherited
+AddonListOkayButton["atlasName"] = _G[""128-RedButton""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L202)
 --- child of AddonList
 --- @class AddonList_AddonListEnableAllButton : Button, SharedButtonSmallTemplate
 AddonListEnableAllButton = {}
-AddonListEnableAllButton["atlasName"] = _G["\"128-RedButton\""] -- inherited
+AddonListEnableAllButton["atlasName"] = _G[""128-RedButton""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L211)
 --- child of AddonList
 --- @class AddonList_AddonListDisableAllButton : Button, SharedButtonSmallTemplate
 AddonListDisableAllButton = {}
-AddonListDisableAllButton["atlasName"] = _G["\"128-RedButton\""] -- inherited
+AddonListDisableAllButton["atlasName"] = _G[""128-RedButton""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L220)
 --- child of AddonList
@@ -107,7 +107,7 @@ AddonListDisableAllButton["atlasName"] = _G["\"128-RedButton\""] -- inherited
 --- child of AddonList (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 AddonListInset = {}
-AddonListInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+AddonListInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1142)
 --- child of AddonList (created in template ButtonFrameBaseTemplate)
@@ -136,5 +136,5 @@ AddonList["DisableAllButton"] = AddonListDisableAllButton
 AddonList["Inset"] = AddonListInset -- inherited
 AddonList["CloseButton"] = AddonListCloseButton -- inherited
 AddonList["Bg"] = AddonListBg -- inherited
-AddonList["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+AddonList["layoutType"] = "PortraitFrameTemplate" -- inherited
 

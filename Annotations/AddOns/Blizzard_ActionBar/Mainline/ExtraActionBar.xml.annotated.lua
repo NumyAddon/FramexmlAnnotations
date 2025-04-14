@@ -56,7 +56,7 @@ ExtraActionButton1Flash = {}
 --- @class ExtraActionBarFrame_ExtraActionButton1 : CheckButton, ExtraActionButtonTemplate
 --- @field commandName string # "EXTRAACTIONBUTTON1"
 ExtraActionButton1 = {}
-ExtraActionButton1["commandName"] = _G["\"EXTRAACTIONBUTTON1\""]
+ExtraActionButton1["commandName"] = "EXTRAACTIONBUTTON1"
 ExtraActionButton1["isExtra"] = true -- inherited
 ExtraActionButton1["cooldown"] = ExtraActionButton1Cooldown -- inherited
 ExtraActionButton1["icon"] = ExtraActionButton1Icon -- inherited

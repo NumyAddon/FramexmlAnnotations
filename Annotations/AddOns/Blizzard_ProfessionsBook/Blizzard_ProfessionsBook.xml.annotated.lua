@@ -966,7 +966,7 @@ ProfessionsBookPage2 = {}
 --- child of ProfessionsBookFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ProfessionsBookFrameInset = {}
-ProfessionsBookFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+ProfessionsBookFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L1142)
 --- child of ProfessionsBookFrame (created in template ButtonFrameBaseTemplate)
@@ -986,5 +986,5 @@ ProfessionsBookFrame["MainHelpButton"] = ProfessionsBookFrameTutorialButton
 ProfessionsBookFrame["Inset"] = ProfessionsBookFrameInset -- inherited
 ProfessionsBookFrame["CloseButton"] = ProfessionsBookFrameCloseButton -- inherited
 ProfessionsBookFrame["Bg"] = ProfessionsBookFrameBg -- inherited
-ProfessionsBookFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ProfessionsBookFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

@@ -142,6 +142,6 @@ Minimap = {}
 --- @field MinimapContainer MinimapCluster_MinimapContainer
 --- @field InstanceDifficulty MinimapCluster_InstanceDifficulty
 MinimapCluster = {}
-MinimapCluster["widthPadding"] = _G["20"]
-MinimapCluster["system"] = _G["Enum.EditModeSystem.Minimap"] -- inherited
+MinimapCluster["widthPadding"] = 20
+MinimapCluster["system"] = Enum.EditModeSystem.Minimap -- inherited
 

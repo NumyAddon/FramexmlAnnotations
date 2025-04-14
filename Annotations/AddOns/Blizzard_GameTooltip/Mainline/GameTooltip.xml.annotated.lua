@@ -281,7 +281,7 @@ ShoppingTooltip1Texture30 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L247)
 --- @class ShoppingTooltip1 : GameTooltip, ShoppingTooltipTemplate
 ShoppingTooltip1 = {}
-ShoppingTooltip1["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+ShoppingTooltip1["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 ShoppingTooltip1["TextLeft1"] = ShoppingTooltip1TextLeft1 -- inherited
 ShoppingTooltip1["TextRight1"] = ShoppingTooltip1TextRight1 -- inherited
 ShoppingTooltip1["TextLeft2"] = ShoppingTooltip1TextLeft2 -- inherited
@@ -480,7 +480,7 @@ ShoppingTooltip2Texture30 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L248)
 --- @class ShoppingTooltip2 : GameTooltip, ShoppingTooltipTemplate
 ShoppingTooltip2 = {}
-ShoppingTooltip2["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+ShoppingTooltip2["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 ShoppingTooltip2["TextLeft1"] = ShoppingTooltip2TextLeft1 -- inherited
 ShoppingTooltip2["TextRight1"] = ShoppingTooltip2TextRight1 -- inherited
 ShoppingTooltip2["TextLeft2"] = ShoppingTooltip2TextLeft2 -- inherited
@@ -489,7 +489,7 @@ ShoppingTooltip2["TextRight2"] = ShoppingTooltip2TextRight2 -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L250)
 --- @class GameTooltipDefaultContainer : Frame, EditModeHudTooltipSystemTemplate
 GameTooltipDefaultContainer = {}
-GameTooltipDefaultContainer["system"] = _G["Enum.EditModeSystem.HudTooltip"] -- inherited
+GameTooltipDefaultContainer["system"] = Enum.EditModeSystem.HudTooltip -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L9)
 --- child of GameTooltipTooltip (created in template GameTooltipTemplate)
@@ -673,7 +673,7 @@ GameTooltipTooltip = {}
 GameTooltipTooltip["IsEmbedded"] = true
 GameTooltipTooltip["supportsDataRefresh"] = true -- inherited
 GameTooltipTooltip["StatusBar"] = GameTooltipTooltipStatusBar -- inherited
-GameTooltipTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+GameTooltipTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 GameTooltipTooltip["TextLeft1"] = GameTooltipTooltipTextLeft1 -- inherited
 GameTooltipTooltip["TextRight1"] = GameTooltipTooltipTextRight1 -- inherited
 GameTooltipTooltip["TextLeft2"] = GameTooltipTooltipTextLeft2 -- inherited
@@ -872,7 +872,7 @@ GameTooltip = {}
 GameTooltip["supportsItemComparison"] = true
 GameTooltip["supportsDataRefresh"] = true -- inherited
 GameTooltip["StatusBar"] = GameTooltipStatusBar -- inherited
-GameTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+GameTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 GameTooltip["TextLeft1"] = GameTooltipTextLeft1 -- inherited
 GameTooltip["TextRight1"] = GameTooltipTextRight1 -- inherited
 GameTooltip["TextLeft2"] = GameTooltipTextLeft2 -- inherited
@@ -1060,7 +1060,7 @@ EmbeddedItemTooltipTooltip = {}
 EmbeddedItemTooltipTooltip["IsEmbedded"] = true
 EmbeddedItemTooltipTooltip["supportsDataRefresh"] = true -- inherited
 EmbeddedItemTooltipTooltip["StatusBar"] = EmbeddedItemTooltipTooltipStatusBar -- inherited
-EmbeddedItemTooltipTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+EmbeddedItemTooltipTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 EmbeddedItemTooltipTooltip["TextLeft1"] = EmbeddedItemTooltipTooltipTextLeft1 -- inherited
 EmbeddedItemTooltipTooltip["TextRight1"] = EmbeddedItemTooltipTooltipTextRight1 -- inherited
 EmbeddedItemTooltipTooltip["TextLeft2"] = EmbeddedItemTooltipTooltipTextLeft2 -- inherited
@@ -1257,7 +1257,7 @@ EmbeddedItemTooltipTexture30 = {}
 EmbeddedItemTooltip = {}
 EmbeddedItemTooltip["supportsDataRefresh"] = true -- inherited
 EmbeddedItemTooltip["StatusBar"] = EmbeddedItemTooltipStatusBar -- inherited
-EmbeddedItemTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+EmbeddedItemTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 EmbeddedItemTooltip["TextLeft1"] = EmbeddedItemTooltipTextLeft1 -- inherited
 EmbeddedItemTooltip["TextRight1"] = EmbeddedItemTooltipTextRight1 -- inherited
 EmbeddedItemTooltip["TextLeft2"] = EmbeddedItemTooltipTextLeft2 -- inherited
@@ -1442,10 +1442,10 @@ GameNoHeaderTooltipTexture30 = {}
 --- @class GameNoHeaderTooltip : GameTooltip, GameTooltipTemplate
 --- @field textLeft1Font string # "GameTooltipText"
 GameNoHeaderTooltip = {}
-GameNoHeaderTooltip["textLeft1Font"] = _G["\"GameTooltipText\""]
+GameNoHeaderTooltip["textLeft1Font"] = "GameTooltipText"
 GameNoHeaderTooltip["supportsDataRefresh"] = true -- inherited
 GameNoHeaderTooltip["StatusBar"] = GameNoHeaderTooltipStatusBar -- inherited
-GameNoHeaderTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+GameNoHeaderTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 GameNoHeaderTooltip["TextLeft1"] = GameNoHeaderTooltipTextLeft1 -- inherited
 GameNoHeaderTooltip["TextRight1"] = GameNoHeaderTooltipTextRight1 -- inherited
 GameNoHeaderTooltip["TextLeft2"] = GameNoHeaderTooltipTextLeft2 -- inherited
@@ -1630,10 +1630,10 @@ GameSmallHeaderTooltipTexture30 = {}
 --- @class GameSmallHeaderTooltip : GameTooltip, GameTooltipTemplate
 --- @field textLeft1Font string # "SystemFont_Med2"
 GameSmallHeaderTooltip = {}
-GameSmallHeaderTooltip["textLeft1Font"] = _G["\"SystemFont_Med2\""]
+GameSmallHeaderTooltip["textLeft1Font"] = "SystemFont_Med2"
 GameSmallHeaderTooltip["supportsDataRefresh"] = true -- inherited
 GameSmallHeaderTooltip["StatusBar"] = GameSmallHeaderTooltipStatusBar -- inherited
-GameSmallHeaderTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+GameSmallHeaderTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 GameSmallHeaderTooltip["TextLeft1"] = GameSmallHeaderTooltipTextLeft1 -- inherited
 GameSmallHeaderTooltip["TextRight1"] = GameSmallHeaderTooltipTextRight1 -- inherited
 GameSmallHeaderTooltip["TextLeft2"] = GameSmallHeaderTooltipTextLeft2 -- inherited

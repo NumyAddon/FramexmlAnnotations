@@ -37,8 +37,8 @@
 --- @field showTooltip boolean # true
 MageArcaneChargesFrame = {}
 MageArcaneChargesFrame["showTooltip"] = true
-MageArcaneChargesFrame["powerToken"] = _G["\"ARCANE_CHARGES\""] -- inherited
-MageArcaneChargesFrame["maxUsablePoints"] = _G["5"] -- inherited
+MageArcaneChargesFrame["powerToken"] = "ARCANE_CHARGES" -- inherited
+MageArcaneChargesFrame["maxUsablePoints"] = 5 -- inherited
 MageArcaneChargesFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 MageArcaneChargesFrame["isManagedFrame"] = true -- inherited
 

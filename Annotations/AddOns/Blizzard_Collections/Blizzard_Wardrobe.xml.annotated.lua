@@ -128,7 +128,7 @@ TrackingInterfaceShortcutsFrame = {}
 --- @class WardrobeCollectionFrame_WardrobeCollectionFrameTab1 : Button, PanelTopTabButtonTemplate
 --- @field minWidth number # 57
 WardrobeCollectionFrameTab1 = {}
-WardrobeCollectionFrameTab1["minWidth"] = _G["57"]
+WardrobeCollectionFrameTab1["minWidth"] = 57
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L404)
 --- child of WardrobeCollectionFrameTab2
@@ -140,7 +140,7 @@ WardrobeCollectionFrameTab1["minWidth"] = _G["57"]
 --- @field minWidth number # 57
 --- @field FlashFrame WardrobeCollectionFrame_WardrobeCollectionFrameTab2_FlashFrame
 WardrobeCollectionFrameTab2 = {}
-WardrobeCollectionFrameTab2["minWidth"] = _G["57"]
+WardrobeCollectionFrameTab2["minWidth"] = 57
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Wardrobe.xml#L517)
 --- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame
@@ -959,5 +959,5 @@ WardrobeFrameBg = {}
 WardrobeFrame = {}
 WardrobeFrame["CloseButton"] = WardrobeFrameCloseButton -- inherited
 WardrobeFrame["Bg"] = WardrobeFrameBg -- inherited
-WardrobeFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+WardrobeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

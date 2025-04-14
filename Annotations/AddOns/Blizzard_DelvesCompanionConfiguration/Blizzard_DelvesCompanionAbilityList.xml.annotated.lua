@@ -46,9 +46,9 @@ DelvesCompanionAbilityListFrameBg = {}
 --- @field DelvesCompanionAbilityListPagingControls DelvesCompanionAbilityListFrame_DelvesCompanionAbilityListPagingControls
 --- @field CompanionAbilityListBackground Texture
 DelvesCompanionAbilityListFrame = {}
-DelvesCompanionAbilityListFrame["getTemplateType"] = _G["DelvesCompanionAbilityListFrameMixin.GetTemplateForTalentType"]
+DelvesCompanionAbilityListFrame["getTemplateType"] = DelvesCompanionAbilityListFrameMixin.GetTemplateForTalentType
 DelvesCompanionAbilityListFrame["CloseButton"] = DelvesCompanionAbilityListFrameCloseButton -- inherited
 DelvesCompanionAbilityListFrame["Bg"] = DelvesCompanionAbilityListFrameBg -- inherited
-DelvesCompanionAbilityListFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
-DelvesCompanionAbilityListFrame["getTemplateType"] = _G["TalentButtonUtil.GetTemplateForTalentType"] -- inherited
+DelvesCompanionAbilityListFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+DelvesCompanionAbilityListFrame["getTemplateType"] = TalentButtonUtil.GetTemplateForTalentType -- inherited
 

@@ -80,5 +80,5 @@
 --- @field ScenarioLabel DelvesDifficultyPickerFrame_ScenarioLabel
 --- @field Description DelvesDifficultyPickerFrame_Description
 DelvesDifficultyPickerFrame = {}
-DelvesDifficultyPickerFrame["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+DelvesDifficultyPickerFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 

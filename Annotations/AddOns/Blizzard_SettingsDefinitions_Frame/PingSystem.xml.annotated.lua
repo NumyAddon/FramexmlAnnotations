@@ -67,7 +67,7 @@
 --- child of PingSystemTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 PingSystemTutorialInset = {}
-PingSystemTutorialInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+PingSystemTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1142)
 --- child of PingSystemTutorial (created in template ButtonFrameBaseTemplate)
@@ -91,5 +91,5 @@ PingSystemTutorial = {}
 PingSystemTutorial["Inset"] = PingSystemTutorialInset -- inherited
 PingSystemTutorial["CloseButton"] = PingSystemTutorialCloseButton -- inherited
 PingSystemTutorial["Bg"] = PingSystemTutorialBg -- inherited
-PingSystemTutorial["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+PingSystemTutorial["layoutType"] = "PortraitFrameTemplate" -- inherited
 

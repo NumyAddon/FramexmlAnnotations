@@ -137,5 +137,5 @@ AzeriteRespecFrame["CornerBL"] = AzeriteRespecFrameCornerBL -- inherited
 AzeriteRespecFrame["CornerBR"] = AzeriteRespecFrameCornerBR -- inherited
 AzeriteRespecFrame["CloseButton"] = AzeriteRespecFrameCloseButton -- inherited
 AzeriteRespecFrame["Bg"] = AzeriteRespecFrameBg -- inherited
-AzeriteRespecFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+AzeriteRespecFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

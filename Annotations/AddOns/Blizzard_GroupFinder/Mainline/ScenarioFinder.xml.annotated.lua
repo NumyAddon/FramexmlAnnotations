@@ -17,7 +17,7 @@
 --- child of ScenarioFinderFrame
 --- @class ScenarioFinderFrame_ScenarioFinderFrameInset : Frame, InsetFrameTemplate
 ScenarioFinderFrameInset = {}
-ScenarioFinderFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+ScenarioFinderFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L68)
 --- child of ScenarioQueueFrameTypeDropdown
@@ -186,7 +186,7 @@ ScenarioQueueFrameRandomScrollFrameChildFrame["xpAmount"] = ScenarioQueueFrameRa
 --- @field Child ScenarioFinderFrame_ScenarioQueueFrame_ScenarioQueueFrameRandom_ScenarioQueueFrameRandomScrollFrame_ScenarioQueueFrameRandomScrollFrameChildFrame
 ScenarioQueueFrameRandomScrollFrame = {}
 ScenarioQueueFrameRandomScrollFrame["Child"] = ScenarioQueueFrameRandomScrollFrameChildFrame
-ScenarioQueueFrameRandomScrollFrame["scrollBarX"] = _G["4"]
+ScenarioQueueFrameRandomScrollFrame["scrollBarX"] = 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/ScenarioFinder.xml#L83)
 --- child of ScenarioQueueFrame

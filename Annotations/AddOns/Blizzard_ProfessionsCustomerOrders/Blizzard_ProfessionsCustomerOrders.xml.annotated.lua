@@ -49,14 +49,14 @@ ProfessionsCustomerOrdersFrameMiddle = {}
 --- @class ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameBrowseTab : Button, ProfessionsCustomerOrdersFrameTabTemplate
 --- @field mode any # ProfessionsCustomerOrdersMode.Browse
 ProfessionsCustomerOrdersFrameBrowseTab = {}
-ProfessionsCustomerOrdersFrameBrowseTab["mode"] = _G["ProfessionsCustomerOrdersMode.Browse"]
+ProfessionsCustomerOrdersFrameBrowseTab["mode"] = ProfessionsCustomerOrdersMode.Browse
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L75)
 --- child of ProfessionsCustomerOrdersFrame
 --- @class ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameOrdersTab : Button, ProfessionsCustomerOrdersFrameTabTemplate
 --- @field mode any # ProfessionsCustomerOrdersMode.Orders
 ProfessionsCustomerOrdersFrameOrdersTab = {}
-ProfessionsCustomerOrdersFrameOrdersTab["mode"] = _G["ProfessionsCustomerOrdersMode.Orders"]
+ProfessionsCustomerOrdersFrameOrdersTab["mode"] = ProfessionsCustomerOrdersMode.Orders
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1095)
 --- child of ProfessionsCustomerOrdersFrame (created in template PortraitFrameTemplate)
@@ -84,5 +84,5 @@ ProfessionsCustomerOrdersFrame["BrowseTab"] = ProfessionsCustomerOrdersFrameBrow
 ProfessionsCustomerOrdersFrame["OrdersTab"] = ProfessionsCustomerOrdersFrameOrdersTab
 ProfessionsCustomerOrdersFrame["CloseButton"] = ProfessionsCustomerOrdersFrameCloseButton -- inherited
 ProfessionsCustomerOrdersFrame["Bg"] = ProfessionsCustomerOrdersFrameBg -- inherited
-ProfessionsCustomerOrdersFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ProfessionsCustomerOrdersFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

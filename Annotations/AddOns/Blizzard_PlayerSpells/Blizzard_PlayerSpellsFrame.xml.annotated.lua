@@ -43,8 +43,8 @@ PlayerSpellsFrameBg = {}
 --- @field TalentsFrame PlayerSpellsFrame_TalentsFrame
 --- @field SpellBookFrame PlayerSpellsFrame_SpellBookFrame
 PlayerSpellsFrame = {}
-PlayerSpellsFrame["minimizedWidth"] = _G["\"809\""]
+PlayerSpellsFrame["minimizedWidth"] = "809"
 PlayerSpellsFrame["CloseButton"] = PlayerSpellsFrameCloseButton -- inherited
 PlayerSpellsFrame["Bg"] = PlayerSpellsFrameBg -- inherited
-PlayerSpellsFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+PlayerSpellsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

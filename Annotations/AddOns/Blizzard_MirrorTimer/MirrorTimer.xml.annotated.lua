@@ -17,5 +17,5 @@
 --- @class MirrorTimerContainer : Frame, EditModeTimerBarsSystemTemplate, VerticalLayoutFrame, MirrorTimerContainerMixin
 --- @field mirrorTimers table<number, MirrorTimerTemplate>
 MirrorTimerContainer = {}
-MirrorTimerContainer["system"] = _G["Enum.EditModeSystem.TimerBars"] -- inherited
+MirrorTimerContainer["system"] = Enum.EditModeSystem.TimerBars -- inherited
 

@@ -125,7 +125,7 @@ TransmogAndMountDressupFrame["hasOutfitControls"] = false
 --- @class DressUpFrame_DressUpFrameOutfitDropdown : DropdownButton, WardrobeOutfitDropdownTemplate, DressUpOutfitMixin
 --- @field width number # 163
 DressUpFrameOutfitDropdown = {}
-DressUpFrameOutfitDropdown["width"] = _G["163"]
+DressUpFrameOutfitDropdown["width"] = 163
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L296)
 --- child of DressUpFrame
@@ -176,7 +176,7 @@ DressUpFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 --- child of DressUpFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 DressUpFrameInset = {}
-DressUpFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+DressUpFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1142)
 --- child of DressUpFrame (created in template ButtonFrameBaseTemplate)
@@ -205,7 +205,7 @@ DressUpFrame = {}
 DressUpFrame["OutfitDropdown"] = DressUpFrameOutfitDropdown
 DressUpFrame["ResetButton"] = DressUpFrameResetButton
 DressUpFrame["hasOutfitControls"] = true
-DressUpFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+DressUpFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 DressUpFrame["Inset"] = DressUpFrameInset -- inherited
 DressUpFrame["CloseButton"] = DressUpFrameCloseButton -- inherited
 DressUpFrame["Bg"] = DressUpFrameBg -- inherited

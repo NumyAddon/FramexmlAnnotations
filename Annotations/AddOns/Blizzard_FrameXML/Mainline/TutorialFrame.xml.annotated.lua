@@ -189,7 +189,7 @@ TutorialFrame["onCloseCallback"] = TutorialFrame_Hide
 --- @class TutorialFrameAlertButton : Button, UIParentBottomManagedFrameTemplate
 --- @field layoutIndex number # 24
 TutorialFrameAlertButton = {}
-TutorialFrameAlertButton["layoutIndex"] = _G["24"]
+TutorialFrameAlertButton["layoutIndex"] = 24
 TutorialFrameAlertButton["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 TutorialFrameAlertButton["isManagedFrame"] = true -- inherited
 

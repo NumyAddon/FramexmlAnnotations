@@ -11,14 +11,14 @@
 --- @field spacing number # 10
 --- @field Background PartyFrame_Background
 PartyFrame = {}
-PartyFrame["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Party"]
-PartyFrame["spacing"] = _G["10"]
-PartyFrame["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
+PartyFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Party
+PartyFrame["spacing"] = 10
+PartyFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/PartyFrame.xml#L45)
 --- @class PartyMemberBuffTooltip : Frame, TooltipBackdropTemplate, PartyMemberBuffTooltipMixin
 --- @field BuffContainer Frame
 --- @field DebuffContainer Frame
 PartyMemberBuffTooltip = {}
-PartyMemberBuffTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+PartyMemberBuffTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

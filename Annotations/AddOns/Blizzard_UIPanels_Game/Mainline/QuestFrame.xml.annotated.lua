@@ -52,7 +52,7 @@ QuestRewardScrollChildFrame = {}
 --- child of QuestFrameRewardPanel
 --- @class QuestFrame_QuestFrameRewardPanel_QuestRewardScrollFrame : ScrollFrame, QuestScrollFrameTemplate
 QuestRewardScrollFrame = {}
-QuestRewardScrollFrame["scrollBarX"] = _G["9"] -- inherited
+QuestRewardScrollFrame["scrollBarX"] = 9 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L10)
 --- child of QuestFrameRewardPanel (created in template QuestFramePanelTemplate)
@@ -333,7 +333,7 @@ QuestProgressScrollChildFrame = {}
 --- child of QuestFrameProgressPanel
 --- @class QuestFrame_QuestFrameProgressPanel_QuestProgressScrollFrame : ScrollFrame, QuestScrollFrameTemplate
 QuestProgressScrollFrame = {}
-QuestProgressScrollFrame["scrollBarX"] = _G["9"] -- inherited
+QuestProgressScrollFrame["scrollBarX"] = 9 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L10)
 --- child of QuestFrameProgressPanel (created in template QuestFramePanelTemplate)
@@ -391,7 +391,7 @@ QuestDetailScrollChildFrame = {}
 --- child of QuestFrameDetailPanel
 --- @class QuestFrame_QuestFrameDetailPanel_QuestDetailScrollFrame : ScrollFrame, QuestScrollFrameTemplate
 QuestDetailScrollFrame = {}
-QuestDetailScrollFrame["scrollBarX"] = _G["9"] -- inherited
+QuestDetailScrollFrame["scrollBarX"] = 9 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L10)
 --- child of QuestFrameDetailPanel (created in template QuestFramePanelTemplate)
@@ -465,7 +465,7 @@ QuestGreetingScrollChildFrame = {}
 --- child of QuestFrameGreetingPanel
 --- @class QuestFrame_QuestFrameGreetingPanel_QuestGreetingScrollFrame : ScrollFrame, QuestScrollFrameTemplate
 QuestGreetingScrollFrame = {}
-QuestGreetingScrollFrame["scrollBarX"] = _G["9"] -- inherited
+QuestGreetingScrollFrame["scrollBarX"] = 9 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L10)
 --- child of QuestFrameGreetingPanel (created in template QuestFramePanelTemplate)
@@ -515,7 +515,7 @@ QuestFramePortrait = {}
 --- child of QuestFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 QuestFrameInset = {}
-QuestFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+QuestFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L1142)
 --- child of QuestFrame (created in template ButtonFrameBaseTemplate)
@@ -534,7 +534,7 @@ QuestFrame = {}
 QuestFrame["Inset"] = QuestFrameInset -- inherited
 QuestFrame["CloseButton"] = QuestFrameCloseButton -- inherited
 QuestFrame["Bg"] = QuestFrameBg -- inherited
-QuestFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+QuestFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L329)
 --- child of QuestModelScene
@@ -577,5 +577,5 @@ QuestNPCModelNameText = {}
 --- @field ShadowOverlay Texture
 --- @field ModelNameBackground Texture
 QuestModelScene = {}
-QuestModelScene["normalIntensity"] = _G["0.75"]
+QuestModelScene["normalIntensity"] = 0.75
 

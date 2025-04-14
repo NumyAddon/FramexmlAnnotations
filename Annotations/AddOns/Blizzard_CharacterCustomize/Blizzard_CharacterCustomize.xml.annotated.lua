@@ -183,8 +183,8 @@ CharCustomizeNoHeaderTooltipTexture30 = {}
 --- @class CharCustomizeNoHeaderTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate
 --- @field textLeft1Font string # "GameFontNormalMed2"
 CharCustomizeNoHeaderTooltip = {}
-CharCustomizeNoHeaderTooltip["textLeft1Font"] = _G["\"GameFontNormalMed2\""]
-CharCustomizeNoHeaderTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+CharCustomizeNoHeaderTooltip["textLeft1Font"] = "GameFontNormalMed2"
+CharCustomizeNoHeaderTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 CharCustomizeNoHeaderTooltip["TextLeft1"] = CharCustomizeNoHeaderTooltipTextLeft1 -- inherited
 CharCustomizeNoHeaderTooltip["TextRight1"] = CharCustomizeNoHeaderTooltipTextRight1 -- inherited
 CharCustomizeNoHeaderTooltip["TextLeft2"] = CharCustomizeNoHeaderTooltipTextLeft2 -- inherited

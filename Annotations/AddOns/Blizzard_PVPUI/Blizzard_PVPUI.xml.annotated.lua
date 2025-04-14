@@ -366,7 +366,7 @@ PVPTalentPrestigeLevelDialogBg = {}
 PVPTalentPrestigeLevelDialog = {}
 PVPTalentPrestigeLevelDialog["CloseButton"] = PVPTalentPrestigeLevelDialogCloseButton
 PVPTalentPrestigeLevelDialog["Bg"] = PVPTalentPrestigeLevelDialogBg -- inherited
-PVPTalentPrestigeLevelDialog["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+PVPTalentPrestigeLevelDialog["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1036)
 --- child of PVPQueueFrameCategoryButton1
@@ -1026,8 +1026,8 @@ PVPUIFrame = {}
 --- @field ModeDescription ConquestTooltip_ModeDescription
 --- @field Content table<number, ConquestTooltip_Title | ConquestTooltip_Tier | ConquestTooltip_SpecRank | ConquestTooltip_WeeklyLabel | ConquestTooltip_WeeklyBest | ConquestTooltip_WeeklyWon | ConquestTooltip_WeeklyPlayed | ConquestTooltip_WeeklyMostPlayedSpec | ConquestTooltip_SeasonLabel | ConquestTooltip_SeasonBest | ConquestTooltip_SeasonWon | ConquestTooltip_SeasonPlayed | ConquestTooltip_SeasonMostPlayedSpec | ConquestTooltip_ModeDescription>
 ConquestTooltip = {}
-ConquestTooltip["minimumWidth"] = _G["152"]
-ConquestTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+ConquestTooltip["minimumWidth"] = 152
+ConquestTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Blizzard_PVPUI.xml#L1764)
 --- child of PvPObjectiveBannerFrame

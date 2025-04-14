@@ -34,9 +34,9 @@
 --- @class MonkHarmonyBarFrame : Frame, MonkHarmonyBarFrameTemplate
 --- @field topPadding number # 7
 MonkHarmonyBarFrame = {}
-MonkHarmonyBarFrame["topPadding"] = _G["7"]
-MonkHarmonyBarFrame["powerToken"] = _G["\"CHI\""] -- inherited
-MonkHarmonyBarFrame["maxUsablePoints"] = _G["5"] -- inherited
+MonkHarmonyBarFrame["topPadding"] = 7
+MonkHarmonyBarFrame["powerToken"] = "CHI" -- inherited
+MonkHarmonyBarFrame["maxUsablePoints"] = 5 -- inherited
 MonkHarmonyBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 MonkHarmonyBarFrame["isManagedFrame"] = true -- inherited
 

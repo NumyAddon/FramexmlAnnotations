@@ -4,8 +4,8 @@
 --- @class DeathKnightResourceOverlayFrame : Frame, ClassNameplateBarFrame, RuneFrameTemplate, ClassNameplateBar, ClassNameplateBarDeathKnight
 --- @field scale number # 0.65
 DeathKnightResourceOverlayFrame = {}
-DeathKnightResourceOverlayFrame["scale"] = _G["0.65"]
-DeathKnightResourceOverlayFrame["scale"] = _G["\".75\""] -- inherited
+DeathKnightResourceOverlayFrame["scale"] = 0.65
+DeathKnightResourceOverlayFrame["scale"] = ".75" -- inherited
 DeathKnightResourceOverlayFrame["spacing"] = _G["-1"] -- inherited
 DeathKnightResourceOverlayFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 DeathKnightResourceOverlayFrame["isManagedFrame"] = true -- inherited

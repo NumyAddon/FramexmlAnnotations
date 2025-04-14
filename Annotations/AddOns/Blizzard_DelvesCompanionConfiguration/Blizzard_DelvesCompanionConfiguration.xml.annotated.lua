@@ -141,5 +141,5 @@ CompanionInfoGLine = {}
 --- @field CompanionConfigShowAbilitiesButton DelvesCompanionConfigurationFrame_CompanionConfigShowAbilitiesButton
 --- @field Background Texture
 DelvesCompanionConfigurationFrame = {}
-DelvesCompanionConfigurationFrame["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+DelvesCompanionConfigurationFrame["layoutType"] = "InsetFrameTemplate" -- inherited
 

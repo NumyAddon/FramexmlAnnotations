@@ -50,6 +50,6 @@
 --- @field Background Texture
 --- @field BorderOverlay Texture
 GenericTraitFrame = {}
-GenericTraitFrame["getEdgeTemplateType"] = _G["GenericTraitUtil.GetEdgeTemplateType"]
-GenericTraitFrame["getTemplateType"] = _G["TalentButtonUtil.GetTemplateForTalentType"] -- inherited
+GenericTraitFrame["getEdgeTemplateType"] = GenericTraitUtil.GetEdgeTemplateType
+GenericTraitFrame["getTemplateType"] = TalentButtonUtil.GetTemplateForTalentType -- inherited
 

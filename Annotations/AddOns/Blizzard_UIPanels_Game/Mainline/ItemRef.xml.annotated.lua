@@ -193,7 +193,7 @@ ItemRefShoppingTooltip1Texture30 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L3)
 --- @class ItemRefShoppingTooltip1 : GameTooltip, ShoppingTooltipTemplate
 ItemRefShoppingTooltip1 = {}
-ItemRefShoppingTooltip1["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+ItemRefShoppingTooltip1["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 ItemRefShoppingTooltip1["TextLeft1"] = ItemRefShoppingTooltip1TextLeft1 -- inherited
 ItemRefShoppingTooltip1["TextRight1"] = ItemRefShoppingTooltip1TextRight1 -- inherited
 ItemRefShoppingTooltip1["TextLeft2"] = ItemRefShoppingTooltip1TextLeft2 -- inherited
@@ -392,7 +392,7 @@ ItemRefShoppingTooltip2Texture30 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L4)
 --- @class ItemRefShoppingTooltip2 : GameTooltip, ShoppingTooltipTemplate
 ItemRefShoppingTooltip2 = {}
-ItemRefShoppingTooltip2["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+ItemRefShoppingTooltip2["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 ItemRefShoppingTooltip2["TextLeft1"] = ItemRefShoppingTooltip2TextLeft1 -- inherited
 ItemRefShoppingTooltip2["TextRight1"] = ItemRefShoppingTooltip2TextRight1 -- inherited
 ItemRefShoppingTooltip2["TextLeft2"] = ItemRefShoppingTooltip2TextLeft2 -- inherited
@@ -583,7 +583,7 @@ ItemRefTooltipTexture30 = {}
 ItemRefTooltip = {}
 ItemRefTooltip["supportsDataRefresh"] = true -- inherited
 ItemRefTooltip["StatusBar"] = ItemRefTooltipStatusBar -- inherited
-ItemRefTooltip["textLeft1Font"] = _G["\"GameTooltipHeaderText\""] -- inherited
+ItemRefTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
 ItemRefTooltip["TextLeft1"] = ItemRefTooltipTextLeft1 -- inherited
 ItemRefTooltip["TextRight1"] = ItemRefTooltipTextRight1 -- inherited
 ItemRefTooltip["TextLeft2"] = ItemRefTooltipTextLeft2 -- inherited

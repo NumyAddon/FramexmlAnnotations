@@ -856,7 +856,7 @@ GarrisonMissionFrame = {}
 GarrisonMissionFrame["Tab1"] = GarrisonMissionFrameTab1
 GarrisonMissionFrame["Tab2"] = GarrisonMissionFrameTab2
 GarrisonMissionFrame["FollowerList"] = GarrisonMissionFrameFollowers
-GarrisonMissionFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_6_0_GarrisonFollower
+GarrisonMissionFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_6_0_GarrisonFollower"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L2032)
 --- @class GarrisonFollowerPlacer : Frame, GarrisonFollowerPortraitTemplate

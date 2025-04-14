@@ -26,7 +26,7 @@
 --- @class TotemFrame : Frame, HorizontalLayoutFrame, PlayerFrameBottomManagedFrameTemplate, TotemFrameMixin
 --- @field layoutIndex number # 50
 TotemFrame = {}
-TotemFrame["layoutIndex"] = 50
+TotemFrame["layoutIndex"] = _G["50"]
 TotemFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 TotemFrame["isManagedFrame"] = true -- inherited
 

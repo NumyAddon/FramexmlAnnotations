@@ -19,30 +19,30 @@ PetName = {}
 --- child of PetFrameHealthBar
 --- @class PetFrame_PetFrameHealthBar_PetFrameMyHealPredictionBar : Frame, PetFrameBarSegmentTemplate, MyHealPredictionBarTemplate
 PetFrameMyHealPredictionBar = {}
-PetFrameMyHealPredictionBar["fillAtlas"] = "UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status" -- inherited
+PetFrameMyHealPredictionBar["fillAtlas"] = _G["\"UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status\""] -- inherited
 PetFrameMyHealPredictionBar["fillColor"] = HEALTHBAR_MY_HEAL_PREDICTION_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L92)
 --- child of PetFrameHealthBar
 --- @class PetFrame_PetFrameHealthBar_PetFrameOtherHealPredictionBar : Frame, PetFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
 PetFrameOtherHealPredictionBar = {}
-PetFrameOtherHealPredictionBar["fillAtlas"] = "UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status" -- inherited
+PetFrameOtherHealPredictionBar["fillAtlas"] = _G["\"UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status\""] -- inherited
 PetFrameOtherHealPredictionBar["fillColor"] = HEALTHBAR_OTHER_HEAL_PREDICTION_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L93)
 --- child of PetFrameHealthBar
 --- @class PetFrame_PetFrameHealthBar_PetFrameHealAbsorbBar : Frame, PetFrameBarSegmentTemplate, HealAbsorbBarTemplate
 PetFrameHealAbsorbBar = {}
-PetFrameHealAbsorbBar["fillAtlas"] = "UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status" -- inherited
+PetFrameHealAbsorbBar["fillAtlas"] = _G["\"UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status\""] -- inherited
 PetFrameHealAbsorbBar["fillColor"] = HEALTHBAR_HEAL_ABSORB_COLOR -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L94)
 --- child of PetFrameHealthBar
 --- @class PetFrame_PetFrameHealthBar_PetFrameTotalAbsorbBar : Frame, PetFrameBarSegmentTemplate, TotalAbsorbBarTemplate
 PetFrameTotalAbsorbBar = {}
-PetFrameTotalAbsorbBar["fillAtlas"] = "UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status" -- inherited
+PetFrameTotalAbsorbBar["fillAtlas"] = _G["\"UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health-Status\""] -- inherited
 PetFrameTotalAbsorbBar["fillColor"] = HEALTHBAR_TOTAL_ABSORB_COLOR -- inherited
-PetFrameTotalAbsorbBar["tiledFillOverlaySize"] = 32 -- inherited
+PetFrameTotalAbsorbBar["tiledFillOverlaySize"] = _G["32"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L98)
 --- child of PetFrameHealthBar
@@ -137,11 +137,11 @@ PetAttackModeTexture = {}
 --- @field PortraitMask MaskTexture
 PetFrame = {}
 PetFrame["Portrait"] = PetPortrait
-PetFrame["layoutIndex"] = 48
+PetFrame["layoutIndex"] = _G["48"]
 PetFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 PetFrame["isManagedFrame"] = true -- inherited
-PetFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Pet -- inherited
-PetFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
+PetFrame["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Pet"] -- inherited
+PetFrame["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L190)
 --- @class PetCastingBarFrame : StatusBar, CastingBarFrameTemplate, PetCastingBarMixin

@@ -40,54 +40,54 @@
 --- @field buttonTemplate string # "MultiBar1ButtonTemplate"
 --- @field QuickKeybindGlow Texture
 MultiBarBottomLeft = {}
-MultiBarBottomLeft["buttonTemplate"] = "MultiBar1ButtonTemplate"
-MultiBarBottomLeft["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBarBottomLeft["buttonTemplate"] = _G["\"MultiBar1ButtonTemplate\""]
+MultiBarBottomLeft["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L82)
 --- @class MultiBarBottomRight : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # "MultiBar2ButtonTemplate"
 --- @field QuickKeybindGlow Texture
 MultiBarBottomRight = {}
-MultiBarBottomRight["buttonTemplate"] = "MultiBar2ButtonTemplate"
-MultiBarBottomRight["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBarBottomRight["buttonTemplate"] = _G["\"MultiBar2ButtonTemplate\""]
+MultiBarBottomRight["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L111)
 --- @class MultiBarLeft : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # "MultiBar4ButtonTemplate"
 --- @field QuickKeybindGlow Texture
 MultiBarLeft = {}
-MultiBarLeft["buttonTemplate"] = "MultiBar4ButtonTemplate"
-MultiBarLeft["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBarLeft["buttonTemplate"] = _G["\"MultiBar4ButtonTemplate\""]
+MultiBarLeft["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L139)
 --- @class MultiBarRight : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # "MultiBar3ButtonTemplate"
 --- @field QuickKeybindGlow Texture
 MultiBarRight = {}
-MultiBarRight["buttonTemplate"] = "MultiBar3ButtonTemplate"
-MultiBarRight["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBarRight["buttonTemplate"] = _G["\"MultiBar3ButtonTemplate\""]
+MultiBarRight["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L167)
 --- @class MultiBar5 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # "MultiBar5ButtonTemplate"
 --- @field QuickKeybindGlow Texture
 MultiBar5 = {}
-MultiBar5["buttonTemplate"] = "MultiBar5ButtonTemplate"
-MultiBar5["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBar5["buttonTemplate"] = _G["\"MultiBar5ButtonTemplate\""]
+MultiBar5["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L195)
 --- @class MultiBar6 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # "MultiBar6ButtonTemplate"
 --- @field QuickKeybindGlow Texture
 MultiBar6 = {}
-MultiBar6["buttonTemplate"] = "MultiBar6ButtonTemplate"
-MultiBar6["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBar6["buttonTemplate"] = _G["\"MultiBar6ButtonTemplate\""]
+MultiBar6["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L223)
 --- @class MultiBar7 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # "MultiBar7ButtonTemplate"
 --- @field QuickKeybindGlow Texture
 MultiBar7 = {}
-MultiBar7["buttonTemplate"] = "MultiBar7ButtonTemplate"
-MultiBar7["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBar7["buttonTemplate"] = _G["\"MultiBar7ButtonTemplate\""]
+MultiBar7["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
 

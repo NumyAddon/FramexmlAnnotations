@@ -103,7 +103,7 @@ MiniMapCraftingOrderIcon = {}
 --- @field MinimapPulseAnim MinimapCluster_MinimapContainer_Minimap_MinimapBackdrop_ExpansionLandingPageMinimapButton_MinimapPulseAnim
 --- @field MinimapAlertAnim MinimapCluster_MinimapContainer_Minimap_MinimapBackdrop_ExpansionLandingPageMinimapButton_MinimapAlertAnim
 ExpansionLandingPageMinimapButton = {}
-ExpansionLandingPageMinimapButton["defaultOffsetX"] = -3
+ExpansionLandingPageMinimapButton["defaultOffsetX"] = _G["-3"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L224)
 --- child of MinimapBackdrop
@@ -142,6 +142,6 @@ Minimap = {}
 --- @field MinimapContainer MinimapCluster_MinimapContainer
 --- @field InstanceDifficulty MinimapCluster_InstanceDifficulty
 MinimapCluster = {}
-MinimapCluster["widthPadding"] = 20
-MinimapCluster["system"] = Enum.EditModeSystem.Minimap -- inherited
+MinimapCluster["widthPadding"] = _G["20"]
+MinimapCluster["system"] = _G["Enum.EditModeSystem.Minimap"] -- inherited
 

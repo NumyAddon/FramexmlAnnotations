@@ -140,5 +140,5 @@ SubscriptionInterstitialFrameTopTileStreaks = {}
 SubscriptionInterstitialFrame = {}
 SubscriptionInterstitialFrame["Bg"] = SubscriptionInterstitialFrameBg -- inherited
 SubscriptionInterstitialFrame["TopTileStreaks"] = SubscriptionInterstitialFrameTopTileStreaks -- inherited
-SubscriptionInterstitialFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
+SubscriptionInterstitialFrame["layoutType"] = _G["\"ButtonFrameTemplateNoPortrait\""] -- inherited
 

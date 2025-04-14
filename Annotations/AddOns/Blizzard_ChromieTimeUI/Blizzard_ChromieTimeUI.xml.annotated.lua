@@ -75,5 +75,5 @@
 --- @field CurrentlySelectedExpansionInfoFrame ChromieTimeFrame_CurrentlySelectedExpansionInfoFrame
 --- @field OptionsFrame Frame
 ChromieTimeFrame = {}
-ChromieTimeFrame["layoutType"] = "WoodenNeutralFrameTemplate"
+ChromieTimeFrame["layoutType"] = _G["\"WoodenNeutralFrameTemplate\""]
 

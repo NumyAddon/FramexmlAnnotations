@@ -1031,7 +1031,7 @@ PartyMemberBuffTooltipDebuff8 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L40)
 --- @class PartyMemberBuffTooltip : Frame, TooltipBackdropTemplate
 PartyMemberBuffTooltip = {}
-PartyMemberBuffTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+PartyMemberBuffTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L266)
 --- @class PartyMemberBackground : Frame, BackdropTemplate

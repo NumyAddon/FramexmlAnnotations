@@ -137,7 +137,7 @@
 --- @field Comment LFGBrowseSearchEntryTooltip_Comment
 --- @field MemberCount LFGBrowseSearchEntryTooltip_MemberCount
 LFGBrowseSearchEntryTooltip = {}
-LFGBrowseSearchEntryTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
+LFGBrowseSearchEntryTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L284)
 --- child of LFGBrowseFrameCategoryDropDown (created in template UIDropDownMenuTemplate)
@@ -242,7 +242,7 @@ LFGBrowseFrameScrollBox["canInterpolateScroll"] = false -- inherited
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrame_LFGBrowseFrameScrollBar : EventFrame, WowClassicScrollBar
 LFGBrowseFrameScrollBar = {}
-LFGBrowseFrameScrollBar["minThumbExtent"] = _G["24"] -- inherited
+LFGBrowseFrameScrollBar["minThumbExtent"] = 24 -- inherited
 LFGBrowseFrameScrollBar["canInterpolateScroll"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L427)

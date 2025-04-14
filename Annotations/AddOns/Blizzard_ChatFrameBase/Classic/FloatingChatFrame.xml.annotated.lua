@@ -262,7 +262,7 @@ ChatFrame1ButtonFrame = {}
 ChatFrame1ButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 ChatFrame1ButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 ChatFrame1ButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-ChatFrame1ButtonFrame["fixedWidth"] = _G["29"]
+ChatFrame1ButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L537)
 --- child of ChatFrame1 (created in template FloatingChatFrameTemplate)
@@ -371,7 +371,7 @@ ChatFrame1["Background"] = ChatFrame1Background -- inherited
 --- @class ChatFrameMenuButton : DropdownButton, ChatFrameMenuButtonMixin
 --- @field layoutIndex number # 0
 ChatFrameMenuButton = {}
-ChatFrameMenuButton["layoutIndex"] = _G["0"]
+ChatFrameMenuButton["layoutIndex"] = 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L795)
 --- @class ChatFrameChannelButton : Button, VoiceToggleButtonTemplate, ChannelFrameButtonMixin
@@ -379,7 +379,7 @@ ChatFrameMenuButton["layoutIndex"] = _G["0"]
 --- @field Flash Texture
 ChatFrameChannelButton = {}
 ChatFrameChannelButton["layoutIndex"] = _G["-1"]
-ChatFrameChannelButton["fixedWidth"] = _G["27"] -- inherited
+ChatFrameChannelButton["fixedWidth"] = 27 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L827)
 --- child of FriendsMicroButton
@@ -497,7 +497,7 @@ ChatFrame2ButtonFrame = {}
 ChatFrame2ButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 ChatFrame2ButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 ChatFrame2ButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-ChatFrame2ButtonFrame["fixedWidth"] = _G["29"]
+ChatFrame2ButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L537)
 --- child of ChatFrame2 (created in template FloatingChatFrameTemplate)
@@ -703,7 +703,7 @@ ChatFrame3ButtonFrame = {}
 ChatFrame3ButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 ChatFrame3ButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 ChatFrame3ButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-ChatFrame3ButtonFrame["fixedWidth"] = _G["29"]
+ChatFrame3ButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L537)
 --- child of ChatFrame3 (created in template FloatingChatFrameTemplate)
@@ -909,7 +909,7 @@ ChatFrame4ButtonFrame = {}
 ChatFrame4ButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 ChatFrame4ButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 ChatFrame4ButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-ChatFrame4ButtonFrame["fixedWidth"] = _G["29"]
+ChatFrame4ButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L537)
 --- child of ChatFrame4 (created in template FloatingChatFrameTemplate)
@@ -1115,7 +1115,7 @@ ChatFrame5ButtonFrame = {}
 ChatFrame5ButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 ChatFrame5ButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 ChatFrame5ButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-ChatFrame5ButtonFrame["fixedWidth"] = _G["29"]
+ChatFrame5ButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L537)
 --- child of ChatFrame5 (created in template FloatingChatFrameTemplate)
@@ -1321,7 +1321,7 @@ ChatFrame6ButtonFrame = {}
 ChatFrame6ButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 ChatFrame6ButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 ChatFrame6ButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-ChatFrame6ButtonFrame["fixedWidth"] = _G["29"]
+ChatFrame6ButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L537)
 --- child of ChatFrame6 (created in template FloatingChatFrameTemplate)
@@ -1527,7 +1527,7 @@ ChatFrame7ButtonFrame = {}
 ChatFrame7ButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 ChatFrame7ButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 ChatFrame7ButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-ChatFrame7ButtonFrame["fixedWidth"] = _G["29"]
+ChatFrame7ButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L537)
 --- child of ChatFrame7 (created in template FloatingChatFrameTemplate)
@@ -1733,7 +1733,7 @@ ChatFrame8ButtonFrame = {}
 ChatFrame8ButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 ChatFrame8ButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 ChatFrame8ButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-ChatFrame8ButtonFrame["fixedWidth"] = _G["29"]
+ChatFrame8ButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L537)
 --- child of ChatFrame8 (created in template FloatingChatFrameTemplate)
@@ -1939,7 +1939,7 @@ ChatFrame9ButtonFrame = {}
 ChatFrame9ButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 ChatFrame9ButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 ChatFrame9ButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-ChatFrame9ButtonFrame["fixedWidth"] = _G["29"]
+ChatFrame9ButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L537)
 --- child of ChatFrame9 (created in template FloatingChatFrameTemplate)
@@ -2145,7 +2145,7 @@ ChatFrame10ButtonFrame = {}
 ChatFrame10ButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 ChatFrame10ButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 ChatFrame10ButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-ChatFrame10ButtonFrame["fixedWidth"] = _G["29"]
+ChatFrame10ButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L537)
 --- child of ChatFrame10 (created in template FloatingChatFrameTemplate)

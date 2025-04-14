@@ -97,7 +97,7 @@ GMChatFrameButtonFrame = {}
 GMChatFrameButtonFrame["bottomButton"] = FloatingChatFrameTemplateButtonFrameBottomButton
 GMChatFrameButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownButton
 GMChatFrameButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
-GMChatFrameButtonFrame["fixedWidth"] = _G["29"]
+GMChatFrameButtonFrame["fixedWidth"] = 29
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L537)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
@@ -232,5 +232,5 @@ GMChatFrame["Background"] = GMChatFrameBackground -- inherited
 --- @field SubtitleText GMChatStatusFrame_SubtitleText
 --- @field Icon Texture
 GMChatStatusFrame = {}
-GMChatStatusFrame["layoutType"] = _G["\"GMChatRequest\""]
+GMChatStatusFrame["layoutType"] = "GMChatRequest"
 

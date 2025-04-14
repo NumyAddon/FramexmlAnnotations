@@ -101,7 +101,7 @@ BarberShopFrameMaleButtonDisableTexture = {}
 --- @class BarberShopFrame_BarberShopFrameMaleButton : CheckButton, CharacterCreateGenderButtonTemplate
 --- @field layoutIndex number # 1
 BarberShopFrameMaleButton = {}
-BarberShopFrameMaleButton["layoutIndex"] = _G["1"]
+BarberShopFrameMaleButton["layoutIndex"] = 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L80)
 --- child of BarberShopFrameFemaleButton (created in template CharacterCreateGenderButtonTemplate)
@@ -183,7 +183,7 @@ BarberShopFrameFemaleButton = {}
 --- @class BarberShopFrame_BarberShopFrameOkayButton : Button, UIPanelButtonTemplate
 --- @field layoutIndex number # 12
 BarberShopFrameOkayButton = {}
-BarberShopFrameOkayButton["layoutIndex"] = _G["12"]
+BarberShopFrameOkayButton["layoutIndex"] = 12
 BarberShopFrameOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L448)
@@ -197,7 +197,7 @@ BarberShopFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class BarberShopFrame_BarberShopFrameResetButton : Button, UIPanelButtonTemplate
 --- @field layoutIndex number # 13
 BarberShopFrameResetButton = {}
-BarberShopFrameResetButton["layoutIndex"] = _G["13"]
+BarberShopFrameResetButton["layoutIndex"] = 13
 BarberShopFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L146)
@@ -214,7 +214,7 @@ BarberShopFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @field CustomSelector4 BarberShopFrame_CustomSelector4
 --- @field Selector table<number, BarberShopFrame_FaceSelector | BarberShopFrame_HairStyleSelector | BarberShopFrame_HairColorSelector | BarberShopFrame_FacialHairSelector | BarberShopFrame_SkinColorSelector | BarberShopFrame_CustomSelector1 | BarberShopFrame_CustomSelector2 | BarberShopFrame_CustomSelector3 | BarberShopFrame_CustomSelector4>
 BarberShopFrame = {}
-BarberShopFrame["fixedWidth"] = _G["271"]
+BarberShopFrame["fixedWidth"] = 271
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L499)
 --- child of BarberShopBannerFrame
@@ -235,7 +235,7 @@ BarberShopBannerFrame = {}
 --- @class BarbersChoiceConfirmFrame_BarbersChoiceConfirmFrameBarbersChoiceOkayButton : Button, UIPanelButtonTemplate
 --- @field layoutIndex number # 3
 BarbersChoiceConfirmFrameBarbersChoiceOkayButton = {}
-BarbersChoiceConfirmFrameBarbersChoiceOkayButton["layoutIndex"] = _G["3"]
+BarbersChoiceConfirmFrameBarbersChoiceOkayButton["layoutIndex"] = 3
 BarbersChoiceConfirmFrameBarbersChoiceOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L607)
@@ -243,7 +243,7 @@ BarbersChoiceConfirmFrameBarbersChoiceOkayButton["fitTextCanWidthDecrease"] = tr
 --- @class BarbersChoiceConfirmFrame_BarbersChoiceConfirmFrameBarbersChoiceCancelButton : Button, UIPanelButtonTemplate
 --- @field layoutIndex number # 4
 BarbersChoiceConfirmFrameBarbersChoiceCancelButton = {}
-BarbersChoiceConfirmFrameBarbersChoiceCancelButton["layoutIndex"] = _G["4"]
+BarbersChoiceConfirmFrameBarbersChoiceCancelButton["layoutIndex"] = 4
 BarbersChoiceConfirmFrameBarbersChoiceCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L621)
@@ -251,11 +251,11 @@ BarbersChoiceConfirmFrameBarbersChoiceCancelButton["fitTextCanWidthDecrease"] = 
 --- @class BarbersChoiceConfirmFrame_BarbersChoiceBottomPadder : Frame
 --- @field layoutIndex number # 5
 BarbersChoiceBottomPadder = {}
-BarbersChoiceBottomPadder["layoutIndex"] = _G["5"]
+BarbersChoiceBottomPadder["layoutIndex"] = 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L528)
 --- @class BarbersChoiceConfirmFrame : Frame, VerticalLayoutFrame
 --- @field fixedWidth number # 271
 BarbersChoiceConfirmFrame = {}
-BarbersChoiceConfirmFrame["fixedWidth"] = _G["271"]
+BarbersChoiceConfirmFrame["fixedWidth"] = 271
 

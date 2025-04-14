@@ -59,7 +59,7 @@ EngravingFrameSideInsetBg = {}
 --- child of EngravingFrame
 --- @class EngravingFrame_EngravingFrameSideInset : Frame, InsetFrameTemplate
 EngravingFrameSideInset = {}
-EngravingFrameSideInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
+EngravingFrameSideInset["layoutType"] = "InsetFrameTemplate" -- inherited
 EngravingFrameSideInset["Bg"] = EngravingFrameSideInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L183)

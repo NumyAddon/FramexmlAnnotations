@@ -393,5 +393,5 @@ ReforgingFrame["BotRightCorner"] = ReforgingFrameBotRightCorner -- inherited
 ReforgingFrame["BottomBorder"] = ReforgingFrameBottomBorder -- inherited
 ReforgingFrame["LeftBorder"] = ReforgingFrameLeftBorder -- inherited
 ReforgingFrame["RightBorder"] = ReforgingFrameRightBorder -- inherited
-ReforgingFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
+ReforgingFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

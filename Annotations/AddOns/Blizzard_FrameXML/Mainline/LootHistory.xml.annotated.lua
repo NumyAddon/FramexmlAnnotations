@@ -176,7 +176,7 @@ GroupLootHistoryFrameBg = {}
 --- @field NoInfoString GroupLootHistoryFrame_NoInfoString
 --- @field uncommittedRegions table<number, GroupLootHistoryFrame_EncounterDropdown>
 GroupLootHistoryFrame = {}
-GroupLootHistoryFrame["panelMaxHeight"] = 590
+GroupLootHistoryFrame["panelMaxHeight"] = _G["590"]
 GroupLootHistoryFrame["Bg"] = GroupLootHistoryFrameBg -- inherited
-GroupLootHistoryFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
+GroupLootHistoryFrame["layoutType"] = _G["\"ButtonFrameTemplateNoPortrait\""] -- inherited
 

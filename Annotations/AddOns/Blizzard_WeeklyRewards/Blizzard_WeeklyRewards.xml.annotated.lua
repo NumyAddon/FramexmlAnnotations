@@ -310,5 +310,5 @@ WeeklyRewardsFrame = {}
 --- @field WarningIcon Texture
 --- @field Description WeeklyRewardExpirationWarningDialog_Description
 WeeklyRewardExpirationWarningDialog = {}
-WeeklyRewardExpirationWarningDialog["layoutType"] = "TooltipMixedLayout"
+WeeklyRewardExpirationWarningDialog["layoutType"] = _G["\"TooltipMixedLayout\""]
 

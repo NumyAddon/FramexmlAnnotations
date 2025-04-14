@@ -173,7 +173,7 @@ PrimaryProfession1SpellButtonTopHighlight = {}
 --- child of PrimaryProfession1 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_PrimaryProfessionTemplateSpellButtonTop
 PrimaryProfession1SpellButtonTop = {}
-PrimaryProfession1SpellButtonTop["popupDirection"] = "DOWN" -- inherited
+PrimaryProfession1SpellButtonTop["popupDirection"] = _G["\"DOWN\""] -- inherited
 PrimaryProfession1SpellButtonTop["cooldown"] = PrimaryProfession1SpellButtonTopCooldown -- inherited
 PrimaryProfession1SpellButtonTop["IconTexture"] = PrimaryProfession1SpellButtonTopIconTexture -- inherited
 PrimaryProfession1SpellButtonTop["spellString"] = PrimaryProfession1SpellButtonTopSpellName -- inherited
@@ -214,7 +214,7 @@ PrimaryProfession1SpellButtonBottomHighlight = {}
 --- child of PrimaryProfession1 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_PrimaryProfessionTemplateSpellButtonBottom
 PrimaryProfession1SpellButtonBottom = {}
-PrimaryProfession1SpellButtonBottom["popupDirection"] = "DOWN" -- inherited
+PrimaryProfession1SpellButtonBottom["popupDirection"] = _G["\"DOWN\""] -- inherited
 PrimaryProfession1SpellButtonBottom["cooldown"] = PrimaryProfession1SpellButtonBottomCooldown -- inherited
 PrimaryProfession1SpellButtonBottom["IconTexture"] = PrimaryProfession1SpellButtonBottomIconTexture -- inherited
 PrimaryProfession1SpellButtonBottom["spellString"] = PrimaryProfession1SpellButtonBottomSpellName -- inherited
@@ -347,7 +347,7 @@ PrimaryProfession2SpellButtonTopHighlight = {}
 --- child of PrimaryProfession2 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_PrimaryProfessionTemplateSpellButtonTop
 PrimaryProfession2SpellButtonTop = {}
-PrimaryProfession2SpellButtonTop["popupDirection"] = "DOWN" -- inherited
+PrimaryProfession2SpellButtonTop["popupDirection"] = _G["\"DOWN\""] -- inherited
 PrimaryProfession2SpellButtonTop["cooldown"] = PrimaryProfession2SpellButtonTopCooldown -- inherited
 PrimaryProfession2SpellButtonTop["IconTexture"] = PrimaryProfession2SpellButtonTopIconTexture -- inherited
 PrimaryProfession2SpellButtonTop["spellString"] = PrimaryProfession2SpellButtonTopSpellName -- inherited
@@ -388,7 +388,7 @@ PrimaryProfession2SpellButtonBottomHighlight = {}
 --- child of PrimaryProfession2 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_PrimaryProfessionTemplateSpellButtonBottom
 PrimaryProfession2SpellButtonBottom = {}
-PrimaryProfession2SpellButtonBottom["popupDirection"] = "DOWN" -- inherited
+PrimaryProfession2SpellButtonBottom["popupDirection"] = _G["\"DOWN\""] -- inherited
 PrimaryProfession2SpellButtonBottom["cooldown"] = PrimaryProfession2SpellButtonBottomCooldown -- inherited
 PrimaryProfession2SpellButtonBottom["IconTexture"] = PrimaryProfession2SpellButtonBottomIconTexture -- inherited
 PrimaryProfession2SpellButtonBottom["spellString"] = PrimaryProfession2SpellButtonBottomSpellName -- inherited
@@ -521,7 +521,7 @@ SecondaryProfession1SpellButtonRightHighlight = {}
 --- child of SecondaryProfession1 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SecondaryProfessionTemplateSpellButtonRight
 SecondaryProfession1SpellButtonRight = {}
-SecondaryProfession1SpellButtonRight["popupDirection"] = "DOWN" -- inherited
+SecondaryProfession1SpellButtonRight["popupDirection"] = _G["\"DOWN\""] -- inherited
 SecondaryProfession1SpellButtonRight["cooldown"] = SecondaryProfession1SpellButtonRightCooldown -- inherited
 SecondaryProfession1SpellButtonRight["IconTexture"] = SecondaryProfession1SpellButtonRightIconTexture -- inherited
 SecondaryProfession1SpellButtonRight["spellString"] = SecondaryProfession1SpellButtonRightSpellName -- inherited
@@ -562,7 +562,7 @@ SecondaryProfession1SpellButtonLeftHighlight = {}
 --- child of SecondaryProfession1 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SecondaryProfessionTemplateSpellButtonLeft
 SecondaryProfession1SpellButtonLeft = {}
-SecondaryProfession1SpellButtonLeft["popupDirection"] = "DOWN" -- inherited
+SecondaryProfession1SpellButtonLeft["popupDirection"] = _G["\"DOWN\""] -- inherited
 SecondaryProfession1SpellButtonLeft["cooldown"] = SecondaryProfession1SpellButtonLeftCooldown -- inherited
 SecondaryProfession1SpellButtonLeft["IconTexture"] = SecondaryProfession1SpellButtonLeftIconTexture -- inherited
 SecondaryProfession1SpellButtonLeft["spellString"] = SecondaryProfession1SpellButtonLeftSpellName -- inherited
@@ -678,7 +678,7 @@ SecondaryProfession2SpellButtonRightHighlight = {}
 --- child of SecondaryProfession2 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SecondaryProfessionTemplateSpellButtonRight
 SecondaryProfession2SpellButtonRight = {}
-SecondaryProfession2SpellButtonRight["popupDirection"] = "DOWN" -- inherited
+SecondaryProfession2SpellButtonRight["popupDirection"] = _G["\"DOWN\""] -- inherited
 SecondaryProfession2SpellButtonRight["cooldown"] = SecondaryProfession2SpellButtonRightCooldown -- inherited
 SecondaryProfession2SpellButtonRight["IconTexture"] = SecondaryProfession2SpellButtonRightIconTexture -- inherited
 SecondaryProfession2SpellButtonRight["spellString"] = SecondaryProfession2SpellButtonRightSpellName -- inherited
@@ -719,7 +719,7 @@ SecondaryProfession2SpellButtonLeftHighlight = {}
 --- child of SecondaryProfession2 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SecondaryProfessionTemplateSpellButtonLeft
 SecondaryProfession2SpellButtonLeft = {}
-SecondaryProfession2SpellButtonLeft["popupDirection"] = "DOWN" -- inherited
+SecondaryProfession2SpellButtonLeft["popupDirection"] = _G["\"DOWN\""] -- inherited
 SecondaryProfession2SpellButtonLeft["cooldown"] = SecondaryProfession2SpellButtonLeftCooldown -- inherited
 SecondaryProfession2SpellButtonLeft["IconTexture"] = SecondaryProfession2SpellButtonLeftIconTexture -- inherited
 SecondaryProfession2SpellButtonLeft["spellString"] = SecondaryProfession2SpellButtonLeftSpellName -- inherited
@@ -835,7 +835,7 @@ SecondaryProfession3SpellButtonRightHighlight = {}
 --- child of SecondaryProfession3 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SecondaryProfessionTemplateSpellButtonRight
 SecondaryProfession3SpellButtonRight = {}
-SecondaryProfession3SpellButtonRight["popupDirection"] = "DOWN" -- inherited
+SecondaryProfession3SpellButtonRight["popupDirection"] = _G["\"DOWN\""] -- inherited
 SecondaryProfession3SpellButtonRight["cooldown"] = SecondaryProfession3SpellButtonRightCooldown -- inherited
 SecondaryProfession3SpellButtonRight["IconTexture"] = SecondaryProfession3SpellButtonRightIconTexture -- inherited
 SecondaryProfession3SpellButtonRight["spellString"] = SecondaryProfession3SpellButtonRightSpellName -- inherited
@@ -876,7 +876,7 @@ SecondaryProfession3SpellButtonLeftHighlight = {}
 --- child of SecondaryProfession3 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SecondaryProfessionTemplateSpellButtonLeft
 SecondaryProfession3SpellButtonLeft = {}
-SecondaryProfession3SpellButtonLeft["popupDirection"] = "DOWN" -- inherited
+SecondaryProfession3SpellButtonLeft["popupDirection"] = _G["\"DOWN\""] -- inherited
 SecondaryProfession3SpellButtonLeft["cooldown"] = SecondaryProfession3SpellButtonLeftCooldown -- inherited
 SecondaryProfession3SpellButtonLeft["IconTexture"] = SecondaryProfession3SpellButtonLeftIconTexture -- inherited
 SecondaryProfession3SpellButtonLeft["spellString"] = SecondaryProfession3SpellButtonLeftSpellName -- inherited
@@ -977,7 +977,7 @@ ProfessionsBookPage2 = {}
 --- child of ProfessionsBookFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 ProfessionsBookFrameInset = {}
-ProfessionsBookFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+ProfessionsBookFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L1154)
 --- child of ProfessionsBookFrame (created in template ButtonFrameBaseTemplate)
@@ -997,5 +997,5 @@ ProfessionsBookFrame["MainHelpButton"] = ProfessionsBookFrameTutorialButton
 ProfessionsBookFrame["Inset"] = ProfessionsBookFrameInset -- inherited
 ProfessionsBookFrame["CloseButton"] = ProfessionsBookFrameCloseButton -- inherited
 ProfessionsBookFrame["Bg"] = ProfessionsBookFrameBg -- inherited
-ProfessionsBookFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+ProfessionsBookFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

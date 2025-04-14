@@ -225,5 +225,5 @@ EditModeUnsavedChangesDialog = {}
 --- @field Buttons EditModeSystemSettingsDialog_Buttons
 --- @field Title EditModeSystemSettingsDialog_Title
 EditModeSystemSettingsDialog = {}
-EditModeSystemSettingsDialog["widthPadding"] = 40
+EditModeSystemSettingsDialog["widthPadding"] = _G["40"]
 

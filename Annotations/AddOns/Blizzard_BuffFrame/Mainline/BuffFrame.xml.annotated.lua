@@ -53,14 +53,15 @@
 --- @class BuffFrame_CollapseAndExpandButton : CheckButton, CollapseAndExpandButtonMixin
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L116)
 --- @class BuffFrame : Frame, AuraFrameTemplate, BuffFrameMixin
 --- @field exampleAuraType string # "Buff"
 --- @field CollapseAndExpandButton BuffFrame_CollapseAndExpandButton
 BuffFrame = {}
-BuffFrame["exampleAuraType"] = "Buff"
-BuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
+BuffFrame["exampleAuraType"] = _G["\"Buff\""]
+BuffFrame["system"] = _G["Enum.EditModeSystem.AuraFrame"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L174)
 --- child of DebuffFrame
@@ -79,8 +80,8 @@ BuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
 --- @field privateAuraAnchor2 DebuffFrame_privateAuraAnchor2
 --- @field PrivateAuraAnchors table<number, DebuffFrame_privateAuraAnchor1 | DebuffFrame_privateAuraAnchor2>
 DebuffFrame = {}
-DebuffFrame["exampleAuraType"] = "Debuff"
-DebuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
+DebuffFrame["exampleAuraType"] = _G["\"Debuff\""]
+DebuffFrame["system"] = _G["Enum.EditModeSystem.AuraFrame"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L208)
 --- child of DeadlyDebuffFrame

@@ -333,19 +333,19 @@ PetJournalSummonRandomFavoritePetButton["spellname"] = PetJournalSummonRandomFav
 --- child of PetJournal
 --- @class PetJournal_PetJournalLeftInset : Frame, InsetFrameTemplate
 PetJournalLeftInset = {}
-PetJournalLeftInset["layoutType"] = "InsetFrameTemplate" -- inherited
+PetJournalLeftInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L938)
 --- child of PetJournal
 --- @class PetJournal_PetJournalPetCardInset : Frame, InsetFrameTemplate
 PetJournalPetCardInset = {}
-PetJournalPetCardInset["layoutType"] = "InsetFrameTemplate" -- inherited
+PetJournalPetCardInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L944)
 --- child of PetJournal
 --- @class PetJournal_PetJournalRightInset : Frame, InsetFrameTemplate
 PetJournalRightInset = {}
-PetJournalRightInset["layoutType"] = "InsetFrameTemplate" -- inherited
+PetJournalRightInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L1516)
 --- child of PetJournalSearchBox (created in template SearchBoxTemplate)
@@ -1665,10 +1665,10 @@ PetJournal["SpellSelect"] = PetJournalSpellSelect
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L1791)
 --- @class PetJournalPrimaryAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 PetJournalPrimaryAbilityTooltip = {}
-PetJournalPrimaryAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+PetJournalPrimaryAbilityTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Blizzard_PetCollection.xml#L1792)
 --- @class PetJournalSecondaryAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 PetJournalSecondaryAbilityTooltip = {}
-PetJournalSecondaryAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+PetJournalSecondaryAbilityTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 

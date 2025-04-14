@@ -21,5 +21,5 @@ EvokerEbonMightBarText = {}
 --- @field overflowAnim EvokerEbonMightBar_overflowAnim
 EvokerEbonMightBar = {}
 EvokerEbonMightBar["baseMixin"] = PlayerFrameAlternatePowerBarBaseMixin -- inherited
-EvokerEbonMightBar["powerName"] = "EBON_MIGHT" -- inherited
+EvokerEbonMightBar["powerName"] = _G["\"EBON_MIGHT\""] -- inherited
 

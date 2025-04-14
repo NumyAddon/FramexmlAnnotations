@@ -506,7 +506,7 @@ BankFrameMoneyFrame["GoldButton"] = BankFrameMoneyFrameGoldButton -- inherited
 --- @field Bag7 BankFrame_BankSlotsFrame_Bag7
 BankSlotsFrame = {}
 BankSlotsFrame["Item1"] = BankFrameItem1
-BankSlotsFrame["layoutType"] = "InsetFrameTemplate"
+BankSlotsFrame["layoutType"] = _G["\"InsetFrameTemplate\""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L915)
 --- child of ReagentBankFrame
@@ -635,7 +635,7 @@ ReagentBankFrameUnlockInfo["CostMoneyFrame"] = ReagentBankFrameUnlockInfoCostMon
 --- @field BG1 Texture
 ReagentBankFrame = {}
 ReagentBankFrame["UnlockInfo"] = ReagentBankFrameUnlockInfo
-ReagentBankFrame["layoutType"] = "InsetFrameTemplate"
+ReagentBankFrame["layoutType"] = _G["\"InsetFrameTemplate\""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1074)
 --- child of AccountBankPanel
@@ -688,7 +688,7 @@ ReagentBankFrame["layoutType"] = "InsetFrameTemplate"
 --- @field TabSettingsMenu BankFrame_AccountBankPanel_TabSettingsMenu
 --- @field Prompts table<number, BankFrame_AccountBankPanel_PurchasePrompt | BankFrame_AccountBankPanel_LockPrompt>
 AccountBankPanel = {}
-AccountBankPanel["layoutType"] = "InsetFrameTemplate"
+AccountBankPanel["layoutType"] = _G["\"InsetFrameTemplate\""]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L703)
 --- child of BankFrame
@@ -712,7 +712,7 @@ BankFrameBg = {}
 BankFrame = {}
 BankFrame["CloseButton"] = BankFrameCloseButton -- inherited
 BankFrame["Bg"] = BankFrameBg -- inherited
-BankFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+BankFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1160)
 --- child of BankCleanUpConfirmationPopup
@@ -753,5 +753,5 @@ BankFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- @field CancelButton BankCleanUpConfirmationPopup_CancelButton
 --- @field Text BankCleanUpConfirmationPopup_Text
 BankCleanUpConfirmationPopup = {}
-BankCleanUpConfirmationPopup["minimumWidth"] = 420
+BankCleanUpConfirmationPopup["minimumWidth"] = _G["420"]
 

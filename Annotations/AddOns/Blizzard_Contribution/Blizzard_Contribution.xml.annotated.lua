@@ -85,7 +85,7 @@
 --- @field CloseButton ContributionCollectionFrame_CloseButton
 --- @field Background Texture
 ContributionCollectionFrame = {}
-ContributionCollectionFrame["fixedWidth"] = 869
+ContributionCollectionFrame["fixedWidth"] = _G["869"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L297)
 --- child of ContributionBuffTooltip
@@ -107,5 +107,5 @@ ContributionCollectionFrame["fixedWidth"] = 869
 --- @field Description ContributionBuffTooltip_Description
 --- @field Footer ContributionBuffTooltip_Footer
 ContributionBuffTooltip = {}
-ContributionBuffTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+ContributionBuffTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 

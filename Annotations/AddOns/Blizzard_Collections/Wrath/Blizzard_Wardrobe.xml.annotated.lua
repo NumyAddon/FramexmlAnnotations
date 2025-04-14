@@ -120,7 +120,7 @@ WardrobeCollectionFrameTab1HighlightTexture = {}
 --- @class WardrobeCollectionFrame_WardrobeCollectionFrameTab1 : Button, PanelTopTabButtonTemplate
 --- @field minWidth number # 57
 WardrobeCollectionFrameTab1 = {}
-WardrobeCollectionFrameTab1["minWidth"] = 57
+WardrobeCollectionFrameTab1["minWidth"] = _G["57"]
 WardrobeCollectionFrameTab1["LeftDisabled"] = WardrobeCollectionFrameTab1LeftDisabled -- inherited
 WardrobeCollectionFrameTab1["MiddleDisabled"] = WardrobeCollectionFrameTab1MiddleDisabled -- inherited
 WardrobeCollectionFrameTab1["RightDisabled"] = WardrobeCollectionFrameTab1RightDisabled -- inherited
@@ -824,5 +824,5 @@ WardrobeFrame["BotRightCorner"] = WardrobeFrameBotRightCorner -- inherited
 WardrobeFrame["BottomBorder"] = WardrobeFrameBottomBorder -- inherited
 WardrobeFrame["LeftBorder"] = WardrobeFrameLeftBorder -- inherited
 WardrobeFrame["RightBorder"] = WardrobeFrameRightBorder -- inherited
-WardrobeFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+WardrobeFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

@@ -242,7 +242,7 @@ LootFrameInsetBg = {}
 --- child of LootFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 LootFrameInset = {}
-LootFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+LootFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 LootFrameInset["Bg"] = LootFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L827)
@@ -354,7 +354,7 @@ LootFrame["BotRightCorner"] = LootFrameBotRightCorner -- inherited
 LootFrame["BottomBorder"] = LootFrameBottomBorder -- inherited
 LootFrame["LeftBorder"] = LootFrameLeftBorder -- inherited
 LootFrame["RightBorder"] = LootFrameRightBorder -- inherited
-LootFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+LootFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L241)
 --- child of GroupLootFrameTemplate_IconFrame
@@ -555,6 +555,6 @@ GroupLootFrame4["Name"] = GroupLootFrame4Name -- inherited
 --- @field Item MasterLooterFrame_Item
 --- @field player1 MasterLooterFrame_player1
 MasterLooterFrame = {}
-MasterLooterFrame["backdropColorAlpha"] = 0.8 -- inherited
-MasterLooterFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
+MasterLooterFrame["backdropColorAlpha"] = _G["0.8"] -- inherited
+MasterLooterFrame["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 

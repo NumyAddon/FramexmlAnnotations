@@ -18,6 +18,7 @@
 --- @field Glow Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestPOI.xml#L77)
 --- child of QuestPOICompletedTemplate
@@ -32,4 +33,5 @@
 --- @field Glow Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
+--- @field PushedTexture Texture
 

@@ -235,7 +235,7 @@ LFGListingFrameActivityViewScrollBox["canInterpolateScroll"] = false -- inherite
 --- child of LFGListingFrameActivityView
 --- @class LFGListingFrame_LFGListingFrameActivityView_LFGListingFrameActivityViewScrollBar : EventFrame, WowClassicScrollBar
 LFGListingFrameActivityViewScrollBar = {}
-LFGListingFrameActivityViewScrollBar["minThumbExtent"] = 24 -- inherited
+LFGListingFrameActivityViewScrollBar["minThumbExtent"] = _G["24"] -- inherited
 LFGListingFrameActivityViewScrollBar["canInterpolateScroll"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L10)
@@ -266,8 +266,8 @@ LFGListingCommentScrollBar["ThumbTexture"] = LFGListingCommentScrollBarThumbText
 --- @class LFGListingFrame_LFGListingFrameActivityView_LFGListingComment : ScrollFrame, UIPanelInputScrollFrameTemplate
 --- @field maxLetters number # 255
 LFGListingComment = {}
-LFGListingComment["maxLetters"] = 255
-LFGListingComment["maxLetters"] = 0 -- inherited
+LFGListingComment["maxLetters"] = _G["255"]
+LFGListingComment["maxLetters"] = _G["0"] -- inherited
 LFGListingComment["ScrollBar"] = LFGListingCommentScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L522)

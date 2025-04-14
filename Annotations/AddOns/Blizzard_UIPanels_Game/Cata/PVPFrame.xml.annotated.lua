@@ -376,7 +376,7 @@ PVPFrameTopInsetBg = {}
 --- child of PVPFrame
 --- @class PVPFrame_PVPFrameTopInset : Frame, InsetFrameTemplate
 PVPFrameTopInset = {}
-PVPFrameTopInset["layoutType"] = "InsetFrameTemplate" -- inherited
+PVPFrameTopInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 PVPFrameTopInset["Bg"] = PVPFrameTopInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L544)
@@ -989,7 +989,7 @@ PVPTeam1DataWinLossLabel = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L321)
 --- child of PVPTeam1Data (created in template PVPTeamDataTemplate)
 --- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
-PVPTeam1Data- = {}
+_G["PVPTeam1Data-"] = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L330)
 --- child of PVPTeam1Data (created in template PVPTeamDataTemplate)
@@ -1124,7 +1124,7 @@ PVPTeam2DataWinLossLabel = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L321)
 --- child of PVPTeam2Data (created in template PVPTeamDataTemplate)
 --- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
-PVPTeam2Data- = {}
+_G["PVPTeam2Data-"] = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L330)
 --- child of PVPTeam2Data (created in template PVPTeamDataTemplate)
@@ -1259,7 +1259,7 @@ PVPTeam3DataWinLossLabel = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L321)
 --- child of PVPTeam3Data (created in template PVPTeamDataTemplate)
 --- @type PVPTeamDataTemplate_PVPTeamDataTemplate_
-PVPTeam3Data- = {}
+_G["PVPTeam3Data-"] = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L330)
 --- child of PVPTeam3Data (created in template PVPTeamDataTemplate)
@@ -2151,7 +2151,7 @@ PVPTeamDetailsWinLossLabel = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L1508)
 --- child of PVPTeamDetails
 --- @class PVPFrame_PVPTeamManagementFrame_PVPTeamDetails_PVPTeamDetails_ : FontString, GameFontHighlightSmall
-PVPTeamDetails- = {}
+_G["PVPTeamDetails-"] = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L1517)
 --- child of PVPTeamDetails
@@ -2420,7 +2420,7 @@ PVPFrameInsetBg = {}
 --- child of PVPFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 PVPFrameInset = {}
-PVPFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+PVPFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 PVPFrameInset["Bg"] = PVPFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L827)
@@ -2547,7 +2547,7 @@ PVPFrame["BotRightCorner"] = PVPFrameBotRightCorner -- inherited
 PVPFrame["BottomBorder"] = PVPFrameBottomBorder -- inherited
 PVPFrame["LeftBorder"] = PVPFrameLeftBorder -- inherited
 PVPFrame["RightBorder"] = PVPFrameRightBorder -- inherited
-PVPFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+PVPFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2056)
 --- @class PVPTimerFrame : Frame

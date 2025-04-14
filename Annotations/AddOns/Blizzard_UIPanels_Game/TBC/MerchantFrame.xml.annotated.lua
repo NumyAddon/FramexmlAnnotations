@@ -1648,7 +1648,7 @@ MerchantMoneyInsetBg = {}
 --- child of MerchantFrame
 --- @class MerchantFrame_MerchantMoneyInset : Frame, InsetFrameTemplate
 MerchantMoneyInset = {}
-MerchantMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
+MerchantMoneyInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 MerchantMoneyInset["Bg"] = MerchantMoneyInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L1665)
@@ -1834,7 +1834,7 @@ MerchantFrameInsetBg = {}
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 MerchantFrameInset = {}
-MerchantFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+MerchantFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 MerchantFrameInset["Bg"] = MerchantFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L827)
@@ -1946,5 +1946,5 @@ MerchantFrame["BotRightCorner"] = MerchantFrameBotRightCorner -- inherited
 MerchantFrame["BottomBorder"] = MerchantFrameBottomBorder -- inherited
 MerchantFrame["LeftBorder"] = MerchantFrameLeftBorder -- inherited
 MerchantFrame["RightBorder"] = MerchantFrameRightBorder -- inherited
-MerchantFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+MerchantFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 

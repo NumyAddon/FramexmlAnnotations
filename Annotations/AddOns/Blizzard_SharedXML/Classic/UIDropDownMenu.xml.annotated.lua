@@ -10,7 +10,7 @@ DropDownList1Backdrop["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32
 --- child of DropDownList1 (created in template UIDropDownListTemplate)
 --- @type UIDropDownListTemplate_UIDropDownListTemplateMenuBackdrop
 DropDownList1MenuBackdrop = {}
-DropDownList1MenuBackdrop["layoutType"] = "TooltipDefaultLayout" -- inherited
+DropDownList1MenuBackdrop["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenu.xml#L48)
 --- child of DropDownList1Button1 (created in template UIDropDownMenuButtonTemplate)
@@ -370,7 +370,7 @@ DropDownList2Backdrop["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32
 --- child of DropDownList2 (created in template UIDropDownListTemplate)
 --- @type UIDropDownListTemplate_UIDropDownListTemplateMenuBackdrop
 DropDownList2MenuBackdrop = {}
-DropDownList2MenuBackdrop["layoutType"] = "TooltipDefaultLayout" -- inherited
+DropDownList2MenuBackdrop["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenu.xml#L48)
 --- child of DropDownList2Button1 (created in template UIDropDownMenuButtonTemplate)
@@ -730,7 +730,7 @@ DropDownList3Backdrop["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32
 --- child of DropDownList3 (created in template UIDropDownListTemplate)
 --- @type UIDropDownListTemplate_UIDropDownListTemplateMenuBackdrop
 DropDownList3MenuBackdrop = {}
-DropDownList3MenuBackdrop["layoutType"] = "TooltipDefaultLayout" -- inherited
+DropDownList3MenuBackdrop["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Classic/UIDropDownMenu.xml#L48)
 --- child of DropDownList3Button1 (created in template UIDropDownMenuButtonTemplate)

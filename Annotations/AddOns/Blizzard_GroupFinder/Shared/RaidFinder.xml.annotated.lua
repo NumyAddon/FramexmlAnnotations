@@ -22,7 +22,7 @@ RaidFinderFrameRoleInsetBg = {}
 --- child of RaidFinderFrame
 --- @class RaidFinderFrame_RaidFinderFrameRoleInset : Frame, InsetFrameTemplate
 RaidFinderFrameRoleInset = {}
-RaidFinderFrameRoleInset["layoutType"] = "InsetFrameTemplate" -- inherited
+RaidFinderFrameRoleInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 RaidFinderFrameRoleInset["Bg"] = RaidFinderFrameRoleInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L805)
@@ -34,7 +34,7 @@ RaidFinderFrameBottomInsetBg = {}
 --- child of RaidFinderFrame
 --- @class RaidFinderFrame_RaidFinderFrameBottomInset : Frame, InsetFrameTemplate
 RaidFinderFrameBottomInset = {}
-RaidFinderFrameBottomInset["layoutType"] = "InsetFrameTemplate" -- inherited
+RaidFinderFrameBottomInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 RaidFinderFrameBottomInset["Bg"] = RaidFinderFrameBottomInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L188)
@@ -57,7 +57,7 @@ RaidFinderQueueFrameRoleButtonTankBackground = {}
 --- @class RaidFinderFrame_RaidFinderQueueFrame_RaidFinderQueueFrameRoleButtonTank : Button, RaidFinderRoleButtonTemplate
 --- @field role string # "TANK"
 RaidFinderQueueFrameRoleButtonTank = {}
-RaidFinderQueueFrameRoleButtonTank["role"] = "TANK"
+RaidFinderQueueFrameRoleButtonTank["role"] = _G["\"TANK\""]
 RaidFinderQueueFrameRoleButtonTank["incentiveIcon"] = RaidFinderQueueFrameRoleButtonTankIncentiveIcon -- inherited
 RaidFinderQueueFrameRoleButtonTank["shortageBorder"] = RaidFinderQueueFrameRoleButtonTankShortageBorder -- inherited
 RaidFinderQueueFrameRoleButtonTank["background"] = RaidFinderQueueFrameRoleButtonTankBackground -- inherited
@@ -82,7 +82,7 @@ RaidFinderQueueFrameRoleButtonHealerBackground = {}
 --- @class RaidFinderFrame_RaidFinderQueueFrame_RaidFinderQueueFrameRoleButtonHealer : Button, RaidFinderRoleButtonTemplate
 --- @field role string # "HEALER"
 RaidFinderQueueFrameRoleButtonHealer = {}
-RaidFinderQueueFrameRoleButtonHealer["role"] = "HEALER"
+RaidFinderQueueFrameRoleButtonHealer["role"] = _G["\"HEALER\""]
 RaidFinderQueueFrameRoleButtonHealer["incentiveIcon"] = RaidFinderQueueFrameRoleButtonHealerIncentiveIcon -- inherited
 RaidFinderQueueFrameRoleButtonHealer["shortageBorder"] = RaidFinderQueueFrameRoleButtonHealerShortageBorder -- inherited
 RaidFinderQueueFrameRoleButtonHealer["background"] = RaidFinderQueueFrameRoleButtonHealerBackground -- inherited
@@ -107,7 +107,7 @@ RaidFinderQueueFrameRoleButtonDPSBackground = {}
 --- @class RaidFinderFrame_RaidFinderQueueFrame_RaidFinderQueueFrameRoleButtonDPS : Button, RaidFinderRoleButtonTemplate
 --- @field role string # "DAMAGER"
 RaidFinderQueueFrameRoleButtonDPS = {}
-RaidFinderQueueFrameRoleButtonDPS["role"] = "DAMAGER"
+RaidFinderQueueFrameRoleButtonDPS["role"] = _G["\"DAMAGER\""]
 RaidFinderQueueFrameRoleButtonDPS["incentiveIcon"] = RaidFinderQueueFrameRoleButtonDPSIncentiveIcon -- inherited
 RaidFinderQueueFrameRoleButtonDPS["shortageBorder"] = RaidFinderQueueFrameRoleButtonDPSShortageBorder -- inherited
 RaidFinderQueueFrameRoleButtonDPS["background"] = RaidFinderQueueFrameRoleButtonDPSBackground -- inherited

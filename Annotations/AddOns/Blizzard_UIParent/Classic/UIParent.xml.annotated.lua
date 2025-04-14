@@ -24,5 +24,5 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIParent/Classic/UIParent.xml#L67)
 --- @class UIParentBottomManagedFrameContainer : Frame, UIParentManagedFrameContainer
 UIParentBottomManagedFrameContainer = {}
-UIParentBottomManagedFrameContainer["spacing"] = 10 -- inherited
+UIParentBottomManagedFrameContainer["spacing"] = _G["10"] -- inherited
 

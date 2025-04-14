@@ -107,7 +107,7 @@ TimeManagerFrameInsetBg = {}
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonFrameTemplateInset
 TimeManagerFrameInset = {}
-TimeManagerFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TimeManagerFrameInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 TimeManagerFrameInset["Bg"] = TimeManagerFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L827)
@@ -221,7 +221,7 @@ TimeManagerFrame["BotRightCorner"] = TimeManagerFrameBotRightCorner -- inherited
 TimeManagerFrame["BottomBorder"] = TimeManagerFrameBottomBorder -- inherited
 TimeManagerFrame["LeftBorder"] = TimeManagerFrameLeftBorder -- inherited
 TimeManagerFrame["RightBorder"] = TimeManagerFrameRightBorder -- inherited
-TimeManagerFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+TimeManagerFrame["layoutType"] = _G["\"PortraitFrameTemplate\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L193)
 --- child of TimeManagerClockButton

@@ -65,7 +65,7 @@ PetJournalLeftInsetBg = {}
 --- child of PetJournal
 --- @class PetJournal_PetJournalLeftInset : Frame, InsetFrameTemplate
 PetJournalLeftInset = {}
-PetJournalLeftInset["layoutType"] = "InsetFrameTemplate" -- inherited
+PetJournalLeftInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 PetJournalLeftInset["Bg"] = PetJournalLeftInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L805)
@@ -77,7 +77,7 @@ PetJournalRightInsetBg = {}
 --- child of PetJournal
 --- @class PetJournal_PetJournalRightInset : Frame, InsetFrameTemplate
 PetJournalRightInset = {}
-PetJournalRightInset["layoutType"] = "InsetFrameTemplate" -- inherited
+PetJournalRightInset["layoutType"] = _G["\"InsetFrameTemplate\""] -- inherited
 PetJournalRightInset["Bg"] = PetJournalRightInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L1220)

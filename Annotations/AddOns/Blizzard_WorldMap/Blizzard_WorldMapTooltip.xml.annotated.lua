@@ -58,7 +58,7 @@ WorldMapCompareTooltip1Texture3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L3)
 --- @class WorldMapCompareTooltip1 : GameTooltip, ShoppingTooltipTemplate
 WorldMapCompareTooltip1 = {}
-WorldMapCompareTooltip1["layoutType"] = "TooltipDefaultLayout" -- inherited
+WorldMapCompareTooltip1["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L268)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
@@ -118,7 +118,7 @@ WorldMapCompareTooltip2Texture3 = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L4)
 --- @class WorldMapCompareTooltip2 : GameTooltip, ShoppingTooltipTemplate
 WorldMapCompareTooltip2 = {}
-WorldMapCompareTooltip2["layoutType"] = "TooltipDefaultLayout" -- inherited
+WorldMapCompareTooltip2["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L222)
 --- child of WorldMapTooltipTooltip (created in template GameTooltipTemplate)
@@ -260,7 +260,7 @@ WorldMapTooltipTooltipTexture10 = {}
 --- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip
 WorldMapTooltipTooltip = {}
 WorldMapTooltipTooltip["IsEmbedded"] = true
-WorldMapTooltipTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+WorldMapTooltipTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L7)
 --- child of WorldMapTooltip
@@ -406,5 +406,5 @@ WorldMapTooltipTexture10 = {}
 --- @class WorldMapTooltip : GameTooltip, GameTooltipTemplate
 --- @field ItemTooltip WorldMapTooltip_ItemTooltip
 WorldMapTooltip = {}
-WorldMapTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+WorldMapTooltip["layoutType"] = _G["\"TooltipDefaultLayout\""] -- inherited
 

@@ -17,8 +17,9 @@ class XmlFileParser
     private const array TYPE_ALIASSES = [
         'FontFamily' => 'Font',
         'NormalTexture' => 'Texture',
-        'HighlightTexture' => 'Texture',
+        'HighlightTexture' => 'Texture', 
         'ThumbTexture' => 'Texture',
+        'PushedTexture' => 'Texture',
         'ColorWheelTexture' => 'Texture',
         'ColorWheelThumbTexture' => 'Texture',
         'ColorValueTexture' => 'Texture',
@@ -36,6 +37,7 @@ class XmlFileParser
         'NormalTexture',
         'HighlightTexture',
         'ThumbTexture',
+        'PushedTexture',
         'ColorWheelTexture',
         'ColorWheelThumbTexture',
         'ColorValueTexture',
@@ -191,8 +193,8 @@ class XmlFileParser
 
     private function wrapInGIfNeeded(string $name): string
     {
-        if (str_contains($name, '$')) {
-            return '_G["' . $name . '"]';
+        if (!preg_match('/^[A-z][A-z0-9]*$/', $name)) {
+            return '_G["' . str_replace('"', '\\"', $name) . '"]';
         }
 
         return $name;

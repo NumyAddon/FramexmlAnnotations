@@ -193,8 +193,8 @@ class XmlFileParser
 
     private function wrapInGIfNeeded(string $name): string
     {
-        if (!preg_match('/^[A-z][A-z0-9]*$/', $name)) {
-            return '_G["' . str_replace('"', '\\"', $name) . '"]';
+        if (str_contains($name, '$') || str_contains($name, '-')) {
+            return '_G["' . $name . '"]';
         }
 
         return $name;

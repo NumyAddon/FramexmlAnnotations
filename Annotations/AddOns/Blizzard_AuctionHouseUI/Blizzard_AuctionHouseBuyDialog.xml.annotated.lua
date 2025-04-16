@@ -36,6 +36,8 @@
 --- child of AuctionHouseBuyDialogTemplate
 --- @class AuctionHouseBuyDialogTemplate_PriceFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
+--- @field resizeToFit boolean # true
+--- @field useAuctionHouseIcons boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBuyDialog.xml#L83)
 --- child of AuctionHouseBuyDialogTemplate

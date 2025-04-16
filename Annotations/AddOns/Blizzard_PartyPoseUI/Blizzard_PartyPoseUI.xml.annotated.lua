@@ -33,7 +33,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L93)
 --- child of PartyPoseFrameTemplate
 --- @class PartyPoseFrameTemplate_Border : Frame, NineSlicePanelTemplate
---- @field layoutType string # "UniqueCornersLayout"
+--- @field layoutType string # UniqueCornersLayout
+--- @field layoutTextureKit string # partypose-scoreboard
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L118)
 --- child of PartyPoseFrameTemplate
@@ -49,35 +50,35 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L301)
 --- child of PartyPoseModelFrameTemplate
---- @class PartyPoseModelFrameTemplate_InsetBorderTopLeft : Texture, UI-Frame-InnerTopLeft
+--- @class PartyPoseModelFrameTemplate_InsetBorderTopLeft : Texture, UI_Frame_InnerTopLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L306)
 --- child of PartyPoseModelFrameTemplate
---- @class PartyPoseModelFrameTemplate_InsetBorderTopRight : Texture, UI-Frame-InnerTopRight
+--- @class PartyPoseModelFrameTemplate_InsetBorderTopRight : Texture, UI_Frame_InnerTopRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L312)
 --- child of PartyPoseModelFrameTemplate
---- @class PartyPoseModelFrameTemplate_InsetBorderBottomLeft : Texture, UI-Frame-InnerBotLeftCorner
+--- @class PartyPoseModelFrameTemplate_InsetBorderBottomLeft : Texture, UI_Frame_InnerBotLeftCorner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L318)
 --- child of PartyPoseModelFrameTemplate
---- @class PartyPoseModelFrameTemplate_InsetBorderBottomRight : Texture, UI-Frame-InnerBotRight
+--- @class PartyPoseModelFrameTemplate_InsetBorderBottomRight : Texture, UI_Frame_InnerBotRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L324)
 --- child of PartyPoseModelFrameTemplate
---- @class PartyPoseModelFrameTemplate_InsetBorderTop : Texture, _UI-Frame-InnerTopTile
+--- @class PartyPoseModelFrameTemplate_InsetBorderTop : Texture, _UI_Frame_InnerTopTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L330)
 --- child of PartyPoseModelFrameTemplate
---- @class PartyPoseModelFrameTemplate_InsetBorderBottom : Texture, _UI-Frame-InnerBotTile
+--- @class PartyPoseModelFrameTemplate_InsetBorderBottom : Texture, _UI_Frame_InnerBotTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L336)
 --- child of PartyPoseModelFrameTemplate
---- @class PartyPoseModelFrameTemplate_InsetBorderLeft : Texture, !UI-Frame-InnerLeftTile
+--- @class PartyPoseModelFrameTemplate_InsetBorderLeft : Texture, _UI_Frame_InnerLeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L342)
 --- child of PartyPoseModelFrameTemplate
---- @class PartyPoseModelFrameTemplate_InsetBorderRight : Texture, !UI-Frame-InnerRightTile
+--- @class PartyPoseModelFrameTemplate_InsetBorderRight : Texture, _UI_Frame_InnerRightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L165)
 --- Template

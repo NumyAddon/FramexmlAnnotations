@@ -22,6 +22,11 @@ UIWidgetManager = {}
 --- Template
 --- @class UIWidgetContainerNoResizeTemplate : Frame, UIWidgetContainerMixin
 --- @field showAndHideOnWidgetSetRegistration boolean # true
+--- @field verticalAnchorPoint string # TOP
+--- @field verticalRelativePoint string # BOTTOM
+--- @field horizontalAnchorPoint string # LEFT
+--- @field horizontalRelativePoint string # RIGHT
+--- @field horizontalAnchorXOffset number # 2
 --- @field FrontModelScene UIWidgetContainerNoResizeTemplate_FrontModelScene
 --- @field BackModelScene UIWidgetContainerNoResizeTemplate_BackModelScene
 

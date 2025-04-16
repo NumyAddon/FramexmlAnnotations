@@ -18,11 +18,18 @@
 --- Template
 --- @class EditModeManagerSettingCheckButtonTemplate : Frame, EditModeCheckButtonTemplate, EditModeManagerSettingCheckButtonMixin
 --- @field fixedWidth number # 225
+--- @field fixedHeight number # 32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.xml#L54)
 --- Template
 --- @class EditModeManagerSettingsOptionsContainerTemplate : Frame, GridLayoutFrame
 --- @field childXPadding number # 0
+--- @field childYPadding number # 0
+--- @field isHorizontal boolean # true
+--- @field stride number # 2
+--- @field layoutFramesGoingRight boolean # true
+--- @field layoutFramesGoingUp boolean # false
+--- @field alwaysUpdateLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.xml#L70)
 --- Template
@@ -77,6 +84,7 @@
 --- Template
 --- @class EditModeSettingCheckboxTemplate : Frame, ResizeLayoutFrame, EditModeSettingCheckboxMixin
 --- @field widthPadding number # -5
+--- @field fixedHeight number # 32
 --- @field Button EditModeSettingCheckboxTemplate_Button
 --- @field Label EditModeSettingCheckboxTemplate_Label
 

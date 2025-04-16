@@ -4,6 +4,8 @@
 --- child of PlayerChoicePowerChoiceTemplate
 --- @class PlayerChoicePowerChoiceTemplate_CircleBorder : Texture, PlayerChoiceBaseCenteredFrame
 --- @field layoutIndex number # 3
+--- @field topPadding number # -30
+--- @field bottomPadding number # -41
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.xml#L38)
 --- child of PlayerChoicePowerChoiceTemplate

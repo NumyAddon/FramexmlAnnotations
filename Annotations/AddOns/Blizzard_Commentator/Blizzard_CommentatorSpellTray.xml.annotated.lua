@@ -7,15 +7,18 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.xml#L12)
 --- Template
 --- @class CommentatorDefensiveTrayTemplate : Frame, CommentatorSpellTrayTemplate
---- @field spellTemplate string # "CommentatorSpellTemplate"
+--- @field spellTemplate string # CommentatorSpellTemplate
+--- @field category any # Enum.TrackedSpellCategory.Defensive
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.xml#L19)
 --- Template
 --- @class CommentatorDebuffTrayTemplate : Frame, CommentatorSpellTrayTemplate
---- @field spellTemplate string # "CommentatorDebuffTemplate"
+--- @field spellTemplate string # CommentatorDebuffTemplate
+--- @field category any # Enum.TrackedSpellCategory.Debuff
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpellTray.xml#L26)
 --- Template
 --- @class CommentatorOffensiveTrayTemplate : Frame, CommentatorSpellTrayTemplate
---- @field spellTemplate string # "CommentatorSpellTemplate"
+--- @field spellTemplate string # CommentatorSpellTemplate
+--- @field category any # Enum.TrackedSpellCategory.Offensive
 

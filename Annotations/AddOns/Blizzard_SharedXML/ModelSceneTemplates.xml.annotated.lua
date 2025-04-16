@@ -9,11 +9,13 @@
 --- Template
 --- @class RotateOrbitCameraLeftButtonTemplate : Button, ModifyOrbitCameraBaseButtonTemplate
 --- @field cameraMode any # ORBIT_CAMERA_MOUSE_MODE_YAW_ROTATION
+--- @field amountPerSecond number # -3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L30)
 --- Template
 --- @class RotateOrbitCameraRightButtonTemplate : Button, ModifyOrbitCameraBaseButtonTemplate
 --- @field cameraMode any # ORBIT_CAMERA_MOUSE_MODE_YAW_ROTATION
+--- @field amountPerSecond number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L60)
 --- child of WrappedModelSceneTemplate
@@ -24,6 +26,7 @@
 --- Template
 --- @class WrappedModelSceneTemplate : ModelScene, ModelSceneMixinTemplate, WrappedModelSceneMixin
 --- @field normalIntensity number # 0.75
+--- @field highlightIntensity number # 1.2
 --- @field UnwrapAnim WrappedModelSceneTemplate_UnwrapAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L81)
@@ -35,6 +38,7 @@
 --- Template
 --- @class NonInteractableWrappedModelSceneTemplate : ModelScene, NonInteractableModelSceneMixinTemplate, WrappedModelSceneMixin
 --- @field normalIntensity number # 0.75
+--- @field highlightIntensity number # 1.2
 --- @field UnwrapAnim NonInteractableWrappedModelSceneTemplate_UnwrapAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ModelSceneTemplates.xml#L89)

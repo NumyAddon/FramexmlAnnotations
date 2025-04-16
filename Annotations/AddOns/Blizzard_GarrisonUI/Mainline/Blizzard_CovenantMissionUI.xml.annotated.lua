@@ -128,7 +128,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L302)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "AdventuresMissionComplete"
+--- @field layoutType string # AdventuresMissionComplete
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L307)
 --- child of CovenantMissionPageTemplate
@@ -174,7 +174,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L362)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_Board : Frame, AdventuresBoardTemplate
---- @field followerTemplate string # "AdventuresMissionPageFollowerPuckTemplate"
+--- @field followerTemplate string # AdventuresMissionPageFollowerPuckTemplate
 --- @field AllyHealthValue CovenantMissionPageTemplate_Board_AllyHealthValue
 --- @field AllyPowerValue CovenantMissionPageTemplate_Board_AllyPowerValue
 --- @field AllyPowerIcon Texture
@@ -214,40 +214,44 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L459)
 --- child of CovenantMissionFrame
---- @class CovenantMissionFrame_CovenantMissionFrameTab1 : Button, OrderHallFrameTabButtonTemplate
+--- @class CovenantMissionFrameTab1 : Button, OrderHallFrameTabButtonTemplate
 CovenantMissionFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L460)
 --- child of CovenantMissionFrame
---- @class CovenantMissionFrame_CovenantMissionFrameTab2 : Button, OrderHallFrameTabButtonTemplate
+--- @class CovenantMissionFrameTab2 : Button, OrderHallFrameTabButtonTemplate
 CovenantMissionFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L461)
 --- child of CovenantMissionFrame
---- @class CovenantMissionFrame_CovenantMissionFrameTab3 : Button, OrderHallFrameTabButtonTemplate
+--- @class CovenantMissionFrameTab3 : Button, OrderHallFrameTabButtonTemplate
 CovenantMissionFrameTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L482)
 --- child of CovenantMissionFrameFollowers
---- @class CovenantMissionFrame_CovenantMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
+--- @class CovenantMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L488)
 --- child of CovenantMissionFrameFollowers
---- @class CovenantMissionFrame_CovenantMissionFrameFollowers_HealAllButton : Button, UIPanelButtonTemplate
+--- @class CovenantMissionFrameFollowers_HealAllButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L474)
 --- child of CovenantMissionFrameFollowers
---- @class CovenantMissionFrame_CovenantMissionFrameFollowers_AdventurersLabel : FontString, GameFontHighlightLarge
+--- @class CovenantMissionFrameFollowers_AdventurersLabel : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L462)
 --- child of CovenantMissionFrame
---- @class CovenantMissionFrame_CovenantMissionFrameFollowers : Frame, CovenantFollowerListTemplate, GarrisonFollowerList, CovenantFollowerListMixin
---- @field followerTemplate string # "CovenantMissionFollowerOrCategoryListButtonTemplate"
---- @field MaterialFrame CovenantMissionFrame_CovenantMissionFrameFollowers_MaterialFrame
---- @field HealAllButton CovenantMissionFrame_CovenantMissionFrameFollowers_HealAllButton
---- @field AdventurersLabel CovenantMissionFrame_CovenantMissionFrameFollowers_AdventurersLabel
+--- @class CovenantMissionFrameFollowers : Frame, CovenantFollowerListTemplate, GarrisonFollowerList, CovenantFollowerListMixin
+--- @field followerTemplate string # CovenantMissionFollowerOrCategoryListButtonTemplate
+--- @field showUncollected boolean # true
+--- @field canCastSpellsOnFollowers boolean # true
+--- @field MaterialFrame CovenantMissionFrameFollowers_MaterialFrame
+--- @field HealAllButton CovenantMissionFrameFollowers_HealAllButton
+--- @field AdventurersLabel CovenantMissionFrameFollowers_AdventurersLabel
 CovenantMissionFrameFollowers = {}
 CovenantMissionFrameFollowers["followerTemplate"] = "CovenantMissionFollowerOrCategoryListButtonTemplate"
+CovenantMissionFrameFollowers["showUncollected"] = true
+CovenantMissionFrameFollowers["canCastSpellsOnFollowers"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L526)
 --- child of CovenantMissionFrame_MapTab_ScrollContainer
@@ -266,7 +270,7 @@ CovenantMissionFrameFollowers["followerTemplate"] = "CovenantMissionFollowerOrCa
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L552)
 --- child of CovenantMissionFrame_MissionTab
---- @class CovenantMissionFrame_MissionTab_CovenantMissionFrameMissions : Frame, CovenantMissionListTemplate, CovenantMissionListMixin
+--- @class CovenantMissionFrameMissions : Frame, CovenantMissionListTemplate, CovenantMissionListMixin
 CovenantMissionFrameMissions = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L562)
@@ -281,7 +285,7 @@ CovenantMissionFrameMissions = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L550)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrame_MissionTab : Frame
---- @field MissionList CovenantMissionFrame_MissionTab_CovenantMissionFrameMissions
+--- @field MissionList CovenantMissionFrameMissions
 --- @field ZoneSupportMissionPageBackground CovenantMissionFrame_MissionTab_ZoneSupportMissionPageBackground
 --- @field MissionPage CovenantMissionFrame_MissionTab_MissionPage
 
@@ -303,21 +307,21 @@ CombatLog = {}
 --- @field followerTypeID any # Enum.GarrisonFollowerType.FollowerType_9_0_GarrisonFollower
 --- @field OverlayElements CovenantMissionFrame_OverlayElements
 --- @field RaisedBorder CovenantMissionFrame_RaisedBorder
---- @field Tab1 CovenantMissionFrame_CovenantMissionFrameTab1
---- @field Tab2 CovenantMissionFrame_CovenantMissionFrameTab2
---- @field Tab3 CovenantMissionFrame_CovenantMissionFrameTab3
---- @field FollowerList CovenantMissionFrame_CovenantMissionFrameFollowers
+--- @field Tab1 CovenantMissionFrameTab1
+--- @field Tab2 CovenantMissionFrameTab2
+--- @field Tab3 CovenantMissionFrameTab3
+--- @field FollowerList CovenantMissionFrameFollowers
 --- @field MapTab CovenantMissionFrame_MapTab
 --- @field MissionTab CovenantMissionFrame_MissionTab
 --- @field FollowerTab CovenantMissionFrame_FollowerTab
 --- @field MissionCompleteBackground Frame
 --- @field MissionComplete CovenantMissionFrame_MissionComplete
 --- @field Border Texture
---- @field Tabs table<number, CovenantMissionFrame_CovenantMissionFrameTab1 | CovenantMissionFrame_CovenantMissionFrameTab2 | CovenantMissionFrame_CovenantMissionFrameTab3>
+--- @field Tabs table<number, CovenantMissionFrameTab1 | CovenantMissionFrameTab2 | CovenantMissionFrameTab3>
 CovenantMissionFrame = {}
 CovenantMissionFrame["Tab1"] = CovenantMissionFrameTab1
 CovenantMissionFrame["Tab2"] = CovenantMissionFrameTab2
 CovenantMissionFrame["Tab3"] = CovenantMissionFrameTab3
 CovenantMissionFrame["FollowerList"] = CovenantMissionFrameFollowers
-CovenantMissionFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_9_0_GarrisonFollower
+CovenantMissionFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_9_0_GarrisonFollower"]
 

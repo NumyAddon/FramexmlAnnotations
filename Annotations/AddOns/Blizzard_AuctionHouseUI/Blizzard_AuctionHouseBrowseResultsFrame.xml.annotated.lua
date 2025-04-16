@@ -4,6 +4,8 @@
 --- child of AuctionHouseBrowseResultsFrameTemplate
 --- @class AuctionHouseBrowseResultsFrameTemplate_ItemList : Frame, AuctionHouseItemListTemplate
 --- @field hideStripes boolean # true
+--- @field hideRefreshFrame boolean # true
+--- @field backgroundAtlas string # auctionhouse-background-index
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseBrowseResultsFrame.xml#L5)
 --- Template

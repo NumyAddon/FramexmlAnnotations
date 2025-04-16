@@ -104,7 +104,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L285)
 --- child of ConduitListTemplate
 --- @class ConduitListTemplate_ScrollBox : Frame, WowScrollBoxList
---- @field lowerShadow string # "Soulbinds_Collection_Shadow"
+--- @field lowerShadow string # Soulbinds_Collection_Shadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsConduitList.xml#L301)
 --- child of ConduitListTemplate_Clip

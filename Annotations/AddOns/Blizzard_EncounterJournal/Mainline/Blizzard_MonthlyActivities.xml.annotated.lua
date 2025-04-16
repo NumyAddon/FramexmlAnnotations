@@ -21,6 +21,7 @@
 --- child of MonthlyActivitiesButtonTemplate
 --- @class MonthlyActivitiesButtonTemplate_TextContainer : Frame, MonthlyActivitiesButtonTextContainerTemplate
 --- @field fixedWidth number # 370
+--- @field maximumHeight number # 55
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L74)
 --- child of MonthlyActivitiesButtonTemplate
@@ -56,6 +57,7 @@
 --- child of MonthlySupersedeActivitiesButtonTemplate
 --- @class MonthlySupersedeActivitiesButtonTemplate_TextContainer : Frame, MonthlyActivitiesButtonTextContainerTemplate
 --- @field fixedWidth number # 350
+--- @field maximumHeight number # 30
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.xml#L137)
 --- child of MonthlySupersedeActivitiesButtonTemplate

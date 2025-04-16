@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.xml#L17)
 --- child of AlternatePowerBarBaseTemplate
---- @class AlternatePowerBarBaseTemplate_AlternatePowerBarBaseTemplateText : FontString, TextStatusBarText
+--- @class AlternatePowerBarBaseTemplate_Text : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.xml#L22)
 --- child of AlternatePowerBarBaseTemplate
@@ -15,7 +15,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.xml#L5)
 --- Template
 --- @class AlternatePowerBarBaseTemplate : StatusBar, TextStatusBar, AlternatePowerBarBaseMixin
---- @field powerName string # "MANA"
+--- @field powerName string # MANA
+--- @field baseMixin any # nil
 --- @field LeftText AlternatePowerBarBaseTemplate_LeftText
 --- @field RightText AlternatePowerBarBaseTemplate_RightText
 --- @field PowerBarMask MaskTexture

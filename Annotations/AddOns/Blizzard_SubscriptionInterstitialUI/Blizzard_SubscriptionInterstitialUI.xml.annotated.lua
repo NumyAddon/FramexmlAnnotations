@@ -82,7 +82,7 @@ SubscriptionInterstitialFrameRight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L66)
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_SubscribeButton : Button, SubscriptionInterstitialSubscribeButtonTemplate, SubscriptionInterstitialSubscribeButtonMixin
---- @field backgroundAtlas string # "interstitial-newplayerexperience-subscribe"
+--- @field backgroundAtlas string # interstitial-newplayerexperience-subscribe
 --- @field FirstLine SubscriptionInterstitialFrame_SubscribeButton_FirstLine
 --- @field ThirdLine SubscriptionInterstitialFrame_SubscribeButton_ThirdLine
 --- @field SecondLine SubscriptionInterstitialFrame_SubscribeButton_SecondLine
@@ -106,7 +106,7 @@ SubscriptionInterstitialFrameRight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L117)
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_UpgradeButton : Button, SubscriptionInterstitialSubscribeButtonTemplate, SubscriptionInterstitialUpgradeButtonMixin
---- @field backgroundAtlas string # "interstitial-newplayerexperience-upgrade"
+--- @field backgroundAtlas string # interstitial-newplayerexperience-upgrade
 --- @field TitleLine SubscriptionInterstitialFrame_UpgradeButton_TitleLine
 --- @field TitleSubText SubscriptionInterstitialFrame_UpgradeButton_TitleSubText
 --- @field ButtonText SubscriptionInterstitialFrame_UpgradeButton_ButtonText
@@ -126,7 +126,7 @@ SubscriptionInterstitialFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L979)
 --- child of SubscriptionInterstitialFrame (created in template DefaultPanelTemplate)
---- @type DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks
+--- @type DefaultPanelTemplate_TopTileStreaks
 SubscriptionInterstitialFrameTopTileStreaks = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L46)

@@ -16,14 +16,14 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L106)
 --- child of QuestSpellTemplate
---- @class QuestSpellTemplate_QuestSpellTemplateName : FontString, GameFontHighlight
+--- @class QuestSpellTemplate_Name : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L80)
 --- Template
 --- @class QuestSpellTemplate : Button
 --- @field Icon Texture
 --- @field NameFrame Texture
---- @field Name QuestSpellTemplate_QuestSpellTemplateName
+--- @field Name QuestSpellTemplate_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L132)
 --- Template
@@ -34,4 +34,5 @@
 --- Template
 --- @class QuestScrollFrameTemplate : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 9
+--- @field scrollBarTopY number # -2
 

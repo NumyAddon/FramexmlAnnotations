@@ -42,23 +42,23 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L212)
 --- child of WorldMapNavBarTemplate
---- @class WorldMapNavBarTemplate_InsetBorderBottomLeft : Texture, UI-Frame-InnerBotLeftCorner
+--- @class WorldMapNavBarTemplate_InsetBorderBottomLeft : Texture, UI_Frame_InnerBotLeftCorner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L217)
 --- child of WorldMapNavBarTemplate
---- @class WorldMapNavBarTemplate_InsetBorderBottomRight : Texture, UI-Frame-InnerBotRight
+--- @class WorldMapNavBarTemplate_InsetBorderBottomRight : Texture, UI_Frame_InnerBotRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L222)
 --- child of WorldMapNavBarTemplate
---- @class WorldMapNavBarTemplate_InsetBorderBottom : Texture, _UI-Frame-InnerBotTile
+--- @class WorldMapNavBarTemplate_InsetBorderBottom : Texture, _UI_Frame_InnerBotTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L228)
 --- child of WorldMapNavBarTemplate
---- @class WorldMapNavBarTemplate_InsetBorderLeft : Texture, !UI-Frame-InnerLeftTile
+--- @class WorldMapNavBarTemplate_InsetBorderLeft : Texture, _UI_Frame_InnerLeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L234)
 --- child of WorldMapNavBarTemplate
---- @class WorldMapNavBarTemplate_InsetBorderRight : Texture, !UI-Frame-InnerRightTile
+--- @class WorldMapNavBarTemplate_InsetBorderRight : Texture, _UI_Frame_InnerRightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTemplates.xml#L206)
 --- Template

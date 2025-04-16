@@ -8,11 +8,16 @@
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_CategoryTabSystem : Frame, TabSystemTemplate
 --- @field minTabWidth number # 100
+--- @field maxTabWidth number # 150
+--- @field tabTemplate string # SpellBookCategoryTabTemplate
+--- @field tabSelectSound any # SOUNDKIT.IG_SPELLBOOK_OPEN
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L74)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_HidePassivesCheckButton : Frame, ResizeCheckButtonTemplate
 --- @field labelText any # SPELLBOOK_FILTER_PASSIVES
+--- @field labelFont string # GameFontNormalMed2
+--- @field disabledLabelFont string # GameFontDisableMed2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L84)
 --- child of SpellBookFrameTemplate
@@ -34,12 +39,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L128)
 --- child of SpellBookFrameTemplate_PagedSpellsFrame
 --- @class SpellBookFrameTemplate_PagedSpellsFrame_PagingControls : Frame, PagingControlsHorizontalTemplate
---- @field fontName string # "SystemFont_Med3"
+--- @field fontName string # SystemFont_Med3
+--- @field fontColor any # SPELLBOOK_FONT_COLOR
+--- @field spacing number # 8
+--- @field prevPageSound any # SOUNDKIT.IG_ABILITY_PAGE_TURN
+--- @field nextPageSound any # SOUNDKIT.IG_ABILITY_PAGE_TURN
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L101)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_PagedSpellsFrame : Frame, PagedCondensedVerticalGridContentFrameTemplate
 --- @field viewsPerPage number # 2
+--- @field autoExpandHeaders boolean # true
+--- @field spacerSize number # 20
+--- @field xPadding number # 15
+--- @field yPadding number # 10
+--- @field columnsPerRow number # 3
+--- @field autoExpandElements boolean # true
 --- @field View1 SpellBookFrameTemplate_PagedSpellsFrame_View1
 --- @field View2 SpellBookFrameTemplate_PagedSpellsFrame_View2
 --- @field PagingControls SpellBookFrameTemplate_PagedSpellsFrame_PagingControls

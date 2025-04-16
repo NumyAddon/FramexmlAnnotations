@@ -82,6 +82,7 @@
 --- Adds itself to the parent inside the array `Abilities`
 --- @class GarrisonFollowerPageAbilityTemplate : Frame
 --- @field followerTypeID number # 1
+--- @field hideCounters boolean # false
 --- @field IconButton GarrisonFollowerPageAbilityTemplate_IconButton
 --- @field Name GarrisonFollowerPageAbilityTemplate_Name
 --- @field Category GarrisonFollowerPageAbilityTemplate_Category
@@ -388,23 +389,23 @@ GarrisonMissionTutorialFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1261)
 --- child of GarrisonMissionListTemplate
---- @class GarrisonMissionListTemplate_GarrisonMissionListTemplateTab1 : Button, GarrisonMissionListTabTemplate
+--- @class GarrisonMissionListTemplate_Tab1 : Button, GarrisonMissionListTabTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1279)
 --- child of GarrisonMissionListTemplateTab2
---- @class GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartText : FontString, QuestFont_Huge
+--- @class GarrisonMissionListTemplate_Tab2_MissionStartText : FontString, QuestFont_Huge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1295)
 --- child of GarrisonMissionListTemplateTab2
---- @class GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartAnim : AnimationGroup
+--- @class GarrisonMissionListTemplate_Tab2_MissionStartAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1266)
 --- child of GarrisonMissionListTemplate
---- @class GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2 : Button, GarrisonMissionListTabTemplate
+--- @class GarrisonMissionListTemplate_Tab2 : Button, GarrisonMissionListTabTemplate
 --- @field MissionStart Texture
---- @field MissionStartText GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartText
+--- @field MissionStartText GarrisonMissionListTemplate_Tab2_MissionStartText
 --- @field GlowHighlight Texture
---- @field MissionStartAnim GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartAnim
+--- @field MissionStartAnim GarrisonMissionListTemplate_Tab2_MissionStartAnim
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1313)
 --- child of GarrisonMissionListTemplate
@@ -427,8 +428,8 @@ GarrisonMissionTutorialFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1246)
 --- Template
 --- @class GarrisonMissionListTemplate : Frame, GarrisonListTemplate, GarrisonMissionListMixin
---- @field Tab1 GarrisonMissionListTemplate_GarrisonMissionListTemplateTab1
---- @field Tab2 GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2
+--- @field Tab1 GarrisonMissionListTemplate_Tab1
+--- @field Tab2 GarrisonMissionListTemplate_Tab2
 --- @field MaterialFrame GarrisonMissionListTemplate_MaterialFrame
 --- @field CompleteDialog GarrisonMissionListTemplate_CompleteDialog
 --- @field EmptyListString GarrisonMissionListTemplate_EmptyListString
@@ -467,6 +468,8 @@ GarrisonMissionTutorialFrame = {}
 --- child of GarrisonFollowerTabTemplate_AbilitiesFrame
 --- @class GarrisonFollowerTabTemplate_AbilitiesFrame_CombatAllySpell1 : Button, GarrisonFollowerCombatAllySpellTemplate
 --- @field layoutIndex number # 402
+--- @field topPadding number # 0
+--- @field bottomPadding number # 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1520)
 --- child of GarrisonFollowerTabTemplate_AbilitiesFrame
@@ -476,31 +479,41 @@ GarrisonMissionTutorialFrame = {}
 --- child of GarrisonFollowerTabTemplate_AbilitiesFrame
 --- @class GarrisonFollowerTabTemplate_AbilitiesFrame_SpecializationLabel : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 100
+--- @field topPadding number # 10
+--- @field bottomPadding number # 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1467)
 --- child of GarrisonFollowerTabTemplate_AbilitiesFrame
 --- @class GarrisonFollowerTabTemplate_AbilitiesFrame_AbilitiesText : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 200
+--- @field topPadding number # 10
+--- @field bottomPadding number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1474)
 --- child of GarrisonFollowerTabTemplate_AbilitiesFrame
 --- @class GarrisonFollowerTabTemplate_AbilitiesFrame_TraitsText : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 300
+--- @field topPadding number # 10
+--- @field bottomPadding number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1481)
 --- child of GarrisonFollowerTabTemplate_AbilitiesFrame
 --- @class GarrisonFollowerTabTemplate_AbilitiesFrame_CombatAllyLabel : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 400
+--- @field topPadding number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1487)
 --- child of GarrisonFollowerTabTemplate_AbilitiesFrame
 --- @class GarrisonFollowerTabTemplate_AbilitiesFrame_CombatAllyDescriptionLabel : FontString, GameFontHighlight
 --- @field layoutIndex number # 401
+--- @field bottomPadding number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1494)
 --- child of GarrisonFollowerTabTemplate_AbilitiesFrame
 --- @class GarrisonFollowerTabTemplate_AbilitiesFrame_FlavorText : FontString, GameFontNormalLarge
 --- @field layoutIndex number # 500
+--- @field topPadding number # 30
+--- @field bottomPadding number # 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1504)
 --- child of GarrisonFollowerTabTemplate_AbilitiesFrame
@@ -510,6 +523,7 @@ GarrisonMissionTutorialFrame = {}
 --- child of GarrisonFollowerTabTemplate
 --- @class GarrisonFollowerTabTemplate_AbilitiesFrame : Frame, VerticalLayoutFrame, GarrisonAbilitiesFrameMixin
 --- @field expand boolean # true
+--- @field spacing number # 10
 --- @field CombatAllySpell1 GarrisonFollowerTabTemplate_AbilitiesFrame_CombatAllySpell1
 --- @field CombatAllySpell2 GarrisonFollowerTabTemplate_AbilitiesFrame_CombatAllySpell2
 --- @field SpecializationLabel GarrisonFollowerTabTemplate_AbilitiesFrame_SpecializationLabel
@@ -700,62 +714,66 @@ GarrisonMissionTutorialFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1871)
 --- child of GarrisonMissionFrame
---- @class GarrisonMissionFrame_GarrisonMissionFrameTab1 : Button, GarrisonMissionFrameTabTemplate
+--- @class GarrisonMissionFrameTab1 : Button, GarrisonMissionFrameTabTemplate
 GarrisonMissionFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1876)
 --- child of GarrisonMissionFrame
---- @class GarrisonMissionFrame_GarrisonMissionFrameTab2 : Button, GarrisonMissionFrameTabTemplate
+--- @class GarrisonMissionFrameTab2 : Button, GarrisonMissionFrameTabTemplate
 GarrisonMissionFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1888)
 --- child of GarrisonMissionFrameFollowers
---- @class GarrisonMissionFrame_GarrisonMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
+--- @class GarrisonMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1504)
---- child of GarrisonMissionFrame_GarrisonMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- child of GarrisonMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_ClearButton
 GarrisonMissionFrameFollowersClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1495)
---- child of GarrisonMissionFrame_GarrisonMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
+--- child of GarrisonMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 GarrisonMissionFrameFollowersSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1894)
 --- child of GarrisonMissionFrameFollowers
---- @class GarrisonMissionFrame_GarrisonMissionFrameFollowers_SearchBox : EditBox, SearchBoxTemplate
+--- @class GarrisonMissionFrameFollowers_SearchBox : EditBox, SearchBoxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1877)
 --- child of GarrisonMissionFrame
---- @class GarrisonMissionFrame_GarrisonMissionFrameFollowers : Frame, GarrisonListTemplateHeader, GarrisonFollowerList
+--- @class GarrisonMissionFrameFollowers : Frame, GarrisonListTemplateHeader, GarrisonFollowerList
 --- @field showUncollected boolean # true
---- @field MaterialFrame GarrisonMissionFrame_GarrisonMissionFrameFollowers_MaterialFrame
---- @field SearchBox GarrisonMissionFrame_GarrisonMissionFrameFollowers_SearchBox
+--- @field canCastSpellsOnFollowers boolean # true
+--- @field hasContextMenu boolean # true
+--- @field MaterialFrame GarrisonMissionFrameFollowers_MaterialFrame
+--- @field SearchBox GarrisonMissionFrameFollowers_SearchBox
 GarrisonMissionFrameFollowers = {}
 GarrisonMissionFrameFollowers["showUncollected"] = true
+GarrisonMissionFrameFollowers["canCastSpellsOnFollowers"] = true
+GarrisonMissionFrameFollowers["hasContextMenu"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1261)
 --- child of GarrisonMissionFrameMissions (created in template GarrisonMissionListTemplate)
---- @type GarrisonMissionListTemplate_GarrisonMissionListTemplateTab1
+--- @type GarrisonMissionListTemplate_Tab1
 GarrisonMissionFrameMissionsTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1279)
 --- child of GarrisonMissionListTemplateTab2
---- @class GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartText : FontString, QuestFont_Huge
+--- @class GarrisonMissionListTemplate_Tab2_MissionStartText : FontString, QuestFont_Huge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1295)
 --- child of GarrisonMissionListTemplateTab2
---- @class GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartAnim : AnimationGroup
+--- @class GarrisonMissionListTemplate_Tab2_MissionStartAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1266)
 --- child of GarrisonMissionFrameMissions (created in template GarrisonMissionListTemplate)
---- @type GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2
+--- @type GarrisonMissionListTemplate_Tab2
 GarrisonMissionFrameMissionsTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1912)
 --- child of GarrisonMissionFrame_MissionTab
---- @class GarrisonMissionFrame_MissionTab_GarrisonMissionFrameMissions : Frame, GarrisonMissionListTemplate
+--- @class GarrisonMissionFrameMissions : Frame, GarrisonMissionListTemplate
 GarrisonMissionFrameMissions = {}
 GarrisonMissionFrameMissions["Tab1"] = GarrisonMissionFrameMissionsTab1 -- inherited
 GarrisonMissionFrameMissions["Tab2"] = GarrisonMissionFrameMissionsTab2 -- inherited
@@ -811,7 +829,7 @@ GarrisonMissionFrameMissions["Tab2"] = GarrisonMissionFrameMissionsTab2 -- inher
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1910)
 --- child of GarrisonMissionFrame
 --- @class GarrisonMissionFrame_MissionTab : Frame
---- @field MissionList GarrisonMissionFrame_MissionTab_GarrisonMissionFrameMissions
+--- @field MissionList GarrisonMissionFrameMissions
 --- @field MissionPage GarrisonMissionFrame_MissionTab_MissionPage
 --- @field MissionCompletePreloadModels table<number, MissionCompletePreloadModelTemplate>
 
@@ -845,9 +863,9 @@ GarrisonMissionFrameMissions["Tab2"] = GarrisonMissionFrameMissionsTab2 -- inher
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1862)
 --- @class GarrisonMissionFrame : Frame, GarrisonMissionFrameTemplate, GarrisonUITemplate, GarrisonMission, GarrisonFollowerMission
 --- @field followerTypeID any # Enum.GarrisonFollowerType.FollowerType_6_0_GarrisonFollower
---- @field Tab1 GarrisonMissionFrame_GarrisonMissionFrameTab1
---- @field Tab2 GarrisonMissionFrame_GarrisonMissionFrameTab2
---- @field FollowerList GarrisonMissionFrame_GarrisonMissionFrameFollowers
+--- @field Tab1 GarrisonMissionFrameTab1
+--- @field Tab2 GarrisonMissionFrameTab2
+--- @field FollowerList GarrisonMissionFrameFollowers
 --- @field MissionTab GarrisonMissionFrame_MissionTab
 --- @field FollowerTab GarrisonMissionFrame_FollowerTab
 --- @field MissionCompleteBackground GarrisonMissionFrame_MissionCompleteBackground
@@ -856,7 +874,7 @@ GarrisonMissionFrame = {}
 GarrisonMissionFrame["Tab1"] = GarrisonMissionFrameTab1
 GarrisonMissionFrame["Tab2"] = GarrisonMissionFrameTab2
 GarrisonMissionFrame["FollowerList"] = GarrisonMissionFrameFollowers
-GarrisonMissionFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_6_0_GarrisonFollower
+GarrisonMissionFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_6_0_GarrisonFollower"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L2032)
 --- @class GarrisonFollowerPlacer : Frame, GarrisonFollowerPortraitTemplate

@@ -22,5 +22,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.xml#L80)
 --- Template
 --- @class TabSystemTemplate : Frame, HorizontalLayoutFrame, TabSystemMixin
---- @field tabTemplate string # "TabSystemButtonTemplate"
+--- @field tabTemplate string # TabSystemButtonTemplate
+--- @field spacing number # 1
+--- @field tabSelectSound any # SOUNDKIT.IG_CHARACTER_INFO_TAB
 

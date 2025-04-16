@@ -7,7 +7,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemBuyFrame.xml#L17)
 --- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_ItemDisplay : Button, AuctionHouseItemDisplayTemplate, AuctionHouseItemBuyItemDisplayMixin
---- @field backgroundAtlas string # "auctionhouse-background-buy-noncommodities-header"
+--- @field backgroundAtlas string # auctionhouse-background-buy-noncommodities-header
+--- @field itemButtonXOffset number # 22
+--- @field itemButtonYOffset number # -2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemBuyFrame.xml#L30)
 --- child of AuctionHouseItemBuyFrameTemplate
@@ -20,7 +22,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemBuyFrame.xml#L40)
 --- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_ItemList : Frame, AuctionHouseItemListTemplate
---- @field backgroundAtlas string # "auctionhouse-background-buy-noncommodities-market"
+--- @field backgroundAtlas string # auctionhouse-background-buy-noncommodities-market
+--- @field refreshFrameXOffset number # -4
+--- @field refreshFrameYOffset number # 132
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseItemBuyFrame.xml#L5)
 --- Template

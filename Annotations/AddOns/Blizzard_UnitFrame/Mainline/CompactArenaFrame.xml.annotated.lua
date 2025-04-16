@@ -75,5 +75,7 @@
 --- Template
 --- @class CompactArenaFrameTemplate : Frame, CompactPartyFrameTemplate, UIParentRightManagedFrameTemplate, EditModeArenaUnitFrameSystemTemplate, CompactArenaFrameMixin
 --- @field layoutIndex number # 12
+--- @field titleText any # ARENA
+--- @field groupType any # CompactRaidGroupTypeEnum.Arena
 --- @field PreMatchFramesContainer CompactArenaFrameTemplate_PreMatchFramesContainer
 

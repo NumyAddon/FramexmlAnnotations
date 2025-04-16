@@ -220,7 +220,7 @@ GarrisonTruncationFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L686)
 --- Template
 --- @class GarrisonThreatCountersFrameTemplate : Frame
---- @field listName string # "FollowerList"
+--- @field listName string # FollowerList
 --- @field ThreatsList table<number, GarrisonThreatCounterTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonSharedTemplates.xml#L705)

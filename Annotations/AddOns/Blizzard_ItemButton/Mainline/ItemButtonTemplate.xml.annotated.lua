@@ -2,19 +2,19 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L22)
 --- child of ItemButton
---- @class ItemButton_ItemButtonCount : FontString, NumberFontNormal
+--- @class ItemButton_Count : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L27)
 --- child of ItemButton
---- @class ItemButton_ItemButtonStock : FontString, NumberFontNormalYellow
+--- @class ItemButton_Stock : FontString, NumberFontNormalYellow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L5)
 --- Intrinsic
 --- @class ItemButton : Button, ItemButtonMixin
 --- @field showMatchHighlight boolean # true
 --- @field icon Texture
---- @field Count ItemButton_ItemButtonCount
---- @field Stock ItemButton_ItemButtonStock
+--- @field Count ItemButton_Count
+--- @field Stock ItemButton_Stock
 --- @field searchOverlay Texture
 --- @field ItemContextOverlay Texture
 --- @field IconBorder Texture
@@ -61,20 +61,20 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L224)
 --- child of SimplePopupButtonTemplate
---- @class SimplePopupButtonTemplate_SimplePopupButtonTemplateName : FontString, GameFontHighlightSmallOutline
+--- @class SimplePopupButtonTemplate_Name : FontString, GameFontHighlightSmallOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L220)
 --- Template
 --- @class SimplePopupButtonTemplate : CheckButton
---- @field Name SimplePopupButtonTemplate_SimplePopupButtonTemplateName
+--- @field Name SimplePopupButtonTemplate_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L264)
 --- child of LargeItemButtonTemplate
---- @class LargeItemButtonTemplate_LargeItemButtonTemplateName : FontString, GameFontHighlight
+--- @class LargeItemButtonTemplate_Name : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L296)
 --- child of LargeItemButtonTemplate
---- @class LargeItemButtonTemplate_LargeItemButtonTemplateCount : FontString, NumberFontNormal
+--- @class LargeItemButtonTemplate_Count : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L243)
 --- Template
@@ -82,11 +82,11 @@
 --- @field largeItemButton boolean # true
 --- @field Icon Texture
 --- @field NameFrame Texture
---- @field Name LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @field Name LargeItemButtonTemplate_Name
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
---- @field Count LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @field Count LargeItemButtonTemplate_Count
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L325)
 --- child of SmallItemButtonTemplate

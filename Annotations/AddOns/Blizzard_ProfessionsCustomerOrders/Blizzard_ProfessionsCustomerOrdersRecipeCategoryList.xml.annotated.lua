@@ -26,7 +26,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeCategoryList.xml#L67)
 --- Template
 --- @class ProfessionsCustomerOrdersRecipeCategoryListTemplate : Frame, ProfessionsCustomerOrdersRecipeCategoryListMixin
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 --- @field NineSlice ProfessionsCustomerOrdersRecipeCategoryListTemplate_NineSlice
 --- @field ScrollBox ProfessionsCustomerOrdersRecipeCategoryListTemplate_ScrollBox
 --- @field ScrollBar ProfessionsCustomerOrdersRecipeCategoryListTemplate_ScrollBar

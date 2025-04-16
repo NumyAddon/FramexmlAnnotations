@@ -10,6 +10,7 @@
 --- Template
 --- @class ExpStatusBarTemplate : Frame, StatusTrackingBarTemplate, ExpBarMixin
 --- @field fadeOutEntireBarAtMaxLevel boolean # true
+--- @field isExpBar boolean # true
 --- @field ExhaustionTick ExpStatusBarTemplate_ExhaustionTick
 --- @field ExhaustionLevelFillBar Texture
 

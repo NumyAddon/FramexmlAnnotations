@@ -6,12 +6,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L21)
 --- child of OptionsSmallCheckButtonTemplate
---- @class OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText : FontString, GameFontNormalSmall
+--- @class OptionsSmallCheckButtonTemplate_Text : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L18)
 --- Template
 --- @class OptionsSmallCheckButtonTemplate : CheckButton, OptionsBaseCheckButtonTemplate
---- @field Text OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+--- @field Text OptionsSmallCheckButtonTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L34)
 --- Template
@@ -29,6 +29,7 @@
 --- Template
 --- @class OptionsFrameTabButtonTemplate : Button
 --- @field deselectedTextY number # -3
+--- @field selectedTextY number # -2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L118)
 --- child of OptionsListButtonTemplate

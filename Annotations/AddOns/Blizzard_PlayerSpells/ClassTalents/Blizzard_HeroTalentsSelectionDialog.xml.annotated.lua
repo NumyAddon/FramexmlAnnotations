@@ -24,12 +24,13 @@ HeroTalentsSelectionDialogBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L979)
 --- child of HeroTalentsSelectionDialog (created in template DefaultPanelTemplate)
---- @type DefaultPanelTemplate_DefaultPanelTemplateTopTileStreaks
+--- @type DefaultPanelTemplate_TopTileStreaks
 HeroTalentsSelectionDialogTopTileStreaks = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L4)
 --- @class HeroTalentsSelectionDialog : Frame, DefaultPanelTemplate, HeroTalentsSelectionMixin
 --- @field checkFitExtraWidth number # 0
+--- @field checkFitExtraHeight number # 200
 --- @field CoverFrame HeroTalentsSelectionDialog_CoverFrame
 --- @field CloseButton HeroTalentsSelectionDialog_CloseButton
 --- @field SpecOptionsContainer HeroTalentsSelectionDialog_SpecOptionsContainer
@@ -37,6 +38,7 @@ HeroTalentsSelectionDialogTopTileStreaks = {}
 --- @field Background Texture
 HeroTalentsSelectionDialog = {}
 HeroTalentsSelectionDialog["checkFitExtraWidth"] = 0
+HeroTalentsSelectionDialog["checkFitExtraHeight"] = 200
 HeroTalentsSelectionDialog["Bg"] = HeroTalentsSelectionDialogBg -- inherited
 HeroTalentsSelectionDialog["TopTileStreaks"] = HeroTalentsSelectionDialogTopTileStreaks -- inherited
 HeroTalentsSelectionDialog["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
@@ -104,7 +106,9 @@ HeroTalentsSelectionDialog["layoutType"] = "ButtonFrameTemplateNoPortrait" -- in
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L167)
 --- Template
 --- @class HeroTalentSpecContentTemplate : Frame, HeroTalentSpecFXTemplate, HeroTalentSpecContentMixin
---- @field expand string # "true"
+--- @field expand string # true
+--- @field helpTipOffsetX number # 0
+--- @field helpTipOffsetY number # -80
 --- @field NodesContainer Frame
 --- @field CurrencyFrame HeroTalentSpecContentTemplate_CurrencyFrame
 --- @field ActivateButton HeroTalentSpecContentTemplate_ActivateButton

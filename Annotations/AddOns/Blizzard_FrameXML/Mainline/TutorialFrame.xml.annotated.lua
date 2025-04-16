@@ -2,29 +2,29 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L139)
 --- child of TutorialFrameTextScrollChildFrame
---- @class TutorialFrame_TutorialFrameTextScrollFrame_TutorialFrameTextScrollChildFrame_TutorialFrameText : FontString, GameFontNormal
+--- @class TutorialFrameText : FontString, GameFontNormal
 TutorialFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L135)
 --- child of TutorialFrameTextScrollFrame
---- @class TutorialFrame_TutorialFrameTextScrollFrame_TutorialFrameTextScrollChildFrame : Frame
+--- @class TutorialFrameTextScrollChildFrame : Frame
 TutorialFrameTextScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L126)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameTextScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @class TutorialFrameTextScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
 TutorialFrameTextScrollFrame = {}
 TutorialFrameTextScrollFrame["scrollBarHideIfUnscrollable"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L158)
 --- child of TutorialTextBorder
---- @class TutorialFrame_TutorialTextBorder_tomtest : Texture
+--- @class tomtest : Texture
 tomtest = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L151)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialTextBorder : Frame
+--- @class TutorialTextBorder : Frame
 TutorialTextBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L167)
@@ -34,149 +34,151 @@ TutorialFrameCallOutPulser = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L164)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameCallOut : Frame, BackdropTemplate
+--- @class TutorialFrameCallOut : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_CALLOUT_GLOW_0_16
+--- @field backdropBorderBlendMode string # ADD
 TutorialFrameCallOut = {}
 TutorialFrameCallOut["backdropInfo"] = BACKDROP_CALLOUT_GLOW_0_16
+TutorialFrameCallOut["backdropBorderBlendMode"] = "ADD"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L175)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
+--- @class TutorialFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
 TutorialFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L180)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameOkayButton : Button
+--- @class TutorialFrameOkayButton : Button
 TutorialFrameOkayButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L195)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFramePrevButton : Button
+--- @class TutorialFramePrevButton : Button
 TutorialFramePrevButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L220)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameNextButton : Button
+--- @class TutorialFrameNextButton : Button
 TutorialFrameNextButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L245)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialNPCModel : PlayerModel
+--- @class TutorialNPCModel : PlayerModel
 TutorialNPCModel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L20)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameBackground : Texture
+--- @class TutorialFrameBackground : Texture
 TutorialFrameBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L29)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameTop : Texture
+--- @class TutorialFrameTop : Texture
 TutorialFrameTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L36)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameBottom : Texture
+--- @class TutorialFrameBottom : Texture
 TutorialFrameBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L42)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameMouseLeftClick : Texture
+--- @class TutorialFrameMouseLeftClick : Texture
 TutorialFrameMouseLeftClick = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L46)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameMouseRightClick : Texture
+--- @class TutorialFrameMouseRightClick : Texture
 TutorialFrameMouseRightClick = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L50)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameMouseBothClick : Texture
+--- @class TutorialFrameMouseBothClick : Texture
 TutorialFrameMouseBothClick = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L54)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameMouseWheel : Texture
+--- @class TutorialFrameMouseWheel : Texture
 TutorialFrameMouseWheel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L59)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowUp : Texture
+--- @class TutorialFrameArrowUp : Texture
 TutorialFrameArrowUp = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L63)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowDown : Texture
+--- @class TutorialFrameArrowDown : Texture
 TutorialFrameArrowDown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L67)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowRight : Texture
+--- @class TutorialFrameArrowRight : Texture
 TutorialFrameArrowRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L71)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowLeft : Texture
+--- @class TutorialFrameArrowLeft : Texture
 TutorialFrameArrowLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L76)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowCurveUpRight : Texture
+--- @class TutorialFrameArrowCurveUpRight : Texture
 TutorialFrameArrowCurveUpRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L80)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowCurveUpLeft : Texture
+--- @class TutorialFrameArrowCurveUpLeft : Texture
 TutorialFrameArrowCurveUpLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L84)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowCurveDownRight : Texture
+--- @class TutorialFrameArrowCurveDownRight : Texture
 TutorialFrameArrowCurveDownRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L88)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowCurveDownLeft : Texture
+--- @class TutorialFrameArrowCurveDownLeft : Texture
 TutorialFrameArrowCurveDownLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L93)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowCurveRightDown : Texture
+--- @class TutorialFrameArrowCurveRightDown : Texture
 TutorialFrameArrowCurveRightDown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L97)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowCurveRightUp : Texture
+--- @class TutorialFrameArrowCurveRightUp : Texture
 TutorialFrameArrowCurveRightUp = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L101)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowCurveLeftDown : Texture
+--- @class TutorialFrameArrowCurveLeftDown : Texture
 TutorialFrameArrowCurveLeftDown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L105)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameArrowCurveLeftUp : Texture
+--- @class TutorialFrameArrowCurveLeftUp : Texture
 TutorialFrameArrowCurveLeftUp = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L110)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameTitle : FontString, GameFontHighlight
+--- @class TutorialFrameTitle : FontString, GameFontHighlight
 TutorialFrameTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L118)
 --- child of TutorialFrame
---- @class TutorialFrame_TutorialFrameMouse : Texture
+--- @class TutorialFrameMouse : Texture
 TutorialFrameMouse = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L8)
 --- child of TutorialFrame
---- @class TutorialFrame_AnimateMouse : AnimationGroup
+--- @class AnimateMouse : AnimationGroup
 AnimateMouse = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L11)
 --- child of TutorialFrame
---- @class TutorialFrame_AnimateCallout : AnimationGroup
+--- @class AnimateCallout : AnimationGroup
 AnimateCallout = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L3)
@@ -191,11 +193,14 @@ TutorialFrame["onCloseCallback"] = TutorialFrame_Hide
 TutorialFrameAlertButton = {}
 TutorialFrameAlertButton["layoutIndex"] = 24
 TutorialFrameAlertButton["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+TutorialFrameAlertButton["align"] = "center" -- inherited
+TutorialFrameAlertButton["hideWhenActionBarIsOverriden"] = true -- inherited
+TutorialFrameAlertButton["isBottomManagedFrame"] = true -- inherited
 TutorialFrameAlertButton["isManagedFrame"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L305)
 --- child of TutorialFrameAlertButtonBadge
---- @class TutorialFrameAlertButtonBadge_TutorialFrameAlertButtonBadgeText : FontString, GameFontNormal
+--- @class TutorialFrameAlertButtonBadgeText : FontString, GameFontNormal
 TutorialFrameAlertButtonBadgeText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L295)

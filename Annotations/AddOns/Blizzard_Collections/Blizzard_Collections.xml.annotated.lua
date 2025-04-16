@@ -6,32 +6,32 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L20)
 --- child of CollectionsJournal
---- @class CollectionsJournal_CollectionsJournalTab1 : Button, CollectionsJournalTab
+--- @class CollectionsJournalTab1 : Button, CollectionsJournalTab
 CollectionsJournalTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L25)
 --- child of CollectionsJournal
---- @class CollectionsJournal_CollectionsJournalTab2 : Button, CollectionsJournalTab
+--- @class CollectionsJournalTab2 : Button, CollectionsJournalTab
 CollectionsJournalTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L30)
 --- child of CollectionsJournal
---- @class CollectionsJournal_CollectionsJournalTab3 : Button, CollectionsJournalTab
+--- @class CollectionsJournalTab3 : Button, CollectionsJournalTab
 CollectionsJournalTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L35)
 --- child of CollectionsJournal
---- @class CollectionsJournal_CollectionsJournalTab4 : Button, CollectionsJournalTab
+--- @class CollectionsJournalTab4 : Button, CollectionsJournalTab
 CollectionsJournalTab4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L40)
 --- child of CollectionsJournal
---- @class CollectionsJournal_CollectionsJournalTab5 : Button, CollectionsJournalTab
+--- @class CollectionsJournalTab5 : Button, CollectionsJournalTab
 CollectionsJournalTab5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L1095)
 --- child of CollectionsJournal (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 CollectionsJournalCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L1062)
@@ -41,12 +41,12 @@ CollectionsJournalBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Blizzard_Collections.xml#L14)
 --- @class CollectionsJournal : Frame, PortraitFrameTemplate
---- @field MountsTab CollectionsJournal_CollectionsJournalTab1
---- @field PetsTab CollectionsJournal_CollectionsJournalTab2
---- @field ToysTab CollectionsJournal_CollectionsJournalTab3
---- @field HeirloomsTab CollectionsJournal_CollectionsJournalTab4
---- @field WardrobeTab CollectionsJournal_CollectionsJournalTab5
---- @field Tabs table<number, CollectionsJournal_CollectionsJournalTab1 | CollectionsJournal_CollectionsJournalTab2 | CollectionsJournal_CollectionsJournalTab3 | CollectionsJournal_CollectionsJournalTab4 | CollectionsJournal_CollectionsJournalTab5>
+--- @field MountsTab CollectionsJournalTab1
+--- @field PetsTab CollectionsJournalTab2
+--- @field ToysTab CollectionsJournalTab3
+--- @field HeirloomsTab CollectionsJournalTab4
+--- @field WardrobeTab CollectionsJournalTab5
+--- @field Tabs table<number, CollectionsJournalTab1 | CollectionsJournalTab2 | CollectionsJournalTab3 | CollectionsJournalTab4 | CollectionsJournalTab5>
 CollectionsJournal = {}
 CollectionsJournal["MountsTab"] = CollectionsJournalTab1
 CollectionsJournal["PetsTab"] = CollectionsJournalTab2

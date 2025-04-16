@@ -6,11 +6,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L45)
 --- child of UIDropDownMenuButtonTemplate
---- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateColorSwatch : Button, ColorSwatchTemplate
+--- @class UIDropDownMenuButtonTemplate_ColorSwatch : Button, ColorSwatchTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L63)
 --- child of UIDropDownMenuButtonTemplate
---- @class UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateExpandArrow : DropDownToggleButton, DropDownExpandArrowMixin
+--- @class UIDropDownMenuButtonTemplate_ExpandArrow : DropDownToggleButton, DropDownExpandArrowMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L85)
 --- child of UIDropDownMenuButtonTemplate
@@ -26,20 +26,20 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L118)
 --- child of UIDropDownListTemplate
---- @class UIDropDownListTemplate_UIDropDownListTemplateBackdrop : Frame, DialogBorderDarkTemplate
+--- @class UIDropDownListTemplate_Backdrop : Frame, DialogBorderDarkTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L119)
 --- child of UIDropDownListTemplate
---- @class UIDropDownListTemplate_UIDropDownListTemplateMenuBackdrop : Frame, TooltipBackdropTemplate
+--- @class UIDropDownListTemplate_MenuBackdrop : Frame, TooltipBackdropTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L120)
 --- child of UIDropDownListTemplate
---- @class UIDropDownListTemplate_UIDropDownListTemplateButton1 : Button, UIDropDownMenuButtonTemplate
+--- @class UIDropDownListTemplate_Button1 : Button, UIDropDownMenuButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L116)
 --- Template
 --- @class UIDropDownListTemplate : Button
---- @field Border UIDropDownListTemplate_UIDropDownListTemplateBackdrop
+--- @field Border UIDropDownListTemplate_Backdrop
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L138)
 --- Template
@@ -47,23 +47,23 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L190)
 --- child of UIDropDownMenuTemplate
---- @class UIDropDownMenuTemplate_UIDropDownMenuTemplateButton : DropDownToggleButton, UIDropDownMenuButtonScriptTemplate
+--- @class UIDropDownMenuTemplate_Button : DropDownToggleButton, UIDropDownMenuButtonScriptTemplate
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L171)
 --- child of UIDropDownMenuTemplate
---- @class UIDropDownMenuTemplate_UIDropDownMenuTemplateText : FontString, GameFontHighlightSmall
+--- @class UIDropDownMenuTemplate_Text : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L146)
 --- Template
 --- @class UIDropDownMenuTemplate : Frame
---- @field Button UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @field Button UIDropDownMenuTemplate_Button
 --- @field Left Texture
 --- @field Middle Texture
 --- @field Right Texture
---- @field Text UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+--- @field Text UIDropDownMenuTemplate_Text
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenuTemplates.xml#L230)

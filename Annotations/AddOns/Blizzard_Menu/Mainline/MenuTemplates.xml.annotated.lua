@@ -23,6 +23,11 @@
 --- Template
 --- @class WowStyle1FilterDropdownTemplate : DropdownButton, WowStyle1FilterDropdownMixin
 --- @field text any # FILTER
+--- @field menuRelativePoint string # BOTTOMLEFT
+--- @field menuPointX number # 6
+--- @field menuPointY number # 2
+--- @field resizeToText boolean # true
+--- @field resizeToTextPadding number # 60
 --- @field ResetButton WowStyle1FilterDropdownTemplate_ResetButton
 --- @field Background Texture
 --- @field Text WowStyle1FilterDropdownTemplate_Text

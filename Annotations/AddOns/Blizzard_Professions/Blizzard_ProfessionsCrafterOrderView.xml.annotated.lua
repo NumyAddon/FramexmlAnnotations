@@ -25,7 +25,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L109)
 --- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L115)
 --- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
@@ -82,16 +82,23 @@
 --- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_CommissionTitleMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field leftAlign boolean # true
+--- @field useAuctionHouseIcons boolean # true
+--- @field alwaysShowGold boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L228)
 --- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_ConsortiumCutMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field leftAlign boolean # true
+--- @field useAuctionHouseIcons boolean # true
+--- @field alwaysShowGold boolean # true
+--- @field resizeToFit boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L251)
 --- child of ProfessionsCrafterOrderViewTemplate_OrderInfo
 --- @class ProfessionsCrafterOrderViewTemplate_OrderInfo_FinalTipMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field leftAlign boolean # true
+--- @field useAuctionHouseIcons boolean # true
+--- @field alwaysShowGold boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L287)
 --- child of ProfessionsCrafterOrderViewTemplate_OrderInfo_NPCRewardsFrame
@@ -171,12 +178,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L316)
 --- child of ProfessionsCrafterOrderViewTemplate_OrderDetails
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L322)
 --- child of ProfessionsCrafterOrderViewTemplate_OrderDetails
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_SchematicForm : Frame, ProfessionsRecipeSchematicFormTemplate
 --- @field showTrackRecipe boolean # true
+--- @field canShowFavoriteButton boolean # false
+--- @field forCraftingOrders boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L332)
 --- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm
@@ -198,7 +207,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L379)
 --- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox
 --- @class ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm_NoteEditBox_ScrollingEditBox : Frame, ScrollingEditBoxTemplate
---- @field fontName string # "GameFontHighlight"
+--- @field fontName string # GameFontHighlight
+--- @field defaultText any # PROFESSIONS_CRAFTING_FORM_OPTIONAL_MESSAGE
+--- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L347)
 --- child of ProfessionsCrafterOrderViewTemplate_OrderDetails_FulfillmentForm
@@ -265,7 +276,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L511)
 --- child of ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox
 --- @class ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog_NoteEditBox_ScrollingEditBox : Frame, ScrollingEditBoxTemplate
---- @field fontName string # "GameFontHighlight"
+--- @field fontName string # GameFontHighlight
+--- @field defaultText any # PROFESSIONS_CRAFTING_FORM_OPTIONAL_MESSAGE
+--- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L479)
 --- child of ProfessionsCrafterOrderViewTemplate_DeclineOrderDialog

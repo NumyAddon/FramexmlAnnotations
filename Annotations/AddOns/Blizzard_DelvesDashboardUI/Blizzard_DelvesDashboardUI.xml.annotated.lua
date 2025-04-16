@@ -106,6 +106,7 @@
 --- child of DelvesDashboardFrame_ButtonPanelLayoutFrame
 --- @class DelvesDashboardFrame_ButtonPanelLayoutFrame_CompanionConfigButtonPanel : Frame, DelvesDashboardButtonPanelFrame, CompanionConfigButtonPanelMixin
 --- @field layoutIndex number # 1
+--- @field isCompanionButtonPanelFrame boolean # true
 --- @field CompanionModelScene DelvesDashboardFrame_ButtonPanelLayoutFrame_CompanionConfigButtonPanel_CompanionModelScene
 --- @field CompanionConfigButton DelvesDashboardFrame_ButtonPanelLayoutFrame_CompanionConfigButtonPanel_CompanionConfigButton
 

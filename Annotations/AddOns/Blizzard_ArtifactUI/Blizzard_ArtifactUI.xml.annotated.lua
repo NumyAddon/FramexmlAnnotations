@@ -41,12 +41,12 @@ ArtifactFrameUnderlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L175)
 --- child of ArtifactFrame
---- @class ArtifactFrame_ArtifactFrameTab1 : Button, ArtifactFrameTabButtonTemplate
+--- @class ArtifactFrameTab1 : Button, ArtifactFrameTabButtonTemplate
 ArtifactFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L180)
 --- child of ArtifactFrame
---- @class ArtifactFrame_ArtifactFrameTab2 : Button, ArtifactFrameTabButtonTemplate
+--- @class ArtifactFrameTab2 : Button, ArtifactFrameTabButtonTemplate
 ArtifactFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L186)
@@ -67,13 +67,13 @@ ArtifactFrameTab2 = {}
 --- @field BorderFrame ArtifactFrame_BorderFrame
 --- @field ForgeBadgeFrame ArtifactFrame_ForgeBadgeFrame
 --- @field ForgeLevelFrame Frame
---- @field PerksTabButton ArtifactFrame_ArtifactFrameTab1
---- @field AppearancesTabButton ArtifactFrame_ArtifactFrameTab2
+--- @field PerksTabButton ArtifactFrameTab1
+--- @field AppearancesTabButton ArtifactFrameTab2
 --- @field PerksTab ArtifactFrame_PerksTab
 --- @field AppearancesTab ArtifactFrame_AppearancesTab
 --- @field CloseButton ArtifactFrame_CloseButton
 --- @field Background Texture
---- @field Tabs table<number, ArtifactFrame_ArtifactFrameTab1 | ArtifactFrame_ArtifactFrameTab2>
+--- @field Tabs table<number, ArtifactFrameTab1 | ArtifactFrameTab2>
 ArtifactFrame = {}
 ArtifactFrame["PerksTabButton"] = ArtifactFrameTab1
 ArtifactFrame["AppearancesTabButton"] = ArtifactFrameTab2

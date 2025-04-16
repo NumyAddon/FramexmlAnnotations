@@ -50,7 +50,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L142)
 --- child of SpellBookItemTemplate_Button_BorderSheen
 --- @class SpellBookItemTemplate_Button_BorderSheen_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate, SyncedAnimGroupTemplate
---- @field syncKey string # "SpellBookItemLoops"
+--- @field syncKey string # SpellBookItemLoops
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L137)
 --- child of SpellBookItemTemplate_Button
@@ -60,7 +60,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L211)
 --- child of SpellBookItemTemplate_Button_ActionBarHighlight
 --- @class SpellBookItemTemplate_Button_ActionBarHighlight_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate, SyncedAnimGroupTemplate
---- @field syncKey string # "SpellBookItemLoops"
+--- @field syncKey string # SpellBookItemLoops
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L205)
 --- child of SpellBookItemTemplate_Button
@@ -104,6 +104,12 @@
 --- Template
 --- @class SpellBookItemTemplate : Frame, SpellBookItemMixin
 --- @field cellSize number # 1
+--- @field unlearnedTextAlpha number # 0.6
+--- @field unlearnedIconAlpha number # 0.6
+--- @field defaultBackplateAlpha number # 0.25
+--- @field hoverBackplateAlpha number # 1
+--- @field iconHighlightHoverAlpha number # 0.35
+--- @field iconHighlightPressAlpha number # 0.65
 --- @field TextContainer SpellBookItemTemplate_TextContainer
 --- @field Button SpellBookItemTemplate_Button
 --- @field Backplate Texture

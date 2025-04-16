@@ -6,12 +6,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L8)
 --- child of EquipmentFlyoutButtonTemplate
---- @class EquipmentFlyoutButtonTemplate_EquipmentFlyoutButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
+--- @class EquipmentFlyoutButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L6)
 --- Template
 --- @class EquipmentFlyoutButtonTemplate : ItemButton
---- @field cooldown EquipmentFlyoutButtonTemplate_EquipmentFlyoutButtonTemplateCooldown
+--- @field cooldown EquipmentFlyoutButtonTemplate_Cooldown
 --- @field UpgradeIcon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L28)
@@ -20,12 +20,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L64)
 --- child of EquipmentFlyoutFrameButtons
---- @class EquipmentFlyoutFrame_EquipmentFlyoutFrameButtons_bg1 : Texture, EquipmentFlyoutTexture
+--- @class EquipmentFlyoutFrameButtons_bg1 : Texture, EquipmentFlyoutTexture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L56)
 --- child of EquipmentFlyoutFrame
---- @class EquipmentFlyoutFrame_EquipmentFlyoutFrameButtons : Frame
---- @field bg1 EquipmentFlyoutFrame_EquipmentFlyoutFrameButtons_bg1
+--- @class EquipmentFlyoutFrameButtons : Frame
+--- @field bg1 EquipmentFlyoutFrameButtons_bg1
 EquipmentFlyoutFrameButtons = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L104)
@@ -49,14 +49,14 @@ EquipmentFlyoutFrameButtons = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L44)
 --- child of EquipmentFlyoutFrame
---- @class EquipmentFlyoutFrame_EquipmentFlyoutFrameHighlight : Texture
+--- @class EquipmentFlyoutFrameHighlight : Texture
 EquipmentFlyoutFrameHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EquipmentFlyout.xml#L40)
 --- @class EquipmentFlyoutFrame : Frame
---- @field buttonFrame EquipmentFlyoutFrame_EquipmentFlyoutFrameButtons
+--- @field buttonFrame EquipmentFlyoutFrameButtons
 --- @field NavigationFrame EquipmentFlyoutFrame_NavigationFrame
---- @field Highlight EquipmentFlyoutFrame_EquipmentFlyoutFrameHighlight
+--- @field Highlight EquipmentFlyoutFrameHighlight
 EquipmentFlyoutFrame = {}
 EquipmentFlyoutFrame["buttonFrame"] = EquipmentFlyoutFrameButtons
 EquipmentFlyoutFrame["Highlight"] = EquipmentFlyoutFrameHighlight

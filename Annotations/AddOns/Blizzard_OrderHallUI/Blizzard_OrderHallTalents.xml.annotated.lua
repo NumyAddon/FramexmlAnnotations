@@ -152,7 +152,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1095)
 --- child of OrderHallTalentFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 OrderHallTalentFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_OrderHallUI/Blizzard_OrderHallTalents.xml#L1062)

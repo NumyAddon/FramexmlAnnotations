@@ -95,7 +95,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L12)
 --- Template
 --- @class BrowseWowTokenResultsTemplate : Frame, AuctionHouseBackgroundTemplate
---- @field backgroundAtlas string # "auctionhouse-background-index"
+--- @field backgroundAtlas string # auctionhouse-background-index
 --- @field GameTimeTutorial BrowseWowTokenResultsTemplate_GameTimeTutorial
 --- @field HelpButton BrowseWowTokenResultsTemplate_HelpButton
 --- @field TokenDisplay BrowseWowTokenResultsTemplate_TokenDisplay
@@ -120,7 +120,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L385)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_DummyItemList : Frame, AuctionHouseBackgroundTemplate
---- @field backgroundAtlas string # "auctionhouse-background-sell-right"
+--- @field backgroundAtlas string # auctionhouse-background-sell-right
 --- @field DummyScrollBar WoWTokenSellFrameTemplate_DummyItemList_DummyScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L398)
@@ -150,7 +150,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseWoWTokenFrame.xml#L282)
 --- Template
 --- @class WoWTokenSellFrameTemplate : Frame, AuctionHouseBackgroundTemplate, WoWTokenSellFrameMixin
---- @field backgroundAtlas string # "auctionhouse-background-sell-left"
+--- @field backgroundAtlas string # auctionhouse-background-sell-left
 --- @field ItemDisplay WoWTokenSellFrameTemplate_ItemDisplay
 --- @field InvisiblePriceFrame Frame
 --- @field PostButton WoWTokenSellFrameTemplate_PostButton

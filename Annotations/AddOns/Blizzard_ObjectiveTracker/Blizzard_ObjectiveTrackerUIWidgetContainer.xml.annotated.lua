@@ -14,4 +14,9 @@ UIWidgetObjectiveTracker = {}
 --- @class ObjectiveTrackerUIWidgetContainer : Frame, UIWidgetContainerTemplate, ObjectiveTrackerUIWidgetContainerMixin
 ObjectiveTrackerUIWidgetContainer = {}
 ObjectiveTrackerUIWidgetContainer["showAndHideOnWidgetSetRegistration"] = true -- inherited
+ObjectiveTrackerUIWidgetContainer["verticalAnchorPoint"] = "TOP" -- inherited
+ObjectiveTrackerUIWidgetContainer["verticalRelativePoint"] = "BOTTOM" -- inherited
+ObjectiveTrackerUIWidgetContainer["horizontalAnchorPoint"] = "LEFT" -- inherited
+ObjectiveTrackerUIWidgetContainer["horizontalRelativePoint"] = "RIGHT" -- inherited
+ObjectiveTrackerUIWidgetContainer["horizontalAnchorXOffset"] = 2 -- inherited
 

@@ -11,121 +11,129 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L85)
 --- child of MacroFrame
---- @class MacroFrame_MacroFrameSelectedMacroButton : CheckButton, MacroButtonTemplate
+--- @class MacroFrameSelectedMacroButton : CheckButton, MacroButtonTemplate
 MacroFrameSelectedMacroButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L96)
 --- child of MacroFrame
 --- @class MacroFrame_MacroSelector : Frame, ScrollBoxSelectorTemplate
---- @field buttonTemplate string # "MacroButtonTemplate"
+--- @field buttonTemplate string # MacroButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L105)
 --- child of MacroFrame
---- @class MacroFrame_MacroEditButton : Button, UIPanelButtonTemplate
+--- @class MacroEditButton : Button, UIPanelButtonTemplate
 MacroEditButton = {}
 MacroEditButton["fitTextCanWidthDecrease"] = true -- inherited
+MacroEditButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L120)
 --- child of MacroFrameScrollFrame
---- @class MacroFrame_MacroFrameScrollFrame_MacroFrameText : EditBox
+--- @class MacroFrameText : EditBox
 MacroFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L114)
 --- child of MacroFrame
---- @class MacroFrame_MacroFrameScrollFrame : ScrollFrame, MacroFrameScrollFrameTemplate
+--- @class MacroFrameScrollFrame : ScrollFrame, MacroFrameScrollFrameTemplate
 MacroFrameScrollFrame = {}
 MacroFrameScrollFrame["scrollBarX"] = 6 -- inherited
+MacroFrameScrollFrame["scrollBarTopY"] = -4 -- inherited
+MacroFrameScrollFrame["scrollBarBottomY"] = 5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L145)
 --- child of MacroFrame
---- @class MacroFrame_MacroFrameTextButton : Button
+--- @class MacroFrameTextButton : Button
 MacroFrameTextButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L156)
 --- child of MacroFrame
---- @class MacroFrame_MacroCancelButton : Button, UIPanelButtonTemplate
+--- @class MacroCancelButton : Button, UIPanelButtonTemplate
 MacroCancelButton = {}
 MacroCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+MacroCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L165)
 --- child of MacroFrame
---- @class MacroFrame_MacroSaveButton : Button, UIPanelButtonTemplate
+--- @class MacroSaveButton : Button, UIPanelButtonTemplate
 MacroSaveButton = {}
 MacroSaveButton["fitTextCanWidthDecrease"] = true -- inherited
+MacroSaveButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L174)
 --- child of MacroFrame
---- @class MacroFrame_MacroFrameTextBackground : Frame, TooltipBackdropTemplate
+--- @class MacroFrameTextBackground : Frame, TooltipBackdropTemplate
 MacroFrameTextBackground = {}
 MacroFrameTextBackground["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L180)
 --- child of MacroFrame
---- @class MacroFrame_MacroFrameTab1 : Button, PanelTopTabButtonTemplate
+--- @class MacroFrameTab1 : Button, PanelTopTabButtonTemplate
 MacroFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L190)
 --- child of MacroFrame
---- @class MacroFrame_MacroFrameTab2 : Button, PanelTopTabButtonTemplate
+--- @class MacroFrameTab2 : Button, PanelTopTabButtonTemplate
 MacroFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L210)
 --- child of MacroFrame
---- @class MacroFrame_MacroDeleteButton : Button, UIPanelButtonTemplate
+--- @class MacroDeleteButton : Button, UIPanelButtonTemplate
 MacroDeleteButton = {}
 MacroDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
+MacroDeleteButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L222)
 --- child of MacroFrame
---- @class MacroFrame_MacroNewButton : Button, UIPanelButtonTemplate
+--- @class MacroNewButton : Button, UIPanelButtonTemplate
 MacroNewButton = {}
 MacroNewButton["fitTextCanWidthDecrease"] = true -- inherited
+MacroNewButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L231)
 --- child of MacroFrame
---- @class MacroFrame_MacroExitButton : Button, UIPanelButtonTemplate
+--- @class MacroExitButton : Button, UIPanelButtonTemplate
 MacroExitButton = {}
 MacroExitButton["fitTextCanWidthDecrease"] = true -- inherited
+MacroExitButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L30)
 --- child of MacroFrame
---- @class MacroFrame_MacroFramePortrait : Texture
+--- @class MacroFramePortrait : Texture
 MacroFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L45)
 --- child of MacroFrame
---- @class MacroFrame_MacroHorizontalBarLeft : Texture
+--- @class MacroHorizontalBarLeft : Texture
 MacroHorizontalBarLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L59)
 --- child of MacroFrame
---- @class MacroFrame_MacroFrameSelectedMacroBackground : Texture
+--- @class MacroFrameSelectedMacroBackground : Texture
 MacroFrameSelectedMacroBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L65)
 --- child of MacroFrame
---- @class MacroFrame_MacroFrameSelectedMacroName : FontString, GameFontNormalLarge
+--- @class MacroFrameSelectedMacroName : FontString, GameFontNormalLarge
 MacroFrameSelectedMacroName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L71)
 --- child of MacroFrame
---- @class MacroFrame_MacroFrameEnterMacroText : FontString, GameFontHighlightSmall
+--- @class MacroFrameEnterMacroText : FontString, GameFontHighlightSmall
 MacroFrameEnterMacroText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L76)
 --- child of MacroFrame
---- @class MacroFrame_MacroFrameCharLimitText : FontString, GameFontHighlightSmall
+--- @class MacroFrameCharLimitText : FontString, GameFontHighlightSmall
 MacroFrameCharLimitText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1148)
 --- child of MacroFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 MacroFrameInset = {}
 MacroFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1142)
 --- child of MacroFrame (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+--- @type ButtonFrameBaseTemplate_CloseButton
 MacroFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1125)
@@ -136,9 +144,9 @@ MacroFrameBg = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L23)
 --- @class MacroFrame : Frame, ButtonFrameTemplate, MacroFrameMixin
 --- @field maxTabWidth number # 140
---- @field SelectedMacroButton MacroFrame_MacroFrameSelectedMacroButton
+--- @field SelectedMacroButton MacroFrameSelectedMacroButton
 --- @field MacroSelector MacroFrame_MacroSelector
---- @field Tabs table<number, MacroFrame_MacroFrameTab1 | MacroFrame_MacroFrameTab2>
+--- @field Tabs table<number, MacroFrameTab1 | MacroFrameTab2>
 MacroFrame = {}
 MacroFrame["SelectedMacroButton"] = MacroFrameSelectedMacroButton
 MacroFrame["maxTabWidth"] = 140

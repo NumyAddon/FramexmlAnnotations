@@ -17,7 +17,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L46)
 --- child of ProfessionsItemFlyoutTemplate
 --- @class ProfessionsItemFlyoutTemplate_UndoButton : Button, IconButtonTemplate
---- @field iconAtlas string # "talents-button-undo"
+--- @field iconAtlas string # talents-button-undo
+--- @field useAtlasSize boolean # true
+--- @field useIconAsHighlight boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L57)
 --- child of ProfessionsItemFlyoutTemplate

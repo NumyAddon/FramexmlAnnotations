@@ -212,16 +212,21 @@
 --- child of CovenantFollowerTabTemplate_StatsFrame
 --- @class CovenantFollowerTabTemplate_StatsFrame_StatsLabel : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 100
+--- @field topPadding number # 10
+--- @field bottomPadding number # 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L652)
 --- child of CovenantFollowerTabTemplate_StatsFrame
 --- @class CovenantFollowerTabTemplate_StatsFrame_AbilitiesText : FontString, GameFontNormalLarge2
 --- @field layoutIndex number # 200
+--- @field topPadding number # 10
+--- @field bottomPadding number # 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L635)
 --- child of CovenantFollowerTabTemplate
 --- @class CovenantFollowerTabTemplate_StatsFrame : Frame, VerticalLayoutFrame, GarrisonAbilitiesFrameMixin
 --- @field expand boolean # true
+--- @field spacing number # 10
 --- @field StatsLabel CovenantFollowerTabTemplate_StatsFrame_StatsLabel
 --- @field AbilitiesText CovenantFollowerTabTemplate_StatsFrame_AbilitiesText
 
@@ -229,6 +234,7 @@
 --- child of CovenantFollowerTabTemplate
 --- @class CovenantFollowerTabTemplate_AbilitiesFrame : Frame, HorizontalLayoutFrame, GarrisonAbilitiesFrameMixin
 --- @field expand boolean # true
+--- @field spacing number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.xml#L553)
 --- child of CovenantFollowerTabTemplate

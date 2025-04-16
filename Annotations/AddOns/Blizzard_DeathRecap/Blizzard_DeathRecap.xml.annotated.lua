@@ -70,42 +70,42 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L92)
 --- child of DeathRecapFrame
---- @class DeathRecapFrame_DeathRecapFrameBorderTopLeft : Texture
+--- @class DeathRecapFrameBorderTopLeft : Texture
 DeathRecapFrameBorderTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L98)
 --- child of DeathRecapFrame
---- @class DeathRecapFrame_DeathRecapFrameBorderTopRight : Texture
+--- @class DeathRecapFrameBorderTopRight : Texture
 DeathRecapFrameBorderTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L104)
 --- child of DeathRecapFrame
---- @class DeathRecapFrame_DeathRecapFrameBorderBottomLeft : Texture
+--- @class DeathRecapFrameBorderBottomLeft : Texture
 DeathRecapFrameBorderBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L110)
 --- child of DeathRecapFrame
---- @class DeathRecapFrame_DeathRecapFrameBorderBottomRight : Texture
+--- @class DeathRecapFrameBorderBottomRight : Texture
 DeathRecapFrameBorderBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L116)
 --- child of DeathRecapFrame
---- @class DeathRecapFrame_DeathRecapFrameBorderTop : Texture
+--- @class DeathRecapFrameBorderTop : Texture
 DeathRecapFrameBorderTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L123)
 --- child of DeathRecapFrame
---- @class DeathRecapFrame_DeathRecapFrameBorderBottom : Texture
+--- @class DeathRecapFrameBorderBottom : Texture
 DeathRecapFrameBorderBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L130)
 --- child of DeathRecapFrame
---- @class DeathRecapFrame_DeathRecapFrameBorderLeft : Texture
+--- @class DeathRecapFrameBorderLeft : Texture
 DeathRecapFrameBorderLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L137)
 --- child of DeathRecapFrame
---- @class DeathRecapFrame_DeathRecapFrameBorderRight : Texture
+--- @class DeathRecapFrameBorderRight : Texture
 DeathRecapFrameBorderRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L163)

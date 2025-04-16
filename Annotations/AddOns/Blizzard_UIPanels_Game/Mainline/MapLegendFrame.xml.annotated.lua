@@ -12,11 +12,15 @@
 --- child of MapLegendScrollFrame
 --- @class MapLegendFrameTemplate_MapLegendScrollFrame_ScrollChild : Frame, VerticalLayoutFrame
 --- @field leftPadding number # 12
+--- @field topPadding number # 25
+--- @field spacing number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MapLegendFrame.xml#L24)
 --- child of MapLegendFrameTemplate
 --- @class MapLegendFrameTemplate_MapLegendScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 8
+--- @field scrollBarTopY number # 2
+--- @field scrollBarBottomY number # -4
 --- @field ScrollChild MapLegendFrameTemplate_MapLegendScrollFrame_ScrollChild
 --- @field Background Texture
 

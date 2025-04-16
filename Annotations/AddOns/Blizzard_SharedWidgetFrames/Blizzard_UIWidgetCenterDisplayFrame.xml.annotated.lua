@@ -35,7 +35,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_UIWidgetCenterDisplayFrame.xml#L3)
 --- @class UIWidgetCenterDisplayFrame : Frame, ResizeLayoutFrame, WidgetCenterDisplayFrameMixin
---- @field layoutType string # "Dialog"
+--- @field layoutType string # Dialog
 --- @field NineSlice UIWidgetCenterDisplayFrame_NineSlice
 --- @field TitleContainer UIWidgetCenterDisplayFrame_TitleContainer
 --- @field WidgetContainer UIWidgetCenterDisplayFrame_WidgetContainer

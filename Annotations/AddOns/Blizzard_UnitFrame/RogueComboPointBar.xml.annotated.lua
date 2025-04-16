@@ -88,15 +88,40 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/RogueComboPointBar.xml#L228)
 --- Template
 --- @class RogueComboPointBarTemplate : Frame, ClassResourceBarTemplate, RogueComboPointBarMixin
---- @field powerToken string # "COMBO_POINTS"
+--- @field powerToken string # COMBO_POINTS
+--- @field powerType any # Enum.PowerType.ComboPoints
+--- @field tooltip1 any # COMBO_POINTS_POWER
+--- @field tooltip2 any # COMBO_POINTS_ROGUE_TOOLTIP
+--- @field resourcePointTemplate string # RogueComboPointTemplate
+--- @field resourcePointSetupFunc any # RogueComboPointMixin.Setup
+--- @field resourcePointReleaseFunc any # RogueComboPointMixin.OnRelease
+--- @field spacing number # 4
+--- @field class string # ROGUE
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/RogueComboPointBar.xml#L242)
 --- @class RogueComboPointBarFrame : Frame, RogueComboPointBarTemplate
 --- @field topPadding number # 10
+--- @field leftPadding number # 0
+--- @field showTooltip boolean # true
 RogueComboPointBarFrame = {}
 RogueComboPointBarFrame["topPadding"] = 10
+RogueComboPointBarFrame["leftPadding"] = 0
+RogueComboPointBarFrame["showTooltip"] = true
 RogueComboPointBarFrame["powerToken"] = "COMBO_POINTS" -- inherited
+RogueComboPointBarFrame["powerType"] = _G["Enum.PowerType.ComboPoints"] -- inherited
+RogueComboPointBarFrame["tooltip1"] = COMBO_POINTS_POWER -- inherited
+RogueComboPointBarFrame["tooltip2"] = COMBO_POINTS_ROGUE_TOOLTIP -- inherited
+RogueComboPointBarFrame["resourcePointTemplate"] = "RogueComboPointTemplate" -- inherited
+RogueComboPointBarFrame["resourcePointSetupFunc"] = _G["RogueComboPointMixin.Setup"] -- inherited
+RogueComboPointBarFrame["resourcePointReleaseFunc"] = _G["RogueComboPointMixin.OnRelease"] -- inherited
+RogueComboPointBarFrame["spacing"] = 4 -- inherited
+RogueComboPointBarFrame["class"] = "ROGUE" -- inherited
 RogueComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
+RogueComboPointBarFrame["resourceBarMixin"] = ClassPowerBar -- inherited
+RogueComboPointBarFrame["layoutIndex"] = 1 -- inherited
+RogueComboPointBarFrame["usePooledResourceButtons"] = true -- inherited
 RogueComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+RogueComboPointBarFrame["align"] = "center" -- inherited
+RogueComboPointBarFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 RogueComboPointBarFrame["isManagedFrame"] = true -- inherited
 

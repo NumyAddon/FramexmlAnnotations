@@ -9,7 +9,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L64)
 --- child of DeveloperConsole_EditBox
---- @class DeveloperConsole_EditBox_Background : Frame, DeveloperConsoleBackgroundTemplate
+--- @class Background : Frame, DeveloperConsoleBackgroundTemplate
 Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L57)

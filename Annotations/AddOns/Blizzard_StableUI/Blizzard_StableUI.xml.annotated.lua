@@ -210,7 +210,7 @@ StableFrameRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1504)
 --- child of StableFrame_StabledPetList_FilterBar_SearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @type SearchBoxTemplate_ClearButton
 StableFrameClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1495)
@@ -298,7 +298,7 @@ StableFrameSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1095)
 --- child of StableFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 StableFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1062)
@@ -308,7 +308,7 @@ StableFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L229)
 --- @class StableFrame : Frame, PortraitFrameTemplate, StableFrameMixin
---- @field portraitIcon string # "Interface\\Icons\\ClassIcon_Hunter"
+--- @field portraitIcon string # Interface\Icons\ClassIcon_Hunter
 --- @field MainHelpButton StableFrame_MainHelpButton
 --- @field PetModelScene StableFrame_PetModelScene
 --- @field StableTogglePetButton StableFrame_StableTogglePetButton

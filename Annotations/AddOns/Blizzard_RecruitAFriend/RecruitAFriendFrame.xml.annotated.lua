@@ -48,6 +48,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L54)
 --- @class RecruitAFriendRewardsFrame : Frame, ResizeLayoutFrame, RecruitAFriendRewardsFrameMixin
 --- @field widthPadding number # 20
+--- @field heightPadding number # 19
+--- @field legacyBackgroundAtlas string # RecruitAFriend_RewardPane_Parchment
+--- @field backgroundAtlas string # RecruitAFriend_RewardPane_Parchment_Generic
 --- @field Border RecruitAFriendRewardsFrame_Border
 --- @field CloseButton RecruitAFriendRewardsFrame_CloseButton
 --- @field ClaimLegacyRewardsButton RecruitAFriendRewardsFrame_ClaimLegacyRewardsButton
@@ -62,6 +65,9 @@
 --- @field Description RecruitAFriendRewardsFrame_Description
 RecruitAFriendRewardsFrame = {}
 RecruitAFriendRewardsFrame["widthPadding"] = 20
+RecruitAFriendRewardsFrame["heightPadding"] = 19
+RecruitAFriendRewardsFrame["legacyBackgroundAtlas"] = "RecruitAFriend_RewardPane_Parchment"
+RecruitAFriendRewardsFrame["backgroundAtlas"] = "RecruitAFriend_RewardPane_Parchment_Generic"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L179)
 --- child of RecruitAFriendRewardTabTemplate
@@ -70,7 +76,7 @@ RecruitAFriendRewardsFrame["widthPadding"] = 20
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L157)
 --- Template
 --- @class RecruitAFriendRewardTabTemplate : CheckButton, CallbackRegistrantTemplate, RecruitAFriendRewardTabMixin
---- @field IconAtlasFormat string # "recruitafriend_%s_tab_icon"
+--- @field IconAtlasFormat string # recruitafriend_%s_tab_icon
 --- @field Tab Texture
 --- @field Icon Texture
 --- @field BorderGlow Texture
@@ -286,7 +292,8 @@ RecruitAFriendRecruitmentFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L468)
 --- child of RecruitAFriendFrame
 --- @class RecruitAFriendFrame_RewardClaiming : Frame
---- @field legacyBackgroundAtlas string # "RecruitAFriend_ClaimPane_Parchment"
+--- @field legacyBackgroundAtlas string # RecruitAFriend_ClaimPane_Parchment
+--- @field backgroundAtlas string # recruitafriend_claimpane_parchment_generic
 --- @field MonthCount RecruitAFriendFrame_RewardClaiming_MonthCount
 --- @field NextRewardName RecruitAFriendFrame_RewardClaiming_NextRewardName
 --- @field NextRewardInfoButton RecruitAFriendFrame_RewardClaiming_NextRewardInfoButton
@@ -356,7 +363,8 @@ RecruitAFriendRecruitmentFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L723)
 --- child of RecruitAFriendFrame
 --- @class RecruitAFriendFrame_SplashFrame : Frame
---- @field legacyBackgroundAtlas string # "RecruitAFriend_Splash_Parchment"
+--- @field legacyBackgroundAtlas string # RecruitAFriend_Splash_Parchment
+--- @field backgroundAtlas string # RecruitAFriend_Splash_Parchment_Generic
 --- @field OKButton RecruitAFriendFrame_SplashFrame_OKButton
 --- @field Background Texture
 --- @field Picture Texture

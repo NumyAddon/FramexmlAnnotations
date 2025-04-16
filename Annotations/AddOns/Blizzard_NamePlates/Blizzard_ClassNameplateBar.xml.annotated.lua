@@ -4,7 +4,9 @@
 --- Template
 --- Adds itself to the parent with key `NameplateBar`
 --- @class ClassNameplateBarFrame : Frame
---- @field scale string # ".75"
+--- @field scale string # .75
+--- @field showBarFunc any # ClassNameplateBar.ShowNameplateBar
+--- @field hideBarFunc any # ClassNameplateBar.HideNameplateBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L36)
 --- child of ClassNameplateManaBarFrame
@@ -20,7 +22,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar.xml#L18)
 --- @class ClassNameplateManaBarFrame : StatusBar, ClassNameplateBar, ClassNameplateManaBar
---- @field scale string # "1"
+--- @field scale string # 1
 --- @field Border ClassNameplateManaBarFrame_Border
 --- @field FeedbackFrame ClassNameplateManaBarFrame_FeedbackFrame
 --- @field FullPowerFrame ClassNameplateManaBarFrame_FullPowerFrame

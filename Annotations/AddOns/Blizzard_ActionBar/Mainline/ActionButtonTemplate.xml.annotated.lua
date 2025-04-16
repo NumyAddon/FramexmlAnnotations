@@ -151,17 +151,17 @@ ActionBarButtonUsableWatcherFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L359)
 --- child of ActionButtonTemplate_TextOverlayContainer
---- @class ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateHotKey : FontString, NumberFontNormalSmallGray
+--- @class ActionButtonTemplate_TextOverlayContainer_HotKey : FontString, NumberFontNormalSmallGray
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L365)
 --- child of ActionButtonTemplate_TextOverlayContainer
---- @class ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateCount : FontString, NumberFontNormal
+--- @class ActionButtonTemplate_TextOverlayContainer_Count : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L356)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_TextOverlayContainer : Frame, ActionButtonTextOverlayContainerMixin
---- @field HotKey ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateHotKey
---- @field Count ActionButtonTemplate_TextOverlayContainer_ActionButtonTemplateCount
+--- @field HotKey ActionButtonTemplate_TextOverlayContainer_HotKey
+--- @field Count ActionButtonTemplate_TextOverlayContainer_Count
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L376)
 --- child of ActionButtonTemplate
@@ -176,11 +176,11 @@ ActionBarButtonUsableWatcherFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L408)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
+--- @class ActionButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L317)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateName : FontString, GameFontHighlightSmallOutline
+--- @class ActionButtonTemplate_Name : FontString, GameFontHighlightSmallOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L349)
 --- child of ActionButtonTemplate
@@ -192,14 +192,14 @@ ActionBarButtonUsableWatcherFrame = {}
 --- @field TextOverlayContainer ActionButtonTemplate_TextOverlayContainer
 --- @field FlyoutArrowContainer ActionButtonTemplate_FlyoutArrowContainer
 --- @field AutoCastOverlay ActionButtonTemplate_AutoCastOverlay
---- @field cooldown ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @field cooldown ActionButtonTemplate_Cooldown
 --- @field icon Texture
 --- @field IconMask MaskTexture
 --- @field SlotBackground Texture
 --- @field SlotArt Texture
 --- @field Flash Texture
 --- @field FlyoutBorderShadow Texture
---- @field Name ActionButtonTemplate_ActionButtonTemplateName
+--- @field Name ActionButtonTemplate_Name
 --- @field Border Texture
 --- @field NewActionTexture Texture
 --- @field SpellHighlightTexture Texture

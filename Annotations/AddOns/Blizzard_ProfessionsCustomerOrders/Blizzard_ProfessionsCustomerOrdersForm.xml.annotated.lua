@@ -8,7 +8,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L67)
 --- child of ProfessionsCustomerOrderFormTemplate_LeftPanelBackground
 --- @class ProfessionsCustomerOrderFormTemplate_LeftPanelBackground_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L61)
 --- child of ProfessionsCustomerOrderFormTemplate
@@ -19,7 +19,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L85)
 --- child of ProfessionsCustomerOrderFormTemplate_RightPanelBackground
 --- @class ProfessionsCustomerOrderFormTemplate_RightPanelBackground_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L79)
 --- child of ProfessionsCustomerOrderFormTemplate
@@ -127,7 +127,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L371)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox_ScrollingEditBox : Frame, ScrollingEditBoxTemplate
---- @field fontName string # "GameFontHighlight"
+--- @field fontName string # GameFontHighlight
+--- @field defaultText any # PROFESSIONS_CRAFTING_FORM_OPTIONAL_MESSAGE
+--- @field maxLetters number # 250
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L339)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
@@ -152,6 +154,9 @@
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
+--- @field leftAlign boolean # true
+--- @field useAuctionHouseIcons boolean # true
+--- @field alwaysShowGold boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L421)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
@@ -171,11 +176,15 @@
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_PostingFeeMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
+--- @field leftAlign boolean # true
+--- @field useAuctionHouseIcons boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L454)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TotalPriceMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
+--- @field leftAlign boolean # true
+--- @field useAuctionHouseIcons boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L466)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
@@ -253,7 +262,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L557)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L566)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList

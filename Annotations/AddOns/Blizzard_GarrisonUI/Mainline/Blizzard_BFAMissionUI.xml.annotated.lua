@@ -25,51 +25,57 @@
 --- child of BFAMissionFrame
 --- @class BFAMissionFrame_TitleScroll : Frame, ResizeLayoutFrame
 --- @field fixedHeight number # 35
+--- @field minimumWidth number # 90
+--- @field widthPadding number # 100
 --- @field ScrollLeft BFAMissionFrame_TitleScroll_ScrollLeft
 --- @field ScrollRight BFAMissionFrame_TitleScroll_ScrollRight
 --- @field ScrollMiddle BFAMissionFrame_TitleScroll_ScrollMiddle
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L80)
 --- child of BFAMissionFrame
---- @class BFAMissionFrame_BFAMissionFrameTab1 : Button, OrderHallFrameTabButtonTemplate
+--- @class BFAMissionFrameTab1 : Button, OrderHallFrameTabButtonTemplate
 BFAMissionFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L81)
 --- child of BFAMissionFrame
---- @class BFAMissionFrame_BFAMissionFrameTab2 : Button, OrderHallFrameTabButtonTemplate
+--- @class BFAMissionFrameTab2 : Button, OrderHallFrameTabButtonTemplate
 BFAMissionFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L82)
 --- child of BFAMissionFrame
---- @class BFAMissionFrame_BFAMissionFrameTab3 : Button, OrderHallFrameTabButtonTemplate
+--- @class BFAMissionFrameTab3 : Button, OrderHallFrameTabButtonTemplate
 BFAMissionFrameTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L94)
 --- child of BFAMissionFrameFollowers
---- @class BFAMissionFrame_BFAMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
+--- @class BFAMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1504)
---- child of BFAMissionFrame_BFAMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- child of BFAMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_ClearButton
 BFAMissionFrameFollowersClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1495)
---- child of BFAMissionFrame_BFAMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
+--- child of BFAMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 BFAMissionFrameFollowersSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L100)
 --- child of BFAMissionFrameFollowers
---- @class BFAMissionFrame_BFAMissionFrameFollowers_SearchBox : EditBox, SearchBoxTemplate
+--- @class BFAMissionFrameFollowers_SearchBox : EditBox, SearchBoxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L83)
 --- child of BFAMissionFrame
---- @class BFAMissionFrame_BFAMissionFrameFollowers : Frame, GarrisonListTemplateHeader, GarrisonFollowerList
+--- @class BFAMissionFrameFollowers : Frame, GarrisonListTemplateHeader, GarrisonFollowerList
 --- @field showUncollected boolean # true
---- @field MaterialFrame BFAMissionFrame_BFAMissionFrameFollowers_MaterialFrame
---- @field SearchBox BFAMissionFrame_BFAMissionFrameFollowers_SearchBox
+--- @field canCastSpellsOnFollowers boolean # true
+--- @field hasContextMenu boolean # true
+--- @field MaterialFrame BFAMissionFrameFollowers_MaterialFrame
+--- @field SearchBox BFAMissionFrameFollowers_SearchBox
 BFAMissionFrameFollowers = {}
 BFAMissionFrameFollowers["showUncollected"] = true
+BFAMissionFrameFollowers["canCastSpellsOnFollowers"] = true
+BFAMissionFrameFollowers["hasContextMenu"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L134)
 --- child of BFAMissionFrame_MapTab_ScrollContainer
@@ -89,25 +95,25 @@ BFAMissionFrameFollowers["showUncollected"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1261)
 --- child of BFAMissionFrameMissions (created in template GarrisonMissionListTemplate)
---- @type GarrisonMissionListTemplate_GarrisonMissionListTemplateTab1
+--- @type GarrisonMissionListTemplate_Tab1
 BFAMissionFrameMissionsTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1279)
 --- child of GarrisonMissionListTemplateTab2
---- @class GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartText : FontString, QuestFont_Huge
+--- @class GarrisonMissionListTemplate_Tab2_MissionStartText : FontString, QuestFont_Huge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1295)
 --- child of GarrisonMissionListTemplateTab2
---- @class GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2_MissionStartAnim : AnimationGroup
+--- @class GarrisonMissionListTemplate_Tab2_MissionStartAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L1266)
 --- child of BFAMissionFrameMissions (created in template GarrisonMissionListTemplate)
---- @type GarrisonMissionListTemplate_GarrisonMissionListTemplateTab2
+--- @type GarrisonMissionListTemplate_Tab2
 BFAMissionFrameMissionsTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L169)
 --- child of BFAMissionFrame_MissionTab
---- @class BFAMissionFrame_MissionTab_BFAMissionFrameMissions : Frame, GarrisonMissionListTemplate, OrderHallMissionListMixin
+--- @class BFAMissionFrameMissions : Frame, GarrisonMissionListTemplate, OrderHallMissionListMixin
 BFAMissionFrameMissions = {}
 BFAMissionFrameMissions["Tab1"] = BFAMissionFrameMissionsTab1 -- inherited
 BFAMissionFrameMissions["Tab2"] = BFAMissionFrameMissionsTab2 -- inherited
@@ -124,7 +130,7 @@ BFAMissionFrameMissions["Tab2"] = BFAMissionFrameMissionsTab2 -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L167)
 --- child of BFAMissionFrame
 --- @class BFAMissionFrame_MissionTab : Frame
---- @field MissionList BFAMissionFrame_MissionTab_BFAMissionFrameMissions
+--- @field MissionList BFAMissionFrameMissions
 --- @field ZoneSupportMissionPageBackground BFAMissionFrame_MissionTab_ZoneSupportMissionPageBackground
 --- @field MissionPage BFAMissionFrame_MissionTab_MissionPage
 --- @field MissionCompletePreloadModels table<number, MissionCompletePreloadModelTemplate>
@@ -194,20 +200,20 @@ BFAMissionFrameMissions["Tab2"] = BFAMissionFrameMissionsTab2 -- inherited
 --- @field followerTypeID any # Enum.GarrisonFollowerType.FollowerType_8_0_GarrisonFollower
 --- @field OverlayElements BFAMissionFrame_OverlayElements
 --- @field TitleScroll BFAMissionFrame_TitleScroll
---- @field Tab1 BFAMissionFrame_BFAMissionFrameTab1
---- @field Tab2 BFAMissionFrame_BFAMissionFrameTab2
---- @field Tab3 BFAMissionFrame_BFAMissionFrameTab3
---- @field FollowerList BFAMissionFrame_BFAMissionFrameFollowers
+--- @field Tab1 BFAMissionFrameTab1
+--- @field Tab2 BFAMissionFrameTab2
+--- @field Tab3 BFAMissionFrameTab3
+--- @field FollowerList BFAMissionFrameFollowers
 --- @field MapTab BFAMissionFrame_MapTab
 --- @field MissionTab BFAMissionFrame_MissionTab
 --- @field FollowerTab BFAMissionFrame_FollowerTab
 --- @field MissionCompleteBackground BFAMissionFrame_MissionCompleteBackground
 --- @field MissionComplete BFAMissionFrame_MissionComplete
---- @field Tabs table<number, BFAMissionFrame_BFAMissionFrameTab1 | BFAMissionFrame_BFAMissionFrameTab2 | BFAMissionFrame_BFAMissionFrameTab3>
+--- @field Tabs table<number, BFAMissionFrameTab1 | BFAMissionFrameTab2 | BFAMissionFrameTab3>
 BFAMissionFrame = {}
 BFAMissionFrame["Tab1"] = BFAMissionFrameTab1
 BFAMissionFrame["Tab2"] = BFAMissionFrameTab2
 BFAMissionFrame["Tab3"] = BFAMissionFrameTab3
 BFAMissionFrame["FollowerList"] = BFAMissionFrameFollowers
-BFAMissionFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_8_0_GarrisonFollower
+BFAMissionFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_8_0_GarrisonFollower"]
 

@@ -19,11 +19,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L57)
 --- child of AuctionHouseAuctionsFrameTemplate
---- @class AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateAuctionsTab : Button, AuctionHouseAuctionsFrameTabTemplate
+--- @class AuctionHouseAuctionsFrameTemplate_AuctionsTab : Button, AuctionHouseAuctionsFrameTabTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L63)
 --- child of AuctionHouseAuctionsFrameTemplate
---- @class AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateBidsTab : Button, AuctionHouseAuctionsFrameTabTemplate
+--- @class AuctionHouseAuctionsFrameTemplate_BidsTab : Button, AuctionHouseAuctionsFrameTabTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L65)
 --- child of AuctionHouseAuctionsFrameTemplate
@@ -48,7 +48,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L87)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_SummaryList : Frame, AuctionHouseBackgroundTemplate, AuctionHouseAuctionsSummaryListMixin
---- @field backgroundAtlas string # "auctionhouse-background-summarylist"
+--- @field backgroundAtlas string # auctionhouse-background-summarylist
 --- @field ScrollBox AuctionHouseAuctionsFrameTemplate_SummaryList_ScrollBox
 --- @field ScrollBar AuctionHouseAuctionsFrameTemplate_SummaryList_ScrollBar
 
@@ -56,32 +56,43 @@
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_ItemDisplay : Button, AuctionHouseItemDisplayTemplate
 --- @field itemButtonXOffset number # 22
+--- @field itemButtonYOffset number # -2
+--- @field backgroundAtlas string # auctionhouse-background-buy-noncommodities-header
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L130)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_AllAuctionsList : Frame, AuctionHouseItemListTemplate
---- @field backgroundAtlas string # "auctionhouse-background-index"
+--- @field backgroundAtlas string # auctionhouse-background-index
+--- @field refreshFrameXOffset number # -4
+--- @field refreshFrameYOffset number # 34
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L144)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_BidsList : Frame, AuctionHouseItemListTemplate
---- @field backgroundAtlas string # "auctionhouse-background-index"
+--- @field backgroundAtlas string # auctionhouse-background-index
+--- @field refreshFrameXOffset number # -4
+--- @field refreshFrameYOffset number # 34
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L156)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_ItemList : Frame, AuctionHouseItemListTemplate
---- @field backgroundAtlas string # "auctionhouse-background-auctions"
+--- @field backgroundAtlas string # auctionhouse-background-auctions
+--- @field refreshFrameXOffset number # -4
+--- @field refreshFrameYOffset number # 133
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L170)
 --- child of AuctionHouseAuctionsFrameTemplate
 --- @class AuctionHouseAuctionsFrameTemplate_CommoditiesList : Frame, AuctionHouseCommoditiesListTemplate
---- @field backgroundAtlas string # "auctionhouse-background-auctions"
+--- @field backgroundAtlas string # auctionhouse-background-auctions
+--- @field searchContext any # AuctionHouseSearchContext.AuctionsCommodities
+--- @field refreshFrameXOffset number # -4
+--- @field refreshFrameYOffset number # 133
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseAuctionsFrame.xml#L55)
 --- Template
 --- @class AuctionHouseAuctionsFrameTemplate : Frame, AuctionHouseAuctionsFrameMixin
---- @field AuctionsTab AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateAuctionsTab
---- @field BidsTab AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateBidsTab
+--- @field AuctionsTab AuctionHouseAuctionsFrameTemplate_AuctionsTab
+--- @field BidsTab AuctionHouseAuctionsFrameTemplate_BidsTab
 --- @field CancelAuctionButton AuctionHouseAuctionsFrameTemplate_CancelAuctionButton
 --- @field BuyoutFrame AuctionHouseAuctionsFrameTemplate_BuyoutFrame
 --- @field BidFrame AuctionHouseAuctionsFrameTemplate_BidFrame
@@ -91,5 +102,5 @@
 --- @field BidsList AuctionHouseAuctionsFrameTemplate_BidsList
 --- @field ItemList AuctionHouseAuctionsFrameTemplate_ItemList
 --- @field CommoditiesList AuctionHouseAuctionsFrameTemplate_CommoditiesList
---- @field Tabs table<number, AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateAuctionsTab | AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateBidsTab>
+--- @field Tabs table<number, AuctionHouseAuctionsFrameTemplate_AuctionsTab | AuctionHouseAuctionsFrameTemplate_BidsTab>
 

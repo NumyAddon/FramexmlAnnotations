@@ -20,6 +20,7 @@
 --- child of OribosScrollBar
 --- @class OribosScrollBar_Back : EventButton, OribosScrollBarButtonScripts
 --- @field direction any # ScrollControllerMixin.Directions.Decrease
+--- @field mouseDownSoundKitID any # SOUNDKIT.SCROLLBAR_STEP
 --- @field Enter Texture
 --- @field Down Texture
 
@@ -27,13 +28,14 @@
 --- child of OribosScrollBar
 --- @class OribosScrollBar_Forward : EventButton, OribosScrollBarButtonScripts
 --- @field direction any # ScrollControllerMixin.Directions.Increase
+--- @field mouseDownSoundKitID any # SOUNDKIT.SCROLLBAR_STEP
 --- @field Enter Texture
 --- @field Down Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/Scroll/OribosScrollBar.xml#L15)
 --- Template
 --- @class OribosScrollBar : EventFrame, VerticalScrollBarTemplate
---- @field thumbAnchor string # "TOP"
+--- @field thumbAnchor string # TOP
 --- @field Track OribosScrollBar_Track
 --- @field Back OribosScrollBar_Back
 --- @field Forward OribosScrollBar_Forward

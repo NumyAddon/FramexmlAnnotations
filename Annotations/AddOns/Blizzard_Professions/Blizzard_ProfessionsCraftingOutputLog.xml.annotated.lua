@@ -74,4 +74,6 @@
 --- Template
 --- @class ProfessionsCraftingOutputLogTemplate : Frame, ScrollingFlatPanelTemplate, ProfessionsCraftingOutputLogMixin
 --- @field panelTitle any # PROFESSIONS_CRAFT_OUTPUT_TITLE
+--- @field panelMaxHeight number # 290
+--- @field panelWidth number # 220
 

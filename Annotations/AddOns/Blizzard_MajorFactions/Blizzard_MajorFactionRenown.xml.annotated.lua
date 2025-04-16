@@ -49,6 +49,9 @@
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_TrackFrame : Frame, RewardTrackFrameTemplate
 --- @field rewardButtonXOffset number # 30
+--- @field elementTemplate string # RenownLevelTemplate
+--- @field scrollStartSound any # SOUNDKIT.UI_MAJOR_FACTION_RENOWN_SLIDE_START
+--- @field scrollCenterChangeSound any # SOUNDKIT.UI_MAJOR_FACTION_RENOWN_SLIDE_START
 --- @field Glow Texture
 --- @field Title MajorFactionRenownFrame_TrackFrame_Title
 --- @field AccountWideLabel MajorFactionRenownFrame_TrackFrame_AccountWideLabel

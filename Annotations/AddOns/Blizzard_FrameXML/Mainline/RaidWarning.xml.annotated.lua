@@ -16,12 +16,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/RaidWarning.xml#L34)
 --- child of RaidWarningFrame
---- @class RaidWarningFrame_RaidWarningFrameSlot1 : FontString, GameFontNormalHuge
+--- @class RaidWarningFrameSlot1 : FontString, GameFontNormalHuge
 RaidWarningFrameSlot1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/RaidWarning.xml#L40)
 --- child of RaidWarningFrame
---- @class RaidWarningFrame_RaidWarningFrameSlot2 : FontString, GameFontNormalHuge
+--- @class RaidWarningFrameSlot2 : FontString, GameFontNormalHuge
 RaidWarningFrameSlot2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/RaidWarning.xml#L27)

@@ -2,186 +2,190 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L9)
 --- child of PerksProgramTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
+--- @type GameTooltipTemplate_StatusBar
 PerksProgramTooltipStatusBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L35)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
+--- @type SharedTooltipArtTemplate_TextLeft1
 PerksProgramTooltipTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L36)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
+--- @type SharedTooltipArtTemplate_TextRight1
 PerksProgramTooltipTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L41)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
+--- @type SharedTooltipArtTemplate_TextLeft2
 PerksProgramTooltipTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L42)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
+--- @type SharedTooltipArtTemplate_TextRight2
 PerksProgramTooltipTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L47)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
+--- @type SharedTooltipArtTemplate_Texture1
 PerksProgramTooltipTexture1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L48)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
+--- @type SharedTooltipArtTemplate_Texture2
 PerksProgramTooltipTexture2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L49)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
+--- @type SharedTooltipArtTemplate_Texture3
 PerksProgramTooltipTexture3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L50)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
+--- @type SharedTooltipArtTemplate_Texture4
 PerksProgramTooltipTexture4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L51)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
+--- @type SharedTooltipArtTemplate_Texture5
 PerksProgramTooltipTexture5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L52)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
+--- @type SharedTooltipArtTemplate_Texture6
 PerksProgramTooltipTexture6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L53)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
+--- @type SharedTooltipArtTemplate_Texture7
 PerksProgramTooltipTexture7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L54)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
+--- @type SharedTooltipArtTemplate_Texture8
 PerksProgramTooltipTexture8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L55)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
+--- @type SharedTooltipArtTemplate_Texture9
 PerksProgramTooltipTexture9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L56)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
+--- @type SharedTooltipArtTemplate_Texture10
 PerksProgramTooltipTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L57)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
+--- @type SharedTooltipArtTemplate_Texture11
 PerksProgramTooltipTexture11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L58)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
+--- @type SharedTooltipArtTemplate_Texture12
 PerksProgramTooltipTexture12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L59)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
+--- @type SharedTooltipArtTemplate_Texture13
 PerksProgramTooltipTexture13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L60)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
+--- @type SharedTooltipArtTemplate_Texture14
 PerksProgramTooltipTexture14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L61)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
+--- @type SharedTooltipArtTemplate_Texture15
 PerksProgramTooltipTexture15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L62)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
+--- @type SharedTooltipArtTemplate_Texture16
 PerksProgramTooltipTexture16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L63)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
+--- @type SharedTooltipArtTemplate_Texture17
 PerksProgramTooltipTexture17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L64)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
+--- @type SharedTooltipArtTemplate_Texture18
 PerksProgramTooltipTexture18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L65)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
+--- @type SharedTooltipArtTemplate_Texture19
 PerksProgramTooltipTexture19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L66)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
+--- @type SharedTooltipArtTemplate_Texture20
 PerksProgramTooltipTexture20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L67)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
+--- @type SharedTooltipArtTemplate_Texture21
 PerksProgramTooltipTexture21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L68)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
+--- @type SharedTooltipArtTemplate_Texture22
 PerksProgramTooltipTexture22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L69)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
+--- @type SharedTooltipArtTemplate_Texture23
 PerksProgramTooltipTexture23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L70)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
+--- @type SharedTooltipArtTemplate_Texture24
 PerksProgramTooltipTexture24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L71)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
+--- @type SharedTooltipArtTemplate_Texture25
 PerksProgramTooltipTexture25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L72)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
+--- @type SharedTooltipArtTemplate_Texture26
 PerksProgramTooltipTexture26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L73)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
+--- @type SharedTooltipArtTemplate_Texture27
 PerksProgramTooltipTexture27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L74)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
+--- @type SharedTooltipArtTemplate_Texture28
 PerksProgramTooltipTexture28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L75)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
+--- @type SharedTooltipArtTemplate_Texture29
 PerksProgramTooltipTexture29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L76)
 --- child of PerksProgramTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
+--- @type SharedTooltipArtTemplate_Texture30
 PerksProgramTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L14)
 --- child of PerksProgramFrame
---- @class PerksProgramFrame_PerksProgramTooltip : GameTooltip, GameTooltipTemplate, DefaultScaleFrame
+--- @class PerksProgramTooltip : GameTooltip, GameTooltipTemplate, DefaultScaleFrame
 PerksProgramTooltip = {}
 PerksProgramTooltip["supportsDataRefresh"] = true -- inherited
 PerksProgramTooltip["StatusBar"] = PerksProgramTooltipStatusBar -- inherited
 PerksProgramTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+PerksProgramTooltip["textRight1Font"] = "GameTooltipHeaderText" -- inherited
+PerksProgramTooltip["textLeft2Font"] = "GameTooltipText" -- inherited
+PerksProgramTooltip["textRight2Font"] = "GameTooltipText" -- inherited
+PerksProgramTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 PerksProgramTooltip["TextLeft1"] = PerksProgramTooltipTextLeft1 -- inherited
 PerksProgramTooltip["TextRight1"] = PerksProgramTooltipTextRight1 -- inherited
 PerksProgramTooltip["TextLeft2"] = PerksProgramTooltipTextLeft2 -- inherited
@@ -241,11 +245,19 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- child of PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DetailsFrame : Frame, PerksProgramDetailsFrameTemplate
 --- @field layoutIndex number # 10
+--- @field topPadding number # 16
+--- @field leftPadding number # 20
+--- @field bottomPadding number # 36
+--- @field timeTextColor any # WHITE_FONT_COLOR
+--- @field timeValueColor any # WHITE_FONT_COLOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L325)
 --- child of PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DividerFrame : Frame, PerksProgramDividerFrameMixin
 --- @field layoutIndex number # 20
+--- @field topPadding number # 12
+--- @field leftPadding number # 10
+--- @field bottomPadding number # 36
 --- @field PerksDividerShort Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L361)
@@ -260,18 +272,21 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- child of PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer : Frame, PerksProgramSetDetailsListMixin
 --- @field layoutIndex number # 40
+--- @field bottomPadding number # 45
+--- @field align string # center
 --- @field ScrollBox PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer_ScrollBox
 --- @field ScrollBar PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer_ScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L373)
 --- child of PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_Border : Frame, NineSlicePanelTemplate
---- @field layoutType string # "PerksProgramProductsPanelTemplate"
+--- @field layoutType string # PerksProgramProductsPanelTemplate
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L307)
 --- child of PerksProgramFrame_ProductsFrame
 --- @class PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame : Frame, VerticalLayoutFrame
---- @field fixedWidth string # "360"
+--- @field fixedWidth string # 360
 --- @field DetailsFrame PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DetailsFrame
 --- @field DividerFrame PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_DividerFrame
 --- @field SetDetailsScrollBoxContainer PerksProgramFrame_ProductsFrame_PerksProgramProductDetailsContainerFrame_SetDetailsScrollBoxContainer
@@ -290,12 +305,28 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L415)
 --- child of PerksProgramFrame_ModelSceneContainerFrame
 --- @class PerksProgramFrame_ModelSceneContainerFrame_AlteredFormButton : CheckButton, RingedMaskedButtonTemplate, PerksProgramAlteredFormButtonMixin
---- @field ringAtlas string # "charactercreate-ring-metallight"
+--- @field ringAtlas string # charactercreate-ring-metallight
+--- @field ringWidth number # 139
+--- @field ringHeight number # 140
+--- @field checkedTextureSize number # 118
+--- @field disabledOverlayAlpha number # 0.5
+--- @field tooltipYOffset number # -5
+--- @field tooltipMinWidth any # nil
+--- @field flipTextures boolean # true
+--- @field tooltipAnchor string # ANCHOR_BOTTOM
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L432)
 --- child of PerksProgramFrame_ModelSceneContainerFrame
 --- @class PerksProgramFrame_ModelSceneContainerFrame_NormalFormButton : CheckButton, RingedMaskedButtonTemplate, PerksProgramAlteredFormButtonMixin
---- @field ringAtlas string # "charactercreate-ring-metallight"
+--- @field ringAtlas string # charactercreate-ring-metallight
+--- @field ringWidth number # 139
+--- @field ringHeight number # 140
+--- @field checkedTextureSize number # 118
+--- @field disabledOverlayAlpha number # 0.5
+--- @field tooltipYOffset number # -5
+--- @field tooltipMinWidth any # nil
+--- @field flipTextures boolean # true
+--- @field tooltipAnchor string # ANCHOR_BOTTOM
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L482)
 --- child of PerksProgramFrame_ModelSceneContainerFrame_ToyOverlayFrame
@@ -336,7 +367,7 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L540)
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_LeaveButton : Button, PerksProgramButtonTemplate
---- @field perksProgramOnClickMethod string # "Leave"
+--- @field perksProgramOnClickMethod string # Leave
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L560)
 --- child of PerksProgramFrame_FooterFrame_PurchaseButton
@@ -345,13 +376,13 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L550)
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_PurchaseButton : Button, PerksProgramButtonTemplate, PerksProgramPurchaseButtonMixin
---- @field perksProgramOnClickMethod string # "ConfirmPurchase"
+--- @field perksProgramOnClickMethod string # ConfirmPurchase
 --- @field Spinner PerksProgramFrame_FooterFrame_PurchaseButton_Spinner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L569)
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_RefundButton : Button, PerksProgramButtonTemplate, PerksProgramRefundButtonMixin
---- @field perksProgramOnClickMethod string # "ConfirmRefund"
+--- @field perksProgramOnClickMethod string # ConfirmRefund
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L579)
 --- child of PerksProgramFrame_FooterFrame
@@ -361,12 +392,16 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L600)
 --- child of PerksProgramFrame_FooterFrame_RotateButtonContainer
 --- @class PerksProgramFrame_FooterFrame_RotateButtonContainer_RotateLeftButton : Button, PerksModelSceneControlButtonTemplate
---- @field iconAtlas string # "perks-icon-rotate-left"
+--- @field iconAtlas string # perks-icon-rotate-left
+--- @field rotateDirection string # left
+--- @field rotationIncrement number # 0.1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L610)
 --- child of PerksProgramFrame_FooterFrame_RotateButtonContainer
 --- @class PerksProgramFrame_FooterFrame_RotateButtonContainer_RotateRightButton : Button, PerksModelSceneControlButtonTemplate
---- @field iconAtlas string # "perks-icon-rotate-right"
+--- @field iconAtlas string # perks-icon-rotate-right
+--- @field rotateDirection string # right
+--- @field rotationIncrement number # 0.1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L594)
 --- child of PerksProgramFrame_FooterFrame
@@ -378,21 +413,29 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_TogglePlayerPreview : CheckButton, PerksProgramCheckboxTemplate
 --- @field textString any # PERKS_PROGRAM_PLAYER_PREVIEW
+--- @field perksProgramOnClickMethod string # TogglePlayerPreviewOnClick
+--- @field perksProgramOnShowMethod string # GetTogglePlayerSetting
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L633)
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_ToggleMountSpecial : CheckButton, PerksProgramCheckboxTemplate
 --- @field textString any # PERKS_PROGRAM_MOUNT_SPECIAL_ANIM
+--- @field perksProgramOnClickMethod string # SetMountSpecialPreviewOnClick
+--- @field perksProgramOnShowMethod string # GetMountSpecialPreviewSetting
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L645)
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_ToggleHideArmor : CheckButton, PerksProgramCheckboxTemplate
 --- @field textString any # PERKS_PROGRAM_HIDE_ARMOR
+--- @field perksProgramOnClickMethod string # PlayerToggledHideArmorOnClick
+--- @field perksProgramOnShowMethod string # GetHideArmorSetting
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L656)
 --- child of PerksProgramFrame_FooterFrame
 --- @class PerksProgramFrame_FooterFrame_ToggleAttackAnimation : CheckButton, PerksProgramCheckboxTemplate
 --- @field textString any # PERKS_PROGRAM_PLAY_ATTACK_ANIM
+--- @field perksProgramOnClickMethod string # PlayerSetAttackAnimationOnClick
+--- @field perksProgramOnShowMethod string # GetAttackAnimationSetting
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L675)
 --- child of PerksProgramFrame_FooterFrame_PurchasedHistoryFrame
@@ -449,7 +492,7 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L4)
 --- @class PerksProgramFrame : Frame, DefaultScaleFrame, PerksProgramMixin
 --- @field maxScale number # 0.75
---- @field PerksProgramTooltip PerksProgramFrame_PerksProgramTooltip
+--- @field PerksProgramTooltip PerksProgramTooltip
 --- @field ProductsFrame PerksProgramFrame_ProductsFrame
 --- @field ModelSceneContainerFrame PerksProgramFrame_ModelSceneContainerFrame
 --- @field FooterFrame PerksProgramFrame_FooterFrame

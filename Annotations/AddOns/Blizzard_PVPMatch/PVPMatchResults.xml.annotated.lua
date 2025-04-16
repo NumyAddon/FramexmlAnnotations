@@ -19,7 +19,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L67)
 --- child of PVPMatchResults
 --- @class PVPMatchResults_Score : Frame, UIWidgetContainerTemplate
---- @field verticalAnchorPoint string # "TOPRIGHT"
+--- @field verticalAnchorPoint string # TOPRIGHT
+--- @field verticalRelativePoint string # BOTTOMRIGHT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L80)
 --- child of PVPMatchResults
@@ -36,21 +37,21 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L204)
 --- child of PVPMatchResults_content_tabContainer_tabGroup
---- @class PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab1 : Button, PanelTabButtonTemplate
+--- @class PVPScoreFrameTab1 : Button, PanelTabButtonTemplate
 --- @field factionEnum number # -1
 PVPScoreFrameTab1 = {}
-PVPScoreFrameTab1["factionEnum"] = _G["-1"]
+PVPScoreFrameTab1["factionEnum"] = -1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L212)
 --- child of PVPMatchResults_content_tabContainer_tabGroup
---- @class PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab2 : Button, PanelTabButtonTemplate
+--- @class PVPScoreFrameTab2 : Button, PanelTabButtonTemplate
 --- @field factionEnum number # 1
 PVPScoreFrameTab2 = {}
 PVPScoreFrameTab2["factionEnum"] = 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L217)
 --- child of PVPMatchResults_content_tabContainer_tabGroup
---- @class PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab3 : Button, PanelTabButtonTemplate
+--- @class PVPScoreFrameTab3 : Button, PanelTabButtonTemplate
 --- @field factionEnum number # 0
 PVPScoreFrameTab3 = {}
 PVPScoreFrameTab3["factionEnum"] = 0
@@ -58,18 +59,18 @@ PVPScoreFrameTab3["factionEnum"] = 0
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L198)
 --- child of PVPMatchResults_content_tabContainer
 --- @class PVPMatchResults_content_tabContainer_tabGroup : Frame
---- @field tab1 PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab1
---- @field tab2 PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab2
---- @field tab3 PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab3
---- @field Tabs table<number, PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab1 | PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab2 | PVPMatchResults_content_tabContainer_tabGroup_PVPScoreFrameTab3>
+--- @field tab1 PVPScoreFrameTab1
+--- @field tab2 PVPScoreFrameTab2
+--- @field tab3 PVPScoreFrameTab3
+--- @field Tabs table<number, PVPScoreFrameTab1 | PVPScoreFrameTab2 | PVPScoreFrameTab3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L178)
 --- child of PVPMatchResults_content_tabContainer
---- @class PVPMatchResults_content_tabContainer_InsetBorderTop : Texture, _UI-Frame-InnerTopTile
+--- @class PVPMatchResults_content_tabContainer_InsetBorderTop : Texture, _UI_Frame_InnerTopTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L184)
 --- child of PVPMatchResults_content_tabContainer
---- @class PVPMatchResults_content_tabContainer_InsetBorderBottom : Texture, _UI-Frame-InnerTopTile
+--- @class PVPMatchResults_content_tabContainer_InsetBorderBottom : Texture, _UI_Frame_InnerTopTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L190)
 --- child of PVPMatchResults_content_tabContainer
@@ -189,35 +190,35 @@ PVPScoreFrameTab3["factionEnum"] = 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L95)
 --- child of PVPMatchResults_content
---- @class PVPMatchResults_content_InsetBorderTopLeft : Texture, UI-Frame-InnerTopLeft
+--- @class PVPMatchResults_content_InsetBorderTopLeft : Texture, UI_Frame_InnerTopLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L100)
 --- child of PVPMatchResults_content
---- @class PVPMatchResults_content_InsetBorderTopRight : Texture, UI-Frame-InnerTopRight
+--- @class PVPMatchResults_content_InsetBorderTopRight : Texture, UI_Frame_InnerTopRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L105)
 --- child of PVPMatchResults_content
---- @class PVPMatchResults_content_InsetBorderBottomLeft : Texture, UI-Frame-InnerBotLeftCorner
+--- @class PVPMatchResults_content_InsetBorderBottomLeft : Texture, UI_Frame_InnerBotLeftCorner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L110)
 --- child of PVPMatchResults_content
---- @class PVPMatchResults_content_InsetBorderBottomRight : Texture, UI-Frame-InnerBotRight
+--- @class PVPMatchResults_content_InsetBorderBottomRight : Texture, UI_Frame_InnerBotRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L115)
 --- child of PVPMatchResults_content
---- @class PVPMatchResults_content_InsetBorderTop : Texture, _UI-Frame-InnerTopTile
+--- @class PVPMatchResults_content_InsetBorderTop : Texture, _UI_Frame_InnerTopTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L121)
 --- child of PVPMatchResults_content
---- @class PVPMatchResults_content_InsetBorderBottom : Texture, _UI-Frame-InnerBotTile
+--- @class PVPMatchResults_content_InsetBorderBottom : Texture, _UI_Frame_InnerBotTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L127)
 --- child of PVPMatchResults_content
---- @class PVPMatchResults_content_InsetBorderLeft : Texture, !UI-Frame-InnerLeftTile
+--- @class PVPMatchResults_content_InsetBorderLeft : Texture, _UI_Frame_InnerLeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L133)
 --- child of PVPMatchResults_content
---- @class PVPMatchResults_content_InsetBorderRight : Texture, !UI-Frame-InnerRightTile
+--- @class PVPMatchResults_content_InsetBorderRight : Texture, _UI_Frame_InnerRightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.xml#L85)
 --- child of PVPMatchResults

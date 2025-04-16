@@ -3,9 +3,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L31)
 --- child of TutorialKeyboardMouseFrame_Frame
 --- Template
---- @class TutorialKeyboardMouseFrame_Frame_KeyboardMouseConfirmButton : Button, UIPanelButtonTemplate
+--- @class KeyboardMouseConfirmButton : Button, UIPanelButtonTemplate
 KeyboardMouseConfirmButton = {}
 KeyboardMouseConfirmButton["fitTextCanWidthDecrease"] = true -- inherited
+KeyboardMouseConfirmButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L22)
 --- child of TutorialKeyboardMouseFrame_Frame
@@ -14,10 +15,12 @@ KeyboardMouseConfirmButton["fitTextCanWidthDecrease"] = true -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L5)
 --- @class TutorialKeyboardMouseFrame_Frame : Frame, ResizeLayoutFrame, TutorialKeyboardMouseFrameMixin
 --- @field widthPadding number # 288
+--- @field heightPadding number # 130
 --- @field Keyboard Texture
 --- @field Text TutorialKeyboardMouseFrame_Frame_Text
 TutorialKeyboardMouseFrame_Frame = {}
 TutorialKeyboardMouseFrame_Frame["widthPadding"] = 288
+TutorialKeyboardMouseFrame_Frame["heightPadding"] = 130
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L60)
 --- child of TutorialWalk_Frame_ContainerFrame
@@ -51,7 +54,9 @@ TutorialKeyboardMouseFrame_Frame["widthPadding"] = 288
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L46)
 --- @class TutorialWalk_Frame : Frame, ResizeLayoutFrame, TutorialWalkMixin
 --- @field widthPadding number # 180
+--- @field heightPadding number # 64
 --- @field ContainerFrame TutorialWalk_Frame_ContainerFrame
 TutorialWalk_Frame = {}
 TutorialWalk_Frame["widthPadding"] = 180
+TutorialWalk_Frame["heightPadding"] = 64
 

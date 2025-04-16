@@ -124,12 +124,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L344)
 --- child of QuestInfoObjectivesFrame
---- @class QuestInfoObjectivesFrame_QuestInfoObjective1 : FontString, QuestFontNormalSmall
+--- @class QuestInfoObjective1 : FontString, QuestFontNormalSmall
 QuestInfoObjective1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L337)
 --- @class QuestInfoObjectivesFrame : Frame
---- @field Objectives table<number, QuestInfoObjectivesFrame_QuestInfoObjective1>
+--- @field Objectives table<number, QuestInfoObjective1>
 QuestInfoObjectivesFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L85)
@@ -149,12 +149,12 @@ QuestInfoSpellObjectiveFrameSpellBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L106)
 --- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
---- @type QuestSpellTemplate_QuestSpellTemplateName
+--- @type QuestSpellTemplate_Name
 QuestInfoSpellObjectiveFrameName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L365)
 --- child of QuestInfoSpecialObjectivesFrame
---- @class QuestInfoSpecialObjectivesFrame_QuestInfoSpellObjectiveFrame : Button, QuestSpellTemplate
+--- @class QuestInfoSpellObjectiveFrame : Button, QuestSpellTemplate
 QuestInfoSpellObjectiveFrame = {}
 QuestInfoSpellObjectiveFrame["Icon"] = QuestInfoSpellObjectiveFrameIconTexture -- inherited
 QuestInfoSpellObjectiveFrame["NameFrame"] = QuestInfoSpellObjectiveFrameNameFrame -- inherited
@@ -162,7 +162,7 @@ QuestInfoSpellObjectiveFrame["Name"] = QuestInfoSpellObjectiveFrameName -- inher
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L361)
 --- child of QuestInfoSpecialObjectivesFrame
---- @class QuestInfoSpecialObjectivesFrame_QuestInfoSpellObjectiveLearnLabel : FontString, QuestFontNormalSmall
+--- @class QuestInfoSpellObjectiveLearnLabel : FontString, QuestFontNormalSmall
 QuestInfoSpellObjectiveLearnLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L354)
@@ -171,7 +171,7 @@ QuestInfoSpecialObjectivesFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L376)
 --- child of QuestInfoTimerFrame
---- @class QuestInfoTimerFrame_QuestInfoTimerText : FontString, QuestFontNormalSmall
+--- @class QuestInfoTimerText : FontString, QuestFontNormalSmall
 QuestInfoTimerText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L369)
@@ -180,22 +180,22 @@ QuestInfoTimerFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L16)
 --- child of QuestInfoRequiredMoneyDisplay (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateCopperButton
+--- @type MoneyFrameTemplate_CopperButton
 QuestInfoRequiredMoneyDisplayCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L40)
 --- child of QuestInfoRequiredMoneyDisplay (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateSilverButton
+--- @type MoneyFrameTemplate_SilverButton
 QuestInfoRequiredMoneyDisplaySilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L64)
 --- child of QuestInfoRequiredMoneyDisplay (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateGoldButton
+--- @type MoneyFrameTemplate_GoldButton
 QuestInfoRequiredMoneyDisplayGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L402)
 --- child of QuestInfoRequiredMoneyFrame
---- @class QuestInfoRequiredMoneyFrame_QuestInfoRequiredMoneyDisplay : Frame, MoneyFrameTemplate
+--- @class QuestInfoRequiredMoneyDisplay : Frame, MoneyFrameTemplate
 QuestInfoRequiredMoneyDisplay = {}
 QuestInfoRequiredMoneyDisplay["CopperButton"] = QuestInfoRequiredMoneyDisplayCopperButton -- inherited
 QuestInfoRequiredMoneyDisplay["SilverButton"] = QuestInfoRequiredMoneyDisplaySilverButton -- inherited
@@ -203,7 +203,7 @@ QuestInfoRequiredMoneyDisplay["GoldButton"] = QuestInfoRequiredMoneyDisplayGoldB
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L394)
 --- child of QuestInfoRequiredMoneyFrame
---- @class QuestInfoRequiredMoneyFrame_QuestInfoRequiredMoneyText : FontString, QuestFontNormalSmall
+--- @class QuestInfoRequiredMoneyText : FontString, QuestFontNormalSmall
 QuestInfoRequiredMoneyText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L390)
@@ -226,12 +226,12 @@ QuestInfoRewardsFrameNameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L188)
 --- child of QuestInfoRewardsFrame_HonorFrame (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestInfoRewardsFrameName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L220)
 --- child of QuestInfoRewardsFrame_HonorFrame (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestInfoRewardsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L442)
@@ -250,17 +250,17 @@ QuestInfoRewardsFrameQuestInfoItem1NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L188)
 --- child of QuestInfoRewardsFrameQuestInfoItem1 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestInfoRewardsFrameQuestInfoItem1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L220)
 --- child of QuestInfoRewardsFrameQuestInfoItem1 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestInfoRewardsFrameQuestInfoItem1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L443)
 --- child of QuestInfoRewardsFrame
---- @class QuestInfoRewardsFrame_QuestInfoRewardsFrameQuestInfoItem1 : Button, LargeQuestRewardItemButtonTemplate
+--- @class QuestInfoRewardsFrameQuestInfoItem1 : Button, LargeQuestRewardItemButtonTemplate
 QuestInfoRewardsFrameQuestInfoItem1 = {}
 QuestInfoRewardsFrameQuestInfoItem1["largeItemButton"] = true -- inherited
 QuestInfoRewardsFrameQuestInfoItem1["Icon"] = QuestInfoRewardsFrameQuestInfoItem1IconTexture -- inherited
@@ -270,22 +270,22 @@ QuestInfoRewardsFrameQuestInfoItem1["Count"] = QuestInfoRewardsFrameQuestInfoIte
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L16)
 --- child of QuestInfoMoneyFrame (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateCopperButton
+--- @type MoneyFrameTemplate_CopperButton
 QuestInfoMoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L40)
 --- child of QuestInfoMoneyFrame (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateSilverButton
+--- @type MoneyFrameTemplate_SilverButton
 QuestInfoMoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L64)
 --- child of QuestInfoMoneyFrame (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateGoldButton
+--- @type MoneyFrameTemplate_GoldButton
 QuestInfoMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L444)
 --- child of QuestInfoRewardsFrame
---- @class QuestInfoRewardsFrame_QuestInfoMoneyFrame : Frame, MoneyFrameTemplate
+--- @class QuestInfoMoneyFrame : Frame, MoneyFrameTemplate
 QuestInfoMoneyFrame = {}
 QuestInfoMoneyFrame["CopperButton"] = QuestInfoMoneyFrameCopperButton -- inherited
 QuestInfoMoneyFrame["SilverButton"] = QuestInfoMoneyFrameSilverButton -- inherited
@@ -293,7 +293,7 @@ QuestInfoMoneyFrame["GoldButton"] = QuestInfoMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L470)
 --- child of QuestInfoSkillPointFrame
---- @class QuestInfoRewardsFrame_QuestInfoSkillPointFrame_ValueText : FontString, GameFontNormalLarge
+--- @class QuestInfoSkillPointFrame_ValueText : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L174)
 --- child of QuestInfoSkillPointFrame (created in template LargeItemButtonTemplate)
@@ -307,20 +307,20 @@ QuestInfoSkillPointFrameNameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L188)
 --- child of QuestInfoSkillPointFrame (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestInfoSkillPointFrameName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L220)
 --- child of QuestInfoSkillPointFrame (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestInfoSkillPointFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L455)
 --- child of QuestInfoRewardsFrame
---- @class QuestInfoRewardsFrame_QuestInfoSkillPointFrame : Button, LargeItemButtonTemplate
+--- @class QuestInfoSkillPointFrame : Button, LargeItemButtonTemplate
 --- @field CircleBackground Texture
 --- @field CircleBackgroundGlow Texture
---- @field ValueText QuestInfoRewardsFrame_QuestInfoSkillPointFrame_ValueText
+--- @field ValueText QuestInfoSkillPointFrame_ValueText
 QuestInfoSkillPointFrame = {}
 QuestInfoSkillPointFrame["largeItemButton"] = true -- inherited
 QuestInfoSkillPointFrame["Icon"] = QuestInfoSkillPointFrameIconTexture -- inherited
@@ -330,17 +330,17 @@ QuestInfoSkillPointFrame["Count"] = QuestInfoSkillPointFrameCount -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L498)
 --- child of QuestInfoXPFrame
---- @class QuestInfoRewardsFrame_QuestInfoXPFrame_ReceiveText : FontString, QuestFont
+--- @class QuestInfoXPFrame_ReceiveText : FontString, QuestFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L503)
 --- child of QuestInfoXPFrame
---- @class QuestInfoRewardsFrame_QuestInfoXPFrame_ValueText : FontString, NumberFontNormalLarge
+--- @class QuestInfoXPFrame_ValueText : FontString, NumberFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L494)
 --- child of QuestInfoRewardsFrame
---- @class QuestInfoRewardsFrame_QuestInfoXPFrame : Frame
---- @field ReceiveText QuestInfoRewardsFrame_QuestInfoXPFrame_ReceiveText
---- @field ValueText QuestInfoRewardsFrame_QuestInfoXPFrame_ValueText
+--- @class QuestInfoXPFrame : Frame
+--- @field ReceiveText QuestInfoXPFrame_ReceiveText
+--- @field ValueText QuestInfoXPFrame_ValueText
 QuestInfoXPFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L174)
@@ -355,12 +355,12 @@ QuestInfoRewardsFrameNameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L188)
 --- child of QuestInfoRewardsFrame_ArtifactXPFrame (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestInfoRewardsFrameName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L220)
 --- child of QuestInfoRewardsFrame_ArtifactXPFrame (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestInfoRewardsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L511)
@@ -380,12 +380,12 @@ QuestInfoRewardsFrameNameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L188)
 --- child of QuestInfoRewardsFrame_WarModeBonusFrame (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestInfoRewardsFrameName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L220)
 --- child of QuestInfoRewardsFrame_WarModeBonusFrame (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestInfoRewardsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L531)
@@ -394,21 +394,21 @@ QuestInfoRewardsFrameCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L565)
 --- child of QuestInfoPlayerTitleFrame
---- @class QuestInfoRewardsFrame_QuestInfoPlayerTitleFrame_Name : FontString, GameFontHighlight
+--- @class QuestInfoPlayerTitleFrame_Name : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L532)
 --- child of QuestInfoRewardsFrame
---- @class QuestInfoRewardsFrame_QuestInfoPlayerTitleFrame : Frame
+--- @class QuestInfoPlayerTitleFrame : Frame
 --- @field Icon Texture
 --- @field FrameLeft Texture
 --- @field FrameCenter Texture
 --- @field FrameRight Texture
---- @field Name QuestInfoRewardsFrame_QuestInfoPlayerTitleFrame_Name
+--- @field Name QuestInfoPlayerTitleFrame_Name
 QuestInfoPlayerTitleFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L574)
 --- child of QuestInfoRewardsFrame
---- @class QuestInfoRewardsFrame_QuestInfoItemHighlight : Frame
+--- @class QuestInfoItemHighlight : Frame
 QuestInfoItemHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L425)
@@ -434,19 +434,19 @@ QuestInfoItemHighlight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L418)
 --- @class QuestInfoRewardsFrame : Frame
 --- @field HonorFrame QuestInfoRewardsFrame_HonorFrame
---- @field MoneyFrame QuestInfoRewardsFrame_QuestInfoMoneyFrame
---- @field SkillPointFrame QuestInfoRewardsFrame_QuestInfoSkillPointFrame
---- @field XPFrame QuestInfoRewardsFrame_QuestInfoXPFrame
+--- @field MoneyFrame QuestInfoMoneyFrame
+--- @field SkillPointFrame QuestInfoSkillPointFrame
+--- @field XPFrame QuestInfoXPFrame
 --- @field ArtifactXPFrame QuestInfoRewardsFrame_ArtifactXPFrame
 --- @field WarModeBonusFrame QuestInfoRewardsFrame_WarModeBonusFrame
---- @field TitleFrame QuestInfoRewardsFrame_QuestInfoPlayerTitleFrame
---- @field ItemHighlight QuestInfoRewardsFrame_QuestInfoItemHighlight
+--- @field TitleFrame QuestInfoPlayerTitleFrame
+--- @field ItemHighlight QuestInfoItemHighlight
 --- @field Header QuestInfoRewardsFrame_Header
 --- @field ItemChooseText QuestInfoRewardsFrame_ItemChooseText
 --- @field ItemReceiveText QuestInfoRewardsFrame_ItemReceiveText
 --- @field PlayerTitleText QuestInfoRewardsFrame_PlayerTitleText
 --- @field QuestSessionBonusReward QuestInfoRewardsFrame_QuestSessionBonusReward
---- @field RewardButtons table<number, QuestInfoRewardsFrame_QuestInfoRewardsFrameQuestInfoItem1>
+--- @field RewardButtons table<number, QuestInfoRewardsFrameQuestInfoItem1>
 QuestInfoRewardsFrame = {}
 QuestInfoRewardsFrame["MoneyFrame"] = QuestInfoMoneyFrame
 QuestInfoRewardsFrame["SkillPointFrame"] = QuestInfoSkillPointFrame
@@ -465,7 +465,7 @@ MapQuestInfoRewardsFrameQuestInfoItem1IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L636)
 --- child of MapQuestInfoRewardsFrame
---- @class MapQuestInfoRewardsFrame_MapQuestInfoRewardsFrameQuestInfoItem1 : Button, SmallQuestRewardItemButtonTemplate
+--- @class MapQuestInfoRewardsFrameQuestInfoItem1 : Button, SmallQuestRewardItemButtonTemplate
 MapQuestInfoRewardsFrameQuestInfoItem1 = {}
 MapQuestInfoRewardsFrameQuestInfoItem1["smallItemButton"] = true -- inherited
 MapQuestInfoRewardsFrameQuestInfoItem1["Icon"] = MapQuestInfoRewardsFrameQuestInfoItem1IconTexture -- inherited
@@ -518,17 +518,17 @@ MapQuestInfoRewardsFrameIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L664)
 --- child of MapQuestInfoRewardsFrame_SkillPointFrame
---- @class MapQuestInfoRewardsFrame_SkillPointFrame_MapQuestInfoRewardsFrameSkillPointBg : Texture
+--- @class MapQuestInfoRewardsFrameSkillPointBg : Texture
 MapQuestInfoRewardsFrameSkillPointBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L670)
 --- child of MapQuestInfoRewardsFrame_SkillPointFrame
---- @class MapQuestInfoRewardsFrame_SkillPointFrame_MapQuestInfoRewardsFrameSkillPointBgGlow : Texture
+--- @class MapQuestInfoRewardsFrameSkillPointBgGlow : Texture
 MapQuestInfoRewardsFrameSkillPointBgGlow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L676)
 --- child of MapQuestInfoRewardsFrame_SkillPointFrame
---- @class MapQuestInfoRewardsFrame_SkillPointFrame_MapQuestInfoRewardsFramePoints : FontString, GameFontNormal
+--- @class MapQuestInfoRewardsFramePoints : FontString, GameFontNormal
 MapQuestInfoRewardsFramePoints = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L236)
@@ -539,9 +539,9 @@ MapQuestInfoRewardsFrameIconTexture = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L661)
 --- child of MapQuestInfoRewardsFrame
 --- @class MapQuestInfoRewardsFrame_SkillPointFrame : Button, SmallItemButtonTemplate
---- @field CircleBackground MapQuestInfoRewardsFrame_SkillPointFrame_MapQuestInfoRewardsFrameSkillPointBg
---- @field CircleBackgroundGlow MapQuestInfoRewardsFrame_SkillPointFrame_MapQuestInfoRewardsFrameSkillPointBgGlow
---- @field ValueText MapQuestInfoRewardsFrame_SkillPointFrame_MapQuestInfoRewardsFramePoints
+--- @field CircleBackground MapQuestInfoRewardsFrameSkillPointBg
+--- @field CircleBackgroundGlow MapQuestInfoRewardsFrameSkillPointBgGlow
+--- @field ValueText MapQuestInfoRewardsFramePoints
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L236)
 --- child of MapQuestInfoRewardsFrame_TitleFrame (created in template SmallItemButtonTemplate)
@@ -582,74 +582,74 @@ MapQuestInfoRewardsFrameIconTexture = {}
 --- @field ItemReceiveText MapQuestInfoRewardsFrame_ItemReceiveText
 --- @field PlayerTitleText MapQuestInfoRewardsFrame_PlayerTitleText
 --- @field QuestSessionBonusReward MapQuestInfoRewardsFrame_QuestSessionBonusReward
---- @field RewardButtons table<number, MapQuestInfoRewardsFrame_MapQuestInfoRewardsFrameQuestInfoItem1>
+--- @field RewardButtons table<number, MapQuestInfoRewardsFrameQuestInfoItem1>
 MapQuestInfoRewardsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L750)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoSpacerFrame : Frame
+--- @class QuestInfoSpacerFrame : Frame
 QuestInfoSpacerFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L757)
 --- child of QuestInfoSealFrame
---- @class QuestInfoFrame_QuestInfoSealFrame_Text : FontString, QuestFont_Huge, AutoScalingFontStringMixin
+--- @class QuestInfoSealFrame_Text : FontString, QuestFont_Huge, AutoScalingFontStringMixin
 --- @field minLineHeight number # 12
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L753)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoSealFrame : Frame
---- @field Text QuestInfoFrame_QuestInfoSealFrame_Text
+--- @class QuestInfoSealFrame : Frame
+--- @field Text QuestInfoSealFrame_Text
 --- @field Texture Texture
 QuestInfoSealFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L723)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoTitleHeader : FontString, QuestTitleFont
+--- @class QuestInfoTitleHeader : FontString, QuestTitleFont
 QuestInfoTitleHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L726)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoQuestType : FontString, QuestFont
+--- @class QuestInfoQuestType : FontString, QuestFont
 QuestInfoQuestType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L729)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoObjectivesText : FontString, QuestFont
+--- @class QuestInfoObjectivesText : FontString, QuestFont
 QuestInfoObjectivesText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L732)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoRewardText : FontString, QuestFont
+--- @class QuestInfoRewardText : FontString, QuestFont
 QuestInfoRewardText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L735)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoRequiredMoneyText : FontString, QuestFontNormalSmall
+--- @class QuestInfoRequiredMoneyText : FontString, QuestFontNormalSmall
 QuestInfoRequiredMoneyText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L736)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoGroupSize : FontString, QuestFont
+--- @class QuestInfoGroupSize : FontString, QuestFont
 QuestInfoGroupSize = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L737)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoAnchor : FontString, QuestFont
+--- @class QuestInfoAnchor : FontString, QuestFont
 QuestInfoAnchor = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L738)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoDescriptionHeader : FontString, QuestTitleFont
+--- @class QuestInfoDescriptionHeader : FontString, QuestTitleFont
 QuestInfoDescriptionHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L741)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoObjectivesHeader : FontString, QuestTitleFont
+--- @class QuestInfoObjectivesHeader : FontString, QuestTitleFont
 QuestInfoObjectivesHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L744)
 --- child of QuestInfoFrame
---- @class QuestInfoFrame_QuestInfoDescriptionText : FontString, QuestFont
+--- @class QuestInfoDescriptionText : FontString, QuestFont
 QuestInfoDescriptionText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L719)

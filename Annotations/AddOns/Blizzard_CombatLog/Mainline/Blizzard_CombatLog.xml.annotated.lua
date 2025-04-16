@@ -6,17 +6,17 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CombatLog/Mainline/Blizzard_CombatLog.xml#L26)
 --- child of CombatLogQuickButtonFrame_Custom
---- @class CombatLogQuickButtonFrame_Custom_CombatLogQuickButtonFrame_CustomProgressBar : StatusBar
+--- @class CombatLogQuickButtonFrame_CustomProgressBar : StatusBar
 CombatLogQuickButtonFrame_CustomProgressBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CombatLog/Mainline/Blizzard_CombatLog.xml#L35)
 --- child of CombatLogQuickButtonFrame_Custom
---- @class CombatLogQuickButtonFrame_Custom_CombatLogQuickButtonFrame_CustomAdditionalFilterButton : DropdownButton
+--- @class CombatLogQuickButtonFrame_CustomAdditionalFilterButton : DropdownButton
 CombatLogQuickButtonFrame_CustomAdditionalFilterButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CombatLog/Mainline/Blizzard_CombatLog.xml#L20)
 --- child of CombatLogQuickButtonFrame_Custom
---- @class CombatLogQuickButtonFrame_Custom_CombatLogQuickButtonFrame_CustomTexture : Texture
+--- @class CombatLogQuickButtonFrame_CustomTexture : Texture
 CombatLogQuickButtonFrame_CustomTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CombatLog/Mainline/Blizzard_CombatLog.xml#L13)

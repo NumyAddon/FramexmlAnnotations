@@ -51,40 +51,40 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L188)
 --- child of LFGRoleButtonWithBackgroundAndRewardTemplate
---- @class LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon : Frame
+--- @class LFGRoleButtonWithBackgroundAndRewardTemplate_IncentiveIcon : Frame
 --- @field texture Texture
 --- @field border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L176)
 --- Template
 --- @class LFGRoleButtonWithBackgroundAndRewardTemplate : Button, LFGRoleButtonWithBackgroundTemplate
---- @field incentiveIcon LFGRoleButtonWithBackgroundAndRewardTemplate_LFGRoleButtonWithBackgroundAndRewardTemplateIncentiveIcon
+--- @field incentiveIcon LFGRoleButtonWithBackgroundAndRewardTemplate_IncentiveIcon
 --- @field shortageBorder Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L254)
 --- child of LFGSpecificChoiceTemplate
---- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateEnableButton : CheckButton
+--- @class LFGSpecificChoiceTemplate_EnableButton : CheckButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L265)
 --- child of LFGSpecificChoiceTemplate
---- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateExpandOrCollapseButton : Button
+--- @class LFGSpecificChoiceTemplate_ExpandOrCollapseButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L232)
 --- child of LFGSpecificChoiceTemplate
---- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceLevel : FontString, GameFontNormal
+--- @class LFGSpecificChoiceTemplate_InstanceLevel : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L237)
 --- child of LFGSpecificChoiceTemplate
---- @class LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceName : FontString, GameFontNormal
+--- @class LFGSpecificChoiceTemplate_InstanceName : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L218)
 --- Template
 --- @class LFGSpecificChoiceTemplate : Frame
---- @field enableButton LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateEnableButton
---- @field expandOrCollapseButton LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateExpandOrCollapseButton
+--- @field enableButton LFGSpecificChoiceTemplate_EnableButton
+--- @field expandOrCollapseButton LFGSpecificChoiceTemplate_ExpandOrCollapseButton
 --- @field heroicIcon Texture
---- @field level LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceLevel
---- @field instanceName LFGSpecificChoiceTemplate_LFGSpecificChoiceTemplateInstanceName
+--- @field level LFGSpecificChoiceTemplate_InstanceLevel
+--- @field instanceName LFGSpecificChoiceTemplate_InstanceName
 --- @field lockedIndicator Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L295)
@@ -101,20 +101,20 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L334)
 --- child of LFGDungeonReadyStatusRoleWithCountTemplate
---- @class LFGDungeonReadyStatusRoleWithCountTemplate_LFGDungeonReadyStatusRoleWithCountTemplateCount : FontString, GameFontHighlight
+--- @class LFGDungeonReadyStatusRoleWithCountTemplate_Count : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L331)
 --- Template
 --- @class LFGDungeonReadyStatusRoleWithCountTemplate : Frame, LFGDungeonReadyStatusPlayerTemplate
---- @field count LFGDungeonReadyStatusRoleWithCountTemplate_LFGDungeonReadyStatusRoleWithCountTemplateCount
+--- @field count LFGDungeonReadyStatusRoleWithCountTemplate_Count
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L360)
 --- child of LFGDungeonReadyStatus
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_Border : Frame, DialogBorderTemplate
+--- @class LFGDungeonReadyStatus_Border : Frame, DialogBorderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L361)
 --- child of LFGDungeonReadyStatus
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusCloseButton : Button, UIPanelHideButtonNoScripts
+--- @class LFGDungeonReadyStatusCloseButton : Button, UIPanelHideButtonNoScripts
 LFGDungeonReadyStatusCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L319)
@@ -129,7 +129,7 @@ LFGDungeonReadyStatusIndividualPlayer1StatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L379)
 --- child of LFGDungeonReadyStatusIndividual
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusIndividual_LFGDungeonReadyStatusIndividualPlayer1 : Frame, LFGDungeonReadyStatusPlayerTemplate
+--- @class LFGDungeonReadyStatusIndividualPlayer1 : Frame, LFGDungeonReadyStatusPlayerTemplate
 LFGDungeonReadyStatusIndividualPlayer1 = {}
 LFGDungeonReadyStatusIndividualPlayer1["texture"] = LFGDungeonReadyStatusIndividualPlayer1Texture -- inherited
 LFGDungeonReadyStatusIndividualPlayer1["statusIcon"] = LFGDungeonReadyStatusIndividualPlayer1StatusIcon -- inherited
@@ -146,7 +146,7 @@ LFGDungeonReadyStatusIndividualPlayer2StatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L384)
 --- child of LFGDungeonReadyStatusIndividual
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusIndividual_LFGDungeonReadyStatusIndividualPlayer2 : Frame, LFGDungeonReadyStatusPlayerTemplate
+--- @class LFGDungeonReadyStatusIndividualPlayer2 : Frame, LFGDungeonReadyStatusPlayerTemplate
 LFGDungeonReadyStatusIndividualPlayer2 = {}
 LFGDungeonReadyStatusIndividualPlayer2["texture"] = LFGDungeonReadyStatusIndividualPlayer2Texture -- inherited
 LFGDungeonReadyStatusIndividualPlayer2["statusIcon"] = LFGDungeonReadyStatusIndividualPlayer2StatusIcon -- inherited
@@ -163,7 +163,7 @@ LFGDungeonReadyStatusIndividualPlayer3StatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L389)
 --- child of LFGDungeonReadyStatusIndividual
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusIndividual_LFGDungeonReadyStatusIndividualPlayer3 : Frame, LFGDungeonReadyStatusPlayerTemplate
+--- @class LFGDungeonReadyStatusIndividualPlayer3 : Frame, LFGDungeonReadyStatusPlayerTemplate
 LFGDungeonReadyStatusIndividualPlayer3 = {}
 LFGDungeonReadyStatusIndividualPlayer3["texture"] = LFGDungeonReadyStatusIndividualPlayer3Texture -- inherited
 LFGDungeonReadyStatusIndividualPlayer3["statusIcon"] = LFGDungeonReadyStatusIndividualPlayer3StatusIcon -- inherited
@@ -180,7 +180,7 @@ LFGDungeonReadyStatusIndividualPlayer4StatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L394)
 --- child of LFGDungeonReadyStatusIndividual
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusIndividual_LFGDungeonReadyStatusIndividualPlayer4 : Frame, LFGDungeonReadyStatusPlayerTemplate
+--- @class LFGDungeonReadyStatusIndividualPlayer4 : Frame, LFGDungeonReadyStatusPlayerTemplate
 LFGDungeonReadyStatusIndividualPlayer4 = {}
 LFGDungeonReadyStatusIndividualPlayer4["texture"] = LFGDungeonReadyStatusIndividualPlayer4Texture -- inherited
 LFGDungeonReadyStatusIndividualPlayer4["statusIcon"] = LFGDungeonReadyStatusIndividualPlayer4StatusIcon -- inherited
@@ -197,19 +197,19 @@ LFGDungeonReadyStatusIndividualPlayer5StatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L399)
 --- child of LFGDungeonReadyStatusIndividual
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusIndividual_LFGDungeonReadyStatusIndividualPlayer5 : Frame, LFGDungeonReadyStatusPlayerTemplate
+--- @class LFGDungeonReadyStatusIndividualPlayer5 : Frame, LFGDungeonReadyStatusPlayerTemplate
 LFGDungeonReadyStatusIndividualPlayer5 = {}
 LFGDungeonReadyStatusIndividualPlayer5["texture"] = LFGDungeonReadyStatusIndividualPlayer5Texture -- inherited
 LFGDungeonReadyStatusIndividualPlayer5["statusIcon"] = LFGDungeonReadyStatusIndividualPlayer5StatusIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L373)
 --- child of LFGDungeonReadyStatus
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusIndividual : Frame
+--- @class LFGDungeonReadyStatusIndividual : Frame
 LFGDungeonReadyStatusIndividual = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L334)
 --- child of LFGDungeonReadyStatusGroupedTank (created in template LFGDungeonReadyStatusRoleWithCountTemplate)
---- @type LFGDungeonReadyStatusRoleWithCountTemplate_LFGDungeonReadyStatusRoleWithCountTemplateCount
+--- @type LFGDungeonReadyStatusRoleWithCountTemplate_Count
 LFGDungeonReadyStatusGroupedTankCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L319)
@@ -224,7 +224,7 @@ LFGDungeonReadyStatusGroupedTankStatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L412)
 --- child of LFGDungeonReadyStatusGrouped
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusGrouped_LFGDungeonReadyStatusGroupedTank : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
+--- @class LFGDungeonReadyStatusGroupedTank : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
 LFGDungeonReadyStatusGroupedTank = {}
 LFGDungeonReadyStatusGroupedTank["count"] = LFGDungeonReadyStatusGroupedTankCount -- inherited
 LFGDungeonReadyStatusGroupedTank["texture"] = LFGDungeonReadyStatusGroupedTankTexture -- inherited
@@ -232,7 +232,7 @@ LFGDungeonReadyStatusGroupedTank["statusIcon"] = LFGDungeonReadyStatusGroupedTan
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L334)
 --- child of LFGDungeonReadyStatusGroupedHealer (created in template LFGDungeonReadyStatusRoleWithCountTemplate)
---- @type LFGDungeonReadyStatusRoleWithCountTemplate_LFGDungeonReadyStatusRoleWithCountTemplateCount
+--- @type LFGDungeonReadyStatusRoleWithCountTemplate_Count
 LFGDungeonReadyStatusGroupedHealerCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L319)
@@ -247,7 +247,7 @@ LFGDungeonReadyStatusGroupedHealerStatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L417)
 --- child of LFGDungeonReadyStatusGrouped
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusGrouped_LFGDungeonReadyStatusGroupedHealer : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
+--- @class LFGDungeonReadyStatusGroupedHealer : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
 LFGDungeonReadyStatusGroupedHealer = {}
 LFGDungeonReadyStatusGroupedHealer["count"] = LFGDungeonReadyStatusGroupedHealerCount -- inherited
 LFGDungeonReadyStatusGroupedHealer["texture"] = LFGDungeonReadyStatusGroupedHealerTexture -- inherited
@@ -255,7 +255,7 @@ LFGDungeonReadyStatusGroupedHealer["statusIcon"] = LFGDungeonReadyStatusGroupedH
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L334)
 --- child of LFGDungeonReadyStatusGroupedDamager (created in template LFGDungeonReadyStatusRoleWithCountTemplate)
---- @type LFGDungeonReadyStatusRoleWithCountTemplate_LFGDungeonReadyStatusRoleWithCountTemplateCount
+--- @type LFGDungeonReadyStatusRoleWithCountTemplate_Count
 LFGDungeonReadyStatusGroupedDamagerCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L319)
@@ -270,7 +270,7 @@ LFGDungeonReadyStatusGroupedDamagerStatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L422)
 --- child of LFGDungeonReadyStatusGrouped
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusGrouped_LFGDungeonReadyStatusGroupedDamager : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
+--- @class LFGDungeonReadyStatusGroupedDamager : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
 LFGDungeonReadyStatusGroupedDamager = {}
 LFGDungeonReadyStatusGroupedDamager["count"] = LFGDungeonReadyStatusGroupedDamagerCount -- inherited
 LFGDungeonReadyStatusGroupedDamager["texture"] = LFGDungeonReadyStatusGroupedDamagerTexture -- inherited
@@ -278,12 +278,12 @@ LFGDungeonReadyStatusGroupedDamager["statusIcon"] = LFGDungeonReadyStatusGrouped
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L406)
 --- child of LFGDungeonReadyStatus
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusGrouped : Frame
+--- @class LFGDungeonReadyStatusGrouped : Frame
 LFGDungeonReadyStatusGrouped = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L334)
 --- child of LFGDungeonReadyStatusRolelessReady (created in template LFGDungeonReadyStatusRoleWithCountTemplate)
---- @type LFGDungeonReadyStatusRoleWithCountTemplate_LFGDungeonReadyStatusRoleWithCountTemplateCount
+--- @type LFGDungeonReadyStatusRoleWithCountTemplate_Count
 LFGDungeonReadyStatusRolelessReadyCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L319)
@@ -298,7 +298,7 @@ LFGDungeonReadyStatusRolelessReadyStatusIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L435)
 --- child of LFGDungeonReadyStatusRoleless
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusRoleless_LFGDungeonReadyStatusRolelessReady : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
+--- @class LFGDungeonReadyStatusRolelessReady : Frame, LFGDungeonReadyStatusRoleWithCountTemplate
 LFGDungeonReadyStatusRolelessReady = {}
 LFGDungeonReadyStatusRolelessReady["count"] = LFGDungeonReadyStatusRolelessReadyCount -- inherited
 LFGDungeonReadyStatusRolelessReady["texture"] = LFGDungeonReadyStatusRolelessReadyTexture -- inherited
@@ -306,83 +306,85 @@ LFGDungeonReadyStatusRolelessReady["statusIcon"] = LFGDungeonReadyStatusRoleless
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L429)
 --- child of LFGDungeonReadyStatus
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusRoleless : Frame
---- @field ready LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusRoleless_LFGDungeonReadyStatusRolelessReady
+--- @class LFGDungeonReadyStatusRoleless : Frame
+--- @field ready LFGDungeonReadyStatusRolelessReady
 LFGDungeonReadyStatusRoleless = {}
 LFGDungeonReadyStatusRoleless["ready"] = LFGDungeonReadyStatusRolelessReady
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L352)
 --- child of LFGDungeonReadyStatus
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus_LFGDungeonReadyStatusLabel : FontString, GameFontHighlight
+--- @class LFGDungeonReadyStatusLabel : FontString, GameFontHighlight
 LFGDungeonReadyStatusLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L345)
 --- child of LFGDungeonReadyPopup
---- @class LFGDungeonReadyPopup_LFGDungeonReadyStatus : Frame
---- @field Border LFGDungeonReadyPopup_LFGDungeonReadyStatus_Border
+--- @class LFGDungeonReadyStatus : Frame
+--- @field Border LFGDungeonReadyStatus_Border
 LFGDungeonReadyStatus = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L488)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_Border : Frame, DialogBorderTranslucentTemplate
+--- @class LFGDungeonReadyDialog_Border : Frame, DialogBorderTranslucentTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L489)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogCloseButton : Button, UIPanelHideButtonNoScripts
+--- @class LFGDungeonReadyDialogCloseButton : Button, UIPanelHideButtonNoScripts
 LFGDungeonReadyDialogCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L502)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogEnterDungeonButton : Button, UIPanelButtonTemplate
+--- @class LFGDungeonReadyDialogEnterDungeonButton : Button, UIPanelButtonTemplate
 LFGDungeonReadyDialogEnterDungeonButton = {}
 LFGDungeonReadyDialogEnterDungeonButton["fitTextCanWidthDecrease"] = true -- inherited
+LFGDungeonReadyDialogEnterDungeonButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L514)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogLeaveQueueButton : Button, UIPanelButtonTemplate
+--- @class LFGDungeonReadyDialogLeaveQueueButton : Button, UIPanelButtonTemplate
 LFGDungeonReadyDialogLeaveQueueButton = {}
 LFGDungeonReadyDialogLeaveQueueButton["fitTextCanWidthDecrease"] = true -- inherited
+LFGDungeonReadyDialogLeaveQueueButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L534)
 --- child of LFGDungeonReadyDialogRoleIcon
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRoleIcon_LFGDungeonReadyDialogRoleIconTexture : Texture
+--- @class LFGDungeonReadyDialogRoleIconTexture : Texture
 LFGDungeonReadyDialogRoleIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L537)
 --- child of LFGDungeonReadyDialogRoleIcon
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRoleIcon_LFGDungeonReadyDialogRoleIconLeaderIcon : Texture
+--- @class LFGDungeonReadyDialogRoleIconLeaderIcon : Texture
 LFGDungeonReadyDialogRoleIconLeaderIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L527)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRoleIcon : Frame
+--- @class LFGDungeonReadyDialogRoleIcon : Frame
 LFGDungeonReadyDialogRoleIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L562)
 --- child of LFGDungeonReadyDialogRandomInProgressFrame
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRandomInProgressFrame_LFGDungeonReadyDialogRandomInProgressFrameStatusText : FontString, GameFontNormal
+--- @class LFGDungeonReadyDialogRandomInProgressFrameStatusText : FontString, GameFontNormal
 LFGDungeonReadyDialogRandomInProgressFrameStatusText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L546)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRandomInProgressFrame : Frame
+--- @class LFGDungeonReadyDialogRandomInProgressFrame : Frame
 LFGDungeonReadyDialogRandomInProgressFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L577)
 --- child of LFGDungeonReadyDialogInstanceInfoFrame
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogInstanceInfoFrame_LFGDungeonReadyDialogInstanceInfoFrameName : FontString, GameFontNormalLarge
+--- @class LFGDungeonReadyDialogInstanceInfoFrameName : FontString, GameFontNormalLarge
 LFGDungeonReadyDialogInstanceInfoFrameName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L583)
 --- child of LFGDungeonReadyDialogInstanceInfoFrame
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogInstanceInfoFrame_LFGDungeonReadyDialogInstanceInfoFrameStatusText : FontString, GameFontNormal
+--- @class LFGDungeonReadyDialogInstanceInfoFrameStatusText : FontString, GameFontNormal
 LFGDungeonReadyDialogInstanceInfoFrameStatusText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L570)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogInstanceInfoFrame : Frame
---- @field name LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogInstanceInfoFrame_LFGDungeonReadyDialogInstanceInfoFrameName
---- @field statusText LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogInstanceInfoFrame_LFGDungeonReadyDialogInstanceInfoFrameStatusText
+--- @class LFGDungeonReadyDialogInstanceInfoFrame : Frame
+--- @field name LFGDungeonReadyDialogInstanceInfoFrameName
+--- @field statusText LFGDungeonReadyDialogInstanceInfoFrameStatusText
 --- @field underline Texture
 LFGDungeonReadyDialogInstanceInfoFrame = {}
 LFGDungeonReadyDialogInstanceInfoFrame["name"] = LFGDungeonReadyDialogInstanceInfoFrameName
@@ -400,7 +402,7 @@ LFGDungeonReadyDialogRewardsFrameReward1Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L619)
 --- child of LFGDungeonReadyDialogRewardsFrame
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame_LFGDungeonReadyDialogRewardsFrameReward1 : Frame, LFGDungeonReadyRewardTemplate
+--- @class LFGDungeonReadyDialogRewardsFrameReward1 : Frame, LFGDungeonReadyRewardTemplate
 LFGDungeonReadyDialogRewardsFrameReward1 = {}
 LFGDungeonReadyDialogRewardsFrameReward1["texture"] = LFGDungeonReadyDialogRewardsFrameReward1Texture -- inherited
 
@@ -416,57 +418,57 @@ LFGDungeonReadyDialogRewardsFrameReward2Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L620)
 --- child of LFGDungeonReadyDialogRewardsFrame
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame_LFGDungeonReadyDialogRewardsFrameReward2 : Frame, LFGDungeonReadyRewardTemplate
+--- @class LFGDungeonReadyDialogRewardsFrameReward2 : Frame, LFGDungeonReadyRewardTemplate
 LFGDungeonReadyDialogRewardsFrameReward2 = {}
 LFGDungeonReadyDialogRewardsFrameReward2["texture"] = LFGDungeonReadyDialogRewardsFrameReward2Texture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L611)
 --- child of LFGDungeonReadyDialogRewardsFrame
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame_LFGDungeonReadyDialogRewardsFrameLabel : FontString, GameFontNormalSmall
+--- @class LFGDungeonReadyDialogRewardsFrameLabel : FontString, GameFontNormalSmall
 LFGDungeonReadyDialogRewardsFrameLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L604)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame : Frame
---- @field Rewards table<number, LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame_LFGDungeonReadyDialogRewardsFrameReward1 | LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRewardsFrame_LFGDungeonReadyDialogRewardsFrameReward2>
+--- @class LFGDungeonReadyDialogRewardsFrame : Frame
+--- @field Rewards table<number, LFGDungeonReadyDialogRewardsFrameReward1 | LFGDungeonReadyDialogRewardsFrameReward2>
 LFGDungeonReadyDialogRewardsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L454)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogBackground : Texture
+--- @class LFGDungeonReadyDialogBackground : Texture
 LFGDungeonReadyDialogBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L463)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogLabel : FontString, GameFontHighlight
+--- @class LFGDungeonReadyDialogLabel : FontString, GameFontHighlight
 LFGDungeonReadyDialogLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L469)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogBottomArt : Texture
+--- @class LFGDungeonReadyDialogBottomArt : Texture
 LFGDungeonReadyDialogBottomArt = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L475)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogYourRoleDescription : FontString, GameFontHighlightExtraSmall
+--- @class LFGDungeonReadyDialogYourRoleDescription : FontString, GameFontHighlightExtraSmall
 LFGDungeonReadyDialogYourRoleDescription = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L480)
 --- child of LFGDungeonReadyDialog
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRoleLabel : FontString, GameFontNormalLarge
+--- @class LFGDungeonReadyDialogRoleLabel : FontString, GameFontNormalLarge
 LFGDungeonReadyDialogRoleLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L450)
 --- child of LFGDungeonReadyPopup
---- @class LFGDungeonReadyPopup_LFGDungeonReadyDialog : Frame
---- @field Border LFGDungeonReadyPopup_LFGDungeonReadyDialog_Border
---- @field enterButton LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogEnterDungeonButton
---- @field leaveButton LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogLeaveQueueButton
---- @field randomInProgress LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogRandomInProgressFrame
---- @field instanceInfo LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogInstanceInfoFrame
---- @field background LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogBackground
---- @field label LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogLabel
---- @field bottomArt LFGDungeonReadyPopup_LFGDungeonReadyDialog_LFGDungeonReadyDialogBottomArt
+--- @class LFGDungeonReadyDialog : Frame
+--- @field Border LFGDungeonReadyDialog_Border
+--- @field enterButton LFGDungeonReadyDialogEnterDungeonButton
+--- @field leaveButton LFGDungeonReadyDialogLeaveQueueButton
+--- @field randomInProgress LFGDungeonReadyDialogRandomInProgressFrame
+--- @field instanceInfo LFGDungeonReadyDialogInstanceInfoFrame
+--- @field background LFGDungeonReadyDialogBackground
+--- @field label LFGDungeonReadyDialogLabel
+--- @field bottomArt LFGDungeonReadyDialogBottomArt
 LFGDungeonReadyDialog = {}
 LFGDungeonReadyDialog["enterButton"] = LFGDungeonReadyDialogEnterDungeonButton
 LFGDungeonReadyDialog["leaveButton"] = LFGDungeonReadyDialogLeaveQueueButton
@@ -487,78 +489,78 @@ LFGDungeonReadyPopup = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L695)
 --- child of LFGRewardsLootTemplate
---- @class LFGRewardsLootTemplate_LFGRewardsLootTemplateRoleIcon1 : Frame, LFGRewardsLootShortageTemplate
+--- @class LFGRewardsLootTemplate_RoleIcon1 : Frame, LFGRewardsLootShortageTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L700)
 --- child of LFGRewardsLootTemplate
---- @class LFGRewardsLootTemplate_LFGRewardsLootTemplateRoleIcon2 : Frame, LFGRewardsLootShortageTemplate
+--- @class LFGRewardsLootTemplate_RoleIcon2 : Frame, LFGRewardsLootShortageTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L670)
 --- child of LFGRewardsLootTemplate
---- @class LFGRewardsLootTemplate_LFGRewardsLootTemplateShortageBorder : Texture, Talent-GoldMedal-Border
+--- @class LFGRewardsLootTemplate_ShortageBorder : Texture, Talent_GoldMedal_Border
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L667)
 --- Template
 --- @class LFGRewardsLootTemplate : Button, LargeItemButtonTemplate
---- @field roleIcon1 LFGRewardsLootTemplate_LFGRewardsLootTemplateRoleIcon1
---- @field roleIcon2 LFGRewardsLootTemplate_LFGRewardsLootTemplateRoleIcon2
---- @field shortageBorder LFGRewardsLootTemplate_LFGRewardsLootTemplateShortageBorder
+--- @field roleIcon1 LFGRewardsLootTemplate_RoleIcon1
+--- @field roleIcon2 LFGRewardsLootTemplate_RoleIcon2
+--- @field shortageBorder LFGRewardsLootTemplate_ShortageBorder
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L787)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateItem1 : Button, LFGRewardsLootTemplate
+--- @class LFGRewardFrameTemplate_Item1 : Button, LFGRewardsLootTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L792)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateMoneyReward : Frame, LargeItemButtonTemplate
+--- @class LFGRewardFrameTemplate_MoneyReward : Frame, LargeItemButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L807)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateRandomList : Frame
+--- @class LFGRewardFrameTemplate_RandomList : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L833)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateEncounterList : Frame
+--- @class LFGRewardFrameTemplate_EncounterList : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L739)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateTitle : FontString, TruncatedTooltipFontStringTemplate, LFGRewardFrameTemplateTitleMixin
+--- @class LFGRewardFrameTemplate_Title : FontString, TruncatedTooltipFontStringTemplate, LFGRewardFrameTemplateTitleMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L749)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateDescription : FontString, QuestFont
+--- @class LFGRewardFrameTemplate_Description : FontString, QuestFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L758)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsLabel : FontString, QuestTitleFontBlackShadow
+--- @class LFGRewardFrameTemplate_RewardsLabel : FontString, QuestTitleFontBlackShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L763)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsDescription : FontString, QuestFont
+--- @class LFGRewardFrameTemplate_RewardsDescription : FontString, QuestFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L772)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateXPLabel : FontString, QuestFont
+--- @class LFGRewardFrameTemplate_XPLabel : FontString, QuestFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L777)
 --- child of LFGRewardFrameTemplate
---- @class LFGRewardFrameTemplate_LFGRewardFrameTemplateXPAmount : FontString, NumberFontNormalLarge
+--- @class LFGRewardFrameTemplate_XPAmount : FontString, NumberFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L735)
 --- Template
 --- @class LFGRewardFrameTemplate : Frame
---- @field MoneyReward LFGRewardFrameTemplate_LFGRewardFrameTemplateMoneyReward
---- @field randomList LFGRewardFrameTemplate_LFGRewardFrameTemplateRandomList
---- @field encounterList LFGRewardFrameTemplate_LFGRewardFrameTemplateEncounterList
+--- @field MoneyReward LFGRewardFrameTemplate_MoneyReward
+--- @field randomList LFGRewardFrameTemplate_RandomList
+--- @field encounterList LFGRewardFrameTemplate_EncounterList
 --- @field spacer Frame
---- @field title LFGRewardFrameTemplate_LFGRewardFrameTemplateTitle
---- @field description LFGRewardFrameTemplate_LFGRewardFrameTemplateDescription
---- @field rewardsLabel LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsLabel
---- @field rewardsDescription LFGRewardFrameTemplate_LFGRewardFrameTemplateRewardsDescription
---- @field xpLabel LFGRewardFrameTemplate_LFGRewardFrameTemplateXPLabel
---- @field xpAmount LFGRewardFrameTemplate_LFGRewardFrameTemplateXPAmount
+--- @field title LFGRewardFrameTemplate_Title
+--- @field description LFGRewardFrameTemplate_Description
+--- @field rewardsLabel LFGRewardFrameTemplate_RewardsLabel
+--- @field rewardsDescription LFGRewardFrameTemplate_RewardsDescription
+--- @field xpLabel LFGRewardFrameTemplate_XPLabel
+--- @field xpAmount LFGRewardFrameTemplate_XPAmount
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L862)
 --- @class LFGEventFrame : Frame
@@ -570,40 +572,42 @@ LFGEventFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L889)
 --- child of LFGInvitePopup
---- @class LFGInvitePopup_LFGInvitePopupRoleButtonTank : Button, LFGRoleButtonTemplate
---- @field role string # "TANK"
+--- @class LFGInvitePopupRoleButtonTank : Button, LFGRoleButtonTemplate
+--- @field role string # TANK
 LFGInvitePopupRoleButtonTank = {}
 LFGInvitePopupRoleButtonTank["role"] = "TANK"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L898)
 --- child of LFGInvitePopup
---- @class LFGInvitePopup_LFGInvitePopupRoleButtonHealer : Button, LFGRoleButtonTemplate
---- @field role string # "HEALER"
+--- @class LFGInvitePopupRoleButtonHealer : Button, LFGRoleButtonTemplate
+--- @field role string # HEALER
 LFGInvitePopupRoleButtonHealer = {}
 LFGInvitePopupRoleButtonHealer["role"] = "HEALER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L907)
 --- child of LFGInvitePopup
---- @class LFGInvitePopup_LFGInvitePopupRoleButtonDPS : Button, LFGRoleButtonTemplate
---- @field role string # "DAMAGER"
+--- @class LFGInvitePopupRoleButtonDPS : Button, LFGRoleButtonTemplate
+--- @field role string # DAMAGER
 LFGInvitePopupRoleButtonDPS = {}
 LFGInvitePopupRoleButtonDPS["role"] = "DAMAGER"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L916)
 --- child of LFGInvitePopup
---- @class LFGInvitePopup_LFGInvitePopupAcceptButton : Button, UIPanelButtonTemplate
+--- @class LFGInvitePopupAcceptButton : Button, UIPanelButtonTemplate
 LFGInvitePopupAcceptButton = {}
 LFGInvitePopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
+LFGInvitePopupAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L934)
 --- child of LFGInvitePopup
---- @class LFGInvitePopup_LFGInvitePopupDeclineButton : Button, UIPanelButtonTemplate
+--- @class LFGInvitePopupDeclineButton : Button, UIPanelButtonTemplate
 LFGInvitePopupDeclineButton = {}
 LFGInvitePopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
+LFGInvitePopupDeclineButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L873)
 --- child of LFGInvitePopup
---- @class LFGInvitePopup_LFGInvitePopupText : FontString, GameFontHighlight
+--- @class LFGInvitePopupText : FontString, GameFontHighlight
 LFGInvitePopupText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L879)
@@ -614,104 +618,104 @@ LFGInvitePopupText = {}
 --- @class LFGInvitePopup : Frame
 --- @field Border LFGInvitePopup_Border
 --- @field QueueWarningText LFGInvitePopup_QueueWarningText
---- @field RoleButtons table<number, LFGInvitePopup_LFGInvitePopupRoleButtonTank | LFGInvitePopup_LFGInvitePopupRoleButtonHealer | LFGInvitePopup_LFGInvitePopupRoleButtonDPS>
+--- @field RoleButtons table<number, LFGInvitePopupRoleButtonTank | LFGInvitePopupRoleButtonHealer | LFGInvitePopupRoleButtonDPS>
 LFGInvitePopup = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L969)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateDescription : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Description : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L975)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateTime : FontString, GameFontHighlightLarge
+--- @class LFGCooldownCoverTemplate_Time : FontString, GameFontHighlightLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L980)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName1 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Name1 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L986)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus1 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Status1 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L992)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName2 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Name2 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L998)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus2 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Status2 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1004)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName3 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Name3 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1010)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus3 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Status3 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1016)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName4 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Name4 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1022)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus4 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Status4 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1028)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName5 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Name5 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1034)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus5 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Status5 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1040)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName6 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Name6 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1046)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus6 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Status6 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1052)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName7 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Name7 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1058)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus7 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Status7 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1064)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName8 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Name8 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1070)
 --- child of LFGCooldownCoverTemplate
---- @class LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus8 : FontString, GameFontNormal
+--- @class LFGCooldownCoverTemplate_Status8 : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L961)
 --- Template
 --- @class LFGCooldownCoverTemplate : Frame
---- @field description LFGCooldownCoverTemplate_LFGCooldownCoverTemplateDescription
---- @field time LFGCooldownCoverTemplate_LFGCooldownCoverTemplateTime
---- @field Names table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName1 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName2 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName3 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName4 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName5 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName6 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName7 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateName8>
---- @field Statuses table<number, LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus1 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus2 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus3 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus4 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus5 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus6 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus7 | LFGCooldownCoverTemplate_LFGCooldownCoverTemplateStatus8>
+--- @field description LFGCooldownCoverTemplate_Description
+--- @field time LFGCooldownCoverTemplate_Time
+--- @field Names table<number, LFGCooldownCoverTemplate_Name1 | LFGCooldownCoverTemplate_Name2 | LFGCooldownCoverTemplate_Name3 | LFGCooldownCoverTemplate_Name4 | LFGCooldownCoverTemplate_Name5 | LFGCooldownCoverTemplate_Name6 | LFGCooldownCoverTemplate_Name7 | LFGCooldownCoverTemplate_Name8>
+--- @field Statuses table<number, LFGCooldownCoverTemplate_Status1 | LFGCooldownCoverTemplate_Status2 | LFGCooldownCoverTemplate_Status3 | LFGCooldownCoverTemplate_Status4 | LFGCooldownCoverTemplate_Status5 | LFGCooldownCoverTemplate_Status6 | LFGCooldownCoverTemplate_Status7 | LFGCooldownCoverTemplate_Status8>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1100)
 --- child of LFGBackfillCoverTemplate
---- @class LFGBackfillCoverTemplate_LFGBackfillCoverTemplateBackfillButton : Button, UIPanelButtonTemplate
+--- @class LFGBackfillCoverTemplate_BackfillButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1112)
 --- child of LFGBackfillCoverTemplate
---- @class LFGBackfillCoverTemplate_LFGBackfillCoverTemplateNoBackfillButton : Button, UIPanelButtonTemplate
+--- @class LFGBackfillCoverTemplate_NoBackfillButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1091)
 --- child of LFGBackfillCoverTemplate
---- @class LFGBackfillCoverTemplate_LFGBackfillCoverTemplateDescription : FontString, GameFontNormal
+--- @class LFGBackfillCoverTemplate_Description : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGFrame.xml#L1083)
 --- Template
 --- Adds itself to the parent with key `PartyBackfill`
 --- @class LFGBackfillCoverTemplate : Frame
---- @field Description LFGBackfillCoverTemplate_LFGBackfillCoverTemplateDescription
+--- @field Description LFGBackfillCoverTemplate_Description
 

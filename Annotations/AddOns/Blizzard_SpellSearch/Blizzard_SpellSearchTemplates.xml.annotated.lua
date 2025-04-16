@@ -38,23 +38,23 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L62)
 --- child of SpellSearchPreviewContainerTemplate
---- @class SpellSearchPreviewContainerTemplate_BorderAnchor : Texture, UI-Frame-BotCornerLeft
+--- @class SpellSearchPreviewContainerTemplate_BorderAnchor : Texture, UI_Frame_BotCornerLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L68)
 --- child of SpellSearchPreviewContainerTemplate
---- @class SpellSearchPreviewContainerTemplate_BotRightCorner : Texture, UI-Frame-BotCornerRight
+--- @class SpellSearchPreviewContainerTemplate_BotRightCorner : Texture, UI_Frame_BotCornerRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L74)
 --- child of SpellSearchPreviewContainerTemplate
---- @class SpellSearchPreviewContainerTemplate_BottomBorder : Texture, _UI-Frame-Bot
+--- @class SpellSearchPreviewContainerTemplate_BottomBorder : Texture, _UI_Frame_Bot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L80)
 --- child of SpellSearchPreviewContainerTemplate
---- @class SpellSearchPreviewContainerTemplate_LeftBorder : Texture, !UI-Frame-LeftTile
+--- @class SpellSearchPreviewContainerTemplate_LeftBorder : Texture, _UI_Frame_LeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L86)
 --- child of SpellSearchPreviewContainerTemplate
---- @class SpellSearchPreviewContainerTemplate_RightBorder : Texture, !UI-Frame-RightTile
+--- @class SpellSearchPreviewContainerTemplate_RightBorder : Texture, _UI_Frame_RightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SpellSearch/Blizzard_SpellSearchTemplates.xml#L47)
 --- Template

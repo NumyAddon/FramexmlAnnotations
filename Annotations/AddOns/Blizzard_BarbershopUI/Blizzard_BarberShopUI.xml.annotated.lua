@@ -12,17 +12,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L46)
 --- child of BarberShopFrame
 --- @class BarberShopFrame_CancelButton : Button, BarberShopButtonTemplate
---- @field barberShopOnClickMethod string # "Cancel"
+--- @field barberShopOnClickMethod string # Cancel
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L55)
 --- child of BarberShopFrame
 --- @class BarberShopFrame_ResetButton : Button, BarberShopButtonTemplate
---- @field barberShopOnClickMethod string # "Reset"
+--- @field barberShopOnClickMethod string # Reset
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L64)
 --- child of BarberShopFrame
 --- @class BarberShopFrame_AcceptButton : Button, BarberShopButtonTemplate
---- @field barberShopOnClickMethod string # "ApplyChanges"
+--- @field barberShopOnClickMethod string # ApplyChanges
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L10)
 --- @class BarberShopFrame : Frame, TopLevelParentScaleFrameTemplate, BarberShopMixin

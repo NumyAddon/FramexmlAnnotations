@@ -12,6 +12,9 @@
 --- Template
 --- @class PagingControlsTemplate : Frame, PagingControlsMixin
 --- @field hideWhenSinglePage boolean # false
+--- @field displayMaxPages boolean # true
+--- @field currentPageOnlyText any # PAGE_NUMBER
+--- @field currentPageWithMaxText any # PAGE_NUMBER_WITH_MAX
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L64)
 --- child of PagingControlsHorizontalTemplate
@@ -27,6 +30,7 @@
 --- child of PagingControlsHorizontalTemplate
 --- @class PagingControlsHorizontalTemplate_PageText : FontString, GameFontHighlight
 --- @field layoutIndex number # 1
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L47)
 --- Template

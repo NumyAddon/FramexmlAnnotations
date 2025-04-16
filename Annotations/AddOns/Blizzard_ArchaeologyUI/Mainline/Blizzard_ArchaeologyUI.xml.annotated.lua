@@ -17,19 +17,19 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyArtifactTemplate
---- @class ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName : FontString, SystemFont_Med1
+--- @class ArchaeologyArtifactTemplate_ArtifactName : FontString, SystemFont_Med1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyArtifactTemplate
---- @class ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText : FontString, SystemFont_Med1
+--- @class ArchaeologyArtifactTemplate_ArtifactSubText : FontString, SystemFont_Med1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L124)
 --- Template
 --- @class ArchaeologyArtifactTemplate : Button
 --- @field border Texture
 --- @field icon Texture
---- @field artifactName ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
---- @field artifactSubText ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @field artifactName ArchaeologyArtifactTemplate_ArtifactName
+--- @field artifactSubText ArchaeologyArtifactTemplate_ArtifactSubText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L188)
 --- Template
@@ -38,46 +38,46 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L261)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameRaceFilter : DropdownButton, WowStyle1DropdownTemplate
+--- @class ArchaeologyFrameRaceFilter : DropdownButton, WowStyle1DropdownTemplate
 ArchaeologyFrameRaceFilter = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L283)
 --- child of ArchaeologyFrameRankBar
---- @class ArchaeologyFrame_ArchaeologyFrameRankBar_ArchaeologyFrameRankBarSkillRank : FontString, TextStatusBarText
+--- @class ArchaeologyFrameRankBarSkillRank : FontString, TextStatusBarText
 ArchaeologyFrameRankBarSkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L289)
 --- child of ArchaeologyFrameRankBar
---- @class ArchaeologyFrame_ArchaeologyFrameRankBar_ArchaeologyFrameRankBarBorder : Texture
+--- @class ArchaeologyFrameRankBarBorder : Texture
 ArchaeologyFrameRankBarBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L297)
 --- child of ArchaeologyFrameRankBar
---- @class ArchaeologyFrame_ArchaeologyFrameRankBar_ArchaeologyFrameRankBarBackground : Texture
+--- @class ArchaeologyFrameRankBarBackground : Texture
 ArchaeologyFrameRankBarBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L276)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameRankBar : StatusBar
---- @field text ArchaeologyFrame_ArchaeologyFrameRankBar_ArchaeologyFrameRankBarSkillRank
+--- @class ArchaeologyFrameRankBar : StatusBar
+--- @field text ArchaeologyFrameRankBarSkillRank
 ArchaeologyFrameRankBar = {}
 ArchaeologyFrameRankBar["text"] = ArchaeologyFrameRankBarSkillRank
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L326)
 --- child of ArchaeologyFrameSummarytButton
---- @class ArchaeologyFrame_ArchaeologyFrameSummarytButton_ArchaeologyFrameSummarytButtonFactionIcon : Texture
+--- @class ArchaeologyFrameSummarytButtonFactionIcon : Texture
 ArchaeologyFrameSummarytButtonFactionIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L319)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameSummarytButton : Button
---- @field factionIcon ArchaeologyFrame_ArchaeologyFrameSummarytButton_ArchaeologyFrameSummarytButtonFactionIcon
+--- @class ArchaeologyFrameSummarytButton : Button
+--- @field factionIcon ArchaeologyFrameSummarytButtonFactionIcon
 ArchaeologyFrameSummarytButton = {}
 ArchaeologyFrameSummarytButton["factionIcon"] = ArchaeologyFrameSummarytButtonFactionIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L363)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedButton : Button
+--- @class ArchaeologyFrameCompletedButton : Button
 ArchaeologyFrameCompletedButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L90)
@@ -87,7 +87,7 @@ ArchaeologyFrameSummaryPageRace1Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L434)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace1 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace1 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace1 = {}
 ArchaeologyFrameSummaryPageRace1["glow"] = ArchaeologyFrameSummaryPageRace1Glow -- inherited
 
@@ -98,7 +98,7 @@ ArchaeologyFrameSummaryPageRace2Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L439)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace2 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace2 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace2 = {}
 ArchaeologyFrameSummaryPageRace2["glow"] = ArchaeologyFrameSummaryPageRace2Glow -- inherited
 
@@ -109,7 +109,7 @@ ArchaeologyFrameSummaryPageRace3Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L444)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace3 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace3 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace3 = {}
 ArchaeologyFrameSummaryPageRace3["glow"] = ArchaeologyFrameSummaryPageRace3Glow -- inherited
 
@@ -120,7 +120,7 @@ ArchaeologyFrameSummaryPageRace4Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L449)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace4 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace4 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace4 = {}
 ArchaeologyFrameSummaryPageRace4["glow"] = ArchaeologyFrameSummaryPageRace4Glow -- inherited
 
@@ -131,7 +131,7 @@ ArchaeologyFrameSummaryPageRace5Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L454)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace5 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace5 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace5 = {}
 ArchaeologyFrameSummaryPageRace5["glow"] = ArchaeologyFrameSummaryPageRace5Glow -- inherited
 
@@ -142,7 +142,7 @@ ArchaeologyFrameSummaryPageRace6Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L459)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace6 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace6 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace6 = {}
 ArchaeologyFrameSummaryPageRace6["glow"] = ArchaeologyFrameSummaryPageRace6Glow -- inherited
 
@@ -153,7 +153,7 @@ ArchaeologyFrameSummaryPageRace7Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L464)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace7 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace7 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace7 = {}
 ArchaeologyFrameSummaryPageRace7["glow"] = ArchaeologyFrameSummaryPageRace7Glow -- inherited
 
@@ -164,7 +164,7 @@ ArchaeologyFrameSummaryPageRace8Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L469)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace8 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace8 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace8 = {}
 ArchaeologyFrameSummaryPageRace8["glow"] = ArchaeologyFrameSummaryPageRace8Glow -- inherited
 
@@ -175,7 +175,7 @@ ArchaeologyFrameSummaryPageRace9Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L474)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace9 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace9 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace9 = {}
 ArchaeologyFrameSummaryPageRace9["glow"] = ArchaeologyFrameSummaryPageRace9Glow -- inherited
 
@@ -186,7 +186,7 @@ ArchaeologyFrameSummaryPageRace10Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L479)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace10 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace10 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace10 = {}
 ArchaeologyFrameSummaryPageRace10["glow"] = ArchaeologyFrameSummaryPageRace10Glow -- inherited
 
@@ -197,7 +197,7 @@ ArchaeologyFrameSummaryPageRace11Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L484)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace11 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace11 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace11 = {}
 ArchaeologyFrameSummaryPageRace11["glow"] = ArchaeologyFrameSummaryPageRace11Glow -- inherited
 
@@ -208,7 +208,7 @@ ArchaeologyFrameSummaryPageRace12Glow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L489)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace12 : Button, ArchaeologyRaceTemplate
+--- @class ArchaeologyFrameSummaryPageRace12 : Button, ArchaeologyRaceTemplate
 ArchaeologyFrameSummaryPageRace12 = {}
 ArchaeologyFrameSummaryPageRace12["glow"] = ArchaeologyFrameSummaryPageRace12Glow -- inherited
 
@@ -219,7 +219,7 @@ ArchaeologyFrameSummaryPagePrevPageButtonIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L494)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPagePrevPageButton : Button, UIPanelSquareButton
+--- @class ArchaeologyFrameSummaryPagePrevPageButton : Button, UIPanelSquareButton
 ArchaeologyFrameSummaryPagePrevPageButton = {}
 ArchaeologyFrameSummaryPagePrevPageButton["icon"] = ArchaeologyFrameSummaryPagePrevPageButtonIcon -- inherited
 
@@ -230,38 +230,38 @@ ArchaeologyFrameSummaryPageNextPageButtonIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L507)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageNextPageButton : Button, UIPanelSquareButton
+--- @class ArchaeologyFrameSummaryPageNextPageButton : Button, UIPanelSquareButton
 ArchaeologyFrameSummaryPageNextPageButton = {}
 ArchaeologyFrameSummaryPageNextPageButton["icon"] = ArchaeologyFrameSummaryPageNextPageButtonIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L404)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageTitle : FontString, SystemFont_Med1
+--- @class ArchaeologyFrameSummaryPageTitle : FontString, SystemFont_Med1
 ArchaeologyFrameSummaryPageTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L424)
 --- child of ArchaeologyFrameSummaryPage
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPagePageText : FontString, GameFontBlack
+--- @class ArchaeologyFrameSummaryPagePageText : FontString, GameFontBlack
 ArchaeologyFrameSummaryPagePageText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L397)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameSummaryPage : Frame
---- @field race1 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace1
---- @field race2 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace2
---- @field race3 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace3
---- @field race4 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace4
---- @field race5 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace5
---- @field race6 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace6
---- @field race7 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace7
---- @field race8 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace8
---- @field race9 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace9
---- @field race10 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace10
---- @field race11 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace11
---- @field race12 ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageRace12
---- @field prevPageButton ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPagePrevPageButton
---- @field nextPageButton ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPageNextPageButton
---- @field pageText ArchaeologyFrame_ArchaeologyFrameSummaryPage_ArchaeologyFrameSummaryPagePageText
+--- @class ArchaeologyFrameSummaryPage : Frame
+--- @field race1 ArchaeologyFrameSummaryPageRace1
+--- @field race2 ArchaeologyFrameSummaryPageRace2
+--- @field race3 ArchaeologyFrameSummaryPageRace3
+--- @field race4 ArchaeologyFrameSummaryPageRace4
+--- @field race5 ArchaeologyFrameSummaryPageRace5
+--- @field race6 ArchaeologyFrameSummaryPageRace6
+--- @field race7 ArchaeologyFrameSummaryPageRace7
+--- @field race8 ArchaeologyFrameSummaryPageRace8
+--- @field race9 ArchaeologyFrameSummaryPageRace9
+--- @field race10 ArchaeologyFrameSummaryPageRace10
+--- @field race11 ArchaeologyFrameSummaryPageRace11
+--- @field race12 ArchaeologyFrameSummaryPageRace12
+--- @field prevPageButton ArchaeologyFrameSummaryPagePrevPageButton
+--- @field nextPageButton ArchaeologyFrameSummaryPageNextPageButton
+--- @field pageText ArchaeologyFrameSummaryPagePageText
 ArchaeologyFrameSummaryPage = {}
 ArchaeologyFrameSummaryPage["race1"] = ArchaeologyFrameSummaryPageRace1
 ArchaeologyFrameSummaryPage["race2"] = ArchaeologyFrameSummaryPageRace2
@@ -296,17 +296,17 @@ ArchaeologyFrameCompletedPageArtifact1Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact1 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact1ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact1 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact1ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L609)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact1 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact1 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact1 = {}
 ArchaeologyFrameCompletedPageArtifact1["border"] = ArchaeologyFrameCompletedPageArtifact1Border -- inherited
 ArchaeologyFrameCompletedPageArtifact1["icon"] = ArchaeologyFrameCompletedPageArtifact1Icon -- inherited
@@ -330,17 +330,17 @@ ArchaeologyFrameCompletedPageArtifact3Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact3 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact3ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact3 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact3ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L614)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact3 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact3 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact3 = {}
 ArchaeologyFrameCompletedPageArtifact3["border"] = ArchaeologyFrameCompletedPageArtifact3Border -- inherited
 ArchaeologyFrameCompletedPageArtifact3["icon"] = ArchaeologyFrameCompletedPageArtifact3Icon -- inherited
@@ -364,17 +364,17 @@ ArchaeologyFrameCompletedPageArtifact5Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact5 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact5ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact5 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact5ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L619)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact5 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact5 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact5 = {}
 ArchaeologyFrameCompletedPageArtifact5["border"] = ArchaeologyFrameCompletedPageArtifact5Border -- inherited
 ArchaeologyFrameCompletedPageArtifact5["icon"] = ArchaeologyFrameCompletedPageArtifact5Icon -- inherited
@@ -398,17 +398,17 @@ ArchaeologyFrameCompletedPageArtifact7Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact7 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact7ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact7 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact7ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L624)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact7 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact7 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact7 = {}
 ArchaeologyFrameCompletedPageArtifact7["border"] = ArchaeologyFrameCompletedPageArtifact7Border -- inherited
 ArchaeologyFrameCompletedPageArtifact7["icon"] = ArchaeologyFrameCompletedPageArtifact7Icon -- inherited
@@ -432,17 +432,17 @@ ArchaeologyFrameCompletedPageArtifact9Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact9 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact9ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact9 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact9ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L629)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact9 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact9 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact9 = {}
 ArchaeologyFrameCompletedPageArtifact9["border"] = ArchaeologyFrameCompletedPageArtifact9Border -- inherited
 ArchaeologyFrameCompletedPageArtifact9["icon"] = ArchaeologyFrameCompletedPageArtifact9Icon -- inherited
@@ -466,17 +466,17 @@ ArchaeologyFrameCompletedPageArtifact11Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact11 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact11ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact11 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact11ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L634)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact11 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact11 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact11 = {}
 ArchaeologyFrameCompletedPageArtifact11["border"] = ArchaeologyFrameCompletedPageArtifact11Border -- inherited
 ArchaeologyFrameCompletedPageArtifact11["icon"] = ArchaeologyFrameCompletedPageArtifact11Icon -- inherited
@@ -500,17 +500,17 @@ ArchaeologyFrameCompletedPageArtifact2Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact2 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact2ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact2 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact2ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L639)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact2 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact2 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact2 = {}
 ArchaeologyFrameCompletedPageArtifact2["border"] = ArchaeologyFrameCompletedPageArtifact2Border -- inherited
 ArchaeologyFrameCompletedPageArtifact2["icon"] = ArchaeologyFrameCompletedPageArtifact2Icon -- inherited
@@ -534,17 +534,17 @@ ArchaeologyFrameCompletedPageArtifact4Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact4 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact4ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact4 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact4ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L644)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact4 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact4 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact4 = {}
 ArchaeologyFrameCompletedPageArtifact4["border"] = ArchaeologyFrameCompletedPageArtifact4Border -- inherited
 ArchaeologyFrameCompletedPageArtifact4["icon"] = ArchaeologyFrameCompletedPageArtifact4Icon -- inherited
@@ -568,17 +568,17 @@ ArchaeologyFrameCompletedPageArtifact6Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact6 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact6ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact6 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact6ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L649)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact6 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact6 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact6 = {}
 ArchaeologyFrameCompletedPageArtifact6["border"] = ArchaeologyFrameCompletedPageArtifact6Border -- inherited
 ArchaeologyFrameCompletedPageArtifact6["icon"] = ArchaeologyFrameCompletedPageArtifact6Icon -- inherited
@@ -602,17 +602,17 @@ ArchaeologyFrameCompletedPageArtifact8Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact8 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact8ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact8 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact8ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L654)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact8 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact8 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact8 = {}
 ArchaeologyFrameCompletedPageArtifact8["border"] = ArchaeologyFrameCompletedPageArtifact8Border -- inherited
 ArchaeologyFrameCompletedPageArtifact8["icon"] = ArchaeologyFrameCompletedPageArtifact8Icon -- inherited
@@ -636,17 +636,17 @@ ArchaeologyFrameCompletedPageArtifact10Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact10 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact10ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact10 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact10ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L659)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact10 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact10 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact10 = {}
 ArchaeologyFrameCompletedPageArtifact10["border"] = ArchaeologyFrameCompletedPageArtifact10Border -- inherited
 ArchaeologyFrameCompletedPageArtifact10["icon"] = ArchaeologyFrameCompletedPageArtifact10Icon -- inherited
@@ -670,17 +670,17 @@ ArchaeologyFrameCompletedPageArtifact12Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L146)
 --- child of ArchaeologyFrameCompletedPageArtifact12 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactName
+--- @type ArchaeologyArtifactTemplate_ArtifactName
 ArchaeologyFrameCompletedPageArtifact12ArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L153)
 --- child of ArchaeologyFrameCompletedPageArtifact12 (created in template ArchaeologyArtifactTemplate)
---- @type ArchaeologyArtifactTemplate_ArchaeologyArtifactTemplateArtifactSubText
+--- @type ArchaeologyArtifactTemplate_ArtifactSubText
 ArchaeologyFrameCompletedPageArtifact12ArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L664)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact12 : Button, ArchaeologyArtifactTemplate
+--- @class ArchaeologyFrameCompletedPageArtifact12 : Button, ArchaeologyArtifactTemplate
 ArchaeologyFrameCompletedPageArtifact12 = {}
 ArchaeologyFrameCompletedPageArtifact12["border"] = ArchaeologyFrameCompletedPageArtifact12Border -- inherited
 ArchaeologyFrameCompletedPageArtifact12["icon"] = ArchaeologyFrameCompletedPageArtifact12Icon -- inherited
@@ -694,7 +694,7 @@ ArchaeologyFrameCompletedPagePrevPageButtonIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L669)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPagePrevPageButton : Button, UIPanelSquareButton
+--- @class ArchaeologyFrameCompletedPagePrevPageButton : Button, UIPanelSquareButton
 ArchaeologyFrameCompletedPagePrevPageButton = {}
 ArchaeologyFrameCompletedPagePrevPageButton["icon"] = ArchaeologyFrameCompletedPagePrevPageButtonIcon -- inherited
 
@@ -705,62 +705,62 @@ ArchaeologyFrameCompletedPageNextPageButtonIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L682)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageNextPageButton : Button, UIPanelSquareButton
+--- @class ArchaeologyFrameCompletedPageNextPageButton : Button, UIPanelSquareButton
 ArchaeologyFrameCompletedPageNextPageButton = {}
 ArchaeologyFrameCompletedPageNextPageButton["icon"] = ArchaeologyFrameCompletedPageNextPageButtonIcon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L529)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_infoText : FontString, SystemFont_Med1
+--- @class ArchaeologyFrameCompletedPage_infoText : FontString, SystemFont_Med1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L537)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageTitle : FontString, SystemFont_Med3
+--- @class ArchaeologyFrameCompletedPageTitle : FontString, SystemFont_Med3
 ArchaeologyFrameCompletedPageTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L558)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageTitleTop : FontString, SystemFont_Med1
+--- @class ArchaeologyFrameCompletedPageTitleTop : FontString, SystemFont_Med1
 ArchaeologyFrameCompletedPageTitleTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L579)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageTitleMid : FontString, SystemFont_Med1
+--- @class ArchaeologyFrameCompletedPageTitleMid : FontString, SystemFont_Med1
 ArchaeologyFrameCompletedPageTitleMid = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L599)
 --- child of ArchaeologyFrameCompletedPage
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPagePageText : FontString, GameFontBlack
+--- @class ArchaeologyFrameCompletedPagePageText : FontString, GameFontBlack
 ArchaeologyFrameCompletedPagePageText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L522)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameCompletedPage : Frame
---- @field artifact1 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact1
---- @field artifact3 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact3
---- @field artifact5 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact5
---- @field artifact7 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact7
---- @field artifact9 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact9
---- @field artifact11 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact11
---- @field artifact2 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact2
---- @field artifact4 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact4
---- @field artifact6 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact6
---- @field artifact8 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact8
---- @field artifact10 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact10
---- @field artifact12 ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageArtifact12
---- @field prevPageButton ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPagePrevPageButton
---- @field nextPageButton ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageNextPageButton
---- @field infoText ArchaeologyFrame_ArchaeologyFrameCompletedPage_infoText
---- @field titleBig ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageTitle
+--- @class ArchaeologyFrameCompletedPage : Frame
+--- @field artifact1 ArchaeologyFrameCompletedPageArtifact1
+--- @field artifact3 ArchaeologyFrameCompletedPageArtifact3
+--- @field artifact5 ArchaeologyFrameCompletedPageArtifact5
+--- @field artifact7 ArchaeologyFrameCompletedPageArtifact7
+--- @field artifact9 ArchaeologyFrameCompletedPageArtifact9
+--- @field artifact11 ArchaeologyFrameCompletedPageArtifact11
+--- @field artifact2 ArchaeologyFrameCompletedPageArtifact2
+--- @field artifact4 ArchaeologyFrameCompletedPageArtifact4
+--- @field artifact6 ArchaeologyFrameCompletedPageArtifact6
+--- @field artifact8 ArchaeologyFrameCompletedPageArtifact8
+--- @field artifact10 ArchaeologyFrameCompletedPageArtifact10
+--- @field artifact12 ArchaeologyFrameCompletedPageArtifact12
+--- @field prevPageButton ArchaeologyFrameCompletedPagePrevPageButton
+--- @field nextPageButton ArchaeologyFrameCompletedPageNextPageButton
+--- @field infoText ArchaeologyFrameCompletedPage_infoText
+--- @field titleBig ArchaeologyFrameCompletedPageTitle
 --- @field titleBigLeft Texture
 --- @field titleBigRight Texture
---- @field titleTop ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageTitleTop
+--- @field titleTop ArchaeologyFrameCompletedPageTitleTop
 --- @field titleTopLeft Texture
 --- @field titleTopRight Texture
---- @field titleMid ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPageTitleMid
+--- @field titleMid ArchaeologyFrameCompletedPageTitleMid
 --- @field titleMidLeft Texture
 --- @field titleMidRight Texture
---- @field pageText ArchaeologyFrame_ArchaeologyFrameCompletedPage_ArchaeologyFrameCompletedPagePageText
+--- @field pageText ArchaeologyFrameCompletedPagePageText
 ArchaeologyFrameCompletedPage = {}
 ArchaeologyFrameCompletedPage["artifact1"] = ArchaeologyFrameCompletedPageArtifact1
 ArchaeologyFrameCompletedPage["artifact3"] = ArchaeologyFrameCompletedPageArtifact3
@@ -783,9 +783,10 @@ ArchaeologyFrameCompletedPage["pageText"] = ArchaeologyFrameCompletedPagePageTex
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L771)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageBackButton : Button, UIPanelButtonTemplate
+--- @class ArchaeologyFrameArtifactPageBackButton : Button, UIPanelButtonTemplate
 ArchaeologyFrameArtifactPageBackButton = {}
 ArchaeologyFrameArtifactPageBackButton["fitTextCanWidthDecrease"] = true -- inherited
+ArchaeologyFrameArtifactPageBackButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L192)
 --- child of ArchaeologyFrameArtifactPageSolveFrameKeystone1 (created in template KeystoneTemplate)
@@ -794,7 +795,7 @@ ArchaeologyFrameArtifactPageSolveFrameKeystone1Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L792)
 --- child of ArchaeologyFrameArtifactPageSolveFrame
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameKeystone1 : Button, KeystoneTemplate
+--- @class ArchaeologyFrameArtifactPageSolveFrameKeystone1 : Button, KeystoneTemplate
 ArchaeologyFrameArtifactPageSolveFrameKeystone1 = {}
 ArchaeologyFrameArtifactPageSolveFrameKeystone1["icon"] = ArchaeologyFrameArtifactPageSolveFrameKeystone1Icon -- inherited
 
@@ -805,7 +806,7 @@ ArchaeologyFrameArtifactPageSolveFrameKeystone2Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L797)
 --- child of ArchaeologyFrameArtifactPageSolveFrame
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameKeystone2 : Button, KeystoneTemplate
+--- @class ArchaeologyFrameArtifactPageSolveFrameKeystone2 : Button, KeystoneTemplate
 ArchaeologyFrameArtifactPageSolveFrameKeystone2 = {}
 ArchaeologyFrameArtifactPageSolveFrameKeystone2["icon"] = ArchaeologyFrameArtifactPageSolveFrameKeystone2Icon -- inherited
 
@@ -816,7 +817,7 @@ ArchaeologyFrameArtifactPageSolveFrameKeystone3Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L802)
 --- child of ArchaeologyFrameArtifactPageSolveFrame
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameKeystone3 : Button, KeystoneTemplate
+--- @class ArchaeologyFrameArtifactPageSolveFrameKeystone3 : Button, KeystoneTemplate
 ArchaeologyFrameArtifactPageSolveFrameKeystone3 = {}
 ArchaeologyFrameArtifactPageSolveFrameKeystone3["icon"] = ArchaeologyFrameArtifactPageSolveFrameKeystone3Icon -- inherited
 
@@ -827,42 +828,43 @@ ArchaeologyFrameArtifactPageSolveFrameKeystone4Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L807)
 --- child of ArchaeologyFrameArtifactPageSolveFrame
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameKeystone4 : Button, KeystoneTemplate
+--- @class ArchaeologyFrameArtifactPageSolveFrameKeystone4 : Button, KeystoneTemplate
 ArchaeologyFrameArtifactPageSolveFrameKeystone4 = {}
 ArchaeologyFrameArtifactPageSolveFrameKeystone4["icon"] = ArchaeologyFrameArtifactPageSolveFrameKeystone4Icon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L812)
 --- child of ArchaeologyFrameArtifactPageSolveFrame
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameSolveButton : Button, UIPanelButtonTemplate
+--- @class ArchaeologyFrameArtifactPageSolveFrameSolveButton : Button, UIPanelButtonTemplate
 ArchaeologyFrameArtifactPageSolveFrameSolveButton = {}
 ArchaeologyFrameArtifactPageSolveFrameSolveButton["fitTextCanWidthDecrease"] = true -- inherited
+ArchaeologyFrameArtifactPageSolveFrameSolveButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L830)
 --- child of ArchaeologyFrameArtifactPageSolveFrameStatusBar
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameStatusBar_ArchaeologyFrameArtifactPageSolveFrameStatusBarBarBG : Texture
+--- @class ArchaeologyFrameArtifactPageSolveFrameStatusBarBarBG : Texture
 ArchaeologyFrameArtifactPageSolveFrameStatusBarBarBG = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L839)
 --- child of ArchaeologyFrameArtifactPageSolveFrameStatusBar
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameStatusBar_ArchaeologyFrameArtifactPageSolveFrameStatusBarText : FontString, TextStatusBarText
+--- @class ArchaeologyFrameArtifactPageSolveFrameStatusBarText : FontString, TextStatusBarText
 ArchaeologyFrameArtifactPageSolveFrameStatusBarText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L823)
 --- child of ArchaeologyFrameArtifactPageSolveFrame
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameStatusBar : StatusBar, TextStatusBar
---- @field text ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameStatusBar_ArchaeologyFrameArtifactPageSolveFrameStatusBarText
+--- @class ArchaeologyFrameArtifactPageSolveFrameStatusBar : StatusBar, TextStatusBar
+--- @field text ArchaeologyFrameArtifactPageSolveFrameStatusBarText
 ArchaeologyFrameArtifactPageSolveFrameStatusBar = {}
 ArchaeologyFrameArtifactPageSolveFrameStatusBar["text"] = ArchaeologyFrameArtifactPageSolveFrameStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L786)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame : Frame
---- @field keystone1 ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameKeystone1
---- @field keystone2 ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameKeystone2
---- @field keystone3 ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameKeystone3
---- @field keystone4 ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameKeystone4
---- @field solveButton ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameSolveButton
---- @field statusBar ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame_ArchaeologyFrameArtifactPageSolveFrameStatusBar
+--- @class ArchaeologyFrameArtifactPageSolveFrame : Frame
+--- @field keystone1 ArchaeologyFrameArtifactPageSolveFrameKeystone1
+--- @field keystone2 ArchaeologyFrameArtifactPageSolveFrameKeystone2
+--- @field keystone3 ArchaeologyFrameArtifactPageSolveFrameKeystone3
+--- @field keystone4 ArchaeologyFrameArtifactPageSolveFrameKeystone4
+--- @field solveButton ArchaeologyFrameArtifactPageSolveFrameSolveButton
+--- @field statusBar ArchaeologyFrameArtifactPageSolveFrameStatusBar
 ArchaeologyFrameArtifactPageSolveFrame = {}
 ArchaeologyFrameArtifactPageSolveFrame["keystone1"] = ArchaeologyFrameArtifactPageSolveFrameKeystone1
 ArchaeologyFrameArtifactPageSolveFrame["keystone2"] = ArchaeologyFrameArtifactPageSolveFrameKeystone2
@@ -873,88 +875,88 @@ ArchaeologyFrameArtifactPageSolveFrame["statusBar"] = ArchaeologyFrameArtifactPa
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L876)
 --- child of ArchaeologyFrameArtifactPageHistoryScrollChild
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll_ArchaeologyFrameArtifactPageHistoryScrollChild_ArchaeologyFrameArtifactPageHistoryScrollChildText : FontString, SystemFont_Med1
+--- @class ArchaeologyFrameArtifactPageHistoryScrollChildText : FontString, SystemFont_Med1
 ArchaeologyFrameArtifactPageHistoryScrollChildText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L870)
 --- child of ArchaeologyFrameArtifactPageHistoryScroll
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll_ArchaeologyFrameArtifactPageHistoryScrollChild : Frame
---- @field text ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll_ArchaeologyFrameArtifactPageHistoryScrollChild_ArchaeologyFrameArtifactPageHistoryScrollChildText
+--- @class ArchaeologyFrameArtifactPageHistoryScrollChild : Frame
+--- @field text ArchaeologyFrameArtifactPageHistoryScrollChildText
 ArchaeologyFrameArtifactPageHistoryScrollChild = {}
 ArchaeologyFrameArtifactPageHistoryScrollChild["text"] = ArchaeologyFrameArtifactPageHistoryScrollChildText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L862)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll : ScrollFrame, ScrollFrameTemplate
+--- @class ArchaeologyFrameArtifactPageHistoryScroll : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
---- @field child ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll_ArchaeologyFrameArtifactPageHistoryScrollChild
+--- @field child ArchaeologyFrameArtifactPageHistoryScrollChild
 ArchaeologyFrameArtifactPageHistoryScroll = {}
 ArchaeologyFrameArtifactPageHistoryScroll["child"] = ArchaeologyFrameArtifactPageHistoryScrollChild
 ArchaeologyFrameArtifactPageHistoryScroll["scrollBarHideIfUnscrollable"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L900)
 --- child of ArchaeologyFrameArtifactPageFinishedGlow
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageFinishedGlow_ArchaeologyFrameArtifactPageFinishedGlowFinishedGlow : Texture
+--- @class ArchaeologyFrameArtifactPageFinishedGlowFinishedGlow : Texture
 ArchaeologyFrameArtifactPageFinishedGlowFinishedGlow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L889)
 --- child of ArchaeologyFrameArtifactPageFinishedGlow
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageFinishedGlow_completeAnim : AnimationGroup
+--- @class ArchaeologyFrameArtifactPageFinishedGlow_completeAnim : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L887)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageFinishedGlow : Frame
---- @field completeAnim ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageFinishedGlow_completeAnim
+--- @class ArchaeologyFrameArtifactPageFinishedGlow : Frame
+--- @field completeAnim ArchaeologyFrameArtifactPageFinishedGlow_completeAnim
 ArchaeologyFrameArtifactPageFinishedGlow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L704)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryTitle : FontString, SystemFont_Med3
+--- @class ArchaeologyFrameArtifactPageHistoryTitle : FontString, SystemFont_Med3
 ArchaeologyFrameArtifactPageHistoryTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L724)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageIcon : Texture
+--- @class ArchaeologyFrameArtifactPageIcon : Texture
 ArchaeologyFrameArtifactPageIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L730)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageArtifactName : FontString, GameFontNormalLarge
+--- @class ArchaeologyFrameArtifactPageArtifactName : FontString, GameFontNormalLarge
 ArchaeologyFrameArtifactPageArtifactName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L736)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageArtifactSubText : FontString, GameFontNormal
+--- @class ArchaeologyFrameArtifactPageArtifactSubText : FontString, GameFontNormal
 ArchaeologyFrameArtifactPageArtifactSubText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L745)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageIconBG : Texture
+--- @class ArchaeologyFrameArtifactPageIconBG : Texture
 ArchaeologyFrameArtifactPageIconBG = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L754)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageRaceBG : Texture
+--- @class ArchaeologyFrameArtifactPageRaceBG : Texture
 ArchaeologyFrameArtifactPageRaceBG = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L761)
 --- child of ArchaeologyFrameArtifactPage
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageArtifactBG : Texture
+--- @class ArchaeologyFrameArtifactPageArtifactBG : Texture
 ArchaeologyFrameArtifactPageArtifactBG = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L697)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameArtifactPage : Frame
---- @field backButton ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageBackButton
---- @field solveFrame ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageSolveFrame
---- @field historyScroll ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryScroll
---- @field glow ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageFinishedGlow
---- @field historyTitle ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageHistoryTitle
---- @field icon ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageIcon
---- @field artifactName ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageArtifactName
---- @field raceRarity ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageArtifactSubText
---- @field raceBG ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageRaceBG
---- @field artifactBG ArchaeologyFrame_ArchaeologyFrameArtifactPage_ArchaeologyFrameArtifactPageArtifactBG
+--- @class ArchaeologyFrameArtifactPage : Frame
+--- @field backButton ArchaeologyFrameArtifactPageBackButton
+--- @field solveFrame ArchaeologyFrameArtifactPageSolveFrame
+--- @field historyScroll ArchaeologyFrameArtifactPageHistoryScroll
+--- @field glow ArchaeologyFrameArtifactPageFinishedGlow
+--- @field historyTitle ArchaeologyFrameArtifactPageHistoryTitle
+--- @field icon ArchaeologyFrameArtifactPageIcon
+--- @field artifactName ArchaeologyFrameArtifactPageArtifactName
+--- @field raceRarity ArchaeologyFrameArtifactPageArtifactSubText
+--- @field raceBG ArchaeologyFrameArtifactPageRaceBG
+--- @field artifactBG ArchaeologyFrameArtifactPageArtifactBG
 ArchaeologyFrameArtifactPage = {}
 ArchaeologyFrameArtifactPage["backButton"] = ArchaeologyFrameArtifactPageBackButton
 ArchaeologyFrameArtifactPage["solveFrame"] = ArchaeologyFrameArtifactPageSolveFrame
@@ -969,7 +971,7 @@ ArchaeologyFrameArtifactPage["artifactBG"] = ArchaeologyFrameArtifactPageArtifac
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L907)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameInfoButton : Button, MainHelpPlateButton
+--- @class ArchaeologyFrameInfoButton : Button, MainHelpPlateButton
 ArchaeologyFrameInfoButton = {}
 ArchaeologyFrameInfoButton["MainHelpPlateButtonTooltipText"] = MAIN_HELP_BUTTON_TOOLTIP -- inherited
 
@@ -980,57 +982,57 @@ ArchaeologyFrameHelpPageHelpScrollHelpText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L962)
 --- child of ArchaeologyFrameHelpPage
---- @class ArchaeologyFrame_ArchaeologyFrameHelpPage_ArchaeologyFrameHelpPageHelpScroll : ScrollFrame, ScrollFrameTemplate
+--- @class ArchaeologyFrameHelpPageHelpScroll : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
 ArchaeologyFrameHelpPageHelpScroll = {}
 ArchaeologyFrameHelpPageHelpScroll["scrollBarHideIfUnscrollable"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L925)
 --- child of ArchaeologyFrameHelpPage
---- @class ArchaeologyFrame_ArchaeologyFrameHelpPage_ArchaeologyFrameHelpPageTitle : FontString, SystemFont_Med3
+--- @class ArchaeologyFrameHelpPageTitle : FontString, SystemFont_Med3
 ArchaeologyFrameHelpPageTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L946)
 --- child of ArchaeologyFrameHelpPage
---- @class ArchaeologyFrame_ArchaeologyFrameHelpPage_ArchaeologyFrameHelpPageDigTex : Texture
+--- @class ArchaeologyFrameHelpPageDigTex : Texture
 ArchaeologyFrameHelpPageDigTex = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L953)
 --- child of ArchaeologyFrameHelpPage
---- @class ArchaeologyFrame_ArchaeologyFrameHelpPage_ArchaeologyFrameHelpPageDigTitle : FontString, SystemFont_Med3
+--- @class ArchaeologyFrameHelpPageDigTitle : FontString, SystemFont_Med3
 ArchaeologyFrameHelpPageDigTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L918)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameHelpPage : Frame
---- @field titleText ArchaeologyFrame_ArchaeologyFrameHelpPage_ArchaeologyFrameHelpPageTitle
+--- @class ArchaeologyFrameHelpPage : Frame
+--- @field titleText ArchaeologyFrameHelpPageTitle
 ArchaeologyFrameHelpPage = {}
 ArchaeologyFrameHelpPage["titleText"] = ArchaeologyFrameHelpPageTitle
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L240)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameFactionIcon : Texture
+--- @class ArchaeologyFrameFactionIcon : Texture
 ArchaeologyFrameFactionIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L248)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameBgLeft : Texture
+--- @class ArchaeologyFrameBgLeft : Texture
 ArchaeologyFrameBgLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L253)
 --- child of ArchaeologyFrame
---- @class ArchaeologyFrame_ArchaeologyFrameBgRight : Texture
+--- @class ArchaeologyFrameBgRight : Texture
 ArchaeologyFrameBgRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1160)
 --- child of ArchaeologyFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 ArchaeologyFrameInset = {}
 ArchaeologyFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1154)
 --- child of ArchaeologyFrame (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+--- @type ButtonFrameBaseTemplate_CloseButton
 ArchaeologyFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1137)
@@ -1040,18 +1042,18 @@ ArchaeologyFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L236)
 --- @class ArchaeologyFrame : Frame, ButtonFrameTemplate
---- @field RaceFilterDropdown ArchaeologyFrame_ArchaeologyFrameRaceFilter
---- @field rankBar ArchaeologyFrame_ArchaeologyFrameRankBar
---- @field tab1 ArchaeologyFrame_ArchaeologyFrameSummarytButton
---- @field tab2 ArchaeologyFrame_ArchaeologyFrameCompletedButton
---- @field summaryPage ArchaeologyFrame_ArchaeologyFrameSummaryPage
---- @field completedPage ArchaeologyFrame_ArchaeologyFrameCompletedPage
---- @field artifactPage ArchaeologyFrame_ArchaeologyFrameArtifactPage
---- @field infoButton ArchaeologyFrame_ArchaeologyFrameInfoButton
---- @field helpPage ArchaeologyFrame_ArchaeologyFrameHelpPage
---- @field factionIcon ArchaeologyFrame_ArchaeologyFrameFactionIcon
---- @field bgLeft ArchaeologyFrame_ArchaeologyFrameBgLeft
---- @field bgRight ArchaeologyFrame_ArchaeologyFrameBgRight
+--- @field RaceFilterDropdown ArchaeologyFrameRaceFilter
+--- @field rankBar ArchaeologyFrameRankBar
+--- @field tab1 ArchaeologyFrameSummarytButton
+--- @field tab2 ArchaeologyFrameCompletedButton
+--- @field summaryPage ArchaeologyFrameSummaryPage
+--- @field completedPage ArchaeologyFrameCompletedPage
+--- @field artifactPage ArchaeologyFrameArtifactPage
+--- @field infoButton ArchaeologyFrameInfoButton
+--- @field helpPage ArchaeologyFrameHelpPage
+--- @field factionIcon ArchaeologyFrameFactionIcon
+--- @field bgLeft ArchaeologyFrameBgLeft
+--- @field bgRight ArchaeologyFrameBgRight
 ArchaeologyFrame = {}
 ArchaeologyFrame["RaceFilterDropdown"] = ArchaeologyFrameRaceFilter
 ArchaeologyFrame["rankBar"] = ArchaeologyFrameRankBar

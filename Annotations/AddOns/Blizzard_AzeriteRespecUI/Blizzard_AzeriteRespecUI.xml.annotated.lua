@@ -31,27 +31,27 @@ AzeriteRespecFrameMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L110)
 --- child of AzeriteRespecFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 AzeriteRespecFrameMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L138)
 --- child of AzeriteRespecFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 AzeriteRespecFrameMoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L162)
 --- child of AzeriteRespecFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 AzeriteRespecFrameMoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L186)
 --- child of AzeriteRespecFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 AzeriteRespecFrameMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L80)
 --- child of AzeriteRespecFrame_ButtonFrame
---- @class AzeriteRespecFrame_ButtonFrame_AzeriteRespecFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
+--- @class AzeriteRespecFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 AzeriteRespecFrameMoneyFrame = {}
 AzeriteRespecFrameMoneyFrame["trialErrorButton"] = AzeriteRespecFrameMoneyFrameTrialErrorButton -- inherited
 AzeriteRespecFrameMoneyFrame["CopperButton"] = AzeriteRespecFrameMoneyFrameCopperButton -- inherited
@@ -60,18 +60,18 @@ AzeriteRespecFrameMoneyFrame["GoldButton"] = AzeriteRespecFrameMoneyFrameGoldBut
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L104)
 --- child of AzeriteRespecFrame_ButtonFrame
---- @class AzeriteRespecFrame_ButtonFrame_ButtonBorder : Texture, _UI-Frame-InnerBotTile
+--- @class AzeriteRespecFrame_ButtonFrame_ButtonBorder : Texture, _UI_Frame_InnerBotTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L110)
 --- child of AzeriteRespecFrame_ButtonFrame
---- @class AzeriteRespecFrame_ButtonFrame_ButtonBottomBorder : Texture, _UI-Frame-BtnBotTile
+--- @class AzeriteRespecFrame_ButtonFrame_ButtonBottomBorder : Texture, _UI_Frame_BtnBotTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L53)
 --- child of AzeriteRespecFrame
 --- @class AzeriteRespecFrame_ButtonFrame : Frame
 --- @field AzeriteRespecButton AzeriteRespecFrame_ButtonFrame_AzeriteRespecButton
 --- @field MoneyFrameEdge AzeriteRespecFrame_ButtonFrame_MoneyFrameEdge
---- @field MoneyFrame AzeriteRespecFrame_ButtonFrame_AzeriteRespecFrameMoneyFrame
+--- @field MoneyFrame AzeriteRespecFrameMoneyFrame
 --- @field ButtonBorder AzeriteRespecFrame_ButtonFrame_ButtonBorder
 --- @field ButtonBottomBorder AzeriteRespecFrame_ButtonFrame_ButtonBottomBorder
 
@@ -117,7 +117,7 @@ AzeriteRespecFrameBottomEdge = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1107)
 --- child of AzeriteRespecFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 AzeriteRespecFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1074)

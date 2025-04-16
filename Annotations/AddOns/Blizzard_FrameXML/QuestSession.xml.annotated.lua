@@ -80,6 +80,7 @@
 --- Adds itself to the parent inside the array `SessionManagementDialogs`
 --- @class QuestSessionDialogTemplate : Frame, ResizeLayoutFrame, QuestSessionDialogMixin
 --- @field heightPadding number # 0
+--- @field minimumWidth number # 500
 --- @field Border QuestSessionDialogTemplate_Border
 --- @field Title QuestSessionDialogTemplate_Title
 --- @field PlayerContainer QuestSessionDialogTemplate_PlayerContainer
@@ -99,56 +100,78 @@
 --- child of QuestSessionManager
 --- @class QuestSessionManager_CheckStartDialog : Frame, QuestSessionDialogTemplate, QuestSessionCheckStartDialogMixin
 --- @field confirmText any # QUEST_SESSION_CHECK_START_SESSION_BUTTON
+--- @field cancelText any # CANCEL
+--- @field requiresValidateDialog boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L213)
 --- child of QuestSessionManager
 --- @class QuestSessionManager_StartDialog : Frame, QuestSessionDialogMinimizeTemplate, QuestSessionStartDialogMixin
 --- @field confirmText any # QUEST_SESSION_I_AM_READY
+--- @field cancelText any # QUEST_SESSION_I_AM_NOT_READY
+--- @field showDivider boolean # true
+--- @field requiresValidateDialog boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L225)
 --- child of QuestSessionManager
 --- @class QuestSessionManager_CheckStopDialog : Frame, QuestSessionDialogTemplate, QuestSessionCheckStopDialogMixin
 --- @field confirmText any # QUEST_SESSION_CHECK_STOP_DIALOG_CONFIRM
+--- @field cancelText any # CANCEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L232)
 --- child of QuestSessionManager
 --- @class QuestSessionManager_CheckLeavePartyDialog : Frame, QuestSessionDialogTemplate, QuestSessionCheckLeavePartyDialogMixin
 --- @field confirmText any # QUEST_SESSION_CHECK_LEAVE_PARTY_CONFIRM
+--- @field cancelText any # CANCEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L239)
 --- child of QuestSessionManager
 --- @class QuestSessionManager_CheckConvertToRaidDialog : Frame, QuestSessionDialogTemplate, QuestSessionCheckConvertToRaidDialogMixin
 --- @field confirmText any # QUEST_SESSION_CHECK_CONVERT_TO_RAID_CONFIRM
+--- @field cancelText any # CANCEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L247)
 --- child of QuestSessionManager
 --- @class QuestSessionManager_ConfirmJoinGroupRequestDialog : Frame, QuestSessionDialogTemplate, ConfirmJoinGroupRequestDialogMixin
 --- @field confirmText any # ACCEPT
+--- @field cancelText any # CANCEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L255)
 --- child of QuestSessionManager
 --- @class QuestSessionManager_ConfirmInviteToGroupDialog : Frame, QuestSessionDialogTemplate, ConfirmInviteToGroupDialogMixin
 --- @field confirmText any # QUEST_SESSION_CHECK_DIRECT_GROUP_INVITE_CONFIRM_BUTTON
+--- @field cancelText any # CANCEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L263)
 --- child of QuestSessionManager
 --- @class QuestSessionManager_ConfirmInviteToGroupReceivedDialog : Frame, QuestSessionDialogTemplate, ConfirmInviteToGroupReceivedDialogMixin
 --- @field minimumWidth number # 0
+--- @field widthPadding number # 60
+--- @field confirmText any # ACCEPT
+--- @field cancelText any # DECLINE
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L276)
 --- child of QuestSessionManager
 --- @class QuestSessionManager_ConfirmRequestToJoinGroupDialog : Frame, QuestSessionDialogTemplate, ConfirmRequestToJoinGroupDialogMixin
 --- @field minimumWidth number # 0
+--- @field widthPadding number # 60
+--- @field confirmText any # ACCEPT
+--- @field cancelText any # DECLINE
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L286)
 --- child of QuestSessionManager
 --- @class QuestSessionManager_ConfirmBNJoinGroupRequestDialog : Frame, QuestSessionDialogTemplate, ConfirmBNJoinGroupRequestDialogMixin
 --- @field minimumWidth number # 0
+--- @field widthPadding number # 60
+--- @field confirmText any # ACCEPT
+--- @field cancelText any # CANCEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L296)
 --- child of QuestSessionManager
 --- @class QuestSessionManager_ConfirmInviteTravelPassConfirmationDialog : Frame, QuestSessionDialogTemplate, ConfirmInviteTravelPassConfirmationDialogMixin
 --- @field minimumWidth number # 0
+--- @field widthPadding number # 60
+--- @field confirmText any # ACCEPT
+--- @field cancelText any # CANCEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L203)
 --- @class QuestSessionManager : Frame, QuestSessionManagerMixin

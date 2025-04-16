@@ -41,6 +41,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L4)
 --- @class PlayerChoiceFrame : Frame, HorizontalLayoutFrame, PlayerChoiceFrameMixin
 --- @field fixedWidth number # 100
+--- @field expand boolean # true
+--- @field skipChildLayout boolean # true
+--- @field skipLayoutOnShow boolean # true
 --- @field NineSlice PlayerChoiceFrame_NineSlice
 --- @field BlackBackground PlayerChoiceFrame_BlackBackground
 --- @field Header PlayerChoiceFrame_Header
@@ -51,4 +54,7 @@
 --- @field BorderOverlay Texture
 PlayerChoiceFrame = {}
 PlayerChoiceFrame["fixedWidth"] = 100
+PlayerChoiceFrame["expand"] = true
+PlayerChoiceFrame["skipChildLayout"] = true
+PlayerChoiceFrame["skipLayoutOnShow"] = true
 

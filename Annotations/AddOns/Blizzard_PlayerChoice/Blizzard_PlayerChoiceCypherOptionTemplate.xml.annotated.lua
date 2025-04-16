@@ -8,12 +8,14 @@
 --- child of PlayerChoiceCypherOptionTemplate
 --- @class PlayerChoiceCypherOptionTemplate_Header : Frame, PlayerChoiceBaseCenteredFrame, ResizeLayoutFrame
 --- @field layoutIndex number # 2
+--- @field topPadding number # 18
 --- @field Text PlayerChoiceCypherOptionTemplate_Header_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L4)
 --- Template
 --- @class PlayerChoiceCypherOptionTemplate : Frame, PlayerChoicePowerChoiceTemplate, PlayerChoiceCypherOptionTemplateMixin
 --- @field minOptionHeight number # 343
+--- @field choiceSelectedSound any # SOUNDKIT.UI_PLAYER_CHOICE_CYPHER_POWER
 --- @field Header PlayerChoiceCypherOptionTemplate_Header
 --- @field Background Texture
 --- @field RarityGlow Texture

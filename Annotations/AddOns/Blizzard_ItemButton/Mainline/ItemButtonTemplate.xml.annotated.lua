@@ -37,20 +37,20 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L148)
 --- child of SimplePopupButtonTemplate
---- @class SimplePopupButtonTemplate_SimplePopupButtonTemplateName : FontString, GameFontHighlightSmallOutline
+--- @class SimplePopupButtonTemplate_Name : FontString, GameFontHighlightSmallOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L144)
 --- Template
 --- @class SimplePopupButtonTemplate : CheckButton
---- @field Name SimplePopupButtonTemplate_SimplePopupButtonTemplateName
+--- @field Name SimplePopupButtonTemplate_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L188)
 --- child of LargeItemButtonTemplate
---- @class LargeItemButtonTemplate_LargeItemButtonTemplateName : FontString, GameFontHighlight
+--- @class LargeItemButtonTemplate_Name : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L220)
 --- child of LargeItemButtonTemplate
---- @class LargeItemButtonTemplate_LargeItemButtonTemplateCount : FontString, NumberFontNormal
+--- @class LargeItemButtonTemplate_Count : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L167)
 --- Template
@@ -58,11 +58,11 @@
 --- @field largeItemButton boolean # true
 --- @field Icon Texture
 --- @field NameFrame Texture
---- @field Name LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @field Name LargeItemButtonTemplate_Name
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
---- @field Count LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @field Count LargeItemButtonTemplate_Count
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L249)
 --- child of SmallItemButtonTemplate

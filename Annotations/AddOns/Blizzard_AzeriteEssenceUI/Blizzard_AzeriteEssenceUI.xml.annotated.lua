@@ -17,6 +17,8 @@
 --- Template
 --- @class AzeriteMilestoneBaseTemplate : Frame, AzeriteMilestoneBaseMixin
 --- @field isDraggable boolean # false
+--- @field swirlScale number # 1
+--- @field isMajorSlot boolean # false
 --- @field EffectsModelScene AzeriteMilestoneBaseTemplate_EffectsModelScene
 --- @field SwirlContainer AzeriteMilestoneBaseTemplate_SwirlContainer
 --- @field RevealAnim AzeriteMilestoneBaseTemplate_RevealAnim
@@ -167,6 +169,7 @@
 --- Adds itself to the parent inside the array `Slots`
 --- @class AzeriteMilestoneMajorSlotTemplate : Frame, AzeriteMilestoneBaseTemplate, AzeriteMilestoneSlotMixin
 --- @field isDraggable boolean # true
+--- @field isMajorSlot boolean # true
 --- @field UnlockedState AzeriteMilestoneMajorSlotTemplate_UnlockedState
 --- @field StateFrames table<number, AzeriteMilestoneMajorSlotTemplate_UnlockedState>
 
@@ -249,11 +252,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L499)
 --- child of AzeriteEssenceHeaderButtonTemplate
---- @class AzeriteEssenceHeaderButtonTemplate_ExpandedIcon : Texture, Char-Stat-Minus
+--- @class AzeriteEssenceHeaderButtonTemplate_ExpandedIcon : Texture, Char_Stat_Minus
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L504)
 --- child of AzeriteEssenceHeaderButtonTemplate
---- @class AzeriteEssenceHeaderButtonTemplate_CollapsedIcon : Texture, Char-Stat-Plus
+--- @class AzeriteEssenceHeaderButtonTemplate_CollapsedIcon : Texture, Char_Stat_Plus
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L509)
 --- child of AzeriteEssenceHeaderButtonTemplate
@@ -316,16 +319,19 @@
 --- child of AzeriteEssenceUI
 --- @class AzeriteEssenceUI_StarsAnimationFrame1 : Frame, AzeriteEssenceStarsAnimationFrameTemplate
 --- @field startDelay number # 0
+--- @field baseRotation number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L650)
 --- child of AzeriteEssenceUI
 --- @class AzeriteEssenceUI_StarsAnimationFrame2 : Frame, AzeriteEssenceStarsAnimationFrameTemplate
 --- @field startDelay number # 3
+--- @field baseRotation number # 90
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L660)
 --- child of AzeriteEssenceUI
 --- @class AzeriteEssenceUI_StarsAnimationFrame3 : Frame, AzeriteEssenceStarsAnimationFrameTemplate
 --- @field startDelay number # 6
+--- @field baseRotation number # 180
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L678)
 --- child of AzeriteEssenceUI_EssenceList
@@ -371,7 +377,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L1107)
 --- child of AzeriteEssenceUI (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 AzeriteEssenceUICloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteEssenceUI/Blizzard_AzeriteEssenceUI.xml#L1074)

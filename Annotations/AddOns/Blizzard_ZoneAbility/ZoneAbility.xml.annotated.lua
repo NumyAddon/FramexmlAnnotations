@@ -4,6 +4,7 @@
 --- child of ZoneAbilityFrameTemplate
 --- @class ZoneAbilityFrameTemplate_SpellButtonContainer : Frame, ManagedHorizontalLayoutFrameTemplate
 --- @field spacing number # 4
+--- @field fixedHeight number # 52
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.xml#L3)
 --- Template

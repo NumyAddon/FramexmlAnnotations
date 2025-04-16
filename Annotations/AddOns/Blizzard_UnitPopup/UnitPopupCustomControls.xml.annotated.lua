@@ -4,6 +4,17 @@
 --- Template
 --- @class UnitPopupVoiceToggleButtonTemplate : Button, VoiceToggleButtonTemplate, UnitPopupVoiceToggleButtonMixin
 --- @field fixedWidth number # 14
+--- @field fixedHeight number # 14
+--- @field iconKey string # Icon
+--- @field fixedIconWidth number # 14
+--- @field fixedIconHeight number # 14
+--- @field iconPushedOffsetX number # 1
+--- @field iconPushedOffsetY number # -1
+--- @field iconPushedAlpha number # 1
+--- @field iconNormalAlpha number # 1
+--- @field normalAtlas string # 
+--- @field pushedAtlas string # 
+--- @field highlightAtlas string # 
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.xml#L29)
 --- Template

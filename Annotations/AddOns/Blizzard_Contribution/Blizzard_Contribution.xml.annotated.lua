@@ -40,6 +40,7 @@
 --- Template
 --- @class ContributionStatusTemplate : StatusBar, ContributionStatusMixin
 --- @field updateDelay number # 1
+--- @field nextUpdate number # 0
 --- @field BG Texture
 --- @field Spark Texture
 --- @field Border Texture
@@ -82,10 +83,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L237)
 --- @class ContributionCollectionFrame : Frame, HorizontalLayoutFrame, ContributionCollectionMixin
 --- @field fixedWidth number # 869
+--- @field fixedHeight number # 579
+--- @field topPadding number # 62
+--- @field bottomPadding number # 45
+--- @field leftPadding number # 45
+--- @field rightPadding number # 75
+--- @field spacing number # 8
 --- @field CloseButton ContributionCollectionFrame_CloseButton
 --- @field Background Texture
 ContributionCollectionFrame = {}
 ContributionCollectionFrame["fixedWidth"] = 869
+ContributionCollectionFrame["fixedHeight"] = 579
+ContributionCollectionFrame["topPadding"] = 62
+ContributionCollectionFrame["bottomPadding"] = 45
+ContributionCollectionFrame["leftPadding"] = 45
+ContributionCollectionFrame["rightPadding"] = 75
+ContributionCollectionFrame["spacing"] = 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Contribution/Blizzard_Contribution.xml#L297)
 --- child of ContributionBuffTooltip

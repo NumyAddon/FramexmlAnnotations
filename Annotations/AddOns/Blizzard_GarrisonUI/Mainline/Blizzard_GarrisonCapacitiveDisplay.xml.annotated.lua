@@ -101,17 +101,17 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L286)
 --- child of GarrisonCapacitiveDisplayFrame_Count
---- @class GarrisonCapacitiveDisplayFrame_Count_GarrisonCapacitiveDisplayFrameLeft : Texture
+--- @class GarrisonCapacitiveDisplayFrameLeft : Texture
 GarrisonCapacitiveDisplayFrameLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L293)
 --- child of GarrisonCapacitiveDisplayFrame_Count
---- @class GarrisonCapacitiveDisplayFrame_Count_GarrisonCapacitiveDisplayFrameRight : Texture
+--- @class GarrisonCapacitiveDisplayFrameRight : Texture
 GarrisonCapacitiveDisplayFrameRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L300)
 --- child of GarrisonCapacitiveDisplayFrame_Count
---- @class GarrisonCapacitiveDisplayFrame_Count_GarrisonCapacitiveDisplayFrameMiddle : Texture
+--- @class GarrisonCapacitiveDisplayFrameMiddle : Texture
 GarrisonCapacitiveDisplayFrameMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L279)
@@ -124,13 +124,13 @@ GarrisonCapacitiveDisplayFrameMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L1160)
 --- child of GarrisonCapacitiveDisplayFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 GarrisonCapacitiveDisplayFrameInset = {}
 GarrisonCapacitiveDisplayFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L1154)
 --- child of GarrisonCapacitiveDisplayFrame (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+--- @type ButtonFrameBaseTemplate_CloseButton
 GarrisonCapacitiveDisplayFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonCapacitiveDisplay.xml#L1137)

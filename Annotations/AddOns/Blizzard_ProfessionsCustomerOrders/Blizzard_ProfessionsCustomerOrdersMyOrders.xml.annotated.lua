@@ -12,7 +12,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L60)
 --- child of ProfessionsCustomerOrdersMyOrdersTemplate_OrderList
 --- @class ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L69)
 --- child of ProfessionsCustomerOrdersMyOrdersTemplate_OrderList

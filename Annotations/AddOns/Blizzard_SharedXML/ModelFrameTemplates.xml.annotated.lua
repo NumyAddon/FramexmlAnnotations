@@ -20,41 +20,41 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelFrameTemplates.xml#L100)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomInButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
+--- @class ModelWithControlsTemplate_ControlFrame_ZoomInButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
 --- @field zoomIn boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelFrameTemplates.xml#L109)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomOutButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
+--- @class ModelWithControlsTemplate_ControlFrame_ZoomOutButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
 --- @field zoomIn boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelFrameTemplates.xml#L118)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton : Button, ModelControlButtonTemplate, ModelControlPanButtonMixin
+--- @class ModelWithControlsTemplate_ControlFrame_PanButton : Button, ModelControlButtonTemplate, ModelControlPanButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelFrameTemplates.xml#L124)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
---- @field rotateDirection string # "left"
+--- @class ModelWithControlsTemplate_ControlFrame_RotateLeftButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
+--- @field rotateDirection string # left
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelFrameTemplates.xml#L133)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
---- @field rotateDirection string # "right"
+--- @class ModelWithControlsTemplate_ControlFrame_RotateRightButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
+--- @field rotateDirection string # right
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelFrameTemplates.xml#L142)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateResetButton : Button, ModelControlButtonTemplate, ModelControlResetButtonMixin
+--- @class ModelWithControlsTemplate_ControlFrame_RotateResetButton : Button, ModelControlButtonTemplate, ModelControlResetButtonMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelFrameTemplates.xml#L67)
 --- child of ModelWithControlsTemplate
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame : Frame, ModelControlFrameMixin
---- @field panButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton
---- @field rotateLeftButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton
---- @field rotateRightButton ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton
+--- @class ModelWithControlsTemplate_ControlFrame : Frame, ModelControlFrameMixin
+--- @field panButton ModelWithControlsTemplate_ControlFrame_PanButton
+--- @field rotateLeftButton ModelWithControlsTemplate_ControlFrame_RotateLeftButton
+--- @field rotateRightButton ModelWithControlsTemplate_ControlFrame_RotateRightButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/ModelFrameTemplates.xml#L65)
 --- Template
 --- @class ModelWithControlsTemplate : PlayerModel, ModelFrameMixin
---- @field controlFrame ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame
+--- @field controlFrame ModelWithControlsTemplate_ControlFrame
 

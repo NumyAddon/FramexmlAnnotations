@@ -30,6 +30,11 @@
 --- Template
 --- @class AuraContainerTemplate : Frame, AuraContainerMixin
 --- @field isHorizontal boolean # true
+--- @field iconStride number # 8
+--- @field iconPadding number # 5
+--- @field iconScale number # 1
+--- @field addIconsToRight boolean # false
+--- @field addIconsToTop boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L74)
 --- Template
@@ -57,11 +62,18 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L116)
 --- @class BuffFrame : Frame, AuraFrameTemplate, BuffFrameMixin
---- @field exampleAuraType string # "Buff"
+--- @field exampleAuraType string # Buff
+--- @field maxAuras any # BUFF_MAX_DISPLAY
+--- @field systemIndex any # Enum.EditModeAuraFrameSystemIndices.BuffFrame
+--- @field systemNameString any # HUD_EDIT_MODE_BUFF_FRAME_LABEL
 --- @field CollapseAndExpandButton BuffFrame_CollapseAndExpandButton
 BuffFrame = {}
 BuffFrame["exampleAuraType"] = "Buff"
-BuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
+BuffFrame["maxAuras"] = BUFF_MAX_DISPLAY
+BuffFrame["systemIndex"] = _G["Enum.EditModeAuraFrameSystemIndices.BuffFrame"]
+BuffFrame["systemNameString"] = HUD_EDIT_MODE_BUFF_FRAME_LABEL
+BuffFrame["system"] = _G["Enum.EditModeSystem.AuraFrame"] -- inherited
+BuffFrame["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L174)
 --- child of DebuffFrame
@@ -75,13 +87,22 @@ BuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L162)
 --- @class DebuffFrame : Frame, AuraFrameTemplate, DebuffFrameMixin
---- @field exampleAuraType string # "Debuff"
+--- @field exampleAuraType string # Debuff
+--- @field maxAuras any # DEBUFF_MAX_DISPLAY
+--- @field systemIndex any # Enum.EditModeAuraFrameSystemIndices.DebuffFrame
+--- @field systemNameString any # HUD_EDIT_MODE_DEBUFF_FRAME_LABEL
+--- @field doNotAnchorDisabledFrames boolean # true
 --- @field privateAuraAnchor1 DebuffFrame_privateAuraAnchor1
 --- @field privateAuraAnchor2 DebuffFrame_privateAuraAnchor2
 --- @field PrivateAuraAnchors table<number, DebuffFrame_privateAuraAnchor1 | DebuffFrame_privateAuraAnchor2>
 DebuffFrame = {}
 DebuffFrame["exampleAuraType"] = "Debuff"
-DebuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
+DebuffFrame["maxAuras"] = DEBUFF_MAX_DISPLAY
+DebuffFrame["systemIndex"] = _G["Enum.EditModeAuraFrameSystemIndices.DebuffFrame"]
+DebuffFrame["systemNameString"] = HUD_EDIT_MODE_DEBUFF_FRAME_LABEL
+DebuffFrame["doNotAnchorDisabledFrames"] = true
+DebuffFrame["system"] = _G["Enum.EditModeSystem.AuraFrame"] -- inherited
+DebuffFrame["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L208)
 --- child of DeadlyDebuffFrame

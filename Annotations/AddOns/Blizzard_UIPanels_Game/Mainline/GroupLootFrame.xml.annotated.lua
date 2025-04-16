@@ -173,6 +173,9 @@
 GroupLootContainer = {}
 GroupLootContainer["layoutIndex"] = 3
 GroupLootContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+GroupLootContainer["align"] = "center" -- inherited
+GroupLootContainer["hideWhenActionBarIsOverriden"] = true -- inherited
+GroupLootContainer["isBottomManagedFrame"] = true -- inherited
 GroupLootContainer["isManagedFrame"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L546)

@@ -18,22 +18,26 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L38)
 --- child of AdventuresBoardAuraContainerTemplate
 --- @class AdventuresBoardAuraContainerTemplate_BuffIcon : Frame, AdventuresBoardAuraIcon
---- @field textureAtlas string # "Adventure-buff-indicator"
+--- @field textureAtlas string # Adventure-buff-indicator
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L45)
 --- child of AdventuresBoardAuraContainerTemplate
 --- @class AdventuresBoardAuraContainerTemplate_DebuffIcon : Frame, AdventuresBoardAuraIcon
---- @field textureAtlas string # "Adventure-debuff-indicator"
+--- @field textureAtlas string # Adventure-debuff-indicator
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L52)
 --- child of AdventuresBoardAuraContainerTemplate
 --- @class AdventuresBoardAuraContainerTemplate_HealingIcon : Frame, AdventuresBoardAuraIcon
---- @field textureAtlas string # "Adventure-heal-indicator"
+--- @field textureAtlas string # Adventure-heal-indicator
+--- @field layoutIndex number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L32)
 --- Template
 --- @class AdventuresBoardAuraContainerTemplate : Frame, HorizontalLayoutFrame, AdventuresBoardAuraContainerMixin
 --- @field expand boolean # true
+--- @field spacing number # 4
 --- @field BuffIcon AdventuresBoardAuraContainerTemplate_BuffIcon
 --- @field DebuffIcon AdventuresBoardAuraContainerTemplate_DebuffIcon
 --- @field HealingIcon AdventuresBoardAuraContainerTemplate_HealingIcon
@@ -41,7 +45,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L77)
 --- child of AdventuresBoardEmptySocketTemplate
 --- @class AdventuresBoardEmptySocketTemplate_EnemyTargetingIndicatorFrame : Frame, AdventuresTargetingIndicatorTemplate
---- @field targetingTextureAtlas string # "Adventures-Target-Indicator-desat"
+--- @field targetingTextureAtlas string # Adventures-Target-Indicator-desat
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L83)
 --- child of AdventuresBoardEmptySocketTemplate
@@ -89,7 +93,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresBoard.xml#L106)
 --- Template
 --- @class AdventuresBoardTemplate : Frame, AdventuresBoardMixin
---- @field enemyTemplate string # "AdventuresEnemyPuckTemplate"
+--- @field enemyTemplate string # AdventuresEnemyPuckTemplate
+--- @field followerTemplate string # AdventuresFollowerPuckTemplate
+--- @field enemySocketTemplate string # EnemyEmptySocketTemplate
+--- @field followerSocketTemplate string # FollowerEmptySocketTemplate
 --- @field EnemyContainer AdventuresBoardTemplate_EnemyContainer
 --- @field FollowerContainer AdventuresBoardTemplate_FollowerContainer
 

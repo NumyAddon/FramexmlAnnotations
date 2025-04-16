@@ -31,7 +31,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L1107)
 --- child of DelvesCompanionAbilityListFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 DelvesCompanionAbilityListFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L1074)
@@ -42,13 +42,29 @@ DelvesCompanionAbilityListFrameBg = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L47)
 --- @class DelvesCompanionAbilityListFrame : Frame, PortraitFrameTemplate, TalentFrameBaseTemplate, DelvesCompanionAbilityListFrameMixin
 --- @field getTemplateType any # DelvesCompanionAbilityListFrameMixin.GetTemplateForTalentType
+--- @field enableZoomAndPan boolean # false
 --- @field DelvesCompanionRoleDropdown DelvesCompanionAbilityListFrame_DelvesCompanionRoleDropdown
 --- @field DelvesCompanionAbilityListPagingControls DelvesCompanionAbilityListFrame_DelvesCompanionAbilityListPagingControls
 --- @field CompanionAbilityListBackground Texture
 DelvesCompanionAbilityListFrame = {}
-DelvesCompanionAbilityListFrame["getTemplateType"] = DelvesCompanionAbilityListFrameMixin.GetTemplateForTalentType
+DelvesCompanionAbilityListFrame["getTemplateType"] = _G["DelvesCompanionAbilityListFrameMixin.GetTemplateForTalentType"]
+DelvesCompanionAbilityListFrame["enableZoomAndPan"] = false
 DelvesCompanionAbilityListFrame["CloseButton"] = DelvesCompanionAbilityListFrameCloseButton -- inherited
 DelvesCompanionAbilityListFrame["Bg"] = DelvesCompanionAbilityListFrameBg -- inherited
 DelvesCompanionAbilityListFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-DelvesCompanionAbilityListFrame["getTemplateType"] = TalentButtonUtil.GetTemplateForTalentType -- inherited
+DelvesCompanionAbilityListFrame["getSpecializedMixin"] = _G["TalentButtonUtil.GetSpecializedMixin"] -- inherited
+DelvesCompanionAbilityListFrame["getEdgeTemplateType"] = _G["TalentButtonUtil.GetTemplateForEdgeVisualStyle"] -- inherited
+DelvesCompanionAbilityListFrame["buttonSize"] = 40 -- inherited
+DelvesCompanionAbilityListFrame["topPadding"] = 0 -- inherited
+DelvesCompanionAbilityListFrame["leftPadding"] = 0 -- inherited
+DelvesCompanionAbilityListFrame["bottomPadding"] = 0 -- inherited
+DelvesCompanionAbilityListFrame["rightPadding"] = 0 -- inherited
+DelvesCompanionAbilityListFrame["basePanOffsetX"] = 0 -- inherited
+DelvesCompanionAbilityListFrame["basePanOffsetY"] = 0 -- inherited
+DelvesCompanionAbilityListFrame["excludeStagedChangesForCurrencies"] = false -- inherited
+DelvesCompanionAbilityListFrame["maximumCommitTime"] = 3 -- inherited
+DelvesCompanionAbilityListFrame["disabledOverlayAlpha"] = 0.4 -- inherited
+DelvesCompanionAbilityListFrame["enableCommitCastBar"] = false -- inherited
+DelvesCompanionAbilityListFrame["enableCommitSpinner"] = false -- inherited
+DelvesCompanionAbilityListFrame["enableCommitEndFlash"] = false -- inherited
 

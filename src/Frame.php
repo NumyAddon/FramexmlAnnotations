@@ -57,7 +57,7 @@ class Frame
 
     public function getClassName(): ?string
     {
-        if ($this->getName()) {
+        if ($this->getName() && $this->getRootNode()::class === Frame::class) {
             return $this->sanitizeClassName($this->getName());
         }
         $prefix = $this->parent?->getClassName() ?? '';

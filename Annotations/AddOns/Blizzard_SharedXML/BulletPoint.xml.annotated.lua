@@ -12,11 +12,13 @@
 --- Template
 --- @class BulletPointTemplate : Frame, BulletPointMixin
 --- @field topPadding number # 2
+--- @field bottomPadding number # 2
+--- @field expand boolean # true
 --- @field Text BulletPointTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/BulletPoint.xml#L36)
 --- child of BulletPointWithTextureTemplate
---- @class BulletPointWithTextureTemplate_Texture : Texture, UI-EJ-Bullet
+--- @class BulletPointWithTextureTemplate_Texture : Texture, UI_EJ_Bullet
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/BulletPoint.xml#L30)
 --- Template

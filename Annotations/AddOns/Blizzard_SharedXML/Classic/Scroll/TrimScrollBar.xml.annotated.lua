@@ -28,6 +28,10 @@
 --- child of WowClassicScrollBar
 --- @class WowClassicScrollBar_Back : EventButton, WowTrimScrollBarStepperScripts
 --- @field direction any # ScrollControllerMixin.Directions.Decrease
+--- @field mouseDownSoundKitID any # SOUNDKIT.U_CHAT_SCROLL_BUTTON
+--- @field upTexture string # UI-ScrollBar-ClassicScrollUpButton-Up
+--- @field downTexture string # UI-ScrollBar-ClassicScrollUpButton-Down
+--- @field disabledTexture string # UI-ScrollBar-ClassicScrollUpButton-Disabled
 --- @field Texture Texture
 --- @field Overlay Texture
 
@@ -35,6 +39,10 @@
 --- child of WowClassicScrollBar
 --- @class WowClassicScrollBar_Forward : EventButton, WowTrimScrollBarStepperScripts
 --- @field direction any # ScrollControllerMixin.Directions.Increase
+--- @field mouseDownSoundKitID any # SOUNDKIT.U_CHAT_SCROLL_BUTTON
+--- @field upTexture string # UI-ScrollBar-ClassicScrollDownButton-Up
+--- @field downTexture string # UI-ScrollBar-ClassicScrollDownButton-Down
+--- @field disabledTexture string # UI-ScrollBar-ClassicScrollDownButton-Disabled
 --- @field Texture Texture
 --- @field Overlay Texture
 
@@ -42,6 +50,8 @@
 --- Template
 --- @class WowClassicScrollBar : EventFrame, VerticalScrollBarTemplate, WowTrimScrollBarMixin
 --- @field minThumbExtent number # 24
+--- @field fixedThumbExtent number # 24
+--- @field canInterpolateScroll boolean # false
 --- @field Background WowClassicScrollBar_Background
 --- @field Track WowClassicScrollBar_Track
 --- @field Back WowClassicScrollBar_Back

@@ -18,7 +18,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L29)
 --- child of DialogBoxFrame
---- @class DialogBoxFrame_DialogBoxFrameButton : Button
+--- @class DialogBoxFrame_Button : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L21)
 --- Template
@@ -27,7 +27,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L136)
 --- child of UIPanelDialogTemplate
---- @class UIPanelDialogTemplate_UIPanelDialogTemplateClose : Button, UIPanelCloseButton
+--- @class UIPanelDialogTemplate_Close : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L112)
 --- child of UIPanelDialogTemplate
@@ -44,7 +44,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L161)
 --- child of BasicMessageDialog
---- @class BasicMessageDialog_BasicMessageDialogButton : Button
+--- @class BasicMessageDialogButton : Button
 BasicMessageDialogButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L151)
@@ -116,6 +116,17 @@ BasicMessageDialog = {}
 --- Template
 --- @class BaseNineSliceDialog : Frame, ResizeLayoutFrame, DefaultScaleFrame, BaseNineSliceDialogMixin
 --- @field fixedWidth number # 586
+--- @field minimumHeight number # 442
+--- @field showUnderlay boolean # true
+--- @field topYOffset number # -65
+--- @field nineSliceTextureKit string # GenericMetal2
+--- @field centerBackgroundTexture string # Glues-AnnouncementPopup-Background
+--- @field centerBackgroundXPadding number # 20
+--- @field centerBackgroundYPadding number # 20
+--- @field parchmentTextureKit string # Glues-AnnouncementPopup-Parchment
+--- @field parchmentYPaddingTop number # 19
+--- @field parchmentYPaddingBottom number # 27
+--- @field parchmentXOffset number # -1
 --- @field Underlay BaseNineSliceDialog_Underlay
 --- @field Border Frame
 --- @field Contents BaseNineSliceDialog_Contents

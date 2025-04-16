@@ -20,17 +20,17 @@ WorldMapScreenAnchor = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L57)
 --- child of WorldMapFrame_MiniBorderFrame
---- @class WorldMapFrame_MiniBorderFrame_MiniBorderLeft : Texture
+--- @class MiniBorderLeft : Texture
 MiniBorderLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L69)
 --- child of WorldMapFrame_MiniBorderFrame
---- @class WorldMapFrame_MiniBorderFrame_MiniBorderRight : Texture
+--- @class MiniBorderRight : Texture
 MiniBorderRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L81)
 --- child of WorldMapFrame_MiniBorderFrame
---- @class WorldMapFrame_MiniBorderFrame_MiniWorldMapTitle : FontString, GameFontNormal
+--- @class MiniWorldMapTitle : FontString, GameFontNormal
 MiniWorldMapTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L54)
@@ -39,7 +39,7 @@ MiniWorldMapTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L93)
 --- child of WorldMapFrame
---- @class WorldMapFrame_WorldMapTitleButton : Button
+--- @class WorldMapTitleButton : Button
 WorldMapTitleButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L111)
@@ -48,36 +48,37 @@ WorldMapTitleButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L270)
 --- child of WorldMapFrame
---- @class WorldMapFrame_WorldMapContinentDropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @class WorldMapContinentDropdown : DropdownButton, WowStyle1DropdownTemplate
 WorldMapContinentDropdown = {}
 WorldMapContinentDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L292)
 --- child of WorldMapFrame
---- @class WorldMapFrame_WorldMapZoneDropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @class WorldMapZoneDropdown : DropdownButton, WowStyle1DropdownTemplate
 WorldMapZoneDropdown = {}
 WorldMapZoneDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L314)
 --- child of WorldMapFrame
---- @class WorldMapFrame_WorldMapZoneMinimapDropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @class WorldMapZoneMinimapDropdown : DropdownButton, WowStyle1DropdownTemplate
 WorldMapZoneMinimapDropdown = {}
 WorldMapZoneMinimapDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L338)
 --- child of WorldMapFrame
---- @class WorldMapFrame_WorldMapZoomOutButton : Button, UIPanelButtonTemplate
+--- @class WorldMapZoomOutButton : Button, UIPanelButtonTemplate
 WorldMapZoomOutButton = {}
 WorldMapZoomOutButton["fitTextCanWidthDecrease"] = true -- inherited
+WorldMapZoomOutButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L355)
 --- child of WorldMapFrame
---- @class WorldMapFrame_WorldMapMagnifyingGlassButton : Button
+--- @class WorldMapMagnifyingGlassButton : Button
 WorldMapMagnifyingGlassButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L398)
 --- child of WorldMapFrame
---- @class WorldMapFrame_WorldMapFrameCloseButton : Button, UIPanelCloseButton
+--- @class WorldMapFrameCloseButton : Button, UIPanelCloseButton
 WorldMapFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L407)
@@ -89,9 +90,9 @@ WorldMapFrameCloseButton = {}
 --- @field BlackoutFrame WorldMapFrame_BlackoutFrame
 --- @field MiniBorderFrame WorldMapFrame_MiniBorderFrame
 --- @field BorderFrame WorldMapFrame_BorderFrame
---- @field ContinentDropdown WorldMapFrame_WorldMapContinentDropdown
---- @field ZoneDropdown WorldMapFrame_WorldMapZoneDropdown
---- @field MinimapDropdown WorldMapFrame_WorldMapZoneMinimapDropdown
+--- @field ContinentDropdown WorldMapContinentDropdown
+--- @field ZoneDropdown WorldMapZoneDropdown
+--- @field MinimapDropdown WorldMapZoneMinimapDropdown
 --- @field MaximizeMinimizeFrame WorldMapFrame_MaximizeMinimizeFrame
 --- @field MaxMinButtonFrame WorldMapFrame_MaximizeMinimizeFrame
 WorldMapFrame = {}

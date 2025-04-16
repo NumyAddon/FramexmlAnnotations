@@ -26,7 +26,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBarMicroButtons.xml#L89)
 --- child of CharacterMicroButton
---- @class CharacterMicroButton_MicroButtonPortrait : Texture
+--- @class MicroButtonPortrait : Texture
 MicroButtonPortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBarMicroButtons.xml#L12)
@@ -86,7 +86,7 @@ GuildMicroButtonFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBarMicroButtons.xml#L215)
 --- @class GuildMicroButton : Button, MainMenuBarMicroButton, GuildMicroButtonMixin
---- @field commandName string # "TOGGLEGUILDTAB"
+--- @field commandName string # TOGGLEGUILDTAB
 --- @field NotificationOverlay Frame
 GuildMicroButton = {}
 GuildMicroButton["commandName"] = "TOGGLEGUILDTAB"
@@ -104,7 +104,7 @@ WorldMapMicroButton["Flash"] = WorldMapMicroButtonFlash -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBarMicroButtons.xml#L265)
 --- child of MainMenuMicroButton
---- @class MainMenuMicroButton_MainMenuBarDownload : Texture
+--- @class MainMenuBarDownload : Texture
 MainMenuBarDownload = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBarMicroButtons.xml#L12)

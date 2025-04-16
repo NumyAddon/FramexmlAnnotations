@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldButtonTemplate
---- @class BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus : FontString, GameFontNormal
+--- @class BattlefieldButtonTemplate_Status : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L3)
 --- Template
@@ -10,7 +10,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone1 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone1Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -20,12 +20,12 @@ BattlefieldZone1Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L148)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone1 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone1 : Button, BattlefieldButtonTemplate
 BattlefieldZone1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone2 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone2Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -35,12 +35,12 @@ BattlefieldZone2Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L157)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone2 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone2 : Button, BattlefieldButtonTemplate
 BattlefieldZone2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone3 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone3Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -50,12 +50,12 @@ BattlefieldZone3Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L166)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone3 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone3 : Button, BattlefieldButtonTemplate
 BattlefieldZone3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone4 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone4Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -65,12 +65,12 @@ BattlefieldZone4Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L175)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone4 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone4 : Button, BattlefieldButtonTemplate
 BattlefieldZone4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone5 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone5Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -80,12 +80,12 @@ BattlefieldZone5Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L184)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone5 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone5 : Button, BattlefieldButtonTemplate
 BattlefieldZone5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone6 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone6Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -95,12 +95,12 @@ BattlefieldZone6Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L193)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone6 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone6 : Button, BattlefieldButtonTemplate
 BattlefieldZone6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone7 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone7Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -110,12 +110,12 @@ BattlefieldZone7Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L202)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone7 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone7 : Button, BattlefieldButtonTemplate
 BattlefieldZone7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone8 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone8Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -125,12 +125,12 @@ BattlefieldZone8Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L211)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone8 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone8 : Button, BattlefieldButtonTemplate
 BattlefieldZone8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone9 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone9Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -140,12 +140,12 @@ BattlefieldZone9Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L220)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone9 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone9 : Button, BattlefieldButtonTemplate
 BattlefieldZone9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone10 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone10Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -155,12 +155,12 @@ BattlefieldZone10Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L229)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone10 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone10 : Button, BattlefieldButtonTemplate
 BattlefieldZone10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone11 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone11Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -170,12 +170,12 @@ BattlefieldZone11Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L238)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone11 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone11 : Button, BattlefieldButtonTemplate
 BattlefieldZone11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L9)
 --- child of BattlefieldZone12 (created in template BattlefieldButtonTemplate)
---- @type BattlefieldButtonTemplate_BattlefieldButtonTemplateStatus
+--- @type BattlefieldButtonTemplate_Status
 BattlefieldZone12Status = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L37)
@@ -185,7 +185,7 @@ BattlefieldZone12Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L247)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldZone12 : Button, BattlefieldButtonTemplate
+--- @class BattlefieldZone12 : Button, BattlefieldButtonTemplate
 BattlefieldZone12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L163)
@@ -195,22 +195,22 @@ BattlefieldListScrollFrameScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L10)
 --- child of BattlefieldListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+--- @type UIPanelScrollBarTemplate_ScrollUpButton
 BattlefieldListScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L18)
 --- child of BattlefieldListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+--- @type UIPanelScrollBarTemplate_ScrollDownButton
 BattlefieldListScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L30)
 --- child of BattlefieldListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+--- @type UIPanelScrollBarTemplate_ThumbTexture
 BattlefieldListScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L46)
 --- child of BattlefieldListScrollFrame (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+--- @type UIPanelScrollFrameTemplate_ScrollBar
 BattlefieldListScrollFrameScrollBar = {}
 BattlefieldListScrollFrameScrollBar["ScrollUpButton"] = BattlefieldListScrollFrameScrollBarScrollUpButton -- inherited
 BattlefieldListScrollFrameScrollBar["ScrollDownButton"] = BattlefieldListScrollFrameScrollBarScrollDownButton -- inherited
@@ -218,52 +218,55 @@ BattlefieldListScrollFrameScrollBar["ThumbTexture"] = BattlefieldListScrollFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L256)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
+--- @class BattlefieldListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 BattlefieldListScrollFrame = {}
 BattlefieldListScrollFrame["ScrollChildFrame"] = BattlefieldListScrollFrameScrollChildFrame -- inherited
 BattlefieldListScrollFrame["ScrollBar"] = BattlefieldListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L303)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldFrameCancelButton : Button, UIPanelButtonTemplate
+--- @class BattlefieldFrameCancelButton : Button, UIPanelButtonTemplate
 BattlefieldFrameCancelButton = {}
 BattlefieldFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+BattlefieldFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L320)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldFrameJoinButton : Button, UIPanelButtonTemplate
+--- @class BattlefieldFrameJoinButton : Button, UIPanelButtonTemplate
 BattlefieldFrameJoinButton = {}
 BattlefieldFrameJoinButton["fitTextCanWidthDecrease"] = true -- inherited
+BattlefieldFrameJoinButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L337)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldFrameGroupJoinButton : Button, UIPanelButtonTemplate
+--- @class BattlefieldFrameGroupJoinButton : Button, UIPanelButtonTemplate
 BattlefieldFrameGroupJoinButton = {}
 BattlefieldFrameGroupJoinButton["fitTextCanWidthDecrease"] = true -- inherited
+BattlefieldFrameGroupJoinButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L366)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldFrameCloseButton : Button, UIPanelCloseButton
+--- @class BattlefieldFrameCloseButton : Button, UIPanelCloseButton
 BattlefieldFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L69)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldFramePortrait : Texture
+--- @class BattlefieldFramePortrait : Texture
 BattlefieldFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L115)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldFrameFrameLabel : FontString, GameFontNormal
+--- @class BattlefieldFrameFrameLabel : FontString, GameFontNormal
 BattlefieldFrameFrameLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L124)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldFrameNameHeader : FontString, GameFontHighlight
+--- @class BattlefieldFrameNameHeader : FontString, GameFontHighlight
 BattlefieldFrameNameHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L133)
 --- child of BattlefieldFrame
---- @class BattlefieldFrame_BattlefieldFrameZoneDescription : FontString, GameFontBlack
+--- @class BattlefieldFrameZoneDescription : FontString, GameFontBlack
 BattlefieldFrameZoneDescription = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L53)

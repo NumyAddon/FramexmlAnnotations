@@ -27,51 +27,51 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L69)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button1 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button1 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L74)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button2 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button2 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L79)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button3 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button3 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L84)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button4 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button4 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L89)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button5 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button5 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button6 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button6 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button7 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button7 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L104)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button8 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button8 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L109)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button9 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button9 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L114)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button10 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button10 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button11 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button11 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L124)
 --- child of HorizontalMultiBar1
---- @class HorizontalMultiBar1_HorizontalMultiBar1Button12 : CheckButton, MultiBar1ButtonTemplate
+--- @class HorizontalMultiBar1_Button12 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L63)
 --- Template
@@ -79,51 +79,51 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L137)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button1 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button1 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L142)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button2 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button2 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L147)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button3 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button3 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L152)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button4 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button4 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L157)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button5 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button5 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L162)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button6 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button6 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L167)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button7 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button7 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L172)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button8 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button8 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L177)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button9 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button9 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L182)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button10 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button10 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L187)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button11 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button11 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L192)
 --- child of HorizontalMultiBar2
---- @class HorizontalMultiBar2_HorizontalMultiBar2Button12 : CheckButton, MultiBar2ButtonTemplate
+--- @class HorizontalMultiBar2_Button12 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L131)
 --- Template
@@ -131,51 +131,51 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L205)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button1 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button1 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button2 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button2 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L215)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button3 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button3 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L220)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button4 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button4 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L225)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button5 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button5 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L230)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button6 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button6 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L235)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button7 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button7 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L240)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button8 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button8 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L245)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button9 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button9 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L250)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button10 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button10 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L255)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button11 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button11 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L260)
 --- child of VerticalMultiBar3
---- @class VerticalMultiBar3_VerticalMultiBar3Button12 : CheckButton, MultiBar3ButtonTemplate
+--- @class VerticalMultiBar3_Button12 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L199)
 --- Template
@@ -183,51 +183,51 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L273)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button1 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button1 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L278)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button2 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button2 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L283)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button3 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button3 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button4 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button4 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L293)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button5 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button5 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L298)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button6 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button6 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L303)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button7 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button7 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L308)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button8 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button8 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L313)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button9 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button9 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L318)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button10 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button10 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L323)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button11 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button11 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L328)
 --- child of VerticalMultiBar4
---- @class VerticalMultiBar4_VerticalMultiBar4Button12 : CheckButton, MultiBar4ButtonTemplate
+--- @class VerticalMultiBar4_Button12 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L267)
 --- Template
@@ -320,12 +320,12 @@ MultiBarBottomLeftButton1Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton1Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton1Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -340,32 +340,32 @@ MultiBarBottomLeftButton1Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton1FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton1FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton1FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton1HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -380,7 +380,7 @@ MultiBarBottomLeftButton1NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L69)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button1
+--- @type HorizontalMultiBar1_Button1
 MultiBarBottomLeftButton1 = {}
 MultiBarBottomLeftButton1["AutoCastShine"] = MultiBarBottomLeftButton1Shine -- inherited
 MultiBarBottomLeftButton1["cooldown"] = MultiBarBottomLeftButton1Cooldown -- inherited
@@ -482,12 +482,12 @@ MultiBarBottomLeftButton2Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton2Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton2Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -502,32 +502,32 @@ MultiBarBottomLeftButton2Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton2FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton2FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton2FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton2HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton2Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -542,7 +542,7 @@ MultiBarBottomLeftButton2NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L74)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button2
+--- @type HorizontalMultiBar1_Button2
 MultiBarBottomLeftButton2 = {}
 MultiBarBottomLeftButton2["AutoCastShine"] = MultiBarBottomLeftButton2Shine -- inherited
 MultiBarBottomLeftButton2["cooldown"] = MultiBarBottomLeftButton2Cooldown -- inherited
@@ -644,12 +644,12 @@ MultiBarBottomLeftButton3Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton3Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton3Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -664,32 +664,32 @@ MultiBarBottomLeftButton3Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton3FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton3FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton3FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton3HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton3Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -704,7 +704,7 @@ MultiBarBottomLeftButton3NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L79)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button3
+--- @type HorizontalMultiBar1_Button3
 MultiBarBottomLeftButton3 = {}
 MultiBarBottomLeftButton3["AutoCastShine"] = MultiBarBottomLeftButton3Shine -- inherited
 MultiBarBottomLeftButton3["cooldown"] = MultiBarBottomLeftButton3Cooldown -- inherited
@@ -806,12 +806,12 @@ MultiBarBottomLeftButton4Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton4Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton4Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -826,32 +826,32 @@ MultiBarBottomLeftButton4Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton4FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton4FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton4FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton4HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton4Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -866,7 +866,7 @@ MultiBarBottomLeftButton4NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L84)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button4
+--- @type HorizontalMultiBar1_Button4
 MultiBarBottomLeftButton4 = {}
 MultiBarBottomLeftButton4["AutoCastShine"] = MultiBarBottomLeftButton4Shine -- inherited
 MultiBarBottomLeftButton4["cooldown"] = MultiBarBottomLeftButton4Cooldown -- inherited
@@ -968,12 +968,12 @@ MultiBarBottomLeftButton5Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton5Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton5Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -988,32 +988,32 @@ MultiBarBottomLeftButton5Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton5FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton5FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton5FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton5HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton5Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton5Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -1028,7 +1028,7 @@ MultiBarBottomLeftButton5NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L89)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button5
+--- @type HorizontalMultiBar1_Button5
 MultiBarBottomLeftButton5 = {}
 MultiBarBottomLeftButton5["AutoCastShine"] = MultiBarBottomLeftButton5Shine -- inherited
 MultiBarBottomLeftButton5["cooldown"] = MultiBarBottomLeftButton5Cooldown -- inherited
@@ -1130,12 +1130,12 @@ MultiBarBottomLeftButton6Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton6Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton6Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -1150,32 +1150,32 @@ MultiBarBottomLeftButton6Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton6FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton6FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton6FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton6HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton6Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -1190,7 +1190,7 @@ MultiBarBottomLeftButton6NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button6
+--- @type HorizontalMultiBar1_Button6
 MultiBarBottomLeftButton6 = {}
 MultiBarBottomLeftButton6["AutoCastShine"] = MultiBarBottomLeftButton6Shine -- inherited
 MultiBarBottomLeftButton6["cooldown"] = MultiBarBottomLeftButton6Cooldown -- inherited
@@ -1292,12 +1292,12 @@ MultiBarBottomLeftButton7Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton7Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton7Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -1312,32 +1312,32 @@ MultiBarBottomLeftButton7Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton7FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton7FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton7FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton7HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton7Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton7Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -1352,7 +1352,7 @@ MultiBarBottomLeftButton7NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button7
+--- @type HorizontalMultiBar1_Button7
 MultiBarBottomLeftButton7 = {}
 MultiBarBottomLeftButton7["AutoCastShine"] = MultiBarBottomLeftButton7Shine -- inherited
 MultiBarBottomLeftButton7["cooldown"] = MultiBarBottomLeftButton7Cooldown -- inherited
@@ -1454,12 +1454,12 @@ MultiBarBottomLeftButton8Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton8Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton8Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -1474,32 +1474,32 @@ MultiBarBottomLeftButton8Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton8FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton8FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton8FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton8HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton8Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -1514,7 +1514,7 @@ MultiBarBottomLeftButton8NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L104)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button8
+--- @type HorizontalMultiBar1_Button8
 MultiBarBottomLeftButton8 = {}
 MultiBarBottomLeftButton8["AutoCastShine"] = MultiBarBottomLeftButton8Shine -- inherited
 MultiBarBottomLeftButton8["cooldown"] = MultiBarBottomLeftButton8Cooldown -- inherited
@@ -1616,12 +1616,12 @@ MultiBarBottomLeftButton9Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton9Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton9Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -1636,32 +1636,32 @@ MultiBarBottomLeftButton9Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton9FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton9FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton9FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton9HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton9Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton9Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -1676,7 +1676,7 @@ MultiBarBottomLeftButton9NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L109)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button9
+--- @type HorizontalMultiBar1_Button9
 MultiBarBottomLeftButton9 = {}
 MultiBarBottomLeftButton9["AutoCastShine"] = MultiBarBottomLeftButton9Shine -- inherited
 MultiBarBottomLeftButton9["cooldown"] = MultiBarBottomLeftButton9Cooldown -- inherited
@@ -1778,12 +1778,12 @@ MultiBarBottomLeftButton10Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton10Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton10Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -1798,32 +1798,32 @@ MultiBarBottomLeftButton10Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton10FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton10FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton10FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton10HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton10Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton10Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -1838,7 +1838,7 @@ MultiBarBottomLeftButton10NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L114)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button10
+--- @type HorizontalMultiBar1_Button10
 MultiBarBottomLeftButton10 = {}
 MultiBarBottomLeftButton10["AutoCastShine"] = MultiBarBottomLeftButton10Shine -- inherited
 MultiBarBottomLeftButton10["cooldown"] = MultiBarBottomLeftButton10Cooldown -- inherited
@@ -1940,12 +1940,12 @@ MultiBarBottomLeftButton11Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton11Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton11Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -1960,32 +1960,32 @@ MultiBarBottomLeftButton11Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton11FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton11FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton11FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton11HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton11Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton11Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -2000,7 +2000,7 @@ MultiBarBottomLeftButton11NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button11
+--- @type HorizontalMultiBar1_Button11
 MultiBarBottomLeftButton11 = {}
 MultiBarBottomLeftButton11["AutoCastShine"] = MultiBarBottomLeftButton11Shine -- inherited
 MultiBarBottomLeftButton11["cooldown"] = MultiBarBottomLeftButton11Cooldown -- inherited
@@ -2102,12 +2102,12 @@ MultiBarBottomLeftButton12Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomLeftButton12Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomLeftButton12Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -2122,32 +2122,32 @@ MultiBarBottomLeftButton12Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomLeftButton12FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomLeftButton12FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomLeftButton12FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomLeftButton12HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomLeftButton12Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomLeftButton12Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -2162,7 +2162,7 @@ MultiBarBottomLeftButton12NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L124)
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
---- @type HorizontalMultiBar1_HorizontalMultiBar1Button12
+--- @type HorizontalMultiBar1_Button12
 MultiBarBottomLeftButton12 = {}
 MultiBarBottomLeftButton12["AutoCastShine"] = MultiBarBottomLeftButton12Shine -- inherited
 MultiBarBottomLeftButton12["cooldown"] = MultiBarBottomLeftButton12Cooldown -- inherited
@@ -2268,12 +2268,12 @@ MultiBarBottomRightButton1Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton1Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton1Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -2288,32 +2288,32 @@ MultiBarBottomRightButton1Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton1FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton1FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton1FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton1HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -2328,7 +2328,7 @@ MultiBarBottomRightButton1NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L137)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button1
+--- @type HorizontalMultiBar2_Button1
 MultiBarBottomRightButton1 = {}
 MultiBarBottomRightButton1["AutoCastShine"] = MultiBarBottomRightButton1Shine -- inherited
 MultiBarBottomRightButton1["cooldown"] = MultiBarBottomRightButton1Cooldown -- inherited
@@ -2430,12 +2430,12 @@ MultiBarBottomRightButton2Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton2Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton2Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -2450,32 +2450,32 @@ MultiBarBottomRightButton2Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton2FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton2FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton2FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton2HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton2Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -2490,7 +2490,7 @@ MultiBarBottomRightButton2NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L142)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button2
+--- @type HorizontalMultiBar2_Button2
 MultiBarBottomRightButton2 = {}
 MultiBarBottomRightButton2["AutoCastShine"] = MultiBarBottomRightButton2Shine -- inherited
 MultiBarBottomRightButton2["cooldown"] = MultiBarBottomRightButton2Cooldown -- inherited
@@ -2592,12 +2592,12 @@ MultiBarBottomRightButton3Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton3Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton3Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -2612,32 +2612,32 @@ MultiBarBottomRightButton3Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton3FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton3FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton3FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton3HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton3Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -2652,7 +2652,7 @@ MultiBarBottomRightButton3NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L147)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button3
+--- @type HorizontalMultiBar2_Button3
 MultiBarBottomRightButton3 = {}
 MultiBarBottomRightButton3["AutoCastShine"] = MultiBarBottomRightButton3Shine -- inherited
 MultiBarBottomRightButton3["cooldown"] = MultiBarBottomRightButton3Cooldown -- inherited
@@ -2754,12 +2754,12 @@ MultiBarBottomRightButton4Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton4Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton4Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -2774,32 +2774,32 @@ MultiBarBottomRightButton4Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton4FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton4FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton4FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton4HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton4Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -2814,7 +2814,7 @@ MultiBarBottomRightButton4NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L152)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button4
+--- @type HorizontalMultiBar2_Button4
 MultiBarBottomRightButton4 = {}
 MultiBarBottomRightButton4["AutoCastShine"] = MultiBarBottomRightButton4Shine -- inherited
 MultiBarBottomRightButton4["cooldown"] = MultiBarBottomRightButton4Cooldown -- inherited
@@ -2916,12 +2916,12 @@ MultiBarBottomRightButton5Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton5Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton5Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -2936,32 +2936,32 @@ MultiBarBottomRightButton5Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton5FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton5FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton5FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton5HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton5Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton5Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -2976,7 +2976,7 @@ MultiBarBottomRightButton5NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L157)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button5
+--- @type HorizontalMultiBar2_Button5
 MultiBarBottomRightButton5 = {}
 MultiBarBottomRightButton5["AutoCastShine"] = MultiBarBottomRightButton5Shine -- inherited
 MultiBarBottomRightButton5["cooldown"] = MultiBarBottomRightButton5Cooldown -- inherited
@@ -3078,12 +3078,12 @@ MultiBarBottomRightButton6Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton6Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton6Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -3098,32 +3098,32 @@ MultiBarBottomRightButton6Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton6FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton6FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton6FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton6HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton6Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -3138,7 +3138,7 @@ MultiBarBottomRightButton6NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L162)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button6
+--- @type HorizontalMultiBar2_Button6
 MultiBarBottomRightButton6 = {}
 MultiBarBottomRightButton6["AutoCastShine"] = MultiBarBottomRightButton6Shine -- inherited
 MultiBarBottomRightButton6["cooldown"] = MultiBarBottomRightButton6Cooldown -- inherited
@@ -3240,12 +3240,12 @@ MultiBarBottomRightButton7Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton7Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton7Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -3260,32 +3260,32 @@ MultiBarBottomRightButton7Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton7FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton7FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton7FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton7HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton7Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton7Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -3300,7 +3300,7 @@ MultiBarBottomRightButton7NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L167)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button7
+--- @type HorizontalMultiBar2_Button7
 MultiBarBottomRightButton7 = {}
 MultiBarBottomRightButton7["AutoCastShine"] = MultiBarBottomRightButton7Shine -- inherited
 MultiBarBottomRightButton7["cooldown"] = MultiBarBottomRightButton7Cooldown -- inherited
@@ -3402,12 +3402,12 @@ MultiBarBottomRightButton8Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton8Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton8Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -3422,32 +3422,32 @@ MultiBarBottomRightButton8Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton8FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton8FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton8FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton8HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton8Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -3462,7 +3462,7 @@ MultiBarBottomRightButton8NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L172)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button8
+--- @type HorizontalMultiBar2_Button8
 MultiBarBottomRightButton8 = {}
 MultiBarBottomRightButton8["AutoCastShine"] = MultiBarBottomRightButton8Shine -- inherited
 MultiBarBottomRightButton8["cooldown"] = MultiBarBottomRightButton8Cooldown -- inherited
@@ -3564,12 +3564,12 @@ MultiBarBottomRightButton9Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton9Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton9Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -3584,32 +3584,32 @@ MultiBarBottomRightButton9Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton9FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton9FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton9FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton9HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton9Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton9Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -3624,7 +3624,7 @@ MultiBarBottomRightButton9NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L177)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button9
+--- @type HorizontalMultiBar2_Button9
 MultiBarBottomRightButton9 = {}
 MultiBarBottomRightButton9["AutoCastShine"] = MultiBarBottomRightButton9Shine -- inherited
 MultiBarBottomRightButton9["cooldown"] = MultiBarBottomRightButton9Cooldown -- inherited
@@ -3726,12 +3726,12 @@ MultiBarBottomRightButton10Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton10Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton10Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -3746,32 +3746,32 @@ MultiBarBottomRightButton10Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton10FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton10FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton10FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton10HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton10Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton10Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -3786,7 +3786,7 @@ MultiBarBottomRightButton10NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L182)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button10
+--- @type HorizontalMultiBar2_Button10
 MultiBarBottomRightButton10 = {}
 MultiBarBottomRightButton10["AutoCastShine"] = MultiBarBottomRightButton10Shine -- inherited
 MultiBarBottomRightButton10["cooldown"] = MultiBarBottomRightButton10Cooldown -- inherited
@@ -3888,12 +3888,12 @@ MultiBarBottomRightButton11Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton11Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton11Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -3908,32 +3908,32 @@ MultiBarBottomRightButton11Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton11FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton11FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton11FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton11HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton11Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton11Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -3948,7 +3948,7 @@ MultiBarBottomRightButton11NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L187)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button11
+--- @type HorizontalMultiBar2_Button11
 MultiBarBottomRightButton11 = {}
 MultiBarBottomRightButton11["AutoCastShine"] = MultiBarBottomRightButton11Shine -- inherited
 MultiBarBottomRightButton11["cooldown"] = MultiBarBottomRightButton11Cooldown -- inherited
@@ -4050,12 +4050,12 @@ MultiBarBottomRightButton12Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarBottomRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarBottomRightButton12Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarBottomRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarBottomRightButton12Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -4070,32 +4070,32 @@ MultiBarBottomRightButton12Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarBottomRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarBottomRightButton12FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarBottomRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarBottomRightButton12FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarBottomRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarBottomRightButton12FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarBottomRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarBottomRightButton12HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarBottomRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarBottomRightButton12Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarBottomRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarBottomRightButton12Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -4110,7 +4110,7 @@ MultiBarBottomRightButton12NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L192)
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
---- @type HorizontalMultiBar2_HorizontalMultiBar2Button12
+--- @type HorizontalMultiBar2_Button12
 MultiBarBottomRightButton12 = {}
 MultiBarBottomRightButton12["AutoCastShine"] = MultiBarBottomRightButton12Shine -- inherited
 MultiBarBottomRightButton12["cooldown"] = MultiBarBottomRightButton12Cooldown -- inherited
@@ -4131,7 +4131,7 @@ MultiBarBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L360)
 --- child of MultiBarRight
---- @class VerticalMultiBarsContainer_MultiBarRight_slideOut : AnimationGroup
+--- @class MultiBarRight_slideOut : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L8)
 --- child of MultiBarRightButton1 (created in template MultiBarButtonTemplate)
@@ -4220,12 +4220,12 @@ MultiBarRightButton1Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton1Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton1Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -4240,32 +4240,32 @@ MultiBarRightButton1Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton1FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton1FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton1FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton1HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -4280,7 +4280,7 @@ MultiBarRightButton1NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L205)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button1
+--- @type VerticalMultiBar3_Button1
 MultiBarRightButton1 = {}
 MultiBarRightButton1["AutoCastShine"] = MultiBarRightButton1Shine -- inherited
 MultiBarRightButton1["cooldown"] = MultiBarRightButton1Cooldown -- inherited
@@ -4382,12 +4382,12 @@ MultiBarRightButton2Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton2Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton2Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -4402,32 +4402,32 @@ MultiBarRightButton2Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton2FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton2FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton2FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton2HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton2Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -4442,7 +4442,7 @@ MultiBarRightButton2NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button2
+--- @type VerticalMultiBar3_Button2
 MultiBarRightButton2 = {}
 MultiBarRightButton2["AutoCastShine"] = MultiBarRightButton2Shine -- inherited
 MultiBarRightButton2["cooldown"] = MultiBarRightButton2Cooldown -- inherited
@@ -4544,12 +4544,12 @@ MultiBarRightButton3Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton3Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton3Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -4564,32 +4564,32 @@ MultiBarRightButton3Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton3FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton3FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton3FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton3HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton3Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -4604,7 +4604,7 @@ MultiBarRightButton3NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L215)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button3
+--- @type VerticalMultiBar3_Button3
 MultiBarRightButton3 = {}
 MultiBarRightButton3["AutoCastShine"] = MultiBarRightButton3Shine -- inherited
 MultiBarRightButton3["cooldown"] = MultiBarRightButton3Cooldown -- inherited
@@ -4706,12 +4706,12 @@ MultiBarRightButton4Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton4Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton4Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -4726,32 +4726,32 @@ MultiBarRightButton4Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton4FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton4FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton4FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton4HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton4Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -4766,7 +4766,7 @@ MultiBarRightButton4NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L220)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button4
+--- @type VerticalMultiBar3_Button4
 MultiBarRightButton4 = {}
 MultiBarRightButton4["AutoCastShine"] = MultiBarRightButton4Shine -- inherited
 MultiBarRightButton4["cooldown"] = MultiBarRightButton4Cooldown -- inherited
@@ -4868,12 +4868,12 @@ MultiBarRightButton5Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton5Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton5Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -4888,32 +4888,32 @@ MultiBarRightButton5Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton5FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton5FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton5FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton5HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton5Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton5Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -4928,7 +4928,7 @@ MultiBarRightButton5NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L225)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button5
+--- @type VerticalMultiBar3_Button5
 MultiBarRightButton5 = {}
 MultiBarRightButton5["AutoCastShine"] = MultiBarRightButton5Shine -- inherited
 MultiBarRightButton5["cooldown"] = MultiBarRightButton5Cooldown -- inherited
@@ -5030,12 +5030,12 @@ MultiBarRightButton6Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton6Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton6Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -5050,32 +5050,32 @@ MultiBarRightButton6Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton6FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton6FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton6FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton6HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton6Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -5090,7 +5090,7 @@ MultiBarRightButton6NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L230)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button6
+--- @type VerticalMultiBar3_Button6
 MultiBarRightButton6 = {}
 MultiBarRightButton6["AutoCastShine"] = MultiBarRightButton6Shine -- inherited
 MultiBarRightButton6["cooldown"] = MultiBarRightButton6Cooldown -- inherited
@@ -5192,12 +5192,12 @@ MultiBarRightButton7Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton7Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton7Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -5212,32 +5212,32 @@ MultiBarRightButton7Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton7FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton7FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton7FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton7HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton7Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton7Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -5252,7 +5252,7 @@ MultiBarRightButton7NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L235)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button7
+--- @type VerticalMultiBar3_Button7
 MultiBarRightButton7 = {}
 MultiBarRightButton7["AutoCastShine"] = MultiBarRightButton7Shine -- inherited
 MultiBarRightButton7["cooldown"] = MultiBarRightButton7Cooldown -- inherited
@@ -5354,12 +5354,12 @@ MultiBarRightButton8Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton8Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton8Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -5374,32 +5374,32 @@ MultiBarRightButton8Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton8FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton8FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton8FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton8HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton8Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -5414,7 +5414,7 @@ MultiBarRightButton8NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L240)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button8
+--- @type VerticalMultiBar3_Button8
 MultiBarRightButton8 = {}
 MultiBarRightButton8["AutoCastShine"] = MultiBarRightButton8Shine -- inherited
 MultiBarRightButton8["cooldown"] = MultiBarRightButton8Cooldown -- inherited
@@ -5516,12 +5516,12 @@ MultiBarRightButton9Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton9Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton9Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -5536,32 +5536,32 @@ MultiBarRightButton9Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton9FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton9FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton9FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton9HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton9Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton9Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -5576,7 +5576,7 @@ MultiBarRightButton9NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L245)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button9
+--- @type VerticalMultiBar3_Button9
 MultiBarRightButton9 = {}
 MultiBarRightButton9["AutoCastShine"] = MultiBarRightButton9Shine -- inherited
 MultiBarRightButton9["cooldown"] = MultiBarRightButton9Cooldown -- inherited
@@ -5678,12 +5678,12 @@ MultiBarRightButton10Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton10Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton10Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -5698,32 +5698,32 @@ MultiBarRightButton10Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton10FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton10FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton10FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton10HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton10Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton10Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -5738,7 +5738,7 @@ MultiBarRightButton10NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L250)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button10
+--- @type VerticalMultiBar3_Button10
 MultiBarRightButton10 = {}
 MultiBarRightButton10["AutoCastShine"] = MultiBarRightButton10Shine -- inherited
 MultiBarRightButton10["cooldown"] = MultiBarRightButton10Cooldown -- inherited
@@ -5840,12 +5840,12 @@ MultiBarRightButton11Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton11Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton11Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -5860,32 +5860,32 @@ MultiBarRightButton11Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton11FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton11FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton11FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton11HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton11Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton11Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -5900,7 +5900,7 @@ MultiBarRightButton11NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L255)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button11
+--- @type VerticalMultiBar3_Button11
 MultiBarRightButton11 = {}
 MultiBarRightButton11["AutoCastShine"] = MultiBarRightButton11Shine -- inherited
 MultiBarRightButton11["cooldown"] = MultiBarRightButton11Cooldown -- inherited
@@ -6002,12 +6002,12 @@ MultiBarRightButton12Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarRightButton12Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarRightButton12Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -6022,32 +6022,32 @@ MultiBarRightButton12Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarRightButton12FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarRightButton12FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarRightButton12FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarRightButton12HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarRightButton12Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarRightButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarRightButton12Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -6062,7 +6062,7 @@ MultiBarRightButton12NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L260)
 --- child of MultiBarRight (created in template VerticalMultiBar3)
---- @type VerticalMultiBar3_VerticalMultiBar3Button12
+--- @type VerticalMultiBar3_Button12
 MultiBarRightButton12 = {}
 MultiBarRightButton12["AutoCastShine"] = MultiBarRightButton12Shine -- inherited
 MultiBarRightButton12["cooldown"] = MultiBarRightButton12Cooldown -- inherited
@@ -6079,13 +6079,13 @@ MultiBarRightButton12["NormalTexture"] = MultiBarRightButton12NormalTexture -- i
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L355)
 --- child of VerticalMultiBarsContainer
---- @class VerticalMultiBarsContainer_MultiBarRight : Frame, VerticalMultiBar3
---- @field slideOut VerticalMultiBarsContainer_MultiBarRight_slideOut
+--- @class MultiBarRight : Frame, VerticalMultiBar3
+--- @field slideOut MultiBarRight_slideOut
 MultiBarRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L377)
 --- child of MultiBarLeft
---- @class VerticalMultiBarsContainer_MultiBarLeft_slideOut : AnimationGroup
+--- @class MultiBarLeft_slideOut : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L8)
 --- child of MultiBarLeftButton1 (created in template MultiBarButtonTemplate)
@@ -6174,12 +6174,12 @@ MultiBarLeftButton1Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton1Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton1Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -6194,32 +6194,32 @@ MultiBarLeftButton1Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton1FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton1FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton1FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton1HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -6234,7 +6234,7 @@ MultiBarLeftButton1NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L273)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button1
+--- @type VerticalMultiBar4_Button1
 MultiBarLeftButton1 = {}
 MultiBarLeftButton1["AutoCastShine"] = MultiBarLeftButton1Shine -- inherited
 MultiBarLeftButton1["cooldown"] = MultiBarLeftButton1Cooldown -- inherited
@@ -6336,12 +6336,12 @@ MultiBarLeftButton2Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton2Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton2Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -6356,32 +6356,32 @@ MultiBarLeftButton2Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton2FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton2FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton2FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton2HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton2Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -6396,7 +6396,7 @@ MultiBarLeftButton2NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L278)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button2
+--- @type VerticalMultiBar4_Button2
 MultiBarLeftButton2 = {}
 MultiBarLeftButton2["AutoCastShine"] = MultiBarLeftButton2Shine -- inherited
 MultiBarLeftButton2["cooldown"] = MultiBarLeftButton2Cooldown -- inherited
@@ -6498,12 +6498,12 @@ MultiBarLeftButton3Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton3Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton3Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -6518,32 +6518,32 @@ MultiBarLeftButton3Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton3FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton3FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton3FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton3HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton3Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -6558,7 +6558,7 @@ MultiBarLeftButton3NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L283)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button3
+--- @type VerticalMultiBar4_Button3
 MultiBarLeftButton3 = {}
 MultiBarLeftButton3["AutoCastShine"] = MultiBarLeftButton3Shine -- inherited
 MultiBarLeftButton3["cooldown"] = MultiBarLeftButton3Cooldown -- inherited
@@ -6660,12 +6660,12 @@ MultiBarLeftButton4Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton4Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton4Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -6680,32 +6680,32 @@ MultiBarLeftButton4Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton4FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton4FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton4FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton4HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton4Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -6720,7 +6720,7 @@ MultiBarLeftButton4NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button4
+--- @type VerticalMultiBar4_Button4
 MultiBarLeftButton4 = {}
 MultiBarLeftButton4["AutoCastShine"] = MultiBarLeftButton4Shine -- inherited
 MultiBarLeftButton4["cooldown"] = MultiBarLeftButton4Cooldown -- inherited
@@ -6822,12 +6822,12 @@ MultiBarLeftButton5Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton5Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton5Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -6842,32 +6842,32 @@ MultiBarLeftButton5Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton5FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton5FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton5FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton5HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton5Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton5Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -6882,7 +6882,7 @@ MultiBarLeftButton5NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L293)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button5
+--- @type VerticalMultiBar4_Button5
 MultiBarLeftButton5 = {}
 MultiBarLeftButton5["AutoCastShine"] = MultiBarLeftButton5Shine -- inherited
 MultiBarLeftButton5["cooldown"] = MultiBarLeftButton5Cooldown -- inherited
@@ -6984,12 +6984,12 @@ MultiBarLeftButton6Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton6Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton6Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -7004,32 +7004,32 @@ MultiBarLeftButton6Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton6FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton6FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton6FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton6HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton6Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -7044,7 +7044,7 @@ MultiBarLeftButton6NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L298)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button6
+--- @type VerticalMultiBar4_Button6
 MultiBarLeftButton6 = {}
 MultiBarLeftButton6["AutoCastShine"] = MultiBarLeftButton6Shine -- inherited
 MultiBarLeftButton6["cooldown"] = MultiBarLeftButton6Cooldown -- inherited
@@ -7146,12 +7146,12 @@ MultiBarLeftButton7Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton7Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton7Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -7166,32 +7166,32 @@ MultiBarLeftButton7Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton7FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton7FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton7FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton7HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton7Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton7Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -7206,7 +7206,7 @@ MultiBarLeftButton7NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L303)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button7
+--- @type VerticalMultiBar4_Button7
 MultiBarLeftButton7 = {}
 MultiBarLeftButton7["AutoCastShine"] = MultiBarLeftButton7Shine -- inherited
 MultiBarLeftButton7["cooldown"] = MultiBarLeftButton7Cooldown -- inherited
@@ -7308,12 +7308,12 @@ MultiBarLeftButton8Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton8Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton8Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -7328,32 +7328,32 @@ MultiBarLeftButton8Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton8FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton8FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton8FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton8HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton8Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -7368,7 +7368,7 @@ MultiBarLeftButton8NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L308)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button8
+--- @type VerticalMultiBar4_Button8
 MultiBarLeftButton8 = {}
 MultiBarLeftButton8["AutoCastShine"] = MultiBarLeftButton8Shine -- inherited
 MultiBarLeftButton8["cooldown"] = MultiBarLeftButton8Cooldown -- inherited
@@ -7470,12 +7470,12 @@ MultiBarLeftButton9Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton9Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton9Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -7490,32 +7490,32 @@ MultiBarLeftButton9Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton9FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton9FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton9FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton9HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton9Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton9Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -7530,7 +7530,7 @@ MultiBarLeftButton9NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L313)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button9
+--- @type VerticalMultiBar4_Button9
 MultiBarLeftButton9 = {}
 MultiBarLeftButton9["AutoCastShine"] = MultiBarLeftButton9Shine -- inherited
 MultiBarLeftButton9["cooldown"] = MultiBarLeftButton9Cooldown -- inherited
@@ -7632,12 +7632,12 @@ MultiBarLeftButton10Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton10Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton10Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -7652,32 +7652,32 @@ MultiBarLeftButton10Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton10FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton10FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton10FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton10HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton10Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton10Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -7692,7 +7692,7 @@ MultiBarLeftButton10NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L318)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button10
+--- @type VerticalMultiBar4_Button10
 MultiBarLeftButton10 = {}
 MultiBarLeftButton10["AutoCastShine"] = MultiBarLeftButton10Shine -- inherited
 MultiBarLeftButton10["cooldown"] = MultiBarLeftButton10Cooldown -- inherited
@@ -7794,12 +7794,12 @@ MultiBarLeftButton11Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton11Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton11Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -7814,32 +7814,32 @@ MultiBarLeftButton11Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton11FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton11FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton11FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton11HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton11Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton11Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -7854,7 +7854,7 @@ MultiBarLeftButton11NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L323)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button11
+--- @type VerticalMultiBar4_Button11
 MultiBarLeftButton11 = {}
 MultiBarLeftButton11["AutoCastShine"] = MultiBarLeftButton11Shine -- inherited
 MultiBarLeftButton11["cooldown"] = MultiBarLeftButton11Cooldown -- inherited
@@ -7956,12 +7956,12 @@ MultiBarLeftButton12Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
 --- child of MultiBarLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 MultiBarLeftButton12Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L100)
 --- child of MultiBarLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 MultiBarLeftButton12Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L23)
@@ -7976,32 +7976,32 @@ MultiBarLeftButton12Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L27)
 --- child of MultiBarLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 MultiBarLeftButton12FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L32)
 --- child of MultiBarLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 MultiBarLeftButton12FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L39)
 --- child of MultiBarLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 MultiBarLeftButton12FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L40)
 --- child of MultiBarLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 MultiBarLeftButton12HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L46)
 --- child of MultiBarLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 MultiBarLeftButton12Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L53)
 --- child of MultiBarLeftButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 MultiBarLeftButton12Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L59)
@@ -8016,7 +8016,7 @@ MultiBarLeftButton12NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L328)
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
---- @type VerticalMultiBar4_VerticalMultiBar4Button12
+--- @type VerticalMultiBar4_Button12
 MultiBarLeftButton12 = {}
 MultiBarLeftButton12["AutoCastShine"] = MultiBarLeftButton12Shine -- inherited
 MultiBarLeftButton12["cooldown"] = MultiBarLeftButton12Cooldown -- inherited
@@ -8033,8 +8033,8 @@ MultiBarLeftButton12["NormalTexture"] = MultiBarLeftButton12NormalTexture -- inh
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L372)
 --- child of VerticalMultiBarsContainer
---- @class VerticalMultiBarsContainer_MultiBarLeft : Frame, VerticalMultiBar4
---- @field slideOut VerticalMultiBarsContainer_MultiBarLeft_slideOut
+--- @class MultiBarLeft : Frame, VerticalMultiBar4
+--- @field slideOut MultiBarLeft_slideOut
 MultiBarLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L349)

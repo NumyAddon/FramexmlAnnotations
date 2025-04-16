@@ -2,133 +2,137 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L8)
 --- child of CompactUnitFrameProfilesDropdownTemplate
---- @class CompactUnitFrameProfilesDropdownTemplate_CompactUnitFrameProfilesDropdownTemplateLabel : FontString, GameFontNormalSmall
+--- @class CompactUnitFrameProfilesDropdownTemplate_Label : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L5)
 --- Template
 --- @class CompactUnitFrameProfilesDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate
---- @field label CompactUnitFrameProfilesDropdownTemplate_CompactUnitFrameProfilesDropdownTemplateLabel
+--- @field label CompactUnitFrameProfilesDropdownTemplate_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesCheckButtonTemplate
---- @class CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel : FontString, GameFontHighlightLeft
+--- @class CompactUnitFrameProfilesCheckButtonTemplate_Label : FontString, GameFontHighlightLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L23)
 --- Template
 --- @class CompactUnitFrameProfilesCheckButtonTemplate : CheckButton
---- @field label CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @field label CompactUnitFrameProfilesCheckButtonTemplate_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L81)
 --- child of CompactUnitFrameProfilesSliderTemplate
---- @class CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLabel : FontString, GameFontHighlight
+--- @class CompactUnitFrameProfilesSliderTemplate_Label : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L86)
 --- child of CompactUnitFrameProfilesSliderTemplate
---- @class CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLow : FontString, GameFontHighlightSmall
+--- @class CompactUnitFrameProfilesSliderTemplate_Low : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L95)
 --- child of CompactUnitFrameProfilesSliderTemplate
---- @class CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh : FontString, GameFontHighlightSmall
+--- @class CompactUnitFrameProfilesSliderTemplate_High : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L77)
 --- Template
 --- @class CompactUnitFrameProfilesSliderTemplate : Slider, HorizontalSliderTemplate
---- @field label CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLabel
---- @field minLabel CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLow
---- @field maxLabel CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
+--- @field label CompactUnitFrameProfilesSliderTemplate_Label
+--- @field minLabel CompactUnitFrameProfilesSliderTemplate_Low
+--- @field maxLabel CompactUnitFrameProfilesSliderTemplate_High
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L124)
 --- child of CompactUnitFrameProfileDialogWithCoverTemplate
---- @class CompactUnitFrameProfileDialogWithCoverTemplate_CompactUnitFrameProfileDialogWithCoverTemplateCover : Frame
+--- @class CompactUnitFrameProfileDialogWithCoverTemplate_Cover : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L116)
 --- Template
 --- @class CompactUnitFrameProfileDialogWithCoverTemplate : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DARK_DIALOG_32_32
---- @field cover CompactUnitFrameProfileDialogWithCoverTemplate_CompactUnitFrameProfileDialogWithCoverTemplateCover
+--- @field cover CompactUnitFrameProfileDialogWithCoverTemplate_Cover
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L176)
 --- child of CompactUnitFrameProfiles
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesProfileSelector : DropdownButton, WowStyle1DropdownTemplate
+--- @class CompactUnitFrameProfilesProfileSelector : DropdownButton, WowStyle1DropdownTemplate
 CompactUnitFrameProfilesProfileSelector = {}
 CompactUnitFrameProfilesProfileSelector["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L185)
 --- child of CompactUnitFrameProfiles
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesSaveButton : Button, UIPanelButtonTemplate
+--- @class CompactUnitFrameProfilesSaveButton : Button, UIPanelButtonTemplate
 CompactUnitFrameProfilesSaveButton = {}
 CompactUnitFrameProfilesSaveButton["fitTextCanWidthDecrease"] = true -- inherited
+CompactUnitFrameProfilesSaveButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L197)
 --- child of CompactUnitFrameProfiles
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesDeleteButton : Button, UIPanelButtonTemplate
+--- @class CompactUnitFrameProfilesDeleteButton : Button, UIPanelButtonTemplate
 CompactUnitFrameProfilesDeleteButton = {}
 CompactUnitFrameProfilesDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
+CompactUnitFrameProfilesDeleteButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L476)
 --- child of CompactUnitFrameProfilesRaidStylePartyFrames (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
+--- @type UICheckButtonTemplate_Text
 CompactUnitFrameProfilesRaidStylePartyFramesText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L209)
 --- child of CompactUnitFrameProfiles
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesRaidStylePartyFrames : CheckButton, OptionsBaseCheckButtonTemplate
+--- @class CompactUnitFrameProfilesRaidStylePartyFrames : CheckButton, OptionsBaseCheckButtonTemplate
 CompactUnitFrameProfilesRaidStylePartyFrames = {}
 CompactUnitFrameProfilesRaidStylePartyFrames["Text"] = CompactUnitFrameProfilesRaidStylePartyFramesText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L260)
 --- child of CompactUnitFrameProfilesNewProfileDialogEditBox
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogEditBox_CompactUnitFrameProfilesNewProfileDialogEditBoxLeft : Texture
+--- @class CompactUnitFrameProfilesNewProfileDialogEditBoxLeft : Texture
 CompactUnitFrameProfilesNewProfileDialogEditBoxLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L268)
 --- child of CompactUnitFrameProfilesNewProfileDialogEditBox
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogEditBox_CompactUnitFrameProfilesNewProfileDialogEditBoxRight : Texture
+--- @class CompactUnitFrameProfilesNewProfileDialogEditBoxRight : Texture
 CompactUnitFrameProfilesNewProfileDialogEditBoxRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L276)
 --- child of CompactUnitFrameProfilesNewProfileDialogEditBox
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogEditBox_CompactUnitFrameProfilesNewProfileDialogEditBoxMid : Texture
+--- @class CompactUnitFrameProfilesNewProfileDialogEditBoxMid : Texture
 CompactUnitFrameProfilesNewProfileDialogEditBoxMid = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L251)
 --- child of CompactUnitFrameProfilesNewProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogEditBox : EditBox
+--- @class CompactUnitFrameProfilesNewProfileDialogEditBox : EditBox
 CompactUnitFrameProfilesNewProfileDialogEditBox = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L308)
 --- child of CompactUnitFrameProfilesNewProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogBaseProfileSelector : DropdownButton, WowStyle1DropdownTemplate
+--- @class CompactUnitFrameProfilesNewProfileDialogBaseProfileSelector : DropdownButton, WowStyle1DropdownTemplate
 CompactUnitFrameProfilesNewProfileDialogBaseProfileSelector = {}
 CompactUnitFrameProfilesNewProfileDialogBaseProfileSelector["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L326)
 --- child of CompactUnitFrameProfilesNewProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogCreateButton : Button, UIPanelButtonTemplate
+--- @class CompactUnitFrameProfilesNewProfileDialogCreateButton : Button, UIPanelButtonTemplate
 CompactUnitFrameProfilesNewProfileDialogCreateButton = {}
 CompactUnitFrameProfilesNewProfileDialogCreateButton["fitTextCanWidthDecrease"] = true -- inherited
+CompactUnitFrameProfilesNewProfileDialogCreateButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L340)
 --- child of CompactUnitFrameProfilesNewProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogCancelButton : Button, UIPanelButtonTemplate
+--- @class CompactUnitFrameProfilesNewProfileDialogCancelButton : Button, UIPanelButtonTemplate
 CompactUnitFrameProfilesNewProfileDialogCancelButton = {}
 CompactUnitFrameProfilesNewProfileDialogCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+CompactUnitFrameProfilesNewProfileDialogCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L243)
 --- child of CompactUnitFrameProfilesNewProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogLabel : FontString, GameFontNormalLarge
+--- @class CompactUnitFrameProfilesNewProfileDialogLabel : FontString, GameFontNormalLarge
 CompactUnitFrameProfilesNewProfileDialogLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L124)
 --- child of CompactUnitFrameProfilesNewProfileDialog (created in template CompactUnitFrameProfileDialogWithCoverTemplate)
---- @type CompactUnitFrameProfileDialogWithCoverTemplate_CompactUnitFrameProfileDialogWithCoverTemplateCover
+--- @type CompactUnitFrameProfileDialogWithCoverTemplate_Cover
 CompactUnitFrameProfilesNewProfileDialogCover = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L239)
 --- child of CompactUnitFrameProfiles
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog : Frame, CompactUnitFrameProfileDialogWithCoverTemplate
---- @field editBox CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogEditBox
---- @field createButton CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog_CompactUnitFrameProfilesNewProfileDialogCreateButton
+--- @class CompactUnitFrameProfilesNewProfileDialog : Frame, CompactUnitFrameProfileDialogWithCoverTemplate
+--- @field editBox CompactUnitFrameProfilesNewProfileDialogEditBox
+--- @field createButton CompactUnitFrameProfilesNewProfileDialogCreateButton
 CompactUnitFrameProfilesNewProfileDialog = {}
 CompactUnitFrameProfilesNewProfileDialog["editBox"] = CompactUnitFrameProfilesNewProfileDialogEditBox
 CompactUnitFrameProfilesNewProfileDialog["createButton"] = CompactUnitFrameProfilesNewProfileDialogCreateButton
@@ -137,30 +141,32 @@ CompactUnitFrameProfilesNewProfileDialog["cover"] = CompactUnitFrameProfilesNewP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L367)
 --- child of CompactUnitFrameProfilesDeleteProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesDeleteProfileDialog_CompactUnitFrameProfilesDeleteProfileDialogDeleteButton : Button, UIPanelButtonTemplate
+--- @class CompactUnitFrameProfilesDeleteProfileDialogDeleteButton : Button, UIPanelButtonTemplate
 CompactUnitFrameProfilesDeleteProfileDialogDeleteButton = {}
 CompactUnitFrameProfilesDeleteProfileDialogDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
+CompactUnitFrameProfilesDeleteProfileDialogDeleteButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L386)
 --- child of CompactUnitFrameProfilesDeleteProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesDeleteProfileDialog_CompactUnitFrameProfilesDeleteProfileDialogCancelButton : Button, UIPanelButtonTemplate
+--- @class CompactUnitFrameProfilesDeleteProfileDialogCancelButton : Button, UIPanelButtonTemplate
 CompactUnitFrameProfilesDeleteProfileDialogCancelButton = {}
 CompactUnitFrameProfilesDeleteProfileDialogCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+CompactUnitFrameProfilesDeleteProfileDialogCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L358)
 --- child of CompactUnitFrameProfilesDeleteProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesDeleteProfileDialog_CompactUnitFrameProfilesDeleteProfileDialogLabel : FontString, GameFontNormal
+--- @class CompactUnitFrameProfilesDeleteProfileDialogLabel : FontString, GameFontNormal
 CompactUnitFrameProfilesDeleteProfileDialogLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L124)
 --- child of CompactUnitFrameProfilesDeleteProfileDialog (created in template CompactUnitFrameProfileDialogWithCoverTemplate)
---- @type CompactUnitFrameProfileDialogWithCoverTemplate_CompactUnitFrameProfileDialogWithCoverTemplateCover
+--- @type CompactUnitFrameProfileDialogWithCoverTemplate_Cover
 CompactUnitFrameProfilesDeleteProfileDialogCover = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L354)
 --- child of CompactUnitFrameProfiles
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesDeleteProfileDialog : Frame, CompactUnitFrameProfileDialogWithCoverTemplate
---- @field label CompactUnitFrameProfiles_CompactUnitFrameProfilesDeleteProfileDialog_CompactUnitFrameProfilesDeleteProfileDialogLabel
+--- @class CompactUnitFrameProfilesDeleteProfileDialog : Frame, CompactUnitFrameProfileDialogWithCoverTemplate
+--- @field label CompactUnitFrameProfilesDeleteProfileDialogLabel
 CompactUnitFrameProfilesDeleteProfileDialog = {}
 CompactUnitFrameProfilesDeleteProfileDialog["label"] = CompactUnitFrameProfilesDeleteProfileDialogLabel
 CompactUnitFrameProfilesDeleteProfileDialog["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32 -- inherited
@@ -168,36 +174,39 @@ CompactUnitFrameProfilesDeleteProfileDialog["cover"] = CompactUnitFrameProfilesD
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L413)
 --- child of CompactUnitFrameProfilesConfirmUnsavedProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesConfirmUnsavedProfileDialog_CompactUnitFrameProfilesConfirmUnsavedProfileDialogDontSaveButton : Button, UIPanelButtonTemplate
+--- @class CompactUnitFrameProfilesConfirmUnsavedProfileDialogDontSaveButton : Button, UIPanelButtonTemplate
 CompactUnitFrameProfilesConfirmUnsavedProfileDialogDontSaveButton = {}
 CompactUnitFrameProfilesConfirmUnsavedProfileDialogDontSaveButton["fitTextCanWidthDecrease"] = true -- inherited
+CompactUnitFrameProfilesConfirmUnsavedProfileDialogDontSaveButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L427)
 --- child of CompactUnitFrameProfilesConfirmUnsavedProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesConfirmUnsavedProfileDialog_CompactUnitFrameProfilesConfirmUnsavedProfileDialogSaveButton : Button, UIPanelButtonTemplate
+--- @class CompactUnitFrameProfilesConfirmUnsavedProfileDialogSaveButton : Button, UIPanelButtonTemplate
 CompactUnitFrameProfilesConfirmUnsavedProfileDialogSaveButton = {}
 CompactUnitFrameProfilesConfirmUnsavedProfileDialogSaveButton["fitTextCanWidthDecrease"] = true -- inherited
+CompactUnitFrameProfilesConfirmUnsavedProfileDialogSaveButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L441)
 --- child of CompactUnitFrameProfilesConfirmUnsavedProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesConfirmUnsavedProfileDialog_CompactUnitFrameProfilesConfirmUnsavedProfileDialogCancelButton : Button, UIPanelButtonTemplate
+--- @class CompactUnitFrameProfilesConfirmUnsavedProfileDialogCancelButton : Button, UIPanelButtonTemplate
 CompactUnitFrameProfilesConfirmUnsavedProfileDialogCancelButton = {}
 CompactUnitFrameProfilesConfirmUnsavedProfileDialogCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+CompactUnitFrameProfilesConfirmUnsavedProfileDialogCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L404)
 --- child of CompactUnitFrameProfilesConfirmUnsavedProfileDialog
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesConfirmUnsavedProfileDialog_CompactUnitFrameProfilesConfirmUnsavedProfileDialogLabel : FontString, GameFontNormal
+--- @class CompactUnitFrameProfilesConfirmUnsavedProfileDialogLabel : FontString, GameFontNormal
 CompactUnitFrameProfilesConfirmUnsavedProfileDialogLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L124)
 --- child of CompactUnitFrameProfilesConfirmUnsavedProfileDialog (created in template CompactUnitFrameProfileDialogWithCoverTemplate)
---- @type CompactUnitFrameProfileDialogWithCoverTemplate_CompactUnitFrameProfileDialogWithCoverTemplateCover
+--- @type CompactUnitFrameProfileDialogWithCoverTemplate_Cover
 CompactUnitFrameProfilesConfirmUnsavedProfileDialogCover = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L400)
 --- child of CompactUnitFrameProfiles
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesConfirmUnsavedProfileDialog : Frame, CompactUnitFrameProfileDialogWithCoverTemplate
---- @field label CompactUnitFrameProfiles_CompactUnitFrameProfilesConfirmUnsavedProfileDialog_CompactUnitFrameProfilesConfirmUnsavedProfileDialogLabel
+--- @class CompactUnitFrameProfilesConfirmUnsavedProfileDialog : Frame, CompactUnitFrameProfileDialogWithCoverTemplate
+--- @field label CompactUnitFrameProfilesConfirmUnsavedProfileDialogLabel
 CompactUnitFrameProfilesConfirmUnsavedProfileDialog = {}
 CompactUnitFrameProfilesConfirmUnsavedProfileDialog["label"] = CompactUnitFrameProfilesConfirmUnsavedProfileDialogLabel
 CompactUnitFrameProfilesConfirmUnsavedProfileDialog["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32 -- inherited
@@ -205,34 +214,34 @@ CompactUnitFrameProfilesConfirmUnsavedProfileDialog["cover"] = CompactUnitFrameP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameKeepGroupsTogether (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameKeepGroupsTogetherLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L482)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameKeepGroupsTogether : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameKeepGroupsTogether : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameKeepGroupsTogether = {}
 CompactUnitFrameProfilesGeneralOptionsFrameKeepGroupsTogether["label"] = CompactUnitFrameProfilesGeneralOptionsFrameKeepGroupsTogetherLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameHorizontalGroups (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameHorizontalGroupsLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L504)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameHorizontalGroups : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameHorizontalGroups : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameHorizontalGroups = {}
 CompactUnitFrameProfilesGeneralOptionsFrameHorizontalGroups["label"] = CompactUnitFrameProfilesGeneralOptionsFrameHorizontalGroupsLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L8)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown (created in template CompactUnitFrameProfilesDropdownTemplate)
---- @type CompactUnitFrameProfilesDropdownTemplate_CompactUnitFrameProfilesDropdownTemplateLabel
+--- @type CompactUnitFrameProfilesDropdownTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdownLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L514)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown : DropdownButton, CompactUnitFrameProfilesDropdownTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown : DropdownButton, CompactUnitFrameProfilesDropdownTemplate
 --- @field width number # 110
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown = {}
 CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["width"] = 110
@@ -241,106 +250,106 @@ CompactUnitFrameProfilesGeneralOptionsFrameSortByDropdown["menuMixin"] = MenuSty
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameDisplayPowerBar (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayPowerBarLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L527)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameDisplayPowerBar : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameDisplayPowerBar : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayPowerBar = {}
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayPowerBar["label"] = CompactUnitFrameProfilesGeneralOptionsFrameDisplayPowerBarLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameUseClassColors (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameUseClassColorsLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L537)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameUseClassColors : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameUseClassColors : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameUseClassColors = {}
 CompactUnitFrameProfilesGeneralOptionsFrameUseClassColors["label"] = CompactUnitFrameProfilesGeneralOptionsFrameUseClassColorsLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameDisplayPets (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayPetsLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L547)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameDisplayPets : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameDisplayPets : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayPets = {}
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayPets["label"] = CompactUnitFrameProfilesGeneralOptionsFrameDisplayPetsLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameDisplayMainTankAndAssist (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayMainTankAndAssistLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L557)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameDisplayMainTankAndAssist : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameDisplayMainTankAndAssist : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayMainTankAndAssist = {}
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayMainTankAndAssist["label"] = CompactUnitFrameProfilesGeneralOptionsFrameDisplayMainTankAndAssistLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameDisplayBorder (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayBorderLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L567)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameDisplayBorder : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameDisplayBorder : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayBorder = {}
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayBorder["label"] = CompactUnitFrameProfilesGeneralOptionsFrameDisplayBorderLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameShowDebuffs (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameShowDebuffsLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L577)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameShowDebuffs : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameShowDebuffs : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameShowDebuffs = {}
 CompactUnitFrameProfilesGeneralOptionsFrameShowDebuffs["label"] = CompactUnitFrameProfilesGeneralOptionsFrameShowDebuffsLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameDisplayOnlyDispellableDebuffs (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayOnlyDispellableDebuffsLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L596)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameDisplayOnlyDispellableDebuffs : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameDisplayOnlyDispellableDebuffs : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayOnlyDispellableDebuffs = {}
 CompactUnitFrameProfilesGeneralOptionsFrameDisplayOnlyDispellableDebuffs["label"] = CompactUnitFrameProfilesGeneralOptionsFrameDisplayOnlyDispellableDebuffsLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L8)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown (created in template CompactUnitFrameProfilesDropdownTemplate)
---- @type CompactUnitFrameProfilesDropdownTemplate_CompactUnitFrameProfilesDropdownTemplateLabel
+--- @type CompactUnitFrameProfilesDropdownTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L606)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown : DropdownButton, CompactUnitFrameProfilesDropdownTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown : DropdownButton, CompactUnitFrameProfilesDropdownTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown = {}
 CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown["label"] = CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdownLabel -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameHealthTextDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L81)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider (created in template CompactUnitFrameProfilesSliderTemplate)
---- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLabel
+--- @type CompactUnitFrameProfilesSliderTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L86)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider (created in template CompactUnitFrameProfilesSliderTemplate)
---- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLow
+--- @type CompactUnitFrameProfilesSliderTemplate_Low
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderLow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L95)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider (created in template CompactUnitFrameProfilesSliderTemplate)
---- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
+--- @type CompactUnitFrameProfilesSliderTemplate_High
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderHigh = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1083)
@@ -350,7 +359,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderThumb = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L616)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider : Slider, CompactUnitFrameProfilesSliderTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider : Slider, CompactUnitFrameProfilesSliderTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider = {}
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider["label"] = CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderLabel -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider["minLabel"] = CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderLow -- inherited
@@ -360,17 +369,17 @@ CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider["Thumb"] = CompactUnitFr
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L81)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider (created in template CompactUnitFrameProfilesSliderTemplate)
---- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLabel
+--- @type CompactUnitFrameProfilesSliderTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L86)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider (created in template CompactUnitFrameProfilesSliderTemplate)
---- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateLow
+--- @type CompactUnitFrameProfilesSliderTemplate_Low
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderLow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L95)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider (created in template CompactUnitFrameProfilesSliderTemplate)
---- @type CompactUnitFrameProfilesSliderTemplate_CompactUnitFrameProfilesSliderTemplateHigh
+--- @type CompactUnitFrameProfilesSliderTemplate_High
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderHigh = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1083)
@@ -380,7 +389,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderThumb = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L626)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider : Slider, CompactUnitFrameProfilesSliderTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider : Slider, CompactUnitFrameProfilesSliderTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider = {}
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider["label"] = CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderLabel -- inherited
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider["minLabel"] = CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderLow -- inherited
@@ -390,135 +399,136 @@ CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider["Thumb"] = CompactUnitFra
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2Players (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2PlayersLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L637)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2Players = {}
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2Players["label"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2PlayersLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate3Players (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate3PlayersLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L648)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate3Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate3Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate3Players = {}
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate3Players["label"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate3PlayersLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate5Players (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate5PlayersLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L659)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate5Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate5Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate5Players = {}
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate5Players["label"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate5PlayersLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate10Players (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate10PlayersLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L670)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate10Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate10Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate10Players = {}
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate10Players["label"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate10PlayersLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate15Players (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate15PlayersLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L680)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate15Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate15Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate15Players = {}
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate15Players["label"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate15PlayersLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate20Players (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate20PlayersLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L690)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate20Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate20Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate20Players = {}
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate20Players["label"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate20PlayersLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate40Players (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate40PlayersLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L700)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate40Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate40Players : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate40Players = {}
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate40Players["label"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate40PlayersLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvP (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvPLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L711)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvP : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvP : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvP = {}
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvP["label"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvPLabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L32)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvE (created in template CompactUnitFrameProfilesCheckButtonTemplate)
---- @type CompactUnitFrameProfilesCheckButtonTemplate_CompactUnitFrameProfilesCheckButtonTemplateLabel
+--- @type CompactUnitFrameProfilesCheckButtonTemplate_Label
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvELabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L721)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvE : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvE : CheckButton, CompactUnitFrameProfilesCheckButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvE = {}
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvE["label"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvELabel -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L732)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameResetPositionButton : Button, UIPanelButtonTemplate
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameResetPositionButton : Button, UIPanelButtonTemplate
 CompactUnitFrameProfilesGeneralOptionsFrameResetPositionButton = {}
 CompactUnitFrameProfilesGeneralOptionsFrameResetPositionButton["fitTextCanWidthDecrease"] = true -- inherited
+CompactUnitFrameProfilesGeneralOptionsFrameResetPositionButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L458)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateBG : Texture
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateBG : Texture
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateBG = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L468)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateLabel : FontString, GameFontNormal
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateLabel : FontString, GameFontNormal
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L473)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrame
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateDisabledLabel : FontString, GameFontNormalLeftRed
+--- @class CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateDisabledLabel : FontString, GameFontNormalLeftRed
 CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateDisabledLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L455)
 --- child of CompactUnitFrameProfiles
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame : Frame
---- @field autoActivate2Players CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2Players
---- @field autoActivate3Players CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate3Players
---- @field autoActivate5Players CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate5Players
---- @field AutoActivatePvP CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvP
---- @field AutoActivatePvE CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvE
---- @field autoActivateBG CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateBG
---- @field autoActivateLabel CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateLabel
---- @field autoActivateDisabledLabel CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame_CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateDisabledLabel
+--- @class CompactUnitFrameProfilesGeneralOptionsFrame : Frame
+--- @field autoActivate2Players CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2Players
+--- @field autoActivate3Players CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate3Players
+--- @field autoActivate5Players CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate5Players
+--- @field AutoActivatePvP CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvP
+--- @field AutoActivatePvE CompactUnitFrameProfilesGeneralOptionsFrameAutoActivatePvE
+--- @field autoActivateBG CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateBG
+--- @field autoActivateLabel CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateLabel
+--- @field autoActivateDisabledLabel CompactUnitFrameProfilesGeneralOptionsFrameAutoActivateDisabledLabel
 CompactUnitFrameProfilesGeneralOptionsFrame = {}
 CompactUnitFrameProfilesGeneralOptionsFrame["autoActivate2Players"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate2Players
 CompactUnitFrameProfilesGeneralOptionsFrame["autoActivate3Players"] = CompactUnitFrameProfilesGeneralOptionsFrameAutoActivate3Players
@@ -531,20 +541,20 @@ CompactUnitFrameProfilesGeneralOptionsFrame["autoActivateDisabledLabel"] = Compa
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L157)
 --- child of CompactUnitFrameProfiles
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesTitle : FontString, GameFontNormalLarge
+--- @class CompactUnitFrameProfilesTitle : FontString, GameFontNormalLarge
 CompactUnitFrameProfilesTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L166)
 --- child of CompactUnitFrameProfiles
---- @class CompactUnitFrameProfiles_CompactUnitFrameProfilesSeparator : Texture
+--- @class CompactUnitFrameProfilesSeparator : Texture
 CompactUnitFrameProfilesSeparator = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L154)
 --- @class CompactUnitFrameProfiles : Frame
---- @field newProfileDialog CompactUnitFrameProfiles_CompactUnitFrameProfilesNewProfileDialog
---- @field deleteProfileDialog CompactUnitFrameProfiles_CompactUnitFrameProfilesDeleteProfileDialog
---- @field unsavedProfileDialog CompactUnitFrameProfiles_CompactUnitFrameProfilesConfirmUnsavedProfileDialog
---- @field optionsFrame CompactUnitFrameProfiles_CompactUnitFrameProfilesGeneralOptionsFrame
+--- @field newProfileDialog CompactUnitFrameProfilesNewProfileDialog
+--- @field deleteProfileDialog CompactUnitFrameProfilesDeleteProfileDialog
+--- @field unsavedProfileDialog CompactUnitFrameProfilesConfirmUnsavedProfileDialog
+--- @field optionsFrame CompactUnitFrameProfilesGeneralOptionsFrame
 CompactUnitFrameProfiles = {}
 CompactUnitFrameProfiles["newProfileDialog"] = CompactUnitFrameProfilesNewProfileDialog
 CompactUnitFrameProfiles["deleteProfileDialog"] = CompactUnitFrameProfilesDeleteProfileDialog

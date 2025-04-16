@@ -2,15 +2,15 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillStatusBarTemplate
---- @class SkillStatusBarTemplate_SkillStatusBarTemplateBorder : Button
+--- @class SkillStatusBarTemplate_Border : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillStatusBarTemplate
---- @class SkillStatusBarTemplate_SkillStatusBarTemplateSkillName : FontString, GameFontNormalSmall
+--- @class SkillStatusBarTemplate_SkillName : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillStatusBarTemplate
---- @class SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank : FontString, GameFontHighlightSmall
+--- @class SkillStatusBarTemplate_SkillRank : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L3)
 --- Template
@@ -27,34 +27,35 @@ SkillFrameCollapseAllButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L264)
 --- child of SkillFrameExpandButtonFrame
---- @class SkillFrame_SkillFrameExpandButtonFrame_SkillFrameCollapseAllButton : Button, SkillLabelTemplate
+--- @class SkillFrameCollapseAllButton : Button, SkillLabelTemplate
 SkillFrameCollapseAllButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L227)
 --- child of SkillFrameExpandButtonFrame
---- @class SkillFrame_SkillFrameExpandButtonFrame_SkillFrameExpandTabLeft : Texture
+--- @class SkillFrameExpandTabLeft : Texture
 SkillFrameExpandTabLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L239)
 --- child of SkillFrameExpandButtonFrame
---- @class SkillFrame_SkillFrameExpandButtonFrame_SkillFrameExpandTabRight : Texture
+--- @class SkillFrameExpandTabRight : Texture
 SkillFrameExpandTabRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L251)
 --- child of SkillFrameExpandButtonFrame
---- @class SkillFrame_SkillFrameExpandButtonFrame_SkillFrameExpandTabMiddle : Texture
+--- @class SkillFrameExpandTabMiddle : Texture
 SkillFrameExpandTabMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L214)
 --- child of SkillFrame
---- @class SkillFrame_SkillFrameExpandButtonFrame : Frame
+--- @class SkillFrameExpandButtonFrame : Frame
 SkillFrameExpandButtonFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L289)
 --- child of SkillFrame
---- @class SkillFrame_SkillFrameCancelButton : Button, UIPanelButtonTemplate
+--- @class SkillFrameCancelButton : Button, UIPanelButtonTemplate
 SkillFrameCancelButton = {}
 SkillFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+SkillFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
 --- child of SkillTypeLabel1 (created in template SkillLabelTemplate)
@@ -63,7 +64,7 @@ SkillTypeLabel1NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L307)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel1 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel1 : Button, SkillLabelTemplate
 SkillTypeLabel1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -73,7 +74,7 @@ SkillTypeLabel2NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L316)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel2 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel2 : Button, SkillLabelTemplate
 SkillTypeLabel2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -83,7 +84,7 @@ SkillTypeLabel3NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L325)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel3 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel3 : Button, SkillLabelTemplate
 SkillTypeLabel3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -93,7 +94,7 @@ SkillTypeLabel4NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L334)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel4 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel4 : Button, SkillLabelTemplate
 SkillTypeLabel4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -103,7 +104,7 @@ SkillTypeLabel5NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L343)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel5 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel5 : Button, SkillLabelTemplate
 SkillTypeLabel5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -113,7 +114,7 @@ SkillTypeLabel6NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L352)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel6 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel6 : Button, SkillLabelTemplate
 SkillTypeLabel6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -123,7 +124,7 @@ SkillTypeLabel7NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L361)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel7 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel7 : Button, SkillLabelTemplate
 SkillTypeLabel7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -133,7 +134,7 @@ SkillTypeLabel8NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L370)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel8 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel8 : Button, SkillLabelTemplate
 SkillTypeLabel8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -143,7 +144,7 @@ SkillTypeLabel9NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L379)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel9 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel9 : Button, SkillLabelTemplate
 SkillTypeLabel9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -153,7 +154,7 @@ SkillTypeLabel10NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L388)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel10 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel10 : Button, SkillLabelTemplate
 SkillTypeLabel10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -163,7 +164,7 @@ SkillTypeLabel11NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L397)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel11 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel11 : Button, SkillLabelTemplate
 SkillTypeLabel11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
@@ -173,7 +174,7 @@ SkillTypeLabel12NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L406)
 --- child of SkillFrame
---- @class SkillFrame_SkillTypeLabel12 : Button, SkillLabelTemplate
+--- @class SkillTypeLabel12 : Button, SkillLabelTemplate
 SkillTypeLabel12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L163)
@@ -183,22 +184,22 @@ SkillListScrollFrameScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L10)
 --- child of SkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+--- @type UIPanelScrollBarTemplate_ScrollUpButton
 SkillListScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+--- @type UIPanelScrollBarTemplate_ScrollDownButton
 SkillListScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L30)
 --- child of SkillListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+--- @type UIPanelScrollBarTemplate_ThumbTexture
 SkillListScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L46)
 --- child of SkillListScrollFrame (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+--- @type UIPanelScrollFrameTemplate_ScrollBar
 SkillListScrollFrameScrollBar = {}
 SkillListScrollFrameScrollBar["ScrollUpButton"] = SkillListScrollFrameScrollBarScrollUpButton -- inherited
 SkillListScrollFrameScrollBar["ScrollDownButton"] = SkillListScrollFrameScrollBarScrollDownButton -- inherited
@@ -206,79 +207,79 @@ SkillListScrollFrameScrollBar["ThumbTexture"] = SkillListScrollFrameScrollBarThu
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L415)
 --- child of SkillFrame
---- @class SkillFrame_SkillListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
+--- @class SkillListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 SkillListScrollFrame = {}
 SkillListScrollFrame["ScrollChildFrame"] = SkillListScrollFrameScrollChildFrame -- inherited
 SkillListScrollFrame["ScrollBar"] = SkillListScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L598)
 --- child of SkillDetailStatusBar
---- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarUnlearnButton : Button
+--- @class SkillDetailStatusBarUnlearnButton : Button
 SkillDetailStatusBarUnlearnButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L556)
 --- child of SkillDetailStatusBar
---- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarBorder : Texture
+--- @class SkillDetailStatusBarBorder : Texture
 SkillDetailStatusBarBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L568)
 --- child of SkillDetailStatusBar
---- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarSkillName : FontString, GameFontNormalSmall
+--- @class SkillDetailStatusBarSkillName : FontString, GameFontNormalSmall
 SkillDetailStatusBarSkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L577)
 --- child of SkillDetailStatusBar
---- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarSkillRank : FontString, GameFontHighlightSmall
+--- @class SkillDetailStatusBarSkillRank : FontString, GameFontHighlightSmall
 SkillDetailStatusBarSkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L584)
 --- child of SkillDetailStatusBar
---- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarFillBar : Texture
+--- @class SkillDetailStatusBarFillBar : Texture
 SkillDetailStatusBarFillBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L592)
 --- child of SkillDetailStatusBar
---- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar_SkillDetailStatusBarBackground : Texture
+--- @class SkillDetailStatusBarBackground : Texture
 SkillDetailStatusBarBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L543)
 --- child of SkillDetailScrollChildFrame
---- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailStatusBar : StatusBar
+--- @class SkillDetailStatusBar : StatusBar
 SkillDetailStatusBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L516)
 --- child of SkillDetailScrollChildFrame
---- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailCostText : FontString, GameFontNormalSmall
+--- @class SkillDetailCostText : FontString, GameFontNormalSmall
 SkillDetailCostText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L528)
 --- child of SkillDetailScrollChildFrame
---- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame_SkillDetailDescriptionText : FontString, GameFontHighlightSmall
+--- @class SkillDetailDescriptionText : FontString, GameFontHighlightSmall
 SkillDetailDescriptionText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L510)
 --- child of SkillDetailScrollFrame
---- @class SkillFrame_SkillDetailScrollFrame_SkillDetailScrollChildFrame : Frame
+--- @class SkillDetailScrollChildFrame : Frame
 SkillDetailScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L10)
 --- child of SkillDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+--- @type UIPanelScrollBarTemplate_ScrollUpButton
 SkillDetailScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+--- @type UIPanelScrollBarTemplate_ScrollDownButton
 SkillDetailScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L30)
 --- child of SkillDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+--- @type UIPanelScrollBarTemplate_ThumbTexture
 SkillDetailScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L46)
 --- child of SkillDetailScrollFrame (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+--- @type UIPanelScrollFrameTemplate_ScrollBar
 SkillDetailScrollFrameScrollBar = {}
 SkillDetailScrollFrameScrollBar["ScrollUpButton"] = SkillDetailScrollFrameScrollBarScrollUpButton -- inherited
 SkillDetailScrollFrameScrollBar["ScrollDownButton"] = SkillDetailScrollFrameScrollBarScrollDownButton -- inherited
@@ -286,23 +287,23 @@ SkillDetailScrollFrameScrollBar["ThumbTexture"] = SkillDetailScrollFrameScrollBa
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L462)
 --- child of SkillFrame
---- @class SkillFrame_SkillDetailScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+--- @class SkillDetailScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 SkillDetailScrollFrame = {}
 SkillDetailScrollFrame["ScrollBar"] = SkillDetailScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame1 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame1Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame1 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame1SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame1 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame1SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -317,22 +318,22 @@ SkillRankFrame1Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L639)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame1 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame1 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame2 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame2Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame2 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame2SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame2 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame2SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -347,22 +348,22 @@ SkillRankFrame2Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L648)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame2 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame2 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame3 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame3Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame3 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame3SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame3 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame3SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -377,22 +378,22 @@ SkillRankFrame3Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L657)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame3 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame3 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame4 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame4Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame4 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame4SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame4 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame4SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -407,22 +408,22 @@ SkillRankFrame4Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L666)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame4 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame4 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame5 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame5Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame5 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame5SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame5 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame5SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -437,22 +438,22 @@ SkillRankFrame5Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L675)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame5 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame5 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame6 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame6Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame6 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame6SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame6 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame6SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -467,22 +468,22 @@ SkillRankFrame6Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L684)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame6 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame6 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame7 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame7Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame7 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame7SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame7 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame7SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -497,22 +498,22 @@ SkillRankFrame7Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L693)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame7 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame7 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame8 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame8Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame8 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame8SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame8 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame8SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -527,22 +528,22 @@ SkillRankFrame8Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L702)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame8 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame8 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame9 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame9Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame9 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame9SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame9 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame9SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -557,22 +558,22 @@ SkillRankFrame9Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L711)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame9 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame9 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame10 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame10Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame10 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame10SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame10 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame10SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -587,22 +588,22 @@ SkillRankFrame10Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L720)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame10 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame10 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame11 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame11Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame11 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame11SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame11 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame11SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -617,22 +618,22 @@ SkillRankFrame11Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L729)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame11 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame11 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L39)
 --- child of SkillRankFrame12 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateBorder
+--- @type SkillStatusBarTemplate_Border
 SkillRankFrame12Border = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L9)
 --- child of SkillRankFrame12 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillName
+--- @type SkillStatusBarTemplate_SkillName
 SkillRankFrame12SkillName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L18)
 --- child of SkillRankFrame12 (created in template SkillStatusBarTemplate)
---- @type SkillStatusBarTemplate_SkillStatusBarTemplateSkillRank
+--- @type SkillStatusBarTemplate_SkillRank
 SkillRankFrame12SkillRank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L25)
@@ -647,12 +648,12 @@ SkillRankFrame12Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L738)
 --- child of SkillFrame
---- @class SkillFrame_SkillRankFrame12 : StatusBar, SkillStatusBarTemplate
+--- @class SkillRankFrame12 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L185)
 --- child of SkillFrame
---- @class SkillFrame_SkillFrameHorizontalBarLeft : Texture
+--- @class SkillFrameHorizontalBarLeft : Texture
 SkillFrameHorizontalBarLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L129)

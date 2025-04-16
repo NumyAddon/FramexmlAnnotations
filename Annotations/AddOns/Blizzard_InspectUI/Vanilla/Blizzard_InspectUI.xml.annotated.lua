@@ -2,17 +2,17 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L47)
 --- child of InspectNameFrame
---- @class InspectFrame_InspectNameFrame_InspectNameText : FontString, GameFontHighlight
+--- @class InspectNameText : FontString, GameFontHighlight
 InspectNameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L34)
 --- child of InspectFrame
---- @class InspectFrame_InspectNameFrame : Frame
+--- @class InspectNameFrame : Frame
 InspectNameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L63)
 --- child of InspectFrame
---- @class InspectFrame_InspectFrameCloseButton : Button, UIPanelCloseButton
+--- @class InspectFrameCloseButton : Button, UIPanelCloseButton
 InspectFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L9)
@@ -52,7 +52,7 @@ InspectFrameTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L77)
 --- child of InspectFrame
---- @class InspectFrame_InspectFrameTab1 : Button, CharacterFrameTabButtonTemplate
+--- @class InspectFrameTab1 : Button, CharacterFrameTabButtonTemplate
 InspectFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L9)
@@ -92,12 +92,12 @@ InspectFrameTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L94)
 --- child of InspectFrame
---- @class InspectFrame_InspectFrameTab2 : Button, CharacterFrameTabButtonTemplate
+--- @class InspectFrameTab2 : Button, CharacterFrameTabButtonTemplate
 InspectFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L19)
 --- child of InspectFrame
---- @class InspectFrame_InspectFramePortrait : Texture
+--- @class InspectFramePortrait : Texture
 InspectFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L3)

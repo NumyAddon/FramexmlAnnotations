@@ -2,27 +2,27 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/StreamingFrame.xml#L31)
 --- child of StreamingIconFrame
---- @class StreamingIcon_StreamingIconFrame_StreamingIconFrameBackground : Texture
+--- @class StreamingIconFrameBackground : Texture
 StreamingIconFrameBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/StreamingFrame.xml#L34)
 --- child of StreamingIconFrame
---- @class StreamingIcon_StreamingIconFrame_StreamingIconFrameAlpha : Texture
+--- @class StreamingIconFrameAlpha : Texture
 StreamingIconFrameAlpha = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/StreamingFrame.xml#L28)
 --- child of StreamingIcon
---- @class StreamingIcon_StreamingIconFrame : Frame
+--- @class StreamingIconFrame : Frame
 StreamingIconFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/StreamingFrame.xml#L41)
 --- child of StreamingIconSpin
---- @class StreamingIcon_StreamingIconSpin_StreamingIconSpinSpinner : Texture
+--- @class StreamingIconSpinSpinner : Texture
 StreamingIconSpinSpinner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/StreamingFrame.xml#L38)
 --- child of StreamingIcon
---- @class StreamingIcon_StreamingIconSpin : Frame
+--- @class StreamingIconSpin : Frame
 StreamingIconSpin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/StreamingFrame.xml#L5)

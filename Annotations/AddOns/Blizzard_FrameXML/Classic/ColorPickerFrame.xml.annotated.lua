@@ -2,41 +2,43 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L52)
 --- child of ColorPickerFrame
---- @class ColorPickerFrame_ColorPickerCancelButton : Button, GameMenuButtonTemplate
+--- @class ColorPickerCancelButton : Button, GameMenuButtonTemplate
 ColorPickerCancelButton = {}
 ColorPickerCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+ColorPickerCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L70)
 --- child of ColorPickerFrame
---- @class ColorPickerFrame_ColorPickerOkayButton : Button, GameMenuButtonTemplate
+--- @class ColorPickerOkayButton : Button, GameMenuButtonTemplate
 ColorPickerOkayButton = {}
 ColorPickerOkayButton["fitTextCanWidthDecrease"] = true -- inherited
+ColorPickerOkayButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L105)
 --- child of OpacitySliderFrame
---- @class ColorPickerFrame_OpacitySliderFrame_OpacitySliderFrameText : FontString, GameFontNormalSmall
+--- @class OpacitySliderFrameText : FontString, GameFontNormalSmall
 OpacitySliderFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L89)
 --- child of ColorPickerFrame
---- @class ColorPickerFrame_OpacitySliderFrame : Slider, BackdropTemplate
+--- @class OpacitySliderFrame : Slider, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_SLIDER_8_8
 OpacitySliderFrame = {}
 OpacitySliderFrame["backdropInfo"] = BACKDROP_SLIDER_8_8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L15)
 --- child of ColorPickerFrame
---- @class ColorPickerFrame_ColorSwatch : Texture
+--- @class ColorSwatch : Texture
 ColorSwatch = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L28)
 --- child of ColorPickerFrame
---- @class ColorPickerFrame_ColorPickerFrameHeader : Texture
+--- @class ColorPickerFrameHeader : Texture
 ColorPickerFrameHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L172)
 --- child of ColorPickerFrame
---- @class ColorPickerFrame_ColorPickerWheel : Texture
+--- @class ColorPickerWheel : Texture
 ColorPickerWheel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L3)
@@ -47,19 +49,19 @@ ColorPickerFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L240)
 --- child of OpacityFrameSlider
---- @class OpacityFrame_OpacityFrameSlider_OpacityFrameSliderText : FontString, GameFontNormalSmall
+--- @class OpacityFrameSliderText : FontString, GameFontNormalSmall
 OpacityFrameSliderText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L224)
 --- child of OpacityFrame
---- @class OpacityFrame_OpacityFrameSlider : Slider, BackdropTemplate
+--- @class OpacityFrameSlider : Slider, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_SLIDER_8_8
 OpacityFrameSlider = {}
 OpacityFrameSlider["backdropInfo"] = BACKDROP_SLIDER_8_8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L284)
 --- child of OpacityFrame
---- @class OpacityFrame_OpacityFrameCloseButton : Button
+--- @class OpacityFrameCloseButton : Button
 OpacityFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/ColorPickerFrame.xml#L209)

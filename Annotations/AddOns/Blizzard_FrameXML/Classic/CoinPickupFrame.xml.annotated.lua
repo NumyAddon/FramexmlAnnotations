@@ -2,49 +2,51 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L76)
 --- child of CoinPickupFrame
---- @class CoinPickupFrame_CoinPickupLeftButton : Button
+--- @class CoinPickupLeftButton : Button
 CoinPickupLeftButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L94)
 --- child of CoinPickupFrame
---- @class CoinPickupFrame_CoinPickupRightButton : Button
+--- @class CoinPickupRightButton : Button
 CoinPickupRightButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L112)
 --- child of CoinPickupFrame
---- @class CoinPickupFrame_CoinPickupOkayButton : Button, UIPanelButtonTemplate
+--- @class CoinPickupOkayButton : Button, UIPanelButtonTemplate
 CoinPickupOkayButton = {}
 CoinPickupOkayButton["fitTextCanWidthDecrease"] = true -- inherited
+CoinPickupOkayButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L127)
 --- child of CoinPickupFrame
---- @class CoinPickupFrame_CoinPickupCancelButton : Button, UIPanelButtonTemplate
+--- @class CoinPickupCancelButton : Button, UIPanelButtonTemplate
 CoinPickupCancelButton = {}
 CoinPickupCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+CoinPickupCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L17)
 --- child of CoinPickupFrame
---- @class CoinPickupFrame_CoinPickupGoldIcon : Texture
+--- @class CoinPickupGoldIcon : Texture
 CoinPickupGoldIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L30)
 --- child of CoinPickupFrame
---- @class CoinPickupFrame_CoinPickupSilverIcon : Texture
+--- @class CoinPickupSilverIcon : Texture
 CoinPickupSilverIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L43)
 --- child of CoinPickupFrame
---- @class CoinPickupFrame_CoinPickupCopperIcon : Texture
+--- @class CoinPickupCopperIcon : Texture
 CoinPickupCopperIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L56)
 --- child of CoinPickupFrame
---- @class CoinPickupFrame_CoinPickupLabel : FontString
+--- @class CoinPickupLabel : FontString
 CoinPickupLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L64)
 --- child of CoinPickupFrame
---- @class CoinPickupFrame_CoinPickupText : FontString, GameFontHighlight
+--- @class CoinPickupText : FontString, GameFontHighlight
 CoinPickupText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/CoinPickupFrame.xml#L3)

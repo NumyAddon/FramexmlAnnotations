@@ -18,115 +18,118 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L178)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameCloseButton : Button, UIPanelCloseButton
+--- @class PlayerTalentFrameCloseButton : Button, UIPanelCloseButton
 PlayerTalentFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L192)
 --- child of PlayerTalentFrameStatusFrame
---- @class PlayerTalentFrame_PlayerTalentFrameStatusFrame_PlayerTalentFramePointsLeft : Texture
+--- @class PlayerTalentFramePointsLeft : Texture
 PlayerTalentFramePointsLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L201)
 --- child of PlayerTalentFrameStatusFrame
---- @class PlayerTalentFrame_PlayerTalentFrameStatusFrame_PlayerTalentFramePointsMiddle : Texture
+--- @class PlayerTalentFramePointsMiddle : Texture
 PlayerTalentFramePointsMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L210)
 --- child of PlayerTalentFrameStatusFrame
---- @class PlayerTalentFrame_PlayerTalentFrameStatusFrame_PlayerTalentFramePointsRight : Texture
+--- @class PlayerTalentFramePointsRight : Texture
 PlayerTalentFramePointsRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L219)
 --- child of PlayerTalentFrameStatusFrame
---- @class PlayerTalentFrame_PlayerTalentFrameStatusFrame_PlayerTalentFrameStatusText : FontString, GameFontNormal
+--- @class PlayerTalentFrameStatusText : FontString, GameFontNormal
 PlayerTalentFrameStatusText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L185)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameStatusFrame : Frame
+--- @class PlayerTalentFrameStatusFrame : Frame
 PlayerTalentFrameStatusFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L229)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameActivateButton : Button, UIPanelButtonTemplate
+--- @class PlayerTalentFrameActivateButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameActivateButton = {}
 PlayerTalentFrameActivateButton["fitTextCanWidthDecrease"] = true -- inherited
+PlayerTalentFrameActivateButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L259)
 --- child of PlayerTalentFramePointsBar
---- @class PlayerTalentFrame_PlayerTalentFramePointsBar_PlayerTalentFramePointsBarBackground : Texture
+--- @class PlayerTalentFramePointsBarBackground : Texture
 PlayerTalentFramePointsBarBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L265)
 --- child of PlayerTalentFramePointsBar
---- @class PlayerTalentFrame_PlayerTalentFramePointsBar_PlayerTalentFramePointsBarBorderLeft : Texture
+--- @class PlayerTalentFramePointsBarBorderLeft : Texture
 PlayerTalentFramePointsBarBorderLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L280)
 --- child of PlayerTalentFramePointsBar
---- @class PlayerTalentFrame_PlayerTalentFramePointsBar_PlayerTalentFramePointsBarBorderRight : Texture
+--- @class PlayerTalentFramePointsBarBorderRight : Texture
 PlayerTalentFramePointsBarBorderRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L295)
 --- child of PlayerTalentFramePointsBar
---- @class PlayerTalentFrame_PlayerTalentFramePointsBar_PlayerTalentFramePointsBarBorderMiddle : Texture
+--- @class PlayerTalentFramePointsBarBorderMiddle : Texture
 PlayerTalentFramePointsBarBorderMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L304)
 --- child of PlayerTalentFramePointsBar
---- @class PlayerTalentFrame_PlayerTalentFramePointsBar_PlayerTalentFrameSpentPointsText : FontString, GameFontNormalSmall
+--- @class PlayerTalentFrameSpentPointsText : FontString, GameFontNormalSmall
 PlayerTalentFrameSpentPointsText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L312)
 --- child of PlayerTalentFramePointsBar
---- @class PlayerTalentFrame_PlayerTalentFramePointsBar_PlayerTalentFrameTalentPointsText : FontString, GameFontNormalSmall
+--- @class PlayerTalentFrameTalentPointsText : FontString, GameFontNormalSmall
 PlayerTalentFrameTalentPointsText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L244)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFramePointsBar : Frame
+--- @class PlayerTalentFramePointsBar : Frame
 PlayerTalentFramePointsBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L348)
 --- child of PlayerTalentFramePreviewBar
---- @class PlayerTalentFrame_PlayerTalentFramePreviewBar_PlayerTalentFrameResetButton : Button, UIPanelButtonTemplate
+--- @class PlayerTalentFrameResetButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameResetButton = {}
 PlayerTalentFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
+PlayerTalentFrameResetButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L361)
 --- child of PlayerTalentFramePreviewBar
---- @class PlayerTalentFrame_PlayerTalentFramePreviewBar_PlayerTalentFrameLearnButton : Button, UIPanelButtonTemplate
+--- @class PlayerTalentFrameLearnButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameLearnButton = {}
 PlayerTalentFrameLearnButton["fitTextCanWidthDecrease"] = true -- inherited
+PlayerTalentFrameLearnButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L382)
 --- child of PlayerTalentFramePreviewBarFiller
---- @class PlayerTalentFrame_PlayerTalentFramePreviewBar_PlayerTalentFramePreviewBarFiller_PlayerTalentFramePreviewBarFillerButtonBackgroundLeft : Texture
+--- @class PlayerTalentFramePreviewBarFillerButtonBackgroundLeft : Texture
 PlayerTalentFramePreviewBarFillerButtonBackgroundLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L391)
 --- child of PlayerTalentFramePreviewBarFiller
---- @class PlayerTalentFrame_PlayerTalentFramePreviewBar_PlayerTalentFramePreviewBarFiller_PlayerTalentFramePreviewBarFillerButtonBackgroundRight : Texture
+--- @class PlayerTalentFramePreviewBarFillerButtonBackgroundRight : Texture
 PlayerTalentFramePreviewBarFillerButtonBackgroundRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L400)
 --- child of PlayerTalentFramePreviewBarFiller
---- @class PlayerTalentFrame_PlayerTalentFramePreviewBar_PlayerTalentFramePreviewBarFiller_PlayerTalentFramePreviewBarFillerButtonBackgroundMiddle : Texture
+--- @class PlayerTalentFramePreviewBarFillerButtonBackgroundMiddle : Texture
 PlayerTalentFramePreviewBarFillerButtonBackgroundMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L372)
 --- child of PlayerTalentFramePreviewBar
---- @class PlayerTalentFrame_PlayerTalentFramePreviewBar_PlayerTalentFramePreviewBarFiller : Frame
+--- @class PlayerTalentFramePreviewBarFiller : Frame
 PlayerTalentFramePreviewBarFiller = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L338)
 --- child of PlayerTalentFramePreviewBar
---- @class PlayerTalentFrame_PlayerTalentFramePreviewBar_PlayerTalentFramePreviewBarButtonBorder : Texture
+--- @class PlayerTalentFramePreviewBarButtonBorder : Texture
 PlayerTalentFramePreviewBarButtonBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L323)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFramePreviewBar : Frame
+--- @class PlayerTalentFramePreviewBar : Frame
 PlayerTalentFramePreviewBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L47)
@@ -141,7 +144,7 @@ PlayerTalentFrameTalent1RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent1 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent1Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -151,12 +154,12 @@ PlayerTalentFrameTalent1IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent1 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent1 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent1Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -176,7 +179,7 @@ PlayerTalentFrameTalent1NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L551)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent1 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent1 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent1 = {}
 PlayerTalentFrameTalent1["icon"] = PlayerTalentFrameTalent1IconTexture -- inherited
 PlayerTalentFrameTalent1["Count"] = PlayerTalentFrameTalent1Count -- inherited
@@ -195,7 +198,7 @@ PlayerTalentFrameTalent2RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent2 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent2Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -205,12 +208,12 @@ PlayerTalentFrameTalent2IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent2 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent2 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent2Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -230,7 +233,7 @@ PlayerTalentFrameTalent2NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L552)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent2 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent2 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent2 = {}
 PlayerTalentFrameTalent2["icon"] = PlayerTalentFrameTalent2IconTexture -- inherited
 PlayerTalentFrameTalent2["Count"] = PlayerTalentFrameTalent2Count -- inherited
@@ -249,7 +252,7 @@ PlayerTalentFrameTalent3RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent3 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent3Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -259,12 +262,12 @@ PlayerTalentFrameTalent3IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent3 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent3 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent3Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -284,7 +287,7 @@ PlayerTalentFrameTalent3NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L553)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent3 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent3 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent3 = {}
 PlayerTalentFrameTalent3["icon"] = PlayerTalentFrameTalent3IconTexture -- inherited
 PlayerTalentFrameTalent3["Count"] = PlayerTalentFrameTalent3Count -- inherited
@@ -303,7 +306,7 @@ PlayerTalentFrameTalent4RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent4 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent4Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -313,12 +316,12 @@ PlayerTalentFrameTalent4IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent4 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent4 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent4Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -338,7 +341,7 @@ PlayerTalentFrameTalent4NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L554)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent4 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent4 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent4 = {}
 PlayerTalentFrameTalent4["icon"] = PlayerTalentFrameTalent4IconTexture -- inherited
 PlayerTalentFrameTalent4["Count"] = PlayerTalentFrameTalent4Count -- inherited
@@ -357,7 +360,7 @@ PlayerTalentFrameTalent5RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent5 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent5Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -367,12 +370,12 @@ PlayerTalentFrameTalent5IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent5 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent5Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent5 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent5Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -392,7 +395,7 @@ PlayerTalentFrameTalent5NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L555)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent5 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent5 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent5 = {}
 PlayerTalentFrameTalent5["icon"] = PlayerTalentFrameTalent5IconTexture -- inherited
 PlayerTalentFrameTalent5["Count"] = PlayerTalentFrameTalent5Count -- inherited
@@ -411,7 +414,7 @@ PlayerTalentFrameTalent6RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent6 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent6Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -421,12 +424,12 @@ PlayerTalentFrameTalent6IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent6 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent6 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent6Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -446,7 +449,7 @@ PlayerTalentFrameTalent6NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L556)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent6 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent6 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent6 = {}
 PlayerTalentFrameTalent6["icon"] = PlayerTalentFrameTalent6IconTexture -- inherited
 PlayerTalentFrameTalent6["Count"] = PlayerTalentFrameTalent6Count -- inherited
@@ -465,7 +468,7 @@ PlayerTalentFrameTalent7RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent7 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent7Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -475,12 +478,12 @@ PlayerTalentFrameTalent7IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent7 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent7Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent7 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent7Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -500,7 +503,7 @@ PlayerTalentFrameTalent7NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L557)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent7 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent7 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent7 = {}
 PlayerTalentFrameTalent7["icon"] = PlayerTalentFrameTalent7IconTexture -- inherited
 PlayerTalentFrameTalent7["Count"] = PlayerTalentFrameTalent7Count -- inherited
@@ -519,7 +522,7 @@ PlayerTalentFrameTalent8RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent8 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent8Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -529,12 +532,12 @@ PlayerTalentFrameTalent8IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent8 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent8 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent8Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -554,7 +557,7 @@ PlayerTalentFrameTalent8NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L558)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent8 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent8 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent8 = {}
 PlayerTalentFrameTalent8["icon"] = PlayerTalentFrameTalent8IconTexture -- inherited
 PlayerTalentFrameTalent8["Count"] = PlayerTalentFrameTalent8Count -- inherited
@@ -573,7 +576,7 @@ PlayerTalentFrameTalent9RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent9 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent9Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -583,12 +586,12 @@ PlayerTalentFrameTalent9IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent9 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent9Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent9 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent9Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -608,7 +611,7 @@ PlayerTalentFrameTalent9NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L559)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent9 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent9 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent9 = {}
 PlayerTalentFrameTalent9["icon"] = PlayerTalentFrameTalent9IconTexture -- inherited
 PlayerTalentFrameTalent9["Count"] = PlayerTalentFrameTalent9Count -- inherited
@@ -627,7 +630,7 @@ PlayerTalentFrameTalent10RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent10 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent10Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -637,12 +640,12 @@ PlayerTalentFrameTalent10IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent10 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent10Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent10 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent10Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -662,7 +665,7 @@ PlayerTalentFrameTalent10NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L560)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent10 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent10 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent10 = {}
 PlayerTalentFrameTalent10["icon"] = PlayerTalentFrameTalent10IconTexture -- inherited
 PlayerTalentFrameTalent10["Count"] = PlayerTalentFrameTalent10Count -- inherited
@@ -681,7 +684,7 @@ PlayerTalentFrameTalent11RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent11 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent11Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -691,12 +694,12 @@ PlayerTalentFrameTalent11IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent11 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent11Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent11 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent11Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -716,7 +719,7 @@ PlayerTalentFrameTalent11NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L561)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent11 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent11 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent11 = {}
 PlayerTalentFrameTalent11["icon"] = PlayerTalentFrameTalent11IconTexture -- inherited
 PlayerTalentFrameTalent11["Count"] = PlayerTalentFrameTalent11Count -- inherited
@@ -735,7 +738,7 @@ PlayerTalentFrameTalent12RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent12 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent12Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -745,12 +748,12 @@ PlayerTalentFrameTalent12IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent12 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent12Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent12 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent12Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -770,7 +773,7 @@ PlayerTalentFrameTalent12NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L562)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent12 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent12 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent12 = {}
 PlayerTalentFrameTalent12["icon"] = PlayerTalentFrameTalent12IconTexture -- inherited
 PlayerTalentFrameTalent12["Count"] = PlayerTalentFrameTalent12Count -- inherited
@@ -789,7 +792,7 @@ PlayerTalentFrameTalent13RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent13 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent13Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -799,12 +802,12 @@ PlayerTalentFrameTalent13IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent13 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent13Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent13 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent13Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -824,7 +827,7 @@ PlayerTalentFrameTalent13NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L563)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent13 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent13 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent13 = {}
 PlayerTalentFrameTalent13["icon"] = PlayerTalentFrameTalent13IconTexture -- inherited
 PlayerTalentFrameTalent13["Count"] = PlayerTalentFrameTalent13Count -- inherited
@@ -843,7 +846,7 @@ PlayerTalentFrameTalent14RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent14 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent14Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -853,12 +856,12 @@ PlayerTalentFrameTalent14IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent14 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent14Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent14 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent14Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -878,7 +881,7 @@ PlayerTalentFrameTalent14NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L564)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent14 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent14 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent14 = {}
 PlayerTalentFrameTalent14["icon"] = PlayerTalentFrameTalent14IconTexture -- inherited
 PlayerTalentFrameTalent14["Count"] = PlayerTalentFrameTalent14Count -- inherited
@@ -897,7 +900,7 @@ PlayerTalentFrameTalent15RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent15 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent15Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -907,12 +910,12 @@ PlayerTalentFrameTalent15IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent15 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent15Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent15 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent15Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -932,7 +935,7 @@ PlayerTalentFrameTalent15NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L565)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent15 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent15 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent15 = {}
 PlayerTalentFrameTalent15["icon"] = PlayerTalentFrameTalent15IconTexture -- inherited
 PlayerTalentFrameTalent15["Count"] = PlayerTalentFrameTalent15Count -- inherited
@@ -951,7 +954,7 @@ PlayerTalentFrameTalent16RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent16 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent16Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -961,12 +964,12 @@ PlayerTalentFrameTalent16IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent16 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent16Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent16 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent16Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -986,7 +989,7 @@ PlayerTalentFrameTalent16NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L566)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent16 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent16 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent16 = {}
 PlayerTalentFrameTalent16["icon"] = PlayerTalentFrameTalent16IconTexture -- inherited
 PlayerTalentFrameTalent16["Count"] = PlayerTalentFrameTalent16Count -- inherited
@@ -1005,7 +1008,7 @@ PlayerTalentFrameTalent17RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent17 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent17Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1015,12 +1018,12 @@ PlayerTalentFrameTalent17IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent17 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent17Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent17 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent17Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1040,7 +1043,7 @@ PlayerTalentFrameTalent17NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L567)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent17 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent17 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent17 = {}
 PlayerTalentFrameTalent17["icon"] = PlayerTalentFrameTalent17IconTexture -- inherited
 PlayerTalentFrameTalent17["Count"] = PlayerTalentFrameTalent17Count -- inherited
@@ -1059,7 +1062,7 @@ PlayerTalentFrameTalent18RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent18 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent18Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1069,12 +1072,12 @@ PlayerTalentFrameTalent18IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent18 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent18Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent18 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent18Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1094,7 +1097,7 @@ PlayerTalentFrameTalent18NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L568)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent18 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent18 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent18 = {}
 PlayerTalentFrameTalent18["icon"] = PlayerTalentFrameTalent18IconTexture -- inherited
 PlayerTalentFrameTalent18["Count"] = PlayerTalentFrameTalent18Count -- inherited
@@ -1113,7 +1116,7 @@ PlayerTalentFrameTalent19RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent19 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent19Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1123,12 +1126,12 @@ PlayerTalentFrameTalent19IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent19 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent19Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent19 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent19Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1148,7 +1151,7 @@ PlayerTalentFrameTalent19NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L569)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent19 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent19 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent19 = {}
 PlayerTalentFrameTalent19["icon"] = PlayerTalentFrameTalent19IconTexture -- inherited
 PlayerTalentFrameTalent19["Count"] = PlayerTalentFrameTalent19Count -- inherited
@@ -1167,7 +1170,7 @@ PlayerTalentFrameTalent20RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent20 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent20Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1177,12 +1180,12 @@ PlayerTalentFrameTalent20IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent20 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent20Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent20 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent20Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1202,7 +1205,7 @@ PlayerTalentFrameTalent20NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L570)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent20 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent20 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent20 = {}
 PlayerTalentFrameTalent20["icon"] = PlayerTalentFrameTalent20IconTexture -- inherited
 PlayerTalentFrameTalent20["Count"] = PlayerTalentFrameTalent20Count -- inherited
@@ -1221,7 +1224,7 @@ PlayerTalentFrameTalent21RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent21 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent21Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1231,12 +1234,12 @@ PlayerTalentFrameTalent21IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent21 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent21Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent21 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent21Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1256,7 +1259,7 @@ PlayerTalentFrameTalent21NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L571)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent21 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent21 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent21 = {}
 PlayerTalentFrameTalent21["icon"] = PlayerTalentFrameTalent21IconTexture -- inherited
 PlayerTalentFrameTalent21["Count"] = PlayerTalentFrameTalent21Count -- inherited
@@ -1275,7 +1278,7 @@ PlayerTalentFrameTalent22RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent22 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent22Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1285,12 +1288,12 @@ PlayerTalentFrameTalent22IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent22 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent22Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent22 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent22Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1310,7 +1313,7 @@ PlayerTalentFrameTalent22NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L572)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent22 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent22 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent22 = {}
 PlayerTalentFrameTalent22["icon"] = PlayerTalentFrameTalent22IconTexture -- inherited
 PlayerTalentFrameTalent22["Count"] = PlayerTalentFrameTalent22Count -- inherited
@@ -1329,7 +1332,7 @@ PlayerTalentFrameTalent23RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent23 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent23Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1339,12 +1342,12 @@ PlayerTalentFrameTalent23IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent23 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent23Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent23 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent23Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1364,7 +1367,7 @@ PlayerTalentFrameTalent23NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L573)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent23 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent23 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent23 = {}
 PlayerTalentFrameTalent23["icon"] = PlayerTalentFrameTalent23IconTexture -- inherited
 PlayerTalentFrameTalent23["Count"] = PlayerTalentFrameTalent23Count -- inherited
@@ -1383,7 +1386,7 @@ PlayerTalentFrameTalent24RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent24 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent24Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1393,12 +1396,12 @@ PlayerTalentFrameTalent24IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent24 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent24Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent24 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent24Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1418,7 +1421,7 @@ PlayerTalentFrameTalent24NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L574)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent24 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent24 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent24 = {}
 PlayerTalentFrameTalent24["icon"] = PlayerTalentFrameTalent24IconTexture -- inherited
 PlayerTalentFrameTalent24["Count"] = PlayerTalentFrameTalent24Count -- inherited
@@ -1437,7 +1440,7 @@ PlayerTalentFrameTalent25RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent25 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent25Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1447,12 +1450,12 @@ PlayerTalentFrameTalent25IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent25 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent25Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent25 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent25Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1472,7 +1475,7 @@ PlayerTalentFrameTalent25NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L575)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent25 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent25 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent25 = {}
 PlayerTalentFrameTalent25["icon"] = PlayerTalentFrameTalent25IconTexture -- inherited
 PlayerTalentFrameTalent25["Count"] = PlayerTalentFrameTalent25Count -- inherited
@@ -1491,7 +1494,7 @@ PlayerTalentFrameTalent26RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent26 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent26Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1501,12 +1504,12 @@ PlayerTalentFrameTalent26IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent26 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent26Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent26 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent26Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1526,7 +1529,7 @@ PlayerTalentFrameTalent26NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L576)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent26 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent26 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent26 = {}
 PlayerTalentFrameTalent26["icon"] = PlayerTalentFrameTalent26IconTexture -- inherited
 PlayerTalentFrameTalent26["Count"] = PlayerTalentFrameTalent26Count -- inherited
@@ -1545,7 +1548,7 @@ PlayerTalentFrameTalent27RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent27 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent27Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1555,12 +1558,12 @@ PlayerTalentFrameTalent27IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent27 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent27Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent27 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent27Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1580,7 +1583,7 @@ PlayerTalentFrameTalent27NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L577)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent27 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent27 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent27 = {}
 PlayerTalentFrameTalent27["icon"] = PlayerTalentFrameTalent27IconTexture -- inherited
 PlayerTalentFrameTalent27["Count"] = PlayerTalentFrameTalent27Count -- inherited
@@ -1599,7 +1602,7 @@ PlayerTalentFrameTalent28RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent28 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent28Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1609,12 +1612,12 @@ PlayerTalentFrameTalent28IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent28 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent28Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent28 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent28Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1634,7 +1637,7 @@ PlayerTalentFrameTalent28NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L578)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent28 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent28 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent28 = {}
 PlayerTalentFrameTalent28["icon"] = PlayerTalentFrameTalent28IconTexture -- inherited
 PlayerTalentFrameTalent28["Count"] = PlayerTalentFrameTalent28Count -- inherited
@@ -1653,7 +1656,7 @@ PlayerTalentFrameTalent29RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent29 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent29Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1663,12 +1666,12 @@ PlayerTalentFrameTalent29IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent29 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent29Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent29 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent29Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1688,7 +1691,7 @@ PlayerTalentFrameTalent29NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L579)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent29 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent29 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent29 = {}
 PlayerTalentFrameTalent29["icon"] = PlayerTalentFrameTalent29IconTexture -- inherited
 PlayerTalentFrameTalent29["Count"] = PlayerTalentFrameTalent29Count -- inherited
@@ -1707,7 +1710,7 @@ PlayerTalentFrameTalent30RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent30 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent30Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1717,12 +1720,12 @@ PlayerTalentFrameTalent30IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent30 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent30Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent30 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent30Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1742,7 +1745,7 @@ PlayerTalentFrameTalent30NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L580)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent30 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent30 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent30 = {}
 PlayerTalentFrameTalent30["icon"] = PlayerTalentFrameTalent30IconTexture -- inherited
 PlayerTalentFrameTalent30["Count"] = PlayerTalentFrameTalent30Count -- inherited
@@ -1761,7 +1764,7 @@ PlayerTalentFrameTalent31RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent31 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent31Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1771,12 +1774,12 @@ PlayerTalentFrameTalent31IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent31 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent31Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent31 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent31Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1796,7 +1799,7 @@ PlayerTalentFrameTalent31NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L581)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent31 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent31 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent31 = {}
 PlayerTalentFrameTalent31["icon"] = PlayerTalentFrameTalent31IconTexture -- inherited
 PlayerTalentFrameTalent31["Count"] = PlayerTalentFrameTalent31Count -- inherited
@@ -1815,7 +1818,7 @@ PlayerTalentFrameTalent32RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent32 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent32Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1825,12 +1828,12 @@ PlayerTalentFrameTalent32IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent32 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent32Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent32 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent32Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1850,7 +1853,7 @@ PlayerTalentFrameTalent32NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L582)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent32 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent32 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent32 = {}
 PlayerTalentFrameTalent32["icon"] = PlayerTalentFrameTalent32IconTexture -- inherited
 PlayerTalentFrameTalent32["Count"] = PlayerTalentFrameTalent32Count -- inherited
@@ -1869,7 +1872,7 @@ PlayerTalentFrameTalent33RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent33 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent33Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1879,12 +1882,12 @@ PlayerTalentFrameTalent33IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent33 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent33Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent33 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent33Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1904,7 +1907,7 @@ PlayerTalentFrameTalent33NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L583)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent33 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent33 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent33 = {}
 PlayerTalentFrameTalent33["icon"] = PlayerTalentFrameTalent33IconTexture -- inherited
 PlayerTalentFrameTalent33["Count"] = PlayerTalentFrameTalent33Count -- inherited
@@ -1923,7 +1926,7 @@ PlayerTalentFrameTalent34RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent34 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent34Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1933,12 +1936,12 @@ PlayerTalentFrameTalent34IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent34 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent34Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent34 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent34Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -1958,7 +1961,7 @@ PlayerTalentFrameTalent34NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L584)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent34 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent34 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent34 = {}
 PlayerTalentFrameTalent34["icon"] = PlayerTalentFrameTalent34IconTexture -- inherited
 PlayerTalentFrameTalent34["Count"] = PlayerTalentFrameTalent34Count -- inherited
@@ -1977,7 +1980,7 @@ PlayerTalentFrameTalent35RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent35 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent35Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -1987,12 +1990,12 @@ PlayerTalentFrameTalent35IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent35 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent35Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent35 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent35Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -2012,7 +2015,7 @@ PlayerTalentFrameTalent35NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L585)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent35 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent35 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent35 = {}
 PlayerTalentFrameTalent35["icon"] = PlayerTalentFrameTalent35IconTexture -- inherited
 PlayerTalentFrameTalent35["Count"] = PlayerTalentFrameTalent35Count -- inherited
@@ -2031,7 +2034,7 @@ PlayerTalentFrameTalent36RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent36 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent36Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -2041,12 +2044,12 @@ PlayerTalentFrameTalent36IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent36 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent36Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent36 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent36Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -2066,7 +2069,7 @@ PlayerTalentFrameTalent36NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L586)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent36 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent36 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent36 = {}
 PlayerTalentFrameTalent36["icon"] = PlayerTalentFrameTalent36IconTexture -- inherited
 PlayerTalentFrameTalent36["Count"] = PlayerTalentFrameTalent36Count -- inherited
@@ -2085,7 +2088,7 @@ PlayerTalentFrameTalent37RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent37 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent37Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -2095,12 +2098,12 @@ PlayerTalentFrameTalent37IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent37 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent37Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent37 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent37Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -2120,7 +2123,7 @@ PlayerTalentFrameTalent37NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L587)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent37 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent37 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent37 = {}
 PlayerTalentFrameTalent37["icon"] = PlayerTalentFrameTalent37IconTexture -- inherited
 PlayerTalentFrameTalent37["Count"] = PlayerTalentFrameTalent37Count -- inherited
@@ -2139,7 +2142,7 @@ PlayerTalentFrameTalent38RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent38 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent38Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -2149,12 +2152,12 @@ PlayerTalentFrameTalent38IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent38 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent38Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent38 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent38Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -2174,7 +2177,7 @@ PlayerTalentFrameTalent38NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L588)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent38 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent38 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent38 = {}
 PlayerTalentFrameTalent38["icon"] = PlayerTalentFrameTalent38IconTexture -- inherited
 PlayerTalentFrameTalent38["Count"] = PlayerTalentFrameTalent38Count -- inherited
@@ -2193,7 +2196,7 @@ PlayerTalentFrameTalent39RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent39 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent39Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -2203,12 +2206,12 @@ PlayerTalentFrameTalent39IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent39 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent39Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent39 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent39Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -2228,7 +2231,7 @@ PlayerTalentFrameTalent39NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L589)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent39 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent39 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent39 = {}
 PlayerTalentFrameTalent39["icon"] = PlayerTalentFrameTalent39IconTexture -- inherited
 PlayerTalentFrameTalent39["Count"] = PlayerTalentFrameTalent39Count -- inherited
@@ -2247,7 +2250,7 @@ PlayerTalentFrameTalent40RankBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L73)
 --- child of PlayerTalentFrameTalent40 (created in template TalentButtonTemplate)
---- @type TalentButtonTemplate_TalentButtonTemplateRank
+--- @type TalentButtonTemplate_Rank
 PlayerTalentFrameTalent40Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
@@ -2257,12 +2260,12 @@ PlayerTalentFrameTalent40IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L13)
 --- child of PlayerTalentFrameTalent40 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 PlayerTalentFrameTalent40Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L22)
 --- child of PlayerTalentFrameTalent40 (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 PlayerTalentFrameTalent40Stock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
@@ -2282,7 +2285,7 @@ PlayerTalentFrameTalent40NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L590)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameTalent40 : Button, PlayerTalentButtonTemplate
+--- @class PlayerTalentFrameTalent40 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent40 = {}
 PlayerTalentFrameTalent40["icon"] = PlayerTalentFrameTalent40IconTexture -- inherited
 PlayerTalentFrameTalent40["Count"] = PlayerTalentFrameTalent40Count -- inherited
@@ -2291,367 +2294,367 @@ PlayerTalentFrameTalent40["subicon"] = PlayerTalentFrameTalent40SubIconTexture -
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L595)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow1 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow1 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L596)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow2 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow2 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L597)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow3 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow3 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L598)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow4 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow4 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L599)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow5 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow5 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L600)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow6 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow6 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L601)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow7 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow7 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L602)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow8 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow8 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L603)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow9 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow9 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L604)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow10 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow10 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L605)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow11 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow11 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L606)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow12 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow12 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L607)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow13 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow13 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L608)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow14 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow14 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L609)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow15 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow15 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L610)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow16 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow16 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L611)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow17 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow17 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L612)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow18 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow18 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L613)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow19 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow19 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L614)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow20 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow20 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L615)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow21 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow21 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L616)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow22 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow22 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L617)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow23 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow23 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L618)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow24 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow24 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L619)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow25 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow25 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L620)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow26 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow26 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L621)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow27 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow27 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L622)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow28 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow28 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L623)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow29 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow29 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L624)
 --- child of PlayerTalentFrameArrowFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame_PlayerTalentFrameArrow30 : Texture, TalentArrowTemplate
+--- @class PlayerTalentFrameArrow30 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L592)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameArrowFrame : Frame
+--- @class PlayerTalentFrameArrowFrame : Frame
 PlayerTalentFrameArrowFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L518)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch1 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch1 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L519)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch2 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch2 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L520)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch3 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch3 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L521)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch4 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch4 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L522)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch5 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch5 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L523)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch6 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch6 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L524)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch7 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch7 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L525)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch8 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch8 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L526)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch9 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch9 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L527)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch10 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch10 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L528)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch11 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch11 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L529)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch12 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch12 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L530)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch13 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch13 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L531)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch14 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch14 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L532)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch15 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch15 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L533)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch16 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch16 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L534)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch17 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch17 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L535)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch18 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch18 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L536)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch19 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch19 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L537)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch20 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch20 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L538)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch21 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch21 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L539)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch22 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch22 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L540)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch23 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch23 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L541)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch24 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch24 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L542)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch25 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch25 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L543)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch26 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch26 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L544)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch27 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch27 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L545)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch28 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch28 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L546)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch29 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch29 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L547)
 --- child of PlayerTalentFrameScrollChildFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame_PlayerTalentFrameBranch30 : Texture, TalentBranchTemplate
+--- @class PlayerTalentFrameBranch30 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L509)
 --- child of PlayerTalentFrameScrollFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollChildFrame : Frame
+--- @class PlayerTalentFrameScrollChildFrame : Frame
 PlayerTalentFrameScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L496)
 --- child of PlayerTalentFrameScrollFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameActiveTalentGroupFrame : Frame
+--- @class PlayerTalentFrameActiveTalentGroupFrame : Frame
 PlayerTalentFrameActiveTalentGroupFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L428)
 --- child of PlayerTalentFrameScrollFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameBackgroundTopLeft : Texture
+--- @class PlayerTalentFrameBackgroundTopLeft : Texture
 PlayerTalentFrameBackgroundTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L441)
 --- child of PlayerTalentFrameScrollFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameBackgroundTopRight : Texture
+--- @class PlayerTalentFrameBackgroundTopRight : Texture
 PlayerTalentFrameBackgroundTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L449)
 --- child of PlayerTalentFrameScrollFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameBackgroundBottomLeft : Texture
+--- @class PlayerTalentFrameBackgroundBottomLeft : Texture
 PlayerTalentFrameBackgroundBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L457)
 --- child of PlayerTalentFrameScrollFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameBackgroundBottomRight : Texture
+--- @class PlayerTalentFrameBackgroundBottomRight : Texture
 PlayerTalentFrameBackgroundBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L467)
 --- child of PlayerTalentFrameScrollFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollFrameBackgroundTop : Texture
+--- @class PlayerTalentFrameScrollFrameBackgroundTop : Texture
 PlayerTalentFrameScrollFrameBackgroundTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L480)
 --- child of PlayerTalentFrameScrollFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame_PlayerTalentFrameScrollFrameBackgroundBottom : Texture
+--- @class PlayerTalentFrameScrollFrameBackgroundBottom : Texture
 PlayerTalentFrameScrollFrameBackgroundBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L10)
 --- child of PlayerTalentFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+--- @type UIPanelScrollBarTemplate_ScrollUpButton
 PlayerTalentFrameScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L18)
 --- child of PlayerTalentFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+--- @type UIPanelScrollBarTemplate_ScrollDownButton
 PlayerTalentFrameScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L30)
 --- child of PlayerTalentFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+--- @type UIPanelScrollBarTemplate_ThumbTexture
 PlayerTalentFrameScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L46)
 --- child of PlayerTalentFrameScrollFrame (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+--- @type UIPanelScrollFrameTemplate_ScrollBar
 PlayerTalentFrameScrollFrameScrollBar = {}
 PlayerTalentFrameScrollFrameScrollBar["ScrollUpButton"] = PlayerTalentFrameScrollFrameScrollBarScrollUpButton -- inherited
 PlayerTalentFrameScrollFrameScrollBar["ScrollDownButton"] = PlayerTalentFrameScrollFrameScrollBarScrollDownButton -- inherited
@@ -2659,13 +2662,13 @@ PlayerTalentFrameScrollFrameScrollBar["ThumbTexture"] = PlayerTalentFrameScrollF
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L412)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+--- @class PlayerTalentFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 PlayerTalentFrameScrollFrame = {}
 PlayerTalentFrameScrollFrame["ScrollBar"] = PlayerTalentFrameScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L632)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameScrollButtonOverlay : Frame
+--- @class PlayerTalentFrameScrollButtonOverlay : Frame
 PlayerTalentFrameScrollButtonOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L9)
@@ -2705,7 +2708,7 @@ PlayerTalentFrameTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L649)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameTab1 : Button, PlayerTalentTabTemplate
+--- @class PlayerTalentFrameTab1 : Button, PlayerTalentTabTemplate
 PlayerTalentFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L9)
@@ -2745,7 +2748,7 @@ PlayerTalentFrameTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L658)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameTab2 : Button, PlayerTalentTabTemplate
+--- @class PlayerTalentFrameTab2 : Button, PlayerTalentTabTemplate
 PlayerTalentFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L9)
@@ -2785,7 +2788,7 @@ PlayerTalentFrameTab3HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L667)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameTab3 : Button, PlayerTalentTabTemplate
+--- @class PlayerTalentFrameTab3 : Button, PlayerTalentTabTemplate
 PlayerTalentFrameTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L9)
@@ -2825,7 +2828,7 @@ PlayerTalentFrameTab4HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L676)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameTab4 : Button, PlayerGlyphTabTemplate
+--- @class PlayerTalentFrameTab4 : Button, PlayerGlyphTabTemplate
 PlayerTalentFrameTab4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L7)
@@ -2835,7 +2838,7 @@ PlayerSpecTab1Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L685)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerSpecTab1 : CheckButton, PlayerSpecTabTemplate
+--- @class PlayerSpecTab1 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L7)
@@ -2845,7 +2848,7 @@ PlayerSpecTab2Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L714)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerSpecTab2 : CheckButton, PlayerSpecTabTemplate
+--- @class PlayerSpecTab2 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L7)
@@ -2855,42 +2858,42 @@ PlayerSpecTab3Background = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L743)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerSpecTab3 : CheckButton, PlayerSpecTabTemplate
+--- @class PlayerSpecTab3 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L99)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFramePortrait : Texture
+--- @class PlayerTalentFramePortrait : Texture
 PlayerTalentFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L111)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameActiveSpecTabHighlight : Texture
+--- @class PlayerTalentFrameActiveSpecTabHighlight : Texture
 PlayerTalentFrameActiveSpecTabHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L116)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameTopLeft : Texture
+--- @class PlayerTalentFrameTopLeft : Texture
 PlayerTalentFrameTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L128)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameTopRight : Texture
+--- @class PlayerTalentFrameTopRight : Texture
 PlayerTalentFrameTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L140)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameBottomLeft : Texture
+--- @class PlayerTalentFrameBottomLeft : Texture
 PlayerTalentFrameBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L152)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameBottomRight : Texture
+--- @class PlayerTalentFrameBottomRight : Texture
 PlayerTalentFrameBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L166)
 --- child of PlayerTalentFrame
---- @class PlayerTalentFrame_PlayerTalentFrameTitleText : FontString, GameFontNormal
+--- @class PlayerTalentFrameTitleText : FontString, GameFontNormal
 PlayerTalentFrameTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L83)

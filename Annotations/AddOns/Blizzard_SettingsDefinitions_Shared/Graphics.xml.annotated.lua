@@ -134,17 +134,20 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L209)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "UniqueCornersLayout"
+--- @field layoutType string # UniqueCornersLayout
+--- @field layoutTextureKit string # OptionsFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L219)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_RaidTab : Button, MinimalTabTemplate
 --- @field tabText any # RAID_SETTINGS
+--- @field categorySet any # Settings.CategorySet.AddOns
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L229)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_BaseTab : Button, MinimalTabTemplate
 --- @field tabText any # BASE_SETTINGS_TAB
+--- @field categorySet any # Settings.CategorySet.Game
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L242)
 --- child of SettingsAdvancedQualitySectionTemplate_BaseQualityControls

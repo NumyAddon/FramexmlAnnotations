@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/AlternatePowerBar.xml#L37)
 --- child of AlternatePowerBarTemplate
---- @class AlternatePowerBarTemplate_AlternatePowerBarTemplateText : FontString, TextStatusBarText
+--- @class AlternatePowerBarTemplate_Text : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/AlternatePowerBar.xml#L3)
 --- Template
@@ -20,7 +20,7 @@ PlayerFrameAlternateManaBarBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/AlternatePowerBar.xml#L37)
 --- child of PlayerFrameAlternateManaBar (created in template AlternatePowerBarTemplate)
---- @type AlternatePowerBarTemplate_AlternatePowerBarTemplateText
+--- @type AlternatePowerBarTemplate_Text
 PlayerFrameAlternateManaBarText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/AlternatePowerBar.xml#L64)

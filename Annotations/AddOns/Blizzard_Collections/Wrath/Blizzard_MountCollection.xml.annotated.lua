@@ -47,7 +47,7 @@ MountJournalBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_MountCollection.xml#L1220)
 --- child of MountJournalSearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @type SearchBoxTemplate_ClearButton
 MountJournalSearchBoxClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_MountCollection.xml#L1211)
@@ -57,7 +57,7 @@ MountJournalSearchBoxSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_MountCollection.xml#L301)
 --- child of MountJournal
---- @class MountJournal_MountJournalSearchBox : EditBox, SearchBoxTemplate
+--- @class MountJournalSearchBox : EditBox, SearchBoxTemplate
 MountJournalSearchBox = {}
 MountJournalSearchBox["clearButton"] = MountJournalSearchBoxClearButton -- inherited
 MountJournalSearchBox["searchIcon"] = MountJournalSearchBoxSearchIcon -- inherited
@@ -127,22 +127,22 @@ MountJournalRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_MountCollection.xml#L375)
 --- child of MountJournal_MountDisplay_InfoButton
---- @class MountJournal_MountDisplay_InfoButton_MountJournalIcon : Texture
+--- @class MountJournalIcon : Texture
 MountJournalIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_MountCollection.xml#L383)
 --- child of MountJournal_MountDisplay_InfoButton
---- @class MountJournal_MountDisplay_InfoButton_MountJournalName : FontString, GameFontHighlightLarge
+--- @class MountJournalName : FontString, GameFontHighlightLarge
 MountJournalName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_MountCollection.xml#L389)
 --- child of MountJournal_MountDisplay_InfoButton
---- @class MountJournal_MountDisplay_InfoButton_MountJournalSource : FontString, GameFontHighlight
+--- @class MountJournalSource : FontString, GameFontHighlight
 MountJournalSource = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_MountCollection.xml#L395)
 --- child of MountJournal_MountDisplay_InfoButton
---- @class MountJournal_MountDisplay_InfoButton_MountJournalLore : FontString, GameFontNormal
+--- @class MountJournalLore : FontString, GameFontNormal
 MountJournalLore = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_MountCollection.xml#L403)
@@ -153,10 +153,10 @@ MountJournalLore = {}
 --- child of MountJournal_MountDisplay
 --- @class MountJournal_MountDisplay_InfoButton : Button, InlineHyperlinkFrameTemplate
 --- @field hasIconHyperlinks boolean # true
---- @field Icon MountJournal_MountDisplay_InfoButton_MountJournalIcon
---- @field Name MountJournal_MountDisplay_InfoButton_MountJournalName
---- @field Source MountJournal_MountDisplay_InfoButton_MountJournalSource
---- @field Lore MountJournal_MountDisplay_InfoButton_MountJournalLore
+--- @field Icon MountJournalIcon
+--- @field Name MountJournalName
+--- @field Source MountJournalSource
+--- @field Lore MountJournalLore
 --- @field New MountJournal_MountDisplay_InfoButton_New
 --- @field NewGlow Texture
 
@@ -198,21 +198,22 @@ MountJournalLore = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_MountCollection.xml#L476)
 --- child of MountJournal
---- @class MountJournal_MountJournalMountButton : Button, MagicButtonTemplate
+--- @class MountJournalMountButton : Button, MagicButtonTemplate
 MountJournalMountButton = {}
 MountJournalMountButton["fitTextCanWidthDecrease"] = true -- inherited
+MountJournalMountButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_MountCollection.xml#L186)
 --- @class MountJournal : Frame
 --- @field LeftInset MountJournal_LeftInset
 --- @field RightInset MountJournal_RightInset
---- @field searchBox MountJournal_MountJournalSearchBox
+--- @field searchBox MountJournalSearchBox
 --- @field FilterDropdown MountJournal_FilterDropdown
 --- @field MountCount MountJournal_MountCount
 --- @field MountDisplay MountJournal_MountDisplay
 --- @field ScrollBox MountJournal_ScrollBox
 --- @field ScrollBar MountJournal_ScrollBar
---- @field MountButton MountJournal_MountJournalMountButton
+--- @field MountButton MountJournalMountButton
 MountJournal = {}
 MountJournal["searchBox"] = MountJournalSearchBox
 MountJournal["MountButton"] = MountJournalMountButton

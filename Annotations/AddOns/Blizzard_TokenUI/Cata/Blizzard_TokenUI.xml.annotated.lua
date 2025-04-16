@@ -2,11 +2,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L28)
 --- child of TokenButtonTemplate
---- @class TokenButtonTemplate_TokenButtonTemplateCount : FontString, GameFontHighlightRight
+--- @class TokenButtonTemplate_Count : FontString, GameFontHighlightRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L35)
 --- child of TokenButtonTemplate
---- @class TokenButtonTemplate_TokenButtonTemplateName : FontString, GameFontHighlightLeft
+--- @class TokenButtonTemplate_Name : FontString, GameFontHighlightLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L3)
 --- Template
@@ -18,12 +18,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L51)
 --- child of TokenFrameContainerScrollBar (created in template HybridScrollBarTemplate)
---- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollUpButton
+--- @type HybridScrollBarTemplate_ScrollUpButton
 TokenFrameContainerScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L60)
 --- child of TokenFrameContainerScrollBar (created in template HybridScrollBarTemplate)
---- @type HybridScrollBarTemplate_HybridScrollBarTemplateScrollDownButton
+--- @type HybridScrollBarTemplate_ScrollDownButton
 TokenFrameContainerScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L15)
@@ -53,7 +53,7 @@ TokenFrameContainerScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L152)
 --- child of TokenFrameContainer
---- @class TokenFrame_TokenFrameContainer_TokenFrameContainerScrollBar : Slider, HybridScrollBarTemplate
+--- @class TokenFrameContainerScrollBar : Slider, HybridScrollBarTemplate
 TokenFrameContainerScrollBar = {}
 TokenFrameContainerScrollBar["ScrollUpButton"] = TokenFrameContainerScrollBarScrollUpButton -- inherited
 TokenFrameContainerScrollBar["ScrollDownButton"] = TokenFrameContainerScrollBarScrollDownButton -- inherited
@@ -70,8 +70,8 @@ TokenFrameContainerScrollChild = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L149)
 --- child of TokenFrame
---- @class TokenFrame_TokenFrameContainer : ScrollFrame, HybridScrollFrameTemplate
---- @field scrollBar TokenFrame_TokenFrameContainer_TokenFrameContainerScrollBar
+--- @class TokenFrameContainer : ScrollFrame, HybridScrollFrameTemplate
+--- @field scrollBar TokenFrameContainerScrollBar
 TokenFrameContainer = {}
 TokenFrameContainer["ScrollChild"] = TokenFrameContainerScrollChild -- inherited
 
@@ -85,49 +85,49 @@ TokenFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L21)
 --- child of TokenFramePopupInactiveCheckbox (created in template OptionsSmallCheckButtonTemplate)
---- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+--- @type OptionsSmallCheckButtonTemplate_Text
 TokenFramePopupInactiveCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L476)
 --- child of TokenFramePopupInactiveCheckbox (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
+--- @type UICheckButtonTemplate_Text
 TokenFramePopupInactiveCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L213)
 --- child of TokenFramePopup
---- @class TokenFramePopup_TokenFramePopupInactiveCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
+--- @class TokenFramePopupInactiveCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 TokenFramePopupInactiveCheckbox = {}
 TokenFramePopupInactiveCheckbox["Text"] = TokenFramePopupInactiveCheckboxText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L21)
 --- child of TokenFramePopupBackpackCheckbox (created in template OptionsSmallCheckButtonTemplate)
---- @type OptionsSmallCheckButtonTemplate_OptionsSmallCheckButtonTemplateText
+--- @type OptionsSmallCheckButtonTemplate_Text
 TokenFramePopupBackpackCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L476)
 --- child of TokenFramePopupBackpackCheckbox (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
+--- @type UICheckButtonTemplate_Text
 TokenFramePopupBackpackCheckboxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L247)
 --- child of TokenFramePopup
---- @class TokenFramePopup_TokenFramePopupBackpackCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
+--- @class TokenFramePopupBackpackCheckbox : CheckButton, OptionsSmallCheckButtonTemplate
 TokenFramePopupBackpackCheckbox = {}
 TokenFramePopupBackpackCheckbox["Text"] = TokenFramePopupBackpackCheckboxText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L285)
 --- child of TokenFramePopup
---- @class TokenFramePopup_TokenFramePopupCloseButton : Button, UIPanelCloseButton
+--- @class TokenFramePopupCloseButton : Button, UIPanelCloseButton
 TokenFramePopupCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L188)
 --- child of TokenFramePopup
---- @class TokenFramePopup_TokenFramePopupTitle : FontString, GameFontNormal
+--- @class TokenFramePopupTitle : FontString, GameFontNormal
 TokenFramePopupTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L197)
 --- child of TokenFramePopup
---- @class TokenFramePopup_TokenFramePopupCorner : Texture
+--- @class TokenFramePopupCorner : Texture
 TokenFramePopupCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L177)
@@ -137,17 +137,17 @@ TokenFramePopup = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L302)
 --- child of BackpackTokenTemplate
---- @class BackpackTokenTemplate_BackpackTokenTemplateCount : FontString, GameFontHighlightSmall
+--- @class BackpackTokenTemplate_Count : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L296)
 --- Template
 --- @class BackpackTokenTemplate : Button
---- @field count BackpackTokenTemplate_BackpackTokenTemplateCount
+--- @field count BackpackTokenTemplate_Count
 --- @field icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L302)
 --- child of BackpackTokenFrameToken1 (created in template BackpackTokenTemplate)
---- @type BackpackTokenTemplate_BackpackTokenTemplateCount
+--- @type BackpackTokenTemplate_Count
 BackpackTokenFrameToken1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L310)
@@ -157,14 +157,14 @@ BackpackTokenFrameToken1Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L356)
 --- child of BackpackTokenFrame
---- @class BackpackTokenFrame_BackpackTokenFrameToken1 : Button, BackpackTokenTemplate
+--- @class BackpackTokenFrameToken1 : Button, BackpackTokenTemplate
 BackpackTokenFrameToken1 = {}
 BackpackTokenFrameToken1["count"] = BackpackTokenFrameToken1Count -- inherited
 BackpackTokenFrameToken1["icon"] = BackpackTokenFrameToken1Icon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L302)
 --- child of BackpackTokenFrameToken2 (created in template BackpackTokenTemplate)
---- @type BackpackTokenTemplate_BackpackTokenTemplateCount
+--- @type BackpackTokenTemplate_Count
 BackpackTokenFrameToken2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L310)
@@ -174,14 +174,14 @@ BackpackTokenFrameToken2Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L363)
 --- child of BackpackTokenFrame
---- @class BackpackTokenFrame_BackpackTokenFrameToken2 : Button, BackpackTokenTemplate
+--- @class BackpackTokenFrameToken2 : Button, BackpackTokenTemplate
 BackpackTokenFrameToken2 = {}
 BackpackTokenFrameToken2["count"] = BackpackTokenFrameToken2Count -- inherited
 BackpackTokenFrameToken2["icon"] = BackpackTokenFrameToken2Icon -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L302)
 --- child of BackpackTokenFrameToken3 (created in template BackpackTokenTemplate)
---- @type BackpackTokenTemplate_BackpackTokenTemplateCount
+--- @type BackpackTokenTemplate_Count
 BackpackTokenFrameToken3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L310)
@@ -191,7 +191,7 @@ BackpackTokenFrameToken3Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L370)
 --- child of BackpackTokenFrame
---- @class BackpackTokenFrame_BackpackTokenFrameToken3 : Button, BackpackTokenTemplate
+--- @class BackpackTokenFrameToken3 : Button, BackpackTokenTemplate
 BackpackTokenFrameToken3 = {}
 BackpackTokenFrameToken3["count"] = BackpackTokenFrameToken3Count -- inherited
 BackpackTokenFrameToken3["icon"] = BackpackTokenFrameToken3Icon -- inherited

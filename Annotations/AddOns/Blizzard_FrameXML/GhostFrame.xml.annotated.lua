@@ -2,17 +2,17 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L14)
 --- child of GhostFrameContentsFrame
---- @class GhostFrame_GhostFrameContentsFrame_GhostFrameContentsFrameText : FontString, GameFontNormal
+--- @class GhostFrameContentsFrameText : FontString, GameFontNormal
 GhostFrameContentsFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L20)
 --- child of GhostFrameContentsFrame
---- @class GhostFrame_GhostFrameContentsFrame_GhostFrameContentsFrameIcon : Texture
+--- @class GhostFrameContentsFrameIcon : Texture
 GhostFrameContentsFrameIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L7)
 --- child of GhostFrame
---- @class GhostFrame_GhostFrameContentsFrame : Frame
+--- @class GhostFrameContentsFrame : Frame
 GhostFrameContentsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L241)

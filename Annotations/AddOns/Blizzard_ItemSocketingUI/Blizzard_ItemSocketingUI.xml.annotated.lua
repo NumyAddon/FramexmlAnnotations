@@ -2,15 +2,15 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L62)
 --- child of ItemSocketingSocketButtonTemplate
---- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateShine : Frame, AnimatedShineTemplate
+--- @class ItemSocketingSocketButtonTemplate_Shine : Frame, AnimatedShineTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L71)
 --- child of ItemSocketingSocketButtonTemplate
---- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame : Frame
+--- @class ItemSocketingSocketButtonTemplate_BracketFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L54)
 --- child of ItemSocketingSocketButtonTemplate
---- @class ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateColor : FontString, TextStatusBarText
+--- @class ItemSocketingSocketButtonTemplate_Color : FontString, TextStatusBarText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L4)
 --- Template
@@ -28,82 +28,82 @@ ItemSocketingDescriptionStatusBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L25)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft1
+--- @type GameTooltipTemplate_TextLeft1
 ItemSocketingDescriptionTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L34)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight1
+--- @type GameTooltipTemplate_TextRight1
 ItemSocketingDescriptionTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L43)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft2
+--- @type GameTooltipTemplate_TextLeft2
 ItemSocketingDescriptionTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L52)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight2
+--- @type GameTooltipTemplate_TextRight2
 ItemSocketingDescriptionTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L61)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft3
+--- @type GameTooltipTemplate_TextLeft3
 ItemSocketingDescriptionTextLeft3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L70)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight3
+--- @type GameTooltipTemplate_TextRight3
 ItemSocketingDescriptionTextRight3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L79)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft4
+--- @type GameTooltipTemplate_TextLeft4
 ItemSocketingDescriptionTextLeft4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L88)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight4
+--- @type GameTooltipTemplate_TextRight4
 ItemSocketingDescriptionTextRight4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L97)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft5
+--- @type GameTooltipTemplate_TextLeft5
 ItemSocketingDescriptionTextLeft5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L106)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight5
+--- @type GameTooltipTemplate_TextRight5
 ItemSocketingDescriptionTextRight5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L115)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft6
+--- @type GameTooltipTemplate_TextLeft6
 ItemSocketingDescriptionTextLeft6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L124)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight6
+--- @type GameTooltipTemplate_TextRight6
 ItemSocketingDescriptionTextRight6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L133)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft7
+--- @type GameTooltipTemplate_TextLeft7
 ItemSocketingDescriptionTextLeft7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L142)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight7
+--- @type GameTooltipTemplate_TextRight7
 ItemSocketingDescriptionTextRight7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L151)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft8
+--- @type GameTooltipTemplate_TextLeft8
 ItemSocketingDescriptionTextLeft8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L160)
 --- child of ItemSocketingDescription (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight8
+--- @type GameTooltipTemplate_TextRight8
 ItemSocketingDescriptionTextRight8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L169)
@@ -158,7 +158,7 @@ ItemSocketingDescriptionTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L244)
 --- child of ItemSocketingScrollChild
---- @class ItemSocketingFrame_ItemSocketingScrollFrame_ItemSocketingScrollChild_ItemSocketingDescription : GameTooltip, GameTooltipTemplate
+--- @class ItemSocketingDescription : GameTooltip, GameTooltipTemplate
 --- @field IsEmbedded boolean # true
 ItemSocketingDescription = {}
 ItemSocketingDescription["IsEmbedded"] = true
@@ -166,42 +166,42 @@ ItemSocketingDescription["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L241)
 --- child of ItemSocketingScrollFrame
---- @class ItemSocketingFrame_ItemSocketingScrollFrame_ItemSocketingScrollChild : Frame
+--- @class ItemSocketingScrollChild : Frame
 ItemSocketingScrollChild = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L204)
 --- child of ItemSocketingScrollFrame
---- @class ItemSocketingFrame_ItemSocketingScrollFrame_ItemSocketingScrollFrameBottom : Texture
+--- @class ItemSocketingScrollFrameBottom : Texture
 ItemSocketingScrollFrameBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L211)
 --- child of ItemSocketingScrollFrame
---- @class ItemSocketingFrame_ItemSocketingScrollFrame_ItemSocketingScrollFrameTop : Texture
+--- @class ItemSocketingScrollFrameTop : Texture
 ItemSocketingScrollFrameTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L218)
 --- child of ItemSocketingScrollFrame
---- @class ItemSocketingFrame_ItemSocketingScrollFrame_ItemSocketingScrollFrameMiddle : Texture
+--- @class ItemSocketingScrollFrameMiddle : Texture
 ItemSocketingScrollFrameMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L10)
 --- child of ItemSocketingScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+--- @type UIPanelScrollBarTemplate_ScrollUpButton
 ItemSocketingScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L18)
 --- child of ItemSocketingScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+--- @type UIPanelScrollBarTemplate_ScrollDownButton
 ItemSocketingScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L30)
 --- child of ItemSocketingScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+--- @type UIPanelScrollBarTemplate_ThumbTexture
 ItemSocketingScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L46)
 --- child of ItemSocketingScrollFrame (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+--- @type UIPanelScrollFrameTemplate_ScrollBar
 ItemSocketingScrollFrameScrollBar = {}
 ItemSocketingScrollFrameScrollBar["ScrollUpButton"] = ItemSocketingScrollFrameScrollBarScrollUpButton -- inherited
 ItemSocketingScrollFrameScrollBar["ScrollDownButton"] = ItemSocketingScrollFrameScrollBarScrollDownButton -- inherited
@@ -209,13 +209,13 @@ ItemSocketingScrollFrameScrollBar["ThumbTexture"] = ItemSocketingScrollFrameScro
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L197)
 --- child of ItemSocketingFrame
---- @class ItemSocketingFrame_ItemSocketingScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+--- @class ItemSocketingScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 ItemSocketingScrollFrame = {}
 ItemSocketingScrollFrame["ScrollBar"] = ItemSocketingScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L259)
 --- child of ItemSocketingSocket1
---- @class ItemSocketingFrame_ItemSocketingSocket1_ItemSocketingSocket1Left : Texture
+--- @class ItemSocketingSocket1Left : Texture
 ItemSocketingSocket1Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L25)
@@ -240,12 +240,12 @@ ItemSocketingSocket1Shine4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L62)
 --- child of ItemSocketingSocket1 (created in template ItemSocketingSocketButtonTemplate)
---- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateShine
+--- @type ItemSocketingSocketButtonTemplate_Shine
 ItemSocketingSocket1Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L71)
 --- child of ItemSocketingSocket1 (created in template ItemSocketingSocketButtonTemplate)
---- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame
+--- @type ItemSocketingSocketButtonTemplate_BracketFrame
 ItemSocketingSocket1BracketFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L10)
@@ -265,18 +265,18 @@ ItemSocketingSocket1IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L54)
 --- child of ItemSocketingSocket1 (created in template ItemSocketingSocketButtonTemplate)
---- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateColor
+--- @type ItemSocketingSocketButtonTemplate_Color
 ItemSocketingSocket1Color = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L253)
 --- child of ItemSocketingFrame
---- @class ItemSocketingFrame_ItemSocketingSocket1 : Button, ItemSocketingSocketButtonTemplate
+--- @class ItemSocketingSocket1 : Button, ItemSocketingSocketButtonTemplate
 ItemSocketingSocket1 = {}
 ItemSocketingSocket1["icon"] = ItemSocketingSocket1IconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L275)
 --- child of ItemSocketingSocket2
---- @class ItemSocketingFrame_ItemSocketingSocket2_ItemSocketingSocket2Left : Texture
+--- @class ItemSocketingSocket2Left : Texture
 ItemSocketingSocket2Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L25)
@@ -301,12 +301,12 @@ ItemSocketingSocket2Shine4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L62)
 --- child of ItemSocketingSocket2 (created in template ItemSocketingSocketButtonTemplate)
---- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateShine
+--- @type ItemSocketingSocketButtonTemplate_Shine
 ItemSocketingSocket2Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L71)
 --- child of ItemSocketingSocket2 (created in template ItemSocketingSocketButtonTemplate)
---- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame
+--- @type ItemSocketingSocketButtonTemplate_BracketFrame
 ItemSocketingSocket2BracketFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L10)
@@ -326,18 +326,18 @@ ItemSocketingSocket2IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L54)
 --- child of ItemSocketingSocket2 (created in template ItemSocketingSocketButtonTemplate)
---- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateColor
+--- @type ItemSocketingSocketButtonTemplate_Color
 ItemSocketingSocket2Color = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L269)
 --- child of ItemSocketingFrame
---- @class ItemSocketingFrame_ItemSocketingSocket2 : Button, ItemSocketingSocketButtonTemplate
+--- @class ItemSocketingSocket2 : Button, ItemSocketingSocketButtonTemplate
 ItemSocketingSocket2 = {}
 ItemSocketingSocket2["icon"] = ItemSocketingSocket2IconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L291)
 --- child of ItemSocketingSocket3
---- @class ItemSocketingFrame_ItemSocketingSocket3_ItemSocketingSocket3Left : Texture
+--- @class ItemSocketingSocket3Left : Texture
 ItemSocketingSocket3Left = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L25)
@@ -362,12 +362,12 @@ ItemSocketingSocket3Shine4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L62)
 --- child of ItemSocketingSocket3 (created in template ItemSocketingSocketButtonTemplate)
---- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateShine
+--- @type ItemSocketingSocketButtonTemplate_Shine
 ItemSocketingSocket3Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L71)
 --- child of ItemSocketingSocket3 (created in template ItemSocketingSocketButtonTemplate)
---- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateBracketFrame
+--- @type ItemSocketingSocketButtonTemplate_BracketFrame
 ItemSocketingSocket3BracketFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L10)
@@ -387,18 +387,18 @@ ItemSocketingSocket3IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L54)
 --- child of ItemSocketingSocket3 (created in template ItemSocketingSocketButtonTemplate)
---- @type ItemSocketingSocketButtonTemplate_ItemSocketingSocketButtonTemplateColor
+--- @type ItemSocketingSocketButtonTemplate_Color
 ItemSocketingSocket3Color = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L285)
 --- child of ItemSocketingFrame
---- @class ItemSocketingFrame_ItemSocketingSocket3 : Button, ItemSocketingSocketButtonTemplate
+--- @class ItemSocketingSocket3 : Button, ItemSocketingSocketButtonTemplate
 ItemSocketingSocket3 = {}
 ItemSocketingSocket3["icon"] = ItemSocketingSocket3IconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L301)
 --- child of ItemSocketingFrame
---- @class ItemSocketingFrame_ItemSocketingSocketButton : Button
+--- @class ItemSocketingSocketButton : Button
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
@@ -406,12 +406,12 @@ ItemSocketingSocketButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L363)
 --- child of ItemSocketingFrame
---- @class ItemSocketingFrame_ItemSocketingCloseButton : Button, UIPanelCloseButton
+--- @class ItemSocketingCloseButton : Button, UIPanelCloseButton
 ItemSocketingCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L159)
 --- child of ItemSocketingFrame
---- @class ItemSocketingFrame_ItemSocketingFramePortrait : Texture
+--- @class ItemSocketingFramePortrait : Texture
 ItemSocketingFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L143)

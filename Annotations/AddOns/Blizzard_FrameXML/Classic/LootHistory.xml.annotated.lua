@@ -64,22 +64,22 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L10)
 --- child of LootHistoryFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+--- @type UIPanelScrollBarTemplate_ScrollUpButton
 LootHistoryFrameScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L18)
 --- child of LootHistoryFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+--- @type UIPanelScrollBarTemplate_ScrollDownButton
 LootHistoryFrameScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L30)
 --- child of LootHistoryFrameScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+--- @type UIPanelScrollBarTemplate_ThumbTexture
 LootHistoryFrameScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L46)
 --- child of LootHistoryFrameScrollFrame (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+--- @type UIPanelScrollFrameTemplate_ScrollBar
 LootHistoryFrameScrollFrameScrollBar = {}
 LootHistoryFrameScrollFrameScrollBar["ScrollUpButton"] = LootHistoryFrameScrollFrameScrollBarScrollUpButton -- inherited
 LootHistoryFrameScrollFrameScrollBar["ScrollDownButton"] = LootHistoryFrameScrollFrameScrollBarScrollDownButton -- inherited
@@ -87,7 +87,7 @@ LootHistoryFrameScrollFrameScrollBar["ThumbTexture"] = LootHistoryFrameScrollFra
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXML/Classic/LootHistory.xml#L277)
 --- child of LootHistoryFrame
---- @class LootHistoryFrame_LootHistoryFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+--- @class LootHistoryFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 --- @field ScrollChild Frame
 --- @field ScrollBarBackground Texture
 LootHistoryFrameScrollFrame = {}
@@ -102,7 +102,7 @@ LootHistoryFrameScrollFrame["ScrollBar"] = LootHistoryFrameScrollFrameScrollBar 
 --- @field CloseButton LootHistoryFrame_CloseButton
 --- @field DragButton Button
 --- @field ResizeButton LootHistoryFrame_ResizeButton
---- @field ScrollFrame LootHistoryFrame_LootHistoryFrameScrollFrame
+--- @field ScrollFrame LootHistoryFrameScrollFrame
 --- @field LootIcon Texture
 --- @field Label LootHistoryFrame_Label
 --- @field Divider Texture

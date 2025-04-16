@@ -2,25 +2,25 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItemTemplate
---- @class MerchantItemTemplate_MerchantItemTemplateItemButton : Button, ItemButtonTemplate
+--- @class MerchantItemTemplate_ItemButton : Button, ItemButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItemTemplate
---- @class MerchantItemTemplate_MerchantItemTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
+--- @class MerchantItemTemplate_MoneyFrame : Frame, SmallMoneyFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItemTemplate
---- @class MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame : Frame, SmallAlternateCurrencyFrameTemplate
+--- @class MerchantItemTemplate_AltCurrencyFrame : Frame, SmallAlternateCurrencyFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItemTemplate
---- @class MerchantItemTemplate_MerchantItemTemplateName : FontString, GameFontNormalSmall
+--- @class MerchantItemTemplate_Name : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L3)
 --- Template
 --- @class MerchantItemTemplate : Frame
---- @field ItemButton MerchantItemTemplate_MerchantItemTemplateItemButton
---- @field Name MerchantItemTemplate_MerchantItemTemplateName
+--- @field ItemButton MerchantItemTemplate_ItemButton
+--- @field Name MerchantItemTemplate_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
 --- child of MerchantItem1ItemButton (created in template ItemButtonTemplate)
@@ -29,12 +29,12 @@ MerchantItem1ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem1ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem1ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem1ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem1ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -54,7 +54,7 @@ MerchantItem1ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem1 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem1ItemButton = {}
 MerchantItem1ItemButton["icon"] = MerchantItem1ItemButtonIconTexture -- inherited
 MerchantItem1ItemButton["Count"] = MerchantItem1ItemButtonCount -- inherited
@@ -63,27 +63,27 @@ MerchantItem1ItemButton["subicon"] = MerchantItem1ItemButtonSubIconTexture -- in
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem1MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem1MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem1MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem1MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem1MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem1MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem1MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem1MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem1 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem1MoneyFrame = {}
 MerchantItem1MoneyFrame["trialErrorButton"] = MerchantItem1MoneyFrameTrialErrorButton -- inherited
 MerchantItem1MoneyFrame["CopperButton"] = MerchantItem1MoneyFrameCopperButton -- inherited
@@ -97,7 +97,7 @@ MerchantItem1AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem1AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem1AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -107,7 +107,7 @@ MerchantItem1AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem1AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem1AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -117,12 +117,12 @@ MerchantItem1AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem1AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem1AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem1 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem1AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -137,12 +137,12 @@ MerchantItem1NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem1 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L142)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem1 : Frame, MerchantItemTemplate
+--- @class MerchantItem1 : Frame, MerchantItemTemplate
 MerchantItem1 = {}
 MerchantItem1["ItemButton"] = MerchantItem1ItemButton -- inherited
 MerchantItem1["Name"] = MerchantItem1Name -- inherited
@@ -154,12 +154,12 @@ MerchantItem2ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem2ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem2ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem2ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem2ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -179,7 +179,7 @@ MerchantItem2ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem2 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem2ItemButton = {}
 MerchantItem2ItemButton["icon"] = MerchantItem2ItemButtonIconTexture -- inherited
 MerchantItem2ItemButton["Count"] = MerchantItem2ItemButtonCount -- inherited
@@ -188,27 +188,27 @@ MerchantItem2ItemButton["subicon"] = MerchantItem2ItemButtonSubIconTexture -- in
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem2MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem2MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem2MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem2MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem2MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem2MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem2MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem2MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem2 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem2MoneyFrame = {}
 MerchantItem2MoneyFrame["trialErrorButton"] = MerchantItem2MoneyFrameTrialErrorButton -- inherited
 MerchantItem2MoneyFrame["CopperButton"] = MerchantItem2MoneyFrameCopperButton -- inherited
@@ -222,7 +222,7 @@ MerchantItem2AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem2AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem2AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -232,7 +232,7 @@ MerchantItem2AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem2AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem2AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -242,12 +242,12 @@ MerchantItem2AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem2AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem2AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem2 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem2AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -262,12 +262,12 @@ MerchantItem2NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem2 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem2Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L147)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem2 : Frame, MerchantItemTemplate
+--- @class MerchantItem2 : Frame, MerchantItemTemplate
 MerchantItem2 = {}
 MerchantItem2["ItemButton"] = MerchantItem2ItemButton -- inherited
 MerchantItem2["Name"] = MerchantItem2Name -- inherited
@@ -279,12 +279,12 @@ MerchantItem3ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem3ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem3ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem3ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem3ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -304,7 +304,7 @@ MerchantItem3ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem3 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem3ItemButton = {}
 MerchantItem3ItemButton["icon"] = MerchantItem3ItemButtonIconTexture -- inherited
 MerchantItem3ItemButton["Count"] = MerchantItem3ItemButtonCount -- inherited
@@ -313,27 +313,27 @@ MerchantItem3ItemButton["subicon"] = MerchantItem3ItemButtonSubIconTexture -- in
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem3MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem3MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem3MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem3MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem3MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem3MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem3MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem3MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem3 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem3MoneyFrame = {}
 MerchantItem3MoneyFrame["trialErrorButton"] = MerchantItem3MoneyFrameTrialErrorButton -- inherited
 MerchantItem3MoneyFrame["CopperButton"] = MerchantItem3MoneyFrameCopperButton -- inherited
@@ -347,7 +347,7 @@ MerchantItem3AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem3AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem3AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -357,7 +357,7 @@ MerchantItem3AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem3AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem3AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -367,12 +367,12 @@ MerchantItem3AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem3AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem3AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem3 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem3AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -387,12 +387,12 @@ MerchantItem3NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem3 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem3Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L152)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem3 : Frame, MerchantItemTemplate
+--- @class MerchantItem3 : Frame, MerchantItemTemplate
 MerchantItem3 = {}
 MerchantItem3["ItemButton"] = MerchantItem3ItemButton -- inherited
 MerchantItem3["Name"] = MerchantItem3Name -- inherited
@@ -404,12 +404,12 @@ MerchantItem4ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem4ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem4ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem4ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem4ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -429,7 +429,7 @@ MerchantItem4ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem4 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem4ItemButton = {}
 MerchantItem4ItemButton["icon"] = MerchantItem4ItemButtonIconTexture -- inherited
 MerchantItem4ItemButton["Count"] = MerchantItem4ItemButtonCount -- inherited
@@ -438,27 +438,27 @@ MerchantItem4ItemButton["subicon"] = MerchantItem4ItemButtonSubIconTexture -- in
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem4MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem4MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem4MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem4MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem4MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem4MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem4MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem4MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem4 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem4MoneyFrame = {}
 MerchantItem4MoneyFrame["trialErrorButton"] = MerchantItem4MoneyFrameTrialErrorButton -- inherited
 MerchantItem4MoneyFrame["CopperButton"] = MerchantItem4MoneyFrameCopperButton -- inherited
@@ -472,7 +472,7 @@ MerchantItem4AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem4AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem4AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -482,7 +482,7 @@ MerchantItem4AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem4AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem4AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -492,12 +492,12 @@ MerchantItem4AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem4AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem4AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem4 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem4AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -512,12 +512,12 @@ MerchantItem4NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem4 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem4Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L157)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem4 : Frame, MerchantItemTemplate
+--- @class MerchantItem4 : Frame, MerchantItemTemplate
 MerchantItem4 = {}
 MerchantItem4["ItemButton"] = MerchantItem4ItemButton -- inherited
 MerchantItem4["Name"] = MerchantItem4Name -- inherited
@@ -529,12 +529,12 @@ MerchantItem5ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem5ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem5ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem5ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem5ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -554,7 +554,7 @@ MerchantItem5ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem5 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem5ItemButton = {}
 MerchantItem5ItemButton["icon"] = MerchantItem5ItemButtonIconTexture -- inherited
 MerchantItem5ItemButton["Count"] = MerchantItem5ItemButtonCount -- inherited
@@ -563,27 +563,27 @@ MerchantItem5ItemButton["subicon"] = MerchantItem5ItemButtonSubIconTexture -- in
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem5MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem5MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem5MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem5MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem5MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem5MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem5MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem5MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem5 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem5MoneyFrame = {}
 MerchantItem5MoneyFrame["trialErrorButton"] = MerchantItem5MoneyFrameTrialErrorButton -- inherited
 MerchantItem5MoneyFrame["CopperButton"] = MerchantItem5MoneyFrameCopperButton -- inherited
@@ -597,7 +597,7 @@ MerchantItem5AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem5AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem5AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -607,7 +607,7 @@ MerchantItem5AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem5AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem5AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -617,12 +617,12 @@ MerchantItem5AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem5AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem5AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem5 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem5AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -637,12 +637,12 @@ MerchantItem5NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem5 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem5Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L162)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem5 : Frame, MerchantItemTemplate
+--- @class MerchantItem5 : Frame, MerchantItemTemplate
 MerchantItem5 = {}
 MerchantItem5["ItemButton"] = MerchantItem5ItemButton -- inherited
 MerchantItem5["Name"] = MerchantItem5Name -- inherited
@@ -654,12 +654,12 @@ MerchantItem6ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem6ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem6ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem6ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem6ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -679,7 +679,7 @@ MerchantItem6ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem6 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem6ItemButton = {}
 MerchantItem6ItemButton["icon"] = MerchantItem6ItemButtonIconTexture -- inherited
 MerchantItem6ItemButton["Count"] = MerchantItem6ItemButtonCount -- inherited
@@ -688,27 +688,27 @@ MerchantItem6ItemButton["subicon"] = MerchantItem6ItemButtonSubIconTexture -- in
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem6MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem6MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem6MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem6MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem6MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem6MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem6MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem6MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem6 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem6MoneyFrame = {}
 MerchantItem6MoneyFrame["trialErrorButton"] = MerchantItem6MoneyFrameTrialErrorButton -- inherited
 MerchantItem6MoneyFrame["CopperButton"] = MerchantItem6MoneyFrameCopperButton -- inherited
@@ -722,7 +722,7 @@ MerchantItem6AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem6AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem6AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -732,7 +732,7 @@ MerchantItem6AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem6AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem6AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -742,12 +742,12 @@ MerchantItem6AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem6AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem6AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem6 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem6AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -762,12 +762,12 @@ MerchantItem6NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem6 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem6Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L167)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem6 : Frame, MerchantItemTemplate
+--- @class MerchantItem6 : Frame, MerchantItemTemplate
 MerchantItem6 = {}
 MerchantItem6["ItemButton"] = MerchantItem6ItemButton -- inherited
 MerchantItem6["Name"] = MerchantItem6Name -- inherited
@@ -779,12 +779,12 @@ MerchantItem7ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem7ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem7ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem7ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem7ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -804,7 +804,7 @@ MerchantItem7ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem7 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem7ItemButton = {}
 MerchantItem7ItemButton["icon"] = MerchantItem7ItemButtonIconTexture -- inherited
 MerchantItem7ItemButton["Count"] = MerchantItem7ItemButtonCount -- inherited
@@ -813,27 +813,27 @@ MerchantItem7ItemButton["subicon"] = MerchantItem7ItemButtonSubIconTexture -- in
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem7MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem7MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem7MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem7MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem7MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem7MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem7MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem7MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem7 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem7MoneyFrame = {}
 MerchantItem7MoneyFrame["trialErrorButton"] = MerchantItem7MoneyFrameTrialErrorButton -- inherited
 MerchantItem7MoneyFrame["CopperButton"] = MerchantItem7MoneyFrameCopperButton -- inherited
@@ -847,7 +847,7 @@ MerchantItem7AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem7AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem7AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -857,7 +857,7 @@ MerchantItem7AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem7AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem7AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -867,12 +867,12 @@ MerchantItem7AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem7AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem7AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem7 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem7AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -887,12 +887,12 @@ MerchantItem7NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem7 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem7Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L172)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem7 : Frame, MerchantItemTemplate
+--- @class MerchantItem7 : Frame, MerchantItemTemplate
 MerchantItem7 = {}
 MerchantItem7["ItemButton"] = MerchantItem7ItemButton -- inherited
 MerchantItem7["Name"] = MerchantItem7Name -- inherited
@@ -904,12 +904,12 @@ MerchantItem8ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem8ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem8ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem8ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem8ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -929,7 +929,7 @@ MerchantItem8ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem8 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem8ItemButton = {}
 MerchantItem8ItemButton["icon"] = MerchantItem8ItemButtonIconTexture -- inherited
 MerchantItem8ItemButton["Count"] = MerchantItem8ItemButtonCount -- inherited
@@ -938,27 +938,27 @@ MerchantItem8ItemButton["subicon"] = MerchantItem8ItemButtonSubIconTexture -- in
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem8MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem8MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem8MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem8MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem8MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem8MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem8MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem8MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem8 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem8MoneyFrame = {}
 MerchantItem8MoneyFrame["trialErrorButton"] = MerchantItem8MoneyFrameTrialErrorButton -- inherited
 MerchantItem8MoneyFrame["CopperButton"] = MerchantItem8MoneyFrameCopperButton -- inherited
@@ -972,7 +972,7 @@ MerchantItem8AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem8AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem8AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -982,7 +982,7 @@ MerchantItem8AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem8AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem8AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -992,12 +992,12 @@ MerchantItem8AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem8AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem8AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem8 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem8AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -1012,12 +1012,12 @@ MerchantItem8NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem8 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem8Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L177)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem8 : Frame, MerchantItemTemplate
+--- @class MerchantItem8 : Frame, MerchantItemTemplate
 MerchantItem8 = {}
 MerchantItem8["ItemButton"] = MerchantItem8ItemButton -- inherited
 MerchantItem8["Name"] = MerchantItem8Name -- inherited
@@ -1029,12 +1029,12 @@ MerchantItem9ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem9ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem9ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem9ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem9ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -1054,7 +1054,7 @@ MerchantItem9ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem9 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem9ItemButton = {}
 MerchantItem9ItemButton["icon"] = MerchantItem9ItemButtonIconTexture -- inherited
 MerchantItem9ItemButton["Count"] = MerchantItem9ItemButtonCount -- inherited
@@ -1063,27 +1063,27 @@ MerchantItem9ItemButton["subicon"] = MerchantItem9ItemButtonSubIconTexture -- in
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem9MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem9MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem9MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem9MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem9MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem9MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem9MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem9MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem9 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem9MoneyFrame = {}
 MerchantItem9MoneyFrame["trialErrorButton"] = MerchantItem9MoneyFrameTrialErrorButton -- inherited
 MerchantItem9MoneyFrame["CopperButton"] = MerchantItem9MoneyFrameCopperButton -- inherited
@@ -1097,7 +1097,7 @@ MerchantItem9AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem9AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem9AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -1107,7 +1107,7 @@ MerchantItem9AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem9AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem9AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -1117,12 +1117,12 @@ MerchantItem9AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem9AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem9AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem9 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem9AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -1137,12 +1137,12 @@ MerchantItem9NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem9 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem9Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L182)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem9 : Frame, MerchantItemTemplate
+--- @class MerchantItem9 : Frame, MerchantItemTemplate
 MerchantItem9 = {}
 MerchantItem9["ItemButton"] = MerchantItem9ItemButton -- inherited
 MerchantItem9["Name"] = MerchantItem9Name -- inherited
@@ -1154,12 +1154,12 @@ MerchantItem10ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem10ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem10ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem10ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem10ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -1179,7 +1179,7 @@ MerchantItem10ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem10 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem10ItemButton = {}
 MerchantItem10ItemButton["icon"] = MerchantItem10ItemButtonIconTexture -- inherited
 MerchantItem10ItemButton["Count"] = MerchantItem10ItemButtonCount -- inherited
@@ -1188,27 +1188,27 @@ MerchantItem10ItemButton["subicon"] = MerchantItem10ItemButtonSubIconTexture -- 
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem10MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem10MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem10MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem10MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem10MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem10MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem10MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem10MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem10 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem10MoneyFrame = {}
 MerchantItem10MoneyFrame["trialErrorButton"] = MerchantItem10MoneyFrameTrialErrorButton -- inherited
 MerchantItem10MoneyFrame["CopperButton"] = MerchantItem10MoneyFrameCopperButton -- inherited
@@ -1222,7 +1222,7 @@ MerchantItem10AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem10AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem10AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -1232,7 +1232,7 @@ MerchantItem10AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem10AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem10AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -1242,12 +1242,12 @@ MerchantItem10AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem10AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem10AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem10 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem10AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -1262,12 +1262,12 @@ MerchantItem10NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem10 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem10Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L187)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem10 : Frame, MerchantItemTemplate
+--- @class MerchantItem10 : Frame, MerchantItemTemplate
 MerchantItem10 = {}
 MerchantItem10["ItemButton"] = MerchantItem10ItemButton -- inherited
 MerchantItem10["Name"] = MerchantItem10Name -- inherited
@@ -1279,12 +1279,12 @@ MerchantItem11ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem11ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem11ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem11ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem11ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -1304,7 +1304,7 @@ MerchantItem11ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem11 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem11ItemButton = {}
 MerchantItem11ItemButton["icon"] = MerchantItem11ItemButtonIconTexture -- inherited
 MerchantItem11ItemButton["Count"] = MerchantItem11ItemButtonCount -- inherited
@@ -1313,27 +1313,27 @@ MerchantItem11ItemButton["subicon"] = MerchantItem11ItemButtonSubIconTexture -- 
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem11MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem11MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem11MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem11MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem11MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem11MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem11MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem11MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem11 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem11MoneyFrame = {}
 MerchantItem11MoneyFrame["trialErrorButton"] = MerchantItem11MoneyFrameTrialErrorButton -- inherited
 MerchantItem11MoneyFrame["CopperButton"] = MerchantItem11MoneyFrameCopperButton -- inherited
@@ -1347,7 +1347,7 @@ MerchantItem11AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem11AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem11AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -1357,7 +1357,7 @@ MerchantItem11AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem11AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem11AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -1367,12 +1367,12 @@ MerchantItem11AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem11AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem11AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem11 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem11AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -1387,12 +1387,12 @@ MerchantItem11NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem11 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem11Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L192)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem11 : Frame, MerchantItemTemplate
+--- @class MerchantItem11 : Frame, MerchantItemTemplate
 MerchantItem11 = {}
 MerchantItem11["ItemButton"] = MerchantItem11ItemButton -- inherited
 MerchantItem11["Name"] = MerchantItem11Name -- inherited
@@ -1404,12 +1404,12 @@ MerchantItem12ItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantItem12ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantItem12ItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantItem12ItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantItem12ItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -1429,7 +1429,7 @@ MerchantItem12ItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L28)
 --- child of MerchantItem12 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateItemButton
+--- @type MerchantItemTemplate_ItemButton
 MerchantItem12ItemButton = {}
 MerchantItem12ItemButton["icon"] = MerchantItem12ItemButtonIconTexture -- inherited
 MerchantItem12ItemButton["Count"] = MerchantItem12ItemButtonCount -- inherited
@@ -1438,27 +1438,27 @@ MerchantItem12ItemButton["subicon"] = MerchantItem12ItemButtonSubIconTexture -- 
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantItem12MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantItem12MoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantItem12MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantItem12MoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantItem12MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantItem12MoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantItem12MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantItem12MoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L61)
 --- child of MerchantItem12 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateMoneyFrame
+--- @type MerchantItemTemplate_MoneyFrame
 MerchantItem12MoneyFrame = {}
 MerchantItem12MoneyFrame["trialErrorButton"] = MerchantItem12MoneyFrameTrialErrorButton -- inherited
 MerchantItem12MoneyFrame["CopperButton"] = MerchantItem12MoneyFrameCopperButton -- inherited
@@ -1472,7 +1472,7 @@ MerchantItem12AltCurrencyFrameItem1Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L366)
 --- child of MerchantItem12AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem1
+--- @type SmallAlternateCurrencyFrameTemplate_Item1
 MerchantItem12AltCurrencyFrameItem1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -1482,7 +1482,7 @@ MerchantItem12AltCurrencyFrameItem2Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L375)
 --- child of MerchantItem12AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem2
+--- @type SmallAlternateCurrencyFrameTemplate_Item2
 MerchantItem12AltCurrencyFrameItem2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L347)
@@ -1492,12 +1492,12 @@ MerchantItem12AltCurrencyFrameItem3Texture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L384)
 --- child of MerchantItem12AltCurrencyFrame (created in template SmallAlternateCurrencyFrameTemplate)
---- @type SmallAlternateCurrencyFrameTemplate_SmallAlternateCurrencyFrameTemplateItem3
+--- @type SmallAlternateCurrencyFrameTemplate_Item3
 MerchantItem12AltCurrencyFrameItem3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L77)
 --- child of MerchantItem12 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateAltCurrencyFrame
+--- @type MerchantItemTemplate_AltCurrencyFrame
 MerchantItem12AltCurrencyFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L7)
@@ -1512,39 +1512,39 @@ MerchantItem12NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L19)
 --- child of MerchantItem12 (created in template MerchantItemTemplate)
---- @type MerchantItemTemplate_MerchantItemTemplateName
+--- @type MerchantItemTemplate_Name
 MerchantItem12Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L197)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantItem12 : Frame, MerchantItemTemplate
+--- @class MerchantItem12 : Frame, MerchantItemTemplate
 MerchantItem12 = {}
 MerchantItem12["ItemButton"] = MerchantItem12ItemButton -- inherited
 MerchantItem12["Name"] = MerchantItem12Name -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L209)
 --- child of MerchantRepairAllButton
---- @class MerchantFrame_MerchantRepairAllButton_MerchantRepairAllIcon : Texture
+--- @class MerchantRepairAllIcon : Texture
 MerchantRepairAllIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L202)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantRepairAllButton : Button
+--- @class MerchantRepairAllButton : Button
 MerchantRepairAllButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L251)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantRepairItemButton : Button
+--- @class MerchantRepairItemButton : Button
 MerchantRepairItemButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L289)
 --- child of MerchantGuildBankRepairButton
---- @class MerchantFrame_MerchantGuildBankRepairButton_MerchantGuildBankRepairButtonIcon : Texture
+--- @class MerchantGuildBankRepairButtonIcon : Texture
 MerchantGuildBankRepairButtonIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L282)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantGuildBankRepairButton : Button
+--- @class MerchantGuildBankRepairButton : Button
 MerchantGuildBankRepairButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L10)
@@ -1554,12 +1554,12 @@ MerchantBuyBackItemItemButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L13)
 --- child of MerchantBuyBackItemItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MerchantBuyBackItemItemButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L22)
 --- child of MerchantBuyBackItemItemButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MerchantBuyBackItemItemButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L33)
@@ -1579,7 +1579,7 @@ MerchantBuyBackItemItemButtonNormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L372)
 --- child of MerchantBuyBackItem
---- @class MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemItemButton : Button, ItemButtonTemplate
+--- @class MerchantBuyBackItemItemButton : Button, ItemButtonTemplate
 MerchantBuyBackItemItemButton = {}
 MerchantBuyBackItemItemButton["icon"] = MerchantBuyBackItemItemButtonIconTexture -- inherited
 MerchantBuyBackItemItemButton["Count"] = MerchantBuyBackItemItemButtonCount -- inherited
@@ -1588,27 +1588,27 @@ MerchantBuyBackItemItemButton["subicon"] = MerchantBuyBackItemItemButtonSubIconT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantBuyBackItemMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantBuyBackItemMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantBuyBackItemMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantBuyBackItemMoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantBuyBackItemMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantBuyBackItemMoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantBuyBackItemMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantBuyBackItemMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L401)
 --- child of MerchantBuyBackItem
---- @class MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemMoneyFrame : Frame, SmallMoneyFrameTemplate
+--- @class MerchantBuyBackItemMoneyFrame : Frame, SmallMoneyFrameTemplate
 MerchantBuyBackItemMoneyFrame = {}
 MerchantBuyBackItemMoneyFrame["trialErrorButton"] = MerchantBuyBackItemMoneyFrameTrialErrorButton -- inherited
 MerchantBuyBackItemMoneyFrame["CopperButton"] = MerchantBuyBackItemMoneyFrameCopperButton -- inherited
@@ -1617,24 +1617,24 @@ MerchantBuyBackItemMoneyFrame["GoldButton"] = MerchantBuyBackItemMoneyFrameGoldB
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L351)
 --- child of MerchantBuyBackItem
---- @class MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemSlotTexture : Texture
+--- @class MerchantBuyBackItemSlotTexture : Texture
 MerchantBuyBackItemSlotTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L357)
 --- child of MerchantBuyBackItem
---- @class MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemNameFrame : Texture
+--- @class MerchantBuyBackItemNameFrame : Texture
 MerchantBuyBackItemNameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L363)
 --- child of MerchantBuyBackItem
---- @class MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemName : FontString, GameFontNormalSmall
+--- @class MerchantBuyBackItemName : FontString, GameFontNormalSmall
 MerchantBuyBackItemName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L344)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantBuyBackItem : Frame
---- @field ItemButton MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemItemButton
---- @field Name MerchantFrame_MerchantBuyBackItem_MerchantBuyBackItemName
+--- @class MerchantBuyBackItem : Frame
+--- @field ItemButton MerchantBuyBackItemItemButton
+--- @field Name MerchantBuyBackItemName
 MerchantBuyBackItem = {}
 MerchantBuyBackItem["ItemButton"] = MerchantBuyBackItemItemButton
 MerchantBuyBackItem["Name"] = MerchantBuyBackItemName
@@ -1646,7 +1646,7 @@ MerchantMoneyInsetBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L414)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantMoneyInset : Frame, InsetFrameTemplate
+--- @class MerchantMoneyInset : Frame, InsetFrameTemplate
 MerchantMoneyInset = {}
 MerchantMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 MerchantMoneyInset["Bg"] = MerchantMoneyInsetBg -- inherited
@@ -1668,32 +1668,32 @@ MerchantMoneyBgMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L420)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantMoneyBg : Frame, ThinGoldEdgeTemplate
+--- @class MerchantMoneyBg : Frame, ThinGoldEdgeTemplate
 MerchantMoneyBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L159)
 --- child of MerchantMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 MerchantMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L185)
 --- child of MerchantMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 MerchantMoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L225)
 --- child of MerchantMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 MerchantMoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L265)
 --- child of MerchantMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 MerchantMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L427)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantMoneyFrame : Frame, SmallMoneyFrameTemplate
+--- @class MerchantMoneyFrame : Frame, SmallMoneyFrameTemplate
 MerchantMoneyFrame = {}
 MerchantMoneyFrame["trialErrorButton"] = MerchantMoneyFrameTrialErrorButton -- inherited
 MerchantMoneyFrame["CopperButton"] = MerchantMoneyFrameCopperButton -- inherited
@@ -1702,12 +1702,12 @@ MerchantMoneyFrame["GoldButton"] = MerchantMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L432)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantPrevPageButton : Button
+--- @class MerchantPrevPageButton : Button
 MerchantPrevPageButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L460)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantNextPageButton : Button
+--- @class MerchantNextPageButton : Button
 MerchantNextPageButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L9)
@@ -1747,7 +1747,7 @@ MerchantFrameTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L488)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantFrameTab1 : Button, CharacterFrameTabButtonTemplate
+--- @class MerchantFrameTab1 : Button, CharacterFrameTabButtonTemplate
 MerchantFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L9)
@@ -1787,42 +1787,42 @@ MerchantFrameTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L505)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantFrameTab2 : Button, CharacterFrameTabButtonTemplate
+--- @class MerchantFrameTab2 : Button, CharacterFrameTabButtonTemplate
 MerchantFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L92)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantFramePortrait : Texture
+--- @class MerchantFramePortrait : Texture
 MerchantFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L98)
 --- child of MerchantFrame
---- @class MerchantFrame_BuybackBG : Texture
+--- @class BuybackBG : Texture
 BuybackBG = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L107)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantNameText : FontString, GameFontNormal
+--- @class MerchantNameText : FontString, GameFontNormal
 MerchantNameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L112)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantPageText : FontString, GameFontNormal
+--- @class MerchantPageText : FontString, GameFontNormal
 MerchantPageText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L118)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantRepairText : FontString, GameFontHighlightSmall
+--- @class MerchantRepairText : FontString, GameFontHighlightSmall
 MerchantRepairText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L125)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantFrameBottomLeftBorder : Texture
+--- @class MerchantFrameBottomLeftBorder : Texture
 MerchantFrameBottomLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L132)
 --- child of MerchantFrame
---- @class MerchantFrame_MerchantFrameBottomRightBorder : Texture
+--- @class MerchantFrameBottomRightBorder : Texture
 MerchantFrameBottomRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L805)
@@ -1832,29 +1832,29 @@ MerchantFrameInsetBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L846)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 MerchantFrameInset = {}
 MerchantFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 MerchantFrameInset["Bg"] = MerchantFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L827)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
+--- @type ButtonFrameTemplate_BtnCornerLeft
 MerchantFrameBtnCornerLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L832)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
+--- @type ButtonFrameTemplate_BtnCornerRight
 MerchantFrameBtnCornerRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L837)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
+--- @type ButtonFrameTemplate_ButtonBottomBorder
 MerchantFrameButtonBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L663)
 --- child of MerchantFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 MerchantFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L569)
@@ -1864,7 +1864,7 @@ MerchantFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L575)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+--- @type PortraitFrameTemplateNoCloseButton_TitleBg
 MerchantFrameTitleBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L583)
@@ -1874,57 +1874,57 @@ MerchantFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L591)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 MerchantFramePortraitFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L596)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 MerchantFrameTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L601)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 MerchantFrameTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L606)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+--- @type PortraitFrameTemplateNoCloseButton_TopBorder
 MerchantFrameTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L612)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+--- @type PortraitFrameTemplateNoCloseButton_TitleText
 MerchantFrameTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L621)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+--- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 MerchantFrameTopTileStreaks = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L627)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 MerchantFrameBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L632)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 MerchantFrameBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L637)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+--- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 MerchantFrameBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L643)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+--- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 MerchantFrameLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L649)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+--- @type PortraitFrameTemplateNoCloseButton_RightBorder
 MerchantFrameRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L88)

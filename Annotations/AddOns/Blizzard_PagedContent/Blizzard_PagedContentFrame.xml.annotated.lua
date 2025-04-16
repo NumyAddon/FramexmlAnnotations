@@ -8,4 +8,7 @@
 --- Template
 --- @class PagedContentFrameBaseTemplate : Frame, PagedContentFrameBaseMixin
 --- @field viewsPerPage number # 1
+--- @field autoExpandHeaders boolean # true
+--- @field spacerSize number # 10
+--- @field spacerTemplate string # PagedContentSpacerTemplate
 

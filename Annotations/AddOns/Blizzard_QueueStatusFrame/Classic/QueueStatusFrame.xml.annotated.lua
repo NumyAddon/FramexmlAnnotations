@@ -2,13 +2,13 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L8)
 --- child of QueueStatusRoleCountTemplate
---- @class QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount : FontString, GameFontHighlight
+--- @class QueueStatusRoleCountTemplate_Count : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L3)
 --- Template
 --- @class QueueStatusRoleCountTemplate : Frame
 --- @field RoleIcon Texture
---- @field Count QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount
+--- @field Count QueueStatusRoleCountTemplate_Count
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L83)
 --- child of QueueStatusEntryTemplate

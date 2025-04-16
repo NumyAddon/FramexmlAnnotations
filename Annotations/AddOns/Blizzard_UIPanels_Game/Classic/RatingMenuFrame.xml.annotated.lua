@@ -2,38 +2,39 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L89)
 --- child of RatingMenuFrame
---- @class RatingMenuFrame_RatingMenuButtonOkay : Button, UIPanelButtonTemplate
+--- @class RatingMenuButtonOkay : Button, UIPanelButtonTemplate
 RatingMenuButtonOkay = {}
 RatingMenuButtonOkay["fitTextCanWidthDecrease"] = true -- inherited
+RatingMenuButtonOkay["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L15)
 --- child of RatingMenuFrame
---- @class RatingMenuFrame_RatingMenuFrameHeader : Texture
+--- @class RatingMenuFrameHeader : Texture
 RatingMenuFrameHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L36)
 --- child of RatingMenuFrame
---- @class RatingMenuFrame_RatingMenuAge : Texture
+--- @class RatingMenuAge : Texture
 RatingMenuAge = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L46)
 --- child of RatingMenuFrame
---- @class RatingMenuFrame_RatingMenuFrameText : FontString, GameFontNormal
+--- @class RatingMenuFrameText : FontString, GameFontNormal
 RatingMenuFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L56)
 --- child of RatingMenuFrame
---- @class RatingMenuFrame_RatingMenuDrugs : Texture
+--- @class RatingMenuDrugs : Texture
 RatingMenuDrugs = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L66)
 --- child of RatingMenuFrame
---- @class RatingMenuFrame_RatingMenuViolence : Texture
+--- @class RatingMenuViolence : Texture
 RatingMenuViolence = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L76)
 --- child of RatingMenuFrame
---- @class RatingMenuFrame_RatingMenuCrime : Texture
+--- @class RatingMenuCrime : Texture
 RatingMenuCrime = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L3)

@@ -11,27 +11,27 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L49)
 --- child of RaidInfoInstanceTemplate
---- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateName : FontString, GameFontNormal
+--- @class RaidInfoInstanceTemplate_Name : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L58)
 --- child of RaidInfoInstanceTemplate
---- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateDifficulty : FontString, GameFontHighlightSmall
+--- @class RaidInfoInstanceTemplate_Difficulty : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L67)
 --- child of RaidInfoInstanceTemplate
---- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateReset : FontString, GameFontHighlightSmall
+--- @class RaidInfoInstanceTemplate_Reset : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L76)
 --- child of RaidInfoInstanceTemplate
---- @class RaidInfoInstanceTemplate_RaidInfoInstanceTemplateID : FontString, GameFontDisableSmall
+--- @class RaidInfoInstanceTemplate_ID : FontString, GameFontDisableSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L39)
 --- Template
 --- @class RaidInfoInstanceTemplate : Button, RaidInstanceFrameMixin
---- @field Name RaidInfoInstanceTemplate_RaidInfoInstanceTemplateName
---- @field Difficulty RaidInfoInstanceTemplate_RaidInfoInstanceTemplateDifficulty
---- @field Reset RaidInfoInstanceTemplate_RaidInfoInstanceTemplateReset
---- @field ID RaidInfoInstanceTemplate_RaidInfoInstanceTemplateID
+--- @field Name RaidInfoInstanceTemplate_Name
+--- @field Difficulty RaidInfoInstanceTemplate_Difficulty
+--- @field Reset RaidInfoInstanceTemplate_Reset
+--- @field ID RaidInfoInstanceTemplate_ID
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L9)
 --- child of RaidParentFrameTab1 (created in template CharacterFrameTabButtonTemplate)
@@ -70,7 +70,7 @@ RaidParentFrameTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L96)
 --- child of RaidParentFrame
---- @class RaidParentFrame_RaidParentFrameTab1 : Button, CharacterFrameTabButtonTemplate
+--- @class RaidParentFrameTab1 : Button, CharacterFrameTabButtonTemplate
 RaidParentFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L9)
@@ -110,7 +110,7 @@ RaidParentFrameTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L109)
 --- child of RaidParentFrame
---- @class RaidParentFrame_RaidParentFrameTab2 : Button, CharacterFrameTabButtonTemplate
+--- @class RaidParentFrameTab2 : Button, CharacterFrameTabButtonTemplate
 RaidParentFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L805)
@@ -120,29 +120,29 @@ RaidParentFrameInsetBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L846)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 RaidParentFrameInset = {}
 RaidParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 RaidParentFrameInset["Bg"] = RaidParentFrameInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L827)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
+--- @type ButtonFrameTemplate_BtnCornerLeft
 RaidParentFrameBtnCornerLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L832)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
+--- @type ButtonFrameTemplate_BtnCornerRight
 RaidParentFrameBtnCornerRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L837)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
+--- @type ButtonFrameTemplate_ButtonBottomBorder
 RaidParentFrameButtonBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L663)
 --- child of RaidParentFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 RaidParentFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L569)
@@ -152,7 +152,7 @@ RaidParentFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L575)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+--- @type PortraitFrameTemplateNoCloseButton_TitleBg
 RaidParentFrameTitleBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L583)
@@ -162,57 +162,57 @@ RaidParentFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L591)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 RaidParentFramePortraitFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L596)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 RaidParentFrameTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L601)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 RaidParentFrameTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L606)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+--- @type PortraitFrameTemplateNoCloseButton_TopBorder
 RaidParentFrameTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L612)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+--- @type PortraitFrameTemplateNoCloseButton_TitleText
 RaidParentFrameTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L621)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+--- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 RaidParentFrameTopTileStreaks = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L627)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 RaidParentFrameBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L632)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 RaidParentFrameBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L637)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+--- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 RaidParentFrameBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L643)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+--- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 RaidParentFrameLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L649)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+--- @type PortraitFrameTemplateNoCloseButton_RightBorder
 RaidParentFrameRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L94)
@@ -238,36 +238,38 @@ RaidParentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L476)
 --- child of RaidFrameAllAssistCheckButton (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
+--- @type UICheckButtonTemplate_Text
 RaidFrameAllAssistCheckButtonText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L142)
 --- child of RaidFrame
---- @class RaidFrame_RaidFrameAllAssistCheckButton : CheckButton, UICheckButtonTemplate
+--- @class RaidFrameAllAssistCheckButton : CheckButton, UICheckButtonTemplate
 RaidFrameAllAssistCheckButton = {}
 RaidFrameAllAssistCheckButton["Text"] = RaidFrameAllAssistCheckButtonText -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L182)
 --- child of RaidFrameNotInRaid
---- @class RaidFrame_RaidFrameNotInRaid_RaidFrameRaidDescription : FontString, GameFontNormal
+--- @class RaidFrameRaidDescription : FontString, GameFontNormal
 RaidFrameRaidDescription = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L179)
 --- child of RaidFrame
---- @class RaidFrame_RaidFrameNotInRaid : Frame
+--- @class RaidFrameNotInRaid : Frame
 RaidFrameNotInRaid = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L191)
 --- child of RaidFrame
---- @class RaidFrame_RaidFrameConvertToRaidButton : Button, UIPanelButtonTemplate
+--- @class RaidFrameConvertToRaidButton : Button, UIPanelButtonTemplate
 RaidFrameConvertToRaidButton = {}
 RaidFrameConvertToRaidButton["fitTextCanWidthDecrease"] = true -- inherited
+RaidFrameConvertToRaidButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L203)
 --- child of RaidFrame
---- @class RaidFrame_RaidFrameRaidInfoButton : Button, UIPanelButtonTemplate
+--- @class RaidFrameRaidInfoButton : Button, UIPanelButtonTemplate
 RaidFrameRaidInfoButton = {}
 RaidFrameRaidInfoButton["fitTextCanWidthDecrease"] = true -- inherited
+RaidFrameRaidInfoButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L6)
 --- child of RaidInfoInstanceLabel (created in template RaidInfoHeaderTemplate)
@@ -286,7 +288,7 @@ RaidInfoInstanceLabelMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L291)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_RaidInfoInstanceLabel : Frame, RaidInfoHeaderTemplate
+--- @class RaidInfoInstanceLabel : Frame, RaidInfoHeaderTemplate
 RaidInfoInstanceLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L6)
@@ -306,61 +308,62 @@ RaidInfoIDLabelMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L308)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_RaidInfoIDLabel : Frame, RaidInfoHeaderTemplate
+--- @class RaidInfoIDLabel : Frame, RaidInfoHeaderTemplate
 RaidInfoIDLabel = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L325)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_RaidInfoCloseButton : Button, UIPanelCloseButton
+--- @class RaidInfoCloseButton : Button, UIPanelCloseButton
 RaidInfoCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L330)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_ScrollBox : Frame, WowScrollBoxList
+--- @class RaidInfoFrame_ScrollBox : Frame, WowScrollBoxList
 --- @field wheelPanScalar number # 0.35
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L345)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_ScrollBar : EventFrame, WowClassicScrollBar
+--- @class RaidInfoFrame_ScrollBar : EventFrame, WowClassicScrollBar
 --- @field wheelPanScalar number # 0.35
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L354)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_RaidInfoCancelButton : Button, UIPanelButtonTemplate
+--- @class RaidInfoCancelButton : Button, UIPanelButtonTemplate
 RaidInfoCancelButton = {}
 RaidInfoCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+RaidInfoCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L231)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_RaidInfoDetailHeader : Texture
+--- @class RaidInfoDetailHeader : Texture
 RaidInfoDetailHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L244)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_RaidInfoDetailFooter : Texture
+--- @class RaidInfoDetailFooter : Texture
 RaidInfoDetailFooter = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L259)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_RaidInfoDetailCorner : Texture
+--- @class RaidInfoDetailCorner : Texture
 RaidInfoDetailCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L271)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_RaidInfoFrameHeader : Texture
+--- @class RaidInfoFrameHeader : Texture
 RaidInfoFrameHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L279)
 --- child of RaidInfoFrame
---- @class RaidFrame_RaidInfoFrame_RaidInfoHeader : FontString, GameFontNormal
+--- @class RaidInfoHeader : FontString, GameFontNormal
 RaidInfoHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/RaidFrame.xml#L221)
 --- child of RaidFrame
---- @class RaidFrame_RaidInfoFrame : Frame, BackdropTemplate, RaidInfoFrameMixin
+--- @class RaidInfoFrame : Frame, BackdropTemplate, RaidInfoFrameMixin
 --- @field backdropInfo any # BACKDROP_DARK_DIALOG_32_32
---- @field ScrollBox RaidFrame_RaidInfoFrame_ScrollBox
---- @field ScrollBar RaidFrame_RaidInfoFrame_ScrollBar
+--- @field ScrollBox RaidInfoFrame_ScrollBox
+--- @field ScrollBar RaidInfoFrame_ScrollBar
 RaidInfoFrame = {}
 RaidInfoFrame["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32
 

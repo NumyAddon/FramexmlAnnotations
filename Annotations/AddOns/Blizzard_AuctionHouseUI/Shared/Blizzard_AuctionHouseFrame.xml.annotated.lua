@@ -70,10 +70,10 @@ AuctionHouseFrameBuyTabHighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L44)
 --- child of AuctionHouseFrame
---- @class AuctionHouseFrame_AuctionHouseFrameBuyTab : Button, AuctionHouseFrameDisplayModeTabTemplate
+--- @class AuctionHouseFrameBuyTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.Buy
 AuctionHouseFrameBuyTab = {}
-AuctionHouseFrameBuyTab["displayMode"] = AuctionHouseFrameDisplayMode.Buy
+AuctionHouseFrameBuyTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.Buy"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L9)
 --- child of AuctionHouseFrameSellTab (created in template CharacterFrameTabButtonTemplate)
@@ -112,10 +112,10 @@ AuctionHouseFrameSellTabHighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L52)
 --- child of AuctionHouseFrame
---- @class AuctionHouseFrame_AuctionHouseFrameSellTab : Button, AuctionHouseFrameDisplayModeTabTemplate
+--- @class AuctionHouseFrameSellTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.ItemSell
 AuctionHouseFrameSellTab = {}
-AuctionHouseFrameSellTab["displayMode"] = AuctionHouseFrameDisplayMode.ItemSell
+AuctionHouseFrameSellTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.ItemSell"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L9)
 --- child of AuctionHouseFrameAuctionsTab (created in template CharacterFrameTabButtonTemplate)
@@ -154,10 +154,10 @@ AuctionHouseFrameAuctionsTabHighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L60)
 --- child of AuctionHouseFrame
---- @class AuctionHouseFrame_AuctionHouseFrameAuctionsTab : Button, AuctionHouseFrameDisplayModeTabTemplate
+--- @class AuctionHouseFrameAuctionsTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.Auctions
 AuctionHouseFrameAuctionsTab = {}
-AuctionHouseFrameAuctionsTab["displayMode"] = AuctionHouseFrameDisplayMode.Auctions
+AuctionHouseFrameAuctionsTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.Auctions"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L71)
 --- child of AuctionHouseFrame
@@ -233,29 +233,29 @@ GameTimeTutorialInsetBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L846)
 --- child of GameTimeTutorial (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 GameTimeTutorialInset = {}
 GameTimeTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
 GameTimeTutorialInset["Bg"] = GameTimeTutorialInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L827)
 --- child of GameTimeTutorial (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerLeft
+--- @type ButtonFrameTemplate_BtnCornerLeft
 GameTimeTutorialBtnCornerLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L832)
 --- child of GameTimeTutorial (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateBtnCornerRight
+--- @type ButtonFrameTemplate_BtnCornerRight
 GameTimeTutorialBtnCornerRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L837)
 --- child of GameTimeTutorial (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateButtonBottomBorder
+--- @type ButtonFrameTemplate_ButtonBottomBorder
 GameTimeTutorialButtonBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L663)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 GameTimeTutorialCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L569)
@@ -265,7 +265,7 @@ GameTimeTutorialBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L575)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+--- @type PortraitFrameTemplateNoCloseButton_TitleBg
 GameTimeTutorialTitleBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L583)
@@ -275,57 +275,57 @@ GameTimeTutorialPortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L591)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 GameTimeTutorialPortraitFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L596)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 GameTimeTutorialTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L601)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 GameTimeTutorialTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L606)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+--- @type PortraitFrameTemplateNoCloseButton_TopBorder
 GameTimeTutorialTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L612)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+--- @type PortraitFrameTemplateNoCloseButton_TitleText
 GameTimeTutorialTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L621)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+--- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 GameTimeTutorialTopTileStreaks = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L627)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 GameTimeTutorialBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L632)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 GameTimeTutorialBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L637)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+--- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 GameTimeTutorialBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L643)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+--- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 GameTimeTutorialLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L649)
 --- child of GameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+--- @type PortraitFrameTemplateNoCloseButton_RightBorder
 GameTimeTutorialRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L36)
@@ -369,7 +369,11 @@ GameTimeTutorial["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L126)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_ItemSellList : Frame, AuctionHouseItemListTemplate
---- @field backgroundAtlas string # "auctionhouse-background-sell-right"
+--- @field backgroundAtlas string # auctionhouse-background-sell-right
+--- @field textureWidthClassic number # 399
+--- @field textureHeightClassic number # 419
+--- @field refreshFrameXOffset number # -4
+--- @field refreshFrameYOffset number # 30
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L141)
 --- child of AuctionHouseFrame
@@ -420,7 +424,7 @@ AuctionHouseFrameAuctionsFrameAuctionsTabHighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L56)
 --- child of AuctionHouseFrameAuctionsFrame (created in template AuctionHouseAuctionsFrameTemplate)
---- @type AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateAuctionsTab
+--- @type AuctionHouseAuctionsFrameTemplate_AuctionsTab
 AuctionHouseFrameAuctionsFrameAuctionsTab = {}
 AuctionHouseFrameAuctionsFrameAuctionsTab["LeftDisabled"] = AuctionHouseFrameAuctionsFrameAuctionsTabLeftDisabled -- inherited
 AuctionHouseFrameAuctionsFrameAuctionsTab["MiddleDisabled"] = AuctionHouseFrameAuctionsFrameAuctionsTabMiddleDisabled -- inherited
@@ -467,7 +471,7 @@ AuctionHouseFrameAuctionsFrameBidsTabHighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L62)
 --- child of AuctionHouseFrameAuctionsFrame (created in template AuctionHouseAuctionsFrameTemplate)
---- @type AuctionHouseAuctionsFrameTemplate_AuctionHouseAuctionsFrameTemplateBidsTab
+--- @type AuctionHouseAuctionsFrameTemplate_BidsTab
 AuctionHouseFrameAuctionsFrameBidsTab = {}
 AuctionHouseFrameAuctionsFrameBidsTab["LeftDisabled"] = AuctionHouseFrameAuctionsFrameBidsTabLeftDisabled -- inherited
 AuctionHouseFrameAuctionsFrameBidsTab["MiddleDisabled"] = AuctionHouseFrameAuctionsFrameBidsTabMiddleDisabled -- inherited
@@ -479,7 +483,7 @@ AuctionHouseFrameAuctionsFrameBidsTab["HighlightTexture"] = AuctionHouseFrameAuc
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L163)
 --- child of AuctionHouseFrame
---- @class AuctionHouseFrame_AuctionHouseFrameAuctionsFrame : Frame, AuctionHouseAuctionsFrameTemplate
+--- @class AuctionHouseFrameAuctionsFrame : Frame, AuctionHouseAuctionsFrameTemplate
 AuctionHouseFrameAuctionsFrame = {}
 AuctionHouseFrameAuctionsFrame["AuctionsTab"] = AuctionHouseFrameAuctionsFrameAuctionsTab -- inherited
 AuctionHouseFrameAuctionsFrame["BidsTab"] = AuctionHouseFrameAuctionsFrameBidsTab -- inherited
@@ -492,10 +496,12 @@ AuctionHouseFrameAuctionsFrame["BidsTab"] = AuctionHouseFrameAuctionsFrameBidsTa
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_DummyMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field useAuctionHouseCopperValue boolean # true
+--- @field useAuctionHouseIcons boolean # true
+--- @field resizeToFit boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L663)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 AuctionHouseFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L569)
@@ -505,7 +511,7 @@ AuctionHouseFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L575)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+--- @type PortraitFrameTemplateNoCloseButton_TitleBg
 AuctionHouseFrameTitleBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L583)
@@ -515,66 +521,66 @@ AuctionHouseFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L591)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 AuctionHouseFramePortraitFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L596)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 AuctionHouseFrameTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L601)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 AuctionHouseFrameTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L606)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+--- @type PortraitFrameTemplateNoCloseButton_TopBorder
 AuctionHouseFrameTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L612)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+--- @type PortraitFrameTemplateNoCloseButton_TitleText
 AuctionHouseFrameTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L621)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+--- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 AuctionHouseFrameTopTileStreaks = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L627)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 AuctionHouseFrameBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L632)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 AuctionHouseFrameBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L637)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+--- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 AuctionHouseFrameBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L643)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+--- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 AuctionHouseFrameLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L649)
 --- child of AuctionHouseFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+--- @type PortraitFrameTemplateNoCloseButton_RightBorder
 AuctionHouseFrameRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L4)
 --- @class AuctionHouseFrame : Frame, PortraitFrameTemplate, AuctionHouseFrameMixin
 --- @field MoneyFrameInset AuctionHouseFrame_MoneyFrameInset
 --- @field MoneyFrameBorder AuctionHouseFrame_MoneyFrameBorder
---- @field BuyTab AuctionHouseFrame_AuctionHouseFrameBuyTab
---- @field SellTab AuctionHouseFrame_AuctionHouseFrameSellTab
---- @field AuctionsTab AuctionHouseFrame_AuctionHouseFrameAuctionsTab
+--- @field BuyTab AuctionHouseFrameBuyTab
+--- @field SellTab AuctionHouseFrameSellTab
+--- @field AuctionsTab AuctionHouseFrameAuctionsTab
 --- @field SearchBar AuctionHouseFrame_SearchBar
 --- @field CategoriesList AuctionHouseFrame_CategoriesList
 --- @field BrowseResultsFrame AuctionHouseFrame_BrowseResultsFrame
@@ -586,11 +592,11 @@ AuctionHouseFrameRightBorder = {}
 --- @field CommoditiesSellFrame AuctionHouseFrame_CommoditiesSellFrame
 --- @field CommoditiesSellList AuctionHouseFrame_CommoditiesSellList
 --- @field WoWTokenSellFrame AuctionHouseFrame_WoWTokenSellFrame
---- @field AuctionsFrame AuctionHouseFrame_AuctionHouseFrameAuctionsFrame
+--- @field AuctionsFrame AuctionHouseFrameAuctionsFrame
 --- @field DialogOverlay Button
 --- @field BuyDialog AuctionHouseFrame_BuyDialog
 --- @field DummyMoneyDisplayFrame AuctionHouseFrame_DummyMoneyDisplayFrame
---- @field Tabs table<number, AuctionHouseFrame_AuctionHouseFrameBuyTab | AuctionHouseFrame_AuctionHouseFrameSellTab | AuctionHouseFrame_AuctionHouseFrameAuctionsTab>
+--- @field Tabs table<number, AuctionHouseFrameBuyTab | AuctionHouseFrameSellTab | AuctionHouseFrameAuctionsTab>
 AuctionHouseFrame = {}
 AuctionHouseFrame["BuyTab"] = AuctionHouseFrameBuyTab
 AuctionHouseFrame["SellTab"] = AuctionHouseFrameSellTab

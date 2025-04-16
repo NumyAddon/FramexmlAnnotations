@@ -114,7 +114,7 @@ EncounterBar["align"] = "center" -- inherited
 EncounterBar["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 EncounterBar["isBottomManagedFrame"] = true -- inherited
 EncounterBar["isManagedFrame"] = true -- inherited
-EncounterBar["system"] = _G["Enum.EditModeSystem.EncounterBar"] -- inherited
+EncounterBar["system"] = Enum.EditModeSystem.EncounterBar -- inherited
 EncounterBar["systemNameString"] = HUD_EDIT_MODE_ENCOUNTER_BAR_LABEL -- inherited
 EncounterBar["defaultHideSelection"] = true -- inherited
 

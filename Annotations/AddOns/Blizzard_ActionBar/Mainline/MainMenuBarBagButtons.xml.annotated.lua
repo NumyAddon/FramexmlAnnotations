@@ -82,7 +82,7 @@ CharacterReagentBag0Slot["quickKeybindHighlightAtlas"] = "QuickKeybind-Bag-Iconf
 --- @field direction any # Enum.BagsDirection.Left
 BagsBar = {}
 BagsBar["isHorizontal"] = true
-BagsBar["direction"] = _G["Enum.BagsDirection.Left"]
-BagsBar["system"] = _G["Enum.EditModeSystem.Bags"] -- inherited
+BagsBar["direction"] = Enum.BagsDirection.Left
+BagsBar["system"] = Enum.EditModeSystem.Bags -- inherited
 BagsBar["systemNameString"] = HUD_EDIT_MODE_BAGS_LABEL -- inherited
 

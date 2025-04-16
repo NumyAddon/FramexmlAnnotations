@@ -134,10 +134,10 @@
 --- @field layoutIndex number # 10
 --- @field ignoreInLayoutWhenActionBarIsOverriden boolean # true
 EssentialCooldownViewer = {}
-EssentialCooldownViewer["systemIndex"] = _G["Enum.EditModeCooldownViewerSystemIndices.Essential"]
+EssentialCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.Essential
 EssentialCooldownViewer["systemNameString"] = HUD_EDIT_MODE_SYSTEM_ESSENTIAL_COOLDOWNS
 EssentialCooldownViewer["itemTemplate"] = "CooldownViewerEssentialItemTemplate"
-EssentialCooldownViewer["cooldownViewerCategory"] = _G["Enum.CooldownViewerCategory.Essential"]
+EssentialCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.Essential
 EssentialCooldownViewer["layoutIndex"] = 10
 EssentialCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
 EssentialCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
@@ -145,7 +145,7 @@ EssentialCooldownViewer["align"] = "center" -- inherited
 EssentialCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 EssentialCooldownViewer["isBottomManagedFrame"] = true -- inherited
 EssentialCooldownViewer["isManagedFrame"] = true -- inherited
-EssentialCooldownViewer["system"] = _G["Enum.EditModeSystem.CooldownViewer"] -- inherited
+EssentialCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 EssentialCooldownViewer["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L289)
@@ -157,10 +157,10 @@ EssentialCooldownViewer["defaultHideSelection"] = true -- inherited
 --- @field layoutIndex number # 11
 --- @field ignoreInLayoutWhenActionBarIsOverriden boolean # true
 UtilityCooldownViewer = {}
-UtilityCooldownViewer["systemIndex"] = _G["Enum.EditModeCooldownViewerSystemIndices.Utility"]
+UtilityCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.Utility
 UtilityCooldownViewer["systemNameString"] = HUD_EDIT_MODE_SYSTEM_UTILITY_COOLDOWNS
 UtilityCooldownViewer["itemTemplate"] = "CooldownViewerUtilityItemTemplate"
-UtilityCooldownViewer["cooldownViewerCategory"] = _G["Enum.CooldownViewerCategory.Utility"]
+UtilityCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.Utility
 UtilityCooldownViewer["layoutIndex"] = 11
 UtilityCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
 UtilityCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
@@ -168,7 +168,7 @@ UtilityCooldownViewer["align"] = "center" -- inherited
 UtilityCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 UtilityCooldownViewer["isBottomManagedFrame"] = true -- inherited
 UtilityCooldownViewer["isManagedFrame"] = true -- inherited
-UtilityCooldownViewer["system"] = _G["Enum.EditModeSystem.CooldownViewer"] -- inherited
+UtilityCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 UtilityCooldownViewer["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L306)
@@ -182,10 +182,10 @@ UtilityCooldownViewer["defaultHideSelection"] = true -- inherited
 --- @field ignoreInLayoutWhenActionBarIsOverriden boolean # true
 --- @field defaultReservedMinimumHeight number # 40
 BuffIconCooldownViewer = {}
-BuffIconCooldownViewer["systemIndex"] = _G["Enum.EditModeCooldownViewerSystemIndices.BuffIcon"]
+BuffIconCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.BuffIcon
 BuffIconCooldownViewer["systemNameString"] = HUD_EDIT_MODE_SYSTEM_TRACKED_BUFFS
 BuffIconCooldownViewer["itemTemplate"] = "CooldownViewerBuffIconItemTemplate"
-BuffIconCooldownViewer["cooldownViewerCategory"] = _G["Enum.CooldownViewerCategory.TrackedBuff"]
+BuffIconCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.TrackedBuff
 BuffIconCooldownViewer["itemActiveStateChangedEvent"] = "CooldownViewerItem.Buff.ItemActiveStateChanged"
 BuffIconCooldownViewer["layoutIndex"] = 9
 BuffIconCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
@@ -195,7 +195,7 @@ BuffIconCooldownViewer["align"] = "center" -- inherited
 BuffIconCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 BuffIconCooldownViewer["isBottomManagedFrame"] = true -- inherited
 BuffIconCooldownViewer["isManagedFrame"] = true -- inherited
-BuffIconCooldownViewer["system"] = _G["Enum.EditModeSystem.CooldownViewer"] -- inherited
+BuffIconCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 BuffIconCooldownViewer["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L325)
@@ -206,11 +206,11 @@ BuffIconCooldownViewer["defaultHideSelection"] = true -- inherited
 --- @field cooldownViewerCategory any # Enum.CooldownViewerCategory.TrackedBar
 --- @field itemActiveStateChangedEvent string # CooldownViewerItem.BuffBar.ItemActiveStateChanged
 BuffBarCooldownViewer = {}
-BuffBarCooldownViewer["systemIndex"] = _G["Enum.EditModeCooldownViewerSystemIndices.BuffBar"]
+BuffBarCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.BuffBar
 BuffBarCooldownViewer["systemNameString"] = HUD_EDIT_MODE_SYSTEM_TRACKED_BUFF_BARS
 BuffBarCooldownViewer["itemTemplate"] = "CooldownViewerBuffBarItemTemplate"
-BuffBarCooldownViewer["cooldownViewerCategory"] = _G["Enum.CooldownViewerCategory.TrackedBar"]
+BuffBarCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.TrackedBar
 BuffBarCooldownViewer["itemActiveStateChangedEvent"] = "CooldownViewerItem.BuffBar.ItemActiveStateChanged"
-BuffBarCooldownViewer["system"] = _G["Enum.EditModeSystem.CooldownViewer"] -- inherited
+BuffBarCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 BuffBarCooldownViewer["defaultHideSelection"] = true -- inherited
 

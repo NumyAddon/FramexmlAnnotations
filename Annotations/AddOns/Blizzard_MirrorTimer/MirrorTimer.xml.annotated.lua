@@ -17,7 +17,7 @@
 --- @class MirrorTimerContainer : Frame, EditModeTimerBarsSystemTemplate, VerticalLayoutFrame, MirrorTimerContainerMixin
 --- @field mirrorTimers table<number, MirrorTimerTemplate>
 MirrorTimerContainer = {}
-MirrorTimerContainer["system"] = _G["Enum.EditModeSystem.TimerBars"] -- inherited
+MirrorTimerContainer["system"] = Enum.EditModeSystem.TimerBars -- inherited
 MirrorTimerContainer["systemNameString"] = HUD_EDIT_MODE_TIMER_BARS_LABEL -- inherited
 MirrorTimerContainer["defaultHideSelection"] = true -- inherited
 

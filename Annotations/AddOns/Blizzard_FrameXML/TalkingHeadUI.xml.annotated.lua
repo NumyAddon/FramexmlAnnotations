@@ -131,7 +131,7 @@ TalkingHeadFrame["align"] = "center" -- inherited
 TalkingHeadFrame["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 TalkingHeadFrame["isBottomManagedFrame"] = true -- inherited
 TalkingHeadFrame["isManagedFrame"] = true -- inherited
-TalkingHeadFrame["system"] = _G["Enum.EditModeSystem.TalkingHeadFrame"] -- inherited
+TalkingHeadFrame["system"] = Enum.EditModeSystem.TalkingHeadFrame -- inherited
 TalkingHeadFrame["systemNameString"] = HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL -- inherited
 TalkingHeadFrame["defaultHideSelection"] = true -- inherited
 

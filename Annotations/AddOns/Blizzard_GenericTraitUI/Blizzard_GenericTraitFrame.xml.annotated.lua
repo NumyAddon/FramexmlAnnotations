@@ -60,7 +60,7 @@
 --- @field Background Texture
 --- @field BorderOverlay Texture
 GenericTraitFrame = {}
-GenericTraitFrame["getEdgeTemplateType"] = _G["GenericTraitUtil.GetEdgeTemplateType"]
+GenericTraitFrame["getEdgeTemplateType"] = GenericTraitUtil.GetEdgeTemplateType
 GenericTraitFrame["topPadding"] = 22
 GenericTraitFrame["leftPadding"] = 3
 GenericTraitFrame["bottomPadding"] = 3
@@ -68,10 +68,10 @@ GenericTraitFrame["rightPadding"] = 3
 GenericTraitFrame["basePanOffsetX"] = 0
 GenericTraitFrame["basePanOffsetY"] = 0
 GenericTraitFrame["disabledOverlayAlpha"] = 0
-GenericTraitFrame["defaultSelectSound"] = _G["SOUNDKIT.UI_CLASS_TALENT_LEARN_TALENT"]
-GenericTraitFrame["defaultDeselectSound"] = _G["SOUNDKIT.UI_CLASS_TALENT_NODE_REFUND"]
-GenericTraitFrame["getTemplateType"] = _G["TalentButtonUtil.GetTemplateForTalentType"] -- inherited
-GenericTraitFrame["getSpecializedMixin"] = _G["TalentButtonUtil.GetSpecializedMixin"] -- inherited
+GenericTraitFrame["defaultSelectSound"] = SOUNDKIT.UI_CLASS_TALENT_LEARN_TALENT
+GenericTraitFrame["defaultDeselectSound"] = SOUNDKIT.UI_CLASS_TALENT_NODE_REFUND
+GenericTraitFrame["getTemplateType"] = TalentButtonUtil.GetTemplateForTalentType -- inherited
+GenericTraitFrame["getSpecializedMixin"] = TalentButtonUtil.GetSpecializedMixin -- inherited
 GenericTraitFrame["buttonSize"] = 40 -- inherited
 GenericTraitFrame["enableZoomAndPan"] = true -- inherited
 GenericTraitFrame["excludeStagedChangesForCurrencies"] = false -- inherited

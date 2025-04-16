@@ -1020,5 +1020,5 @@ GarrisonShipyardFrame = {}
 GarrisonShipyardFrame["Tab1"] = GarrisonShipyardFrameTab1
 GarrisonShipyardFrame["Tab2"] = GarrisonShipyardFrameTab2
 GarrisonShipyardFrame["FollowerList"] = GarrisonShipyardFrameFollowers
-GarrisonShipyardFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_6_0_Boat"]
+GarrisonShipyardFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_6_0_Boat
 

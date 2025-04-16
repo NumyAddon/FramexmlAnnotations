@@ -55,10 +55,10 @@ CompactRaidFrameContainerBorderFrame = {}
 --- @field borderFrame CompactRaidFrameContainerBorderFrame
 CompactRaidFrameContainer = {}
 CompactRaidFrameContainer["borderFrame"] = CompactRaidFrameContainerBorderFrame
-CompactRaidFrameContainer["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Raid"]
+CompactRaidFrameContainer["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Raid
 CompactRaidFrameContainer["systemNameString"] = HUD_EDIT_MODE_RAID_FRAMES_LABEL
 CompactRaidFrameContainer["defaultHideSelection"] = true
 CompactRaidFrameContainer["breakSnappedFramesOnSave"] = true
 CompactRaidFrameContainer["alwaysUseTopLeftAnchor"] = true
-CompactRaidFrameContainer["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
+CompactRaidFrameContainer["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 

@@ -21,11 +21,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L158)
 --- child of NavBarTemplate
---- @class NavBarTemplate_NavBarTemplateOverflowButton : DropdownButton
+--- @class NavBarTemplate_OverflowButton : DropdownButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L175)
 --- child of NavBarTemplate
---- @class NavBarTemplate_NavBarTemplateHomeButton : Button
+--- @class NavBarTemplate_HomeButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L217)
 --- child of NavBarTemplate
@@ -36,7 +36,7 @@
 --- Adds itself to the parent with key `navBar`
 --- @class NavBarTemplate : Frame
 --- @field overlay NavBarTemplate_overlay
---- @field overflow NavBarTemplate_NavBarTemplateOverflowButton
---- @field home NavBarTemplate_NavBarTemplateHomeButton
+--- @field overflow NavBarTemplate_OverflowButton
+--- @field home NavBarTemplate_HomeButton
 --- @field KioskOverlay NavBarTemplate_KioskOverlay
 

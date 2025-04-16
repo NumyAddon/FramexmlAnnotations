@@ -27,27 +27,27 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L188)
 --- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
---- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_TextFrameBg : Texture, QuestPortrait-MrBrownstone
+--- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_TextFrameBg : Texture, QuestPortrait_MrBrownstone
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L194)
 --- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
---- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderBottomLeft : Texture, UI-Frame-BotCornerLeft
+--- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderBottomLeft : Texture, UI_Frame_BotCornerLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L199)
 --- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
---- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderBottomRight : Texture, UI-Frame-BotCornerRight
+--- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderBottomRight : Texture, UI_Frame_BotCornerRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L204)
 --- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
---- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderBottom : Texture, _UI-Frame-Bot
+--- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderBottom : Texture, _UI_Frame_Bot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L210)
 --- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
---- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderLeft : Texture, !UI-Frame-LeftTile
+--- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderLeft : Texture, _UI_Frame_LeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L216)
 --- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
---- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderRight : Texture, !UI-Frame-RightTile
+--- @class CommunitiesGuildNewsBossModelTemplate_TextFrame_BorderRight : Texture, _UI_Frame_RightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L222)
 --- child of CommunitiesGuildNewsBossModelTemplate_TextFrame
@@ -66,39 +66,39 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L92)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_Bg : Texture, QuestPortrait-MrBrownstone
+--- @class CommunitiesGuildNewsBossModelTemplate_Bg : Texture, QuestPortrait_MrBrownstone
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L102)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_TopBg : Texture, QuestPortrait-StoneSwirls-Top
+--- @class CommunitiesGuildNewsBossModelTemplate_TopBg : Texture, QuestPortrait_StoneSwirls_Top
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L109)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_BorderBottomLeft : Texture, UI-Frame-BotCornerLeft
+--- @class CommunitiesGuildNewsBossModelTemplate_BorderBottomLeft : Texture, UI_Frame_BotCornerLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L114)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_BorderBottomRight : Texture, UI-Frame-BotCornerRight
+--- @class CommunitiesGuildNewsBossModelTemplate_BorderBottomRight : Texture, UI_Frame_BotCornerRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L119)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_BorderTop : Texture, _UI-Frame-TitleTile
+--- @class CommunitiesGuildNewsBossModelTemplate_BorderTop : Texture, _UI_Frame_TitleTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L125)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_BorderBottom : Texture, _UI-Frame-Bot
+--- @class CommunitiesGuildNewsBossModelTemplate_BorderBottom : Texture, _UI_Frame_Bot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L131)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_BorderLeft : Texture, !UI-Frame-LeftTile
+--- @class CommunitiesGuildNewsBossModelTemplate_BorderLeft : Texture, _UI_Frame_LeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L137)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_BorderRight : Texture, !UI-Frame-RightTile
+--- @class CommunitiesGuildNewsBossModelTemplate_BorderRight : Texture, _UI_Frame_RightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L145)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_Nameplate : Texture, QuestPortrait-Nameplate
+--- @class CommunitiesGuildNewsBossModelTemplate_Nameplate : Texture, QuestPortrait_Nameplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L150)
 --- child of CommunitiesGuildNewsBossModelTemplate
@@ -106,19 +106,19 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L158)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_CornerTopLeft : Texture, QuestPortrait-Corner_UL
+--- @class CommunitiesGuildNewsBossModelTemplate_CornerTopLeft : Texture, QuestPortrait_Corner_UL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L163)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_CornerTopRight : Texture, QuestPortrait-Corner_UR
+--- @class CommunitiesGuildNewsBossModelTemplate_CornerTopRight : Texture, QuestPortrait_Corner_UR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L168)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_CornerBottomLeft : Texture, QuestPortrait-Corner_BL
+--- @class CommunitiesGuildNewsBossModelTemplate_CornerBottomLeft : Texture, QuestPortrait_Corner_BL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L173)
 --- child of CommunitiesGuildNewsBossModelTemplate
---- @class CommunitiesGuildNewsBossModelTemplate_CornerBottomRight : Texture, QuestPortrait-Corner_BR
+--- @class CommunitiesGuildNewsBossModelTemplate_CornerBottomRight : Texture, QuestPortrait_Corner_BR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L88)
 --- Template
@@ -227,42 +227,42 @@ CommunitiesGuildNewsFiltersFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1340)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
---- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopLeftCorner
+--- @type TranslucentFrameTemplate_TopLeftCorner
 CommunitiesGuildNewsFiltersFrameTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1345)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
---- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopRightCorner
+--- @type TranslucentFrameTemplate_TopRightCorner
 CommunitiesGuildNewsFiltersFrameTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1350)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
---- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomLeftCorner
+--- @type TranslucentFrameTemplate_BottomLeftCorner
 CommunitiesGuildNewsFiltersFrameBottomLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1355)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
---- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomRightCorner
+--- @type TranslucentFrameTemplate_BottomRightCorner
 CommunitiesGuildNewsFiltersFrameBottomRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1360)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
---- @type TranslucentFrameTemplate_TranslucentFrameTemplateTopBorder
+--- @type TranslucentFrameTemplate_TopBorder
 CommunitiesGuildNewsFiltersFrameTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1366)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
---- @type TranslucentFrameTemplate_TranslucentFrameTemplateBottomBorder
+--- @type TranslucentFrameTemplate_BottomBorder
 CommunitiesGuildNewsFiltersFrameBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1372)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
---- @type TranslucentFrameTemplate_TranslucentFrameTemplateLeftBorder
+--- @type TranslucentFrameTemplate_LeftBorder
 CommunitiesGuildNewsFiltersFrameLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1378)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
---- @type TranslucentFrameTemplate_TranslucentFrameTemplateRightBorder
+--- @type TranslucentFrameTemplate_RightBorder
 CommunitiesGuildNewsFiltersFrameRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L385)

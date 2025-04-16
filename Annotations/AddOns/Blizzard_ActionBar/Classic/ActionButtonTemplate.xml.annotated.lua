@@ -14,35 +14,35 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L94)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateShine : Frame, AutoCastShineTemplate
+--- @class ActionButtonTemplate_Shine : Frame, AutoCastShineTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L100)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateCooldown : Cooldown, CooldownFrameTemplate
+--- @class ActionButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L27)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateFlyoutBorder : Texture, ActionBarFlyoutButton-IconFrame
+--- @class ActionButtonTemplate_FlyoutBorder : Texture, ActionBarFlyoutButton_IconFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L32)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow : Texture, ActionBarFlyoutButton-IconShadow
+--- @class ActionButtonTemplate_FlyoutBorderShadow : Texture, ActionBarFlyoutButton_IconShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L39)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateFlyoutArrow : Texture, ActionBarFlyoutButton-ArrowUp
+--- @class ActionButtonTemplate_FlyoutArrow : Texture, ActionBarFlyoutButton_ArrowUp
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L40)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateHotKey : FontString, LetterAndNumberFontNormalSmallGray
+--- @class ActionButtonTemplate_HotKey : FontString, LetterAndNumberFontNormalSmallGray
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L46)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateCount : FontString, NumberFontNormal
+--- @class ActionButtonTemplate_Count : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L53)
 --- child of ActionButtonTemplate
---- @class ActionButtonTemplate_ActionButtonTemplateName : FontString, GameFontHighlightSmallOutline
+--- @class ActionButtonTemplate_Name : FontString, GameFontHighlightSmallOutline
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L88)
 --- child of ActionButtonTemplate
@@ -51,16 +51,16 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L17)
 --- Template
 --- @class ActionButtonTemplate : CheckButton
---- @field AutoCastShine ActionButtonTemplate_ActionButtonTemplateShine
---- @field cooldown ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @field AutoCastShine ActionButtonTemplate_Shine
+--- @field cooldown ActionButtonTemplate_Cooldown
 --- @field icon Texture
 --- @field Flash Texture
---- @field FlyoutBorder ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
---- @field FlyoutBorderShadow ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
---- @field FlyoutArrow ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
---- @field HotKey ActionButtonTemplate_ActionButtonTemplateHotKey
---- @field Count ActionButtonTemplate_ActionButtonTemplateCount
---- @field Name ActionButtonTemplate_ActionButtonTemplateName
+--- @field FlyoutBorder ActionButtonTemplate_FlyoutBorder
+--- @field FlyoutBorderShadow ActionButtonTemplate_FlyoutBorderShadow
+--- @field FlyoutArrow ActionButtonTemplate_FlyoutArrow
+--- @field HotKey ActionButtonTemplate_HotKey
+--- @field Count ActionButtonTemplate_Count
+--- @field Name ActionButtonTemplate_Name
 --- @field Border Texture
 --- @field NewActionTexture Texture
 --- @field SpellHighlightTexture Texture

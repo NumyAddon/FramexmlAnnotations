@@ -16,7 +16,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/BulletPoint.xml#L36)
 --- child of BulletPointWithTextureTemplate
---- @class BulletPointWithTextureTemplate_Texture : Texture, UI-EJ-Bullet
+--- @class BulletPointWithTextureTemplate_Texture : Texture, UI_EJ_Bullet
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/BulletPoint.xml#L30)
 --- Template

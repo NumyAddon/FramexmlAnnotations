@@ -2,19 +2,19 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ItemButton/Shared/ItemButtonTemplate.xml#L21)
 --- child of ItemButton
---- @class ItemButton_ItemButtonCount : FontString, NumberFontNormal
+--- @class ItemButton_Count : FontString, NumberFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ItemButton/Shared/ItemButtonTemplate.xml#L26)
 --- child of ItemButton
---- @class ItemButton_ItemButtonStock : FontString, NumberFontNormalYellow
+--- @class ItemButton_Stock : FontString, NumberFontNormalYellow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ItemButton/Shared/ItemButtonTemplate.xml#L4)
 --- Intrinsic
 --- @class ItemButton : Button, ItemButtonMixin
 --- @field showMatchHighlight boolean # true
 --- @field icon Texture
---- @field Count ItemButton_ItemButtonCount
---- @field Stock ItemButton_ItemButtonStock
+--- @field Count ItemButton_Count
+--- @field Stock ItemButton_Stock
 --- @field searchOverlay Texture
 --- @field ItemContextOverlay Texture
 --- @field IconBorder Texture

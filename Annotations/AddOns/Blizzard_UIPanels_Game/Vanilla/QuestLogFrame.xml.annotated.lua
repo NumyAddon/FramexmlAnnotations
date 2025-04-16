@@ -2,11 +2,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
 --- child of QuestLogTitleButtonTemplate
---- @class QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag : FontString, GameFontNormal
+--- @class QuestLogTitleButtonTemplate_Tag : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
 --- child of QuestLogTitleButtonTemplate
---- @class QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates : FontString, GameFontNormalSmall
+--- @class QuestLogTitleButtonTemplate_GroupMates : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L3)
 --- Template
@@ -18,22 +18,22 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L268)
 --- child of QuestLogCollapseAllButton
---- @class QuestLogFrame_QuestLogExpandButtonFrame_QuestLogCollapseAllButton_QuestLogExpandTabLeft : Texture
+--- @class QuestLogExpandTabLeft : Texture
 QuestLogExpandTabLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L280)
 --- child of QuestLogCollapseAllButton
---- @class QuestLogFrame_QuestLogExpandButtonFrame_QuestLogCollapseAllButton_QuestLogExpandTabMiddle : Texture
+--- @class QuestLogExpandTabMiddle : Texture
 QuestLogExpandTabMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
 --- child of QuestLogCollapseAllButton (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
+--- @type QuestLogTitleButtonTemplate_Tag
 QuestLogCollapseAllButtonTag = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
 --- child of QuestLogCollapseAllButton (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
+--- @type QuestLogTitleButtonTemplate_GroupMates
 QuestLogCollapseAllButtonGroupMates = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
@@ -48,80 +48,80 @@ QuestLogCollapseAllButtonHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L255)
 --- child of QuestLogExpandButtonFrame
---- @class QuestLogFrame_QuestLogExpandButtonFrame_QuestLogCollapseAllButton : Button, QuestLogTitleButtonTemplate
+--- @class QuestLogCollapseAllButton : Button, QuestLogTitleButtonTemplate
 QuestLogCollapseAllButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L243)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogExpandButtonFrame : Frame
+--- @class QuestLogExpandButtonFrame : Frame
 QuestLogExpandButtonFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L331)
 --- child of QuestLogTrack
---- @class QuestLogFrame_QuestLogTrack_QuestLogTrackTitle : FontString, GameFontHighlightSmall
+--- @class QuestLogTrackTitle : FontString, GameFontHighlightSmall
 QuestLogTrackTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L343)
 --- child of QuestLogTrack
---- @class QuestLogFrame_QuestLogTrack_QuestLogTrackTracking : Texture
+--- @class QuestLogTrackTracking : Texture
 QuestLogTrackTracking = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L315)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogTrack : Frame
+--- @class QuestLogTrack : Frame
 QuestLogTrack = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L418)
 --- child of EmptyQuestLogFrame
---- @class QuestLogFrame_EmptyQuestLogFrame_QuestLogNoQuestsText : FontString, GameFontHighlight
+--- @class QuestLogNoQuestsText : FontString, GameFontHighlight
 QuestLogNoQuestsText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L361)
 --- child of QuestLogFrame
---- @class QuestLogFrame_EmptyQuestLogFrame : Frame
+--- @class EmptyQuestLogFrame : Frame
 EmptyQuestLogFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L433)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogFrameCloseButton : Button, UIPanelCloseButton
+--- @class QuestLogFrameCloseButton : Button, UIPanelCloseButton
 QuestLogFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L442)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogFrameAbandonButton : Button, UIPanelButtonTemplate
+--- @class QuestLogFrameAbandonButton : Button, UIPanelButtonTemplate
 QuestLogFrameAbandonButton = {}
 QuestLogFrameAbandonButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L473)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestFrameExitButton : Button, UIPanelButtonTemplate
+--- @class QuestFrameExitButton : Button, UIPanelButtonTemplate
 QuestFrameExitButton = {}
 QuestFrameExitButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L490)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestFramePushQuestButton : Button, UIPanelButtonTemplate
+--- @class QuestFramePushQuestButton : Button, UIPanelButtonTemplate
 QuestFramePushQuestButton = {}
 QuestFramePushQuestButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L522)
 --- child of QuestLogHighlightFrame
---- @class QuestLogFrame_QuestLogHighlightFrame_QuestLogSkillHighlight : Texture
+--- @class QuestLogSkillHighlight : Texture
 QuestLogSkillHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L513)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogHighlightFrame : Frame
+--- @class QuestLogHighlightFrame : Frame
 QuestLogHighlightFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
 --- child of QuestLogTitle1 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
+--- @type QuestLogTitleButtonTemplate_Tag
 QuestLogTitle1Tag = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
 --- child of QuestLogTitle1 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
+--- @type QuestLogTitleButtonTemplate_GroupMates
 QuestLogTitle1GroupMates = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
@@ -136,17 +136,17 @@ QuestLogTitle1Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L526)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogTitle1 : Button, QuestLogTitleButtonTemplate
+--- @class QuestLogTitle1 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
 --- child of QuestLogTitle2 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
+--- @type QuestLogTitleButtonTemplate_Tag
 QuestLogTitle2Tag = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
 --- child of QuestLogTitle2 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
+--- @type QuestLogTitleButtonTemplate_GroupMates
 QuestLogTitle2GroupMates = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
@@ -161,17 +161,17 @@ QuestLogTitle2Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L535)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogTitle2 : Button, QuestLogTitleButtonTemplate
+--- @class QuestLogTitle2 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
 --- child of QuestLogTitle3 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
+--- @type QuestLogTitleButtonTemplate_Tag
 QuestLogTitle3Tag = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
 --- child of QuestLogTitle3 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
+--- @type QuestLogTitleButtonTemplate_GroupMates
 QuestLogTitle3GroupMates = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
@@ -186,17 +186,17 @@ QuestLogTitle3Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L544)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogTitle3 : Button, QuestLogTitleButtonTemplate
+--- @class QuestLogTitle3 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
 --- child of QuestLogTitle4 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
+--- @type QuestLogTitleButtonTemplate_Tag
 QuestLogTitle4Tag = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
 --- child of QuestLogTitle4 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
+--- @type QuestLogTitleButtonTemplate_GroupMates
 QuestLogTitle4GroupMates = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
@@ -211,17 +211,17 @@ QuestLogTitle4Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L553)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogTitle4 : Button, QuestLogTitleButtonTemplate
+--- @class QuestLogTitle4 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
 --- child of QuestLogTitle5 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
+--- @type QuestLogTitleButtonTemplate_Tag
 QuestLogTitle5Tag = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
 --- child of QuestLogTitle5 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
+--- @type QuestLogTitleButtonTemplate_GroupMates
 QuestLogTitle5GroupMates = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
@@ -236,17 +236,17 @@ QuestLogTitle5Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L562)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogTitle5 : Button, QuestLogTitleButtonTemplate
+--- @class QuestLogTitle5 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L9)
 --- child of QuestLogTitle6 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateTag
+--- @type QuestLogTitleButtonTemplate_Tag
 QuestLogTitle6Tag = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L21)
 --- child of QuestLogTitle6 (created in template QuestLogTitleButtonTemplate)
---- @type QuestLogTitleButtonTemplate_QuestLogTitleButtonTemplateGroupMates
+--- @type QuestLogTitleButtonTemplate_GroupMates
 QuestLogTitle6GroupMates = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L33)
@@ -261,7 +261,7 @@ QuestLogTitle6Highlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L571)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogTitle6 : Button, QuestLogTitleButtonTemplate
+--- @class QuestLogTitle6 : Button, QuestLogTitleButtonTemplate
 QuestLogTitle6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L163)
@@ -271,22 +271,22 @@ QuestLogListScrollFrameScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
 --- child of QuestLogListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+--- @type UIPanelScrollBarTemplate_ScrollUpButton
 QuestLogListScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L18)
 --- child of QuestLogListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+--- @type UIPanelScrollBarTemplate_ScrollDownButton
 QuestLogListScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L30)
 --- child of QuestLogListScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+--- @type UIPanelScrollBarTemplate_ThumbTexture
 QuestLogListScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L46)
 --- child of QuestLogListScrollFrame (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+--- @type UIPanelScrollFrameTemplate_ScrollBar
 QuestLogListScrollFrameScrollBar = {}
 QuestLogListScrollFrameScrollBar["ScrollUpButton"] = QuestLogListScrollFrameScrollBarScrollUpButton -- inherited
 QuestLogListScrollFrameScrollBar["ScrollDownButton"] = QuestLogListScrollFrameScrollBarScrollDownButton -- inherited
@@ -294,7 +294,7 @@ QuestLogListScrollFrameScrollBar["ThumbTexture"] = QuestLogListScrollFrameScroll
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L580)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
+--- @class QuestLogListScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 QuestLogListScrollFrame = {}
 QuestLogListScrollFrame["ScrollChildFrame"] = QuestLogListScrollFrameScrollChildFrame -- inherited
 QuestLogListScrollFrame["ScrollBar"] = QuestLogListScrollFrameScrollBar -- inherited
@@ -311,17 +311,17 @@ QuestLogItem1NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem1 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestLogItem1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem1 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestLogItem1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L837)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItem1 : Button, QuestLogRewardItemTemplate
+--- @class QuestLogItem1 : Button, QuestLogRewardItemTemplate
 QuestLogItem1 = {}
 QuestLogItem1["Icon"] = QuestLogItem1IconTexture -- inherited
 QuestLogItem1["NameFrame"] = QuestLogItem1NameFrame -- inherited
@@ -340,17 +340,17 @@ QuestLogItem2NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem2 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestLogItem2Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem2 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestLogItem2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L842)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItem2 : Button, QuestLogRewardItemTemplate
+--- @class QuestLogItem2 : Button, QuestLogRewardItemTemplate
 QuestLogItem2 = {}
 QuestLogItem2["Icon"] = QuestLogItem2IconTexture -- inherited
 QuestLogItem2["NameFrame"] = QuestLogItem2NameFrame -- inherited
@@ -369,17 +369,17 @@ QuestLogItem3NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem3 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestLogItem3Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem3 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestLogItem3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L847)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItem3 : Button, QuestLogRewardItemTemplate
+--- @class QuestLogItem3 : Button, QuestLogRewardItemTemplate
 QuestLogItem3 = {}
 QuestLogItem3["Icon"] = QuestLogItem3IconTexture -- inherited
 QuestLogItem3["NameFrame"] = QuestLogItem3NameFrame -- inherited
@@ -398,17 +398,17 @@ QuestLogItem4NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem4 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestLogItem4Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem4 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestLogItem4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L852)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItem4 : Button, QuestLogRewardItemTemplate
+--- @class QuestLogItem4 : Button, QuestLogRewardItemTemplate
 QuestLogItem4 = {}
 QuestLogItem4["Icon"] = QuestLogItem4IconTexture -- inherited
 QuestLogItem4["NameFrame"] = QuestLogItem4NameFrame -- inherited
@@ -427,17 +427,17 @@ QuestLogItem5NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem5 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestLogItem5Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem5 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestLogItem5Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L857)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItem5 : Button, QuestLogRewardItemTemplate
+--- @class QuestLogItem5 : Button, QuestLogRewardItemTemplate
 QuestLogItem5 = {}
 QuestLogItem5["Icon"] = QuestLogItem5IconTexture -- inherited
 QuestLogItem5["NameFrame"] = QuestLogItem5NameFrame -- inherited
@@ -456,17 +456,17 @@ QuestLogItem6NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem6 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestLogItem6Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem6 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestLogItem6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L862)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItem6 : Button, QuestLogRewardItemTemplate
+--- @class QuestLogItem6 : Button, QuestLogRewardItemTemplate
 QuestLogItem6 = {}
 QuestLogItem6["Icon"] = QuestLogItem6IconTexture -- inherited
 QuestLogItem6["NameFrame"] = QuestLogItem6NameFrame -- inherited
@@ -485,17 +485,17 @@ QuestLogItem7NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem7 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestLogItem7Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem7 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestLogItem7Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L867)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItem7 : Button, QuestLogRewardItemTemplate
+--- @class QuestLogItem7 : Button, QuestLogRewardItemTemplate
 QuestLogItem7 = {}
 QuestLogItem7["Icon"] = QuestLogItem7IconTexture -- inherited
 QuestLogItem7["NameFrame"] = QuestLogItem7NameFrame -- inherited
@@ -514,17 +514,17 @@ QuestLogItem8NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem8 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestLogItem8Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem8 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestLogItem8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L872)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItem8 : Button, QuestLogRewardItemTemplate
+--- @class QuestLogItem8 : Button, QuestLogRewardItemTemplate
 QuestLogItem8 = {}
 QuestLogItem8["Icon"] = QuestLogItem8IconTexture -- inherited
 QuestLogItem8["NameFrame"] = QuestLogItem8NameFrame -- inherited
@@ -543,17 +543,17 @@ QuestLogItem9NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem9 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestLogItem9Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem9 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestLogItem9Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L877)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItem9 : Button, QuestLogRewardItemTemplate
+--- @class QuestLogItem9 : Button, QuestLogRewardItemTemplate
 QuestLogItem9 = {}
 QuestLogItem9["Icon"] = QuestLogItem9IconTexture -- inherited
 QuestLogItem9["NameFrame"] = QuestLogItem9NameFrame -- inherited
@@ -572,17 +572,17 @@ QuestLogItem10NameFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L145)
 --- child of QuestLogItem10 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateName
+--- @type LargeItemButtonTemplate_Name
 QuestLogItem10Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L153)
 --- child of QuestLogItem10 (created in template LargeItemButtonTemplate)
---- @type LargeItemButtonTemplate_LargeItemButtonTemplateCount
+--- @type LargeItemButtonTemplate_Count
 QuestLogItem10Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L882)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItem10 : Button, QuestLogRewardItemTemplate
+--- @class QuestLogItem10 : Button, QuestLogRewardItemTemplate
 QuestLogItem10 = {}
 QuestLogItem10["Icon"] = QuestLogItem10IconTexture -- inherited
 QuestLogItem10["NameFrame"] = QuestLogItem10NameFrame -- inherited
@@ -591,22 +591,22 @@ QuestLogItem10["Count"] = QuestLogItem10Count -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L18)
 --- child of QuestLogMoneyFrame (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateCopperButton
+--- @type MoneyFrameTemplate_CopperButton
 QuestLogMoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L57)
 --- child of QuestLogMoneyFrame (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateSilverButton
+--- @type MoneyFrameTemplate_SilverButton
 QuestLogMoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L96)
 --- child of QuestLogMoneyFrame (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateGoldButton
+--- @type MoneyFrameTemplate_GoldButton
 QuestLogMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L887)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogMoneyFrame : Frame, MoneyFrameTemplate
+--- @class QuestLogMoneyFrame : Frame, MoneyFrameTemplate
 QuestLogMoneyFrame = {}
 QuestLogMoneyFrame["CopperButton"] = QuestLogMoneyFrameCopperButton -- inherited
 QuestLogMoneyFrame["SilverButton"] = QuestLogMoneyFrameSilverButton -- inherited
@@ -614,22 +614,22 @@ QuestLogMoneyFrame["GoldButton"] = QuestLogMoneyFrameGoldButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L18)
 --- child of QuestLogRequiredMoneyFrame (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateCopperButton
+--- @type MoneyFrameTemplate_CopperButton
 QuestLogRequiredMoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L57)
 --- child of QuestLogRequiredMoneyFrame (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateSilverButton
+--- @type MoneyFrameTemplate_SilverButton
 QuestLogRequiredMoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L96)
 --- child of QuestLogRequiredMoneyFrame (created in template MoneyFrameTemplate)
---- @type MoneyFrameTemplate_MoneyFrameTemplateGoldButton
+--- @type MoneyFrameTemplate_GoldButton
 QuestLogRequiredMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L901)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogRequiredMoneyFrame : Frame, MoneyFrameTemplate
+--- @class QuestLogRequiredMoneyFrame : Frame, MoneyFrameTemplate
 QuestLogRequiredMoneyFrame = {}
 QuestLogRequiredMoneyFrame["CopperButton"] = QuestLogRequiredMoneyFrameCopperButton -- inherited
 QuestLogRequiredMoneyFrame["SilverButton"] = QuestLogRequiredMoneyFrameSilverButton -- inherited
@@ -637,132 +637,132 @@ QuestLogRequiredMoneyFrame["GoldButton"] = QuestLogRequiredMoneyFrameGoldButton 
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L916)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogSpacerFrame : Frame
+--- @class QuestLogSpacerFrame : Frame
 QuestLogSpacerFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L615)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogQuestTitle : FontString, QuestTitleFont
+--- @class QuestLogQuestTitle : FontString, QuestTitleFont
 QuestLogQuestTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L627)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjectivesText : FontString, QuestFont
+--- @class QuestLogObjectivesText : FontString, QuestFont
 QuestLogObjectivesText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L639)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogTimerText : FontString, QuestFontNormalSmall
+--- @class QuestLogTimerText : FontString, QuestFontNormalSmall
 QuestLogTimerText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L651)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjective1 : FontString, QuestFontNormalSmall
+--- @class QuestLogObjective1 : FontString, QuestFontNormalSmall
 QuestLogObjective1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L663)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjective2 : FontString, QuestFontNormalSmall
+--- @class QuestLogObjective2 : FontString, QuestFontNormalSmall
 QuestLogObjective2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L675)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjective3 : FontString, QuestFontNormalSmall
+--- @class QuestLogObjective3 : FontString, QuestFontNormalSmall
 QuestLogObjective3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L687)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjective4 : FontString, QuestFontNormalSmall
+--- @class QuestLogObjective4 : FontString, QuestFontNormalSmall
 QuestLogObjective4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L699)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjective5 : FontString, QuestFontNormalSmall
+--- @class QuestLogObjective5 : FontString, QuestFontNormalSmall
 QuestLogObjective5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L711)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjective6 : FontString, QuestFontNormalSmall
+--- @class QuestLogObjective6 : FontString, QuestFontNormalSmall
 QuestLogObjective6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L723)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjective7 : FontString, QuestFontNormalSmall
+--- @class QuestLogObjective7 : FontString, QuestFontNormalSmall
 QuestLogObjective7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L735)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjective8 : FontString, QuestFontNormalSmall
+--- @class QuestLogObjective8 : FontString, QuestFontNormalSmall
 QuestLogObjective8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L747)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjective9 : FontString, QuestFontNormalSmall
+--- @class QuestLogObjective9 : FontString, QuestFontNormalSmall
 QuestLogObjective9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L759)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogObjective10 : FontString, QuestFontNormalSmall
+--- @class QuestLogObjective10 : FontString, QuestFontNormalSmall
 QuestLogObjective10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L771)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogRequiredMoneyText : FontString, QuestFontNormalSmall
+--- @class QuestLogRequiredMoneyText : FontString, QuestFontNormalSmall
 QuestLogRequiredMoneyText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L776)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogDescriptionTitle : FontString, QuestTitleFont
+--- @class QuestLogDescriptionTitle : FontString, QuestTitleFont
 QuestLogDescriptionTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L788)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogQuestDescription : FontString, QuestFont
+--- @class QuestLogQuestDescription : FontString, QuestFont
 QuestLogQuestDescription = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L800)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogRewardTitleText : FontString, QuestTitleFont
+--- @class QuestLogRewardTitleText : FontString, QuestTitleFont
 QuestLogRewardTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L812)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItemChooseText : FontString, QuestFont
+--- @class QuestLogItemChooseText : FontString, QuestFont
 QuestLogItemChooseText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L824)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogItemReceiveText : FontString, QuestFont
+--- @class QuestLogItemReceiveText : FontString, QuestFont
 QuestLogItemReceiveText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L829)
 --- child of QuestLogDetailScrollChildFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame_QuestLogSpellLearnText : FontString, QuestFont
+--- @class QuestLogSpellLearnText : FontString, QuestFont
 QuestLogSpellLearnText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L609)
 --- child of QuestLogDetailScrollFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame_QuestLogDetailScrollChildFrame : Frame
+--- @class QuestLogDetailScrollChildFrame : Frame
 QuestLogDetailScrollChildFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L10)
 --- child of QuestLogDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+--- @type UIPanelScrollBarTemplate_ScrollUpButton
 QuestLogDetailScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L18)
 --- child of QuestLogDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+--- @type UIPanelScrollBarTemplate_ScrollDownButton
 QuestLogDetailScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L30)
 --- child of QuestLogDetailScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+--- @type UIPanelScrollBarTemplate_ThumbTexture
 QuestLogDetailScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L46)
 --- child of QuestLogDetailScrollFrame (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+--- @type UIPanelScrollFrameTemplate_ScrollBar
 QuestLogDetailScrollFrameScrollBar = {}
 QuestLogDetailScrollFrameScrollBar["ScrollUpButton"] = QuestLogDetailScrollFrameScrollBarScrollUpButton -- inherited
 QuestLogDetailScrollFrameScrollBar["ScrollDownButton"] = QuestLogDetailScrollFrameScrollBarScrollDownButton -- inherited
@@ -770,43 +770,43 @@ QuestLogDetailScrollFrameScrollBar["ThumbTexture"] = QuestLogDetailScrollFrameSc
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L597)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogDetailScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+--- @class QuestLogDetailScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 QuestLogDetailScrollFrame = {}
 QuestLogDetailScrollFrame["ScrollBar"] = QuestLogDetailScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L135)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogDummyText : FontString, GameFontNormal
+--- @class QuestLogDummyText : FontString, GameFontNormal
 QuestLogDummyText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L186)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogTitleText : FontString, GameFontHighlight
+--- @class QuestLogTitleText : FontString, GameFontHighlight
 QuestLogTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L200)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogCountRight : Texture
+--- @class QuestLogCountRight : Texture
 QuestLogCountRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L213)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogCountMiddle : Texture
+--- @class QuestLogCountMiddle : Texture
 QuestLogCountMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L222)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogCountLeft : Texture
+--- @class QuestLogCountLeft : Texture
 QuestLogCountLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L231)
 --- child of QuestLogFrame
---- @class QuestLogFrame_QuestLogQuestCount : FontString, GameFontNormalSmall
+--- @class QuestLogQuestCount : FontString, GameFontNormalSmall
 QuestLogQuestCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L119)
 --- @class QuestLogFrame : Frame
---- @field Text QuestLogFrame_QuestLogTitleText
+--- @field Text QuestLogTitleText
 QuestLogFrame = {}
 QuestLogFrame["Text"] = QuestLogTitleText
 
@@ -816,157 +816,157 @@ QuestLogFrame["Text"] = QuestLogTitleText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L964)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchQuestName : FontString, GameFontNormal
+--- @class QuestWatchQuestName : FontString, GameFontNormal
 QuestWatchQuestName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L972)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine1 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine1 : FontString, QuestWatchFontTemplate
 QuestWatchLine1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L977)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine2 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine2 : FontString, QuestWatchFontTemplate
 QuestWatchLine2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L982)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine3 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine3 : FontString, QuestWatchFontTemplate
 QuestWatchLine3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L987)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine4 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine4 : FontString, QuestWatchFontTemplate
 QuestWatchLine4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L992)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine5 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine5 : FontString, QuestWatchFontTemplate
 QuestWatchLine5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L997)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine6 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine6 : FontString, QuestWatchFontTemplate
 QuestWatchLine6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1002)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine7 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine7 : FontString, QuestWatchFontTemplate
 QuestWatchLine7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1007)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine8 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine8 : FontString, QuestWatchFontTemplate
 QuestWatchLine8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1012)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine9 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine9 : FontString, QuestWatchFontTemplate
 QuestWatchLine9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1017)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine10 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine10 : FontString, QuestWatchFontTemplate
 QuestWatchLine10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1022)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine11 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine11 : FontString, QuestWatchFontTemplate
 QuestWatchLine11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1027)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine12 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine12 : FontString, QuestWatchFontTemplate
 QuestWatchLine12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1032)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine13 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine13 : FontString, QuestWatchFontTemplate
 QuestWatchLine13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1037)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine14 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine14 : FontString, QuestWatchFontTemplate
 QuestWatchLine14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1042)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine15 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine15 : FontString, QuestWatchFontTemplate
 QuestWatchLine15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1047)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine16 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine16 : FontString, QuestWatchFontTemplate
 QuestWatchLine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1052)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine17 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine17 : FontString, QuestWatchFontTemplate
 QuestWatchLine17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1057)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine18 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine18 : FontString, QuestWatchFontTemplate
 QuestWatchLine18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1062)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine19 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine19 : FontString, QuestWatchFontTemplate
 QuestWatchLine19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1067)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine20 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine20 : FontString, QuestWatchFontTemplate
 QuestWatchLine20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1072)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine21 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine21 : FontString, QuestWatchFontTemplate
 QuestWatchLine21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1077)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine22 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine22 : FontString, QuestWatchFontTemplate
 QuestWatchLine22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1082)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine23 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine23 : FontString, QuestWatchFontTemplate
 QuestWatchLine23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1087)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine24 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine24 : FontString, QuestWatchFontTemplate
 QuestWatchLine24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1092)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine25 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine25 : FontString, QuestWatchFontTemplate
 QuestWatchLine25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1097)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine26 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine26 : FontString, QuestWatchFontTemplate
 QuestWatchLine26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1102)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine27 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine27 : FontString, QuestWatchFontTemplate
 QuestWatchLine27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1107)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine28 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine28 : FontString, QuestWatchFontTemplate
 QuestWatchLine28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1112)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine29 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine29 : FontString, QuestWatchFontTemplate
 QuestWatchLine29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1117)
 --- child of QuestWatchFrame
---- @class QuestWatchFrame_QuestWatchLine30 : FontString, QuestWatchFontTemplate
+--- @class QuestWatchLine30 : FontString, QuestWatchFontTemplate
 QuestWatchLine30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L951)

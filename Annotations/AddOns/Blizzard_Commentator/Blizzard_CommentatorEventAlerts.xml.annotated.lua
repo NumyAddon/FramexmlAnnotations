@@ -6,12 +6,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorEventAlerts.xml#L9)
 --- child of CommentatorEventAlertsFrame (created in template RaidBossEmoteFrameTemplate)
---- @type RaidBossEmoteFrameTemplate_RaidBossEmoteFrameTemplateSlot1
+--- @type RaidBossEmoteFrameTemplate_Slot1
 CommentatorEventAlertsFrameSlot1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorEventAlerts.xml#L15)
 --- child of CommentatorEventAlertsFrame (created in template RaidBossEmoteFrameTemplate)
---- @type RaidBossEmoteFrameTemplate_RaidBossEmoteFrameTemplateSlot2
+--- @type RaidBossEmoteFrameTemplate_Slot2
 CommentatorEventAlertsFrameSlot2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorEventAlerts.xml#L12)

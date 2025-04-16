@@ -2,47 +2,47 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L166)
 --- child of ItemTextPageScrollChild
---- @class ItemTextFrame_ItemTextScrollFrame_ItemTextPageScrollChild_ItemTextPageText : SimpleHTML
+--- @class ItemTextPageText : SimpleHTML
 ItemTextPageText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L163)
 --- child of ItemTextScrollFrame
---- @class ItemTextFrame_ItemTextScrollFrame_ItemTextPageScrollChild : Frame
+--- @class ItemTextPageScrollChild : Frame
 ItemTextPageScrollChild = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L123)
 --- child of ItemTextScrollFrame
---- @class ItemTextFrame_ItemTextScrollFrame_ItemTextScrollFrameTop : Texture
+--- @class ItemTextScrollFrameTop : Texture
 ItemTextScrollFrameTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L136)
 --- child of ItemTextScrollFrame
---- @class ItemTextFrame_ItemTextScrollFrame_ItemTextScrollFrameBottom : Texture
+--- @class ItemTextScrollFrameBottom : Texture
 ItemTextScrollFrameBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L151)
 --- child of ItemTextScrollFrame
---- @class ItemTextFrame_ItemTextScrollFrame_ItemTextScrollFrameMiddle : Texture
+--- @class ItemTextScrollFrameMiddle : Texture
 ItemTextScrollFrameMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L10)
 --- child of ItemTextScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+--- @type UIPanelScrollBarTemplate_ScrollUpButton
 ItemTextScrollFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L18)
 --- child of ItemTextScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+--- @type UIPanelScrollBarTemplate_ScrollDownButton
 ItemTextScrollFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L30)
 --- child of ItemTextScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+--- @type UIPanelScrollBarTemplate_ThumbTexture
 ItemTextScrollFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L46)
 --- child of ItemTextScrollFrame (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+--- @type UIPanelScrollFrameTemplate_ScrollBar
 ItemTextScrollFrameScrollBar = {}
 ItemTextScrollFrameScrollBar["ScrollUpButton"] = ItemTextScrollFrameScrollBarScrollUpButton -- inherited
 ItemTextScrollFrameScrollBar["ScrollDownButton"] = ItemTextScrollFrameScrollBarScrollDownButton -- inherited
@@ -50,58 +50,58 @@ ItemTextScrollFrameScrollBar["ThumbTexture"] = ItemTextScrollFrameScrollBarThumb
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L116)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
+--- @class ItemTextScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 ItemTextScrollFrame = {}
 ItemTextScrollFrame["ScrollBar"] = ItemTextScrollFrameScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L177)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextStatusBar : StatusBar
+--- @class ItemTextStatusBar : StatusBar
 ItemTextStatusBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L199)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextPrevPageButton : Button
+--- @class ItemTextPrevPageButton : Button
 ItemTextPrevPageButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L224)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextNextPageButton : Button
+--- @class ItemTextNextPageButton : Button
 ItemTextNextPageButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L249)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextCloseButton : Button
+--- @class ItemTextCloseButton : Button
 ItemTextCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L73)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextMaterialTopLeft : Texture
+--- @class ItemTextMaterialTopLeft : Texture
 ItemTextMaterialTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L79)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextMaterialTopRight : Texture
+--- @class ItemTextMaterialTopRight : Texture
 ItemTextMaterialTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L85)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextMaterialBotLeft : Texture
+--- @class ItemTextMaterialBotLeft : Texture
 ItemTextMaterialBotLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L91)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextMaterialBotRight : Texture
+--- @class ItemTextMaterialBotRight : Texture
 ItemTextMaterialBotRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L99)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextTitleText : FontString, GameFontNormal
+--- @class ItemTextTitleText : FontString, GameFontNormal
 ItemTextTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L107)
 --- child of ItemTextFrame
---- @class ItemTextFrame_ItemTextCurrentPage : FontString, GameFontNormal
+--- @class ItemTextCurrentPage : FontString, GameFontNormal
 ItemTextCurrentPage = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemTextFrame.xml#L3)

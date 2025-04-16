@@ -141,7 +141,7 @@ LFGBrowseSearchEntryTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L284)
 --- child of LFGBrowseFrameCategoryDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @type UIDropDownMenuTemplate_Button
 LFGBrowseFrameCategoryDropDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L226)
@@ -161,7 +161,7 @@ LFGBrowseFrameCategoryDropDownRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L257)
 --- child of LFGBrowseFrameCategoryDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+--- @type UIDropDownMenuTemplate_Text
 LFGBrowseFrameCategoryDropDownText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L271)
@@ -171,7 +171,7 @@ LFGBrowseFrameCategoryDropDownIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L333)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameCategoryDropDown : Button, LFGDropDownTemplate
+--- @class LFGBrowseFrameCategoryDropDown : Button, LFGDropDownTemplate
 LFGBrowseFrameCategoryDropDown = {}
 LFGBrowseFrameCategoryDropDown["Button"] = LFGBrowseFrameCategoryDropDownButton -- inherited
 LFGBrowseFrameCategoryDropDown["Left"] = LFGBrowseFrameCategoryDropDownLeft -- inherited
@@ -182,11 +182,11 @@ LFGBrowseFrameCategoryDropDown["Icon"] = LFGBrowseFrameCategoryDropDownIcon -- i
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L350)
 --- child of LFGBrowseFrameActivityDropDown
---- @class LFGBrowseFrame_LFGBrowseFrameActivityDropDown_ResetButton : Button
+--- @class LFGBrowseFrameActivityDropDown_ResetButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L284)
 --- child of LFGBrowseFrameActivityDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateButton
+--- @type UIDropDownMenuTemplate_Button
 LFGBrowseFrameActivityDropDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L226)
@@ -206,7 +206,7 @@ LFGBrowseFrameActivityDropDownRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L257)
 --- child of LFGBrowseFrameActivityDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_UIDropDownMenuTemplateText
+--- @type UIDropDownMenuTemplate_Text
 LFGBrowseFrameActivityDropDownText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L271)
@@ -216,8 +216,8 @@ LFGBrowseFrameActivityDropDownIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L345)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameActivityDropDown : Button, LFGDropDownTemplate
---- @field ResetButton LFGBrowseFrame_LFGBrowseFrameActivityDropDown_ResetButton
+--- @class LFGBrowseFrameActivityDropDown : Button, LFGDropDownTemplate
+--- @field ResetButton LFGBrowseFrameActivityDropDown_ResetButton
 LFGBrowseFrameActivityDropDown = {}
 LFGBrowseFrameActivityDropDown["Button"] = LFGBrowseFrameActivityDropDownButton -- inherited
 LFGBrowseFrameActivityDropDown["Left"] = LFGBrowseFrameActivityDropDownLeft -- inherited
@@ -228,74 +228,74 @@ LFGBrowseFrameActivityDropDown["Icon"] = LFGBrowseFrameActivityDropDownIcon -- i
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L372)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameRefreshButton : Button
+--- @class LFGBrowseFrameRefreshButton : Button
 --- @field Icon Texture
 LFGBrowseFrameRefreshButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L409)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameScrollBox : Frame, WowScrollBoxList
+--- @class LFGBrowseFrameScrollBox : Frame, WowScrollBoxList
 LFGBrowseFrameScrollBox = {}
 LFGBrowseFrameScrollBox["canInterpolateScroll"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L415)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameScrollBar : EventFrame, WowClassicScrollBar
+--- @class LFGBrowseFrameScrollBar : EventFrame, WowClassicScrollBar
 LFGBrowseFrameScrollBar = {}
 LFGBrowseFrameScrollBar["minThumbExtent"] = 24 -- inherited
 LFGBrowseFrameScrollBar["canInterpolateScroll"] = false -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L427)
 --- child of LFGBrowseFrameSearchingSpinner
---- @class LFGBrowseFrame_LFGBrowseFrameSearchingSpinner_Label : FontString, GameFontNormalLarge
+--- @class LFGBrowseFrameSearchingSpinner_Label : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L421)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameSearchingSpinner : Frame, LoadingSpinnerTemplate
---- @field Label LFGBrowseFrame_LFGBrowseFrameSearchingSpinner_Label
+--- @class LFGBrowseFrameSearchingSpinner : Frame, LoadingSpinnerTemplate
+--- @field Label LFGBrowseFrameSearchingSpinner_Label
 LFGBrowseFrameSearchingSpinner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L435)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameOptionsButton : DropdownButton, LFGOptionsButton, LFGBrowseOptionsButton
+--- @class LFGBrowseFrameOptionsButton : DropdownButton, LFGOptionsButton, LFGBrowseOptionsButton
 LFGBrowseFrameOptionsButton = {}
 LFGBrowseFrameOptionsButton["menuMixin"] = MenuStyle2Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L443)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameSendMessageButton : Button, UIPanelButtonTemplate
+--- @class LFGBrowseFrameSendMessageButton : Button, UIPanelButtonTemplate
 LFGBrowseFrameSendMessageButton = {}
 LFGBrowseFrameSendMessageButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L452)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameGroupInviteButton : Button, UIPanelButtonTemplate
+--- @class LFGBrowseFrameGroupInviteButton : Button, UIPanelButtonTemplate
 LFGBrowseFrameGroupInviteButton = {}
 LFGBrowseFrameGroupInviteButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L286)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameFrameBackgroundTop : Texture
+--- @class LFGBrowseFrameFrameBackgroundTop : Texture
 LFGBrowseFrameFrameBackgroundTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L293)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameFrameBackgroundMiddle : Texture
+--- @class LFGBrowseFrameFrameBackgroundMiddle : Texture
 LFGBrowseFrameFrameBackgroundMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L302)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameBackgroundArt : Texture
+--- @class LFGBrowseFrameBackgroundArt : Texture
 LFGBrowseFrameBackgroundArt = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L310)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameFrameBackgroundBottom : Texture
+--- @class LFGBrowseFrameFrameBackgroundBottom : Texture
 LFGBrowseFrameFrameBackgroundBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L317)
 --- child of LFGBrowseFrame
---- @class LFGBrowseFrame_LFGBrowseFrameFrameTitle : FontString, GameFontNormal
+--- @class LFGBrowseFrameFrameTitle : FontString, GameFontNormal
 LFGBrowseFrameFrameTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L324)
@@ -304,16 +304,16 @@ LFGBrowseFrameFrameTitle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L283)
 --- @class LFGBrowseFrame : Frame, LFGBrowseMixin
---- @field CategoryDropDown LFGBrowseFrame_LFGBrowseFrameCategoryDropDown
---- @field ActivityDropDown LFGBrowseFrame_LFGBrowseFrameActivityDropDown
---- @field RefreshButton LFGBrowseFrame_LFGBrowseFrameRefreshButton
---- @field ScrollBox LFGBrowseFrame_LFGBrowseFrameScrollBox
---- @field ScrollBar LFGBrowseFrame_LFGBrowseFrameScrollBar
---- @field SearchingSpinner LFGBrowseFrame_LFGBrowseFrameSearchingSpinner
---- @field OptionsButton LFGBrowseFrame_LFGBrowseFrameOptionsButton
---- @field SendMessageButton LFGBrowseFrame_LFGBrowseFrameSendMessageButton
---- @field GroupInviteButton LFGBrowseFrame_LFGBrowseFrameGroupInviteButton
---- @field BackgroundArt LFGBrowseFrame_LFGBrowseFrameBackgroundArt
+--- @field CategoryDropDown LFGBrowseFrameCategoryDropDown
+--- @field ActivityDropDown LFGBrowseFrameActivityDropDown
+--- @field RefreshButton LFGBrowseFrameRefreshButton
+--- @field ScrollBox LFGBrowseFrameScrollBox
+--- @field ScrollBar LFGBrowseFrameScrollBar
+--- @field SearchingSpinner LFGBrowseFrameSearchingSpinner
+--- @field OptionsButton LFGBrowseFrameOptionsButton
+--- @field SendMessageButton LFGBrowseFrameSendMessageButton
+--- @field GroupInviteButton LFGBrowseFrameGroupInviteButton
+--- @field BackgroundArt LFGBrowseFrameBackgroundArt
 --- @field NoResultsFound LFGBrowseFrame_NoResultsFound
 LFGBrowseFrame = {}
 LFGBrowseFrame["CategoryDropDown"] = LFGBrowseFrameCategoryDropDown

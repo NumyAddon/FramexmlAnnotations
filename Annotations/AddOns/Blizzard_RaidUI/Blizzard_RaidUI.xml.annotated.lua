@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButtonTemplate
---- @class RaidClassButtonTemplate_RaidClassButtonTemplateCount : FontString, NumberFontNormalSmall
+--- @class RaidClassButtonTemplate_Count : FontString, NumberFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L4)
 --- Template
@@ -14,27 +14,27 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButtonTemplate
---- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateRank : Button, RaidRoleIconTemplate
+--- @class RaidGroupButtonTemplate_Rank : Button, RaidRoleIconTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButtonTemplate
---- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateRole : Button, RaidRoleIconTemplate
+--- @class RaidGroupButtonTemplate_Role : Button, RaidRoleIconTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButtonTemplate
---- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot : Button, RaidRoleIconTemplate
+--- @class RaidGroupButtonTemplate_Loot : Button, RaidRoleIconTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButtonTemplate
---- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck : Frame, ReadyCheckStatusTemplate
+--- @class RaidGroupButtonTemplate_ReadyCheck : Frame, ReadyCheckStatusTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButtonTemplate
---- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateName : FontString, GameFontNormalSmall
+--- @class RaidGroupButtonTemplate_Name : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButtonTemplate
---- @class RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel : FontString, GameFontNormalSmall
+--- @class RaidGroupButtonTemplate_Level : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L76)
 --- Template
@@ -46,23 +46,23 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L315)
 --- child of RaidGroupTemplate
---- @class RaidGroupTemplate_RaidGroupTemplateSlot1 : Button, RaidGroupSlotTemplate
+--- @class RaidGroupTemplate_Slot1 : Button, RaidGroupSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L320)
 --- child of RaidGroupTemplate
---- @class RaidGroupTemplate_RaidGroupTemplateSlot2 : Button, RaidGroupSlotTemplate
+--- @class RaidGroupTemplate_Slot2 : Button, RaidGroupSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L325)
 --- child of RaidGroupTemplate
---- @class RaidGroupTemplate_RaidGroupTemplateSlot3 : Button, RaidGroupSlotTemplate
+--- @class RaidGroupTemplate_Slot3 : Button, RaidGroupSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L330)
 --- child of RaidGroupTemplate
---- @class RaidGroupTemplate_RaidGroupTemplateSlot4 : Button, RaidGroupSlotTemplate
+--- @class RaidGroupTemplate_Slot4 : Button, RaidGroupSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L335)
 --- child of RaidGroupTemplate
---- @class RaidGroupTemplate_RaidGroupTemplateSlot5 : Button, RaidGroupSlotTemplate
+--- @class RaidGroupTemplate_Slot5 : Button, RaidGroupSlotTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L279)
 --- Template
@@ -74,64 +74,60 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L422)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateHealthBar : StatusBar, TextStatusBar
+--- @class RaidPulloutButtonTemplate_HealthBar : StatusBar, TextStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L452)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateManaBar : StatusBar, TextStatusBar
+--- @class RaidPulloutButtonTemplate_ManaBar : StatusBar, TextStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L488)
 --- child of RaidPulloutButtonTemplateTarget
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTarget_RaidPulloutButtonTemplateTargetName : FontString, GameFontNormalSmall
+--- @class RaidPulloutButtonTemplate_Target_Name : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L476)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTarget : StatusBar, SecureFrameTemplate, TextStatusBar
+--- @class RaidPulloutButtonTemplate_Target : StatusBar, SecureFrameTemplate, TextStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L523)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTargetFrame : Frame, TooltipBackdropTemplate
+--- @class RaidPulloutButtonTemplate_TargetTargetFrame : Frame, TooltipBackdropTemplate
 --- @field backdropBorderColor any # GRAY_FONT_COLOR
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L571)
---- child of 
---- @class RaidPulloutButtonTemplateTargetTargetName : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L551)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTarget : StatusBar, TextStatusBar
+--- @class RaidPulloutButtonTemplate_TargetTarget : StatusBar, TextStatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L596)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateClearButton : Button, SecureUnitButtonTemplate
+--- @class RaidPulloutButtonTemplate_ClearButton : Button, SecureUnitButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L616)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateTargetTargetClearButton : Button, SecureUnitButtonTemplate
+--- @class RaidPulloutButtonTemplate_TargetTargetClearButton : Button, SecureUnitButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L635)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateReadyCheck : Frame, ReadyCheckStatusTemplate
+--- @class RaidPulloutButtonTemplate_ReadyCheck : Frame, ReadyCheckStatusTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L646)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura1 : Frame, RaidAuraFrameTemplate
+--- @class RaidPulloutButtonTemplate_Aura1 : Frame, RaidAuraFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L651)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura2 : Frame, RaidAuraFrameTemplate
+--- @class RaidPulloutButtonTemplate_Aura2 : Frame, RaidAuraFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L656)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura3 : Frame, RaidAuraFrameTemplate
+--- @class RaidPulloutButtonTemplate_Aura3 : Frame, RaidAuraFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L661)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateAura4 : Frame, RaidAuraFrameTemplate
+--- @class RaidPulloutButtonTemplate_Aura4 : Frame, RaidAuraFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L397)
 --- child of RaidPulloutButtonTemplate
---- @class RaidPulloutButtonTemplate_RaidPulloutButtonTemplateName : FontString, GameFontNormalSmall
+--- @class RaidPulloutButtonTemplate_Name : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L393)
 --- Template
@@ -139,12 +135,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L698)
 --- child of RaidPulloutFrameTemplate
---- @class RaidPulloutFrameTemplate_RaidPulloutFrameTemplateMenuBackdrop : Frame, TooltipBackdropTemplate
+--- @class RaidPulloutFrameTemplate_MenuBackdrop : Frame, TooltipBackdropTemplate
 --- @field backdropBorderColor any # GRAY_FONT_COLOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L690)
 --- child of RaidPulloutFrameTemplate
---- @class RaidPulloutFrameTemplate_RaidPulloutFrameTemplateName : FontString, GameFontNormalSmall
+--- @class RaidPulloutFrameTemplate_Name : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L683)
 --- Template
@@ -162,7 +158,7 @@ RaidClassButton15IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton15 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton15Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L762)
@@ -176,7 +172,7 @@ RaidClassButton14IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton14 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton14Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L767)
@@ -190,7 +186,7 @@ RaidClassButton13IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton13 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton13Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L772)
@@ -204,7 +200,7 @@ RaidClassButton12IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton12 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton12Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L777)
@@ -218,7 +214,7 @@ RaidClassButton11IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton11 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton11Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L782)
@@ -232,7 +228,7 @@ RaidClassButton10IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton10 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton10Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L787)
@@ -246,7 +242,7 @@ RaidClassButton9IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton9 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton9Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L792)
@@ -260,7 +256,7 @@ RaidClassButton8IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton8 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L797)
@@ -274,7 +270,7 @@ RaidClassButton7IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton7 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton7Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L802)
@@ -288,7 +284,7 @@ RaidClassButton6IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton6 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L807)
@@ -302,7 +298,7 @@ RaidClassButton5IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton5 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton5Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L812)
@@ -316,7 +312,7 @@ RaidClassButton4IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton4 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L817)
@@ -330,7 +326,7 @@ RaidClassButton3IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton3 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L822)
@@ -344,7 +340,7 @@ RaidClassButton2IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton2 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L827)
@@ -358,7 +354,7 @@ RaidClassButton1IconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L25)
 --- child of RaidClassButton1 (created in template RaidClassButtonTemplate)
---- @type RaidClassButtonTemplate_RaidClassButtonTemplateCount
+--- @type RaidClassButtonTemplate_Count
 RaidClassButton1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L832)
@@ -372,27 +368,27 @@ RaidGroup1Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L315)
 --- child of RaidGroup1 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot1
+--- @type RaidGroupTemplate_Slot1
 RaidGroup1Slot1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L320)
 --- child of RaidGroup1 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot2
+--- @type RaidGroupTemplate_Slot2
 RaidGroup1Slot2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L325)
 --- child of RaidGroup1 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot3
+--- @type RaidGroupTemplate_Slot3
 RaidGroup1Slot3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L330)
 --- child of RaidGroup1 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot4
+--- @type RaidGroupTemplate_Slot4
 RaidGroup1Slot4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L335)
 --- child of RaidGroup1 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot5
+--- @type RaidGroupTemplate_Slot5
 RaidGroup1Slot5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L837)
@@ -406,27 +402,27 @@ RaidGroup2Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L315)
 --- child of RaidGroup2 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot1
+--- @type RaidGroupTemplate_Slot1
 RaidGroup2Slot1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L320)
 --- child of RaidGroup2 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot2
+--- @type RaidGroupTemplate_Slot2
 RaidGroup2Slot2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L325)
 --- child of RaidGroup2 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot3
+--- @type RaidGroupTemplate_Slot3
 RaidGroup2Slot3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L330)
 --- child of RaidGroup2 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot4
+--- @type RaidGroupTemplate_Slot4
 RaidGroup2Slot4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L335)
 --- child of RaidGroup2 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot5
+--- @type RaidGroupTemplate_Slot5
 RaidGroup2Slot5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L842)
@@ -440,27 +436,27 @@ RaidGroup3Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L315)
 --- child of RaidGroup3 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot1
+--- @type RaidGroupTemplate_Slot1
 RaidGroup3Slot1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L320)
 --- child of RaidGroup3 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot2
+--- @type RaidGroupTemplate_Slot2
 RaidGroup3Slot2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L325)
 --- child of RaidGroup3 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot3
+--- @type RaidGroupTemplate_Slot3
 RaidGroup3Slot3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L330)
 --- child of RaidGroup3 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot4
+--- @type RaidGroupTemplate_Slot4
 RaidGroup3Slot4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L335)
 --- child of RaidGroup3 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot5
+--- @type RaidGroupTemplate_Slot5
 RaidGroup3Slot5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L847)
@@ -474,27 +470,27 @@ RaidGroup4Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L315)
 --- child of RaidGroup4 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot1
+--- @type RaidGroupTemplate_Slot1
 RaidGroup4Slot1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L320)
 --- child of RaidGroup4 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot2
+--- @type RaidGroupTemplate_Slot2
 RaidGroup4Slot2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L325)
 --- child of RaidGroup4 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot3
+--- @type RaidGroupTemplate_Slot3
 RaidGroup4Slot3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L330)
 --- child of RaidGroup4 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot4
+--- @type RaidGroupTemplate_Slot4
 RaidGroup4Slot4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L335)
 --- child of RaidGroup4 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot5
+--- @type RaidGroupTemplate_Slot5
 RaidGroup4Slot5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L852)
@@ -508,27 +504,27 @@ RaidGroup5Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L315)
 --- child of RaidGroup5 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot1
+--- @type RaidGroupTemplate_Slot1
 RaidGroup5Slot1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L320)
 --- child of RaidGroup5 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot2
+--- @type RaidGroupTemplate_Slot2
 RaidGroup5Slot2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L325)
 --- child of RaidGroup5 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot3
+--- @type RaidGroupTemplate_Slot3
 RaidGroup5Slot3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L330)
 --- child of RaidGroup5 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot4
+--- @type RaidGroupTemplate_Slot4
 RaidGroup5Slot4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L335)
 --- child of RaidGroup5 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot5
+--- @type RaidGroupTemplate_Slot5
 RaidGroup5Slot5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L857)
@@ -542,27 +538,27 @@ RaidGroup6Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L315)
 --- child of RaidGroup6 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot1
+--- @type RaidGroupTemplate_Slot1
 RaidGroup6Slot1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L320)
 --- child of RaidGroup6 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot2
+--- @type RaidGroupTemplate_Slot2
 RaidGroup6Slot2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L325)
 --- child of RaidGroup6 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot3
+--- @type RaidGroupTemplate_Slot3
 RaidGroup6Slot3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L330)
 --- child of RaidGroup6 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot4
+--- @type RaidGroupTemplate_Slot4
 RaidGroup6Slot4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L335)
 --- child of RaidGroup6 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot5
+--- @type RaidGroupTemplate_Slot5
 RaidGroup6Slot5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L862)
@@ -576,27 +572,27 @@ RaidGroup7Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L315)
 --- child of RaidGroup7 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot1
+--- @type RaidGroupTemplate_Slot1
 RaidGroup7Slot1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L320)
 --- child of RaidGroup7 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot2
+--- @type RaidGroupTemplate_Slot2
 RaidGroup7Slot2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L325)
 --- child of RaidGroup7 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot3
+--- @type RaidGroupTemplate_Slot3
 RaidGroup7Slot3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L330)
 --- child of RaidGroup7 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot4
+--- @type RaidGroupTemplate_Slot4
 RaidGroup7Slot4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L335)
 --- child of RaidGroup7 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot5
+--- @type RaidGroupTemplate_Slot5
 RaidGroup7Slot5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L867)
@@ -610,27 +606,27 @@ RaidGroup8Label = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L315)
 --- child of RaidGroup8 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot1
+--- @type RaidGroupTemplate_Slot1
 RaidGroup8Slot1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L320)
 --- child of RaidGroup8 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot2
+--- @type RaidGroupTemplate_Slot2
 RaidGroup8Slot2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L325)
 --- child of RaidGroup8 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot3
+--- @type RaidGroupTemplate_Slot3
 RaidGroup8Slot3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L330)
 --- child of RaidGroup8 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot4
+--- @type RaidGroupTemplate_Slot4
 RaidGroup8Slot4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L335)
 --- child of RaidGroup8 (created in template RaidGroupTemplate)
---- @type RaidGroupTemplate_RaidGroupTemplateSlot5
+--- @type RaidGroupTemplate_Slot5
 RaidGroup8Slot5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L872)
@@ -644,7 +640,7 @@ RaidGroupButton1RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton1 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton1Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -654,7 +650,7 @@ RaidGroupButton1RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton1 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton1Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -664,7 +660,7 @@ RaidGroupButton1LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton1 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton1Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -674,7 +670,7 @@ RaidGroupButton1ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton1 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton1ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -684,12 +680,12 @@ RaidGroupButton1Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton1 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton1 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton1Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L877)
@@ -703,7 +699,7 @@ RaidGroupButton2RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton2 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton2Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -713,7 +709,7 @@ RaidGroupButton2RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton2 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton2Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -723,7 +719,7 @@ RaidGroupButton2LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton2 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton2Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -733,7 +729,7 @@ RaidGroupButton2ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton2 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton2ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -743,12 +739,12 @@ RaidGroupButton2Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton2 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton2Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton2 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton2Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L878)
@@ -762,7 +758,7 @@ RaidGroupButton3RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton3 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton3Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -772,7 +768,7 @@ RaidGroupButton3RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton3 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton3Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -782,7 +778,7 @@ RaidGroupButton3LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton3 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton3Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -792,7 +788,7 @@ RaidGroupButton3ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton3 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton3ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -802,12 +798,12 @@ RaidGroupButton3Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton3 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton3Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton3 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton3Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L879)
@@ -821,7 +817,7 @@ RaidGroupButton4RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton4 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton4Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -831,7 +827,7 @@ RaidGroupButton4RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton4 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton4Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -841,7 +837,7 @@ RaidGroupButton4LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton4 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton4Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -851,7 +847,7 @@ RaidGroupButton4ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton4 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton4ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -861,12 +857,12 @@ RaidGroupButton4Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton4 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton4Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton4 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton4Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L880)
@@ -880,7 +876,7 @@ RaidGroupButton5RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton5 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton5Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -890,7 +886,7 @@ RaidGroupButton5RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton5 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton5Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -900,7 +896,7 @@ RaidGroupButton5LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton5 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton5Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -910,7 +906,7 @@ RaidGroupButton5ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton5 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton5ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -920,12 +916,12 @@ RaidGroupButton5Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton5 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton5Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton5 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton5Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L881)
@@ -939,7 +935,7 @@ RaidGroupButton6RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton6 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton6Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -949,7 +945,7 @@ RaidGroupButton6RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton6 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton6Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -959,7 +955,7 @@ RaidGroupButton6LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton6 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton6Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -969,7 +965,7 @@ RaidGroupButton6ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton6 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton6ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -979,12 +975,12 @@ RaidGroupButton6Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton6 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton6Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton6 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton6Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L882)
@@ -998,7 +994,7 @@ RaidGroupButton7RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton7 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton7Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1008,7 +1004,7 @@ RaidGroupButton7RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton7 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton7Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1018,7 +1014,7 @@ RaidGroupButton7LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton7 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton7Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1028,7 +1024,7 @@ RaidGroupButton7ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton7 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton7ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1038,12 +1034,12 @@ RaidGroupButton7Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton7 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton7Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton7 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton7Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L883)
@@ -1057,7 +1053,7 @@ RaidGroupButton8RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton8 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton8Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1067,7 +1063,7 @@ RaidGroupButton8RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton8 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton8Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1077,7 +1073,7 @@ RaidGroupButton8LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton8 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton8Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1087,7 +1083,7 @@ RaidGroupButton8ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton8 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton8ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1097,12 +1093,12 @@ RaidGroupButton8Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton8 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton8Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton8 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton8Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L884)
@@ -1116,7 +1112,7 @@ RaidGroupButton9RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton9 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton9Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1126,7 +1122,7 @@ RaidGroupButton9RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton9 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton9Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1136,7 +1132,7 @@ RaidGroupButton9LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton9 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton9Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1146,7 +1142,7 @@ RaidGroupButton9ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton9 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton9ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1156,12 +1152,12 @@ RaidGroupButton9Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton9 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton9Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton9 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton9Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L885)
@@ -1175,7 +1171,7 @@ RaidGroupButton10RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton10 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton10Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1185,7 +1181,7 @@ RaidGroupButton10RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton10 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton10Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1195,7 +1191,7 @@ RaidGroupButton10LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton10 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton10Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1205,7 +1201,7 @@ RaidGroupButton10ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton10 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton10ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1215,12 +1211,12 @@ RaidGroupButton10Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton10 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton10Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton10 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton10Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L886)
@@ -1234,7 +1230,7 @@ RaidGroupButton11RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton11 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton11Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1244,7 +1240,7 @@ RaidGroupButton11RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton11 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton11Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1254,7 +1250,7 @@ RaidGroupButton11LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton11 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton11Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1264,7 +1260,7 @@ RaidGroupButton11ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton11 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton11ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1274,12 +1270,12 @@ RaidGroupButton11Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton11 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton11Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton11 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton11Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L887)
@@ -1293,7 +1289,7 @@ RaidGroupButton12RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton12 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton12Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1303,7 +1299,7 @@ RaidGroupButton12RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton12 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton12Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1313,7 +1309,7 @@ RaidGroupButton12LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton12 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton12Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1323,7 +1319,7 @@ RaidGroupButton12ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton12 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton12ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1333,12 +1329,12 @@ RaidGroupButton12Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton12 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton12Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton12 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton12Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L888)
@@ -1352,7 +1348,7 @@ RaidGroupButton13RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton13 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton13Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1362,7 +1358,7 @@ RaidGroupButton13RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton13 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton13Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1372,7 +1368,7 @@ RaidGroupButton13LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton13 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton13Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1382,7 +1378,7 @@ RaidGroupButton13ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton13 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton13ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1392,12 +1388,12 @@ RaidGroupButton13Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton13 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton13Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton13 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton13Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L889)
@@ -1411,7 +1407,7 @@ RaidGroupButton14RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton14 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton14Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1421,7 +1417,7 @@ RaidGroupButton14RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton14 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton14Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1431,7 +1427,7 @@ RaidGroupButton14LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton14 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton14Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1441,7 +1437,7 @@ RaidGroupButton14ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton14 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton14ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1451,12 +1447,12 @@ RaidGroupButton14Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton14 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton14Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton14 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton14Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L890)
@@ -1470,7 +1466,7 @@ RaidGroupButton15RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton15 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton15Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1480,7 +1476,7 @@ RaidGroupButton15RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton15 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton15Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1490,7 +1486,7 @@ RaidGroupButton15LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton15 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton15Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1500,7 +1496,7 @@ RaidGroupButton15ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton15 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton15ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1510,12 +1506,12 @@ RaidGroupButton15Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton15 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton15Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton15 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton15Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L891)
@@ -1529,7 +1525,7 @@ RaidGroupButton16RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton16 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton16Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1539,7 +1535,7 @@ RaidGroupButton16RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton16 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton16Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1549,7 +1545,7 @@ RaidGroupButton16LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton16 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton16Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1559,7 +1555,7 @@ RaidGroupButton16ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton16 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton16ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1569,12 +1565,12 @@ RaidGroupButton16Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton16 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton16Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton16 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton16Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L892)
@@ -1588,7 +1584,7 @@ RaidGroupButton17RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton17 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton17Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1598,7 +1594,7 @@ RaidGroupButton17RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton17 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton17Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1608,7 +1604,7 @@ RaidGroupButton17LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton17 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton17Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1618,7 +1614,7 @@ RaidGroupButton17ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton17 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton17ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1628,12 +1624,12 @@ RaidGroupButton17Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton17 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton17Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton17 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton17Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L893)
@@ -1647,7 +1643,7 @@ RaidGroupButton18RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton18 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton18Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1657,7 +1653,7 @@ RaidGroupButton18RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton18 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton18Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1667,7 +1663,7 @@ RaidGroupButton18LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton18 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton18Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1677,7 +1673,7 @@ RaidGroupButton18ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton18 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton18ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1687,12 +1683,12 @@ RaidGroupButton18Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton18 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton18Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton18 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton18Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L894)
@@ -1706,7 +1702,7 @@ RaidGroupButton19RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton19 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton19Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1716,7 +1712,7 @@ RaidGroupButton19RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton19 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton19Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1726,7 +1722,7 @@ RaidGroupButton19LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton19 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton19Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1736,7 +1732,7 @@ RaidGroupButton19ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton19 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton19ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1746,12 +1742,12 @@ RaidGroupButton19Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton19 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton19Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton19 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton19Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L895)
@@ -1765,7 +1761,7 @@ RaidGroupButton20RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton20 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton20Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1775,7 +1771,7 @@ RaidGroupButton20RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton20 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton20Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1785,7 +1781,7 @@ RaidGroupButton20LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton20 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton20Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1795,7 +1791,7 @@ RaidGroupButton20ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton20 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton20ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1805,12 +1801,12 @@ RaidGroupButton20Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton20 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton20Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton20 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton20Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L896)
@@ -1824,7 +1820,7 @@ RaidGroupButton21RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton21 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton21Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1834,7 +1830,7 @@ RaidGroupButton21RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton21 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton21Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1844,7 +1840,7 @@ RaidGroupButton21LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton21 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton21Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1854,7 +1850,7 @@ RaidGroupButton21ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton21 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton21ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1864,12 +1860,12 @@ RaidGroupButton21Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton21 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton21Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton21 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton21Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L897)
@@ -1883,7 +1879,7 @@ RaidGroupButton22RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton22 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton22Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1893,7 +1889,7 @@ RaidGroupButton22RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton22 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton22Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1903,7 +1899,7 @@ RaidGroupButton22LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton22 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton22Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1913,7 +1909,7 @@ RaidGroupButton22ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton22 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton22ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1923,12 +1919,12 @@ RaidGroupButton22Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton22 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton22Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton22 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton22Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L898)
@@ -1942,7 +1938,7 @@ RaidGroupButton23RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton23 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton23Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1952,7 +1948,7 @@ RaidGroupButton23RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton23 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton23Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -1962,7 +1958,7 @@ RaidGroupButton23LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton23 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton23Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -1972,7 +1968,7 @@ RaidGroupButton23ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton23 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton23ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -1982,12 +1978,12 @@ RaidGroupButton23Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton23 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton23Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton23 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton23Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L899)
@@ -2001,7 +1997,7 @@ RaidGroupButton24RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton24 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton24Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2011,7 +2007,7 @@ RaidGroupButton24RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton24 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton24Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2021,7 +2017,7 @@ RaidGroupButton24LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton24 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton24Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2031,7 +2027,7 @@ RaidGroupButton24ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton24 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton24ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2041,12 +2037,12 @@ RaidGroupButton24Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton24 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton24Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton24 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton24Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L900)
@@ -2060,7 +2056,7 @@ RaidGroupButton25RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton25 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton25Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2070,7 +2066,7 @@ RaidGroupButton25RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton25 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton25Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2080,7 +2076,7 @@ RaidGroupButton25LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton25 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton25Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2090,7 +2086,7 @@ RaidGroupButton25ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton25 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton25ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2100,12 +2096,12 @@ RaidGroupButton25Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton25 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton25Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton25 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton25Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L901)
@@ -2119,7 +2115,7 @@ RaidGroupButton26RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton26 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton26Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2129,7 +2125,7 @@ RaidGroupButton26RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton26 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton26Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2139,7 +2135,7 @@ RaidGroupButton26LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton26 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton26Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2149,7 +2145,7 @@ RaidGroupButton26ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton26 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton26ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2159,12 +2155,12 @@ RaidGroupButton26Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton26 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton26Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton26 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton26Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L902)
@@ -2178,7 +2174,7 @@ RaidGroupButton27RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton27 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton27Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2188,7 +2184,7 @@ RaidGroupButton27RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton27 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton27Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2198,7 +2194,7 @@ RaidGroupButton27LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton27 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton27Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2208,7 +2204,7 @@ RaidGroupButton27ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton27 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton27ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2218,12 +2214,12 @@ RaidGroupButton27Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton27 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton27Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton27 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton27Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L903)
@@ -2237,7 +2233,7 @@ RaidGroupButton28RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton28 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton28Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2247,7 +2243,7 @@ RaidGroupButton28RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton28 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton28Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2257,7 +2253,7 @@ RaidGroupButton28LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton28 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton28Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2267,7 +2263,7 @@ RaidGroupButton28ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton28 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton28ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2277,12 +2273,12 @@ RaidGroupButton28Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton28 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton28Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton28 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton28Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L904)
@@ -2296,7 +2292,7 @@ RaidGroupButton29RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton29 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton29Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2306,7 +2302,7 @@ RaidGroupButton29RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton29 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton29Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2316,7 +2312,7 @@ RaidGroupButton29LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton29 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton29Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2326,7 +2322,7 @@ RaidGroupButton29ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton29 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton29ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2336,12 +2332,12 @@ RaidGroupButton29Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton29 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton29Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton29 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton29Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L905)
@@ -2355,7 +2351,7 @@ RaidGroupButton30RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton30 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton30Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2365,7 +2361,7 @@ RaidGroupButton30RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton30 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton30Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2375,7 +2371,7 @@ RaidGroupButton30LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton30 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton30Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2385,7 +2381,7 @@ RaidGroupButton30ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton30 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton30ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2395,12 +2391,12 @@ RaidGroupButton30Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton30 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton30Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton30 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton30Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L906)
@@ -2414,7 +2410,7 @@ RaidGroupButton31RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton31 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton31Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2424,7 +2420,7 @@ RaidGroupButton31RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton31 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton31Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2434,7 +2430,7 @@ RaidGroupButton31LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton31 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton31Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2444,7 +2440,7 @@ RaidGroupButton31ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton31 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton31ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2454,12 +2450,12 @@ RaidGroupButton31Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton31 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton31Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton31 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton31Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L907)
@@ -2473,7 +2469,7 @@ RaidGroupButton32RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton32 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton32Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2483,7 +2479,7 @@ RaidGroupButton32RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton32 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton32Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2493,7 +2489,7 @@ RaidGroupButton32LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton32 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton32Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2503,7 +2499,7 @@ RaidGroupButton32ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton32 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton32ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2513,12 +2509,12 @@ RaidGroupButton32Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton32 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton32Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton32 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton32Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L908)
@@ -2532,7 +2528,7 @@ RaidGroupButton33RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton33 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton33Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2542,7 +2538,7 @@ RaidGroupButton33RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton33 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton33Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2552,7 +2548,7 @@ RaidGroupButton33LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton33 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton33Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2562,7 +2558,7 @@ RaidGroupButton33ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton33 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton33ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2572,12 +2568,12 @@ RaidGroupButton33Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton33 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton33Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton33 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton33Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L909)
@@ -2591,7 +2587,7 @@ RaidGroupButton34RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton34 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton34Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2601,7 +2597,7 @@ RaidGroupButton34RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton34 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton34Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2611,7 +2607,7 @@ RaidGroupButton34LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton34 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton34Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2621,7 +2617,7 @@ RaidGroupButton34ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton34 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton34ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2631,12 +2627,12 @@ RaidGroupButton34Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton34 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton34Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton34 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton34Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L910)
@@ -2650,7 +2646,7 @@ RaidGroupButton35RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton35 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton35Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2660,7 +2656,7 @@ RaidGroupButton35RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton35 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton35Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2670,7 +2666,7 @@ RaidGroupButton35LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton35 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton35Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2680,7 +2676,7 @@ RaidGroupButton35ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton35 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton35ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2690,12 +2686,12 @@ RaidGroupButton35Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton35 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton35Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton35 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton35Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L911)
@@ -2709,7 +2705,7 @@ RaidGroupButton36RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton36 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton36Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2719,7 +2715,7 @@ RaidGroupButton36RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton36 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton36Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2729,7 +2725,7 @@ RaidGroupButton36LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton36 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton36Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2739,7 +2735,7 @@ RaidGroupButton36ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton36 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton36ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2749,12 +2745,12 @@ RaidGroupButton36Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton36 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton36Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton36 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton36Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L912)
@@ -2768,7 +2764,7 @@ RaidGroupButton37RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton37 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton37Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2778,7 +2774,7 @@ RaidGroupButton37RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton37 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton37Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2788,7 +2784,7 @@ RaidGroupButton37LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton37 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton37Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2798,7 +2794,7 @@ RaidGroupButton37ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton37 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton37ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2808,12 +2804,12 @@ RaidGroupButton37Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton37 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton37Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton37 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton37Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L913)
@@ -2827,7 +2823,7 @@ RaidGroupButton38RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton38 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton38Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2837,7 +2833,7 @@ RaidGroupButton38RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton38 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton38Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2847,7 +2843,7 @@ RaidGroupButton38LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton38 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton38Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2857,7 +2853,7 @@ RaidGroupButton38ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton38 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton38ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2867,12 +2863,12 @@ RaidGroupButton38Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton38 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton38Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton38 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton38Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L914)
@@ -2886,7 +2882,7 @@ RaidGroupButton39RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton39 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton39Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2896,7 +2892,7 @@ RaidGroupButton39RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton39 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton39Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2906,7 +2902,7 @@ RaidGroupButton39LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton39 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton39Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2916,7 +2912,7 @@ RaidGroupButton39ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton39 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton39ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2926,12 +2922,12 @@ RaidGroupButton39Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton39 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton39Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton39 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton39Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L915)
@@ -2945,7 +2941,7 @@ RaidGroupButton40RankTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L95)
 --- child of RaidGroupButton40 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRank
+--- @type RaidGroupButtonTemplate_Rank
 RaidGroupButton40Rank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2955,7 +2951,7 @@ RaidGroupButton40RoleTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L121)
 --- child of RaidGroupButton40 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateRole
+--- @type RaidGroupButtonTemplate_Role
 RaidGroupButton40Role = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L63)
@@ -2965,7 +2961,7 @@ RaidGroupButton40LootTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L143)
 --- child of RaidGroupButton40 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLoot
+--- @type RaidGroupButtonTemplate_Loot
 RaidGroupButton40Loot = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L7)
@@ -2975,7 +2971,7 @@ RaidGroupButton40ReadyCheckTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L160)
 --- child of RaidGroupButton40 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateReadyCheck
+--- @type RaidGroupButtonTemplate_ReadyCheck
 RaidGroupButton40ReadyCheck = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L171)
@@ -2985,12 +2981,12 @@ RaidGroupButton40Class = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L80)
 --- child of RaidGroupButton40 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateName
+--- @type RaidGroupButtonTemplate_Name
 RaidGroupButton40Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L86)
 --- child of RaidGroupButton40 (created in template RaidGroupButtonTemplate)
---- @type RaidGroupButtonTemplate_RaidGroupButtonTemplateLevel
+--- @type RaidGroupButtonTemplate_Level
 RaidGroupButton40Level = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L916)

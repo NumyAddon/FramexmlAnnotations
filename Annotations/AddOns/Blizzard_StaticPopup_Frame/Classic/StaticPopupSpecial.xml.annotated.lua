@@ -33,22 +33,22 @@ PetBattleQueueReadyFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L10)
 --- child of PlayerReportFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollUpButton
+--- @type UIPanelScrollBarTemplate_ScrollUpButton
 PlayerReportFrameScrollBarScrollUpButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L18)
 --- child of PlayerReportFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateScrollDownButton
+--- @type UIPanelScrollBarTemplate_ScrollDownButton
 PlayerReportFrameScrollBarScrollDownButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L30)
 --- child of PlayerReportFrameScrollBar (created in template UIPanelScrollBarTemplate)
---- @type UIPanelScrollBarTemplate_UIPanelScrollBarTemplateThumbTexture
+--- @type UIPanelScrollBarTemplate_ThumbTexture
 PlayerReportFrameScrollBarThumbTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L46)
 --- child of PlayerReportFrame_Comment_ScrollFrame (created in template UIPanelScrollFrameTemplate)
---- @type UIPanelScrollFrameTemplate_UIPanelScrollFrameTemplateScrollBar
+--- @type UIPanelScrollFrameTemplate_ScrollBar
 PlayerReportFrameScrollBar = {}
 PlayerReportFrameScrollBar["ScrollUpButton"] = PlayerReportFrameScrollBarScrollUpButton -- inherited
 PlayerReportFrameScrollBar["ScrollDownButton"] = PlayerReportFrameScrollBarScrollDownButton -- inherited

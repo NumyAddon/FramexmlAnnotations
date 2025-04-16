@@ -6,13 +6,13 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L99)
 --- child of GossipFrame_PortraitContainer
---- @class GossipFrame_PortraitContainer_GossipFramePortrait : Texture
+--- @class GossipFramePortrait : Texture
 GossipFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L92)
 --- child of GossipFrame
 --- @class GossipFrame_PortraitContainer : Frame
---- @field portrait GossipFrame_PortraitContainer_GossipFramePortrait
+--- @field portrait GossipFramePortrait
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L115)
 --- child of GossipFrame_TitleContainer
@@ -76,22 +76,22 @@ GossipFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L208)
 --- child of NPCFriendshipStatusBar
---- @class NPCFriendshipStatusBar_NPCFriendshipStatusBarNotch1 : Texture
+--- @class NPCFriendshipStatusBarNotch1 : Texture
 NPCFriendshipStatusBarNotch1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L215)
 --- child of NPCFriendshipStatusBar
---- @class NPCFriendshipStatusBar_NPCFriendshipStatusBarNotch2 : Texture
+--- @class NPCFriendshipStatusBarNotch2 : Texture
 NPCFriendshipStatusBarNotch2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L222)
 --- child of NPCFriendshipStatusBar
---- @class NPCFriendshipStatusBar_NPCFriendshipStatusBarNotch3 : Texture
+--- @class NPCFriendshipStatusBarNotch3 : Texture
 NPCFriendshipStatusBarNotch3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L229)
 --- child of NPCFriendshipStatusBar
---- @class NPCFriendshipStatusBar_NPCFriendshipStatusBarNotch4 : Texture
+--- @class NPCFriendshipStatusBarNotch4 : Texture
 NPCFriendshipStatusBarNotch4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.xml#L182)

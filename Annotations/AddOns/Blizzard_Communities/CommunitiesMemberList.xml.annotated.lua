@@ -30,11 +30,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L110)
 --- child of CommunitiesMemberListEntryTemplate_ProfessionHeader
---- @class CommunitiesMemberListEntryTemplate_ProfessionHeader_ExpandedIcon : Texture, Char-Stat-Minus
+--- @class CommunitiesMemberListEntryTemplate_ProfessionHeader_ExpandedIcon : Texture, Char_Stat_Minus
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L115)
 --- child of CommunitiesMemberListEntryTemplate_ProfessionHeader
---- @class CommunitiesMemberListEntryTemplate_ProfessionHeader_CollapsedIcon : Texture, Char-Stat-Plus
+--- @class CommunitiesMemberListEntryTemplate_ProfessionHeader_CollapsedIcon : Texture, Char_Stat_Plus
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L127)
 --- child of CommunitiesMemberListEntryTemplate_ProfessionHeader
@@ -106,23 +106,23 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L300)
 --- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
---- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopLeft : Texture, UI-Frame-InnerTopLeft
+--- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopLeft : Texture, UI_Frame_InnerTopLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L305)
 --- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
---- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopRight : Texture, UI-Frame-InnerTopRight
+--- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopRight : Texture, UI_Frame_InnerTopRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L310)
 --- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
---- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderBottomLeft : Texture, UI-Frame-InnerBotLeftCorner
+--- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderBottomLeft : Texture, UI_Frame_InnerBotLeftCorner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L315)
 --- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
---- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTop : Texture, _UI-Frame-InnerTopTile
+--- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTop : Texture, _UI_Frame_InnerTopTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L321)
 --- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
---- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderLeft : Texture, !UI-Frame-InnerLeftTile
+--- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderLeft : Texture, _UI_Frame_InnerLeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L290)
 --- child of CommunitiesMemberListFrameTemplate

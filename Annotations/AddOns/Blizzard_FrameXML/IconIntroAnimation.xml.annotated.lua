@@ -19,27 +19,27 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L59)
 --- child of IconIntroTemplate
---- @class IconIntroTemplate_IconIntroTemplateIconTrail3 : Frame, IconIntroAnimTemplate
+--- @class IconIntroTemplate_IconTrail3 : Frame, IconIntroAnimTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L65)
 --- child of IconIntroTemplate
---- @class IconIntroTemplate_IconIntroTemplateIconTrail2 : Frame, IconIntroAnimTemplate
+--- @class IconIntroTemplate_IconTrail2 : Frame, IconIntroAnimTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L71)
 --- child of IconIntroTemplate
---- @class IconIntroTemplate_IconIntroTemplateIconTrail1 : Frame, IconIntroAnimTemplate
+--- @class IconIntroTemplate_IconTrail1 : Frame, IconIntroAnimTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L77)
 --- child of IconIntroTemplate
---- @class IconIntroTemplate_IconIntroTemplateIcon : Frame, IconIntroAnimTemplate
+--- @class IconIntroTemplate_Icon : Frame, IconIntroAnimTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L56)
 --- Template
 --- @class IconIntroTemplate : Frame
---- @field trail3 IconIntroTemplate_IconIntroTemplateIconTrail3
---- @field trail2 IconIntroTemplate_IconIntroTemplateIconTrail2
---- @field trail1 IconIntroTemplate_IconIntroTemplateIconTrail1
---- @field icon IconIntroTemplate_IconIntroTemplateIcon
+--- @field trail3 IconIntroTemplate_IconTrail3
+--- @field trail2 IconIntroTemplate_IconTrail2
+--- @field trail1 IconIntroTemplate_IconTrail1
+--- @field icon IconIntroTemplate_Icon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/IconIntroAnimation.xml#L101)
 --- @class IconIntroTracker : Frame, IconIntroTrackerMixin

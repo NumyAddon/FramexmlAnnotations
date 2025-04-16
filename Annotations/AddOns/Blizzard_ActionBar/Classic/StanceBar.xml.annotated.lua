@@ -91,12 +91,12 @@ StanceButton1Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L94)
 --- child of StanceButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 StanceButton1Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L100)
 --- child of StanceButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 StanceButton1Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L23)
@@ -111,32 +111,32 @@ StanceButton1Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L27)
 --- child of StanceButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 StanceButton1FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- child of StanceButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 StanceButton1FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L39)
 --- child of StanceButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 StanceButton1FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L40)
 --- child of StanceButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 StanceButton1HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L46)
 --- child of StanceButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 StanceButton1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L53)
 --- child of StanceButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 StanceButton1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L59)
@@ -151,7 +151,7 @@ StanceButton1NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L71)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceButton1 : CheckButton, StanceButtonTemplate
+--- @class StanceButton1 : CheckButton, StanceButtonTemplate
 StanceButton1 = {}
 StanceButton1["AutoCastShine"] = StanceButton1Shine -- inherited
 StanceButton1["cooldown"] = StanceButton1Cooldown -- inherited
@@ -253,12 +253,12 @@ StanceButton2Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L94)
 --- child of StanceButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 StanceButton2Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L100)
 --- child of StanceButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 StanceButton2Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L23)
@@ -273,32 +273,32 @@ StanceButton2Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L27)
 --- child of StanceButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 StanceButton2FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- child of StanceButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 StanceButton2FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L39)
 --- child of StanceButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 StanceButton2FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L40)
 --- child of StanceButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 StanceButton2HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L46)
 --- child of StanceButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 StanceButton2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L53)
 --- child of StanceButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 StanceButton2Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L59)
@@ -313,7 +313,7 @@ StanceButton2NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L80)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceButton2 : CheckButton, StanceButtonTemplate
+--- @class StanceButton2 : CheckButton, StanceButtonTemplate
 StanceButton2 = {}
 StanceButton2["AutoCastShine"] = StanceButton2Shine -- inherited
 StanceButton2["cooldown"] = StanceButton2Cooldown -- inherited
@@ -415,12 +415,12 @@ StanceButton3Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L94)
 --- child of StanceButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 StanceButton3Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L100)
 --- child of StanceButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 StanceButton3Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L23)
@@ -435,32 +435,32 @@ StanceButton3Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L27)
 --- child of StanceButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 StanceButton3FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- child of StanceButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 StanceButton3FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L39)
 --- child of StanceButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 StanceButton3FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L40)
 --- child of StanceButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 StanceButton3HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L46)
 --- child of StanceButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 StanceButton3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L53)
 --- child of StanceButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 StanceButton3Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L59)
@@ -475,7 +475,7 @@ StanceButton3NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L89)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceButton3 : CheckButton, StanceButtonTemplate
+--- @class StanceButton3 : CheckButton, StanceButtonTemplate
 StanceButton3 = {}
 StanceButton3["AutoCastShine"] = StanceButton3Shine -- inherited
 StanceButton3["cooldown"] = StanceButton3Cooldown -- inherited
@@ -577,12 +577,12 @@ StanceButton4Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L94)
 --- child of StanceButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 StanceButton4Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L100)
 --- child of StanceButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 StanceButton4Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L23)
@@ -597,32 +597,32 @@ StanceButton4Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L27)
 --- child of StanceButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 StanceButton4FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- child of StanceButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 StanceButton4FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L39)
 --- child of StanceButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 StanceButton4FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L40)
 --- child of StanceButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 StanceButton4HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L46)
 --- child of StanceButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 StanceButton4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L53)
 --- child of StanceButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 StanceButton4Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L59)
@@ -637,7 +637,7 @@ StanceButton4NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L98)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceButton4 : CheckButton, StanceButtonTemplate
+--- @class StanceButton4 : CheckButton, StanceButtonTemplate
 StanceButton4 = {}
 StanceButton4["AutoCastShine"] = StanceButton4Shine -- inherited
 StanceButton4["cooldown"] = StanceButton4Cooldown -- inherited
@@ -739,12 +739,12 @@ StanceButton5Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L94)
 --- child of StanceButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 StanceButton5Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L100)
 --- child of StanceButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 StanceButton5Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L23)
@@ -759,32 +759,32 @@ StanceButton5Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L27)
 --- child of StanceButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 StanceButton5FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- child of StanceButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 StanceButton5FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L39)
 --- child of StanceButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 StanceButton5FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L40)
 --- child of StanceButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 StanceButton5HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L46)
 --- child of StanceButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 StanceButton5Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L53)
 --- child of StanceButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 StanceButton5Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L59)
@@ -799,7 +799,7 @@ StanceButton5NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L107)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceButton5 : CheckButton, StanceButtonTemplate
+--- @class StanceButton5 : CheckButton, StanceButtonTemplate
 StanceButton5 = {}
 StanceButton5["AutoCastShine"] = StanceButton5Shine -- inherited
 StanceButton5["cooldown"] = StanceButton5Cooldown -- inherited
@@ -901,12 +901,12 @@ StanceButton6Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L94)
 --- child of StanceButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 StanceButton6Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L100)
 --- child of StanceButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 StanceButton6Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L23)
@@ -921,32 +921,32 @@ StanceButton6Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L27)
 --- child of StanceButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 StanceButton6FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- child of StanceButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 StanceButton6FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L39)
 --- child of StanceButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 StanceButton6FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L40)
 --- child of StanceButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 StanceButton6HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L46)
 --- child of StanceButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 StanceButton6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L53)
 --- child of StanceButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 StanceButton6Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L59)
@@ -961,7 +961,7 @@ StanceButton6NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L116)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceButton6 : CheckButton, StanceButtonTemplate
+--- @class StanceButton6 : CheckButton, StanceButtonTemplate
 StanceButton6 = {}
 StanceButton6["AutoCastShine"] = StanceButton6Shine -- inherited
 StanceButton6["cooldown"] = StanceButton6Cooldown -- inherited
@@ -1063,12 +1063,12 @@ StanceButton7Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L94)
 --- child of StanceButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 StanceButton7Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L100)
 --- child of StanceButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 StanceButton7Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L23)
@@ -1083,32 +1083,32 @@ StanceButton7Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L27)
 --- child of StanceButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 StanceButton7FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- child of StanceButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 StanceButton7FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L39)
 --- child of StanceButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 StanceButton7FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L40)
 --- child of StanceButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 StanceButton7HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L46)
 --- child of StanceButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 StanceButton7Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L53)
 --- child of StanceButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 StanceButton7Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L59)
@@ -1123,7 +1123,7 @@ StanceButton7NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L125)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceButton7 : CheckButton, StanceButtonTemplate
+--- @class StanceButton7 : CheckButton, StanceButtonTemplate
 StanceButton7 = {}
 StanceButton7["AutoCastShine"] = StanceButton7Shine -- inherited
 StanceButton7["cooldown"] = StanceButton7Cooldown -- inherited
@@ -1225,12 +1225,12 @@ StanceButton8Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L94)
 --- child of StanceButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 StanceButton8Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L100)
 --- child of StanceButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 StanceButton8Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L23)
@@ -1245,32 +1245,32 @@ StanceButton8Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L27)
 --- child of StanceButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 StanceButton8FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- child of StanceButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 StanceButton8FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L39)
 --- child of StanceButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 StanceButton8FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L40)
 --- child of StanceButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 StanceButton8HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L46)
 --- child of StanceButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 StanceButton8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L53)
 --- child of StanceButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 StanceButton8Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L59)
@@ -1285,7 +1285,7 @@ StanceButton8NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L134)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceButton8 : CheckButton, StanceButtonTemplate
+--- @class StanceButton8 : CheckButton, StanceButtonTemplate
 StanceButton8 = {}
 StanceButton8["AutoCastShine"] = StanceButton8Shine -- inherited
 StanceButton8["cooldown"] = StanceButton8Cooldown -- inherited
@@ -1387,12 +1387,12 @@ StanceButton9Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L94)
 --- child of StanceButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 StanceButton9Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L100)
 --- child of StanceButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 StanceButton9Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L23)
@@ -1407,32 +1407,32 @@ StanceButton9Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L27)
 --- child of StanceButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 StanceButton9FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- child of StanceButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 StanceButton9FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L39)
 --- child of StanceButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 StanceButton9FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L40)
 --- child of StanceButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 StanceButton9HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L46)
 --- child of StanceButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 StanceButton9Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L53)
 --- child of StanceButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 StanceButton9Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L59)
@@ -1447,7 +1447,7 @@ StanceButton9NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L143)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceButton9 : CheckButton, StanceButtonTemplate
+--- @class StanceButton9 : CheckButton, StanceButtonTemplate
 StanceButton9 = {}
 StanceButton9["AutoCastShine"] = StanceButton9Shine -- inherited
 StanceButton9["cooldown"] = StanceButton9Cooldown -- inherited
@@ -1549,12 +1549,12 @@ StanceButton10Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L94)
 --- child of StanceButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 StanceButton10Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L100)
 --- child of StanceButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 StanceButton10Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L23)
@@ -1569,32 +1569,32 @@ StanceButton10Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L27)
 --- child of StanceButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 StanceButton10FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- child of StanceButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 StanceButton10FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L39)
 --- child of StanceButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 StanceButton10FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L40)
 --- child of StanceButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 StanceButton10HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L46)
 --- child of StanceButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 StanceButton10Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L53)
 --- child of StanceButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 StanceButton10Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L59)
@@ -1609,7 +1609,7 @@ StanceButton10NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L152)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceButton10 : CheckButton, StanceButtonTemplate
+--- @class StanceButton10 : CheckButton, StanceButtonTemplate
 StanceButton10 = {}
 StanceButton10["AutoCastShine"] = StanceButton10Shine -- inherited
 StanceButton10["cooldown"] = StanceButton10Cooldown -- inherited
@@ -1626,21 +1626,21 @@ StanceButton10["NormalTexture"] = StanceButton10NormalTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L45)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceBarLeft : Texture
+--- @class StanceBarLeft : Texture
 StanceBarLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L52)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceBarMiddle : Texture
+--- @class StanceBarMiddle : Texture
 StanceBarMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L61)
 --- child of StanceBarFrame
---- @class StanceBarFrame_StanceBarRight : Texture
+--- @class StanceBarRight : Texture
 StanceBarRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L32)
 --- @class StanceBarFrame : Frame
---- @field StanceButtons table<number, StanceBarFrame_StanceButton1 | StanceBarFrame_StanceButton2 | StanceBarFrame_StanceButton3 | StanceBarFrame_StanceButton4 | StanceBarFrame_StanceButton5 | StanceBarFrame_StanceButton6 | StanceBarFrame_StanceButton7 | StanceBarFrame_StanceButton8 | StanceBarFrame_StanceButton9 | StanceBarFrame_StanceButton10>
+--- @field StanceButtons table<number, StanceButton1 | StanceButton2 | StanceButton3 | StanceButton4 | StanceButton5 | StanceButton6 | StanceButton7 | StanceButton8 | StanceButton9 | StanceButton10>
 StanceBarFrame = {}
 

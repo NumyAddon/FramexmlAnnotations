@@ -47,7 +47,7 @@ LFGParentFrameTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L46)
 --- child of LFGParentFrame
---- @class LFGParentFrame_LFGParentFrameTab1 : Button, CharacterFrameTabButtonTemplate
+--- @class LFGParentFrameTab1 : Button, CharacterFrameTabButtonTemplate
 LFGParentFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L9)
@@ -87,12 +87,12 @@ LFGParentFrameTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L76)
 --- child of LFGParentFrame
---- @class LFGParentFrame_LFGParentFrameTab2 : Button, CharacterFrameTabButtonTemplate
+--- @class LFGParentFrameTab2 : Button, CharacterFrameTabButtonTemplate
 LFGParentFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L108)
 --- child of LFGParentFramePortrait
---- @class LFGParentFrame_LFGParentFramePortrait_LFGParentFramePortraitIcon : Texture
+--- @class LFGParentFramePortraitIcon : Texture
 LFGParentFramePortraitIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L8)
@@ -102,14 +102,14 @@ LFGParentFramePortraitTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L101)
 --- child of LFGParentFrame
---- @class LFGParentFrame_LFGParentFramePortrait : Frame, LFGEyeTemplate
+--- @class LFGParentFramePortrait : Frame, LFGEyeTemplate
 LFGParentFramePortrait = {}
 LFGParentFramePortrait["Texture"] = LFGParentFramePortraitTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L32)
 --- @class LFGParentFrame : Frame, LFGParentFrameMixin
---- @field Tab1 LFGParentFrame_LFGParentFrameTab1
---- @field Tab2 LFGParentFrame_LFGParentFrameTab2
+--- @field Tab1 LFGParentFrameTab1
+--- @field Tab2 LFGParentFrameTab2
 LFGParentFrame = {}
 LFGParentFrame["Tab1"] = LFGParentFrameTab1
 LFGParentFrame["Tab2"] = LFGParentFrameTab2

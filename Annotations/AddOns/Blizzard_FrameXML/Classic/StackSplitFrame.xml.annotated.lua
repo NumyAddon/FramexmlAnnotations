@@ -2,29 +2,29 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/StackSplitFrame.xml#L27)
 --- child of StackSplitFrame
---- @class StackSplitFrame_StackSplitLeftButton : Button
+--- @class StackSplitLeftButton : Button
 StackSplitLeftButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/StackSplitFrame.xml#L45)
 --- child of StackSplitFrame
---- @class StackSplitFrame_StackSplitRightButton : Button
+--- @class StackSplitRightButton : Button
 StackSplitRightButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/StackSplitFrame.xml#L63)
 --- child of StackSplitFrame
---- @class StackSplitFrame_StackSplitOkayButton : Button, UIPanelButtonTemplate
+--- @class StackSplitOkayButton : Button, UIPanelButtonTemplate
 StackSplitOkayButton = {}
 StackSplitOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/StackSplitFrame.xml#L78)
 --- child of StackSplitFrame
---- @class StackSplitFrame_StackSplitCancelButton : Button, UIPanelButtonTemplate
+--- @class StackSplitCancelButton : Button, UIPanelButtonTemplate
 StackSplitCancelButton = {}
 StackSplitCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/StackSplitFrame.xml#L15)
 --- child of StackSplitFrame
---- @class StackSplitFrame_StackSplitText : FontString, GameFontHighlight
+--- @class StackSplitText : FontString, GameFontHighlight
 StackSplitText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/StackSplitFrame.xml#L3)

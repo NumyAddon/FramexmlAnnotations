@@ -21,12 +21,12 @@ MainMenuBarBackpackButtonIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L13)
 --- child of MainMenuBarBackpackButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 MainMenuBarBackpackButtonCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L22)
 --- child of MainMenuBarBackpackButton (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 MainMenuBarBackpackButtonStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L33)
@@ -59,12 +59,12 @@ CharacterBag0SlotIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L13)
 --- child of CharacterBag0Slot (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 CharacterBag0SlotCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L22)
 --- child of CharacterBag0Slot (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 CharacterBag0SlotStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L33)
@@ -97,12 +97,12 @@ CharacterBag1SlotIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L13)
 --- child of CharacterBag1Slot (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 CharacterBag1SlotCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L22)
 --- child of CharacterBag1Slot (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 CharacterBag1SlotStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L33)
@@ -135,12 +135,12 @@ CharacterBag2SlotIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L13)
 --- child of CharacterBag2Slot (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 CharacterBag2SlotCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L22)
 --- child of CharacterBag2Slot (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 CharacterBag2SlotStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L33)
@@ -173,12 +173,12 @@ CharacterBag3SlotIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L13)
 --- child of CharacterBag3Slot (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateCount
+--- @type ItemButtonTemplate_Count
 CharacterBag3SlotCount = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L22)
 --- child of CharacterBag3Slot (created in template ItemButtonTemplate)
---- @type ItemButtonTemplate_ItemButtonTemplateStock
+--- @type ItemButtonTemplate_Stock
 CharacterBag3SlotStock = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L33)

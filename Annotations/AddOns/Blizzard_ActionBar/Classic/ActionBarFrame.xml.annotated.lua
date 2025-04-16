@@ -118,12 +118,12 @@ ActionButton1Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton1Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton1Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -138,32 +138,32 @@ ActionButton1Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton1FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton1FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton1FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton1HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -274,12 +274,12 @@ ActionButton2Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton2Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton2Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -294,32 +294,32 @@ ActionButton2Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton2FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton2FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton2FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton2HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton2Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton2 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton2Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -430,12 +430,12 @@ ActionButton3Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton3Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton3Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -450,32 +450,32 @@ ActionButton3Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton3FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton3FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton3FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton3HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton3Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton3 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton3Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -586,12 +586,12 @@ ActionButton4Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton4Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton4Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -606,32 +606,32 @@ ActionButton4Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton4FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton4FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton4FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton4HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton4Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton4 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton4Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -742,12 +742,12 @@ ActionButton5Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton5Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton5Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -762,32 +762,32 @@ ActionButton5Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton5FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton5FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton5FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton5HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton5Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton5 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton5Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -898,12 +898,12 @@ ActionButton6Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton6Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton6Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -918,32 +918,32 @@ ActionButton6Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton6FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton6FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton6FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton6HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton6Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton6 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton6Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -1054,12 +1054,12 @@ ActionButton7Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton7Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton7Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -1074,32 +1074,32 @@ ActionButton7Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton7FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton7FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton7FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton7HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton7Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton7 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton7Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -1210,12 +1210,12 @@ ActionButton8Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton8Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton8Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -1230,32 +1230,32 @@ ActionButton8Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton8FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton8FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton8FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton8HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton8Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton8 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton8Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -1366,12 +1366,12 @@ ActionButton9Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton9Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton9Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -1386,32 +1386,32 @@ ActionButton9Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton9FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton9FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton9FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton9HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton9Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton9 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton9Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -1522,12 +1522,12 @@ ActionButton10Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton10Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton10Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -1542,32 +1542,32 @@ ActionButton10Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton10FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton10FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton10FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton10HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton10Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton10 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton10Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -1678,12 +1678,12 @@ ActionButton11Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton11Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton11Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -1698,32 +1698,32 @@ ActionButton11Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton11FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton11FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton11FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton11HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton11Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton11 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton11Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)
@@ -1834,12 +1834,12 @@ ActionButton12Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L94)
 --- child of ActionButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 ActionButton12Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L100)
 --- child of ActionButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 ActionButton12Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L23)
@@ -1854,32 +1854,32 @@ ActionButton12Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L27)
 --- child of ActionButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 ActionButton12FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L32)
 --- child of ActionButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 ActionButton12FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L39)
 --- child of ActionButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 ActionButton12FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L40)
 --- child of ActionButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 ActionButton12HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L46)
 --- child of ActionButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 ActionButton12Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L53)
 --- child of ActionButton12 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 ActionButton12Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L59)

@@ -18,7 +18,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L29)
 --- child of DialogBoxFrame
---- @class DialogBoxFrame_DialogBoxFrameButton : Button
+--- @class DialogBoxFrame_Button : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L21)
 --- Template
@@ -27,7 +27,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L136)
 --- child of UIPanelDialogTemplate
---- @class UIPanelDialogTemplate_UIPanelDialogTemplateClose : Button, UIPanelCloseButton
+--- @class UIPanelDialogTemplate_Close : Button, UIPanelCloseButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L112)
 --- child of UIPanelDialogTemplate
@@ -44,7 +44,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L161)
 --- child of BasicMessageDialog
---- @class BasicMessageDialog_BasicMessageDialogButton : Button
+--- @class BasicMessageDialogButton : Button
 BasicMessageDialogButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L151)

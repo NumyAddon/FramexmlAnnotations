@@ -2,18 +2,18 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L24)
 --- child of CompactAuraTemplate
---- @class CompactAuraTemplate_CompactAuraTemplateCooldown : Cooldown, CooldownFrameTemplate
+--- @class CompactAuraTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L12)
 --- child of CompactAuraTemplate
---- @class CompactAuraTemplate_CompactAuraTemplateCount : FontString, NumberFontNormalSmall
+--- @class CompactAuraTemplate_Count : FontString, NumberFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L3)
 --- Template
 --- @class CompactAuraTemplate : Button
---- @field cooldown CompactAuraTemplate_CompactAuraTemplateCooldown
+--- @field cooldown CompactAuraTemplate_Cooldown
 --- @field icon Texture
---- @field count CompactAuraTemplate_CompactAuraTemplateCount
+--- @field count CompactAuraTemplate_Count
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L38)
 --- Template
@@ -31,70 +31,70 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L184)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar : StatusBar
+--- @class CompactUnitFrameTemplate_HealthBar : StatusBar
 --- @field background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L191)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar : StatusBar
+--- @class CompactUnitFrameTemplate_PowerBar : StatusBar
 --- @field background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L198)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff1 : Button, CompactBuffTemplate
+--- @class CompactUnitFrameTemplate_Buff1 : Button, CompactBuffTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L199)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff2 : Button, CompactBuffTemplate
+--- @class CompactUnitFrameTemplate_Buff2 : Button, CompactBuffTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L200)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateBuff3 : Button, CompactBuffTemplate
+--- @class CompactUnitFrameTemplate_Buff3 : Button, CompactBuffTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L201)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff1 : Button, CompactDebuffTemplate
+--- @class CompactUnitFrameTemplate_Debuff1 : Button, CompactDebuffTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L202)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff2 : Button, CompactDebuffTemplate
+--- @class CompactUnitFrameTemplate_Debuff2 : Button, CompactDebuffTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L203)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDebuff3 : Button, CompactDebuffTemplate
+--- @class CompactUnitFrameTemplate_Debuff3 : Button, CompactDebuffTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L204)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff1 : Button, CompactDispelDebuffTemplate
+--- @class CompactUnitFrameTemplate_DispelDebuff1 : Button, CompactDispelDebuffTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L205)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff2 : Button, CompactDispelDebuffTemplate
+--- @class CompactUnitFrameTemplate_DispelDebuff2 : Button, CompactDispelDebuffTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L206)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateDispelDebuff3 : Button, CompactDispelDebuffTemplate
+--- @class CompactUnitFrameTemplate_DispelDebuff3 : Button, CompactDispelDebuffTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L207)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon : Button
+--- @class CompactUnitFrameTemplate_CenterStatusIcon : Button
 --- @field texture Texture
 --- @field border Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L162)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateName : FontString, GameFontHighlightSmall
+--- @class CompactUnitFrameTemplate_Name : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L163)
 --- child of CompactUnitFrameTemplate
---- @class CompactUnitFrameTemplate_CompactUnitFrameTemplateStatusText : FontString, GameFontDisable
+--- @class CompactUnitFrameTemplate_StatusText : FontString, GameFontDisable
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/CompactUnitFrame.xml#L141)
 --- Template
 --- @class CompactUnitFrameTemplate : Button, SecureUnitButtonTemplate
---- @field healthBar CompactUnitFrameTemplate_CompactUnitFrameTemplateHealthBar
---- @field powerBar CompactUnitFrameTemplate_CompactUnitFrameTemplatePowerBar
---- @field centerStatusIcon CompactUnitFrameTemplate_CompactUnitFrameTemplateCenterStatusIcon
+--- @field healthBar CompactUnitFrameTemplate_HealthBar
+--- @field powerBar CompactUnitFrameTemplate_PowerBar
+--- @field centerStatusIcon CompactUnitFrameTemplate_CenterStatusIcon
 --- @field background Texture
 --- @field myHealPrediction Texture
 --- @field otherHealPrediction Texture
@@ -105,8 +105,8 @@
 --- @field horizBottomBorder Texture
 --- @field vertLeftBorder Texture
 --- @field vertRightBorder Texture
---- @field name CompactUnitFrameTemplate_CompactUnitFrameTemplateName
---- @field statusText CompactUnitFrameTemplate_CompactUnitFrameTemplateStatusText
+--- @field name CompactUnitFrameTemplate_Name
+--- @field statusText CompactUnitFrameTemplate_StatusText
 --- @field roleIcon Texture
 --- @field myHealAbsorb Texture
 --- @field myHealAbsorbLeftShadow Texture

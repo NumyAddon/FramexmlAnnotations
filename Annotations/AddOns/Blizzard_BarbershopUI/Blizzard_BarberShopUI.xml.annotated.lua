@@ -33,42 +33,42 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L186)
 --- child of BarberShopAlternateFormTop
---- @class BarberShopFrame_BarberShopAlternateFormTop_BarberShopAlternateFormTopPortrait : Texture
+--- @class BarberShopAlternateFormTopPortrait : Texture
 BarberShopAlternateFormTopPortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L194)
 --- child of BarberShopAlternateFormTop
---- @class BarberShopFrame_BarberShopAlternateFormTop_BarberShopAlternateFormTopTop : Texture
+--- @class BarberShopAlternateFormTopTop : Texture
 BarberShopAlternateFormTopTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L205)
 --- child of BarberShopAlternateFormTop
---- @class BarberShopFrame_BarberShopAlternateFormTop_BarberShopAlternateFormTopHighlight : Texture
+--- @class BarberShopAlternateFormTopHighlight : Texture
 BarberShopAlternateFormTopHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L179)
 --- child of BarberShopFrame
---- @class BarberShopFrame_BarberShopAlternateFormTop : CheckButton
+--- @class BarberShopAlternateFormTop : CheckButton
 BarberShopAlternateFormTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L227)
 --- child of BarberShopAlternateFormBottom
---- @class BarberShopFrame_BarberShopAlternateFormBottom_BarberShopAlternateFormBottomPortrait : Texture
+--- @class BarberShopAlternateFormBottomPortrait : Texture
 BarberShopAlternateFormBottomPortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L235)
 --- child of BarberShopAlternateFormBottom
---- @class BarberShopFrame_BarberShopAlternateFormBottom_BarberShopAlternateFormBottomBottom : Texture
+--- @class BarberShopAlternateFormBottomBottom : Texture
 BarberShopAlternateFormBottomBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L246)
 --- child of BarberShopAlternateFormBottom
---- @class BarberShopFrame_BarberShopAlternateFormBottom_BarberShopAlternateFormBottomHighlight : Texture
+--- @class BarberShopAlternateFormBottomHighlight : Texture
 BarberShopAlternateFormBottomHighlight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L220)
 --- child of BarberShopFrame
---- @class BarberShopFrame_BarberShopAlternateFormBottom : CheckButton
+--- @class BarberShopAlternateFormBottom : CheckButton
 BarberShopAlternateFormBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L80)
@@ -98,7 +98,7 @@ BarberShopFrameMaleButtonDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L261)
 --- child of BarberShopFrame
---- @class BarberShopFrame_BarberShopFrameMaleButton : CheckButton, CharacterCreateGenderButtonTemplate
+--- @class BarberShopFrameMaleButton : CheckButton, CharacterCreateGenderButtonTemplate
 --- @field layoutIndex number # 1
 BarberShopFrameMaleButton = {}
 BarberShopFrameMaleButton["layoutIndex"] = 1
@@ -130,7 +130,7 @@ BarberShopFrameFemaleButtonDisableTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L277)
 --- child of BarberShopFrame
---- @class BarberShopFrame_BarberShopFrameFemaleButton : CheckButton, CharacterCreateGenderButtonTemplate
+--- @class BarberShopFrameFemaleButton : CheckButton, CharacterCreateGenderButtonTemplate
 BarberShopFrameFemaleButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L296)
@@ -180,7 +180,7 @@ BarberShopFrameFemaleButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L435)
 --- child of BarberShopFrame
---- @class BarberShopFrame_BarberShopFrameOkayButton : Button, UIPanelButtonTemplate
+--- @class BarberShopFrameOkayButton : Button, UIPanelButtonTemplate
 --- @field layoutIndex number # 12
 BarberShopFrameOkayButton = {}
 BarberShopFrameOkayButton["layoutIndex"] = 12
@@ -188,13 +188,13 @@ BarberShopFrameOkayButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L448)
 --- child of BarberShopFrame
---- @class BarberShopFrame_BarberShopFrameCancelButton : Button, UIPanelButtonTemplate
+--- @class BarberShopFrameCancelButton : Button, UIPanelButtonTemplate
 BarberShopFrameCancelButton = {}
 BarberShopFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L465)
 --- child of BarberShopFrame
---- @class BarberShopFrame_BarberShopFrameResetButton : Button, UIPanelButtonTemplate
+--- @class BarberShopFrameResetButton : Button, UIPanelButtonTemplate
 --- @field layoutIndex number # 13
 BarberShopFrameResetButton = {}
 BarberShopFrameResetButton["layoutIndex"] = 13
@@ -218,12 +218,12 @@ BarberShopFrame["fixedWidth"] = 271
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L499)
 --- child of BarberShopBannerFrame
---- @class BarberShopBannerFrame_BarberShopBannerFrameBGTexture : Texture
+--- @class BarberShopBannerFrameBGTexture : Texture
 BarberShopBannerFrameBGTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L504)
 --- child of BarberShopBannerFrame
---- @class BarberShopBannerFrame_BarberShopBannerFrameCaption : FontString, GameFontNormalLarge
+--- @class BarberShopBannerFrameCaption : FontString, GameFontNormalLarge
 BarberShopBannerFrameCaption = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L490)
@@ -232,7 +232,7 @@ BarberShopBannerFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L592)
 --- child of BarbersChoiceConfirmFrame
---- @class BarbersChoiceConfirmFrame_BarbersChoiceConfirmFrameBarbersChoiceOkayButton : Button, UIPanelButtonTemplate
+--- @class BarbersChoiceConfirmFrameBarbersChoiceOkayButton : Button, UIPanelButtonTemplate
 --- @field layoutIndex number # 3
 BarbersChoiceConfirmFrameBarbersChoiceOkayButton = {}
 BarbersChoiceConfirmFrameBarbersChoiceOkayButton["layoutIndex"] = 3
@@ -240,7 +240,7 @@ BarbersChoiceConfirmFrameBarbersChoiceOkayButton["fitTextCanWidthDecrease"] = tr
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L607)
 --- child of BarbersChoiceConfirmFrame
---- @class BarbersChoiceConfirmFrame_BarbersChoiceConfirmFrameBarbersChoiceCancelButton : Button, UIPanelButtonTemplate
+--- @class BarbersChoiceConfirmFrameBarbersChoiceCancelButton : Button, UIPanelButtonTemplate
 --- @field layoutIndex number # 4
 BarbersChoiceConfirmFrameBarbersChoiceCancelButton = {}
 BarbersChoiceConfirmFrameBarbersChoiceCancelButton["layoutIndex"] = 4
@@ -248,7 +248,7 @@ BarbersChoiceConfirmFrameBarbersChoiceCancelButton["fitTextCanWidthDecrease"] = 
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BarbershopUI/Blizzard_BarberShopUI.xml#L621)
 --- child of BarbersChoiceConfirmFrame
---- @class BarbersChoiceConfirmFrame_BarbersChoiceBottomPadder : Frame
+--- @class BarbersChoiceBottomPadder : Frame
 --- @field layoutIndex number # 5
 BarbersChoiceBottomPadder = {}
 BarbersChoiceBottomPadder["layoutIndex"] = 5

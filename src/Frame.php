@@ -36,15 +36,17 @@ class Frame
         return $node;
     }
 
-    public function getName(): string
+    public function getName(bool $emptyParent = false): string
     {
         if ($this->parent && str_contains($this->name, '$parent')) {
             $parent = $this;
             $parentName = '';
-            while ($parent = $parent->getParent()) {
-                $parentName = $parent->getName();
-                if ($parentName) {
-                    break;
+            if (!$emptyParent) {
+                while ($parent = $parent->getParent()) {
+                    $parentName = $parent->getName();
+                    if ($parentName) {
+                        break;
+                    }
                 }
             }
             return str_replace('$parent', $parentName, $this->name);
@@ -55,17 +57,16 @@ class Frame
 
     public function getClassName(): ?string
     {
+        if ($this->getName() && $this->getRootNode()::class === Frame::class) {
+            return $this->sanitizeClassName($this->getName());
+        }
         $prefix = $this->parent?->getClassName() ?? '';
-        $name = $this->getName() ?: $this->getParentKey();
-        if (!$name) {
+        $name = $this->getName(true) ?: $this->getParentKey();
+        if (!$name || ($this->parent && !$prefix)) {
             return null;
         }
 
-        return str_replace(
-            ['$', ' ', '-', '.'],
-            ['', '_', '_', '_'],
-            $prefix === '' ? $name : $prefix . '_' . $name,
-        );
+        return $this->sanitizeClassName($prefix === '' ? $name : ($prefix . '_' . $name));
     }
 
     public function getParent(): ?self
@@ -140,7 +141,9 @@ class Frame
         $inherits = (string) $this->xmlElement->attributes()['inherits'] ?? '';
         $inherits = str_replace(' ', '', $inherits);
 
-        return $inherits === '' ? [] : explode(',', $inherits);
+        return $inherits === ''
+            ? []
+            : array_map($this->sanitizeClassName(...), explode(',', $inherits));
     }
 
     /**
@@ -188,5 +191,14 @@ class Frame
         $node = dom_import_simplexml($this->xmlElement);
 
         return $node->getLineNo();
+    }
+
+    private function sanitizeClassName(string $name): string
+    {
+        return str_replace(
+            ['$', ' ', '-', '.', '!'],
+            ['', '_', '_', '_', '_'],
+            $name,
+        );
     }
 }

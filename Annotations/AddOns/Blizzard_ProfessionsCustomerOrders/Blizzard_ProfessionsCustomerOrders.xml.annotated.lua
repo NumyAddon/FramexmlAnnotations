@@ -49,14 +49,14 @@ ProfessionsCustomerOrdersFrameMiddle = {}
 --- @class ProfessionsCustomerOrdersFrameBrowseTab : Button, ProfessionsCustomerOrdersFrameTabTemplate
 --- @field mode any # ProfessionsCustomerOrdersMode.Browse
 ProfessionsCustomerOrdersFrameBrowseTab = {}
-ProfessionsCustomerOrdersFrameBrowseTab["mode"] = _G["ProfessionsCustomerOrdersMode.Browse"]
+ProfessionsCustomerOrdersFrameBrowseTab["mode"] = ProfessionsCustomerOrdersMode.Browse
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L75)
 --- child of ProfessionsCustomerOrdersFrame
 --- @class ProfessionsCustomerOrdersFrameOrdersTab : Button, ProfessionsCustomerOrdersFrameTabTemplate
 --- @field mode any # ProfessionsCustomerOrdersMode.Orders
 ProfessionsCustomerOrdersFrameOrdersTab = {}
-ProfessionsCustomerOrdersFrameOrdersTab["mode"] = _G["ProfessionsCustomerOrdersMode.Orders"]
+ProfessionsCustomerOrdersFrameOrdersTab["mode"] = ProfessionsCustomerOrdersMode.Orders
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1107)
 --- child of ProfessionsCustomerOrdersFrame (created in template PortraitFrameTemplate)

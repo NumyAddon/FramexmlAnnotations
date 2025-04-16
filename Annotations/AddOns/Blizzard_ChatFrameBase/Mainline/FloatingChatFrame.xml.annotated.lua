@@ -348,7 +348,7 @@ ChatFrame1["ResizeButton"] = ChatFrame1ResizeButton -- inherited
 ChatFrame1["buttonFrame"] = ChatFrame1ButtonFrame -- inherited
 ChatFrame1["editBox"] = ChatFrame1EditBox -- inherited
 ChatFrame1["Background"] = ChatFrame1Background -- inherited
-ChatFrame1["system"] = _G["Enum.EditModeSystem.ChatFrame"] -- inherited
+ChatFrame1["system"] = Enum.EditModeSystem.ChatFrame -- inherited
 ChatFrame1["systemNameString"] = HUD_EDIT_MODE_CHAT_FRAME_LABEL -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L667)

@@ -16,14 +16,14 @@
 --- @field spacing number # 10
 --- @field Background PartyFrame_Background
 PartyFrame = {}
-PartyFrame["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Party"]
+PartyFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Party
 PartyFrame["systemNameString"] = HUD_EDIT_MODE_PARTY_FRAMES_LABEL
 PartyFrame["defaultHideSelection"] = true
 PartyFrame["bottomPadding"] = 2
 PartyFrame["breakSnappedFramesOnSave"] = true
 PartyFrame["alwaysUseTopLeftAnchor"] = true
 PartyFrame["spacing"] = 10
-PartyFrame["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
+PartyFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyFrame.xml#L45)
 --- @class PartyMemberBuffTooltip : Frame, TooltipBackdropTemplate, PartyMemberBuffTooltipMixin

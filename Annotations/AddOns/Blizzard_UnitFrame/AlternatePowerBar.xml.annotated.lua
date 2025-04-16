@@ -11,6 +11,6 @@ AlternatePowerBarText = {}
 --- @field powerType any # Enum.PowerType.Mana
 AlternatePowerBar = {}
 AlternatePowerBar["powerName"] = "MANA"
-AlternatePowerBar["powerType"] = _G["Enum.PowerType.Mana"]
+AlternatePowerBar["powerType"] = Enum.PowerType.Mana
 AlternatePowerBar["baseMixin"] = PlayerFrameAlternatePowerBarBaseMixin -- inherited
 

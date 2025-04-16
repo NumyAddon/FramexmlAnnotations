@@ -64,7 +64,7 @@ LootFrame["panelMaxHeight"] = 290
 LootFrame["panelWidth"] = 220
 LootFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 LootFrame["Bg"] = LootFrameBg -- inherited
-LootFrame["system"] = _G["Enum.EditModeSystem.LootFrame"] -- inherited
+LootFrame["system"] = Enum.EditModeSystem.LootFrame -- inherited
 LootFrame["systemNameString"] = HUD_EDIT_MODE_LOOT_FRAME_LABEL -- inherited
 LootFrame["defaultHideSelection"] = true -- inherited
 

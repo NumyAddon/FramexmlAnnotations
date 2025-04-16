@@ -8,13 +8,13 @@
 --- @field unit string # player
 --- @field topPadding number # 0
 ClassNameplateBarDracthyrFrame = {}
-ClassNameplateBarDracthyrFrame["shouldShowBarFunc"] = _G["ClassNameplateBarDracthyr.SetupDracthyr"]
+ClassNameplateBarDracthyrFrame["shouldShowBarFunc"] = ClassNameplateBarDracthyr.SetupDracthyr
 ClassNameplateBarDracthyrFrame["resourceBarMixin"] = ClassNameplateBar
 ClassNameplateBarDracthyrFrame["class"] = "EVOKER"
 ClassNameplateBarDracthyrFrame["unit"] = "player"
 ClassNameplateBarDracthyrFrame["topPadding"] = 0
 ClassNameplateBarDracthyrFrame["powerToken"] = "ESSENCE" -- inherited
-ClassNameplateBarDracthyrFrame["powerType"] = _G["Enum.PowerType.Essence"] -- inherited
+ClassNameplateBarDracthyrFrame["powerType"] = Enum.PowerType.Essence -- inherited
 ClassNameplateBarDracthyrFrame["tooltip1"] = POWER_TYPE_ESSENCE -- inherited
 ClassNameplateBarDracthyrFrame["tooltip2"] = ESSENCE_TOOLTIP -- inherited
 ClassNameplateBarDracthyrFrame["resourcePointTemplate"] = "EssencePointButtonTemplate" -- inherited
@@ -27,8 +27,8 @@ ClassNameplateBarDracthyrFrame["align"] = "center" -- inherited
 ClassNameplateBarDracthyrFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 ClassNameplateBarDracthyrFrame["isManagedFrame"] = true -- inherited
 ClassNameplateBarDracthyrFrame["scale"] = ".75" -- inherited
-ClassNameplateBarDracthyrFrame["showBarFunc"] = _G["ClassNameplateBar.ShowNameplateBar"] -- inherited
-ClassNameplateBarDracthyrFrame["hideBarFunc"] = _G["ClassNameplateBar.HideNameplateBar"] -- inherited
+ClassNameplateBarDracthyrFrame["showBarFunc"] = ClassNameplateBar.ShowNameplateBar -- inherited
+ClassNameplateBarDracthyrFrame["hideBarFunc"] = ClassNameplateBar.HideNameplateBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Dracthyr.xml#L16)
 --- @class ClassNameplateEbonMightBarFrame : StatusBar, ClassNameplateAlternatePowerBarBaseTemplate, EvokerEbonMightBarTemplate, ClassNameplateEbonMightBar

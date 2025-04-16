@@ -11,10 +11,10 @@ ClassNameplateBarWindwalkerMonkFrame["unit"] = "player"
 ClassNameplateBarWindwalkerMonkFrame["scale"] = 0.7
 ClassNameplateBarWindwalkerMonkFrame["powerToken"] = "CHI" -- inherited
 ClassNameplateBarWindwalkerMonkFrame["powerToken2"] = "DARK_FORCE" -- inherited
-ClassNameplateBarWindwalkerMonkFrame["powerType"] = _G["Enum.PowerType.Chi"] -- inherited
+ClassNameplateBarWindwalkerMonkFrame["powerType"] = Enum.PowerType.Chi -- inherited
 ClassNameplateBarWindwalkerMonkFrame["resourcePointTemplate"] = "MonkLightEnergyTemplate" -- inherited
-ClassNameplateBarWindwalkerMonkFrame["resourcePointSetupFunc"] = _G["MonkLightEnergyMixin.Setup"] -- inherited
-ClassNameplateBarWindwalkerMonkFrame["resourcePointReleaseFunc"] = _G["MonkLightEnergyMixin.OnRelease"] -- inherited
+ClassNameplateBarWindwalkerMonkFrame["resourcePointSetupFunc"] = MonkLightEnergyMixin.Setup -- inherited
+ClassNameplateBarWindwalkerMonkFrame["resourcePointReleaseFunc"] = MonkLightEnergyMixin.OnRelease -- inherited
 ClassNameplateBarWindwalkerMonkFrame["spacing"] = 2 -- inherited
 ClassNameplateBarWindwalkerMonkFrame["class"] = "MONK" -- inherited
 ClassNameplateBarWindwalkerMonkFrame["spec"] = SPEC_MONK_WINDWALKER -- inherited
@@ -25,8 +25,8 @@ ClassNameplateBarWindwalkerMonkFrame["layoutParent"] = PlayerFrameBottomManagedF
 ClassNameplateBarWindwalkerMonkFrame["align"] = "center" -- inherited
 ClassNameplateBarWindwalkerMonkFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 ClassNameplateBarWindwalkerMonkFrame["isManagedFrame"] = true -- inherited
-ClassNameplateBarWindwalkerMonkFrame["showBarFunc"] = _G["ClassNameplateBar.ShowNameplateBar"] -- inherited
-ClassNameplateBarWindwalkerMonkFrame["hideBarFunc"] = _G["ClassNameplateBar.HideNameplateBar"] -- inherited
+ClassNameplateBarWindwalkerMonkFrame["showBarFunc"] = ClassNameplateBar.ShowNameplateBar -- inherited
+ClassNameplateBarWindwalkerMonkFrame["hideBarFunc"] = ClassNameplateBar.HideNameplateBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Monk.xml#L14)
 --- @class ClassNameplateBrewmasterBarFrame : StatusBar, ClassNameplateAlternatePowerBarBaseTemplate, MonkStaggerBarTemplate, ClassNameplateBarBrewmasterMonk

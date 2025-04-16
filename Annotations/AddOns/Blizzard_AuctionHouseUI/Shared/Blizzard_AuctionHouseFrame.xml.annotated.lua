@@ -33,21 +33,21 @@ AuctionHouseFrameMiddle = {}
 --- @class AuctionHouseFrameBuyTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.Buy
 AuctionHouseFrameBuyTab = {}
-AuctionHouseFrameBuyTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.Buy"]
+AuctionHouseFrameBuyTab["displayMode"] = AuctionHouseFrameDisplayMode.Buy
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L52)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrameSellTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.ItemSell
 AuctionHouseFrameSellTab = {}
-AuctionHouseFrameSellTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.ItemSell"]
+AuctionHouseFrameSellTab["displayMode"] = AuctionHouseFrameDisplayMode.ItemSell
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L60)
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrameAuctionsTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.Auctions
 AuctionHouseFrameAuctionsTab = {}
-AuctionHouseFrameAuctionsTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.Auctions"]
+AuctionHouseFrameAuctionsTab["displayMode"] = AuctionHouseFrameDisplayMode.Auctions
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L71)
 --- child of AuctionHouseFrame

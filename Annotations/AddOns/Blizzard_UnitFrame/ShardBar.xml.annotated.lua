@@ -82,12 +82,12 @@
 WarlockPowerFrame = {}
 WarlockPowerFrame["showTooltip"] = true
 WarlockPowerFrame["powerToken"] = "SOUL_SHARDS" -- inherited
-WarlockPowerFrame["powerType"] = _G["Enum.PowerType.SoulShards"] -- inherited
+WarlockPowerFrame["powerType"] = Enum.PowerType.SoulShards -- inherited
 WarlockPowerFrame["tooltip1"] = SOUL_SHARDS_POWER -- inherited
 WarlockPowerFrame["tooltip2"] = SOUL_SHARDS_TOOLTIP -- inherited
 WarlockPowerFrame["resourcePointTemplate"] = "ShardTemplate" -- inherited
-WarlockPowerFrame["resourcePointSetupFunc"] = _G["WarlockShardMixin.Setup"] -- inherited
-WarlockPowerFrame["resourcePointReleaseFunc"] = _G["WarlockShardMixin.OnRelease"] -- inherited
+WarlockPowerFrame["resourcePointSetupFunc"] = WarlockShardMixin.Setup -- inherited
+WarlockPowerFrame["resourcePointReleaseFunc"] = WarlockShardMixin.OnRelease -- inherited
 WarlockPowerFrame["spacing"] = 1 -- inherited
 WarlockPowerFrame["class"] = "WARLOCK" -- inherited
 WarlockPowerFrame["requiredShownLevel"] = 10 -- inherited

@@ -26,9 +26,9 @@ StanceBar["numButtons"] = 10
 StanceBar["addButtonsToRight"] = true
 StanceBar["addButtonsToTop"] = true
 StanceBar["noSpacers"] = true
-StanceBar["systemIndex"] = _G["Enum.EditModeActionBarSystemIndices.StanceBar"]
+StanceBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.StanceBar
 StanceBar["systemNameString"] = HUD_EDIT_MODE_STANCE_BAR_LABEL
 StanceBar["defaultHideSelection"] = true
-StanceBar["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
+StanceBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 StanceBar["addSystemIndexToName"] = true -- inherited
 

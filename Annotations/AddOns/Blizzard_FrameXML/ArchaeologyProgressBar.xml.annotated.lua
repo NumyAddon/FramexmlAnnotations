@@ -50,7 +50,7 @@ ArcheologyDigsiteProgressBar["align"] = "center" -- inherited
 ArcheologyDigsiteProgressBar["hideWhenActionBarIsOverriden"] = true -- inherited
 ArcheologyDigsiteProgressBar["isBottomManagedFrame"] = true -- inherited
 ArcheologyDigsiteProgressBar["isManagedFrame"] = true -- inherited
-ArcheologyDigsiteProgressBar["system"] = _G["Enum.EditModeSystem.ArchaeologyBar"] -- inherited
+ArcheologyDigsiteProgressBar["system"] = Enum.EditModeSystem.ArchaeologyBar -- inherited
 ArcheologyDigsiteProgressBar["systemNameString"] = HUD_EDIT_MODE_ARCHAEOLOGY_BAR_LABEL -- inherited
 ArcheologyDigsiteProgressBar["defaultHideSelection"] = true -- inherited
 

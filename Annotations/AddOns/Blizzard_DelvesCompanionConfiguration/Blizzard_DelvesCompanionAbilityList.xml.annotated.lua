@@ -47,13 +47,13 @@ DelvesCompanionAbilityListFrameBg = {}
 --- @field DelvesCompanionAbilityListPagingControls DelvesCompanionAbilityListFrame_DelvesCompanionAbilityListPagingControls
 --- @field CompanionAbilityListBackground Texture
 DelvesCompanionAbilityListFrame = {}
-DelvesCompanionAbilityListFrame["getTemplateType"] = _G["DelvesCompanionAbilityListFrameMixin.GetTemplateForTalentType"]
+DelvesCompanionAbilityListFrame["getTemplateType"] = DelvesCompanionAbilityListFrameMixin.GetTemplateForTalentType
 DelvesCompanionAbilityListFrame["enableZoomAndPan"] = false
 DelvesCompanionAbilityListFrame["CloseButton"] = DelvesCompanionAbilityListFrameCloseButton -- inherited
 DelvesCompanionAbilityListFrame["Bg"] = DelvesCompanionAbilityListFrameBg -- inherited
 DelvesCompanionAbilityListFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
-DelvesCompanionAbilityListFrame["getSpecializedMixin"] = _G["TalentButtonUtil.GetSpecializedMixin"] -- inherited
-DelvesCompanionAbilityListFrame["getEdgeTemplateType"] = _G["TalentButtonUtil.GetTemplateForEdgeVisualStyle"] -- inherited
+DelvesCompanionAbilityListFrame["getSpecializedMixin"] = TalentButtonUtil.GetSpecializedMixin -- inherited
+DelvesCompanionAbilityListFrame["getEdgeTemplateType"] = TalentButtonUtil.GetTemplateForEdgeVisualStyle -- inherited
 DelvesCompanionAbilityListFrame["buttonSize"] = 40 -- inherited
 DelvesCompanionAbilityListFrame["topPadding"] = 0 -- inherited
 DelvesCompanionAbilityListFrame["leftPadding"] = 0 -- inherited

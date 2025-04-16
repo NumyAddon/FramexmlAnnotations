@@ -323,5 +323,5 @@ CovenantMissionFrame["Tab1"] = CovenantMissionFrameTab1
 CovenantMissionFrame["Tab2"] = CovenantMissionFrameTab2
 CovenantMissionFrame["Tab3"] = CovenantMissionFrameTab3
 CovenantMissionFrame["FollowerList"] = CovenantMissionFrameFollowers
-CovenantMissionFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_9_0_GarrisonFollower"]
+CovenantMissionFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_9_0_GarrisonFollower
 

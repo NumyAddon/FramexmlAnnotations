@@ -422,7 +422,7 @@ ContainerFrameCombinedBagsGoldButton = {}
 --- @field MoneyFrame ContainerFrameCombinedBags_MoneyFrame
 ContainerFrameCombinedBags = {}
 ContainerFrameCombinedBags["PortraitButton"] = ContainerFrameCombinedBagsPortraitButton
-ContainerFrameCombinedBags["onCloseCallback"] = _G["ContainerFrameCombinedBagsMixin.Close"]
+ContainerFrameCombinedBags["onCloseCallback"] = ContainerFrameCombinedBagsMixin.Close
 ContainerFrameCombinedBags["layoutType"] = "HeldBagLayout"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L1516)

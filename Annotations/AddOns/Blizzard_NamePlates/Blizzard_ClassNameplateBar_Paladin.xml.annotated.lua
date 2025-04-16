@@ -67,7 +67,7 @@ ClassNameplateBarPaladinFrame["unit"] = "player"
 ClassNameplateBarPaladinFrame["paddingOverride"] = 0
 ClassNameplateBarPaladinFrame["scale"] = 0.7
 ClassNameplateBarPaladinFrame["powerToken"] = "HOLY_POWER" -- inherited
-ClassNameplateBarPaladinFrame["powerType"] = _G["Enum.PowerType.HolyPower"] -- inherited
+ClassNameplateBarPaladinFrame["powerType"] = Enum.PowerType.HolyPower -- inherited
 ClassNameplateBarPaladinFrame["class"] = "PALADIN" -- inherited
 ClassNameplateBarPaladinFrame["usePooledResourceButtons"] = false -- inherited
 ClassNameplateBarPaladinFrame["rune1"] = ClassNameplateBarPaladinFrameRune1 -- inherited
@@ -81,6 +81,6 @@ ClassNameplateBarPaladinFrame["layoutParent"] = PlayerFrameBottomManagedFramesCo
 ClassNameplateBarPaladinFrame["align"] = "center" -- inherited
 ClassNameplateBarPaladinFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 ClassNameplateBarPaladinFrame["isManagedFrame"] = true -- inherited
-ClassNameplateBarPaladinFrame["showBarFunc"] = _G["ClassNameplateBar.ShowNameplateBar"] -- inherited
-ClassNameplateBarPaladinFrame["hideBarFunc"] = _G["ClassNameplateBar.HideNameplateBar"] -- inherited
+ClassNameplateBarPaladinFrame["showBarFunc"] = ClassNameplateBar.ShowNameplateBar -- inherited
+ClassNameplateBarPaladinFrame["hideBarFunc"] = ClassNameplateBar.HideNameplateBar -- inherited
 

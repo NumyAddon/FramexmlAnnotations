@@ -24,9 +24,9 @@ PossessActionBar["numButtons"] = 2
 PossessActionBar["addButtonsToRight"] = true
 PossessActionBar["addButtonsToTop"] = true
 PossessActionBar["noSpacers"] = true
-PossessActionBar["systemIndex"] = _G["Enum.EditModeActionBarSystemIndices.PossessActionBar"]
+PossessActionBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.PossessActionBar
 PossessActionBar["systemNameString"] = HUD_EDIT_MODE_POSSESS_ACTION_BAR_LABEL
 PossessActionBar["defaultHideSelection"] = true
-PossessActionBar["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
+PossessActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 PossessActionBar["addSystemIndexToName"] = true -- inherited
 

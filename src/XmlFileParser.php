@@ -193,8 +193,9 @@ class XmlFileParser
 
     private function wrapInGIfNeeded(string $name): string
     {
-        if (str_contains($name, '$') || str_contains($name, '-')) {
-            return '_G["' . $name . '"]';
+        if (!preg_match('/^[A-z][A-z0-9]*$/', $name)) {
+            // json_encode adds and properly escapes quotes
+            return '_G[' . json_encode($name) . ']';
         }
 
         return $name;
@@ -209,6 +210,7 @@ class XmlFileParser
 
         $data = '';
         $globalChildrenWithParentKey = [];
+        /** @var array<string, KeyValueDTO> $inheritedKeyValues */
         $inheritedKeyValues = [];
         foreach ($frame->getChildren() as $child) {
             if ($this->childHasInterestingData($child)) {
@@ -268,12 +270,15 @@ class XmlFileParser
         return $data . "\n";
     }
 
+    /**
+     * @param array<string, KeyValueDTO> $inheritedKeyValues
+     */
     private function handleInherits(Frame $frame, array &$inheritedKeyValues, ?string $linkPrefix, string &$data): void
     {
         foreach ($this->iterateInherits($frame) as $template) {
             $template = $template->withParent($frame);
             foreach ($template->getKeyValues() as $key => $value) {
-                $inheritedKeyValues[$key] = $value;
+                $inheritedKeyValues[$key] ??= $value;
             }
             foreach ($template->getChildren() as $child) {
                 $clone = $child->withParent($frame);
@@ -287,7 +292,11 @@ class XmlFileParser
                             : $child->getType(),
                     );
                     if ($clone->getParentKey()) {
-                        $inheritedKeyValues[$clone->getParentKey()] = [$clone->getName()];
+                        $inheritedKeyValues[$clone->getParentKey()] ??= new KeyValueDTO(
+                            $clone->getParentKey(),
+                            $clone->getName(),
+                            KeyValueTypeEnum::GLOBAL,
+                        );
                     }
                 }
             }
@@ -308,7 +317,7 @@ class XmlFileParser
         }
         $data .= "\n";
         foreach ($frame->getKeyValues() as $key => $value) {
-            $data .= '--- @field ' . $key . ' ' . $value[1] . ' # ' . $value[0] . "\n";
+            $data .= '--- @field ' . $key . ' ' . $value->type->luaType() . ' # ' . $value->value . "\n";
         }
         $allParentKeys = [];
         $allParentArrays = [];
@@ -383,6 +392,9 @@ class XmlFileParser
         }
     }
 
+    /**
+     * @param array<string, KeyValueDTO> $inheritedKeyValues
+     */
     private function writeExplicitGlobal(
         Frame $frame,
         array $globalChildrenWithParentKey,
@@ -390,16 +402,36 @@ class XmlFileParser
     ): string {
         $name = $this->wrapInGIfNeeded($frame->getName());
         $data = $name . " = {}\n";
+        $definedKeys = [];
         foreach ($globalChildrenWithParentKey as $key => $value) {
+            $definedKeys[$key] = true;
             $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value) . "\n";
         }
         foreach ($frame->getKeyValues() as $key => $value) {
-            $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value[0]) . "\n";
+            if (isset($definedKeys[$key])) {
+                continue;
+            }
+            $definedKeys[$key] = true;
+            $data .= $name . '["' . $key . '"] = ' . $this->formatKeyValue($value) . "\n";
         }
         foreach ($inheritedKeyValues as $key => $value) {
-            $data .= $name . '["' . $key . '"] = ' . $this->wrapInGIfNeeded($value[0]) . " -- inherited\n";
+            if (isset($definedKeys[$key])) {
+                continue;
+            }
+            $definedKeys[$key] = true;
+            $data .= $name . '["' . $key . '"] = ' . $this->formatKeyValue($value) . " -- inherited\n";
         }
 
         return $data;
+    }
+
+    private function formatKeyValue(KeyValueDTO $keyValue): string
+    {
+        return match($keyValue->type) {
+            KeyValueTypeEnum::STRING => json_encode($keyValue->value), // json_encode adds and properly escapes quotes
+            KeyValueTypeEnum::NUMBER, KeyValueTypeEnum::BOOLEAN => $keyValue->value,
+            KeyValueTypeEnum::GLOBAL => $this->wrapInGIfNeeded($keyValue->value),
+            KeyValueTypeEnum::NIL => 'nil',
+        };
     }
 }

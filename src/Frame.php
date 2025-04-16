@@ -10,6 +10,8 @@ use SimpleXMLElement;
 class Frame
 {
     private readonly ?self $originalParent;
+    /** @var array<string, KeyValueDTO> */
+    private array $keyValues;
 
     public function __construct(
         private readonly string $name,
@@ -147,43 +149,33 @@ class Frame
     }
 
     /**
-     * @return array<string, array{1: string, 2: string}> [key => [formattedValue, type]] value is formatted to be written directly into lua
+     * @return array<string, KeyValueDTO> [key => KeyValueDTO]
      */
     public function getKeyValues(): array
     {
         if (!isset($this->xmlElement->KeyValues)) {
             return [];
         }
-        $keyValues = [];
+        if (isset($this->keyValues)) {
+            return $this->keyValues;
+        }
+        $this->keyValues = [];
         foreach ($this->xmlElement->KeyValues as $child) {
             if (!isset($child->KeyValue)) {
                 continue;
             }
-            $keyValue = $child->KeyValue;
-            $key = (string) $keyValue->attributes()['key'] ?? '';
-            $value = (string) $keyValue->attributes()['value'] ?? '';
-            $type = (string) $keyValue->attributes()['type'] ?: 'string';
-            if ($key === '') {
-                continue;
+            foreach ($child->KeyValue as $keyValue) {
+                $key = (string) $keyValue->attributes()['key'] ?? '';
+                $value = (string) $keyValue->attributes()['value'] ?? '';
+                $type = (string) $keyValue->attributes()['type'] ?: 'string';
+                if ($key === '') {
+                    continue;
+                }
+                $this->keyValues[$key] = new KeyValueDTO($key, $value, KeyValueTypeEnum::from($type));
             }
-            $value = match($type) {
-                'number', 'global', 'boolean' => $value,
-                'nil' => 'nil',
-                'string' => json_encode($value), // json_encodes adds quotes to the string
-                default => throw new RuntimeException("Unknown type: $type"),
-            };
-            $type = match($type) {
-                'number' => 'number',
-                'boolean' => 'boolean',
-                'global' => 'any',
-                'nil' => 'nil',
-                'string' => 'string',
-                default => throw new RuntimeException("Unknown type: $type"),
-            };
-            $keyValues[$key] = [$value, $type];
         }
 
-        return $keyValues;
+        return $this->keyValues;
     }
 
     public function getLineNumber(): int

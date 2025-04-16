@@ -199,12 +199,14 @@ GuildControlUIRankOrderFrameRank1["upButton"] = GuildControlUIRankOrderFrameRank
 --- @class GuildControlUIRankOrderFrameNewButton : Button, UIPanelButtonTemplate
 GuildControlUIRankOrderFrameNewButton = {}
 GuildControlUIRankOrderFrameNewButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildControlUIRankOrderFrameNewButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L374)
 --- child of GuildControlUIRankOrderFrame
 --- @class GuildControlUIRankOrderFrameDupButton : Button, UIPanelButtonTemplate
 GuildControlUIRankOrderFrameDupButton = {}
 GuildControlUIRankOrderFrameDupButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildControlUIRankOrderFrameDupButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L347)
 --- child of GuildControlUI
@@ -225,8 +227,12 @@ GuildControlUIRankBankFrameRankDropdown["menuMixin"] = MenuStyle1Mixin -- inheri
 --- child of GuildControlUIRankBankFrameInset
 --- @class GuildControlUIRankBankFrameInsetScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 8
+--- @field scrollBarTopY number # -4
+--- @field scrollBarBottomY number # 1
 GuildControlUIRankBankFrameInsetScrollFrame = {}
 GuildControlUIRankBankFrameInsetScrollFrame["scrollBarX"] = 8
+GuildControlUIRankBankFrameInsetScrollFrame["scrollBarTopY"] = -4
+GuildControlUIRankBankFrameInsetScrollFrame["scrollBarBottomY"] = 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L411)
 --- child of GuildControlUIRankBankFrame

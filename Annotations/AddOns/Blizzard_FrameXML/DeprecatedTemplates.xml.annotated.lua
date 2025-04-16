@@ -29,6 +29,7 @@
 --- Template
 --- @class OptionsFrameTabButtonTemplate : Button
 --- @field deselectedTextY number # -3
+--- @field selectedTextY number # -2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/DeprecatedTemplates.xml#L118)
 --- child of OptionsListButtonTemplate

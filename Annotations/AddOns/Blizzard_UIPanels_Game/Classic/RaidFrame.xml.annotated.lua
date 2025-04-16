@@ -257,12 +257,14 @@ RaidFrameNotInRaid = {}
 --- @class RaidFrameConvertToRaidButton : Button, UIPanelButtonTemplate
 RaidFrameConvertToRaidButton = {}
 RaidFrameConvertToRaidButton["fitTextCanWidthDecrease"] = true -- inherited
+RaidFrameConvertToRaidButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RaidFrame.xml#L197)
 --- child of RaidFrame
 --- @class RaidFrameRaidInfoButton : Button, UIPanelButtonTemplate
 RaidFrameRaidInfoButton = {}
 RaidFrameRaidInfoButton["fitTextCanWidthDecrease"] = true -- inherited
+RaidFrameRaidInfoButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RaidFrame.xml#L290)
 --- child of RaidInfoFrame

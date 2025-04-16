@@ -174,6 +174,10 @@ FrameStackTooltipTexture30 = {}
 --- @class FrameStackTooltip : GameTooltip, SharedTooltipTemplate
 FrameStackTooltip = {}
 FrameStackTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+FrameStackTooltip["textRight1Font"] = "GameTooltipHeaderText" -- inherited
+FrameStackTooltip["textLeft2Font"] = "GameTooltipText" -- inherited
+FrameStackTooltip["textRight2Font"] = "GameTooltipText" -- inherited
+FrameStackTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 FrameStackTooltip["TextLeft1"] = FrameStackTooltipTextLeft1 -- inherited
 FrameStackTooltip["TextRight1"] = FrameStackTooltipTextRight1 -- inherited
 FrameStackTooltip["TextLeft2"] = FrameStackTooltipTextLeft2 -- inherited

@@ -91,18 +91,21 @@ QuestLogFrameCloseButton = {}
 --- @class QuestLogFrameAbandonButton : Button, UIPanelButtonTemplate
 QuestLogFrameAbandonButton = {}
 QuestLogFrameAbandonButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestLogFrameAbandonButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L473)
 --- child of QuestLogFrame
 --- @class QuestFrameExitButton : Button, UIPanelButtonTemplate
 QuestFrameExitButton = {}
 QuestFrameExitButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestFrameExitButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L490)
 --- child of QuestLogFrame
 --- @class QuestFramePushQuestButton : Button, UIPanelButtonTemplate
 QuestFramePushQuestButton = {}
 QuestFramePushQuestButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestFramePushQuestButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L522)
 --- child of QuestLogHighlightFrame

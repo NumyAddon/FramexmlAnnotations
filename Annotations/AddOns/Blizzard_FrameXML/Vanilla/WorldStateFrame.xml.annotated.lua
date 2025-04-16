@@ -542,6 +542,7 @@ WorldStateScoreFrameTab3 = {}
 --- @class WorldStateScoreFrameLeaveButton : Button, UIPanelButtonTemplate
 WorldStateScoreFrameLeaveButton = {}
 WorldStateScoreFrameLeaveButton["fitTextCanWidthDecrease"] = true -- inherited
+WorldStateScoreFrameLeaveButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Vanilla/WorldStateFrame.xml#L859)
 --- child of WorldStateScoreWinnerFrame

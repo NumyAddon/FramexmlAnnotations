@@ -44,6 +44,8 @@
 --- child of EngravingFrame
 --- @class EngravingFrame_Border : Frame, TooltipBackdropTemplate
 --- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
+--- @field backdropColor any # GRAY_FONT_COLOR
+--- @field backdropColorAlpha any # 0.8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L164)
 --- child of EngravingFrameSideInset

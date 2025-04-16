@@ -89,6 +89,7 @@ PetStableStabledPet2 = {}
 --- @class PetStablePurchaseButton : Button, UIPanelButtonTemplate
 PetStablePurchaseButton = {}
 PetStablePurchaseButton["fitTextCanWidthDecrease"] = true -- inherited
+PetStablePurchaseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/PetStable.xml#L159)
 --- child of PetStableMoneyFrame (created in template SmallMoneyFrameTemplate)

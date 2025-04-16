@@ -14,12 +14,14 @@ PVPFramePopupCloseButton = {}
 --- @class PVPFramePopupAcceptButton : Button, UIPanelButtonTemplate
 PVPFramePopupAcceptButton = {}
 PVPFramePopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
+PVPFramePopupAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L82)
 --- child of PVPFramePopup
 --- @class PVPFramePopupDeclineButton : Button, UIPanelButtonTemplate
 PVPFramePopupDeclineButton = {}
 PVPFramePopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
+PVPFramePopupDeclineButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L17)
 --- child of PVPFramePopup

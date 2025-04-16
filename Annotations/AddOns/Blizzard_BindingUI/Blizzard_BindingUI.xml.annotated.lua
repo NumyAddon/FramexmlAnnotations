@@ -130,8 +130,10 @@ KeyBindingFrameText = {}
 --- child of KeyBindingFrame
 --- @class KeyBindingFrameCategoryList : Frame, OptionsFrameListTemplate
 --- @field labelText any # CATEGORY
+--- @field buttonTemplate string # KeyBindingsCategoryListButtonTemplate
 KeyBindingFrameCategoryList = {}
 KeyBindingFrameCategoryList["labelText"] = CATEGORY
+KeyBindingFrameCategoryList["buttonTemplate"] = "KeyBindingsCategoryListButtonTemplate"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L210)
 --- child of KeyBindingFrame

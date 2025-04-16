@@ -88,6 +88,7 @@
 --- Template
 --- @class StaticPopupTemplate : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DARK_DIALOG_32_32
+--- @field onCloseCallback any # StaticPopup_OnCloseButtonClicked
 --- @field CoverFrame StaticPopupTemplate_CoverFrame
 --- @field extraFrame Frame
 --- @field CloseButton StaticPopupTemplate_CloseButton
@@ -225,6 +226,7 @@ StaticPopup1AlertIcon = {}
 --- @class StaticPopup1 : Frame, StaticPopupTemplate
 StaticPopup1 = {}
 StaticPopup1["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32 -- inherited
+StaticPopup1["onCloseCallback"] = StaticPopup_OnCloseButtonClicked -- inherited
 StaticPopup1["extraFrame"] = StaticPopup1ExtraFrame -- inherited
 StaticPopup1["CloseButton"] = StaticPopup1CloseButton -- inherited
 StaticPopup1["button1"] = StaticPopup1Button1 -- inherited
@@ -356,6 +358,7 @@ StaticPopup2AlertIcon = {}
 --- @class StaticPopup2 : Frame, StaticPopupTemplate
 StaticPopup2 = {}
 StaticPopup2["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32 -- inherited
+StaticPopup2["onCloseCallback"] = StaticPopup_OnCloseButtonClicked -- inherited
 StaticPopup2["extraFrame"] = StaticPopup2ExtraFrame -- inherited
 StaticPopup2["CloseButton"] = StaticPopup2CloseButton -- inherited
 StaticPopup2["button1"] = StaticPopup2Button1 -- inherited
@@ -487,6 +490,7 @@ StaticPopup3AlertIcon = {}
 --- @class StaticPopup3 : Frame, StaticPopupTemplate
 StaticPopup3 = {}
 StaticPopup3["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32 -- inherited
+StaticPopup3["onCloseCallback"] = StaticPopup_OnCloseButtonClicked -- inherited
 StaticPopup3["extraFrame"] = StaticPopup3ExtraFrame -- inherited
 StaticPopup3["CloseButton"] = StaticPopup3CloseButton -- inherited
 StaticPopup3["button1"] = StaticPopup3Button1 -- inherited
@@ -618,6 +622,7 @@ StaticPopup4AlertIcon = {}
 --- @class StaticPopup4 : Frame, StaticPopupTemplate
 StaticPopup4 = {}
 StaticPopup4["backdropInfo"] = BACKDROP_DARK_DIALOG_32_32 -- inherited
+StaticPopup4["onCloseCallback"] = StaticPopup_OnCloseButtonClicked -- inherited
 StaticPopup4["extraFrame"] = StaticPopup4ExtraFrame -- inherited
 StaticPopup4["CloseButton"] = StaticPopup4CloseButton -- inherited
 StaticPopup4["button1"] = StaticPopup4Button1 -- inherited

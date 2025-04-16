@@ -620,18 +620,21 @@ ChatConfigCombatSettingsFiltersButton4 = {}
 --- @class ChatConfigCombatSettingsFiltersDeleteButton : Button, UIPanelButtonTemplate
 ChatConfigCombatSettingsFiltersDeleteButton = {}
 ChatConfigCombatSettingsFiltersDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
+ChatConfigCombatSettingsFiltersDeleteButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L920)
 --- child of ChatConfigCombatSettingsFilters
 --- @class ChatConfigCombatSettingsFiltersAddFilterButton : Button, UIPanelButtonTemplate
 ChatConfigCombatSettingsFiltersAddFilterButton = {}
 ChatConfigCombatSettingsFiltersAddFilterButton["fitTextCanWidthDecrease"] = true -- inherited
+ChatConfigCombatSettingsFiltersAddFilterButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L937)
 --- child of ChatConfigCombatSettingsFilters
 --- @class ChatConfigCombatSettingsFiltersCopyFilterButton : Button, UIPanelButtonTemplate
 ChatConfigCombatSettingsFiltersCopyFilterButton = {}
 ChatConfigCombatSettingsFiltersCopyFilterButton["fitTextCanWidthDecrease"] = true -- inherited
+ChatConfigCombatSettingsFiltersCopyFilterButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L955)
 --- child of ChatConfigCombatSettingsFilters
@@ -1064,6 +1067,7 @@ CombatConfigSettingsNameEditBox = {}
 --- @class CombatConfigSettingsSaveButton : Button, UIPanelButtonTemplate
 CombatConfigSettingsSaveButton = {}
 CombatConfigSettingsSaveButton["fitTextCanWidthDecrease"] = true -- inherited
+CombatConfigSettingsSaveButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L206)
 --- child of CombatConfigSettingsShowQuickButton (created in template ChatConfigCheckButtonTemplate)
@@ -1122,12 +1126,14 @@ ChatConfigCombatSettings = {}
 --- @class ChatConfigFrameDefaultButton : Button, UIPanelButtonTemplate
 ChatConfigFrameDefaultButton = {}
 ChatConfigFrameDefaultButton["fitTextCanWidthDecrease"] = true -- inherited
+ChatConfigFrameDefaultButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L2018)
 --- child of ChatConfigFrame
 --- @class ChatConfigFrameRedockButton : Button, UIPanelButtonTemplate
 ChatConfigFrameRedockButton = {}
 ChatConfigFrameRedockButton["fitTextCanWidthDecrease"] = true -- inherited
+ChatConfigFrameRedockButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L2028)
 --- child of ChatConfigFrame
@@ -1138,12 +1144,14 @@ ChatConfigFrameRedockButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @class CombatLogDefaultButton : Button, UIPanelButtonTemplate
 CombatLogDefaultButton = {}
 CombatLogDefaultButton["fitTextCanWidthDecrease"] = true -- inherited
+CombatLogDefaultButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L2052)
 --- child of ChatConfigFrame
 --- @class TextToSpeechDefaultButton : Button, UIPanelButtonTemplate
 TextToSpeechDefaultButton = {}
 TextToSpeechDefaultButton["fitTextCanWidthDecrease"] = true -- inherited
+TextToSpeechDefaultButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L476)
 --- child of TextToSpeechCharacterSpecificButton (created in template UICheckButtonTemplate)
@@ -1161,12 +1169,14 @@ TextToSpeechCharacterSpecificButton["Text"] = TextToSpeechCharacterSpecificButto
 --- @class ChatConfigFrameCancelButton : Button, UIPanelButtonTemplate
 ChatConfigFrameCancelButton = {}
 ChatConfigFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+ChatConfigFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L2093)
 --- child of ChatConfigFrame
 --- @class ChatConfigFrameOkayButton : Button, UIPanelButtonTemplate
 ChatConfigFrameOkayButton = {}
 ChatConfigFrameOkayButton["fitTextCanWidthDecrease"] = true -- inherited
+ChatConfigFrameOkayButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L544)
 --- child of ChatConfigFrame

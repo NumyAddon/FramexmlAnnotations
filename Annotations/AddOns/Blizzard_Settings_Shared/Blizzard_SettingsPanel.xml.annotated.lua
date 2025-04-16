@@ -4,11 +4,13 @@
 --- child of SettingsPanel
 --- @class SettingsPanel_GameTab : Button, MinimalTabTemplate
 --- @field tabText any # SETTINGS_TAB_GAME
+--- @field categorySet any # Settings.CategorySet.Game
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L36)
 --- child of SettingsPanel
 --- @class SettingsPanel_AddOnsTab : Button, MinimalTabTemplate
 --- @field tabText any # SETTINGS_TAB_ADDONS
+--- @field categorySet any # Settings.CategorySet.AddOns
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L46)
 --- child of SettingsPanel
@@ -241,6 +243,10 @@ SettingsTooltipTexture30 = {}
 --- @class SettingsTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate
 SettingsTooltip = {}
 SettingsTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+SettingsTooltip["textRight1Font"] = "GameTooltipHeaderText" -- inherited
+SettingsTooltip["textLeft2Font"] = "GameTooltipText" -- inherited
+SettingsTooltip["textRight2Font"] = "GameTooltipText" -- inherited
+SettingsTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 SettingsTooltip["TextLeft1"] = SettingsTooltipTextLeft1 -- inherited
 SettingsTooltip["TextRight1"] = SettingsTooltipTextRight1 -- inherited
 SettingsTooltip["TextLeft2"] = SettingsTooltipTextLeft2 -- inherited

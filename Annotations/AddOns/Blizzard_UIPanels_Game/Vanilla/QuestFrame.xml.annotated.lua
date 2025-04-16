@@ -52,12 +52,14 @@ QuestFrameCloseButton = {}
 --- @class QuestFrameCancelButton : Button, UIPanelButtonTemplate
 QuestFrameCancelButton = {}
 QuestFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L95)
 --- child of QuestFrameRewardPanel
 --- @class QuestFrameCompleteQuestButton : Button, UIPanelButtonTemplate
 QuestFrameCompleteQuestButton = {}
 QuestFrameCompleteQuestButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestFrameCompleteQuestButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L106)
 --- child of QuestRewardScrollFrame
@@ -138,12 +140,14 @@ QuestFrameRewardPanel = {}
 --- @class QuestFrameGoodbyeButton : Button, UIPanelButtonTemplate
 QuestFrameGoodbyeButton = {}
 QuestFrameGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestFrameGoodbyeButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L127)
 --- child of QuestFrameProgressPanel
 --- @class QuestFrameCompleteButton : Button, UIPanelButtonTemplate
 QuestFrameCompleteButton = {}
 QuestFrameCompleteButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestFrameCompleteButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L18)
 --- child of QuestProgressRequiredMoneyFrame (created in template MoneyFrameTemplate)
@@ -441,12 +445,14 @@ QuestFrameProgressPanel = {}
 --- @class QuestFrameDeclineButton : Button, UIPanelButtonTemplate
 QuestFrameDeclineButton = {}
 QuestFrameDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestFrameDeclineButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L281)
 --- child of QuestFrameDetailPanel
 --- @class QuestFrameAcceptButton : Button, UIPanelButtonTemplate
 QuestFrameAcceptButton = {}
 QuestFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestFrameAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L292)
 --- child of QuestDetailScrollFrame
@@ -527,6 +533,7 @@ QuestFrameDetailPanel = {}
 --- @class QuestFrameGreetingGoodbyeButton : Button, UIPanelButtonTemplate
 QuestFrameGreetingGoodbyeButton = {}
 QuestFrameGreetingGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestFrameGreetingGoodbyeButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestFrame.xml#L173)
 --- child of QuestTitleButton1 (created in template QuestTitleButtonTemplate)

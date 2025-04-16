@@ -51,6 +51,7 @@ PlayerTalentFrameStatusFrame = {}
 --- @class PlayerTalentFrameActivateButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameActivateButton = {}
 PlayerTalentFrameActivateButton["fitTextCanWidthDecrease"] = true -- inherited
+PlayerTalentFrameActivateButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L259)
 --- child of PlayerTalentFramePointsBar
@@ -92,12 +93,14 @@ PlayerTalentFramePointsBar = {}
 --- @class PlayerTalentFrameResetButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameResetButton = {}
 PlayerTalentFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
+PlayerTalentFrameResetButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L361)
 --- child of PlayerTalentFramePreviewBar
 --- @class PlayerTalentFrameLearnButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameLearnButton = {}
 PlayerTalentFrameLearnButton["fitTextCanWidthDecrease"] = true -- inherited
+PlayerTalentFrameLearnButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L382)
 --- child of PlayerTalentFramePreviewBarFiller

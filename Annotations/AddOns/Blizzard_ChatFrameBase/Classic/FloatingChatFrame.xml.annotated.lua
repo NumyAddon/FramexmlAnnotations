@@ -76,16 +76,21 @@
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of FloatingChatFrameTemplate
@@ -244,16 +249,21 @@ ChatFrame1ResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of ChatFrame1 (created in template FloatingChatFrameTemplate)
@@ -370,16 +380,37 @@ ChatFrame1["Background"] = ChatFrame1Background -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L774)
 --- @class ChatFrameMenuButton : DropdownButton, ChatFrameMenuButtonMixin
 --- @field layoutIndex number # 0
+--- @field bottomPadding number # -2
+--- @field align string # center
 ChatFrameMenuButton = {}
 ChatFrameMenuButton["layoutIndex"] = 0
+ChatFrameMenuButton["bottomPadding"] = -2
+ChatFrameMenuButton["align"] = "center"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L795)
 --- @class ChatFrameChannelButton : Button, VoiceToggleButtonTemplate, ChannelFrameButtonMixin
 --- @field layoutIndex number # -1
+--- @field bottomPadding number # 1
+--- @field align string # center
 --- @field Flash Texture
 ChatFrameChannelButton = {}
-ChatFrameChannelButton["layoutIndex"] = _G["-1"]
+ChatFrameChannelButton["layoutIndex"] = -1
+ChatFrameChannelButton["bottomPadding"] = 1
+ChatFrameChannelButton["align"] = "center"
 ChatFrameChannelButton["fixedWidth"] = 27 -- inherited
+ChatFrameChannelButton["fixedHeight"] = 26 -- inherited
+ChatFrameChannelButton["iconKey"] = "Icon" -- inherited
+ChatFrameChannelButton["fixedIconWidth"] = 15 -- inherited
+ChatFrameChannelButton["fixedIconHeight"] = 15 -- inherited
+ChatFrameChannelButton["iconPushedOffsetX"] = -1 -- inherited
+ChatFrameChannelButton["iconPushedOffsetY"] = -2 -- inherited
+ChatFrameChannelButton["iconPushedAlpha"] = 0.75 -- inherited
+ChatFrameChannelButton["iconNormalAlpha"] = 1 -- inherited
+ChatFrameChannelButton["normalAtlas"] = "chatframe-button-up" -- inherited
+ChatFrameChannelButton["pushedAtlas"] = "chatframe-button-down" -- inherited
+ChatFrameChannelButton["highlightAtlas"] = "chatframe-button-highlight" -- inherited
+ChatFrameChannelButton["tooltipFrame"] = GameTooltip -- inherited
+ChatFrameChannelButton["tooltipPoint"] = "ANCHOR_RIGHT" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L827)
 --- child of FriendsMicroButton
@@ -389,8 +420,12 @@ FriendsMicroButtonCount = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L818)
 --- @class FriendsMicroButton : Button, FriendFrameButtonMixin
 --- @field layoutIndex number # -2
+--- @field bottomPadding number # 4
+--- @field align string # center
 FriendsMicroButton = {}
-FriendsMicroButton["layoutIndex"] = _G["-2"]
+FriendsMicroButton["layoutIndex"] = -2
+FriendsMicroButton["bottomPadding"] = 4
+FriendsMicroButton["align"] = "center"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L844)
 --- @class ChatAlertFrame : Frame, AlertContainerTemplate, ChatAlertFrameMixin
@@ -479,16 +514,21 @@ ChatFrame2ResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of ChatFrame2 (created in template FloatingChatFrameTemplate)
@@ -685,16 +725,21 @@ ChatFrame3ResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of ChatFrame3 (created in template FloatingChatFrameTemplate)
@@ -891,16 +936,21 @@ ChatFrame4ResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of ChatFrame4 (created in template FloatingChatFrameTemplate)
@@ -1097,16 +1147,21 @@ ChatFrame5ResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of ChatFrame5 (created in template FloatingChatFrameTemplate)
@@ -1303,16 +1358,21 @@ ChatFrame6ResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of ChatFrame6 (created in template FloatingChatFrameTemplate)
@@ -1509,16 +1569,21 @@ ChatFrame7ResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of ChatFrame7 (created in template FloatingChatFrameTemplate)
@@ -1715,16 +1780,21 @@ ChatFrame8ResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of ChatFrame8 (created in template FloatingChatFrameTemplate)
@@ -1921,16 +1991,21 @@ ChatFrame9ResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of ChatFrame9 (created in template FloatingChatFrameTemplate)
@@ -2127,16 +2202,21 @@ ChatFrame10ResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ChatFrameBase/Classic/FloatingChatFrame.xml#L448)
 --- child of ChatFrame10 (created in template FloatingChatFrameTemplate)

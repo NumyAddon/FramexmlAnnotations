@@ -55,6 +55,7 @@ SkillFrameExpandButtonFrame = {}
 --- @class SkillFrameCancelButton : Button, UIPanelButtonTemplate
 SkillFrameCancelButton = {}
 SkillFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+SkillFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L82)
 --- child of SkillTypeLabel1 (created in template SkillLabelTemplate)

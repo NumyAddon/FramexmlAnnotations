@@ -228,18 +228,21 @@ BattlefieldListScrollFrame["ScrollBar"] = BattlefieldListScrollFrameScrollBar --
 --- @class BattlefieldFrameCancelButton : Button, UIPanelButtonTemplate
 BattlefieldFrameCancelButton = {}
 BattlefieldFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+BattlefieldFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L320)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrameJoinButton : Button, UIPanelButtonTemplate
 BattlefieldFrameJoinButton = {}
 BattlefieldFrameJoinButton["fitTextCanWidthDecrease"] = true -- inherited
+BattlefieldFrameJoinButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L337)
 --- child of BattlefieldFrame
 --- @class BattlefieldFrameGroupJoinButton : Button, UIPanelButtonTemplate
 BattlefieldFrameGroupJoinButton = {}
 BattlefieldFrameGroupJoinButton["fitTextCanWidthDecrease"] = true -- inherited
+BattlefieldFrameGroupJoinButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/BattlefieldFrame.xml#L366)
 --- child of BattlefieldFrame

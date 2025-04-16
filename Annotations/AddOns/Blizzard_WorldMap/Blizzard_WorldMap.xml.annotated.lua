@@ -69,6 +69,7 @@ WorldMapZoneMinimapDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 --- @class WorldMapZoomOutButton : Button, UIPanelButtonTemplate
 WorldMapZoomOutButton = {}
 WorldMapZoomOutButton["fitTextCanWidthDecrease"] = true -- inherited
+WorldMapZoomOutButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L355)
 --- child of WorldMapFrame

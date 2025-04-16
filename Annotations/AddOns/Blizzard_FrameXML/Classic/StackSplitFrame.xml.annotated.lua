@@ -15,12 +15,14 @@ StackSplitRightButton = {}
 --- @class StackSplitOkayButton : Button, UIPanelButtonTemplate
 StackSplitOkayButton = {}
 StackSplitOkayButton["fitTextCanWidthDecrease"] = true -- inherited
+StackSplitOkayButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/StackSplitFrame.xml#L78)
 --- child of StackSplitFrame
 --- @class StackSplitCancelButton : Button, UIPanelButtonTemplate
 StackSplitCancelButton = {}
 StackSplitCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+StackSplitCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/StackSplitFrame.xml#L15)
 --- child of StackSplitFrame

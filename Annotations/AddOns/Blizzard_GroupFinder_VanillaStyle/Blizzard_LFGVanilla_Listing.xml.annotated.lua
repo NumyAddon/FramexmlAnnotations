@@ -73,12 +73,14 @@
 --- @class LFGListingFrameBackButton : Button, UIPanelButtonTemplate
 LFGListingFrameBackButton = {}
 LFGListingFrameBackButton["fitTextCanWidthDecrease"] = true -- inherited
+LFGListingFrameBackButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L306)
 --- child of LFGListingFrame
 --- @class LFGListingFramePostButton : Button, UIPanelButtonTemplate
 LFGListingFramePostButton = {}
 LFGListingFramePostButton["fitTextCanWidthDecrease"] = true -- inherited
+LFGListingFramePostButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L8)
 --- child of LFGListingFrameSoloRoleButtonsRoleButtonTank (created in template LFGListingRoleTemplate)
@@ -141,6 +143,7 @@ LFGListingFrameGroupRoleButtonsRole["Background"] = LFGListingFrameGroupRoleButt
 --- @class LFGListingFrameGroupRoleButtonsInitiateRolePoll : Button, UIPanelButtonTemplate
 LFGListingFrameGroupRoleButtonsInitiateRolePoll = {}
 LFGListingFrameGroupRoleButtonsInitiateRolePoll["fitTextCanWidthDecrease"] = true -- inherited
+LFGListingFrameGroupRoleButtonsInitiateRolePoll["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L284)
 --- child of LFGListingFrameGroupRoleButtonsRoleDropDown (created in template UIDropDownMenuTemplate)
@@ -230,13 +233,22 @@ LFGListingFrameCategoryView = {}
 --- @class LFGListingFrameActivityViewScrollBox : Frame, WowScrollBoxList
 LFGListingFrameActivityViewScrollBox = {}
 LFGListingFrameActivityViewScrollBox["canInterpolateScroll"] = false -- inherited
+LFGListingFrameActivityViewScrollBox["debugInspectionSystem"] = "ScrollBox" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L551)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingFrameActivityViewScrollBar : EventFrame, WowClassicScrollBar
 LFGListingFrameActivityViewScrollBar = {}
 LFGListingFrameActivityViewScrollBar["minThumbExtent"] = 24 -- inherited
+LFGListingFrameActivityViewScrollBar["fixedThumbExtent"] = 24 -- inherited
 LFGListingFrameActivityViewScrollBar["canInterpolateScroll"] = false -- inherited
+LFGListingFrameActivityViewScrollBar["useProportionalThumb"] = true -- inherited
+LFGListingFrameActivityViewScrollBar["snapToInterval"] = false -- inherited
+LFGListingFrameActivityViewScrollBar["hideTrack"] = false -- inherited
+LFGListingFrameActivityViewScrollBar["hideTrackIfThumbExceedsTrack"] = false -- inherited
+LFGListingFrameActivityViewScrollBar["thumbAnchor"] = "TOPLEFT" -- inherited
+LFGListingFrameActivityViewScrollBar["panRepeatTime"] = .1 -- inherited
+LFGListingFrameActivityViewScrollBar["panDelay"] = .5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L10)
 --- child of LFGListingCommentScrollBar (created in template UIPanelScrollBarTemplate)
@@ -265,9 +277,12 @@ LFGListingCommentScrollBar["ThumbTexture"] = LFGListingCommentScrollBarThumbText
 --- child of LFGListingFrameActivityView
 --- @class LFGListingComment : ScrollFrame, UIPanelInputScrollFrameTemplate
 --- @field maxLetters number # 255
+--- @field instructions any # DESCRIPTION_OF_YOUR_GROUP
+--- @field hideCharCount boolean # true
 LFGListingComment = {}
 LFGListingComment["maxLetters"] = 255
-LFGListingComment["maxLetters"] = 0 -- inherited
+LFGListingComment["instructions"] = DESCRIPTION_OF_YOUR_GROUP
+LFGListingComment["hideCharCount"] = true
 LFGListingComment["ScrollBar"] = LFGListingCommentScrollBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L522)

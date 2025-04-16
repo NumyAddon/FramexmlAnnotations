@@ -77,6 +77,7 @@
 --- Template
 --- @class CalendarEventInviteListTemplate : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # BLACK_FONT_COLOR
+--- @field backdropColorAlpha number # 0.9
 --- @field ScrollBox CalendarEventInviteListTemplate_ScrollBox
 --- @field ScrollBar CalendarEventInviteListTemplate_ScrollBar
 

@@ -39,6 +39,7 @@ RolePollPopupRoleButtonDPS = {}
 --- @class RolePollPopupAcceptButton : Button, UIPanelButtonTemplate
 RolePollPopupAcceptButton = {}
 RolePollPopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
+RolePollPopupAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/RolePoll.xml#L58)
 --- @class RolePollPopup : Frame

@@ -101,6 +101,7 @@
 --- Template
 --- @class UIPanelButtonNoTooltipTemplate : Button, UIButtonFitToTextBehaviorMixin
 --- @field fitTextCanWidthDecrease boolean # true
+--- @field fitTextWidthPadding number # 40
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
@@ -109,6 +110,8 @@
 --- Template
 --- @class UIPanelButtonNoTooltipResizeToFitTemplate : Button, UIPanelButtonNoTooltipTemplate, ResizeLayoutFrame, UIPanelButtonNoTooltipResizeToFitMixin
 --- @field fixedHeight number # 22
+--- @field minimumWidth number # 40
+--- @field widthPadding number # 20
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L277)
 --- child of SelectionFrameTemplate
@@ -121,7 +124,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUIPanelTemplates.xml#L268)
 --- Template
 --- @class SelectionFrameTemplate : Frame, NineSlicePanelTemplate
---- @field layoutType string # "SelectionFrameTemplate"
+--- @field layoutType string # SelectionFrameTemplate
 --- @field CancelButton SelectionFrameTemplate_CancelButton
 --- @field OkayButton SelectionFrameTemplate_OkayButton
 

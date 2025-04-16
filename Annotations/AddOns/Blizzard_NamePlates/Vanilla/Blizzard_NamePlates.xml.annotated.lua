@@ -51,6 +51,7 @@ NamePlateDriverFrame = {}
 --- Adds itself to the parent with key `UnitFrame`
 --- @class BaseNamePlateUnitFrameTemplate : Button
 --- @field disableMouse boolean # true
+--- @field ignoreCUFNameRequirement boolean # true
 --- @field healthBar BaseNamePlateUnitFrameTemplate_healthBar
 --- @field RaidTargetFrame BaseNamePlateUnitFrameTemplate_RaidTargetFrame
 --- @field SoftTargetFrame BaseNamePlateUnitFrameTemplate_SoftTargetFrame

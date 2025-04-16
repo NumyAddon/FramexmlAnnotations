@@ -571,18 +571,21 @@ TradeSkillDetailScrollFrame["ScrollBar"] = TradeSkillDetailScrollFrameScrollBar 
 --- @class TradeSkillCreateButton : Button, UIPanelButtonTemplate
 TradeSkillCreateButton = {}
 TradeSkillCreateButton["fitTextCanWidthDecrease"] = true -- inherited
+TradeSkillCreateButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L674)
 --- child of TradeSkillFrame
 --- @class TradeSkillCancelButton : Button, UIPanelButtonTemplate
 TradeSkillCancelButton = {}
 TradeSkillCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+TradeSkillCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L691)
 --- child of TradeSkillFrame
 --- @class TradeSkillCreateAllButton : Button, UIPanelButtonTemplate
 TradeSkillCreateAllButton = {}
 TradeSkillCreateAllButton["fitTextCanWidthDecrease"] = true -- inherited
+TradeSkillCreateAllButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L710)
 --- child of TradeSkillFrame

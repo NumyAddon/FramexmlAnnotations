@@ -214,6 +214,8 @@ CommunitiesFrameCommunitiesList = {}
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_ChatTab : CheckButton, CommunitiesFrameTabTemplate, CommunitiesChatTabMixin
 --- @field tooltip any # COMMUNITIES_CHAT_TAB_TOOLTIP
+--- @field iconTexture string # Interface/Icons/UI_Chat
+--- @field displayMode any # COMMUNITIES_FRAME_DISPLAY_MODES.CHAT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L393)
 --- child of CommunitiesFrame_RosterTab
@@ -224,17 +226,23 @@ CommunitiesFrameCommunitiesList = {}
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_RosterTab : CheckButton, CommunitiesFrameTabTemplate
 --- @field tooltip any # COMMUNITIES_ROSTER_TAB_TOOLTIP
+--- @field iconTexture string # Interface/Icons/achievement_guildperk_everybodysfriend
+--- @field displayMode any # COMMUNITIES_FRAME_DISPLAY_MODES.ROSTER
 --- @field NotificationOverlay CommunitiesFrame_RosterTab_NotificationOverlay
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L409)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_GuildBenefitsTab : CheckButton, CommunitiesFrameTabTemplate
 --- @field tooltip any # COMMUNITIES_GUILD_BENEFITS_TAB_TOOLTIP
+--- @field iconTexture string # Interface/Icons/achievement_guildperk_honorablemention
+--- @field displayMode any # COMMUNITIES_FRAME_DISPLAY_MODES.GUILD_BENEFITS
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L419)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_GuildInfoTab : CheckButton, CommunitiesFrameTabTemplate
 --- @field tooltip any # COMMUNITIES_GUILD_INFO_TAB_TOOLTIP
+--- @field iconTexture string # Interface/Icons/inv_misc_scrollunrolled01
+--- @field displayMode any # COMMUNITIES_FRAME_DISPLAY_MODES.GUILD_INFO
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L429)
 --- child of CommunitiesFrame
@@ -287,6 +295,7 @@ ClubFinderCommunityAndGuildFinderFrame = {}
 --- @type CommunitiesChatTemplate_JumpToUnreadButton
 JumpToUnreadButton = {}
 JumpToUnreadButton["fitTextCanWidthDecrease"] = true -- inherited
+JumpToUnreadButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L492)
 --- child of CommunitiesFrame
@@ -322,6 +331,10 @@ JumpToUnreadButton["fitTextCanWidthDecrease"] = true -- inherited
 --- @type CommunitiesGuildInfoFrameTemplate_MOTDScrollFrame
 CommunitiesFrameGuildDetailsFrameInfoMOTDScrollFrame = {}
 CommunitiesFrameGuildDetailsFrameInfoMOTDScrollFrame["scrollBarHideTrackIfThumbExceedsTrack"] = true
+CommunitiesFrameGuildDetailsFrameInfoMOTDScrollFrame["scrollBarHideIfUnscrollable"] = true
+CommunitiesFrameGuildDetailsFrameInfoMOTDScrollFrame["scrollBarX"] = 6
+CommunitiesFrameGuildDetailsFrameInfoMOTDScrollFrame["scrollBarTopY"] = -9
+CommunitiesFrameGuildDetailsFrameInfoMOTDScrollFrame["scrollBarBottomY"] = 7
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L191)
 --- child of CommunitiesFrameGuildDetailsFrameInfo (created in template CommunitiesGuildInfoFrameTemplate)
@@ -675,7 +688,7 @@ CommunitiesFrame["CommunitiesList"] = CommunitiesFrameCommunitiesList
 CommunitiesFrame["GuildFinderFrame"] = ClubFinderGuildFinderFrame
 CommunitiesFrame["CommunityFinderFrame"] = ClubFinderCommunityAndGuildFinderFrame
 CommunitiesFrame["GuildDetailsFrame"] = CommunitiesFrameGuildDetailsFrame
-CommunitiesFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+CommunitiesFrame["layoutType"] = "PortraitFrameTemplateMinimizable" -- inherited
 CommunitiesFrame["Inset"] = CommunitiesFrameInset -- inherited
 CommunitiesFrame["CloseButton"] = CommunitiesFrameCloseButton -- inherited
 CommunitiesFrame["Bg"] = CommunitiesFrameBg -- inherited

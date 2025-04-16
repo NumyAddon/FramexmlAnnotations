@@ -12,6 +12,8 @@
 --- Template
 --- @class BulletPointTemplate : Frame, BulletPointMixin
 --- @field topPadding number # 2
+--- @field bottomPadding number # 2
+--- @field expand boolean # true
 --- @field Text BulletPointTemplate_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/BulletPoint.xml#L36)

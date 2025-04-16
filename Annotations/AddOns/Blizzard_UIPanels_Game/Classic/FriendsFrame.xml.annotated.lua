@@ -438,18 +438,21 @@ FriendsTabHeader["StatusDropdown"] = FriendsFrameStatusDropdown
 --- @class FriendsFrameAddFriendButton : Button, UIPanelButtonTemplate
 FriendsFrameAddFriendButton = {}
 FriendsFrameAddFriendButton["fitTextCanWidthDecrease"] = true -- inherited
+FriendsFrameAddFriendButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1196)
 --- child of FriendsListFrame
 --- @class FriendsFrameSendMessageButton : Button, UIPanelButtonTemplate
 FriendsFrameSendMessageButton = {}
 FriendsFrameSendMessageButton["fitTextCanWidthDecrease"] = true -- inherited
+FriendsFrameSendMessageButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1255)
 --- child of FriendsListFrame_RIDWarning
 --- @class FriendsListFrameContinueButton : Button, UIPanelButtonTemplate
 FriendsListFrameContinueButton = {}
 FriendsListFrameContinueButton["fitTextCanWidthDecrease"] = true -- inherited
+FriendsListFrameContinueButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1221)
 --- child of FriendsListFrame_RIDWarning
@@ -603,12 +606,14 @@ FriendsListFrame = {}
 --- @class FriendsFrameIgnorePlayerButton : Button, UIPanelButtonTemplate
 FriendsFrameIgnorePlayerButton = {}
 FriendsFrameIgnorePlayerButton["fitTextCanWidthDecrease"] = true -- inherited
+FriendsFrameIgnorePlayerButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1430)
 --- child of IgnoreListFrame
 --- @class FriendsFrameUnsquelchButton : Button, UIPanelButtonTemplate
 FriendsFrameUnsquelchButton = {}
 FriendsFrameUnsquelchButton["fitTextCanWidthDecrease"] = true -- inherited
+FriendsFrameUnsquelchButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L27)
 --- child of FriendsFrameIgnoredHeader (created in template FriendsFrameHeaderTemplate)
@@ -876,18 +881,21 @@ WhoFrameButton1 = {}
 --- @class WhoFrameGroupInviteButton : Button, UIPanelButtonTemplate
 WhoFrameGroupInviteButton = {}
 WhoFrameGroupInviteButton["fitTextCanWidthDecrease"] = true -- inherited
+WhoFrameGroupInviteButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1593)
 --- child of WhoFrame
 --- @class WhoFrameAddFriendButton : Button, UIPanelButtonTemplate
 WhoFrameAddFriendButton = {}
 WhoFrameAddFriendButton["fitTextCanWidthDecrease"] = true -- inherited
+WhoFrameAddFriendButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1604)
 --- child of WhoFrame
 --- @class WhoFrameWhoButton : Button, UIPanelButtonTemplate
 WhoFrameWhoButton = {}
 WhoFrameWhoButton["fitTextCanWidthDecrease"] = true -- inherited
+WhoFrameWhoButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L805)
 --- child of WhoFrameEditBoxInset (created in template InsetFrameTemplate)
@@ -1872,6 +1880,7 @@ GuildNameChangeFrameEditBox = {}
 --- @class GuildNameChangeFrameButton : Button, UIPanelButtonTemplate
 GuildNameChangeFrameButton = {}
 GuildNameChangeFrameButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildNameChangeFrameButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L2242)
 --- child of GuildNameChangeFrame
@@ -2084,24 +2093,28 @@ GuildFrameGuildListToggleButton = {}
 --- @class GuildFrameImpeachButton : Button, UIPanelButtonTemplate
 GuildFrameImpeachButton = {}
 GuildFrameImpeachButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildFrameImpeachButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L2480)
 --- child of GuildFrame
 --- @class GuildFrameControlButton : Button, UIPanelButtonTemplate
 GuildFrameControlButton = {}
 GuildFrameControlButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildFrameControlButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L2513)
 --- child of GuildFrame
 --- @class GuildFrameAddMemberButton : Button, UIPanelButtonTemplate
 GuildFrameAddMemberButton = {}
 GuildFrameAddMemberButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildFrameAddMemberButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L2539)
 --- child of GuildFrame
 --- @class GuildFrameGuildInformationButton : Button, UIPanelButtonTemplate
 GuildFrameGuildInformationButton = {}
 GuildFrameGuildInformationButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildFrameGuildInformationButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L2565)
 --- child of GuildFrame
@@ -2341,12 +2354,14 @@ GuildControlPopupFrameCheckboxes = {}
 --- @class GuildControlPopupFrameCancelButton : Button, UIPanelButtonTemplate
 GuildControlPopupFrameCancelButton = {}
 GuildControlPopupFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildControlPopupFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3023)
 --- child of GuildControlPopupFrame
 --- @class GuildControlPopupAcceptButton : Button, UIPanelButtonTemplate
 GuildControlPopupAcceptButton = {}
 GuildControlPopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildControlPopupAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3040)
 --- child of GuildControlPopupFrame
@@ -2472,8 +2487,10 @@ GuildBankTabLabel = {}
 --- child of GuildControlPopupFrame
 --- @class GuildControlPopupFrameTabPermissions : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # VERY_DARK_GRAY_COLOR
+--- @field backdropBorderColor any # DARKGRAY_COLOR
 GuildControlPopupFrameTabPermissions = {}
 GuildControlPopupFrameTabPermissions["backdropColor"] = VERY_DARK_GRAY_COLOR
+GuildControlPopupFrameTabPermissions["backdropBorderColor"] = DARKGRAY_COLOR
 GuildControlPopupFrameTabPermissions["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L2596)
@@ -2531,18 +2548,21 @@ GuildInfoCloseButton = {}
 --- @class GuildInfoSaveButton : Button, UIPanelButtonTemplate
 GuildInfoSaveButton = {}
 GuildInfoSaveButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildInfoSaveButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3449)
 --- child of GuildInfoFrame
 --- @class GuildInfoCancelButton : Button, UIPanelButtonTemplate
 GuildInfoCancelButton = {}
 GuildInfoCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildInfoCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3469)
 --- child of GuildInfoFrame
 --- @class GuildInfoGuildEventButton : Button, UIPanelButtonTemplate
 GuildInfoGuildEventButton = {}
 GuildInfoGuildEventButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildInfoGuildEventButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3302)
 --- child of GuildInfoFrame
@@ -2571,12 +2591,14 @@ GuildMemberDetailCloseButton = {}
 --- @class GuildMemberRemoveButton : Button, UIPanelButtonTemplate
 GuildMemberRemoveButton = {}
 GuildMemberRemoveButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildMemberRemoveButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3673)
 --- child of GuildMemberDetailFrame
 --- @class GuildMemberGroupInviteButton : Button, UIPanelButtonTemplate
 GuildMemberGroupInviteButton = {}
 GuildMemberGroupInviteButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildMemberGroupInviteButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3699)
 --- child of GuildMemberDetailFrame
@@ -2727,6 +2749,7 @@ GuildEventLogCloseButton = {}
 --- @class GuildEventLogCancelButton : Button, UIPanelButtonTemplate
 GuildEventLogCancelButton = {}
 GuildEventLogCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+GuildEventLogCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L3845)
 --- child of GuildEventLogFrame
@@ -3141,6 +3164,7 @@ FriendsFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- @class AddFriendInfoFrameContinueButton : Button, UIPanelButtonTemplate
 AddFriendInfoFrameContinueButton = {}
 AddFriendInfoFrameContinueButton["fitTextCanWidthDecrease"] = true -- inherited
+AddFriendInfoFrameContinueButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L4191)
 --- child of AddFriendInfoFrame
@@ -3302,12 +3326,14 @@ AddFriendNoteFrame = {}
 --- @class AddFriendEntryFrameAcceptButton : Button, UIPanelButtonTemplate
 AddFriendEntryFrameAcceptButton = {}
 AddFriendEntryFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
+AddFriendEntryFrameAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L4529)
 --- child of AddFriendEntryFrame
 --- @class AddFriendEntryFrameCancelButton : Button, UIPanelButtonTemplate
 AddFriendEntryFrameCancelButton = {}
 AddFriendEntryFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+AddFriendEntryFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L4254)
 --- child of AddFriendEntryFrame
@@ -3367,8 +3393,12 @@ AddFriendEntryFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L4171)
 --- @class AddFriendFrame : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DIALOG_32_32
+--- @field exclusive boolean # true
+--- @field hideOnEscape boolean # true
 AddFriendFrame = {}
 AddFriendFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
+AddFriendFrame["exclusive"] = true
+AddFriendFrame["hideOnEscape"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L4568)
 --- child of FriendsFriendsFrame
@@ -3554,12 +3584,14 @@ FriendsFriendsWaitFrame = {}
 --- @class FriendsFriendsSendRequestButton : Button, UIPanelButtonTemplate
 FriendsFriendsSendRequestButton = {}
 FriendsFriendsSendRequestButton["fitTextCanWidthDecrease"] = true -- inherited
+FriendsFriendsSendRequestButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L4681)
 --- child of FriendsFriendsFrame
 --- @class FriendsFriendsCloseButton : Button, UIPanelButtonTemplate
 FriendsFriendsCloseButton = {}
 FriendsFriendsCloseButton["fitTextCanWidthDecrease"] = true -- inherited
+FriendsFriendsCloseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L4558)
 --- child of FriendsFriendsFrame
@@ -3584,8 +3616,12 @@ FriendsFriendsFrame["FriendsDropdown"] = FriendsFriendsFrameDropdown
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L4700)
 --- @class BattleTagInviteFrame : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DIALOG_32_32
+--- @field exclusive boolean # true
+--- @field hideOnEscape boolean # true
 --- @field BattleTag BattleTagInviteFrame_BattleTag
 --- @field InfoText BattleTagInviteFrame_InfoText
 BattleTagInviteFrame = {}
 BattleTagInviteFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
+BattleTagInviteFrame["exclusive"] = true
+BattleTagInviteFrame["hideOnEscape"] = true
 

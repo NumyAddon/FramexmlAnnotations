@@ -116,6 +116,17 @@ BasicMessageDialog = {}
 --- Template
 --- @class BaseNineSliceDialog : Frame, ResizeLayoutFrame, DefaultScaleFrame, BaseNineSliceDialogMixin
 --- @field fixedWidth number # 586
+--- @field minimumHeight number # 442
+--- @field showUnderlay boolean # true
+--- @field topYOffset number # -65
+--- @field nineSliceTextureKit string # GenericMetal2
+--- @field centerBackgroundTexture string # Glues-AnnouncementPopup-Background
+--- @field centerBackgroundXPadding number # 20
+--- @field centerBackgroundYPadding number # 20
+--- @field parchmentTextureKit string # Glues-AnnouncementPopup-Parchment
+--- @field parchmentYPaddingTop number # 19
+--- @field parchmentYPaddingBottom number # 27
+--- @field parchmentXOffset number # -1
 --- @field Underlay BaseNineSliceDialog_Underlay
 --- @field Border Frame
 --- @field Contents BaseNineSliceDialog_Contents

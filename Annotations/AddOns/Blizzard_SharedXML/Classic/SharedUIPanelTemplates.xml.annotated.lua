@@ -284,7 +284,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L493)
 --- child of UISliderTemplate
 --- @class UISliderTemplate_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "UniqueCornersLayout"
+--- @field layoutType string # UniqueCornersLayout
+--- @field layoutTextureKit string # SliderBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L488)
 --- Template
@@ -314,7 +315,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L512)
 --- Template
 --- @class PortraitFrameBaseTemplate : Frame, PortraitFrameMixin
---- @field layoutType string # "PortraitFrameTemplate"
+--- @field layoutType string # PortraitFrameTemplate
 --- @field NineSlice PortraitFrameBaseTemplate_NineSlice
 --- @field PortraitContainer PortraitFrameBaseTemplate_PortraitContainer
 --- @field TitleContainer PortraitFrameBaseTemplate_TitleContainer
@@ -447,7 +448,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L799)
 --- Template
 --- @class InsetFrameTemplate : Frame
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 --- @field NineSlice InsetFrameTemplate_NineSlice
 --- @field Bg Texture
 
@@ -496,7 +497,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L898)
 --- Template
 --- @class ButtonFrameTemplateMinimizable : Frame, ButtonFrameTemplate
---- @field layoutType string # "PortraitFrameTemplateMinimizable"
+--- @field layoutType string # PortraitFrameTemplateMinimizable
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L916)
 --- Template
@@ -647,7 +648,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1494)
 --- Template
 --- @class DialogBorderNoCenterTemplate : Frame, NineSlicePanelTemplate
---- @field layoutType string # "Dialog"
+--- @field layoutType string # Dialog
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1500)
 --- Template
@@ -711,7 +712,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1647)
 --- Template
 --- @class DefaultPanelBaseTemplate : Frame, DefaultPanelMixin
---- @field layoutType string # "ButtonFrameTemplateNoPortrait"
+--- @field layoutType string # ButtonFrameTemplateNoPortrait
 --- @field TitleContainer DefaultPanelBaseTemplate_TitleContainer
 --- @field NineSlice DefaultPanelBaseTemplate_NineSlice
 
@@ -780,12 +781,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1880)
 --- child of DropdownWithSteppersTemplate
 --- @class DropdownWithSteppersTemplate_IncrementButton : Button, WowStyle2IconButtonTemplate
---- @field normalAtlas string # "common-dropdown-icon-next"
+--- @field normalAtlas string # common-dropdown-icon-next
+--- @field disabledAtlas string # common-dropdown-icon-next-disabled
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1886)
 --- child of DropdownWithSteppersTemplate
 --- @class DropdownWithSteppersTemplate_DecrementButton : Button, WowStyle2IconButtonTemplate
---- @field normalAtlas string # "common-dropdown-icon-back"
+--- @field normalAtlas string # common-dropdown-icon-back
+--- @field disabledAtlas string # common-dropdown-icon-back-disabled
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L1876)
 --- Template
@@ -840,7 +843,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2062)
 --- Template
 --- @class RefreshButtonTemplate : Button, SquareIconButtonTemplate
---- @field icon string # "Interface\\Buttons\\UI-RefreshButton"
+--- @field icon string # Interface\Buttons\UI-RefreshButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2068)
 --- Template
@@ -881,6 +884,7 @@
 --- Template
 --- @class NumericInputBoxTemplate : EditBox, InputBoxTemplate, NumericInputBoxMixin
 --- @field valueChangedCallback any # nop
+--- @field valueFinalizedCallback any # nop
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2170)
 --- child of SliderAndEditControlTemplate
@@ -894,6 +898,7 @@
 --- Template
 --- @class SliderAndEditControlTemplate : Frame, ResizeLayoutFrame, SliderAndEditControlMixin
 --- @field widthPadding number # 12
+--- @field heightPadding number # 6
 --- @field ValueBox SliderAndEditControlTemplate_ValueBox
 --- @field Slider SliderAndEditControlTemplate_Slider
 --- @field Label FontString
@@ -997,16 +1002,19 @@
 --- child of IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconHeader : FontString, GameFontNormalSmall
 --- @field layoutIndex number # 1
+--- @field align string # right
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2443)
 --- child of IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconDescription : FontString, GameFontHighlightSmall
 --- @field layoutIndex number # 2
+--- @field align string # right
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2427)
 --- child of IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea
 --- @class IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText : Frame, VerticalLayoutFrame
 --- @field spacing number # 2
+--- @field expand boolean # true
 --- @field SelectedIconHeader IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconHeader
 --- @field SelectedIconDescription IconSelectorPopupFrameTemplate_BorderBox_SelectedIconArea_SelectedIconText_SelectedIconDescription
 
@@ -1030,6 +1038,7 @@
 --- child of IconSelectorPopupFrameTemplate_BorderBox_IconDragArea
 --- @class IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent : Frame, HorizontalLayoutFrame
 --- @field spacing number # 5
+--- @field expand boolean # true
 --- @field PlusIcon IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent_PlusIcon
 --- @field IconDragText IconSelectorPopupFrameTemplate_BorderBox_IconDragArea_IconDragAreaContent_IconDragText
 

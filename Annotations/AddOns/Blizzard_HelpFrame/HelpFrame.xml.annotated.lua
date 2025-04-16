@@ -165,12 +165,14 @@ ReportCheatingDialogCommentFrame["EditBox"] = ReportCheatingDialogCommentFrameEd
 --- @class ReportCheatingDialogReportButton : Button, UIPanelButtonTemplate
 ReportCheatingDialogReportButton = {}
 ReportCheatingDialogReportButton["fitTextCanWidthDecrease"] = true -- inherited
+ReportCheatingDialogReportButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L389)
 --- child of ReportCheatingDialog
 --- @class ReportCheatingDialogCancelButton : Button, UIPanelButtonTemplate
 ReportCheatingDialogCancelButton = {}
 ReportCheatingDialogCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+ReportCheatingDialogCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L250)
 --- child of ReportCheatingDialog

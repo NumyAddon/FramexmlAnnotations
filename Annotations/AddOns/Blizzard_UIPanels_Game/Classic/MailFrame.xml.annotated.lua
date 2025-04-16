@@ -312,6 +312,7 @@ InboxNextPageButton = {}
 --- @class OpenAllMail : Button, UIPanelButtonTemplate, OpenAllMailMixin
 OpenAllMail = {}
 OpenAllMail["fitTextCanWidthDecrease"] = true -- inherited
+OpenAllMail["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L293)
 --- child of InboxFrame
@@ -347,16 +348,28 @@ SendStationeryBackgroundRight = {}
 --- child of SendMailFrame
 --- @class MailEditBox : Frame, ScrollingEditBoxTemplate
 --- @field maxLetters number # 500
+--- @field fontName string # MailTextFontNormal
+--- @field fontColor any # BRONZE_MATERIAL_TEXT_COLOR
 MailEditBox = {}
 MailEditBox["maxLetters"] = 500
-MailEditBox["fontName"] = "GameFontHighlight" -- inherited
+MailEditBox["fontName"] = "MailTextFontNormal"
+MailEditBox["fontColor"] = BRONZE_MATERIAL_TEXT_COLOR
+MailEditBox["defaultFontName"] = "GameFontDisable" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L541)
 --- child of SendMailFrame
 --- @class MailEditBoxScrollBar : EventFrame, WowClassicScrollBar
 MailEditBoxScrollBar = {}
 MailEditBoxScrollBar["minThumbExtent"] = 24 -- inherited
+MailEditBoxScrollBar["fixedThumbExtent"] = 24 -- inherited
 MailEditBoxScrollBar["canInterpolateScroll"] = false -- inherited
+MailEditBoxScrollBar["useProportionalThumb"] = true -- inherited
+MailEditBoxScrollBar["snapToInterval"] = false -- inherited
+MailEditBoxScrollBar["hideTrack"] = false -- inherited
+MailEditBoxScrollBar["hideTrackIfThumbExceedsTrack"] = false -- inherited
+MailEditBoxScrollBar["thumbAnchor"] = "TOPLEFT" -- inherited
+MailEditBoxScrollBar["panRepeatTime"] = .1 -- inherited
+MailEditBoxScrollBar["panDelay"] = .5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L559)
 --- child of SendMailNameEditBox
@@ -724,12 +737,14 @@ SendMailMoneyFrame["GoldButton"] = SendMailMoneyFrameGoldButton -- inherited
 --- @class SendMailCancelButton : Button, UIPanelButtonTemplate
 SendMailCancelButton = {}
 SendMailCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+SendMailCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L774)
 --- child of SendMailFrame
 --- @class SendMailMailButton : Button, UIPanelButtonTemplate
 SendMailMailButton = {}
 SendMailMailButton["fitTextCanWidthDecrease"] = true -- inherited
+SendMailMailButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L790)
 --- child of SendMailFrameLockSendMail
@@ -987,6 +1002,7 @@ MailFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- @class OpenMailReportSpamButton : Button, UIPanelButtonTemplate
 OpenMailReportSpamButton = {}
 OpenMailReportSpamButton["fitTextCanWidthDecrease"] = true -- inherited
+OpenMailReportSpamButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L934)
 --- child of OpenMailSender
@@ -1931,18 +1947,21 @@ OpenMailMoneyButton["subicon"] = OpenMailMoneyButtonSubIconTexture -- inherited
 --- @class OpenMailCancelButton : Button, UIPanelButtonTemplate
 OpenMailCancelButton = {}
 OpenMailCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+OpenMailCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1256)
 --- child of OpenMailFrame
 --- @class OpenMailDeleteButton : Button, UIPanelButtonTemplate
 OpenMailDeleteButton = {}
 OpenMailDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
+OpenMailDeleteButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L1265)
 --- child of OpenMailFrame
 --- @class OpenMailReplyButton : Button, UIPanelButtonTemplate
 OpenMailReplyButton = {}
 OpenMailReplyButton["fitTextCanWidthDecrease"] = true -- inherited
+OpenMailReplyButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/MailFrame.xml#L866)
 --- child of OpenMailFrame

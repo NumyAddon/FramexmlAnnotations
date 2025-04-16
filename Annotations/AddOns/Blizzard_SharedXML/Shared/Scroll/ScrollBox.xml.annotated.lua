@@ -23,6 +23,7 @@
 --- Template
 --- @class ScrollBoxBaseTemplate : Frame, ScrollBoxBaseMixin
 --- @field canInterpolateScroll boolean # false
+--- @field debugInspectionSystem string # ScrollBox
 --- @field DragDelegate Frame
 --- @field ScrollTarget EventFrame
 --- @field Shadows ScrollBoxBaseTemplate_Shadows

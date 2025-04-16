@@ -381,12 +381,14 @@ ClassTrainerDetailScrollFrame["ScrollBar"] = ClassTrainerDetailScrollFrameScroll
 --- @class ClassTrainerTrainButton : Button, UIPanelButtonTemplate
 ClassTrainerTrainButton = {}
 ClassTrainerTrainButton["fitTextCanWidthDecrease"] = true -- inherited
+ClassTrainerTrainButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L491)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerCancelButton : Button, UIPanelButtonTemplate
 ClassTrainerCancelButton = {}
 ClassTrainerCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+ClassTrainerCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L508)
 --- child of ClassTrainerFrame

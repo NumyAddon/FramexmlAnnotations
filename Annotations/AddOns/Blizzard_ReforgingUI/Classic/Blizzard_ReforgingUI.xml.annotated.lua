@@ -168,12 +168,14 @@ ReforgingFrameMoneyFrame["GoldButton"] = ReforgingFrameMoneyFrameGoldButton -- i
 --- @class ReforgingFrameRestoreButton : Button, MagicButtonTemplate, TruncatedButtonTemplate
 ReforgingFrameRestoreButton = {}
 ReforgingFrameRestoreButton["fitTextCanWidthDecrease"] = true -- inherited
+ReforgingFrameRestoreButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L401)
 --- child of ReforgingFrameButtonFrame
 --- @class ReforgingFrameReforgeButton : Button, MagicButtonTemplate, TruncatedButtonTemplate
 ReforgingFrameReforgeButton = {}
 ReforgingFrameReforgeButton["fitTextCanWidthDecrease"] = true -- inherited
+ReforgingFrameReforgeButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReforgingUI/Classic/Blizzard_ReforgingUI.xml#L422)
 --- child of ReforgingFrameButtonFrame

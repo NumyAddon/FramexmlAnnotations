@@ -532,6 +532,10 @@ EventTraceTooltipTexture30 = {}
 --- @class EventTraceTooltip : GameTooltip, SharedTooltipTemplate
 EventTraceTooltip = {}
 EventTraceTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+EventTraceTooltip["textRight1Font"] = "GameTooltipHeaderText" -- inherited
+EventTraceTooltip["textLeft2Font"] = "GameTooltipText" -- inherited
+EventTraceTooltip["textRight2Font"] = "GameTooltipText" -- inherited
+EventTraceTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 EventTraceTooltip["TextLeft1"] = EventTraceTooltipTextLeft1 -- inherited
 EventTraceTooltip["TextRight1"] = EventTraceTooltipTextRight1 -- inherited
 EventTraceTooltip["TextLeft2"] = EventTraceTooltipTextLeft2 -- inherited

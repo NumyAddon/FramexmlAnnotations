@@ -36,12 +36,14 @@
 --- @class AddonDialogButton1 : Button, UIPanelButtonTemplate
 AddonDialogButton1 = {}
 AddonDialogButton1["fitTextCanWidthDecrease"] = true -- inherited
+AddonDialogButton1["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L115)
 --- child of AddonDialogBackground
 --- @class AddonDialogButton2 : Button, UIPanelButtonTemplate
 AddonDialogButton2 = {}
 AddonDialogButton2["fitTextCanWidthDecrease"] = true -- inherited
+AddonDialogButton2["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L103)
 --- child of AddonDialogBackground
@@ -72,24 +74,28 @@ AddonListForceLoad = {}
 --- @class AddonListCancelButton : Button, MagicButtonTemplate
 AddonListCancelButton = {}
 AddonListCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+AddonListCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L193)
 --- child of AddonList
 --- @class AddonListOkayButton : Button, MagicButtonTemplate
 AddonListOkayButton = {}
 AddonListOkayButton["fitTextCanWidthDecrease"] = true -- inherited
+AddonListOkayButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L204)
 --- child of AddonList
 --- @class AddonListEnableAllButton : Button, MagicButtonTemplate
 AddonListEnableAllButton = {}
 AddonListEnableAllButton["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEnableAllButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L213)
 --- child of AddonList
 --- @class AddonListDisableAllButton : Button, MagicButtonTemplate
 AddonListDisableAllButton = {}
 AddonListDisableAllButton["fitTextCanWidthDecrease"] = true -- inherited
+AddonListDisableAllButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L28)
 --- child of AddonListEntry1 (created in template AddonListEntryTemplate)
@@ -106,6 +112,7 @@ AddonListEntry1Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry1Load = {}
 AddonListEntry1Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry1Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry1 (created in template AddonListEntryTemplate)
@@ -145,6 +152,7 @@ AddonListEntry2Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry2Load = {}
 AddonListEntry2Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry2Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry2 (created in template AddonListEntryTemplate)
@@ -184,6 +192,7 @@ AddonListEntry3Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry3Load = {}
 AddonListEntry3Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry3Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry3 (created in template AddonListEntryTemplate)
@@ -223,6 +232,7 @@ AddonListEntry4Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry4Load = {}
 AddonListEntry4Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry4Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry4 (created in template AddonListEntryTemplate)
@@ -262,6 +272,7 @@ AddonListEntry5Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry5Load = {}
 AddonListEntry5Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry5Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry5 (created in template AddonListEntryTemplate)
@@ -301,6 +312,7 @@ AddonListEntry6Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry6Load = {}
 AddonListEntry6Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry6Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry6 (created in template AddonListEntryTemplate)
@@ -340,6 +352,7 @@ AddonListEntry7Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry7Load = {}
 AddonListEntry7Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry7Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry7 (created in template AddonListEntryTemplate)
@@ -379,6 +392,7 @@ AddonListEntry8Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry8Load = {}
 AddonListEntry8Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry8Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry8 (created in template AddonListEntryTemplate)
@@ -418,6 +432,7 @@ AddonListEntry9Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry9Load = {}
 AddonListEntry9Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry9Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry9 (created in template AddonListEntryTemplate)
@@ -457,6 +472,7 @@ AddonListEntry10Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry10Load = {}
 AddonListEntry10Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry10Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry10 (created in template AddonListEntryTemplate)
@@ -496,6 +512,7 @@ AddonListEntry11Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry11Load = {}
 AddonListEntry11Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry11Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry11 (created in template AddonListEntryTemplate)
@@ -535,6 +552,7 @@ AddonListEntry12Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry12Load = {}
 AddonListEntry12Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry12Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry12 (created in template AddonListEntryTemplate)
@@ -574,6 +592,7 @@ AddonListEntry13Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry13Load = {}
 AddonListEntry13Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry13Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry13 (created in template AddonListEntryTemplate)
@@ -613,6 +632,7 @@ AddonListEntry14Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry14Load = {}
 AddonListEntry14Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry14Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry14 (created in template AddonListEntryTemplate)
@@ -652,6 +672,7 @@ AddonListEntry15Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry15Load = {}
 AddonListEntry15Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry15Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry15 (created in template AddonListEntryTemplate)
@@ -691,6 +712,7 @@ AddonListEntry16Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry16Load = {}
 AddonListEntry16Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry16Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry16 (created in template AddonListEntryTemplate)
@@ -730,6 +752,7 @@ AddonListEntry17Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry17Load = {}
 AddonListEntry17Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry17Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry17 (created in template AddonListEntryTemplate)
@@ -769,6 +792,7 @@ AddonListEntry18Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry18Load = {}
 AddonListEntry18Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry18Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry18 (created in template AddonListEntryTemplate)
@@ -808,6 +832,7 @@ AddonListEntry19Enabled = {}
 --- @type AddonListEntryTemplate_Load
 AddonListEntry19Load = {}
 AddonListEntry19Load["fitTextCanWidthDecrease"] = true -- inherited
+AddonListEntry19Load["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L7)
 --- child of AddonListEntry19 (created in template AddonListEntryTemplate)

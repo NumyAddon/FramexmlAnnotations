@@ -150,6 +150,7 @@
 --- @class RaidFrameReadyCheckButton : Button, UIPanelButtonTemplate
 RaidFrameReadyCheckButton = {}
 RaidFrameReadyCheckButton["fitTextCanWidthDecrease"] = true -- inherited
+RaidFrameReadyCheckButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_RaidUI/Blizzard_RaidUI.xml#L16)
 --- child of RaidClassButton15 (created in template RaidClassButtonTemplate)

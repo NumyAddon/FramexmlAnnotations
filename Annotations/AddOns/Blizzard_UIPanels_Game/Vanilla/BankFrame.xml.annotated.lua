@@ -353,6 +353,7 @@ BankSlotsFrameNormalTexture = {}
 --- @class BankFramePurchaseButton : Button, UIPanelButtonTemplate
 BankFramePurchaseButton = {}
 BankFramePurchaseButton["fitTextCanWidthDecrease"] = true -- inherited
+BankFramePurchaseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/BankFrame.xml#L159)
 --- child of BankFrameDetailMoneyFrame (created in template SmallMoneyFrameTemplate)

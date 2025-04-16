@@ -79,16 +79,21 @@ GMChatFrameResizeButton = {}
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L504)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
 --- @field layoutIndex number # 1
+--- @field bottomPadding number # -2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L448)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
@@ -225,7 +230,7 @@ GMChatFrame["Background"] = GMChatFrameBackground -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L129)
 --- @class GMChatStatusFrame : Button
---- @field layoutType string # "GMChatRequest"
+--- @field layoutType string # GMChatRequest
 --- @field NineSlice GMChatStatusFrame_NineSlice
 --- @field Pulse GMChatStatusFrame_Pulse
 --- @field TitleText GMChatStatusFrame_TitleText

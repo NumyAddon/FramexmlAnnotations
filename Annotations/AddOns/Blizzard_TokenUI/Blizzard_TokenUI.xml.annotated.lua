@@ -106,6 +106,7 @@ TokenFrameMoneyFrame["GoldButton"] = TokenFrameMoneyFrameGoldButton -- inherited
 --- @class TokenFrameCancelButton : Button, UIPanelButtonTemplate
 TokenFrameCancelButton = {}
 TokenFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+TokenFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L154)
 --- @class TokenFrame : Frame

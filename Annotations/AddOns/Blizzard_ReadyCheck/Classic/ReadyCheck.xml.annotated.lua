@@ -9,12 +9,14 @@
 --- @class ReadyCheckFrameYesButton : Button, UIPanelButtonTemplate
 ReadyCheckFrameYesButton = {}
 ReadyCheckFrameYesButton["fitTextCanWidthDecrease"] = true -- inherited
+ReadyCheckFrameYesButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReadyCheck/Classic/ReadyCheck.xml#L57)
 --- child of ReadyCheckListenerFrame
 --- @class ReadyCheckFrameNoButton : Button, UIPanelButtonTemplate
 ReadyCheckFrameNoButton = {}
 ReadyCheckFrameNoButton["fitTextCanWidthDecrease"] = true -- inherited
+ReadyCheckFrameNoButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ReadyCheck/Classic/ReadyCheck.xml#L20)
 --- child of ReadyCheckListenerFrame

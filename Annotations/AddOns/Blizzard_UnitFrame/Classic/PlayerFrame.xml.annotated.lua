@@ -3,7 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L4)
 --- Template
 --- @class PlayerFrameBarSegmentTemplate : Frame
---- @field fillTexture string # "Interface\\TargetingFrame\\UI-StatusBar"
+--- @field fillTexture string # Interface\TargetingFrame\UI-StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L51)
 --- child of 

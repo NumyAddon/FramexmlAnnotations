@@ -86,7 +86,7 @@ GuildMicroButtonFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBarMicroButtons.xml#L215)
 --- @class GuildMicroButton : Button, MainMenuBarMicroButton, GuildMicroButtonMixin
---- @field commandName string # "TOGGLEGUILDTAB"
+--- @field commandName string # TOGGLEGUILDTAB
 --- @field NotificationOverlay Frame
 GuildMicroButton = {}
 GuildMicroButton["commandName"] = "TOGGLEGUILDTAB"

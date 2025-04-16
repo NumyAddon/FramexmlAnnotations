@@ -5,6 +5,7 @@
 --- @class RatingMenuButtonOkay : Button, UIPanelButtonTemplate
 RatingMenuButtonOkay = {}
 RatingMenuButtonOkay["fitTextCanWidthDecrease"] = true -- inherited
+RatingMenuButtonOkay["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/RatingMenuFrame.xml#L15)
 --- child of RatingMenuFrame

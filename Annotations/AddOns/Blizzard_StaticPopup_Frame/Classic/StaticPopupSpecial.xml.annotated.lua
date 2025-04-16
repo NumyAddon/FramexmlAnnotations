@@ -15,12 +15,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L3)
 --- @class PetBattleQueueReadyFrame : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DIALOG_32_32
+--- @field hideOnEscape number # 1
 --- @field AcceptButton PetBattleQueueReadyFrame_AcceptButton
 --- @field DeclineButton PetBattleQueueReadyFrame_DeclineButton
 --- @field Art Texture
 --- @field Label PetBattleQueueReadyFrame_Label
 PetBattleQueueReadyFrame = {}
 PetBattleQueueReadyFrame["backdropInfo"] = BACKDROP_DIALOG_32_32
+PetBattleQueueReadyFrame["hideOnEscape"] = 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_StaticPopup_Frame/Classic/StaticPopupSpecial.xml#L176)
 --- child of PlayerReportFrame_Comment_ScrollFrame_CommentBox

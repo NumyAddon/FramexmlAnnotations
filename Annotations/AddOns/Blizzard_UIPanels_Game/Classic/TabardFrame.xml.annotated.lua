@@ -69,8 +69,10 @@ TabardFrameCostMoneyFrame["GoldButton"] = TabardFrameCostMoneyFrameGoldButton --
 --- child of TabardFrame
 --- @class TabardFrameCostFrame : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # TOOLTIP_DEFAULT_BACKGROUND_COLOR
+--- @field backdropBorderColor any # DARKGRAY_COLOR
 TabardFrameCostFrame = {}
 TabardFrameCostFrame["backdropColor"] = TOOLTIP_DEFAULT_BACKGROUND_COLOR
+TabardFrameCostFrame["backdropBorderColor"] = DARKGRAY_COLOR
 TabardFrameCostFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L37)
@@ -292,12 +294,14 @@ TabardFrameMoneyFrame["GoldButton"] = TabardFrameMoneyFrameGoldButton -- inherit
 --- @class TabardFrameAcceptButton : Button, UIPanelButtonTemplate
 TabardFrameAcceptButton = {}
 TabardFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
+TabardFrameAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L408)
 --- child of TabardFrame
 --- @class TabardFrameCancelButton : Button, UIPanelButtonTemplate
 TabardFrameCancelButton = {}
 TabardFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+TabardFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L417)
 --- child of TabardFrame

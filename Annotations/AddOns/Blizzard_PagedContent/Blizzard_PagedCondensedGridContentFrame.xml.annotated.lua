@@ -4,4 +4,7 @@
 --- Template
 --- @class PagedCondensedVerticalGridContentFrameTemplate : Frame, PagedContentFrameBaseTemplate, PagedCondensedVerticalGridContentFrameMixin
 --- @field xPadding number # 0
+--- @field yPadding number # 0
+--- @field columnsPerRow number # 3
+--- @field autoExpandElements boolean # false
 

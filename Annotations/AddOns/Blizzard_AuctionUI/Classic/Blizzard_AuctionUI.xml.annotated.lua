@@ -824,7 +824,9 @@ BrowseCurrentBidSort["Arrow"] = BrowseCurrentBidSortArrow -- inherited
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L826)
 --- child of BrowsePriceOptionsButtonFrame
 --- @class BrowsePriceOptionsButtonFrame_Button : Button, SquareIconButtonTemplate
---- @field icon string # "Interface\\Worldmap\\Gear_64Grey.blp"
+--- @field icon string # Interface\Worldmap\Gear_64Grey.blp
+--- @field tooltipTitle any # AUCTION_SORT_OPTIONS_TOOLTIP_TITLE
+--- @field onClickHandler any # BrowsePriceOptionsButton_OnClick
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L816)
 --- child of AuctionFrameBrowse
@@ -1881,12 +1883,14 @@ ShowOnPlayerCheckButton["Text"] = ShowOnPlayerCheckButtonText -- inherited
 --- @class BrowseSearchButton : Button, UIPanelButtonTemplate
 BrowseSearchButton = {}
 BrowseSearchButton["fitTextCanWidthDecrease"] = true -- inherited
+BrowseSearchButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1208)
 --- child of AuctionFrameBrowse
 --- @class BrowseResetButton : Button, UIPanelButtonTemplate
 BrowseResetButton = {}
 BrowseResetButton["fitTextCanWidthDecrease"] = true -- inherited
+BrowseResetButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1228)
 --- child of AuctionFrameBrowse
@@ -1903,12 +1907,14 @@ BrowseNextPageButton = {}
 --- @class BrowseCloseButton : Button, UIPanelButtonTemplate
 BrowseCloseButton = {}
 BrowseCloseButton["fitTextCanWidthDecrease"] = true -- inherited
+BrowseCloseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1324)
 --- child of AuctionFrameBrowse
 --- @class BrowseBuyoutButton : Button, UIPanelButtonTemplate
 BrowseBuyoutButton = {}
 BrowseBuyoutButton["fitTextCanWidthDecrease"] = true -- inherited
+BrowseBuyoutButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L8)
 --- child of BrowseBidPrice (created in template MoneyInputFrameTemplate)
@@ -1938,6 +1944,7 @@ BrowseBidPrice["copper"] = BrowseBidPriceCopper -- inherited
 --- @class BrowseBidButton : Button, UIPanelButtonTemplate
 BrowseBidButton = {}
 BrowseBidButton["fitTextCanWidthDecrease"] = true -- inherited
+BrowseBidButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L159)
 --- child of BrowseBuyoutPrice (created in template SmallMoneyFrameTemplate)
@@ -3263,18 +3270,21 @@ BidBidPrice["copper"] = BidBidPriceCopper -- inherited
 --- @class BidCloseButton : Button, UIPanelButtonTemplate
 BidCloseButton = {}
 BidCloseButton["fitTextCanWidthDecrease"] = true -- inherited
+BidCloseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1727)
 --- child of AuctionFrameBid
 --- @class BidBuyoutButton : Button, UIPanelButtonTemplate
 BidBuyoutButton = {}
 BidBuyoutButton["fitTextCanWidthDecrease"] = true -- inherited
+BidBuyoutButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1756)
 --- child of AuctionFrameBid
 --- @class BidBidButton : Button, UIPanelButtonTemplate
 BidBidButton = {}
 BidBidButton["fitTextCanWidthDecrease"] = true -- inherited
+BidBidButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L1424)
 --- child of AuctionFrameBid
@@ -4399,6 +4409,7 @@ AuctionsStackSizeEntry = {}
 --- @class AuctionsStackSizeMaxButton : Button, UIPanelButtonTemplate
 AuctionsStackSizeMaxButton = {}
 AuctionsStackSizeMaxButton["fitTextCanWidthDecrease"] = true -- inherited
+AuctionsStackSizeMaxButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2111)
 --- child of AuctionsNumStacksEntry
@@ -4425,6 +4436,7 @@ AuctionsNumStacksEntry = {}
 --- @class AuctionsNumStacksMaxButton : Button, UIPanelButtonTemplate
 AuctionsNumStacksMaxButton = {}
 AuctionsNumStacksMaxButton["fitTextCanWidthDecrease"] = true -- inherited
+AuctionsNumStacksMaxButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L8)
 --- child of StartPrice (created in template MoneyInputFrameTemplate)
@@ -4572,18 +4584,21 @@ AuctionsWowTokenAuctionFrame = {}
 --- @class AuctionsCloseButton : Button, UIPanelButtonTemplate
 AuctionsCloseButton = {}
 AuctionsCloseButton["fitTextCanWidthDecrease"] = true -- inherited
+AuctionsCloseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2375)
 --- child of AuctionFrameAuctions
 --- @class AuctionsCancelAuctionButton : Button, UIPanelButtonTemplate
 AuctionsCancelAuctionButton = {}
 AuctionsCancelAuctionButton["fitTextCanWidthDecrease"] = true -- inherited
+AuctionsCancelAuctionButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2394)
 --- child of AuctionFrameAuctions
 --- @class AuctionsCreateAuctionButton : Button, UIPanelButtonTemplate, AuctionPostMixin
 AuctionsCreateAuctionButton = {}
 AuctionsCreateAuctionButton["fitTextCanWidthDecrease"] = true -- inherited
+AuctionsCreateAuctionButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2409)
 --- child of AuctionFrameAuctions

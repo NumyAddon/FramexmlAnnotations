@@ -598,12 +598,14 @@ CraftDetailScrollFrame["ScrollBar"] = CraftDetailScrollFrameScrollBar -- inherit
 --- @class CraftCreateButton : Button, UIPanelButtonTemplate
 CraftCreateButton = {}
 CraftCreateButton["fitTextCanWidthDecrease"] = true -- inherited
+CraftCreateButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/Vanilla/Blizzard_CraftUI.xml#L685)
 --- child of CraftFrame
 --- @class CraftCancelButton : Button, UIPanelButtonTemplate
 CraftCancelButton = {}
 CraftCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+CraftCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CraftUI/Vanilla/Blizzard_CraftUI.xml#L702)
 --- child of CraftFrame

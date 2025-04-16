@@ -40,6 +40,7 @@ PetPaperDollPetInfo = {}
 --- @class PetPaperDollCloseButton : Button, UIPanelButtonTemplate
 PetPaperDollCloseButton = {}
 PetPaperDollCloseButton["fitTextCanWidthDecrease"] = true -- inherited
+PetPaperDollCloseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/PetPaperDollFrame.xml#L105)
 --- child of AttributeFrameTemplateStat

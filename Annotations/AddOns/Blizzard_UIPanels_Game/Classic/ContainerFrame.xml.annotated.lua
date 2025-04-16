@@ -107,8 +107,10 @@ ArtifactRelicHelpBoxShadowRight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L54)
 --- @class ArtifactRelicHelpBox : Frame, ContainerFrameHelpBoxTemplate
 --- @field tutorialText any # ARTIFACT_TUTORIAL_SLOT_RELIC
+--- @field tutorialIndex any # LE_FRAME_TUTORIAL_ARTIFACT_RELIC_MATCH
 ArtifactRelicHelpBox = {}
 ArtifactRelicHelpBox["tutorialText"] = ARTIFACT_TUTORIAL_SLOT_RELIC
+ArtifactRelicHelpBox["tutorialIndex"] = LE_FRAME_TUTORIAL_ARTIFACT_RELIC_MATCH
 ArtifactRelicHelpBox["BG"] = ArtifactRelicHelpBoxBg -- inherited
 ArtifactRelicHelpBox["GlowTopLeft"] = ArtifactRelicHelpBoxGlowTopLeft -- inherited
 ArtifactRelicHelpBox["GlowTopRight"] = ArtifactRelicHelpBoxGlowTopRight -- inherited
@@ -215,8 +217,10 @@ AzeriteItemInBagHelpBoxShadowRight = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L61)
 --- @class AzeriteItemInBagHelpBox : Frame, ContainerFrameHelpBoxTemplate
 --- @field tutorialText any # AZERITE_TUTORIAL_ITEM_IN_SLOT
+--- @field tutorialIndex any # LE_FRAME_TUTORIAL_AZERITE_ITEM_IN_SLOT
 AzeriteItemInBagHelpBox = {}
 AzeriteItemInBagHelpBox["tutorialText"] = AZERITE_TUTORIAL_ITEM_IN_SLOT
+AzeriteItemInBagHelpBox["tutorialIndex"] = LE_FRAME_TUTORIAL_AZERITE_ITEM_IN_SLOT
 AzeriteItemInBagHelpBox["BG"] = AzeriteItemInBagHelpBoxBg -- inherited
 AzeriteItemInBagHelpBox["GlowTopLeft"] = AzeriteItemInBagHelpBoxGlowTopLeft -- inherited
 AzeriteItemInBagHelpBox["GlowTopRight"] = AzeriteItemInBagHelpBoxGlowTopRight -- inherited

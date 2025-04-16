@@ -237,13 +237,22 @@ LFGBrowseFrameRefreshButton = {}
 --- @class LFGBrowseFrameScrollBox : Frame, WowScrollBoxList
 LFGBrowseFrameScrollBox = {}
 LFGBrowseFrameScrollBox["canInterpolateScroll"] = false -- inherited
+LFGBrowseFrameScrollBox["debugInspectionSystem"] = "ScrollBox" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L415)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameScrollBar : EventFrame, WowClassicScrollBar
 LFGBrowseFrameScrollBar = {}
 LFGBrowseFrameScrollBar["minThumbExtent"] = 24 -- inherited
+LFGBrowseFrameScrollBar["fixedThumbExtent"] = 24 -- inherited
 LFGBrowseFrameScrollBar["canInterpolateScroll"] = false -- inherited
+LFGBrowseFrameScrollBar["useProportionalThumb"] = true -- inherited
+LFGBrowseFrameScrollBar["snapToInterval"] = false -- inherited
+LFGBrowseFrameScrollBar["hideTrack"] = false -- inherited
+LFGBrowseFrameScrollBar["hideTrackIfThumbExceedsTrack"] = false -- inherited
+LFGBrowseFrameScrollBar["thumbAnchor"] = "TOPLEFT" -- inherited
+LFGBrowseFrameScrollBar["panRepeatTime"] = .1 -- inherited
+LFGBrowseFrameScrollBar["panDelay"] = .5 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L427)
 --- child of LFGBrowseFrameSearchingSpinner
@@ -266,12 +275,14 @@ LFGBrowseFrameOptionsButton["menuMixin"] = MenuStyle2Mixin -- inherited
 --- @class LFGBrowseFrameSendMessageButton : Button, UIPanelButtonTemplate
 LFGBrowseFrameSendMessageButton = {}
 LFGBrowseFrameSendMessageButton["fitTextCanWidthDecrease"] = true -- inherited
+LFGBrowseFrameSendMessageButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L452)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameGroupInviteButton : Button, UIPanelButtonTemplate
 LFGBrowseFrameGroupInviteButton = {}
 LFGBrowseFrameGroupInviteButton["fitTextCanWidthDecrease"] = true -- inherited
+LFGBrowseFrameGroupInviteButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L286)
 --- child of LFGBrowseFrame

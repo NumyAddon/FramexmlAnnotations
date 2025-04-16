@@ -86,6 +86,7 @@ ModelPreviewFrameRight = {}
 --- @class ModelPreviewFrameCloseButton : Button, MagicButtonTemplate
 ModelPreviewFrameCloseButton = {}
 ModelPreviewFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
+ModelPreviewFrameCloseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L805)
 --- child of ModelPreviewFrameInset (created in template InsetFrameTemplate)
@@ -196,7 +197,6 @@ ModelPreviewFrameRightBorder = {}
 ModelPreviewFrame = {}
 ModelPreviewFrame["CloseButton"] = ModelPreviewFrameCloseButton
 ModelPreviewFrame["Inset"] = ModelPreviewFrameInset -- inherited
-ModelPreviewFrame["CloseButton"] = ModelPreviewFrameCloseButton -- inherited
 ModelPreviewFrame["Bg"] = ModelPreviewFrameBg -- inherited
 ModelPreviewFrame["TitleBg"] = ModelPreviewFrameTitleBg -- inherited
 ModelPreviewFrame["portrait"] = ModelPreviewFramePortrait -- inherited

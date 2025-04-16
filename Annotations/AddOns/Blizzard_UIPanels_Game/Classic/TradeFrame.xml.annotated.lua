@@ -1002,12 +1002,14 @@ TradePlayerItem7["SlotTexture"] = TradePlayerItem7SlotTexture -- inherited
 --- @class TradeFrameTradeButton : Button, UIPanelButtonTemplate
 TradeFrameTradeButton = {}
 TradeFrameTradeButton["fitTextCanWidthDecrease"] = true -- inherited
+TradeFrameTradeButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L390)
 --- child of TradeFrame
 --- @class TradeFrameCancelButton : Button, UIPanelButtonTemplate
 TradeFrameCancelButton = {}
 TradeFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+TradeFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L805)
 --- child of TradePlayerInputMoneyInset (created in template InsetFrameTemplate)

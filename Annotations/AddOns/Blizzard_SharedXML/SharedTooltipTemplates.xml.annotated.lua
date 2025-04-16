@@ -155,7 +155,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L10)
 --- Template
 --- @class SharedTooltipArtTemplate : GameTooltip
---- @field textLeft1Font string # "GameTooltipHeaderText"
+--- @field textLeft1Font string # GameTooltipHeaderText
+--- @field textRight1Font string # GameTooltipHeaderText
+--- @field textLeft2Font string # GameTooltipText
+--- @field textRight2Font string # GameTooltipText
+--- @field layoutType string # TooltipDefaultLayout
 --- @field NineSlice SharedTooltipArtTemplate_NineSlice
 --- @field TopOverlay Texture
 --- @field BottomOverlay Texture
@@ -175,7 +179,8 @@ SharedTooltipDefaultContainer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L97)
 --- Template
 --- @class SharedNoHeaderTooltipTemplate : GameTooltip, SharedTooltipTemplate
---- @field textLeft1Font string # "GameTooltipText"
+--- @field textLeft1Font string # GameTooltipText
+--- @field textRight1Font string # GameTooltipText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L109)
 --- child of TooltipBackdropTemplate
@@ -184,7 +189,7 @@ SharedTooltipDefaultContainer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L104)
 --- Template
 --- @class TooltipBackdropTemplate : Frame, TooltipBackdropTemplateMixin
---- @field layoutType string # "TooltipDefaultLayout"
+--- @field layoutType string # TooltipDefaultLayout
 --- @field NineSlice TooltipBackdropTemplate_NineSlice
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L116)

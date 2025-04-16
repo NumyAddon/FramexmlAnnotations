@@ -172,10 +172,16 @@ CustomizationNoHeaderTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L3)
 --- @class CustomizationNoHeaderTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate
---- @field textLeft1Font string # "GameFontNormalMed2"
+--- @field textLeft1Font string # GameFontNormalMed2
+--- @field textRight1Font string # GameFontNormalMed2
+--- @field textLeft2Font string # GameFontNormalMed2
+--- @field textRight2Font string # GameFontNormalMed2
 CustomizationNoHeaderTooltip = {}
 CustomizationNoHeaderTooltip["textLeft1Font"] = "GameFontNormalMed2"
-CustomizationNoHeaderTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+CustomizationNoHeaderTooltip["textRight1Font"] = "GameFontNormalMed2"
+CustomizationNoHeaderTooltip["textLeft2Font"] = "GameFontNormalMed2"
+CustomizationNoHeaderTooltip["textRight2Font"] = "GameFontNormalMed2"
+CustomizationNoHeaderTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 CustomizationNoHeaderTooltip["TextLeft1"] = CustomizationNoHeaderTooltipTextLeft1 -- inherited
 CustomizationNoHeaderTooltip["TextRight1"] = CustomizationNoHeaderTooltipTextRight1 -- inherited
 CustomizationNoHeaderTooltip["TextLeft2"] = CustomizationNoHeaderTooltipTextLeft2 -- inherited
@@ -196,7 +202,10 @@ CustomizationNoHeaderTooltip["TextRight2"] = CustomizationNoHeaderTooltipTextRig
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L21)
 --- Template
 --- @class CustomizationSmallButtonTemplate : Button, CustomizationBaseButtonTemplate, CustomizationFrameWithTooltipTemplate, CustomizationSmallButtonMixin
---- @field tooltipAnchor string # "ANCHOR_BOTTOMRIGHT"
+--- @field tooltipAnchor string # ANCHOR_BOTTOMRIGHT
+--- @field tooltipXOffset number # -5
+--- @field tooltipYOffset number # -5
+--- @field tooltipMinWidth any # nil
 --- @field Icon Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture

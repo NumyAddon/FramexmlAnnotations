@@ -42,6 +42,8 @@
 --- child of CommunitiesEditStreamDialogTemplate
 --- @class CommunitiesEditStreamDialogTemplate_Description : ScrollFrame, InputScrollFrameTemplate
 --- @field maxLetters number # 250
+--- @field instructions any # COMMUNITIES_CHANNEL_DESCRIPTION_INSTRUCTIONS
+--- @field hideCharCount boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L143)
 --- child of CommunitiesEditStreamDialogTemplate
@@ -94,6 +96,7 @@
 --- child of CommunitiesNotificationSettingsDialogTemplate
 --- @class CommunitiesNotificationSettingsDialogTemplate_Selector : Frame, SelectionFrameTemplate
 --- @field OnOkay any # CommunitiesNotificationSettingsDialogOkayButton_OnClick
+--- @field OnCancel any # CommunitiesNotificationSettingsDialogCancelButton_OnClick
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L205)
 --- child of CommunitiesNotificationSettingsDialogTemplate
@@ -130,6 +133,8 @@
 --- child of CommunitiesNotificationSettingsDialogTemplate
 --- @class CommunitiesNotificationSettingsDialogTemplate_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 5
+--- @field scrollBarTopY number # -5
+--- @field scrollBarBottomY number # 5
 --- @field Child CommunitiesNotificationSettingsDialogTemplate_ScrollFrame_Child
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.xml#L182)

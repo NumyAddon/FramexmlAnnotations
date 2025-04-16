@@ -19,6 +19,10 @@
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_MOTDScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideTrackIfThumbExceedsTrack boolean # true
+--- @field scrollBarHideIfUnscrollable boolean # true
+--- @field scrollBarX number # 6
+--- @field scrollBarTopY number # -9
+--- @field scrollBarBottomY number # 7
 --- @field MOTD SimpleHTML
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L191)
@@ -40,17 +44,20 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L211)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_EditMOTDButton : Button
---- @field editType string # "motd"
+--- @field editType string # motd
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L229)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_EditDetailsButton : Button
---- @field editType string # "info"
+--- @field editType string # info
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L247)
 --- child of CommunitiesGuildInfoFrameTemplate
 --- @class CommunitiesGuildInfoFrameTemplate_DetailsFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
+--- @field scrollBarX number # 6
+--- @field scrollBarTopY number # 0
+--- @field scrollBarBottomY number # -1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L63)
 --- child of CommunitiesGuildInfoFrameTemplate
@@ -90,12 +97,15 @@ CommunitiesGuildTextEditFrameCloseButton = {}
 --- child of CommunitiesGuildTextEditFrame_Container
 --- @class CommunitiesGuildTextEditFrame_Container_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 6
+--- @field scrollBarTopY number # -5
+--- @field scrollBarBottomY number # 5
 --- @field EditBox EditBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L307)
 --- child of CommunitiesGuildTextEditFrame
 --- @class CommunitiesGuildTextEditFrame_Container : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # BLACK_FONT_COLOR
+--- @field backdropColorAlpha number # 0.9
 --- @field ScrollFrame CommunitiesGuildTextEditFrame_Container_ScrollFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L357)
@@ -103,12 +113,14 @@ CommunitiesGuildTextEditFrameCloseButton = {}
 --- @class CommunitiesGuildTextEditFrameAcceptButton : Button, UIPanelButtonTemplate
 CommunitiesGuildTextEditFrameAcceptButton = {}
 CommunitiesGuildTextEditFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
+CommunitiesGuildTextEditFrameAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L366)
 --- child of CommunitiesGuildTextEditFrame
 --- @class CommunitiesGuildTextEditFrameCloseButton : Button, UIPanelButtonTemplate
 CommunitiesGuildTextEditFrameCloseButton = {}
 CommunitiesGuildTextEditFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
+CommunitiesGuildTextEditFrameCloseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L294)
 --- child of CommunitiesGuildTextEditFrame
@@ -193,6 +205,7 @@ CommunitiesGuildLogFrameCloseButton = {}
 --- child of CommunitiesGuildLogFrame
 --- @class CommunitiesGuildLogFrame_Container : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # BLACK_FONT_COLOR
+--- @field backdropColorAlpha number # 0.9
 --- @field ScrollFrame CommunitiesGuildLogFrame_Container_ScrollFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L436)
@@ -200,6 +213,7 @@ CommunitiesGuildLogFrameCloseButton = {}
 --- @class CommunitiesGuildLogFrameCloseButton : Button, UIPanelButtonTemplate
 CommunitiesGuildLogFrameCloseButton = {}
 CommunitiesGuildLogFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
+CommunitiesGuildLogFrameCloseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L389)
 --- child of CommunitiesGuildLogFrame

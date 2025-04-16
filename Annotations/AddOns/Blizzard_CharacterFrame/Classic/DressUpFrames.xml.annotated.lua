@@ -5,6 +5,7 @@
 --- @class SideDressUpModelResetButton : Button, UIPanelButtonTemplate
 SideDressUpModelResetButton = {}
 SideDressUpModelResetButton["fitTextCanWidthDecrease"] = true -- inherited
+SideDressUpModelResetButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L84)
 --- child of SideDressUpModel
@@ -84,12 +85,14 @@ DressUpFrameCloseButton = {}
 --- @class DressUpFrameCancelButton : Button, UIPanelButtonTemplate
 DressUpFrameCancelButton = {}
 DressUpFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+DressUpFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L156)
 --- child of DressUpFrame
 --- @class DressUpFrameResetButton : Button, UIPanelButtonTemplate
 DressUpFrameResetButton = {}
 DressUpFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
+DressUpFrameResetButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L180)
 --- child of DressUpModelFrame

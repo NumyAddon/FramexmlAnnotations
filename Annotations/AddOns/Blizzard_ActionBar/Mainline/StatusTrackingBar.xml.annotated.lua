@@ -25,20 +25,20 @@
 --- child of StatusTrackingBarManager
 --- @class MainStatusTrackingBarContainer : Frame, StatusTrackingBarContainerTemplate, EditModeStatusTrackingBar1SystemTemplate, EditModeStatusTrackingBarContainerMixin
 MainStatusTrackingBarContainer = {}
-MainStatusTrackingBarContainer["systemIndex"] = _G["Enum.EditModeStatusTrackingBarSystemIndices.StatusTrackingBar1"] -- inherited
+MainStatusTrackingBarContainer["systemIndex"] = Enum.EditModeStatusTrackingBarSystemIndices.StatusTrackingBar1 -- inherited
 MainStatusTrackingBarContainer["systemNameString"] = HUD_EDIT_MODE_STATUS_TRACKING_BAR_LABEL -- inherited
 MainStatusTrackingBarContainer["addSystemIndexToName"] = true -- inherited
-MainStatusTrackingBarContainer["system"] = _G["Enum.EditModeSystem.StatusTrackingBar"] -- inherited
+MainStatusTrackingBarContainer["system"] = Enum.EditModeSystem.StatusTrackingBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L49)
 --- child of StatusTrackingBarManager
 --- @class SecondaryStatusTrackingBarContainer : Frame, StatusTrackingBarContainerTemplate, EditModeStatusTrackingBar2SystemTemplate, EditModeStatusTrackingBarContainerMixin
 SecondaryStatusTrackingBarContainer = {}
-SecondaryStatusTrackingBarContainer["systemIndex"] = _G["Enum.EditModeStatusTrackingBarSystemIndices.StatusTrackingBar2"] -- inherited
+SecondaryStatusTrackingBarContainer["systemIndex"] = Enum.EditModeStatusTrackingBarSystemIndices.StatusTrackingBar2 -- inherited
 SecondaryStatusTrackingBarContainer["systemNameString"] = HUD_EDIT_MODE_STATUS_TRACKING_BAR_LABEL -- inherited
 SecondaryStatusTrackingBarContainer["addSystemIndexToName"] = true -- inherited
 SecondaryStatusTrackingBarContainer["defaultHideSelection"] = true -- inherited
-SecondaryStatusTrackingBarContainer["system"] = _G["Enum.EditModeSystem.StatusTrackingBar"] -- inherited
+SecondaryStatusTrackingBarContainer["system"] = Enum.EditModeSystem.StatusTrackingBar -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L35)
 --- @class StatusTrackingBarManager : Frame, StatusTrackingManagerMixin

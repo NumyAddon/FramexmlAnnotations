@@ -148,10 +148,10 @@ PetFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 PetFrame["align"] = "center" -- inherited
 PetFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 PetFrame["isManagedFrame"] = true -- inherited
-PetFrame["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Pet"] -- inherited
+PetFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Pet -- inherited
 PetFrame["systemNameString"] = HUD_EDIT_MODE_PET_FRAME_LABEL -- inherited
 PetFrame["defaultHideSelection"] = true -- inherited
-PetFrame["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
+PetFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/PetFrame.xml#L190)
 --- @class PetCastingBarFrame : StatusBar, CastingBarFrameTemplate, PetCastingBarMixin

@@ -14,7 +14,7 @@ MicroButtonAndBagsBar = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L41)
 --- @class MicroMenuContainer : Frame, EditModeMicroMenuSystemTemplate, MicroMenuContainerMixin
 MicroMenuContainer = {}
-MicroMenuContainer["system"] = _G["Enum.EditModeSystem.MicroMenu"] -- inherited
+MicroMenuContainer["system"] = Enum.EditModeSystem.MicroMenu -- inherited
 MicroMenuContainer["systemNameString"] = HUD_EDIT_MODE_MICRO_MENU_LABEL -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.xml#L48)

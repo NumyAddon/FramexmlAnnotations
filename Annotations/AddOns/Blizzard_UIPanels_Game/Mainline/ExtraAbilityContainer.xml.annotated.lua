@@ -17,7 +17,7 @@ ExtraAbilityContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- i
 ExtraAbilityContainer["align"] = "center" -- inherited
 ExtraAbilityContainer["isBottomManagedFrame"] = true -- inherited
 ExtraAbilityContainer["isManagedFrame"] = true -- inherited
-ExtraAbilityContainer["system"] = _G["Enum.EditModeSystem.ExtraAbilities"] -- inherited
+ExtraAbilityContainer["system"] = Enum.EditModeSystem.ExtraAbilities -- inherited
 ExtraAbilityContainer["systemNameString"] = HUD_EDIT_MODE_EXTRA_ABILITIES_LABEL -- inherited
 ExtraAbilityContainer["defaultHideSelection"] = true -- inherited
 

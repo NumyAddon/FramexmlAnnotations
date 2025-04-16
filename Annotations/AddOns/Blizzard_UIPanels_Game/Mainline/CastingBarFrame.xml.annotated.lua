@@ -179,7 +179,7 @@ PlayerCastingBarFrame["align"] = "center" -- inherited
 PlayerCastingBarFrame["hideWhenActionBarIsOverriden"] = true -- inherited
 PlayerCastingBarFrame["isBottomManagedFrame"] = true -- inherited
 PlayerCastingBarFrame["isManagedFrame"] = true -- inherited
-PlayerCastingBarFrame["system"] = _G["Enum.EditModeSystem.CastBar"] -- inherited
+PlayerCastingBarFrame["system"] = Enum.EditModeSystem.CastBar -- inherited
 PlayerCastingBarFrame["systemNameString"] = HUD_EDIT_MODE_CAST_BAR_LABEL -- inherited
 PlayerCastingBarFrame["defaultHideSelection"] = true -- inherited
 

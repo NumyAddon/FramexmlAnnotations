@@ -34,9 +34,9 @@ PetActionBar["addButtonsToRight"] = true
 PetActionBar["addButtonsToTop"] = true
 PetActionBar["showGridEventName"] = "PET_BAR_SHOWGRID"
 PetActionBar["hideGridEventName"] = "PET_BAR_HIDEGRID"
-PetActionBar["systemIndex"] = _G["Enum.EditModeActionBarSystemIndices.PetActionBar"]
+PetActionBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.PetActionBar
 PetActionBar["systemNameString"] = HUD_EDIT_MODE_PET_ACTION_BAR_LABEL
 PetActionBar["defaultHideSelection"] = true
-PetActionBar["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
+PetActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 PetActionBar["addSystemIndexToName"] = true -- inherited
 

@@ -364,7 +364,7 @@ OrderHallMissionFrame["Tab1"] = OrderHallMissionFrameTab1
 OrderHallMissionFrame["Tab2"] = OrderHallMissionFrameTab2
 OrderHallMissionFrame["Tab3"] = OrderHallMissionFrameTab3
 OrderHallMissionFrame["FollowerList"] = OrderHallMissionFrameFollowers
-OrderHallMissionFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_7_0_GarrisonFollower"]
+OrderHallMissionFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_7_0_GarrisonFollower
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L754)
 --- @class OrderHallMissionTutorialFrame : Frame

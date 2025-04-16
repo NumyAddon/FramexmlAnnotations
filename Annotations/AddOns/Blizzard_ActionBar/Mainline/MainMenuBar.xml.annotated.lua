@@ -57,7 +57,7 @@
 MainMenuBarVehicleLeaveButton = {}
 MainMenuBarVehicleLeaveButton["ignoreInLayout"] = true
 MainMenuBarVehicleLeaveButton["useDefaultAnchors"] = ACTION_BARS_USE_DEFAULT_ANCHORS
-MainMenuBarVehicleLeaveButton["system"] = _G["Enum.EditModeSystem.VehicleLeaveButton"] -- inherited
+MainMenuBarVehicleLeaveButton["system"] = Enum.EditModeSystem.VehicleLeaveButton -- inherited
 MainMenuBarVehicleLeaveButton["systemNameString"] = HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL -- inherited
 MainMenuBarVehicleLeaveButton["defaultHideSelection"] = true -- inherited
 
@@ -97,10 +97,10 @@ MainMenuBar["numButtons"] = MAIN_MENU_BAR_NUM_BUTTONS
 MainMenuBar["addButtonsToTop"] = true
 MainMenuBar["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MainMenuBar["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
-MainMenuBar["systemIndex"] = _G["Enum.EditModeActionBarSystemIndices.MainBar"]
+MainMenuBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.MainBar
 MainMenuBar["hideEndCaps"] = MAIN_MENU_BAR_HIDE_END_CAPS
 MainMenuBar["useDefaultAnchors"] = ACTION_BARS_USE_DEFAULT_ANCHORS
-MainMenuBar["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
+MainMenuBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MainMenuBar["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MainMenuBar["addSystemIndexToName"] = true -- inherited
 

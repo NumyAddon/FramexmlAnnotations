@@ -25,8 +25,8 @@
 --- @field textureKit string # jailerstower
 --- @field RerollButton TorghastPlayerChoiceToggleButton_RerollButton
 TorghastPlayerChoiceToggleButton = {}
-TorghastPlayerChoiceToggleButton["hidePowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHOICE_JAILERS_TOWER_HIDE_POWERS"]
-TorghastPlayerChoiceToggleButton["showPowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHOICE_JAILERS_TOWER_SHOW_POWERS"]
+TorghastPlayerChoiceToggleButton["hidePowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_JAILERS_TOWER_HIDE_POWERS
+TorghastPlayerChoiceToggleButton["showPowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_JAILERS_TOWER_SHOW_POWERS
 TorghastPlayerChoiceToggleButton["textureKit"] = "jailerstower"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L58)
@@ -39,8 +39,8 @@ TorghastPlayerChoiceToggleButton["textureKit"] = "jailerstower"
 --- @field pendingPieces table<number, Texture>
 --- @field pendingAnimations table<number, AnimationGroup>
 CypherPlayerChoiceToggleButton = {}
-CypherPlayerChoiceToggleButton["hidePowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHOICE_CYPHER_HIDE_POWERS"]
-CypherPlayerChoiceToggleButton["showPowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHOICE_CYPHER_SHOW_POWERS"]
+CypherPlayerChoiceToggleButton["hidePowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_CYPHER_HIDE_POWERS
+CypherPlayerChoiceToggleButton["showPowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_CYPHER_SHOW_POWERS
 CypherPlayerChoiceToggleButton["textureKit"] = "cypherchoice"
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceToggleButton.xml#L120)
@@ -57,8 +57,8 @@ CypherPlayerChoiceToggleButton["textureKit"] = "cypherchoice"
 --- @field ShineMask MaskTexture
 --- @field HighlightAnimation GenericPlayerChoiceToggleButton_HighlightAnimation
 GenericPlayerChoiceToggleButton = {}
-GenericPlayerChoiceToggleButton["hidePowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHOICE_GENERIC_HIDE_POWERS"]
-GenericPlayerChoiceToggleButton["showPowersSound"] = _G["SOUNDKIT.UI_PLAYER_CHOICE_GENERIC_SHOW_POWERS"]
+GenericPlayerChoiceToggleButton["hidePowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_GENERIC_HIDE_POWERS
+GenericPlayerChoiceToggleButton["showPowersSound"] = SOUNDKIT.UI_PLAYER_CHOICE_GENERIC_SHOW_POWERS
 GenericPlayerChoiceToggleButton["textureKit"] = "genericplayerchoice"
 GenericPlayerChoiceToggleButton["noFade"] = true
 

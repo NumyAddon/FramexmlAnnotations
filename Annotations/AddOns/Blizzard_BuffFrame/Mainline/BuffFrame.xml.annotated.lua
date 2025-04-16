@@ -70,9 +70,9 @@
 BuffFrame = {}
 BuffFrame["exampleAuraType"] = "Buff"
 BuffFrame["maxAuras"] = BUFF_MAX_DISPLAY
-BuffFrame["systemIndex"] = _G["Enum.EditModeAuraFrameSystemIndices.BuffFrame"]
+BuffFrame["systemIndex"] = Enum.EditModeAuraFrameSystemIndices.BuffFrame
 BuffFrame["systemNameString"] = HUD_EDIT_MODE_BUFF_FRAME_LABEL
-BuffFrame["system"] = _G["Enum.EditModeSystem.AuraFrame"] -- inherited
+BuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
 BuffFrame["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L174)
@@ -98,10 +98,10 @@ BuffFrame["defaultHideSelection"] = true -- inherited
 DebuffFrame = {}
 DebuffFrame["exampleAuraType"] = "Debuff"
 DebuffFrame["maxAuras"] = DEBUFF_MAX_DISPLAY
-DebuffFrame["systemIndex"] = _G["Enum.EditModeAuraFrameSystemIndices.DebuffFrame"]
+DebuffFrame["systemIndex"] = Enum.EditModeAuraFrameSystemIndices.DebuffFrame
 DebuffFrame["systemNameString"] = HUD_EDIT_MODE_DEBUFF_FRAME_LABEL
 DebuffFrame["doNotAnchorDisabledFrames"] = true
-DebuffFrame["system"] = _G["Enum.EditModeSystem.AuraFrame"] -- inherited
+DebuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
 DebuffFrame["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L208)

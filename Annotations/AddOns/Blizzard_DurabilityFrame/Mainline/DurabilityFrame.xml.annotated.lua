@@ -65,7 +65,7 @@ DurabilityRanged = {}
 --- @field layoutIndex number # 9
 DurabilityFrame = {}
 DurabilityFrame["layoutIndex"] = 9
-DurabilityFrame["system"] = _G["Enum.EditModeSystem.DurabilityFrame"] -- inherited
+DurabilityFrame["system"] = Enum.EditModeSystem.DurabilityFrame -- inherited
 DurabilityFrame["systemNameString"] = HUD_EDIT_MODE_DURABILITY_FRAME_LABEL -- inherited
 DurabilityFrame["defaultHideSelection"] = true -- inherited
 DurabilityFrame["layoutParent"] = UIParentRightManagedFrameContainer -- inherited

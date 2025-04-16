@@ -11,97 +11,97 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L64)
 --- child of MinimapZoneTextButton
---- @class MinimapCluster_MinimapZoneTextButton_MinimapZoneText : FontString, GameFontNormal
+--- @class MinimapZoneText : FontString, GameFontNormal
 MinimapZoneText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L57)
 --- child of MinimapCluster
---- @class MinimapCluster_MinimapZoneTextButton : Button
+--- @class MinimapZoneTextButton : Button
 MinimapZoneTextButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L107)
 --- child of MiniMapMailFrame
---- @class MinimapCluster_Minimap_MiniMapMailFrame_MiniMapMailIcon : Texture
+--- @class MiniMapMailIcon : Texture
 MiniMapMailIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L121)
 --- child of MiniMapMailFrame
---- @class MinimapCluster_Minimap_MiniMapMailFrame_MiniMapMailBorder : Texture
+--- @class MiniMapMailBorder : Texture
 MiniMapMailBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L94)
 --- child of Minimap
---- @class MinimapCluster_Minimap_MiniMapMailFrame : Frame
+--- @class MiniMapMailFrame : Frame
 MiniMapMailFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L170)
 --- child of MiniMapBattlefieldFrame
---- @class MinimapCluster_Minimap_MiniMapBattlefieldFrame_MiniMapBattlefieldIcon : Texture
+--- @class MiniMapBattlefieldIcon : Texture
 MiniMapBattlefieldIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L182)
 --- child of MiniMapBattlefieldFrame
---- @class MinimapCluster_Minimap_MiniMapBattlefieldFrame_BattlefieldIconText : FontString, GameFontNormal
+--- @class BattlefieldIconText : FontString, GameFontNormal
 BattlefieldIconText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L196)
 --- child of MiniMapBattlefieldFrame
---- @class MinimapCluster_Minimap_MiniMapBattlefieldFrame_MiniMapBattlefieldBorder : Texture
+--- @class MiniMapBattlefieldBorder : Texture
 MiniMapBattlefieldBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L206)
 --- child of MiniMapBattlefieldFrame
---- @class MinimapCluster_Minimap_MiniMapBattlefieldFrame_BattlegroundShine : Texture
+--- @class BattlegroundShine : Texture
 BattlegroundShine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L157)
 --- child of Minimap
---- @class MinimapCluster_Minimap_MiniMapBattlefieldFrame : Button
+--- @class MiniMapBattlefieldFrame : Button
 MiniMapBattlefieldFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L298)
 --- child of MiniMapWorldMapButton
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapWorldMapButton_MiniMapWorldBorder : Texture
+--- @class MiniMapWorldBorder : Texture
 MiniMapWorldBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L291)
 --- child of MinimapBackdrop
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapWorldMapButton : Button
+--- @class MiniMapWorldMapButton : Button
 MiniMapWorldMapButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L395)
 --- child of MiniMapTrackingButton
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking_MiniMapTrackingButton_MiniMapTrackingButtonBorder : Texture
+--- @class MiniMapTrackingButtonBorder : Texture
 MiniMapTrackingButtonBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L403)
 --- child of MiniMapTrackingButton
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking_MiniMapTrackingButton_MiniMapTrackingButtonShine : Texture
+--- @class MiniMapTrackingButtonShine : Texture
 MiniMapTrackingButtonShine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L388)
 --- child of MiniMapTracking
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking_MiniMapTrackingButton : DropdownButton, MiniMapTrackingButtonMixin
+--- @class MiniMapTrackingButton : DropdownButton, MiniMapTrackingButtonMixin
 MiniMapTrackingButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L357)
 --- child of MiniMapTracking
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking_MiniMapTrackingBackground : Texture
+--- @class MiniMapTrackingBackground : Texture
 MiniMapTrackingBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L368)
 --- child of MiniMapTracking
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking_MiniMapTrackingIcon : Texture
+--- @class MiniMapTrackingIcon : Texture
 MiniMapTrackingIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L378)
 --- child of MiniMapTracking
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking_MiniMapTrackingIconOverlay : Texture
+--- @class MiniMapTrackingIconOverlay : Texture
 MiniMapTrackingIconOverlay = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L348)
 --- child of MinimapBackdrop
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapTracking : Frame
+--- @class MiniMapTracking : Frame
 MiniMapTracking = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L9)
@@ -111,113 +111,113 @@ MiniMapLFGFrameIconTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L452)
 --- child of MiniMapLFGFrame
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameIcon : Frame, EyeTemplate
+--- @class MiniMapLFGFrameIcon : Frame, EyeTemplate
 MiniMapLFGFrameIcon = {}
 MiniMapLFGFrameIcon["Texture"] = MiniMapLFGFrameIconTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L437)
 --- child of MiniMapLFGFrame
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameBorder : Texture
+--- @class MiniMapLFGFrameBorder : Texture
 MiniMapLFGFrameBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L424)
 --- child of MinimapBackdrop
---- @class MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame : Button, MiniMapButtonTemplate
---- @field eye MinimapCluster_Minimap_MinimapBackdrop_MiniMapLFGFrame_MiniMapLFGFrameIcon
+--- @class MiniMapLFGFrame : Button, MiniMapButtonTemplate
+--- @field eye MiniMapLFGFrameIcon
 MiniMapLFGFrame = {}
 MiniMapLFGFrame["eye"] = MiniMapLFGFrameIcon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L468)
 --- child of MinimapBackdrop
---- @class MinimapCluster_Minimap_MinimapBackdrop_MinimapZoomIn : Button
+--- @class MinimapZoomIn : Button
 MinimapZoomIn = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L497)
 --- child of MinimapBackdrop
---- @class MinimapCluster_Minimap_MinimapBackdrop_MinimapZoomOut : Button
+--- @class MinimapZoomOut : Button
 MinimapZoomOut = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L261)
 --- child of MinimapBackdrop
---- @class MinimapCluster_Minimap_MinimapBackdrop_MinimapBorder : Texture
+--- @class MinimapBorder : Texture
 MinimapBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L266)
 --- child of MinimapBackdrop
---- @class MinimapCluster_Minimap_MinimapBackdrop_MinimapNorthTag : Texture
+--- @class MinimapNorthTag : Texture
 MinimapNorthTag = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L278)
 --- child of MinimapBackdrop
---- @class MinimapCluster_Minimap_MinimapBackdrop_MinimapCompassTexture : Texture
+--- @class MinimapCompassTexture : Texture
 MinimapCompassTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L248)
 --- child of Minimap
---- @class MinimapCluster_Minimap_MinimapBackdrop : Frame
+--- @class MinimapBackdrop : Frame
 MinimapBackdrop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L82)
 --- child of MinimapCluster
---- @class MinimapCluster_Minimap : Minimap
+--- @class Minimap : Minimap
 Minimap = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L548)
 --- child of MiniMapInstanceDifficulty
---- @class MinimapCluster_MiniMapInstanceDifficulty_MiniMapInstanceDifficultyTexture : Texture
+--- @class MiniMapInstanceDifficultyTexture : Texture
 MiniMapInstanceDifficultyTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L561)
 --- child of MiniMapInstanceDifficulty
---- @class MinimapCluster_MiniMapInstanceDifficulty_MiniMapInstanceDifficultyText : FontString, GameFontNormalSmall
+--- @class MiniMapInstanceDifficultyText : FontString, GameFontNormalSmall
 MiniMapInstanceDifficultyText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L535)
 --- child of MinimapCluster
---- @class MinimapCluster_MiniMapInstanceDifficulty : Frame
+--- @class MiniMapInstanceDifficulty : Frame
 MiniMapInstanceDifficulty = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L599)
 --- child of GuildInstanceDifficulty
---- @class MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyBackground : Texture
+--- @class GuildInstanceDifficultyBackground : Texture
 GuildInstanceDifficultyBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L608)
 --- child of GuildInstanceDifficulty
---- @class MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyDarkBackground : Texture
+--- @class GuildInstanceDifficultyDarkBackground : Texture
 GuildInstanceDifficultyDarkBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L617)
 --- child of GuildInstanceDifficulty
---- @class MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyEmblem : Texture
+--- @class GuildInstanceDifficultyEmblem : Texture
 GuildInstanceDifficultyEmblem = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L623)
 --- child of GuildInstanceDifficulty
---- @class MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyBorder : Texture
+--- @class GuildInstanceDifficultyBorder : Texture
 GuildInstanceDifficultyBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L630)
 --- child of GuildInstanceDifficulty
---- @class MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyHeroicTexture : Texture
+--- @class GuildInstanceDifficultyHeroicTexture : Texture
 GuildInstanceDifficultyHeroicTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L637)
 --- child of GuildInstanceDifficulty
---- @class MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyText : FontString, GameFontNormalSmall
+--- @class GuildInstanceDifficultyText : FontString, GameFontNormalSmall
 GuildInstanceDifficultyText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L644)
 --- child of GuildInstanceDifficulty
---- @class MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyHanger : Texture
+--- @class GuildInstanceDifficultyHanger : Texture
 GuildInstanceDifficultyHanger = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L586)
 --- child of MinimapCluster
---- @class MinimapCluster_GuildInstanceDifficulty : Frame
---- @field background MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyBackground
---- @field emblem MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyEmblem
---- @field border MinimapCluster_GuildInstanceDifficulty_GuildInstanceDifficultyBorder
+--- @class GuildInstanceDifficulty : Frame
+--- @field background GuildInstanceDifficultyBackground
+--- @field emblem GuildInstanceDifficultyEmblem
+--- @field border GuildInstanceDifficultyBorder
 GuildInstanceDifficulty = {}
 GuildInstanceDifficulty["background"] = GuildInstanceDifficultyBackground
 GuildInstanceDifficulty["emblem"] = GuildInstanceDifficultyEmblem
@@ -225,7 +225,7 @@ GuildInstanceDifficulty["border"] = GuildInstanceDifficultyBorder
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L45)
 --- child of MinimapCluster
---- @class MinimapCluster_MinimapBorderTop : Texture
+--- @class MinimapBorderTop : Texture
 MinimapBorderTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Minimap/Cata/Minimap.xml#L33)

@@ -169,6 +169,7 @@
 --- Template
 --- @class LFGListEditBoxTemplate : EditBox, InputBoxInstructionsTemplate, LFGEditBoxMixin
 --- @field disabledColor any # GRAY_FONT_COLOR
+--- @field enabledColor any # HIGHLIGHT_FONT_COLOR
 --- @field LockButton LFGListEditBoxTemplate_LockButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L568)
@@ -274,22 +275,27 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L908)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_HealerButton : Button, LFGListRoleButtonTemplate
---- @field role string # "HEALER"
+--- @field role string # HEALER
+--- @field roleID number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L918)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_TankButton : Button, LFGListRoleButtonTemplate
---- @field role string # "TANK"
+--- @field role string # TANK
+--- @field roleID number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L928)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_DamagerButton : Button, LFGListRoleButtonTemplate
---- @field role string # "DAMAGER"
+--- @field role string # DAMAGER
+--- @field roleID number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L938)
 --- child of LFGListApplicationDialogTemplate
 --- @class LFGListApplicationDialogTemplate_LFGListApplicationDialogDescription : ScrollFrame, InputScrollFrameTemplate
 --- @field maxLetters number # 63
+--- @field instructions any # LFG_LIST_NOTE_TO_LEADER
+--- @field hideCharCount boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L957)
 --- child of LFGListApplicationDialogTemplate
@@ -378,7 +384,7 @@ LFGListFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1220)
 --- child of LFGListFrame_SearchPanel_SearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @type SearchBoxTemplate_ClearButton
 LFGListFrameClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1211)
@@ -397,23 +403,23 @@ LFGListFrameSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1171)
 --- child of LFGListFrame_SearchPanel_AutoCompleteFrame
---- @class LFGListFrame_SearchPanel_AutoCompleteFrame_BottomLeftBorder : Texture, UI-Frame-BotCornerLeft
+--- @class LFGListFrame_SearchPanel_AutoCompleteFrame_BottomLeftBorder : Texture, UI_Frame_BotCornerLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1176)
 --- child of LFGListFrame_SearchPanel_AutoCompleteFrame
---- @class LFGListFrame_SearchPanel_AutoCompleteFrame_BottomRightBorder : Texture, UI-Frame-BotCornerRight
+--- @class LFGListFrame_SearchPanel_AutoCompleteFrame_BottomRightBorder : Texture, UI_Frame_BotCornerRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1181)
 --- child of LFGListFrame_SearchPanel_AutoCompleteFrame
---- @class LFGListFrame_SearchPanel_AutoCompleteFrame_BottomBorder : Texture, _UI-Frame-Bot
+--- @class LFGListFrame_SearchPanel_AutoCompleteFrame_BottomBorder : Texture, _UI_Frame_Bot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1187)
 --- child of LFGListFrame_SearchPanel_AutoCompleteFrame
---- @class LFGListFrame_SearchPanel_AutoCompleteFrame_LeftBorder : Texture, !UI-Frame-LeftTile
+--- @class LFGListFrame_SearchPanel_AutoCompleteFrame_LeftBorder : Texture, _UI_Frame_LeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1193)
 --- child of LFGListFrame_SearchPanel_AutoCompleteFrame
---- @class LFGListFrame_SearchPanel_AutoCompleteFrame_RightBorder : Texture, !UI-Frame-RightTile
+--- @class LFGListFrame_SearchPanel_AutoCompleteFrame_RightBorder : Texture, _UI_Frame_RightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1163)
 --- child of LFGListFrame_SearchPanel
@@ -547,7 +553,7 @@ LFGListFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1479)
 --- child of LFGListFrame_ApplicationViewer
---- @class LFGListFrame_ApplicationViewer_LFGApplicationViewerRatingColumnHeader : Button, LFGListColumnHeaderTemplate
+--- @class LFGApplicationViewerRatingColumnHeader : Button, LFGListColumnHeaderTemplate
 LFGApplicationViewerRatingColumnHeader = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1485)
@@ -621,7 +627,7 @@ LFGApplicationViewerRatingColumnHeader = {}
 --- @field NameColumnHeader LFGListFrame_ApplicationViewer_NameColumnHeader
 --- @field RoleColumnHeader LFGListFrame_ApplicationViewer_RoleColumnHeader
 --- @field ItemLevelColumnHeader LFGListFrame_ApplicationViewer_ItemLevelColumnHeader
---- @field RatingColumnHeader LFGListFrame_ApplicationViewer_LFGApplicationViewerRatingColumnHeader
+--- @field RatingColumnHeader LFGApplicationViewerRatingColumnHeader
 --- @field RefreshButton LFGListFrame_ApplicationViewer_RefreshButton
 --- @field ScrollBox LFGListFrame_ApplicationViewer_ScrollBox
 --- @field ScrollBar LFGListFrame_ApplicationViewer_ScrollBar
@@ -708,36 +714,39 @@ LFGListFrameBg = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1811)
 --- child of LFGListFrame_EntryCreation
 --- @class LFGListFrame_EntryCreation_Name : EditBox, LFGListEditBoxTemplate
---- @field tabCategory string # "ENTRY_CREATION"
+--- @field tabCategory string # ENTRY_CREATION
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1833)
 --- child of LFGListFrame_EntryCreation
---- @class LFGListFrame_EntryCreation_LFGListEntryCreationGroupDropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @class LFGListEntryCreationGroupDropdown : DropdownButton, WowStyle1DropdownTemplate
 LFGListEntryCreationGroupDropdown = {}
 LFGListEntryCreationGroupDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1838)
 --- child of LFGListFrame_EntryCreation
---- @class LFGListFrame_EntryCreation_LFGListEntryCreationActivityDropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @class LFGListEntryCreationActivityDropdown : DropdownButton, WowStyle1DropdownTemplate
 LFGListEntryCreationActivityDropdown = {}
 LFGListEntryCreationActivityDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1864)
 --- child of LFGListCreationDescription
---- @class LFGListFrame_EntryCreation_LFGListCreationDescription_LockButton : Button, LFGListLockButtonTemplate
+--- @class LFGListCreationDescription_LockButton : Button, LFGListLockButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1843)
 --- child of LFGListFrame_EntryCreation
---- @class LFGListFrame_EntryCreation_LFGListCreationDescription : ScrollFrame, InputScrollFrameTemplate, LFGListCreationDescriptionMixin
+--- @class LFGListCreationDescription : ScrollFrame, InputScrollFrameTemplate, LFGListCreationDescriptionMixin
 --- @field maxLetters number # 255
---- @field LockButton LFGListFrame_EntryCreation_LFGListCreationDescription_LockButton
+--- @field instructions any # DESCRIPTION_OF_YOUR_GROUP
+--- @field hideCharCount boolean # true
+--- @field LockButton LFGListCreationDescription_LockButton
 LFGListCreationDescription = {}
 LFGListCreationDescription["maxLetters"] = 255
-LFGListCreationDescription["maxLetters"] = 0 -- inherited
+LFGListCreationDescription["instructions"] = DESCRIPTION_OF_YOUR_GROUP
+LFGListCreationDescription["hideCharCount"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1871)
 --- child of LFGListFrame_EntryCreation
---- @class LFGListFrame_EntryCreation_LFGListEntryCreationPlayStyleDropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @class LFGListEntryCreationPlayStyleDropdown : DropdownButton, WowStyle1DropdownTemplate
 LFGListEntryCreationPlayStyleDropdown = {}
 LFGListEntryCreationPlayStyleDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
@@ -745,37 +754,58 @@ LFGListEntryCreationPlayStyleDropdown["menuMixin"] = MenuStyle1Mixin -- inherite
 --- child of LFGListFrame_EntryCreation
 --- @class LFGListFrame_EntryCreation_ItemLevel : Frame, LFGListRequirementTemplate
 --- @field label any # LFG_LIST_ITEM_LEVEL_REQ
+--- @field numeric boolean # true
+--- @field instructions any # LFG_LIST_ITEM_LEVEL_INSTR_SHORT
+--- @field validateFunc any # LFGListUtil_ValidateLevelReq
+--- @field tabCategory string # ENTRY_CREATION
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1889)
 --- child of LFGListFrame_EntryCreation
 --- @class LFGListFrame_EntryCreation_PvpItemLevel : Frame, LFGListRequirementTemplate
 --- @field label any # LFG_LIST_ITEM_LEVEL_PVP
+--- @field numeric boolean # true
+--- @field instructions any # LFG_LIST_ITEM_LEVEL_PVP_INSTR_SHORT
+--- @field validateFunc any # LFGListUtil_ValidatePvPLevelReq
+--- @field tabCategory string # ENTRY_CREATION
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1901)
 --- child of LFGListFrame_EntryCreation
 --- @class LFGListFrame_EntryCreation_PVPRating : Frame, LFGListRequirementTemplate
 --- @field label any # GROUP_FINDER_PVP_RATING_REQ_LABEL
+--- @field numeric boolean # true
+--- @field tabCategory string # ENTRY_CREATION
+--- @field validateFunc any # LFGListUtil_ValidatePvpRatingReq
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1912)
 --- child of LFGListFrame_EntryCreation
 --- @class LFGListFrame_EntryCreation_MythicPlusRating : Frame, LFGListRequirementTemplate
 --- @field label any # GROUP_FINDER_MYTHIC_RATING_REQ_LABEL
+--- @field numeric boolean # true
+--- @field tabCategory string # ENTRY_CREATION
+--- @field validateFunc any # LFGListUtil_ValidateMythicPlusRatingReq
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1923)
 --- child of LFGListFrame_EntryCreation
 --- @class LFGListFrame_EntryCreation_VoiceChat : Frame, LFGListRequirementTemplate
 --- @field maxLetters number # 31
+--- @field secureReferenceStr string # LFGListCreationVoiceChat
+--- @field hideLockButton boolean # true
 --- @field label any # LFG_LIST_VOICE_CHAT
+--- @field instructions any # LFG_LIST_VOICE_CHAT_INSTR
+--- @field tabCategory string # ENTRY_CREATION
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1938)
 --- child of LFGListFrame_EntryCreation
 --- @class LFGListFrame_EntryCreation_CrossFactionGroup : Frame, LFGListOptionCheckButtonTemplate
 --- @field label any # LFG_LIST_CROSS_FACTION
+--- @field tooltip any # LFG_LIST_CROSS_FACTION_TOOLTIP
+--- @field disableTooltip any # LFG_LIST_CROSS_FACTION_DISABLE_TOOLTIP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1948)
 --- child of LFGListFrame_EntryCreation
 --- @class LFGListFrame_EntryCreation_PrivateGroup : Frame, LFGListOptionCheckButtonTemplate
 --- @field label any # LFG_LIST_PRIVATE
+--- @field tooltip any # LFG_LIST_PRIVATE_TOOLTIP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L1974)
 --- child of LFGListFrame_EntryCreation_ListGroupButton
@@ -813,10 +843,10 @@ LFGListEntryCreationPlayStyleDropdown["menuMixin"] = MenuStyle1Mixin -- inherite
 --- @field WorkingCover LFGListFrame_EntryCreation_WorkingCover
 --- @field ActivityFinder LFGListFrame_EntryCreation_ActivityFinder
 --- @field Name LFGListFrame_EntryCreation_Name
---- @field GroupDropdown LFGListFrame_EntryCreation_LFGListEntryCreationGroupDropdown
---- @field ActivityDropdown LFGListFrame_EntryCreation_LFGListEntryCreationActivityDropdown
---- @field Description LFGListFrame_EntryCreation_LFGListCreationDescription
---- @field PlayStyleDropdown LFGListFrame_EntryCreation_LFGListEntryCreationPlayStyleDropdown
+--- @field GroupDropdown LFGListEntryCreationGroupDropdown
+--- @field ActivityDropdown LFGListEntryCreationActivityDropdown
+--- @field Description LFGListCreationDescription
+--- @field PlayStyleDropdown LFGListEntryCreationPlayStyleDropdown
 --- @field ItemLevel LFGListFrame_EntryCreation_ItemLevel
 --- @field PvpItemLevel LFGListFrame_EntryCreation_PvpItemLevel
 --- @field PVPRating LFGListFrame_EntryCreation_PVPRating
@@ -845,7 +875,8 @@ LFGListFrame = {}
 --- @type LFGListApplicationDialogTemplate_LFGListApplicationDialogDescription
 LFGListApplicationDialogDescription = {}
 LFGListApplicationDialogDescription["maxLetters"] = 63
-LFGListApplicationDialogDescription["maxLetters"] = 0 -- inherited
+LFGListApplicationDialogDescription["instructions"] = LFG_LIST_NOTE_TO_LEADER
+LFGListApplicationDialogDescription["hideCharCount"] = true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/LFGList.xml#L2007)
 --- @class LFGListApplicationDialog : Frame, LFGListApplicationDialogTemplate

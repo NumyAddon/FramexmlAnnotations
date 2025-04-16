@@ -2,12 +2,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Timer.xml#L139)
 --- child of StartTimerBarStatusBar
---- @class StartTimerBar_StartTimerBarStatusBar_StartTimerBarStatusBarTimeText : FontString, GameFontHighlight
+--- @class StartTimerBar_StatusBar_TimeText : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Timer.xml#L117)
 --- child of StartTimerBar
---- @class StartTimerBar_StartTimerBarStatusBar : StatusBar
---- @field timeText StartTimerBar_StartTimerBarStatusBar_StartTimerBarStatusBarTimeText
+--- @class StartTimerBar_StatusBar : StatusBar
+--- @field timeText StartTimerBar_StatusBar_TimeText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Timer.xml#L5)
 --- child of StartTimerBar
@@ -28,7 +28,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Timer.xml#L3)
 --- Template
 --- @class StartTimerBar : Frame
---- @field bar StartTimerBar_StartTimerBarStatusBar
+--- @field bar StartTimerBar_StatusBar
 --- @field digit1 Texture
 --- @field digit2 Texture
 --- @field GoTexture Texture

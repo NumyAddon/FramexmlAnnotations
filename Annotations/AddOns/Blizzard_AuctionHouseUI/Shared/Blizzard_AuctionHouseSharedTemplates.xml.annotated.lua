@@ -7,7 +7,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.xml#L3)
 --- Template
 --- @class AuctionHouseBackgroundTemplate : Frame, AuctionHouseBackgroundMixin
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 --- @field NineSlice AuctionHouseBackgroundTemplate_NineSlice
 --- @field Background Texture
 
@@ -15,6 +15,7 @@
 --- Template
 --- @class AuctionHouseItemDisplayBaseTemplate : Button, AuctionHouseBackgroundTemplate, AuctionHouseItemDisplayMixin
 --- @field itemButtonXOffset number # 8
+--- @field itemButtonYOffset number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSharedTemplates.xml#L59)
 --- child of AuctionHouseInteractableItemDisplayTemplate
@@ -28,6 +29,7 @@
 --- Template
 --- @class AuctionHouseInteractableItemDisplayTemplate : Button, AuctionHouseItemDisplayBaseTemplate, AuctionHouseInteractableItemDisplayMixin
 --- @field itemButtonXOffset number # 10
+--- @field itemButtonYOffset number # 0
 --- @field ItemButton AuctionHouseInteractableItemDisplayTemplate_ItemButton
 --- @field Name AuctionHouseInteractableItemDisplayTemplate_Name
 

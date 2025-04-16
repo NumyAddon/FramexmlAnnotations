@@ -11,14 +11,14 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L136)
 --- child of QuestSpellTemplate
---- @class QuestSpellTemplate_QuestSpellTemplateName : FontString, GameFontHighlight
+--- @class QuestSpellTemplate_Name : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L118)
 --- Template
 --- @class QuestSpellTemplate : Button
 --- @field Icon Texture
 --- @field NameFrame Texture
---- @field Name QuestSpellTemplate_QuestSpellTemplateName
+--- @field Name QuestSpellTemplate_Name
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L161)
 --- Template
@@ -26,44 +26,44 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L191)
 --- child of QuestHonorFrameTemplate
---- @class QuestHonorFrameTemplate_QuestHonorFrameTemplateHonorReceiveText : FontString, QuestFont
+--- @class QuestHonorFrameTemplate_HonorReceiveText : FontString, QuestFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L200)
 --- child of QuestHonorFrameTemplate
---- @class QuestHonorFrameTemplate_QuestHonorFrameTemplateHonorPoints : FontString, NumberFontNormalLarge
+--- @class QuestHonorFrameTemplate_HonorPoints : FontString, NumberFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L187)
 --- Template
 --- @class QuestHonorFrameTemplate : Frame
---- @field Points QuestHonorFrameTemplate_QuestHonorFrameTemplateHonorPoints
+--- @field Points QuestHonorFrameTemplate_HonorPoints
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L228)
 --- child of QuestArenaPointsFrameTemplate
---- @class QuestArenaPointsFrameTemplate_QuestArenaPointsFrameTemplateReceiveText : FontString, QuestFont
+--- @class QuestArenaPointsFrameTemplate_ReceiveText : FontString, QuestFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L237)
 --- child of QuestArenaPointsFrameTemplate
---- @class QuestArenaPointsFrameTemplate_QuestArenaPointsFrameTemplateArenaPoints : FontString, NumberFontNormalLarge
+--- @class QuestArenaPointsFrameTemplate_ArenaPoints : FontString, NumberFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L224)
 --- Template
 --- @class QuestArenaPointsFrameTemplate : Frame
---- @field Points QuestArenaPointsFrameTemplate_QuestArenaPointsFrameTemplateArenaPoints
+--- @field Points QuestArenaPointsFrameTemplate_ArenaPoints
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L302)
 --- child of QuestPlayerTitleFrameTemplate
---- @class QuestPlayerTitleFrameTemplate_QuestPlayerTitleFrameTemplateTitleLabel : FontString, GameFontNormalSmall
+--- @class QuestPlayerTitleFrameTemplate_TitleLabel : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L310)
 --- child of QuestPlayerTitleFrameTemplate
---- @class QuestPlayerTitleFrameTemplate_QuestPlayerTitleFrameTemplateTitle : FontString, GameFontHighlight
+--- @class QuestPlayerTitleFrameTemplate_Title : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L261)
 --- Template
 --- @class QuestPlayerTitleFrameTemplate : Frame
---- @field Title QuestPlayerTitleFrameTemplate_QuestPlayerTitleFrameTemplateTitle
+--- @field Title QuestPlayerTitleFrameTemplate_Title
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestFrameTemplates.xml#L320)
 --- Template

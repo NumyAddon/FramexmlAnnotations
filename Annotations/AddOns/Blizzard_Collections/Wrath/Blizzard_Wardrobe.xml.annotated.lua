@@ -29,6 +29,7 @@
 --- Adds itself to the parent inside the array `Buttons`
 --- @class WardrobeSlotButtonTemplate : Button, WardrobeItemsCollectionSlotButtonMixin
 --- @field transmogType any # Enum.TransmogType.Appearance
+--- @field modification any # Enum.TransmogModification.Main
 --- @field SelectedTexture Texture
 --- @field NormalTexture Texture
 --- @field Highlight Texture
@@ -117,7 +118,7 @@ WardrobeCollectionFrameTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L256)
 --- child of WardrobeCollectionFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameTab1 : Button, PanelTopTabButtonTemplate
+--- @class WardrobeCollectionFrameTab1 : Button, PanelTopTabButtonTemplate
 --- @field minWidth number # 57
 WardrobeCollectionFrameTab1 = {}
 WardrobeCollectionFrameTab1["minWidth"] = 57
@@ -130,73 +131,73 @@ WardrobeCollectionFrameTab1["Right"] = WardrobeCollectionFrameTab1Right -- inher
 WardrobeCollectionFrameTab1["HighlightTexture"] = WardrobeCollectionFrameTab1HighlightTexture -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L355)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_Spinner : Frame, LoadingSpinnerTemplate
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_Spinner : Frame, LoadingSpinnerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L346)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_WardrobeCollectionFrameSearchBoxText : FontString, GameFontHighlight
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame
+--- @class WardrobeCollectionFrameSearchBoxText : FontString, GameFontHighlight
 WardrobeCollectionFrameSearchBoxText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L339)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame : Frame
---- @field Spinner WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_Spinner
---- @field Text WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_WardrobeCollectionFrameSearchBoxText
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame : Frame
+--- @field Spinner WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame_Spinner
+--- @field Text WardrobeCollectionFrameSearchBoxText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L379)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar_text : FontString, GameFontHighlightSmall
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar_text : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L363)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar : StatusBar
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar : StatusBar
 --- @field barBackground Texture
---- @field text WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar_text
+--- @field text WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar_text
 --- @field barBorderLeft Texture
 --- @field barBorderRight Texture
 --- @field barBorderCenter Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L300)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_botLeftCorner : Texture, UI-Frame-BotCornerLeft
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame_botLeftCorner : Texture, UI_Frame_BotCornerLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L306)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_botRightCorner : Texture, UI-Frame-BotCornerRight
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame_botRightCorner : Texture, UI_Frame_BotCornerRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L312)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_bottomBorder : Texture, _UI-Frame-Bot
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame_bottomBorder : Texture, _UI_Frame_Bot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L318)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_leftBorder : Texture, !UI-Frame-LeftTile
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame_leftBorder : Texture, _UI_Frame_LeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L324)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_rightBorder : Texture, !UI-Frame-RightTile
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame_rightBorder : Texture, _UI_Frame_RightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L330)
---- child of WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_topBorder : Texture, _UI-Frame-Bot
+--- child of WardrobeCollectionFrameSearchBox_ProgressFrame
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame_topBorder : Texture, _UI_Frame_Bot
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L284)
 --- child of WardrobeCollectionFrameSearchBox
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame : Frame, WardrobeCollectionFrameSearchBoxProgressMixin
---- @field LoadingFrame WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame
---- @field ProgressBar WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar
+--- @class WardrobeCollectionFrameSearchBox_ProgressFrame : Frame, WardrobeCollectionFrameSearchBoxProgressMixin
+--- @field LoadingFrame WardrobeCollectionFrameSearchBox_ProgressFrame_LoadingFrame
+--- @field ProgressBar WardrobeCollectionFrameSearchBox_ProgressFrame_ProgressBar
 --- @field background Texture
---- @field botLeftCorner WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_botLeftCorner
---- @field botRightCorner WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_botRightCorner
---- @field bottomBorder WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_bottomBorder
---- @field leftBorder WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_leftBorder
---- @field rightBorder WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_rightBorder
---- @field topBorder WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame_topBorder
+--- @field botLeftCorner WardrobeCollectionFrameSearchBox_ProgressFrame_botLeftCorner
+--- @field botRightCorner WardrobeCollectionFrameSearchBox_ProgressFrame_botRightCorner
+--- @field bottomBorder WardrobeCollectionFrameSearchBox_ProgressFrame_bottomBorder
+--- @field leftBorder WardrobeCollectionFrameSearchBox_ProgressFrame_leftBorder
+--- @field rightBorder WardrobeCollectionFrameSearchBox_ProgressFrame_rightBorder
+--- @field topBorder WardrobeCollectionFrameSearchBox_ProgressFrame_topBorder
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1220)
 --- child of WardrobeCollectionFrameSearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @type SearchBoxTemplate_ClearButton
 WardrobeCollectionFrameSearchBoxClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1211)
@@ -206,8 +207,8 @@ WardrobeCollectionFrameSearchBoxSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L269)
 --- child of WardrobeCollectionFrame
---- @class WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox : EditBox, SearchBoxTemplate, WardrobeCollectionFrameSearchBoxMixin
---- @field ProgressFrame WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox_ProgressFrame
+--- @class WardrobeCollectionFrameSearchBox : EditBox, SearchBoxTemplate, WardrobeCollectionFrameSearchBoxMixin
+--- @field ProgressFrame WardrobeCollectionFrameSearchBox_ProgressFrame
 WardrobeCollectionFrameSearchBox = {}
 WardrobeCollectionFrameSearchBox["clearButton"] = WardrobeCollectionFrameSearchBoxClearButton -- inherited
 WardrobeCollectionFrameSearchBox["searchIcon"] = WardrobeCollectionFrameSearchBoxSearchIcon -- inherited
@@ -393,8 +394,8 @@ WardrobeCollectionFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L254)
 --- @class WardrobeCollectionFrame : Frame, WardrobeCollectionFrameMixin
---- @field ItemsTab WardrobeCollectionFrame_WardrobeCollectionFrameTab1
---- @field SearchBox WardrobeCollectionFrame_WardrobeCollectionFrameSearchBox
+--- @field ItemsTab WardrobeCollectionFrameTab1
+--- @field SearchBox WardrobeCollectionFrameSearchBox
 --- @field progressBar WardrobeCollectionFrame_progressBar
 --- @field FilterButton WardrobeCollectionFrame_FilterButton
 --- @field ItemsCollectionFrame WardrobeCollectionFrame_ItemsCollectionFrame
@@ -431,6 +432,7 @@ WardrobeCollectionFrame["SearchBox"] = WardrobeCollectionFrameSearchBox
 --- Template
 --- @class WardrobeTransmogButtonTemplate : Button, TransmogSlotButtonMixin
 --- @field transmogType any # Enum.TransmogType.Appearance
+--- @field modification any # Enum.TransmogModification.Main
 --- @field UndoButton WardrobeTransmogButtonTemplate_UndoButton
 --- @field PendingFrame WardrobeTransmogButtonTemplate_PendingFrame
 --- @field AnimFrame WardrobeTransmogButtonTemplate_AnimFrame
@@ -465,6 +467,7 @@ WardrobeCollectionFrame["SearchBox"] = WardrobeCollectionFrameSearchBox
 --- Template
 --- @class WardrobeTransmogEnchantButtonTemplate : Button, TransmogSlotButtonMixin
 --- @field transmogType any # Enum.TransmogType.Illusion
+--- @field modification any # Enum.TransmogModification.Main
 --- @field PendingFrame WardrobeTransmogEnchantButtonTemplate_PendingFrame
 --- @field AnimFrame WardrobeTransmogEnchantButtonTemplate_AnimFrame
 --- @field Icon Texture
@@ -477,110 +480,113 @@ WardrobeCollectionFrame["SearchBox"] = WardrobeCollectionFrameSearchBox
 --- @field SelectedTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1140)
---- child of WardrobeFrame_WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox
---- @class WardrobeFrame_WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox_Label : FontString, GameFontHighlightSmall
+--- child of WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox
+--- @class WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox_Label : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1133)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox : CheckButton, TransmogToggleSecondaryAppearanceCheckboxMixin
---- @field Label WardrobeFrame_WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox_Label
+--- @class WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox : CheckButton, TransmogToggleSecondaryAppearanceCheckboxMixin
+--- @field Label WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L805)
---- child of WardrobeFrame_WardrobeTransmogFrame_Inset (created in template InsetFrameTemplate)
+--- child of WardrobeTransmogFrame_Inset (created in template InsetFrameTemplate)
 --- @type Texture
 WardrobeTransmogFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1156)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_Inset : Frame, InsetFrameTemplate
+--- @class WardrobeTransmogFrame_Inset : Frame, InsetFrameTemplate
 --- @field BG Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1168)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_OutfitDropdown : DropdownButton, WardrobeOutfitDropdownTemplate, WardrobeOutfitDropdownOverrideMixin
+--- @class WardrobeTransmogFrame_OutfitDropdown : DropdownButton, WardrobeOutfitDropdownTemplate, WardrobeOutfitDropdownOverrideMixin
 --- @field width number # 207
+--- @field minMenuStringWidth number # 152
+--- @field maxMenuStringWidth number # 216
+--- @field replaceInvalidSources boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1192)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model
---- @class WardrobeFrame_WardrobeTransmogFrame_Model_ControlFrame : Frame, ModelSceneControlFrameTemplate
+--- child of WardrobeTransmogFrame_Model
+--- @class WardrobeTransmogFrame_Model_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L943)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
+--- child of WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L950)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
+--- child of WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L957)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
+--- child of WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L964)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
+--- child of WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L971)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
+--- child of WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameTopMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L979)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
+--- child of WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameMiddleLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L987)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
+--- child of WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameMiddleRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L995)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
+--- child of WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameBottomMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1003)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
+--- child of WardrobeTransmogFrame_Model_ClearAllPendingButton (created in template UIMenuButtonStretchTemplate)
 --- @type Texture
 WardrobeTransmogFrameMiddleMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1197)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model
---- @class WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton : Button, UIMenuButtonStretchTemplate, WardrobeTransmogClearAllPendingButtonMixin
+--- child of WardrobeTransmogFrame_Model
+--- @class WardrobeTransmogFrame_Model_ClearAllPendingButton : Button, UIMenuButtonStretchTemplate, WardrobeTransmogClearAllPendingButtonMixin
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L107)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomInButton : Button, ModelControlButtonTemplate
+--- @class ModelWithControlsTemplate_ControlFrame_ZoomInButton : Button, ModelControlButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L125)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameZoomOutButton : Button, ModelControlButtonTemplate
+--- @class ModelWithControlsTemplate_ControlFrame_ZoomOutButton : Button, ModelControlButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L143)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFramePanButton : Button, ModelControlButtonTemplate
+--- @class ModelWithControlsTemplate_ControlFrame_PanButton : Button, ModelControlButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L163)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateLeftButton : Button, ModelControlButtonTemplate
+--- @class ModelWithControlsTemplate_ControlFrame_RotateLeftButton : Button, ModelControlButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L179)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateRightButton : Button, ModelControlButtonTemplate
+--- @class ModelWithControlsTemplate_ControlFrame_RotateRightButton : Button, ModelControlButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L195)
 --- child of ModelWithControlsTemplateControlFrame
---- @class ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame_ModelWithControlsTemplateControlFrameRotateResetButton : Button, ModelControlButtonTemplate
+--- @class ModelWithControlsTemplate_ControlFrame_RotateResetButton : Button, ModelControlButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L75)
---- child of WardrobeFrame_WardrobeTransmogFrame_Model (created in template ModelWithControlsTemplate)
---- @type ModelWithControlsTemplate_ModelWithControlsTemplateControlFrame
+--- child of WardrobeTransmogFrame_Model (created in template ModelWithControlsTemplate)
+--- @type ModelWithControlsTemplate_ControlFrame
 WardrobeTransmogFrameControlFrame = {}
 WardrobeTransmogFrameControlFrame["panButton"] = ModelWithControlsTemplateControlFramePanButton
 WardrobeTransmogFrameControlFrame["rotateLeftButton"] = ModelWithControlsTemplateControlFrameRotateLeftButton
@@ -588,108 +594,109 @@ WardrobeTransmogFrameControlFrame["rotateRightButton"] = ModelWithControlsTempla
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1179)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_Model : DressUpModel, ModelWithControlsTemplate, WardrobeItemsModelMixin
---- @field ControlFrame WardrobeFrame_WardrobeTransmogFrame_Model_ControlFrame
---- @field ClearAllPendingButton WardrobeFrame_WardrobeTransmogFrame_Model_ClearAllPendingButton
+--- @class WardrobeTransmogFrame_Model : DressUpModel, ModelWithControlsTemplate, WardrobeItemsModelMixin
+--- @field ControlFrame WardrobeTransmogFrame_Model_ControlFrame
+--- @field ClearAllPendingButton WardrobeTransmogFrame_Model_ClearAllPendingButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1225)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_HeadButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "HEADSLOT"
+--- @class WardrobeTransmogFrame_HeadButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # HEADSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1233)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_ShoulderButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "SHOULDERSLOT"
+--- @class WardrobeTransmogFrame_ShoulderButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # SHOULDERSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1241)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_SecondaryShoulderButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "SHOULDERSLOT"
+--- @class WardrobeTransmogFrame_SecondaryShoulderButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # SHOULDERSLOT
+--- @field modification any # Enum.TransmogModification.Secondary
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1250)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_BackButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "BACKSLOT"
+--- @class WardrobeTransmogFrame_BackButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # BACKSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1258)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_ChestButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "CHESTSLOT"
+--- @class WardrobeTransmogFrame_ChestButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # CHESTSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1266)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_ShirtButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "SHIRTSLOT"
+--- @class WardrobeTransmogFrame_ShirtButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # SHIRTSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1274)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_TabardButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "TABARDSLOT"
+--- @class WardrobeTransmogFrame_TabardButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # TABARDSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1282)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_WristButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "WRISTSLOT"
+--- @class WardrobeTransmogFrame_WristButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # WRISTSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1290)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_HandsButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "HANDSSLOT"
+--- @class WardrobeTransmogFrame_HandsButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # HANDSSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1298)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_WaistButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "WAISTSLOT"
+--- @class WardrobeTransmogFrame_WaistButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # WAISTSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1306)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_LegsButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "LEGSSLOT"
+--- @class WardrobeTransmogFrame_LegsButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # LEGSSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1314)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_FeetButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "FEETSLOT"
+--- @class WardrobeTransmogFrame_FeetButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # FEETSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1326)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_SecondaryHandButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "SECONDARYHANDSLOT"
+--- @class WardrobeTransmogFrame_SecondaryHandButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # SECONDARYHANDSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1334)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_MainHandButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "MAINHANDSLOT"
+--- @class WardrobeTransmogFrame_MainHandButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # MAINHANDSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1342)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_RangedButton : Button, WardrobeTransmogButtonTemplate
---- @field slot string # "RANGEDSLOT"
+--- @class WardrobeTransmogFrame_RangedButton : Button, WardrobeTransmogButtonTemplate
+--- @field slot string # RANGEDSLOT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L159)
 --- child of WardrobeTransmogMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 WardrobeTransmogMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L185)
 --- child of WardrobeTransmogMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 WardrobeTransmogMoneyFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L225)
 --- child of WardrobeTransmogMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 WardrobeTransmogMoneyFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L265)
 --- child of WardrobeTransmogMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 WardrobeTransmogMoneyFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1366)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_WardrobeTransmogMoneyFrame : Frame, SmallMoneyFrameTemplate
+--- @class WardrobeTransmogMoneyFrame : Frame, SmallMoneyFrameTemplate
 WardrobeTransmogMoneyFrame = {}
 WardrobeTransmogMoneyFrame["trialErrorButton"] = WardrobeTransmogMoneyFrameTrialErrorButton -- inherited
 WardrobeTransmogMoneyFrame["CopperButton"] = WardrobeTransmogMoneyFrameCopperButton -- inherited
@@ -698,42 +705,42 @@ WardrobeTransmogMoneyFrame["GoldButton"] = WardrobeTransmogMoneyFrameGoldButton 
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1377)
 --- child of WardrobeTransmogFrame
---- @class WardrobeFrame_WardrobeTransmogFrame_ApplyButton : Button, UIPanelButtonTemplate
+--- @class WardrobeTransmogFrame_ApplyButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1102)
 --- child of WardrobeFrame
---- @class WardrobeFrame_WardrobeTransmogFrame : Frame, TransmogFrameMixin
---- @field ToggleSecondaryAppearanceCheckbox WardrobeFrame_WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox
---- @field Inset WardrobeFrame_WardrobeTransmogFrame_Inset
---- @field OutfitDropdown WardrobeFrame_WardrobeTransmogFrame_OutfitDropdown
---- @field Model WardrobeFrame_WardrobeTransmogFrame_Model
---- @field HeadButton WardrobeFrame_WardrobeTransmogFrame_HeadButton
---- @field ShoulderButton WardrobeFrame_WardrobeTransmogFrame_ShoulderButton
---- @field SecondaryShoulderButton WardrobeFrame_WardrobeTransmogFrame_SecondaryShoulderButton
---- @field BackButton WardrobeFrame_WardrobeTransmogFrame_BackButton
---- @field ChestButton WardrobeFrame_WardrobeTransmogFrame_ChestButton
---- @field ShirtButton WardrobeFrame_WardrobeTransmogFrame_ShirtButton
---- @field TabardButton WardrobeFrame_WardrobeTransmogFrame_TabardButton
---- @field WristButton WardrobeFrame_WardrobeTransmogFrame_WristButton
---- @field HandsButton WardrobeFrame_WardrobeTransmogFrame_HandsButton
---- @field WaistButton WardrobeFrame_WardrobeTransmogFrame_WaistButton
---- @field LegsButton WardrobeFrame_WardrobeTransmogFrame_LegsButton
---- @field FeetButton WardrobeFrame_WardrobeTransmogFrame_FeetButton
---- @field SecondaryHandButton WardrobeFrame_WardrobeTransmogFrame_SecondaryHandButton
---- @field MainHandButton WardrobeFrame_WardrobeTransmogFrame_MainHandButton
---- @field RangedButton WardrobeFrame_WardrobeTransmogFrame_RangedButton
---- @field MoneyFrame WardrobeFrame_WardrobeTransmogFrame_WardrobeTransmogMoneyFrame
---- @field ApplyButton WardrobeFrame_WardrobeTransmogFrame_ApplyButton
+--- @class WardrobeTransmogFrame : Frame, TransmogFrameMixin
+--- @field ToggleSecondaryAppearanceCheckbox WardrobeTransmogFrame_ToggleSecondaryAppearanceCheckbox
+--- @field Inset WardrobeTransmogFrame_Inset
+--- @field OutfitDropdown WardrobeTransmogFrame_OutfitDropdown
+--- @field Model WardrobeTransmogFrame_Model
+--- @field HeadButton WardrobeTransmogFrame_HeadButton
+--- @field ShoulderButton WardrobeTransmogFrame_ShoulderButton
+--- @field SecondaryShoulderButton WardrobeTransmogFrame_SecondaryShoulderButton
+--- @field BackButton WardrobeTransmogFrame_BackButton
+--- @field ChestButton WardrobeTransmogFrame_ChestButton
+--- @field ShirtButton WardrobeTransmogFrame_ShirtButton
+--- @field TabardButton WardrobeTransmogFrame_TabardButton
+--- @field WristButton WardrobeTransmogFrame_WristButton
+--- @field HandsButton WardrobeTransmogFrame_HandsButton
+--- @field WaistButton WardrobeTransmogFrame_WaistButton
+--- @field LegsButton WardrobeTransmogFrame_LegsButton
+--- @field FeetButton WardrobeTransmogFrame_FeetButton
+--- @field SecondaryHandButton WardrobeTransmogFrame_SecondaryHandButton
+--- @field MainHandButton WardrobeTransmogFrame_MainHandButton
+--- @field RangedButton WardrobeTransmogFrame_RangedButton
+--- @field MoneyFrame WardrobeTransmogMoneyFrame
+--- @field ApplyButton WardrobeTransmogFrame_ApplyButton
 --- @field MoneyLeft Texture
 --- @field MoneyMiddle Texture
 --- @field MoneyRight Texture
---- @field SlotButtons table<number, WardrobeFrame_WardrobeTransmogFrame_HeadButton | WardrobeFrame_WardrobeTransmogFrame_ShoulderButton | WardrobeFrame_WardrobeTransmogFrame_SecondaryShoulderButton | WardrobeFrame_WardrobeTransmogFrame_BackButton | WardrobeFrame_WardrobeTransmogFrame_ChestButton | WardrobeFrame_WardrobeTransmogFrame_ShirtButton | WardrobeFrame_WardrobeTransmogFrame_TabardButton | WardrobeFrame_WardrobeTransmogFrame_WristButton | WardrobeFrame_WardrobeTransmogFrame_HandsButton | WardrobeFrame_WardrobeTransmogFrame_WaistButton | WardrobeFrame_WardrobeTransmogFrame_LegsButton | WardrobeFrame_WardrobeTransmogFrame_FeetButton | WardrobeFrame_WardrobeTransmogFrame_SecondaryHandButton | WardrobeFrame_WardrobeTransmogFrame_MainHandButton | WardrobeFrame_WardrobeTransmogFrame_RangedButton>
+--- @field SlotButtons table<number, WardrobeTransmogFrame_HeadButton | WardrobeTransmogFrame_ShoulderButton | WardrobeTransmogFrame_SecondaryShoulderButton | WardrobeTransmogFrame_BackButton | WardrobeTransmogFrame_ChestButton | WardrobeTransmogFrame_ShirtButton | WardrobeTransmogFrame_TabardButton | WardrobeTransmogFrame_WristButton | WardrobeTransmogFrame_HandsButton | WardrobeTransmogFrame_WaistButton | WardrobeTransmogFrame_LegsButton | WardrobeTransmogFrame_FeetButton | WardrobeTransmogFrame_SecondaryHandButton | WardrobeTransmogFrame_MainHandButton | WardrobeTransmogFrame_RangedButton>
 WardrobeTransmogFrame = {}
 WardrobeTransmogFrame["MoneyFrame"] = WardrobeTransmogMoneyFrame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L663)
 --- child of WardrobeFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 WardrobeFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L569)
@@ -743,7 +750,7 @@ WardrobeFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L575)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+--- @type PortraitFrameTemplateNoCloseButton_TitleBg
 WardrobeFrameTitleBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L583)
@@ -753,57 +760,57 @@ WardrobeFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L591)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 WardrobeFramePortraitFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L596)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 WardrobeFrameTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L601)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 WardrobeFrameTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L606)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+--- @type PortraitFrameTemplateNoCloseButton_TopBorder
 WardrobeFrameTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L612)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+--- @type PortraitFrameTemplateNoCloseButton_TitleText
 WardrobeFrameTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L621)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+--- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 WardrobeFrameTopTileStreaks = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L627)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 WardrobeFrameBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L632)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 WardrobeFrameBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L637)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+--- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 WardrobeFrameBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L643)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+--- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 WardrobeFrameLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L649)
 --- child of WardrobeFrame (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+--- @type PortraitFrameTemplateNoCloseButton_RightBorder
 WardrobeFrameRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Wardrobe.xml#L1096)

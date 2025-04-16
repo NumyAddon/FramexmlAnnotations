@@ -47,7 +47,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Classic/Blizzard_AuctionHouseItemList.xml#L32)
 --- Template
 --- @class AuctionHouseItemListTemplate : Frame, AuctionHouseBackgroundTemplate, AuctionHouseItemListMixin
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
+--- @field backgroundYOffset number # -19
+--- @field backgroundTextureClassic string # Interface\FrameGeneral\UI-Background-Marble
+--- @field textureXOffsetClassic number # 2
+--- @field textureYOffsetClassic number # -2
 --- @field RefreshFrame AuctionHouseItemListTemplate_RefreshFrame
 --- @field HeaderContainer AuctionHouseItemListTemplate_HeaderContainer
 --- @field ScrollBox AuctionHouseItemListTemplate_ScrollBox

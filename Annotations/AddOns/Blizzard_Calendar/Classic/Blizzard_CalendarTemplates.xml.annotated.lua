@@ -2,23 +2,23 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L39)
 --- child of CalendarDayButtonTemplate
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateOverlayFrame : Frame
+--- @class CalendarDayButtonTemplate_OverlayFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L61)
 --- child of CalendarDayButtonTemplateDateFrame
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateDateFrame_CalendarDayButtonTemplateDateFrameDate : FontString, GameFontHighlight
+--- @class CalendarDayButtonTemplate_DateFrame_Date : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L46)
 --- child of CalendarDayButtonTemplate
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateDateFrame : Frame
+--- @class CalendarDayButtonTemplate_DateFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L69)
 --- child of CalendarDayButtonTemplate
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateMoreEventsButton : Button
+--- @class CalendarDayButtonTemplate_MoreEventsButton : Button
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L94)
 --- child of CalendarDayButtonTemplate
---- @class CalendarDayButtonTemplate_CalendarDayButtonTemplateDarkFrame : Frame
+--- @class CalendarDayButtonTemplate_DarkFrame : Frame
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L4)
 --- Template
@@ -26,11 +26,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L164)
 --- child of CalendarDayEventButtonTemplate
---- @class CalendarDayEventButtonTemplate_CalendarDayEventButtonTemplateText1 : FontString, GameFontNormalSmall
+--- @class CalendarDayEventButtonTemplate_Text1 : FontString, GameFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L172)
 --- child of CalendarDayEventButtonTemplate
---- @class CalendarDayEventButtonTemplate_CalendarDayEventButtonTemplateText2 : FontString, GameFontHighlightSmall
+--- @class CalendarDayEventButtonTemplate_Text2 : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L147)
 --- Template
@@ -63,20 +63,21 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L283)
 --- child of CalendarEventInviteListTemplate
---- @class CalendarEventInviteListTemplate_CalendarEventInviteListTemplateNameSortButton : Button, CalendarEventInviteSortButtonTemplate
+--- @class CalendarEventInviteListTemplate_NameSortButton : Button, CalendarEventInviteSortButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L297)
 --- child of CalendarEventInviteListTemplate
---- @class CalendarEventInviteListTemplate_CalendarEventInviteListTemplateClassSortButton : Button, CalendarEventInviteSortButtonTemplate
+--- @class CalendarEventInviteListTemplate_ClassSortButton : Button, CalendarEventInviteSortButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L311)
 --- child of CalendarEventInviteListTemplate
---- @class CalendarEventInviteListTemplate_CalendarEventInviteListTemplateStatusSortButton : Button, CalendarEventInviteSortButtonTemplate
+--- @class CalendarEventInviteListTemplate_StatusSortButton : Button, CalendarEventInviteSortButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L265)
 --- Template
 --- @class CalendarEventInviteListTemplate : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # BLACK_FONT_COLOR
+--- @field backdropColorAlpha number # 0.9
 --- @field ScrollBox CalendarEventInviteListTemplate_ScrollBox
 --- @field ScrollBar CalendarEventInviteListTemplate_ScrollBar
 
@@ -158,7 +159,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L572)
 --- child of CalendarClassButtonTemplate
---- @class CalendarClassButtonTemplate_CalendarClassButtonTemplateCount : FontString, NumberFontNormalSmall
+--- @class CalendarClassButtonTemplate_Count : FontString, NumberFontNormalSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Calendar/Classic/Blizzard_CalendarTemplates.xml#L557)
 --- Template

@@ -6,7 +6,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/VehicleSeatIndicator.xml#L87)
 --- child of VehicleSeatIndicator
---- @class VehicleSeatIndicator_VehicleSeatIndicatorBackgroundTexture : Texture
+--- @class VehicleSeatIndicatorBackgroundTexture : Texture
 VehicleSeatIndicatorBackgroundTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/VehicleSeatIndicator.xml#L77)

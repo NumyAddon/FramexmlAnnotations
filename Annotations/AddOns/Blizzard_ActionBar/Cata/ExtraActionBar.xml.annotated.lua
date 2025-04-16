@@ -24,7 +24,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/ExtraActionBar.xml#L82)
 --- child of ExtraActionBarFrame
---- @class ExtraActionBarFrame_ExtraActionButton1 : CheckButton, ExtraActionButtonTemplate
+--- @class ExtraActionButton1 : CheckButton, ExtraActionButtonTemplate
 ExtraActionButton1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/ExtraActionBar.xml#L63)
@@ -37,7 +37,7 @@ ExtraActionButton1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/ExtraActionBar.xml#L57)
 --- @class ExtraActionBarFrame : Frame
---- @field button ExtraActionBarFrame_ExtraActionButton1
+--- @field button ExtraActionButton1
 --- @field intro ExtraActionBarFrame_intro
 --- @field outro ExtraActionBarFrame_outro
 ExtraActionBarFrame = {}

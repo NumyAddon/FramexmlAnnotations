@@ -32,6 +32,11 @@
 --- Template
 --- @class ModelSceneControlFrameTemplate : Frame, ModelSceneControlFrameMixin
 --- @field enableZoom boolean # true
+--- @field enableRotate boolean # true
+--- @field enableReset boolean # true
+--- @field rotationIncrement number # 0.05
+--- @field zoomIncrement number # 1
+--- @field buttonHorizontalPadding number # -6
 --- @field zoomInButton ModelSceneControlFrameTemplate_zoomInButton
 --- @field zoomOutButton ModelSceneControlFrameTemplate_zoomOutButton
 --- @field rotateLeftButton ModelSceneControlFrameTemplate_rotateLeftButton

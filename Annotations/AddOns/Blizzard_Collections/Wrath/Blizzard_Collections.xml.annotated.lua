@@ -41,7 +41,7 @@ CollectionsJournalTab1HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L18)
 --- child of CollectionsJournal
---- @class CollectionsJournal_CollectionsJournalTab1 : Button, CollectionsJournalTab
+--- @class CollectionsJournalTab1 : Button, CollectionsJournalTab
 CollectionsJournalTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L9)
@@ -81,7 +81,7 @@ CollectionsJournalTab2HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L23)
 --- child of CollectionsJournal
---- @class CollectionsJournal_CollectionsJournalTab2 : Button, CollectionsJournalTab
+--- @class CollectionsJournalTab2 : Button, CollectionsJournalTab
 CollectionsJournalTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L9)
@@ -121,7 +121,7 @@ CollectionsJournalTab3HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L28)
 --- child of CollectionsJournal
---- @class CollectionsJournal_CollectionsJournalTab3 : Button, CollectionsJournalTab
+--- @class CollectionsJournalTab3 : Button, CollectionsJournalTab
 CollectionsJournalTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L9)
@@ -161,7 +161,7 @@ CollectionsJournalTab4HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L33)
 --- child of CollectionsJournal
---- @class CollectionsJournal_CollectionsJournalTab4 : Button, CollectionsJournalTab
+--- @class CollectionsJournalTab4 : Button, CollectionsJournalTab
 CollectionsJournalTab4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L9)
@@ -201,12 +201,12 @@ CollectionsJournalTab5HighlightTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L38)
 --- child of CollectionsJournal
---- @class CollectionsJournal_CollectionsJournalTab5 : Button, CollectionsJournalTab
+--- @class CollectionsJournalTab5 : Button, CollectionsJournalTab
 CollectionsJournalTab5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L663)
 --- child of CollectionsJournal (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 CollectionsJournalCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L569)
@@ -216,7 +216,7 @@ CollectionsJournalBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L575)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleBg
+--- @type PortraitFrameTemplateNoCloseButton_TitleBg
 CollectionsJournalTitleBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L583)
@@ -226,57 +226,57 @@ CollectionsJournalPortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L591)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonPortraitFrame
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 CollectionsJournalPortraitFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L596)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 CollectionsJournalTopRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L601)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 CollectionsJournalTopLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L606)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopBorder
+--- @type PortraitFrameTemplateNoCloseButton_TopBorder
 CollectionsJournalTopBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L612)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTitleText
+--- @type PortraitFrameTemplateNoCloseButton_TitleText
 CollectionsJournalTitleText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L621)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonTopTileStreaks
+--- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 CollectionsJournalTopTileStreaks = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L627)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotLeftCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 CollectionsJournalBotLeftCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L632)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBotRightCorner
+--- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 CollectionsJournalBotRightCorner = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L637)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonBottomBorder
+--- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 CollectionsJournalBottomBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L643)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonLeftBorder
+--- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 CollectionsJournalLeftBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L649)
 --- child of CollectionsJournal (created in template PortraitFrameTemplateNoCloseButton)
---- @type PortraitFrameTemplateNoCloseButton_PortraitFrameTemplateNoCloseButtonRightBorder
+--- @type PortraitFrameTemplateNoCloseButton_RightBorder
 CollectionsJournalRightBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_Collections.xml#L12)

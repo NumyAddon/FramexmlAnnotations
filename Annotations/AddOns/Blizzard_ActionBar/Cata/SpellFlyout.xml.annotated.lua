@@ -90,12 +90,12 @@ SpellFlyoutButton1Shine16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L94)
 --- child of SpellFlyoutButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateShine
+--- @type ActionButtonTemplate_Shine
 SpellFlyoutButton1Shine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L100)
 --- child of SpellFlyoutButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCooldown
+--- @type ActionButtonTemplate_Cooldown
 SpellFlyoutButton1Cooldown = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L23)
@@ -110,32 +110,32 @@ SpellFlyoutButton1Flash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L27)
 --- child of SpellFlyoutButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorder
+--- @type ActionButtonTemplate_FlyoutBorder
 SpellFlyoutButton1FlyoutBorder = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L32)
 --- child of SpellFlyoutButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutBorderShadow
+--- @type ActionButtonTemplate_FlyoutBorderShadow
 SpellFlyoutButton1FlyoutBorderShadow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L39)
 --- child of SpellFlyoutButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateFlyoutArrow
+--- @type ActionButtonTemplate_FlyoutArrow
 SpellFlyoutButton1FlyoutArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L40)
 --- child of SpellFlyoutButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateHotKey
+--- @type ActionButtonTemplate_HotKey
 SpellFlyoutButton1HotKey = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L46)
 --- child of SpellFlyoutButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateCount
+--- @type ActionButtonTemplate_Count
 SpellFlyoutButton1Count = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L53)
 --- child of SpellFlyoutButton1 (created in template ActionButtonTemplate)
---- @type ActionButtonTemplate_ActionButtonTemplateName
+--- @type ActionButtonTemplate_Name
 SpellFlyoutButton1Name = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L59)
@@ -150,7 +150,7 @@ SpellFlyoutButton1NormalTexture = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L53)
 --- child of SpellFlyout
---- @class SpellFlyout_SpellFlyoutButton1 : CheckButton, SpellFlyoutButtonTemplate
+--- @class SpellFlyoutButton1 : CheckButton, SpellFlyoutButtonTemplate
 SpellFlyoutButton1 = {}
 SpellFlyoutButton1["AutoCastShine"] = SpellFlyoutButton1Shine -- inherited
 SpellFlyoutButton1["cooldown"] = SpellFlyoutButton1Cooldown -- inherited
@@ -167,24 +167,24 @@ SpellFlyoutButton1["NormalTexture"] = SpellFlyoutButton1NormalTexture -- inherit
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L41)
 --- child of SpellFlyout
---- @class SpellFlyout_SpellFlyoutBackgroundEnd : Texture, ActionBarFlyoutButton-FlyoutTop
+--- @class SpellFlyoutBackgroundEnd : Texture, ActionBarFlyoutButton_FlyoutTop
 SpellFlyoutBackgroundEnd = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L42)
 --- child of SpellFlyout
---- @class SpellFlyout_SpellFlyoutHorizontalBackground : Texture
+--- @class SpellFlyoutHorizontalBackground : Texture
 SpellFlyoutHorizontalBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L46)
 --- child of SpellFlyout
---- @class SpellFlyout_SpellFlyoutVerticalBackground : Texture
+--- @class SpellFlyoutVerticalBackground : Texture
 SpellFlyoutVerticalBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L38)
 --- @class SpellFlyout : Frame, SecureFrameTemplate
---- @field BgEnd SpellFlyout_SpellFlyoutBackgroundEnd
---- @field HorizBg SpellFlyout_SpellFlyoutHorizontalBackground
---- @field VertBg SpellFlyout_SpellFlyoutVerticalBackground
+--- @field BgEnd SpellFlyoutBackgroundEnd
+--- @field HorizBg SpellFlyoutHorizontalBackground
+--- @field VertBg SpellFlyoutVerticalBackground
 SpellFlyout = {}
 SpellFlyout["BgEnd"] = SpellFlyoutBackgroundEnd
 SpellFlyout["HorizBg"] = SpellFlyoutHorizontalBackground

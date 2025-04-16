@@ -3,7 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L4)
 --- Template
 --- @class PlayerFrameBarSegmentTemplate : Frame
---- @field fillTexture string # "Interface\\TargetingFrame\\UI-StatusBar"
+--- @field fillTexture string # Interface\TargetingFrame\UI-StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L51)
 --- child of 
@@ -132,12 +132,12 @@ PlayerPVPIconHitArea = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L213)
 --- child of PlayerStatusGlow
---- @class PlayerStatusGlow_PlayerRestGlow : Texture
+--- @class PlayerRestGlow : Texture
 PlayerRestGlow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L220)
 --- child of PlayerStatusGlow
---- @class PlayerStatusGlow_PlayerAttackGlow : Texture
+--- @class PlayerAttackGlow : Texture
 PlayerAttackGlow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L206)
@@ -147,7 +147,7 @@ PlayerStatusGlow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L243)
 --- child of PlayerPlayTime
---- @class PlayerPlayTime_PlayerPlayTimeIcon : Texture
+--- @class PlayerPlayTimeIcon : Texture
 PlayerPlayTimeIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L236)
@@ -155,76 +155,70 @@ PlayerPlayTimeIcon = {}
 --- @class PlayerPlayTime : Frame
 PlayerPlayTime = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L254)
---- child of 
---- @class MultiGroupFrame : Button
---- @field HomePartyIcon Texture
---- @field InstancePartyIcon Texture
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L299)
 --- child of PlayerFrameHealthBar
---- @class PlayerFrame_PlayerFrameHealthBar_MyHealPredictionBar : Frame, PlayerFrameBarSegmentTemplate, MyHealPredictionBarTemplate
+--- @class PlayerFrameHealthBar_MyHealPredictionBar : Frame, PlayerFrameBarSegmentTemplate, MyHealPredictionBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L300)
 --- child of PlayerFrameHealthBar
---- @class PlayerFrame_PlayerFrameHealthBar_OtherHealPredictionBar : Frame, PlayerFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
+--- @class PlayerFrameHealthBar_OtherHealPredictionBar : Frame, PlayerFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L293)
 --- child of PlayerFrame
---- @class PlayerFrame_PlayerFrameHealthBar : StatusBar, TextStatusBar
---- @field MyHealPredictionBar PlayerFrame_PlayerFrameHealthBar_MyHealPredictionBar
---- @field OtherHealPredictionBar PlayerFrame_PlayerFrameHealthBar_OtherHealPredictionBar
+--- @class PlayerFrameHealthBar : StatusBar, TextStatusBar
+--- @field MyHealPredictionBar PlayerFrameHealthBar_MyHealPredictionBar
+--- @field OtherHealPredictionBar PlayerFrameHealthBar_OtherHealPredictionBar
 PlayerFrameHealthBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L316)
 --- child of PlayerFrame
---- @class PlayerFrame_PlayerFrameManaBar : StatusBar, TextStatusBar
+--- @class PlayerFrameManaBar : StatusBar, TextStatusBar
 PlayerFrameManaBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L339)
 --- child of PlayerFrameGroupIndicator
---- @class PlayerFrame_PlayerFrameGroupIndicator_PlayerFrameGroupIndicatorLeft : Texture
+--- @class PlayerFrameGroupIndicatorLeft : Texture
 PlayerFrameGroupIndicatorLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L346)
 --- child of PlayerFrameGroupIndicator
---- @class PlayerFrame_PlayerFrameGroupIndicator_PlayerFrameGroupIndicatorRight : Texture
+--- @class PlayerFrameGroupIndicatorRight : Texture
 PlayerFrameGroupIndicatorRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L353)
 --- child of PlayerFrameGroupIndicator
---- @class PlayerFrame_PlayerFrameGroupIndicator_PlayerFrameGroupIndicatorMiddle : Texture
+--- @class PlayerFrameGroupIndicatorMiddle : Texture
 PlayerFrameGroupIndicatorMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L361)
 --- child of PlayerFrameGroupIndicator
---- @class PlayerFrame_PlayerFrameGroupIndicator_PlayerFrameGroupIndicatorText : FontString, GameFontHighlightSmall
+--- @class PlayerFrameGroupIndicatorText : FontString, GameFontHighlightSmall
 PlayerFrameGroupIndicatorText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L332)
 --- child of PlayerFrame
---- @class PlayerFrame_PlayerFrameGroupIndicator : Frame
+--- @class PlayerFrameGroupIndicator : Frame
 PlayerFrameGroupIndicator = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L21)
 --- child of PlayerFrame
---- @class PlayerFrame_PlayerFrameFlash : Texture
+--- @class PlayerFrameFlash : Texture
 PlayerFrameFlash = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L28)
 --- child of PlayerFrame
---- @class PlayerFrame_PlayerFrameBackground : Texture
+--- @class PlayerFrameBackground : Texture
 PlayerFrameBackground = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L37)
 --- child of PlayerFrame
---- @class PlayerFrame_PlayerPortrait : Texture
+--- @class PlayerPortrait : Texture
 PlayerPortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L13)
 --- @class PlayerFrame : Button, SecureUnitButtonTemplate
---- @field HealthBar PlayerFrame_PlayerFrameHealthBar
---- @field ManaBar PlayerFrame_PlayerFrameManaBar
+--- @field HealthBar PlayerFrameHealthBar
+--- @field ManaBar PlayerFrameManaBar
 PlayerFrame = {}
 PlayerFrame["HealthBar"] = PlayerFrameHealthBar
 PlayerFrame["ManaBar"] = PlayerFrameManaBar

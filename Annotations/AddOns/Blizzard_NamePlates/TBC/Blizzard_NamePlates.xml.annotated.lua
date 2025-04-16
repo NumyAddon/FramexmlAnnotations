@@ -55,6 +55,7 @@ NamePlateDriverFrame = {}
 --- Adds itself to the parent with key `UnitFrame`
 --- @class BaseNamePlateUnitFrameTemplate : Button
 --- @field disableMouse boolean # true
+--- @field ignoreCUFNameRequirement boolean # true
 --- @field healthBar BaseNamePlateUnitFrameTemplate_healthBar
 --- @field CastBar BaseNamePlateUnitFrameTemplate_CastBar
 --- @field RaidTargetFrame BaseNamePlateUnitFrameTemplate_RaidTargetFrame
@@ -79,82 +80,82 @@ NamePlateTooltipStatusBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L25)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft1
+--- @type GameTooltipTemplate_TextLeft1
 NamePlateTooltipTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L34)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight1
+--- @type GameTooltipTemplate_TextRight1
 NamePlateTooltipTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L43)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft2
+--- @type GameTooltipTemplate_TextLeft2
 NamePlateTooltipTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L52)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight2
+--- @type GameTooltipTemplate_TextRight2
 NamePlateTooltipTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L61)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft3
+--- @type GameTooltipTemplate_TextLeft3
 NamePlateTooltipTextLeft3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L70)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight3
+--- @type GameTooltipTemplate_TextRight3
 NamePlateTooltipTextRight3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L79)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft4
+--- @type GameTooltipTemplate_TextLeft4
 NamePlateTooltipTextLeft4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L88)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight4
+--- @type GameTooltipTemplate_TextRight4
 NamePlateTooltipTextRight4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L97)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft5
+--- @type GameTooltipTemplate_TextLeft5
 NamePlateTooltipTextLeft5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L106)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight5
+--- @type GameTooltipTemplate_TextRight5
 NamePlateTooltipTextRight5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L115)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft6
+--- @type GameTooltipTemplate_TextLeft6
 NamePlateTooltipTextLeft6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L124)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight6
+--- @type GameTooltipTemplate_TextRight6
 NamePlateTooltipTextRight6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L133)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft7
+--- @type GameTooltipTemplate_TextLeft7
 NamePlateTooltipTextLeft7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L142)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight7
+--- @type GameTooltipTemplate_TextRight7
 NamePlateTooltipTextRight7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L151)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextLeft8
+--- @type GameTooltipTemplate_TextLeft8
 NamePlateTooltipTextLeft8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L160)
 --- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateTextRight8
+--- @type GameTooltipTemplate_TextRight8
 NamePlateTooltipTextRight8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/TBC/Blizzard_NamePlates.xml#L169)

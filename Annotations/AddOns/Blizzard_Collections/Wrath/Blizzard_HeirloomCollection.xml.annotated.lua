@@ -33,7 +33,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_HeirloomCollection.xml#L1220)
 --- child of HeirloomsJournalSearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @type SearchBoxTemplate_ClearButton
 HeirloomsJournalSearchBoxClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_HeirloomCollection.xml#L1211)
@@ -43,7 +43,7 @@ HeirloomsJournalSearchBoxSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_HeirloomCollection.xml#L102)
 --- child of HeirloomsJournal
---- @class HeirloomsJournal_HeirloomsJournalSearchBox : EditBox, SearchBoxTemplate
+--- @class HeirloomsJournalSearchBox : EditBox, SearchBoxTemplate
 HeirloomsJournalSearchBox = {}
 HeirloomsJournalSearchBox["clearButton"] = HeirloomsJournalSearchBoxClearButton -- inherited
 HeirloomsJournalSearchBox["searchIcon"] = HeirloomsJournalSearchBoxSearchIcon -- inherited
@@ -73,7 +73,7 @@ HeirloomsJournalBg = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_HeirloomCollection.xml#L98)
 --- @class HeirloomsJournal : Frame, HeirloomsMixin
 --- @field progressBar HeirloomsJournal_progressBar
---- @field SearchBox HeirloomsJournal_HeirloomsJournalSearchBox
+--- @field SearchBox HeirloomsJournalSearchBox
 --- @field FilterDropdown HeirloomsJournal_FilterDropdown
 --- @field ClassDropdown HeirloomsJournal_ClassDropdown
 --- @field iconsFrame HeirloomsJournal_iconsFrame

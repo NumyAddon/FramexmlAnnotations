@@ -2,52 +2,52 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L13)
 --- child of CompactRaidFrameContainerBorderFrame
---- @class CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame_CompactRaidFrameContainerBorderFrameBorderTopLeft : Texture
+--- @class CompactRaidFrameContainerBorderFrameBorderTopLeft : Texture
 CompactRaidFrameContainerBorderFrameBorderTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L19)
 --- child of CompactRaidFrameContainerBorderFrame
---- @class CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame_CompactRaidFrameContainerBorderFrameBorderTopRight : Texture
+--- @class CompactRaidFrameContainerBorderFrameBorderTopRight : Texture
 CompactRaidFrameContainerBorderFrameBorderTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L25)
 --- child of CompactRaidFrameContainerBorderFrame
---- @class CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame_CompactRaidFrameContainerBorderFrameBorderBottomLeft : Texture
+--- @class CompactRaidFrameContainerBorderFrameBorderBottomLeft : Texture
 CompactRaidFrameContainerBorderFrameBorderBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L31)
 --- child of CompactRaidFrameContainerBorderFrame
---- @class CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame_CompactRaidFrameContainerBorderFrameBorderBottomRight : Texture
+--- @class CompactRaidFrameContainerBorderFrameBorderBottomRight : Texture
 CompactRaidFrameContainerBorderFrameBorderBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L37)
 --- child of CompactRaidFrameContainerBorderFrame
---- @class CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame_CompactRaidFrameContainerBorderFrameBorderTop : Texture
+--- @class CompactRaidFrameContainerBorderFrameBorderTop : Texture
 CompactRaidFrameContainerBorderFrameBorderTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L44)
 --- child of CompactRaidFrameContainerBorderFrame
---- @class CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame_CompactRaidFrameContainerBorderFrameBorderBottom : Texture
+--- @class CompactRaidFrameContainerBorderFrameBorderBottom : Texture
 CompactRaidFrameContainerBorderFrameBorderBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L51)
 --- child of CompactRaidFrameContainerBorderFrame
---- @class CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame_CompactRaidFrameContainerBorderFrameBorderLeft : Texture
+--- @class CompactRaidFrameContainerBorderFrameBorderLeft : Texture
 CompactRaidFrameContainerBorderFrameBorderLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L58)
 --- child of CompactRaidFrameContainerBorderFrame
---- @class CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame_CompactRaidFrameContainerBorderFrameBorderRight : Texture
+--- @class CompactRaidFrameContainerBorderFrameBorderRight : Texture
 CompactRaidFrameContainerBorderFrameBorderRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L7)
 --- child of CompactRaidFrameContainer
---- @class CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame : Frame
+--- @class CompactRaidFrameContainerBorderFrame : Frame
 CompactRaidFrameContainerBorderFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameContainer.xml#L4)
 --- @class CompactRaidFrameContainer : Frame
---- @field borderFrame CompactRaidFrameContainer_CompactRaidFrameContainerBorderFrame
+--- @field borderFrame CompactRaidFrameContainerBorderFrame
 CompactRaidFrameContainer = {}
 CompactRaidFrameContainer["borderFrame"] = CompactRaidFrameContainerBorderFrame
 

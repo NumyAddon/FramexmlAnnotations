@@ -17,7 +17,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MovieFrame.xml#L11)
 --- child of MovieFrame
---- @class MovieFrame_MovieFrameSubtitleString : FontString, MovieSubtitleFont
+--- @class MovieFrameSubtitleString : FontString, MovieSubtitleFont
 MovieFrameSubtitleString = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MovieFrame.xml#L3)

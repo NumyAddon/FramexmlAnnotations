@@ -4,4 +4,7 @@
 --- Template
 --- @class MenuTemplateBase : Frame, ResizeLayoutFrame, MenuProxyMixin
 --- @field minimumWidth number # 70
+--- @field minimumElementWidth number # 50
+--- @field ignoreAllChildren boolean # true
+--- @field skipChildLayout boolean # true
 

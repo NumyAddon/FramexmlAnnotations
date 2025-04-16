@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MirrorTimer.xml#L16)
 --- child of MirrorTimerTemplate
---- @class MirrorTimerTemplate_MirrorTimerTemplateText : FontString, GameFontHighlight
+--- @class MirrorTimerTemplate_Text : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MirrorTimer.xml#L3)
 --- Template
@@ -15,7 +15,7 @@ MirrorTimer1StatusBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MirrorTimer.xml#L16)
 --- child of MirrorTimer1 (created in template MirrorTimerTemplate)
---- @type MirrorTimerTemplate_MirrorTimerTemplateText
+--- @type MirrorTimerTemplate_Text
 MirrorTimer1Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MirrorTimer.xml#L21)
@@ -34,7 +34,7 @@ MirrorTimer2StatusBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MirrorTimer.xml#L16)
 --- child of MirrorTimer2 (created in template MirrorTimerTemplate)
---- @type MirrorTimerTemplate_MirrorTimerTemplateText
+--- @type MirrorTimerTemplate_Text
 MirrorTimer2Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MirrorTimer.xml#L21)
@@ -53,7 +53,7 @@ MirrorTimer3StatusBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MirrorTimer.xml#L16)
 --- child of MirrorTimer3 (created in template MirrorTimerTemplate)
---- @type MirrorTimerTemplate_MirrorTimerTemplateText
+--- @type MirrorTimerTemplate_Text
 MirrorTimer3Text = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/MirrorTimer.xml#L21)

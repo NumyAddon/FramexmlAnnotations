@@ -63,7 +63,7 @@ PetJournalLeftInsetBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L156)
 --- child of PetJournal
---- @class PetJournal_PetJournalLeftInset : Frame, InsetFrameTemplate
+--- @class PetJournalLeftInset : Frame, InsetFrameTemplate
 PetJournalLeftInset = {}
 PetJournalLeftInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetJournalLeftInset["Bg"] = PetJournalLeftInsetBg -- inherited
@@ -75,14 +75,14 @@ PetJournalRightInsetBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L169)
 --- child of PetJournal
---- @class PetJournal_PetJournalRightInset : Frame, InsetFrameTemplate
+--- @class PetJournalRightInset : Frame, InsetFrameTemplate
 PetJournalRightInset = {}
 PetJournalRightInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetJournalRightInset["Bg"] = PetJournalRightInsetBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L1220)
 --- child of PetJournalSearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @type SearchBoxTemplate_ClearButton
 PetJournalSearchBoxClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L1211)
@@ -92,7 +92,7 @@ PetJournalSearchBoxSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L175)
 --- child of PetJournal
---- @class PetJournal_PetJournalSearchBox : EditBox, SearchBoxTemplate
+--- @class PetJournalSearchBox : EditBox, SearchBoxTemplate
 PetJournalSearchBox = {}
 PetJournalSearchBox["clearButton"] = PetJournalSearchBoxClearButton -- inherited
 PetJournalSearchBox["searchIcon"] = PetJournalSearchBoxSearchIcon -- inherited
@@ -111,82 +111,82 @@ PetJournalSearchBox["searchIcon"] = PetJournalSearchBoxSearchIcon -- inherited
 --- @class PetJournal_ScrollBar : EventFrame, WowTrimScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L266)
---- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
+--- child of PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardTopLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L271)
---- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
+--- child of PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardTopRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L279)
---- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
+--- child of PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardBottomLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L287)
---- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
+--- child of PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardBottomRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L295)
---- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
+--- child of PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardTop = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L301)
---- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
+--- child of PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardBottom = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L307)
---- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
+--- child of PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardLeft = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L313)
---- child of PetJournal_PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
+--- child of PetJournalPetCard_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 PetJournalPetCardRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L220)
 --- child of PetJournalPetCard
---- @class PetJournal_PetJournalPetCard_ShadowOverlay : Frame, ShadowOverlayTemplate
+--- @class PetJournalPetCard_ShadowOverlay : Frame, ShadowOverlayTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L228)
 --- child of PetJournalPetCardPetInfo
---- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoIcon : Texture
+--- @class PetJournalPetCardPetInfoIcon : Texture
 PetJournalPetCardPetInfoIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L236)
 --- child of PetJournalPetCardPetInfo
---- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoName : FontString, GameFontHighlightLarge
+--- @class PetJournalPetCardPetInfoName : FontString, GameFontHighlightLarge
 PetJournalPetCardPetInfoName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L242)
 --- child of PetJournalPetCardPetInfo
---- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoSubName : FontString, GameFontNormalSmall
+--- @class PetJournalPetCardPetInfoSubName : FontString, GameFontNormalSmall
 PetJournalPetCardPetInfoSubName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L255)
 --- child of PetJournalPetCardPetInfo
---- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoFavorite : Texture
+--- @class PetJournalPetCardPetInfoFavorite : Texture
 PetJournalPetCardPetInfoFavorite = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L262)
 --- child of PetJournalPetCardPetInfo
---- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_new : FontString, GameFontHighlight
+--- @class PetJournalPetCardPetInfo_new : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L221)
 --- child of PetJournalPetCard
---- @class PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo : Button
---- @field icon PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoIcon
---- @field name PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoName
---- @field subName PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoSubName
+--- @class PetJournalPetCardPetInfo : Button
+--- @field icon PetJournalPetCardPetInfoIcon
+--- @field name PetJournalPetCardPetInfoName
+--- @field subName PetJournalPetCardPetInfoSubName
 --- @field isDead Texture
---- @field favorite PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_PetJournalPetCardPetInfoFavorite
---- @field new PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo_new
+--- @field favorite PetJournalPetCardPetInfoFavorite
+--- @field new PetJournalPetCardPetInfo_new
 --- @field newGlow Texture
 PetJournalPetCardPetInfo = {}
 PetJournalPetCardPetInfo["icon"] = PetJournalPetCardPetInfoIcon
@@ -195,46 +195,47 @@ PetJournalPetCardPetInfo["subName"] = PetJournalPetCardPetInfoSubName
 PetJournalPetCardPetInfo["favorite"] = PetJournalPetCardPetInfoFavorite
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L313)
---- child of PetJournal_PetJournalPetCard_modelScene
---- @class PetJournal_PetJournalPetCard_modelScene_RotateLeftButton : Button, RotateOrbitCameraLeftButtonTemplate
+--- child of PetJournalPetCard_modelScene
+--- @class PetJournalPetCard_modelScene_RotateLeftButton : Button, RotateOrbitCameraLeftButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L314)
---- child of PetJournal_PetJournalPetCard_modelScene
---- @class PetJournal_PetJournalPetCard_modelScene_RotateRightButton : Button, RotateOrbitCameraRightButtonTemplate
+--- child of PetJournalPetCard_modelScene
+--- @class PetJournalPetCard_modelScene_RotateRightButton : Button, RotateOrbitCameraRightButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L307)
 --- child of PetJournalPetCard
---- @class PetJournal_PetJournalPetCard_modelScene : ModelScene, WrappedAndUnwrappedModelScene
---- @field RotateLeftButton PetJournal_PetJournalPetCard_modelScene_RotateLeftButton
---- @field RotateRightButton PetJournal_PetJournalPetCard_modelScene_RotateRightButton
+--- @class PetJournalPetCard_modelScene : ModelScene, WrappedAndUnwrappedModelScene
+--- @field RotateLeftButton PetJournalPetCard_modelScene_RotateLeftButton
+--- @field RotateRightButton PetJournalPetCard_modelScene_RotateRightButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L206)
 --- child of PetJournal
---- @class PetJournal_PetJournalPetCard : Frame
---- @field ShadowOverlay PetJournal_PetJournalPetCard_ShadowOverlay
---- @field PetInfo PetJournal_PetJournalPetCard_PetJournalPetCardPetInfo
---- @field modelScene PetJournal_PetJournalPetCard_modelScene
+--- @class PetJournalPetCard : Frame
+--- @field ShadowOverlay PetJournalPetCard_ShadowOverlay
+--- @field PetInfo PetJournalPetCardPetInfo
+--- @field modelScene PetJournalPetCard_modelScene
 --- @field PetBackground Texture
 PetJournalPetCard = {}
 PetJournalPetCard["PetInfo"] = PetJournalPetCardPetInfo
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L329)
 --- child of PetJournal
---- @class PetJournal_PetJournalSummonButton : Button, MagicButtonTemplate
+--- @class PetJournalSummonButton : Button, MagicButtonTemplate
 PetJournalSummonButton = {}
 PetJournalSummonButton["fitTextCanWidthDecrease"] = true -- inherited
+PetJournalSummonButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Wrath/Blizzard_PetCollection.xml#L127)
 --- @class PetJournal : Frame
 --- @field PetCount PetJournal_PetCount
---- @field LeftInset PetJournal_PetJournalLeftInset
---- @field RightInset PetJournal_PetJournalRightInset
---- @field searchBox PetJournal_PetJournalSearchBox
+--- @field LeftInset PetJournalLeftInset
+--- @field RightInset PetJournalRightInset
+--- @field searchBox PetJournalSearchBox
 --- @field FilterDropdown PetJournal_FilterDropdown
 --- @field ScrollBox PetJournal_ScrollBox
 --- @field ScrollBar PetJournal_ScrollBar
---- @field PetCard PetJournal_PetJournalPetCard
---- @field SummonButton PetJournal_PetJournalSummonButton
+--- @field PetCard PetJournalPetCard
+--- @field SummonButton PetJournalSummonButton
 PetJournal = {}
 PetJournal["LeftInset"] = PetJournalLeftInset
 PetJournal["RightInset"] = PetJournalRightInset

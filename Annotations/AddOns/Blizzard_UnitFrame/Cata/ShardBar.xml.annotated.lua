@@ -40,7 +40,7 @@ ShardBarFrameShard1Fill = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L136)
 --- child of ShardBarFrame
---- @class ShardBarFrame_ShardBarFrameShard1 : Frame, ShardTemplate
+--- @class ShardBarFrameShard1 : Frame, ShardTemplate
 ShardBarFrameShard1 = {}
 ShardBarFrameShard1["shardGlow"] = ShardBarFrameShard1Glow -- inherited
 ShardBarFrameShard1["shardSmokeA"] = ShardBarFrameShard1SmokeA -- inherited
@@ -69,7 +69,7 @@ ShardBarFrameShard2Fill = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L141)
 --- child of ShardBarFrame
---- @class ShardBarFrame_ShardBarFrameShard2 : Frame, ShardTemplate
+--- @class ShardBarFrameShard2 : Frame, ShardTemplate
 ShardBarFrameShard2 = {}
 ShardBarFrameShard2["shardGlow"] = ShardBarFrameShard2Glow -- inherited
 ShardBarFrameShard2["shardSmokeA"] = ShardBarFrameShard2SmokeA -- inherited
@@ -98,7 +98,7 @@ ShardBarFrameShard3Fill = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L146)
 --- child of ShardBarFrame
---- @class ShardBarFrame_ShardBarFrameShard3 : Frame, ShardTemplate
+--- @class ShardBarFrameShard3 : Frame, ShardTemplate
 ShardBarFrameShard3 = {}
 ShardBarFrameShard3["shardGlow"] = ShardBarFrameShard3Glow -- inherited
 ShardBarFrameShard3["shardSmokeA"] = ShardBarFrameShard3SmokeA -- inherited
@@ -111,9 +111,9 @@ ShardBarFrameShard3["shardFill"] = ShardBarFrameShard3Fill -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L114)
 --- @class ShardBarFrame : Frame
---- @field shard1 ShardBarFrame_ShardBarFrameShard1
---- @field shard2 ShardBarFrame_ShardBarFrameShard2
---- @field shard3 ShardBarFrame_ShardBarFrameShard3
+--- @field shard1 ShardBarFrameShard1
+--- @field shard2 ShardBarFrameShard2
+--- @field shard3 ShardBarFrameShard3
 --- @field showAnim ShardBarFrame_showAnim
 ShardBarFrame = {}
 ShardBarFrame["shard1"] = ShardBarFrameShard1

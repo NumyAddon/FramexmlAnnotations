@@ -11,12 +11,12 @@ namespace App;
 class Registry
 {
     /**
-     * @var T[]
+     * @var array<string, (T&Frame)>
      */
     private array $items = [];
 
     /**
-     * @param T $template
+     * @param T&Frame $template
      */
     public function register(?string $name, Frame $template): void
     {
@@ -27,7 +27,7 @@ class Registry
     }
 
     /**
-     * @return T|null
+     * @return (T&Frame)|null
      */
     public function get(string $name): ?Frame
     {
@@ -35,7 +35,7 @@ class Registry
     }
 
     /**
-     * @return T[]
+     * @return array<string, (T&Frame)>
      */
     public function all(): array
     {

@@ -103,7 +103,7 @@ class XmlFileParser
             $this->frameRegistry->register($frame->getClassName(), $frame);
         }
         if (!empty($name)) {
-            $fileRegistry->register($name, $frame);
+            $fileRegistry->register($frame->getClassName(), $frame);
         }
         $parent?->addChild($frame);
 

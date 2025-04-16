@@ -36,15 +36,17 @@ class Frame
         return $node;
     }
 
-    public function getName(): string
+    public function getName(bool $emptyParent = false): string
     {
         if ($this->parent && str_contains($this->name, '$parent')) {
             $parent = $this;
             $parentName = '';
-            while ($parent = $parent->getParent()) {
-                $parentName = $parent->getName();
-                if ($parentName) {
-                    break;
+            if (!$emptyParent) {
+                while ($parent = $parent->getParent()) {
+                    $parentName = $parent->getName();
+                    if ($parentName) {
+                        break;
+                    }
                 }
             }
             return str_replace('$parent', $parentName, $this->name);
@@ -56,28 +58,15 @@ class Frame
     public function getClassName(): ?string
     {
         $prefix = $this->parent?->getClassName() ?? '';
-        $name = $this->getName() ?: $this->getParentKey();
-        if (!$name) {
+        $name = $this->getName(true) ?: $this->getParentKey();
+        if (!$name || ($this->parent && !$prefix)) {
             return null;
         }
-  
-        $segments = array_filter(explode('.', str_replace('_', '.', $prefix . '.' . $name)));
-  
-        $deduped = [];
-        foreach ($segments as $segment) {
-            foreach ($deduped as $existing) {
-                if (str_starts_with($segment, $existing)) {
-                    $segment = substr($segment, strlen($existing));
-                    $segment = ltrim($segment, '._');
-                }
-            }
-            $deduped[] = $segment;
-        }
-  
+
         return str_replace(
             ['$', ' ', '-', '.'],
             ['', '_', '_', '_'],
-            implode('.', array_filter($deduped))
+            $prefix === '' ? $name : $prefix . '_' . $name,
         );
     }
 

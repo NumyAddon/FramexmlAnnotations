@@ -23,29 +23,45 @@
 --- @class QueueTypeSettingsFrameTemplate_QueueContainer_Training : Button, QueueTypeSelectionButtonTemplate
 --- @field layoutIndex number # 1
 --- @field partyPlaylistEntry any # Enum.PartyPlaylistEntry.TrainingGameMode
+--- @field queueTypeString any # FRONT_END_LOBBY_PRACTICE
+--- @field queueTypeIcon string # plunderstorm-glues-queueselector-training
+--- @field queueTypeIconSelected string # plunderstorm-glues-queueselector-training-selected
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.xml#L86)
 --- child of QueueTypeSettingsFrameTemplate_QueueContainer
 --- @class QueueTypeSettingsFrameTemplate_QueueContainer_Solo : Button, QueueTypeSelectionButtonTemplate
 --- @field layoutIndex number # 2
 --- @field partyPlaylistEntry any # Enum.PartyPlaylistEntry.SoloGameMode
+--- @field queueTypeString any # FRONT_END_LOBBY_SOLOS
+--- @field queueTypeIcon string # plunderstorm-glues-queueselector-solo
+--- @field queueTypeIconSelected string # plunderstorm-glues-queueselector-solo-selected
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.xml#L100)
 --- child of QueueTypeSettingsFrameTemplate_QueueContainer
 --- @class QueueTypeSettingsFrameTemplate_QueueContainer_Duo : Button, QueueTypeSelectionButtonTemplate
 --- @field layoutIndex number # 3
 --- @field partyPlaylistEntry any # Enum.PartyPlaylistEntry.DuoGameMode
+--- @field queueTypeString any # FRONT_END_LOBBY_DUOS
+--- @field queueTypeIcon string # plunderstorm-glues-queueselector-duo
+--- @field queueTypeIconSelected string # plunderstorm-glues-queueselector-duo-selected
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.xml#L114)
 --- child of QueueTypeSettingsFrameTemplate_QueueContainer
 --- @class QueueTypeSettingsFrameTemplate_QueueContainer_Trio : Button, QueueTypeSelectionButtonTemplate
 --- @field layoutIndex number # 4
 --- @field partyPlaylistEntry any # Enum.PartyPlaylistEntry.TrioGameMode
+--- @field queueTypeString any # FRONT_END_LOBBY_TRIOS
+--- @field queueTypeIcon string # plunderstorm-glues-queueselector-trio
+--- @field queueTypeIconSelected string # plunderstorm-glues-queueselector-trio-selected
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MatchmakingQueueDisplay/Blizzard_MatchmakingQueueDisplay.xml#L59)
 --- child of QueueTypeSettingsFrameTemplate
 --- @class QueueTypeSettingsFrameTemplate_QueueContainer : Frame, GridLayoutFrame
 --- @field childXPadding number # 0
+--- @field childYPadding number # 0
+--- @field isHorizontal boolean # true
+--- @field stride number # 5
+--- @field layoutFramesGoingRight boolean # true
 --- @field Training QueueTypeSettingsFrameTemplate_QueueContainer_Training
 --- @field Solo QueueTypeSettingsFrameTemplate_QueueContainer_Solo
 --- @field Duo QueueTypeSettingsFrameTemplate_QueueContainer_Duo

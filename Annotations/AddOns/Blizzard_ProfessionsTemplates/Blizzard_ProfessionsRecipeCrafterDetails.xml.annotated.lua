@@ -55,21 +55,31 @@
 --- child of ProfessionsRecipeCrafterDetailsTemplate_StatLines
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines_DifficultyStatLine : Frame, ProfessionsCrafterDetailsStatLineTemplate
 --- @field layoutIndex number # 1
+--- @field statLineType any # CraftingQualityStatLine.Difficulty
+--- @field displayAsPct boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L158)
 --- child of ProfessionsRecipeCrafterDetailsTemplate_StatLines
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines_SkillStatLine : Frame, ProfessionsCrafterDetailsStatLineTemplate
 --- @field layoutIndex number # 2
+--- @field statLineType any # CraftingQualityStatLine.Skill
+--- @field displayAsPct boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L165)
 --- child of ProfessionsRecipeCrafterDetailsTemplate_StatLines
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines_ConcentrationStatLine : Frame, ProfessionsCrafterDetailsStatLineTemplate
 --- @field layoutIndex number # 3
+--- @field statLineType any # CraftingQualityStatLine.Concentration
+--- @field displayAsPct boolean # false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L142)
 --- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_StatLines : Frame, VerticalLayoutFrame
 --- @field layoutIndex number # 3
+--- @field topPadding number # 15
+--- @field align string # center
+--- @field minimumHeight number # 65
+--- @field spacing number # -3
 --- @field DifficultyStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_DifficultyStatLine
 --- @field SkillStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_SkillStatLine
 --- @field ConcentrationStatLine ProfessionsRecipeCrafterDetailsTemplate_StatLines_ConcentrationStatLine
@@ -181,6 +191,8 @@
 --- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_QualityMeter : Frame, ProfessionsQualityMeterMixin
 --- @field layoutIndex number # 4
+--- @field align string # center
+--- @field topPadding number # -6
 --- @field Center ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Center
 --- @field DividerGlow ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_DividerGlow
 --- @field Border ProfessionsRecipeCrafterDetailsTemplate_QualityMeter_Border
@@ -194,6 +206,7 @@
 --- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_Spacer : Frame
 --- @field layoutIndex number # 4
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L408)
 --- child of ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer
@@ -203,17 +216,21 @@
 --- child of ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer
 --- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer : Frame
 --- @field layoutIndex number # 1
+--- @field align string # center
 --- @field Label ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer_Label
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L418)
 --- child of ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer
 --- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_ConcentrateContainer : Frame, ProfessionsConcentrateContainerTemplate
 --- @field layoutIndex number # 2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L392)
 --- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer : Frame, HorizontalLayoutFrame
 --- @field layoutIndex number # 5
+--- @field topPadding number # -32
+--- @field align string # center
 --- @field FinishingReagentSlotContainer ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_FinishingReagentSlotContainer
 --- @field ConcentrateContainer ProfessionsRecipeCrafterDetailsTemplate_CraftingChoicesContainer_ConcentrateContainer
 
@@ -241,16 +258,21 @@
 --- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_Label : FontString, GameFontHighlight
 --- @field layoutIndex number # 1
+--- @field topPadding number # 25
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L133)
 --- child of ProfessionsRecipeCrafterDetailsTemplate
 --- @class ProfessionsRecipeCrafterDetailsTemplate_Line : Texture
 --- @field layoutIndex number # 2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.xml#L78)
 --- Template
 --- @class ProfessionsRecipeCrafterDetailsTemplate : Frame, VerticalLayoutFrame, ProfessionsRecipeCrafterDetailsMixin
 --- @field fixedWidth number # 263
+--- @field minimumHeight number # 199
+--- @field bottomPadding number # 12
 --- @field StatLines ProfessionsRecipeCrafterDetailsTemplate_StatLines
 --- @field QualityMeter ProfessionsRecipeCrafterDetailsTemplate_QualityMeter
 --- @field Spacer ProfessionsRecipeCrafterDetailsTemplate_Spacer

@@ -70,17 +70,18 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialPointerFrame.xml#L134)
 --- child of TutorialPointerFrameContent
---- @class TutorialPointerFrame_TutorialPointerFrameContent_Text : FontString, GameFontNormalLarge
+--- @class TutorialPointerFrame_Content_Text : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialPointerFrame.xml#L130)
 --- child of TutorialPointerFrame
---- @class TutorialPointerFrame_TutorialPointerFrameContent : Frame, GlowBoxTemplate
---- @field Text TutorialPointerFrame_TutorialPointerFrameContent_Text
+--- @class TutorialPointerFrame_Content : Frame, GlowBoxTemplate
+--- @field Text TutorialPointerFrame_Content_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialPointerFrame.xml#L144)
 --- child of TutorialPointerFrame
 --- @class TutorialPointerFrame_Glow : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_CALLOUT_GLOW_0_20
+--- @field backdropBorderBlendMode string # ADD
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialPointerFrame.xml#L118)
 --- Template
@@ -93,6 +94,6 @@
 --- @field Arrow_LEFT2 TutorialPointerFrame_Arrow_LEFT2
 --- @field Arrow_RIGHT1 TutorialPointerFrame_Arrow_RIGHT1
 --- @field Arrow_RIGHT2 TutorialPointerFrame_Arrow_RIGHT2
---- @field Content TutorialPointerFrame_TutorialPointerFrameContent
+--- @field Content TutorialPointerFrame_Content
 --- @field Glow TutorialPointerFrame_Glow
 

@@ -13,6 +13,7 @@
 --- Template
 --- @class CustomizationOptionSliderTemplate : Frame, SliderWithButtonsAndLabelTemplate, CustomizationFrameWithTooltipTemplate, CustomizationOptionSliderMixin
 --- @field tooltipMinWidth any # nil
+--- @field tooltipXOffset number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L26)
 --- child of CustomizationOptionCheckButtonTemplate
@@ -30,7 +31,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L18)
 --- Template
 --- @class CustomizationOptionCheckButtonTemplate : Frame, CustomizationFrameWithTooltipTemplate, CustomizationOptionCheckButtonMixin
---- @field tooltipAnchor string # "ANCHOR_LEFT"
+--- @field tooltipAnchor string # ANCHOR_LEFT
+--- @field tooltipMinWidth any # nil
+--- @field tooltipXOffset number # 0
 --- @field Button CustomizationOptionCheckButtonTemplate_Button
 --- @field New CustomizationOptionCheckButtonTemplate_New
 --- @field Label CustomizationOptionCheckButtonTemplate_Label
@@ -79,7 +82,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L167)
 --- child of CustomizationDropdownWithSteppersAndLabelTemplate
 --- @class CustomizationDropdownWithSteppersAndLabelTemplate_Dropdown : DropdownButton, WowStyle2DropdownTemplate, CustomizationDropdownMixin
---- @field menuPoint string # "TOPRIGHT"
+--- @field menuPoint string # TOPRIGHT
+--- @field menuRelativePoint string # BOTTOMRIGHT
 --- @field SelectionDetails CustomizationDropdownWithSteppersAndLabelTemplate_Dropdown_SelectionDetails
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L194)
@@ -90,6 +94,7 @@
 --- Template
 --- @class CustomizationDropdownWithSteppersAndLabelTemplate : Frame, DropdownWithSteppersAndLabelTemplate, CustomizationFrameWithTooltipTemplate, CustomizationDropdownWithSteppersAndLabelMixin
 --- @field tooltipMinWidth any # nil
+--- @field tooltipXOffset number # 0
 --- @field Dropdown CustomizationDropdownWithSteppersAndLabelTemplate_Dropdown
 --- @field New CustomizationDropdownWithSteppersAndLabelTemplate_New
 

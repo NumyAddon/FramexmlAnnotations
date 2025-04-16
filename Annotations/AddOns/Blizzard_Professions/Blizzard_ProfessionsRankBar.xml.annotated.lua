@@ -12,7 +12,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRankBar.xml#L64)
 --- child of ProfessionsRankBarTemplate
 --- @class ProfessionsRankBarTemplate_ExpansionDropdownButton : DropdownButton, ProfessionsRankBarDropdownMixin
---- @field menuPoint string # "TOPRIGHT"
+--- @field menuPoint string # TOPRIGHT
+--- @field menuRelativePoint string # BOTTOMRIGHT
 --- @field Texture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsRankBar.xml#L94)

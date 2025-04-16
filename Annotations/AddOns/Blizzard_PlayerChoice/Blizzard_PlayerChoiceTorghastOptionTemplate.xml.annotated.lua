@@ -8,6 +8,7 @@
 --- child of PlayerChoiceTorghastOptionTemplate
 --- @class PlayerChoiceTorghastOptionTemplate_Header : Frame, PlayerChoiceBaseCenteredFrame, ResizeLayoutFrame
 --- @field layoutIndex number # 2
+--- @field topPadding number # 6
 --- @field Text PlayerChoiceTorghastOptionTemplate_Header_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L19)
@@ -18,6 +19,7 @@
 --- child of PlayerChoiceTorghastOptionTemplate
 --- @class PlayerChoiceTorghastOptionTemplate_TypeIcon : Texture, PlayerChoiceBaseCenteredFrame
 --- @field layoutIndex number # 1
+--- @field topPadding number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L100)
 --- child of PlayerChoiceTorghastOptionTemplate
@@ -31,6 +33,7 @@
 --- Template
 --- @class PlayerChoiceTorghastOptionTemplate : Frame, PlayerChoicePowerChoiceTemplate, PlayerChoiceTorghastOptionTemplateMixin
 --- @field minOptionHeight number # 388
+--- @field choiceSelectedSound any # SOUNDKIT.UI_PLAYER_CHOICE_JAILERS_TOWER_FADEOUT_POWERS_NOT_PICKED
 --- @field Header PlayerChoiceTorghastOptionTemplate_Header
 --- @field Background Texture
 --- @field SwirlBG PlayerChoiceTorghastOptionTemplate_SwirlBG

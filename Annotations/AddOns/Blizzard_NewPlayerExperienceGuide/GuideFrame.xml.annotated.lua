@@ -4,6 +4,8 @@
 --- child of GuideFrame_ScrollFrame_Child
 --- @class GuideFrame_ScrollFrame_Child_ObjectivesFrame : Frame, CriteriaDisplayTemplate
 --- @field title any # NPEV2_CHAT_GUIDE_FRAME_ELIGIBILITY_LABEL
+--- @field font any # GameFontNormal
+--- @field verticalLineOffset number # -4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L40)
 --- child of GuideFrame_ScrollFrame_Child
@@ -32,7 +34,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L1107)
 --- child of GuideFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 GuideFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L1074)

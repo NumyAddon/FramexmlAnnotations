@@ -20,6 +20,7 @@
 --- Template
 --- @class GradualAnimatedStatusBarTemplate : StatusBar, GradualAnimatedStatusBarMixin
 --- @field gainAnimationDurationPerDistance number # 0.008
+--- @field accumulationTimeoutInterval number # 0.1
 --- @field GainFlareAnimationTexture Texture
 --- @field LevelUpTexture Texture
 --- @field AnimationMask MaskTexture

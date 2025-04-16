@@ -105,7 +105,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L301)
 --- child of ReputationFrame_ReputationDetailFrame
 --- @class ReputationFrame_ReputationDetailFrame_ScrollingDescription : Frame, ScrollingFontTemplate
---- @field fontName string # "ReputationDetailFont"
+--- @field fontName string # ReputationDetailFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L310)
 --- child of ReputationFrame_ReputationDetailFrame
@@ -131,7 +131,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L501)
 --- child of ReputationFrame_ReputationDetailFrame_MakeInactiveCheckbox (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
+--- @type UICheckButtonTemplate_Text
 ReputationFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L355)
@@ -145,7 +145,7 @@ ReputationFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L501)
 --- child of ReputationFrame_ReputationDetailFrame_WatchFactionCheckbox (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_UICheckButtonTemplateText
+--- @type UICheckButtonTemplate_Text
 ReputationFrameText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L378)
@@ -156,7 +156,7 @@ ReputationFrameText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L401)
 --- child of ReputationFrame_ReputationDetailFrame
 --- @class ReputationFrame_ReputationDetailFrame_ViewRenownButton : Button, SharedGoldRedButtonSmallTemplate, DisabledTooltipButtonTemplate, ReputationDetailViewRenownButtonMixin
---- @field disabledTooltipAnchor string # "ANCHOR_RIGHT"
+--- @field disabledTooltipAnchor string # ANCHOR_RIGHT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ReputationFrame.xml#L277)
 --- child of ReputationFrame_ReputationDetailFrame

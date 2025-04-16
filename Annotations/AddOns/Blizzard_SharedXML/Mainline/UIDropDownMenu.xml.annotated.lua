@@ -2,13 +2,13 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L118)
 --- child of DropDownList1 (created in template UIDropDownListTemplate)
---- @type UIDropDownListTemplate_UIDropDownListTemplateBackdrop
+--- @type UIDropDownListTemplate_Backdrop
 DropDownList1Backdrop = {}
 DropDownList1Backdrop["layoutType"] = "Dialog" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L119)
 --- child of DropDownList1 (created in template UIDropDownListTemplate)
---- @type UIDropDownListTemplate_UIDropDownListTemplateMenuBackdrop
+--- @type UIDropDownListTemplate_MenuBackdrop
 DropDownList1MenuBackdrop = {}
 DropDownList1MenuBackdrop["layoutType"] = "TooltipDefaultLayout" -- inherited
 
@@ -19,13 +19,13 @@ DropDownList1Button1ColorSwatchSwatchBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L45)
 --- child of DropDownList1Button1 (created in template UIDropDownMenuButtonTemplate)
---- @type UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateColorSwatch
+--- @type UIDropDownMenuButtonTemplate_ColorSwatch
 DropDownList1Button1ColorSwatch = {}
 DropDownList1Button1ColorSwatch["SwatchBg"] = DropDownList1Button1ColorSwatchSwatchBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L63)
 --- child of DropDownList1Button1 (created in template UIDropDownMenuButtonTemplate)
---- @type UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateExpandArrow
+--- @type UIDropDownMenuButtonTemplate_ExpandArrow
 DropDownList1Button1ExpandArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L74)
@@ -55,7 +55,7 @@ DropDownList1Button1Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L120)
 --- child of DropDownList1 (created in template UIDropDownListTemplate)
---- @type UIDropDownListTemplate_UIDropDownListTemplateButton1
+--- @type UIDropDownListTemplate_Button1
 DropDownList1Button1 = {}
 DropDownList1Button1["invisibleButton"] = DropDownList1Button1InvisibleButton -- inherited
 DropDownList1Button1["Highlight"] = DropDownList1Button1Highlight -- inherited
@@ -68,13 +68,13 @@ DropDownList1["Border"] = DropDownList1Backdrop -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L118)
 --- child of DropDownList2 (created in template UIDropDownListTemplate)
---- @type UIDropDownListTemplate_UIDropDownListTemplateBackdrop
+--- @type UIDropDownListTemplate_Backdrop
 DropDownList2Backdrop = {}
 DropDownList2Backdrop["layoutType"] = "Dialog" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L119)
 --- child of DropDownList2 (created in template UIDropDownListTemplate)
---- @type UIDropDownListTemplate_UIDropDownListTemplateMenuBackdrop
+--- @type UIDropDownListTemplate_MenuBackdrop
 DropDownList2MenuBackdrop = {}
 DropDownList2MenuBackdrop["layoutType"] = "TooltipDefaultLayout" -- inherited
 
@@ -85,13 +85,13 @@ DropDownList2Button1ColorSwatchSwatchBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L45)
 --- child of DropDownList2Button1 (created in template UIDropDownMenuButtonTemplate)
---- @type UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateColorSwatch
+--- @type UIDropDownMenuButtonTemplate_ColorSwatch
 DropDownList2Button1ColorSwatch = {}
 DropDownList2Button1ColorSwatch["SwatchBg"] = DropDownList2Button1ColorSwatchSwatchBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L63)
 --- child of DropDownList2Button1 (created in template UIDropDownMenuButtonTemplate)
---- @type UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateExpandArrow
+--- @type UIDropDownMenuButtonTemplate_ExpandArrow
 DropDownList2Button1ExpandArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L74)
@@ -121,7 +121,7 @@ DropDownList2Button1Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L120)
 --- child of DropDownList2 (created in template UIDropDownListTemplate)
---- @type UIDropDownListTemplate_UIDropDownListTemplateButton1
+--- @type UIDropDownListTemplate_Button1
 DropDownList2Button1 = {}
 DropDownList2Button1["invisibleButton"] = DropDownList2Button1InvisibleButton -- inherited
 DropDownList2Button1["Highlight"] = DropDownList2Button1Highlight -- inherited
@@ -134,13 +134,13 @@ DropDownList2["Border"] = DropDownList2Backdrop -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L118)
 --- child of DropDownList3 (created in template UIDropDownListTemplate)
---- @type UIDropDownListTemplate_UIDropDownListTemplateBackdrop
+--- @type UIDropDownListTemplate_Backdrop
 DropDownList3Backdrop = {}
 DropDownList3Backdrop["layoutType"] = "Dialog" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L119)
 --- child of DropDownList3 (created in template UIDropDownListTemplate)
---- @type UIDropDownListTemplate_UIDropDownListTemplateMenuBackdrop
+--- @type UIDropDownListTemplate_MenuBackdrop
 DropDownList3MenuBackdrop = {}
 DropDownList3MenuBackdrop["layoutType"] = "TooltipDefaultLayout" -- inherited
 
@@ -151,13 +151,13 @@ DropDownList3Button1ColorSwatchSwatchBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L45)
 --- child of DropDownList3Button1 (created in template UIDropDownMenuButtonTemplate)
---- @type UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateColorSwatch
+--- @type UIDropDownMenuButtonTemplate_ColorSwatch
 DropDownList3Button1ColorSwatch = {}
 DropDownList3Button1ColorSwatch["SwatchBg"] = DropDownList3Button1ColorSwatchSwatchBg -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L63)
 --- child of DropDownList3Button1 (created in template UIDropDownMenuButtonTemplate)
---- @type UIDropDownMenuButtonTemplate_UIDropDownMenuButtonTemplateExpandArrow
+--- @type UIDropDownMenuButtonTemplate_ExpandArrow
 DropDownList3Button1ExpandArrow = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L74)
@@ -187,7 +187,7 @@ DropDownList3Button1Icon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/UIDropDownMenu.xml#L120)
 --- child of DropDownList3 (created in template UIDropDownListTemplate)
---- @type UIDropDownListTemplate_UIDropDownListTemplateButton1
+--- @type UIDropDownListTemplate_Button1
 DropDownList3Button1 = {}
 DropDownList3Button1["invisibleButton"] = DropDownList3Button1InvisibleButton -- inherited
 DropDownList3Button1["Highlight"] = DropDownList3Button1Highlight -- inherited

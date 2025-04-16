@@ -70,16 +70,21 @@
 --- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_RewardsEarnedFrame : Frame, HorizontalLayoutFrame
 --- @field expand boolean # true
+--- @field spacing number # 0
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L245)
 --- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_FollowerExperienceEarnedFrame : Frame, HorizontalLayoutFrame
 --- @field expand boolean # true
+--- @field spacing number # 10
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_AdventuresRewardsScreen.xml#L226)
 --- child of AdventuresRewardsScreenTemplate_FinalRewardsPanel
 --- @class AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame : Frame, HorizontalLayoutFrame
 --- @field expand boolean # true
+--- @field spacing number # 40
 --- @field RewardsEarnedFrame AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_RewardsEarnedFrame
 --- @field FollowerExperienceEarnedFrame AdventuresRewardsScreenTemplate_FinalRewardsPanel_SpoilsFrame_FollowerExperienceEarnedFrame
 

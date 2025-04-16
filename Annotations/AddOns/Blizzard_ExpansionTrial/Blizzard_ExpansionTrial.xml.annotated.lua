@@ -25,26 +25,37 @@
 --- child of ExpansionTrialCheckPointDialog
 --- @class ExpansionTrialCheckPointDialog_GainedLevelContainer : Frame, ExpansionTrialCheckPointLevelHeaderTemplate
 --- @field layoutIndex number # 2
+--- @field align string # center
+--- @field topPadding number # 38
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L109)
 --- child of ExpansionTrialCheckPointDialog
 --- @class ExpansionTrialCheckPointDialog_Button : Button, UIPanelButtonTemplate
 --- @field layoutIndex number # 5
+--- @field align string # center
+--- @field topPadding number # 20
+--- @field bottomPadding number # 52
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L53)
 --- child of ExpansionTrialCheckPointDialog
 --- @class ExpansionTrialCheckPointDialog_Title : FontString, GameFontHighlightLarge
 --- @field layoutIndex number # 1
+--- @field align string # center
+--- @field topPadding number # 45
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L64)
 --- child of ExpansionTrialCheckPointDialog
 --- @class ExpansionTrialCheckPointDialog_ExpansionImage : Texture
 --- @field layoutIndex number # 3
+--- @field align string # center
+--- @field topPadding number # 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L75)
 --- child of ExpansionTrialCheckPointDialog
 --- @class ExpansionTrialCheckPointDialog_Description : FontString, GameFontNormalMed2
 --- @field layoutIndex number # 4
+--- @field align string # center
+--- @field topPadding number # 20
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionTrial/Blizzard_ExpansionTrial.xml#L34)
 --- @class ExpansionTrialCheckPointDialog : Frame, BaseExpandableDialog, VerticalLayoutFrame, ExpansionTrialCheckPointDialogMixin

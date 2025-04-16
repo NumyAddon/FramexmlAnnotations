@@ -20,6 +20,7 @@
 --- child of ProfessionsGuildListingTemplate
 --- @class ProfessionsGuildListingTemplate_Container : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # BLACK_FONT_COLOR
+--- @field backdropColorAlpha number # 0.9
 --- @field ScrollBox ProfessionsGuildListingTemplate_Container_ScrollBox
 --- @field ScrollBar ProfessionsGuildListingTemplate_Container_ScrollBar
 --- @field Spinner ProfessionsGuildListingTemplate_Container_Spinner

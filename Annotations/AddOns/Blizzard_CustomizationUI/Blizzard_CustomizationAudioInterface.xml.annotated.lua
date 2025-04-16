@@ -22,6 +22,7 @@
 --- child of CustomizationAudioInterface
 --- @class CustomizationAudioInterface_PlayWaveform : Frame, TooltipBorderBackdropTemplate
 --- @field backdropBorderColor any # DARKGRAY_COLOR
+--- @field backdropColorAlpha number # .9
 --- @field Waveform StatusBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationAudioInterface.xml#L65)

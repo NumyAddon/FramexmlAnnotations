@@ -3,7 +3,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ExpansionLandingPage/Blizzard_DragonflightLandingPage.xml#L17)
 --- child of DragonflightLandingOverlayTemplate
 --- @class DragonflightLandingOverlayTemplate_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "UniqueCornersLayout"
+--- @field layoutType string # UniqueCornersLayout
+--- @field layoutTextureKit string # Dragonflight
 --- @field GoldDetailTop Texture
 --- @field GoldDetailBottom Texture
 
@@ -38,6 +39,7 @@
 --- child of DragonflightLandingOverlayTemplate_DragonridingPanel
 --- @class DragonflightLandingOverlayTemplate_DragonridingPanel_SkillsButton : Button, CallbackRegistrantTemplate, UIPanelButtonTemplate, DisabledTooltipButtonTemplate, DragonridingPanelSkillsButtonMixin
 --- @field disabledTooltip any # LANDING_DRAGONRIDING_TREE_BUTTON_DISABLED
+--- @field disabledTooltipAnchor string # ANCHOR_RIGHT
 --- @field YellowGlow DragonflightLandingOverlayTemplate_DragonridingPanel_SkillsButton_YellowGlow
 --- @field UnspentGlyphsAnim DragonflightLandingOverlayTemplate_DragonridingPanel_SkillsButton_UnspentGlyphsAnim
 

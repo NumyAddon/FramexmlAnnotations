@@ -9,6 +9,8 @@
 --- Adds itself to the parent inside the array `orderTypeTabs`
 --- @class ProfessionsCraftingOrderTypeTabTemplate : Button, TabSystemButtonArtTemplate
 --- @field isTabOnTop boolean # true
+--- @field selectedFontObject any # GameFontHighlight
+--- @field unselectedFontObject any # GameFontNormal
 --- @field Glow Texture
 --- @field GlowAnim ProfessionsCraftingOrderTypeTabTemplate_GlowAnim
 
@@ -37,7 +39,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L115)
 --- child of ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L124)
 --- child of ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList

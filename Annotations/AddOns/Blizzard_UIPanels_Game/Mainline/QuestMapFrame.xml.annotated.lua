@@ -105,11 +105,15 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L364)
 --- child of QuestLogPopupDetailFrame
---- @class QuestLogPopupDetailFrame_QuestLogPopupDetailFrameScrollFrame : ScrollFrame, ScrollFrameTemplate
+--- @class QuestLogPopupDetailFrameScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 6
+--- @field scrollBarTopY number # -4
+--- @field scrollBarBottomY number # 5
 --- @field ScrollChild Frame
 QuestLogPopupDetailFrameScrollFrame = {}
 QuestLogPopupDetailFrameScrollFrame["scrollBarX"] = 6
+QuestLogPopupDetailFrameScrollFrame["scrollBarTopY"] = -4
+QuestLogPopupDetailFrameScrollFrame["scrollBarBottomY"] = 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L394)
 --- child of QuestLogPopupDetailFrame_ShowMapButton
@@ -124,31 +128,34 @@ QuestLogPopupDetailFrameScrollFrame["scrollBarX"] = 6
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L424)
 --- child of QuestLogPopupDetailFrame
---- @class QuestLogPopupDetailFrame_QuestLogPopupDetailFrameAbandonButton : Button, UIPanelButtonTemplate
+--- @class QuestLogPopupDetailFrameAbandonButton : Button, UIPanelButtonTemplate
 QuestLogPopupDetailFrameAbandonButton = {}
 QuestLogPopupDetailFrameAbandonButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestLogPopupDetailFrameAbandonButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L435)
 --- child of QuestLogPopupDetailFrame
---- @class QuestLogPopupDetailFrame_QuestLogPopupDetailFrameTrackButton : Button, UIPanelButtonTemplate
+--- @class QuestLogPopupDetailFrameTrackButton : Button, UIPanelButtonTemplate
 QuestLogPopupDetailFrameTrackButton = {}
 QuestLogPopupDetailFrameTrackButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestLogPopupDetailFrameTrackButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L447)
 --- child of QuestLogPopupDetailFrame
---- @class QuestLogPopupDetailFrame_QuestLogPopupDetailFrameShareButton : Button, UIPanelButtonTemplate
+--- @class QuestLogPopupDetailFrameShareButton : Button, UIPanelButtonTemplate
 QuestLogPopupDetailFrameShareButton = {}
 QuestLogPopupDetailFrameShareButton["fitTextCanWidthDecrease"] = true -- inherited
+QuestLogPopupDetailFrameShareButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L1160)
 --- child of QuestLogPopupDetailFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 QuestLogPopupDetailFrameInset = {}
 QuestLogPopupDetailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L1154)
 --- child of QuestLogPopupDetailFrame (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+--- @type ButtonFrameBaseTemplate_CloseButton
 QuestLogPopupDetailFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L1137)
@@ -183,11 +190,11 @@ QuestLogPopupDetailFrameMaterialBotRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L351)
 --- @class QuestLogPopupDetailFrame : Frame, ButtonFrameTemplate, QuestFramePanelTemplate
---- @field ScrollFrame QuestLogPopupDetailFrame_QuestLogPopupDetailFrameScrollFrame
+--- @field ScrollFrame QuestLogPopupDetailFrameScrollFrame
 --- @field ShowMapButton QuestLogPopupDetailFrame_ShowMapButton
---- @field AbandonButton QuestLogPopupDetailFrame_QuestLogPopupDetailFrameAbandonButton
---- @field TrackButton QuestLogPopupDetailFrame_QuestLogPopupDetailFrameTrackButton
---- @field ShareButton QuestLogPopupDetailFrame_QuestLogPopupDetailFrameShareButton
+--- @field AbandonButton QuestLogPopupDetailFrameAbandonButton
+--- @field TrackButton QuestLogPopupDetailFrameTrackButton
+--- @field ShareButton QuestLogPopupDetailFrameShareButton
 QuestLogPopupDetailFrame = {}
 QuestLogPopupDetailFrame["ScrollFrame"] = QuestLogPopupDetailFrameScrollFrame
 QuestLogPopupDetailFrame["AbandonButton"] = QuestLogPopupDetailFrameAbandonButton
@@ -206,89 +213,102 @@ QuestLogPopupDetailFrame["MaterialBotRight"] = QuestLogPopupDetailFrameMaterialB
 --- child of QuestMapFrame
 --- @class QuestMapFrame_QuestsTab : Frame, QuestLogTabButtonTemplate
 --- @field displayMode any # QuestLogDisplayMode.Quests
+--- @field activeAtlas string # questlog-tab-icon-quest
+--- @field inactiveAtlas string # questlog-tab-icon-quest-inactive
+--- @field tooltipText any # QUESTS_LABEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L490)
 --- child of QuestMapFrame
 --- @class QuestMapFrame_EventsTab : Frame, QuestLogTabButtonTemplate
 --- @field displayMode any # QuestLogDisplayMode.Events
+--- @field activeAtlas string # questlog-tab-icon-event
+--- @field inactiveAtlas string # questlog-tab-icon-event-inactive
+--- @field tooltipText any # EVENT_SCHEDULER_FRAME_LABEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L501)
 --- child of QuestMapFrame
 --- @class QuestMapFrame_MapLegendTab : Frame, QuestLogTabButtonTemplate
 --- @field displayMode any # QuestLogDisplayMode.MapLegend
+--- @field activeAtlas string # questlog-tab-icon-maplegend
+--- @field inactiveAtlas string # questlog-tab-icon-maplegend-inactive
+--- @field tooltipText any # MAP_LEGEND_FRAME_LABEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L1516)
---- child of QuestMapFrame_QuestsFrame_QuestScrollFrame_SearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- child of QuestScrollFrame_SearchBox (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_ClearButton
 QuestScrollFrameClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L1507)
---- child of QuestMapFrame_QuestsFrame_QuestScrollFrame_SearchBox (created in template SearchBoxTemplate)
+--- child of QuestScrollFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 QuestScrollFrameSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L643)
 --- child of QuestScrollFrame
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame_SearchBox : EditBox, SearchBoxTemplate, QuestLogSearchBoxMixin
+--- @class QuestScrollFrame_SearchBox : EditBox, SearchBoxTemplate, QuestLogSearchBoxMixin
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L652)
 --- child of QuestScrollFrame
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame_SettingsDropdown : DropdownButton, QuestLogSettingsButtonMixin
+--- @class QuestScrollFrame_SettingsDropdown : DropdownButton, QuestLogSettingsButtonMixin
 --- @field Icon Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L678)
 --- child of QuestScrollFrame
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame_BorderFrame : Frame, QuestLogBorderFrameTemplate
+--- @class QuestScrollFrame_BorderFrame : Frame, QuestLogBorderFrameTemplate
 --- @field Shadow Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L693)
---- child of QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip_Title : FontString, GameFontHighlightMedium
+--- child of QuestScrollFrame_StoryTooltip
+--- @class QuestScrollFrame_StoryTooltip_Title : FontString, GameFontHighlightMedium
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L698)
---- child of QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip_ProgressLabel : FontString, GameFontNormal
+--- child of QuestScrollFrame_StoryTooltip
+--- @class QuestScrollFrame_StoryTooltip_ProgressLabel : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L703)
---- child of QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip_ProgressCount : FontString, GameFontHighlightSmall
+--- child of QuestScrollFrame_StoryTooltip
+--- @class QuestScrollFrame_StoryTooltip_ProgressCount : FontString, GameFontHighlightSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L708)
---- child of QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip_Line1 : FontString, GameFontHighlight
+--- child of QuestScrollFrame_StoryTooltip
+--- @class QuestScrollFrame_StoryTooltip_Line1 : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L689)
 --- child of QuestScrollFrame
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip : Frame, TooltipBackdropTemplate
---- @field Title QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip_Title
---- @field ProgressLabel QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip_ProgressLabel
---- @field ProgressCount QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip_ProgressCount
---- @field Line1 QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip_Line1
---- @field Lines table<number, QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip_Line1>
+--- @class QuestScrollFrame_StoryTooltip : Frame, TooltipBackdropTemplate
+--- @field Title QuestScrollFrame_StoryTooltip_Title
+--- @field ProgressLabel QuestScrollFrame_StoryTooltip_ProgressLabel
+--- @field ProgressCount QuestScrollFrame_StoryTooltip_ProgressCount
+--- @field Line1 QuestScrollFrame_StoryTooltip_Line1
+--- @field Lines table<number, QuestScrollFrame_StoryTooltip_Line1>
 --- @field CheckMarks table<number, GreenCheckMarkTemplate>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L550)
 --- child of QuestScrollFrame
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame_NoSearchResultsText : FontString, SystemFont_Med3
+--- @class QuestScrollFrame_NoSearchResultsText : FontString, SystemFont_Med3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L556)
 --- child of QuestScrollFrame
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame_EmptyText : FontString, Game16Font
+--- @class QuestScrollFrame_EmptyText : FontString, Game16Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L531)
 --- child of QuestMapFrame_QuestsFrame
---- @class QuestMapFrame_QuestsFrame_QuestScrollFrame : EventScrollFrame, ScrollFrameTemplate, QuestLogScrollFrameMixin
+--- @class QuestScrollFrame : EventScrollFrame, ScrollFrameTemplate, QuestLogScrollFrameMixin
 --- @field scrollBarX number # 8
---- @field SearchBox QuestMapFrame_QuestsFrame_QuestScrollFrame_SearchBox
---- @field SettingsDropdown QuestMapFrame_QuestsFrame_QuestScrollFrame_SettingsDropdown
---- @field BorderFrame QuestMapFrame_QuestsFrame_QuestScrollFrame_BorderFrame
---- @field StoryTooltip QuestMapFrame_QuestsFrame_QuestScrollFrame_StoryTooltip
+--- @field scrollBarTopY number # 2
+--- @field scrollBarBottomY number # -4
+--- @field SearchBox QuestScrollFrame_SearchBox
+--- @field SettingsDropdown QuestScrollFrame_SettingsDropdown
+--- @field BorderFrame QuestScrollFrame_BorderFrame
+--- @field StoryTooltip QuestScrollFrame_StoryTooltip
 --- @field Background Texture
---- @field NoSearchResultsText QuestMapFrame_QuestsFrame_QuestScrollFrame_NoSearchResultsText
---- @field EmptyText QuestMapFrame_QuestsFrame_QuestScrollFrame_EmptyText
+--- @field NoSearchResultsText QuestScrollFrame_NoSearchResultsText
+--- @field EmptyText QuestScrollFrame_EmptyText
 --- @field Edge Texture
 QuestScrollFrame = {}
 QuestScrollFrame["scrollBarX"] = 8
+QuestScrollFrame["scrollBarTopY"] = 2
+QuestScrollFrame["scrollBarBottomY"] = -4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L752)
 --- child of QuestMapFrame_QuestsFrame_DetailsFrame
@@ -337,10 +357,14 @@ QuestScrollFrame["scrollBarX"] = 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L868)
 --- child of QuestMapFrame_QuestsFrame_DetailsFrame
---- @class QuestMapFrame_QuestsFrame_DetailsFrame_QuestMapDetailsScrollFrame : EventScrollFrame, ScrollFrameTemplate
+--- @class QuestMapDetailsScrollFrame : EventScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 13
+--- @field scrollBarTopY number # 17
+--- @field scrollBarBottomY number # -27
 QuestMapDetailsScrollFrame = {}
 QuestMapDetailsScrollFrame["scrollBarX"] = 13
+QuestMapDetailsScrollFrame["scrollBarTopY"] = 17
+QuestMapDetailsScrollFrame["scrollBarBottomY"] = -27
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L887)
 --- child of QuestMapFrame_QuestsFrame_DetailsFrame
@@ -362,7 +386,7 @@ QuestMapDetailsScrollFrame["scrollBarX"] = 13
 --- @field DestinationMapButton QuestMapFrame_QuestsFrame_DetailsFrame_DestinationMapButton
 --- @field WaypointMapButton QuestMapFrame_QuestsFrame_DetailsFrame_WaypointMapButton
 --- @field RewardsFrameContainer QuestMapFrame_QuestsFrame_DetailsFrame_RewardsFrameContainer
---- @field ScrollFrame QuestMapFrame_QuestsFrame_DetailsFrame_QuestMapDetailsScrollFrame
+--- @field ScrollFrame QuestMapDetailsScrollFrame
 --- @field AbandonButton QuestMapFrame_QuestsFrame_DetailsFrame_AbandonButton
 --- @field ShareButton QuestMapFrame_QuestsFrame_DetailsFrame_ShareButton
 --- @field TrackButton QuestMapFrame_QuestsFrame_DetailsFrame_TrackButton
@@ -377,7 +401,7 @@ QuestMapDetailsScrollFrame["scrollBarX"] = 13
 --- child of QuestMapFrame
 --- @class QuestMapFrame_QuestsFrame : Frame
 --- @field displayMode any # QuestLogDisplayMode.Quests
---- @field ScrollFrame QuestMapFrame_QuestsFrame_QuestScrollFrame
+--- @field ScrollFrame QuestScrollFrame
 --- @field DetailsFrame QuestMapFrame_QuestsFrame_DetailsFrame
 --- @field CampaignOverview QuestMapFrame_QuestsFrame_CampaignOverview
 
@@ -416,12 +440,16 @@ QuestMapDetailsScrollFrame["scrollBarX"] = 13
 --- child of MapLegendScrollFrame
 --- @class MapLegendFrameTemplate_MapLegendScrollFrame_ScrollChild : Frame, VerticalLayoutFrame
 --- @field leftPadding number # 12
+--- @field topPadding number # 25
+--- @field spacing number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L8)
 --- child of QuestMapFrame_MapLegend (created in template MapLegendFrameTemplate)
 --- @type MapLegendFrameTemplate_MapLegendScrollFrame
 MapLegendScrollFrame = {}
 MapLegendScrollFrame["scrollBarX"] = 8
+MapLegendScrollFrame["scrollBarTopY"] = 2
+MapLegendScrollFrame["scrollBarBottomY"] = -4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L1034)
 --- child of QuestMapFrame
@@ -430,7 +458,7 @@ MapLegendScrollFrame["scrollBarX"] = 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L469)
 --- child of QuestMapFrame
---- @class QuestMapFrame_VerticalSeparator : Texture, !UI-Frame-InnerRightTile
+--- @class QuestMapFrame_VerticalSeparator : Texture, _UI_Frame_InnerRightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L465)
 --- @class QuestMapFrame : Frame, QuestLogMixin

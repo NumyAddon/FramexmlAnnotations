@@ -34,6 +34,8 @@
 --- child of DelvesDifficultyPickerFrame_Dropdown
 --- @class DelvesDifficultyPickerFrame_Dropdown_NewLabel : Frame, NewFeatureLabelTemplate
 --- @field animateGlow boolean # true
+--- @field label any # DELVES_NEW_CURIO
+--- @field justifyH string # CENTER
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L106)
 --- child of DelvesDifficultyPickerFrame

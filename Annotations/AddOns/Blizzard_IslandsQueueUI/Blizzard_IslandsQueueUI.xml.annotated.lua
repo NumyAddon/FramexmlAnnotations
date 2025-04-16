@@ -133,7 +133,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L467)
 --- child of IslandsQueueFrame_ArtOverlayFrame
---- @class IslandsQueueFrame_ArtOverlayFrame_PortraitFrame : Texture, UI-Frame-Portrait
+--- @class IslandsQueueFrame_ArtOverlayFrame_PortraitFrame : Texture, UI_Frame_Portrait
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L438)
 --- child of IslandsQueueFrame
@@ -149,7 +149,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L1107)
 --- child of IslandsQueueFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 IslandsQueueFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L1074)

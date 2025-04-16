@@ -4,4 +4,6 @@
 --- Template
 --- @class MacroFrameScrollFrameTemplate : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 6
+--- @field scrollBarTopY number # -4
+--- @field scrollBarBottomY number # 5
 

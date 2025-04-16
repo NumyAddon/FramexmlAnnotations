@@ -31,7 +31,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L80)
 --- child of ProfessionsSpecPageTemplate
 --- @class ProfessionsSpecPageTemplate_UndoButton : Button, IconButtonTemplate
---- @field iconAtlas string # "talents-button-undo"
+--- @field iconAtlas string # talents-button-undo
+--- @field useAtlasSize boolean # true
+--- @field useIconAsHighlight boolean # true
+--- @field tooltipText any # TALENT_FRAME_DISCARD_CHANGES_BUTTON_TOOLTIP
+--- @field tooltipTextColor any # HIGHLIGHT_FONT_COLOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L104)
 --- child of ProfessionsSpecPageTemplate_TreeView
@@ -64,6 +68,10 @@
 --- child of ProfessionsSpecPageTemplate_DetailedView
 --- @class ProfessionsSpecPageTemplate_DetailedView_Path : Button, ProfessionsSpecPathTemplate, ProfessionsDetailedSpecPathMixin
 --- @field iconSize number # 63
+--- @field progressBarSizeX number # 336
+--- @field progressBarSizeY number # 336
+--- @field isDetailedView boolean # true
+--- @field animEffectScaleMultiplier number # 1.5
 --- @field DialBG Texture
 --- @field CenterInner Texture
 --- @field DividerGlow Texture
@@ -186,6 +194,10 @@
 --- Template
 --- @class ProfessionsSpecPageTemplate : Frame, TalentFrameBaseTemplate, ProfessionsSpecFrameMixin
 --- @field enableZoomAndPan boolean # false
+--- @field excludeStagedChangesForCurrencies boolean # false
+--- @field disabledOverlayAlpha number # 0
+--- @field commitSound any # SOUNDKIT.UI_PROFESSION_SPEC_APPLY_CHANGES
+--- @field rollbackSound any # SOUNDKIT.UI_PROFESSION_SPEC_UNDO_CHANGES
 --- @field PanelFooter ProfessionsSpecPageTemplate_PanelFooter
 --- @field ApplyButton ProfessionsSpecPageTemplate_ApplyButton
 --- @field UnlockTabButton ProfessionsSpecPageTemplate_UnlockTabButton

@@ -47,6 +47,9 @@
 --- Template
 --- @class ProfessionsSpecPathTemplate : Button, TalentButtonCircleTemplate
 --- @field iconSize number # 46
+--- @field progressBarSizeX number # 78
+--- @field progressBarSizeY number # 78
+--- @field isDetailedView boolean # false
 --- @field ProgressBar ProfessionsSpecPathTemplate_ProgressBar
 --- @field ProgressBarBackground Texture
 --- @field ProgressBarAvailableGlow Texture

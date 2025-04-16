@@ -193,7 +193,7 @@ class XmlFileParser
 
     private function wrapInGIfNeeded(string $name): string
     {
-        if (!preg_match('/^[A-z][A-z0-9]*$/', $name)) {
+        if (!preg_match('/^[A-z][.A-z0-9]*$/', $name)) {
             // json_encode adds and properly escapes quotes
             return '_G[' . json_encode($name) . ']';
         }

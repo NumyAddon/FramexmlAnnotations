@@ -22,7 +22,7 @@ NPE_TutorialKeyString = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L73)
 --- child of NPE_TutorialKeyboardMouseFrame_Frame
---- @class NPE_TutorialKeyboardMouseFrame_Frame_xx : FontString, NPE_TutorialKeyString
+--- @class xx : FontString, NPE_TutorialKeyString
 xx = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L130)
@@ -35,7 +35,7 @@ xx = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L830)
 --- child of NPE_TutorialKeyboardMouseFrame_Frame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 NPE_TutorialKeyboardMouseFrame_FrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L797)
@@ -49,7 +49,7 @@ NPE_TutorialKeyboardMouseFrame_FrameBg = {}
 --- @field txtKey_MOVEFORWARD NPE_TutorialKeyboardMouseFrame_Frame_txtKey_MOVEFORWARD
 --- @field txtKey_TURNLEFT NPE_TutorialKeyboardMouseFrame_Frame_txtKey_TURNLEFT
 --- @field txtKey_MOVEBACKWARD NPE_TutorialKeyboardMouseFrame_Frame_txtKey_MOVEBACKWARD
---- @field txtKey_TURNRIGHT NPE_TutorialKeyboardMouseFrame_Frame_xx
+--- @field txtKey_TURNRIGHT xx
 --- @field Anim_Dim NPE_TutorialKeyboardMouseFrame_Frame_Anim_Dim
 --- @field Anim_UnDim NPE_TutorialKeyboardMouseFrame_Frame_Anim_UnDim
 NPE_TutorialKeyboardMouseFrame_Frame = {}
@@ -60,7 +60,7 @@ NPE_TutorialKeyboardMouseFrame_Frame["layoutType"] = "PortraitFrameTemplate" -- 
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L181)
 --- child of NPE_TutorialInterfaceHelp
---- @class NPE_TutorialInterfaceHelp_xx : ItemButton
+--- @class xx : ItemButton
 xx = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L196)
@@ -70,7 +70,7 @@ xx = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialKeyboardMouseFrame.xml#L152)
 --- @class NPE_TutorialInterfaceHelp : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_TEXT_PANEL_0_16
---- @field btnOpen NPE_TutorialInterfaceHelp_xx
+--- @field btnOpen xx
 --- @field Anim_In NPE_TutorialInterfaceHelp_Anim_In
 NPE_TutorialInterfaceHelp = {}
 NPE_TutorialInterfaceHelp["btnOpen"] = xx

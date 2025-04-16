@@ -48,6 +48,7 @@
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_ScrollBoxBackground : Frame, TooltipBackdropTemplate
 --- @field backdropBorderColor any # DARKGRAY_COLOR
+--- @field backdropColor any # BLACK_FONT_COLOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L163)
 --- child of ClickBindingFrame
@@ -90,12 +91,15 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L240)
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_PlayerSpellsPortrait : Button, ClickBindingFramePortraitTemplate
---- @field FrameName string # "PlayerSpellsFrame"
+--- @field FrameName string # PlayerSpellsFrame
+--- @field PortraitAtlas string # UI-HUD-MicroMenu-SpecTalents-Up
+--- @field FrameLoadFunc any # PlayerSpellsFrame_LoadUI
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L250)
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_MacrosPortrait : Button, ClickBindingFramePortraitTemplate
---- @field FrameName string # "MacroFrame"
+--- @field FrameName string # MacroFrame
+--- @field PortraitTexture string # Interface\MacroFrame\MacroFrame-Icon
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L276)
 --- child of ClickBindingFrame_TutorialFrame
@@ -115,7 +119,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L830)
 --- child of ClickBindingFrame_TutorialFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 ClickBindingFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L797)
@@ -126,7 +130,7 @@ ClickBindingFrameBg = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L259)
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_TutorialFrame : Frame, PortraitFrameTemplate, ClickBindingTutorialMixin
---- @field layoutType string # "ButtonFrameTemplateNoPortrait"
+--- @field layoutType string # ButtonFrameTemplateNoPortrait
 --- @field Tutorial Texture
 --- @field SummaryText ClickBindingFrame_TutorialFrame_SummaryText
 --- @field InfoText ClickBindingFrame_TutorialFrame_InfoText
@@ -143,7 +147,7 @@ ClickBindingFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L830)
 --- child of ClickBindingFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 ClickBindingFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L797)

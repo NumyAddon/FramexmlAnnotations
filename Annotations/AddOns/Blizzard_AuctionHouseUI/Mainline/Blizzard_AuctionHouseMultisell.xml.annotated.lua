@@ -20,5 +20,9 @@
 AuctionHouseMultisellProgressFrame = {}
 AuctionHouseMultisellProgressFrame["layoutIndex"] = 61
 AuctionHouseMultisellProgressFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+AuctionHouseMultisellProgressFrame["align"] = "center" -- inherited
+AuctionHouseMultisellProgressFrame["hideWhenActionBarIsOverriden"] = true -- inherited
+AuctionHouseMultisellProgressFrame["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
+AuctionHouseMultisellProgressFrame["isBottomManagedFrame"] = true -- inherited
 AuctionHouseMultisellProgressFrame["isManagedFrame"] = true -- inherited
 

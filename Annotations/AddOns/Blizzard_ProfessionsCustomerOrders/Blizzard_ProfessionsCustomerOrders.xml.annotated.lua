@@ -46,21 +46,21 @@ ProfessionsCustomerOrdersFrameMiddle = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L67)
 --- child of ProfessionsCustomerOrdersFrame
---- @class ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameBrowseTab : Button, ProfessionsCustomerOrdersFrameTabTemplate
+--- @class ProfessionsCustomerOrdersFrameBrowseTab : Button, ProfessionsCustomerOrdersFrameTabTemplate
 --- @field mode any # ProfessionsCustomerOrdersMode.Browse
 ProfessionsCustomerOrdersFrameBrowseTab = {}
-ProfessionsCustomerOrdersFrameBrowseTab["mode"] = ProfessionsCustomerOrdersMode.Browse
+ProfessionsCustomerOrdersFrameBrowseTab["mode"] = _G["ProfessionsCustomerOrdersMode.Browse"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L75)
 --- child of ProfessionsCustomerOrdersFrame
---- @class ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameOrdersTab : Button, ProfessionsCustomerOrdersFrameTabTemplate
+--- @class ProfessionsCustomerOrdersFrameOrdersTab : Button, ProfessionsCustomerOrdersFrameTabTemplate
 --- @field mode any # ProfessionsCustomerOrdersMode.Orders
 ProfessionsCustomerOrdersFrameOrdersTab = {}
-ProfessionsCustomerOrdersFrameOrdersTab["mode"] = ProfessionsCustomerOrdersMode.Orders
+ProfessionsCustomerOrdersFrameOrdersTab["mode"] = _G["ProfessionsCustomerOrdersMode.Orders"]
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L830)
 --- child of ProfessionsCustomerOrdersFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 ProfessionsCustomerOrdersFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L797)
@@ -75,10 +75,10 @@ ProfessionsCustomerOrdersFrameBg = {}
 --- @field Form ProfessionsCustomerOrdersFrame_Form
 --- @field BrowseOrders ProfessionsCustomerOrdersFrame_BrowseOrders
 --- @field MyOrdersPage ProfessionsCustomerOrdersFrame_MyOrdersPage
---- @field BrowseTab ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameBrowseTab
---- @field OrdersTab ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameOrdersTab
+--- @field BrowseTab ProfessionsCustomerOrdersFrameBrowseTab
+--- @field OrdersTab ProfessionsCustomerOrdersFrameOrdersTab
 --- @field Pages table<number, ProfessionsCustomerOrdersFrame_BrowseOrders | ProfessionsCustomerOrdersFrame_MyOrdersPage>
---- @field Tabs table<number, ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameBrowseTab | ProfessionsCustomerOrdersFrame_ProfessionsCustomerOrdersFrameOrdersTab>
+--- @field Tabs table<number, ProfessionsCustomerOrdersFrameBrowseTab | ProfessionsCustomerOrdersFrameOrdersTab>
 ProfessionsCustomerOrdersFrame = {}
 ProfessionsCustomerOrdersFrame["BrowseTab"] = ProfessionsCustomerOrdersFrameBrowseTab
 ProfessionsCustomerOrdersFrame["OrdersTab"] = ProfessionsCustomerOrdersFrameOrdersTab

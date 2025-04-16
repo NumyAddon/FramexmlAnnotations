@@ -65,13 +65,13 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L883)
 --- child of PingSystemTutorial (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 PingSystemTutorialInset = {}
 PingSystemTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L877)
 --- child of PingSystemTutorial (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+--- @type ButtonFrameBaseTemplate_CloseButton
 PingSystemTutorialCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L860)

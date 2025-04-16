@@ -51,15 +51,21 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L726)
 --- child of LootFrame (created in template DefaultPanelFlatTemplate)
---- @type DefaultPanelFlatTemplate_DefaultPanelFlatTemplateBg
+--- @type DefaultPanelFlatTemplate_Bg
 LootFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L113)
 --- @class LootFrame : Frame, ScrollingFlatPanelTemplate, EditModeLootFrameSystemTemplate, LootFrameMixin
 --- @field panelTitle any # ITEMS
+--- @field panelMaxHeight number # 290
+--- @field panelWidth number # 220
 LootFrame = {}
 LootFrame["panelTitle"] = ITEMS
+LootFrame["panelMaxHeight"] = 290
+LootFrame["panelWidth"] = 220
 LootFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 LootFrame["Bg"] = LootFrameBg -- inherited
-LootFrame["system"] = Enum.EditModeSystem.LootFrame -- inherited
+LootFrame["system"] = _G["Enum.EditModeSystem.LootFrame"] -- inherited
+LootFrame["systemNameString"] = HUD_EDIT_MODE_LOOT_FRAME_LABEL -- inherited
+LootFrame["defaultHideSelection"] = true -- inherited
 

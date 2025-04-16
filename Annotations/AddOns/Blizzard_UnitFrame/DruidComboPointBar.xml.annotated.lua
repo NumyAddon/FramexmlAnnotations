@@ -27,15 +27,40 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L91)
 --- Template
 --- @class DruidComboPointBarTemplate : Frame, ClassResourceBarTemplate, DruidComboPointBarMixin
---- @field powerToken string # "COMBO_POINTS"
+--- @field powerToken string # COMBO_POINTS
+--- @field powerType any # Enum.PowerType.ComboPoints
+--- @field tooltip1 any # COMBO_POINTS_POWER
+--- @field tooltip2 any # COMBO_POINTS_DRUID_TOOLTIP
+--- @field resourcePointTemplate string # DruidComboPointTemplate
+--- @field resourcePointSetupFunc any # DruidComboPointMixin.Setup
+--- @field resourcePointReleaseFunc any # DruidComboPointMixin.OnRelease
+--- @field shouldShowBarFunc any # DruidComboPointBarMixin.ShouldShowBar
+--- @field spacing number # 4
+--- @field class string # DRUID
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L106)
 --- @class DruidComboPointBarFrame : Frame, DruidComboPointBarTemplate
 --- @field topPadding number # 7
+--- @field showTooltip boolean # true
 DruidComboPointBarFrame = {}
 DruidComboPointBarFrame["topPadding"] = 7
+DruidComboPointBarFrame["showTooltip"] = true
 DruidComboPointBarFrame["powerToken"] = "COMBO_POINTS" -- inherited
+DruidComboPointBarFrame["powerType"] = _G["Enum.PowerType.ComboPoints"] -- inherited
+DruidComboPointBarFrame["tooltip1"] = COMBO_POINTS_POWER -- inherited
+DruidComboPointBarFrame["tooltip2"] = COMBO_POINTS_DRUID_TOOLTIP -- inherited
+DruidComboPointBarFrame["resourcePointTemplate"] = "DruidComboPointTemplate" -- inherited
+DruidComboPointBarFrame["resourcePointSetupFunc"] = _G["DruidComboPointMixin.Setup"] -- inherited
+DruidComboPointBarFrame["resourcePointReleaseFunc"] = _G["DruidComboPointMixin.OnRelease"] -- inherited
+DruidComboPointBarFrame["shouldShowBarFunc"] = _G["DruidComboPointBarMixin.ShouldShowBar"] -- inherited
+DruidComboPointBarFrame["spacing"] = 4 -- inherited
+DruidComboPointBarFrame["class"] = "DRUID" -- inherited
 DruidComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
+DruidComboPointBarFrame["resourceBarMixin"] = ClassPowerBar -- inherited
+DruidComboPointBarFrame["layoutIndex"] = 1 -- inherited
+DruidComboPointBarFrame["usePooledResourceButtons"] = true -- inherited
 DruidComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+DruidComboPointBarFrame["align"] = "center" -- inherited
+DruidComboPointBarFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 DruidComboPointBarFrame["isManagedFrame"] = true -- inherited
 

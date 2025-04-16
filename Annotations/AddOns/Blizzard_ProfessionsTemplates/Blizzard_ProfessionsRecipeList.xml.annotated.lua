@@ -3,7 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L24)
 --- child of ProfessionsRecipeListTemplate
 --- @class ProfessionsRecipeListTemplate_BackgroundNineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # "InsetFrameTemplate"
+--- @field layoutType string # InsetFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeList.xml#L34)
 --- child of ProfessionsRecipeListTemplate

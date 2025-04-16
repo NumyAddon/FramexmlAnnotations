@@ -44,6 +44,7 @@
 --- Template
 --- @class EventToastWithIconBaseTemplate : Frame, ResizeLayoutFrame, EventToastAnimationsTemplate, EventToastWithIconBaseMixin
 --- @field animInStartDelay number # 0
+--- @field animInEndDelay number # 1.8
 --- @field WidgetContainer EventToastWithIconBaseTemplate_WidgetContainer
 --- @field Icon Texture
 --- @field IconBorder Texture
@@ -165,6 +166,10 @@
 --- Template
 --- @class EventToastScenarioBaseToastTemplate : Button, ResizeLayoutFrame, EventToastAnimationsTemplate, EventToastScenarioBaseToastMixin
 --- @field fixedWidth number # 418
+--- @field minimumHeight number # 72
+--- @field hideParentAnim boolean # true
+--- @field animInStartDelay number # 0
+--- @field animInEndDelay number # 4.5
 --- @field PaddingFrame Frame
 --- @field Title EventToastScenarioBaseToastTemplate_Title
 --- @field SubTitle EventToastScenarioBaseToastTemplate_SubTitle
@@ -190,6 +195,7 @@
 --- Template
 --- @class EventToastScenarioToastTemplate : Button, EventToastScenarioBaseToastTemplate, EventToastScenarioToastMixin
 --- @field heightPadding number # 10
+--- @field useWhiteGlineAtlas boolean # true
 --- @field WidgetContainer EventToastScenarioToastTemplate_WidgetContainer
 --- @field Description EventToastScenarioToastTemplate_Description
 
@@ -242,6 +248,7 @@
 --- Template
 --- @class EventToastChallengeModeToastTemplate : Frame, EventToastAnimationsTemplate, EventToastChallengeModeToastMixin
 --- @field animInStartDelay number # 0
+--- @field animInEndDelay number # 6
 --- @field BannerFrame EventToastChallengeModeToastTemplate_BannerFrame
 --- @field Title EventToastChallengeModeToastTemplate_Title
 --- @field SubTitle EventToastChallengeModeToastTemplate_SubTitle
@@ -256,6 +263,8 @@
 --- Template
 --- @class EventToastManagerFrameTemplateNormal : Frame, ResizeLayoutFrame, EventToastAnimationsTemplate, EventToastManagerNormalMixin
 --- @field animInStartDelay number # 1.5
+--- @field animInEndDelay number # 4
+--- @field hideParentAnim boolean # false
 --- @field WidgetContainer EventToastManagerFrameTemplateNormal_WidgetContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L481)
@@ -378,6 +387,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L580)
 --- @class EventToastManagerFrame : Frame, ResizeLayoutFrame, EventToastManagerFrameMixin
 --- @field fixedWidth number # 418
+--- @field minimumHeight number # 72
 --- @field HideButton EventToastManagerFrame_HideButton
 --- @field BlackBG EventToastManagerFrame_BlackBG
 --- @field GLine2 EventToastManagerFrame_GLine2
@@ -387,6 +397,7 @@
 --- @field fastHide EventToastManagerFrame_fastHide
 EventToastManagerFrame = {}
 EventToastManagerFrame["fixedWidth"] = 418
+EventToastManagerFrame["minimumHeight"] = 72
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L728)
 --- child of EventToastManagerSideDisplay
@@ -452,6 +463,9 @@ EventToastManagerSideDisplay = {}
 --- Template
 --- @class EventToastManagerWeeklyRewardToastUnlockTemplate : Frame, EventToastAnimationsTemplate, EventToastWeeklyRewardToastMixin
 --- @field animInStartDelay number # 0
+--- @field animInEndDelay number # 5.5
+--- @field animOutDuration number # 0.23
+--- @field hideParentAnim boolean # true
 --- @field Contents EventToastManagerWeeklyRewardToastUnlockTemplate_Contents
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1195)
@@ -496,6 +510,9 @@ EventToastManagerSideDisplay = {}
 --- Template
 --- @class EventToastManagerWeeklyRewardToastUpgradeTemplate : Frame, EventToastAnimationsTemplate, EventToastWeeklyRewardUpgradeToastMixin
 --- @field animInStartDelay number # 0
+--- @field animInEndDelay number # 3.5
+--- @field animOutDuration number # 0.23
+--- @field hideParentAnim boolean # true
 --- @field Contents EventToastManagerWeeklyRewardToastUpgradeTemplate_Contents
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1352)
@@ -544,6 +561,10 @@ EventToastManagerSideDisplay = {}
 --- Template
 --- @class EventToastScoreboardTemplate : Frame, ResizeLayoutFrame, EventToastAnimationsTemplate, EventToastScoreboardMixin
 --- @field animInStartDelay number # 0
+--- @field widthPadding number # 50
+--- @field heightPadding number # 80
+--- @field minimumWidth number # 300
+--- @field minimumHeight number # 200
 --- @field WidgetContainer EventToastScoreboardTemplate_WidgetContainer
 --- @field CloseButton EventToastScoreboardTemplate_CloseButton
 --- @field TopLine EventToastScoreboardTemplate_TopLine

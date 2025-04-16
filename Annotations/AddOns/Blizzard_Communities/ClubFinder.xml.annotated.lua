@@ -4,6 +4,8 @@
 --- Template
 --- @class ClubFinderEditBoxScrollFrameTemplate : ScrollFrame, InputScrollFrameTemplate
 --- @field maxLetters number # 400
+--- @field hideCharCount boolean # true
+--- @field cursorOffset number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L19)
 --- child of ClubFinderDropdownTemplate
@@ -138,6 +140,7 @@
 --- child of ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame
 --- @class ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame_RecruitmentMessageInput : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
 --- @field maxLetters number # 250
+--- @field instructions any # CLUB_FINDER_RECRUITMENT_DESCRIPTION
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L369)
 --- child of ClubsRecruitmentDialogTemplate_RecruitmentMessageFrame
@@ -259,6 +262,7 @@
 --- child of ClubFinderRequestToJoinTemplate_MessageFrame
 --- @class ClubFinderRequestToJoinTemplate_MessageFrame_MessageScroll : ScrollFrame, ClubFinderEditBoxScrollFrameTemplate
 --- @field instructions any # CLUB_FINDER_RECRUITING_NOTE
+--- @field maxLetters number # 128
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L589)
 --- child of ClubFinderRequestToJoinTemplate
@@ -625,11 +629,12 @@
 --- child of ClubFinderGuildAndCommunityFrameTemplate
 --- @class ClubFinderGuildAndCommunityFrameTemplate_ClubFinderSearchTab : CheckButton, CommunitiesFrameTabTemplate, ClubFinderTabMixin
 --- @field tooltip any # SEARCH
+--- @field iconTexture string # Interface/Icons/inv_misc_spyglass_03
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1296)
 --- child of ClubFinderGuildAndCommunityFrameTemplate
 --- @class ClubFinderGuildAndCommunityFrameTemplate_ClubFinderPendingTab : CheckButton, CommunitiesFrameTabTemplate, ClubFinderTabMixin
---- @field iconTexture string # "Interface\/Icons\/inv_misc_notepicture1c"
+--- @field iconTexture string # Interface/Icons/inv_misc_notepicture1c
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/ClubFinder.xml#L1172)
 --- Template

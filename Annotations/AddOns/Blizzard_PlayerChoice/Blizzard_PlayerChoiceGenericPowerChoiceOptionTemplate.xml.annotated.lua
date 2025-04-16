@@ -3,7 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L51)
 --- child of PlayerChoiceGenericPowerChoiceOptionTemplate
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate_BackgroundContainer : Frame
---- @field ignoreInLayout string # "true"
+--- @field ignoreInLayout string # true
 --- @field Background Texture
 --- @field BackgroundGlow Texture
 --- @field LineGlow Texture
@@ -29,6 +29,7 @@
 --- Template
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate : Frame, PlayerChoicePowerChoiceTemplate, PlayerChoiceGenericPowerChoiceOptionTemplateMixin
 --- @field minOptionHeight number # 345
+--- @field choiceSelectedSound any # SOUNDKIT.UI_PLAYER_CHOICE_GENERIC_POWER
 --- @field BackgroundContainer PlayerChoiceGenericPowerChoiceOptionTemplate_BackgroundContainer
 --- @field Header PlayerChoiceGenericPowerChoiceOptionTemplate_Header
 --- @field ArtworkGlow1 Texture

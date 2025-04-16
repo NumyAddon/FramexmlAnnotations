@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.xml#L830)
 --- child of FlightMapFrame_BorderFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 FlightMapFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.xml#L797)

@@ -13,17 +13,20 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyInputFrame.xml#L42)
 --- child of LargeMoneyInputFrameTemplate
 --- @class LargeMoneyInputFrameTemplate_CopperBox : EditBox, LargeMoneyInputBoxTemplate
---- @field iconAtlas string # "coin-copper"
+--- @field iconAtlas string # coin-copper
+--- @field displayType any # MoneyDenominationDisplayType.Copper
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyInputFrame.xml#L52)
 --- child of LargeMoneyInputFrameTemplate
 --- @class LargeMoneyInputFrameTemplate_SilverBox : EditBox, LargeMoneyInputBoxTemplate
---- @field iconAtlas string # "coin-silver"
+--- @field iconAtlas string # coin-silver
+--- @field displayType any # MoneyDenominationDisplayType.Silver
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyInputFrame.xml#L62)
 --- child of LargeMoneyInputFrameTemplate
 --- @class LargeMoneyInputFrameTemplate_GoldBox : EditBox, LargeMoneyInputBoxTemplate
---- @field iconAtlas string # "coin-gold"
+--- @field iconAtlas string # coin-gold
+--- @field displayType any # MoneyDenominationDisplayType.Gold
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MoneyFrame/Shared/MoneyInputFrame.xml#L33)
 --- Template

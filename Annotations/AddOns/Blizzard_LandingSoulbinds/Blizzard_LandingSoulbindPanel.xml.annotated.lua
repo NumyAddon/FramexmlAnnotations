@@ -12,6 +12,8 @@
 --- Template
 --- @class LandingPageSoulbindPanelTemplate : Frame, ResizeLayoutFrame, LandingPageSoulbindPanelMixin
 --- @field fixedWidth number # 361
+--- @field minimumHeight number # 116
+--- @field heightPadding number # 10
 --- @field RenownButton LandingPageSoulbindPanelTemplate_RenownButton
 --- @field SoulbindButton LandingPageSoulbindPanelTemplate_SoulbindButton
 --- @field Spacer Texture

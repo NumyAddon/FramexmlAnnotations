@@ -30,7 +30,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDoubleStatusBar.xml#L92)
 --- child of UIWidgetTemplateDoubleStatusBar
 --- @class UIWidgetTemplateDoubleStatusBar_RightBar : StatusBar, UIWidgetTemplateDoubleStatusBar_StatusBarTemplate
---- @field defaultTooltipAnchor string # "ANCHOR_BOTTOMRIGHT"
+--- @field defaultTooltipAnchor string # ANCHOR_BOTTOMRIGHT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateDoubleStatusBar.xml#L103)
 --- child of UIWidgetTemplateDoubleStatusBar

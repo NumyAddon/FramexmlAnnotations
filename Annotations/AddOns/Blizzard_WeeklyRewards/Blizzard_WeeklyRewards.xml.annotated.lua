@@ -149,6 +149,7 @@
 --- child of WeeklyRewardConfirmSelectionTemplate
 --- @class WeeklyRewardConfirmSelectionTemplate_AlsoItemsFrame : Frame, HorizontalLayoutFrame
 --- @field spacing number # 6
+--- @field expand boolean # true
 --- @field Text WeeklyRewardConfirmSelectionTemplate_AlsoItemsFrame_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L391)
@@ -242,6 +243,8 @@
 --- child of WeeklyRewardsFrame_ConcessionFrame
 --- @class WeeklyRewardsFrame_ConcessionFrame_RewardsFrame : Frame, HorizontalLayoutFrame
 --- @field fixedHeight number # 24
+--- @field spacing number # 4
+--- @field expand boolean # true
 --- @field Label WeeklyRewardsFrame_ConcessionFrame_RewardsFrame_Label
 --- @field Text WeeklyRewardsFrame_ConcessionFrame_RewardsFrame_Text
 
@@ -253,6 +256,8 @@
 --- child of WeeklyRewardsFrame
 --- @class WeeklyRewardsFrame_ConcessionFrame : Frame, WeeklyRewardsConcessionMixin
 --- @field type any # Enum.WeeklyRewardChestThresholdType.Concession
+--- @field index number # 1
+--- @field hasRewards boolean # true
 --- @field RewardsFrame WeeklyRewardsFrame_ConcessionFrame_RewardsFrame
 --- @field UnselectedFrame WeeklyRewardsFrame_ConcessionFrame_UnselectedFrame
 --- @field Background Texture
@@ -305,7 +310,7 @@ WeeklyRewardsFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WeeklyRewards/Blizzard_WeeklyRewards.xml#L742)
 --- @class WeeklyRewardExpirationWarningDialog : Frame, GreatVaultRetirementWarningFrameMixin
---- @field layoutType string # "TooltipMixedLayout"
+--- @field layoutType string # TooltipMixedLayout
 --- @field NineSlice WeeklyRewardExpirationWarningDialog_NineSlice
 --- @field WarningIcon Texture
 --- @field Description WeeklyRewardExpirationWarningDialog_Description

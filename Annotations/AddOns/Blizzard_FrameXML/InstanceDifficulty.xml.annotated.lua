@@ -14,31 +14,37 @@
 --- child of InstanceDifficultyTemplate_Default
 --- @class InstanceDifficultyTemplate_Default_NormalTexture : Texture
 --- @field layoutIndex number # 0
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L38)
 --- child of InstanceDifficultyTemplate_Default
 --- @class InstanceDifficultyTemplate_Default_HeroicTexture : Texture
 --- @field layoutIndex number # 1
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L44)
 --- child of InstanceDifficultyTemplate_Default
 --- @class InstanceDifficultyTemplate_Default_MythicTexture : Texture
 --- @field layoutIndex number # 2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L50)
 --- child of InstanceDifficultyTemplate_Default
 --- @class InstanceDifficultyTemplate_Default_WalkInTexture : Texture
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L56)
 --- child of InstanceDifficultyTemplate_Default
 --- @class InstanceDifficultyTemplate_Default_Text : FontString, GameFontNormalSmall
 --- @field layoutIndex number # 4
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L7)
 --- child of InstanceDifficultyTemplate
 --- @class InstanceDifficultyTemplate_Default : Frame, VerticalLayoutFrame
 --- @field topPadding number # 4
+--- @field rightPadding number # 1
 --- @field Background InstanceDifficultyTemplate_Default_Background
 --- @field Border InstanceDifficultyTemplate_Default_Border
 --- @field NormalTexture InstanceDifficultyTemplate_Default_NormalTexture
@@ -52,36 +58,44 @@
 --- child of InstanceDifficultyTemplate_Guild_Instance
 --- @class InstanceDifficultyTemplate_Guild_Instance_NormalTexture : Texture
 --- @field layoutIndex number # 0
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L113)
 --- child of InstanceDifficultyTemplate_Guild_Instance
 --- @class InstanceDifficultyTemplate_Guild_Instance_HeroicTexture : Texture
 --- @field layoutIndex number # 1
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L119)
 --- child of InstanceDifficultyTemplate_Guild_Instance
 --- @class InstanceDifficultyTemplate_Guild_Instance_MythicTexture : Texture
 --- @field layoutIndex number # 2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L125)
 --- child of InstanceDifficultyTemplate_Guild_Instance
 --- @class InstanceDifficultyTemplate_Guild_Instance_ChallengeModeTexture : Texture
 --- @field layoutIndex number # 3
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L132)
 --- child of InstanceDifficultyTemplate_Guild_Instance
 --- @class InstanceDifficultyTemplate_Guild_Instance_WalkInTexture : Texture
 --- @field layoutIndex number # 4
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L138)
 --- child of InstanceDifficultyTemplate_Guild_Instance
 --- @class InstanceDifficultyTemplate_Guild_Instance_Text : FontString, GameFontNormalSmall
 --- @field layoutIndex number # 5
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L99)
 --- child of InstanceDifficultyTemplate_Guild
 --- @class InstanceDifficultyTemplate_Guild_Instance : Frame, HorizontalLayoutFrame
 --- @field spacing number # 1
+--- @field layoutIndex number # 2
+--- @field align string # center
 --- @field NormalTexture InstanceDifficultyTemplate_Guild_Instance_NormalTexture
 --- @field HeroicTexture InstanceDifficultyTemplate_Guild_Instance_HeroicTexture
 --- @field MythicTexture InstanceDifficultyTemplate_Guild_Instance_MythicTexture
@@ -104,6 +118,7 @@
 --- child of InstanceDifficultyTemplate_Guild
 --- @class InstanceDifficultyTemplate_Guild_Emblem : Texture
 --- @field layoutIndex number # 1
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/InstanceDifficulty.xml#L65)
 --- child of InstanceDifficultyTemplate

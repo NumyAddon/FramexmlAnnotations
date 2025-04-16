@@ -34,11 +34,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L35)
 --- Template
---- @class !HelpPlateBox_Glow_Right : Texture
+--- @class _HelpPlateBox_Glow_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L39)
 --- Template
---- @class !HelpPlateBox_Glow_Left : Texture
+--- @class _HelpPlateBox_Glow_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L43)
 --- Template
@@ -70,11 +70,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L71)
 --- Template
---- @class !HelpPlateBox_Shadow_Left : Texture
+--- @class _HelpPlateBox_Shadow_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L75)
 --- Template
---- @class !HelpPlateBox_Shadow_Right : Texture
+--- @class _HelpPlateBox_Shadow_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L79)
 --- Template
@@ -86,11 +86,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L87)
 --- Template
---- @class !HelpPlateBox_Right : Texture
+--- @class _HelpPlateBox_Right : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L91)
 --- Template
---- @class !HelpPlateBox_Left : Texture
+--- @class _HelpPlateBox_Left : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L95)
 --- Template
@@ -106,7 +106,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L116)
 --- child of GlowBoxArrowTemplate
---- @class GlowBoxArrowTemplate_Glow : Texture, HelpPlateArrow-GlowDown
+--- @class GlowBoxArrowTemplate_Glow : Texture, HelpPlateArrow_GlowDown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L105)
 --- Template
@@ -116,67 +116,67 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L142)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_GlowTopLeft : Texture, HelpPlateBox-Glow-TopLeft
+--- @class GlowBoxTemplate_GlowTopLeft : Texture, HelpPlateBox_Glow_TopLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L147)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_GlowTopRight : Texture, HelpPlateBox-Glow-TopRight
+--- @class GlowBoxTemplate_GlowTopRight : Texture, HelpPlateBox_Glow_TopRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L152)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_GlowBottomLeft : Texture, HelpPlateBox-Glow-BottomLeft
+--- @class GlowBoxTemplate_GlowBottomLeft : Texture, HelpPlateBox_Glow_BottomLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L157)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_GlowBottomRight : Texture, HelpPlateBox-Glow-BottomRight
+--- @class GlowBoxTemplate_GlowBottomRight : Texture, HelpPlateBox_Glow_BottomRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L162)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_GlowTop : Texture, _HelpPlateBox-Glow-Top
+--- @class GlowBoxTemplate_GlowTop : Texture, _HelpPlateBox_Glow_Top
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L168)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_GlowBottom : Texture, _HelpPlateBox-Glow-Bottom
+--- @class GlowBoxTemplate_GlowBottom : Texture, _HelpPlateBox_Glow_Bottom
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L174)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_GlowLeft : Texture, !HelpPlateBox-Glow-Left
+--- @class GlowBoxTemplate_GlowLeft : Texture, _HelpPlateBox_Glow_Left
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L180)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_GlowRight : Texture, !HelpPlateBox-Glow-Right
+--- @class GlowBoxTemplate_GlowRight : Texture, _HelpPlateBox_Glow_Right
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L188)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_ShadowTopLeft : Texture, HelpPlateBox-Shadow-TopLeft
+--- @class GlowBoxTemplate_ShadowTopLeft : Texture, HelpPlateBox_Shadow_TopLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L193)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_ShadowTopRight : Texture, HelpPlateBox-Shadow-TopRight
+--- @class GlowBoxTemplate_ShadowTopRight : Texture, HelpPlateBox_Shadow_TopRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L198)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_ShadowBottomLeft : Texture, HelpPlateBox-Shadow-BottomLeft
+--- @class GlowBoxTemplate_ShadowBottomLeft : Texture, HelpPlateBox_Shadow_BottomLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L203)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_ShadowBottomRight : Texture, HelpPlateBox-Shadow-BottomRight
+--- @class GlowBoxTemplate_ShadowBottomRight : Texture, HelpPlateBox_Shadow_BottomRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L208)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_ShadowTop : Texture, _HelpPlateBox-Shadow-Top
+--- @class GlowBoxTemplate_ShadowTop : Texture, _HelpPlateBox_Shadow_Top
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L214)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_ShadowBottom : Texture, _HelpPlateBox-Shadow-Bottom
+--- @class GlowBoxTemplate_ShadowBottom : Texture, _HelpPlateBox_Shadow_Bottom
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L220)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_ShadowLeft : Texture, !HelpPlateBox-Shadow-Left
+--- @class GlowBoxTemplate_ShadowLeft : Texture, _HelpPlateBox_Shadow_Left
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L226)
 --- child of GlowBoxTemplate
---- @class GlowBoxTemplate_ShadowRight : Texture, !HelpPlateBox-Shadow-Right
+--- @class GlowBoxTemplate_ShadowRight : Texture, _HelpPlateBox_Shadow_Right
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L126)
 --- Template
@@ -237,19 +237,19 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L335)
 --- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowGlowUp : Texture, HelpPlateArrow-GlowDown
+--- @class HelpPlateTooltip_ArrowGlowUp : Texture, HelpPlateArrow_GlowDown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L341)
 --- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowGlowDown : Texture, HelpPlateArrow-GlowUp
+--- @class HelpPlateTooltip_ArrowGlowDown : Texture, HelpPlateArrow_GlowUp
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L347)
 --- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowGlowRight : Texture, HelpPlateArrow-GlowDown
+--- @class HelpPlateTooltip_ArrowGlowRight : Texture, HelpPlateArrow_GlowDown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L353)
 --- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowGlowLeft : Texture, HelpPlateArrow-GlowDown
+--- @class HelpPlateTooltip_ArrowGlowLeft : Texture, HelpPlateArrow_GlowDown
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L362)
 --- child of HelpPlateTooltip

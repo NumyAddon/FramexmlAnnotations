@@ -64,6 +64,8 @@
 --- child of ProfessionsCrafterTableCellCommissionTemplate
 --- @class ProfessionsCrafterTableCellCommissionTemplate_TipMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
+--- @field useAuctionHouseIcons boolean # true
+--- @field resizeToFit boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L151)
 --- child of ProfessionsCrafterTableCellCommissionTemplate
@@ -80,17 +82,17 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L167)
 --- Template
 --- @class ProfessionsCrafterTableCellMaxCommissionTemplate : Frame, ProfessionsCrafterTableCellCommissionTemplate
---- @field tipKey string # "tipAmountMax"
+--- @field tipKey string # tipAmountMax
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L172)
 --- Template
 --- @class ProfessionsCrafterTableCellAvgCommissionTemplate : Frame, ProfessionsCrafterTableCellCommissionTemplate
---- @field tipKey string # "tipAmountAvg"
+--- @field tipKey string # tipAmountAvg
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L177)
 --- Template
 --- @class ProfessionsCrafterTableCellActualCommissionTemplate : Frame, ProfessionsCrafterTableCellCommissionTemplate
---- @field tipKey string # "tipAmount"
+--- @field tipKey string # tipAmount
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L190)
 --- child of ProfessionsCrafterTableCellExpirationTemplate
@@ -156,7 +158,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L260)
 --- Template
 --- @class ProfessionsCustomerTableCellActualCommissionTemplate : Frame, ProfessionsCrafterTableCellCommissionTemplate
---- @field tipKey string # "tipAmount"
+--- @field tipKey string # tipAmount
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsTemplates.xml#L266)
 --- Template

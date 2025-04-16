@@ -28,6 +28,7 @@
 --- child of CommunitiesGuildMemberDetailFrameTemplate
 --- @class CommunitiesGuildMemberDetailFrameTemplate_NoteBackground : Frame, TooltipBackdropTemplate
 --- @field backdropColorAlpha number # 0.25
+--- @field backdropBorderColorAlpha number # 0.5
 --- @field PersonalNoteText CommunitiesGuildMemberDetailFrameTemplate_NoteBackground_PersonalNoteText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L155)
@@ -38,6 +39,7 @@
 --- child of CommunitiesGuildMemberDetailFrameTemplate
 --- @class CommunitiesGuildMemberDetailFrameTemplate_OfficerNoteBackground : Frame, TooltipBackdropTemplate
 --- @field backdropColorAlpha number # 0.25
+--- @field backdropBorderColorAlpha number # 0.5
 --- @field OfficerNoteText CommunitiesGuildMemberDetailFrameTemplate_OfficerNoteBackground_OfficerNoteText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildRoster.xml#L9)

@@ -49,28 +49,29 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L102)
 --- child of GuildRenameFrame_MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateTrialErrorButton
+--- @type SmallMoneyFrameTemplate_TrialErrorButton
 GuildRenameFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L130)
 --- child of GuildRenameFrame_MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateCopperButton
+--- @type SmallMoneyFrameTemplate_CopperButton
 GuildRenameFrameCopperButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L154)
 --- child of GuildRenameFrame_MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateSilverButton
+--- @type SmallMoneyFrameTemplate_SilverButton
 GuildRenameFrameSilverButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L178)
 --- child of GuildRenameFrame_MoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SmallMoneyFrameTemplateGoldButton
+--- @type SmallMoneyFrameTemplate_GoldButton
 GuildRenameFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L132)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_MoneyFrame : Frame, SmallMoneyFrameTemplate, SimpleTooltipRegionMixin
---- @field moneyType string # "STATIC"
+--- @field moneyType string # STATIC
+--- @field tooltip any # GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L145)
 --- child of GuildRenameFrame
@@ -86,13 +87,13 @@ GuildRenameFrameGoldButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L883)
 --- child of GuildRenameFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 GuildRenameFrameInset = {}
 GuildRenameFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L877)
 --- child of GuildRenameFrame (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+--- @type ButtonFrameBaseTemplate_CloseButton
 GuildRenameFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L860)

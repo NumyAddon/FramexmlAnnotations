@@ -8,6 +8,7 @@
 --- child of NPE_TutorialCallout
 --- @class NPE_TutorialCallout_Animator : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_CALLOUT_GLOW_0_16
+--- @field backdropBorderBlendMode string # ADD
 --- @field Anim_Pulse NPE_TutorialCallout_Animator_Anim_Pulse
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BoostTutorial/Blizzard_TutorialCalloutFrame.xml#L4)

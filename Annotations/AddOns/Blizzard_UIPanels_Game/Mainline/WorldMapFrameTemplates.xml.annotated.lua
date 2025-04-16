@@ -34,7 +34,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L162)
 --- child of WorldMapActivityTrackerTemplate
 --- @class WorldMapActivityTrackerTemplate_BountyDropdown : DropdownButton
---- @field menuPoint string # "BOTTOMLEFT"
+--- @field menuPoint string # BOTTOMLEFT
+--- @field menuRelativePoint string # TOPRIGHT
 --- @field Background Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapFrameTemplates.xml#L117)

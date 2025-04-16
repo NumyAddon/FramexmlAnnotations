@@ -30,7 +30,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L21)
 --- Template
 --- @class ScrollingEditBoxTemplate : Frame, ScrollingEditBoxMixin
---- @field fontName string # "GameFontHighlight"
+--- @field fontName string # GameFontHighlight
+--- @field defaultFontName string # GameFontDisable
+--- @field useDefaultEnterHandling boolean # true
+--- @field useDefaultEscapeHandling boolean # true
 --- @field ScrollBox ScrollingEditBoxTemplate_ScrollBox
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollTemplates.xml#L50)

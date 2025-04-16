@@ -4,4 +4,6 @@
 --- @class ReportFrame : Frame, SharedReportFrameTemplate, ReportFrameMixin
 ReportFrame = {}
 ReportFrame["fixedWidth"] = 400 -- inherited
+ReportFrame["minimumHeight"] = 190 -- inherited
+ReportFrame["bottomPadding"] = 30 -- inherited
 

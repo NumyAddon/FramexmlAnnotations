@@ -63,7 +63,18 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/ShardBar.xml#L150)
 --- Template
 --- @class WarlockPowerFrameTemplate : Frame, ClassResourceBarTemplate, WarlockPowerBar
---- @field powerToken string # "SOUL_SHARDS"
+--- @field powerToken string # SOUL_SHARDS
+--- @field powerType any # Enum.PowerType.SoulShards
+--- @field tooltip1 any # SOUL_SHARDS_POWER
+--- @field tooltip2 any # SOUL_SHARDS_TOOLTIP
+--- @field resourcePointTemplate string # ShardTemplate
+--- @field resourcePointSetupFunc any # WarlockShardMixin.Setup
+--- @field resourcePointReleaseFunc any # WarlockShardMixin.OnRelease
+--- @field spacing number # 1
+--- @field class string # WARLOCK
+--- @field requiredShownLevel number # 10
+--- @field leftPadding number # 5
+--- @field topPadding number # -2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/ShardBar.xml#L167)
 --- @class WarlockPowerFrame : Frame, WarlockPowerFrameTemplate
@@ -71,7 +82,23 @@
 WarlockPowerFrame = {}
 WarlockPowerFrame["showTooltip"] = true
 WarlockPowerFrame["powerToken"] = "SOUL_SHARDS" -- inherited
+WarlockPowerFrame["powerType"] = _G["Enum.PowerType.SoulShards"] -- inherited
+WarlockPowerFrame["tooltip1"] = SOUL_SHARDS_POWER -- inherited
+WarlockPowerFrame["tooltip2"] = SOUL_SHARDS_TOOLTIP -- inherited
+WarlockPowerFrame["resourcePointTemplate"] = "ShardTemplate" -- inherited
+WarlockPowerFrame["resourcePointSetupFunc"] = _G["WarlockShardMixin.Setup"] -- inherited
+WarlockPowerFrame["resourcePointReleaseFunc"] = _G["WarlockShardMixin.OnRelease"] -- inherited
+WarlockPowerFrame["spacing"] = 1 -- inherited
+WarlockPowerFrame["class"] = "WARLOCK" -- inherited
+WarlockPowerFrame["requiredShownLevel"] = 10 -- inherited
+WarlockPowerFrame["leftPadding"] = 5 -- inherited
+WarlockPowerFrame["topPadding"] = -2 -- inherited
 WarlockPowerFrame["maxUsablePoints"] = 5 -- inherited
+WarlockPowerFrame["resourceBarMixin"] = ClassPowerBar -- inherited
+WarlockPowerFrame["layoutIndex"] = 1 -- inherited
+WarlockPowerFrame["usePooledResourceButtons"] = true -- inherited
 WarlockPowerFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+WarlockPowerFrame["align"] = "center" -- inherited
+WarlockPowerFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 WarlockPowerFrame["isManagedFrame"] = true -- inherited
 

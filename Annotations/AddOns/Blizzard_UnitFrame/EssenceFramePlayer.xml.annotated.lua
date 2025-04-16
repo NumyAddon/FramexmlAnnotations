@@ -78,15 +78,36 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L280)
 --- Template
 --- @class EssencePlayerFrameTemplate : Frame, ClassResourceBarTemplate, EssencePowerBar
---- @field powerToken string # "ESSENCE"
+--- @field powerToken string # ESSENCE
+--- @field powerType any # Enum.PowerType.Essence
+--- @field tooltip1 any # POWER_TYPE_ESSENCE
+--- @field tooltip2 any # ESSENCE_TOOLTIP
+--- @field resourcePointTemplate string # EssencePointButtonTemplate
+--- @field shouldShowBarFunc any # EssencePowerBar.SetupEvoker
+--- @field spacing number # -1
+--- @field class string # DRACTHYR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L294)
 --- @class EssencePlayerFrame : Frame, EssencePlayerFrameTemplate
 --- @field topPadding number # 5
+--- @field showTooltip boolean # true
 EssencePlayerFrame = {}
 EssencePlayerFrame["topPadding"] = 5
+EssencePlayerFrame["showTooltip"] = true
 EssencePlayerFrame["powerToken"] = "ESSENCE" -- inherited
+EssencePlayerFrame["powerType"] = _G["Enum.PowerType.Essence"] -- inherited
+EssencePlayerFrame["tooltip1"] = POWER_TYPE_ESSENCE -- inherited
+EssencePlayerFrame["tooltip2"] = ESSENCE_TOOLTIP -- inherited
+EssencePlayerFrame["resourcePointTemplate"] = "EssencePointButtonTemplate" -- inherited
+EssencePlayerFrame["shouldShowBarFunc"] = _G["EssencePowerBar.SetupEvoker"] -- inherited
+EssencePlayerFrame["spacing"] = -1 -- inherited
+EssencePlayerFrame["class"] = "DRACTHYR" -- inherited
 EssencePlayerFrame["maxUsablePoints"] = 5 -- inherited
+EssencePlayerFrame["resourceBarMixin"] = ClassPowerBar -- inherited
+EssencePlayerFrame["layoutIndex"] = 1 -- inherited
+EssencePlayerFrame["usePooledResourceButtons"] = true -- inherited
 EssencePlayerFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+EssencePlayerFrame["align"] = "center" -- inherited
+EssencePlayerFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 EssencePlayerFrame["isManagedFrame"] = true -- inherited
 

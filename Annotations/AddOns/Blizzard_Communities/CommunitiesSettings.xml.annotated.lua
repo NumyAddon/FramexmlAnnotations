@@ -20,6 +20,9 @@
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_MessageOfTheDay : ScrollFrame, InputScrollFrameTemplate
 --- @field maxLetters number # 250
+--- @field instructions any # COMMUNITIES_SETTINGS_DIALOG_MOTD_INSTRUCTIONS
+--- @field hideCharCount boolean # true
+--- @field cursorOffset number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L140)
 --- child of CommunitiesSettingsDialog_CrossFactionToggle
@@ -117,6 +120,8 @@
 --- child of CommunitiesSettingsDialog
 --- @class CommunitiesSettingsDialog_Description : ScrollFrame, InputScrollFrameTemplate
 --- @field maxLetters number # 250
+--- @field instructions any # COMMUNITIES_CREATE_DIALOG_DESCRIPTION_INSTRUCTIONS
+--- @field hideCharCount boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/CommunitiesSettings.xml#L332)
 --- child of CommunitiesSettingsDialog

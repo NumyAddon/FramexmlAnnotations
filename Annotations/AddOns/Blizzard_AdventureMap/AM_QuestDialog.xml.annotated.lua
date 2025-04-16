@@ -50,6 +50,9 @@
 --- child of AdventureMapQuestChoiceDialog
 --- @class AdventureMapQuestChoiceDialog_Details : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
+--- @field scrollBarX number # 10
+--- @field scrollBarTopY number # 6
+--- @field scrollBarBottomY number # -6
 --- @field Child AdventureMapQuestChoiceDialog_Details_Child
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L152)

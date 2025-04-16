@@ -13,13 +13,13 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L17)
 --- child of SocialToastGlowTemplate
---- @class SocialToastGlowTemplate_SocialToastGlowTemplateAnimIn : AnimationGroup
+--- @class SocialToastGlowTemplate_AnimIn : AnimationGroup
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L15)
 --- Template
 --- Adds itself to the parent with key `glow`
 --- @class SocialToastGlowTemplate : Texture
---- @field animIn SocialToastGlowTemplate_SocialToastGlowTemplateAnimIn
+--- @field animIn SocialToastGlowTemplate_AnimIn
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L29)
 --- Template
@@ -28,14 +28,14 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L55)
 --- child of SocialToastTemplate
---- @class SocialToastTemplate_SocialToastTemplateGlowFrame : Texture, SocialToastGlowTemplate
+--- @class SocialToastTemplate_GlowFrame : Texture, SocialToastGlowTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialToast/SocialToast.xml#L44)
 --- Template
 --- @class SocialToastTemplate : ContainedAlertFrame, BackdropTemplate, SocialToastMixin
 --- @field backdropInfo any # BACKDROP_TOAST_12_12
 --- @field CloseButton SocialToastCloseButtonTemplate
---- @field glow SocialToastTemplate_SocialToastTemplateGlowFrame
+--- @field glow SocialToastTemplate_GlowFrame
 --- @field animIn SocialToastAnimInTemplate
 --- @field waitAndAnimOut SocialToastAnimOutTemplate
 

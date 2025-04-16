@@ -10,7 +10,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBox.xml#L1239)
 --- child of ToyBox_searchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @type SearchBoxTemplate_ClearButton
 ToyBoxClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_ToyBox.xml#L1230)

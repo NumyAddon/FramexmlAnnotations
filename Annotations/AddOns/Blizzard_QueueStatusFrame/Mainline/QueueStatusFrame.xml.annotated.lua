@@ -2,13 +2,13 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L8)
 --- child of QueueStatusRoleCountTemplate
---- @class QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount : FontString, GameFontHighlight
+--- @class QueueStatusRoleCountTemplate_Count : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L3)
 --- Template
 --- @class QueueStatusRoleCountTemplate : Frame
 --- @field RoleIcon Texture
---- @field Count QueueStatusRoleCountTemplate_QueueStatusRoleCountTemplateCount
+--- @field Count QueueStatusRoleCountTemplate_Count
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L83)
 --- child of QueueStatusEntryTemplate
@@ -182,7 +182,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L384)
 --- child of QueueStatusButton
---- @class QueueStatusButton_QueueStatusButtonIcon : Frame, EyeTemplate
+--- @class QueueStatusButtonIcon : Frame, EyeTemplate
 QueueStatusButtonIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L371)
@@ -191,7 +191,7 @@ QueueStatusButtonIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L355)
 --- @class QueueStatusButton : Button, QueueStatusButtonMixin
---- @field Eye QueueStatusButton_QueueStatusButtonIcon
+--- @field Eye QueueStatusButtonIcon
 --- @field Highlight Texture
 --- @field EyeHighlightAnim QueueStatusButton_EyeHighlightAnim
 QueueStatusButton = {}

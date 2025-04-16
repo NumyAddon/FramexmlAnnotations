@@ -17,22 +17,22 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.xml#L51)
 --- child of ReadyStatus
---- @class PVPReadyPopup_ReadyStatus_Border : Frame, DialogBorderTemplate
+--- @class ReadyStatus_Border : Frame, DialogBorderTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.xml#L52)
 --- child of ReadyStatus
---- @class PVPReadyPopup_ReadyStatus_CloseButton : Button, UIPanelHideButtonNoScripts
+--- @class ReadyStatus_CloseButton : Button, UIPanelHideButtonNoScripts
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.xml#L43)
 --- child of ReadyStatus
---- @class PVPReadyPopup_ReadyStatus_ReadyCheck : FontString, GameFontHighlight
+--- @class ReadyStatus_ReadyCheck : FontString, GameFontHighlight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.xml#L36)
 --- child of PVPReadyPopup
---- @class PVPReadyPopup_ReadyStatus : Frame
---- @field Border PVPReadyPopup_ReadyStatus_Border
---- @field CloseButton PVPReadyPopup_ReadyStatus_CloseButton
---- @field ReadyCheck PVPReadyPopup_ReadyStatus_ReadyCheck
+--- @class ReadyStatus : Frame
+--- @field Border ReadyStatus_Border
+--- @field CloseButton ReadyStatus_CloseButton
+--- @field ReadyCheck ReadyStatus_ReadyCheck
 ReadyStatus = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GroupFinder/Mainline/PvpPopup.xml#L65)

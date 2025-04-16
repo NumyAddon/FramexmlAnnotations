@@ -100,16 +100,20 @@
 --- child of ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus
 --- @class ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus_Icon : Texture
 --- @field layoutIndex number # 1
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L174)
 --- child of ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus
 --- @class ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus_Text : FontString, GameFontNormal
 --- @field layoutIndex number # 2
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L157)
 --- child of ProfessionsRecipeSchematicFormTemplate
 --- @class ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus : Frame, HorizontalLayoutFrame
 --- @field fixedHeight number # 16
+--- @field spacing number # 5
+--- @field ignoreInLayout boolean # true
 --- @field Icon ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus_Icon
 --- @field Text ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus_Text
 
@@ -153,6 +157,7 @@
 --- Template
 --- @class ProfessionsRecipeSchematicFormTemplate : Frame, ProfessionsRecipeSchematicFormMixin
 --- @field canShowFavoriteButton boolean # true
+--- @field showTrackRecipe boolean # true
 --- @field OutputIcon ProfessionsRecipeSchematicFormTemplate_OutputIcon
 --- @field FavoriteButton ProfessionsRecipeSchematicFormTemplate_FavoriteButton
 --- @field QualityDialog ProfessionsRecipeSchematicFormTemplate_QualityDialog

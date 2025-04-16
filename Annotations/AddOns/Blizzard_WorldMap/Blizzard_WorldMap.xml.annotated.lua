@@ -25,11 +25,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L51)
 --- child of WorldMapFrame_BorderFrame
---- @class WorldMapFrame_BorderFrame_InsetBorderTop : Texture, _UI-Frame-InnerTopTile
+--- @class WorldMapFrame_BorderFrame_InsetBorderTop : Texture, _UI_Frame_InnerTopTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L830)
 --- child of WorldMapFrame_BorderFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 WorldMapFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMap.xml#L797)

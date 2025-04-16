@@ -17,6 +17,8 @@
 --- Template
 --- @class NewFeatureLabelTemplate : Frame, ResizeLayoutFrame, NewFeatureLabelMixin
 --- @field animateGlow boolean # true
+--- @field label any # NEW_CAPS
+--- @field justifyH string # CENTER
 --- @field BGLabel NewFeatureLabelTemplate_BGLabel
 --- @field Label NewFeatureLabelTemplate_Label
 --- @field Glow Texture

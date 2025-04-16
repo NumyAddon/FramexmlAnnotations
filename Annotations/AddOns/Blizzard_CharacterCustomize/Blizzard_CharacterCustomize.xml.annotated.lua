@@ -3,27 +3,60 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L3)
 --- Template
 --- @class CharCustomizeCategoryButtonTemplate : CheckButton, CustomizationMaskedButtonTemplate, CustomizationCategoryButtonMixin
---- @field ringAtlas string # "charactercreate-ring-metallight"
+--- @field ringAtlas string # charactercreate-ring-metallight
+--- @field ringWidth number # 108
+--- @field ringHeight number # 109
+--- @field checkedTextureSize number # 93
+--- @field tooltipAnchor string # ANCHOR_LEFT
+--- @field tooltipXOffset number # 30
+--- @field tooltipYOffset number # -16
+--- @field tooltipMinWidth any # nil
+--- @field newTagYOffset number # 15
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L19)
 --- Template
 --- @class CharCustomizeAlteredFormButtonTemplate : CheckButton, CustomizationMaskedButtonTemplate, CharCustomizeAlteredFormButtonMixin
---- @field ringAtlas string # "charactercreate-ring-metallight"
+--- @field ringAtlas string # charactercreate-ring-metallight
+--- @field ringWidth number # 139
+--- @field ringHeight number # 140
+--- @field checkedTextureSize number # 118
+--- @field disabledOverlayAlpha number # 0.5
+--- @field tooltipYOffset number # -5
+--- @field tooltipMinWidth any # nil
+--- @field flipTextures boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L33)
 --- Template
 --- @class CharCustomizeAlteredFormSmallButtonTemplate : CheckButton, CustomizationMaskedButtonTemplate, CharCustomizeAlteredFormButtonMixin
---- @field ringAtlas string # "charactercreate-ring-metallight"
+--- @field ringAtlas string # charactercreate-ring-metallight
+--- @field ringWidth number # 109
+--- @field ringHeight number # 110
+--- @field checkedTextureSize number # 93
+--- @field disabledOverlayAlpha number # 0.5
+--- @field tooltipYOffset number # -5
+--- @field tooltipMinWidth any # nil
+--- @field flipTextures boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L47)
 --- Template
 --- @class CharCustomizeConditionalModelButtonTemplate : CheckButton, CustomizationMaskedButtonTemplate, CharCustomizeRidingDrakeButtonMixin
---- @field ringAtlas string # "charactercreate-ring-metallight"
+--- @field ringAtlas string # charactercreate-ring-metallight
+--- @field ringWidth number # 109
+--- @field ringHeight number # 110
+--- @field checkedTextureSize number # 94
+--- @field tooltipYOffset number # -5
+--- @field tooltipMinWidth any # nil
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L59)
 --- Template
 --- @class CharCustomizeBodyTypeButtonTemplate : CheckButton, CustomizationMaskedButtonTemplate, CharCustomizeBodyTypeButtonMixin
---- @field ringAtlas string # "charactercreate-ring-metaldark"
+--- @field ringAtlas string # charactercreate-ring-metaldark
+--- @field ringWidth number # 99
+--- @field ringHeight number # 100
+--- @field checkedTextureSize number # 84
+--- @field circleMaskSizeOffset number # -5
+--- @field tooltipAnchor string # ANCHOR_BOTTOMRIGHT
+--- @field tooltipMinWidth any # nil
 --- @field BlackBG Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L88)
@@ -83,7 +116,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L83)
 --- @class CharCustomizeFrame : Frame, CustomizationFrameBaseTemplate, CharCustomizeMixin
---- @field categoryButtonTemplate string # "CharCustomizeCategoryButtonTemplate"
+--- @field categoryButtonTemplate string # CharCustomizeCategoryButtonTemplate
 --- @field AlteredForms CharCustomizeFrame_AlteredForms
 --- @field Categories CharCustomizeFrame_Categories
 --- @field RandomizeAppearanceButton CharCustomizeFrame_RandomizeAppearanceButton
@@ -91,5 +124,4 @@
 --- @field SmallButtons CharCustomizeFrame_SmallButtons
 CharCustomizeFrame = {}
 CharCustomizeFrame["categoryButtonTemplate"] = "CharCustomizeCategoryButtonTemplate"
-CharCustomizeFrame["categoryButtonTemplate"] = "CustomizationCategoryButtonTemplate" -- inherited
 

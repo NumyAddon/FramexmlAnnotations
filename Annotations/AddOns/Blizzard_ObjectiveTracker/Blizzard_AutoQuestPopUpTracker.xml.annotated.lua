@@ -46,7 +46,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L217)
 --- child of AutoQuestPopUpBlockTemplate_Contents_FlashFrame
---- @class AutoQuestPopUpBlockTemplate_Contents_FlashFrame_IconFlash : Texture, QuestIcon-WhiteFlash
+--- @class AutoQuestPopUpBlockTemplate_Contents_FlashFrame_IconFlash : Texture, QuestIcon_WhiteFlash
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L206)
 --- child of AutoQuestPopUpBlockTemplate_Contents
@@ -56,27 +56,27 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L70)
 --- child of AutoQuestPopUpBlockTemplate_Contents
---- @class AutoQuestPopUpBlockTemplate_Contents_BorderTopLeft : Texture, AutoQuestToastBorder-TopLeft
+--- @class AutoQuestPopUpBlockTemplate_Contents_BorderTopLeft : Texture, AutoQuestToastBorder_TopLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L75)
 --- child of AutoQuestPopUpBlockTemplate_Contents
---- @class AutoQuestPopUpBlockTemplate_Contents_BorderTopRight : Texture, AutoQuestToastBorder-TopRight
+--- @class AutoQuestPopUpBlockTemplate_Contents_BorderTopRight : Texture, AutoQuestToastBorder_TopRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L80)
 --- child of AutoQuestPopUpBlockTemplate_Contents
---- @class AutoQuestPopUpBlockTemplate_Contents_BorderBotLeft : Texture, AutoQuestToastBorder-BotLeft
+--- @class AutoQuestPopUpBlockTemplate_Contents_BorderBotLeft : Texture, AutoQuestToastBorder_BotLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L85)
 --- child of AutoQuestPopUpBlockTemplate_Contents
---- @class AutoQuestPopUpBlockTemplate_Contents_BorderBotRight : Texture, AutoQuestToastBorder-BotRight
+--- @class AutoQuestPopUpBlockTemplate_Contents_BorderBotRight : Texture, AutoQuestToastBorder_BotRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L133)
 --- child of AutoQuestPopUpBlockTemplate_Contents
---- @class AutoQuestPopUpBlockTemplate_Contents_Exclamation : Texture, QuestIcon-Exclamation
+--- @class AutoQuestPopUpBlockTemplate_Contents_Exclamation : Texture, QuestIcon_Exclamation
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L138)
 --- child of AutoQuestPopUpBlockTemplate_Contents
---- @class AutoQuestPopUpBlockTemplate_Contents_QuestionMark : Texture, QuestIcon-QuestionMark
+--- @class AutoQuestPopUpBlockTemplate_Contents_QuestionMark : Texture, QuestIcon_QuestionMark
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L152)
 --- child of AutoQuestPopUpBlockTemplate_Contents
@@ -105,7 +105,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L192)
 --- child of AutoQuestPopUpBlockTemplate_Contents
---- @class AutoQuestPopUpBlockTemplate_Contents_IconShine : Texture, QuestIcon-WhiteFlash
+--- @class AutoQuestPopUpBlockTemplate_Contents_IconShine : Texture, QuestIcon_WhiteFlash
 --- @field Flash AutoQuestPopUpBlockTemplate_Contents_IconShine_Flash
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AutoQuestPopUpTracker.xml#L51)

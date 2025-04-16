@@ -2,28 +2,28 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L6)
 --- child of InspectFrame
---- @class InspectFrame_InspectFrameTab1 : Button, PanelTabButtonTemplate
+--- @class InspectFrameTab1 : Button, PanelTabButtonTemplate
 InspectFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L18)
 --- child of InspectFrame
---- @class InspectFrame_InspectFrameTab2 : Button, PanelTabButtonTemplate
+--- @class InspectFrameTab2 : Button, PanelTabButtonTemplate
 InspectFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L30)
 --- child of InspectFrame
---- @class InspectFrame_InspectFrameTab3 : Button, PanelTabButtonTemplate
+--- @class InspectFrameTab3 : Button, PanelTabButtonTemplate
 InspectFrameTab3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L883)
 --- child of InspectFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 InspectFrameInset = {}
 InspectFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L877)
 --- child of InspectFrame (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+--- @type ButtonFrameBaseTemplate_CloseButton
 InspectFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L860)
@@ -33,7 +33,7 @@ InspectFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Blizzard_InspectUI.xml#L4)
 --- @class InspectFrame : Frame, ButtonFrameTemplate
---- @field Tabs table<number, InspectFrame_InspectFrameTab1 | InspectFrame_InspectFrameTab2 | InspectFrame_InspectFrameTab3>
+--- @field Tabs table<number, InspectFrameTab1 | InspectFrameTab2 | InspectFrameTab3>
 InspectFrame = {}
 InspectFrame["Inset"] = InspectFrameInset -- inherited
 InspectFrame["CloseButton"] = InspectFrameCloseButton -- inherited

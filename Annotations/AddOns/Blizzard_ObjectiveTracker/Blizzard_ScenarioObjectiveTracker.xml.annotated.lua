@@ -104,7 +104,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L301)
 --- child of ScenarioObjectiveTracker_StageBlock
 --- @class ScenarioObjectiveTracker_StageBlock_WidgetContainer : Frame, UIWidgetContainerTemplate
---- @field verticalAnchorPoint string # "TOPRIGHT"
+--- @field verticalAnchorPoint string # TOPRIGHT
+--- @field verticalRelativePoint string # TOPRIGHT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L255)
 --- child of ScenarioObjectiveTracker_StageBlock_GlowTexture
@@ -153,7 +154,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L333)
 --- child of ScenarioObjectiveTracker_BottomWidgetContainerBlock
 --- @class ScenarioObjectiveTracker_BottomWidgetContainerBlock_WidgetContainer : Frame, UIWidgetContainerTemplate
---- @field horizontalRowAnchorPoint string # "TOPLEFT"
+--- @field horizontalRowAnchorPoint string # TOPLEFT
+--- @field horizontalRowRelativePoint string # BOTTOMLEFT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L328)
 --- child of ScenarioObjectiveTracker

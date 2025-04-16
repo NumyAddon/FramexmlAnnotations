@@ -45,7 +45,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L177)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_TrackFrame : Frame, RewardTrackFrameTemplate
---- @field elementTemplate string # "RenownLevelTemplate"
+--- @field elementTemplate string # RenownLevelTemplate
+--- @field scrollStartSound any # SOUNDKIT.UI_COVENANT_RENOWN_SLIDE_START
+--- @field scrollStopSound any # SOUNDKIT.UI_COVENANT_RENOWN_SLIDE_STOP
+--- @field scrollCenterChangeSound any # SOUNDKIT.UI_COVENANT_RENOWN_SLIDE_START
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L188)
 --- child of CovenantRenownFrame

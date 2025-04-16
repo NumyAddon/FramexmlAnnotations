@@ -73,7 +73,7 @@ AuctionHouseFrameBuyTabHighlightTexture = {}
 --- @class AuctionHouseFrameBuyTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.Buy
 AuctionHouseFrameBuyTab = {}
-AuctionHouseFrameBuyTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.Buy"]
+AuctionHouseFrameBuyTab["displayMode"] = AuctionHouseFrameDisplayMode.Buy
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L9)
 --- child of AuctionHouseFrameSellTab (created in template CharacterFrameTabButtonTemplate)
@@ -115,7 +115,7 @@ AuctionHouseFrameSellTabHighlightTexture = {}
 --- @class AuctionHouseFrameSellTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.ItemSell
 AuctionHouseFrameSellTab = {}
-AuctionHouseFrameSellTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.ItemSell"]
+AuctionHouseFrameSellTab["displayMode"] = AuctionHouseFrameDisplayMode.ItemSell
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L9)
 --- child of AuctionHouseFrameAuctionsTab (created in template CharacterFrameTabButtonTemplate)
@@ -157,7 +157,7 @@ AuctionHouseFrameAuctionsTabHighlightTexture = {}
 --- @class AuctionHouseFrameAuctionsTab : Button, AuctionHouseFrameDisplayModeTabTemplate
 --- @field displayMode any # AuctionHouseFrameDisplayMode.Auctions
 AuctionHouseFrameAuctionsTab = {}
-AuctionHouseFrameAuctionsTab["displayMode"] = _G["AuctionHouseFrameDisplayMode.Auctions"]
+AuctionHouseFrameAuctionsTab["displayMode"] = AuctionHouseFrameDisplayMode.Auctions
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L71)
 --- child of AuctionHouseFrame

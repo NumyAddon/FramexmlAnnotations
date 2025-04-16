@@ -41,5 +41,4 @@
 --- @field CancelButton ClassTalentLoadoutEditDialog_CancelButton
 ClassTalentLoadoutEditDialog = {}
 ClassTalentLoadoutEditDialog["titleText"] = HUD_CLASS_TALENTS_EDIT_LOADOUT_DIALOG_TITLE
-ClassTalentLoadoutEditDialog["titleText"] =  -- inherited
 

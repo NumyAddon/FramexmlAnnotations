@@ -2,35 +2,35 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L30)
 --- child of AccountStoreInsetFrameTemplate
---- @class AccountStoreInsetFrameTemplate_InsetBorderTopLeft : Texture, UI-Frame-InnerTopLeft
+--- @class AccountStoreInsetFrameTemplate_InsetBorderTopLeft : Texture, UI_Frame_InnerTopLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L35)
 --- child of AccountStoreInsetFrameTemplate
---- @class AccountStoreInsetFrameTemplate_InsetBorderTopRight : Texture, UI-Frame-InnerTopRight
+--- @class AccountStoreInsetFrameTemplate_InsetBorderTopRight : Texture, UI_Frame_InnerTopRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L40)
 --- child of AccountStoreInsetFrameTemplate
---- @class AccountStoreInsetFrameTemplate_InsetBorderBottomLeft : Texture, UI-Frame-InnerBotLeftCorner
+--- @class AccountStoreInsetFrameTemplate_InsetBorderBottomLeft : Texture, UI_Frame_InnerBotLeftCorner
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L45)
 --- child of AccountStoreInsetFrameTemplate
---- @class AccountStoreInsetFrameTemplate_InsetBorderBottomRight : Texture, UI-Frame-InnerBotRight
+--- @class AccountStoreInsetFrameTemplate_InsetBorderBottomRight : Texture, UI_Frame_InnerBotRight
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L50)
 --- child of AccountStoreInsetFrameTemplate
---- @class AccountStoreInsetFrameTemplate_InsetBorderTop : Texture, _UI-Frame-InnerTopTile
+--- @class AccountStoreInsetFrameTemplate_InsetBorderTop : Texture, _UI_Frame_InnerTopTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L56)
 --- child of AccountStoreInsetFrameTemplate
---- @class AccountStoreInsetFrameTemplate_InsetBorderBottom : Texture, _UI-Frame-InnerBotTile
+--- @class AccountStoreInsetFrameTemplate_InsetBorderBottom : Texture, _UI_Frame_InnerBotTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L62)
 --- child of AccountStoreInsetFrameTemplate
---- @class AccountStoreInsetFrameTemplate_InsetBorderLeft : Texture, !UI-Frame-InnerLeftTile
+--- @class AccountStoreInsetFrameTemplate_InsetBorderLeft : Texture, _UI_Frame_InnerLeftTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L68)
 --- child of AccountStoreInsetFrameTemplate
---- @class AccountStoreInsetFrameTemplate_InsetBorderRight : Texture, !UI-Frame-InnerRightTile
+--- @class AccountStoreInsetFrameTemplate_InsetBorderRight : Texture, _UI_Frame_InnerRightTile
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L5)
 --- Template
@@ -120,7 +120,7 @@ AccountStoreFrameRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L1107)
 --- child of AccountStoreFrame (created in template PortraitFrameTemplate)
---- @type PortraitFrameTemplate_PortraitFrameTemplateCloseButton
+--- @type PortraitFrameTemplate_CloseButton
 AccountStoreFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L1074)

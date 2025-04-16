@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
 --- child of InspectPvpStatTemplate
---- @class InspectPvpStatTemplate_InspectPvpStatTemplateBGType : FontString, Game13FontShadow
+--- @class InspectPvpStatTemplate_BGType : FontString, Game13FontShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L15)
 --- child of InspectPvpStatTemplate
@@ -23,7 +23,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L5)
 --- Template
 --- @class InspectPvpStatTemplate : Frame
---- @field BGType InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+--- @field BGType InspectPvpStatTemplate_BGType
 --- @field RatingLabel InspectPvpStatTemplate_RatingLabel
 --- @field Rating InspectPvpStatTemplate_Rating
 --- @field RecordLabel InspectPvpStatTemplate_RecordLabel
@@ -36,7 +36,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
 --- child of InspectPVPFrame_RatedBG (created in template InspectPvpStatTemplate)
---- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+--- @type InspectPvpStatTemplate_BGType
 InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L79)
@@ -45,7 +45,7 @@ InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
 --- child of InspectPVPFrame_Arena2v2 (created in template InspectPvpStatTemplate)
---- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+--- @type InspectPvpStatTemplate_BGType
 InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L89)
@@ -54,7 +54,7 @@ InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
 --- child of InspectPVPFrame_Arena3v3 (created in template InspectPvpStatTemplate)
---- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+--- @type InspectPvpStatTemplate_BGType
 InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L99)
@@ -63,7 +63,7 @@ InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
 --- child of InspectPVPFrame_RatedSoloShuffle (created in template InspectPvpStatTemplate)
---- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+--- @type InspectPvpStatTemplate_BGType
 InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L109)
@@ -72,7 +72,7 @@ InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L9)
 --- child of InspectPVPFrame_RatedBGBlitz (created in template InspectPvpStatTemplate)
---- @type InspectPvpStatTemplate_InspectPvpStatTemplateBGType
+--- @type InspectPvpStatTemplate_BGType
 InspectPVPFrameBGType = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_InspectUI/InspectPVPFrame.xml#L119)

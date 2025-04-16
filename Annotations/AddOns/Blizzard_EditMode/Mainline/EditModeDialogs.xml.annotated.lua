@@ -60,6 +60,8 @@ EditModeNewLayoutDialog = {}
 --- child of EditModeImportLayoutDialog
 --- @class EditModeImportLayoutDialog_ImportBox : ScrollFrame, InputScrollFrameTemplate
 --- @field maxLetters number # 2000
+--- @field instructions any # HUD_EDIT_MODE_IMPORT_LAYOUT_INSTRUCTIONS
+--- @field hideCharCount boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L115)
 --- child of EditModeImportLayoutDialog
@@ -219,6 +221,7 @@ EditModeUnsavedChangesDialog = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeDialogs.xml#L248)
 --- @class EditModeSystemSettingsDialog : Frame, EditModeDialogTemplate, ResizeLayoutFrame, EditModeSystemSettingsDialogMixin
 --- @field widthPadding number # 40
+--- @field heightPadding number # 40
 --- @field Border EditModeSystemSettingsDialog_Border
 --- @field CloseButton EditModeSystemSettingsDialog_CloseButton
 --- @field Settings EditModeSystemSettingsDialog_Settings
@@ -226,4 +229,5 @@ EditModeUnsavedChangesDialog = {}
 --- @field Title EditModeSystemSettingsDialog_Title
 EditModeSystemSettingsDialog = {}
 EditModeSystemSettingsDialog["widthPadding"] = 40
+EditModeSystemSettingsDialog["heightPadding"] = 40
 

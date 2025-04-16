@@ -618,7 +618,10 @@ AlertFrameSystemsRegistrar = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L1327)
 --- Template
 --- @class RafRewardDeliveredAlertFrameTemplate : ContainedAlertFrame, EntitlementDeliveredAlertFrameBaseTemplate
---- @field legacyStandardToastAtlas string # "recruitafriend_toast_standard"
+--- @field legacyStandardToastAtlas string # recruitafriend_toast_standard
+--- @field legacyFancyToastAtlas string # recruitafriend_toast_fancy
+--- @field standardToastAtlas string # recruitafriend_toast_standard_generic
+--- @field fancyToastAtlas string # recruitafriend_toast_fancy_generic
 --- @field StandardBackground Texture
 --- @field FancyBackground Texture
 --- @field Watermark Texture

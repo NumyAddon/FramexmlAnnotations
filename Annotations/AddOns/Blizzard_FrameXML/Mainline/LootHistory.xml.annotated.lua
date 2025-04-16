@@ -160,12 +160,13 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L1003)
 --- child of GroupLootHistoryFrame (created in template DefaultPanelFlatTemplate)
---- @type DefaultPanelFlatTemplate_DefaultPanelFlatTemplateBg
+--- @type DefaultPanelFlatTemplate_Bg
 GroupLootHistoryFrameBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L190)
 --- @class GroupLootHistoryFrame : Frame, DefaultPanelFlatTemplate, LootHistoryFrameMixin
 --- @field panelMaxHeight number # 590
+--- @field panelWidth number # 261
 --- @field ClosePanelButton GroupLootHistoryFrame_ClosePanelButton
 --- @field ScrollBox GroupLootHistoryFrame_ScrollBox
 --- @field ScrollBar GroupLootHistoryFrame_ScrollBar
@@ -177,6 +178,7 @@ GroupLootHistoryFrameBg = {}
 --- @field uncommittedRegions table<number, GroupLootHistoryFrame_EncounterDropdown>
 GroupLootHistoryFrame = {}
 GroupLootHistoryFrame["panelMaxHeight"] = 590
+GroupLootHistoryFrame["panelWidth"] = 261
 GroupLootHistoryFrame["Bg"] = GroupLootHistoryFrameBg -- inherited
 GroupLootHistoryFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 

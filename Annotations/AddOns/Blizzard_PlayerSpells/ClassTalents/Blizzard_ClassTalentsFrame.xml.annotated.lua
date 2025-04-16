@@ -58,12 +58,22 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L274)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_ResetButton : DropdownButton, IconButtonTemplate
---- @field menuPoint string # "BOTTOMLEFT"
+--- @field menuPoint string # BOTTOMLEFT
+--- @field menuPointX number # 0
+--- @field menuPointY number # 0
+--- @field menuRelativePoint string # TOPRIGHT
+--- @field iconAtlas string # talents-button-reset
+--- @field useAtlasSize boolean # true
+--- @field useIconAsHighlight boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L292)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_UndoButton : Button, IconButtonTemplate
---- @field iconAtlas string # "talents-button-undo"
+--- @field iconAtlas string # talents-button-undo
+--- @field useAtlasSize boolean # true
+--- @field useIconAsHighlight boolean # true
+--- @field tooltipText any # TALENT_FRAME_DISCARD_CHANGES_BUTTON_TOOLTIP
+--- @field tooltipTextColor any # HIGHLIGHT_FONT_COLOR
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L306)
 --- child of ClassTalentsFrameTemplate
@@ -85,6 +95,22 @@
 --- Template
 --- @class ClassTalentsFrameTemplate : Frame, TalentFrameBaseTemplate, ClassTalentsFrameMixin
 --- @field getTemplateType any # ClassTalentUtil.GetTemplateForTalentType
+--- @field getSpecializedMixin any # ClassTalentUtil.GetSpecializedMixin
+--- @field getSpecializedChoiceMixin any # ClassTalentUtil.GetSpecializedChoiceMixin
+--- @field getEdgeTemplateType any # ClassTalentUtil.GetEdgeTemplateType
+--- @field topPadding number # 0
+--- @field leftPadding number # 0
+--- @field bottomPadding number # 82
+--- @field rightPadding number # 0
+--- @field basePanOffsetX number # 49
+--- @field basePanOffsetY number # -30
+--- @field maximumCommitTime number # 6
+--- @field disabledOverlayAlpha number # .3
+--- @field enableCommitEndFlash boolean # true
+--- @field enableCommitCastBar boolean # true
+--- @field enableCommitSpinner boolean # true
+--- @field commitSound any # SOUNDKIT.UI_CLASS_TALENT_APPLY_CHANGES
+--- @field heroSpecSelectionDialog any # HeroTalentsSelectionDialog
 --- @field HeroTalentsContainer ClassTalentsFrameTemplate_HeroTalentsContainer
 --- @field ClassCurrencyDisplay ClassTalentsFrameTemplate_ClassCurrencyDisplay
 --- @field SpecCurrencyDisplay ClassTalentsFrameTemplate_SpecCurrencyDisplay

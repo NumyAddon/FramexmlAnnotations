@@ -90,7 +90,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L518)
 --- child of GarrisonBuildingFrame
---- @class GarrisonBuildingFrame_GarrisonBuildingFrameTutorialButton : Button, MainHelpPlateButton
+--- @class GarrisonBuildingFrameTutorialButton : Button, MainHelpPlateButton
 GarrisonBuildingFrameTutorialButton = {}
 GarrisonBuildingFrameTutorialButton["MainHelpPlateButtonTooltipText"] = MAIN_HELP_BUTTON_TOOLTIP -- inherited
 
@@ -170,17 +170,17 @@ GarrisonBuildingFrameTutorialButton["MainHelpPlateButtonTooltipText"] = MAIN_HEL
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L642)
 --- child of GarrisonBuildingFrameFollowers
---- @class GarrisonBuildingFrame_GarrisonBuildingFrameFollowers_Header : FontString, GameFontNormalLarge
+--- @class GarrisonBuildingFrameFollowers_Header : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L647)
 --- child of GarrisonBuildingFrameFollowers
---- @class GarrisonBuildingFrame_GarrisonBuildingFrameFollowers_NoFollowerText : FontString, GameFontNormalLarge
+--- @class GarrisonBuildingFrameFollowers_NoFollowerText : FontString, GameFontNormalLarge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L627)
 --- child of GarrisonBuildingFrame
---- @class GarrisonBuildingFrame_GarrisonBuildingFrameFollowers : Frame, GarrisonListTemplateHeader, GarrisonFollowerList
---- @field Header GarrisonBuildingFrame_GarrisonBuildingFrameFollowers_Header
---- @field NoFollowerText GarrisonBuildingFrame_GarrisonBuildingFrameFollowers_NoFollowerText
+--- @class GarrisonBuildingFrameFollowers : Frame, GarrisonListTemplateHeader, GarrisonFollowerList
+--- @field Header GarrisonBuildingFrameFollowers_Header
+--- @field NoFollowerText GarrisonBuildingFrameFollowers_NoFollowerText
 GarrisonBuildingFrameFollowers = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L786)
@@ -482,10 +482,10 @@ GarrisonBuildingFrameFollowers = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L512)
 --- @class GarrisonBuildingFrame : Frame, GarrisonUITemplate
---- @field MainHelpButton GarrisonBuildingFrame_GarrisonBuildingFrameTutorialButton
+--- @field MainHelpButton GarrisonBuildingFrameTutorialButton
 --- @field BuildingList GarrisonBuildingFrame_BuildingList
 --- @field BuildingLevelTooltip GarrisonBuildingFrame_BuildingLevelTooltip
---- @field FollowerList GarrisonBuildingFrame_GarrisonBuildingFrameFollowers
+--- @field FollowerList GarrisonBuildingFrameFollowers
 --- @field InfoBox GarrisonBuildingFrame_InfoBox
 --- @field TownHallBox GarrisonBuildingFrame_TownHallBox
 --- @field MapFrame GarrisonBuildingFrame_MapFrame

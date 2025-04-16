@@ -123,187 +123,191 @@ GarrisonBonusAreaTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L9)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_GameTooltipTemplateStatusBar
+--- @type GameTooltipTemplate_StatusBar
 GarrisonShipyardMapMissionTooltipTooltipStatusBar = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L35)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft1
+--- @type SharedTooltipArtTemplate_TextLeft1
 GarrisonShipyardMapMissionTooltipTooltipTextLeft1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L36)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight1
+--- @type SharedTooltipArtTemplate_TextRight1
 GarrisonShipyardMapMissionTooltipTooltipTextRight1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L41)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextLeft2
+--- @type SharedTooltipArtTemplate_TextLeft2
 GarrisonShipyardMapMissionTooltipTooltipTextLeft2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L42)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTextRight2
+--- @type SharedTooltipArtTemplate_TextRight2
 GarrisonShipyardMapMissionTooltipTooltipTextRight2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L47)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture1
+--- @type SharedTooltipArtTemplate_Texture1
 GarrisonShipyardMapMissionTooltipTooltipTexture1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L48)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture2
+--- @type SharedTooltipArtTemplate_Texture2
 GarrisonShipyardMapMissionTooltipTooltipTexture2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L49)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture3
+--- @type SharedTooltipArtTemplate_Texture3
 GarrisonShipyardMapMissionTooltipTooltipTexture3 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L50)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture4
+--- @type SharedTooltipArtTemplate_Texture4
 GarrisonShipyardMapMissionTooltipTooltipTexture4 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L51)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture5
+--- @type SharedTooltipArtTemplate_Texture5
 GarrisonShipyardMapMissionTooltipTooltipTexture5 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L52)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture6
+--- @type SharedTooltipArtTemplate_Texture6
 GarrisonShipyardMapMissionTooltipTooltipTexture6 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L53)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture7
+--- @type SharedTooltipArtTemplate_Texture7
 GarrisonShipyardMapMissionTooltipTooltipTexture7 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L54)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture8
+--- @type SharedTooltipArtTemplate_Texture8
 GarrisonShipyardMapMissionTooltipTooltipTexture8 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L55)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture9
+--- @type SharedTooltipArtTemplate_Texture9
 GarrisonShipyardMapMissionTooltipTooltipTexture9 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L56)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture10
+--- @type SharedTooltipArtTemplate_Texture10
 GarrisonShipyardMapMissionTooltipTooltipTexture10 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L57)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture11
+--- @type SharedTooltipArtTemplate_Texture11
 GarrisonShipyardMapMissionTooltipTooltipTexture11 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L58)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture12
+--- @type SharedTooltipArtTemplate_Texture12
 GarrisonShipyardMapMissionTooltipTooltipTexture12 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L59)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture13
+--- @type SharedTooltipArtTemplate_Texture13
 GarrisonShipyardMapMissionTooltipTooltipTexture13 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L60)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture14
+--- @type SharedTooltipArtTemplate_Texture14
 GarrisonShipyardMapMissionTooltipTooltipTexture14 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L61)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture15
+--- @type SharedTooltipArtTemplate_Texture15
 GarrisonShipyardMapMissionTooltipTooltipTexture15 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L62)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture16
+--- @type SharedTooltipArtTemplate_Texture16
 GarrisonShipyardMapMissionTooltipTooltipTexture16 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L63)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture17
+--- @type SharedTooltipArtTemplate_Texture17
 GarrisonShipyardMapMissionTooltipTooltipTexture17 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L64)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture18
+--- @type SharedTooltipArtTemplate_Texture18
 GarrisonShipyardMapMissionTooltipTooltipTexture18 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L65)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture19
+--- @type SharedTooltipArtTemplate_Texture19
 GarrisonShipyardMapMissionTooltipTooltipTexture19 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L66)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture20
+--- @type SharedTooltipArtTemplate_Texture20
 GarrisonShipyardMapMissionTooltipTooltipTexture20 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L67)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture21
+--- @type SharedTooltipArtTemplate_Texture21
 GarrisonShipyardMapMissionTooltipTooltipTexture21 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L68)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture22
+--- @type SharedTooltipArtTemplate_Texture22
 GarrisonShipyardMapMissionTooltipTooltipTexture22 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L69)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture23
+--- @type SharedTooltipArtTemplate_Texture23
 GarrisonShipyardMapMissionTooltipTooltipTexture23 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L70)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture24
+--- @type SharedTooltipArtTemplate_Texture24
 GarrisonShipyardMapMissionTooltipTooltipTexture24 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L71)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture25
+--- @type SharedTooltipArtTemplate_Texture25
 GarrisonShipyardMapMissionTooltipTooltipTexture25 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L72)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture26
+--- @type SharedTooltipArtTemplate_Texture26
 GarrisonShipyardMapMissionTooltipTooltipTexture26 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L73)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture27
+--- @type SharedTooltipArtTemplate_Texture27
 GarrisonShipyardMapMissionTooltipTooltipTexture27 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L74)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture28
+--- @type SharedTooltipArtTemplate_Texture28
 GarrisonShipyardMapMissionTooltipTooltipTexture28 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L75)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture29
+--- @type SharedTooltipArtTemplate_Texture29
 GarrisonShipyardMapMissionTooltipTooltipTexture29 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L76)
 --- child of GarrisonShipyardMapMissionTooltipTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_SharedTooltipArtTemplateTexture30
+--- @type SharedTooltipArtTemplate_Texture30
 GarrisonShipyardMapMissionTooltipTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L88)
 --- child of GarrisonShipyardMapMissionTooltip_ItemTooltip (created in template InternalEmbeddedItemTooltipTemplate)
---- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateTooltip
+--- @type InternalEmbeddedItemTooltipTemplate_Tooltip
 GarrisonShipyardMapMissionTooltipTooltip = {}
 GarrisonShipyardMapMissionTooltipTooltip["IsEmbedded"] = true
 GarrisonShipyardMapMissionTooltipTooltip["supportsDataRefresh"] = true -- inherited
 GarrisonShipyardMapMissionTooltipTooltip["StatusBar"] = GarrisonShipyardMapMissionTooltipTooltipStatusBar -- inherited
 GarrisonShipyardMapMissionTooltipTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+GarrisonShipyardMapMissionTooltipTooltip["textRight1Font"] = "GameTooltipHeaderText" -- inherited
+GarrisonShipyardMapMissionTooltipTooltip["textLeft2Font"] = "GameTooltipText" -- inherited
+GarrisonShipyardMapMissionTooltipTooltip["textRight2Font"] = "GameTooltipText" -- inherited
+GarrisonShipyardMapMissionTooltipTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 GarrisonShipyardMapMissionTooltipTooltip["TextLeft1"] = GarrisonShipyardMapMissionTooltipTooltipTextLeft1 -- inherited
 GarrisonShipyardMapMissionTooltipTooltip["TextRight1"] = GarrisonShipyardMapMissionTooltipTooltipTextRight1 -- inherited
 GarrisonShipyardMapMissionTooltipTooltip["TextLeft2"] = GarrisonShipyardMapMissionTooltipTooltipTextLeft2 -- inherited
@@ -311,7 +315,7 @@ GarrisonShipyardMapMissionTooltipTooltip["TextRight2"] = GarrisonShipyardMapMiss
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L101)
 --- child of GarrisonShipyardMapMissionTooltip_ItemTooltip (created in template InternalEmbeddedItemTooltipTemplate)
---- @type InternalEmbeddedItemTooltipTemplate_InternalEmbeddedItemTooltipTemplateGarrisonFollowerTooltip
+--- @type InternalEmbeddedItemTooltipTemplate_GarrisonFollowerTooltip
 GarrisonShipyardMapMissionTooltipGarrisonFollowerTooltip = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L454)
@@ -781,13 +785,13 @@ GarrisonShipFollowerPlacer = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1592)
 --- child of GarrisonShipyardFollowerTabTemplate_EquipmentFrame
 --- @class GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment1 : Button, GarrisonShipEquipmentTemplate
---- @field quality string # "rare"
+--- @field quality string # rare
 --- @field Lock Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1609)
 --- child of GarrisonShipyardFollowerTabTemplate_EquipmentFrame
 --- @class GarrisonShipyardFollowerTabTemplate_EquipmentFrame_Equipment2 : Button, GarrisonShipEquipmentTemplate
---- @field quality string # "epic"
+--- @field quality string # epic
 --- @field Lock Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1584)
@@ -848,41 +852,47 @@ GarrisonShipFollowerPlacer = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1660)
 --- child of GarrisonShipyardFrame
---- @class GarrisonShipyardFrame_GarrisonShipyardFrameTab1 : Button, GarrisonMissionFrameTabTemplate
+--- @class GarrisonShipyardFrameTab1 : Button, GarrisonMissionFrameTabTemplate
 GarrisonShipyardFrameTab1 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1667)
 --- child of GarrisonShipyardFrame
---- @class GarrisonShipyardFrame_GarrisonShipyardFrameTab2 : Button, GarrisonMissionFrameTabTemplate
+--- @class GarrisonShipyardFrameTab2 : Button, GarrisonMissionFrameTabTemplate
 GarrisonShipyardFrameTab2 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1698)
 --- child of GarrisonShipyardFrameFollowers
---- @class GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
+--- @class GarrisonShipyardFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 --- @field currencyType number # 1101
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1516)
---- child of GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_SearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- child of GarrisonShipyardFrameFollowers_SearchBox (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_ClearButton
 GarrisonShipyardFrameFollowersClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1507)
---- child of GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_SearchBox (created in template SearchBoxTemplate)
+--- child of GarrisonShipyardFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 GarrisonShipyardFrameFollowersSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1712)
 --- child of GarrisonShipyardFrameFollowers
---- @class GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_SearchBox : EditBox, SearchBoxTemplate
+--- @class GarrisonShipyardFrameFollowers_SearchBox : EditBox, SearchBoxTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1683)
 --- child of GarrisonShipyardFrame
---- @class GarrisonShipyardFrame_GarrisonShipyardFrameFollowers : Frame, GarrisonShipFollowerListTemplateHeader, GarrisonFollowerList, GarrisonShipyardFollowerList
+--- @class GarrisonShipyardFrameFollowers : Frame, GarrisonShipFollowerListTemplateHeader, GarrisonFollowerList, GarrisonShipyardFollowerList
 --- @field showUncollected boolean # false
---- @field MaterialFrame GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_MaterialFrame
---- @field SearchBox GarrisonShipyardFrame_GarrisonShipyardFrameFollowers_SearchBox
+--- @field canCastSpellsOnFollowers boolean # true
+--- @field showCounters boolean # true
+--- @field canExpand boolean # false
+--- @field MaterialFrame GarrisonShipyardFrameFollowers_MaterialFrame
+--- @field SearchBox GarrisonShipyardFrameFollowers_SearchBox
 GarrisonShipyardFrameFollowers = {}
 GarrisonShipyardFrameFollowers["showUncollected"] = false
+GarrisonShipyardFrameFollowers["canCastSpellsOnFollowers"] = true
+GarrisonShipyardFrameFollowers["showCounters"] = true
+GarrisonShipyardFrameFollowers["canExpand"] = false
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1745)
 --- child of GarrisonShipyardFrame_MissionTab_MissionList
@@ -997,9 +1007,9 @@ GarrisonShipyardFrameFollowers["showUncollected"] = false
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1639)
 --- @class GarrisonShipyardFrame : Frame, GarrisonMissionFrameTemplate, GarrisonMission, GarrisonShipyardMission
 --- @field followerTypeID any # Enum.GarrisonFollowerType.FollowerType_6_0_Boat
---- @field Tab1 GarrisonShipyardFrame_GarrisonShipyardFrameTab1
---- @field Tab2 GarrisonShipyardFrame_GarrisonShipyardFrameTab2
---- @field FollowerList GarrisonShipyardFrame_GarrisonShipyardFrameFollowers
+--- @field Tab1 GarrisonShipyardFrameTab1
+--- @field Tab2 GarrisonShipyardFrameTab2
+--- @field FollowerList GarrisonShipyardFrameFollowers
 --- @field MissionTab GarrisonShipyardFrame_MissionTab
 --- @field FollowerTab GarrisonShipyardFrame_FollowerTab
 --- @field MissionCompleteBackground GarrisonShipyardFrame_MissionCompleteBackground
@@ -1010,5 +1020,5 @@ GarrisonShipyardFrame = {}
 GarrisonShipyardFrame["Tab1"] = GarrisonShipyardFrameTab1
 GarrisonShipyardFrame["Tab2"] = GarrisonShipyardFrameTab2
 GarrisonShipyardFrame["FollowerList"] = GarrisonShipyardFrameFollowers
-GarrisonShipyardFrame["followerTypeID"] = Enum.GarrisonFollowerType.FollowerType_6_0_Boat
+GarrisonShipyardFrame["followerTypeID"] = _G["Enum.GarrisonFollowerType.FollowerType_6_0_Boat"]
 

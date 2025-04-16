@@ -8,7 +8,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L19)
 --- child of SettingsLanguageDropdownWithSteppersAndLabelTemplate
 --- @class SettingsLanguageDropdownWithSteppersAndLabelTemplate_Dropdown : DropdownButton, SettingsLanguageDropdownTemplate
---- @field menuPoint string # "TOPRIGHT"
+--- @field menuPoint string # TOPRIGHT
+--- @field menuRelativePoint string # BOTTOMRIGHT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L17)
 --- Template
@@ -19,7 +20,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L40)
 --- Template
 --- @class SettingsLanguageBaseTemplate : Frame, SettingsDropdownControlTemplate
---- @field dropdownType string # "SettingsLanguageDropdownWithSteppersAndLabelTemplate"
+--- @field dropdownType string # SettingsLanguageDropdownWithSteppersAndLabelTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.xml#L46)
 --- Template

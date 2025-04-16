@@ -91,7 +91,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L4)
 --- Template
 --- @class BrowseWowTokenResultsTemplate : Frame, AuctionHouseBackgroundTemplate
---- @field backgroundAtlas string # "auctionhouse-background-index"
+--- @field backgroundAtlas string # auctionhouse-background-index
+--- @field backgroundTextureClassic string # Interface\FrameGeneral\UI-Background-Marble
+--- @field textureWidthClassic number # 595
+--- @field textureHeightClassic number # 413
+--- @field textureXOffsetClassic number # 2
+--- @field textureYOffsetClassic number # -3
 --- @field GameTimeTutorial BrowseWowTokenResultsTemplate_GameTimeTutorial
 --- @field HelpButton BrowseWowTokenResultsTemplate_HelpButton
 --- @field TokenDisplay BrowseWowTokenResultsTemplate_TokenDisplay
@@ -116,7 +121,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L387)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_DummyItemList : Frame, AuctionHouseBackgroundTemplate
---- @field backgroundAtlas string # "auctionhouse-background-sell-right"
+--- @field backgroundAtlas string # auctionhouse-background-sell-right
+--- @field backgroundTextureClassic string # Interface\FrameGeneral\UI-Background-Marble
+--- @field textureWidthClassic number # 399
+--- @field textureHeightClassic number # 418
+--- @field textureXOffsetClassic number # 2
+--- @field textureYOffsetClassic number # -3
 --- @field DummyScrollBar WoWTokenSellFrameTemplate_DummyItemList_DummyScrollBar
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L405)
@@ -146,7 +156,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L279)
 --- Template
 --- @class WoWTokenSellFrameTemplate : Frame, AuctionHouseBackgroundTemplate, WoWTokenSellFrameMixin
---- @field backgroundAtlas string # "auctionhouse-background-sell-left"
+--- @field backgroundAtlas string # auctionhouse-background-sell-left
+--- @field backgroundTextureClassic string # Interface\QuestFrame\UI-TextBackground-BackdropBackground
+--- @field textureXOffsetClassic number # 3
+--- @field textureYOffsetClassic number # -2
+--- @field textureWidthClassic number # 357
+--- @field textureHeightClassic number # 438
 --- @field ItemDisplay WoWTokenSellFrameTemplate_ItemDisplay
 --- @field InvisiblePriceFrame Frame
 --- @field PostButton WoWTokenSellFrameTemplate_PostButton

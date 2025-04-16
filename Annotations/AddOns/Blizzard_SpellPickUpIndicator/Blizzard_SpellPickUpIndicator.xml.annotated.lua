@@ -3,7 +3,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L10)
 --- child of SpellPickupIndicatorTemplate
 --- @class SpellPickupIndicatorTemplate_BindingAction : FontString, SystemFont_Shadow_Large2
---- @field align string # "center"
+--- @field align string # center
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L20)
 --- child of SpellPickupIndicatorTemplate
@@ -38,11 +39,14 @@
 --- child of SpellPickupDisplay
 --- @class SpellPickupDisplay_LeftSpellPickupIndicator : Frame, SpellPickupIndicatorTemplate
 --- @field spellSlot number # 0
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L75)
 --- child of SpellPickupDisplay
 --- @class SpellPickupDisplay_RightSpellPickupIndicator : Frame, SpellPickupIndicatorTemplate
 --- @field spellSlot number # 1
+--- @field layoutIndex number # 2
+--- @field topPadding number # 10
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SpellPickUpIndicator/Blizzard_SpellPickUpIndicator.xml#L62)
 --- @class SpellPickupDisplay : Frame, CallbackRegistrantTemplate, VerticalLayoutFrame, SpellPickupDisplayMixin

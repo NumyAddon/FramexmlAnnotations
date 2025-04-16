@@ -87,7 +87,8 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L215)
 --- child of HeroTalentsContainerTemplate
 --- @class HeroTalentsContainerTemplate_CollapseButton : Button, HeroTalentCollapseButtonMixin
---- @field expandedAtlas string # "talents-heroclass-ring-minimize-hide"
+--- @field expandedAtlas string # talents-heroclass-ring-minimize-hide
+--- @field collapsedAtlas string # talents-heroclass-ring-minimize-show
 --- @field Texture Texture
 --- @field TextureHover Texture
 
@@ -123,6 +124,8 @@
 --- child of HeroTalentsContainerTemplate_CollapsedContainer
 --- @class HeroTalentsContainerTemplate_CollapsedContainer_NodesContainer : Frame, HeroTalentsTreeNodesContainerTemplate, VerticalLayoutFrame
 --- @field topPadding number # -4
+--- @field bottomPadding number # 23
+--- @field spacing number # 15
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsContainer.xml#L304)
 --- child of HeroTalentsContainerTemplate_CollapsedContainer
@@ -143,6 +146,7 @@
 --- child of HeroTalentsContainerTemplate
 --- @class HeroTalentsContainerTemplate_CollapsedContainer : Frame, HeroTalentsTreeContainerTemplate, ResizeLayoutFrame
 --- @field fixedWidth number # 128
+--- @field heightPadding number # 109
 --- @field NodesContainer HeroTalentsContainerTemplate_CollapsedContainer_NodesContainer
 --- @field BackgroundTop HeroTalentsContainerTemplate_CollapsedContainer_BackgroundTop
 --- @field BackgroundBottom HeroTalentsContainerTemplate_CollapsedContainer_BackgroundBottom
@@ -237,6 +241,7 @@
 --- Template
 --- @class HeroTalentsContainerTemplate : Frame, HeroTalentsContainerMixin
 --- @field helpTipOffsetX number # -10
+--- @field helpTipOffsetY number # -62
 --- @field HeroSpecButton HeroTalentsContainerTemplate_HeroSpecButton
 --- @field CurrencyFrame HeroTalentsContainerTemplate_CurrencyFrame
 --- @field CollapseButton HeroTalentsContainerTemplate_CollapseButton

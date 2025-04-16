@@ -4,6 +4,8 @@
 --- child of ClassTalentLoadoutImportDialog_ImportControl
 --- @class ClassTalentLoadoutImportDialog_ImportControl_InputContainer : ScrollFrame, InputScrollFrameTemplate
 --- @field maxLetters number # 1000
+--- @field instructions any # HUD_CLASS_TALENTS_IMPORT_INSTRUCTIONS
+--- @field hideCharCount boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentLoadoutImportDialog.xml#L23)
 --- child of ClassTalentLoadoutImportDialog_ImportControl
@@ -39,5 +41,4 @@
 --- @field CancelButton ClassTalentLoadoutImportDialog_CancelButton
 ClassTalentLoadoutImportDialog = {}
 ClassTalentLoadoutImportDialog["titleText"] = HUD_CLASS_TALENTS_IMPORT_DIALOG_TITLE
-ClassTalentLoadoutImportDialog["titleText"] =  -- inherited
 

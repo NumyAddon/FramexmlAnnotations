@@ -6,7 +6,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TaxiFrame.xml#L32)
 --- child of TaxiFrame
---- @class TaxiFrame_TaxiRouteMap : Frame
+--- @class TaxiRouteMap : Frame
 TaxiRouteMap = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TaxiFrame.xml#L26)

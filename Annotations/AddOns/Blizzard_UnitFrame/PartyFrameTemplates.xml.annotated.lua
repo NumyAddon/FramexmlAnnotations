@@ -3,7 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L3)
 --- Template
 --- @class PartyFrameBarSegmentTemplate : Frame
---- @field fillAtlas string # "UI-HUD-UnitFrame-Party-PortraitOn-Bar-Health-Status"
+--- @field fillAtlas string # UI-HUD-UnitFrame-Party-PortraitOn-Bar-Health-Status
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L35)
 --- child of PartyAuraFrameTemplate
@@ -170,7 +170,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L121)
 --- Template
 --- @class PartyMemberFrameTemplate : Button, SecureUnitButtonTemplate, PingableUnitFrameTemplate, PartyMemberFrameMixin
---- @field frameType string # "Party"
+--- @field frameType string # Party
 --- @field PowerBarAlt PartyMemberFrameTemplate_PowerBarAlt
 --- @field HealthBarContainer PartyMemberFrameTemplate_HealthBarContainer
 --- @field ManaBar PartyMemberFrameTemplate_ManaBar

@@ -17,34 +17,35 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L58)
 --- child of RolePollPopup
---- @class RolePollPopup_RolePollPopupCloseButton : Button, UIPanelCloseButtonNoScripts
+--- @class RolePollPopupCloseButton : Button, UIPanelCloseButtonNoScripts
 RolePollPopupCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L69)
 --- child of RolePollPopup
---- @class RolePollPopup_RolePollPopupRoleButtonTank : Button, RolePollRoleButtonTemplate
+--- @class RolePollPopupRoleButtonTank : Button, RolePollRoleButtonTemplate
 RolePollPopupRoleButtonTank = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L83)
 --- child of RolePollPopup
---- @class RolePollPopup_RolePollPopupRoleButtonHealer : Button, RolePollRoleButtonTemplate
+--- @class RolePollPopupRoleButtonHealer : Button, RolePollRoleButtonTemplate
 RolePollPopupRoleButtonHealer = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L97)
 --- child of RolePollPopup
---- @class RolePollPopup_RolePollPopupRoleButtonDPS : Button, RolePollRoleButtonTemplate
+--- @class RolePollPopupRoleButtonDPS : Button, RolePollRoleButtonTemplate
 RolePollPopupRoleButtonDPS = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L111)
 --- child of RolePollPopup
---- @class RolePollPopup_RolePollPopupAcceptButton : Button, UIPanelButtonTemplate
+--- @class RolePollPopupAcceptButton : Button, UIPanelButtonTemplate
 RolePollPopupAcceptButton = {}
 RolePollPopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
+RolePollPopupAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/RolePoll.xml#L45)
 --- @class RolePollPopup : Frame
 --- @field Border RolePollPopup_Border
---- @field acceptButton RolePollPopup_RolePollPopupAcceptButton
+--- @field acceptButton RolePollPopupAcceptButton
 RolePollPopup = {}
 RolePollPopup["acceptButton"] = RolePollPopupAcceptButton
 

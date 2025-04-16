@@ -117,6 +117,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L5)
 --- @class TalkingHeadFrame : ContainedAlertFrame, UIParentBottomManagedFrameTemplate, EditModeTalkingHeadFrameSystemTemplate, TalkingHeadFrameMixin
 --- @field layoutIndex number # 8
+--- @field hideWhenActionBarIsOverriden boolean # false
 --- @field NameFrame TalkingHeadFrame_NameFrame
 --- @field TextFrame TalkingHeadFrame_TextFrame
 --- @field BackgroundFrame TalkingHeadFrame_BackgroundFrame
@@ -124,7 +125,12 @@
 --- @field MainFrame TalkingHeadFrame_MainFrame
 TalkingHeadFrame = {}
 TalkingHeadFrame["layoutIndex"] = 8
+TalkingHeadFrame["hideWhenActionBarIsOverriden"] = false
 TalkingHeadFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+TalkingHeadFrame["align"] = "center" -- inherited
+TalkingHeadFrame["isBottomManagedFrame"] = true -- inherited
 TalkingHeadFrame["isManagedFrame"] = true -- inherited
-TalkingHeadFrame["system"] = Enum.EditModeSystem.TalkingHeadFrame -- inherited
+TalkingHeadFrame["system"] = _G["Enum.EditModeSystem.TalkingHeadFrame"] -- inherited
+TalkingHeadFrame["systemNameString"] = HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL -- inherited
+TalkingHeadFrame["defaultHideSelection"] = true -- inherited
 

@@ -4,4 +4,9 @@
 --- @class UIWidgetCenterScreenContainerFrame : Frame, UIWidgetContainerNoResizeTemplate, UIWidgetCenterScreenContainerMixin
 UIWidgetCenterScreenContainerFrame = {}
 UIWidgetCenterScreenContainerFrame["showAndHideOnWidgetSetRegistration"] = true -- inherited
+UIWidgetCenterScreenContainerFrame["verticalAnchorPoint"] = "TOP" -- inherited
+UIWidgetCenterScreenContainerFrame["verticalRelativePoint"] = "BOTTOM" -- inherited
+UIWidgetCenterScreenContainerFrame["horizontalAnchorPoint"] = "LEFT" -- inherited
+UIWidgetCenterScreenContainerFrame["horizontalRelativePoint"] = "RIGHT" -- inherited
+UIWidgetCenterScreenContainerFrame["horizontalAnchorXOffset"] = 2 -- inherited
 

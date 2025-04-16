@@ -4,6 +4,8 @@
 --- child of CompanionConfigSlotTemplate
 --- @class CompanionConfigSlotTemplate_NewLabel : Frame, NewFeatureLabelTemplate
 --- @field animateGlow boolean # false
+--- @field label any # DELVES_NEW_CURIO
+--- @field justifyH string # CENTER
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L92)
 --- child of CompanionConfigSlotTemplate
@@ -98,7 +100,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L312)
 --- child of DelvesCompanionConfigurationFrame_CompanionInfoFrame
---- @class DelvesCompanionConfigurationFrame_CompanionInfoFrame_CompanionInfoGLine : Texture
+--- @class CompanionInfoGLine : Texture
 CompanionInfoGLine = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L283)
@@ -111,17 +113,17 @@ CompanionInfoGLine = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L323)
 --- child of DelvesCompanionConfigurationFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionCombatRoleSlot : Button, CompanionConfigSlotTemplate
---- @field type string # "Role"
+--- @field type string # Role
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L332)
 --- child of DelvesCompanionConfigurationFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionCombatTrinketSlot : Button, CompanionConfigSlotTemplate
---- @field type string # "Combat"
+--- @field type string # Combat
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L341)
 --- child of DelvesCompanionConfigurationFrame
 --- @class DelvesCompanionConfigurationFrame_CompanionUtilityTrinketSlot : Button, CompanionConfigSlotTemplate
---- @field type string # "Utility"
+--- @field type string # Utility
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionConfiguration.xml#L351)
 --- child of DelvesCompanionConfigurationFrame

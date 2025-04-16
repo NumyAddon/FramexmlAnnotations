@@ -50,7 +50,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L149)
 --- child of SpellBookItemTemplate_Button_BorderSheen
 --- @class SpellBookItemTemplate_Button_BorderSheen_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate, SyncedAnimGroupTemplate
---- @field syncKey string # "SpellBookItemLoops"
+--- @field syncKey string # SpellBookItemLoops
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L144)
 --- child of SpellBookItemTemplate_Button
@@ -60,7 +60,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L218)
 --- child of SpellBookItemTemplate_Button_ActionBarHighlight
 --- @class SpellBookItemTemplate_Button_ActionBarHighlight_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate, SyncedAnimGroupTemplate
---- @field syncKey string # "SpellBookItemLoops"
+--- @field syncKey string # SpellBookItemLoops
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L212)
 --- child of SpellBookItemTemplate_Button
@@ -70,7 +70,11 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookItem.xml#L98)
 --- child of SpellBookItemTemplate
 --- @class SpellBookItemTemplate_Button : Button, FlyoutButtonTemplate, SpellBookItemButtonMixin
---- @field popupDirection string # "RIGHT"
+--- @field popupDirection string # RIGHT
+--- @field popupOffset number # -4
+--- @field popupCrossAxisSize number # 42
+--- @field openArrowOffset number # 2
+--- @field closedArrowOffset number # 4
 --- @field AutoCastOverlay SpellBookItemTemplate_Button_AutoCastOverlay
 --- @field Cooldown SpellBookItemTemplate_Button_Cooldown
 --- @field FxModelScene SpellBookItemTemplate_Button_FxModelScene
@@ -104,6 +108,12 @@
 --- Template
 --- @class SpellBookItemTemplate : Frame, SpellBookItemMixin
 --- @field cellSize number # 1
+--- @field unlearnedTextAlpha number # 0.6
+--- @field unlearnedIconAlpha number # 0.6
+--- @field defaultBackplateAlpha number # 0.25
+--- @field hoverBackplateAlpha number # 1
+--- @field iconHighlightHoverAlpha number # 0.35
+--- @field iconHighlightPressAlpha number # 0.65
 --- @field TextContainer SpellBookItemTemplate_TextContainer
 --- @field Button SpellBookItemTemplate_Button
 --- @field Backplate Texture

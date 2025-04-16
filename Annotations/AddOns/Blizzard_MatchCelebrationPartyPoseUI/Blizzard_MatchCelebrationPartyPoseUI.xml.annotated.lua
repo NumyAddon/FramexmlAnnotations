@@ -18,11 +18,13 @@
 --- child of MatchCelebrationPartyPoseFrame_ButtonContainer
 --- @class MatchCelebrationPartyPoseFrame_ButtonContainer_LeaveButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate
 --- @field layoutIndex number # 0
+--- @field minimumWidth number # 164
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.xml#L51)
 --- child of MatchCelebrationPartyPoseFrame_ButtonContainer
 --- @class MatchCelebrationPartyPoseFrame_ButtonContainer_ExtraButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, MatchCelebrationExtraButtonMixin
 --- @field layoutIndex number # 1
+--- @field minimumWidth number # 164
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MatchCelebrationPartyPoseUI/Blizzard_MatchCelebrationPartyPoseUI.xml#L37)
 --- child of MatchCelebrationPartyPoseFrame

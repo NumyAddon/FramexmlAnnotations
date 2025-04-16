@@ -9,18 +9,24 @@ GarrisonFollowerTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 --- @class GarrisonFollowerAbilityTooltip : Frame, GarrisonFollowerAbilityTooltipTemplate
 GarrisonFollowerAbilityTooltip = {}
 GarrisonFollowerAbilityTooltip["abilityFrameHeightBase"] = 30 -- inherited
+GarrisonFollowerAbilityTooltip["spacingBetweenNameAndDescription"] = 4 -- inherited
+GarrisonFollowerAbilityTooltip["spacingBetweenDescriptionAndDetails"] = 8 -- inherited
 GarrisonFollowerAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonBase/GarrisonFollowerTooltip.xml#L16)
 --- @class GarrisonFollowerAbilityWithoutCountersTooltip : Frame, GarrisonFollowerAbilityWithoutCountersTooltipTemplate
 GarrisonFollowerAbilityWithoutCountersTooltip = {}
 GarrisonFollowerAbilityWithoutCountersTooltip["abilityFrameHeightBase"] = 30 -- inherited
+GarrisonFollowerAbilityWithoutCountersTooltip["spacingBetweenNameAndDescription"] = 8 -- inherited
+GarrisonFollowerAbilityWithoutCountersTooltip["spacingBetweenDescriptionAndDetails"] = 0 -- inherited
 GarrisonFollowerAbilityWithoutCountersTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonBase/GarrisonFollowerTooltip.xml#L22)
 --- @class GarrisonFollowerMissionAbilityWithoutCountersTooltip : Frame, GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate
 GarrisonFollowerMissionAbilityWithoutCountersTooltip = {}
 GarrisonFollowerMissionAbilityWithoutCountersTooltip["abilityFrameHeightBase"] = 46 -- inherited
+GarrisonFollowerMissionAbilityWithoutCountersTooltip["spacingBetweenNameAndDescription"] = 8 -- inherited
+GarrisonFollowerMissionAbilityWithoutCountersTooltip["spacingBetweenDescriptionAndDetails"] = 0 -- inherited
 GarrisonFollowerMissionAbilityWithoutCountersTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonBase/GarrisonFollowerTooltip.xml#L28)

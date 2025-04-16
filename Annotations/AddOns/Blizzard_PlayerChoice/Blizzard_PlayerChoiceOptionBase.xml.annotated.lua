@@ -3,7 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L4)
 --- Template
 --- @class PlayerChoiceBaseCenteredFrame : Frame
---- @field align string # "center"
+--- @field align string # center
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L10)
 --- Template
@@ -26,13 +26,13 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L29)
 --- Template
 --- @class PlayerChoiceBaseOptionButtonFrameTemplate : Frame, HorizontalLayoutFrame, PlayerChoiceBaseOptionButtonFrameTemplateMixin
---- @field buttonTemplate string # "PlayerChoiceBaseOptionButtonTemplate"
+--- @field buttonTemplate string # PlayerChoiceBaseOptionButtonTemplate
 --- @field ListText PlayerChoiceBaseOptionButtonFrameTemplate_ListText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L48)
 --- Template
 --- @class PlayerChoiceSmallerOptionButtonFrameTemplate : Frame, PlayerChoiceBaseOptionButtonFrameTemplate
---- @field buttonTemplate string # "PlayerChoiceBaseSmallerOptionButtonTemplate"
+--- @field buttonTemplate string # PlayerChoiceBaseSmallerOptionButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L54)
 --- Template
@@ -42,7 +42,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L56)
 --- Template
 --- @class PlayerChoiceBaseOptionButtonsContainer : Frame, PlayerChoiceBaseCenteredFrame, ResizeLayoutFrame, PlayerChoiceBaseOptionAlignedSection, PlayerChoiceBaseOptionButtonsContainerMixin
---- @field alignedSectionKey string # "buttons"
+--- @field alignedSectionKey string # buttons
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L82)
 --- child of PlayerChoiceBaseOptionTextTemplate
@@ -55,7 +55,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L66)
 --- Template
 --- @class PlayerChoiceBaseOptionTextTemplate : Frame, PlayerChoiceBaseCenteredFrame, PlayerChoiceBaseOptionAlignedSection, PlayerChoiceBaseOptionTextTemplateMixin
---- @field alignedSectionKey string # "text"
+--- @field alignedSectionKey string # text
 --- @field HTML PlayerChoiceBaseOptionTextTemplate_HTML
 --- @field String PlayerChoiceBaseOptionTextTemplate_String
 
@@ -107,22 +107,29 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L201)
 --- Template
 --- @class PlayerChoiceBaseOptionRewardsTemplate : Frame, PlayerChoiceBaseCenteredFrame, PlayerChoiceBaseOptionAlignedSection, VerticalLayoutFrame, PlayerChoiceBaseOptionRewardsMixin
---- @field alignedSectionKey string # "rewards"
+--- @field alignedSectionKey string # rewards
+--- @field spacing number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L213)
 --- child of PlayerChoiceBaseOptionTemplate
 --- @class PlayerChoiceBaseOptionTemplate_OptionText : Frame, PlayerChoiceBaseOptionTextTemplate
 --- @field layoutIndex number # 10
+--- @field topPadding number # 20
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L219)
 --- child of PlayerChoiceBaseOptionTemplate
 --- @class PlayerChoiceBaseOptionTemplate_OptionButtonsContainer : Frame, PlayerChoiceBaseOptionButtonsContainer
 --- @field layoutIndex number # 30
+--- @field topPadding number # 5
+--- @field spacing number # 8
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L226)
 --- child of PlayerChoiceBaseOptionTemplate
 --- @class PlayerChoiceBaseOptionTemplate_WidgetContainer : Frame, PlayerChoiceBaseCenteredFrame, UIWidgetContainerTemplate, PlayerChoiceWidgetContainerMixin
 --- @field layoutIndex number # 20
+--- @field topPadding number # 5
+--- @field showAndHideOnWidgetSetRegistration boolean # false
+--- @field skipLayoutOnShow boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.xml#L211)
 --- Template

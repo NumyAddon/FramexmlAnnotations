@@ -33,7 +33,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L140)
 --- child of CommunitiesGuildRewardsButtonTemplate
---- @class CommunitiesGuildRewardsButtonTemplate_CommunitiesGuildRewardsButtonTemplateMoneyFrame : Frame, SmallMoneyFrameTemplate
+--- @class CommunitiesGuildRewardsButtonTemplate_MoneyFrame : Frame, SmallMoneyFrameTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L160)
 --- child of CommunitiesGuildRewardsButtonTemplate
@@ -46,7 +46,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Communities/GuildRewards.xml#L137)
 --- Template
 --- @class CommunitiesGuildRewardsButtonTemplate : Button, CommunitiesGuildRewardsButtonMixin
---- @field Money CommunitiesGuildRewardsButtonTemplate_CommunitiesGuildRewardsButtonTemplateMoneyFrame
+--- @field Money CommunitiesGuildRewardsButtonTemplate_MoneyFrame
 --- @field Icon Texture
 --- @field Name CommunitiesGuildRewardsButtonTemplate_Name
 --- @field SubText CommunitiesGuildRewardsButtonTemplate_SubText

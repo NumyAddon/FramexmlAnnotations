@@ -52,24 +52,26 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L106)
 --- child of AddonDialogBackground
---- @class AddonDialog_AddonDialogBackground_AddonDialogButton1 : Button, UIPanelButtonTemplate
+--- @class AddonDialogButton1 : Button, UIPanelButtonTemplate
 AddonDialogButton1 = {}
 AddonDialogButton1["fitTextCanWidthDecrease"] = true -- inherited
+AddonDialogButton1["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L109)
 --- child of AddonDialogBackground
---- @class AddonDialog_AddonDialogBackground_AddonDialogButton2 : Button, UIPanelButtonTemplate
+--- @class AddonDialogButton2 : Button, UIPanelButtonTemplate
 AddonDialogButton2 = {}
 AddonDialogButton2["fitTextCanWidthDecrease"] = true -- inherited
+AddonDialogButton2["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L97)
 --- child of AddonDialogBackground
---- @class AddonDialog_AddonDialogBackground_AddonDialogText : FontString, GameFontNormalLarge
+--- @class AddonDialogText : FontString, GameFontNormalLarge
 AddonDialogText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L93)
 --- child of AddonDialog
---- @class AddonDialog_AddonDialogBackground : Frame, DialogBorderTemplate
+--- @class AddonDialogBackground : Frame, DialogBorderTemplate
 AddonDialogBackground = {}
 AddonDialogBackground["layoutType"] = "Dialog" -- inherited
 
@@ -87,7 +89,7 @@ AddonDialog = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1516)
 --- child of AddonList_SearchBox (created in template SearchBoxTemplate)
---- @type SearchBoxTemplate_SearchBoxTemplateClearButton
+--- @type SearchBoxTemplate_ClearButton
 AddonListClearButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1507)
@@ -150,13 +152,13 @@ AddonListSearchIcon = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1160)
 --- child of AddonList (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 AddonListInset = {}
 AddonListInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1154)
 --- child of AddonList (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+--- @type ButtonFrameBaseTemplate_CloseButton
 AddonListCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1137)

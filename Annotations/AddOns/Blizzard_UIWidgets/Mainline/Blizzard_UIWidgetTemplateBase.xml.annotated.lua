@@ -3,7 +3,9 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L3)
 --- Template
 --- @class UIWidgetTemplateTooltipFrame : Frame, UIWidgetTemplateTooltipFrameMixin
---- @field defaultTooltipAnchor string # "ANCHOR_BOTTOMLEFT"
+--- @field defaultTooltipAnchor string # ANCHOR_BOTTOMLEFT
+--- @field tooltipXOffset number # 0
+--- @field tooltipYOffset number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L16)
 --- Template

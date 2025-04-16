@@ -13,6 +13,7 @@
 --- child of WarbandSceneJournal_IconsFrame_Icons_Controls
 --- @class WarbandSceneJournal_IconsFrame_Icons_Controls_ShowOwned : Frame
 --- @field layoutIndex number # 1
+--- @field align string # center
 --- @field Checkbox WarbandSceneJournal_IconsFrame_Icons_Controls_ShowOwned_Checkbox
 --- @field Text WarbandSceneJournal_IconsFrame_Icons_Controls_ShowOwned_Text
 
@@ -20,6 +21,7 @@
 --- child of WarbandSceneJournal_IconsFrame_Icons_Controls
 --- @class WarbandSceneJournal_IconsFrame_Icons_Controls_PagingControls : Frame, PagingControlsHorizontalTemplate
 --- @field layoutIndex number # 2
+--- @field bottomPadding number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Blizzard_WarbandSceneCollection.xml#L19)
 --- child of WarbandSceneJournal_IconsFrame_Icons
@@ -32,6 +34,8 @@
 --- child of WarbandSceneJournal_IconsFrame
 --- @class WarbandSceneJournal_IconsFrame_Icons : Frame, PagedNaturalSizeGridContentFrameTemplate
 --- @field viewsPerPage number # 1
+--- @field xPadding number # 10
+--- @field yPadding number # 44
 --- @field View Frame
 --- @field Controls WarbandSceneJournal_IconsFrame_Icons_Controls
 --- @field ViewFrames table<number, Frame>

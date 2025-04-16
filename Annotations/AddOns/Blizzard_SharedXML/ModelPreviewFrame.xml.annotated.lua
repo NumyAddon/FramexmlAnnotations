@@ -83,19 +83,20 @@ ModelPreviewFrameRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L79)
 --- child of ModelPreviewFrame
---- @class ModelPreviewFrame_ModelPreviewFrameCloseButton : Button, MagicButtonTemplate
+--- @class ModelPreviewFrameCloseButton : Button, MagicButtonTemplate
 ModelPreviewFrameCloseButton = {}
 ModelPreviewFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
+ModelPreviewFrameCloseButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1160)
 --- child of ModelPreviewFrame (created in template ButtonFrameTemplate)
---- @type ButtonFrameTemplate_ButtonFrameTemplateInset
+--- @type ButtonFrameTemplate_Inset
 ModelPreviewFrameInset = {}
 ModelPreviewFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1154)
 --- child of ModelPreviewFrame (created in template ButtonFrameBaseTemplate)
---- @type ButtonFrameBaseTemplate_ButtonFrameBaseTemplateCloseButton
+--- @type ButtonFrameBaseTemplate_CloseButton
 ModelPreviewFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L1137)
@@ -106,11 +107,10 @@ ModelPreviewFrameBg = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L3)
 --- @class ModelPreviewFrame : Frame, ButtonFrameTemplate
 --- @field Display ModelPreviewFrame_Display
---- @field CloseButton ModelPreviewFrame_ModelPreviewFrameCloseButton
+--- @field CloseButton ModelPreviewFrameCloseButton
 ModelPreviewFrame = {}
 ModelPreviewFrame["CloseButton"] = ModelPreviewFrameCloseButton
 ModelPreviewFrame["Inset"] = ModelPreviewFrameInset -- inherited
-ModelPreviewFrame["CloseButton"] = ModelPreviewFrameCloseButton -- inherited
 ModelPreviewFrame["Bg"] = ModelPreviewFrameBg -- inherited
 ModelPreviewFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

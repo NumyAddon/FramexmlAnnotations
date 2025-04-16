@@ -3,7 +3,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L5)
 --- Template
 --- @class PlayerFrameBarSegmentTemplate : Frame
---- @field fillAtlas string # "UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status"
+--- @field fillAtlas string # UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L24)
 --- child of PlayerFrame
@@ -101,7 +101,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L245)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_ManaCostPredictionBar : Frame, ManaCostPredictionBarTemplate
---- @field fillAtlas string # "UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status"
+--- @field fillAtlas string # UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L250)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
@@ -146,17 +146,17 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L305)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_PlayerFrameAlternatePowerBarArea : Frame, SecureFrameParentPropagationTemplate
+--- @class PlayerFrameAlternatePowerBarArea : Frame, SecureFrameParentPropagationTemplate
 PlayerFrameAlternatePowerBarArea = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L74)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_PlayerName : FontString, GameFontNormalSmall
+--- @class PlayerName : FontString, GameFontNormalSmall
 PlayerName = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L80)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_PlayerLevelText : FontString, GameNormalNumberFont
+--- @class PlayerLevelText : FontString, GameNormalNumberFont
 PlayerLevelText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L71)
@@ -165,7 +165,7 @@ PlayerLevelText = {}
 --- @field HitIndicator PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HitIndicator
 --- @field HealthBarsContainer PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @field ManaBarArea PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea
---- @field AlternatePowerBarArea PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_PlayerFrameAlternatePowerBarArea
+--- @field AlternatePowerBarArea PlayerFrameAlternatePowerBarArea
 --- @field StatusTexture Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L371)
@@ -189,7 +189,7 @@ PlayerLevelText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L444)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_GroupIndicator_PlayerFrameGroupIndicatorText : FontString, GameFontHighlightSmall
+--- @class PlayerFrameGroupIndicatorText : FontString, GameFontHighlightSmall
 PlayerFrameGroupIndicatorText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L421)
@@ -200,7 +200,7 @@ PlayerFrameGroupIndicatorText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L363)
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
---- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerPVPTimerText : FontString, GameFontNormalSmall
+--- @class PlayerPVPTimerText : FontString, GameFontNormalSmall
 PlayerPVPTimerText = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L308)
@@ -218,7 +218,7 @@ PlayerPVPTimerText = {}
 --- @field PVPIcon Texture
 --- @field PrestigePortrait Texture
 --- @field PrestigeBadge Texture
---- @field PvpTimerText PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual_PlayerPVPTimerText
+--- @field PvpTimerText PlayerPVPTimerText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L69)
 --- child of PlayerFrame
@@ -229,27 +229,37 @@ PlayerPVPTimerText = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L14)
 --- @class PlayerFrame : Button, SecureUnitButtonTemplate, EditModePlayerFrameSystemTemplate, PingableType_UnitFrameMixin
 --- @field disablePortraitMask boolean # true
+--- @field frameType string # Player
 --- @field PlayerFrameContainer PlayerFrame_PlayerFrameContainer
 --- @field PlayerFrameContent PlayerFrame_PlayerFrameContent
 PlayerFrame = {}
 PlayerFrame["disablePortraitMask"] = true
-PlayerFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Player -- inherited
-PlayerFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
+PlayerFrame["frameType"] = "Player"
+PlayerFrame["systemIndex"] = _G["Enum.EditModeUnitFrameSystemIndices.Player"] -- inherited
+PlayerFrame["systemNameString"] = HUD_EDIT_MODE_PLAYER_FRAME_LABEL -- inherited
+PlayerFrame["system"] = _G["Enum.EditModeSystem.UnitFrame"] -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L467)
 --- Template
 --- @class PlayerFrameBottomManagedFrameTemplate : Frame, UIParentManagedFrameTemplate
 --- @field layoutParent any # PlayerFrameBottomManagedFramesContainer
+--- @field align string # center
+--- @field isPlayerFrameBottomManagedFrame boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L482)
 --- child of PlayerFrameManagedContainerTemplate
 --- @class PlayerFrameManagedContainerTemplate_BottomManagedLayoutContainer : Frame, HorizontalLayoutFrame
 --- @field layoutIndex number # 500
+--- @field spacing number # -10
+--- @field align string # center
+--- @field fixedWidth number # 160
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L475)
 --- Template
 --- @class PlayerFrameManagedContainerTemplate : Frame, VerticalLayoutFrame, UIParentManagedFrameContainerMixin
 --- @field spacing number # 2
+--- @field respectChildScale boolean # true
+--- @field minimumHeight number # 1
 --- @field BottomManagedLayoutContainer PlayerFrameManagedContainerTemplate_BottomManagedLayoutContainer
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L496)
@@ -258,4 +268,6 @@ PlayerFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 PlayerFrameBottomManagedFramesContainer = {}
 PlayerFrameBottomManagedFramesContainer["fixedWidth"] = 160
 PlayerFrameBottomManagedFramesContainer["spacing"] = 2 -- inherited
+PlayerFrameBottomManagedFramesContainer["respectChildScale"] = true -- inherited
+PlayerFrameBottomManagedFramesContainer["minimumHeight"] = 1 -- inherited
 

@@ -26,6 +26,7 @@
 --- child of AuctionHouseTableMoneyDisplayTemplate
 --- @class AuctionHouseTableMoneyDisplayTemplate_MoneyDisplay : Frame, MoneyDisplayFrameTemplate
 --- @field useAuctionHouseCopperValue boolean # true
+--- @field useAuctionHouseIcons boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseTableBuilder.xml#L36)
 --- Template
@@ -171,7 +172,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseTableBuilder.xml#L197)
 --- Template
 --- @class AuctionHouseTableCellItemQuantityRightTemplate : Frame, AuctionHouseTableCellItemQuantityLeftTemplate
---- @field justificationH string # "RIGHT"
+--- @field justificationH string # RIGHT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseTableBuilder.xml#L203)
 --- Template

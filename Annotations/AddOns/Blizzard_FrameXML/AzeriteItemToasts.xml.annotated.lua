@@ -4,6 +4,9 @@
 --- Template
 --- @class AzeriteUnlockedItemTemplate : ItemButton
 --- @field topPadding number # 0
+--- @field bottomPadding number # 0
+--- @field leftPadding number # 13
+--- @field rightPadding number # 13
 --- @field AzeriteTexture Texture
 --- @field icon Texture
 --- @field IconBorder Texture

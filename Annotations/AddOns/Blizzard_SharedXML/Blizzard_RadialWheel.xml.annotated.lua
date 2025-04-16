@@ -36,6 +36,7 @@
 --- child of RadialWheelFrameTemplate
 --- @class RadialWheelFrameTemplate_CancelButton : Frame, RadialWheelButtonTemplate
 --- @field ignoreScaleChangesOnSelect boolean # true
+--- @field enabledOverride boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Blizzard_RadialWheel.xml#L97)
 --- child of RadialWheelFrameTemplate_Cooldown

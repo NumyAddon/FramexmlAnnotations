@@ -33,6 +33,7 @@
 --- Template
 --- @class RuneButtonIndividualTemplate : Frame, RuneButtonMixin
 --- @field cooldownFillAnimBasisSeconds number # 8
+--- @field cooldownEndingOffsetSeconds number # 0.67
 --- @field Cooldown RuneButtonIndividualTemplate_Cooldown
 --- @field DepleteVisuals RuneButtonIndividualTemplate_DepleteVisuals
 --- @field BG_Shadow Texture
@@ -55,31 +56,37 @@
 --- child of RuneFrameTemplate
 --- @class RuneFrameTemplate_Rune1 : Frame, RuneButtonIndividualTemplate
 --- @field runeIndex number # 1
+--- @field layoutIndex number # 6
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L197)
 --- child of RuneFrameTemplate
 --- @class RuneFrameTemplate_Rune2 : Frame, RuneButtonIndividualTemplate
 --- @field runeIndex number # 2
+--- @field layoutIndex number # 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L203)
 --- child of RuneFrameTemplate
 --- @class RuneFrameTemplate_Rune3 : Frame, RuneButtonIndividualTemplate
 --- @field runeIndex number # 3
+--- @field layoutIndex number # 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L209)
 --- child of RuneFrameTemplate
 --- @class RuneFrameTemplate_Rune4 : Frame, RuneButtonIndividualTemplate
 --- @field runeIndex number # 4
+--- @field layoutIndex number # 3
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L215)
 --- child of RuneFrameTemplate
 --- @class RuneFrameTemplate_Rune5 : Frame, RuneButtonIndividualTemplate
 --- @field runeIndex number # 5
+--- @field layoutIndex number # 2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L221)
 --- child of RuneFrameTemplate
 --- @class RuneFrameTemplate_Rune6 : Frame, RuneButtonIndividualTemplate
 --- @field runeIndex number # 6
+--- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L186)
 --- Template
@@ -96,9 +103,21 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/RuneFrame.xml#L233)
 --- @class RuneFrame : Frame, RuneFrameTemplate
 --- @field layoutIndex number # 2
+--- @field topPadding number # 6
+--- @field leftPadding number # -5
+--- @field showTooltip boolean # true
+--- @field tooltip any # RUNES_TOOLTIP
+--- @field tooltipTitle any # COMBAT_TEXT_RUNE_DEATH
 RuneFrame = {}
 RuneFrame["layoutIndex"] = 2
-RuneFrame["spacing"] = _G["-1"] -- inherited
+RuneFrame["topPadding"] = 6
+RuneFrame["leftPadding"] = -5
+RuneFrame["showTooltip"] = true
+RuneFrame["tooltip"] = RUNES_TOOLTIP
+RuneFrame["tooltipTitle"] = COMBAT_TEXT_RUNE_DEATH
+RuneFrame["spacing"] = -1 -- inherited
 RuneFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+RuneFrame["align"] = "center" -- inherited
+RuneFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 RuneFrame["isManagedFrame"] = true -- inherited
 

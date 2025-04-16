@@ -17,7 +17,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXMLBase/AnimatedStatusBar.xml#L20)
 --- Template
 --- @class AnimatedStatusBarTemplate : StatusBar, AnimatedStatusBarMixin
---- @field tileTemplate string # "AnimatedStatusBarGlowLinesTemplate"
+--- @field tileTemplate string # AnimatedStatusBarGlowLinesTemplate
+--- @field tileTemplateWidth number # 37
+--- @field tileTemplateOverlap number # 0
+--- @field tileTemplateDelay number # .3
 --- @field BarGain Texture
 --- @field BarTrailGlow Texture
 --- @field BarGlow Texture

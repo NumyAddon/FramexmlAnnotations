@@ -9,11 +9,15 @@
 --- Template
 --- @class HorizontalDividerTemplate : Frame, NineSliceCodeTemplate
 --- @field ignoreInLayout boolean # true
+--- @field layoutType string # ThreeSliceVerticalLayout
+--- @field layoutTextureKit string # ui-hud-actionbar-frame-divider
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L20)
 --- Template
 --- @class VerticalDividerTemplate : Frame, NineSliceCodeTemplate
 --- @field ignoreInLayout boolean # true
+--- @field layoutType string # ThreeSliceHorizontalLayout
+--- @field layoutTextureKit string # ui-hud-actionbar-frame-divider
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L90)
 --- child of MainMenuBar
@@ -25,12 +29,12 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L130)
 --- child of MainMenuBar_ActionBarPageNumber
 --- @class MainMenuBar_ActionBarPageNumber_UpButton : Button, QuickKeybindButtonTemplate, MainActionBarUpButtonMixin
---- @field commandName string # "NEXTACTIONPAGE"
+--- @field commandName string # NEXTACTIONPAGE
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L147)
 --- child of MainMenuBar_ActionBarPageNumber
 --- @class MainMenuBar_ActionBarPageNumber_DownButton : Button, QuickKeybindButtonTemplate, MainActionBarDownButtonMixin
---- @field commandName string # "PREVIOUSACTIONPAGE"
+--- @field commandName string # PREVIOUSACTIONPAGE
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L121)
 --- child of MainMenuBar_ActionBarPageNumber
@@ -46,12 +50,16 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L167)
 --- child of MainMenuBar
---- @class MainMenuBar_MainMenuBarVehicleLeaveButton : Button, EditModeVehicleLeaveButtonSystemTemplate, MainMenuBarVehicleLeaveButtonMixin
+--- @class MainMenuBarVehicleLeaveButton : Button, EditModeVehicleLeaveButtonSystemTemplate, MainMenuBarVehicleLeaveButtonMixin
 --- @field ignoreInLayout boolean # true
+--- @field useDefaultAnchors any # ACTION_BARS_USE_DEFAULT_ANCHORS
 --- @field Highlight Texture
 MainMenuBarVehicleLeaveButton = {}
 MainMenuBarVehicleLeaveButton["ignoreInLayout"] = true
-MainMenuBarVehicleLeaveButton["system"] = Enum.EditModeSystem.VehicleLeaveButton -- inherited
+MainMenuBarVehicleLeaveButton["useDefaultAnchors"] = ACTION_BARS_USE_DEFAULT_ANCHORS
+MainMenuBarVehicleLeaveButton["system"] = _G["Enum.EditModeSystem.VehicleLeaveButton"] -- inherited
+MainMenuBarVehicleLeaveButton["systemNameString"] = HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL -- inherited
+MainMenuBarVehicleLeaveButton["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L51)
 --- child of MainMenuBar
@@ -60,10 +68,20 @@ MainMenuBarVehicleLeaveButton["system"] = Enum.EditModeSystem.VehicleLeaveButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L29)
 --- @class MainMenuBar : Frame, EditModeActionBarTemplate, MainMenuBarMixin
---- @field buttonTemplate string # "MainBarActionBarButtonTemplate"
+--- @field buttonTemplate string # MainBarActionBarButtonTemplate
+--- @field commandNamePrefix string # ACTION
+--- @field isHorizontal boolean # true
+--- @field numRows number # 1
+--- @field numButtons any # MAIN_MENU_BAR_NUM_BUTTONS
+--- @field addButtonsToTop boolean # true
+--- @field showGridEventName string # ACTIONBAR_SHOWGRID
+--- @field hideGridEventName string # ACTIONBAR_HIDEGRID
+--- @field systemIndex any # Enum.EditModeActionBarSystemIndices.MainBar
+--- @field hideEndCaps any # MAIN_MENU_BAR_HIDE_END_CAPS
+--- @field useDefaultAnchors any # ACTION_BARS_USE_DEFAULT_ANCHORS
 --- @field EndCaps MainMenuBar_EndCaps
 --- @field ActionBarPageNumber MainMenuBar_ActionBarPageNumber
---- @field VehicleLeaveButton MainMenuBar_MainMenuBarVehicleLeaveButton
+--- @field VehicleLeaveButton MainMenuBarVehicleLeaveButton
 --- @field BorderArt MainMenuBar_BorderArt
 --- @field QuickKeybindBottomShadow Texture
 --- @field QuickKeybindRightShadow Texture
@@ -72,5 +90,17 @@ MainMenuBarVehicleLeaveButton["system"] = Enum.EditModeSystem.VehicleLeaveButton
 MainMenuBar = {}
 MainMenuBar["VehicleLeaveButton"] = MainMenuBarVehicleLeaveButton
 MainMenuBar["buttonTemplate"] = "MainBarActionBarButtonTemplate"
-MainMenuBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MainMenuBar["commandNamePrefix"] = "ACTION"
+MainMenuBar["isHorizontal"] = true
+MainMenuBar["numRows"] = 1
+MainMenuBar["numButtons"] = MAIN_MENU_BAR_NUM_BUTTONS
+MainMenuBar["addButtonsToTop"] = true
+MainMenuBar["showGridEventName"] = "ACTIONBAR_SHOWGRID"
+MainMenuBar["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
+MainMenuBar["systemIndex"] = _G["Enum.EditModeActionBarSystemIndices.MainBar"]
+MainMenuBar["hideEndCaps"] = MAIN_MENU_BAR_HIDE_END_CAPS
+MainMenuBar["useDefaultAnchors"] = ACTION_BARS_USE_DEFAULT_ANCHORS
+MainMenuBar["system"] = _G["Enum.EditModeSystem.ActionBar"] -- inherited
+MainMenuBar["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
+MainMenuBar["addSystemIndexToName"] = true -- inherited
 

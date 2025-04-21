@@ -405,5 +405,8 @@ function EventToastScoreboardMixin:OnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1289)
 function EventToastScoreboardMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1302)
+function EventToastScoreboardMixin:OnEvent(event) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1312)
 function EventToastScoreboardMixin:OnHide() end

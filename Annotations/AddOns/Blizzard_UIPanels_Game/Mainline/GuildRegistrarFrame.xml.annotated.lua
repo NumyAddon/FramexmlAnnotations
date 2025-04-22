@@ -125,18 +125,18 @@ GuildRegistrarFrameBg = {}
 --- @class GuildRegistrarText : FontString, QuestFont
 GuildRegistrarText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L883)
 --- child of GuildRegistrarFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 GuildRegistrarFrameInset = {}
 GuildRegistrarFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L877)
 --- child of GuildRegistrarFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 GuildRegistrarFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L860)
 --- child of GuildRegistrarFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 GuildRegistrarFrameBg = {}

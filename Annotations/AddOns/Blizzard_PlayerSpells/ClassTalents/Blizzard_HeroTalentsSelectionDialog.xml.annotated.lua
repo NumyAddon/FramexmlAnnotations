@@ -17,12 +17,12 @@
 --- @class HeroTalentsSelectionDialog_DisabledOverlay : Frame
 --- @field GrayOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L983)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L706)
 --- child of HeroTalentsSelectionDialog (created in template DefaultPanelTemplate)
 --- @type Texture
 HeroTalentsSelectionDialogBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L991)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L714)
 --- child of HeroTalentsSelectionDialog (created in template DefaultPanelTemplate)
 --- @type DefaultPanelTemplate_TopTileStreaks
 HeroTalentsSelectionDialogTopTileStreaks = {}

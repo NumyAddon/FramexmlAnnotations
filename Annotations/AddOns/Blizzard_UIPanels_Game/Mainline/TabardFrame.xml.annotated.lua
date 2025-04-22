@@ -40,22 +40,22 @@ TabardModel = {}
 --- @class TabardFrameCostLabel : FontString, GameFontHighlight
 TabardFrameCostLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L102)
 --- child of TabardFrameCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_TrialErrorButton
 TabardFrameCostMoneyFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L130)
 --- child of TabardFrameCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 TabardFrameCostMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L154)
 --- child of TabardFrameCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 TabardFrameCostMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L178)
 --- child of TabardFrameCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 TabardFrameCostMoneyFrameGoldButton = {}
@@ -64,6 +64,7 @@ TabardFrameCostMoneyFrameGoldButton = {}
 --- child of TabardFrameCostFrame
 --- @class TabardFrameCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 TabardFrameCostMoneyFrame = {}
+TabardFrameCostMoneyFrame["small"] = 1 -- inherited
 TabardFrameCostMoneyFrame["trialErrorButton"] = TabardFrameCostMoneyFrameTrialErrorButton -- inherited
 TabardFrameCostMoneyFrame["CopperButton"] = TabardFrameCostMoneyFrameCopperButton -- inherited
 TabardFrameCostMoneyFrame["SilverButton"] = TabardFrameCostMoneyFrameSilverButton -- inherited
@@ -268,17 +269,17 @@ TabardFrameCustomizationFrame = {}
 TabardFrameMoneyInset = {}
 TabardFrameMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1353)
 --- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TabardFrameMoneyBgLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1492)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1361)
 --- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TabardFrameMoneyBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1500)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1369)
 --- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TabardFrameMoneyBgMiddle = {}
@@ -288,22 +289,22 @@ TabardFrameMoneyBgMiddle = {}
 --- @class TabardFrameMoneyBg : Frame, ThinGoldEdgeTemplate
 TabardFrameMoneyBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L102)
 --- child of TabardFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_TrialErrorButton
 TabardFrameMoneyFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L130)
 --- child of TabardFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 TabardFrameMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L154)
 --- child of TabardFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 TabardFrameMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L178)
 --- child of TabardFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 TabardFrameMoneyFrameGoldButton = {}
@@ -312,6 +313,7 @@ TabardFrameMoneyFrameGoldButton = {}
 --- child of TabardFrame
 --- @class TabardFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 TabardFrameMoneyFrame = {}
+TabardFrameMoneyFrame["small"] = 1 -- inherited
 TabardFrameMoneyFrame["trialErrorButton"] = TabardFrameMoneyFrameTrialErrorButton -- inherited
 TabardFrameMoneyFrame["CopperButton"] = TabardFrameMoneyFrameCopperButton -- inherited
 TabardFrameMoneyFrame["SilverButton"] = TabardFrameMoneyFrameSilverButton -- inherited
@@ -416,18 +418,18 @@ TabardFrameNameText = {}
 --- @class TabardFrameGreetingText : FontString, GameFontHighlight
 TabardFrameGreetingText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L883)
 --- child of TabardFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 TabardFrameInset = {}
 TabardFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L877)
 --- child of TabardFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 TabardFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L860)
 --- child of TabardFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 TabardFrameBg = {}

@@ -72,42 +72,42 @@
 --- child of StableFrame_PetModelScene
 --- @class StableFrame_PetModelScene_Inset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L166)
 --- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L171)
 --- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L179)
 --- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L187)
 --- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L195)
 --- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L201)
 --- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L207)
 --- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L213)
 --- child of StableFrame_PetModelScene_PetModelSceneShadow (created in template ShadowOverlayTemplate)
 --- @type Texture
 StableFrameRight = {}
@@ -210,12 +210,12 @@ StableFrameRight = {}
 --- child of StableFrame_StabledPetList
 --- @class StableFrame_StabledPetList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1239)
 --- child of StableFrame_StabledPetList_FilterBar_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 StableFrameClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1230)
 --- child of StableFrame_StabledPetList_FilterBar_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 StableFrameSearchIcon = {}
@@ -298,12 +298,12 @@ StableFrameSearchIcon = {}
 --- @field ListName StableFrame_ActivePetList_ListName
 --- @field PetButtons table<number, StableFrame_ActivePetList_PetButton1 | StableFrame_ActivePetList_PetButton2 | StableFrame_ActivePetList_PetButton3 | StableFrame_ActivePetList_PetButton4 | StableFrame_ActivePetList_PetButton5>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L830)
 --- child of StableFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 StableFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L797)
 --- child of StableFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 StableFrameBg = {}

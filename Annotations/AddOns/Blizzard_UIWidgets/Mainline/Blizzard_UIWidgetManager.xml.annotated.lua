@@ -32,5 +32,5 @@ UIWidgetManager = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetManager.xml#L63)
 --- Template
---- @class UIWidgetContainerTemplate : Frame, UIWidgetContainerNoResizeTemplate, ResizeLayoutFrame, UIWidgetContainerMixin
+--- @class UIWidgetContainerTemplate : Frame, UIWidgetContainerNoResizeTemplate, ResizeLayoutFrame, UIWidgetContainerResizeMixin
 

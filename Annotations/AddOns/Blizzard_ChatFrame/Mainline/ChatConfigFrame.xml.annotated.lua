@@ -767,7 +767,7 @@ CombatConfigColorsColorizeEntireLineCheckText = {}
 CombatConfigColorsColorizeEntireLineCheck = {}
 CombatConfigColorsColorizeEntireLineCheck["Text"] = CombatConfigColorsColorizeEntireLineCheckText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L455)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L334)
 --- child of CombatConfigColorsColorizeEntireLineBySource (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_Text
 CombatConfigColorsColorizeEntireLineBySourceText = {}
@@ -778,7 +778,7 @@ CombatConfigColorsColorizeEntireLineBySourceText = {}
 CombatConfigColorsColorizeEntireLineBySource = {}
 CombatConfigColorsColorizeEntireLineBySource["text"] = CombatConfigColorsColorizeEntireLineBySourceText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L455)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L334)
 --- child of CombatConfigColorsColorizeEntireLineByTarget (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_Text
 CombatConfigColorsColorizeEntireLineByTargetText = {}
@@ -1001,7 +1001,7 @@ TextToSpeechDefaultButton = {}
 TextToSpeechDefaultButton["fitTextCanWidthDecrease"] = true -- inherited
 TextToSpeechDefaultButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L501)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.xml#L380)
 --- child of TextToSpeechCharacterSpecificButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 TextToSpeechCharacterSpecificButtonText = {}

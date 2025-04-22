@@ -342,12 +342,12 @@
 --- @field Inset LFGListFrame_NothingAvailable_Inset
 --- @field Label LFGListFrame_NothingAvailable_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1239)
 --- child of LFGListFrame_SearchPanel_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 LFGListFrameClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1230)
 --- child of LFGListFrame_SearchPanel_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 LFGListFrameSearchIcon = {}

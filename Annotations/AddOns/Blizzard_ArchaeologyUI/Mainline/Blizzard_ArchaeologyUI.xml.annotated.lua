@@ -973,7 +973,7 @@ ArchaeologyFrameArtifactPage["artifactBG"] = ArchaeologyFrameArtifactPageArtifac
 --- child of ArchaeologyFrame
 --- @class ArchaeologyFrameInfoButton : Button, MainHelpPlateButton
 ArchaeologyFrameInfoButton = {}
-ArchaeologyFrameInfoButton["MainHelpPlateButtonTooltipText"] = MAIN_HELP_BUTTON_TOOLTIP -- inherited
+ArchaeologyFrameInfoButton["mainHelpPlateButtonTooltipText"] = MAIN_HELP_BUTTON_TOOLTIP -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L978)
 --- child of 
@@ -1024,18 +1024,18 @@ ArchaeologyFrameBgLeft = {}
 --- @class ArchaeologyFrameBgRight : Texture
 ArchaeologyFrameBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L883)
 --- child of ArchaeologyFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ArchaeologyFrameInset = {}
 ArchaeologyFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L877)
 --- child of ArchaeologyFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 ArchaeologyFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArchaeologyUI/Mainline/Blizzard_ArchaeologyUI.xml#L860)
 --- child of ArchaeologyFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ArchaeologyFrameBg = {}

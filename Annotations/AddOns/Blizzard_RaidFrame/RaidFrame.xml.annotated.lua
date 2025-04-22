@@ -43,18 +43,18 @@ RaidParentFrameTab1 = {}
 --- @class RaidParentFrameTab2 : Button, PanelTabButtonTemplate
 RaidParentFrameTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L883)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 RaidParentFrameInset = {}
 RaidParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L877)
 --- child of RaidParentFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 RaidParentFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L860)
 --- child of RaidParentFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 RaidParentFrameBg = {}
@@ -72,7 +72,7 @@ RaidParentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- child of RaidFrame
 --- @class RaidFrame_RoleCount : Frame, RoleCountTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L501)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L380)
 --- child of RaidFrameAllAssistCheckButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 RaidFrameAllAssistCheckButtonText = {}

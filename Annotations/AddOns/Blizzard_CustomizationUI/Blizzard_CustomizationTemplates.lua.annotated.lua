@@ -28,6 +28,10 @@ CustomizationFrameWithExpandableTooltipMixin = {}
 --- @class CustomizationClickOrHoldButtonMixin
 CustomizationClickOrHoldButtonMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L172)
+--- @class CustomizationNoHeaderTooltipMixin
+CustomizationNoHeaderTooltipMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L5)
 function CustomizationContentFrameMixin:SetCustomizationFrame(customizationFrame) end
 
@@ -90,3 +94,6 @@ function CustomizationClickOrHoldButtonMixin:OnMouseDown() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L166)
 function CustomizationClickOrHoldButtonMixin:OnMouseUp() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.lua#L174)
+function CustomizationNoHeaderTooltipMixin:OnLoad() end

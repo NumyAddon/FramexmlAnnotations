@@ -1,387 +1,412 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L138)
---- @class EventToastManagerFrameMixin : EventToastManagerMixin
-EventToastManagerFrameMixin = CreateFromMixins(EventToastManagerMixin)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L137)
+--- @class EventToastManagerFrameMixin : EventToastManagerMixin, OverrideLayoutFrameOnUpdateMixin
+EventToastManagerFrameMixin = CreateFromMixins(EventToastManagerMixin, OverrideLayoutFrameOnUpdateMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L393)
 --- @class EventToastManagerSideDisplayMixin : EventToastManagerMixin
 EventToastManagerSideDisplayMixin = CreateFromMixins(EventToastManagerMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L647)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L652)
 --- @class EventToastWeeklyRewardUpgradeToastMixin : EventToastWeeklyRewardToastMixin, ItemMixin
 EventToastWeeklyRewardUpgradeToastMixin = CreateFromMixins(EventToastWeeklyRewardToastMixin, ItemMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L794)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L802)
 --- @class EventToastManagerNormalTitleAndSubtitleMixin : EventToastManagerNormalMixin
 EventToastManagerNormalTitleAndSubtitleMixin = CreateFromMixins(EventToastManagerNormalMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L975)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L983)
 --- @class EventToastManagerNormalSingleLineMixin : EventToastManagerNormalMixin
 EventToastManagerNormalSingleLineMixin = CreateFromMixins(EventToastManagerNormalMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L985)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L993)
 --- @class EventToastManagerNormalBlockTextMixin : EventToastManagerNormalMixin
 EventToastManagerNormalBlockTextMixin = CreateFromMixins(EventToastManagerNormalMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L995)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1003)
 --- @class EventToastManagerCapstoneUnlockedMixin : EventToastManagerNormalMixin
 EventToastManagerCapstoneUnlockedMixin = CreateFromMixins(EventToastManagerNormalMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1018)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1026)
 --- @class EventToastManagerSingleLineWithIconMixin : EventToastManagerNormalMixin
 EventToastManagerSingleLineWithIconMixin = CreateFromMixins(EventToastManagerNormalMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L98)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L97)
 --- @class EventToastManagerMixin
 EventToastManagerMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L455)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L461)
 --- @class EventToastScenarioBaseToastMixin
 EventToastScenarioBaseToastMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L530)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L535)
 --- @class EventToastScenarioToastMixin
 EventToastScenarioToastMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L561)
 --- @class EventToastScenarioExpandToastMixin
 EventToastScenarioExpandToastMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L630)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L635)
 --- @class EventToastWeeklyRewardToastMixin
 EventToastWeeklyRewardToastMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L661)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L666)
 --- @class EventToastWithIconBaseMixin
 EventToastWithIconBaseMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L700)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L705)
 --- @class EventToastWithIconNormalMixin
 EventToastWithIconNormalMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L707)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L712)
 --- @class EventToastWithIconLargeTextMixin
 EventToastWithIconLargeTextMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L716)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L721)
 --- @class EventToastFlightpointDiscoveredMixin
 EventToastFlightpointDiscoveredMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L737)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L742)
 --- @class EventToastWithIconWithRarityMixin
 EventToastWithIconWithRarityMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L756)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L764)
 --- @class EventToastChallengeModeToastMixin
 EventToastChallengeModeToastMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L770)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L778)
 --- @class EventToastManagerNormalMixin
 EventToastManagerNormalMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1029)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1037)
 --- @class EventToastAnimationsMixin
 EventToastAnimationsMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1265)
 --- @class EventToastHideButtonMixin
 EventToastHideButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1271)
 --- @class EventToastWeeklyContentsMixin
 EventToastWeeklyContentsMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1277)
+--- @class EventToastScoreboardMixin
+EventToastScoreboardMixin = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L98)
 function EventToastManagerMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L106)
 function EventToastManagerMixin:ReleaseToasts() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L110)
 function EventToastManagerMixin:GetToastFrame(toastTable) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L116)
 function EventToastManagerMixin:ToastingEnded() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L119)
 function EventToastManagerMixin:SetAnimationState(hidden) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L122)
 function EventToastManagerMixin:PlayAnim() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L125)
 function EventToastManagerMixin:HideAnimatedLines() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L128)
 function EventToastManagerMixin:SetAnimStartDelay(delay) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L131)
 function EventToastManagerMixin:SetupGLineAtlas(useWhiteGLineAtlas) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L134)
 function EventToastManagerMixin:SetupBlackBGAtlas() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L139)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L138)
 function EventToastManagerFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L147)
 function EventToastManagerFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L155)
 function EventToastManagerFrameMixin:OnMouseDown(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L162)
 function EventToastManagerFrameMixin:UpdateAnchor(customOffsetX, customOffsetY) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L172)
 function EventToastManagerFrameMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L185)
+function EventToastManagerFrameMixin:SetHideAutomatically(hideAutomatically) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L190)
 function EventToastManagerFrameMixin:EnableBlackBGAnimation(enable) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L194)
 function EventToastManagerFrameMixin:SetupGLineAtlas(useWhiteGLineAtlas) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L202)
 function EventToastManagerFrameMixin:SetupBlackBGAtlas() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L208)
 function EventToastManagerFrameMixin:AreAnimationsPaused() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L212)
 function EventToastManagerFrameMixin:PauseAnimations() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L218)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L220)
 function EventToastManagerFrameMixin:ResumeAnimations() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L228)
 function EventToastManagerFrameMixin:CloseActiveToasts() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L239)
 function EventToastManagerFrameMixin:IsCurrentlyToasting() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L241)
-function EventToastManagerFrameMixin:OnUpdate() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L243)
+function EventToastManagerFrameMixin:NeedsOnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L247)
+function EventToastManagerFrameMixin:OverrideOnUpdate(_elapsed) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L256)
 function EventToastManagerFrameMixin:ShouldPause() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L260)
 function EventToastManagerFrameMixin:SetPaused(paused) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L258)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L264)
 function EventToastManagerFrameMixin:DisplayToastLink(chatFrame, link) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L272)
 function EventToastManagerFrameMixin:SetAnimStartDelay(delay) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L278)
 function EventToastManagerFrameMixin:SetAnimationState(hidden) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L282)
 function EventToastManagerFrameMixin:SetColorTint(colorTint) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L287)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L293)
 function EventToastManagerFrameMixin:SetupButton(uiTextureKit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L320)
 function EventToastManagerFrameMixin:DisplayToast(firstToast) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L361)
 function EventToastManagerFrameMixin:ToastingEnded() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L365)
 function EventToastManagerFrameMixin:DisplayNextToast() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L369)
 function EventToastManagerFrameMixin:AnimationsPaused() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L373)
 function EventToastManagerFrameMixin:PlayAnim() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L386)
 function EventToastManagerFrameMixin:StopToasting() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L389)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L395)
 function EventToastManagerSideDisplayMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L400)
 function EventToastManagerSideDisplayMixin:GetToastFrame(toastTable, isFirstToast) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L401)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L407)
 function EventToastManagerSideDisplayMixin:DisplayToastAtIndex(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L424)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L430)
 function EventToastManagerSideDisplayMixin:DisplayNextToast() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L434)
 function EventToastManagerSideDisplayMixin:DisplayToastsByLevel(level) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L442)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L448)
 function EventToastManagerSideDisplayMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L448)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L454)
 function EventToastManagerSideDisplayMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L457)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L463)
 function EventToastScenarioBaseToastMixin:SetupTextureKitOffsets(uiTextureKit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L472)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L478)
 function EventToastScenarioBaseToastMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L509)
 function EventToastScenarioBaseToastMixin:OnAnimFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L508)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L513)
 function EventToastScenarioBaseToastMixin:PlayAnim() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L520)
 function EventToastScenarioBaseToastMixin:SetupGLineAtlas(useWhiteGLineAtlas) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L528)
 function EventToastScenarioBaseToastMixin:SetupBlackBGAtlas() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L532)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L537)
 function EventToastScenarioToastMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L547)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L552)
 function EventToastScenarioToastMixin:OnAnimFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L557)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L562)
 function EventToastScenarioBaseToastMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L562)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L567)
 function EventToastScenarioExpandToastMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L588)
 function EventToastScenarioExpandToastMixin:OnAnimFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L591)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L596)
 function EventToastScenarioExpandToastMixin:OnClick(button, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L632)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L637)
 function EventToastWeeklyRewardToastMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L644)
 function EventToastWeeklyRewardToastMixin:ShowToast() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L649)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L654)
 function EventToastWeeklyRewardUpgradeToastMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L663)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L668)
 function EventToastWithIconBaseMixin:OnAnimFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L667)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L672)
 function EventToastWithIconBaseMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L701)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L706)
 function EventToastWithIconNormalMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L708)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L713)
 function EventToastWithIconLargeTextMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L717)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L722)
 function EventToastFlightpointDiscoveredMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L724)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L729)
 function EventToastFlightpointDiscoveredMixin:SetupGLineAtlas(useWhiteGLineAtlas) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L738)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L743)
 function EventToastWithIconWithRarityMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L757)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L765)
 function EventToastChallengeModeToastMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L771)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L779)
 function EventToastManagerNormalMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L782)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L790)
 function EventToastManagerNormalMixin:OnAnimFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L787)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L795)
 function EventToastManagerNormalMixin:AnchorWidgetFrame(frame, customOffsetY) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L885)
 function EventToastManagerNormalTitleAndSubtitleMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L976)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L984)
 function EventToastManagerNormalSingleLineMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L986)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L994)
 function EventToastManagerNormalBlockTextMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L996)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1004)
 function EventToastManagerCapstoneUnlockedMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1009)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1017)
 function EventToastManagerCapstoneUnlockedMixin:SetupGLineAtlas(useWhiteGLineAtlas) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1019)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1027)
 function EventToastManagerSingleLineWithIconMixin:Setup(toastInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1031)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1039)
 function EventToastAnimationsMixin:SetupSideDisplayToast(isFirstToast) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1040)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1048)
 function EventToastAnimationsMixin:OnAnimFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1043)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1051)
 function EventToastAnimationsMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1067)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1075)
 function EventToastAnimationsMixin:SetAnimInStartDelay(delay) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1082)
 function EventToastAnimationsMixin:SetAnimInEndDelay(delay) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1083)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1091)
 function EventToastAnimationsMixin:SetAnimOutStartDelay(delay) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1090)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1098)
 function EventToastAnimationsMixin:SetAnimOutDuration(delay) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1097)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1105)
 function EventToastAnimationsMixin:ResetAnimations() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1109)
 function EventToastAnimationsMixin:PauseAnimations() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1124)
 function EventToastAnimationsMixin:ResumeAnimations() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1134)
 function EventToastAnimationsMixin:BannerPlay() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1174)
 function EventToastAnimationsMixin:AnimIn() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1190)
 function EventToastAnimationsMixin:OnAnimatedIn() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1187)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1198)
 function EventToastAnimationsMixin:AnimOut() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1210)
 function EventToastAnimationsMixin:OnAnimatedOut() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1217)
 function EventToastAnimationsMixin:SetSuppressAnimOut(suppressAnimOut) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1222)
 function EventToastAnimationsMixin:ShouldSuppressAnimOut() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1215)
-function EventToastAnimationsMixin:MouseOverTitle() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1226)
+function EventToastAnimationsMixin:SetSkipParentAnim(skipParentAnim) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1230)
+function EventToastAnimationsMixin:MouseOverTitle() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1245)
 function EventToastAnimationsMixin:MouseOverSubTitle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1246)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1261)
 function EventToastAnimationsMixin:MouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1251)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1266)
 function EventToastHideButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1258)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1273)
 function EventToastWeeklyContentsMixin:OnMouseDown(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1279)
+function EventToastScoreboardMixin:OnLoad() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1289)
+function EventToastScoreboardMixin:Setup(toastInfo) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1302)
+function EventToastScoreboardMixin:OnEvent(event) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1312)
+function EventToastScoreboardMixin:OnHide() end

@@ -171,7 +171,7 @@ CustomizationNoHeaderTooltipTexture29 = {}
 CustomizationNoHeaderTooltipTexture30 = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L3)
---- @class CustomizationNoHeaderTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate
+--- @class CustomizationNoHeaderTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate, CustomizationNoHeaderTooltipMixin
 --- @field textLeft1Font string # GameFontNormalMed2
 --- @field textRight1Font string # GameFontNormalMed2
 --- @field textLeft2Font string # GameFontNormalMed2
@@ -187,19 +187,19 @@ CustomizationNoHeaderTooltip["TextRight1"] = CustomizationNoHeaderTooltipTextRig
 CustomizationNoHeaderTooltip["TextLeft2"] = CustomizationNoHeaderTooltipTextLeft2 -- inherited
 CustomizationNoHeaderTooltip["TextRight2"] = CustomizationNoHeaderTooltipTextRight2 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L15)
 --- Template
 --- @class CustomizationBaseButtonTemplate : Button, CustomizationBaseButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L21)
 --- Template
 --- @class CustomizationFrameWithTooltipTemplate : Frame, RingedFrameWithTooltipTemplate, CustomizationFrameWithTooltipMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L22)
 --- Template
 --- @class CustomizationMaskedButtonTemplate : CheckButton, CustomizationBaseButtonTemplate, RingedMaskedButtonTemplate, CustomizationMaskedButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L24)
 --- Template
 --- @class CustomizationSmallButtonTemplate : Button, CustomizationBaseButtonTemplate, CustomizationFrameWithTooltipTemplate, CustomizationSmallButtonMixin
 --- @field tooltipAnchor string # ANCHOR_BOTTOMRIGHT
@@ -211,7 +211,7 @@ CustomizationNoHeaderTooltip["TextRight2"] = CustomizationNoHeaderTooltipTextRig
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L63)
 --- Template
 --- @class CustomizationClickOrHoldButtonTemplate : Button, CustomizationSmallButtonTemplate, CustomizationClickOrHoldButtonMixin
 --- @field holdWaitTimeSeconds number # 0.25

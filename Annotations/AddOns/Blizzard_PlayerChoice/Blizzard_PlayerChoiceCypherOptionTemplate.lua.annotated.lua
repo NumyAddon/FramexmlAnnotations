@@ -10,5 +10,5 @@ function PlayerChoiceCypherOptionTemplateMixin:CypherChoiceOnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.lua#L77)
 function PlayerChoiceCypherOptionTemplateMixin:GetRarityDescriptionString() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.lua#L86)
 function PlayerChoiceCypherOptionTemplateMixin:GetTextureKitRegionTable() end

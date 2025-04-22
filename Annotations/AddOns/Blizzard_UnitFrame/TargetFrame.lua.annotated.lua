@@ -139,7 +139,7 @@ function BossTargetFrameMixin:OnLoad() end
 function BossTargetFrameMixin:OnShow() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1299)
-function BossTargetFrameMixin:OnHide() end
+function BossTargetFrameMixin:BossTarget_OnHide() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1303)
 function BossTargetFrameMixin:ShouldShow() end

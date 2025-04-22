@@ -27,16 +27,16 @@ function StanceBarMixin:UpdateState() end
 function StanceBarMixin:Select(id) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StanceBar.lua#L88)
-function StanceButtonMixin:OnLoad() end
+function StanceButtonMixin:StanceButtonMixin_OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StanceBar.lua#L93)
-function StanceButtonMixin:OnClick() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StanceBar.lua#L95)
+function StanceButtonMixin:StanceButtonMixin_OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StanceBar.lua#L100)
-function StanceButtonMixin:OnEnter() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StanceBar.lua#L104)
+function StanceButtonMixin:StanceButtonMixin_OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StanceBar.lua#L110)
-function StanceButtonMixin:OnLeave() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StanceBar.lua#L117)
+function StanceButtonMixin:StanceButtonMixin_OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StanceBar.lua#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StanceBar.lua#L125)
 function StanceButtonMixin:HasAction() end

@@ -8,7 +8,7 @@ LootJournalItemsMixin = { }
 --- @class LootJournalItemSetsMixin
 LootJournalItemSetsMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L271)
 --- @class LootJournalItemSetButtonMixin
 LootJournalItemSetButtonMixin = {}
 
@@ -75,8 +75,8 @@ function LootJournalItemSetsMixin:OnEvent(event, ...) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L216)
 function LootJournalItemSetsMixin:ConfigureItemButton(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L244)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L249)
 function LootJournalItemSetsMixin:UpdateList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_LootJournalItems.lua#L273)
 function LootJournalItemSetButtonMixin:Init(elementData, configureItemButton) end

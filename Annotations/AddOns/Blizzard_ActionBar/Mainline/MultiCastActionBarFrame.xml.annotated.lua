@@ -95,7 +95,7 @@ MultiCastSummonSpellButtonName = {}
 --- @type Texture
 MultiCastSummonSpellButtonBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastSummonSpellButton (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastSummonSpellButtonNormalTexture = {}
@@ -168,7 +168,7 @@ MultiCastActionButton1Name = {}
 --- @type Texture
 MultiCastActionButton1Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton1 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton1NormalTexture = {}
@@ -219,7 +219,7 @@ MultiCastActionButton2Name = {}
 --- @type Texture
 MultiCastActionButton2Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton2 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton2NormalTexture = {}
@@ -270,7 +270,7 @@ MultiCastActionButton3Name = {}
 --- @type Texture
 MultiCastActionButton3Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton3 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton3NormalTexture = {}
@@ -321,7 +321,7 @@ MultiCastActionButton4Name = {}
 --- @type Texture
 MultiCastActionButton4Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton4 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton4NormalTexture = {}
@@ -377,7 +377,7 @@ MultiCastActionButton5Name = {}
 --- @type Texture
 MultiCastActionButton5Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton5 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton5NormalTexture = {}
@@ -428,7 +428,7 @@ MultiCastActionButton6Name = {}
 --- @type Texture
 MultiCastActionButton6Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton6 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton6NormalTexture = {}
@@ -479,7 +479,7 @@ MultiCastActionButton7Name = {}
 --- @type Texture
 MultiCastActionButton7Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton7 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton7NormalTexture = {}
@@ -530,7 +530,7 @@ MultiCastActionButton8Name = {}
 --- @type Texture
 MultiCastActionButton8Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton8 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton8NormalTexture = {}
@@ -586,7 +586,7 @@ MultiCastActionButton9Name = {}
 --- @type Texture
 MultiCastActionButton9Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton9 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton9NormalTexture = {}
@@ -637,7 +637,7 @@ MultiCastActionButton10Name = {}
 --- @type Texture
 MultiCastActionButton10Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton10 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton10NormalTexture = {}
@@ -688,7 +688,7 @@ MultiCastActionButton11Name = {}
 --- @type Texture
 MultiCastActionButton11Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton11 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton11NormalTexture = {}
@@ -739,7 +739,7 @@ MultiCastActionButton12Name = {}
 --- @type Texture
 MultiCastActionButton12Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastActionButton12 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton12NormalTexture = {}
@@ -805,7 +805,7 @@ MultiCastRecallSpellButtonName = {}
 --- @type Texture
 MultiCastRecallSpellButtonBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiCastActionBarFrame.xml#L406)
 --- child of MultiCastRecallSpellButton (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastRecallSpellButtonNormalTexture = {}
@@ -842,6 +842,7 @@ MultiCastActionBarFrame["align"] = "left"
 MultiCastActionBarFrame["layoutOnBottom"] = true
 MultiCastActionBarFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 MultiCastActionBarFrame["hideWhenActionBarIsOverriden"] = true -- inherited
+MultiCastActionBarFrame["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 MultiCastActionBarFrame["isBottomManagedFrame"] = true -- inherited
 MultiCastActionBarFrame["isManagedFrame"] = true -- inherited
 

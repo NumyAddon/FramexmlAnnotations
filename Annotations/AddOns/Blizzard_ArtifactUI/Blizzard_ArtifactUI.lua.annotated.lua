@@ -4,7 +4,7 @@
 --- @class ArtifactUIMixin
 ArtifactUIMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L302)
 --- @class ArtifactFrameUnderlayMixin
 ArtifactFrameUnderlayMixin = {}
 
@@ -41,17 +41,17 @@ function ArtifactUIMixin:RefreshKnowledgeRanks() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L247)
 function ArtifactUIMixin:OnKnowledgeEnter(knowledgeFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L261)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L265)
 function ArtifactUIMixin:OnKnowledgeLeave(knowledgeFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L270)
 function ArtifactUIMixin:OnInventoryItemMouseEnter(bag, slot) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L285)
 function ArtifactUIMixin:OnInventoryItemMouseLeave(bag, slot) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L308)
 function ArtifactFrameUnderlayMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L317)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.lua#L321)
 function ArtifactFrameUnderlayMixin:CalculateDeltas() end

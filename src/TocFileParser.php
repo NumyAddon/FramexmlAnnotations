@@ -131,7 +131,7 @@ class TocFileParser
     private function allowLoadGameType(string $gameTypes): bool
     {
         $gameTypesForFlavor = array_map(strtolower(...), $this->getGameTypesForFlavor($this->flavor));
-        $allowedGameTypes = explode(',', strtolower(str_replace(' ', '', $gameTypes)));
+        $allowedGameTypes = explode(',', strtolower(str_replace([' ', ':'], '', $gameTypes)));
         foreach ($allowedGameTypes as $gameType) {
             if (in_array($gameType, $gameTypesForFlavor)) {
                 return true;

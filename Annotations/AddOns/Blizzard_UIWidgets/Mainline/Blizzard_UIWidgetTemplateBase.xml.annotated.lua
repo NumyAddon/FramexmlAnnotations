@@ -249,3 +249,11 @@
 --- @field Frame Texture
 --- @field GlowPulseAnim UIWidgetBaseIconTemplate_GlowPulseAnim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L547)
+--- Template
+--- @class UIWidgetBaseButtonTemplate : Button, UIWidgetTemplateTooltipFrame, UIWidgetBaseButtonTemplateMixin
+--- @field Icon Texture
+--- @field NormalTexture Texture
+--- @field HighlightTexture Texture
+--- @field PushedTexture Texture
+

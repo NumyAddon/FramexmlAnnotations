@@ -63,76 +63,45 @@
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L226)
---- child of MountJournalSummonRandomFavoriteButton
---- @class MountJournalSummonRandomFavoriteButtonIconTexture : Texture
-MountJournalSummonRandomFavoriteButtonIconTexture = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L234)
---- child of MountJournalSummonRandomFavoriteButton
---- @class MountJournalSummonRandomFavoriteButtonBorder : Texture, ActionBarFlyoutButton_IconFrame
-MountJournalSummonRandomFavoriteButtonBorder = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L240)
---- child of MountJournalSummonRandomFavoriteButton
---- @class MountJournalSummonRandomFavoriteButtonLockIcon : Texture
-MountJournalSummonRandomFavoriteButtonLockIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L241)
---- child of MountJournalSummonRandomFavoriteButton
---- @class MountJournalSummonRandomFavoriteButtonSpellName : FontString, GameFontNormal
-MountJournalSummonRandomFavoriteButtonSpellName = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L258)
---- child of MountJournalSummonRandomFavoriteButton
---- @class MountJournalSummonRandomFavoriteButtonHighlight : Texture
-MountJournalSummonRandomFavoriteButtonHighlight = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L219)
 --- child of MountJournal
---- @class MountJournalSummonRandomFavoriteButton : Button, SecureFrameTemplate, MountJournalSummonRandomFavoriteButtonMixin
---- @field texture MountJournalSummonRandomFavoriteButtonIconTexture
---- @field BlackCover Texture
---- @field LockIcon MountJournalSummonRandomFavoriteButtonLockIcon
---- @field spellname MountJournalSummonRandomFavoriteButtonSpellName
-MountJournalSummonRandomFavoriteButton = {}
-MountJournalSummonRandomFavoriteButton["texture"] = MountJournalSummonRandomFavoriteButtonIconTexture
-MountJournalSummonRandomFavoriteButton["LockIcon"] = MountJournalSummonRandomFavoriteButtonLockIcon
-MountJournalSummonRandomFavoriteButton["spellname"] = MountJournalSummonRandomFavoriteButtonSpellName
+--- @class MountJournal_SummonRandomFavoriteSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, MountJournalSummonRandomFavoriteSpellFrameMixin
+--- @field spellID number # 150544
+--- @field labelText any # MOUNT_JOURNAL_SUMMON_RANDOM_FAVORITE_MOUNT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L270)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L239)
 --- child of MountJournal_ToggleDynamicFlightFlyoutButton
 --- @class MountJournal_ToggleDynamicFlightFlyoutButton_Border : Texture, ActionBarFlyoutButton_IconFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L262)
 --- child of MountJournal_ToggleDynamicFlightFlyoutButton
 --- @class MountJournal_ToggleDynamicFlightFlyoutButton_UnspentGlyphsAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L229)
 --- child of MountJournal
 --- @class MountJournal_ToggleDynamicFlightFlyoutButton : Button, FlyoutButtonTemplate, MountJournalToggleDynamicFlightFlyoutButtonMixin
 --- @field Border MountJournal_ToggleDynamicFlightFlyoutButton_Border
 --- @field UnspentGlyphsHighlight Texture
 --- @field UnspentGlyphsAnim MountJournal_ToggleDynamicFlightFlyoutButton_UnspentGlyphsAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L330)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L299)
 --- child of MountJournal_DynamicFlightFlyoutPopup_OpenDynamicFlightSkillTreeButton
 --- @class MountJournal_DynamicFlightFlyoutPopup_OpenDynamicFlightSkillTreeButton_UnspentGlyphsAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L281)
 --- child of MountJournal_DynamicFlightFlyoutPopup
 --- @class MountJournal_DynamicFlightFlyoutPopup_OpenDynamicFlightSkillTreeButton : Button, DynamicFlightFlyoutPopupButtonTemplate, MountJournalOpenDynamicFlightSkillTreeButtonMixin
 --- @field layoutIndex number # 0
 --- @field UnspentGlyphsHighlight Texture
 --- @field UnspentGlyphsAnim MountJournal_DynamicFlightFlyoutPopup_OpenDynamicFlightSkillTreeButton_UnspentGlyphsAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L311)
 --- child of MountJournal_DynamicFlightFlyoutPopup
 --- @class MountJournal_DynamicFlightFlyoutPopup_DynamicFlightModeButton : Button, DynamicFlightFlyoutPopupButtonTemplate, MountJournalDynamicFlightModeButtonMixin
 --- @field layoutIndex number # 1
 --- @field texture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L275)
 --- child of MountJournal
 --- @class MountJournal_DynamicFlightFlyoutPopup : Frame, FlyoutPopupTemplate, VerticalLayoutFrame
 --- @field topPadding number # 8
@@ -140,27 +109,27 @@ MountJournalSummonRandomFavoriteButton["spellname"] = MountJournalSummonRandomFa
 --- @field OpenDynamicFlightSkillTreeButton MountJournal_DynamicFlightFlyoutPopup_OpenDynamicFlightSkillTreeButton
 --- @field DynamicFlightModeButton MountJournal_DynamicFlightFlyoutPopup_DynamicFlightModeButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L364)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L333)
 --- child of MountJournal
 --- @class MountJournal_LeftInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L347)
 --- child of MountJournal_BottomLeftInset
 --- @class MountJournal_BottomLeftInset_SlotButton : Button, MountEquipmentButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L383)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L352)
 --- child of MountJournal_BottomLeftInset
 --- @class MountJournal_BottomLeftInset_SuppressedMountEquipmentButton : Button, SuppressedMountEquipmentButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L412)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L381)
 --- child of MountJournal_BottomLeftInset
 --- @class MountJournal_BottomLeftInset_SlotLabel : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L388)
 --- child of MountJournal_BottomLeftInset
 --- @class MountJournal_BottomLeftInset_SlotRequirementLabel : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L340)
 --- child of MountJournal
 --- @class MountJournal_BottomLeftInset : Frame, InsetFrameTemplate
 --- @field SlotButton MountJournal_BottomLeftInset_SlotButton
@@ -170,7 +139,7 @@ MountJournalSummonRandomFavoriteButton["spellname"] = MountJournalSummonRandomFa
 --- @field SlotLabel MountJournal_BottomLeftInset_SlotLabel
 --- @field SlotRequirementLabel MountJournal_BottomLeftInset_SlotRequirementLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L397)
 --- child of MountJournal
 --- @class MountJournal_RightInset : Frame, InsetFrameTemplate
 
@@ -184,7 +153,7 @@ MountJournalSearchBoxClearButton = {}
 --- @type Texture
 MountJournalSearchBoxSearchIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L434)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L403)
 --- child of MountJournal
 --- @class MountJournalSearchBox : EditBox, SearchBoxTemplate
 MountJournalSearchBox = {}
@@ -192,20 +161,20 @@ MountJournalSearchBox["instructionText"] = SEARCH -- inherited
 MountJournalSearchBox["clearButton"] = MountJournalSearchBoxClearButton -- inherited
 MountJournalSearchBox["searchIcon"] = MountJournalSearchBoxSearchIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L444)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L413)
 --- child of MountJournal
 --- @class MountJournal_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 --- @field resizeToText boolean # false
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L459)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L428)
 --- child of MountJournal_MountCount
 --- @class MountJournal_MountCount_Count : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L464)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L433)
 --- child of MountJournal_MountCount
 --- @class MountJournal_MountCount_Label : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L452)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L421)
 --- child of MountJournal
 --- @class MountJournal_MountCount : Frame, InsetFrameTemplate3
 --- @field Count MountJournal_MountCount_Count
@@ -251,35 +220,35 @@ MountJournalLeft = {}
 --- @type Texture
 MountJournalRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L497)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L466)
 --- child of MountJournal_MountDisplay
 --- @class MountJournal_MountDisplay_ShadowOverlay : Frame, ShadowOverlayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L508)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L477)
 --- child of MountJournal_MountDisplay_InfoButton
 --- @class MountJournalIcon : Texture
 MountJournalIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L485)
 --- child of MountJournal_MountDisplay_InfoButton
 --- @class MountJournalName : FontString, GameFontHighlightLarge
 MountJournalName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L491)
 --- child of MountJournal_MountDisplay_InfoButton
 --- @class MountJournalSource : FontString, GameFontHighlight
 MountJournalSource = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L497)
 --- child of MountJournal_MountDisplay_InfoButton
 --- @class MountJournalLore : FontString, GameFontNormal
 MountJournalLore = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L505)
 --- child of MountJournal_MountDisplay_InfoButton
 --- @class MountJournal_MountDisplay_InfoButton_New : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L498)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L467)
 --- child of MountJournal_MountDisplay
 --- @class MountJournal_MountDisplay_InfoButton : Button, InlineHyperlinkFrameTemplate
 --- @field hasIconHyperlinks boolean # true
@@ -290,11 +259,11 @@ MountJournalLore = {}
 --- @field New MountJournal_MountDisplay_InfoButton_New
 --- @field NewGlow Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L560)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L529)
 --- child of MountJournal_MountDisplay_ModelScene
 --- @class MountJournal_MountDisplay_ModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L573)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L542)
 --- child of MountJournal_MountDisplay_ModelScene_TogglePlayer
 --- @class MountJournal_MountDisplay_ModelScene_TogglePlayer_TogglePlayerText : FontString, GameFontNormalSmall
 
@@ -303,22 +272,22 @@ MountJournalLore = {}
 --- @type UICheckButtonTemplate_Text
 MountJournalText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L565)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L534)
 --- child of MountJournal_MountDisplay_ModelScene
 --- @class MountJournal_MountDisplay_ModelScene_TogglePlayer : CheckButton, UICheckButtonTemplate, PlayerPreviewToggle
 --- @field TogglePlayerText MountJournal_MountDisplay_ModelScene_TogglePlayer_TogglePlayerText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L523)
 --- child of MountJournal_MountDisplay
 --- @class MountJournal_MountDisplay_ModelScene : ModelScene, WrappedAndUnwrappedModelScene
 --- @field ControlFrame MountJournal_MountDisplay_ModelScene_ControlFrame
 --- @field TogglePlayer MountJournal_MountDisplay_ModelScene_TogglePlayer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L488)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L457)
 --- child of MountJournal_MountDisplay
 --- @class MountJournal_MountDisplay_NoMounts : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L473)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L442)
 --- child of MountJournal
 --- @class MountJournal_MountDisplay : Frame
 --- @field ShadowOverlay MountJournal_MountDisplay_ShadowOverlay
@@ -328,15 +297,15 @@ MountJournalText = {}
 --- @field NoMountsTex Texture
 --- @field NoMounts MountJournal_MountDisplay_NoMounts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L568)
 --- child of MountJournal
 --- @class MountJournal_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L575)
 --- child of MountJournal
 --- @class MountJournal_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L613)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L582)
 --- child of MountJournal
 --- @class MountJournalMountButton : Button, MagicButtonTemplate
 MountJournalMountButton = {}
@@ -345,7 +314,7 @@ MountJournalMountButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L217)
 --- @class MountJournal : Frame
---- @field SummonRandomFavoriteButton MountJournalSummonRandomFavoriteButton
+--- @field SummonRandomFavoriteSpellFrame MountJournal_SummonRandomFavoriteSpellFrame
 --- @field ToggleDynamicFlightFlyoutButton MountJournal_ToggleDynamicFlightFlyoutButton
 --- @field DynamicFlightFlyoutPopup MountJournal_DynamicFlightFlyoutPopup
 --- @field LeftInset MountJournal_LeftInset
@@ -359,7 +328,6 @@ MountJournalMountButton["fitTextWidthPadding"] = 40 -- inherited
 --- @field ScrollBar MountJournal_ScrollBar
 --- @field MountButton MountJournalMountButton
 MountJournal = {}
-MountJournal["SummonRandomFavoriteButton"] = MountJournalSummonRandomFavoriteButton
 MountJournal["searchBox"] = MountJournalSearchBox
 MountJournal["MountButton"] = MountJournalMountButton
 

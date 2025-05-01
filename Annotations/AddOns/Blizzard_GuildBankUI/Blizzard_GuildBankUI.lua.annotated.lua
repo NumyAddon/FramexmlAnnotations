@@ -28,7 +28,7 @@ GuildBankFrameWithdrawButtonMixin = {}
 --- @class GuildBankItemButtonMixin
 GuildBankItemButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L814)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L822)
 --- @class GuildBankPopupFrameMixin
 GuildBankPopupFrameMixin = {}
 
@@ -137,17 +137,17 @@ function GuildBankItemButtonMixin:OnReceiveDrag() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L742)
 function GuildBankItemButtonMixin:OnEvent() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L817)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L825)
 function GuildBankPopupFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L847)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L855)
 function GuildBankPopupFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L852)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L860)
 function GuildBankPopupFrameMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L876)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L884)
 function GuildBankPopupFrameMixin:CancelButton_OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.lua#L889)
 function GuildBankPopupFrameMixin:OkayButton_OnClick() end

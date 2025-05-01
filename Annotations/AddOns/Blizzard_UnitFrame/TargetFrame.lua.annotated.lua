@@ -32,7 +32,7 @@ BossTargetFrameMixin = {}
 --- @class BossTargetFrameContainerMixin
 BossTargetFrameContainerMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1409)
 --- @class FocusFrameMixin
 FocusFrameMixin = {}
 
@@ -151,22 +151,28 @@ function BossTargetFrameMixin:UpdateShownState() end
 function BossTargetFrameMixin:SetCastBarPosition(castBarOnSide) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1331)
+function BossTargetFrameContainerMixin:OnLoad() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1336)
+function BossTargetFrameContainerMixin:OnEvent(event, ...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1340)
 function BossTargetFrameContainerMixin:UpdateSize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1370)
 function BossTargetFrameContainerMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1375)
 function BossTargetFrameContainerMixin:SetSmallSize(smallSize) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1389)
 function BossTargetFrameContainerMixin:SetCastBarPosition(castBarOnSide) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1420)
 function FocusFrameMixin:IsLocked() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1415)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1424)
 function FocusFrameMixin:SetLock(locked) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.lua#L1428)
 function FocusFrameMixin:SetSmallSize(smallSize) end

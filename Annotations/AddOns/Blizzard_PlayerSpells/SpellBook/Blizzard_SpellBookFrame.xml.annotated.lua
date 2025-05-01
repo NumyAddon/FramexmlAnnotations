@@ -14,29 +14,35 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L74)
 --- child of SpellBookFrameTemplate
---- @class SpellBookFrameTemplate_HidePassivesCheckButton : Frame, ResizeCheckButtonTemplate
---- @field labelText any # SPELLBOOK_FILTER_PASSIVES
---- @field labelFont string # GameFontNormalMed2
---- @field disabledLabelFont string # GameFontDisableMed2
+--- @class SpellBookFrameTemplate_SettingsDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L79)
+--- child of SpellBookFrameTemplate
+--- @class SpellBookFrameTemplate_AssistedCombatRotationSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, AssistedCombatRotationSpellFrameMixin
+--- @field labelText any # ASSISTED_COMBAT_ROTATION_SPELLBOOK_LABEL
+--- @field resizeToText boolean # true
+--- @field textPadLeft number # 13
+--- @field textPadRight number # 5
+--- @field tooltipAnchor string # ANCHOR_BOTTOMLEFT
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L101)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_SearchBox : EditBox, SpellSearchBoxTemplate
 --- @field instructionText any # SPELLBOOK_SEARCH_INSTRUCTIONS
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L110)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_SearchPreviewContainer : Frame, SpellSearchPreviewContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L132)
 --- child of SpellBookFrameTemplate_PagedSpellsFrame
 --- @class SpellBookFrameTemplate_PagedSpellsFrame_View1 : Frame, StaticGridLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L138)
 --- child of SpellBookFrameTemplate_PagedSpellsFrame
 --- @class SpellBookFrameTemplate_PagedSpellsFrame_View2 : Frame, StaticGridLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L144)
 --- child of SpellBookFrameTemplate_PagedSpellsFrame
 --- @class SpellBookFrameTemplate_PagedSpellsFrame_PagingControls : Frame, PagingControlsHorizontalTemplate
 --- @field fontName string # SystemFont_Med3
@@ -45,7 +51,7 @@
 --- @field prevPageSound any # SOUNDKIT.IG_ABILITY_PAGE_TURN
 --- @field nextPageSound any # SOUNDKIT.IG_ABILITY_PAGE_TURN
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L117)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_PagedSpellsFrame : Frame, PagedCondensedVerticalGridContentFrameTemplate
 --- @field viewsPerPage number # 2
@@ -75,7 +81,8 @@
 --- @field topBarFullWidth number # 1614
 --- @field HelpPlateButton SpellBookFrameTemplate_HelpPlateButton
 --- @field CategoryTabSystem SpellBookFrameTemplate_CategoryTabSystem
---- @field HidePassivesCheckButton SpellBookFrameTemplate_HidePassivesCheckButton
+--- @field SettingsDropdown SpellBookFrameTemplate_SettingsDropdown
+--- @field AssistedCombatRotationSpellFrame SpellBookFrameTemplate_AssistedCombatRotationSpellFrame
 --- @field SearchBox SpellBookFrameTemplate_SearchBox
 --- @field SearchPreviewContainer SpellBookFrameTemplate_SearchPreviewContainer
 --- @field PagedSpellsFrame SpellBookFrameTemplate_PagedSpellsFrame

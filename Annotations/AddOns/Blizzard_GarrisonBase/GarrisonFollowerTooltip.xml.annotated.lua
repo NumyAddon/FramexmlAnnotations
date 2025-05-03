@@ -1,0 +1,36 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/GarrisonFollowerTooltip.xml#L4)
+--- @class GarrisonFollowerTooltip : Frame, GarrisonFollowerTooltipTemplate
+GarrisonFollowerTooltip = {}
+GarrisonFollowerTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/GarrisonFollowerTooltip.xml#L10)
+--- @class GarrisonFollowerAbilityTooltip : Frame, GarrisonFollowerAbilityTooltipTemplate
+GarrisonFollowerAbilityTooltip = {}
+GarrisonFollowerAbilityTooltip["abilityFrameHeightBase"] = 30 -- inherited
+GarrisonFollowerAbilityTooltip["spacingBetweenNameAndDescription"] = 4 -- inherited
+GarrisonFollowerAbilityTooltip["spacingBetweenDescriptionAndDetails"] = 8 -- inherited
+GarrisonFollowerAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/GarrisonFollowerTooltip.xml#L16)
+--- @class GarrisonFollowerAbilityWithoutCountersTooltip : Frame, GarrisonFollowerAbilityWithoutCountersTooltipTemplate
+GarrisonFollowerAbilityWithoutCountersTooltip = {}
+GarrisonFollowerAbilityWithoutCountersTooltip["abilityFrameHeightBase"] = 30 -- inherited
+GarrisonFollowerAbilityWithoutCountersTooltip["spacingBetweenNameAndDescription"] = 8 -- inherited
+GarrisonFollowerAbilityWithoutCountersTooltip["spacingBetweenDescriptionAndDetails"] = 0 -- inherited
+GarrisonFollowerAbilityWithoutCountersTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/GarrisonFollowerTooltip.xml#L22)
+--- @class GarrisonFollowerMissionAbilityWithoutCountersTooltip : Frame, GarrisonFollowerMissionAbilityWithoutCountersTooltipTemplate
+GarrisonFollowerMissionAbilityWithoutCountersTooltip = {}
+GarrisonFollowerMissionAbilityWithoutCountersTooltip["abilityFrameHeightBase"] = 46 -- inherited
+GarrisonFollowerMissionAbilityWithoutCountersTooltip["spacingBetweenNameAndDescription"] = 8 -- inherited
+GarrisonFollowerMissionAbilityWithoutCountersTooltip["spacingBetweenDescriptionAndDetails"] = 0 -- inherited
+GarrisonFollowerMissionAbilityWithoutCountersTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonBase/GarrisonFollowerTooltip.xml#L28)
+--- @class GarrisonShipyardFollowerTooltip : Frame, GarrisonShipyardFollowerTooltipTemplate
+GarrisonShipyardFollowerTooltip = {}
+GarrisonShipyardFollowerTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
+

@@ -32,7 +32,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
     ->addOption('inputDir', 'i', InputOption::VALUE_REQUIRED, 'Directory containing the files to annotate', '.')
     ->addOption('linkPrefix', 'l', InputOption::VALUE_REQUIRED, 'Prefix for links in the output')
     ->addOption('mixAnnotationsIntoSource', 'm', InputOption::VALUE_NONE, 'Include all Lua source files, and add class annotations to the source files')
-    ->addOption('includeRawXmlSource', 'x', InputOption::VALUE_NONE, 'Include the raw XML source files in the output')
+    ->addOption('includeRawXmlSource', 'x', InputOption::VALUE_NONE, 'Include the raw XML and TOC source files in the output')
     ->setCode(function (InputInterface $input, ConsoleOutput $output) {
         $io = new SymfonyStyle($input, $output);
 
@@ -78,7 +78,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
             foreach (array_keys($dirsWithToc) as $dirWithToc) {
                 $tocFile = $tocParser->findTocFile($dirWithToc);
                 if ($tocFile) {
-                    $fileList = array_merge($fileList, $tocParser->listFiles($tocFile));
+                    $fileList = array_merge($fileList, $tocParser->listFiles($tocFile), [$tocFile]);
                 }
             }
         }
@@ -112,6 +112,8 @@ require_once __DIR__ . '/../vendor/autoload.php';
                 }
             } elseif (str_ends_with($filePath, 'lua')) {
                 $luaFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir);
+            } elseif (isset($tocParser) && $includeRawXmlSource && str_ends_with($filePath, 'toc')) {
+                $tocParser->writeRawTocToFile($filePath, $outputDir, $inputDir);
             }
             $progressBar->advance();
         }

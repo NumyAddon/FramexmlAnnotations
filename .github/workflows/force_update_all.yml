@@ -8,16 +8,16 @@ jobs:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: live
-      FORCE_UPDATE: true
       FLAVOR: mainline
+      FORCE_UPDATE: true
 
   live-mix-into-source:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: live
-      TARGET_BRANCH_SUFFIX: '-mix-into-source'
-      FORCE_UPDATE: true
       FLAVOR: mainline
+      FORCE_UPDATE: true
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
       MIX_ANNOTATIONS_INTO_SOURCE: true
       INCLUDE_RAW_XML_SOURCE: true
 
@@ -25,47 +25,134 @@ jobs:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: ptr
-      FORCE_UPDATE: true
       FLAVOR: mainline
+      FORCE_UPDATE: true
+
+  ptr-mix-into-source:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: ptr
+      FLAVOR: mainline
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true
+      FORCE_UPDATE: true
 
   ptr2:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: ptr2
-      FORCE_UPDATE: true
       FLAVOR: mainline
+      FORCE_UPDATE: true
+
+  ptr2-mix-into-source:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: ptr2
+      FLAVOR: mainline
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true
+      FORCE_UPDATE: true
 
   beta:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: beta
-      FORCE_UPDATE: true
       FLAVOR: mainline
+      FORCE_UPDATE: true
+
+  beta-mix-into-source:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: beta
+      FLAVOR: mainline
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true
+      FORCE_UPDATE: true
 
   classic:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic
-      FORCE_UPDATE: true
       FLAVOR: cata
+      FORCE_UPDATE: true
+
+  classic-mix-into-source:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic
+      FLAVOR: cata
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true
+      FORCE_UPDATE: true
 
   classic_ptr:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic_ptr
-      FORCE_UPDATE: true
       FLAVOR: cata
+      FORCE_UPDATE: true
+
+  classic_ptr-mix-into-source:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic_ptr
+      FLAVOR: cata
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true
+      FORCE_UPDATE: true
+
+  classic_beta:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic_beta
+      FLAVOR: mists
+      FORCE_UPDATE: true
+
+  classic_beta-mix-into-source:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic_beta
+      FLAVOR: mists
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true
+      FORCE_UPDATE: true
 
   classic_era:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic_era
-      FORCE_UPDATE: true
       FLAVOR: vanilla
+      FORCE_UPDATE: true
+
+  classic_era-mix-into-source:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic_era
+      FLAVOR: vanilla
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true
+      FORCE_UPDATE: true
 
   classic_era_ptr:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic_era_ptr
-      FORCE_UPDATE: true
       FLAVOR: vanilla
+      FORCE_UPDATE: true
+
+  classic_era_ptr-mix-into-source:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic_era_ptr
+      FLAVOR: vanilla
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true
+      FORCE_UPDATE: true

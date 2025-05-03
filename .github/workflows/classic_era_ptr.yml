@@ -6,8 +6,17 @@ on:
     - cron: '*/15 * * * *'
 
 jobs:
-  build:
+  classic_era_ptr:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic_era_ptr
       FLAVOR: vanilla
+
+  classic_era_ptr-mix-into-source:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: classic_era_ptr
+      FLAVOR: vanilla
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true

@@ -1,0 +1,22 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorEventAlerts.xml#L5)
+--- Template
+--- @class CommentatorEventAlertsFrameFrameTemplate : Frame, RaidBossEmoteFrameTemplate, CommentatorEventAlertsMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorEventAlerts.xml#L9)
+--- child of CommentatorEventAlertsFrame (created in template RaidBossEmoteFrameTemplate)
+--- @type RaidBossEmoteFrameTemplate_Slot1
+CommentatorEventAlertsFrameSlot1 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorEventAlerts.xml#L15)
+--- child of CommentatorEventAlertsFrame (created in template RaidBossEmoteFrameTemplate)
+--- @type RaidBossEmoteFrameTemplate_Slot2
+CommentatorEventAlertsFrameSlot2 = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorEventAlerts.xml#L12)
+--- @class CommentatorEventAlertsFrame : Frame, CommentatorEventAlertsFrameFrameTemplate
+CommentatorEventAlertsFrame = {}
+CommentatorEventAlertsFrame["slot1"] = CommentatorEventAlertsFrameSlot1 -- inherited
+CommentatorEventAlertsFrame["slot2"] = CommentatorEventAlertsFrameSlot2 -- inherited
+

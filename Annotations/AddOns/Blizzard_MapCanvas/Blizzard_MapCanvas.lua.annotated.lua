@@ -340,29 +340,29 @@ function MapCanvasMixin:RemoveCursorHandler(handler, priority) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1031)
 function MapCanvasMixin:ProcessCursorHandlers() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1055)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1056)
 function MapCanvasMixin:GetGlobalPinScale() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1072)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1073)
 function MapCanvasMixin:GetGlobalAlpha() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1093)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1094)
 function MapCanvasMixin:SetMaskTexture(maskTexture) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1109)
 function MapCanvasMixin:GetMaskTexture() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1113)
 function MapCanvasMixin:SetUseMaskTexture(useMaskTexture) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1121)
 function MapCanvasMixin:GetUseMaskTexture() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1125)
 function MapCanvasMixin:AddMaskableTexture(texture) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1141)
 function MapCanvasMixin:RefreshMaskableTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1156)
 function MapCanvasMixin:HandleUIAction(actionType) end

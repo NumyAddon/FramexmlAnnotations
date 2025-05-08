@@ -838,7 +838,7 @@ function EditModeCooldownViewerSystemMixin:UpdateSystemSettingVisibleSetting() e
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingBarContent() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.lua#L2583)
-function EditModeCooldownViewerSystemMixin:UpdateSystemSettingHideWhenInactive(entireSystemUpdate) end
+function EditModeCooldownViewerSystemMixin:UpdateSystemSettingHideWhenInactive() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeSystemTemplates.lua#L2587)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingShowTimer() end

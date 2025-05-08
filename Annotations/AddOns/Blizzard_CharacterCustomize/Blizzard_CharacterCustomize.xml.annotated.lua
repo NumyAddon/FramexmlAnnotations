@@ -61,7 +61,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L88)
 --- child of CharCustomizeFrame
---- @class CharCustomizeFrame_AlteredForms : Frame, HorizontalLayoutFrame
+--- @class CharCustomizeFrame_AlteredForms : Frame, ScaleToFitHorizontalLayoutFrame
 --- @field spacing number # 18
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CharacterCustomize/Blizzard_CharacterCustomize.xml#L97)

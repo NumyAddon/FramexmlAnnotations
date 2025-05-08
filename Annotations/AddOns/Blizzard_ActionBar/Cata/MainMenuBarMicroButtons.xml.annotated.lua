@@ -102,25 +102,7 @@ GuildMicroButton = {}
 GuildMicroButton["commandName"] = "TOGGLEGUILDTAB"
 GuildMicroButton["Flash"] = GuildMicroButtonFlash -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L12)
---- child of CollectionsMicroButton (created in template MainMenuBarMicroButton)
---- @type Texture
-CollectionsMicroButtonFlash = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L255)
---- @class CollectionsMicroButton : Button, MainMenuBarMicroButton, CollectionMicroButtonMixin
---- @field lastNumMountsNeedingFanfare number # 0
---- @field lastNumPetsNeedingFanfare number # 0
---- @field commandName string # TOGGLECOLLECTIONS
---- @field layoutIndex number # 8
-CollectionsMicroButton = {}
-CollectionsMicroButton["lastNumMountsNeedingFanfare"] = 0
-CollectionsMicroButton["lastNumPetsNeedingFanfare"] = 0
-CollectionsMicroButton["commandName"] = "TOGGLECOLLECTIONS"
-CollectionsMicroButton["layoutIndex"] = 8
-CollectionsMicroButton["Flash"] = CollectionsMicroButtonFlash -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L265)
 --- child of PVPMicroButton
 --- @class PVPMicroButtonTexture : Texture
 PVPMicroButtonTexture = {}
@@ -130,7 +112,7 @@ PVPMicroButtonTexture = {}
 --- @type Texture
 PVPMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L255)
 --- @class PVPMicroButton : Button, MainMenuBarMicroButton
 --- @field texture PVPMicroButtonTexture
 PVPMicroButton = {}
@@ -142,10 +124,28 @@ PVPMicroButton["Flash"] = PVPMicroButtonFlash -- inherited
 --- @type Texture
 LFGMicroButtonFlash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L335)
 --- @class LFGMicroButton : Button, MainMenuBarMicroButton
 LFGMicroButton = {}
 LFGMicroButton["Flash"] = LFGMicroButtonFlash -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L12)
+--- child of CollectionsMicroButton (created in template MainMenuBarMicroButton)
+--- @type Texture
+CollectionsMicroButtonFlash = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L386)
+--- @class CollectionsMicroButton : Button, MainMenuBarMicroButton, CollectionMicroButtonMixin
+--- @field lastNumMountsNeedingFanfare number # 0
+--- @field lastNumPetsNeedingFanfare number # 0
+--- @field commandName string # TOGGLECOLLECTIONS
+--- @field layoutIndex number # 8
+CollectionsMicroButton = {}
+CollectionsMicroButton["lastNumMountsNeedingFanfare"] = 0
+CollectionsMicroButton["lastNumPetsNeedingFanfare"] = 0
+CollectionsMicroButton["commandName"] = "TOGGLECOLLECTIONS"
+CollectionsMicroButton["layoutIndex"] = 8
+CollectionsMicroButton["Flash"] = CollectionsMicroButtonFlash -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/MainMenuBarMicroButtons.xml#L12)
 --- child of EJMicroButton (created in template MainMenuBarMicroButton)

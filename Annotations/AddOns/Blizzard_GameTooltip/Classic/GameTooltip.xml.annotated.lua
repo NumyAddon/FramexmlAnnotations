@@ -1,56 +1,56 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L269)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft1
 ShoppingTooltip1TextLeft1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L278)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight1
 ShoppingTooltip1TextRight1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L287)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft2
 ShoppingTooltip1TextLeft2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L296)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight2
 ShoppingTooltip1TextRight2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L305)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft3
 ShoppingTooltip1TextLeft3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L314)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight3
 ShoppingTooltip1TextRight3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L323)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft4
 ShoppingTooltip1TextLeft4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L332)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight4
 ShoppingTooltip1TextRight4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L341)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ShoppingTooltip1Texture1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L346)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ShoppingTooltip1Texture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L351)
 --- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ShoppingTooltip1Texture3 = {}
@@ -60,57 +60,57 @@ ShoppingTooltip1Texture3 = {}
 ShoppingTooltip1 = {}
 ShoppingTooltip1["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L269)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft1
 ShoppingTooltip2TextLeft1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L278)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight1
 ShoppingTooltip2TextRight1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L287)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft2
 ShoppingTooltip2TextLeft2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L296)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight2
 ShoppingTooltip2TextRight2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L305)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft3
 ShoppingTooltip2TextLeft3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L314)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight3
 ShoppingTooltip2TextRight3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L323)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft4
 ShoppingTooltip2TextLeft4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L332)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight4
 ShoppingTooltip2TextRight4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L341)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ShoppingTooltip2Texture1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L346)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ShoppingTooltip2Texture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L351)
 --- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ShoppingTooltip2Texture3 = {}

@@ -1,56 +1,56 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L269)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft1
 WorldMapCompareTooltip1TextLeft1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L278)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight1
 WorldMapCompareTooltip1TextRight1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L287)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft2
 WorldMapCompareTooltip1TextLeft2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L296)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight2
 WorldMapCompareTooltip1TextRight2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L305)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft3
 WorldMapCompareTooltip1TextLeft3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L314)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight3
 WorldMapCompareTooltip1TextRight3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L323)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft4
 WorldMapCompareTooltip1TextLeft4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L332)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight4
 WorldMapCompareTooltip1TextRight4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L341)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 WorldMapCompareTooltip1Texture1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L346)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 WorldMapCompareTooltip1Texture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L351)
 --- child of WorldMapCompareTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 WorldMapCompareTooltip1Texture3 = {}
@@ -60,57 +60,57 @@ WorldMapCompareTooltip1Texture3 = {}
 WorldMapCompareTooltip1 = {}
 WorldMapCompareTooltip1["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L269)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft1
 WorldMapCompareTooltip2TextLeft1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L278)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight1
 WorldMapCompareTooltip2TextRight1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L287)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft2
 WorldMapCompareTooltip2TextLeft2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L296)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight2
 WorldMapCompareTooltip2TextRight2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L305)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft3
 WorldMapCompareTooltip2TextLeft3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L314)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight3
 WorldMapCompareTooltip2TextRight3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L323)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft4
 WorldMapCompareTooltip2TextLeft4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L332)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight4
 WorldMapCompareTooltip2TextRight4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L341)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 WorldMapCompareTooltip2Texture1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L346)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 WorldMapCompareTooltip2Texture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_WorldMap/Blizzard_WorldMapTooltip.xml#L351)
 --- child of WorldMapCompareTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 WorldMapCompareTooltip2Texture3 = {}

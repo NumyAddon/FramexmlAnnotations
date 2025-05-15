@@ -302,13 +302,15 @@ WardrobeTransmogFrameControlFrame["rotateRightButton"] = ModelWithControlsTempla
 --- child of WardrobeTransmogFrame
 --- @class WardrobeTransmogFrame_SecondaryHandButton : Button, WardrobeTransmogButtonTemplate
 --- @field slot string # SECONDARYHANDSLOT
+--- @field twoButtonXPos string # 27
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.xml#L720)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.xml#L721)
 --- child of WardrobeTransmogFrame
 --- @class WardrobeTransmogFrame_MainHandButton : Button, WardrobeTransmogButtonTemplate
 --- @field slot string # MAINHANDSLOT
+--- @field twoButtonXPos string # -27
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.xml#L728)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.xml#L730)
 --- child of WardrobeTransmogFrame
 --- @class WardrobeTransmogFrame_RangedButton : Button, WardrobeTransmogButtonTemplate
 --- @field slot string # RANGEDSLOT
@@ -333,7 +335,7 @@ WardrobeTransmogMoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 WardrobeTransmogMoneyFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.xml#L736)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.xml#L738)
 --- child of WardrobeTransmogFrame
 --- @class WardrobeTransmogMoneyFrame : Frame, SmallMoneyFrameTemplate
 WardrobeTransmogMoneyFrame = {}
@@ -342,7 +344,7 @@ WardrobeTransmogMoneyFrame["CopperButton"] = WardrobeTransmogMoneyFrameCopperBut
 WardrobeTransmogMoneyFrame["SilverButton"] = WardrobeTransmogMoneyFrameSilverButton -- inherited
 WardrobeTransmogMoneyFrame["GoldButton"] = WardrobeTransmogMoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.xml#L747)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_Wardrobe.xml#L749)
 --- child of WardrobeTransmogFrame
 --- @class WardrobeTransmogFrame_ApplyButton : Button, UIPanelButtonTemplate
 

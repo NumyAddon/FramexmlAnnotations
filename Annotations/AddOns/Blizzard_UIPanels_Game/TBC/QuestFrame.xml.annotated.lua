@@ -879,6 +879,10 @@ QuestFrameGreetingPanelMaterialBotRight = {}
 --- @class QuestFrameGreetingPanel : Frame, QuestFramePanelTemplate
 QuestFrameGreetingPanel = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L500)
+--- child of QuestFrame
+--- @class QuestFrame_FriendshipStatusBar : StatusBar, NPCFriendshipStatusBarTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L50)
 --- child of QuestFrame
 --- @class QuestFramePortrait : Texture
@@ -886,19 +890,20 @@ QuestFramePortrait = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L36)
 --- @class QuestFrame : Frame
+--- @field FriendshipStatusBar QuestFrame_FriendshipStatusBar
 QuestFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L612)
 --- child of QuestModelScene
 --- @class QuestNPCModelNameTooltipFrame : Frame
 QuestNPCModelNameTooltipFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L689)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L694)
 --- child of QuestNPCModelTextScrollChildFrame
 --- @class QuestNPCModelText : FontString, GameFontHighlight
 QuestNPCModelText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L685)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L690)
 --- child of QuestNPCModelTextScrollFrame
 --- @class QuestNPCModelTextScrollChildFrame : Frame
 QuestNPCModelTextScrollChildFrame = {}
@@ -926,43 +931,43 @@ QuestNPCModelTextScrollFrameScrollBar["ScrollUpButton"] = QuestNPCModelTextScrol
 QuestNPCModelTextScrollFrameScrollBar["ScrollDownButton"] = QuestNPCModelTextScrollFrameScrollBarScrollDownButton -- inherited
 QuestNPCModelTextScrollFrameScrollBar["ThumbTexture"] = QuestNPCModelTextScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L669)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L674)
 --- child of QuestNPCModelTextFrame
 --- @class QuestNPCModelTextScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 QuestNPCModelTextScrollFrame = {}
 QuestNPCModelTextScrollFrame["ScrollBar"] = QuestNPCModelTextScrollFrameScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L636)
 --- child of QuestNPCModelTextFrame
 --- @class QuestNPCModelTextFrameBg : Texture, QuestPortrait_MrBrownstone
 QuestNPCModelTextFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L638)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L643)
 --- child of QuestNPCModelTextFrame
 --- @class QuestNPCModelTextBotLeftCorner : Texture, UI_Frame_BotCornerLeft
 QuestNPCModelTextBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L648)
 --- child of QuestNPCModelTextFrame
 --- @class QuestNPCModelTextBotRightCorner : Texture, UI_Frame_BotCornerRight
 QuestNPCModelTextBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L648)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L653)
 --- child of QuestNPCModelTextFrame
 --- @class QuestNPCModelTextBottomBorder : Texture, _UI_Frame_Bot
 QuestNPCModelTextBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L654)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L659)
 --- child of QuestNPCModelTextFrame
 --- @class QuestNPCModelTextLeftBorder : Texture, _UI_Frame_LeftTile
 QuestNPCModelTextLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L660)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L665)
 --- child of QuestNPCModelTextFrame
 --- @class QuestNPCModelTextRightBorder : Texture, _UI_Frame_RightTile
 QuestNPCModelTextRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L624)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L629)
 --- child of QuestModelScene
 --- @class QuestNPCModelTextFrame : Frame
 --- @field BorderBottomLeft QuestNPCModelTextBotLeftCorner
@@ -977,87 +982,87 @@ QuestNPCModelTextFrame["BorderBottom"] = QuestNPCModelTextBottomBorder
 QuestNPCModelTextFrame["BorderLeft"] = QuestNPCModelTextLeftBorder
 QuestNPCModelTextFrame["BorderRight"] = QuestNPCModelTextRightBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L513)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L518)
 --- child of QuestModelScene
 --- @class QuestNPCModelBg : Texture, QuestPortrait_MrBrownstone
 QuestNPCModelBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L520)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L525)
 --- child of QuestModelScene
 --- @class QuestNPCModelShadowOverlay : Texture
 QuestNPCModelShadowOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L528)
 --- child of QuestModelScene
 --- @class QuestNPCModelTopBg : Texture, QuestPortrait_StoneSwirls_Top
 QuestNPCModelTopBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L530)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L535)
 --- child of QuestModelScene
 --- @class QuestNPCModelBotLeftCorner : Texture, UI_Frame_BotCornerLeft
 QuestNPCModelBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L535)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L540)
 --- child of QuestModelScene
 --- @class QuestNPCModelBotRightCorner : Texture, UI_Frame_BotCornerRight
 QuestNPCModelBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L540)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L545)
 --- child of QuestModelScene
 --- @class QuestNPCModelTopBorder : Texture, _UI_Frame_TitleTile
 QuestNPCModelTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L551)
 --- child of QuestModelScene
 --- @class QuestNPCModelBottomBorder : Texture, _UI_Frame_Bot
 QuestNPCModelBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L552)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L557)
 --- child of QuestModelScene
 --- @class QuestNPCModelLeftBorder : Texture, _UI_Frame_LeftTile
 QuestNPCModelLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L558)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L563)
 --- child of QuestModelScene
 --- @class QuestNPCModelRightBorder : Texture, _UI_Frame_RightTile
 QuestNPCModelRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L566)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L571)
 --- child of QuestModelScene
 --- @class QuestNPCModelNameplate : Texture, QuestPortrait_Nameplate
 QuestNPCModelNameplate = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L571)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L576)
 --- child of QuestModelScene
 --- @class QuestNPCModelBlankNameplate : Texture, QuestPortrait_Divider_noname
 QuestNPCModelBlankNameplate = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L576)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L581)
 --- child of QuestModelScene
 --- @class QuestNPCModelNameText : FontString, GameFontNormal
 QuestNPCModelNameText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L584)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L589)
 --- child of QuestModelScene
 --- @class QuestNPCCornerTopLeft : Texture, QuestPortrait_Corner_UL
 QuestNPCCornerTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L589)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L594)
 --- child of QuestModelScene
 --- @class QuestNPCCornerTopRight : Texture, QuestPortrait_Corner_UR
 QuestNPCCornerTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L599)
 --- child of QuestModelScene
 --- @class QuestNPCCornerBottomLeft : Texture, QuestPortrait_Corner_BL
 QuestNPCCornerBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L604)
 --- child of QuestModelScene
 --- @class QuestNPCCornerBottomRight : Texture, QuestPortrait_Corner_BR
 QuestNPCCornerBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L509)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L514)
 --- @class QuestModelScene : ModelScene, PanningModelSceneMixinTemplate
 --- @field BorderBottomLeft QuestNPCModelBotLeftCorner
 --- @field BorderBottomRight QuestNPCModelBotRightCorner

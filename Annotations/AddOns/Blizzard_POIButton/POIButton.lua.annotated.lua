@@ -4,7 +4,7 @@
 --- @class POIButtonDisplayLayerMixin
 POIButtonDisplayLayerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L435)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L433)
 --- @class POIButtonMixin
 POIButtonMixin = {}
 
@@ -32,149 +32,152 @@ function POIButtonDisplayLayerMixin:IsIconShow() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L71)
 function POIButtonDisplayLayerMixin:GetPinScale() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L437)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L435)
 function POIButtonMixin:IsPOIButton() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L439)
 function POIButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L445)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L443)
 function POIButtonMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L449)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L447)
 function POIButtonMixin:OnMouseDown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L461)
 function POIButtonMixin:OnMouseUp() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L470)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L468)
 function POIButtonMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L539)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L537)
 function POIButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L560)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L558)
 function POIButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L575)
 function POIButtonMixin:UpdateButtonStyle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L589)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L587)
 function POIButtonMixin:EvaluateManagedHighlight() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L601)
 function POIButtonMixin:GetQuestClassification() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L612)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L610)
 function POIButtonMixin:CalculateButtonAlpha() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L616)
-function POIButtonMixin:UpdateInProgress() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L614)
+function POIButtonMixin:UpdateButtonAlpha() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L620)
-function POIButtonMixin:SetQuestID(questID) end
+function POIButtonMixin:UpdateInProgress() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L624)
-function POIButtonMixin:GetQuestID() end
+function POIButtonMixin:SetQuestID(questID) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L628)
+function POIButtonMixin:GetQuestID() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L632)
 function POIButtonMixin:SetTrackable(trackableType, trackableID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L633)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L637)
 function POIButtonMixin:GetTrackable() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L637)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L641)
 function POIButtonMixin:SetAreaPOIInfo(info) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L642)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L646)
 function POIButtonMixin:GetAreaPOIInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L646)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L650)
 function POIButtonMixin:SetAreaPOIID(areaPOIID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L650)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L654)
 function POIButtonMixin:GetAreaPOIID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L654)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L658)
 function POIButtonMixin:SetVignette(vignette) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L658)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L662)
 function POIButtonMixin:GetVignette() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L662)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L666)
 function POIButtonMixin:SetMapPinInfo(info) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L666)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L670)
 function POIButtonMixin:GetMapPinInfo(info) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L670)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L674)
 function POIButtonMixin:SetPinScale(scale) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L674)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L678)
 function POIButtonMixin:GetPinScale() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L678)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L682)
 function POIButtonMixin:SetPingWorldMap(ping) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L682)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L686)
 function POIButtonMixin:GetPingWorldMap() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L686)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L690)
 function POIButtonMixin:SetStyle(poiButtonStyle) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L691)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L695)
 function POIButtonMixin:GetStyle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L695)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L699)
 function POIButtonMixin:GetButtonType() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L699)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L703)
 function POIButtonMixin:IsForWorldQuest() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L703)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L707)
 function POIButtonMixin:SetSelected(selected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L707)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L711)
 function POIButtonMixin:ClearSelected() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L711)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L715)
 function POIButtonMixin:IsSelected() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L717)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L721)
 function POIButtonMixin:IsSuperTracked() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L721)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L725)
 function POIButtonMixin:ChangeSelected(selected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L728)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L732)
 function POIButtonMixin:SetQuestTagInfo(info) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L732)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L736)
 function POIButtonMixin:ClearQuestTagInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L736)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L740)
 function POIButtonMixin:GetQuestTagInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L744)
 function POIButtonMixin:SetUnderlayBannerEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L744)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L748)
 function POIButtonMixin:IsUnderlayBannerEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L881)
 function POIButtonMixin:OnSuperTrackingChanged(supertracker) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L891)
 function POIButtonMixin:UpdateSelected() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L891)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L895)
 function POIButtonMixin:UpdateFogOfWar(_inFogOfWar) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L895)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L899)
 function POIButtonMixin:Reset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L910)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L914)
 function POIButtonMixin:SetMapPinScale(scale, scaleFactor, startScale, endScale) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L915)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_POIButton/POIButton.lua#L919)
 function POIButtonMixin:SetDefaultMapPinScale() end

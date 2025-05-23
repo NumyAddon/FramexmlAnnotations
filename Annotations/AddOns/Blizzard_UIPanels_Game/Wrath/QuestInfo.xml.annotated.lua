@@ -70,17 +70,17 @@ QuestInfoObjective1 = {}
 --- @field Objectives table<number, QuestInfoObjective1>
 QuestInfoObjectivesFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L36)
 --- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
 --- @type Texture
 QuestInfoSpellObjectiveFrameIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L42)
 --- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
 --- @type Texture
 QuestInfoSpellObjectiveFrameNameFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L50)
 --- child of QuestInfoSpellObjectiveFrame (created in template QuestSpellTemplate)
 --- @type QuestSpellTemplate_Name
 QuestInfoSpellObjectiveFrameName = {}
@@ -147,17 +147,17 @@ QuestInfoRequiredMoneyFrame = {}
 --- Template
 --- @class QuestInfoSpellHeaderTemplate : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L105)
 --- child of QuestInfoRewardsFrame_HonorFrame (created in template QuestHonorFrameTemplate)
 --- @type QuestHonorFrameTemplate_HonorReceiveText
 QuestInfoRewardsFrameHonorReceiveText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L114)
 --- child of QuestInfoRewardsFrame_HonorFrame (created in template QuestHonorFrameTemplate)
 --- @type QuestHonorFrameTemplate_HonorPoints
 QuestInfoRewardsFrameHonorPoints = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L123)
 --- child of QuestInfoRewardsFrame_HonorFrame (created in template QuestHonorFrameTemplate)
 --- @type Texture
 QuestInfoRewardsFrameIcon = {}
@@ -166,17 +166,17 @@ QuestInfoRewardsFrameIcon = {}
 --- child of QuestInfoRewardsFrame
 --- @class QuestInfoRewardsFrame_HonorFrame : Button, QuestHonorFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L142)
 --- child of QuestInfoRewardsFrame_ArenaPointsFrame (created in template QuestArenaPointsFrameTemplate)
 --- @type QuestArenaPointsFrameTemplate_ReceiveText
 QuestInfoRewardsFrameReceiveText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L151)
 --- child of QuestInfoRewardsFrame_ArenaPointsFrame (created in template QuestArenaPointsFrameTemplate)
 --- @type QuestArenaPointsFrameTemplate_ArenaPoints
 QuestInfoRewardsFrameArenaPoints = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L246)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L160)
 --- child of QuestInfoRewardsFrame_ArenaPointsFrame (created in template QuestArenaPointsFrameTemplate)
 --- @type Texture
 QuestInfoRewardsFrameIcon = {}
@@ -288,27 +288,27 @@ QuestInfoSkillPointFrame["Count"] = QuestInfoSkillPointFrameCount -- inherited
 --- @field ValueText QuestInfoXPFrame_ValueText
 QuestInfoXPFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L179)
 --- child of QuestInfoPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type Texture
 QuestInfoPlayerTitleFrameIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L187)
 --- child of QuestInfoPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type Texture
 QuestInfoPlayerTitleFrameTitleFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L196)
 --- child of QuestInfoPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type Texture
 QuestInfoPlayerTitleFrameTitleFrameCenter = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L216)
 --- child of QuestInfoPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type QuestPlayerTitleFrameTemplate_TitleLabel
 QuestInfoPlayerTitleFrameTitleLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L224)
 --- child of QuestInfoPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type QuestPlayerTitleFrameTemplate_Title
 QuestInfoPlayerTitleFrameTitle = {}
@@ -423,27 +423,27 @@ MapQuestInfoRewardsFrameIconTexture = {}
 --- child of MapQuestInfoRewardsFrame
 --- @class MapQuestInfoRewardsFrame_XPFrame : Button, SmallItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L179)
 --- child of MapQuestInfoRewardsFrame_QuestInfoPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type Texture
 MapQuestInfoRewardsFrameIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L187)
 --- child of MapQuestInfoRewardsFrame_QuestInfoPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type Texture
 MapQuestInfoRewardsFrameTitleFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L196)
 --- child of MapQuestInfoRewardsFrame_QuestInfoPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type Texture
 MapQuestInfoRewardsFrameTitleFrameCenter = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L216)
 --- child of MapQuestInfoRewardsFrame_QuestInfoPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type QuestPlayerTitleFrameTemplate_TitleLabel
 MapQuestInfoRewardsFrameTitleLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L224)
 --- child of MapQuestInfoRewardsFrame_QuestInfoPlayerTitleFrame (created in template QuestPlayerTitleFrameTemplate)
 --- @type QuestPlayerTitleFrameTemplate_Title
 MapQuestInfoRewardsFrameTitle = {}
@@ -452,17 +452,17 @@ MapQuestInfoRewardsFrameTitle = {}
 --- child of MapQuestInfoRewardsFrame
 --- @class MapQuestInfoRewardsFrame_QuestInfoPlayerTitleFrame : Frame, QuestPlayerTitleFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L105)
 --- child of MapQuestInfoRewardsFrame_HonorFrame (created in template QuestHonorFrameTemplate)
 --- @type QuestHonorFrameTemplate_HonorReceiveText
 MapQuestInfoRewardsFrameHonorReceiveText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L114)
 --- child of MapQuestInfoRewardsFrame_HonorFrame (created in template QuestHonorFrameTemplate)
 --- @type QuestHonorFrameTemplate_HonorPoints
 MapQuestInfoRewardsFrameHonorPoints = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L123)
 --- child of MapQuestInfoRewardsFrame_HonorFrame (created in template QuestHonorFrameTemplate)
 --- @type Texture
 MapQuestInfoRewardsFrameIcon = {}
@@ -471,17 +471,17 @@ MapQuestInfoRewardsFrameIcon = {}
 --- child of MapQuestInfoRewardsFrame
 --- @class MapQuestInfoRewardsFrame_HonorFrame : Button, QuestHonorFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L142)
 --- child of MapQuestInfoRewardsFrame_ArenaPointsFrame (created in template QuestArenaPointsFrameTemplate)
 --- @type QuestArenaPointsFrameTemplate_ReceiveText
 MapQuestInfoRewardsFrameReceiveText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L151)
 --- child of MapQuestInfoRewardsFrame_ArenaPointsFrame (created in template QuestArenaPointsFrameTemplate)
 --- @type QuestArenaPointsFrameTemplate_ArenaPoints
 MapQuestInfoRewardsFrameArenaPoints = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L246)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestInfo.xml#L160)
 --- child of MapQuestInfoRewardsFrame_ArenaPointsFrame (created in template QuestArenaPointsFrameTemplate)
 --- @type Texture
 MapQuestInfoRewardsFrameIcon = {}

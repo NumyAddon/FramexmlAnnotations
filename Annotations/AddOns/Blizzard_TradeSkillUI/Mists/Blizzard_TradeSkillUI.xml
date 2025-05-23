@@ -1,18 +1,103 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\..\Blizzard_SharedXML\UI.xsd">
 	<Button name="TradeSkillSkillButtonTemplate" inherits="ClassTrainerSkillButtonTemplate" hidden="false" virtual="true">
+		<Size x="293" y="16"/>
 		<Layers>
+			<Layer level="BACKGROUND">
+				<FontString name="$parentSubText" inherits="GameFontNormalSmall" justifyH="LEFT"/>
+			</Layer>
 			<Layer level="OVERLAY">
-				<FontString name="$parentCount" inherits="GameFontNormal">
+				<FontString name="$parentCount" inherits="GameFontNormal" parentKey="count">
 					<Size x="0" y="13"/>
 					<Anchors>
-						<Anchor point="LEFT">
-							<Offset x="0" y="0"/>
-						</Anchor>
+						<Anchor point="LEFT" x="0" y="0"/>
 					</Anchors>
 				</FontString>
 			</Layer>
 		</Layers>
+		<Frames>
+			<Button name="$parentNumSkillUps" parentKey="skillup">
+				<Size x="26" y="16"/>
+				<Anchors>
+					<Anchor point="RIGHT" x="-2" y="0"/>
+				</Anchors>
+				<Layers>
+					<Layer level="OVERLAY">
+						<Texture name="$parentIcon" file="Interface\TradeSkillFrame\UI-TradeSkill-Multiskill" parentKey="icon">
+							<Size x="16" y="16"/>
+							<Anchors>
+								<Anchor point="RIGHT" x="0" y="-1"/>
+							</Anchors>
+						</Texture>
+						<FontString name="$parentText" inherits="GameFontNormal" parentKey="countText">
+							<Size x="0" y="13"/>
+							<Anchors>
+								<Anchor point="RIGHT" relativeTo="$parentIcon" relativePoint="LEFT" x="0" y="1"/>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnClick>
+						self:GetParent():Click(button);
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(self, "ANCHOR_RIGHT");
+						GameTooltip:AddLine(string.format(SKILLUP_TOOLTIP, self.countText:GetText()), NORMAL_FONT_COLOR.r, NORMAL_FONT_COLOR.g, NORMAL_FONT_COLOR.b, 1, 1);
+						GameTooltip:Show();
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+			</Button>
+			<StatusBar name="$parentSubSkillRankBar" parentKey="SubSkillRankBar" drawLayer="BACKGROUND" minValue="0" maxValue="1" defaultValue="1">
+				<Size x="58" y="14"/>
+				<Anchors>
+					<Anchor point="RIGHT" x="0" y="0"/>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture parentKey="BorderLeft" file="Interface\PaperDollInfoFrame\UI-Character-Skills-BarBorder">
+							<Size x="9" y="18"/>
+							<TexCoords left="0.007843" right="0.043137" top="0.193548" bottom="0.774193"/>
+							<Anchors>
+								<Anchor point="LEFT" x="-2" y="0"/>
+							</Anchors>
+						</Texture>
+						<Texture parentKey="BorderRight" file="Interface\PaperDollInfoFrame\UI-Character-Skills-BarBorder">
+							<Size x="9" y="18"/>
+							<TexCoords left="0.043137" right="0.007843" top="0.193548" bottom="0.774193"/>
+							<Anchors>
+								<Anchor point="RIGHT" x="2" y="0"/>
+							</Anchors>
+						</Texture>
+						<Texture parentKey="BorderMid" file="Interface\PaperDollInfoFrame\UI-Character-Skills-BarBorder">
+							<TexCoords left="0.113726" right="0.1490196" top="0.193548" bottom="0.774193"/>
+							<Anchors>
+								<Anchor point="TOPLEFT" relativeKey="$parent.BorderLeft" relativePoint="TOPRIGHT"/>
+								<Anchor point="BOTTOMRIGHT" relativeKey="$parent.BorderRight" relativePoint="BOTTOMLEFT"/>
+							</Anchors>
+						</Texture>
+						<FontString parentKey="Rank" inherits="GameFontHighlightSmall">
+							<Anchors>
+								<Anchor point="CENTER"/>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<BarTexture file="Interface\PaperDollInfoFrame\UI-Character-Skills-Bar"/>
+				<BarColor r=".25" g=".25" b=".75"/>
+				<Scripts>
+					<OnEnter>
+						TradeSkillFrameButton_OnEnter(self:GetParent());
+					</OnEnter>
+					<OnLeave>
+						TradeSkillFrameButton_OnLeave(self:GetParent());
+					</OnLeave>
+				</Scripts>
+			</StatusBar>
+		</Frames>
 		<Scripts>
 			<OnClick>
 				if ( IsModifiedClick() ) then
@@ -29,7 +114,7 @@
 			</OnEnter>
 			<OnLeave>
 				if ( not self.isHighlighted ) then
-					_G[self:GetName().."Count"]:SetVertexColor(self.r, self.g, self.b);
+				_G[self:GetName().."Count"]:SetVertexColor(self.r, self.g, self.b);
 				end
 			</OnLeave>
 		</Scripts>
@@ -198,35 +283,6 @@
 				</HighlightTexture>
 			</Button>
 
-			<CheckButton name="TradeSkillFrameAvailableFilterCheckButton" inherits="UICheckButtonTemplate" >
-				<Size>
-					<AbsDimension x="24" y="24"/>
-				</Size>
-				<Anchors>
-					<Anchor point="TOPLEFT">
-						<Offset>
-							<AbsDimension x="70" y="-46"/>
-						</Offset>
-					</Anchor>
-				</Anchors>
-				<Scripts>
-					<OnLoad>
-						TradeSkillFrameAvailableFilterCheckButtonText:SetText(CRAFT_IS_MAKEABLE);
-					</OnLoad>
-					<OnClick>
-						TradeSkillOnlyShowMakeable(self:GetChecked());
-					</OnClick>
-					<OnEnter>
-						GameTooltip:SetOwner(self, "ANCHOR_LEFT");
-						GameTooltip:SetText(CRAFT_IS_MAKEABLE_TOOLTIP, nil, nil, nil, nil, 1);
-					</OnEnter>
-					<OnLeave function="GameTooltip_Hide"/>
-				</Scripts>
-				<HitRectInsets>
-					<AbsInset left="0" right="-75" top="0" bottom="0"/>
-				</HitRectInsets>
-			</CheckButton>
-
 			<StatusBar name="TradeSkillRankFrame" drawLayer="BACKGROUND" minValue="0" maxValue="1" defaultValue="0" enableMouse="false">
 				<Size>
 					<AbsDimension x="265" y="14"/>
@@ -234,7 +290,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT">
 						<Offset>
-							<AbsDimension x="75" y="-36"/>
+							<AbsDimension x="75" y="-45"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -247,7 +303,7 @@
 							<Anchors>
 								<Anchor point="TOP" relativeTo="TradeSkillFrameTitleText">
 									<Offset>
-										<AbsDimension x="0" y="-20"/>
+										<AbsDimension x="0" y="-29"/>
 									</Offset>
 								</Anchor>
 							</Anchors>
@@ -281,43 +337,29 @@
 				<BarColor r="0.25" g="0.25" b="0.75" />
 			</StatusBar>
 
-			<EditBox name="$parentEditBox" autoFocus="false">
-				<Size>
-					<AbsDimension x="128" y="20"/>
-				</Size>
+			<EditBox name="$parentSearchBox" autoFocus="false">
+				<Size x="160" y="20"/>
 				<Anchors>
-					<Anchor point="TOPRIGHT" relativeTo="TradeSkillRankFrame" relativePoint="BOTTOMRIGHT">
-						<Offset x="2" y="2"/>
-					</Anchor>
+					<Anchor point="TOPLEFT" relativeTo="TradeSkillRankFrame" relativePoint="BOTTOMLEFT" x="5" y="-13"/>
 				</Anchors>
 				<Layers>
 					<Layer level="BACKGROUND">
 						<Texture name="$parentLeft" file="Interface\Common\Common-Input-Border">
-							<Size>
-								<AbsDimension x="8" y="20"/>
-							</Size>
+							<Size x="8" y="20"/>
 							<Anchors>
-								<Anchor point="TOPLEFT">
-									<Offset x="-5" y="0"/>
-								</Anchor>
+								<Anchor point="TOPLEFT" x="-5" y="0"/>
 							</Anchors>
 							<TexCoords left="0" right="0.0625" top="0" bottom="0.625"/>
 						</Texture>
 						<Texture name="$parentRight" file="Interface\Common\Common-Input-Border">
-							<Size>
-								<AbsDimension x="8" y="20"/>
-							</Size>
+							<Size x="8" y="20"/>
 							<Anchors>
-								<Anchor point="RIGHT">
-									<Offset x="0" y="0"/>
-								</Anchor>
+								<Anchor point="RIGHT" x="0" y="0"/>
 							</Anchors>
 							<TexCoords left="0.9375" right="1.0" top="0" bottom="0.625"/>
 						</Texture>
 						<Texture name="$parentMiddle" file="Interface\Common\Common-Input-Border">
-							<Size>
-								<AbsDimension x="0" y="20"/>
-							</Size>
+							<Size x="0" y="20"/>
 							<Anchors>
 								<Anchor point="LEFT" relativeTo="$parentLeft" relativePoint="RIGHT"/>
 								<Anchor point="RIGHT" relativeTo="$parentRight" relativePoint="LEFT"/>
@@ -325,24 +367,40 @@
 							<TexCoords left="0.0625" right="0.9375" top="0" bottom="0.625"/>
 						</Texture>
 					</Layer>
+					<Layer level="OVERLAY">
+						<Texture name="$parentSearchIcon" file="Interface\Common\UI-Searchbox-Icon">
+							<Size x="14" y="14"/>
+							<Anchors>
+								<Anchor point="LEFT" y="-2"/>
+							</Anchors>
+							<Color r="0.7" g="0.7" b="0.7" />
+						</Texture>
+					</Layer>
 				</Layers>
 				<Scripts>
 					<OnShow>
 						self:SetText(SEARCH);
+						self:SetFontObject("GameFontDisable");
+						TradeSkillFrameSearchBoxSearchIcon:SetVertexColor(0.6, 0.6, 0.6);
+						self:SetTextInsets(16, 0, 0, 0);
 					</OnShow>
 					<OnEnterPressed function="EditBox_ClearFocus"/>
 					<OnEscapePressed function="EditBox_ClearFocus"/>
-					<OnTextChanged function="TradeSkillFilter_OnTextChanged"/>
+					<OnTextChanged function="TradeSkillSearch_OnTextChanged"/>
 					<OnEditFocusLost>
 						self:HighlightText(0, 0);
 						if ( self:GetText() == "" ) then
 							self:SetText(SEARCH);
+							self:SetFontObject("GameFontDisable");
+							TradeSkillFrameSearchBoxSearchIcon:SetVertexColor(0.6, 0.6, 0.6);
 						end
 					</OnEditFocusLost>
 					<OnEditFocusGained>
 						self:HighlightText();
 						if ( self:GetText() == SEARCH ) then
 							self:SetText("");
+							self:SetFontObject("ChatFontSmall");
+							TradeSkillFrameSearchBoxSearchIcon:SetVertexColor(1.0, 1.0, 1.0);
 						end
 					</OnEditFocusGained>
 				</Scripts>
@@ -413,20 +471,11 @@
 					</Button>
 				</Frames>
 			</Frame>
-			<DropdownButton parentKey="InvSlotDropdown" name="TradeSkillInvSlotDropdown" inherits="WowStyle1DropdownTemplate" id="2">
+			<DropdownButton parentKey="FilterDropdown" inherits="WowStyle1FilterDropdownTemplate">
 				<Anchors>
 					<Anchor point="TOPRIGHT">
 						<Offset>
-							<AbsDimension x="-45" y="-66"/>
-						</Offset>
-					</Anchor>
-				</Anchors>
-			</DropdownButton>
-			<DropdownButton parentKey="SubClassDropdown" name="TradeSkillSubClassDropdown" inherits="WowStyle1DropdownTemplate" id="1">
-				<Anchors>
-					<Anchor point="RIGHT" relativeTo="TradeSkillInvSlotDropdown" relativePoint="LEFT">
-						<Offset>
-							<AbsDimension x="-5" y="0"/>
+							<AbsDimension x="-44" y="-70"/>
 						</Offset>
 					</Anchor>
 				</Anchors>

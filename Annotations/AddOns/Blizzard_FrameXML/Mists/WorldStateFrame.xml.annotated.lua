@@ -692,40 +692,40 @@ WorldStateScoreFrame = {}
 --- @field noMedal Texture
 WorldStateChallengeModeFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1059)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1063)
 --- @class WorldStateChallengeModeTimer : Frame
 WorldStateChallengeModeTimer = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1179)
 --- child of WorldStateProvingGroundsFrame_statusBar
 --- @class WorldStateProvingGroundsFrame_statusBar_timeLeft : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1165)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_statusBar : StatusBar
 --- @field timeLeft WorldStateProvingGroundsFrame_statusBar_timeLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1109)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_WaveLabel : FontString, QuestFont_Large
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1119)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_Wave : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1124)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_ScoreLabel : FontString, QuestFont_Large
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1134)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_Score : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1067)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1071)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_CountdownAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1064)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1068)
 --- @class WorldStateProvingGroundsFrame : Frame
 --- @field statusBar WorldStateProvingGroundsFrame_statusBar
 --- @field BG Texture
@@ -741,7 +741,7 @@ WorldStateChallengeModeTimer = {}
 --- @field CountdownAnim WorldStateProvingGroundsFrame_CountdownAnim
 WorldStateProvingGroundsFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1198)
 --- @class WorldStateProvingGroundsTimer : Frame
 WorldStateProvingGroundsTimer = {}
 

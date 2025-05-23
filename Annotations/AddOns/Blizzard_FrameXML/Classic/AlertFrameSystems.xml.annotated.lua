@@ -1160,3 +1160,60 @@ AlertFrameSystemsRegistrar = {}
 --- @class NewToyAlertFrameTemplate : ContainedAlertFrame, ItemAlertFrameTemplate, NewToyAlertFrameMixin
 --- @field Background Texture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2612)
+--- Template
+--- @class ChallengeModeAlertFrameRewardTemplate : Frame, DungeonCompletionAlertFrameRewardTemplate, ChallengeModeAlertFrameRewardMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2716)
+--- child of ChallengeModeAlertFrameTemplate
+--- @class ChallengeModeAlertFrameTemplate_Reward1 : Frame, ChallengeModeAlertFrameRewardTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2728)
+--- child of ChallengeModeAlertFrameTemplateGlowFrameGlow
+--- @class ChallengeModeAlertFrameTemplate_GlowFrame_Glow_AnimIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2720)
+--- child of ChallengeModeAlertFrameTemplateGlowFrame
+--- @class ChallengeModeAlertFrameTemplate_GlowFrame_Glow : Texture
+--- @field animIn ChallengeModeAlertFrameTemplate_GlowFrame_Glow_AnimIn
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2717)
+--- child of ChallengeModeAlertFrameTemplate
+--- @class ChallengeModeAlertFrameTemplate_GlowFrame : Frame
+--- @field glow ChallengeModeAlertFrameTemplate_GlowFrame_Glow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2672)
+--- child of ChallengeModeAlertFrameTemplate
+--- @class ChallengeModeAlertFrameTemplate_Time : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2700)
+--- child of ChallengeModeAlertFrameTemplateShine
+--- @class ChallengeModeAlertFrameTemplate_Shine_AnimIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2690)
+--- child of ChallengeModeAlertFrameTemplate
+--- @class ChallengeModeAlertFrameTemplate_Shine : Texture
+--- @field animIn ChallengeModeAlertFrameTemplate_Shine_AnimIn
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2625)
+--- child of ChallengeModeAlertFrameTemplate
+--- @class ChallengeModeAlertFrameTemplate_AnimIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2629)
+--- child of ChallengeModeAlertFrameTemplate
+--- @class ChallengeModeAlertFrameTemplate_WaitAndAnimOut : AnimationGroup
+--- @field animOut Alpha
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Classic/AlertFrameSystems.xml#L2619)
+--- Template
+--- @class ChallengeModeAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate, ChallengeModeAlertFrameMixin
+--- @field reward1 ChallengeModeAlertFrameTemplate_Reward1
+--- @field glowFrame ChallengeModeAlertFrameTemplate_GlowFrame
+--- @field dungeonTexture Texture
+--- @field time ChallengeModeAlertFrameTemplate_Time
+--- @field medalIcon Texture
+--- @field shine ChallengeModeAlertFrameTemplate_Shine
+--- @field animIn ChallengeModeAlertFrameTemplate_AnimIn
+--- @field waitAndAnimOut ChallengeModeAlertFrameTemplate_WaitAndAnimOut
+--- @field RewardFrames table<number, ChallengeModeAlertFrameTemplate_Reward1>
+

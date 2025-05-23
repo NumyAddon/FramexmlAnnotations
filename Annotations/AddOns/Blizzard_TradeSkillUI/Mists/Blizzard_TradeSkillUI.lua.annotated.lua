@@ -2,6 +2,8 @@ TRADE_SKILLS_DISPLAYED = 8;
 MAX_TRADE_SKILL_REAGENTS = 8;
 TRADE_SKILL_HEIGHT = 16;
 TRADE_SKILL_TEXT_WIDTH = 275;
+TRADE_SKILL_SKILLUP_TEXT_WIDTH = 30;
+SUB_SKILL_BAR_WIDTH = 60;
 
 -- Used to denote skill types in Colorblind mode
 TradeSkillTypePrefix = {
@@ -10,6 +12,7 @@ TradeSkillTypePrefix = {
 ["easy"] = " [+] ",
 ["trivial"] = " ", 
 ["header"] = " ",
+["subheader"] = " ",
 }
 
 -- Used to denote skill types outside of Colorblind mode
@@ -19,9 +22,16 @@ TradeSkillTypeColor["medium"]	= { r = 1.00, g = 1.00, b = 0.00, font = "GameFont
 TradeSkillTypeColor["easy"]		= { r = 0.25, g = 0.75, b = 0.25, font = "GameFontNormalLeftLightGreen" };   
 TradeSkillTypeColor["trivial"]	= { r = 0.50, g = 0.50, b = 0.50, font = "GameFontNormalLeftGrey" };         
 TradeSkillTypeColor["header"]	= { r = 1.00, g = 0.82, b = 0,    font = "GameFontNormalLeft" };
+TradeSkillTypeColor["subheader"]= { r = 1.00, g = 0.82, b = 0,	font = "GameFontNormalLeft" };
 
 -- Current Trade Skill name. Used for detecting if the player swaps which tradeskill the window should show.
 local currentTradeSkillName = "";
+
+local SUBSKILL_RANKS = { };				-- tracks subskill ranks for figuring out which one just skilled up in order to flash the rank numbers
+local SUBSKILL_FLASH_BAR;				-- the subskill progress bar that's currently flashing
+local SUBSKILL_FLASH_NAME;				-- the name of the subskill that's currently flashing
+local SUBSKILL_FLASH_ELAPSED_TIME;		-- current elapsed time for the flash
+local SUBSKILL_FLASH_DURATION = 1;		-- how long the flash should take
 
 function TradeSkillFrame_OnShow(self)
 	ShowUIPanel(TradeSkillFrame);
@@ -33,78 +43,109 @@ function TradeSkillFrame_OnShow(self)
 		TradeSkillFrame_SetSelection(GetTradeSkillSelectionIndex());
 	end
 	FauxScrollFrame_SetOffset(TradeSkillListScrollFrame, 0);
+	TradeSkillListScrollFrameScrollBar.doNotHide = true;
 	TradeSkillListScrollFrameScrollBar:SetMinMaxValues(0, 0); 
 	TradeSkillListScrollFrameScrollBar:SetValue(0);
 	SetPortraitTexture(TradeSkillFramePortrait, "player");
-	TradeSkillOnlyShowMakeable(TradeSkillFrameAvailableFilterCheckButton:GetChecked());
 	TradeSkillFrame_Update(self);
 
 	TradeSkillInputBox:SetNumber(1);
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_OPEN);
 
-	TradeSkillFrame_SetupSubClassDropdown(self);
-	TradeSkillFrame_SetupInvSlotDropdown(self);
+	TradeSkillFrame_InitFilterMenu(self.FilterDropdown);
 end
 
-function TradeSkillFrame_SetupSubClassDropdown(self)
-	if not TradeSkillFrame:IsShown() then
-		return;
-	end
-
-	SetTradeSkillSubClassFilter(0);
-
-	local function IsSelected(index)
-		if index > 0 and (GetTradeSkillSubClassFilter(0) == 1) then
-			return false;
+function TradeSkillFrame_OnUpdate(self, elapsed)
+	if ( SUBSKILL_FLASH_BAR ) then
+		SUBSKILL_FLASH_ELAPSED_TIME = SUBSKILL_FLASH_ELAPSED_TIME + elapsed;
+		if ( SUBSKILL_FLASH_ELAPSED_TIME > SUBSKILL_FLASH_DURATION ) then
+			TradeSkilSubSkillRank_StopFlash();
+		else
+			local alpha = math.sin(SUBSKILL_FLASH_ELAPSED_TIME * math.pi / SUBSKILL_FLASH_DURATION);	-- just a half-sine curve
+			SUBSKILL_FLASH_BAR.Rank:SetAlpha(alpha);
+			SUBSKILL_FLASH_BAR.Rank:SetText(SUBSKILL_FLASH_BAR.currentRank.."/"..SUBSKILL_FLASH_BAR.maxRank);
 		end
-		return GetTradeSkillSubClassFilter(index) == 1;
 	end
-
-	local function SetSelected(index)
-		local on = 1;
-		local exclusive = 1;
-		SetTradeSkillSubClassFilter(index, on, exclusive);
-
-		TradeSkillListScrollFrameScrollBar:SetValue(0);
-		FauxScrollFrame_SetOffset(TradeSkillListScrollFrame, 0);
-		TradeSkillFrame_Update(self);
-	end
-
-	self.SubClassDropdown:SetupMenu(function(dropdown, rootDescription)
-		rootDescription:SetTag("MENU_TRADESKILL_SUBCLASS");
-
-		rootDescription:CreateRadio(ALL_SUBCLASSES, IsSelected, SetSelected, 0);
-		for index, name in ipairs({GetTradeSkillSubClasses()}) do -- Dropdown table can change, so ensure we do not cache this.
-			rootDescription:CreateRadio(name, IsSelected, SetSelected, index);
-		end
-	end);
+	TradeSkillFrame_PlaytimeUpdate();
 end
 
-function TradeSkillFrame_SetupInvSlotDropdown(self)
-	if not TradeSkillFrame:IsShown() then
-		return;
+function TradeSkillFrameButton_OnEnter(self)
+	self.count:SetVertexColor(HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b);
+	self.skillup.icon:SetVertexColor(HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b);
+	self.skillup.countText:SetVertexColor(HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b);
+
+	if ( self.SubSkillRankBar.currentRank and self.SubSkillRankBar.maxRank) then
+		if ( self.SubSkillRankBar == SUBSKILL_FLASH_BAR ) then
+			TradeSkilSubSkillRank_StopFlash();
+		end
+		self.SubSkillRankBar.Rank:SetText(self.SubSkillRankBar.currentRank.."/"..self.SubSkillRankBar.maxRank);
+	end
+end
+
+function TradeSkillFrameButton_OnLeave(self)
+	if ( not self.isHighlighted ) then
+		self.count:SetVertexColor(self.r, self.g, self.b);
+		self.skillup.icon:SetVertexColor(self.r, self.g, self.b);
+		self.skillup.countText:SetVertexColor(self.r, self.g, self.b);
+	end
+	self.SubSkillRankBar.Rank:SetText("");
+end
+
+function SetAllInventorySlotsFiltered(filtered)
+	for filterIndex, name in ipairs({GetTradeSkillInvSlots()}) do
+		SetTradeSkillInvSlotFilter(filterIndex, filtered, 1);
+	end
+end
+
+function TradeSkillFrame_InitFilterMenu(dropdown, onUpdate, onDefault, ignoreSkillLine)	
+	local function IsSlotChecked(filterIndex) 
+		return GetTradeSkillInvSlotFilter(filterIndex) == 1;
 	end
 
-	local function IsSelected(index)
-		return GetTradeSkillInvSlotFilter(index) == 1;
+	local function SetSlotChecked(filterIndex) 
+		if(IsSlotChecked(filterIndex)) then
+			SetTradeSkillInvSlotFilter(filterIndex, 0, 1);
+		else
+			SetTradeSkillInvSlotFilter(filterIndex, 1, 1);
+		end	
 	end
 
-	local function SetSelected(index)
+	local function IsSubClassSelected(filterIndex) 
+		return GetTradeSkillSubClassFilter(filterIndex) == 1;
+	end
+
+	local function SetSubClassSelected(filterIndex)
 		local on = 1;
-		local exclusive = 1;
-		SetTradeSkillInvSlotFilter(index, on, exclusive);
-
-		TradeSkillListScrollFrameScrollBar:SetValue(0);
-		FauxScrollFrame_SetOffset(TradeSkillListScrollFrame, 0);
-		TradeSkillFrame_Update(self);
+		if(IsSubClassSelected(filterIndex)) then
+			on = 0;
+		end
+		SetTradeSkillSubClassFilter(filterIndex, on, 0);
 	end
 
-	self.InvSlotDropdown:SetupMenu(function(dropdown, rootDescription)
-		rootDescription:SetTag("MENU_TRADESKILL_SUBCLASS_INV_SLOTS");
+	dropdown:SetupMenu(function(dropdown, rootDescription)
+		rootDescription:SetTag("MENU_PROFESSIONS_FILTER");
 
-		rootDescription:CreateRadio(ALL_INVENTORY_SLOTS, IsSelected, SetSelected, 0);
-		for index, name in ipairs({GetTradeSkillInvSlots()}) do -- Dropdown table can change, so ensure we do not cache this.
-			rootDescription:CreateRadio(name, IsSelected, SetSelected, index);
+
+		rootDescription:CreateCheckbox(TRADESKILL_FILTER_HAS_SKILL_UP, GetOnlyShowSkillUps, function()
+			TradeSkillOnlyShowSkillUps(not GetOnlyShowSkillUps());
+		end);
+
+
+		rootDescription:CreateCheckbox(CRAFT_IS_MAKEABLE, GetOnlyShowMakeable, function()
+			TradeSkillOnlyShowMakeable(not GetOnlyShowMakeable());
+		end);
+
+		
+		local slotsSubmenu = rootDescription:CreateButton(TRADESKILL_FILTER_SLOTS);
+		for filterIndex, name in ipairs({GetTradeSkillInvSlots()}) do 
+			slotsSubmenu:CreateCheckbox(name, IsSlotChecked, SetSlotChecked, filterIndex);
+		end
+
+		local subClassSubmenu = rootDescription:CreateButton(TRADESKILL_FILTER_CATEGORY);
+		for index, name in ipairs({GetTradeSkillSubClasses()}) do
+			if( name ~= "") then
+				subClassSubmenu:CreateCheckbox(name, IsSubClassSelected, SetSubClassSelected, index);
+			end
 		end
 	end);
 end
@@ -123,9 +164,6 @@ function TradeSkillFrame_OnLoad(self)
 	self:RegisterEvent("TRADE_SKILL_FILTER_UPDATE");
 	self:RegisterEvent("UNIT_PORTRAIT_UPDATE");
 	self:RegisterEvent("UPDATE_TRADESKILL_RECAST");
-	
-	self.SubClassDropdown:SetWidth(120);
-	self.InvSlotDropdown:SetWidth(120);
 end
 
 function TradeSkillFrame_OnEvent(self, event, ...)
@@ -161,8 +199,7 @@ function TradeSkillFrame_Update(self)
 		StopTradeSkillRepeat();
 		if(currentTradeSkillName ~= "" ) then
 			-- To fix problem with switching between two tradeskills
-			TradeSkillFrame_SetupSubClassDropdown(self);
-			TradeSkillFrame_SetupInvSlotDropdown(self);
+			TradeSkillFrame_InitFilterMenu(self.FilterDropdown);
 		end
 		currentTradeSkillName = name;
 	end
@@ -187,34 +224,42 @@ function TradeSkillFrame_Update(self)
 	end
 
 	if ( rank < 75 ) and ( not IsTradeSkillLinked() ) then
-		TradeSkillFrameEditBox:Hide();
+		TradeSkillFrameSearchBox:Hide();
 		SetTradeSkillItemNameFilter("");	--In case they are switching from an inspect WITH a filter directly to their own without.
 	else
-		TradeSkillFrameEditBox:Show();
+		TradeSkillFrameSearchBox:Show();
 	end
 
 	-- ScrollFrame update
-	FauxScrollFrame_Update(TradeSkillListScrollFrame, numTradeSkills, TRADE_SKILLS_DISPLAYED, TRADE_SKILL_HEIGHT, nil, nil, nil, TradeSkillHighlightFrame, 293, 316 );
+	FauxScrollFrame_Update(TradeSkillListScrollFrame, numTradeSkills, TRADE_SKILLS_DISPLAYED, TRADE_SKILL_HEIGHT, nil, nil, nil, TradeSkillHighlightFrame, 293, 316, true );
 
 	TradeSkillHighlightFrame:Hide();
 
-	local skillName, skillType, numAvailable, isExpanded, altVerb;
-	local skillIndex, skillButton, skillButtonText, skillButtonCount;
-	local nameWidth, countWidth;
+	local skillName, skillType, numAvailable, isExpanded, altVerb, numSkillUps, indentLevel, showProgressBar, currentRank, startingRank;
+	local skillIndex, skillButton, skillButtonText, skillButtonCount, skillButtonNumSkillUps, skillButtonNumSkillUpsIcon, skillButtonNumSkillUpsText, skillButtonSubSkillRankBar;
+	local nameWidth, countWidth, usedWidth;
 
 	local skillNamePrefix = " ";
 	for i=1, TRADE_SKILLS_DISPLAYED, 1 do
 		skillIndex = i + skillOffset;
-		skillName, skillType, numAvailable, isExpanded, altVerb = GetTradeSkillInfo(skillIndex);
+		skillName, skillType, numAvailable, isExpanded, altVerb, numSkillUps, indentLevel, showProgressBar, currentRank, maxRank, startingRank = GetTradeSkillInfo(skillIndex);
+
 		skillButton = _G["TradeSkillSkill"..i];
 		skillButtonText = _G["TradeSkillSkill"..i.."Text"];
 		skillButtonCount = _G["TradeSkillSkill"..i.."Count"];
+		skillButtonNumSkillUps = _G["TradeSkillSkill"..i.."NumSkillUps"];
+		skillButtonNumSkillUpsText = _G["TradeSkillSkill"..i.."NumSkillUpsText"];
+		skillButtonNumSkillUpsIcon = _G["TradeSkillSkill"..i.."NumSkillUpsIcon"];
+		skillButtonSubSkillRankBar = _G["TradeSkillSkill"..i.."SubSkillRankBar"];
 		if ( skillIndex <= numTradeSkills ) then	
 			-- Set button widths if scrollbar is shown or hidden
-			if ( TradeSkillListScrollFrame:IsShown() ) then
-				skillButton:SetWidth(293);
+			if ( TradeSkillListScrollFrame:IsShown() and numSkillUps > 1 and skillType=="optimal") then
+				skillButtonNumSkillUps:Show();
+				skillButtonNumSkillUpsText:SetText(numSkillUps);
+				usedWidth = TRADE_SKILL_SKILLUP_TEXT_WIDTH;
 			else
-				skillButton:SetWidth(323);
+				skillButtonNumSkillUps:Hide();
+				usedWidth = 0;
 			end
 			local color = TradeSkillTypeColor[skillType];
 			if ( color ) then
@@ -223,16 +268,44 @@ function TradeSkillFrame_Update(self)
 				skillButton.r = color.r;
 				skillButton.g = color.g;
 				skillButton.b = color.b;
+				skillButtonNumSkillUpsText:SetVertexColor(color.r, color.g, color.b);
+				skillButtonNumSkillUpsIcon:SetVertexColor(color.r, color.g, color.b);
 			end
 
 			if ( ENABLE_COLORBLIND_MODE == "1" ) then
 				skillNamePrefix = TradeSkillTypePrefix[skillType] or " ";
 			end
+
+			local textWidth = TRADE_SKILL_TEXT_WIDTH;
+			if(indentLevel ~= 0) then
+				textWidth = TRADE_SKILL_TEXT_WIDTH - 20;
+				skillButton:GetNormalTexture():SetPoint("LEFT", 23, 0);
+				skillButton:GetDisabledTexture():SetPoint("LEFT", 23, 0);
+				skillButton:GetHighlightTexture():SetPoint("LEFT", 23, 0);
+			else
+				skillButton:GetNormalTexture():SetPoint("LEFT", 3, 0);
+				skillButton:GetDisabledTexture():SetPoint("LEFT", 3, 0);
+				skillButton:GetHighlightTexture():SetPoint("LEFT", 3, 0);
+			end
 			
 			skillButton:SetID(skillIndex);
 			skillButton:Show();
+
+			skillButtonSubSkillRankBar:Hide();
+			if ( skillButtonSubSkillRankBar == SUBSKILL_FLASH_BAR and skillName ~= SUBSKILL_FLASH_NAME ) then
+				-- we were flashing this bar and now we're reusing it for another skill, kill the flash
+				TradeSkilSubSkillRank_StopFlash();
+			end
 			-- Handle headers
-			if ( skillType == "header" ) then
+			if ( skillType == "header" or skillType == "subheader" ) then
+				--probably only want to show progress bar for categories (headers)
+				if ( showProgressBar ) then
+					skillButtonSubSkillRankBar:Show();
+					TradeSkilSubSkillRank_Set(skillButtonSubSkillRankBar, skillName, currentRank, startingRank, maxRank);
+					textWidth = textWidth - SUB_SKILL_BAR_WIDTH;
+				end
+
+				skillButtonText:SetWidth(textWidth);
 				skillButton:SetText(skillName);
 				skillButtonText:SetWidth(TRADE_SKILL_TEXT_WIDTH);
 				skillButtonCount:SetText("");
@@ -243,6 +316,8 @@ function TradeSkillFrame_Update(self)
 				end
 				_G["TradeSkillSkill"..i.."Highlight"]:SetTexture("Interface\\Buttons\\UI-PlusButton-Hilight");
 				_G["TradeSkillSkill"..i]:UnlockHighlight();
+				skillButton:UnlockHighlight();
+				skillButton.isHighlighted = false;
 			-- Handle skill entries
 			else
 				if ( not skillName ) then
@@ -253,8 +328,8 @@ function TradeSkillFrame_Update(self)
 				-- None creatable, no brackets needed
 				if ( numAvailable <= 0 ) then
 					skillButton:SetText(skillNamePrefix..skillName);
-					skillButtonText:SetWidth(TRADE_SKILL_TEXT_WIDTH);
 					skillButtonCount:SetText(skillCountPrefix);
+					textWidth = textWidth - usedWidth;
 				-- Some creatable, handle showing num in brackets
 				else
 					skillName = skillNamePrefix..skillName;
@@ -263,18 +338,21 @@ function TradeSkillFrame_Update(self)
 					nameWidth = TradeSkillFrameDummyString:GetWidth();
 					countWidth = skillButtonCount:GetWidth();
 					skillButtonText:SetText(skillName);
-					if ( nameWidth + 2 + countWidth > TRADE_SKILL_TEXT_WIDTH ) then
-						skillButtonText:SetWidth(TRADE_SKILL_TEXT_WIDTH-2-countWidth);
+					if ( nameWidth + 2 + countWidth > textWidth - usedWidth ) then
+						textWidth = textWidth - 2 - countWidth - usedWidth;
 					else
-						skillButtonText:SetWidth(0);
+						textWidth = 0;
 					end
 				end
-				
+				skillButtonText:SetWidth(textWidth);
 				-- Place the highlight and lock the highlight state
 				if ( GetTradeSkillSelectionIndex() == skillIndex ) then
 					TradeSkillHighlightFrame:SetPoint("TOPLEFT", "TradeSkillSkill"..i, "TOPLEFT", 0, 0);
 					TradeSkillHighlightFrame:Show();
 					skillButtonCount:SetVertexColor(HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b);
+
+					skillButtonNumSkillUpsText:SetVertexColor(HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b);
+					skillButtonNumSkillUpsIcon:SetVertexColor(HIGHLIGHT_FONT_COLOR.r, HIGHLIGHT_FONT_COLOR.g, HIGHLIGHT_FONT_COLOR.b);
 					skillButton:LockHighlight();
 					skillButton.isHighlighted = true;
 				else
@@ -293,7 +371,7 @@ function TradeSkillFrame_Update(self)
 	local notExpanded = 0;
 	for i=1, numTradeSkills, 1 do
 		skillName, skillType, numAvailable, isExpanded, altVerb = GetTradeSkillInfo(i);
-		if ( skillName and skillType == "header" ) then
+		if ( skillName and (skillType == "header" or skillType == "subheader") ) then
 			numHeaders = numHeaders + 1;
 			if ( not isExpanded ) then
 				notExpanded = notExpanded + 1;
@@ -314,6 +392,42 @@ function TradeSkillFrame_Update(self)
 	end
 end
 
+function TradeSkilSubSkillRank_Set(rankBar, skillName, currentRank, startingRank, maxRank)
+	if ( SUBSKILL_RANKS[skillName] and currentRank > SUBSKILL_RANKS[skillName] and TradeSkillFrame:IsShown() ) then
+		-- this bar needs to have skill rank flashing unless the mouse is already over
+		rankBar.Rank:SetText(currentRank.."/"..rankBar.maxRank);
+		if ( not rankBar:GetParent():IsMouseOver() ) then
+			TradeSkilSubSkillRank_StartFlash(rankBar, skillName);
+		end
+	elseif ( not rankBar:GetParent():IsMouseOver() ) then
+		rankBar.Rank:SetText("");
+	end
+
+	SUBSKILL_RANKS[skillName] = currentRank;
+	rankBar:SetMinMaxValues(startingRank, maxRank);
+	rankBar:SetValue(currentRank);
+	rankBar.currentRank = currentRank;
+	rankBar.maxRank = maxRank;
+end
+
+function TradeSkilSubSkillRank_StartFlash(rankBar, skillName)
+	TradeSkilSubSkillRank_StopFlash();
+	SUBSKILL_FLASH_BAR = rankBar;
+	SUBSKILL_FLASH_NAME = skillName;
+	SUBSKILL_FLASH_ELAPSED_TIME = 0;
+end
+
+function TradeSkilSubSkillRank_StopFlash()
+	if ( SUBSKILL_FLASH_BAR ) then
+		if ( not SUBSKILL_FLASH_BAR:GetParent():IsMouseOver() ) then
+			SUBSKILL_FLASH_BAR.Rank:SetText("");
+		end
+		SUBSKILL_FLASH_BAR.Rank:SetAlpha(1);
+		SUBSKILL_FLASH_BAR = nil;
+		SUBSKILL_FLASH_ELAPSED_TIME = nil;
+	end
+end
+
 function TradeSkillFrame_SetSelection(id)
 	local skillName, skillType, numAvailable, isExpanded, altVerb = GetTradeSkillInfo(id);
 	local creatable = 1;
@@ -321,7 +435,7 @@ function TradeSkillFrame_SetSelection(id)
 		creatable = nil;
 	end
 	TradeSkillHighlightFrame:Show();
-	if ( skillType == "header" ) then
+	if ( skillType == "header"  or skillType == "subheader" ) then
 		TradeSkillHighlightFrame:Hide();
 		if ( isExpanded ) then
 			CollapseTradeSkillSubClass(id);
@@ -485,7 +599,7 @@ function TradeSkillFrame_SetSelection(id)
 		else
 			TradeSkillLinkButton:Hide();
 		end
-		TradeSkillCreateButton:SetText(altVerb or CREATE);
+		TradeSkillCreateButton:SetText(altVerb or CREATE_PROFESSION);
 		TradeSkillCreateButton:Show();
 	end
 end
@@ -497,7 +611,7 @@ function TradeSkillSkillButton_OnClick(self, button)
 	end
 end
 
-function TradeSkillFilter_OnTextChanged(self)
+function TradeSkillSearch_OnTextChanged(self)
 	local text = self:GetText();
 
 	if ( text == SEARCH ) then

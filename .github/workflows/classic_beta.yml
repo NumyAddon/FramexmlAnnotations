@@ -1,4 +1,4 @@
-name: classic_ptr
+name: classic_beta
 
 on:
   workflow_dispatch:

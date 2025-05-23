@@ -429,7 +429,7 @@ class XmlFileParser
     {
         return match($keyValue->type) {
             KeyValueTypeEnum::STRING => json_encode($keyValue->value), // json_encode adds and properly escapes quotes
-            KeyValueTypeEnum::NUMBER, KeyValueTypeEnum::BOOLEAN => $keyValue->value,
+            KeyValueTypeEnum::NUMBER, KeyValueTypeEnum::INT, KeyValueTypeEnum::BOOLEAN => $keyValue->value,
             KeyValueTypeEnum::GLOBAL => $this->wrapInGIfNeeded($keyValue->value),
             KeyValueTypeEnum::NIL => 'nil',
         };

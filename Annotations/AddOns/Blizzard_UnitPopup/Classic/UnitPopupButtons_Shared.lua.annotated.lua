@@ -28,15 +28,15 @@ UnitPopupNeedBeforeGreedButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllBu
 --- @class UnitPopupLootThresholdButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupLootThresholdButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L500)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L501)
 --- @class UnitPopupGuildSettingButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L520)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L521)
 --- @class UnitPopupGuildRecruitmentSettingButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildRecruitmentSettingButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L555)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L556)
 --- @class UnitPopupGuildInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
@@ -130,29 +130,29 @@ function UnitPopupLootThresholdButtonMixin:CanShow(contextData) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L166)
 function UnitPopupLootThresholdButtonMixin:GetEntries() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L502)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L503)
 function UnitPopupGuildSettingButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L506)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L507)
 function UnitPopupGuildSettingButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L517)
 function UnitPopupGuildSettingButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L523)
 function UnitPopupGuildRecruitmentSettingButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L526)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L527)
 function UnitPopupGuildRecruitmentSettingButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L535)
 function UnitPopupGuildRecruitmentSettingButtonMixin:CanShow(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L557)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L558)
 function UnitPopupGuildInviteButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L561)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L562)
 function UnitPopupGuildInviteButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L578)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitPopup/Classic/UnitPopupButtons_Shared.lua#L579)
 function UnitPopupGuildInviteButtonMixin:CanShow() end

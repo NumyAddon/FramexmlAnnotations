@@ -24288,3 +24288,19 @@ ContainerFrame13["Portrait"] = ContainerFrame13Portrait -- inherited
 --- @field Text BagHelpBox_Text
 BagHelpBox = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L1155)
+--- child of BagItemSearchBox (created in template SearchBoxTemplate)
+--- @type SearchBoxTemplate_ClearButton
+BagItemSearchBoxClearButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L1146)
+--- child of BagItemSearchBox (created in template SearchBoxTemplate)
+--- @type Texture
+BagItemSearchBoxSearchIcon = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L495)
+--- @class BagItemSearchBox : EditBox, BagSearchBoxTemplate
+BagItemSearchBox = {}
+BagItemSearchBox["clearButton"] = BagItemSearchBoxClearButton -- inherited
+BagItemSearchBox["searchIcon"] = BagItemSearchBoxSearchIcon -- inherited
+

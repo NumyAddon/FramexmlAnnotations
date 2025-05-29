@@ -29,3 +29,16 @@ function ContainerFrame_UpdateQuestItem(frame, itemIndex, itemButton)
 		questTexture:Hide();
 	end
 end
+
+function ContainerFrame_UpdateSearchBox(id, frame)
+	if ( id == 0 ) then
+		BagItemSearchBox:SetParent(frame);
+		BagItemSearchBox:SetPoint("TOPRIGHT", frame, "TOPRIGHT", -10, -26);
+		BagItemSearchBox.anchorBag = frame;
+		BagItemSearchBox:Show();
+	elseif ( BagItemSearchBox.anchorBag == frame ) then
+		BagItemSearchBox:ClearAllPoints();
+		BagItemSearchBox:Hide();
+		BagItemSearchBox.anchorBag = nil;
+	end
+end

@@ -223,3 +223,9 @@ ScriptErrorsFrame = {}
 --- @field Border Frame
 --- @field Contents BaseNineSliceDialog_Contents
 
+
+--- Scripts:
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L4)
+do
+		--FrameXML_Debug(1);
+end

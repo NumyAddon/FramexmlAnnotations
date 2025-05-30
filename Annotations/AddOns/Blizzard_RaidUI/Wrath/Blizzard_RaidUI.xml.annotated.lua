@@ -2966,3 +2966,9 @@ RaidGroupButton40Level = {}
 --- @class RaidGroupButton40 : Button, RaidGroupButtonTemplate
 RaidGroupButton40 = {}
 
+
+--- Scripts:
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_RaidUI/Wrath/Blizzard_RaidUI.xml#L930)
+do
+		RaidGroupFrame_OnLoad();
+end

@@ -249,9 +249,14 @@
 --- @field Frame Texture
 --- @field GlowPulseAnim UIWidgetBaseIconTemplate_GlowPulseAnim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L570)
+--- child of UIWidgetBaseButtonTemplate
+--- @class UIWidgetBaseButtonTemplate_cooldown : Cooldown, CooldownFrameTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L547)
 --- Template
 --- @class UIWidgetBaseButtonTemplate : Button, UIWidgetTemplateTooltipFrame, UIWidgetBaseButtonTemplateMixin
+--- @field cooldown UIWidgetBaseButtonTemplate_cooldown
 --- @field Icon Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture

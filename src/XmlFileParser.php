@@ -56,6 +56,10 @@ class XmlFileParser
      * @var array<string, Registry<Frame>> $perFileRegistry [filename => Registry<Frame>]
      */
     private array $perFileRegistry = [];
+    /**
+     * @var array<string, array<int, string>> $perFileScriptList [filename => [lineNr => scriptContent]]
+     */
+    private array $perFileScriptList = [];
 
     public function __construct(
         /** @var Registry<Intrinsic> */
@@ -75,12 +79,24 @@ class XmlFileParser
         $this->perFileRegistry[$filename] = new Registry();
         $xml = simplexml_load_file($filename);
         foreach ($xml as $child) {
-            $this->parseNode($child, $this->perFileRegistry[$filename]);
+            $this->parseNode($child, $this->perFileRegistry[$filename], $filename);
         }
     }
 
-    private function parseNode(SimpleXMLElement $node, Registry $fileRegistry, ?Frame $parent = null): void
+    private function parseNode(SimpleXMLElement $node, Registry $fileRegistry, string $filename, ?Frame $parent = null): void
     {
+        if ($node->getName() === 'Script') {
+            $content = (string) $node;
+            if (empty($content)) {
+                return;
+            }
+
+            $domNode = dom_import_simplexml($node);
+            $lineNr = $domNode->getLineNo();
+            $this->perFileScriptList[$filename][$lineNr] = $content;
+
+            return;
+        }
         $name = (string) $node->attributes()['name'] ?? '';
         if (!$parent && empty($name)) {
             return;
@@ -109,44 +125,45 @@ class XmlFileParser
 
         if (self::TYPE_SCROLL_FRAME === $type && isset($node->ScrollChild)) {
             foreach ($node->ScrollChild->children() as $scrollChild) {
-                $this->parseNode($scrollChild, $fileRegistry, $frame);
+                $this->parseNode($scrollChild, $fileRegistry, $filename, $frame);
             }
         }
         if (isset($node->Frames)) {
             foreach ($node->Frames->children() as $frameChild) {
-                $this->parseNode($frameChild, $fileRegistry, $frame);
+                $this->parseNode($frameChild, $fileRegistry, $filename, $frame);
             }
         }
         if (isset($node->Layers)) {
             foreach ($node->Layers->children() as $layer) {
                 foreach ($layer->children() as $frameChild) {
-                    $this->parseNode($frameChild, $fileRegistry, $frame);
+                    $this->parseNode($frameChild, $fileRegistry, $filename, $frame);
                 }
             }
         }
         if (isset($node->Animations)) {
             foreach ($node->Animations->children() as $animationGroup) {
-                $this->parseNode($animationGroup, $fileRegistry, $frame);
+                $this->parseNode($animationGroup, $fileRegistry, $filename, $frame);
             }
         }
         if (self::TYPE_ANIMATION_GROUP === $type) {
             foreach ($node->children() as $animation) {
-                $this->parseNode($animation, $fileRegistry, $frame);
+                $this->parseNode($animation, $fileRegistry, $filename, $frame);
             }
         }
         foreach (self::SPECIAL_CHILDREN as $specialChild) {
             if (isset($node->$specialChild)) {
-                $this->parseNode($node->$specialChild, $fileRegistry, $frame);
+                $this->parseNode($node->$specialChild, $fileRegistry, $filename, $frame);
             }
         }
     }
 
-    public function writeAnnotationsToFile(string $filename, string $outDir, string $prefixToStrip, ?string $linkPrefix): void
+    public function writeAnnotationsToFile(string $filename, string $outDir, string $prefixToStrip, ?string $linkPrefix, bool $includeScripts): void
     {
         $fileRegistry = $this->perFileRegistry[$filename] ?? null;
         if (!isset($fileRegistry)) {
             throw new RuntimeException('File not parsed yet');
         }
+        $scripts = $this->perFileScriptList[$filename] ?? [];
 
         if (str_starts_with($filename, $prefixToStrip)) {
             $filename = substr($filename, strlen($prefixToStrip));
@@ -161,6 +178,18 @@ class XmlFileParser
         foreach ($fileRegistry->all() as $frame) {
             if ($frame->isRootNode()) {
                 $data .= $this->writeFrame($frame, $linkPrefix);
+            }
+        }
+
+        if ($includeScripts && !empty($scripts)) {
+            $data .= "\n--- Scripts:\n";
+            foreach ($scripts as $lineNr => $scriptContent) {
+                if ($linkPrefix) {
+                    $data .= "--- [Source]($linkPrefix#L" . $lineNr . ")\n";
+                }
+                $scriptContent = trim($scriptContent, "\n");
+                $scriptContent = rtrim($scriptContent);
+                $data .= "do\n$scriptContent\nend\n";
             }
         }
 

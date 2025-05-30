@@ -106,7 +106,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
         $progressBar = $io->createProgressBar(count($fileList));
         foreach($fileList as $filePath) {
             if (str_ends_with($filePath, 'xml')) {
-                $xmlFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir, $linkPrefix);
+                $xmlFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir, $linkPrefix, $mixAnnotationsIntoSource);
                 if ($includeRawXmlSource) {
                     $xmlFileParser->writeRawXmlToFile($filePath, $outputDir, $inputDir);
                 }

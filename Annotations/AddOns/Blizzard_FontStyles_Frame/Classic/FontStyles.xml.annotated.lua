@@ -476,3 +476,12 @@
 --- Template
 --- @class OptionsFontLeft : Font, GameFontNormal
 
+
+--- Scripts:
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FontStyles_Frame/Classic/FontStyles.xml#L4)
+do
+		UNIT_NAME_FONT_KOREAN = "Fonts\\2002B.TTF";
+		UNIT_NAME_FONT_CHINESE = "Fonts\\ARKai_T.ttf";
+		UNIT_NAME_FONT_CYRILLIC = "Fonts\\FRIZQT___CYR.TTF";
+		UNIT_NAME_FONT_ROMAN = "Fonts\\FRIZQT__.TTF";
+end

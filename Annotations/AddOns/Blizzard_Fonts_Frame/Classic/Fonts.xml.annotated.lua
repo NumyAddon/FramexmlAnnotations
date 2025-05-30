@@ -332,3 +332,31 @@
 --- Template
 --- @class SystemFont_NamePlateLevel : Font
 
+
+--- Scripts:
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Frame/Classic/Fonts.xml#L6)
+do
+		if (LOCALE_koKR) then
+			STANDARD_TEXT_FONT = "Fonts\\2002.TTF";
+			UNIT_NAME_FONT = "Fonts\\2002B.TTF";
+			DAMAGE_TEXT_FONT = "Fonts\\K_Damage.TTF";
+		elseif (LOCALE_zhCN) then
+			STANDARD_TEXT_FONT = "Fonts\\ARKai_T.ttf";
+			UNIT_NAME_FONT = "Fonts\\ARKai_T.ttf";
+			DAMAGE_TEXT_FONT = "Fonts\\ARKai_C.ttf";
+		elseif (LOCALE_zhTW) then
+			STANDARD_TEXT_FONT = "Fonts\\blei00d.TTF";
+			UNIT_NAME_FONT = "Fonts\\blei00d.TTF";
+			DAMAGE_TEXT_FONT = "Fonts\\bKAI00M.TTF";
+		elseif (LOCALE_ruRU) then
+			STANDARD_TEXT_FONT = "Fonts\\FRIZQT___CYR.TTF";
+			UNIT_NAME_FONT = "Fonts\\FRIZQT___CYR.TTF";
+			DAMAGE_TEXT_FONT = "Fonts\\FRIZQT___CYR.TTF";
+		else
+			STANDARD_TEXT_FONT = "Fonts\\FRIZQT__.TTF";
+			UNIT_NAME_FONT = "Fonts\\FRIZQT__.TTF";
+			DAMAGE_TEXT_FONT = "Fonts\\FRIZQT__.TTF";
+		end
+		NAMEPLATE_FONT = "GameFontWhite";
+		NAMEPLATE_SPELLCAST_FONT = "GameFontWhiteTiny";
+end

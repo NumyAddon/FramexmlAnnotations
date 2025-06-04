@@ -1,4 +1,4 @@
-FlightMap_ZoneSummaryDataProvider = CreateFromMixins(MapCanvasDataProviderMixin);--- @class FlightMap_ZoneSummaryDataProvider : MapCanvasDataProviderMixin
+FlightMap_ZoneSummaryDataProvider = CreateFromMixins(MapCanvasDataProviderMixin);
 
 function FlightMap_ZoneSummaryDataProvider:OnShow()
 	self.ticker = C_Timer.NewTicker(0, function() self:CheckMouse() end);

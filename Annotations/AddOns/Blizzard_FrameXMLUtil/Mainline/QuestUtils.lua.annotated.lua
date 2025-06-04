@@ -12,7 +12,7 @@ WORLD_QUEST_TYPE_DUNGEON_TYPES = {
 
 local ECHOS_OF_NYLOTHA_CURRENCY_ID = 1803;
 
-WorldQuestsSecondsFormatter = CreateFromMixins(SecondsFormatterMixin);--- @class WorldQuestsSecondsFormatter : SecondsFormatterMixin
+WorldQuestsSecondsFormatter = CreateFromMixins(SecondsFormatterMixin);
 WorldQuestsSecondsFormatter:Init(SECONDS_PER_MIN, SecondsFormatter.Abbreviation.None, false);
 
 function WorldQuestsSecondsFormatter:GetDesiredUnitCount(seconds)
@@ -479,7 +479,7 @@ function QuestUtil.CheckAutoSuperTrackQuest(questID, forceAllowTasks)
 	end
 end
 
-QuestTimeRemainingFormatter = CreateFromMixins(SecondsFormatterMixin);--- @class QuestTimeRemainingFormatter : SecondsFormatterMixin
+QuestTimeRemainingFormatter = CreateFromMixins(SecondsFormatterMixin);
 QuestTimeRemainingFormatter:Init(SECONDS_PER_MIN, SecondsFormatter.Abbreviation.OneLetter, false);
 
 function QuestTimeRemainingFormatter:GetDesiredUnitCount(seconds)

@@ -34,7 +34,7 @@ Settings.CommitFlag = FlagsUtil.MakeFlags(
 );
 Settings.CommitFlag.None = 0;
 
-SettingsCallbackRegistry = CreateFromMixins(CallbackRegistryMixin);--- @class SettingsCallbackRegistry : CallbackRegistryMixin
+SettingsCallbackRegistry = CreateFromMixins(CallbackRegistryMixin);
 SettingsCallbackRegistry:SetUndefinedEventsAllowed(true);
 SettingsCallbackRegistry:GenerateCallbackEvents(
 	{

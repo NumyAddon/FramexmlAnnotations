@@ -65,9 +65,9 @@ class LuaFileParser
     private function extractMixins(string $fileContents, ?string $linkPrefix): array
     {
         $mixins = [];
-        // e.g. `FooMixin = CreateFromMixins({BarMixin, BazMixin})`
+        // e.g. `Foo = CreateFromMixins({BarMixin, BazMixin})`
         $this->parseMixinRegex(
-            '/^(?<match>(?<name>\S+Mixin)\s*=\s*CreateFromMixins\((?<extends>[^)]+)\))/m',
+            '/^(?<match>(?<name>\S+)\s*=\s*CreateFromMixins\((?<extends>[^)]+)\))/m',
             $fileContents,
             $linkPrefix,
             $mixins,

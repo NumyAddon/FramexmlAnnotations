@@ -395,5 +395,5 @@ function APIDocumentationMixin:AddSystem(documentationInfo)
 	end
 end
 
-APIDocumentation = CreateFromMixins(APIDocumentationMixin);--- @class APIDocumentation : APIDocumentationMixin
+APIDocumentation = CreateFromMixins(APIDocumentationMixin);
 APIDocumentation:OnLoad();

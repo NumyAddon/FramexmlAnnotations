@@ -25,7 +25,7 @@ function GlowEmitterMixin:Play(animType)
 	anim:Play();
 end
 
-GlowEmitterFactory = CreateFromMixins(EffectFactoryMixin);--- @class GlowEmitterFactory : EffectFactoryMixin
+GlowEmitterFactory = CreateFromMixins(EffectFactoryMixin);
 
 function GlowEmitterFactory:Attach(frame, target, offsetX, offsetY, width, height)
 	EffectFactoryMixin.Attach(self, frame, target, offsetX, offsetY, width, height);

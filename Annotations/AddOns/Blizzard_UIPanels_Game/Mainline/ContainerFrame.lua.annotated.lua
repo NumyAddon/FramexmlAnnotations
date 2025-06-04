@@ -2428,7 +2428,7 @@ end
 
 ContainerFrameSettingsManager:Init();
 
-ContainerFrameExtendedSlotPack = CreateFromMixins(ContainerFrameMixin);--- @class ContainerFrameExtendedSlotPack : ContainerFrameMixin
+ContainerFrameExtendedSlotPack = CreateFromMixins(ContainerFrameMixin);
 
 function ContainerFrameExtendedSlotPack:UpdateAddSlots()
 	if not self.AddSlotsButton then

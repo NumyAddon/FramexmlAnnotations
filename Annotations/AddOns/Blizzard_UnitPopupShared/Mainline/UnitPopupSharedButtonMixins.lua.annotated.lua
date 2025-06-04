@@ -21,7 +21,7 @@ function UnitPopupGlueInviteButtonMixin:IsEnabled()
 	return not C_WoWLabsMatchmaking.IsPartyFull();
 end
 
-UnitPopupGlueLeavePartyButton = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupGlueLeavePartyButton : UnitPopupButtonBaseMixin
+UnitPopupGlueLeavePartyButton = CreateFromMixins(UnitPopupButtonBaseMixin);
 function UnitPopupGlueLeavePartyButton:GetText()
 	return GLUE_LEAVE_PARTY; 
 end
@@ -34,7 +34,7 @@ function UnitPopupGlueLeavePartyButton:OnClick()
 	C_WoWLabsMatchmaking.LeaveParty();
 end 
 
-UnitPopupGlueRemovePartyButton = CreateFromMixins(UnitPopupButtonBaseMixin);--- @class UnitPopupGlueRemovePartyButton : UnitPopupButtonBaseMixin
+UnitPopupGlueRemovePartyButton = CreateFromMixins(UnitPopupButtonBaseMixin);
 function UnitPopupGlueRemovePartyButton:GetText()
 	return GLUE_REMOVE_FROM_PARTY; 
 end

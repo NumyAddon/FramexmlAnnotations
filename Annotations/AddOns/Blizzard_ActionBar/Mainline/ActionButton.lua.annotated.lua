@@ -13,7 +13,7 @@ ACTION_BUTTON_SHOW_GRID_REASON_CVAR = 1;
 ACTION_BUTTON_SHOW_GRID_REASON_EVENT = 2;
 ACTION_BUTTON_SHOW_GRID_REASON_SPELLCOLLECTION = 4;
 
-ActionButtonBindingHighlightCallbackRegistry = CreateFromMixins(CallbackRegistryMixin);--- @class ActionButtonBindingHighlightCallbackRegistry : CallbackRegistryMixin
+ActionButtonBindingHighlightCallbackRegistry = CreateFromMixins(CallbackRegistryMixin);
 ActionButtonBindingHighlightCallbackRegistry:SetUndefinedEventsAllowed(true);
 ActionButtonBindingHighlightCallbackRegistry:OnLoad();
 

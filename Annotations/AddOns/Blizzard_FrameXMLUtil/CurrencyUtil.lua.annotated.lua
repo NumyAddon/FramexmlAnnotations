@@ -1,5 +1,5 @@
 
-CurrencyCallbackRegistry = CreateFromMixins(CallbackRegistryMixin);--- @class CurrencyCallbackRegistry : CallbackRegistryMixin
+CurrencyCallbackRegistry = CreateFromMixins(CallbackRegistryMixin);
 CurrencyCallbackRegistry:GenerateCallbackEvents(
 	{
 		"OnCurrencyDisplayUpdate",

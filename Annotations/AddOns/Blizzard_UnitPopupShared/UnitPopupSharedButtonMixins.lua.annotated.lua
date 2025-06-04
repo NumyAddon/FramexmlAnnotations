@@ -620,26 +620,6 @@ UnitPopupSubsectionTitleMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 --- @class UnitPopupSubsectionSeperatorMixin : UnitPopupButtonBaseMixin
 UnitPopupSubsectionSeperatorMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3484)
---- @class UnitPopupLootSubsectionTitle : UnitPopupSubsectionTitleMixin
-UnitPopupLootSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3490)
---- @class UnitPopupInstanceSubsectionTitle : UnitPopupSubsectionTitleMixin
-UnitPopupInstanceSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3496)
---- @class UnitPopupOtherSubsectionTitle : UnitPopupSubsectionTitleMixin
-UnitPopupOtherSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3502)
---- @class UnitPopupInteractSubsectionTitle : UnitPopupSubsectionTitleMixin
-UnitPopupInteractSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3508)
---- @class UnitPopupLegacyRaidSubsectionTitle : UnitPopupSubsectionTitleMixin
-UnitPopupLegacyRaidSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin)
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3514)
 --- @class UnitPopupEnterEditModeMixin : UnitPopupButtonBaseMixin
 UnitPopupEnterEditModeMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
@@ -647,22 +627,6 @@ UnitPopupEnterEditModeMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3521)
 --- @class UnitPopupSelectRoleButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupSelectRoleButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3556)
---- @class UnitPopupSetRoleNoneButton : UnitPopupRadioButtonMixin
-UnitPopupSetRoleNoneButton = CreateFromMixins(UnitPopupRadioButtonMixin)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3580)
---- @class UnitPopupSetRoleTankButton : UnitPopupSetRoleNoneButton
-UnitPopupSetRoleTankButton = CreateFromMixins(UnitPopupSetRoleNoneButton)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3599)
---- @class UnitPopupSetRoleDpsButton : UnitPopupSetRoleNoneButton
-UnitPopupSetRoleDpsButton = CreateFromMixins(UnitPopupSetRoleNoneButton)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3618)
---- @class UnitPopupSetRoleHealerButton : UnitPopupSetRoleNoneButton
-UnitPopupSetRoleHealerButton = CreateFromMixins(UnitPopupSetRoleNoneButton)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L80)
 --- @class UnitPopupButtonBaseMixin
@@ -2174,21 +2138,6 @@ function UnitPopupSubsectionTitleMixin:IsTitle() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3480)
 function UnitPopupSubsectionSeperatorMixin:IsDivider() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3486)
-function UnitPopupLootSubsectionTitle:GetText(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3492)
-function UnitPopupInstanceSubsectionTitle:GetText(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3498)
-function UnitPopupOtherSubsectionTitle:GetText(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3504)
-function UnitPopupInteractSubsectionTitle:GetText(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3510)
-function UnitPopupLegacyRaidSubsectionTitle:GetText() end
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3517)
 function UnitPopupEnterEditModeMixin:CanShow(contextData) end
 
@@ -2200,45 +2149,3 @@ function UnitPopupSelectRoleButtonMixin:CanShow(contextData) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3547)
 function UnitPopupSelectRoleButtonMixin:GetEntries() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3558)
-function UnitPopupSetRoleNoneButton:GetText(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3563)
-function UnitPopupSetRoleNoneButton:GetTextHeight() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3567)
-function UnitPopupSetRoleNoneButton:GetRole() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3571)
-function UnitPopupSetRoleNoneButton:OnClick(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3576)
-function UnitPopupSetRoleNoneButton:IsChecked(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3582)
-function UnitPopupSetRoleTankButton:GetText(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3586)
-function UnitPopupSetRoleTankButton:GetRole() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3590)
-function UnitPopupSetRoleTankButton:IsEnabled(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3601)
-function UnitPopupSetRoleDpsButton:GetText(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3605)
-function UnitPopupSetRoleDpsButton:GetRole() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3609)
-function UnitPopupSetRoleDpsButton:IsEnabled(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3620)
-function UnitPopupSetRoleHealerButton:GetText(contextData) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3624)
-function UnitPopupSetRoleHealerButton:GetRole() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3628)
-function UnitPopupSetRoleHealerButton:IsEnabled(contextData) end

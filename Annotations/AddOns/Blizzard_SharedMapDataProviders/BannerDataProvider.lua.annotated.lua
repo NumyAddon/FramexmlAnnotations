@@ -1,4 +1,4 @@
-BannerDataProvider = CreateFromMixins(MapCanvasDataProviderMixin);--- @class BannerDataProvider : MapCanvasDataProviderMixin
+BannerDataProvider = CreateFromMixins(MapCanvasDataProviderMixin);
 
 function BannerDataProvider:RemoveAllData()
 	self:GetMap():TriggerEvent("ClearAreaLabel", MAP_AREA_LABEL_TYPE.AREA_POI_BANNER);

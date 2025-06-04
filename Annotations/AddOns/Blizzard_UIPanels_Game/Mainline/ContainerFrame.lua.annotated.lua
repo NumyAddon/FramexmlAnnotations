@@ -4,6 +4,10 @@
 --- @class ContainerFrameMixin : BaseContainerFrameMixin
 ContainerFrameMixin = CreateFromMixins(BaseContainerFrameMixin)
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L2427)
+--- @class ContainerFrameExtendedSlotPack : ContainerFrameMixin
+ContainerFrameExtendedSlotPack = CreateFromMixins(ContainerFrameMixin)
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L2465)
 --- @class ContainerFrameTokenWatcherMixin : ContainerFrameMixin
 ContainerFrameTokenWatcherMixin = CreateFromMixins(ContainerFrameMixin)
@@ -271,6 +275,9 @@ function ContainerFramePortraitButtonMixin:OnShow() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L1887)
 function ContainerFramePortraitButtonMixin:OnHide() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L2429)
+function ContainerFrameExtendedSlotPack:UpdateAddSlots() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L2467)
 function ContainerFrameTokenWatcherMixin:OnShow() end

@@ -1,5 +1,17 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L534)
+--- @class PerksProgramMixin.TimeLeftListFormatter : SecondsFormatterMixin
+PerksProgramMixin.TimeLeftListFormatter = CreateFromMixins(SecondsFormatterMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L548)
+--- @class PerksProgramMixin.TimeLeftDetailsFormatter : SecondsFormatterMixin
+PerksProgramMixin.TimeLeftDetailsFormatter = CreateFromMixins(SecondsFormatterMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L557)
+--- @class PerksProgramMixin.TimeLeftFooterFormatter : SecondsFormatterMixin
+PerksProgramMixin.TimeLeftFooterFormatter = CreateFromMixins(SecondsFormatterMixin)
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L2)
 --- @class PerksProgramMixin
 PerksProgramMixin = {}
@@ -178,6 +190,21 @@ function PerksProgramMixin:GetServerErrorState() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L527)
 function PerksProgramMixin:ShowServerErrorDialog() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L537)
+function PerksProgramMixin.TimeLeftListFormatter:GetMinInterval(seconds) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L541)
+function PerksProgramMixin.TimeLeftListFormatter:GetDesiredUnitCount(seconds) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L550)
+function PerksProgramMixin.TimeLeftDetailsFormatter:GetMinInterval(seconds) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L560)
+function PerksProgramMixin.TimeLeftFooterFormatter:GetMinInterval(seconds) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L564)
+function PerksProgramMixin.TimeLeftFooterFormatter:GetDesiredUnitCount(seconds) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.lua#L573)
 function PerksProgramThemeContainerMixin:OnLoad() end

@@ -4,6 +4,14 @@
 --- @class SettingsListSectionHeaderMixin : DefaultTooltipMixin
 SettingsListSectionHeaderMixin = CreateFromMixins(DefaultTooltipMixin)
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L126)
+--- @class SettingsListPanelInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin
+SettingsListPanelInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L138)
+--- @class SettingsListElementInitializer : ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin
+SettingsListElementInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin)
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L289)
 --- @class SettingsControlMixin : SettingsListElementMixin
 SettingsControlMixin = CreateFromMixins(SettingsListElementMixin)
@@ -39,6 +47,10 @@ SettingsCheckboxSliderControlMixin = CreateFromMixins(SettingsListElementMixin)
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L846)
 --- @class SettingsCheckboxDropdownControlMixin : SettingsListElementMixin
 SettingsCheckboxDropdownControlMixin = CreateFromMixins(SettingsListElementMixin)
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L948)
+--- @class SettingsExpandableSectionInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin
+SettingsExpandableSectionInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L3)
 --- @class DefaultTooltipMixin
@@ -100,6 +112,57 @@ function SettingsElementHierarchyMixin:GetEvaluateStateFrameEvents() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L119)
 function SettingsElementHierarchyMixin:AddEvaluateStateFrameEvent(event) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L128)
+function SettingsListPanelInitializer:IsNewTagShown() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L132)
+function SettingsListPanelInitializer:MarkSettingAsSeen() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L140)
+function SettingsListElementInitializer:Init(frameTemplate, data) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L146)
+function SettingsListElementInitializer:Indent() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L150)
+function SettingsListElementInitializer:IsParentInitializerInLayout() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L170)
+function SettingsListElementInitializer:GetIndent() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L174)
+function SettingsListElementInitializer:GetData() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L178)
+function SettingsListElementInitializer:GetName() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L182)
+function SettingsListElementInitializer:GetTooltip() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L186)
+function SettingsListElementInitializer:GetOptions() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L190)
+function SettingsListElementInitializer:SetSetting(setting) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L194)
+function SettingsListElementInitializer:GetSetting() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L198)
+function SettingsListElementInitializer:IsNewTagShown() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L203)
+function SettingsListElementInitializer:MarkSettingAsSeen() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L208)
+function SettingsListElementInitializer:SetSettingIntercept(interceptFunction) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L212)
+function SettingsListElementInitializer:GetSettingIntercept() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L216)
+function SettingsListElementInitializer:SetParentInitializer(parentInitializer, modifyPredicate) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L222)
 function SettingsListElementMixin:OnLoad() end
@@ -301,3 +364,6 @@ function SettingsExpandableSectionMixin:OnExpandedChanged(expanded) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L943)
 function SettingsExpandableSectionMixin:Init(initializer) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.lua#L950)
+function SettingsExpandableSectionInitializer:GetExtent() end

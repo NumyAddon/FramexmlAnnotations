@@ -1559,7 +1559,7 @@ function MonthlyActivitiesFrameMixin:ScrollToPerksActivityID(activityID)
 	end
 end
 
-MonthlyActivitiesFrameMixin.TimeLeftFormatter = CreateFromMixins(SecondsFormatterMixin);
+MonthlyActivitiesFrameMixin.TimeLeftFormatter = CreateFromMixins(SecondsFormatterMixin);--- @class MonthlyActivitiesFrameMixin.TimeLeftFormatter : SecondsFormatterMixin
 MonthlyActivitiesFrameMixin.TimeLeftFormatter:Init(0, SecondsFormatter.Abbreviation.OneLetter, false, true);
 MonthlyActivitiesFrameMixin.TimeLeftFormatter:SetStripIntervalWhitespace(true);
 function MonthlyActivitiesFrameMixin.TimeLeftFormatter:GetMinInterval(seconds)

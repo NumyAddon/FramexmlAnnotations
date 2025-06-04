@@ -167,7 +167,7 @@ function UnitPopupMenuCommunitiesGuildMember:GetEntries()
 	}
 end
 
-UnitPopupRafRecruit = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupRafRecruit = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupRafRecruit : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("RAF_RECRUIT", UnitPopupRafRecruit);
 function UnitPopupRafRecruit:GetEntries()
 	return {

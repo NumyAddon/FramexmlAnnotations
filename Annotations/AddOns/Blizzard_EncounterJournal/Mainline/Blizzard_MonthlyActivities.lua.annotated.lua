@@ -8,6 +8,10 @@ MonthlySupersedeActivitiesButtonMixin = CreateFromMixins(MonthlyActivitiesButton
 --- @class MonthlyActivitiesFilterListButtonMixin : ButtonStateBehaviorMixin
 MonthlyActivitiesFilterListButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L1561)
+--- @class MonthlyActivitiesFrameMixin.TimeLeftFormatter : SecondsFormatterMixin
+MonthlyActivitiesFrameMixin.TimeLeftFormatter = CreateFromMixins(SecondsFormatterMixin)
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L112)
 --- @class MonthlyActivitiesButtonTextContainerMixin
 MonthlyActivitiesButtonTextContainerMixin = {}
@@ -225,6 +229,12 @@ function MonthlyActivitiesFrameMixin:SetSelectedActivityID(activityID) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L1539)
 function MonthlyActivitiesFrameMixin:ScrollToPerksActivityID(activityID) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L1564)
+function MonthlyActivitiesFrameMixin.TimeLeftFormatter:GetMinInterval(seconds) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L1568)
+function MonthlyActivitiesFrameMixin.TimeLeftFormatter:GetDesiredUnitCount(seconds) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_MonthlyActivities.lua#L1598)
 function MonthlyActivitiesRewardButtonMixin:OnLoad() end

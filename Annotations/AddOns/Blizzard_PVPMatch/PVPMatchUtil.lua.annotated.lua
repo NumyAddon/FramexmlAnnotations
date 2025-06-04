@@ -13,7 +13,7 @@ PVPMatchUtil = {
 	},
 };
 
-PVPMatchUtil.MatchTimeFormatter = CreateFromMixins(SecondsFormatterMixin);--- @class PVPMatchUtil.MatchTimeFormatter : SecondsFormatterMixin
+PVPMatchUtil.MatchTimeFormatter = CreateFromMixins(SecondsFormatterMixin);
 PVPMatchUtil.MatchTimeFormatter:Init(0, SecondsFormatter.Abbreviation.Truncate, true);
 
 function PVPMatchUtil.InSoloShuffleBrawl()

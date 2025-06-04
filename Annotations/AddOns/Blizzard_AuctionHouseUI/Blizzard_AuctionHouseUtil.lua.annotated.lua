@@ -8,14 +8,6 @@ AuctionHouseSortOrderSystemMixin = CreateFromMixins(AuctionHouseSystemMixin)
 --- @class AuctionHouseBuySystemMixin : AuctionHouseSystemMixin
 AuctionHouseBuySystemMixin = CreateFromMixins(AuctionHouseSystemMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseUtil.lua#L435)
---- @class AuctionHouseUtil.TimeLeftTooltipFormatter : SecondsFormatterMixin
-AuctionHouseUtil.TimeLeftTooltipFormatter = CreateFromMixins(SecondsFormatterMixin)
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseUtil.lua#L446)
---- @class AuctionHouseUtil.TimeLeftFormatter : SecondsFormatterMixin
-AuctionHouseUtil.TimeLeftFormatter = CreateFromMixins(SecondsFormatterMixin)
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseUtil.lua#L96)
 --- @class AuctionHouseSystemMixin
 AuctionHouseSystemMixin = {}
@@ -70,9 +62,3 @@ function AuctionHouseBuySystemMixin:GetBidAmount() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseUtil.lua#L210)
 function AuctionHouseBuySystemMixin:GetBuyoutAmount() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseUtil.lua#L450)
-function AuctionHouseUtil.TimeLeftFormatter:GetDesiredUnitCount(seconds) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Blizzard_AuctionHouseUtil.lua#L454)
-function AuctionHouseUtil.TimeLeftFormatter:GetMinInterval(seconds) end

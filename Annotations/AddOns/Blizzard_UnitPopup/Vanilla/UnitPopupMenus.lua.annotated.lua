@@ -26,7 +26,7 @@ function UnitPopupMenuSelf:GetEntries()
 	}
 end
 
-UnitPopupMenuFriendlyPlayerInteract = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuFriendlyPlayerInteract = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuFriendlyPlayerInteract : UnitPopupTopLevelMenuMixin
 function UnitPopupMenuFriendlyPlayerInteract:GetEntries()
 	return {
 		UnitPopupWhisperButtonMixin,

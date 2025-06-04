@@ -1,4 +1,4 @@
-EventRegistry = CreateFromMixins(CallbackRegistryMixin);
+EventRegistry = CreateFromMixins(CallbackRegistryMixin);--- @class EventRegistry : CallbackRegistryMixin
 
 function EventRegistry:OnLoad()
 	CallbackRegistryMixin.OnLoad(self);

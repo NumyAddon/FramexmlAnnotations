@@ -114,11 +114,11 @@ class LuaFileParser
                 $funcInfo['classAnnotation'] .= ' : ' . $match['extends'][0];
             }
             if (
-                !str_contains($match['name'][0], 'Mixin')
-                && (
-                    !str_contains($match['extends'][0], ',')
-                    || str_contains($match['name'][0], '.')
+                (
+                    !str_contains($match['name'][0], 'Mixin')
+                    && !str_contains($match['extends'][0], ',')
                 )
+                || str_contains($match['name'][0], '.')
             ) {
                 // skip global objects created from single mixins, and skip table properties
                 continue;

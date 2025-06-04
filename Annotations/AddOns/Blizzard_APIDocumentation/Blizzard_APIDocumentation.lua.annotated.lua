@@ -1,5 +1,9 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_APIDocumentation/Blizzard_APIDocumentation.lua#L398)
+--- @class APIDocumentation : APIDocumentationMixin
+APIDocumentation = CreateFromMixins(APIDocumentationMixin)
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_APIDocumentation/Blizzard_APIDocumentation.lua#L1)
 --- @class APIDocumentationMixin
 APIDocumentationMixin = {}

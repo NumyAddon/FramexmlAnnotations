@@ -376,7 +376,7 @@ function AuctionHouseUtil.GetSellersString(rowData)
 	end
 end
 
-AuctionHouseUtil.TimeLeftTooltipFormatter = CreateFromMixins(SecondsFormatterMixin);--- @class AuctionHouseUtil.TimeLeftTooltipFormatter : SecondsFormatterMixin
+AuctionHouseUtil.TimeLeftTooltipFormatter = CreateFromMixins(SecondsFormatterMixin);
 AuctionHouseUtil.TimeLeftTooltipFormatter:Init(0, SecondsFormatter.Abbreviation.Truncate, true);
 
 function AuctionHouseUtil.FormatTimeLeftTooltip(timeLeftSeconds, rowData)
@@ -387,7 +387,7 @@ function AuctionHouseUtil.FormatTimeLeftTooltip(timeLeftSeconds, rowData)
 	return sold and AUCTION_HOUSE_TIME_LEFT_FORMAT_SOLD:format(text) or AUCTION_HOUSE_TIME_LEFT_FORMAT_ACTIVE:format(text);
 end
 
-AuctionHouseUtil.TimeLeftFormatter = CreateFromMixins(SecondsFormatterMixin);--- @class AuctionHouseUtil.TimeLeftFormatter : SecondsFormatterMixin
+AuctionHouseUtil.TimeLeftFormatter = CreateFromMixins(SecondsFormatterMixin);
 AuctionHouseUtil.TimeLeftFormatter:Init(0, SecondsFormatter.Abbreviation.OneLetter, true);
 AuctionHouseUtil.TimeLeftFormatter:SetStripIntervalWhitespace(true);
 

@@ -1473,7 +1473,7 @@ function Professions.GetProfessionInfo()
 	return professionInfo;
 end
 
-Professions.OrderTimeLeftFormatter = CreateFromMixins(SecondsFormatterMixin);
+Professions.OrderTimeLeftFormatter = CreateFromMixins(SecondsFormatterMixin);--- @class Professions.OrderTimeLeftFormatter : SecondsFormatterMixin
 Professions.OrderTimeLeftFormatter:Init(0, SecondsFormatter.Abbreviation.OneLetter, true);
 Professions.OrderTimeLeftFormatter:SetStripIntervalWhitespace(true);
 

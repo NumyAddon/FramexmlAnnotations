@@ -122,9 +122,9 @@ function SettingsElementHierarchyMixin:AddEvaluateStateFrameEvent(event)
 	table.insert(self.evaluateStateFrameEvents, event);
 end
 
-SettingsListPanelInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin);
+SettingsListPanelInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin);--- @class SettingsListPanelInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin
 
-SettingsListElementInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin);
+SettingsListElementInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin);--- @class SettingsListElementInitializer : ScrollBoxFactoryInitializerMixin, SettingsElementHierarchyMixin, SettingsSearchableElementMixin
 
 function SettingsListElementInitializer:Init(frameTemplate, data)
 	ScrollBoxFactoryInitializerMixin.Init(self, frameTemplate);
@@ -925,7 +925,7 @@ function SettingsExpandableSectionMixin:Init(initializer)
 	self.Button.Text:SetText(data.name);
 end
 
-SettingsExpandableSectionInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin);
+SettingsExpandableSectionInitializer = CreateFromMixins(ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin);--- @class SettingsExpandableSectionInitializer : ScrollBoxFactoryInitializerMixin, SettingsSearchableElementMixin
 
 function SettingsExpandableSectionInitializer:GetExtent()
 	error("Implement GetExtent");

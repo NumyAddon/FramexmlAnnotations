@@ -3498,31 +3498,31 @@ function UnitPopupSubsectionSeperatorMixin:IsDivider()
 	return true;
 end
 
-UnitPopupLootSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin);
+UnitPopupLootSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin);--- @class UnitPopupLootSubsectionTitle : UnitPopupSubsectionTitleMixin
 
 function UnitPopupLootSubsectionTitle:GetText(contextData)
 	return UNIT_FRAME_DROPDOWN_SUBSECTION_TITLE_LOOT;
 end
 
-UnitPopupInstanceSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin);
+UnitPopupInstanceSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin);--- @class UnitPopupInstanceSubsectionTitle : UnitPopupSubsectionTitleMixin
 
 function UnitPopupInstanceSubsectionTitle:GetText(contextData)
 	return UNIT_FRAME_DROPDOWN_SUBSECTION_TITLE_INSTANCE;
 end
 
-UnitPopupOtherSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin);
+UnitPopupOtherSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin);--- @class UnitPopupOtherSubsectionTitle : UnitPopupSubsectionTitleMixin
 
 function UnitPopupOtherSubsectionTitle:GetText(contextData)
 	return UNIT_FRAME_DROPDOWN_SUBSECTION_TITLE_OTHER;
 end
 
-UnitPopupInteractSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin);
+UnitPopupInteractSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin);--- @class UnitPopupInteractSubsectionTitle : UnitPopupSubsectionTitleMixin
 
 function UnitPopupInteractSubsectionTitle:GetText(contextData)
 	return UNIT_FRAME_DROPDOWN_SUBSECTION_TITLE_INTERACT;
 end
 
-UnitPopupLegacyRaidSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin);
+UnitPopupLegacyRaidSubsectionTitle = CreateFromMixins(UnitPopupSubsectionTitleMixin);--- @class UnitPopupLegacyRaidSubsectionTitle : UnitPopupSubsectionTitleMixin
 
 function UnitPopupLegacyRaidSubsectionTitle:GetText()
 	return UNIT_FRAME_DROPDOWN_SUBSECTION_TITLE_LEGACY_RAID;
@@ -3555,7 +3555,7 @@ function UnitPopupSelectRoleButtonMixin:GetEntries()
 	}
 end
 
-UnitPopupSetRoleNoneButton = CreateFromMixins(UnitPopupRadioButtonMixin);
+UnitPopupSetRoleNoneButton = CreateFromMixins(UnitPopupRadioButtonMixin);--- @class UnitPopupSetRoleNoneButton : UnitPopupRadioButtonMixin
 
 function UnitPopupSetRoleNoneButton:GetText(contextData)
 	return NO_ROLE;
@@ -3579,7 +3579,7 @@ function UnitPopupSetRoleNoneButton:IsChecked(contextData)
 	return UnitGroupRolesAssignedEnum(contextData.unit) == self:GetRole();
 end
 
-UnitPopupSetRoleTankButton = CreateFromMixins(UnitPopupSetRoleNoneButton);
+UnitPopupSetRoleTankButton = CreateFromMixins(UnitPopupSetRoleNoneButton);--- @class UnitPopupSetRoleTankButton : UnitPopupSetRoleNoneButton
 
 function UnitPopupSetRoleTankButton:GetText(contextData)
 	return INLINE_TANK_ICON.." "..TANK;
@@ -3594,7 +3594,7 @@ function UnitPopupSetRoleTankButton:IsEnabled(contextData)
 	return canBeTank;
 end
 
-UnitPopupSetRoleDpsButton = CreateFromMixins(UnitPopupSetRoleNoneButton);
+UnitPopupSetRoleDpsButton = CreateFromMixins(UnitPopupSetRoleNoneButton);--- @class UnitPopupSetRoleDpsButton : UnitPopupSetRoleNoneButton
 
 function UnitPopupSetRoleDpsButton:GetText(contextData)
 	return INLINE_DAMAGER_ICON.." "..DAMAGER;
@@ -3609,7 +3609,7 @@ function UnitPopupSetRoleDpsButton:IsEnabled(contextData)
 	return canBeDamager;
 end
 
-UnitPopupSetRoleHealerButton = CreateFromMixins(UnitPopupSetRoleNoneButton);
+UnitPopupSetRoleHealerButton = CreateFromMixins(UnitPopupSetRoleNoneButton);--- @class UnitPopupSetRoleHealerButton : UnitPopupSetRoleNoneButton
 
 function UnitPopupSetRoleHealerButton:GetText(contextData)
 	return INLINE_HEALER_ICON.." "..HEALER;

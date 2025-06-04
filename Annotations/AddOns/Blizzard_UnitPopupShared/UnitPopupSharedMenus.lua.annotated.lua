@@ -34,7 +34,7 @@ end
 end
 
 -- Submenus
-UnitPopupMenuFriendlyPlayer = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuFriendlyPlayer = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuFriendlyPlayer : UnitPopupTopLevelMenuMixin
 function UnitPopupMenuFriendlyPlayer:GetEntries()
 	return {
 		UnitPopupRaidTargetButtonMixin, 
@@ -45,7 +45,7 @@ function UnitPopupMenuFriendlyPlayer:GetEntries()
 	}
 end 
 
-UnitPopupMenuFriendlyPlayerInteract = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuFriendlyPlayerInteract = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuFriendlyPlayerInteract : UnitPopupTopLevelMenuMixin
 function UnitPopupMenuFriendlyPlayerInteract:GetEntries()
 	return {
 		UnitPopupWhisperButtonMixin,
@@ -58,7 +58,7 @@ function UnitPopupMenuFriendlyPlayerInteract:GetEntries()
 	}
 end 
 
-UnitPopupMenuFriendlyPlayerInviteOptions = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuFriendlyPlayerInviteOptions = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuFriendlyPlayerInviteOptions : UnitPopupTopLevelMenuMixin
 function UnitPopupMenuFriendlyPlayerInviteOptions:GetEntries()
 	return {
 		UnitPopupInviteButtonMixin,
@@ -68,12 +68,12 @@ function UnitPopupMenuFriendlyPlayerInviteOptions:GetEntries()
 end
 
 -- Root menus
-UnitPopupMenuSelf = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuSelf = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuSelf : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("SELF", UnitPopupMenuSelf);
 function UnitPopupMenuSelf:GetEntries()
 end
 
-UnitPopupMenuPet = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuPet = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuPet : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("PET", UnitPopupMenuPet);
 function UnitPopupMenuPet:GetEntries()
 	return { 
@@ -90,7 +90,7 @@ function UnitPopupMenuPet:GetEntries()
 	}
 end
 
-UnitPopupMenuOtherPet = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuOtherPet = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuOtherPet : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("OTHERPET", UnitPopupMenuOtherPet);
 function UnitPopupMenuOtherPet:GetEntries()
 	return { 
@@ -104,7 +104,7 @@ function UnitPopupMenuOtherPet:GetEntries()
 	}
 end 
 
-UnitPopupMenuBattlePet = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuBattlePet = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuBattlePet : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("BATTLEPET", UnitPopupMenuBattlePet);
 function UnitPopupMenuBattlePet:GetEntries()
 	return { 
@@ -117,7 +117,7 @@ function UnitPopupMenuBattlePet:GetEntries()
 	}
 end 
 
-UnitPopupMenuOtherBattlePet = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuOtherBattlePet = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuOtherBattlePet : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("OTHERBATTLEPET", UnitPopupMenuOtherBattlePet);
 function UnitPopupMenuOtherBattlePet:GetEntries()
 	return { 
@@ -131,13 +131,13 @@ function UnitPopupMenuOtherBattlePet:GetEntries()
 	}
 end 
 
-UnitPopupMenuParty = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuParty = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuParty : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("PARTY", UnitPopupMenuParty);
 function UnitPopupMenuParty:GetEntries()
 	error(PROJECT_IMPL_REQUIRED);
 end
 
-UnitPopupMenuPlayer = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuPlayer = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuPlayer : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("PLAYER", UnitPopupMenuPlayer);
 function UnitPopupMenuPlayer:GetEntries()
 	return {
@@ -156,19 +156,19 @@ function UnitPopupMenuPlayer:GetEntries()
 	}
 end
 
-UnitPopupMenuEnemyPlayer = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuEnemyPlayer = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuEnemyPlayer : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("ENEMY_PLAYER", UnitPopupMenuEnemyPlayer);
 function UnitPopupMenuEnemyPlayer:GetEntries()
 	error(PROJECT_IMPL_REQUIRED);
 end
 
-UnitPopupMenuRaidPlayer = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuRaidPlayer = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuRaidPlayer : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("RAID_PLAYER", UnitPopupMenuRaidPlayer);
 function UnitPopupMenuRaidPlayer:GetEntries()
 	error(PROJECT_IMPL_REQUIRED);
 end
 
-UnitPopupMenuRaid = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuRaid = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuRaid : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("RAID", UnitPopupMenuRaid);
 function UnitPopupMenuRaid:GetEntries()
 	return {
@@ -193,7 +193,7 @@ function UnitPopupMenuRaid:GetEntries()
 	}
 end
 
-UnitPopupMenuFriend = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuFriend = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuFriend : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("FRIEND", UnitPopupMenuFriend);
 function UnitPopupMenuFriend:GetEntries()
 	return { 
@@ -215,7 +215,7 @@ function UnitPopupMenuFriend:GetEntries()
 	}
 end 
 
-UnitPopupMenuFriendOffline = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuFriendOffline = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuFriendOffline : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("FRIEND_OFFLINE", UnitPopupMenuFriendOffline);
 function UnitPopupMenuFriendOffline:GetEntries()
 	return { 
@@ -227,19 +227,19 @@ function UnitPopupMenuFriendOffline:GetEntries()
 	}
 end  
 
-UnitPopupMenuBnFriend = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuBnFriend = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuBnFriend : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("BN_FRIEND", UnitPopupMenuBnFriend);
 function UnitPopupMenuBnFriend:GetEntries()
 	error(PROJECT_IMPL_REQUIRED);
 end 
 
-UnitPopupMenuBnFriendOffline = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuBnFriendOffline = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuBnFriendOffline : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("BN_FRIEND_OFFLINE", UnitPopupMenuBnFriendOffline);
 function UnitPopupMenuBnFriendOffline:GetEntries()
 	error(PROJECT_IMPL_REQUIRED);
 end
 
-UnitPopupMenuGlueFriend = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuGlueFriend = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuGlueFriend : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("GLUE_FRIEND", UnitPopupMenuGlueFriend);
 function UnitPopupMenuGlueFriend:GetEntries()
 	return {
@@ -250,7 +250,7 @@ function UnitPopupMenuGlueFriend:GetEntries()
 	}
 end 
 
-UnitPopupMenuGlueFriendOffline = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuGlueFriendOffline = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuGlueFriendOffline : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("GLUE_FRIEND_OFFLINE", UnitPopupMenuGlueFriendOffline);
 function UnitPopupMenuGlueFriendOffline:GetEntries()
 	return {
@@ -260,7 +260,7 @@ function UnitPopupMenuGlueFriendOffline:GetEntries()
 	}
 end
 
-UnitPopupMenuGuild = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuGuild = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuGuild : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("GUILD", UnitPopupMenuGuild);
 function UnitPopupMenuGuild:GetEntries()
 	return { 
@@ -278,7 +278,7 @@ function UnitPopupMenuGuild:GetEntries()
 	}
 end 
 
-UnitPopupMenuGuildOffline = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuGuildOffline = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuGuildOffline : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("GUILD_OFFLINE", UnitPopupMenuGuildOffline);
 function UnitPopupMenuGuildOffline:GetEntries()
 	return { 
@@ -292,7 +292,7 @@ function UnitPopupMenuGuildOffline:GetEntries()
 	}
 end
 
-UnitPopupMenuChatRoster = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuChatRoster = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuChatRoster : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("CHAT_ROSTER", UnitPopupMenuChatRoster);
 function UnitPopupMenuChatRoster:GetEntries()
 	return {
@@ -314,7 +314,7 @@ function UnitPopupMenuChatRoster:GetEntries()
 	}
 end
 
-UnitPopupMenuVehicle = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuVehicle = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuVehicle : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("VEHICLE", UnitPopupMenuVehicle);
 function UnitPopupMenuVehicle:GetEntries()
 	return {
@@ -328,7 +328,7 @@ function UnitPopupMenuVehicle:GetEntries()
 	}
 end
 
-UnitPopupMenuTarget = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuTarget = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuTarget : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("TARGET", UnitPopupMenuTarget);
 function UnitPopupMenuTarget:GetEntries()
 	return {
@@ -344,7 +344,7 @@ function UnitPopupMenuTarget:GetEntries()
 	}
 end
 
-UnitPopupMenuArenaEnemy = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuArenaEnemy = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuArenaEnemy : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("ARENAENEMY", UnitPopupMenuArenaEnemy);
 function UnitPopupMenuArenaEnemy:GetEntries()
 	return {
@@ -353,7 +353,7 @@ function UnitPopupMenuArenaEnemy:GetEntries()
 	}
 end
 
-UnitPopupMenuFocus = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuFocus = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuFocus : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("FOCUS", UnitPopupMenuFocus);
 function UnitPopupMenuFocus:GetEntries()
 	return {
@@ -367,7 +367,7 @@ function UnitPopupMenuFocus:GetEntries()
 	}
 end
 
-UnitPopupMenuBoss = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuBoss = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuBoss : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("BOSS", UnitPopupMenuBoss);
 function UnitPopupMenuBoss:GetEntries()
 	return {
@@ -378,19 +378,19 @@ function UnitPopupMenuBoss:GetEntries()
 	}
 end
 
-UnitPopupMenuCommunitiesWowMember = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuCommunitiesWowMember = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuCommunitiesWowMember : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("COMMUNITIES_WOW_MEMBER", UnitPopupMenuCommunitiesWowMember);
 function UnitPopupMenuCommunitiesWowMember:GetEntries()
 	error(PROJECT_IMPL_REQUIRED);
 end
 
-UnitPopupMenuCommunitiesGuildMember = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuCommunitiesGuildMember = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuCommunitiesGuildMember : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("COMMUNITIES_GUILD_MEMBER", UnitPopupMenuCommunitiesGuildMember);
 function UnitPopupMenuCommunitiesGuildMember:GetEntries()
 	error(PROJECT_IMPL_REQUIRED);
 end
 
-UnitPopupGuildGuilds = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupGuildGuilds = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupGuildGuilds : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("GUILDS_GUILD", UnitPopupGuildGuilds);
 function UnitPopupGuildGuilds:GetEntries()
 	return {
@@ -403,7 +403,7 @@ function UnitPopupGuildGuilds:GetEntries()
 	}
 end
 
-UnitPopupMenuCommunitiesMember = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuCommunitiesMember = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuCommunitiesMember : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("COMMUNITIES_MEMBER", UnitPopupMenuCommunitiesMember);
 function UnitPopupMenuCommunitiesMember:GetEntries()
 	return {
@@ -423,7 +423,7 @@ function UnitPopupMenuCommunitiesMember:GetEntries()
 	}
 end
 
-UnitPopupMenuCommunitiesCommunity = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuCommunitiesCommunity = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuCommunitiesCommunity : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("COMMUNITIES_COMMUNITY", UnitPopupMenuCommunitiesCommunity);
 function UnitPopupMenuCommunitiesCommunity:GetEntries()
 	return {
@@ -436,7 +436,7 @@ function UnitPopupMenuCommunitiesCommunity:GetEntries()
 	}
 end
 
-UnitPopupMenuRaidTargetIcon = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuRaidTargetIcon = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuRaidTargetIcon : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("RAID_TARGET_ICON", UnitPopupMenuRaidTargetIcon);
 function UnitPopupMenuRaidTargetIcon:GetEntries()
 	return { 
@@ -444,7 +444,7 @@ function UnitPopupMenuRaidTargetIcon:GetEntries()
 	}
 end
 
-UnitPopupMenuWorldStateScore = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuWorldStateScore = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuWorldStateScore : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("WORLD_STATE_SCORE", UnitPopupMenuWorldStateScore);
 function UnitPopupMenuWorldStateScore:GetEntries()
 	return {
@@ -452,7 +452,7 @@ function UnitPopupMenuWorldStateScore:GetEntries()
 	}
 end
 
-UnitPopupMenuPvpScoreboard = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuPvpScoreboard = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuPvpScoreboard : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("PVP_SCOREBOARD", UnitPopupMenuPvpScoreboard);
 function UnitPopupMenuPvpScoreboard:GetEntries()
 	return {
@@ -460,7 +460,7 @@ function UnitPopupMenuPvpScoreboard:GetEntries()
 	}
 end
 
-UnitPopupMenuGluePartyMember = CreateFromMixins(UnitPopupTopLevelMenuMixin)
+UnitPopupMenuGluePartyMember = CreateFromMixins(UnitPopupTopLevelMenuMixin)--- @class UnitPopupMenuGluePartyMember : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("GLUE_PARTY_MEMBER", UnitPopupMenuGluePartyMember);
 function UnitPopupMenuGluePartyMember:GetEntries()
 	return {

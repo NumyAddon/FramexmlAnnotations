@@ -22,7 +22,7 @@ function GlowEmitterMixin:Play(animType)
 	end
 end
 
-GlowEmitterFactory = CreateFromMixins(EffectFactoryMixin);
+GlowEmitterFactory = CreateFromMixins(EffectFactoryMixin);--- @class GlowEmitterFactory : EffectFactoryMixin
 
 function GlowEmitterFactory:OnLoad()
 	EffectFactoryMixin.OnLoad(self, "GlowEmitterTemplate");

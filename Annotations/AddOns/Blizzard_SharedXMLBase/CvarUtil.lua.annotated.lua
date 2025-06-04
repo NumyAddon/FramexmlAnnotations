@@ -89,7 +89,7 @@ function CreateCVarAccessor(cvar, variableType)
 	return CreateAndInitFromMixin(CVarAccessorMixin, cvar, variableType);
 end
 
-CVarCallbackRegistry = CreateFromMixins(CallbackRegistryMixin);
+CVarCallbackRegistry = CreateFromMixins(CallbackRegistryMixin);--- @class CVarCallbackRegistry : CallbackRegistryMixin
 CVarCallbackRegistry:GenerateCallbackEvents(
 	{
 		"OnCVarChanged",

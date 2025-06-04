@@ -159,7 +159,7 @@ function UnitPopupMenuCommunitiesGuildMember:GetEntries()
 	}
 end
 
-UnitPopupMenuTeam = CreateFromMixins(UnitPopupTopLevelMenuMixin);
+UnitPopupMenuTeam = CreateFromMixins(UnitPopupTopLevelMenuMixin);--- @class UnitPopupMenuTeam : UnitPopupTopLevelMenuMixin
 UnitPopupManager:RegisterMenu("TEAM", UnitPopupMenuTeam);
 function UnitPopupMenuTeam:GetEntries()
 	return {

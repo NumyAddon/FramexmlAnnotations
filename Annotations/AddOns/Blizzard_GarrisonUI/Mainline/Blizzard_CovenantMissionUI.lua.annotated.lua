@@ -157,7 +157,7 @@ end
 -- Shadowlands/Covenant Mission Frame
 ---------------------------------------------------------------------------------
 
-CovenantMission = CreateFromMixins(CallbackRegistryMixin);
+CovenantMission = CreateFromMixins(CallbackRegistryMixin);--- @class CovenantMission : CallbackRegistryMixin
 
 CovenantMission:GenerateCallbackEvents(
 {

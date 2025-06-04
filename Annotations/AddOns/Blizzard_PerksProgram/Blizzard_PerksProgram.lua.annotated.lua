@@ -477,7 +477,7 @@ end
 ----------------------------------------------------------------------------------
 -- TimeLeftListFormatter
 ----------------------------------------------------------------------------------
-PerksProgramMixin.TimeLeftListFormatter = CreateFromMixins(SecondsFormatterMixin);
+PerksProgramMixin.TimeLeftListFormatter = CreateFromMixins(SecondsFormatterMixin);--- @class PerksProgramMixin.TimeLeftListFormatter : SecondsFormatterMixin
 PerksProgramMixin.TimeLeftListFormatter:Init(0, SecondsFormatter.Abbreviation.OneLetter, false, true);
 PerksProgramMixin.TimeLeftListFormatter:SetStripIntervalWhitespace(true);
 function PerksProgramMixin.TimeLeftListFormatter:GetMinInterval(seconds)
@@ -491,7 +491,7 @@ end
 ----------------------------------------------------------------------------------
 -- TimeLeftDetailsFormatter
 ----------------------------------------------------------------------------------
-PerksProgramMixin.TimeLeftDetailsFormatter = CreateFromMixins(SecondsFormatterMixin);
+PerksProgramMixin.TimeLeftDetailsFormatter = CreateFromMixins(SecondsFormatterMixin);--- @class PerksProgramMixin.TimeLeftDetailsFormatter : SecondsFormatterMixin
 PerksProgramMixin.TimeLeftDetailsFormatter:Init(0, SecondsFormatter.Abbreviation.Truncate, false, true);
 function PerksProgramMixin.TimeLeftDetailsFormatter:GetMinInterval(seconds)
 	return SecondsFormatter.Interval.Minutes;
@@ -500,7 +500,7 @@ end
 ----------------------------------------------------------------------------------
 -- TimeLeftFooterFormatter
 ----------------------------------------------------------------------------------
-PerksProgramMixin.TimeLeftFooterFormatter = CreateFromMixins(SecondsFormatterMixin);
+PerksProgramMixin.TimeLeftFooterFormatter = CreateFromMixins(SecondsFormatterMixin);--- @class PerksProgramMixin.TimeLeftFooterFormatter : SecondsFormatterMixin
 PerksProgramMixin.TimeLeftFooterFormatter:Init(0, SecondsFormatter.Abbreviation.OneLetter, false, true);
 PerksProgramMixin.TimeLeftFooterFormatter:SetStripIntervalWhitespace(true);
 function PerksProgramMixin.TimeLeftFooterFormatter:GetMinInterval(seconds)

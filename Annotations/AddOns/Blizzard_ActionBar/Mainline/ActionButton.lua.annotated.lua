@@ -1,9 +1,5 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L16)
---- @class ActionButtonBindingHighlightCallbackRegistry : CallbackRegistryMixin
-ActionButtonBindingHighlightCallbackRegistry = CreateFromMixins(CallbackRegistryMixin)
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButton.lua#L201)
 --- @class ActionBarButtonEventsFrameMixin
 ActionBarButtonEventsFrameMixin = {}

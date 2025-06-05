@@ -151,11 +151,6 @@ ChallengesFrameRewardRow2 = {}
 --- @class ChallengesFrameRewardRow1 : Frame, ChallengeRewardRowTemplate
 ChallengesFrameRewardRow1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L338)
---- child of ChallengesFrame
---- @class ChallengesFrameLeaderboard : Button, UIGoldBorderButtonTemplate
-ChallengesFrameLeaderboard = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L146)
 --- @class ChallengesFrame : Frame
 --- @field details ChallengesFrameDetails
@@ -205,22 +200,22 @@ ChallengesLeaderboardFrameHbarTopBorder = {}
 --- @type HorizontalBarTemplate_BottomBorder
 ChallengesLeaderboardFrameHbarBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L386)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L376)
 --- child of ChallengesLeaderboardFrame
 --- @class ChallengesLeaderboardFrameHbar : Frame, HorizontalBarTemplate
 ChallengesLeaderboardFrameHbar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L383)
 --- child of ChallengesLeaderboardFrame
 --- @class ChallengesLeaderboardFrameCloseButton : Button, UIPanelCloseButton
 ChallengesLeaderboardFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L353)
 --- child of ChallengesLeaderboardFrame
 --- @class ChallengesLeaderboardFrameTopBg : Texture
 ChallengesLeaderboardFrameTopBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L368)
 --- child of ChallengesLeaderboardFrame
 --- @class ChallengesLeaderboardFrameTitle : FontString
 ChallengesLeaderboardFrameTitle = {}
@@ -270,7 +265,7 @@ ChallengesLeaderboardFrameLeftBorder = {}
 --- @type TranslucentFrameTemplate_RightBorder
 ChallengesLeaderboardFrameRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ChallengesUI/Mists/Blizzard_ChallengesUI.xml#L346)
 --- @class ChallengesLeaderboardFrame : Frame, TranslucentFrameTemplate
 ChallengesLeaderboardFrame = {}
 ChallengesLeaderboardFrame["Bg"] = ChallengesLeaderboardFrameBg -- inherited

@@ -357,34 +357,22 @@ QuestLogFrame["LeftBorder"] = QuestLogFrameLeftBorder -- inherited
 QuestLogFrame["RightBorder"] = QuestLogFrameRightBorder -- inherited
 QuestLogFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L740)
---- child of QuestLogDetailInset (created in template InsetFrameTemplate)
---- @type Texture
-QuestLogDetailInsetBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L522)
---- child of QuestLogDetailFrame
---- @class QuestLogDetailInset : Frame, InsetFrameTemplate
-QuestLogDetailInset = {}
-QuestLogDetailInset["layoutType"] = "InsetFrameTemplate" -- inherited
-QuestLogDetailInset["Bg"] = QuestLogDetailInsetBg -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L562)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L556)
 --- child of QuestLogDetailScrollFrame
 --- @class QuestLogDetailScrollChildFrame : Frame
 QuestLogDetailScrollChildFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L537)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L531)
 --- child of QuestLogDetailScrollFrame
 --- @class QuestLogDetailScrollFrameTop : Texture
 QuestLogDetailScrollFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L544)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L538)
 --- child of QuestLogDetailScrollFrame
 --- @class QuestLogDetailScrollFrameBottom : Texture
 QuestLogDetailScrollFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L551)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L545)
 --- child of QuestLogDetailScrollFrame
 --- @class QuestLogDetailScrollFrameMiddle : Texture
 QuestLogDetailScrollFrameMiddle = {}
@@ -412,7 +400,7 @@ QuestLogDetailScrollFrameScrollBar["ScrollUpButton"] = QuestLogDetailScrollFrame
 QuestLogDetailScrollFrameScrollBar["ScrollDownButton"] = QuestLogDetailScrollFrameScrollBarScrollDownButton -- inherited
 QuestLogDetailScrollFrameScrollBar["ThumbTexture"] = QuestLogDetailScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Cata/QuestLogFrame.xml#L522)
 --- child of QuestLogDetailFrame
 --- @class QuestLogDetailScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 QuestLogDetailScrollFrame = {}

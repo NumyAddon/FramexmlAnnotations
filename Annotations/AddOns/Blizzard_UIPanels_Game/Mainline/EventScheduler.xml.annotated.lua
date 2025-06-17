@@ -124,10 +124,9 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L289)
 --- child of EventSchedulerFrameTemplate
---- @class EventSchedulerFrameTemplate_SettingsDropdown : DropdownButton, QuestLogSettingsButtonMixin
---- @field Icon Texture
+--- @class EventSchedulerFrameTemplate_SettingsDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/EventScheduler.xml#L297)
 --- child of EventSchedulerFrameTemplate
 --- @class EventSchedulerFrameTemplate_TitleText : FontString, Game15Font_Shadow
 

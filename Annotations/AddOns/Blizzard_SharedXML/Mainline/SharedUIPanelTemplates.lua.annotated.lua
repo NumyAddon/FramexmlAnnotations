@@ -168,6 +168,10 @@ ExpandBarMixin = {}
 --- @class LevelRangeFrameMixin
 LevelRangeFrameMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L3029)
+--- @class UIPanelIconDropdownButtonMixin
+UIPanelIconDropdownButtonMixin = { }
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L278)
 function UIPanelButtonMixin:OnEnter() end
 
@@ -980,3 +984,9 @@ function LevelRangeFrameMixin:Reset() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L3025)
 function LevelRangeFrameMixin:GetLevelRange() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L3031)
+function UIPanelIconDropdownButtonMixin:OnMouseDown() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L3035)
+function UIPanelIconDropdownButtonMixin:OnMouseUp(button, upInside) end

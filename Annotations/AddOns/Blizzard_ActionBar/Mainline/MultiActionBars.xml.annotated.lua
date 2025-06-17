@@ -48,6 +48,7 @@
 --- @field hideGridEventName string # ACTIONBAR_HIDEGRID
 --- @field systemIndex any # Enum.EditModeActionBarSystemIndices.Bar2
 --- @field useDefaultAnchors any # ACTION_BARS_USE_DEFAULT_ANCHORS
+--- @field isNormalBar boolean # true
 --- @field QuickKeybindGlow Texture
 MultiBarBottomLeft = {}
 MultiBarBottomLeft["buttonTemplate"] = "MultiBar1ButtonTemplate"
@@ -61,11 +62,12 @@ MultiBarBottomLeft["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBarBottomLeft["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarBottomLeft["systemIndex"] = Enum.EditModeActionBarSystemIndices.Bar2
 MultiBarBottomLeft["useDefaultAnchors"] = ACTION_BARS_USE_DEFAULT_ANCHORS
+MultiBarBottomLeft["isNormalBar"] = true
 MultiBarBottomLeft["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarBottomLeft["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarBottomLeft["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L75)
 --- @class MultiBarBottomRight : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar2ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR2
@@ -78,6 +80,7 @@ MultiBarBottomLeft["addSystemIndexToName"] = true -- inherited
 --- @field hideGridEventName string # ACTIONBAR_HIDEGRID
 --- @field systemIndex any # Enum.EditModeActionBarSystemIndices.Bar3
 --- @field useDefaultAnchors any # ACTION_BARS_USE_DEFAULT_ANCHORS
+--- @field isNormalBar boolean # true
 --- @field QuickKeybindGlow Texture
 MultiBarBottomRight = {}
 MultiBarBottomRight["buttonTemplate"] = "MultiBar2ButtonTemplate"
@@ -91,11 +94,12 @@ MultiBarBottomRight["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBarBottomRight["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarBottomRight["systemIndex"] = Enum.EditModeActionBarSystemIndices.Bar3
 MultiBarBottomRight["useDefaultAnchors"] = ACTION_BARS_USE_DEFAULT_ANCHORS
+MultiBarBottomRight["isNormalBar"] = true
 MultiBarBottomRight["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarBottomRight["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarBottomRight["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L105)
 --- @class MultiBarLeft : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar4ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR4
@@ -107,6 +111,7 @@ MultiBarBottomRight["addSystemIndexToName"] = true -- inherited
 --- @field showGridEventName string # ACTIONBAR_SHOWGRID
 --- @field hideGridEventName string # ACTIONBAR_HIDEGRID
 --- @field systemIndex any # Enum.EditModeActionBarSystemIndices.RightBar2
+--- @field isNormalBar boolean # true
 --- @field QuickKeybindGlow Texture
 MultiBarLeft = {}
 MultiBarLeft["buttonTemplate"] = "MultiBar4ButtonTemplate"
@@ -119,11 +124,12 @@ MultiBarLeft["addButtonsToTop"] = false
 MultiBarLeft["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBarLeft["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarLeft["systemIndex"] = Enum.EditModeActionBarSystemIndices.RightBar2
+MultiBarLeft["isNormalBar"] = true
 MultiBarLeft["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarLeft["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarLeft["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L134)
 --- @class MultiBarRight : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar3ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR3
@@ -135,6 +141,7 @@ MultiBarLeft["addSystemIndexToName"] = true -- inherited
 --- @field showGridEventName string # ACTIONBAR_SHOWGRID
 --- @field hideGridEventName string # ACTIONBAR_HIDEGRID
 --- @field systemIndex any # Enum.EditModeActionBarSystemIndices.RightBar1
+--- @field isNormalBar boolean # true
 --- @field QuickKeybindGlow Texture
 MultiBarRight = {}
 MultiBarRight["buttonTemplate"] = "MultiBar3ButtonTemplate"
@@ -147,11 +154,12 @@ MultiBarRight["addButtonsToTop"] = false
 MultiBarRight["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBarRight["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarRight["systemIndex"] = Enum.EditModeActionBarSystemIndices.RightBar1
+MultiBarRight["isNormalBar"] = true
 MultiBarRight["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarRight["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarRight["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L163)
 --- @class MultiBar5 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar5ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR5
@@ -163,6 +171,7 @@ MultiBarRight["addSystemIndexToName"] = true -- inherited
 --- @field showGridEventName string # ACTIONBAR_SHOWGRID
 --- @field hideGridEventName string # ACTIONBAR_HIDEGRID
 --- @field systemIndex any # Enum.EditModeActionBarSystemIndices.ExtraBar1
+--- @field isNormalBar boolean # true
 --- @field QuickKeybindGlow Texture
 MultiBar5 = {}
 MultiBar5["buttonTemplate"] = "MultiBar5ButtonTemplate"
@@ -175,11 +184,12 @@ MultiBar5["addButtonsToTop"] = true
 MultiBar5["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBar5["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBar5["systemIndex"] = Enum.EditModeActionBarSystemIndices.ExtraBar1
+MultiBar5["isNormalBar"] = true
 MultiBar5["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBar5["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBar5["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L187)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L192)
 --- @class MultiBar6 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar6ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR6
@@ -191,6 +201,7 @@ MultiBar5["addSystemIndexToName"] = true -- inherited
 --- @field showGridEventName string # ACTIONBAR_SHOWGRID
 --- @field hideGridEventName string # ACTIONBAR_HIDEGRID
 --- @field systemIndex any # Enum.EditModeActionBarSystemIndices.ExtraBar2
+--- @field isNormalBar boolean # true
 --- @field QuickKeybindGlow Texture
 MultiBar6 = {}
 MultiBar6["buttonTemplate"] = "MultiBar6ButtonTemplate"
@@ -203,11 +214,12 @@ MultiBar6["addButtonsToTop"] = true
 MultiBar6["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBar6["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBar6["systemIndex"] = Enum.EditModeActionBarSystemIndices.ExtraBar2
+MultiBar6["isNormalBar"] = true
 MultiBar6["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBar6["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBar6["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L215)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L221)
 --- @class MultiBar7 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar7ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR7
@@ -219,6 +231,7 @@ MultiBar6["addSystemIndexToName"] = true -- inherited
 --- @field showGridEventName string # ACTIONBAR_SHOWGRID
 --- @field hideGridEventName string # ACTIONBAR_HIDEGRID
 --- @field systemIndex any # Enum.EditModeActionBarSystemIndices.ExtraBar3
+--- @field isNormalBar boolean # true
 --- @field QuickKeybindGlow Texture
 MultiBar7 = {}
 MultiBar7["buttonTemplate"] = "MultiBar7ButtonTemplate"
@@ -231,6 +244,7 @@ MultiBar7["addButtonsToTop"] = true
 MultiBar7["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBar7["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBar7["systemIndex"] = Enum.EditModeActionBarSystemIndices.ExtraBar3
+MultiBar7["isNormalBar"] = true
 MultiBar7["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBar7["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBar7["addSystemIndexToName"] = true -- inherited

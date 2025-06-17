@@ -1282,3 +1282,8 @@
 --- @field KeyIcon Texture
 --- @field KeyBind KeyBindingTemplate_KeyBind
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2992)
+--- Template
+--- @class UIPanelIconDropdownButtonTemplate : DropdownButton, UIPanelIconDropdownButtonMixin
+--- @field Icon Texture
+

@@ -52,7 +52,7 @@
 --- @class EngravingFrameSideInsetBackground : Texture
 EngravingFrameSideInsetBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L805)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EngravingUI/Blizzard_EngravingUI.xml#L740)
 --- child of EngravingFrameSideInset (created in template InsetFrameTemplate)
 --- @type Texture
 EngravingFrameSideInsetBg = {}

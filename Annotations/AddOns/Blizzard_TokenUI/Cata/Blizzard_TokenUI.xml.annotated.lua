@@ -88,7 +88,7 @@ TokenFrame = {}
 --- @type OptionsSmallCheckButtonTemplate_Text
 TokenFramePopupInactiveCheckboxText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L411)
 --- child of TokenFramePopupInactiveCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 TokenFramePopupInactiveCheckboxText = {}
@@ -104,7 +104,7 @@ TokenFramePopupInactiveCheckbox["Text"] = TokenFramePopupInactiveCheckboxText --
 --- @type OptionsSmallCheckButtonTemplate_Text
 TokenFramePopupBackpackCheckboxText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TokenUI/Cata/Blizzard_TokenUI.xml#L411)
 --- child of TokenFramePopupBackpackCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 TokenFramePopupBackpackCheckboxText = {}

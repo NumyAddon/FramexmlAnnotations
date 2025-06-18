@@ -74,68 +74,68 @@
 --- Template
 --- @class GameTooltipTemplate : GameTooltip, GameTooltipCommonTemplate, TooltipBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L269)
 --- child of ShoppingTooltipTemplate
 --- @class ShoppingTooltipTemplate_TextLeft1 : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L278)
 --- child of ShoppingTooltipTemplate
 --- @class ShoppingTooltipTemplate_TextRight1 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L287)
 --- child of ShoppingTooltipTemplate
 --- @class ShoppingTooltipTemplate_TextLeft2 : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L296)
 --- child of ShoppingTooltipTemplate
 --- @class ShoppingTooltipTemplate_TextRight2 : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L305)
 --- child of ShoppingTooltipTemplate
 --- @class ShoppingTooltipTemplate_TextLeft3 : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L314)
 --- child of ShoppingTooltipTemplate
 --- @class ShoppingTooltipTemplate_TextRight3 : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L323)
 --- child of ShoppingTooltipTemplate
 --- @class ShoppingTooltipTemplate_TextLeft4 : FontString, GameTooltipTextSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L332)
 --- child of ShoppingTooltipTemplate
 --- @class ShoppingTooltipTemplate_TextRight4 : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L266)
 --- Template
 --- @class ShoppingTooltipTemplate : GameTooltip, GameTooltipCommonTemplate, TooltipBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L373)
 --- child of TooltipMoneyFrameTemplate
 --- @class TooltipMoneyFrameTemplate_PrefixText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L382)
 --- child of TooltipMoneyFrameTemplate
 --- @class TooltipMoneyFrameTemplate_SuffixText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L367)
 --- Template
 --- @class TooltipMoneyFrameTemplate : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L404)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L405)
 --- child of TooltipStatusBarTemplate
 --- @class TooltipStatusBarTemplate_Text : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L398)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L399)
 --- Template
 --- @class TooltipStatusBarTemplate : StatusBar
 --- @field Text TooltipStatusBarTemplate_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L485)
 --- child of TooltipProgressBarTemplate_Bar
 --- @class TooltipProgressBarTemplate_Bar_Label : FontString, GameFontHighlightMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L438)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L439)
 --- child of TooltipProgressBarTemplate
 --- @class TooltipProgressBarTemplate_Bar : StatusBar
 --- @field BorderLeft Texture
@@ -145,7 +145,7 @@
 --- @field RightDivider Texture
 --- @field Label TooltipProgressBarTemplate_Bar_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L435)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/GameTooltipTemplate.xml#L436)
 --- Template
 --- @class TooltipProgressBarTemplate : Frame
 --- @field Bar TooltipProgressBarTemplate_Bar

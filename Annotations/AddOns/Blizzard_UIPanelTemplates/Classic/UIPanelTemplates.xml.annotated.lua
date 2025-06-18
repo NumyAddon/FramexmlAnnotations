@@ -117,357 +117,281 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L413)
 --- Template
---- @class HelpPlateArrowDOWN : Texture
+--- @class Talent_PrimaryHighlight_TopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L417)
 --- Template
---- @class HelpPlateArrowUP : Texture
+--- @class Talent_PrimaryHighlight_TopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L421)
 --- Template
---- @class Talent_PrimaryHighlight_TopLeft : Texture
+--- @class Talent_PrimaryHighlight_BottomLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L425)
 --- Template
---- @class Talent_PrimaryHighlight_TopRight : Texture
+--- @class TalentCover_Overlay_BottomLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L429)
 --- Template
---- @class Talent_PrimaryHighlight_BottomLeft : Texture
+--- @class TalentCover_Overlay_BottomRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L433)
 --- Template
---- @class TalentCover_Overlay_BottomLeft : Texture
+--- @class TalentHeader_GoldBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L437)
 --- Template
---- @class TalentCover_Overlay_BottomRight : Texture
+--- @class PetTalent_SingleBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L441)
 --- Template
---- @class TalentHeader_GoldBorder : Texture
+--- @class Talent_PointBg_Green : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L445)
 --- Template
---- @class PetTalent_SingleBorder : Texture
+--- @class PetTalent_PetIconBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L449)
 --- Template
---- @class Talent_PointBg_Green : Texture
+--- @class TalentHeader_PrimaryIconBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L453)
 --- Template
---- @class HelpPlateArrow_Shadow : Texture
+--- @class TalentCover_Overlay_TopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L457)
 --- Template
---- @class PetTalent_PetIconBorder : Texture
+--- @class TalentCover_Overlay_TopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L461)
 --- Template
---- @class TalentHeader_PrimaryIconBorder : Texture
+--- @class TalentHeader_SecondaryIconBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L465)
 --- Template
---- @class TalentCover_Overlay_TopRight : Texture
+--- @class Talent_Inner_BotRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L469)
 --- Template
---- @class TalentCover_Overlay_TopLeft : Texture
+--- @class Talent_Inner_TopRight : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L473)
 --- Template
---- @class TalentHeader_SecondaryIconBorder : Texture
+--- @class PetTalent_SingleBorder_Glow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L477)
 --- Template
---- @class Talent_Inner_BotRight : Texture
+--- @class Talent_Inner_BotLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L481)
 --- Template
---- @class Talent_Inner_TopRight : Texture
+--- @class Talent_Inner_TopLeft : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L485)
 --- Template
---- @class PetTalent_SingleBorder_Glow : Texture
+--- @class Talent_GoldMedal_Border : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L489)
 --- Template
---- @class Talent_Inner_BotLeft : Texture
+--- @class Talent_SingleBorder_Glow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L493)
 --- Template
---- @class Talent_Inner_TopLeft : Texture
+--- @class PetTalent_SingleBorder_Shadow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L497)
 --- Template
---- @class Talent_GoldMedal_Border : Texture
+--- @class GoldLockIcon : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L501)
 --- Template
---- @class Talent_SingleBorder_Glow : Texture
+--- @class TalentHeader_PointCircle_Gold : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L505)
 --- Template
---- @class PetTalent_SingleBorder_Shadow : Texture
+--- @class Talent_SingleBorder_Shadow : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L509)
 --- Template
---- @class GoldLockIcon : Texture
+--- @class Talent_SingleBorder : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L513)
 --- Template
---- @class HelpPlateArrow_GlowDOWN : Texture
+--- @class TalentHeader_PointCircle_Silver : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L517)
 --- Template
---- @class HelpPlateArrow_GlowUP : Texture
+--- @class Talent_PointBg : Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L521)
 --- Template
---- @class TalentHeader_PointCircle_Gold : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L525)
---- Template
---- @class Talent_SingleBorder_Shadow : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L529)
---- Template
---- @class Talent_SingleBorder : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L533)
---- Template
---- @class TalentHeader_PointCircle_Silver : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L537)
---- Template
---- @class Talent_PointBg : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L541)
---- Template
 --- @class Talent_TitleGlow_Left : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L547)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L527)
 --- Template
 --- @class Dialog_BorderTopLeft : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L551)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L531)
 --- Template
 --- @class Dialog_BorderBottomLeft : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L555)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L535)
 --- Template
 --- @class Dialog_BorderTopRight : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L559)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L539)
 --- Template
 --- @class Dialog_BorderBottomRight : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L543)
 --- Template
 --- @class Thin_BorderTopLeft : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L566)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L546)
 --- Template
 --- @class Thin_BorderBottomLeft : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L549)
 --- Template
 --- @class Thin_BorderTopRight : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L572)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L552)
 --- Template
 --- @class Thin_BorderBottomRight : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L578)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L558)
 --- Template
 --- @class _Talent_Inner_RightTile : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L582)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L562)
 --- Template
 --- @class _Talent_Inner_LeftTile : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L587)
---- Template
---- @class _HelpPlateBox_Right : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L591)
---- Template
---- @class _HelpPlateBox_Left : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L567)
 --- Template
 --- @class _TalentCover_Overlay_Left : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L571)
 --- Template
 --- @class _Talent_PrimaryHighlight_Left : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L575)
 --- Template
 --- @class _Talent_PrimaryHighlight_Right : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L608)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L580)
 --- Template
 --- @class Dialog_BorderLeft : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L611)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L583)
 --- Template
 --- @class Dialog_BorderRight : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L614)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L586)
 --- Template
 --- @class _Thin_BorderRight : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L617)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L589)
 --- Template
 --- @class _Thin_BorderLeft : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L622)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L594)
 --- Template
 --- @class _UI_Frame_InnerSplitTile : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L598)
 --- Template
 --- @class _UI_Frame_Top : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L603)
 --- Template
 --- @class _Talent_Inner_TopTile : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L635)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L607)
 --- Template
 --- @class _Talent_Inner_BotTile : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L611)
 --- Template
 --- @class _Talent_TitleGlowTile : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L615)
 --- Template
 --- @class _Talent_Mastery_Background : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L648)
---- Template
---- @class _HelpPlateBox_Top : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L652)
---- Template
---- @class _HelpPlateBox_Bottom : Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L656)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L620)
 --- Template
 --- @class _TalentCover_Overlay_Bottom : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L660)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L624)
 --- Template
 --- @class _TalentCover_Overlay_Top : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L664)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L628)
 --- Template
 --- @class _Talent_PrimaryHighlight_Bottom : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L668)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L632)
 --- Template
 --- @class _Talent_PrimaryHighlight_Top : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L674)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L638)
 --- Template
 --- @class Dialog_BorderTop : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L677)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L641)
 --- Template
 --- @class Dialog_BorderBottom : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L680)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L644)
 --- Template
 --- @class _Thin_BorderTop : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L683)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L647)
 --- Template
 --- @class _Thin_BorderBottom : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L698)
---- child of GlowBoxArrowTemplate
---- @class GlowBoxArrowTemplate_Arrow : Texture, HelpPlateArrowDOWN
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L705)
---- child of GlowBoxArrowTemplate
---- @class GlowBoxArrowTemplate_Glow : Texture, HelpPlateArrow_GlowDOWN
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L693)
---- Template
---- @class GlowBoxArrowTemplate : Frame
---- @field Arrow GlowBoxArrowTemplate_Arrow
---- @field Glow GlowBoxArrowTemplate_Glow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L720)
---- Template
---- @class ThinBorderTemplate : Frame
---- @field TopLeft Texture
---- @field TopRight Texture
---- @field BottomLeft Texture
---- @field BottomRight Texture
---- @field Top Texture
---- @field Bottom Texture
---- @field Left Texture
---- @field Right Texture
---- @field Textures table<number, Texture>
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L783)
---- Template
---- @class GlowBorderTemplate : Frame
---- @field TopLeft Texture
---- @field TopRight Texture
---- @field BottomLeft Texture
---- @field BottomRight Texture
---- @field Top Texture
---- @field Bottom Texture
---- @field Left Texture
---- @field Right Texture
---- @field Textures table<number, Texture>
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L908)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L714)
 --- child of BaseBasicFrameTemplate
 --- @class BaseBasicFrameTemplate_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L854)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L660)
 --- child of BaseBasicFrameTemplate
 --- @class BaseBasicFrameTemplate_TopLeftCorner : Texture, UI_Frame_TopLeftCorner
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L859)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L665)
 --- child of BaseBasicFrameTemplate
 --- @class BaseBasicFrameTemplate_TopRightCorner : Texture, UI_Frame_TopCornerRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L864)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L670)
 --- child of BaseBasicFrameTemplate
 --- @class BaseBasicFrameTemplate_TopBorder : Texture, _UI_Frame_TitleTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L870)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L676)
 --- child of BaseBasicFrameTemplate
 --- @class BaseBasicFrameTemplate_TitleText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L683)
 --- child of BaseBasicFrameTemplate
 --- @class BaseBasicFrameTemplate_BotLeftCorner : Texture, UI_Frame_BotCornerLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L882)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L688)
 --- child of BaseBasicFrameTemplate
 --- @class BaseBasicFrameTemplate_BotRightCorner : Texture, UI_Frame_BotCornerRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L693)
 --- child of BaseBasicFrameTemplate
 --- @class BaseBasicFrameTemplate_BottomBorder : Texture, _UI_Frame_Bot
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L699)
 --- child of BaseBasicFrameTemplate
 --- @class BaseBasicFrameTemplate_LeftBorder : Texture, _UI_Frame_LeftTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L899)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L705)
 --- child of BaseBasicFrameTemplate
 --- @class BaseBasicFrameTemplate_RightBorder : Texture, _UI_Frame_RightTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L851)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L657)
 --- Template
 --- @class BaseBasicFrameTemplate : Frame
 --- @field CloseButton BaseBasicFrameTemplate_CloseButton
@@ -481,54 +405,54 @@
 --- @field LeftBorder BaseBasicFrameTemplate_LeftBorder
 --- @field RightBorder BaseBasicFrameTemplate_RightBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L927)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L733)
 --- child of BasicFrameTemplate
 --- @class BasicFrameTemplate_TitleBg : Texture, _UI_Frame_TitleTileBg
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L935)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L741)
 --- child of BasicFrameTemplate
 --- @class BasicFrameTemplate_TopTileStreaks : Texture, _UI_Frame_TopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L918)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L724)
 --- Template
 --- @class BasicFrameTemplate : Frame, BaseBasicFrameTemplate
 --- @field Bg Texture
 --- @field TitleBg BasicFrameTemplate_TitleBg
 --- @field TopTileStreaks BasicFrameTemplate_TopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L956)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L762)
 --- child of BasicFrameTemplateWithInset
 --- @class BasicFrameTemplateWithInset_InsetBorderTopLeft : Texture, UI_Frame_InnerTopLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L962)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L768)
 --- child of BasicFrameTemplateWithInset
 --- @class BasicFrameTemplateWithInset_InsetBorderTopRight : Texture, UI_Frame_InnerTopRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L968)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L774)
 --- child of BasicFrameTemplateWithInset
 --- @class BasicFrameTemplateWithInset_InsetBorderBottomLeft : Texture, UI_Frame_InnerBotLeftCorner
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L974)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L780)
 --- child of BasicFrameTemplateWithInset
 --- @class BasicFrameTemplateWithInset_InsetBorderBottomRight : Texture, UI_Frame_InnerBotRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L980)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L786)
 --- child of BasicFrameTemplateWithInset
 --- @class BasicFrameTemplateWithInset_InsetBorderTop : Texture, _UI_Frame_InnerTopTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L986)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L792)
 --- child of BasicFrameTemplateWithInset
 --- @class BasicFrameTemplateWithInset_InsetBorderBottom : Texture, _UI_Frame_InnerBotTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L992)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L798)
 --- child of BasicFrameTemplateWithInset
 --- @class BasicFrameTemplateWithInset_InsetBorderLeft : Texture, _UI_Frame_InnerLeftTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L998)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L804)
 --- child of BasicFrameTemplateWithInset
 --- @class BasicFrameTemplateWithInset_InsetBorderRight : Texture, _UI_Frame_InnerRightTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L945)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L751)
 --- Template
 --- @class BasicFrameTemplateWithInset : Frame, BasicFrameTemplate
 --- @field InsetBg Texture
@@ -541,39 +465,39 @@
 --- @field InsetBorderLeft BasicFrameTemplateWithInset_InsetBorderLeft
 --- @field InsetBorderRight BasicFrameTemplateWithInset_InsetBorderRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1019)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L825)
 --- child of InsetFrameTemplate2
 --- @class InsetFrameTemplate2_TopLeftCorner : Texture, Talent_Inner_TopLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1024)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L830)
 --- child of InsetFrameTemplate2
 --- @class InsetFrameTemplate2_TopRightCorner : Texture, Talent_Inner_TopRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1029)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L835)
 --- child of InsetFrameTemplate2
 --- @class InsetFrameTemplate2_BotLeftCorner : Texture, Talent_Inner_BotLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1034)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L840)
 --- child of InsetFrameTemplate2
 --- @class InsetFrameTemplate2_BotRightCorner : Texture, Talent_Inner_BotRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1039)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L845)
 --- child of InsetFrameTemplate2
 --- @class InsetFrameTemplate2_TopBorder : Texture, _Talent_Inner_TopTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1045)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L851)
 --- child of InsetFrameTemplate2
 --- @class InsetFrameTemplate2_BottomBorder : Texture, _Talent_Inner_BotTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1051)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L857)
 --- child of InsetFrameTemplate2
 --- @class InsetFrameTemplate2_LeftBorder : Texture, _Talent_Inner_LeftTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1057)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L863)
 --- child of InsetFrameTemplate2
 --- @class InsetFrameTemplate2_RightBorder : Texture, _Talent_Inner_RightTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1016)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L822)
 --- Template
 --- @class InsetFrameTemplate2 : Frame
 --- @field TopLeftCorner InsetFrameTemplate2_TopLeftCorner
@@ -585,7 +509,7 @@
 --- @field LeftBorder InsetFrameTemplate2_LeftBorder
 --- @field RightBorder InsetFrameTemplate2_RightBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1067)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L873)
 --- Template
 --- @class InsetFrameTemplate3 : Frame
 --- @field BorderTopRight Texture
@@ -598,7 +522,7 @@
 --- @field BorderBottomMiddle Texture
 --- @field Bg Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L951)
 --- Template
 --- @class InsetFrameTemplate4 : Frame
 --- @field BorderTopRight Texture
@@ -610,7 +534,7 @@
 --- @field BorderTopMiddle Texture
 --- @field BorderBottomMiddle Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1009)
 --- Template
 --- @class EtherealFrameTemplate : Frame, PortraitFrameTemplate
 --- @field CornerTL Texture
@@ -618,67 +542,67 @@
 --- @field CornerBL Texture
 --- @field CornerBR Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1289)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1095)
 --- child of HorizontalBarTemplate
 --- @class HorizontalBarTemplate_TopLeftCorner : Texture, UI_Frame_InnerBotLeftCorner
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1100)
 --- child of HorizontalBarTemplate
 --- @class HorizontalBarTemplate_TopRightCorner : Texture, UI_Frame_InnerBotRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1105)
 --- child of HorizontalBarTemplate
 --- @class HorizontalBarTemplate_BotLeftCorner : Texture, UI_Frame_InnerTopLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1110)
 --- child of HorizontalBarTemplate
 --- @class HorizontalBarTemplate_BotRightCorner : Texture, UI_Frame_InnerTopRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1116)
 --- child of HorizontalBarTemplate
 --- @class HorizontalBarTemplate_TopBorder : Texture, _UI_Frame_InnerBotTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1122)
 --- child of HorizontalBarTemplate
 --- @class HorizontalBarTemplate_BottomBorder : Texture, _UI_Frame_InnerTopTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1281)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1087)
 --- Template
 --- @class HorizontalBarTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1146)
 --- child of TranslucentFrameTemplate
 --- @class TranslucentFrameTemplate_TopLeftCorner : Texture, Dialog_BorderTopLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1151)
 --- child of TranslucentFrameTemplate
 --- @class TranslucentFrameTemplate_TopRightCorner : Texture, Dialog_BorderTopRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1156)
 --- child of TranslucentFrameTemplate
 --- @class TranslucentFrameTemplate_BottomLeftCorner : Texture, Dialog_BorderBottomLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1161)
 --- child of TranslucentFrameTemplate
 --- @class TranslucentFrameTemplate_BottomRightCorner : Texture, Dialog_BorderBottomRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1360)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1166)
 --- child of TranslucentFrameTemplate
 --- @class TranslucentFrameTemplate_TopBorder : Texture, Dialog_BorderTop
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1172)
 --- child of TranslucentFrameTemplate
 --- @class TranslucentFrameTemplate_BottomBorder : Texture, Dialog_BorderBottom
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1178)
 --- child of TranslucentFrameTemplate
 --- @class TranslucentFrameTemplate_LeftBorder : Texture, Dialog_BorderLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1184)
 --- child of TranslucentFrameTemplate
 --- @class TranslucentFrameTemplate_RightBorder : Texture, Dialog_BorderRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1133)
 --- Template
 --- @class TranslucentFrameTemplate : Frame
 --- @field Bg Texture
@@ -691,7 +615,7 @@
 --- @field LeftBorder TranslucentFrameTemplate_LeftBorder
 --- @field RightBorder TranslucentFrameTemplate_RightBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1194)
 --- Template
 --- @class ShadowOverlaySmallTemplate : Frame
 --- @field TopLeft Texture
@@ -699,29 +623,29 @@
 --- @field BottomLeft Texture
 --- @field BottomRight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1459)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1265)
 --- Template
 --- @class CapProgressBarDividerTemplate : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1547)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1353)
 --- child of CapProgressBarTemplate
 --- @class CapProgressBarTemplate_Cap1Marker : Frame
 --- @field tex Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1369)
 --- child of CapProgressBarTemplate
 --- @class CapProgressBarTemplate_Cap2Marker : Frame
 --- @field tex Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1532)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1338)
 --- child of CapProgressBarTemplate
 --- @class CapProgressBarTemplate_Label : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1539)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1345)
 --- child of CapProgressBarTemplate
 --- @class CapProgressBarTemplate_Text : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1269)
 --- Template
 --- @class CapProgressBarTemplate : Frame
 --- @field cap1Marker CapProgressBarTemplate_Cap1Marker
@@ -732,206 +656,25 @@
 --- @field cap2 Texture
 --- @field label CapProgressBarTemplate_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1659)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1465)
 --- Template
 --- @class ThinGoldEdgeTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1698)
---- @class HelpPlate : Button
-HelpPlate = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1715)
---- child of HelpPlateTooltip
---- @class HelpPlateTooltip_Text : FontString, GameFontHighlightLeft
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1723)
---- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowUP : Texture, HelpPlateArrowDOWN
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1729)
---- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowDOWN : Texture, HelpPlateArrowUP
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1735)
---- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowRIGHT : Texture, HelpPlateArrowDOWN
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1741)
---- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowLEFT : Texture, HelpPlateArrowDOWN
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1749)
---- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowGlowUP : Texture, HelpPlateArrow_GlowDOWN
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1755)
---- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowGlowDOWN : Texture, HelpPlateArrow_GlowUP
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1761)
---- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowGlowRIGHT : Texture, HelpPlateArrow_GlowDOWN
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1767)
---- child of HelpPlateTooltip
---- @class HelpPlateTooltip_ArrowGlowLEFT : Texture, HelpPlateArrow_GlowDOWN
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1776)
---- child of HelpPlateTooltip
---- @class HelpPlateTooltip_LingerAndFade : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2233)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type Texture
-HelpPlateTooltipBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2246)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowTopLeft
-HelpPlateTooltipGlowTopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2251)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowTopRight
-HelpPlateTooltipGlowTopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2257)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowBottomLeft
-HelpPlateTooltipGlowBottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2263)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowBottomRight
-HelpPlateTooltipGlowBottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2269)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowTop
-HelpPlateTooltipGlowTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2275)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowBottom
-HelpPlateTooltipGlowBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2281)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowLeft
-HelpPlateTooltipGlowLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2287)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowRight
-HelpPlateTooltipGlowRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2295)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowTopLeft
-HelpPlateTooltipShadowTopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2300)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowTopRight
-HelpPlateTooltipShadowTopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2306)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowBottomLeft
-HelpPlateTooltipShadowBottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2312)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowBottomRight
-HelpPlateTooltipShadowBottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2318)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowTop
-HelpPlateTooltipShadowTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2324)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowBottom
-HelpPlateTooltipShadowBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2330)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowLeft
-HelpPlateTooltipShadowLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L2336)
---- child of HelpPlateTooltip (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowRight
-HelpPlateTooltipShadowRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1711)
---- @class HelpPlateTooltip : Frame, GlowBoxTemplate
---- @field Text HelpPlateTooltip_Text
---- @field ArrowUP HelpPlateTooltip_ArrowUP
---- @field ArrowDOWN HelpPlateTooltip_ArrowDOWN
---- @field ArrowRIGHT HelpPlateTooltip_ArrowRIGHT
---- @field ArrowLEFT HelpPlateTooltip_ArrowLEFT
---- @field ArrowGlowUP HelpPlateTooltip_ArrowGlowUP
---- @field ArrowGlowDOWN HelpPlateTooltip_ArrowGlowDOWN
---- @field ArrowGlowRIGHT HelpPlateTooltip_ArrowGlowRIGHT
---- @field ArrowGlowLEFT HelpPlateTooltip_ArrowGlowLEFT
---- @field LingerAndFade HelpPlateTooltip_LingerAndFade
-HelpPlateTooltip = {}
-HelpPlateTooltip["BG"] = HelpPlateTooltipBg -- inherited
-HelpPlateTooltip["GlowTopLeft"] = HelpPlateTooltipGlowTopLeft -- inherited
-HelpPlateTooltip["GlowTopRight"] = HelpPlateTooltipGlowTopRight -- inherited
-HelpPlateTooltip["GlowBottomLeft"] = HelpPlateTooltipGlowBottomLeft -- inherited
-HelpPlateTooltip["GlowBottomRight"] = HelpPlateTooltipGlowBottomRight -- inherited
-HelpPlateTooltip["GlowTop"] = HelpPlateTooltipGlowTop -- inherited
-HelpPlateTooltip["GlowBottom"] = HelpPlateTooltipGlowBottom -- inherited
-HelpPlateTooltip["GlowLeft"] = HelpPlateTooltipGlowLeft -- inherited
-HelpPlateTooltip["GlowRight"] = HelpPlateTooltipGlowRight -- inherited
-HelpPlateTooltip["ShadowTopLeft"] = HelpPlateTooltipShadowTopLeft -- inherited
-HelpPlateTooltip["ShadowTopRight"] = HelpPlateTooltipShadowTopRight -- inherited
-HelpPlateTooltip["ShadowBottomLeft"] = HelpPlateTooltipShadowBottomLeft -- inherited
-HelpPlateTooltip["ShadowBottomRight"] = HelpPlateTooltipShadowBottomRight -- inherited
-HelpPlateTooltip["ShadowTop"] = HelpPlateTooltipShadowTop -- inherited
-HelpPlateTooltip["ShadowBottom"] = HelpPlateTooltipShadowBottom -- inherited
-HelpPlateTooltip["ShadowLeft"] = HelpPlateTooltipShadowLeft -- inherited
-HelpPlateTooltip["ShadowRight"] = HelpPlateTooltipShadowRight -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1823)
---- child of HelpPlateButton
---- @class HelpPlateButton_Pulse : AnimationGroup
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1799)
---- Template
---- @class HelpPlateButton : Button
---- @field HelpI Texture
---- @field HelpIGlow Texture
---- @field BgGlow Texture
---- @field Pulse HelpPlateButton_Pulse
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1832)
---- Template
---- @class HelpPlateBox : Frame, ThinBorderTemplate
---- @field BG Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1852)
---- Template
---- @class HelpPlateBoxHighlight : Frame, GlowBorderTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1861)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1504)
 --- Template
 --- @class InlineHyperlinkFrameTemplate : Frame
 --- @field tooltipFrame any # GameTooltip
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1875)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1518)
 --- child of UIExpandingButtonTemplate
 --- @class UIExpandingButtonTemplate_Label : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1872)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1515)
 --- Template
 --- @class UIExpandingButtonTemplate : Button, UIPanelSquareButton, UIExpandingButtonMixin
 --- @field Label UIExpandingButtonTemplate_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L1530)
 --- Template
 --- @class ButtonWithDisableTooltipTemplate : Button, ButtonWithDisableMixin
 

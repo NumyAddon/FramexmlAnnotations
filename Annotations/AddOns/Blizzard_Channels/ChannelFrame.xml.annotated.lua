@@ -12,7 +12,7 @@
 --- child of ChannelFrame
 --- @class ChannelFrame_ChannelList : ScrollFrame, ChannelListTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L805)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L740)
 --- child of ChannelFrame_LeftInset (created in template InsetFrameTemplate)
 --- @type Texture
 ChannelFrameBg = {}
@@ -25,7 +25,7 @@ ChannelFrameBg = {}
 --- child of ChannelFrame
 --- @class ChannelFrame_ChannelRoster : Frame, ChannelRosterTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L805)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L740)
 --- child of ChannelFrame_RightInset (created in template InsetFrameTemplate)
 --- @type Texture
 ChannelFrameBg = {}
@@ -38,16 +38,6 @@ ChannelFrameBg = {}
 --- child of ChannelFrame_Tutorial
 --- @class ChannelFrame_Tutorial_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L698)
---- child of ChannelFrame_Tutorial_Arrow (created in template GlowBoxArrowTemplate)
---- @type GlowBoxArrowTemplate_Arrow
-ChannelFrameArrow = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L705)
---- child of ChannelFrame_Tutorial_Arrow (created in template GlowBoxArrowTemplate)
---- @type GlowBoxArrowTemplate_Glow
-ChannelFrameGlow = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L102)
 --- child of ChannelFrame_Tutorial
 --- @class ChannelFrame_Tutorial_Arrow : Frame, GlowBoxArrowTemplate
@@ -55,91 +45,6 @@ ChannelFrameGlow = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L83)
 --- child of ChannelFrame_Tutorial
 --- @class ChannelFrame_Tutorial_Text : FontString, GameFontHighlightLeft
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2233)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type Texture
-ChannelFrameBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2246)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowTopLeft
-ChannelFrameGlowTopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2251)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowTopRight
-ChannelFrameGlowTopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2257)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowBottomLeft
-ChannelFrameGlowBottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2263)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowBottomRight
-ChannelFrameGlowBottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2269)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowTop
-ChannelFrameGlowTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2275)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowBottom
-ChannelFrameGlowBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2281)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowLeft
-ChannelFrameGlowLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2287)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowRight
-ChannelFrameGlowRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2295)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowTopLeft
-ChannelFrameShadowTopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2300)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowTopRight
-ChannelFrameShadowTopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2306)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowBottomLeft
-ChannelFrameShadowBottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2312)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowBottomRight
-ChannelFrameShadowBottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2318)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowTop
-ChannelFrameShadowTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2324)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowBottom
-ChannelFrameShadowBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2330)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowLeft
-ChannelFrameShadowLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L2336)
---- child of ChannelFrame_Tutorial (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowRight
-ChannelFrameShadowRight = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L79)
 --- child of ChannelFrame
@@ -152,104 +57,104 @@ ChannelFrameShadowRight = {}
 --- child of ChannelFrame
 --- @class ChannelFrame_TitleText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L805)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L740)
 --- child of ChannelFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 ChannelFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L846)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L781)
 --- child of ChannelFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ChannelFrameInset = {}
 ChannelFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 ChannelFrameInset["Bg"] = ChannelFrameInsetBg -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L827)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L762)
 --- child of ChannelFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 ChannelFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L832)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L767)
 --- child of ChannelFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 ChannelFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L837)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L772)
 --- child of ChannelFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 ChannelFrameButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L663)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L598)
 --- child of ChannelFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 ChannelFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L504)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 ChannelFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L575)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L510)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleBg
 ChannelFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L518)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 ChannelFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L591)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L526)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 ChannelFramePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L596)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L531)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 ChannelFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L536)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 ChannelFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L541)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 ChannelFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L612)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L547)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 ChannelFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L556)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 ChannelFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L627)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L562)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 ChannelFrameBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L632)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L567)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 ChannelFrameBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L637)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L572)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 ChannelFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L578)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 ChannelFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L649)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L584)
 --- child of ChannelFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 ChannelFrameRightBorder = {}

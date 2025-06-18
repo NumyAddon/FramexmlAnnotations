@@ -26,7 +26,7 @@
 --- @class CreateChannelPopup_Password : EditBox, CreateChannelPopupEditBoxTemplate
 --- @field Label CreateChannelPopup_Password_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Channels/CreateChannelPopup.xml#L411)
 --- child of CreateChannelPopup_UseVoiceChat (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 CreateChannelPopupText = {}

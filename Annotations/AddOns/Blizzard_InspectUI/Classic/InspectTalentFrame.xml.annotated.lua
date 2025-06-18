@@ -1,36 +1,36 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1207)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1220)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1229)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1238)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1247)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1256)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1287)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1HighlightTexture = {}
@@ -47,37 +47,37 @@ InspectTalentFrameTab1["Middle"] = InspectTalentFrameTab1Middle -- inherited
 InspectTalentFrameTab1["Right"] = InspectTalentFrameTab1Right -- inherited
 InspectTalentFrameTab1["HighlightTexture"] = InspectTalentFrameTab1HighlightTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1207)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1220)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1229)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1238)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1247)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1256)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1287)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2HighlightTexture = {}
@@ -94,37 +94,37 @@ InspectTalentFrameTab2["Middle"] = InspectTalentFrameTab2Middle -- inherited
 InspectTalentFrameTab2["Right"] = InspectTalentFrameTab2Right -- inherited
 InspectTalentFrameTab2["HighlightTexture"] = InspectTalentFrameTab2HighlightTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1207)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1220)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1229)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1238)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1247)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1256)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1287)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3HighlightTexture = {}
@@ -181,27 +181,27 @@ InspectTalentFrameTalentPointsText = {}
 --- @class InspectTalentFramePointsBar : Frame
 InspectTalentFramePointsBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent1 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent1 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent1SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent1 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent1GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent1 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent1RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent1 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent1Rank = {}
@@ -250,27 +250,27 @@ InspectTalentFrameTalent1["Count"] = InspectTalentFrameTalent1Count -- inherited
 InspectTalentFrameTalent1["searchOverlay"] = InspectTalentFrameTalent1SearchOverlay -- inherited
 InspectTalentFrameTalent1["subicon"] = InspectTalentFrameTalent1SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent2 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent2Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent2 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent2SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent2 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent2GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent2 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent2RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent2 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent2Rank = {}
@@ -319,27 +319,27 @@ InspectTalentFrameTalent2["Count"] = InspectTalentFrameTalent2Count -- inherited
 InspectTalentFrameTalent2["searchOverlay"] = InspectTalentFrameTalent2SearchOverlay -- inherited
 InspectTalentFrameTalent2["subicon"] = InspectTalentFrameTalent2SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent3 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent3Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent3 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent3SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent3 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent3GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent3 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent3RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent3 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent3Rank = {}
@@ -388,27 +388,27 @@ InspectTalentFrameTalent3["Count"] = InspectTalentFrameTalent3Count -- inherited
 InspectTalentFrameTalent3["searchOverlay"] = InspectTalentFrameTalent3SearchOverlay -- inherited
 InspectTalentFrameTalent3["subicon"] = InspectTalentFrameTalent3SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent4 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent4Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent4 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent4SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent4 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent4GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent4 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent4RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent4 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent4Rank = {}
@@ -457,27 +457,27 @@ InspectTalentFrameTalent4["Count"] = InspectTalentFrameTalent4Count -- inherited
 InspectTalentFrameTalent4["searchOverlay"] = InspectTalentFrameTalent4SearchOverlay -- inherited
 InspectTalentFrameTalent4["subicon"] = InspectTalentFrameTalent4SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent5 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent5Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent5 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent5SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent5 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent5GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent5 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent5RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent5 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent5Rank = {}
@@ -526,27 +526,27 @@ InspectTalentFrameTalent5["Count"] = InspectTalentFrameTalent5Count -- inherited
 InspectTalentFrameTalent5["searchOverlay"] = InspectTalentFrameTalent5SearchOverlay -- inherited
 InspectTalentFrameTalent5["subicon"] = InspectTalentFrameTalent5SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent6 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent6Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent6 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent6SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent6 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent6GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent6 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent6RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent6 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent6Rank = {}
@@ -595,27 +595,27 @@ InspectTalentFrameTalent6["Count"] = InspectTalentFrameTalent6Count -- inherited
 InspectTalentFrameTalent6["searchOverlay"] = InspectTalentFrameTalent6SearchOverlay -- inherited
 InspectTalentFrameTalent6["subicon"] = InspectTalentFrameTalent6SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent7 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent7Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent7 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent7SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent7 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent7GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent7 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent7RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent7 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent7Rank = {}
@@ -664,27 +664,27 @@ InspectTalentFrameTalent7["Count"] = InspectTalentFrameTalent7Count -- inherited
 InspectTalentFrameTalent7["searchOverlay"] = InspectTalentFrameTalent7SearchOverlay -- inherited
 InspectTalentFrameTalent7["subicon"] = InspectTalentFrameTalent7SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent8 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent8Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent8 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent8SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent8 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent8GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent8 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent8RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent8 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent8Rank = {}
@@ -733,27 +733,27 @@ InspectTalentFrameTalent8["Count"] = InspectTalentFrameTalent8Count -- inherited
 InspectTalentFrameTalent8["searchOverlay"] = InspectTalentFrameTalent8SearchOverlay -- inherited
 InspectTalentFrameTalent8["subicon"] = InspectTalentFrameTalent8SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent9 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent9Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent9 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent9SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent9 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent9GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent9 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent9RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent9 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent9Rank = {}
@@ -802,27 +802,27 @@ InspectTalentFrameTalent9["Count"] = InspectTalentFrameTalent9Count -- inherited
 InspectTalentFrameTalent9["searchOverlay"] = InspectTalentFrameTalent9SearchOverlay -- inherited
 InspectTalentFrameTalent9["subicon"] = InspectTalentFrameTalent9SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent10 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent10Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent10 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent10SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent10 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent10GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent10 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent10RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent10 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent10Rank = {}
@@ -871,27 +871,27 @@ InspectTalentFrameTalent10["Count"] = InspectTalentFrameTalent10Count -- inherit
 InspectTalentFrameTalent10["searchOverlay"] = InspectTalentFrameTalent10SearchOverlay -- inherited
 InspectTalentFrameTalent10["subicon"] = InspectTalentFrameTalent10SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent11 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent11Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent11 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent11SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent11 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent11GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent11 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent11RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent11 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent11Rank = {}
@@ -940,27 +940,27 @@ InspectTalentFrameTalent11["Count"] = InspectTalentFrameTalent11Count -- inherit
 InspectTalentFrameTalent11["searchOverlay"] = InspectTalentFrameTalent11SearchOverlay -- inherited
 InspectTalentFrameTalent11["subicon"] = InspectTalentFrameTalent11SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent12 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent12Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent12 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent12SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent12 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent12GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent12 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent12RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent12 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent12Rank = {}
@@ -1009,27 +1009,27 @@ InspectTalentFrameTalent12["Count"] = InspectTalentFrameTalent12Count -- inherit
 InspectTalentFrameTalent12["searchOverlay"] = InspectTalentFrameTalent12SearchOverlay -- inherited
 InspectTalentFrameTalent12["subicon"] = InspectTalentFrameTalent12SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent13 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent13Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent13 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent13SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent13 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent13GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent13 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent13RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent13 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent13Rank = {}
@@ -1078,27 +1078,27 @@ InspectTalentFrameTalent13["Count"] = InspectTalentFrameTalent13Count -- inherit
 InspectTalentFrameTalent13["searchOverlay"] = InspectTalentFrameTalent13SearchOverlay -- inherited
 InspectTalentFrameTalent13["subicon"] = InspectTalentFrameTalent13SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent14 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent14Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent14 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent14SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent14 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent14GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent14 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent14RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent14 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent14Rank = {}
@@ -1147,27 +1147,27 @@ InspectTalentFrameTalent14["Count"] = InspectTalentFrameTalent14Count -- inherit
 InspectTalentFrameTalent14["searchOverlay"] = InspectTalentFrameTalent14SearchOverlay -- inherited
 InspectTalentFrameTalent14["subicon"] = InspectTalentFrameTalent14SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent15 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent15Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent15 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent15SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent15 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent15GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent15 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent15RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent15 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent15Rank = {}
@@ -1216,27 +1216,27 @@ InspectTalentFrameTalent15["Count"] = InspectTalentFrameTalent15Count -- inherit
 InspectTalentFrameTalent15["searchOverlay"] = InspectTalentFrameTalent15SearchOverlay -- inherited
 InspectTalentFrameTalent15["subicon"] = InspectTalentFrameTalent15SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent16 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent16Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent16 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent16SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent16 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent16GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent16 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent16RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent16 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent16Rank = {}
@@ -1285,27 +1285,27 @@ InspectTalentFrameTalent16["Count"] = InspectTalentFrameTalent16Count -- inherit
 InspectTalentFrameTalent16["searchOverlay"] = InspectTalentFrameTalent16SearchOverlay -- inherited
 InspectTalentFrameTalent16["subicon"] = InspectTalentFrameTalent16SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent17 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent17Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent17 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent17SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent17 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent17GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent17 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent17RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent17 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent17Rank = {}
@@ -1354,27 +1354,27 @@ InspectTalentFrameTalent17["Count"] = InspectTalentFrameTalent17Count -- inherit
 InspectTalentFrameTalent17["searchOverlay"] = InspectTalentFrameTalent17SearchOverlay -- inherited
 InspectTalentFrameTalent17["subicon"] = InspectTalentFrameTalent17SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent18 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent18Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent18 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent18SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent18 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent18GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent18 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent18RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent18 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent18Rank = {}
@@ -1423,27 +1423,27 @@ InspectTalentFrameTalent18["Count"] = InspectTalentFrameTalent18Count -- inherit
 InspectTalentFrameTalent18["searchOverlay"] = InspectTalentFrameTalent18SearchOverlay -- inherited
 InspectTalentFrameTalent18["subicon"] = InspectTalentFrameTalent18SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent19 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent19Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent19 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent19SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent19 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent19GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent19 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent19RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent19 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent19Rank = {}
@@ -1492,27 +1492,27 @@ InspectTalentFrameTalent19["Count"] = InspectTalentFrameTalent19Count -- inherit
 InspectTalentFrameTalent19["searchOverlay"] = InspectTalentFrameTalent19SearchOverlay -- inherited
 InspectTalentFrameTalent19["subicon"] = InspectTalentFrameTalent19SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent20 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent20Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent20 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent20SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent20 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent20GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent20 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent20RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent20 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent20Rank = {}
@@ -1561,27 +1561,27 @@ InspectTalentFrameTalent20["Count"] = InspectTalentFrameTalent20Count -- inherit
 InspectTalentFrameTalent20["searchOverlay"] = InspectTalentFrameTalent20SearchOverlay -- inherited
 InspectTalentFrameTalent20["subicon"] = InspectTalentFrameTalent20SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent21 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent21Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent21 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent21SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent21 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent21GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent21 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent21RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent21 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent21Rank = {}
@@ -1630,27 +1630,27 @@ InspectTalentFrameTalent21["Count"] = InspectTalentFrameTalent21Count -- inherit
 InspectTalentFrameTalent21["searchOverlay"] = InspectTalentFrameTalent21SearchOverlay -- inherited
 InspectTalentFrameTalent21["subicon"] = InspectTalentFrameTalent21SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent22 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent22Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent22 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent22SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent22 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent22GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent22 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent22RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent22 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent22Rank = {}
@@ -1699,27 +1699,27 @@ InspectTalentFrameTalent22["Count"] = InspectTalentFrameTalent22Count -- inherit
 InspectTalentFrameTalent22["searchOverlay"] = InspectTalentFrameTalent22SearchOverlay -- inherited
 InspectTalentFrameTalent22["subicon"] = InspectTalentFrameTalent22SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent23 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent23Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent23 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent23SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent23 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent23GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent23 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent23RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent23 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent23Rank = {}
@@ -1768,27 +1768,27 @@ InspectTalentFrameTalent23["Count"] = InspectTalentFrameTalent23Count -- inherit
 InspectTalentFrameTalent23["searchOverlay"] = InspectTalentFrameTalent23SearchOverlay -- inherited
 InspectTalentFrameTalent23["subicon"] = InspectTalentFrameTalent23SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent24 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent24Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent24 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent24SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent24 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent24GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent24 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent24RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent24 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent24Rank = {}
@@ -1837,27 +1837,27 @@ InspectTalentFrameTalent24["Count"] = InspectTalentFrameTalent24Count -- inherit
 InspectTalentFrameTalent24["searchOverlay"] = InspectTalentFrameTalent24SearchOverlay -- inherited
 InspectTalentFrameTalent24["subicon"] = InspectTalentFrameTalent24SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent25 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent25Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent25 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent25SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent25 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent25GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent25 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent25RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent25 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent25Rank = {}
@@ -1906,27 +1906,27 @@ InspectTalentFrameTalent25["Count"] = InspectTalentFrameTalent25Count -- inherit
 InspectTalentFrameTalent25["searchOverlay"] = InspectTalentFrameTalent25SearchOverlay -- inherited
 InspectTalentFrameTalent25["subicon"] = InspectTalentFrameTalent25SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent26 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent26Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent26 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent26SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent26 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent26GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent26 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent26RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent26 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent26Rank = {}
@@ -1975,27 +1975,27 @@ InspectTalentFrameTalent26["Count"] = InspectTalentFrameTalent26Count -- inherit
 InspectTalentFrameTalent26["searchOverlay"] = InspectTalentFrameTalent26SearchOverlay -- inherited
 InspectTalentFrameTalent26["subicon"] = InspectTalentFrameTalent26SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent27 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent27Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent27 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent27SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent27 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent27GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent27 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent27RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent27 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent27Rank = {}
@@ -2044,27 +2044,27 @@ InspectTalentFrameTalent27["Count"] = InspectTalentFrameTalent27Count -- inherit
 InspectTalentFrameTalent27["searchOverlay"] = InspectTalentFrameTalent27SearchOverlay -- inherited
 InspectTalentFrameTalent27["subicon"] = InspectTalentFrameTalent27SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent28 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent28Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent28 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent28SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent28 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent28GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent28 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent28RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent28 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent28Rank = {}
@@ -2113,27 +2113,27 @@ InspectTalentFrameTalent28["Count"] = InspectTalentFrameTalent28Count -- inherit
 InspectTalentFrameTalent28["searchOverlay"] = InspectTalentFrameTalent28SearchOverlay -- inherited
 InspectTalentFrameTalent28["subicon"] = InspectTalentFrameTalent28SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent29 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent29Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent29 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent29SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent29 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent29GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent29 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent29RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent29 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent29Rank = {}
@@ -2182,27 +2182,27 @@ InspectTalentFrameTalent29["Count"] = InspectTalentFrameTalent29Count -- inherit
 InspectTalentFrameTalent29["searchOverlay"] = InspectTalentFrameTalent29SearchOverlay -- inherited
 InspectTalentFrameTalent29["subicon"] = InspectTalentFrameTalent29SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent30 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent30Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent30 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent30SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent30 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent30GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent30 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent30RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent30 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent30Rank = {}
@@ -2251,27 +2251,27 @@ InspectTalentFrameTalent30["Count"] = InspectTalentFrameTalent30Count -- inherit
 InspectTalentFrameTalent30["searchOverlay"] = InspectTalentFrameTalent30SearchOverlay -- inherited
 InspectTalentFrameTalent30["subicon"] = InspectTalentFrameTalent30SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent31 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent31Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent31 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent31SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent31 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent31GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent31 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent31RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent31 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent31Rank = {}
@@ -2320,27 +2320,27 @@ InspectTalentFrameTalent31["Count"] = InspectTalentFrameTalent31Count -- inherit
 InspectTalentFrameTalent31["searchOverlay"] = InspectTalentFrameTalent31SearchOverlay -- inherited
 InspectTalentFrameTalent31["subicon"] = InspectTalentFrameTalent31SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent32 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent32Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent32 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent32SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent32 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent32GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent32 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent32RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent32 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent32Rank = {}
@@ -2389,27 +2389,27 @@ InspectTalentFrameTalent32["Count"] = InspectTalentFrameTalent32Count -- inherit
 InspectTalentFrameTalent32["searchOverlay"] = InspectTalentFrameTalent32SearchOverlay -- inherited
 InspectTalentFrameTalent32["subicon"] = InspectTalentFrameTalent32SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent33 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent33Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent33 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent33SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent33 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent33GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent33 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent33RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent33 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent33Rank = {}
@@ -2458,27 +2458,27 @@ InspectTalentFrameTalent33["Count"] = InspectTalentFrameTalent33Count -- inherit
 InspectTalentFrameTalent33["searchOverlay"] = InspectTalentFrameTalent33SearchOverlay -- inherited
 InspectTalentFrameTalent33["subicon"] = InspectTalentFrameTalent33SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent34 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent34Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent34 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent34SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent34 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent34GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent34 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent34RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent34 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent34Rank = {}
@@ -2527,27 +2527,27 @@ InspectTalentFrameTalent34["Count"] = InspectTalentFrameTalent34Count -- inherit
 InspectTalentFrameTalent34["searchOverlay"] = InspectTalentFrameTalent34SearchOverlay -- inherited
 InspectTalentFrameTalent34["subicon"] = InspectTalentFrameTalent34SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent35 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent35Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent35 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent35SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent35 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent35GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent35 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent35RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent35 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent35Rank = {}
@@ -2596,27 +2596,27 @@ InspectTalentFrameTalent35["Count"] = InspectTalentFrameTalent35Count -- inherit
 InspectTalentFrameTalent35["searchOverlay"] = InspectTalentFrameTalent35SearchOverlay -- inherited
 InspectTalentFrameTalent35["subicon"] = InspectTalentFrameTalent35SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent36 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent36Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent36 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent36SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent36 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent36GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent36 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent36RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent36 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent36Rank = {}
@@ -2665,27 +2665,27 @@ InspectTalentFrameTalent36["Count"] = InspectTalentFrameTalent36Count -- inherit
 InspectTalentFrameTalent36["searchOverlay"] = InspectTalentFrameTalent36SearchOverlay -- inherited
 InspectTalentFrameTalent36["subicon"] = InspectTalentFrameTalent36SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent37 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent37Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent37 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent37SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent37 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent37GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent37 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent37RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent37 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent37Rank = {}
@@ -2734,27 +2734,27 @@ InspectTalentFrameTalent37["Count"] = InspectTalentFrameTalent37Count -- inherit
 InspectTalentFrameTalent37["searchOverlay"] = InspectTalentFrameTalent37SearchOverlay -- inherited
 InspectTalentFrameTalent37["subicon"] = InspectTalentFrameTalent37SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent38 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent38Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent38 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent38SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent38 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent38GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent38 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent38RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent38 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent38Rank = {}
@@ -2803,27 +2803,27 @@ InspectTalentFrameTalent38["Count"] = InspectTalentFrameTalent38Count -- inherit
 InspectTalentFrameTalent38["searchOverlay"] = InspectTalentFrameTalent38SearchOverlay -- inherited
 InspectTalentFrameTalent38["subicon"] = InspectTalentFrameTalent38SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent39 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent39Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent39 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent39SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent39 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent39GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent39 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent39RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent39 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent39Rank = {}
@@ -2872,27 +2872,27 @@ InspectTalentFrameTalent39["Count"] = InspectTalentFrameTalent39Count -- inherit
 InspectTalentFrameTalent39["searchOverlay"] = InspectTalentFrameTalent39SearchOverlay -- inherited
 InspectTalentFrameTalent39["subicon"] = InspectTalentFrameTalent39SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L28)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L22)
 --- child of InspectTalentFrameTalent40 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Slot
 InspectTalentFrameTalent40Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L33)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrameTalent40 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_SlotShadow
 InspectTalentFrameTalent40SlotShadow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L32)
 --- child of InspectTalentFrameTalent40 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_GoldBorder
 InspectTalentFrameTalent40GoldBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrameTalent40 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_RankBorder
 InspectTalentFrameTalent40RankBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L44)
 --- child of InspectTalentFrameTalent40 (created in template TalentButtonTemplate)
 --- @type TalentButtonTemplate_Rank
 InspectTalentFrameTalent40Rank = {}

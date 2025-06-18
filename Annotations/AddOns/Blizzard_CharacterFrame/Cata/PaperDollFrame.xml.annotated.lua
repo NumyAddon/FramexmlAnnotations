@@ -660,6 +660,10 @@ CharacterMainHandSlot = {}
 CharacterMainHandSlot["Cooldown"] = CharacterMainHandSlotCooldown -- inherited
 CharacterMainHandSlot["popoutButton"] = CharacterMainHandSlotPopoutButton -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L793)
+--- child of CharacterSecondaryHandSlot
+--- @class CharacterSecondaryHandSlot_BottomRightSlotTexture : Texture, Char_Slot_Bottom_Right
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L83)
 --- child of CharacterSecondaryHandSlot (created in template PaperDollItemSlotButtonBottomTemplate)
 --- @type PaperDollItemSlotButtonBottomTemplate_Frame
@@ -678,9 +682,14 @@ CharacterSecondaryHandSlotPopoutButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L786)
 --- child of PaperDollItemsFrame
 --- @class CharacterSecondaryHandSlot : ItemButton, PaperDollItemSlotButtonBottomTemplate
+--- @field BottomRightSlotTexture CharacterSecondaryHandSlot_BottomRightSlotTexture
 CharacterSecondaryHandSlot = {}
 CharacterSecondaryHandSlot["Cooldown"] = CharacterSecondaryHandSlotCooldown -- inherited
 CharacterSecondaryHandSlot["popoutButton"] = CharacterSecondaryHandSlotPopoutButton -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L808)
+--- child of CharacterRangedSlot
+--- @class CharacterRangedSlot_BottomRightSlotTexture : Texture, Char_Slot_Bottom_Right
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L83)
 --- child of CharacterRangedSlot (created in template PaperDollItemSlotButtonBottomTemplate)
@@ -697,9 +706,10 @@ CharacterRangedSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterRangedSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L791)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L801)
 --- child of PaperDollItemsFrame
 --- @class CharacterRangedSlot : ItemButton, PaperDollItemSlotButtonBottomTemplate
+--- @field BottomRightSlotTexture CharacterRangedSlot_BottomRightSlotTexture
 CharacterRangedSlot = {}
 CharacterRangedSlot["Cooldown"] = CharacterRangedSlotCooldown -- inherited
 CharacterRangedSlot["popoutButton"] = CharacterRangedSlotPopoutButton -- inherited
@@ -727,7 +737,7 @@ CharacterTrialLevelErrorText = {}
 --- @field EquipmentManagerPane PaperDollFrame_EquipmentManagerPane
 PaperDollFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L816)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L827)
 --- @class GearManagerPopupFrame : Frame, IconSelectorPopupFrameTemplate, GearManagerPopupFrameMixin
 --- @field editBoxHeaderText any # GEARSETS_POPUP_TEXT
 GearManagerPopupFrame = {}

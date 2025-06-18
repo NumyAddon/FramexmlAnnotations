@@ -89,6 +89,14 @@
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_StatusText : FontString, GameFontDisable
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L175)
+--- child of CompactUnitFrameTemplate
+--- @class CompactUnitFrameTemplate_OverAbsorbGlow : Texture, OverAbsorbGlowTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L176)
+--- child of CompactUnitFrameTemplate
+--- @class CompactUnitFrameTemplate_OverHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L141)
 --- Template
 --- @class CompactUnitFrameTemplate : Button, SecureUnitButtonTemplate
@@ -112,8 +120,8 @@
 --- @field myHealAbsorb Texture
 --- @field myHealAbsorbLeftShadow Texture
 --- @field myHealAbsorbRightShadow Texture
---- @field overAbsorbGlow Texture
---- @field overHealAbsorbGlow Texture
+--- @field overAbsorbGlow CompactUnitFrameTemplate_OverAbsorbGlow
+--- @field overHealAbsorbGlow CompactUnitFrameTemplate_OverHealAbsorbGlow
 --- @field selectionHighlight Texture
 --- @field readyCheckIcon Texture
 

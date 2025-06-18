@@ -4,11 +4,11 @@
 --- @class BasePagedGridContentFrameMixin : PagedContentFrameBaseMixin
 BasePagedGridContentFrameMixin = CreateFromMixins(PagedContentFrameBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L61)
 --- @class PagedCellSizeGridContentFrameMixin : BasePagedGridContentFrameMixin
 PagedCellSizeGridContentFrameMixin = CreateFromMixins(BasePagedGridContentFrameMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L115)
 --- @class PagedNaturalSizeGridContentFrameMixin : BasePagedGridContentFrameMixin
 PagedNaturalSizeGridContentFrameMixin = CreateFromMixins(BasePagedGridContentFrameMixin)
 
@@ -33,32 +33,32 @@ function BasePagedGridContentFrameMixin:OnElementSpaceTakenFromView(splitData, e
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L47)
 function BasePagedGridContentFrameMixin:OnElementAddedToView(splitData, elementData, elementTemplateInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L53)
 function BasePagedGridContentFrameMixin:ApplyLayout(layoutFrames, viewFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L63)
 function PagedCellSizeGridContentFrameMixin:InitializeElementSplit(splitData, viewFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L76)
 function PagedCellSizeGridContentFrameMixin:GetElementStride(elementTemplateInfo, isHeader, isFirstInRow) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L83)
 function PagedCellSizeGridContentFrameMixin:ProcessTemplateInfo(templateInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L93)
 function PagedCellSizeGridContentFrameMixin:ProcessSpacerFrame(spacerFrame, elementData, elementIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L98)
 function PagedCellSizeGridContentFrameMixin:ProcessElementFrame(elementFrame, elementData, elementIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L117)
 function PagedNaturalSizeGridContentFrameMixin:InitializeElementSplit(splitData, viewFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L123)
 function PagedNaturalSizeGridContentFrameMixin:GetElementStride(elementTemplateInfo, isHeader, isFirstInRow) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L134)
 function PagedNaturalSizeGridContentFrameMixin:ProcessSpacerFrame(spacerFrame, elementData, elementIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedGridContentFrame.lua#L139)
 function PagedNaturalSizeGridContentFrameMixin:ProcessElementFrame(elementFrame, elementData, elementIndex) end

@@ -117,12 +117,12 @@
 --- child of ClickBindingFrame_TutorialFrame
 --- @class ClickBindingFrame_TutorialFrame_ThrallName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L834)
 --- child of ClickBindingFrame_TutorialFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 ClickBindingFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L801)
 --- child of ClickBindingFrame_TutorialFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ClickBindingFrameBg = {}
@@ -145,12 +145,12 @@ ClickBindingFrameBg = {}
 --- child of ClickBindingFrame
 --- @class ClickBindingFrame_UnboundText : FontString, GameFontRed
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L834)
 --- child of ClickBindingFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 ClickBindingFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ClickBindingUI/Blizzard_ClickBindingUI.xml#L801)
 --- child of ClickBindingFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ClickBindingFrameBg = {}

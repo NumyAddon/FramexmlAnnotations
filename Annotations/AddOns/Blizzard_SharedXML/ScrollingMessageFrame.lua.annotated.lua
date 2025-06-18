@@ -148,86 +148,92 @@ function ScrollingMessageFrameMixin:IsSelectingText() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L318)
 function ScrollingMessageFrameMixin:OnPreLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L335)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L338)
 function ScrollingMessageFrameMixin:OnPostShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L342)
 function ScrollingMessageFrameMixin:OnPostHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L343)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L346)
+function ScrollingMessageFrameMixin:OnPostEvent(event, ...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L355)
 function ScrollingMessageFrameMixin:OnPostUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L364)
 function ScrollingMessageFrameMixin:OnPreSizeChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L368)
 function ScrollingMessageFrameMixin:OnPostMouseDown(buttonName, inside) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L379)
 function ScrollingMessageFrameMixin:OnPostMouseUp(buttonName, inside) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L395)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L407)
+function ScrollingMessageFrameMixin:OnColorsUpdated() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L417)
 function ScrollingMessageFrameMixin:ResetSelectingText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L407)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L429)
 function ScrollingMessageFrameMixin:CalculateSelectingCharacterIndicesForVisibleLine(lineIndex, startLineIndex, endLineIndex, startCharacterIndex, endCharacterIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L444)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L466)
 function ScrollingMessageFrameMixin:UpdateSelectingText() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L498)
 function ScrollingMessageFrameMixin:GatherSelectedText(x, y) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L537)
 function ScrollingMessageFrameMixin:FindCharacterAndLineIndexAtCoordinate(x, y) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L535)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L557)
 function ScrollingMessageFrameMixin:GetScaledCursorPosition() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L563)
 function ScrollingMessageFrameMixin:RefreshLayout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L599)
 function ScrollingMessageFrameMixin:RefreshIfNecessary() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L586)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L608)
 function ScrollingMessageFrameMixin:RefreshDisplay() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L629)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L651)
 function ScrollingMessageFrameMixin:CalculateLineAlphaValueFromTimestamp(now, timestamp) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L665)
 function ScrollingMessageFrameMixin:CalculateNumVisibleLines() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L656)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L678)
 function ScrollingMessageFrameMixin:MarkLayoutDirty() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L660)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L682)
 function ScrollingMessageFrameMixin:MarkDisplayDirty() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L664)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L686)
 function ScrollingMessageFrameMixin:ResetAllFadeTimes() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L671)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L693)
 function ScrollingMessageFrameMixin:AcquireFontString() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L682)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L704)
 function ScrollingMessageFrameMixin:AcquireHighlightTexture() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L692)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L714)
 function ScrollingMessageFrameMixin:CalculateLineSpacing() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L699)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L721)
 function ScrollingMessageFrameMixin:PackageEntry(message, r, g, b, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L709)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L731)
 function ScrollingMessageFrameMixin:UnpackageEntry(entry) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L716)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L738)
 function ScrollingMessageFrameMixin:CanEffectivelyFade() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L720)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L742)
 function ScrollingMessageFrameMixin:UpdateFading() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L754)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ScrollingMessageFrame.lua#L776)
 function ScrollingMessageFrameMixin:OnFontObjectUpdated() end

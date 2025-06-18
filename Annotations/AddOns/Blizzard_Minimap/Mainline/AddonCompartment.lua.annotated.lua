@@ -13,8 +13,8 @@ function AddonCompartmentMixin:OnEvent(event, ...) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/AddonCompartment.lua#L77)
 function AddonCompartmentMixin:RegisterAddons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/AddonCompartment.lua#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/AddonCompartment.lua#L136)
 function AddonCompartmentMixin:RegisterAddon(addonData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/AddonCompartment.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/AddonCompartment.lua#L141)
 function AddonCompartmentMixin:UpdateDisplay() end

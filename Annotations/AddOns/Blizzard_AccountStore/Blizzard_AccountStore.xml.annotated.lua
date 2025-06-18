@@ -57,42 +57,42 @@
 --- child of AccountStoreFrame
 --- @class AccountStoreFrame_LeftDisplay : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L166)
 --- child of AccountStoreFrame_RightDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 AccountStoreFrameTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L171)
 --- child of AccountStoreFrame_RightDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 AccountStoreFrameTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L179)
 --- child of AccountStoreFrame_RightDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 AccountStoreFrameBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L187)
 --- child of AccountStoreFrame_RightDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 AccountStoreFrameBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L306)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L195)
 --- child of AccountStoreFrame_RightDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 AccountStoreFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L201)
 --- child of AccountStoreFrame_RightDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 AccountStoreFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L207)
 --- child of AccountStoreFrame_RightDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 AccountStoreFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L324)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L213)
 --- child of AccountStoreFrame_RightDisplay_ShadowOverlay (created in template ShadowOverlayTemplate)
 --- @type Texture
 AccountStoreFrameRight = {}
@@ -118,12 +118,12 @@ AccountStoreFrameRight = {}
 --- child of AccountStoreFrame
 --- @class AccountStoreFrame_PageText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L1107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L834)
 --- child of AccountStoreFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 AccountStoreFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L801)
 --- child of AccountStoreFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 AccountStoreFrameBg = {}

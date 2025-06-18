@@ -4,15 +4,15 @@
 --- @class CustomGossipManagerMixin
 CustomGossipManagerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L83)
 --- @class CustomGossipFrameBaseMixin
 CustomGossipFrameBaseMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L115)
 --- @class CustomGossipFrameBaseGridMixin
 CustomGossipFrameBaseGridMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L178)
 --- @class CustomGossipOptionButtonBaseMixin
 CustomGossipOptionButtonBaseMixin = {}
 
@@ -22,53 +22,53 @@ function CustomGossipManagerMixin:OnEvent(event, ...) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L53)
 function CustomGossipManagerMixin:HandleOpenEvent(textureKit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L62)
 function CustomGossipManagerMixin:HideOpenedUIPanel(interactionIsContinuing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L71)
 function CustomGossipManagerMixin:RegisterHandler(textureKit, handlerFn) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L79)
 function CustomGossipManagerMixin:GetHandler(textureKit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L86)
 function CustomGossipFrameBaseMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L91)
 function CustomGossipFrameBaseMixin:SetupFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L98)
 function CustomGossipFrameBaseMixin:BuildOptionList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L104)
 function CustomGossipFrameBaseMixin:RefreshLayout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L107)
 function CustomGossipFrameBaseMixin:SetupBackgroundFrameTexture(backgroundTextureKitRegions) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L111)
 function CustomGossipFrameBaseMixin:SetupFrameTextures(textureKitRegions) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L117)
 function CustomGossipFrameBaseGridMixin:LayoutGridInit(anchor, overridePaddingX, overridePaddingY, overrideDirection) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L150)
 function CustomGossipFrameBaseGridMixin:SetupOptionsByStartingIndex(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L169)
 function CustomGossipFrameBaseGridMixin:NextGridPage() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L181)
 function CustomGossipOptionButtonBaseMixin:ShouldOptionBeEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L185)
 function CustomGossipOptionButtonBaseMixin:SetState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L190)
 function CustomGossipOptionButtonBaseMixin:Setup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L194)
 function CustomGossipOptionButtonBaseMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CustomGossipFrameBase.lua#L198)
 function CustomGossipOptionButtonBaseMixin:SetupBase(textureKit, buttonInfo, index, buttonTextureKitRegions) end

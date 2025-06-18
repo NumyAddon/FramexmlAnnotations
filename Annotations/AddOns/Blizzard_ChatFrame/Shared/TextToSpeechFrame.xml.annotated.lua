@@ -1,118 +1,87 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L5)
---- Template
---- @class TextToSpeechVoicePickerButtonTemplate : Button
---- @field Highlight Texture
---- @field Check Texture
---- @field UnCheck Texture
---- @field Icon Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L14)
 --- child of TextToSpeechCheckButtonTemplate
---- @class TextToSpeechCheckButtonTemplate_text : FontString, GameFontHighlightLeft
+--- @class TextToSpeechCheckButtonTemplate_text : FontString, UserScaledFontGameHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L3)
 --- Template
---- @class TextToSpeechCheckButtonTemplate : CheckButton
+--- @class TextToSpeechCheckButtonTemplate : CheckButton, UserScaledFrameTemplate
+--- @field baseWidth number # 32
+--- @field baseHeight number # 32
+--- @field useScaleWeight boolean # true
+--- @field useScaleWeightForHeight boolean # true
+--- @field scaleWeight number # 0.75
 --- @field text TextToSpeechCheckButtonTemplate_text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L85)
---- child of TextToSpeechCheckButtonSlimTemplate
---- @class TextToSpeechCheckButtonSlimTemplate_Text : FontString, GameFontHighlightSmallLeft
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L81)
---- Template
---- @class TextToSpeechCheckButtonSlimTemplate : CheckButton
---- @field text TextToSpeechCheckButtonSlimTemplate_Text
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L29)
 --- Template
 --- @class TextToSpeechChatTypeCheckButtonTemplate : CheckButton, TextToSpeechCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L113)
---- child of TextToSpeechSliderTemplate
---- @class TextToSpeechSliderTemplate_Text : FontString, GameFontHighlight
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L118)
---- child of TextToSpeechSliderTemplate
---- @class TextToSpeechSliderTemplate_Low : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L127)
---- child of TextToSpeechSliderTemplate
---- @class TextToSpeechSliderTemplate_High : FontString, GameFontHighlightSmall
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L106)
---- Template
---- @class TextToSpeechSliderTemplate : Slider, UISliderTemplate
---- @field type any # CONTROLTYPE_SLIDER
---- @field Text TextToSpeechSliderTemplate_Text
---- @field Low TextToSpeechSliderTemplate_Low
---- @field High TextToSpeechSliderTemplate_High
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L56)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_PanelContainer_PlaySoundSeparatingChatLinesCheckButton : CheckButton, TextToSpeechCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L189)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L65)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_PanelContainer_AddCharacterNameToSpeechCheckButton : CheckButton, TextToSpeechCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L74)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_PanelContainer_PlayActivitySoundWhenNotFocusedCheckButton : CheckButton, TextToSpeechCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L83)
 --- child of TextToSpeechFrameTemplatePanelContainer
 --- @class TextToSpeechFrameTemplate_PanelContainer_NarrateMyMessagesCheckButton : CheckButton, TextToSpeechCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L223)
---- child of TextToSpeechFrameTtsVoiceDropdown
---- @class TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameTtsVoiceDropdown_Label : FontString, GameFontHighlightLeft
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L99)
+--- child of TextToSpeechFrameTemplate_PanelContainer_MoreVoicesURLContainer
+--- @class TextToSpeechFrameTemplate_PanelContainer_MoreVoicesURLContainer_Text : FontString, UserScaledFontGameHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L228)
---- child of TextToSpeechFrameTtsVoiceDropdown
---- @class TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameTtsVoiceDropdown_MoreVoicesLabel : FontString, GameFontHighlightSmallLeft
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L92)
 --- child of TextToSpeechFrameTemplatePanelContainer
---- @class TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameTtsVoiceDropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @class TextToSpeechFrameTemplate_PanelContainer_MoreVoicesURLContainer : Frame
+--- @field Text TextToSpeechFrameTemplate_PanelContainer_MoreVoicesURLContainer_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L111)
 --- child of TextToSpeechFrameTemplatePanelContainer
---- @class TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFramePlaySampleButton : Button, UIPanelButtonTemplate
+--- @class TextToSpeechFrameTemplate_PanelContainer_TtsVoiceDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L116)
 --- child of TextToSpeechFrameTemplatePanelContainer
---- @class TextToSpeechFrameTemplate_PanelContainer_UseAlternateVoiceForSystemMessagesCheckButton : CheckButton, TextToSpeechCheckButtonSlimTemplate
+--- @class TextToSpeechFrameTemplate_PanelContainer_PlaySampleButton : Button, UIPanelButtonUserScaledTemplate
+--- @field baseWidth number # 175
+--- @field baseHeight number # 22
+--- @field useScaleWeight boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L258)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L127)
 --- child of TextToSpeechFrameTemplatePanelContainer
---- @class TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameTtsVoiceAlternateDropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @class TextToSpeechFrameTemplate_PanelContainer_UseAlternateVoiceForSystemMessagesCheckButton : CheckButton, TextToSpeechCheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L128)
 --- child of TextToSpeechFrameTemplatePanelContainer
---- @class TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFramePlaySampleAlternateButton : Button, UIPanelButtonTemplate
+--- @class TextToSpeechFrameTemplate_PanelContainer_TtsVoiceAlternateDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L279)
---- child of TextToSpeechFrameAdjustRateSlider
---- @class TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameAdjustRateSlider_Label : FontString, GameFontHighlight
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L133)
 --- child of TextToSpeechFrameTemplatePanelContainer
---- @class TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameAdjustRateSlider : Slider, TextToSpeechSliderTemplate
---- @field Label TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameAdjustRateSlider_Label
+--- @class TextToSpeechFrameTemplate_PanelContainer_PlaySampleAlternateButton : Button, UIPanelButtonUserScaledTemplate
+--- @field baseWidth number # 175
+--- @field baseHeight number # 22
+--- @field useScaleWeight boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L298)
---- child of TextToSpeechFrameAdjustVolumeSlider
---- @class TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameAdjustVolumeSlider_Label : FontString, GameFontHighlight
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L291)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L144)
 --- child of TextToSpeechFrameTemplatePanelContainer
---- @class TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameAdjustVolumeSlider : Slider, TextToSpeechSliderTemplate
---- @field Label TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameAdjustVolumeSlider_Label
+--- @class TextToSpeechFrameTemplate_PanelContainer_AdjustRateSlider : Frame, UserScaledSliderTemplate, TTSSettingsSliderMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L149)
+--- child of TextToSpeechFrameTemplatePanelContainer
+--- @class TextToSpeechFrameTemplate_PanelContainer_AdjustVolumeSlider : Frame, UserScaledSliderTemplate, TTSSettingsSliderMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L47)
+--- child of TextToSpeechFrameTemplatePanelContainer
+--- @class TextToSpeechFrameTemplate_PanelContainer_VoiceOptionsLabel : FontString, UserScaledFontGameHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L37)
 --- child of TextToSpeechFrameTemplate
 --- @class TextToSpeechFrameTemplate_PanelContainer : Frame
 --- @field backdropBorderColor any # LIGHTGRAY_FONT_COLOR
@@ -120,13 +89,19 @@
 --- @field AddCharacterNameToSpeechCheckButton TextToSpeechFrameTemplate_PanelContainer_AddCharacterNameToSpeechCheckButton
 --- @field PlayActivitySoundWhenNotFocusedCheckButton TextToSpeechFrameTemplate_PanelContainer_PlayActivitySoundWhenNotFocusedCheckButton
 --- @field NarrateMyMessagesCheckButton TextToSpeechFrameTemplate_PanelContainer_NarrateMyMessagesCheckButton
---- @field TtsVoiceDropdown TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameTtsVoiceDropdown
+--- @field MoreVoicesURLContainer TextToSpeechFrameTemplate_PanelContainer_MoreVoicesURLContainer
+--- @field TtsVoiceDropdown TextToSpeechFrameTemplate_PanelContainer_TtsVoiceDropdown
+--- @field PlaySampleButton TextToSpeechFrameTemplate_PanelContainer_PlaySampleButton
 --- @field UseAlternateVoiceForSystemMessagesCheckButton TextToSpeechFrameTemplate_PanelContainer_UseAlternateVoiceForSystemMessagesCheckButton
---- @field TtsVoiceAlternateDropdown TextToSpeechFrameTemplate_PanelContainer_TextToSpeechFrameTtsVoiceAlternateDropdown
+--- @field TtsVoiceAlternateDropdown TextToSpeechFrameTemplate_PanelContainer_TtsVoiceAlternateDropdown
+--- @field PlaySampleAlternateButton TextToSpeechFrameTemplate_PanelContainer_PlaySampleAlternateButton
+--- @field AdjustRateSlider TextToSpeechFrameTemplate_PanelContainer_AdjustRateSlider
+--- @field AdjustVolumeSlider TextToSpeechFrameTemplate_PanelContainer_AdjustVolumeSlider
+--- @field TextToSpeechFrameSeparator Texture
+--- @field VoiceOptionsLabel TextToSpeechFrameTemplate_PanelContainer_VoiceOptionsLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L157)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeechFrame.xml#L35)
 --- Template
 --- @class TextToSpeechFrameTemplate : Frame
 --- @field PanelContainer TextToSpeechFrameTemplate_PanelContainer
---- @field TextToSpeechFrameSeparator Texture
 

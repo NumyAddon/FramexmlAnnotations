@@ -50,7 +50,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L66)
 --- child of QueueStatusEntryTemplate
---- @class QueueStatusEntryTemplate_ExtraText : FontString, GameFontNormalGraySmall
+--- @class QueueStatusEntryTemplate_ExtraText : FontString, GameFontDisableSmall
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L16)
 --- Template

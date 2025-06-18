@@ -4,11 +4,11 @@
 --- @class FlyoutButtonMixin : ButtonStateBehaviorMixin
 FlyoutButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L207)
 --- @class FlyoutPopupMixin
 FlyoutPopupMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L342)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L352)
 --- @class FlyoutPopupButtonMixin
 FlyoutPopupButtonMixin = {}
 
@@ -19,7 +19,7 @@ function FlyoutButtonMixin:OnLoad() end
 function FlyoutButtonMixin:OnHide() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L23)
-function FlyoutButtonMixin:OnClick() end
+function FlyoutButtonMixin:Flyout_OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L27)
 function FlyoutButtonMixin:OnEnter() end
@@ -52,82 +52,85 @@ function FlyoutButtonMixin:HasPopup() end
 function FlyoutButtonMixin:GetPopupDirection() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L84)
+function FlyoutButtonMixin:SetPopupDirection(popupDirection) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L94)
 function FlyoutButtonMixin:IsPopupOpen() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L99)
 function FlyoutButtonMixin:TogglePopup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L112)
 function FlyoutButtonMixin:ClosePopup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L108)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L118)
 function FlyoutButtonMixin:OnPopupToggled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L125)
 function FlyoutButtonMixin:OnPopupHidden() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L129)
 function FlyoutButtonMixin:OnButtonStateChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L134)
 function FlyoutButtonMixin:UpdateArrowShown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L139)
 function FlyoutButtonMixin:UpdateArrowPosition() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L156)
 function FlyoutButtonMixin:GetArrowRotation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L168)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L178)
 function FlyoutButtonMixin:UpdateArrowRotation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L173)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L183)
 function FlyoutButtonMixin:UpdateArrowTexture() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L194)
 function FlyoutButtonMixin:UpdateBorderShadow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L209)
 function FlyoutPopupMixin:IsAttachedToButton(flyoutButton) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L213)
 function FlyoutPopupMixin:AttachToButton(flyoutButton) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L230)
 function FlyoutPopupMixin:DetatchFromButton() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L238)
 function FlyoutPopupMixin:Close() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L244)
 function FlyoutPopupMixin:GetDirection() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L238)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L248)
 function FlyoutPopupMixin:IsHorizontal() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L253)
 function FlyoutPopupMixin:GetCrossAxisSize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L257)
 function FlyoutPopupMixin:UpdatePosition() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L274)
 function FlyoutPopupMixin:UpdateBackground() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L332)
 function FlyoutPopupMixin:SetBorderColor(r, g, b) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L329)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L339)
 function FlyoutPopupMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L344)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L354)
 function FlyoutPopupButtonMixin:SetPopup(popup) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L349)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L359)
 function FlyoutPopupButtonMixin:GetPopup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L363)
 function FlyoutPopupButtonMixin:ClosePopup() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Flyout/Flyout.lua#L369)
 function FlyoutPopupButtonMixin:OnClick() end

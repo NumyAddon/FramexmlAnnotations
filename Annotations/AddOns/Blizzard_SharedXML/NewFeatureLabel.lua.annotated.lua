@@ -11,7 +11,7 @@ function NewFeatureLabelMixin:OnLoad() end
 function NewFeatureLabelMixin:ClearAlert() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/NewFeatureLabel.lua#L15)
-function NewFeatureLabelMixin:OnShow() end
+function NewFeatureLabelMixin:NewFeatureLabel_OnShow() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/NewFeatureLabel.lua#L21)
 function NewFeatureLabelMixin:OnHide() end

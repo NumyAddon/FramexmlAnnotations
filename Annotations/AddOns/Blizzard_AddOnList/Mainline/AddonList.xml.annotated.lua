@@ -87,12 +87,12 @@ AddonDialog = {}
 --- child of AddonList
 --- @class AddonList_ForceLoad : CheckButton, MinimalCheckboxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1243)
 --- child of AddonList_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 AddonListClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1234)
 --- child of AddonList_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 AddonListSearchIcon = {}
@@ -150,18 +150,18 @@ AddonListSearchIcon = {}
 --- child of AddonList
 --- @class AddonList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L887)
 --- child of AddonList (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 AddonListInset = {}
 AddonListInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L881)
 --- child of AddonList (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 AddonListCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AddOnList/Mainline/AddonList.xml#L864)
 --- child of AddonList (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 AddonListBg = {}

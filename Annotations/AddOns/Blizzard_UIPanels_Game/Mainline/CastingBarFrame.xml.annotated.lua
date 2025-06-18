@@ -177,6 +177,7 @@ PlayerCastingBarFrame["playCastFX"] = true
 PlayerCastingBarFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 PlayerCastingBarFrame["align"] = "center" -- inherited
 PlayerCastingBarFrame["hideWhenActionBarIsOverriden"] = true -- inherited
+PlayerCastingBarFrame["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 PlayerCastingBarFrame["isBottomManagedFrame"] = true -- inherited
 PlayerCastingBarFrame["isManagedFrame"] = true -- inherited
 PlayerCastingBarFrame["system"] = Enum.EditModeSystem.CastBar -- inherited

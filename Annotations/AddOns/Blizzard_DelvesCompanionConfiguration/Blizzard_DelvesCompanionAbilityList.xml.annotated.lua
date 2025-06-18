@@ -29,12 +29,12 @@
 --- child of DelvesCompanionAbilityListFrame
 --- @class DelvesCompanionAbilityListFrame_DelvesCompanionAbilityListPagingControls : Frame, PagingControlsHorizontalTemplate, DelvesCompanionAbilityListPagingControlsMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L1107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L834)
 --- child of DelvesCompanionAbilityListFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 DelvesCompanionAbilityListFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L801)
 --- child of DelvesCompanionAbilityListFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 DelvesCompanionAbilityListFrameBg = {}

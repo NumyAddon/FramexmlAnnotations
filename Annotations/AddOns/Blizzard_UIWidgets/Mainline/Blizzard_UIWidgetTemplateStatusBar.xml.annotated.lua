@@ -35,4 +35,6 @@
 --- @class UIWidgetTemplateStatusBar : Frame, UIWidgetBaseTemplate, UIWidgetTemplateStatusBarMixin
 --- @field Bar UIWidgetTemplateStatusBar_Bar
 --- @field Label UIWidgetTemplateStatusBar_Label
+--- @field LabelBG Texture
+--- @field LabelBGDivider Texture
 

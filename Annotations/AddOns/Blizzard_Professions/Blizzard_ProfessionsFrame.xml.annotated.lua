@@ -31,7 +31,7 @@
 --- child of ProfessionsFrame
 --- @class ProfessionsFrame_OrdersPage : Frame, ProfessionsCraftingOrderPageTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L801)
 --- child of ProfessionsFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ProfessionsFrameBg = {}

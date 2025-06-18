@@ -17,31 +17,34 @@ function UIErrorsMixin:OnEvent(event, ...) end
 function UIErrorsMixin:OnUpdate() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L111)
+function UIErrorsMixin:SetMessageTypeEnabled(messageType, enabled) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L117)
 function UIErrorsMixin:FlashFontString(fontString) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L124)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L130)
 function UIErrorsMixin:TryFlashingExistingMessage(messageType, message) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L141)
 function UIErrorsMixin:ShouldDisplayMessageType(messageType, message) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L154)
 function UIErrorsMixin:TryDisplayMessage(messageType, message, r, g, b) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L168)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L174)
 function UIErrorsMixin:AddExternalErrorMessage(message) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L172)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L178)
 function UIErrorsMixin:AddExternalWarningMessage(message) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L182)
 function UIErrorsMixin:SetMessagesSuppressed(messagesSuppressed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L186)
 function UIErrorsMixin:GetMessagesSuppressed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L190)
 function UIErrorsMixin:SuppressMessagesThisFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/UIErrorsFrame.lua#L199)
 function UIErrorsMixin:CheckAddMessage(...) end

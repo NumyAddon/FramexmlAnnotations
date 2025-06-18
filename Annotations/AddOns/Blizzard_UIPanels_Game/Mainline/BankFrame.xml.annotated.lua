@@ -299,12 +299,12 @@ BankFrameTab2 = {}
 --- @class BankFrameTab3 : Button, PanelTabButtonTemplate
 BankFrameTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1243)
 --- child of BankItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 BankItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1234)
 --- child of BankItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 BankItemSearchBoxSearchIcon = {}
@@ -412,34 +412,35 @@ BankFramePurchaseButton = {}
 BankFramePurchaseButton["fitTextCanWidthDecrease"] = true -- inherited
 BankFramePurchaseButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L110)
---- child of BankFrameDetailMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-BankFrameDetailMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L105)
 --- child of BankFrameDetailMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 BankFrameDetailMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L124)
 --- child of BankFrameDetailMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 BankFrameDetailMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L143)
 --- child of BankFrameDetailMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 BankFrameDetailMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L85)
+--- child of BankFrameDetailMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+BankFrameDetailMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L863)
 --- child of BankFramePurchaseInfo
 --- @class BankFrameDetailMoneyFrame : Frame, SmallMoneyFrameTemplate
 BankFrameDetailMoneyFrame = {}
-BankFrameDetailMoneyFrame["trialErrorButton"] = BankFrameDetailMoneyFrameTrialErrorButton -- inherited
+BankFrameDetailMoneyFrame["small"] = 1 -- inherited
 BankFrameDetailMoneyFrame["CopperButton"] = BankFrameDetailMoneyFrameCopperButton -- inherited
 BankFrameDetailMoneyFrame["SilverButton"] = BankFrameDetailMoneyFrameSilverButton -- inherited
 BankFrameDetailMoneyFrame["GoldButton"] = BankFrameDetailMoneyFrameGoldButton -- inherited
+BankFrameDetailMoneyFrame["trialErrorButton"] = BankFrameDetailMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L842)
 --- child of BankFramePurchaseInfo
@@ -451,17 +452,17 @@ BankFrameSlotCost = {}
 --- @class BankFramePurchaseInfo : Frame
 BankFramePurchaseInfo = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1484)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1353)
 --- child of BankFrameMoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 BankFrameMoneyFrameBorderLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1492)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1361)
 --- child of BankFrameMoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 BankFrameMoneyFrameBorderRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1500)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1369)
 --- child of BankFrameMoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 BankFrameMoneyFrameBorderMiddle = {}
@@ -471,34 +472,35 @@ BankFrameMoneyFrameBorderMiddle = {}
 --- @class BankFrameMoneyFrameBorder : Frame, ThinGoldEdgeTemplate
 BankFrameMoneyFrameBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L110)
---- child of BankFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-BankFrameMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L105)
 --- child of BankFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 BankFrameMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L124)
 --- child of BankFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 BankFrameMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L143)
 --- child of BankFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 BankFrameMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L85)
+--- child of BankFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+BankFrameMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L882)
 --- child of BankSlotsFrame
 --- @class BankFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 BankFrameMoneyFrame = {}
-BankFrameMoneyFrame["trialErrorButton"] = BankFrameMoneyFrameTrialErrorButton -- inherited
+BankFrameMoneyFrame["small"] = 1 -- inherited
 BankFrameMoneyFrame["CopperButton"] = BankFrameMoneyFrameCopperButton -- inherited
 BankFrameMoneyFrame["SilverButton"] = BankFrameMoneyFrameSilverButton -- inherited
 BankFrameMoneyFrame["GoldButton"] = BankFrameMoneyFrameGoldButton -- inherited
+BankFrameMoneyFrame["trialErrorButton"] = BankFrameMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L752)
 --- child of BankFrame
@@ -532,34 +534,35 @@ BankSlotsFrame["layoutType"] = "InsetFrameTemplate"
 --- Adds itself to the parent with key `DespositButton`
 --- @class ReagentBankFrame_DespositButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L110)
---- child of ReagentBankFrameUnlockInfoCostMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-ReagentBankFrameUnlockInfoCostMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L105)
 --- child of ReagentBankFrameUnlockInfoCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 ReagentBankFrameUnlockInfoCostMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L124)
 --- child of ReagentBankFrameUnlockInfoCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 ReagentBankFrameUnlockInfoCostMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L143)
 --- child of ReagentBankFrameUnlockInfoCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 ReagentBankFrameUnlockInfoCostMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L85)
+--- child of ReagentBankFrameUnlockInfoCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+ReagentBankFrameUnlockInfoCostMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1033)
 --- child of ReagentBankFrameUnlockInfo
 --- @class ReagentBankFrameUnlockInfoCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 ReagentBankFrameUnlockInfoCostMoneyFrame = {}
-ReagentBankFrameUnlockInfoCostMoneyFrame["trialErrorButton"] = ReagentBankFrameUnlockInfoCostMoneyFrameTrialErrorButton -- inherited
+ReagentBankFrameUnlockInfoCostMoneyFrame["small"] = 1 -- inherited
 ReagentBankFrameUnlockInfoCostMoneyFrame["CopperButton"] = ReagentBankFrameUnlockInfoCostMoneyFrameCopperButton -- inherited
 ReagentBankFrameUnlockInfoCostMoneyFrame["SilverButton"] = ReagentBankFrameUnlockInfoCostMoneyFrameSilverButton -- inherited
 ReagentBankFrameUnlockInfoCostMoneyFrame["GoldButton"] = ReagentBankFrameUnlockInfoCostMoneyFrameGoldButton -- inherited
+ReagentBankFrameUnlockInfoCostMoneyFrame["trialErrorButton"] = ReagentBankFrameUnlockInfoCostMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1044)
 --- child of ReagentBankFrameUnlockInfo
@@ -706,12 +709,12 @@ AccountBankPanel["layoutType"] = "InsetFrameTemplate"
 --- @class BankFrameTitleText : FontString, GameFontHighlight
 BankFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L834)
 --- child of BankFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 BankFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L801)
 --- child of BankFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 BankFrameBg = {}

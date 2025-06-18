@@ -44,23 +44,20 @@ function GossipAvailableQuestButtonMixin:Setup(questInfo) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L43)
 function GossipActiveQuestButtonMixin:Setup(questInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L50)
 function GossipFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L60)
 function GossipFrameMixin:HandleShow(textureKit) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L67)
-function GossipFrameMixin:GetBackgroundTexture(textureKit) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L78)
 function GossipFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L73)
 function GossipFrameMixin:SetGossipTutorialMode(tutorialMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L79)
 function GossipFrameMixin:GetTutorialButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.lua#L83)
 function GossipFrameMixin:SortOrder(leftInfo, rightInfo) end

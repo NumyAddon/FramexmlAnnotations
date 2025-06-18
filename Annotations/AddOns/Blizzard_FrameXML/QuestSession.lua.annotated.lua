@@ -339,104 +339,104 @@ function QuestSessionManagerMixin:OnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L839)
 function QuestSessionManagerMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L865)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L868)
 function QuestSessionManagerMixin:OnQuestRemoved(questID, wasReplayQuest) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L873)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L876)
 function QuestSessionManagerMixin:CheckShowSessionStartPrompt() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L880)
 function QuestSessionManagerMixin:CheckShowBNetRequestInviteConfirmation(gameAccountID, questSessionActive, tank, healer, dps) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L885)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L888)
 function QuestSessionManagerMixin:CheckShowRequestInviteConfirmation(target, targetLevelLink, questSessionActive, tank, healer, dps) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L893)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L896)
 function QuestSessionManagerMixin:CheckShowInviteTravelPassConfirmation(target, guid, willConvertToRaid, questSessionActive) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L901)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L904)
 function QuestSessionManagerMixin:ShowGroupInviteConfirmation(invite, text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L905)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L908)
 function QuestSessionManagerMixin:ShowGroupInviteReceivedConfirmation(name, text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L909)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L912)
 function QuestSessionManagerMixin:OnInviteToPartyConfirmation(name, willConvertToRaid) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L913)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L916)
 function QuestSessionManagerMixin:IsTimeout(resultCode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L917)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L920)
 function QuestSessionManagerMixin:ShouldNotificationDismissDialogs(resultCode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L921)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L924)
 function QuestSessionManagerMixin:OnQuestSessionNotification(resultCode, guid) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L936)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L939)
 function QuestSessionManagerMixin:OnEnabledStateChanged(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L944)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L947)
 function QuestSessionManagerMixin:SetMinimizedDialog(dialog) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L949)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L952)
 function QuestSessionManagerMixin:GetMinimizedDialog() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L953)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L956)
 function QuestSessionManagerMixin:GetActiveDialog() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L961)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L964)
 function QuestSessionManagerMixin:CheckClearMinimizedDialog(dialog) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L967)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L970)
 function QuestSessionManagerMixin:ClearMinimizedDialog() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L971)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L974)
 function QuestSessionManagerMixin:DismissDialogs() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L979)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L982)
 function QuestSessionManagerMixin:NotifyDialogShow(dialog) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L984)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L987)
 function QuestSessionManagerMixin:NotifyDialogHide(dialog) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L990)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L993)
 function QuestSessionManagerMixin:NotifyDialogMinimize(dialog) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L995)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L998)
 function QuestSessionManagerMixin:NotifyUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L999)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1002)
 function QuestSessionManagerMixin:CheckMutuallyExclusiveDialogs(shownDialog) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1005)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1008)
 function QuestSessionManagerMixin:GetSessionManagementFailureReason() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1025)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1028)
 function QuestSessionManagerMixin:IsSessionManagementEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1029)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1032)
 function QuestSessionManagerMixin:StartSession() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1033)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1036)
 function QuestSessionManagerMixin:StopSession() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1037)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1040)
 function QuestSessionManagerMixin:ShowCheckDialog(dialog, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1042)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1045)
 function QuestSessionManagerMixin:GetSessionCommand() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1051)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1054)
 function QuestSessionManagerMixin:GetSystemSessionCommand() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1061)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1064)
 function QuestSessionManagerMixin:ExecuteSessionCommand() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1077)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1080)
 function QuestSessionManagerMixin:ShouldSessionManagementUIBeVisible() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1081)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1084)
 function QuestSessionManagerMixin:GetProposedPlayerLevel() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1086)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/QuestSession.lua#L1089)
 function QuestSessionManagerMixin:GetStartSessionBodyText() end

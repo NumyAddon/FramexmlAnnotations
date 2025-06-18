@@ -8,7 +8,7 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L29)
 --- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_Tutorial : Button, MainHelpPlateButton, EditModeManagerTutorialMixin
---- @field MainHelpPlateButtonTooltipText any # EDIT_MODE_HELPTIP_BUTTON_TOOLTIP
+--- @field mainHelpPlateButtonTooltipText any # EDIT_MODE_HELPTIP_BUTTON_TOOLTIP
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L42)
 --- child of EditModeManagerFrame
@@ -236,7 +236,14 @@
 --- @field category any # EditModeManagerOptionsCategory.Combat
 --- @field advancedLayoutIndex number # 7
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L351)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L349)
+--- child of EditModeManagerFrame_AccountSettings_SettingsContainer
+--- @class EditModeManagerFrame_AccountSettings_SettingsContainer_CooldownViewer : Frame, EditModeManagerSettingCheckButtonTemplate
+--- @field labelText any # HUD_EDIT_MODE_COOLDOWN_VIEWER_LABEL
+--- @field category any # EditModeManagerOptionsCategory.Combat
+--- @field advancedLayoutIndex number # 8
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L358)
 --- child of EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_TalkingHeadFrame : Frame, EditModeManagerSettingCheckButtonTemplate
 --- @field labelText any # HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL
@@ -245,56 +252,56 @@
 --- @field basicLayoutIndex number # 7
 --- @field advancedLayoutIndex number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L360)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L367)
 --- child of EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_StatusTrackingBar2 : Frame, EditModeManagerSettingCheckButtonTemplate
 --- @field labelText any # HUD_EDIT_MODE_STATUS_TRACKING_BAR_LABEL
 --- @field category any # EditModeManagerOptionsCategory.Misc
 --- @field advancedLayoutIndex number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L374)
 --- child of EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_VehicleLeaveButton : Frame, EditModeManagerSettingCheckButtonTemplate
 --- @field labelText any # HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL
 --- @field category any # EditModeManagerOptionsCategory.Misc
 --- @field advancedLayoutIndex number # 3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L381)
 --- child of EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_HudTooltip : Frame, EditModeManagerSettingCheckButtonTemplate
 --- @field labelText any # HUD_EDIT_MODE_HUD_TOOLTIP_LABEL
 --- @field category any # EditModeManagerOptionsCategory.Misc
 --- @field advancedLayoutIndex number # 4
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L381)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L388)
 --- child of EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_DurabilityFrame : Frame, EditModeManagerSettingCheckButtonTemplate
 --- @field labelText any # HUD_EDIT_MODE_DURABILITY_FRAME_LABEL
 --- @field category any # EditModeManagerOptionsCategory.Misc
 --- @field advancedLayoutIndex number # 5
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L395)
 --- child of EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_TimerBars : Frame, EditModeManagerSettingCheckButtonTemplate
 --- @field labelText any # HUD_EDIT_MODE_TIMER_BARS_LABEL
 --- @field category any # EditModeManagerOptionsCategory.Misc
 --- @field advancedLayoutIndex number # 6
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L395)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L402)
 --- child of EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_VehicleSeatIndicator : Frame, EditModeManagerSettingCheckButtonTemplate
 --- @field labelText any # HUD_EDIT_MODE_VEHICLE_SEAT_INDICATOR_LABEL
 --- @field category any # EditModeManagerOptionsCategory.Misc
 --- @field advancedLayoutIndex number # 7
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L402)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L409)
 --- child of EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_ArchaeologyBar : Frame, EditModeManagerSettingCheckButtonTemplate
 --- @field labelText any # HUD_EDIT_MODE_ARCHAEOLOGY_BAR_LABEL
 --- @field category any # EditModeManagerOptionsCategory.Misc
 --- @field advancedLayoutIndex number # 8
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L409)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L416)
 --- child of EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @class EditModeManagerFrame_AccountSettings_SettingsContainer_LootFrame : Frame, EditModeManagerSettingCheckButtonTemplate, EditModeLootFrameCheckButtonMixin
 --- @field labelText any # HUD_EDIT_MODE_LOOT_FRAME_LABEL
@@ -326,6 +333,7 @@
 --- @field PetActionBar EditModeManagerFrame_AccountSettings_SettingsContainer_PetActionBar
 --- @field PossessActionBar EditModeManagerFrame_AccountSettings_SettingsContainer_PossessActionBar
 --- @field EncounterBar EditModeManagerFrame_AccountSettings_SettingsContainer_EncounterBar
+--- @field CooldownViewer EditModeManagerFrame_AccountSettings_SettingsContainer_CooldownViewer
 --- @field TalkingHeadFrame EditModeManagerFrame_AccountSettings_SettingsContainer_TalkingHeadFrame
 --- @field StatusTrackingBar2 EditModeManagerFrame_AccountSettings_SettingsContainer_StatusTrackingBar2
 --- @field VehicleLeaveButton EditModeManagerFrame_AccountSettings_SettingsContainer_VehicleLeaveButton
@@ -336,11 +344,11 @@
 --- @field ArchaeologyBar EditModeManagerFrame_AccountSettings_SettingsContainer_ArchaeologyBar
 --- @field LootFrame EditModeManagerFrame_AccountSettings_SettingsContainer_LootFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L433)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L440)
 --- child of EditModeManagerFrame_AccountSettings_Expander
 --- @class EditModeManagerFrame_AccountSettings_Expander_Label : FontString, GameFontHighlightMedium
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L419)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L426)
 --- child of EditModeManagerFrame_AccountSettings
 --- @class EditModeManagerFrame_AccountSettings_Expander : Frame, ResizeLayoutFrame
 --- @field layoutIndex number # 2
@@ -357,11 +365,11 @@
 --- @field SettingsContainer EditModeManagerFrame_AccountSettings_SettingsContainer
 --- @field Expander EditModeManagerFrame_AccountSettings_Expander
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L452)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L459)
 --- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_SaveChangesButton : Button, EditModeManagerFrameButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L457)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.xml#L464)
 --- child of EditModeManagerFrame
 --- @class EditModeManagerFrame_RevertAllChangesButton : Button, EditModeManagerFrameButtonTemplate
 

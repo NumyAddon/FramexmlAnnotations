@@ -44,19 +44,19 @@ EJMicroButtonMixin = {}
 --- @class StoreMicroButtonMixin
 StoreMicroButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1574)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1582)
 --- @class HelpMicroButtonMixin
 HelpMicroButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1591)
 --- @class MainMenuMicroButtonMixin
 MainMenuMicroButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1694)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1708)
 --- @class MicroMenuMixin
 MicroMenuMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1891)
 --- @class MicroMenuContainerMixin
 MicroMenuContainerMixin = {}
 
@@ -310,76 +310,85 @@ function StoreMicroButtonMixin:OnLoad() end
 function StoreMicroButtonMixin:OnEvent(event, ...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1517)
+function StoreMicroButtonMixin:GetButtonContext() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1521)
+function StoreMicroButtonMixin:OnClick() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1525)
 function StoreMicroButtonMixin:EvaluateAlertVisibility(level) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1531)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1539)
 function StoreMicroButtonMixin:UpdateMicroButton() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1576)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1584)
 function HelpMicroButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1593)
 function MainMenuMicroButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1593)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1601)
 function MainMenuMicroButtonMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1642)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1650)
 function MainMenuMicroButtonMixin:OnClick(button, down) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1661)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1669)
 function MainMenuMicroButtonMixin:UpdateMicroButton() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1678)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1688)
 function MainMenuMicroButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1686)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1696)
 function MainMenuMicroButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1696)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1704)
+function MainMenuMicroButtonMixin:UpdateNotificationIcon() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1710)
 function MicroMenuMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1701)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1715)
 function MicroMenuMixin:InitializeButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1729)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1743)
 function MicroMenuMixin:AddButton(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1738)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1752)
 function MicroMenuMixin:GetEdgeButton(rightMost, topMost) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1774)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1788)
 function MicroMenuMixin:UpdateHelpTicketButtonAnchor(position) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1796)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1810)
 function MicroMenuMixin:UpdateQueueStatusAnchors(position) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1806)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1820)
 function MicroMenuMixin:UpdateFramerateFrameAnchor(position) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1814)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1828)
 function MicroMenuMixin:AnchorToMenuContainer(position) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1835)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1849)
 function MicroMenuMixin:SetQueueStatusScale(scale) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1843)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1857)
 function MicroMenuMixin:Layout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1853)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1867)
 function MicroMenuMixin:UpdateScale() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1863)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1877)
 function MicroMenuMixin:SetNormalScale(scale) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1868)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1882)
 function MicroMenuMixin:SetOverrideScale(overrideScale) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1873)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1887)
 function MicroMenuMixin:ClearOverrideScale() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1895)
 function MicroMenuContainerMixin:Layout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1926)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBarMicroButtons.lua#L1940)
 function MicroMenuContainerMixin:GetPosition() end

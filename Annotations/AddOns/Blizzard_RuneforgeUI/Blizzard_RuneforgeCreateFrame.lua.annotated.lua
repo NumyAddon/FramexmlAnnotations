@@ -4,7 +4,7 @@
 --- @class RuneforgeCreateFrameMixin : RuneforgeSystemMixin
 RuneforgeCreateFrameMixin = CreateFromMixins(RuneforgeSystemMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L145)
 --- @class RuneforgeCraftItemButtonMixin
 RuneforgeCraftItemButtonMixin = {}
 
@@ -26,29 +26,29 @@ function RuneforgeCreateFrameMixin:GetStaticPopupInfo() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L67)
 function RuneforgeCreateFrameMixin:ShowCraftConfirmation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L99)
 function RuneforgeCreateFrameMixin:CraftItem() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L113)
 function RuneforgeCreateFrameMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L121)
 function RuneforgeCreateFrameMixin:UpdateCost() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L140)
 function RuneforgeCreateFrameMixin:GetRuneforgeFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L151)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L147)
 function RuneforgeCraftItemButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L151)
 function RuneforgeCraftItemButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L156)
 function RuneforgeCraftItemButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L168)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L164)
 function RuneforgeCraftItemButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L172)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RuneforgeUI/Blizzard_RuneforgeCreateFrame.lua#L168)
 function RuneforgeCraftItemButtonMixin:SetCraftState(canCraft, errorString) end

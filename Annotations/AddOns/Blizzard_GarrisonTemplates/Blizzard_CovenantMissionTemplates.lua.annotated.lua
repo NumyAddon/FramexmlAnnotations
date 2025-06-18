@@ -12,27 +12,27 @@ CovenantFollowerTabMixin = {}
 --- @class CovenantMissionListMixin
 CovenantMissionListMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L525)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L540)
 --- @class CovenantMissionEncounterIconMixin
 CovenantMissionEncounterIconMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L551)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L566)
 --- @class AdventuresTargetingIndicatorMixin
 AdventuresTargetingIndicatorMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L610)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L625)
 --- @class AdventuresFriendlyTargetingIndicatorMixin
 AdventuresFriendlyTargetingIndicatorMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L660)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L675)
 --- @class SupportColorationAnimatorMixin
 SupportColorationAnimatorMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L748)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L763)
 --- @class CovenantPortraitMixin
 CovenantPortraitMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L785)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L800)
 --- @class AdventuresPuckHealthBarMixin
 AdventuresPuckHealthBarMixin = {}
 
@@ -90,95 +90,95 @@ function CovenantMissionListMixin:ShowAdventureSelectTutorial() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L373)
 function CovenantMissionListMixin:ClearAdventureSelectTutorial() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L527)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L542)
 function CovenantMissionEncounterIconMixin:SetEncounterInfo(encounterIconInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L553)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L568)
 function AdventuresTargetingIndicatorMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L578)
 function AdventuresTargetingIndicatorMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L584)
 function AdventuresTargetingIndicatorMixin:OnCancelTargeting() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L574)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L589)
 function AdventuresTargetingIndicatorMixin:StopLooping() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L582)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L597)
 function AdventuresTargetingIndicatorMixin:ResetPositions() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L586)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L601)
 function AdventuresTargetingIndicatorMixin:Play() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L594)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L609)
 function AdventuresTargetingIndicatorMixin:Stop() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L598)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L613)
 function AdventuresTargetingIndicatorMixin:Loop() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L612)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L627)
 function AdventuresFriendlyTargetingIndicatorMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L618)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L633)
 function AdventuresFriendlyTargetingIndicatorMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L641)
 function AdventuresFriendlyTargetingIndicatorMixin:SetDefault() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L631)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L646)
 function AdventuresFriendlyTargetingIndicatorMixin:SetHealingColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L635)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L650)
 function AdventuresFriendlyTargetingIndicatorMixin:SetBuffColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L654)
 function AdventuresFriendlyTargetingIndicatorMixin:Play() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L658)
 function AdventuresFriendlyTargetingIndicatorMixin:Loop() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L648)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L663)
 function AdventuresFriendlyTargetingIndicatorMixin:Stop() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L666)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L681)
 function SupportColorationAnimatorMixin:SetPreviewTargets(previewType, previewObjects) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L684)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L699)
 function SupportColorationAnimatorMixin:CancelPreviewTargets() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L694)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L709)
 function SupportColorationAnimatorMixin:UpdateSupportColor(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L713)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L728)
 function SupportColorationAnimatorMixin:SetTargetColor() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L738)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L753)
 function SupportColorationAnimatorMixin:SetSupportColorationColor(r, g, b) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L752)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L767)
 function CovenantPortraitMixin:SetupPortrait(followerInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L778)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L793)
 function CovenantPortraitMixin:SetQuality(followerInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L789)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L804)
 function AdventuresPuckHealthBarMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L793)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L808)
 function AdventuresPuckHealthBarMixin:SetHealth(health) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L799)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L814)
 function AdventuresPuckHealthBarMixin:UpdateHealthBar() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L807)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L822)
 function AdventuresPuckHealthBarMixin:GetHealth() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L811)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L826)
 function AdventuresPuckHealthBarMixin:SetMaxHealth(maxHealth) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L817)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L832)
 function AdventuresPuckHealthBarMixin:SetPuckDesaturation(desaturation) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L823)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_CovenantMissionTemplates.lua#L838)
 function AdventuresPuckHealthBarMixin:SetRole(role) end

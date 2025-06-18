@@ -16,7 +16,7 @@ TorghastPagingContainerMixin = {}
 --- @class TorghastLevelPickerRewardCircleMixin
 TorghastLevelPickerRewardCircleMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L517)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L525)
 --- @class TorghastLevelPickerOpenPortalButtonMixin
 TorghastLevelPickerOpenPortalButtonMixin = { }
 
@@ -125,26 +125,26 @@ function TorghastLevelPickerRewardCircleMixin:SetSortedRewards() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L393)
 function TorghastLevelPickerRewardCircleMixin:AddCurrencyToTooltip(currency, tooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L410)
 function TorghastLevelPickerRewardCircleMixin:SetRewardIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L422)
 function TorghastLevelPickerRewardCircleMixin:Init() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L445)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L449)
 function TorghastLevelPickerRewardCircleMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L449)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L453)
 function TorghastLevelPickerRewardCircleMixin:RefreshTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L513)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L521)
 function TorghastLevelPickerRewardCircleMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L519)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L527)
 function TorghastLevelPickerOpenPortalButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L531)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L539)
 function TorghastLevelPickerOpenPortalButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L535)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TorghastLevelPicker/Blizzard_TorghastLevelPicker.lua#L543)
 function TorghastLevelPickerOpenPortalButtonMixin:OnClick() end

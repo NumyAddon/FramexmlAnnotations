@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2210)
 --- @class GearManagerPopupFrameMixin
 GearManagerPopupFrameMixin = {}
 
@@ -12,16 +12,16 @@ PaperDollItemSlotButtonMixin = {}
 --- @class PaperDollItemSocketDisplayMixin
 PaperDollItemSocketDisplayMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2209)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2212)
 function GearManagerPopupFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2232)
 function GearManagerPopupFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2244)
 function GearManagerPopupFrameMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2268)
 function GearManagerPopupFrameMixin:OkayButton_OnClick() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/PaperDollFrame.lua#L2780)

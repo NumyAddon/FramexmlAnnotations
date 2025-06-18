@@ -4,30 +4,33 @@
 --- @class SpinnerMixin
 SpinnerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L18)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L74)
 --- @class SpinnerWithShadowMixin
 SpinnerWithShadowMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L4)
 function SpinnerMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L14)
 function SpinnerMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L19)
+function SpinnerMixin:OnSizeChanged() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L23)
 function SpinnerMixin:SetDesaturated(desaturated) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L20)
-function SpinnerWithShadowMixin:SpinnerWithShadow_OnShow() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L32)
+function SpinnerMixin:GetShadowAlpha() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L26)
-function SpinnerWithShadowMixin:SpinnerWithShadow_OnHide() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L36)
+function SpinnerMixin:SetShadowEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L30)
-function SpinnerWithShadowMixin:OnSizeChanged() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L55)
+function SpinnerMixin:UpdateShadowSize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L34)
-function SpinnerWithShadowMixin:UpdateShadowSize() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L70)
+function SpinnerMixin:UpdateTheme(useDarkMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L47)
-function SpinnerWithShadowMixin:SetDesaturated(desaturated) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Spinner.lua#L76)
+function SpinnerWithShadowMixin:SpinnerWithShadow_OnLoad() end

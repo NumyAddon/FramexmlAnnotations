@@ -4,7 +4,7 @@
 --- @class LootFrameElementMixin : LootFrameBaseElementMixin
 LootFrameElementMixin = CreateFromMixins(LootFrameBaseElementMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L320)
 --- @class LootFrameItemElementMixin : LootFrameElementMixin
 LootFrameItemElementMixin = CreateFromMixins(LootFrameElementMixin)
 
@@ -58,14 +58,14 @@ function LootFrameElementMixin:OnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L249)
 function LootFrameElementMixin:Init() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L308)
 function LootFrameElementMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L312)
 function LootFrameElementMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L322)
 function LootFrameItemElementMixin:Init() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.lua#L329)
 function LootFrameItemElementMixin:OnEnter() end

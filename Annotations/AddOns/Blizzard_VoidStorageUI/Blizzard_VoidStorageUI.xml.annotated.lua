@@ -134,34 +134,35 @@ VoidStorageTransferButton = {}
 VoidStorageTransferButton["fitTextCanWidthDecrease"] = true -- inherited
 VoidStorageTransferButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L110)
---- child of VoidStorageMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-VoidStorageMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L105)
 --- child of VoidStorageMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 VoidStorageMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L124)
 --- child of VoidStorageMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 VoidStorageMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L143)
 --- child of VoidStorageMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 VoidStorageMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L85)
+--- child of VoidStorageMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+VoidStorageMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L399)
 --- child of VoidStorageCostFrame
 --- @class VoidStorageMoneyFrame : Frame, SmallMoneyFrameTemplate
 VoidStorageMoneyFrame = {}
-VoidStorageMoneyFrame["trialErrorButton"] = VoidStorageMoneyFrameTrialErrorButton -- inherited
+VoidStorageMoneyFrame["small"] = 1 -- inherited
 VoidStorageMoneyFrame["CopperButton"] = VoidStorageMoneyFrameCopperButton -- inherited
 VoidStorageMoneyFrame["SilverButton"] = VoidStorageMoneyFrameSilverButton -- inherited
 VoidStorageMoneyFrame["GoldButton"] = VoidStorageMoneyFrameGoldButton -- inherited
+VoidStorageMoneyFrame["trialErrorButton"] = VoidStorageMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L360)
 --- child of VoidStorageContentFrame
@@ -190,35 +191,36 @@ VoidStoragePurchaseButton["fitTextWidthPadding"] = 40 -- inherited
 --- child of VoidStoragePurchaseMoneyFrame
 --- @class VoidStoragePurchaseMoneyFrame_PrefixText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L110)
---- child of VoidStoragePurchaseMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-VoidStoragePurchaseMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L105)
 --- child of VoidStoragePurchaseMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 VoidStoragePurchaseMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L124)
 --- child of VoidStoragePurchaseMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 VoidStoragePurchaseMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L143)
 --- child of VoidStoragePurchaseMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 VoidStoragePurchaseMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L85)
+--- child of VoidStoragePurchaseMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+VoidStoragePurchaseMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L612)
 --- child of VoidStoragePurchaseFrame
 --- @class VoidStoragePurchaseMoneyFrame : Frame, SmallMoneyFrameTemplate
 --- @field PrefixText VoidStoragePurchaseMoneyFrame_PrefixText
 VoidStoragePurchaseMoneyFrame = {}
-VoidStoragePurchaseMoneyFrame["trialErrorButton"] = VoidStoragePurchaseMoneyFrameTrialErrorButton -- inherited
+VoidStoragePurchaseMoneyFrame["small"] = 1 -- inherited
 VoidStoragePurchaseMoneyFrame["CopperButton"] = VoidStoragePurchaseMoneyFrameCopperButton -- inherited
 VoidStoragePurchaseMoneyFrame["SilverButton"] = VoidStoragePurchaseMoneyFrameSilverButton -- inherited
 VoidStoragePurchaseMoneyFrame["GoldButton"] = VoidStoragePurchaseMoneyFrameGoldButton -- inherited
+VoidStoragePurchaseMoneyFrame["trialErrorButton"] = VoidStoragePurchaseMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L506)
 --- child of VoidStoragePurchaseFrame
@@ -354,12 +356,12 @@ VoidStorageFrameLines = {}
 --- @field Page2 VoidStorageFrame_Page2
 VoidStorageFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1243)
 --- child of VoidItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 VoidItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_VoidStorageUI/Blizzard_VoidStorageUI.xml#L1234)
 --- child of VoidItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 VoidItemSearchBoxSearchIcon = {}

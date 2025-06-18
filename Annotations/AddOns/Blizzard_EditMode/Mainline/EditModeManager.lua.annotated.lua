@@ -4,23 +4,23 @@
 --- @class EditModeManagerFrameMixin
 EditModeManagerFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1444)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1484)
 --- @class EditModeGridMixin
 EditModeGridMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1513)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1553)
 --- @class EditModeGridSpacingSliderMixin
 EditModeGridSpacingSliderMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1627)
 --- @class EditModeAccountSettingsMixin
 EditModeAccountSettingsMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2352)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2450)
 --- @class EditModeManagerTutorialMixin
 EditModeManagerTutorialMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2415)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2513)
 --- @class EditModeLootFrameCheckButtonMixin
 EditModeLootFrameCheckButtonMixin = {}
 
@@ -202,394 +202,490 @@ function EditModeManagerFrameMixin:GetAccountSettingValue(setting) end
 function EditModeManagerFrameMixin:GetAccountSettingValueBool(setting) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L787)
+function EditModeManagerFrameMixin:HasAccountSettings() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L791)
 function EditModeManagerFrameMixin:InitializeAccountSettings() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L819)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L824)
 function EditModeManagerFrameMixin:OnAccountSettingChanged(changedSetting, newValue) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L836)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L841)
 function EditModeManagerFrameMixin:UpdateLayoutCounts(savedLayouts) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L847)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L852)
 function EditModeManagerFrameMixin:AreLayoutsOfTypeMaxed(layoutType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L851)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L856)
 function EditModeManagerFrameMixin:AreLayoutsFullyMaxed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L855)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L860)
 function EditModeManagerFrameMixin:UpdateLayoutInfo(layoutInfo, reconcileLayouts) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L884)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L889)
 function EditModeManagerFrameMixin:OnEditModeSystemAnchorChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L888)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L893)
 function EditModeManagerFrameMixin:InvokeOnAnyEditModeSystemAnchorChanged(force) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L901)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L906)
 function EditModeManagerFrameMixin:GetLayouts() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L905)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L910)
 function EditModeManagerFrameMixin:SetGridShown(gridShown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L916)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L921)
 function EditModeManagerFrameMixin:SetGridSpacing(gridSpacing, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L925)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L930)
 function EditModeManagerFrameMixin:SetEnableSnap(enableSnap, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L939)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L944)
 function EditModeManagerFrameMixin:IsSnapEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L943)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L948)
 function EditModeManagerFrameMixin:SetSnapPreviewFrame(snapPreviewFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L947)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L952)
 function EditModeManagerFrameMixin:ClearSnapPreviewFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L952)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L957)
 function EditModeManagerFrameMixin:ShouldShowSnapPreviewLines() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L956)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L961)
 function EditModeManagerFrameMixin:RefreshSnapPreviewLines() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L979)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L984)
 function EditModeManagerFrameMixin:HideSnapPreviewLines() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L985)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L990)
 function EditModeManagerFrameMixin:SetEnableAdvancedOptions(enableAdvancedOptions, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L996)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1001)
 function EditModeManagerFrameMixin:AreAdvancedOptionsEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1011)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1016)
 function EditModeManagerFrameMixin:CreateLayoutTbls() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1063)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1068)
 function EditModeManagerFrameMixin:UpdateDropdownOptions() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1200)
 function EditModeManagerFrameMixin:InitSystemAnchors() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1196)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1204)
 function EditModeManagerFrameMixin:UpdateSystems() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1203)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1211)
 function EditModeManagerFrameMixin:UpdateSystem(systemFrame, forceFullUpdate) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1222)
 function EditModeManagerFrameMixin:SetOverrideLayout(overrideLayoutIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1236)
 function EditModeManagerFrameMixin:ClearOverrideLayout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1241)
 function EditModeManagerFrameMixin:GetActiveLayoutInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1249)
 function EditModeManagerFrameMixin:GetActiveLayoutSystemInfo(system, systemIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1260)
 function EditModeManagerFrameMixin:IsActiveLayoutPreset() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1265)
 function EditModeManagerFrameMixin:SelectLayout(layoutIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1273)
 function EditModeManagerFrameMixin:IsLayoutSelected(layoutIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1269)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1277)
 function EditModeManagerFrameMixin:ResetDropdownToActiveLayout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1273)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1281)
 function EditModeManagerFrameMixin:MakeNewLayout(newLayoutInfo, layoutType, layoutName, isLayoutImported) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1303)
 function EditModeManagerFrameMixin:DeleteLayout(layoutIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1312)
 function EditModeManagerFrameMixin:RenameLayout(layoutIndex, layoutName) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1315)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1323)
 function EditModeManagerFrameMixin:CopyActiveLayoutToClipboard() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1330)
 function EditModeManagerFrameMixin:LinkActiveLayoutToChat() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1342)
 function EditModeManagerFrameMixin:ClearActiveChangesFlags() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1347)
 function EditModeManagerFrameMixin:ImportLayout(newLayoutInfo, layoutType, layoutName) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1358)
 function EditModeManagerFrameMixin:PrepareSystemsForSave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1362)
 function EditModeManagerFrameMixin:SaveLayouts() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1369)
 function EditModeManagerFrameMixin:SaveLayoutChanges() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1377)
 function EditModeManagerFrameMixin:RevertAllChanges() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1383)
 function EditModeManagerFrameMixin:ShowNewLayoutDialog(layoutInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1388)
 function EditModeManagerFrameMixin:ShowImportLayoutDialog() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1385)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1393)
 function EditModeManagerFrameMixin:OpenAndShowImportLayoutLinkDialog(link) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1401)
 function EditModeManagerFrameMixin:ShowRenameLayoutDialog(layoutIndex, layoutInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1404)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1412)
 function EditModeManagerFrameMixin:ShowDeleteLayoutDialog(layoutIndex, layoutInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1415)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1423)
 function EditModeManagerFrameMixin:ShowRevertWarningDialog(selectedLayoutIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1420)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1428)
 function EditModeManagerFrameMixin:TryShowUnsavedChangesGlow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1427)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1435)
 function EditModeManagerFrameMixin:ClearUnsavedChangesGlow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1431)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1439)
 function EditModeManagerFrameMixin:BlockEnteringEditMode(blockingFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1435)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1443)
 function EditModeManagerFrameMixin:UnblockEnteringEditMode(blockingFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1439)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1447)
 function EditModeManagerFrameMixin:CanEnterEditMode() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1446)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1468)
+function EditModeManagerFrameMixin:GetBestLayoutIndex(layoutInfo) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1472)
+function EditModeManagerFrameMixin:GetDefaultAnchor(frame) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1486)
 function EditModeGridMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1454)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1494)
 function EditModeGridMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1459)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1499)
 function EditModeGridMixin:SetGridSpacing(spacing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1464)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1504)
 function EditModeGridMixin:UpdateGrid() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1555)
 function EditModeGridSpacingSliderMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1530)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1570)
 function EditModeGridSpacingSliderMixin:SetupSlider(gridSpacing) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1574)
 function EditModeGridSpacingSliderMixin:SetEnabled(enabled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1538)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1578)
 function EditModeGridSpacingSliderMixin:OnSliderValueChanged(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1545)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1629)
 function EditModeAccountSettingsMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1683)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1639)
 function EditModeAccountSettingsMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1703)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1659)
 function EditModeAccountSettingsMixin:OnEditModeEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1738)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1695)
 function EditModeAccountSettingsMixin:OnEditModeExit() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1750)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1707)
 function EditModeAccountSettingsMixin:LayoutSettings() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1778)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1735)
 function EditModeAccountSettingsMixin:ResetTargetAndFocus() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1800)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1757)
 function EditModeAccountSettingsMixin:RefreshTargetAndFocus() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1824)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1781)
 function EditModeAccountSettingsMixin:SetTargetAndFocusShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1833)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1790)
+function EditModeAccountSettingsMixin:SetTargetAndFocusMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1795)
 function EditModeAccountSettingsMixin:RefreshPartyFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1846)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1808)
 function EditModeAccountSettingsMixin:ResetPartyFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1851)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1813)
 function EditModeAccountSettingsMixin:SetPartyFramesShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1822)
+function EditModeAccountSettingsMixin:SetPartyFramesMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1826)
 function EditModeAccountSettingsMixin:RefreshRaidFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1875)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1841)
 function EditModeAccountSettingsMixin:ResetRaidFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1847)
 function EditModeAccountSettingsMixin:SetRaidFramesShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1890)
-function EditModeAccountSettingsMixin:SetupActionBar(bar) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1856)
+function EditModeAccountSettingsMixin:SetRaidFramesMouseOver(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1904)
-function EditModeAccountSettingsMixin:ResetActionBarShown(bar) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1860)
+function EditModeAccountSettingsMixin:SetCastBarMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1864)
+function EditModeAccountSettingsMixin:SetEncounterBarMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1868)
+function EditModeAccountSettingsMixin:SetExtraAbilitiesMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1872)
+function EditModeAccountSettingsMixin:SetBuffsAndDebuffsMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1877)
+function EditModeAccountSettingsMixin:SetTalkingHeadFrameMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1881)
+function EditModeAccountSettingsMixin:SetVehicleLeaveButtonMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1885)
+function EditModeAccountSettingsMixin:SetBossFramesMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1889)
+function EditModeAccountSettingsMixin:SetArenaFramesMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1893)
+function EditModeAccountSettingsMixin:SetLootFrameMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1897)
+function EditModeAccountSettingsMixin:SetHudTooltipMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1901)
+function EditModeAccountSettingsMixin:SetStatusTrackingBar2MouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1905)
+function EditModeAccountSettingsMixin:SetDurabilityFrameMouseOver(...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1909)
+function EditModeAccountSettingsMixin:SetPetFrameMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1913)
+function EditModeAccountSettingsMixin:SetTimerBarsMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1917)
+function EditModeAccountSettingsMixin:SetVehicleSeatIndicatorMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1921)
+function EditModeAccountSettingsMixin:SetArchaeologyBarMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1925)
+function EditModeAccountSettingsMixin:SetCooldownViewerMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1931)
+function EditModeAccountSettingsMixin:SetupActionBar(bar) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1945)
+function EditModeAccountSettingsMixin:ResetActionBarShown(bar) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1950)
 function EditModeAccountSettingsMixin:RefreshActionBarShown(bar) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1923)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1964)
 function EditModeAccountSettingsMixin:SetActionBarShown(bar, shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1933)
-function EditModeAccountSettingsMixin:SetCastBarShown(shown, isUserInput) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1974)
+function EditModeAccountSettingsMixin:SetStanceBarShown(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1942)
-function EditModeAccountSettingsMixin:RefreshCastBar() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1978)
+function EditModeAccountSettingsMixin:SetPetActionBarShown(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1954)
-function EditModeAccountSettingsMixin:SetupEncounterBar() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1961)
-function EditModeAccountSettingsMixin:SetEncounterBarShown(shown, isUserInput) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1970)
-function EditModeAccountSettingsMixin:RefreshEncounterBar() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1982)
+function EditModeAccountSettingsMixin:SetPossessActionBarShown(...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1986)
+function EditModeAccountSettingsMixin:SetStanceBarMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1990)
+function EditModeAccountSettingsMixin:SetPetActionBarMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1994)
+function EditModeAccountSettingsMixin:SetPossessActionBarMouseOver(...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1998)
+function EditModeAccountSettingsMixin:SetCastBarShown(shown, isUserInput) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2007)
+function EditModeAccountSettingsMixin:RefreshCastBar() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2019)
+function EditModeAccountSettingsMixin:SetupEncounterBar() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2026)
+function EditModeAccountSettingsMixin:SetEncounterBarShown(shown, isUserInput) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2035)
+function EditModeAccountSettingsMixin:RefreshEncounterBar() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2051)
 function EditModeAccountSettingsMixin:SetExtraAbilitiesShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L1995)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2060)
 function EditModeAccountSettingsMixin:RefreshExtraAbilities() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2008)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2073)
 function EditModeAccountSettingsMixin:SetBuffsAndDebuffsShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2017)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2082)
 function EditModeAccountSettingsMixin:RefreshBuffsAndDebuffs() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2036)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2101)
 function EditModeAccountSettingsMixin:SetTalkingHeadFrameShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2045)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2110)
 function EditModeAccountSettingsMixin:RefreshTalkingHeadFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2059)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2124)
 function EditModeAccountSettingsMixin:SetVehicleLeaveButtonShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2068)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2133)
 function EditModeAccountSettingsMixin:RefreshVehicleLeaveButton() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2081)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2146)
 function EditModeAccountSettingsMixin:SetBossFramesShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2090)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2155)
 function EditModeAccountSettingsMixin:RefreshBossFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2168)
 function EditModeAccountSettingsMixin:SetArenaFramesShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2177)
 function EditModeAccountSettingsMixin:RefreshArenaFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2182)
 function EditModeAccountSettingsMixin:ResetArenaFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2186)
 function EditModeAccountSettingsMixin:SetLootFrameShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2195)
 function EditModeAccountSettingsMixin:RefreshLootFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2208)
 function EditModeAccountSettingsMixin:SetHudTooltipShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2217)
 function EditModeAccountSettingsMixin:RefreshHudTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2227)
 function EditModeAccountSettingsMixin:ResetHudTooltip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2231)
 function EditModeAccountSettingsMixin:SetStatusTrackingBar2Shown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2240)
 function EditModeAccountSettingsMixin:SetupStatusTrackingBar2() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2183)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2248)
 function EditModeAccountSettingsMixin:RefreshStatusTrackingBar2() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2195)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2260)
 function EditModeAccountSettingsMixin:SetupDurabilityFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2267)
 function EditModeAccountSettingsMixin:SetDurabilityFrameShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2276)
 function EditModeAccountSettingsMixin:RefreshDurabilityFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2224)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2289)
 function EditModeAccountSettingsMixin:SetupPetFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2296)
 function EditModeAccountSettingsMixin:SetPetFrameShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2305)
 function EditModeAccountSettingsMixin:RefreshPetFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2253)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2318)
 function EditModeAccountSettingsMixin:SetupTimerBars() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2325)
 function EditModeAccountSettingsMixin:SetTimerBarsShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2269)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2334)
 function EditModeAccountSettingsMixin:RefreshTimerBars() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2279)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2344)
 function EditModeAccountSettingsMixin:SetupVehicleSeatIndicator() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2351)
 function EditModeAccountSettingsMixin:SetVehicleSeatIndicatorShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2360)
 function EditModeAccountSettingsMixin:RefreshVehicleSeatIndicator() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2370)
 function EditModeAccountSettingsMixin:SetupArchaeologyBar() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2377)
 function EditModeAccountSettingsMixin:SetArchaeologyBarShown(shown, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2386)
 function EditModeAccountSettingsMixin:RefreshArchaeologyBar() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2396)
+function EditModeAccountSettingsMixin:SetCooldownViewerShown(shown, isUserInput) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2405)
+function EditModeAccountSettingsMixin:GetCooldownViewerFrames() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2411)
+function EditModeAccountSettingsMixin:RefreshCooldownViewer() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2429)
 function EditModeAccountSettingsMixin:SetExpandedState(expanded, isUserInput) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2445)
 function EditModeAccountSettingsMixin:ToggleExpandedState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2365)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2463)
 function EditModeManagerTutorialMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2470)
 function EditModeManagerTutorialMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2476)
 function EditModeManagerTutorialMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2386)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2484)
 function EditModeManagerTutorialMixin:BeginHelpTips() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2396)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2494)
 function EditModeManagerTutorialMixin:ShowHelpTip() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2404)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2502)
 function EditModeManagerTutorialMixin:ProgressHelpTips() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2418)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeManager.lua#L2516)
 function EditModeLootFrameCheckButtonMixin:ShouldEnable() end

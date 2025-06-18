@@ -53,7 +53,7 @@
 --- @class AuraFrameTemplate : Frame, EditModeAuraFrameSystemTemplate, AuraFrameMixin
 --- @field AuraContainer AuraFrameTemplate_AuraContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L124)
 --- child of BuffFrame
 --- @class BuffFrame_CollapseAndExpandButton : CheckButton, CollapseAndExpandButtonMixin
 --- @field NormalTexture Texture
@@ -75,17 +75,17 @@ BuffFrame["systemNameString"] = HUD_EDIT_MODE_BUFF_FRAME_LABEL
 BuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
 BuffFrame["defaultHideSelection"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L174)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L171)
 --- child of DebuffFrame
 --- @class DebuffFrame_privateAuraAnchor1 : Frame, BuffFramePrivateAuraAnchorTemplate
 --- @field auraIndex number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L176)
 --- child of DebuffFrame
 --- @class DebuffFrame_privateAuraAnchor2 : Frame, BuffFramePrivateAuraAnchorTemplate
 --- @field auraIndex number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L159)
 --- @class DebuffFrame : Frame, AuraFrameTemplate, DebuffFrameMixin
 --- @field exampleAuraType string # Debuff
 --- @field maxAuras any # DEBUFF_MAX_DISPLAY
@@ -104,15 +104,15 @@ DebuffFrame["doNotAnchorDisabledFrames"] = true
 DebuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
 DebuffFrame["defaultHideSelection"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L205)
 --- child of DeadlyDebuffFrame
 --- @class DeadlyDebuffFrame_Debuff : Button, AuraButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L195)
 --- child of DeadlyDebuffFrame
---- @class DeadlyDebuffFrame_WarningText : FontString, GameFontNormal
+--- @class DeadlyDebuffFrame_WarningText : FontString, GameFontNormalHuge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L188)
 --- @class DeadlyDebuffFrame : Frame, DeadlyDebuffFrameMixin
 --- @field Debuff DeadlyDebuffFrame_Debuff
 --- @field WarningText DeadlyDebuffFrame_WarningText

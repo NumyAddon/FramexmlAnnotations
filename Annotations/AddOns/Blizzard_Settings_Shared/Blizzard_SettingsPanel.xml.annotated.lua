@@ -34,12 +34,12 @@
 --- @field SettingsCanvas Frame
 --- @field SettingsList SettingsPanel_Container_SettingsList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1243)
 --- child of SettingsPanel_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 SettingsPanelClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsPanel.xml#L1234)
 --- child of SettingsPanel_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 SettingsPanelSearchIcon = {}

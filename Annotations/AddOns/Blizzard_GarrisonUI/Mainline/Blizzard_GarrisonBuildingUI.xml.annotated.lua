@@ -92,7 +92,7 @@
 --- child of GarrisonBuildingFrame
 --- @class GarrisonBuildingFrameTutorialButton : Button, MainHelpPlateButton
 GarrisonBuildingFrameTutorialButton = {}
-GarrisonBuildingFrameTutorialButton["MainHelpPlateButtonTooltipText"] = MAIN_HELP_BUTTON_TOOLTIP -- inherited
+GarrisonBuildingFrameTutorialButton["mainHelpPlateButtonTooltipText"] = MAIN_HELP_BUTTON_TOOLTIP -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonBuildingUI.xml#L532)
 --- child of GarrisonBuildingFrame_BuildingList

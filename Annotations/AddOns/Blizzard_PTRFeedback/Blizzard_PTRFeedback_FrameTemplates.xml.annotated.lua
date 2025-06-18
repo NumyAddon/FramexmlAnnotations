@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PTRFeedback/Blizzard_PTRFeedback_FrameTemplates.xml#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PTRFeedback/Blizzard_PTRFeedback_FrameTemplates.xml#L60)
 --- child of UIPanelBugButton
 --- @class UIPanelBugButton_Pulse : AnimationGroup
 

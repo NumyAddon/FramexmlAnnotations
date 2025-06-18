@@ -63,18 +63,18 @@
 --- @field ImageBounds PingSystemTutorial_Tutorial4_ImageBounds
 --- @field TutorialHeader PingSystemTutorial_Tutorial4_TutorialHeader
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L887)
 --- child of PingSystemTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 PingSystemTutorialInset = {}
 PingSystemTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L881)
 --- child of PingSystemTutorial (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 PingSystemTutorialCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/PingSystem.xml#L864)
 --- child of PingSystemTutorial (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 PingSystemTutorialBg = {}

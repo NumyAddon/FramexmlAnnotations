@@ -79,70 +79,91 @@
 --- @field BalanceInfo CurrencyTransferBalancePreviewTemplate_BalanceInfo
 --- @field Label CurrencyTransferBalancePreviewTemplate_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L198)
---- child of CurrencyTransferMenuTemplate
---- @class CurrencyTransferMenuTemplate_ConfirmButton : Button, CurrencyTransferConfirmButtonTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L214)
+--- child of CurrencyTransferMenuTemplate_Content
+--- @class CurrencyTransferMenuTemplate_Content_ConfirmButton : Button, CurrencyTransferConfirmButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L204)
---- child of CurrencyTransferMenuTemplate
---- @class CurrencyTransferMenuTemplate_CancelButton : Button, CurrencyTransferCancelButtonTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L220)
+--- child of CurrencyTransferMenuTemplate_Content
+--- @class CurrencyTransferMenuTemplate_Content_CancelButton : Button, CurrencyTransferCancelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L210)
---- child of CurrencyTransferMenuTemplate
---- @class CurrencyTransferMenuTemplate_SourceSelector : Frame, CurrencyTransferSourceSelectorTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L226)
+--- child of CurrencyTransferMenuTemplate_Content
+--- @class CurrencyTransferMenuTemplate_Content_SourceSelector : Frame, CurrencyTransferSourceSelectorTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L212)
---- child of CurrencyTransferMenuTemplate
---- @class CurrencyTransferMenuTemplate_AmountSelector : Frame, CurrencyTransferAmountSelectorTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L228)
+--- child of CurrencyTransferMenuTemplate_Content
+--- @class CurrencyTransferMenuTemplate_Content_AmountSelector : Frame, CurrencyTransferAmountSelectorTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L219)
---- child of CurrencyTransferMenuTemplate
---- @class CurrencyTransferMenuTemplate_SourceBalancePreview : Frame, CurrencyTransferBalancePreviewTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L235)
+--- child of CurrencyTransferMenuTemplate_Content
+--- @class CurrencyTransferMenuTemplate_Content_SourceBalancePreview : Frame, CurrencyTransferBalancePreviewTemplate
 --- @field showTransferCost boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L229)
---- child of CurrencyTransferMenuTemplate
---- @class CurrencyTransferMenuTemplate_PlayerBalancePreview : Frame, CurrencyTransferBalancePreviewTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L245)
+--- child of CurrencyTransferMenuTemplate_Content
+--- @class CurrencyTransferMenuTemplate_Content_PlayerBalancePreview : Frame, CurrencyTransferBalancePreviewTemplate
 --- @field showTransferCost boolean # false
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L198)
+--- child of CurrencyTransferMenuTemplate
+--- @class CurrencyTransferMenuTemplate_Content : Frame
+--- @field ConfirmButton CurrencyTransferMenuTemplate_Content_ConfirmButton
+--- @field CancelButton CurrencyTransferMenuTemplate_Content_CancelButton
+--- @field SourceSelector CurrencyTransferMenuTemplate_Content_SourceSelector
+--- @field AmountSelector CurrencyTransferMenuTemplate_Content_AmountSelector
+--- @field SourceBalancePreview CurrencyTransferMenuTemplate_Content_SourceBalancePreview
+--- @field PlayerBalancePreview CurrencyTransferMenuTemplate_Content_PlayerBalancePreview
+--- @field TransactionDivider Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L259)
+--- child of CurrencyTransferMenuTemplate_AnimationHolder
+--- @class CurrencyTransferMenuTemplate_AnimationHolder_TransferCelebration : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L257)
+--- child of CurrencyTransferMenuTemplate
+--- @class CurrencyTransferMenuTemplate_AnimationHolder : Frame
+--- @field TransferCelebration CurrencyTransferMenuTemplate_AnimationHolder_TransferCelebration
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L265)
+--- child of CurrencyTransferMenuTemplate
+--- @class CurrencyTransferMenuTemplate_TransferringSpinner : Frame, SpinnerTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L177)
 --- Template
 --- @class CurrencyTransferMenuTemplate : Frame, ButtonFrameTemplate, CallbackRegistrantTemplate, CurrencyTransferMenuMixin
---- @field ConfirmButton CurrencyTransferMenuTemplate_ConfirmButton
---- @field CancelButton CurrencyTransferMenuTemplate_CancelButton
---- @field SourceSelector CurrencyTransferMenuTemplate_SourceSelector
---- @field AmountSelector CurrencyTransferMenuTemplate_AmountSelector
---- @field SourceBalancePreview CurrencyTransferMenuTemplate_SourceBalancePreview
---- @field PlayerBalancePreview CurrencyTransferMenuTemplate_PlayerBalancePreview
+--- @field Content CurrencyTransferMenuTemplate_Content
+--- @field AnimationHolder CurrencyTransferMenuTemplate_AnimationHolder
+--- @field TransferringSpinner CurrencyTransferMenuTemplate_TransferringSpinner
 --- @field Background Texture
---- @field TransactionDivider Texture
+--- @field CelebrationBackgroundFlash Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L282)
 --- child of CurrencyTransferToggleButtonTemplate
 --- @class CurrencyTransferToggleButtonTemplate_LoadingSpinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L246)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L279)
 --- Template
 --- @class CurrencyTransferToggleButtonTemplate : Button, UIPanelButtonTemplate, DisabledTooltipButtonTemplate, CurrencyTransferToggleButtonMixin
 --- @field LoadingSpinner CurrencyTransferToggleButtonTemplate_LoadingSpinner
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L887)
 --- child of CurrencyTransferMenu (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 CurrencyTransferMenuInset = {}
 CurrencyTransferMenuInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L881)
 --- child of CurrencyTransferMenu (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 CurrencyTransferMenuCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L864)
 --- child of CurrencyTransferMenu (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 CurrencyTransferMenuBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L297)
 --- @class CurrencyTransferMenu : Frame, CurrencyTransferMenuTemplate
 CurrencyTransferMenu = {}
 CurrencyTransferMenu["Inset"] = CurrencyTransferMenuInset -- inherited
@@ -150,7 +171,7 @@ CurrencyTransferMenu["CloseButton"] = CurrencyTransferMenuCloseButton -- inherit
 CurrencyTransferMenu["Bg"] = CurrencyTransferMenuBg -- inherited
 CurrencyTransferMenu["layoutType"] = "PortraitFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L337)
 --- child of CurrencyTransferLogEntryTemplate
 --- @class CurrencyTransferLogEntryTemplate_BackgroundHighlight : Frame
 --- @field Left Texture
@@ -158,20 +179,20 @@ CurrencyTransferMenu["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- @field Middle Texture
 --- @field TextureRegions table<number, Texture>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L276)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L309)
 --- child of CurrencyTransferLogEntryTemplate
 --- @class CurrencyTransferLogEntryTemplate_CurrencyQuantity : FontString, GameFontHighlightRight, AutoScalingFontStringMixin
 --- @field minLineHeight number # 10
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L285)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L318)
 --- child of CurrencyTransferLogEntryTemplate
 --- @class CurrencyTransferLogEntryTemplate_SourceName : FontString, GameFontNormalLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L328)
 --- child of CurrencyTransferLogEntryTemplate
 --- @class CurrencyTransferLogEntryTemplate_DestinationName : FontString, GameFontNormalLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L299)
 --- Template
 --- @class CurrencyTransferLogEntryTemplate : Frame, CurrencyTransferLogEntryMixin
 --- @field BackgroundHighlight CurrencyTransferLogEntryTemplate_BackgroundHighlight
@@ -181,30 +202,30 @@ CurrencyTransferMenu["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- @field Arrow Texture
 --- @field DestinationName CurrencyTransferLogEntryTemplate_DestinationName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L372)
 --- Template
 --- @class CurrencyTransferLogToggleButtonTemplate : Button, CurrencyTransferLogToggleButtonMixin
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L404)
 --- child of CurrencyTransferLogTemplate
 --- @class CurrencyTransferLogTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L411)
 --- child of CurrencyTransferLogTemplate
 --- @class CurrencyTransferLogTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L385)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L418)
 --- child of CurrencyTransferLogTemplate
 --- @class CurrencyTransferLogTemplate_LoadingSpinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L363)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L396)
 --- child of CurrencyTransferLogTemplate
 --- @class CurrencyTransferLogTemplate_EmptyLogMessage : FontString, GameFontNormalMed2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L351)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TokenUI/Blizzard_CurrencyTransfer.xml#L384)
 --- Template
 --- @class CurrencyTransferLogTemplate : Frame, ButtonFrameTemplate, CurrencyTransferLogMixin
 --- @field ScrollBox CurrencyTransferLogTemplate_ScrollBox

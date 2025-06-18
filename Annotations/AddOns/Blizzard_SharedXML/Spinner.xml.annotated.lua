@@ -15,5 +15,4 @@
 --- Template
 --- @class SpinnerWithShadowTemplate : Frame, SpinnerTemplate, SpinnerWithShadowMixin
 --- @field shadowAlpha number # 0.5
---- @field Shadow Texture
 

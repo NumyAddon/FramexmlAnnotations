@@ -168,3 +168,10 @@ function CustomizationClickOrHoldButtonMixin:OnMouseUp()
 	self.waitTimerSeconds = nil;
 	self:SetScript("OnUpdate", nil);
 end
+
+CustomizationNoHeaderTooltipMixin = {};--- @class CustomizationNoHeaderTooltipMixin
+
+function CustomizationNoHeaderTooltipMixin:OnLoad()
+	SharedTooltip_OnLoad(self);
+	TopLevelParentScaleFrameMixin.OnScaleFrameLoad(self);
+end

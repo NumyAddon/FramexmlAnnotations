@@ -66,63 +66,65 @@ ClassTrainerTrainButton = {}
 ClassTrainerTrainButton["fitTextCanWidthDecrease"] = true -- inherited
 ClassTrainerTrainButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L110)
---- child of ClassTrainerFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-ClassTrainerFrameMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L105)
 --- child of ClassTrainerFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 ClassTrainerFrameMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L124)
 --- child of ClassTrainerFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 ClassTrainerFrameMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L143)
 --- child of ClassTrainerFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 ClassTrainerFrameMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L85)
+--- child of ClassTrainerFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+ClassTrainerFrameMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L190)
 --- child of ClassTrainerFrame
 --- @class ClassTrainerFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 ClassTrainerFrameMoneyFrame = {}
-ClassTrainerFrameMoneyFrame["trialErrorButton"] = ClassTrainerFrameMoneyFrameTrialErrorButton -- inherited
+ClassTrainerFrameMoneyFrame["small"] = 1 -- inherited
 ClassTrainerFrameMoneyFrame["CopperButton"] = ClassTrainerFrameMoneyFrameCopperButton -- inherited
 ClassTrainerFrameMoneyFrame["SilverButton"] = ClassTrainerFrameMoneyFrameSilverButton -- inherited
 ClassTrainerFrameMoneyFrame["GoldButton"] = ClassTrainerFrameMoneyFrameGoldButton -- inherited
+ClassTrainerFrameMoneyFrame["trialErrorButton"] = ClassTrainerFrameMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L110)
---- child of ClassTrainerFrameSkillStepButtonMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-ClassTrainerFrameSkillStepButtonMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L105)
 --- child of ClassTrainerFrameSkillStepButtonMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 ClassTrainerFrameSkillStepButtonMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L124)
 --- child of ClassTrainerFrameSkillStepButtonMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 ClassTrainerFrameSkillStepButtonMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L143)
 --- child of ClassTrainerFrameSkillStepButtonMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 ClassTrainerFrameSkillStepButtonMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L85)
+--- child of ClassTrainerFrameSkillStepButtonMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+ClassTrainerFrameSkillStepButtonMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L31)
 --- child of ClassTrainerFrameSkillStepButton (created in template ClassTrainerSkillButtonTemplate)
 --- @type ClassTrainerSkillButtonTemplate_MoneyFrame
 ClassTrainerFrameSkillStepButtonMoneyFrame = {}
-ClassTrainerFrameSkillStepButtonMoneyFrame["trialErrorButton"] = ClassTrainerFrameSkillStepButtonMoneyFrameTrialErrorButton -- inherited
+ClassTrainerFrameSkillStepButtonMoneyFrame["small"] = 1 -- inherited
 ClassTrainerFrameSkillStepButtonMoneyFrame["CopperButton"] = ClassTrainerFrameSkillStepButtonMoneyFrameCopperButton -- inherited
 ClassTrainerFrameSkillStepButtonMoneyFrame["SilverButton"] = ClassTrainerFrameSkillStepButtonMoneyFrameSilverButton -- inherited
 ClassTrainerFrameSkillStepButtonMoneyFrame["GoldButton"] = ClassTrainerFrameSkillStepButtonMoneyFrameGoldButton -- inherited
+ClassTrainerFrameSkillStepButtonMoneyFrame["trialErrorButton"] = ClassTrainerFrameSkillStepButtonMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L45)
 --- child of ClassTrainerFrameSkillStepButton (created in template ClassTrainerSkillButtonTemplate)
@@ -177,18 +179,18 @@ ClassTrainerFrameMoneyBg = {}
 --- @class ClassTrainerFrameBg : Texture
 ClassTrainerFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L887)
 --- child of ClassTrainerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ClassTrainerFrameInset = {}
 ClassTrainerFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L881)
 --- child of ClassTrainerFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 ClassTrainerFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L1137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L864)
 --- child of ClassTrainerFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ClassTrainerFrameBg = {}

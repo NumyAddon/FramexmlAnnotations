@@ -1,11 +1,11 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.xml#L1107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.xml#L834)
 --- child of FlightMapFrame_BorderFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 FlightMapFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.xml#L1074)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FlightMap/Blizzard_FlightMap.xml#L801)
 --- child of FlightMapFrame_BorderFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 FlightMapFrameBg = {}

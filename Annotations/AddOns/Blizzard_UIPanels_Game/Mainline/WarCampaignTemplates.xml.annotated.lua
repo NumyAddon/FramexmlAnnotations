@@ -134,7 +134,7 @@
 --- Template
 --- @class CampaignHeaderMinimalTemplate : Button, ResizeLayoutFrame, QuestLogHeaderCodeMixin, CampaignHeaderMinimalMixin, CampaignHeaderCollapsibleMixin
 --- @field leftPadding number # 11
---- @field minimumCollapsedHeight number # 40
+--- @field minimumHeight number # 22
 --- @field fixedWidth number # 289
 --- @field CollapseButton CampaignHeaderMinimalTemplate_CollapseButton
 --- @field Background Texture

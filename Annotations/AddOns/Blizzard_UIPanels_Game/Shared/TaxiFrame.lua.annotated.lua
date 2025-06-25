@@ -1,6 +1,6 @@
 
-TAXI_MAP_WIDTH = 316;
-TAXI_MAP_HEIGHT = 352;
+TAXI_MAP_WIDTH = 580;
+TAXI_MAP_HEIGHT = 580;
 NUM_TAXI_BUTTONS = 0;
 NUM_TAXI_ROUTES = 0;
 TAXIROUTE_LINEFACTOR = 32/30; -- Multiplying factor for texture coordinates
@@ -31,18 +31,18 @@ TAXI_BUTTON_MIN_DIST = 18;
 
 function TaxiFrame_OnLoad(self)
 	self:RegisterEvent("TAXIMAP_CLOSED");
+	self.InsetBg:SetHorizTile(false);
+	self.InsetBg:SetVertTile(false);
 end
 
 function TaxiFrame_OnShow(self)
 	PlaySound(SOUNDKIT.IG_MAINMENU_OPEN);
 
-	-- Show the merchant we're dealing with
-	TaxiMerchant:SetText(UnitName("npc"));
-	SetPortraitTexture(TaxiPortrait, "npc");
+	self.TitleText:SetText(FLIGHT_MAP);
 
 	-- Set the texture coords on the map
-	TaxiMap:SetTexCoord(0,1,0,1);
-	SetTaxiMap(TaxiMap);
+	self.InsetBg:SetTexCoord(0,1,0,1);
+	SetTaxiMap(self.InsetBg);
 
 	-- Show the taxi node map and buttons
 	local num_nodes = NumTaxiNodes();
@@ -92,7 +92,7 @@ function TaxiFrame_OnShow(self)
 			end
 			-- set the button position
 			button:ClearAllPoints();
-			button:SetPoint("CENTER", "TaxiMap", "BOTTOMLEFT", floor(taxiNodePositions[index].x+.5), floor(taxiNodePositions[index].y+.5));
+			button:SetPoint("CENTER", self.InsetBg, "BOTTOMLEFT", floor(taxiNodePositions[index].x+.5), floor(taxiNodePositions[index].y+.5));
 			button:SetNormalTexture(TaxiButtonTypes[type].file);
 			local texture = button:GetHighlightTexture();
 			texture:SetAlpha(TaxiButtonTypes[type].highlightBrightness);

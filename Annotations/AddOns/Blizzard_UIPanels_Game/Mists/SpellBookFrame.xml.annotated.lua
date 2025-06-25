@@ -278,7 +278,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L540)
 --- Template
---- @class CoreAbilitySpellTemplate : CheckButton, SecureFrameTemplate
+--- @class CoreAbilitySpellTemplate : CheckButton, SecureFrameTemplate, CoreAbilitySpellMixin
 --- @field EmptySlot CoreAbilitySpellTemplate_EmptySlot
 --- @field iconTexture Texture
 --- @field ActiveTexture CoreAbilitySpellTemplate_ActiveTexture
@@ -288,15 +288,15 @@
 --- @field RequiredLevel CoreAbilitySpellTemplate_RequiredLevel
 --- @field highlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L649)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L627)
 --- child of WhatHasChangedEntryTemplate
 --- @class WhatHasChangedEntryTemplate_Number : FontString, SystemFont_Med2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L655)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L633)
 --- child of WhatHasChangedEntryTemplate
 --- @class WhatHasChangedEntryTemplate_Title : FontString, SystemFont_Large
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L627)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L605)
 --- Template
 --- @class WhatHasChangedEntryTemplate : SimpleHTML
 --- @field Ring Texture
@@ -338,7 +338,7 @@ SpellBookFrameTabButton1Right = {}
 --- @type Texture
 SpellBookFrameTabButton1HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L691)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L669)
 --- child of SpellBookFrame
 --- @class SpellBookFrameTabButton1 : Button, SpellBookFrameTabButtonTemplate
 SpellBookFrameTabButton1 = {}
@@ -378,7 +378,7 @@ SpellBookFrameTabButton2Right = {}
 --- @type Texture
 SpellBookFrameTabButton2HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L696)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L674)
 --- child of SpellBookFrame
 --- @class SpellBookFrameTabButton2 : Button, SpellBookFrameTabButtonTemplate
 SpellBookFrameTabButton2 = {}
@@ -418,7 +418,7 @@ SpellBookFrameTabButton3Right = {}
 --- @type Texture
 SpellBookFrameTabButton3HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L701)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L679)
 --- child of SpellBookFrame
 --- @class SpellBookFrameTabButton3 : Button, SpellBookFrameTabButtonTemplate
 SpellBookFrameTabButton3 = {}
@@ -458,7 +458,7 @@ SpellBookFrameTabButton4Right = {}
 --- @type Texture
 SpellBookFrameTabButton4HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L706)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L684)
 --- child of SpellBookFrame
 --- @class SpellBookFrameTabButton4 : Button, SpellBookFrameTabButtonTemplate
 SpellBookFrameTabButton4 = {}
@@ -498,27 +498,27 @@ SpellBookFrameTabButton5Right = {}
 --- @type Texture
 SpellBookFrameTabButton5HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L711)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L689)
 --- child of SpellBookFrame
 --- @class SpellBookFrameTabButton5 : Button, SpellBookFrameTabButtonTemplate
 SpellBookFrameTabButton5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L736)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L714)
 --- child of SpellBookPageNavigationFrame
 --- @class SpellBookPrevPageButton : Button
 SpellBookPrevPageButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L749)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L727)
 --- child of SpellBookPageNavigationFrame
 --- @class SpellBookNextPageButton : Button
 SpellBookNextPageButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L722)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L700)
 --- child of SpellBookPageNavigationFrame
 --- @class SpellBookPageText : FontString, GameFontBlack
 SpellBookPageText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L719)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L697)
 --- child of SpellBookFrame
 --- @class SpellBookPageNavigationFrame : Frame
 SpellBookPageNavigationFrame = {}
@@ -623,7 +623,7 @@ SpellButton1NormalTexture = {}
 --- @type Texture
 SpellButton1Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L770)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L748)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton1 : CheckButton, SpellButtonTemplate
 SpellButton1 = {}
@@ -743,7 +743,7 @@ SpellButton2NormalTexture = {}
 --- @type Texture
 SpellButton2Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L775)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L753)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton2 : CheckButton, SpellButtonTemplate
 SpellButton2 = {}
@@ -863,7 +863,7 @@ SpellButton3NormalTexture = {}
 --- @type Texture
 SpellButton3Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L780)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L758)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton3 : CheckButton, SpellButtonTemplate
 SpellButton3 = {}
@@ -983,7 +983,7 @@ SpellButton4NormalTexture = {}
 --- @type Texture
 SpellButton4Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L785)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L763)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton4 : CheckButton, SpellButtonTemplate
 SpellButton4 = {}
@@ -1103,7 +1103,7 @@ SpellButton5NormalTexture = {}
 --- @type Texture
 SpellButton5Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L790)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L768)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton5 : CheckButton, SpellButtonTemplate
 SpellButton5 = {}
@@ -1223,7 +1223,7 @@ SpellButton6NormalTexture = {}
 --- @type Texture
 SpellButton6Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L795)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L773)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton6 : CheckButton, SpellButtonTemplate
 SpellButton6 = {}
@@ -1343,7 +1343,7 @@ SpellButton7NormalTexture = {}
 --- @type Texture
 SpellButton7Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L800)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L778)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton7 : CheckButton, SpellButtonTemplate
 SpellButton7 = {}
@@ -1463,7 +1463,7 @@ SpellButton8NormalTexture = {}
 --- @type Texture
 SpellButton8Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L805)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L783)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton8 : CheckButton, SpellButtonTemplate
 SpellButton8 = {}
@@ -1583,7 +1583,7 @@ SpellButton9NormalTexture = {}
 --- @type Texture
 SpellButton9Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L810)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L788)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton9 : CheckButton, SpellButtonTemplate
 SpellButton9 = {}
@@ -1703,7 +1703,7 @@ SpellButton10NormalTexture = {}
 --- @type Texture
 SpellButton10Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L815)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L793)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton10 : CheckButton, SpellButtonTemplate
 SpellButton10 = {}
@@ -1823,7 +1823,7 @@ SpellButton11NormalTexture = {}
 --- @type Texture
 SpellButton11Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L820)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L798)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton11 : CheckButton, SpellButtonTemplate
 SpellButton11 = {}
@@ -1943,7 +1943,7 @@ SpellButton12NormalTexture = {}
 --- @type Texture
 SpellButton12Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L825)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L803)
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton12 : CheckButton, SpellButtonTemplate
 SpellButton12 = {}
@@ -1963,97 +1963,97 @@ SpellButton12["TrainFrame"] = SpellButton12TrainSlotFrame -- inherited
 SpellButton12["FlyoutArrow"] = SpellButton12FlyoutArrow -- inherited
 SpellButton12["TrainTextBackground"] = SpellButton12TrainTextBackground -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L764)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L742)
 --- child of SpellBookFrame
 --- @class SpellBookSpellIconsFrame : Frame
 SpellBookSpellIconsFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L838)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L816)
 --- child of SpellBookSideTabsFrame
 --- @class SpellBookSkillLineTab1 : CheckButton, SpellBookSkillLineTabTemplate
 SpellBookSkillLineTab1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L843)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L821)
 --- child of SpellBookSideTabsFrame
 --- @class SpellBookSkillLineTab2 : CheckButton, SpellBookSkillLineTabTemplate
 SpellBookSkillLineTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L848)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L826)
 --- child of SpellBookSideTabsFrame
 --- @class SpellBookSkillLineTab3 : CheckButton, SpellBookSkillLineTabTemplate
 SpellBookSkillLineTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L853)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L831)
 --- child of SpellBookSideTabsFrame
 --- @class SpellBookSkillLineTab4 : CheckButton, SpellBookSkillLineTabTemplate
 SpellBookSkillLineTab4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L858)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L836)
 --- child of SpellBookSideTabsFrame
 --- @class SpellBookSkillLineTab5 : CheckButton, SpellBookSkillLineTabTemplate
 SpellBookSkillLineTab5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L863)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L841)
 --- child of SpellBookSideTabsFrame
 --- @class SpellBookSkillLineTab6 : CheckButton, SpellBookSkillLineTabTemplate
 SpellBookSkillLineTab6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L868)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L846)
 --- child of SpellBookSideTabsFrame
 --- @class SpellBookSkillLineTab7 : CheckButton, SpellBookSkillLineTabTemplate
 SpellBookSkillLineTab7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L873)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L851)
 --- child of SpellBookSideTabsFrame
 --- @class SpellBookSkillLineTab8 : CheckButton, SpellBookSkillLineTabTemplate
 SpellBookSkillLineTab8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L889)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L867)
 --- child of SpellBookTabFlashFrame
 --- @class SpellBookSkillLineTab1Flash : Texture
 SpellBookSkillLineTab1Flash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L895)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L873)
 --- child of SpellBookTabFlashFrame
 --- @class SpellBookSkillLineTab2Flash : Texture
 SpellBookSkillLineTab2Flash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L901)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L879)
 --- child of SpellBookTabFlashFrame
 --- @class SpellBookSkillLineTab3Flash : Texture
 SpellBookSkillLineTab3Flash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L907)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L885)
 --- child of SpellBookTabFlashFrame
 --- @class SpellBookSkillLineTab4Flash : Texture
 SpellBookSkillLineTab4Flash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L913)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L891)
 --- child of SpellBookTabFlashFrame
 --- @class SpellBookSkillLineTab5Flash : Texture
 SpellBookSkillLineTab5Flash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L919)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L897)
 --- child of SpellBookTabFlashFrame
 --- @class SpellBookSkillLineTab6Flash : Texture
 SpellBookSkillLineTab6Flash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L925)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L903)
 --- child of SpellBookTabFlashFrame
 --- @class SpellBookSkillLineTab7Flash : Texture
 SpellBookSkillLineTab7Flash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L931)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L909)
 --- child of SpellBookTabFlashFrame
 --- @class SpellBookSkillLineTab8Flash : Texture
 SpellBookSkillLineTab8Flash = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L878)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L856)
 --- child of SpellBookSideTabsFrame
 --- @class SpellBookTabFlashFrame : Frame
 SpellBookTabFlashFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L832)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L810)
 --- child of SpellBookFrame
 --- @class SpellBookSideTabsFrame : Frame
 SpellBookSideTabsFrame = {}
@@ -2217,7 +2217,7 @@ PrimaryProfession1IconBorder = {}
 --- @type Texture
 PrimaryProfession1Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L948)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L926)
 --- child of SpellBookProfessionFrame
 --- @class PrimaryProfession1 : Frame, PrimaryProfessionTemplate
 PrimaryProfession1 = {}
@@ -2389,7 +2389,7 @@ PrimaryProfession2IconBorder = {}
 --- @type Texture
 PrimaryProfession2Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L953)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L931)
 --- child of SpellBookProfessionFrame
 --- @class PrimaryProfession2 : Frame, PrimaryProfessionTemplate
 PrimaryProfession2 = {}
@@ -2546,7 +2546,7 @@ SecondaryProfession1ProfessionName = {}
 --- @type SecondaryProfessionTemplate_Missing
 SecondaryProfession1Missing = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L965)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L943)
 --- child of SpellBookProfessionFrame
 --- @class SecondaryProfession1 : Frame, SecondaryProfessionTemplate
 SecondaryProfession1 = {}
@@ -2701,7 +2701,7 @@ SecondaryProfession2ProfessionName = {}
 --- @type SecondaryProfessionTemplate_Missing
 SecondaryProfession2Missing = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L976)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L954)
 --- child of SpellBookProfessionFrame
 --- @class SecondaryProfession2 : Frame, SecondaryProfessionTemplate
 SecondaryProfession2 = {}
@@ -2856,7 +2856,7 @@ SecondaryProfession3ProfessionName = {}
 --- @type SecondaryProfessionTemplate_Missing
 SecondaryProfession3Missing = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L987)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L965)
 --- child of SpellBookProfessionFrame
 --- @class SecondaryProfession3 : Frame, SecondaryProfessionTemplate
 SecondaryProfession3 = {}
@@ -3011,7 +3011,7 @@ SecondaryProfession4ProfessionName = {}
 --- @type SecondaryProfessionTemplate_Missing
 SecondaryProfession4Missing = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L998)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L976)
 --- child of SpellBookProfessionFrame
 --- @class SecondaryProfession4 : Frame, SecondaryProfessionTemplate
 SecondaryProfession4 = {}
@@ -3022,16 +3022,16 @@ SecondaryProfession4["rank"] = SecondaryProfession4Rank -- inherited
 SecondaryProfession4["professionName"] = SecondaryProfession4ProfessionName -- inherited
 SecondaryProfession4["missingHeader"] = SecondaryProfession4Missing -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L942)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L920)
 --- child of SpellBookFrame
 --- @class SpellBookProfessionFrame : Frame
 SpellBookProfessionFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L1018)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L996)
 --- child of SpellBookCoreAbilitiesFrame
 --- @class SpellBookCoreAbilitiesFrame_SpecName : FontString, CoreAbilityFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L1011)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L989)
 --- child of SpellBookFrame
 --- @class SpellBookCoreAbilitiesFrame : Frame, SpellBookCoreAbilitiesMixin
 --- @field SpecName SpellBookCoreAbilitiesFrame_SpecName
@@ -3039,23 +3039,23 @@ SpellBookProfessionFrame = {}
 --- @field SpecTabs table<number, CoreAbilitiesSkillLineTabTemplate>
 SpellBookCoreAbilitiesFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L1045)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L1023)
 --- child of SpellBookWhatHasChanged
 --- @class SpellBookWhatHasChanged_ClassName : FontString, CoreAbilityFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L1038)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L1016)
 --- child of SpellBookFrame
 --- @class SpellBookWhatHasChanged : Frame
 --- @field ClassName SpellBookWhatHasChanged_ClassName
 --- @field ChangedItems table<number, WhatHasChangedEntryTemplate>
 SpellBookWhatHasChanged = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L678)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L656)
 --- child of SpellBookFrame
 --- @class SpellBookPage1 : Texture
 SpellBookPage1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L683)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L661)
 --- child of SpellBookFrame
 --- @class SpellBookPage2 : Texture
 SpellBookPage2 = {}
@@ -3162,7 +3162,7 @@ SpellBookFrameLeftBorder = {}
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 SpellBookFrameRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L674)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L652)
 --- @class SpellBookFrame : Frame, ButtonFrameTemplate, SpellBookFrameMixin
 SpellBookFrame = {}
 SpellBookFrame["Inset"] = SpellBookFrameInset -- inherited

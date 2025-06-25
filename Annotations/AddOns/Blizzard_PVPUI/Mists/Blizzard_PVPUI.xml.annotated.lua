@@ -979,14 +979,6 @@ PVPQueueFrame["CategoryButton3"] = PVPQueueFrameCategoryButton3
 --- child of ConquestTooltip
 --- @class ConquestTooltip_SeasonGamesPlayed : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_PVPUI/Mists/Blizzard_PVPUI.xml#L1155)
---- child of ConquestTooltip
---- @class ConquestTooltip_ProjectedCapLabel : FontString, GameFontNormalMed3
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_PVPUI/Mists/Blizzard_PVPUI.xml#L1160)
---- child of ConquestTooltip
---- @class ConquestTooltip_ProjectedCap : FontString, GameFontHighlight
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_PVPUI/Mists/Blizzard_PVPUI.xml#L1117)
 --- @class ConquestTooltip : Frame, TooltipBackdropTemplate, ResizeLayoutFrame
 --- @field minimumWidth number # 152
@@ -998,8 +990,6 @@ PVPQueueFrame["CategoryButton3"] = PVPQueueFrameCategoryButton3
 --- @field SeasonLabel ConquestTooltip_SeasonLabel
 --- @field SeasonBest ConquestTooltip_SeasonBest
 --- @field SeasonGamesPlayed ConquestTooltip_SeasonGamesPlayed
---- @field ProjectedCapLabel ConquestTooltip_ProjectedCapLabel
---- @field ProjectedCap ConquestTooltip_ProjectedCap
 ConquestTooltip = {}
 ConquestTooltip["minimumWidth"] = 152
 ConquestTooltip["widthPadding"] = 10

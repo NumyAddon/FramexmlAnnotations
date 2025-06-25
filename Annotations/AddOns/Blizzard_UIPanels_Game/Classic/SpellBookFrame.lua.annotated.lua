@@ -8,6 +8,10 @@ SpellBookFrameMixin = {}
 --- @class SpellButtonMixin
 SpellButtonMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L544)
+--- @class CoreAbilitySpellMixin
+CoreAbilitySpellMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L79)
 function SpellBookFrameMixin:OnShow() end
 
@@ -70,3 +74,21 @@ function SpellBookFrameMixin:ClearAbilityHighlights() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L479)
 function SpellBookFrameMixin:UpdateSkillLineTabs() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L546)
+function CoreAbilitySpellMixin:OnLoad() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L551)
+function CoreAbilitySpellMixin:OnClick() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L559)
+function CoreAbilitySpellMixin:OnDragStart() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L565)
+function CoreAbilitySpellMixin:OnReceiveDrag() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L571)
+function CoreAbilitySpellMixin:OnEnter() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SpellBookFrame.lua#L576)
+function CoreAbilitySpellMixin:OnLeave() end

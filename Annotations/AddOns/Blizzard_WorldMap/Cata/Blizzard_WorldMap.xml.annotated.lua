@@ -107,39 +107,11 @@ WorldMapTrackQuestText = {}
 WorldMapTrackQuest = {}
 WorldMapTrackQuest["Text"] = WorldMapTrackQuestText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L21)
---- child of WorldMapQuestShowObjectives (created in template OptionsSmallCheckButtonTemplate)
---- @type OptionsSmallCheckButtonTemplate_Text
-WorldMapQuestShowObjectivesText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L411)
---- child of WorldMapQuestShowObjectives (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_Text
-WorldMapQuestShowObjectivesText = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L474)
 --- child of WorldMapFrame
---- @class WorldMapQuestShowObjectives : CheckButton, OptionsSmallCheckButtonTemplate
-WorldMapQuestShowObjectives = {}
-WorldMapQuestShowObjectives["Text"] = WorldMapQuestShowObjectivesText -- inherited
+--- @class WorldMapFrame_WorldMapOptionsDropDown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L21)
---- child of WorldMapShowDigsites (created in template OptionsSmallCheckButtonTemplate)
---- @type OptionsSmallCheckButtonTemplate_Text
-WorldMapShowDigsitesText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L411)
---- child of WorldMapShowDigsites (created in template UICheckButtonTemplate)
---- @type UICheckButtonTemplate_Text
-WorldMapShowDigsitesText = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L494)
---- child of WorldMapFrame
---- @class WorldMapShowDigsites : CheckButton, OptionsSmallCheckButtonTemplate
-WorldMapShowDigsites = {}
-WorldMapShowDigsites["Text"] = WorldMapShowDigsitesText -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L514)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L479)
 --- child of WorldMapFrame
 --- @class WorldMapFrame_MaximizeMinimizeFrame : Frame, MaximizeMinimizeButtonFrameTemplate
 
@@ -151,6 +123,7 @@ WorldMapShowDigsites["Text"] = WorldMapShowDigsitesText -- inherited
 --- @field ContinentDropdown WorldMapContinentDropdown
 --- @field ZoneDropdown WorldMapZoneDropdown
 --- @field MinimapDropdown WorldMapZoneMinimapDropdown
+--- @field WorldMapOptionsDropDown WorldMapFrame_WorldMapOptionsDropDown
 --- @field MaximizeMinimizeFrame WorldMapFrame_MaximizeMinimizeFrame
 --- @field MaxMinButtonFrame WorldMapFrame_MaximizeMinimizeFrame
 WorldMapFrame = {}

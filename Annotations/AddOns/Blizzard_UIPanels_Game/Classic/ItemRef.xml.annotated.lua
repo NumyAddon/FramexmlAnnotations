@@ -1,56 +1,56 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L269)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft1
 ItemRefShoppingTooltip1TextLeft1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L278)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight1
 ItemRefShoppingTooltip1TextRight1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L287)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft2
 ItemRefShoppingTooltip1TextLeft2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L296)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight2
 ItemRefShoppingTooltip1TextRight2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L305)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft3
 ItemRefShoppingTooltip1TextLeft3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L314)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight3
 ItemRefShoppingTooltip1TextRight3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L323)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft4
 ItemRefShoppingTooltip1TextLeft4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L332)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight4
 ItemRefShoppingTooltip1TextRight4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L341)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ItemRefShoppingTooltip1Texture1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L346)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ItemRefShoppingTooltip1Texture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L351)
 --- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ItemRefShoppingTooltip1Texture3 = {}
@@ -60,57 +60,57 @@ ItemRefShoppingTooltip1Texture3 = {}
 ItemRefShoppingTooltip1 = {}
 ItemRefShoppingTooltip1["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L269)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft1
 ItemRefShoppingTooltip2TextLeft1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L278)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight1
 ItemRefShoppingTooltip2TextRight1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L287)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft2
 ItemRefShoppingTooltip2TextLeft2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L296)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight2
 ItemRefShoppingTooltip2TextRight2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L305)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft3
 ItemRefShoppingTooltip2TextLeft3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L313)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L314)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight3
 ItemRefShoppingTooltip2TextRight3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L323)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextLeft4
 ItemRefShoppingTooltip2TextLeft4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L332)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type ShoppingTooltipTemplate_TextRight4
 ItemRefShoppingTooltip2TextRight4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L341)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ItemRefShoppingTooltip2Texture1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L346)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ItemRefShoppingTooltip2Texture2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ItemRef.xml#L351)
 --- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
 --- @type Texture
 ItemRefShoppingTooltip2Texture3 = {}

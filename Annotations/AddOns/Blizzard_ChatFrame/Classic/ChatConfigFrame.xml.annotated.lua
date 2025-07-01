@@ -916,7 +916,7 @@ CombatConfigColorsColorizeEntireLineCheckText = {}
 CombatConfigColorsColorizeEntireLineCheck = {}
 CombatConfigColorsColorizeEntireLineCheck["Text"] = CombatConfigColorsColorizeEntireLineCheckText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L442)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L377)
 --- child of CombatConfigColorsColorizeEntireLineBySource (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_Text
 CombatConfigColorsColorizeEntireLineBySourceText = {}
@@ -927,7 +927,7 @@ CombatConfigColorsColorizeEntireLineBySourceText = {}
 CombatConfigColorsColorizeEntireLineBySource = {}
 CombatConfigColorsColorizeEntireLineBySource["text"] = CombatConfigColorsColorizeEntireLineBySourceText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L442)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L377)
 --- child of CombatConfigColorsColorizeEntireLineByTarget (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_Text
 CombatConfigColorsColorizeEntireLineByTargetText = {}
@@ -1153,7 +1153,7 @@ TextToSpeechDefaultButton = {}
 TextToSpeechDefaultButton["fitTextCanWidthDecrease"] = true -- inherited
 TextToSpeechDefaultButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ChatFrame/Classic/ChatConfigFrame.xml#L411)
 --- child of TextToSpeechCharacterSpecificButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 TextToSpeechCharacterSpecificButtonText = {}

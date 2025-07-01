@@ -51,47 +51,47 @@ KeyBindingFrameRockBg = {}
 --- child of KeyBindingFrame_header
 --- @class KeyBindingFrame_header_text : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1137)
 --- child of KeyBindingFrame_header (created in template TranslucentFrameTemplate)
 --- @type Texture
 KeyBindingFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1146)
 --- child of KeyBindingFrame_header (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 KeyBindingFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1151)
 --- child of KeyBindingFrame_header (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 KeyBindingFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1156)
 --- child of KeyBindingFrame_header (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 KeyBindingFrameBottomLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1161)
 --- child of KeyBindingFrame_header (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 KeyBindingFrameBottomRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1360)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1166)
 --- child of KeyBindingFrame_header (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 KeyBindingFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1172)
 --- child of KeyBindingFrame_header (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 KeyBindingFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1178)
 --- child of KeyBindingFrame_header (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 KeyBindingFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L1184)
 --- child of KeyBindingFrame_header (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 KeyBindingFrameRightBorder = {}
@@ -101,7 +101,7 @@ KeyBindingFrameRightBorder = {}
 --- @class KeyBindingFrame_header : Frame, TranslucentFrameTemplate
 --- @field text KeyBindingFrame_header_text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L411)
 --- child of KeyBindingFrame_characterSpecificButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 KeyBindingFrameText = {}

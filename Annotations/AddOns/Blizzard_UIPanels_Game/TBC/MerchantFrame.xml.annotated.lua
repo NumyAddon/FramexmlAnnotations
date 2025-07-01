@@ -1639,7 +1639,7 @@ MerchantBuyBackItem = {}
 MerchantBuyBackItem["ItemButton"] = MerchantBuyBackItemItemButton
 MerchantBuyBackItem["Name"] = MerchantBuyBackItemName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L805)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L740)
 --- child of MerchantMoneyInset (created in template InsetFrameTemplate)
 --- @type Texture
 MerchantMoneyInsetBg = {}
@@ -1651,17 +1651,17 @@ MerchantMoneyInset = {}
 MerchantMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 MerchantMoneyInset["Bg"] = MerchantMoneyInsetBg -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L1665)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L1471)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantMoneyBgLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L1673)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L1479)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantMoneyBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L1681)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L1487)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantMoneyBgMiddle = {}
@@ -1825,104 +1825,104 @@ MerchantFrameBottomLeftBorder = {}
 --- @class MerchantFrameBottomRightBorder : Texture
 MerchantFrameBottomRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L805)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L740)
 --- child of MerchantFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 MerchantFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L846)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L781)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 MerchantFrameInset = {}
 MerchantFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 MerchantFrameInset["Bg"] = MerchantFrameInsetBg -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L827)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L762)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 MerchantFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L832)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L767)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 MerchantFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L837)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L772)
 --- child of MerchantFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 MerchantFrameButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L663)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L598)
 --- child of MerchantFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 MerchantFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L504)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 MerchantFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L575)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L510)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleBg
 MerchantFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L518)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 MerchantFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L591)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L526)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 MerchantFramePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L596)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L531)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 MerchantFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L536)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 MerchantFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L541)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 MerchantFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L612)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L547)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 MerchantFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L556)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 MerchantFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L627)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L562)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 MerchantFrameBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L632)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L567)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 MerchantFrameBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L637)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L572)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 MerchantFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L578)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 MerchantFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L649)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/MerchantFrame.xml#L584)
 --- child of MerchantFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 MerchantFrameRightBorder = {}

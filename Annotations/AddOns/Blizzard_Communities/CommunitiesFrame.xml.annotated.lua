@@ -402,91 +402,6 @@ CommunitiesFrameGuildDetailsFrame = {}
 CommunitiesFrameGuildDetailsFrame["Info"] = CommunitiesFrameGuildDetailsFrameInfo -- inherited
 CommunitiesFrameGuildDetailsFrame["News"] = CommunitiesFrameGuildDetailsFrameNews -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2233)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type Texture
-CommunitiesFrameBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2246)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowTopLeft
-CommunitiesFrameGlowTopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2251)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowTopRight
-CommunitiesFrameGlowTopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2257)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowBottomLeft
-CommunitiesFrameGlowBottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2263)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowBottomRight
-CommunitiesFrameGlowBottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2269)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowTop
-CommunitiesFrameGlowTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2275)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowBottom
-CommunitiesFrameGlowBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2281)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowLeft
-CommunitiesFrameGlowLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2287)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_GlowRight
-CommunitiesFrameGlowRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2295)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowTopLeft
-CommunitiesFrameShadowTopLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2300)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowTopRight
-CommunitiesFrameShadowTopRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2306)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowBottomLeft
-CommunitiesFrameShadowBottomLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2312)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowBottomRight
-CommunitiesFrameShadowBottomRight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2318)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowTop
-CommunitiesFrameShadowTop = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2324)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowBottom
-CommunitiesFrameShadowBottom = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2330)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowLeft
-CommunitiesFrameShadowLeft = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L2336)
---- child of CommunitiesFrame_GuildNameAlertFrame (created in template GlowBoxTemplate)
---- @type GlowBoxTemplate_ShadowRight
-CommunitiesFrameShadowRight = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L539)
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_GuildNameAlertFrame : Button, CommunitiesGuildNameChangeAlertFrameTemplate
@@ -540,104 +455,104 @@ CommunitiesFrameShadowRight = {}
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_GuildMemberDetailFrame : Frame, CommunitiesGuildMemberDetailFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L805)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L740)
 --- child of CommunitiesFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 CommunitiesFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L846)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L781)
 --- child of CommunitiesFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 CommunitiesFrameInset = {}
 CommunitiesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 CommunitiesFrameInset["Bg"] = CommunitiesFrameInsetBg -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L827)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L762)
 --- child of CommunitiesFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 CommunitiesFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L832)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L767)
 --- child of CommunitiesFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 CommunitiesFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L837)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L772)
 --- child of CommunitiesFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 CommunitiesFrameButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L663)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L598)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 CommunitiesFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L504)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 CommunitiesFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L575)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L510)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleBg
 CommunitiesFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L518)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 CommunitiesFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L591)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L526)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 CommunitiesFramePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L596)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L531)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 CommunitiesFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L536)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 CommunitiesFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L541)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 CommunitiesFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L612)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L547)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 CommunitiesFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L556)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 CommunitiesFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L627)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L562)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 CommunitiesFrameBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L632)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L567)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 CommunitiesFrameBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L637)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L572)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 CommunitiesFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L578)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 CommunitiesFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L649)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L584)
 --- child of CommunitiesFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 CommunitiesFrameRightBorder = {}

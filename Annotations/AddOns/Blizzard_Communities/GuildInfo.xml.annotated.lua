@@ -126,47 +126,47 @@ CommunitiesGuildTextEditFrameCloseButton["fitTextWidthPadding"] = 40 -- inherite
 --- child of CommunitiesGuildTextEditFrame
 --- @class CommunitiesGuildTextEditFrame_Title : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1137)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type Texture
 CommunitiesGuildTextEditFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1146)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 CommunitiesGuildTextEditFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1151)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 CommunitiesGuildTextEditFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1156)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 CommunitiesGuildTextEditFrameBottomLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1161)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 CommunitiesGuildTextEditFrameBottomRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1360)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1166)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 CommunitiesGuildTextEditFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1172)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 CommunitiesGuildTextEditFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1178)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 CommunitiesGuildTextEditFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1184)
 --- child of CommunitiesGuildTextEditFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 CommunitiesGuildTextEditFrameRightBorder = {}
@@ -220,47 +220,47 @@ CommunitiesGuildLogFrameCloseButton["fitTextWidthPadding"] = 40 -- inherited
 --- @class CommunitiesGuildLogFrameTitle : FontString, GameFontNormal
 CommunitiesGuildLogFrameTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1137)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type Texture
 CommunitiesGuildLogFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1146)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 CommunitiesGuildLogFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1345)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1151)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 CommunitiesGuildLogFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1156)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 CommunitiesGuildLogFrameBottomLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1161)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 CommunitiesGuildLogFrameBottomRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1360)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1166)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 CommunitiesGuildLogFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1172)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 CommunitiesGuildLogFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1178)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 CommunitiesGuildLogFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1378)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/GuildInfo.xml#L1184)
 --- child of CommunitiesGuildLogFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 CommunitiesGuildLogFrameRightBorder = {}

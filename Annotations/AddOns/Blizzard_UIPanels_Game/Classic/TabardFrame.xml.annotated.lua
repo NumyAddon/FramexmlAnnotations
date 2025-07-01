@@ -16,22 +16,22 @@
 --- Template
 --- @class TabardFrameCustomizeTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L218)
 --- child of TabardModel
 --- @class TabardCharacterModelRotateLeftButton : Button
 TabardCharacterModelRotateLeftButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L271)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L233)
 --- child of TabardModel
 --- @class TabardCharacterModelRotateRightButton : Button
 TabardCharacterModelRotateRightButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L212)
 --- child of TabardFrame
 --- @class TabardModel : TabardModel
 TabardModel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L308)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L270)
 --- child of TabardFrameCostMoneyFrame
 --- @class TabardFrameCostLabel : FontString, GameFontHighlight
 TabardFrameCostLabel = {}
@@ -56,7 +56,7 @@ TabardFrameCostMoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 TabardFrameCostMoneyFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L264)
 --- child of TabardFrameCostFrame
 --- @class TabardFrameCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 TabardFrameCostMoneyFrame = {}
@@ -65,7 +65,7 @@ TabardFrameCostMoneyFrame["CopperButton"] = TabardFrameCostMoneyFrameCopperButto
 TabardFrameCostMoneyFrame["SilverButton"] = TabardFrameCostMoneyFrameSilverButton -- inherited
 TabardFrameCostMoneyFrame["GoldButton"] = TabardFrameCostMoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L254)
 --- child of TabardFrame
 --- @class TabardFrameCostFrame : Frame, TooltipBackdropTemplate
 --- @field backdropColor any # TOOLTIP_DEFAULT_BACKGROUND_COLOR
@@ -105,7 +105,7 @@ TabardFrameCustomization1Right = {}
 --- @type TabardFrameCustomizeTemplate_Text
 TabardFrameCustomization1Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L337)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L299)
 --- child of TabardFrameCustomizationFrame
 --- @class TabardFrameCustomization1 : Frame, TabardFrameCustomizeTemplate
 TabardFrameCustomization1 = {}
@@ -140,7 +140,7 @@ TabardFrameCustomization2Right = {}
 --- @type TabardFrameCustomizeTemplate_Text
 TabardFrameCustomization2Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L309)
 --- child of TabardFrameCustomizationFrame
 --- @class TabardFrameCustomization2 : Frame, TabardFrameCustomizeTemplate
 TabardFrameCustomization2 = {}
@@ -175,7 +175,7 @@ TabardFrameCustomization3Right = {}
 --- @type TabardFrameCustomizeTemplate_Text
 TabardFrameCustomization3Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L357)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L319)
 --- child of TabardFrameCustomizationFrame
 --- @class TabardFrameCustomization3 : Frame, TabardFrameCustomizeTemplate
 TabardFrameCustomization3 = {}
@@ -210,7 +210,7 @@ TabardFrameCustomization4Right = {}
 --- @type TabardFrameCustomizeTemplate_Text
 TabardFrameCustomization4Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L367)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L329)
 --- child of TabardFrameCustomizationFrame
 --- @class TabardFrameCustomization4 : Frame, TabardFrameCustomizeTemplate
 TabardFrameCustomization4 = {}
@@ -245,20 +245,52 @@ TabardFrameCustomization5Right = {}
 --- @type TabardFrameCustomizeTemplate_Text
 TabardFrameCustomization5Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L377)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L339)
 --- child of TabardFrameCustomizationFrame
 --- @class TabardFrameCustomization5 : Frame, TabardFrameCustomizeTemplate
 TabardFrameCustomization5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L290)
 --- child of TabardFrameCustomizationFrame
 --- @class TabardFrameCustomizationBorder : Texture
 TabardFrameCustomizationBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L325)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L287)
 --- child of TabardFrame
 --- @class TabardFrameCustomizationFrame : Frame
 TabardFrameCustomizationFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L740)
+--- child of TabardFrameMoneyInset (created in template InsetFrameTemplate)
+--- @type Texture
+TabardFrameMoneyInsetBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L354)
+--- child of TabardFrame
+--- @class TabardFrameMoneyInset : Frame, InsetFrameTemplate
+TabardFrameMoneyInset = {}
+TabardFrameMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TabardFrameMoneyInset["Bg"] = TabardFrameMoneyInsetBg -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L1471)
+--- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+TabardFrameMoneyBgLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L1479)
+--- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+TabardFrameMoneyBgRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L1487)
+--- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
+--- @type Texture
+TabardFrameMoneyBgMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L360)
+--- child of TabardFrame
+--- @class TabardFrameMoneyBg : Frame, ThinGoldEdgeTemplate
+TabardFrameMoneyBg = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L159)
 --- child of TabardFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
@@ -280,7 +312,7 @@ TabardFrameMoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 TabardFrameMoneyFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L392)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L367)
 --- child of TabardFrame
 --- @class TabardFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 TabardFrameMoneyFrame = {}
@@ -289,116 +321,230 @@ TabardFrameMoneyFrame["CopperButton"] = TabardFrameMoneyFrameCopperButton -- inh
 TabardFrameMoneyFrame["SilverButton"] = TabardFrameMoneyFrameSilverButton -- inherited
 TabardFrameMoneyFrame["GoldButton"] = TabardFrameMoneyFrameGoldButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L397)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L372)
 --- child of TabardFrame
 --- @class TabardFrameAcceptButton : Button, UIPanelButtonTemplate
 TabardFrameAcceptButton = {}
 TabardFrameAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 TabardFrameAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L408)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L383)
 --- child of TabardFrame
 --- @class TabardFrameCancelButton : Button, UIPanelButtonTemplate
 TabardFrameCancelButton = {}
 TabardFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 TabardFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L417)
---- child of TabardFrame
---- @class TabardFrameCloseButton : Button, UIPanelCloseButton
-TabardFrameCloseButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L79)
 --- child of TabardFrame
 --- @class TabardFramePortrait : Texture
 TabardFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L87)
 --- child of TabardFrame
 --- @class TabardFrameBackground : Texture
 TabardFrameBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L99)
 --- child of TabardFrame
 --- @class TabardFrameOuterFrameTopLeft : Texture
 TabardFrameOuterFrameTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L106)
 --- child of TabardFrame
 --- @class TabardFrameOuterFrameTop : Texture
 TabardFrameOuterFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L151)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L113)
 --- child of TabardFrame
 --- @class TabardFrameOuterFrameTopRight : Texture
 TabardFrameOuterFrameTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L158)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L120)
 --- child of TabardFrame
 --- @class TabardFrameOuterFrameLeftTop : Texture
 TabardFrameOuterFrameLeftTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L165)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L127)
 --- child of TabardFrame
 --- @class TabardFrameOuterFrameLeftBottom : Texture
 TabardFrameOuterFrameLeftBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L172)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L134)
 --- child of TabardFrame
 --- @class TabardFrameOuterFrameRightTop : Texture
 TabardFrameOuterFrameRightTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L141)
 --- child of TabardFrame
 --- @class TabardFrameOuterFrameRightBottom : Texture
 TabardFrameOuterFrameRightBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L148)
 --- child of TabardFrame
 --- @class TabardFrameOuterFrameBottomLeft : Texture
 TabardFrameOuterFrameBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L155)
 --- child of TabardFrame
 --- @class TabardFrameOuterFrameBottom : Texture
 TabardFrameOuterFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L162)
 --- child of TabardFrame
 --- @class TabardFrameOuterFrameBottomRight : Texture
 TabardFrameOuterFrameBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L169)
 --- child of TabardFrame
 --- @class TabardFrameEmblemTopRight : Texture
 TabardFrameEmblemTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L176)
 --- child of TabardFrame
 --- @class TabardFrameEmblemBottomRight : Texture
 TabardFrameEmblemBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L221)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L183)
 --- child of TabardFrame
 --- @class TabardFrameEmblemTopLeft : Texture
 TabardFrameEmblemTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L228)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L190)
 --- child of TabardFrame
 --- @class TabardFrameEmblemBottomLeft : Texture
 TabardFrameEmblemBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L235)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L197)
 --- child of TabardFrame
 --- @class TabardFrameNameText : FontString, GameFontNormal
 TabardFrameNameText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L241)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L203)
 --- child of TabardFrame
 --- @class TabardFrameGreetingText : FontString, GameFontHighlight
 TabardFrameGreetingText = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L740)
+--- child of TabardFrameInset (created in template InsetFrameTemplate)
+--- @type Texture
+TabardFrameInsetBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L781)
+--- child of TabardFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_Inset
+TabardFrameInset = {}
+TabardFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+TabardFrameInset["Bg"] = TabardFrameInsetBg -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L762)
+--- child of TabardFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_BtnCornerLeft
+TabardFrameBtnCornerLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L767)
+--- child of TabardFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_BtnCornerRight
+TabardFrameBtnCornerRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L772)
+--- child of TabardFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonBottomBorder
+TabardFrameButtonBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L598)
+--- child of TabardFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_CloseButton
+TabardFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L504)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+TabardFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L510)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TitleBg
+TabardFrameTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L518)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+TabardFramePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L526)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
+TabardFramePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L531)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
+TabardFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L536)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
+TabardFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L541)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TopBorder
+TabardFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L547)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TitleText
+TabardFrameTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L556)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
+TabardFrameTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L562)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
+TabardFrameBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L567)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
+TabardFrameBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L572)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_BottomBorder
+TabardFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L578)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_LeftBorder
+TabardFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L584)
+--- child of TabardFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_RightBorder
+TabardFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L69)
---- @class TabardFrame : Frame
+--- @class TabardFrame : Frame, ButtonFrameTemplate
 TabardFrame = {}
+TabardFrame["Inset"] = TabardFrameInset -- inherited
+TabardFrame["CloseButton"] = TabardFrameCloseButton -- inherited
+TabardFrame["Bg"] = TabardFrameBg -- inherited
+TabardFrame["TitleBg"] = TabardFrameTitleBg -- inherited
+TabardFrame["portrait"] = TabardFramePortrait -- inherited
+TabardFrame["PortraitFrame"] = TabardFramePortraitFrame -- inherited
+TabardFrame["TopRightCorner"] = TabardFrameTopRightCorner -- inherited
+TabardFrame["TopLeftCorner"] = TabardFrameTopLeftCorner -- inherited
+TabardFrame["TopBorder"] = TabardFrameTopBorder -- inherited
+TabardFrame["TitleText"] = TabardFrameTitleText -- inherited
+TabardFrame["TopTileStreaks"] = TabardFrameTopTileStreaks -- inherited
+TabardFrame["BotLeftCorner"] = TabardFrameBotLeftCorner -- inherited
+TabardFrame["BotRightCorner"] = TabardFrameBotRightCorner -- inherited
+TabardFrame["BottomBorder"] = TabardFrameBottomBorder -- inherited
+TabardFrame["LeftBorder"] = TabardFrameLeftBorder -- inherited
+TabardFrame["RightBorder"] = TabardFrameRightBorder -- inherited
+TabardFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

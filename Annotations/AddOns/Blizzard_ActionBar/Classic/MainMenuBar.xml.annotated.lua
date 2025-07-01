@@ -170,17 +170,17 @@ MainMenuBarVehicleLeaveButton = {}
 --- @field slideOut MainMenuBar_slideOut
 MainMenuBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L571)
 --- child of ExhaustionTick
 --- @class ExhaustionTickNormal : Texture
 ExhaustionTickNormal = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L571)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L572)
 --- child of ExhaustionTick
 --- @class ExhaustionTickHighlight : Texture
 ExhaustionTickHighlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L555)
 --- @class ExhaustionTick : Button
 ExhaustionTick = {}
 

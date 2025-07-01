@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L168)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L197)
 --- @class LayoutMixin : BaseLayoutMixin
 LayoutMixin = CreateFromMixins(BaseLayoutMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L407)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L442)
 --- @class ResizeLayoutMixin : BaseLayoutMixin
 ResizeLayoutMixin = CreateFromMixins(BaseLayoutMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L581)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L619)
 --- @class StaticGridLayoutFrameMixin : BaseLayoutMixin
 StaticGridLayoutFrameMixin = CreateFromMixins(BaseLayoutMixin)
 
@@ -16,17 +16,21 @@ StaticGridLayoutFrameMixin = CreateFromMixins(BaseLayoutMixin)
 --- @class BaseLayoutMixin
 BaseLayoutMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L235)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L264)
 --- @class VerticalLayoutMixin
 VerticalLayoutMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L329)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L361)
 --- @class HorizontalLayoutMixin
 HorizontalLayoutMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L490)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L528)
 --- @class GridLayoutFrameMixin
 GridLayoutFrameMixin = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L722)
+--- @class OverrideLayoutFrameOnUpdateMixin
+OverrideLayoutFrameOnUpdateMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L12)
 function BaseLayoutMixin:OnShow() end
@@ -100,56 +104,80 @@ function BaseLayoutMixin:GetHeightPadding() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L160)
 function BaseLayoutMixin:GetWidthPadding() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L166)
+function BaseLayoutMixin:GetChildSize(child, ignoreRect) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L175)
+function BaseLayoutMixin:GetChildWidth(child, ignoreRect) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L184)
+function BaseLayoutMixin:GetChildHeight(child, ignoreRect) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L199)
 function LayoutMixin:GetPadding() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L208)
 function LayoutMixin:GetChildPadding(child) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L231)
 function LayoutMixin:CalculateFrameSize(childrenWidth, childrenHeight) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L215)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L244)
 function LayoutMixin:Layout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L237)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L266)
 function VerticalLayoutMixin:LayoutChildren(children, expandToWidth) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L363)
 function HorizontalLayoutMixin:LayoutChildren(children, ignored, expandToHeight) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L422)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L457)
 function ResizeLayoutMixin:IgnoreLayoutIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L426)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L461)
 function ResizeLayoutMixin:SetWidthPadding(widthPadding) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L430)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L465)
 function ResizeLayoutMixin:SetHeightPadding(heightPadding) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L434)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L469)
 function ResizeLayoutMixin:SetMinimumWidth(minimumWidth) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L438)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L473)
 function ResizeLayoutMixin:SetMaximumWidth(maximumWidth) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L442)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L477)
 function ResizeLayoutMixin:Layout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L492)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L530)
 function GridLayoutFrameMixin:Layout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L526)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L564)
 function GridLayoutFrameMixin:CacheLayoutSettings(layoutChildren) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L538)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L576)
 function GridLayoutFrameMixin:ShouldUpdateLayout(layoutChildren) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L608)
 function GridLayoutFrameMixin:IgnoreLayoutIndex() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L621)
 function StaticGridLayoutFrameMixin:Layout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L678)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L716)
 function StaticGridLayoutFrameMixin:IgnoreLayoutIndex() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L725)
+function OverrideLayoutFrameOnUpdateMixin:NeedsOnUpdate() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L730)
+function OverrideLayoutFrameOnUpdateMixin:OverrideOnUpdate(_elapsed) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L734)
+function OverrideLayoutFrameOnUpdateMixin:UpdateOnUpdateRegistration() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L745)
+function OverrideLayoutFrameOnUpdateMixin:ShouldRegisterOnUpdate() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.lua#L750)
+function OverrideLayoutFrameOnUpdateMixin:OnUpdate(elapsed) end

@@ -13,8 +13,8 @@ function NewFeatureLabelMixin:ClearAlert() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/NewFeatureLabel.lua#L15)
 function NewFeatureLabelMixin:NewFeatureLabel_OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/NewFeatureLabel.lua#L21)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/NewFeatureLabel.lua#L23)
 function NewFeatureLabelMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/NewFeatureLabel.lua#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/NewFeatureLabel.lua#L29)
 function NewFeatureLabelMixin:GetTextWidth() end

@@ -1234,14 +1234,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2890)
 --- child of ExpandBarTemplate
 --- @class ExpandBarTemplate_ExpandButton : Button, UIButtonTemplate, SquareExpandButtonMixin
---- @field highlightExpandedAtlas string # 128-RedButton-ArrowUpGlow-Highlight
---- @field highlightCollapsedAtlas string # 128-RedButton-ArrowUpGlow-Highlight
---- @field normalExpandedAtlas string # Campaign_HeaderIcon_Open
---- @field normalCollapsedAtlas string # Campaign_HeaderIcon_Closed
---- @field pushedExpandedAtlas string # Campaign_HeaderIcon_OpenPressed
---- @field pushedCollapsedAtlas string # Campaign_HeaderIcon_ClosedPressed
---- @field disabledExpandedAtlas string # Campaign_HeaderIcon_Open
---- @field disabledCollapsedAtlas string # Campaign_HeaderIcon_Closed
+--- @field highlightExpandedAtlas string # common-button-collapseExpand-hover
+--- @field highlightCollapsedAtlas string # common-button-collapseExpand-hover
+--- @field normalExpandedAtlas string # common-button-collapseexpand-up
+--- @field normalCollapsedAtlas string # common-button-collapseexpand-down
+--- @field pushedExpandedAtlas string # common-button-collapseExpand-up-pressed
+--- @field pushedCollapsedAtlas string # common-button-collapseExpand-down-pressed
+--- @field disabledExpandedAtlas string # common-button-collapseExpand-up-disabled
+--- @field disabledCollapsedAtlas string # common-button-collapseExpand-down-disabled
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2887)
 --- Template

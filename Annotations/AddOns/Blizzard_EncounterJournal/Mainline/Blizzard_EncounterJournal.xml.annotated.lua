@@ -1406,7 +1406,7 @@ EncounterJournalSuggestFrameNextButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2100)
 --- child of EncounterJournalSuggestFrame
 --- @class EncounterJournalSuggestFrame_Suggestion1 : Frame
---- @field index number # 1
+--- @field index number # 3
 --- @field centerDisplay EncounterJournalSuggestFrame_Suggestion1_centerDisplay
 --- @field button EncounterJournalSuggestFrame_Suggestion1_button
 --- @field reward EncounterJournalSuggestFrame_Suggestion1_reward
@@ -1424,7 +1424,7 @@ EncounterJournalSuggestFrameNextButton = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2273)
 --- child of EncounterJournalSuggestFrame
 --- @class EncounterJournalSuggestFrame_Suggestion3 : Frame, AdventureJournal_SecondaryTemplate
---- @field index number # 3
+--- @field index number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L2094)
 --- child of EncounterJournal

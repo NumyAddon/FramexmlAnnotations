@@ -4,7 +4,7 @@
 --- @class GameDialogMixin
 GameDialogMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L705)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L706)
 --- @class StaticPopupItemFrameMixin
 StaticPopupItemFrameMixin = {}
 
@@ -26,128 +26,128 @@ function GameDialogMixin:SetupDropdown(dialogInfo) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L215)
 function GameDialogMixin:SetupMoneyFrame(dialogInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L241)
 function GameDialogMixin:SetupItemFrame(dialogInfo, data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L265)
 function GameDialogMixin:SetupButtons(dialogInfo, data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L291)
 function GameDialogMixin:SetupAlertIcon(dialogInfo, data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L306)
 function GameDialogMixin:SetupStartDelay(dialogInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L320)
 function GameDialogMixin:SetupExtraButton(dialogInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L335)
 function GameDialogMixin:SetupProgressBar(dialogInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L341)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L342)
 function GameDialogMixin:SetupDecorationFrames(dialogInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L354)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L355)
 function GameDialogMixin:Init(which, text_arg1, text_arg2, data, insertedFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L427)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L428)
 function GameDialogMixin:SetupAnchor(regionKey) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L446)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L447)
 function GameDialogMixin:SetupElementAnchoring() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L487)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L488)
 function GameDialogMixin:GetItemFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L491)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L492)
 function GameDialogMixin:GetEditBox() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L496)
 function GameDialogMixin:GetButton1() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L500)
 function GameDialogMixin:GetButton2() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L503)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L504)
 function GameDialogMixin:GetButton3() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L507)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L508)
 function GameDialogMixin:GetButton4() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L511)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L512)
 function GameDialogMixin:GetButton(index) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L516)
 function GameDialogMixin:GetButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L519)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L520)
 function GameDialogMixin:GetExtraFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L524)
 function GameDialogMixin:GetTextFontString() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L534)
 function GameDialogMixin:GetButtonSizeInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L568)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L569)
 function GameDialogMixin:Resize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L640)
 function GameDialogMixin:SetText(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L643)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L644)
 function GameDialogMixin:GetText(text) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L647)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L648)
 function GameDialogMixin:SetFormattedText(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L651)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L652)
 function GameDialogMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L656)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L657)
 function GameDialogMixin:OnEvent(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L662)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L663)
 function GameDialogMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L673)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L674)
 function GameDialogMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L683)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L684)
 function GameDialogMixin:ClearTextScripts() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L688)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L689)
 function GameDialogMixin:SetTextScripts(dialogInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L693)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L694)
 function GameDialogMixin:OnHyperlinkClick(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L697)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L698)
 function GameDialogMixin:OnHyperlinkEnter(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L701)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L702)
 function GameDialogMixin:OnHyperlinkLeave(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L707)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L708)
 function StaticPopupItemFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L711)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L712)
 function StaticPopupItemFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L722)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L723)
 function StaticPopupItemFrameMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L732)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L733)
 function StaticPopupItemFrameMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L737)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L738)
 function StaticPopupItemFrameMixin:SetCustomOnEnter(customOnEnter) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L741)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L742)
 function StaticPopupItemFrameMixin:RetrieveInfo(data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L759)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L760)
 function StaticPopupItemFrameMixin:DisplayInfo(link, name, color, texture, count, tooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L781)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.lua#L782)
 function StaticPopupItemFrameMixin:DisplayInfoFromStandardCallback(location, name, quality, count) end

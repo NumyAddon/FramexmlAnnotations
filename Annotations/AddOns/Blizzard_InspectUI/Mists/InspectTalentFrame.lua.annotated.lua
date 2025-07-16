@@ -25,9 +25,6 @@ function InspectTalentFrameMixin:OnEvent(event, unit) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Mists/InspectTalentFrame.lua#L25)
 function InspectTalentFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Mists/InspectTalentFrame.lua#L31)
-function InspectGlyphFrameGlyphMixin:OnClear() end
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_InspectUI/Mists/InspectTalentFrame.lua#L50)
 function InspectGlyphFrameGlyphMixin:OnLoad() end
 

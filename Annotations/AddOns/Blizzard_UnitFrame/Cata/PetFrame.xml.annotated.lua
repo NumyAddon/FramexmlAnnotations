@@ -69,24 +69,37 @@ PetFrameOtherHealPredictionBar = {}
 PetFrameOtherHealPredictionBar["fillTexture"] = "Interface\\TargetingFrame\\UI-StatusBar" -- inherited
 PetFrameOtherHealPredictionBar["fillColor"] = HEALTHBAR_OTHER_HEAL_PREDICTION_COLOR -- inherited
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L109)
+--- child of PetFrameHealthBar
+--- @class PetFrameHealAbsorbBar : Frame, PetFrameBarSegmentTemplate, HealAbsorbBarTemplate
+PetFrameHealAbsorbBar = {}
+PetFrameHealAbsorbBar["fillTexture"] = "Interface\\TargetingFrame\\UI-StatusBar" -- inherited
+PetFrameHealAbsorbBar["fillColor"] = HEALTHBAR_HEAL_ABSORB_COLOR -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L110)
+--- child of PetFrameHealthBar
+--- @class PetFrameTotalAbsorbBar : Frame, PetFrameBarSegmentTemplate, TotalAbsorbBarTemplate
+PetFrameTotalAbsorbBar = {}
+PetFrameTotalAbsorbBar["fillTexture"] = "Interface\\TargetingFrame\\UI-StatusBar" -- inherited
+PetFrameTotalAbsorbBar["fillColor"] = HEALTHBAR_TOTAL_ABSORB_COLOR -- inherited
+PetFrameTotalAbsorbBar["tiledFillOverlaySize"] = 32 -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L114)
+--- child of PetFrameHealthBar
+--- @class PetFrameOverAbsorbGlow : Texture, OverAbsorbGlowTemplate
+PetFrameOverAbsorbGlow = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L115)
+--- child of PetFrameHealthBar
+--- @class PetFrameOverHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
+PetFrameOverHealAbsorbGlow = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L101)
 --- child of PetFrame
 --- @class PetFrameHealthBar : StatusBar, TextStatusBar
 PetFrameHealthBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L124)
---- child of PetFrame
---- @class PetFrameMyHealPredictionBar : StatusBar, MyHealPredictionBarTemplate
-PetFrameMyHealPredictionBar = {}
-PetFrameMyHealPredictionBar["fillColor"] = HEALTHBAR_MY_HEAL_PREDICTION_COLOR -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L125)
---- child of PetFrame
---- @class PetFrameOtherHealPredictionBar : StatusBar, OtherHealPredictionBarTemplate
-PetFrameOtherHealPredictionBar = {}
-PetFrameOtherHealPredictionBar["fillColor"] = HEALTHBAR_OTHER_HEAL_PREDICTION_COLOR -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L132)
 --- child of PetFrame
 --- @class PetFrameManaBar : StatusBar, TextStatusBar
 PetFrameManaBar = {}
@@ -101,7 +114,7 @@ PetFrameDebuff1Icon = {}
 --- @type Texture
 PetFrameDebuff1Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L148)
 --- child of PetFrame
 --- @class PetFrameDebuff1 : Button, PartyDebuffFrameTemplate
 PetFrameDebuff1 = {}
@@ -116,7 +129,7 @@ PetFrameDebuff2Icon = {}
 --- @type Texture
 PetFrameDebuff2Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L153)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L159)
 --- child of PetFrame
 --- @class PetFrameDebuff2 : Button, PartyDebuffFrameTemplate
 PetFrameDebuff2 = {}
@@ -131,7 +144,7 @@ PetFrameDebuff3Icon = {}
 --- @type Texture
 PetFrameDebuff3Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L170)
 --- child of PetFrame
 --- @class PetFrameDebuff3 : Button, PartyDebuffFrameTemplate
 PetFrameDebuff3 = {}
@@ -146,7 +159,7 @@ PetFrameDebuff4Icon = {}
 --- @type Texture
 PetFrameDebuff4Border = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L181)
 --- child of PetFrame
 --- @class PetFrameDebuff4 : Button, PartyDebuffFrameTemplate
 PetFrameDebuff4 = {}
@@ -165,7 +178,7 @@ PetPortrait = {}
 --- @class PetFrame : Button, SecureUnitButtonTemplate
 PetFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PetFrame.xml#L220)
 --- @class PetCastingBarFrame : StatusBar, CastingBarFrameTemplate
 PetCastingBarFrame = {}
 

@@ -41,8 +41,8 @@ InstanceAbandonPopup["Text"] = InstanceAbandonPopupText -- inherited
 --- @field useScaleWeight boolean # true
 --- @field layoutIndex number # 3
 --- @field align string # center
---- @field topPadding number # 12
---- @field bottomPadding number # 6
+--- @field topPadding number # 10
+--- @field bottomPadding number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L21)
 --- @class InstanceAbandonFrame : Frame, VerticalLayoutFrame, InstanceAbandonMixin

@@ -1,15 +1,15 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.xml#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.xml#L8)
 --- child of ArachnophobiaTemplate_SubTextContainer
 --- @class ArachnophobiaTemplate_SubTextContainer_SubText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.xml#L39)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.xml#L5)
 --- child of ArachnophobiaTemplate
 --- @class ArachnophobiaTemplate_SubTextContainer : Frame
 --- @field SubText ArachnophobiaTemplate_SubTextContainer_SubText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.xml#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Accessibility.xml#L3)
 --- Template
 --- @class ArachnophobiaTemplate : Frame, SettingsCheckboxControlTemplate, ArachnophobiaMixin
 --- @field SubTextContainer ArachnophobiaTemplate_SubTextContainer

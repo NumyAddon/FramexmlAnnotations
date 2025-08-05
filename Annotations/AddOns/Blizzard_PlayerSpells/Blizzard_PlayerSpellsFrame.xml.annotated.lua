@@ -27,12 +27,12 @@
 --- @field minimizedWidth string # 806
 --- @field maximizedWidth string # 1612
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L830)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L834)
 --- child of PlayerSpellsFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 PlayerSpellsFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L797)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L801)
 --- child of PlayerSpellsFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 PlayerSpellsFrameBg = {}

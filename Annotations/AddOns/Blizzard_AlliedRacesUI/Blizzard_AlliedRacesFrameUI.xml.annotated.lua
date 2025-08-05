@@ -75,18 +75,18 @@
 --- @field ScrollFrame AlliedRacesFrame_RaceInfoFrame_ScrollFrame
 --- @field AlliedRacesRaceName AlliedRacesFrame_RaceInfoFrame_AlliedRacesRaceName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L887)
 --- child of AlliedRacesFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 AlliedRacesFrameInset = {}
 AlliedRacesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L881)
 --- child of AlliedRacesFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 AlliedRacesFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AlliedRacesUI/Blizzard_AlliedRacesFrameUI.xml#L864)
 --- child of AlliedRacesFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 AlliedRacesFrameBg = {}

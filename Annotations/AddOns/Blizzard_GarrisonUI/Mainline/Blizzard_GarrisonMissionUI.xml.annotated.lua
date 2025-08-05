@@ -726,12 +726,12 @@ GarrisonMissionFrameTab2 = {}
 --- child of GarrisonMissionFrameFollowers
 --- @class GarrisonMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1243)
 --- child of GarrisonMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 GarrisonMissionFrameFollowersClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonMissionUI.xml#L1234)
 --- child of GarrisonMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 GarrisonMissionFrameFollowersSearchIcon = {}

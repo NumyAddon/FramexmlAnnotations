@@ -245,65 +245,65 @@ GuildBankFrameMiddle = {}
 --- @field LimitLabel GuildBankMoneyLimitLabel
 --- @field UnlimitedLabel GuildBankMoneyUnlimitedLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L102)
---- child of GuildBankMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-GuildBankMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L105)
 --- child of GuildBankMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 GuildBankMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L124)
 --- child of GuildBankMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 GuildBankMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L143)
 --- child of GuildBankMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 GuildBankMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L85)
+--- child of GuildBankMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+GuildBankMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L534)
 --- child of GuildBankFrame
 --- @class GuildBankMoneyFrame : Frame, SmallMoneyFrameTemplate
 GuildBankMoneyFrame = {}
 GuildBankMoneyFrame["small"] = 1 -- inherited
-GuildBankMoneyFrame["trialErrorButton"] = GuildBankMoneyFrameTrialErrorButton -- inherited
 GuildBankMoneyFrame["CopperButton"] = GuildBankMoneyFrameCopperButton -- inherited
 GuildBankMoneyFrame["SilverButton"] = GuildBankMoneyFrameSilverButton -- inherited
 GuildBankMoneyFrame["GoldButton"] = GuildBankMoneyFrameGoldButton -- inherited
+GuildBankMoneyFrame["trialErrorButton"] = GuildBankMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L102)
---- child of GuildBankWithdrawMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-GuildBankWithdrawMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L105)
 --- child of GuildBankWithdrawMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 GuildBankWithdrawMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L124)
 --- child of GuildBankWithdrawMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 GuildBankWithdrawMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L143)
 --- child of GuildBankWithdrawMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 GuildBankWithdrawMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L85)
+--- child of GuildBankWithdrawMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+GuildBankWithdrawMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L544)
 --- child of GuildBankFrame
 --- @class GuildBankWithdrawMoneyFrame : Frame, SmallMoneyFrameTemplate
 GuildBankWithdrawMoneyFrame = {}
 GuildBankWithdrawMoneyFrame["small"] = 1 -- inherited
-GuildBankWithdrawMoneyFrame["trialErrorButton"] = GuildBankWithdrawMoneyFrameTrialErrorButton -- inherited
 GuildBankWithdrawMoneyFrame["CopperButton"] = GuildBankWithdrawMoneyFrameCopperButton -- inherited
 GuildBankWithdrawMoneyFrame["SilverButton"] = GuildBankWithdrawMoneyFrameSilverButton -- inherited
 GuildBankWithdrawMoneyFrame["GoldButton"] = GuildBankWithdrawMoneyFrameGoldButton -- inherited
+GuildBankWithdrawMoneyFrame["trialErrorButton"] = GuildBankWithdrawMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L554)
 --- child of GuildBankFrame
@@ -373,35 +373,35 @@ GuildBankTab7 = {}
 --- @class GuildBankTab8 : Frame, GuildBankTabTemplate
 GuildBankTab8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L102)
---- child of GuildBankFrameTabCostMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-GuildBankFrameTabCostMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L105)
 --- child of GuildBankFrameTabCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 GuildBankFrameTabCostMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L124)
 --- child of GuildBankFrameTabCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 GuildBankFrameTabCostMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L143)
 --- child of GuildBankFrameTabCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 GuildBankFrameTabCostMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L85)
+--- child of GuildBankFrameTabCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+GuildBankFrameTabCostMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L646)
 --- child of GuildBankFrame_BuyInfo
 --- @class GuildBankFrameTabCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 GuildBankFrameTabCostMoneyFrame = {}
 GuildBankFrameTabCostMoneyFrame["small"] = 1 -- inherited
-GuildBankFrameTabCostMoneyFrame["trialErrorButton"] = GuildBankFrameTabCostMoneyFrameTrialErrorButton -- inherited
 GuildBankFrameTabCostMoneyFrame["CopperButton"] = GuildBankFrameTabCostMoneyFrameCopperButton -- inherited
 GuildBankFrameTabCostMoneyFrame["SilverButton"] = GuildBankFrameTabCostMoneyFrameSilverButton -- inherited
 GuildBankFrameTabCostMoneyFrame["GoldButton"] = GuildBankFrameTabCostMoneyFrameGoldButton -- inherited
+GuildBankFrameTabCostMoneyFrame["trialErrorButton"] = GuildBankFrameTabCostMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L657)
 --- child of GuildBankFrame_BuyInfo
@@ -615,12 +615,12 @@ GuildBankFrame["Info"] = GuildBankInfo
 GuildBankPopupFrame = {}
 GuildBankPopupFrame["editBoxHeaderText"] = GUILDBANK_POPUP_TEXT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1243)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 GuildItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1234)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 GuildItemSearchBoxSearchIcon = {}

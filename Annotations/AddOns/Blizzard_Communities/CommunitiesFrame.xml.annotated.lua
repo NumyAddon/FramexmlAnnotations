@@ -455,18 +455,18 @@ CommunitiesFrameGuildDetailsFrame["News"] = CommunitiesFrameGuildDetailsFrameNew
 --- child of CommunitiesFrame
 --- @class CommunitiesFrame_GuildMemberDetailFrame : Frame, CommunitiesGuildMemberDetailFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L887)
 --- child of CommunitiesFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 CommunitiesFrameInset = {}
 CommunitiesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L881)
 --- child of CommunitiesFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 CommunitiesFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.xml#L864)
 --- child of CommunitiesFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 CommunitiesFrameBg = {}

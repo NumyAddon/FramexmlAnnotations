@@ -127,12 +127,12 @@
 --- child of EventTrace_Log_Bar
 --- @class EventTrace_Log_Bar_DiscardAllButton : Button, EventTraceMenuButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1243)
 --- child of EventTrace_Log_Bar_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 EventTraceClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L1234)
 --- child of EventTrace_Log_Bar_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 EventTraceSearchIcon = {}
@@ -230,18 +230,18 @@ EventTraceSearchIcon = {}
 --- @field ScrollBox EventTrace_Filter_ScrollBox
 --- @field ScrollBar EventTrace_Filter_ScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L887)
 --- child of EventTrace (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 EventTraceInset = {}
 EventTraceInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L881)
 --- child of EventTrace (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 EventTraceCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L864)
 --- child of EventTrace (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 EventTraceBg = {}

@@ -1,18 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L367)
 --- @class SettingsAdvancedQualitySectionMixin : SettingsExpandableSectionMixin
 SettingsAdvancedQualitySectionMixin = CreateFromMixins(SettingsExpandableSectionMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L402)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L413)
 --- @class SettingsAdvancedSliderMixin : DefaultTooltipMixin
 SettingsAdvancedSliderMixin = CreateFromMixins(DefaultTooltipMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L412)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L423)
 --- @class SettingsAdvancedCheckboxSliderMixin : DefaultTooltipMixin
 SettingsAdvancedCheckboxSliderMixin = CreateFromMixins(DefaultTooltipMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L422)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L433)
 --- @class SettingsAdvancedDropdownMixin : DefaultTooltipMixin
 SettingsAdvancedDropdownMixin = CreateFromMixins(DefaultTooltipMixin)
 
@@ -23,29 +23,29 @@ SettingsAdvancedQualityControlsMixin = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L85)
 function SettingsAdvancedQualityControlsMixin:Init(settings, raid, cbrHandles) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L358)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L369)
 function SettingsAdvancedQualitySectionMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L380)
 function SettingsAdvancedQualitySectionMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L383)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L394)
 function SettingsAdvancedQualitySectionMixin:Release(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L398)
 function SettingsAdvancedQualitySectionMixin:CalculateHeight() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L392)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L403)
 function SettingsAdvancedQualitySectionMixin:OnTabSelected(tab, tabIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L397)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L408)
 function SettingsAdvancedQualitySectionMixin:EvaluateVisibility(tab) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L404)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L415)
 function SettingsAdvancedSliderMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L414)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L425)
 function SettingsAdvancedCheckboxSliderMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L424)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.lua#L435)
 function SettingsAdvancedDropdownMixin:OnLoad() end

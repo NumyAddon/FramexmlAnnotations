@@ -109,17 +109,17 @@ QuestFrameCompleteButton = {}
 QuestFrameCompleteButton["fitTextCanWidthDecrease"] = true -- inherited
 QuestFrameCompleteButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L13)
 --- child of QuestProgressRequiredMoneyFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_CopperButton
 QuestProgressRequiredMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L32)
 --- child of QuestProgressRequiredMoneyFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_SilverButton
 QuestProgressRequiredMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L51)
 --- child of QuestProgressRequiredMoneyFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_GoldButton
 QuestProgressRequiredMoneyFrameGoldButton = {}
@@ -525,18 +525,18 @@ QuestFrameGreetingPanel["MaterialBotRight"] = QuestFrameGreetingPanelMaterialBot
 --- @class QuestFramePortrait : Texture
 QuestFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L887)
 --- child of QuestFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 QuestFrameInset = {}
 QuestFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L881)
 --- child of QuestFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 QuestFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L864)
 --- child of QuestFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 QuestFrameBg = {}

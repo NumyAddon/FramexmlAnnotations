@@ -12,7 +12,7 @@ GuildRenameTitleFlowMixin = CreateFromMixins(GuildRenameManagedFlowMixin, {
 	timeFormatter = timeFormatter,
 })
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L548)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L549)
 --- @class GuildRenameContextButtonMixin : SimpleTooltipRegionMixin
 GuildRenameContextButtonMixin = CreateFromMixins(SimpleTooltipRegionMixin)
 
@@ -179,25 +179,25 @@ function GuildRenameFlowMixin:OnShow() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L454)
 function GuildRenameTitleFlowMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L475)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L476)
 function GuildRenameTitleFlowMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L479)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L480)
 function GuildRenameTitleFlowMixin:UpdateOptions() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L514)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L515)
 function GuildRenameTitleFlowMixin:UpdateFromStatus() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L544)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L545)
 function GuildRenameTitleFlowMixin:FormatTime(seconds) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L550)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L551)
 function GuildRenameContextButtonMixin:SetToGuildRename(renameStatus) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L557)
 function GuildRenameContextButtonMixin:SetToGoodbye() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L562)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L563)
 function GuildRenameContextButtonMixin:OnEnter() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.lua#L600)

@@ -143,12 +143,12 @@
 --- child of MountJournal
 --- @class MountJournal_RightInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L1239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L1243)
 --- child of MountJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 MountJournalSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L1230)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L1234)
 --- child of MountJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 MountJournalSearchBoxSearchIcon = {}
@@ -267,7 +267,7 @@ MountJournalLore = {}
 --- child of MountJournal_MountDisplay_ModelScene_TogglePlayer
 --- @class MountJournal_MountDisplay_ModelScene_TogglePlayer_TogglePlayerText : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L386)
 --- child of MountJournal_MountDisplay_ModelScene_TogglePlayer (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 MountJournalText = {}

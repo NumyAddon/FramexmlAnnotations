@@ -257,18 +257,18 @@ ItemSocketingSocketButton = {}
 --- child of ItemSocketingFrame
 --- @class ItemSocketingFrame_TopRightNub : Texture, NubTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L887)
 --- child of ItemSocketingFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ItemSocketingFrameInset = {}
 ItemSocketingFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L881)
 --- child of ItemSocketingFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 ItemSocketingFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemSocketingUI/Blizzard_ItemSocketingUI.xml#L864)
 --- child of ItemSocketingFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ItemSocketingFrameBg = {}

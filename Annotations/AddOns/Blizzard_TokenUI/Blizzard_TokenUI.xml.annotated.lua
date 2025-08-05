@@ -97,18 +97,18 @@
 --- @field filterDropdown TokenFrame_filterDropdown
 TokenFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L887)
 --- child of CurrencyTransferLog (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 CurrencyTransferLogInset = {}
 CurrencyTransferLogInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L881)
 --- child of CurrencyTransferLog (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 CurrencyTransferLogCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L864)
 --- child of CurrencyTransferLog (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 CurrencyTransferLogBg = {}
@@ -125,7 +125,7 @@ CurrencyTransferLog["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- child of TokenFramePopup
 --- @class TokenFramePopup_Border : Frame, SecureDialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L386)
 --- child of TokenFramePopup_InactiveCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 TokenFramePopupText = {}
@@ -134,7 +134,7 @@ TokenFramePopupText = {}
 --- child of TokenFramePopup
 --- @class TokenFramePopup_InactiveCheckbox : CheckButton, UICheckButtonTemplate, InactiveCurrencyCheckboxMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TokenUI/Blizzard_TokenUI.xml#L386)
 --- child of TokenFramePopup_BackpackCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 TokenFramePopupText = {}

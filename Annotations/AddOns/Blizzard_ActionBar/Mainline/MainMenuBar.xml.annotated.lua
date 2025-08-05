@@ -38,7 +38,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L122)
 --- child of MainMenuBar_ActionBarPageNumber
---- @class MainMenuBar_ActionBarPageNumber_Text : FontString, GameFontNormalCenter
+--- @class MainMenuBar_ActionBarPageNumber_Text : FontString, GameFontNormal
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L113)
 --- child of MainMenuBar

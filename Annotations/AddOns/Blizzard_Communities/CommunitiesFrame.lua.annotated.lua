@@ -4,7 +4,7 @@
 --- @class CommunitiesFrameMixin : CallbackRegistryMixin
 CommunitiesFrameMixin = CreateFromMixins(CallbackRegistryMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1656)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1654)
 --- @class CommunitiesControlFrameMixin
 CommunitiesControlFrameMixin = {}
 
@@ -161,71 +161,71 @@ function CommunitiesFrameMixin:OnChatDisabledChanged(disabled) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1271)
 function CommunitiesFrameMixin:OnClubSelected(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1366)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1364)
 function CommunitiesFrameMixin:GetSelectedClubId() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1368)
 function CommunitiesFrameMixin:GetSelectedClubInfo() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1372)
 function CommunitiesFrameMixin:GetSelectedStreamId() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1385)
 function CommunitiesFrameMixin:HideOrShowNotificationOverlay(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1414)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1412)
 function CommunitiesFrameMixin:UpdateCommunitiesButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1461)
 function CommunitiesFrameMixin:SetFocusedStream(clubId, streamId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1474)
 function CommunitiesFrameMixin:SelectStream(clubId, streamId, forceUpdate) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1511)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1509)
 function CommunitiesFrameMixin:ClearSelectedStreamForClub(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1515)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1513)
 function CommunitiesFrameMixin:GetSelectedStreamForClub(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1519)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1517)
 function CommunitiesFrameMixin:SetPrivilegesForClub(clubId, privileges) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1521)
 function CommunitiesFrameMixin:GetPrivilegesForClub(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1527)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1525)
 function CommunitiesFrameMixin:HasPrivilegesForClub(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1531)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1529)
 function CommunitiesFrameMixin:UpdateStreamDropdown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1534)
 function CommunitiesFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1564)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1562)
 function CommunitiesFrameMixin:ShowCreateChannelDialog() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1568)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1566)
 function CommunitiesFrameMixin:ShowEditStreamDialog(clubId, streamId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1575)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1573)
 function CommunitiesFrameMixin:OpenGuildMemberDetailFrame(clubId, memberInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1579)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1577)
 function CommunitiesFrameMixin:CloseGuildMemberDetailFrame() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1581)
 function CommunitiesFrameMixin:ShowNotificationSettingsDialog(clubId) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1588)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1586)
 function CommunitiesFrameMixin:HasInvitationPrivilegesForSelectedClub() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1658)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1656)
 function CommunitiesControlFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1662)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1660)
 function CommunitiesControlFrameMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesFrame.lua#L1738)
 function CommunitiesControlFrameMixin:GetCommunitiesFrame() end

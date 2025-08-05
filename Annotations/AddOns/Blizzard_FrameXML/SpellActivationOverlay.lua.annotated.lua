@@ -4,15 +4,15 @@
 --- @class SpellActivationOverlayMixin
 SpellActivationOverlayMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L172)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L176)
 --- @class SpellActivationOverlayTextureMixin
 SpellActivationOverlayTextureMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L182)
 --- @class SpellActivationOverlayFadeInAnimMixin
 SpellActivationOverlayFadeInAnimMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L190)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L194)
 --- @class SpellActivationOverlayFadeOutAnimMixin
 SpellActivationOverlayFadeOutAnimMixin = {}
 
@@ -28,26 +28,26 @@ function SpellActivationOverlayMixin:ShowAllOverlays(spellID, texturePath, locat
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L76)
 function SpellActivationOverlayMixin:ShowOverlay(spellID, texturePath, position, scale, r, g, b) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L139)
 function SpellActivationOverlayMixin:GetOverlay(spellID, position) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L151)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L155)
 function SpellActivationOverlayMixin:HideOverlays(spellID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L165)
 function SpellActivationOverlayMixin:HideAllOverlays() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L167)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L171)
 function SpellActivationOverlayMixin:ReleaseOverlay(overlay) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L174)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L178)
 function SpellActivationOverlayTextureMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L184)
 function SpellActivationOverlayFadeInAnimMixin:OnPlay() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L188)
 function SpellActivationOverlayFadeInAnimMixin:OnFinished() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/SpellActivationOverlay.lua#L196)
 function SpellActivationOverlayFadeOutAnimMixin:OnFinished() end

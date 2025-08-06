@@ -25,6 +25,10 @@
 --- child of ProfessionsCustomerOrdersRecipeListTemplate
 --- @class ProfessionsCustomerOrdersRecipeListTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeList.xml#L80)
+--- child of ProfessionsCustomerOrdersRecipeListTemplate
+--- @class ProfessionsCustomerOrdersRecipeListTemplate_ResultsText : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersRecipeList.xml#L37)
 --- Template
 --- @class ProfessionsCustomerOrdersRecipeListTemplate : Frame, ProfessionsCustomerOrdersRecipeListMixin
@@ -33,4 +37,5 @@
 --- @field ScrollBox ProfessionsCustomerOrdersRecipeListTemplate_ScrollBox
 --- @field ScrollBar ProfessionsCustomerOrdersRecipeListTemplate_ScrollBar
 --- @field Background Texture
+--- @field ResultsText ProfessionsCustomerOrdersRecipeListTemplate_ResultsText
 

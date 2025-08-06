@@ -711,6 +711,14 @@ ConquestFrame["JoinButton"] = ConquestJoinButton
 --- child of PlunderstormFrame
 --- @class PlunderstormFrame_StartQueue : Button, MagicButtonTemplate, StartPlunderstormQueueButtonMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1486)
+--- child of PlunderstormFrame
+--- @class PlunderstormFrame_BasicsTitle : FontString, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1492)
+--- child of PlunderstormFrame
+--- @class PlunderstormFrame_BasicsBody : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1437)
 --- child of PVPQueueFrame
 --- @class PlunderstormFrame : Frame, PlunderstormQueueFrameMixin
@@ -718,6 +726,9 @@ ConquestFrame["JoinButton"] = ConquestJoinButton
 --- @field QueueSelect PlunderstormFrame_QueueSelect
 --- @field StartQueue PlunderstormFrame_StartQueue
 --- @field Background Texture
+--- @field PlunderstormLine Texture
+--- @field BasicsTitle PlunderstormFrame_BasicsTitle
+--- @field BasicsBody PlunderstormFrame_BasicsBody
 PlunderstormFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1508)

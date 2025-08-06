@@ -71,9 +71,22 @@
 --- child of QuestSessionDialogTemplate
 --- @class QuestSessionDialogTemplate_PlayerContainer : Frame, ResizeLayoutFrame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L174)
+--- child of QuestSessionDialogTemplate
+--- @class QuestSessionDialogTemplate_Body : Frame, QuestSessionDialogBodyTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L179)
+--- child of QuestSessionDialogTemplate
+--- @class QuestSessionDialogTemplate_ButtonContainer : Frame, QuestSessionDialogButtonContainerTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L122)
 --- child of QuestSessionDialogTemplate
 --- @class QuestSessionDialogTemplate_BG : Texture
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L161)
+--- child of QuestSessionDialogTemplate
+--- @class QuestSessionDialogTemplate_Divider : Texture
 --- @field ignoreInLayout boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L108)
@@ -85,8 +98,11 @@
 --- @field Border QuestSessionDialogTemplate_Border
 --- @field Title QuestSessionDialogTemplate_Title
 --- @field PlayerContainer QuestSessionDialogTemplate_PlayerContainer
+--- @field Body QuestSessionDialogTemplate_Body
+--- @field ButtonContainer QuestSessionDialogTemplate_ButtonContainer
 --- @field BG QuestSessionDialogTemplate_BG
 --- @field InvisibleRule Texture
+--- @field Divider QuestSessionDialogTemplate_Divider
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L195)
 --- child of QuestSessionDialogMinimizeTemplate

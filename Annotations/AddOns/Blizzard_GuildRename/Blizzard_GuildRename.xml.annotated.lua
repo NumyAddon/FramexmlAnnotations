@@ -32,16 +32,48 @@
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_Spinner : Frame, SpinnerTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L13)
+--- child of GuildRenameFrame_RenameFlow_CostFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_CopperButton
+GuildRenameFrameCopperButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L32)
+--- child of GuildRenameFrame_RenameFlow_CostFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_SilverButton
+GuildRenameFrameSilverButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L51)
+--- child of GuildRenameFrame_RenameFlow_CostFrame (created in template MoneyFrameTemplate)
+--- @type MoneyFrameTemplate_GoldButton
+GuildRenameFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L109)
+--- child of GuildRenameFrame_RenameFlow
+--- @class GuildRenameFrame_RenameFlow_CostFrame : Frame, MoneyFrameTemplate
+--- @field moneyType string # STATIC
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L54)
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_Description : FontString, QuestFont
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L94)
+--- child of GuildRenameFrame_RenameFlow
+--- @class GuildRenameFrame_RenameFlow_StatusText : FontString, GameFontRed
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L100)
+--- child of GuildRenameFrame_RenameFlow
+--- @class GuildRenameFrame_RenameFlow_CostLabel : FontString, QuestFont
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L47)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_RenameFlow : Frame, GuildRenameFlowMixin
 --- @field NameBox GuildRenameFrame_RenameFlow_NameBox
 --- @field Spinner GuildRenameFrame_RenameFlow_Spinner
+--- @field CostFrame GuildRenameFrame_RenameFlow_CostFrame
 --- @field Description GuildRenameFrame_RenameFlow_Description
+--- @field Status Texture
+--- @field StatusText GuildRenameFrame_RenameFlow_StatusText
+--- @field CostLabel GuildRenameFrame_RenameFlow_CostLabel
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L123)
 --- child of GuildRenameFrame

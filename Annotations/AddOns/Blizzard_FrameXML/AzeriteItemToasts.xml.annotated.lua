@@ -53,6 +53,10 @@
 --- child of AzeriteLevelUpToast
 --- @class AzeriteLevelUpToast_TextLabel : FontString, GameFontNormal
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L260)
+--- child of AzeriteLevelUpToast
+--- @class AzeriteLevelUpToast_SubTextLabel : FontString, GameFontHighlight
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L269)
 --- child of AzeriteLevelUpToast
 --- @class AzeriteLevelUpToast_ShowAnim : AnimationGroup
@@ -87,6 +91,7 @@
 --- @field WhiteStarBurst Texture
 --- @field ItemName AzeriteLevelUpToast_ItemName
 --- @field TextLabel AzeriteLevelUpToast_TextLabel
+--- @field SubTextLabel AzeriteLevelUpToast_SubTextLabel
 --- @field ShowAnim AzeriteLevelUpToast_ShowAnim
 --- @field BottomRegions table<number, Texture>
 AzeriteLevelUpToast = {}

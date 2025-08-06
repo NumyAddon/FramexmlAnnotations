@@ -2354,63 +2354,7 @@ PVPFrame["LeftBorder"] = PVPFrameLeftBorder -- inherited
 PVPFrame["RightBorder"] = PVPFrameRightBorder -- inherited
 PVPFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2063)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2061)
 --- @class PVPTimerFrame : Frame
 PVPTimerFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2116)
---- child of PVPFramePopup
---- @class PVPFramePopupMinimizeButton : Button
-PVPFramePopupMinimizeButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2137)
---- child of PVPFramePopup
---- @class PVPFramePopupAcceptButton : Button, UIPanelButtonTemplate
-PVPFramePopupAcceptButton = {}
-PVPFramePopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
-PVPFramePopupAcceptButton["fitTextWidthPadding"] = 40 -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2155)
---- child of PVPFramePopup
---- @class PVPFramePopupDeclineButton : Button, UIPanelButtonTemplate
-PVPFramePopupDeclineButton = {}
-PVPFramePopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
-PVPFramePopupDeclineButton["fitTextWidthPadding"] = 40 -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2068)
---- child of PVPFramePopup
---- @class PVPFramePopupBackground : Texture
-PVPFramePopupBackground = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2077)
---- child of PVPFramePopup
---- @class PVPFramePopupRingIcon : Texture
-PVPFramePopupRingIcon = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2085)
---- child of PVPFramePopup
---- @class PVPFramePopupRing : Texture
-PVPFramePopupRing = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2092)
---- child of PVPFramePopup
---- @class PVPFramePopupTitle : FontString, GameFontHighlight
-PVPFramePopupTitle = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2104)
---- child of PVPFramePopup
---- @class PVPFramePopupTimer : FontString, GameFontHighlightExtraSmall
-PVPFramePopupTimer = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Cata/PVPFrame.xml#L2064)
---- @class PVPFramePopup : Frame
---- @field minimizeButton PVPFramePopupMinimizeButton
---- @field ringIcon PVPFramePopupRingIcon
---- @field title PVPFramePopupTitle
---- @field timer PVPFramePopupTimer
-PVPFramePopup = {}
-PVPFramePopup["minimizeButton"] = PVPFramePopupMinimizeButton
-PVPFramePopup["ringIcon"] = PVPFramePopupRingIcon
-PVPFramePopup["title"] = PVPFramePopupTitle
-PVPFramePopup["timer"] = PVPFramePopupTimer
 

@@ -117,6 +117,10 @@
 --- @field Icon ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus_Icon
 --- @field Text ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus_Text
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L240)
+--- child of ProfessionsRecipeSchematicFormTemplate
+--- @class ProfessionsRecipeSchematicFormTemplate_recraftSlot : Frame, ProfessionsRecraftSlotTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeSchematicForm.xml#L187)
 --- child of ProfessionsRecipeSchematicFormTemplate
 --- @class ProfessionsRecipeSchematicFormTemplate_OutputText : FontString, GameFontHighlightMed2
@@ -173,6 +177,7 @@
 --- @field Details ProfessionsRecipeSchematicFormTemplate_Details
 --- @field RecipeSourceButton ProfessionsRecipeSchematicFormTemplate_RecipeSourceButton
 --- @field FirstCraftBonus ProfessionsRecipeSchematicFormTemplate_FirstCraftBonus
+--- @field recraftSlot ProfessionsRecipeSchematicFormTemplate_recraftSlot
 --- @field OutputText ProfessionsRecipeSchematicFormTemplate_OutputText
 --- @field RecraftingOutputText ProfessionsRecipeSchematicFormTemplate_RecraftingOutputText
 --- @field RecraftingDescription ProfessionsRecipeSchematicFormTemplate_RecraftingDescription
@@ -182,5 +187,6 @@
 --- @field Cooldown ProfessionsRecipeSchematicFormTemplate_Cooldown
 --- @field MinimizedCooldown ProfessionsRecipeSchematicFormTemplate_MinimizedCooldown
 --- @field Description ProfessionsRecipeSchematicFormTemplate_Description
+--- @field extraSlotFrames table<number, ProfessionsRecipeSchematicFormTemplate_recraftSlot>
 --- @field recipeInfoFrames table<number, ProfessionsRecipeSchematicFormTemplate_RecraftingDescription>
 

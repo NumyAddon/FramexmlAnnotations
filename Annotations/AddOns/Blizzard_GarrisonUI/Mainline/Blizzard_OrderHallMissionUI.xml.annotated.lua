@@ -37,6 +37,44 @@
 --- child of OrderHallMissionPageTemplate
 --- @class OrderHallMissionPageTemplate_CostFrame : Frame, GarrisonMissionPageCostWithTooltipTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L167)
+--- child of OrderHallMissionPageTemplate
+--- @class OrderHallMissionPageTemplate_RewardsFrame : Frame, GarrisonFollowerMissionRewardsFrameTemplate, GarrisonMissionPageRewardTemplate
+--- @field tooltipText any # GARRISON_MISSION_CHANCE_TOOLTIP_TEXT
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L175)
+--- child of OrderHallMissionPageTemplate
+--- @class OrderHallMissionPageTemplate_Enemy1 : Frame, OrderHallMissionPageEnemyTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L180)
+--- child of OrderHallMissionPageTemplate
+--- @class OrderHallMissionPageTemplate_Enemy2 : Frame, OrderHallMissionPageEnemyTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L185)
+--- child of OrderHallMissionPageTemplate
+--- @class OrderHallMissionPageTemplate_Enemy3 : Frame, OrderHallMissionPageEnemyTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L197)
+--- child of OrderHallMissionPageTemplate
+--- @class OrderHallMissionPageTemplate_Follower1 : Frame, GarrisonMissionPageFollowerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L202)
+--- child of OrderHallMissionPageTemplate
+--- @class OrderHallMissionPageTemplate_Follower2 : Frame, GarrisonMissionPageFollowerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L207)
+--- child of OrderHallMissionPageTemplate
+--- @class OrderHallMissionPageTemplate_Follower3 : Frame, GarrisonMissionPageFollowerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L212)
+--- child of OrderHallMissionPageTemplate
+--- @class OrderHallMissionPageTemplate_FollowerModel : CinematicModel, GarrisonCinematicModelBaseTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L221)
+--- child of OrderHallMissionPageTemplate
+--- @class OrderHallMissionPageTemplate_EmptyFollowerModel : Frame
+--- @field Texture Texture
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L58)
 --- child of OrderHallMissionPageTemplate
 --- @class OrderHallMissionPageTemplate_EmptyString : FontString, GameFontNormalMed3
@@ -51,7 +89,22 @@
 --- @field BuffsFrame OrderHallMissionPageTemplate_BuffsFrame
 --- @field StartMissionButton StartMissionButtonTemplate
 --- @field CostFrame OrderHallMissionPageTemplate_CostFrame
+--- @field RewardsFrame OrderHallMissionPageTemplate_RewardsFrame
+--- @field Enemy1 OrderHallMissionPageTemplate_Enemy1
+--- @field Enemy2 OrderHallMissionPageTemplate_Enemy2
+--- @field Enemy3 OrderHallMissionPageTemplate_Enemy3
+--- @field FollowerAnchor Frame
+--- @field Follower1 OrderHallMissionPageTemplate_Follower1
+--- @field Follower2 OrderHallMissionPageTemplate_Follower2
+--- @field Follower3 OrderHallMissionPageTemplate_Follower3
+--- @field FollowerModel OrderHallMissionPageTemplate_FollowerModel
+--- @field EmptyFollowerModel OrderHallMissionPageTemplate_EmptyFollowerModel
 --- @field EmptyString OrderHallMissionPageTemplate_EmptyString
+--- @field ButtonFrame Texture
+--- @field IconBG Texture
+--- @field MissionType Texture
+--- @field Enemies table<number, OrderHallMissionPageTemplate_Enemy1 | OrderHallMissionPageTemplate_Enemy2 | OrderHallMissionPageTemplate_Enemy3>
+--- @field Followers table<number, OrderHallMissionPageTemplate_Follower1 | OrderHallMissionPageTemplate_Follower2 | OrderHallMissionPageTemplate_Follower3>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_OrderHallMissionUI.xml#L249)
 --- Template

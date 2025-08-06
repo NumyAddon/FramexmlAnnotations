@@ -12,9 +12,14 @@
 --- @class Background : Frame, DeveloperConsoleBackgroundTemplate
 Background = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L109)
+--- child of DeveloperConsole_EditBox
+--- @class DeveloperConsole_EditBox_ClearTextButton : Button, UIPanelCloseButtonNoScripts
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L57)
 --- child of DeveloperConsole
 --- @class DeveloperConsole_EditBox : EditBox
+--- @field ClearTextButton DeveloperConsole_EditBox_ClearTextButton
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Console/Blizzard_Console.xml#L149)
 --- child of DeveloperConsole_Filters

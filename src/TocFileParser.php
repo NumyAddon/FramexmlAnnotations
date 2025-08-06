@@ -136,7 +136,7 @@ class TocFileParser
         }
         $targetFile = rtrim($outDir, '/') . '/' . ltrim($targetFile, '/');
         if (!is_dir(dirname($targetFile))) {
-            mkdir($outDir . '/' . dirname($filename), recursive: true);
+            mkdir(dirname($targetFile), recursive: true);
         }
 
         copy($filename, $targetFile);

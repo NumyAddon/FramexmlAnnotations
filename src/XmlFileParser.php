@@ -129,20 +129,26 @@ class XmlFileParser
             }
         }
         if (isset($node->Frames)) {
-            foreach ($node->Frames->children() as $frameChild) {
-                $this->parseNode($frameChild, $fileRegistry, $filename, $frame);
-            }
-        }
-        if (isset($node->Layers)) {
-            foreach ($node->Layers->children() as $layer) {
-                foreach ($layer->children() as $frameChild) {
+            foreach ($node->Frames as $framesNode) {
+                foreach ($framesNode->children() as $frameChild) {
                     $this->parseNode($frameChild, $fileRegistry, $filename, $frame);
                 }
             }
         }
+        if (isset($node->Layers)) {
+            foreach ($node->Layers as $layersNode) {
+                foreach ($layersNode->children() as $layer) {
+                    foreach ($layer->children() as $frameChild) {
+                        $this->parseNode($frameChild, $fileRegistry, $filename, $frame);
+                    }
+                }
+            }
+        }
         if (isset($node->Animations)) {
-            foreach ($node->Animations->children() as $animationGroup) {
-                $this->parseNode($animationGroup, $fileRegistry, $filename, $frame);
+            foreach ($node->Animations as $animationsNode) {
+                foreach ($animationsNode->children() as $animationGroup) {
+                    $this->parseNode($animationGroup, $fileRegistry, $filename, $frame);
+                }
             }
         }
         if (self::TYPE_ANIMATION_GROUP === $type) {

@@ -87,6 +87,7 @@
 --- @field Name GarrisonFollowerPageAbilityTemplate_Name
 --- @field Category GarrisonFollowerPageAbilityTemplate_Category
 --- @field CounterString GarrisonFollowerPageAbilityTemplate_CounterString
+--- @field LargeAbilityFeedbackGlow Texture
 --- @field LargeAbilityFeedbackGlowAnim GarrisonFollowerPageAbilityTemplate_LargeAbilityFeedbackGlowAnim
 --- @field AbilityOverwriteAnim GarrisonFollowerPageAbilityTemplate_AbilityOverwriteAnim
 

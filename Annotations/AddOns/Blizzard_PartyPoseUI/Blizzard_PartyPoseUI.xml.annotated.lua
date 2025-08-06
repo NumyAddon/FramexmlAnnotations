@@ -36,6 +36,30 @@
 --- @field layoutType string # UniqueCornersLayout
 --- @field layoutTextureKit string # partypose-scoreboard
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L137)
+--- child of PartyPoseFrameTemplate_RewardAnimations
+--- @class PartyPoseFrameTemplate_RewardAnimations_RewardFrame : Button, PartyPoseRewardsButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L148)
+--- child of PartyPoseFrameTemplate_RewardAnimations_HoldModelScene
+--- @class PartyPoseFrameTemplate_RewardAnimations_HoldModelScene_RewardModelAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L142)
+--- child of PartyPoseFrameTemplate_RewardAnimations
+--- @class PartyPoseFrameTemplate_RewardAnimations_HoldModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
+--- @field RewardModelAnim PartyPoseFrameTemplate_RewardAnimations_HoldModelScene_RewardModelAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L155)
+--- child of PartyPoseFrameTemplate_RewardAnimations
+--- @class PartyPoseFrameTemplate_RewardAnimations_ImpactModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L131)
+--- child of PartyPoseFrameTemplate
+--- @class PartyPoseFrameTemplate_RewardAnimations : Frame
+--- @field RewardFrame PartyPoseFrameTemplate_RewardAnimations_RewardFrame
+--- @field HoldModelScene PartyPoseFrameTemplate_RewardAnimations_HoldModelScene
+--- @field ImpactModelScene PartyPoseFrameTemplate_RewardAnimations_ImpactModelScene
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PartyPoseUI/Blizzard_PartyPoseUI.xml#L118)
 --- child of PartyPoseFrameTemplate
 --- @class PartyPoseFrameTemplate_TitleText : FontString, Game42Font
@@ -44,6 +68,7 @@
 --- Template
 --- @class PartyPoseFrameTemplate : Frame
 --- @field Border PartyPoseFrameTemplate_Border
+--- @field RewardAnimations PartyPoseFrameTemplate_RewardAnimations
 --- @field Background Texture
 --- @field TitleBg Texture
 --- @field TitleText PartyPoseFrameTemplate_TitleText

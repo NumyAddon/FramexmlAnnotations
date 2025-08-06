@@ -32,6 +32,10 @@
 --- child of SettingsCategoryListButtonTemplate
 --- @class SettingsCategoryListButtonTemplate_Toggle : EventButton
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.xml#L81)
+--- child of SettingsCategoryListButtonTemplate
+--- @class SettingsCategoryListButtonTemplate_NewFeature : Frame, NewFeatureLabelTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.xml#L72)
 --- child of SettingsCategoryListButtonTemplate
 --- @class SettingsCategoryListButtonTemplate_Label : FontString, GameFontNormal
@@ -40,6 +44,7 @@
 --- Template
 --- @class SettingsCategoryListButtonTemplate : Button, SettingsCategoryListButtonMixin
 --- @field Toggle SettingsCategoryListButtonTemplate_Toggle
+--- @field NewFeature SettingsCategoryListButtonTemplate_NewFeature
 --- @field Texture Texture
 --- @field Label SettingsCategoryListButtonTemplate_Label
 

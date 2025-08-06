@@ -217,6 +217,11 @@ CompactRaidFrameManagerDisplayFrameRaidMarkers = {}
 CompactRaidFrameManagerDisplayFrameRaidMarkers["raidMarkerUnitTab"] = CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarkerUnitTab
 CompactRaidFrameManagerDisplayFrameRaidMarkers["raidMarkerGroundTab"] = CompactRaidFrameManagerDisplayFrameRaidMarkersRaidMarkerGroundTab
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L372)
+--- child of CompactRaidFrameManagerDisplayFrame
+--- @class CompactRaidFrameManagerDisplayFrameRestrictPingsDropdown : DropdownButton, WowStyle1DropdownTemplate
+CompactRaidFrameManagerDisplayFrameRestrictPingsDropdown = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L165)
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManagerDisplayFrameRaidMembersLabel : FontString, GameFontNormalMed3
@@ -226,6 +231,10 @@ CompactRaidFrameManagerDisplayFrameRaidMembersLabel = {}
 --- child of CompactRaidFrameManagerDisplayFrame
 --- @class CompactRaidFrameManagerDisplayFrameRaidMemberCountLabel : FontString, GameFontNormalMed3
 CompactRaidFrameManagerDisplayFrameRaidMemberCountLabel = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L366)
+--- child of CompactRaidFrameManagerDisplayFrame
+--- @class CompactRaidFrameManagerDisplayFrame_RestrictPingsLabel : FontString, GameFontNormalLeft
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L162)
 --- child of CompactRaidFrameManager
@@ -243,8 +252,10 @@ CompactRaidFrameManagerDisplayFrameRaidMemberCountLabel = {}
 --- @field rolePollButton CompactRaidFrameManagerDisplayFrameInitiateRolePoll
 --- @field countdownButton CompactRaidFrameManagerDisplayFrameCountdown
 --- @field raidMarkers CompactRaidFrameManagerDisplayFrameRaidMarkers
+--- @field RestrictPingsDropdown CompactRaidFrameManagerDisplayFrameRestrictPingsDropdown
 --- @field label CompactRaidFrameManagerDisplayFrameRaidMembersLabel
 --- @field memberCountLabel CompactRaidFrameManagerDisplayFrameRaidMemberCountLabel
+--- @field RestrictPingsLabel CompactRaidFrameManagerDisplayFrame_RestrictPingsLabel
 CompactRaidFrameManagerDisplayFrame = {}
 CompactRaidFrameManagerDisplayFrame["ModeControlDropdown"] = CompactRaidFrameManagerDisplayFrameModeControlDropdown
 CompactRaidFrameManagerDisplayFrame["filterOptions"] = CompactRaidFrameManagerDisplayFrameFilterOptions
@@ -259,6 +270,7 @@ CompactRaidFrameManagerDisplayFrame["readyCheckButton"] = CompactRaidFrameManage
 CompactRaidFrameManagerDisplayFrame["rolePollButton"] = CompactRaidFrameManagerDisplayFrameInitiateRolePoll
 CompactRaidFrameManagerDisplayFrame["countdownButton"] = CompactRaidFrameManagerDisplayFrameCountdown
 CompactRaidFrameManagerDisplayFrame["raidMarkers"] = CompactRaidFrameManagerDisplayFrameRaidMarkers
+CompactRaidFrameManagerDisplayFrame["RestrictPingsDropdown"] = CompactRaidFrameManagerDisplayFrameRestrictPingsDropdown
 CompactRaidFrameManagerDisplayFrame["label"] = CompactRaidFrameManagerDisplayFrameRaidMembersLabel
 CompactRaidFrameManagerDisplayFrame["memberCountLabel"] = CompactRaidFrameManagerDisplayFrameRaidMemberCountLabel
 

@@ -115,6 +115,11 @@
 --- @field SubTitle EventToastWithIconLargeTextTemplate_SubTitle
 --- @field InstructionalText EventToastWithIconLargeTextTemplate_InstructionalText
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L292)
+--- child of EventToastScenarioBaseToastTemplate
+--- @class EventToastScenarioBaseToastTemplate_BannerFrame : Frame
+--- @field ignoreInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L232)
 --- child of EventToastScenarioBaseToastTemplate
 --- @class EventToastScenarioBaseToastTemplate_Title : FontString, Fancy30Font
@@ -171,6 +176,7 @@
 --- @field animInStartDelay number # 0
 --- @field animInEndDelay number # 4.5
 --- @field PaddingFrame Frame
+--- @field BannerFrame EventToastScenarioBaseToastTemplate_BannerFrame
 --- @field Title EventToastScenarioBaseToastTemplate_Title
 --- @field SubTitle EventToastScenarioBaseToastTemplate_SubTitle
 --- @field BG1 EventToastScenarioBaseToastTemplate_BG1

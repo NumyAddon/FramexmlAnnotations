@@ -121,6 +121,15 @@
 --- child of CampaignHeaderMinimalTemplate
 --- @class CampaignHeaderMinimalTemplate_CollapseButton : Button, QuestLogHeaderCollapseButtonTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L259)
+--- child of CampaignHeaderMinimalTemplate_NextObjective
+--- @class CampaignHeaderMinimalTemplate_NextObjective_Text : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L252)
+--- child of CampaignHeaderMinimalTemplate
+--- @class CampaignHeaderMinimalTemplate_NextObjective : Frame, ResizeLayoutFrame, CampaignNextObjectiveMixin
+--- @field Text CampaignHeaderMinimalTemplate_NextObjective_Text
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L232)
 --- child of CampaignHeaderMinimalTemplate
 --- @class CampaignHeaderMinimalTemplate_Highlight : Texture, QuestLogHighlightTextureTemplate
@@ -137,6 +146,7 @@
 --- @field minimumCollapsedHeight number # 40
 --- @field fixedWidth number # 289
 --- @field CollapseButton CampaignHeaderMinimalTemplate_CollapseButton
+--- @field NextObjective CampaignHeaderMinimalTemplate_NextObjective
 --- @field Background Texture
 --- @field Highlight CampaignHeaderMinimalTemplate_Highlight
 --- @field Text CampaignHeaderMinimalTemplate_Text

@@ -26,6 +26,10 @@
 --- child of ProfessionsCustomerOrdersMyOrdersTemplate_OrderList
 --- @class ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_LoadingSpinner : Frame, SpinnerTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L90)
+--- child of ProfessionsCustomerOrdersMyOrdersTemplate_OrderList
+--- @class ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_ResultsText : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L37)
 --- child of ProfessionsCustomerOrdersMyOrdersTemplate
 --- @class ProfessionsCustomerOrdersMyOrdersTemplate_OrderList : Frame
@@ -35,6 +39,7 @@
 --- @field ScrollBar ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_ScrollBar
 --- @field LoadingSpinner ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_LoadingSpinner
 --- @field Background Texture
+--- @field ResultsText ProfessionsCustomerOrdersMyOrdersTemplate_OrderList_ResultsText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersMyOrders.xml#L19)
 --- Template

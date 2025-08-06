@@ -53,6 +53,10 @@
 --- child of ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_LoadingSpinner : Frame, SpinnerTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L145)
+--- child of ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList
+--- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_ResultsText : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L90)
 --- child of ProfessionsCraftingOrderPageTemplate_BrowseFrame
 --- @class ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList : Frame
@@ -62,6 +66,7 @@
 --- @field ScrollBar ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_ScrollBar
 --- @field LoadingSpinner ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_LoadingSpinner
 --- @field Background Texture
+--- @field ResultsText ProfessionsCraftingOrderPageTemplate_BrowseFrame_OrderList_ResultsText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderPage.xml#L162)
 --- child of ProfessionsCraftingOrderPageTemplate_BrowseFrame

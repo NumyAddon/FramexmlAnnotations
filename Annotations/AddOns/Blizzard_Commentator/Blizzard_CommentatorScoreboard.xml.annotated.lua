@@ -42,6 +42,14 @@
 --- @field Label FontString
 --- @field FadeCycle CommentatorScoreboardTemplate_Dampener_FadeCycle
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L107)
+--- child of CommentatorScoreboardTemplate
+--- @class CommentatorScoreboardTemplate_Team1Name : FontString, CommentatorTeamNameFontString
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L112)
+--- child of CommentatorScoreboardTemplate
+--- @class CommentatorScoreboardTemplate_Team2Name : FontString, CommentatorTeamNameFontString
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorScoreboard.xml#L26)
 --- Template
 --- @class CommentatorScoreboardTemplate : Frame, CommentatorScoreboardMixin
@@ -50,4 +58,7 @@
 --- @field Clock CommentatorScoreboardTemplate_Clock
 --- @field Dampener CommentatorScoreboardTemplate_Dampener
 --- @field Bar Texture
+--- @field Team1Name CommentatorScoreboardTemplate_Team1Name
+--- @field Team2Name CommentatorScoreboardTemplate_Team2Name
+--- @field Logo Texture
 

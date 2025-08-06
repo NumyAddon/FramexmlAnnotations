@@ -130,6 +130,7 @@ BasicMessageDialog = {}
 --- @field Underlay BaseNineSliceDialog_Underlay
 --- @field Border Frame
 --- @field Contents BaseNineSliceDialog_Contents
+--- @field CenterBackground Texture
 
 
 --- Scripts:

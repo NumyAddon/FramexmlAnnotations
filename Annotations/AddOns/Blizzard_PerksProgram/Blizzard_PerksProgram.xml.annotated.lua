@@ -199,11 +199,83 @@ PerksProgramTooltip["TextRight2"] = PerksProgramTooltipTextRight2 -- inherited
 --- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer
 --- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_ScrollBar : EventFrame, MinimalScrollBar
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L57)
+--- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_NameSortButton : Button, HeaderSortButtonTemplate
+--- @field sortField string # name
+--- @field labelText any # PERKS_PROGRAM_NAME
+--- @field normalColor any # NORMAL_FONT_COLOR
+--- @field highlightColor any # WHITE_FONT_COLOR
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L68)
+--- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_TimeSortButton : Button, HeaderSortButtonTemplate
+--- @field sortField string # timeRemaining
+--- @field iconAtlas string # perks-clock
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L77)
+--- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PriceSortButton : Button, HeaderSortButtonTemplate
+--- @field sortField string # price
+--- @field labelText any # PERKS_PROGRAM_PRICE
+--- @field normalColor any # NORMAL_FONT_COLOR
+--- @field highlightColor any # WHITE_FONT_COLOR
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L101)
+--- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer_ProductButton : Button, PerksProgramFrozenProductButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L110)
+--- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer_PendingFreezeAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L117)
+--- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer_ConfirmedBackgroundFreezeAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L136)
+--- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer_UnfreezeAnim : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L99)
+--- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer : Frame, FrozenProductContainerMixin
+--- @field ProductButton PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer_ProductButton
+--- @field Snow1 Texture
+--- @field FrostBG Texture
+--- @field FrostBG2 Texture
+--- @field FrostBGFade Texture
+--- @field FrostLabelBG Texture
+--- @field FrostLabelBG2 Texture
+--- @field FrostFlipbook Texture
+--- @field TickGlow Texture
+--- @field Tick Texture
+--- @field PendingFreezeAnim PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer_PendingFreezeAnim
+--- @field ConfirmedBackgroundFreezeAnim PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer_ConfirmedBackgroundFreezeAnim
+--- @field UnfreezeAnim PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer_UnfreezeAnim
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L88)
+--- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame : Frame, TooltipBackdropTemplate
+--- @field layoutType string # PerksProgramHoldPanelTemplate
+--- @field FrozenProductContainer PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame_FrozenProductContainer
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L229)
+--- child of PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer
+--- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_Border : Frame, NineSlicePanelTemplate
+--- @field layoutType string # PerksProgramProductsPanelTemplate
+--- @field ignoreInLayout boolean # true
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L26)
 --- child of PerksProgramFrame_ProductsFrame
 --- @class PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer : Frame
 --- @field ScrollBox PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_ScrollBox
 --- @field ScrollBar PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_ScrollBar
+--- @field NameSortButton PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_NameSortButton
+--- @field TimeSortButton PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_TimeSortButton
+--- @field PriceSortButton PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PriceSortButton
+--- @field PerksProgramHoldFrame PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_PerksProgramHoldFrame
+--- @field Border PerksProgramFrame_ProductsFrame_ProductsScrollBoxContainer_Border
 --- @field PerksDividerTop Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgram.xml#L269)

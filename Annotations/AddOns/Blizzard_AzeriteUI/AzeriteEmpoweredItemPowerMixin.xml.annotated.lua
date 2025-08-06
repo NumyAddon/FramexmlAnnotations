@@ -22,6 +22,18 @@
 --- @field SparkleAnim AzeriteEmpoweredItemPowerTemplate_FinalEffectContainer_SparkleAnim
 --- @field GoldOverlayAnim AzeriteEmpoweredItemPowerTemplate_FinalEffectContainer_GoldOverlayAnim
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemPowerMixin.xml#L138)
+--- child of AzeriteEmpoweredItemPowerTemplate
+--- @class AzeriteEmpoweredItemPowerTemplate_ClickEffect : ModelScene, NonInteractableModelSceneMixinTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemPowerMixin.xml#L144)
+--- child of AzeriteEmpoweredItemPowerTemplate
+--- @class AzeriteEmpoweredItemPowerTemplate_CanSelectEffect : ModelScene, NonInteractableModelSceneMixinTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemPowerMixin.xml#L150)
+--- child of AzeriteEmpoweredItemPowerTemplate
+--- @class AzeriteEmpoweredItemPowerTemplate_SwirlContainer : Frame, PowerSwirlAnimationTemplate
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AzeriteUI/AzeriteEmpoweredItemPowerMixin.xml#L153)
 --- child of AzeriteEmpoweredItemPowerTemplate
 --- @class AzeriteEmpoweredItemPowerTemplate_CanSelectGlowAnim : AnimationGroup
@@ -45,6 +57,9 @@
 --- Template
 --- @class AzeriteEmpoweredItemPowerTemplate : Button, AzeriteEmpoweredItemPowerMixin
 --- @field FinalEffectContainer AzeriteEmpoweredItemPowerTemplate_FinalEffectContainer
+--- @field ClickEffect AzeriteEmpoweredItemPowerTemplate_ClickEffect
+--- @field CanSelectEffect AzeriteEmpoweredItemPowerTemplate_CanSelectEffect
+--- @field SwirlContainer AzeriteEmpoweredItemPowerTemplate_SwirlContainer
 --- @field PlugBg Texture
 --- @field IconOn Texture
 --- @field IconOff Texture

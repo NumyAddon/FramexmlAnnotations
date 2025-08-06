@@ -46,6 +46,10 @@
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_ReportString : FontString, GameFontHighlightLarge
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L152)
+--- child of SharedReportFrameTemplate
+--- @class SharedReportFrameTemplate_MinorReportDescription : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L21)
 --- Template
 --- @class SharedReportFrameTemplate : Frame, ResizeLayoutFrame
@@ -65,4 +69,5 @@
 --- @field TitleText SharedReportFrameTemplate_TitleText
 --- @field ReportString SharedReportFrameTemplate_ReportString
 --- @field Watermark Texture
+--- @field MinorReportDescription SharedReportFrameTemplate_MinorReportDescription
 

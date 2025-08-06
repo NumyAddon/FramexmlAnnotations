@@ -591,6 +591,8 @@ QuestNPCModelNameText = {}
 --- @field ModelNameDivider Texture
 --- @field ShadowOverlay Texture
 --- @field ModelNameBackground Texture
+--- @field Border Texture
+--- @field TopBarBg Texture
 QuestModelScene = {}
 QuestModelScene["normalIntensity"] = 0.75
 QuestModelScene["highlightIntensity"] = 1.2

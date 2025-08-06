@@ -179,6 +179,7 @@ OrderHallTalentFrameBg = {}
 --- @field Tick6 OrderHallTalentFrame_Tick6
 --- @field Tick7 OrderHallTalentFrame_Tick7
 --- @field Tick8 OrderHallTalentFrame_Tick8
+--- @field Background Texture
 --- @field FrameTick table<number, OrderHallTalentFrame_Tick1 | OrderHallTalentFrame_Tick2 | OrderHallTalentFrame_Tick3 | OrderHallTalentFrame_Tick4 | OrderHallTalentFrame_Tick5 | OrderHallTalentFrame_Tick6 | OrderHallTalentFrame_Tick7 | OrderHallTalentFrame_Tick8>
 OrderHallTalentFrame = {}
 OrderHallTalentFrame["CloseButton"] = OrderHallTalentFrameCloseButton -- inherited

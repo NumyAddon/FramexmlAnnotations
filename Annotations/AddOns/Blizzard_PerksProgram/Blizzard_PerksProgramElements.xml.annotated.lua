@@ -107,9 +107,25 @@
 --- child of PerksProgramProductButtonTemplate_ContentsContainer
 --- @class PerksProgramProductButtonTemplate_ContentsContainer_PurchasePendingSpinner : Frame, SpinnerTemplate, PerksProgramPurchasePendingSpinnerMixin
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L357)
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
+--- @class PerksProgramProductButtonTemplate_ContentsContainer_CartToggleButton : Button, ProductCartToggleButtonMixin
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L271)
 --- child of PerksProgramProductButtonTemplate_ContentsContainer
 --- @class PerksProgramProductButtonTemplate_ContentsContainer_Label : FontString, GameFontNormalMed3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L325)
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
+--- @class PerksProgramProductButtonTemplate_ContentsContainer_RefundIcon : Texture, PerksRefundIconTooltipMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L340)
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
+--- @class PerksProgramProductButtonTemplate_ContentsContainer_TimeRemaining : FontString, GameFontNormalMed3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L349)
+--- child of PerksProgramProductButtonTemplate_ContentsContainer
+--- @class PerksProgramProductButtonTemplate_ContentsContainer_NewItems : Texture, store_icon_new
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L238)
 --- child of PerksProgramProductButtonTemplate
@@ -117,10 +133,16 @@
 --- @field DiscountContainer PerksProgramProductButtonTemplate_ContentsContainer_DiscountContainer
 --- @field PriceContainer PerksProgramProductButtonTemplate_ContentsContainer_PriceContainer
 --- @field PurchasePendingSpinner PerksProgramProductButtonTemplate_ContentsContainer_PurchasePendingSpinner
+--- @field CartToggleButton PerksProgramProductButtonTemplate_ContentsContainer_CartToggleButton
 --- @field Icon Texture
 --- @field IconMask MaskTexture
 --- @field CartIcon Texture
 --- @field Label PerksProgramProductButtonTemplate_ContentsContainer_Label
+--- @field PriceIcon Texture
+--- @field RefundIcon PerksProgramProductButtonTemplate_ContentsContainer_RefundIcon
+--- @field PurchasedIcon Texture
+--- @field TimeRemaining PerksProgramProductButtonTemplate_ContentsContainer_TimeRemaining
+--- @field NewItems PerksProgramProductButtonTemplate_ContentsContainer_NewItems
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PerksProgram/Blizzard_PerksProgramElements.xml#L207)
 --- Template

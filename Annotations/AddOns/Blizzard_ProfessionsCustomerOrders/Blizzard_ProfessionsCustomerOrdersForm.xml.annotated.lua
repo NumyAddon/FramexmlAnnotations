@@ -276,6 +276,10 @@
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_LoadingSpinner : Frame, SpinnerTemplate
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L587)
+--- child of ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList
+--- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_ResultsText : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L534)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList : Frame
@@ -285,6 +289,7 @@
 --- @field ScrollBar ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_ScrollBar
 --- @field LoadingSpinner ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_LoadingSpinner
 --- @field Background Texture
+--- @field ResultsText ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_ResultsText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L604)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings

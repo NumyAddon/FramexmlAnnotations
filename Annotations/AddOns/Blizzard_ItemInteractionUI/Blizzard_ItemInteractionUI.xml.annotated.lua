@@ -102,47 +102,47 @@
 --- child of ItemInteractionFrame_ButtonFrame
 --- @class ItemInteractionFrame_ButtonFrame_Currency : Button, BackpackTokenTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L102)
---- child of ItemInteractionFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-ItemInteractionFrameMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L105)
 --- child of ItemInteractionFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 ItemInteractionFrameMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L124)
 --- child of ItemInteractionFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 ItemInteractionFrameMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L143)
 --- child of ItemInteractionFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 ItemInteractionFrameMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L85)
+--- child of ItemInteractionFrameMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+ItemInteractionFrameMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L299)
 --- child of ItemInteractionFrame_ButtonFrame
 --- @class ItemInteractionFrameMoneyFrame : Frame, SmallMoneyFrameTemplate
 ItemInteractionFrameMoneyFrame = {}
 ItemInteractionFrameMoneyFrame["small"] = 1 -- inherited
-ItemInteractionFrameMoneyFrame["trialErrorButton"] = ItemInteractionFrameMoneyFrameTrialErrorButton -- inherited
 ItemInteractionFrameMoneyFrame["CopperButton"] = ItemInteractionFrameMoneyFrameCopperButton -- inherited
 ItemInteractionFrameMoneyFrame["SilverButton"] = ItemInteractionFrameMoneyFrameSilverButton -- inherited
 ItemInteractionFrameMoneyFrame["GoldButton"] = ItemInteractionFrameMoneyFrameGoldButton -- inherited
+ItemInteractionFrameMoneyFrame["trialErrorButton"] = ItemInteractionFrameMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1354)
 --- child of ItemInteractionFrame_ButtonFrame_MoneyFrameEdge (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemInteractionFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1362)
 --- child of ItemInteractionFrame_ButtonFrame_MoneyFrameEdge (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemInteractionFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L1370)
 --- child of ItemInteractionFrame_ButtonFrame_MoneyFrameEdge (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemInteractionFrameMiddle = {}
@@ -174,12 +174,12 @@ ItemInteractionFrameMiddle = {}
 --- child of ItemInteractionFrame
 --- @class ItemInteractionFrame_Description : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L830)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L834)
 --- child of ItemInteractionFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 ItemInteractionFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L797)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L801)
 --- child of ItemInteractionFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ItemInteractionFrameBg = {}

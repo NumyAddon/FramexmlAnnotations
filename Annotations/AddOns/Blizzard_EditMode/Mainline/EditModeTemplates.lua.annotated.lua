@@ -28,11 +28,7 @@ MagnetismPreviewLineMixin = {}
 --- @class EditModeCheckButtonMixin
 EditModeCheckButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L254)
---- @class EditModeCheckButtonButtonMixin
-EditModeCheckButtonButtonMixin = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L284)
 --- @class EditModeManagerSettingCheckButtonMixin
 EditModeManagerSettingCheckButtonMixin = {}
 
@@ -76,25 +72,25 @@ function EditModeGridLineMixin:SetupLine(centerLine, verticalLine, xOffset, yOff
 function MagnetismPreviewLineMixin:Setup(magneticFrameInfo, lineAnchor) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L217)
+function EditModeCheckButtonMixin:EditModeCheckButton_OnLoad() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L231)
 function EditModeCheckButtonMixin:EditModeCheckButton_OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L223)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L237)
 function EditModeCheckButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L260)
 function EditModeCheckButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L269)
+function EditModeCheckButtonMixin:RunMouseOverCallback(isMouseOver) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L275)
+function EditModeCheckButtonMixin:SetMouseOverCallback(callback) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L280)
 function EditModeCheckButtonMixin:ShouldEnable() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L256)
-function EditModeCheckButtonButtonMixin:OnClick() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L260)
-function EditModeCheckButtonButtonMixin:OnEnter() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L264)
-function EditModeCheckButtonButtonMixin:OnLeave() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L270)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Mainline/EditModeTemplates.lua#L286)
 function EditModeManagerSettingCheckButtonMixin:EditModeManagerSettingCheckButton_OnLoad() end

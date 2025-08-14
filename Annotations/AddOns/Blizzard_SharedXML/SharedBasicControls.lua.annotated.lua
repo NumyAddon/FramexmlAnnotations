@@ -33,8 +33,11 @@ function BaseExpandableDialogMixin:OnCloseClick() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L98)
 function BaseNineSliceDialogMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L117)
+function BaseNineSliceDialogMixin:OnShow() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L125)
 function BaseNineSliceDialogMixin:Display(title, description, onCloseCvar) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.lua#L134)
 function BaseNineSliceDialogMixin:OnCloseClick() end

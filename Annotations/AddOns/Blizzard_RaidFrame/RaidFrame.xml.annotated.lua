@@ -43,18 +43,18 @@ RaidParentFrameTab1 = {}
 --- @class RaidParentFrameTab2 : Button, PanelTabButtonTemplate
 RaidParentFrameTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L887)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 RaidParentFrameInset = {}
 RaidParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L881)
 --- child of RaidParentFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 RaidParentFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L864)
 --- child of RaidParentFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 RaidParentFrameBg = {}
@@ -72,7 +72,7 @@ RaidParentFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- child of RaidFrame
 --- @class RaidFrame_RoleCount : Frame, RoleCountTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L386)
 --- child of RaidFrameAllAssistCheckButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 RaidFrameAllAssistCheckButtonText = {}
@@ -83,35 +83,42 @@ RaidFrameAllAssistCheckButtonText = {}
 RaidFrameAllAssistCheckButton = {}
 RaidFrameAllAssistCheckButton["Text"] = RaidFrameAllAssistCheckButtonText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L186)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L185)
 --- child of RaidFrameNotInRaid
---- @class RaidFrameRaidDescription : FontString, GameFontNormal
-RaidFrameRaidDescription = {}
+--- @class RaidFrameNotInRaid_ScrollingDescription : Frame, ScrollingFontTemplate
+--- @field fontName string # GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L195)
+--- child of RaidFrameNotInRaid
+--- @class RaidFrameNotInRaid_ScrollingDescriptionScrollBar : EventFrame, MinimalScrollBar
+--- @field hideIfUnscrollable boolean # true
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L183)
 --- child of RaidFrame
 --- @class RaidFrameNotInRaid : Frame
+--- @field ScrollingDescription RaidFrameNotInRaid_ScrollingDescription
+--- @field ScrollingDescriptionScrollBar RaidFrameNotInRaid_ScrollingDescriptionScrollBar
 RaidFrameNotInRaid = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L195)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L206)
 --- child of RaidFrame
 --- @class RaidFrameConvertToRaidButton : Button, UIPanelButtonTemplate
 RaidFrameConvertToRaidButton = {}
 RaidFrameConvertToRaidButton["fitTextCanWidthDecrease"] = true -- inherited
 RaidFrameConvertToRaidButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L218)
 --- child of RaidFrame
 --- @class RaidFrameRaidInfoButton : Button, UIPanelButtonTemplate
 RaidFrameRaidInfoButton = {}
 RaidFrameRaidInfoButton["fitTextCanWidthDecrease"] = true -- inherited
 RaidFrameRaidInfoButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L260)
 --- child of RaidInfoFrame
 --- @class RaidInfoFrame_Border : Frame, DialogBorderDarkTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L261)
 --- child of RaidInfoFrame
 --- @class RaidInfoFrame_Header : Frame, DialogHeaderTemplate
 --- @field textString any # RAID_INFORMATION
@@ -131,7 +138,7 @@ RaidInfoInstanceLabelRight = {}
 --- @type Texture
 RaidInfoInstanceLabelMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L255)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L266)
 --- child of RaidInfoFrame
 --- @class RaidInfoInstanceLabel : Frame, RaidInfoHeaderTemplate
 RaidInfoInstanceLabel = {}
@@ -151,49 +158,49 @@ RaidInfoIDLabelRight = {}
 --- @type Texture
 RaidInfoIDLabelMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L266)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L277)
 --- child of RaidInfoFrame
 --- @class RaidInfoIDLabel : Frame, RaidInfoHeaderTemplate
 RaidInfoIDLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L277)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L288)
 --- child of RaidInfoFrame
 --- @class RaidInfoCloseButton : Button, UIPanelCloseButton
 RaidInfoCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L293)
 --- child of RaidInfoFrame
 --- @class RaidInfoFrame_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L304)
 --- child of RaidInfoFrame
 --- @class RaidInfoFrame_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L310)
 --- child of RaidInfoFrame
 --- @class RaidInfoExtendButton : Button, UIPanelButtonTemplate
 RaidInfoExtendButton = {}
 RaidInfoExtendButton["fitTextCanWidthDecrease"] = true -- inherited
 RaidInfoExtendButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L311)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L322)
 --- child of RaidInfoFrame
 --- @class RaidInfoCancelButton : Button, UIPanelButtonTemplate
 RaidInfoCancelButton = {}
 RaidInfoCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 RaidInfoCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L232)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L243)
 --- child of RaidInfoFrame
 --- @class RaidInfoDetailHeader : Texture
 RaidInfoDetailHeader = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L250)
 --- child of RaidInfoFrame
 --- @class RaidInfoDetailFooter : Texture
 RaidInfoDetailFooter = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L225)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L236)
 --- child of RaidFrame
 --- @class RaidInfoFrame : Frame
 --- @field Border RaidInfoFrame_Border
@@ -205,5 +212,7 @@ RaidInfoFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/RaidFrame.xml#L139)
 --- @class RaidFrame : Frame
 --- @field RoleCount RaidFrame_RoleCount
+--- @field RaidFrameNotInRaid RaidFrameNotInRaid
 RaidFrame = {}
+RaidFrame["RaidFrameNotInRaid"] = RaidFrameNotInRaid
 

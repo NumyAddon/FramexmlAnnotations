@@ -13,8 +13,8 @@ ClassTalentButtonSelectMixin = CreateFromMixins(TalentButtonSelectMixin, ClassTa
 ClassTalentButtonSplitSelectMixin = CreateFromMixins(TalentButtonSplitSelectMixin, ClassTalentButtonBaseMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L364)
---- @class ClassTalentSelectionChoiceMixin : TalentSelectionChoiceMixin
-ClassTalentSelectionChoiceMixin = CreateFromMixins(TalentSelectionChoiceMixin)
+--- @class ClassTalentSelectionChoiceMixin : TalentSelectionChoiceArtMixin
+ClassTalentSelectionChoiceMixin = CreateFromMixins(TalentSelectionChoiceArtMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L7)
 --- @class ClassTalentButtonArtMixin

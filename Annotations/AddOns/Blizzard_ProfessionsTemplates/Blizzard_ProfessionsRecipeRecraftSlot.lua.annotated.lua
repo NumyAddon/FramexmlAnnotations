@@ -46,4 +46,7 @@ function ProfessionsRecraftInputSlotMixin:SetCursorItemTransition(cursorItemTran
 function ProfessionsRecraftInputSlotMixin:Init(item) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.lua#L136)
+function ProfessionsRecraftInputSlotMixin:CheckDropCursorItemOnSlot() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeRecraftSlot.lua#L153)
 function ProfessionsRecraftInputSlotMixin:OnReceiveDrag() end

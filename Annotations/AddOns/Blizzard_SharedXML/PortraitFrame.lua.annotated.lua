@@ -12,7 +12,7 @@ PortraitFrameMixin = CreateFromMixins(TitledPanelMixin)
 --- @class TitledPanelMixin
 TitledPanelMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L119)
 --- @class PortraitFrameFlatBaseMixin
 PortraitFrameFlatBaseMixin = {}
 
@@ -59,13 +59,16 @@ function PortraitFrameMixin:SetPortraitAtlasRaw(atlas, ...) end
 function PortraitFrameMixin:SetPortraitToClassIcon(classFilename) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L74)
+function PortraitFrameMixin:SetPortraitToSpecIcon() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L89)
 function PortraitFrameMixin:SetPortraitTexCoord(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L93)
 function PortraitFrameMixin:SetPortraitShown(shown) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L97)
 function PortraitFrameMixin:SetPortraitTextureSizeAndOffset(size, offsetX, offsetY) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L106)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L121)
 function PortraitFrameFlatBaseMixin:SetBackgroundColor(color) end

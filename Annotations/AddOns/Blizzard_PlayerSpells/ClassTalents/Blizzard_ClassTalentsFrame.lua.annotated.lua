@@ -90,7 +90,7 @@ function ClassTalentsFrameMixin:ShouldInstantiateNode(nodeID, nodeInfo) end
 function ClassTalentsFrameMixin:UpdateTalentButtonPosition(talentButton) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.lua#L674)
-function ClassTalentsFrameMixin:GetFrameLevelForButton(nodeInfo) end
+function ClassTalentsFrameMixin:GetFrameLevelForButton(nodeInfo, _visualState) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.lua#L695)
 function ClassTalentsFrameMixin:OnGateDisplayed(gate, firstButton, condInfo) end

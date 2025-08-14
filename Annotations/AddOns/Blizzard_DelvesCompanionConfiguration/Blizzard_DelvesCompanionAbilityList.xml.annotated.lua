@@ -29,12 +29,12 @@
 --- child of DelvesCompanionAbilityListFrame
 --- @class DelvesCompanionAbilityListFrame_DelvesCompanionAbilityListPagingControls : Frame, PagingControlsHorizontalTemplate, DelvesCompanionAbilityListPagingControlsMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L830)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L834)
 --- child of DelvesCompanionAbilityListFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 DelvesCompanionAbilityListFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L797)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DelvesCompanionConfiguration/Blizzard_DelvesCompanionAbilityList.xml#L801)
 --- child of DelvesCompanionAbilityListFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 DelvesCompanionAbilityListFrameBg = {}
@@ -54,6 +54,7 @@ DelvesCompanionAbilityListFrame["Bg"] = DelvesCompanionAbilityListFrameBg -- inh
 DelvesCompanionAbilityListFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 DelvesCompanionAbilityListFrame["getSpecializedMixin"] = TalentButtonUtil.GetSpecializedMixin -- inherited
 DelvesCompanionAbilityListFrame["getEdgeTemplateType"] = TalentButtonUtil.GetTemplateForEdgeVisualStyle -- inherited
+DelvesCompanionAbilityListFrame["getSpecializedChoiceMixin"] = TalentButtonUtil.GetSpecializedChoiceMixin -- inherited
 DelvesCompanionAbilityListFrame["buttonSize"] = 40 -- inherited
 DelvesCompanionAbilityListFrame["topPadding"] = 0 -- inherited
 DelvesCompanionAbilityListFrame["leftPadding"] = 0 -- inherited

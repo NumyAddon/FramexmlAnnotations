@@ -96,37 +96,37 @@
 --- @field owned BankTabPermissionTemplate_Owned
 --- @field buy BankTabPermissionTemplate_Buy
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L977)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L978)
 --- child of GuildControlUIHbar (created in template HorizontalBarTemplate)
 --- @type Texture
 GuildControlUIHbarBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L981)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L982)
 --- child of GuildControlUIHbar (created in template HorizontalBarTemplate)
 --- @type HorizontalBarTemplate_TopLeftCorner
 GuildControlUIHbarTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L986)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L987)
 --- child of GuildControlUIHbar (created in template HorizontalBarTemplate)
 --- @type HorizontalBarTemplate_TopRightCorner
 GuildControlUIHbarTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L991)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L992)
 --- child of GuildControlUIHbar (created in template HorizontalBarTemplate)
 --- @type HorizontalBarTemplate_BotLeftCorner
 GuildControlUIHbarBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L996)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L997)
 --- child of GuildControlUIHbar (created in template HorizontalBarTemplate)
 --- @type HorizontalBarTemplate_BotRightCorner
 GuildControlUIHbarBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1002)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1003)
 --- child of GuildControlUIHbar (created in template HorizontalBarTemplate)
 --- @type HorizontalBarTemplate_TopBorder
 GuildControlUIHbarTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1008)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1009)
 --- child of GuildControlUIHbar (created in template HorizontalBarTemplate)
 --- @type HorizontalBarTemplate_BottomBorder
 GuildControlUIHbarBottomBorder = {}
@@ -151,7 +151,7 @@ GuildControlUINavigationDropdown = {}
 --- @type RankChangeTemplate_NameEditBox
 GuildControlUIRankOrderFrameRank1NameEditBox = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L79)
 --- child of GuildControlUIRankOrderFrameRank1DeleteButton (created in template UIPanelSquareButton)
 --- @type Texture
 GuildControlUIRankOrderFrameRank1DeleteButtonIcon = {}
@@ -162,7 +162,7 @@ GuildControlUIRankOrderFrameRank1DeleteButtonIcon = {}
 GuildControlUIRankOrderFrameRank1DeleteButton = {}
 GuildControlUIRankOrderFrameRank1DeleteButton["icon"] = GuildControlUIRankOrderFrameRank1DeleteButtonIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L79)
 --- child of GuildControlUIRankOrderFrameRank1ShiftDownButton (created in template UIPanelSquareButton)
 --- @type Texture
 GuildControlUIRankOrderFrameRank1ShiftDownButtonIcon = {}
@@ -173,7 +173,7 @@ GuildControlUIRankOrderFrameRank1ShiftDownButtonIcon = {}
 GuildControlUIRankOrderFrameRank1ShiftDownButton = {}
 GuildControlUIRankOrderFrameRank1ShiftDownButton["icon"] = GuildControlUIRankOrderFrameRank1ShiftDownButtonIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L79)
 --- child of GuildControlUIRankOrderFrameRank1ShiftUpButton (created in template UIPanelSquareButton)
 --- @type Texture
 GuildControlUIRankOrderFrameRank1ShiftUpButtonIcon = {}
@@ -380,7 +380,7 @@ GuildControlUIRankSettingsFrameCheckbox18Text = {}
 GuildControlUIRankSettingsFrameCheckbox18 = {}
 GuildControlUIRankSettingsFrameCheckbox18["text"] = GuildControlUIRankSettingsFrameCheckbox18Text -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L616)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L615)
 --- child of GuildControlUIRankSettingsFrame
 --- @class GuildControlUIRankSettingsFrameCheckbox18Tooltip : Frame
 GuildControlUIRankSettingsFrameCheckbox18Tooltip = {}
@@ -429,47 +429,47 @@ GuildControlUITopBg = {}
 --- @class GuildControlUITitle : FontString
 GuildControlUITitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1023)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1024)
 --- child of GuildControlUI (created in template TranslucentFrameTemplate)
 --- @type Texture
 GuildControlUIBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1032)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1033)
 --- child of GuildControlUI (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 GuildControlUITopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1037)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1038)
 --- child of GuildControlUI (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 GuildControlUITopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1042)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1043)
 --- child of GuildControlUI (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 GuildControlUIBottomLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1047)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1048)
 --- child of GuildControlUI (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 GuildControlUIBottomRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1052)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1053)
 --- child of GuildControlUI (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 GuildControlUITopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1058)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1059)
 --- child of GuildControlUI (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 GuildControlUIBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1064)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1065)
 --- child of GuildControlUI (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 GuildControlUILeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1070)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L1071)
 --- child of GuildControlUI (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 GuildControlUIRightBorder = {}

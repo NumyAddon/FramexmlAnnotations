@@ -16,7 +16,7 @@ ChannelButtonVoiceMixin = CreateFromMixins(ChannelButtonMixin)
 --- @class ChannelButtonCommunityMixin : ChannelButtonMixin
 ChannelButtonCommunityMixin = CreateFromMixins(ChannelButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L388)
 --- @class ChannelButtonHeaderMixin : ChannelButtonBaseMixin
 ChannelButtonHeaderMixin = CreateFromMixins(ChannelButtonBaseMixin)
 
@@ -180,29 +180,29 @@ function ChannelButtonVoiceMixin:IsUserCreatedChannel() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L354)
 function ChannelButtonCommunityMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L360)
 function ChannelButtonCommunityMixin:Setup(channelID, clubId, streamInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L372)
 function ChannelButtonCommunityMixin:SetCommunityInfo(clubId, streamInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L382)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L383)
 function ChannelButtonCommunityMixin:ChannelSupportsVoice() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L389)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L390)
 function ChannelButtonHeaderMixin:Reset(pool) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L394)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L395)
 function ChannelButtonHeaderMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L403)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L404)
 function ChannelButtonHeaderMixin:IsHeader() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L407)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L408)
 function ChannelButtonHeaderMixin:IsCollapsed() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L412)
 function ChannelButtonHeaderMixin:SetCollapsed(collapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L415)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Channels/ChannelButton.lua#L416)
 function ChannelButtonHeaderMixin:Update() end

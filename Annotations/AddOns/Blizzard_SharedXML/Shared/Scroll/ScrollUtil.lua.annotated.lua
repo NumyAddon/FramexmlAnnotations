@@ -8,7 +8,7 @@ ManagedScrollBarVisibilityBehaviorMixin = CreateFromMixins(CallbackRegistryMixin
 --- @class SelectionBehaviorMixin : CallbackRegistryMixin
 SelectionBehaviorMixin = CreateFromMixins(CallbackRegistryMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1602)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1626)
 --- @class ScrollBoxFactoryInitializerMixin
 ScrollBoxFactoryInitializerMixin = {}
 
@@ -76,40 +76,46 @@ function SelectionBehaviorMixin:SelectNextElementData(predicate) end
 function SelectionBehaviorMixin:SelectPreviousElementData(predicate) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L480)
+function SelectionBehaviorMixin:IsFirstElementDataSelected() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L492)
+function SelectionBehaviorMixin:IsLastElementDataSelected() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L504)
 function SelectionBehaviorMixin:SelectOffsetElementData(offset, predicate) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L512)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L536)
 function SelectionBehaviorMixin:SelectElementData(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L540)
 function SelectionBehaviorMixin:SelectElementDataByPredicate(predicate) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L524)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L548)
 function SelectionBehaviorMixin:SetElementDataSelected_Internal(elementData, newSelected) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L552)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L576)
 function SelectionBehaviorMixin:Select(frame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L580)
 function SelectionBehaviorMixin:ToggleSelect(frame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1604)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1628)
 function ScrollBoxFactoryInitializerMixin:Init(frameTemplate, data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1609)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1633)
 function ScrollBoxFactoryInitializerMixin:GetTemplate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1614)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1638)
 function ScrollBoxFactoryInitializerMixin:GetExtent() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1618)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1642)
 function ScrollBoxFactoryInitializerMixin:Factory(factory, initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1622)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1646)
 function ScrollBoxFactoryInitializerMixin:InitFrame(frame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1628)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1652)
 function ScrollBoxFactoryInitializerMixin:Resetter(frame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1634)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollUtil.lua#L1658)
 function ScrollBoxFactoryInitializerMixin:IsTemplate(frameTemplate) end

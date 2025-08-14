@@ -110,7 +110,7 @@ DebuffFrame["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L195)
 --- child of DeadlyDebuffFrame
---- @class DeadlyDebuffFrame_WarningText : FontString, GameFontNormal
+--- @class DeadlyDebuffFrame_WarningText : FontString, GameFontNormalHuge
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/Mainline/BuffFrame.xml#L188)
 --- @class DeadlyDebuffFrame : Frame, DeadlyDebuffFrameMixin

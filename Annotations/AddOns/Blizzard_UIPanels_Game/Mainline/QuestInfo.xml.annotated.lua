@@ -178,17 +178,17 @@ QuestInfoTimerText = {}
 --- @class QuestInfoTimerFrame : Frame
 QuestInfoTimerFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L13)
 --- child of QuestInfoRequiredMoneyDisplay (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_CopperButton
 QuestInfoRequiredMoneyDisplayCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L32)
 --- child of QuestInfoRequiredMoneyDisplay (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_SilverButton
 QuestInfoRequiredMoneyDisplaySilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L51)
 --- child of QuestInfoRequiredMoneyDisplay (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_GoldButton
 QuestInfoRequiredMoneyDisplayGoldButton = {}
@@ -268,17 +268,17 @@ QuestInfoRewardsFrameQuestInfoItem1["NameFrame"] = QuestInfoRewardsFrameQuestInf
 QuestInfoRewardsFrameQuestInfoItem1["Name"] = QuestInfoRewardsFrameQuestInfoItem1Name -- inherited
 QuestInfoRewardsFrameQuestInfoItem1["Count"] = QuestInfoRewardsFrameQuestInfoItem1Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L13)
 --- child of QuestInfoMoneyFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_CopperButton
 QuestInfoMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L32)
 --- child of QuestInfoMoneyFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_SilverButton
 QuestInfoMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestInfo.xml#L51)
 --- child of QuestInfoMoneyFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_GoldButton
 QuestInfoMoneyFrameGoldButton = {}

@@ -49,7 +49,7 @@
 --- @field ignoreColorOverrides boolean # true
 --- @field Text LootFrameMoneyElementTemplate_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L726)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L730)
 --- child of LootFrame (created in template DefaultPanelFlatTemplate)
 --- @type DefaultPanelFlatTemplate_Bg
 LootFrameBg = {}

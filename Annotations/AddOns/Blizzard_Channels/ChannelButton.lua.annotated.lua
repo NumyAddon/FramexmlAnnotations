@@ -352,7 +352,8 @@ end
 ChannelButtonCommunityMixin = CreateFromMixins(ChannelButtonMixin);--- @class ChannelButtonCommunityMixin : ChannelButtonMixin
 
 function ChannelButtonCommunityMixin:OnClick(button)
-	C_Club.SetClubPresenceSubscription(self.clubId);
+	local channelFrame = self:GetChannelList():GetChannelFrame();
+	channelFrame:SetFocusedClub(self.clubId);
 	ChannelButtonMixin.OnClick(self, button);
 end
 

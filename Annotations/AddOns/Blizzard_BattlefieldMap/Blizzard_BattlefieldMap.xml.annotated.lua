@@ -1,21 +1,21 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L3)
 --- @class BattlefieldMapTab : Button, BattlefieldMapTabMixin
 --- @field Left Texture
 --- @field Middle Texture
 --- @field Right Texture
 BattlefieldMapTab = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L62)
 --- child of BattlefieldMapFrame
 --- @class BattlefieldMapFrame_ScrollContainer : ScrollFrame, MapCanvasFrameScrollContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L118)
 --- child of BattlefieldMapFrame_BorderFrame
 --- @class BattlefieldMapFrame_BorderFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L68)
 --- child of BattlefieldMapFrame
 --- @class BattlefieldMapFrame_BorderFrame : Frame
 --- @field CloseButton BattlefieldMapFrame_BorderFrame_CloseButton
@@ -28,7 +28,7 @@ BattlefieldMapTab = {}
 --- @field Left Texture
 --- @field Right Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.xml#L56)
 --- @class BattlefieldMapFrame : Frame, MapCanvasFrameTemplate, BattlefieldMapMixin
 --- @field ScrollContainer BattlefieldMapFrame_ScrollContainer
 --- @field BorderFrame BattlefieldMapFrame_BorderFrame

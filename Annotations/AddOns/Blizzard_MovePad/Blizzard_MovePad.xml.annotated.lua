@@ -9,7 +9,7 @@
 --- @class MovePadLock : CheckButton
 MovePadLock = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L79)
 --- child of MovePadForward (created in template UIPanelSquareButton)
 --- @type Texture
 MovePadForwardIcon = {}
@@ -20,7 +20,7 @@ MovePadForwardIcon = {}
 MovePadForward = {}
 MovePadForward["icon"] = MovePadForwardIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L79)
 --- child of MovePadJump (created in template UIPanelSquareButton)
 --- @type Texture
 MovePadJumpIcon = {}
@@ -31,7 +31,7 @@ MovePadJumpIcon = {}
 MovePadJump = {}
 MovePadJump["icon"] = MovePadJumpIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L79)
 --- child of MovePadRotateLeft (created in template UIPanelSquareButton)
 --- @type Texture
 MovePadRotateLeftIcon = {}
@@ -42,7 +42,7 @@ MovePadRotateLeftIcon = {}
 MovePadRotateLeft = {}
 MovePadRotateLeft["icon"] = MovePadRotateLeftIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L79)
 --- child of MovePadRotateRight (created in template UIPanelSquareButton)
 --- @type Texture
 MovePadRotateRightIcon = {}
@@ -53,7 +53,7 @@ MovePadRotateRightIcon = {}
 MovePadRotateRight = {}
 MovePadRotateRight["icon"] = MovePadRotateRightIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L79)
 --- child of MovePadBackward (created in template UIPanelSquareButton)
 --- @type Texture
 MovePadBackwardIcon = {}
@@ -64,7 +64,7 @@ MovePadBackwardIcon = {}
 MovePadBackward = {}
 MovePadBackward["icon"] = MovePadBackwardIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L79)
 --- child of MovePadStrafeLeft (created in template UIPanelSquareButton)
 --- @type Texture
 MovePadStrafeLeftIcon = {}
@@ -75,7 +75,7 @@ MovePadStrafeLeftIcon = {}
 MovePadStrafeLeft = {}
 MovePadStrafeLeft["icon"] = MovePadStrafeLeftIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MovePad/Blizzard_MovePad.xml#L79)
 --- child of MovePadStrafeRight (created in template UIPanelSquareButton)
 --- @type Texture
 MovePadStrafeRightIcon = {}

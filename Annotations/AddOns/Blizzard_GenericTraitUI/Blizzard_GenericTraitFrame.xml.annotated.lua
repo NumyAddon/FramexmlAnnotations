@@ -72,6 +72,7 @@ GenericTraitFrame["defaultSelectSound"] = SOUNDKIT.UI_CLASS_TALENT_LEARN_TALENT
 GenericTraitFrame["defaultDeselectSound"] = SOUNDKIT.UI_CLASS_TALENT_NODE_REFUND
 GenericTraitFrame["getTemplateType"] = TalentButtonUtil.GetTemplateForTalentType -- inherited
 GenericTraitFrame["getSpecializedMixin"] = TalentButtonUtil.GetSpecializedMixin -- inherited
+GenericTraitFrame["getSpecializedChoiceMixin"] = TalentButtonUtil.GetSpecializedChoiceMixin -- inherited
 GenericTraitFrame["buttonSize"] = 40 -- inherited
 GenericTraitFrame["enableZoomAndPan"] = true -- inherited
 GenericTraitFrame["excludeStagedChangesForCurrencies"] = false -- inherited

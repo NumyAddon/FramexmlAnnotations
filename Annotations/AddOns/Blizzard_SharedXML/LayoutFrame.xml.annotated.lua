@@ -20,7 +20,7 @@
 --- Template
 --- @class GridLayoutFrame : Frame, ResizeLayoutFrame, GridLayoutFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/LayoutFrame.xml#L159)
 --- Template
 --- @class StaticGridLayoutFrame : Frame, BaseLayoutFrameTemplate, StaticGridLayoutFrameMixin
 

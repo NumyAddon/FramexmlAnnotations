@@ -46,273 +46,265 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L397)
 --- Template
---- @class SystemFont_Med2 : Font
+--- @class SystemFont_Med3 : Font
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L415)
 --- Template
---- @class SystemFont_Med3 : Font
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L433)
---- Template
 --- @class SystemFont_Shadow_Med3 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L486)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L468)
 --- Template
 --- @class SystemFont_Shadow_Med3_Outline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L539)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L521)
 --- Template
 --- @class QuestFont_Large : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L557)
---- Template
---- @class QuestFont_Huge : Font
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L575)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L539)
 --- Template
 --- @class QuestFont_30 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L593)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L557)
 --- Template
 --- @class QuestFont_39 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L611)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L575)
 --- Template
 --- @class SystemFont_Large : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L629)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L593)
 --- Template
 --- @class SystemFont_Shadow_Large_Outline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L682)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L646)
 --- Template
 --- @class SystemFont_Shadow_Med2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L735)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L699)
 --- Template
 --- @class SystemFont_Shadow_Med2_Outline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L788)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L752)
 --- Template
 --- @class SystemFont_Shadow_Large : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L841)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L805)
 --- Template
 --- @class SystemFont_Large2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L859)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L823)
 --- Template
 --- @class SystemFont_Shadow_Large2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L912)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L876)
 --- Template
 --- @class SystemFont_Shadow_Large2_Outline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L965)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L929)
 --- Template
 --- @class Game17Font_Shadow : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1003)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L967)
 --- Template
 --- @class SystemFont_Shadow_Huge1 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1056)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1020)
 --- Template
 --- @class SystemFont_Shadow_Huge1_Outline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1073)
 --- Template
 --- @class SystemFont_Huge2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1091)
 --- Template
 --- @class SystemFont_Shadow_Huge2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1144)
 --- Template
 --- @class SystemFont_Shadow_Huge2_Outline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1233)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1197)
 --- Template
 --- @class SystemFont_Shadow_Huge3 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1250)
 --- Template
 --- @class SystemFont_Shadow_Outline_Huge3 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1303)
 --- Template
 --- @class SystemFont_Huge4 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1357)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1321)
 --- Template
 --- @class SystemFont_Shadow_Huge4 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1410)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1374)
 --- Template
 --- @class SystemFont_Shadow_Huge4_Outline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1463)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1427)
 --- Template
 --- @class SystemFont_World : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1480)
 --- Template
 --- @class SystemFont_World_ThickOutline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1533)
 --- Template
 --- @class SystemFont22_Outline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1587)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1551)
 --- Template
 --- @class SystemFont22_Shadow_Outline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1604)
 --- Template
 --- @class SystemFont16_Shadow_ThickOutline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1658)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1622)
 --- Template
 --- @class SystemFont18_Shadow_ThickOutline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1676)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1640)
 --- Template
 --- @class SystemFont22_Shadow_ThickOutline : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1694)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1658)
 --- Template
 --- @class SystemFont_Med1 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1712)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1676)
 --- Template
 --- @class SystemFont_WTF2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1730)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1694)
 --- Template
 --- @class SystemFont_Outline_WTF2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1748)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1712)
 --- Template
 --- @class GameTooltipHeader : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1766)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1730)
 --- Template
 --- @class System_IME : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1784)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1748)
 --- Template
 --- @class NumberFont_Shadow_Tiny : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1837)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1801)
 --- Template
 --- @class NumberFont_Shadow_Small : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1890)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1854)
 --- Template
 --- @class NumberFont_Shadow_Med : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1943)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1907)
 --- Template
 --- @class NumberFont_Shadow_Large : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1986)
---- Template
---- @class ChatFontNormal : Font, NumberFont_Shadow_Med
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1989)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1950)
 --- Template
 --- @class ChatFontSmall : Font, NumberFont_Shadow_Small
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1993)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1954)
 --- Template
 --- @class ConsoleFontNormal : Font, NumberFont_Shadow_Med
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1996)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1957)
 --- Template
 --- @class ConsoleFontSmall : Font, NumberFont_Shadow_Small
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2000)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1961)
 --- Template
 --- @class Tooltip_Med : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2018)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1979)
 --- Template
 --- @class Tooltip_Small : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2036)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L1997)
 --- Template
 --- @class System15Font : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2054)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2015)
 --- Template
 --- @class Game16Font : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2072)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2033)
 --- Template
 --- @class Game30Font : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2090)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2051)
 --- Template
 --- @class Game32Font_Shadow2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2089)
 --- Template
 --- @class Game36Font_Shadow2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2127)
 --- Template
 --- @class Game40Font_Shadow2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2204)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2165)
 --- Template
 --- @class Game46Font_Shadow2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2242)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2203)
 --- Template
 --- @class Game52Font_Shadow2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2241)
 --- Template
 --- @class Game58Font_Shadow2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2279)
 --- Template
 --- @class Game69Font_Shadow2 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2356)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2317)
 --- Template
 --- @class Game72Font : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2335)
 --- Template
 --- @class Game72Font_Shadow : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2426)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2387)
 --- Template
 --- @class FriendsFont_Normal : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2479)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2440)
 --- Template
 --- @class FriendsFont_11 : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2532)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2493)
 --- Template
 --- @class FriendsFont_Small : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2546)
 --- Template
 --- @class FriendsFont_Large : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2638)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2599)
 --- Template
 --- @class FriendsFont_UserText : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2691)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2652)
+--- Template
+--- @class NumberFont_Normal_Med : Font
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2670)
 --- Template
 --- @class NumberFont_Outline_Med : Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2709)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/SharedFonts.xml#L2688)
 --- Template
 --- @class NumberFont_Outline_Large : Font
 

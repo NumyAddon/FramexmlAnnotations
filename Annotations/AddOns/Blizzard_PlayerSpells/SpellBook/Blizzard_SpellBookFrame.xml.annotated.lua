@@ -24,25 +24,27 @@
 --- @field textPadLeft number # 13
 --- @field textPadRight number # 5
 --- @field tooltipAnchor string # ANCHOR_BOTTOMLEFT
+--- @field buttonBorderAtlas string # spellbook-rotationhelper-iconframe
+--- @field buttonBorderAtlasSize number # 35
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L103)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_SearchBox : EditBox, SpellSearchBoxTemplate
 --- @field instructionText any # SPELLBOOK_SEARCH_INSTRUCTIONS
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L112)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_SearchPreviewContainer : Frame, SpellSearchPreviewContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L132)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L134)
 --- child of SpellBookFrameTemplate_PagedSpellsFrame
 --- @class SpellBookFrameTemplate_PagedSpellsFrame_View1 : Frame, StaticGridLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L140)
 --- child of SpellBookFrameTemplate_PagedSpellsFrame
 --- @class SpellBookFrameTemplate_PagedSpellsFrame_View2 : Frame, StaticGridLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L144)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L146)
 --- child of SpellBookFrameTemplate_PagedSpellsFrame
 --- @class SpellBookFrameTemplate_PagedSpellsFrame_PagingControls : Frame, PagingControlsHorizontalTemplate
 --- @field fontName string # SystemFont_Med3
@@ -51,7 +53,7 @@
 --- @field prevPageSound any # SOUNDKIT.IG_ABILITY_PAGE_TURN
 --- @field nextPageSound any # SOUNDKIT.IG_ABILITY_PAGE_TURN
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L119)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_PagedSpellsFrame : Frame, PagedCondensedVerticalGridContentFrameTemplate
 --- @field viewsPerPage number # 2

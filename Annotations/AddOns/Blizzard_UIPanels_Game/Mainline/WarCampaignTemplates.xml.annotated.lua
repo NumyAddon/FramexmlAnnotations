@@ -96,7 +96,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L179)
 --- child of CampaignHeaderTemplate
---- @class CampaignHeaderTemplate_CollapseButton : Button, QuestLogHeaderCollapseButtonTemplate
+--- @class CampaignHeaderTemplate_CollapseButton : Button, CollapseButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L184)
 --- child of CampaignHeaderTemplate
@@ -119,7 +119,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L216)
 --- child of CampaignHeaderMinimalTemplate
---- @class CampaignHeaderMinimalTemplate_CollapseButton : Button, QuestLogHeaderCollapseButtonTemplate
+--- @class CampaignHeaderMinimalTemplate_CollapseButton : Button, CollapseButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L259)
 --- child of CampaignHeaderMinimalTemplate_NextObjective
@@ -141,9 +141,9 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WarCampaignTemplates.xml#L208)
 --- Template
---- @class CampaignHeaderMinimalTemplate : Button, ResizeLayoutFrame, QuestLogHeaderCodeMixin, CampaignHeaderMinimalMixin, CampaignHeaderCollapsibleMixin
+--- @class CampaignHeaderMinimalTemplate : Button, ResizeLayoutFrame, QuestLogHeaderCodeMixin, ListHeaderVisualMixin, ListHeaderMixin, CampaignHeaderMinimalMixin, CampaignHeaderCollapsibleMixin
 --- @field leftPadding number # 11
---- @field minimumCollapsedHeight number # 40
+--- @field minimumHeight number # 22
 --- @field fixedWidth number # 289
 --- @field CollapseButton CampaignHeaderMinimalTemplate_CollapseButton
 --- @field NextObjective CampaignHeaderMinimalTemplate_NextObjective

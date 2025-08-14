@@ -382,35 +382,35 @@ SendMailNameEditBoxRight = {}
 --- @class SendMailNameEditBox : EditBox, AutoCompleteEditBoxTemplate
 SendMailNameEditBox = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L102)
---- child of SendMailCostMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-SendMailCostMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L105)
 --- child of SendMailCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 SendMailCostMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L124)
 --- child of SendMailCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 SendMailCostMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L143)
 --- child of SendMailCostMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 SendMailCostMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L85)
+--- child of SendMailCostMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+SendMailCostMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L629)
 --- child of SendMailFrame
 --- @class SendMailCostMoneyFrame : Frame, SmallMoneyFrameTemplate
 SendMailCostMoneyFrame = {}
 SendMailCostMoneyFrame["small"] = 1 -- inherited
-SendMailCostMoneyFrame["trialErrorButton"] = SendMailCostMoneyFrameTrialErrorButton -- inherited
 SendMailCostMoneyFrame["CopperButton"] = SendMailCostMoneyFrameCopperButton -- inherited
 SendMailCostMoneyFrame["SilverButton"] = SendMailCostMoneyFrameSilverButton -- inherited
 SendMailCostMoneyFrame["GoldButton"] = SendMailCostMoneyFrameGoldButton -- inherited
+SendMailCostMoneyFrame["trialErrorButton"] = SendMailCostMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L662)
 --- child of SendMailSubjectEditBox
@@ -608,30 +608,97 @@ SendMailAttachment16Count = {}
 SendMailAttachment16 = {}
 SendMailAttachment16["Count"] = SendMailAttachment16Count -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L17)
+--- child of SendMailMoneyGold (created in template MoneyFrameEditBoxTemplate)
+--- @type Texture
+SendMailMoneyGoldLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L25)
+--- child of SendMailMoneyGold (created in template MoneyFrameEditBoxTemplate)
+--- @type Texture
+SendMailMoneyGoldRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L33)
+--- child of SendMailMoneyGold (created in template MoneyFrameEditBoxTemplate)
+--- @type Texture
+SendMailMoneyGoldMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L79)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Gold
 SendMailMoneyGold = {}
+SendMailMoneyGold["coinAtlas"] = "coin-gold"
+SendMailMoneyGold["coinSymbol"] = GOLD_AMOUNT_SYMBOL
+SendMailMoneyGold["coinDisplayOffsetX"] = -4
+SendMailMoneyGold["darkenOnDigits"] = 9
+SendMailMoneyGold["baseWidth"] = 70
+SendMailMoneyGold["baseHeight"] = 20 -- inherited
+SendMailMoneyGold["left"] = SendMailMoneyGoldLeft -- inherited
+SendMailMoneyGold["right"] = SendMailMoneyGoldRight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L17)
+--- child of SendMailMoneySilver (created in template MoneyFrameEditBoxTemplate)
+--- @type Texture
+SendMailMoneySilverLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L25)
+--- child of SendMailMoneySilver (created in template MoneyFrameEditBoxTemplate)
+--- @type Texture
+SendMailMoneySilverRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L33)
+--- child of SendMailMoneySilver (created in template MoneyFrameEditBoxTemplate)
+--- @type Texture
+SendMailMoneySilverMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L96)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Silver
 SendMailMoneySilver = {}
+SendMailMoneySilver["coinAtlas"] = "coin-silver"
+SendMailMoneySilver["coinSymbol"] = SILVER_AMOUNT_SYMBOL
+SendMailMoneySilver["baseWidth"] = 48
+SendMailMoneySilver["baseHeight"] = 20 -- inherited
+SendMailMoneySilver["left"] = SendMailMoneySilverLeft -- inherited
+SendMailMoneySilver["right"] = SendMailMoneySilverRight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L17)
+--- child of SendMailMoneyCopper (created in template MoneyFrameEditBoxTemplate)
+--- @type Texture
+SendMailMoneyCopperLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L25)
+--- child of SendMailMoneyCopper (created in template MoneyFrameEditBoxTemplate)
+--- @type Texture
+SendMailMoneyCopperRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L33)
+--- child of SendMailMoneyCopper (created in template MoneyFrameEditBoxTemplate)
+--- @type Texture
+SendMailMoneyCopperMiddle = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L111)
 --- child of SendMailMoney (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Copper
 SendMailMoneyCopper = {}
+SendMailMoneyCopper["coinAtlas"] = "coin-copper"
+SendMailMoneyCopper["coinSymbol"] = COPPER_AMOUNT_SYMBOL
+SendMailMoneyCopper["baseWidth"] = 48
+SendMailMoneyCopper["baseHeight"] = 20 -- inherited
+SendMailMoneyCopper["left"] = SendMailMoneyCopperLeft -- inherited
+SendMailMoneyCopper["right"] = SendMailMoneyCopperRight -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L728)
 --- child of SendMailMoneyButton
 --- @class SendMailMoney : Frame, MoneyInputFrameTemplate
 SendMailMoney = {}
+SendMailMoney["baseWidth"] = 176 -- inherited
+SendMailMoney["baseHeight"] = 18 -- inherited
 SendMailMoney["gold"] = SendMailMoneyGold -- inherited
 SendMailMoney["silver"] = SendMailMoneySilver -- inherited
 SendMailMoney["copper"] = SendMailMoneyCopper -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L340)
 --- child of SendMailSendMoneyButton (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_Text
 SendMailSendMoneyButtonText = {}
@@ -642,7 +709,7 @@ SendMailSendMoneyButtonText = {}
 SendMailSendMoneyButton = {}
 SendMailSendMoneyButton["text"] = SendMailSendMoneyButtonText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L340)
 --- child of SendMailCODButton (created in template UIRadioButtonTemplate)
 --- @type UIRadioButtonTemplate_Text
 SendMailCODButtonText = {}
@@ -669,17 +736,17 @@ SendMailMoneyButton = {}
 SendMailMoneyInset = {}
 SendMailMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1354)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 SendMailMoneyBgLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1362)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 SendMailMoneyBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1370)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 SendMailMoneyBgMiddle = {}
@@ -689,35 +756,35 @@ SendMailMoneyBgMiddle = {}
 --- @class SendMailMoneyBg : Frame, ThinGoldEdgeTemplate
 SendMailMoneyBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L102)
---- child of SendMailMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-SendMailMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L105)
 --- child of SendMailMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 SendMailMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L124)
 --- child of SendMailMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 SendMailMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L143)
 --- child of SendMailMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 SendMailMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L85)
+--- child of SendMailMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+SendMailMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L776)
 --- child of SendMailFrame
 --- @class SendMailMoneyFrame : Frame, SmallMoneyFrameTemplate
 SendMailMoneyFrame = {}
 SendMailMoneyFrame["small"] = 1 -- inherited
-SendMailMoneyFrame["trialErrorButton"] = SendMailMoneyFrameTrialErrorButton -- inherited
 SendMailMoneyFrame["CopperButton"] = SendMailMoneyFrameCopperButton -- inherited
 SendMailMoneyFrame["SilverButton"] = SendMailMoneyFrameSilverButton -- inherited
 SendMailMoneyFrame["GoldButton"] = SendMailMoneyFrameGoldButton -- inherited
+SendMailMoneyFrame["trialErrorButton"] = SendMailMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L781)
 --- child of SendMailFrame
@@ -784,18 +851,18 @@ MailFrameTab2 = {}
 --- @class MailFrameTrialError : FontString, GameFontNormal
 MailFrameTrialError = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L887)
 --- child of MailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 MailFrameInset = {}
 MailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L881)
 --- child of MailFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 MailFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L864)
 --- child of MailFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 MailFrameBg = {}
@@ -895,119 +962,119 @@ OpenMailBodyText["tooltipFrame"] = GameTooltip -- inherited
 --- @field ConsortiumNote ConsortiumMailFrame_ConsortiumNote
 ConsortiumMailFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L102)
---- child of OpenMailTransactionAmountMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-OpenMailTransactionAmountMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L105)
 --- child of OpenMailTransactionAmountMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 OpenMailTransactionAmountMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L124)
 --- child of OpenMailTransactionAmountMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 OpenMailTransactionAmountMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L143)
 --- child of OpenMailTransactionAmountMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 OpenMailTransactionAmountMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L85)
+--- child of OpenMailTransactionAmountMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+OpenMailTransactionAmountMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1155)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailTransactionAmountMoneyFrame : Frame, SmallMoneyFrameTemplate
 OpenMailTransactionAmountMoneyFrame = {}
 OpenMailTransactionAmountMoneyFrame["small"] = 1 -- inherited
-OpenMailTransactionAmountMoneyFrame["trialErrorButton"] = OpenMailTransactionAmountMoneyFrameTrialErrorButton -- inherited
 OpenMailTransactionAmountMoneyFrame["CopperButton"] = OpenMailTransactionAmountMoneyFrameCopperButton -- inherited
 OpenMailTransactionAmountMoneyFrame["SilverButton"] = OpenMailTransactionAmountMoneyFrameSilverButton -- inherited
 OpenMailTransactionAmountMoneyFrame["GoldButton"] = OpenMailTransactionAmountMoneyFrameGoldButton -- inherited
+OpenMailTransactionAmountMoneyFrame["trialErrorButton"] = OpenMailTransactionAmountMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L102)
---- child of OpenMailDepositMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-OpenMailDepositMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L105)
 --- child of OpenMailDepositMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 OpenMailDepositMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L124)
 --- child of OpenMailDepositMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 OpenMailDepositMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L143)
 --- child of OpenMailDepositMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 OpenMailDepositMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L85)
+--- child of OpenMailDepositMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+OpenMailDepositMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1166)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailDepositMoneyFrame : Frame, SmallMoneyFrameTemplate
 OpenMailDepositMoneyFrame = {}
 OpenMailDepositMoneyFrame["small"] = 1 -- inherited
-OpenMailDepositMoneyFrame["trialErrorButton"] = OpenMailDepositMoneyFrameTrialErrorButton -- inherited
 OpenMailDepositMoneyFrame["CopperButton"] = OpenMailDepositMoneyFrameCopperButton -- inherited
 OpenMailDepositMoneyFrame["SilverButton"] = OpenMailDepositMoneyFrameSilverButton -- inherited
 OpenMailDepositMoneyFrame["GoldButton"] = OpenMailDepositMoneyFrameGoldButton -- inherited
+OpenMailDepositMoneyFrame["trialErrorButton"] = OpenMailDepositMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L102)
---- child of OpenMailHouseCutMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-OpenMailHouseCutMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L105)
 --- child of OpenMailHouseCutMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 OpenMailHouseCutMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L124)
 --- child of OpenMailHouseCutMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 OpenMailHouseCutMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L143)
 --- child of OpenMailHouseCutMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 OpenMailHouseCutMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L85)
+--- child of OpenMailHouseCutMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+OpenMailHouseCutMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1186)
 --- child of OpenMailInvoiceFrame
 --- @class OpenMailHouseCutMoneyFrame : Frame, SmallMoneyFrameTemplate
 OpenMailHouseCutMoneyFrame = {}
 OpenMailHouseCutMoneyFrame["small"] = 1 -- inherited
-OpenMailHouseCutMoneyFrame["trialErrorButton"] = OpenMailHouseCutMoneyFrameTrialErrorButton -- inherited
 OpenMailHouseCutMoneyFrame["CopperButton"] = OpenMailHouseCutMoneyFrameCopperButton -- inherited
 OpenMailHouseCutMoneyFrame["SilverButton"] = OpenMailHouseCutMoneyFrameSilverButton -- inherited
 OpenMailHouseCutMoneyFrame["GoldButton"] = OpenMailHouseCutMoneyFrameGoldButton -- inherited
+OpenMailHouseCutMoneyFrame["trialErrorButton"] = OpenMailHouseCutMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1212)
 --- child of OpenMailSalePriceMoneyFrame
 --- @class OpenMailSalePriceMoneyFrame_Count : FontString, InvoiceTextFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L102)
---- child of OpenMailSalePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_TrialErrorButton
-OpenMailSalePriceMoneyFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L105)
 --- child of OpenMailSalePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 OpenMailSalePriceMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L124)
 --- child of OpenMailSalePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 OpenMailSalePriceMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L143)
 --- child of OpenMailSalePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 OpenMailSalePriceMoneyFrameGoldButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L85)
+--- child of OpenMailSalePriceMoneyFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+OpenMailSalePriceMoneyFrameTrialErrorButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1206)
 --- child of OpenMailInvoiceFrame
@@ -1015,10 +1082,10 @@ OpenMailSalePriceMoneyFrameGoldButton = {}
 --- @field Count OpenMailSalePriceMoneyFrame_Count
 OpenMailSalePriceMoneyFrame = {}
 OpenMailSalePriceMoneyFrame["small"] = 1 -- inherited
-OpenMailSalePriceMoneyFrame["trialErrorButton"] = OpenMailSalePriceMoneyFrameTrialErrorButton -- inherited
 OpenMailSalePriceMoneyFrame["CopperButton"] = OpenMailSalePriceMoneyFrameCopperButton -- inherited
 OpenMailSalePriceMoneyFrame["SilverButton"] = OpenMailSalePriceMoneyFrameSilverButton -- inherited
 OpenMailSalePriceMoneyFrame["GoldButton"] = OpenMailSalePriceMoneyFrameGoldButton -- inherited
+OpenMailSalePriceMoneyFrame["trialErrorButton"] = OpenMailSalePriceMoneyFrameTrialErrorButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1105)
 --- child of OpenMailInvoiceFrame
@@ -1237,18 +1304,18 @@ OpenMailSubject = {}
 --- @class OpenMailHorizontalBarLeft : Texture
 OpenMailHorizontalBarLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L887)
 --- child of OpenMailFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 OpenMailFrameInset = {}
 OpenMailFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L881)
 --- child of OpenMailFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 OpenMailFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L864)
 --- child of OpenMailFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 OpenMailFrameBg = {}

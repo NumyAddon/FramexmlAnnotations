@@ -42,6 +42,7 @@
 --- @field heightPadding number # 20
 --- @field Confirm QuestSessionDialogButtonContainerTemplate_Confirm
 --- @field Decline QuestSessionDialogButtonContainerTemplate_Decline
+--- @field Buttons table<number, QuestSessionDialogButtonContainerTemplate_Confirm | QuestSessionDialogButtonContainerTemplate_Decline>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/QuestSession.xml#L97)
 --- child of QuestSessionDialogTitleTemplate

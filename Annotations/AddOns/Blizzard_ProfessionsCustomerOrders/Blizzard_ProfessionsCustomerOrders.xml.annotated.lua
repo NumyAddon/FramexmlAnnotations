@@ -12,17 +12,17 @@
 --- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder
 --- @class ProfessionsCustomerOrdersFrame_MoneyFrameBorder_MoneyFrame : Frame, MoneyDisplayFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1354)
 --- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ProfessionsCustomerOrdersFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1362)
 --- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ProfessionsCustomerOrdersFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1370)
 --- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ProfessionsCustomerOrdersFrameMiddle = {}
@@ -58,12 +58,12 @@ ProfessionsCustomerOrdersFrameBrowseTab["mode"] = ProfessionsCustomerOrdersMode.
 ProfessionsCustomerOrdersFrameOrdersTab = {}
 ProfessionsCustomerOrdersFrameOrdersTab["mode"] = ProfessionsCustomerOrdersMode.Orders
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L830)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L834)
 --- child of ProfessionsCustomerOrdersFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 ProfessionsCustomerOrdersFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L797)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L801)
 --- child of ProfessionsCustomerOrdersFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ProfessionsCustomerOrdersFrameBg = {}

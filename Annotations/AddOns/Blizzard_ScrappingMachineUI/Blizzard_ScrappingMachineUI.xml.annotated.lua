@@ -15,18 +15,18 @@
 --- child of ScrappingMachineFrame
 --- @class ScrappingMachineFrame_ScrapButton : Button, MagicButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L883)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L887)
 --- child of ScrappingMachineFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ScrappingMachineFrameInset = {}
 ScrappingMachineFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L877)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L881)
 --- child of ScrappingMachineFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 ScrappingMachineFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.xml#L864)
 --- child of ScrappingMachineFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ScrappingMachineFrameBg = {}

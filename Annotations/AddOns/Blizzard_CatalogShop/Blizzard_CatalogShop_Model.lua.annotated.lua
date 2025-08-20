@@ -50,5 +50,5 @@ function CatalogShopModelSceneContainerFrameMixin:UpdatePlayerModel(data) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Model.lua#L168)
 function CatalogShopModelSceneContainerFrameMixin:OnProductSelected(data, forceSceneChange, preserveCurrentView) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Model.lua#L234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Model.lua#L245)
 function CatalogShopModelSceneContainerFrameMixin:OnFormChanged(useNativeForm) end

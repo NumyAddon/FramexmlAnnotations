@@ -87,7 +87,7 @@ AuctionHouseFrameAuctionsTab["displayMode"] = AuctionHouseFrameDisplayMode.Aucti
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L153)
 --- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay
---- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_StoreButton : Button, UIPanelGoldButtonTemplate
+--- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_StoreButton : Button, UIPanelGoldButtonTemplate, AuctionHouseStoreButtonMixin
 --- @field Logo Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L113)

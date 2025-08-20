@@ -26,7 +26,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L153)
 --- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay
---- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_StoreButton : Button, UIPanelGoldButtonTemplate
+--- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_StoreButton : Button, UIPanelGoldButtonTemplate, AuctionHouseStoreButtonMixin
 --- @field Logo Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L113)
@@ -64,19 +64,19 @@
 --- @field RightDisplay BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay
 --- @field Tutorial Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L217)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L186)
 --- child of BrowseWowTokenResultsTemplate
 --- @class BrowseWowTokenResultsTemplate_HelpButton : Button, MainHelpPlateButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L198)
 --- child of BrowseWowTokenResultsTemplate
 --- @class BrowseWowTokenResultsTemplate_TokenDisplay : Button, AuctionHouseItemDisplayTemplate, WoWTokenDisplayMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L212)
 --- child of BrowseWowTokenResultsTemplate
 --- @class BrowseWowTokenResultsTemplate_Buyout : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L269)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L238)
 --- child of BrowseWowTokenResultsTemplate
 --- @class BrowseWowTokenResultsTemplate_DummyScrollBar : Slider, DummyAuctionHouseScrollBarTemplate
 
@@ -106,19 +106,19 @@
 --- @field BuyoutLabel BrowseWowTokenResultsTemplate_BuyoutLabel
 --- @field BuyoutPrice BrowseWowTokenResultsTemplate_BuyoutPrice
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L340)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L309)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_ItemDisplay : Button, AuctionHouseInteractableItemDisplayTemplate, AuctionHouseSellFrameItemDisplayMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L373)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L342)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_PostButton : Button, UIPanelButtonTemplate, AuctionHouseSellFramePostButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L402)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L371)
 --- child of WoWTokenSellFrameTemplate_DummyItemList
 --- @class WoWTokenSellFrameTemplate_DummyItemList_DummyScrollBar : Slider, DummyAuctionHouseScrollBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L387)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L356)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_DummyItemList : Frame, AuctionHouseBackgroundTemplate
 --- @field backgroundAtlas string # auctionhouse-background-sell-right
@@ -129,31 +129,31 @@
 --- @field textureYOffsetClassic number # -3
 --- @field DummyScrollBar WoWTokenSellFrameTemplate_DummyItemList_DummyScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L405)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L374)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_DummyRefreshButton : Button, RefreshButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L259)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_BuyoutPriceLabel : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L264)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_MarketPrice : FontString, Number14FontWhite
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L269)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_EstimatedTime : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L274)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_TimeToSell : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L285)
 --- child of WoWTokenSellFrameTemplate
 --- @class WoWTokenSellFrameTemplate_CreateAuctionLabel : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L279)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseWoWTokenFrame.xml#L248)
 --- Template
 --- @class WoWTokenSellFrameTemplate : Frame, AuctionHouseBackgroundTemplate, WoWTokenSellFrameMixin
 --- @field backgroundAtlas string # auctionhouse-background-sell-left

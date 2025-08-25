@@ -202,6 +202,28 @@ class XmlFileParser
         file_put_contents($targetFile, $data);
     }
 
+    public function writeTemplatesFile(string $filename, string $outDir): void
+    {
+        $targetFile = $outDir . '/' . $filename . '.annotated.lua';
+        if (!is_dir(dirname($targetFile))) {
+            mkdir($outDir . '/' . dirname($filename), recursive: true);
+        }
+
+        $data = "--- @meta _\n\n--- @diagnostic disable-next-line: duplicate-doc-alias\n--- @alias Template\n";
+        $templateNames = array_map(fn (Template $template) => $template->getName(), $this->templateRegistry->all());
+        $templateNames = array_unique(array_filter($templateNames));
+        sort($templateNames, SORT_NATURAL | SORT_FLAG_CASE);
+        $data .= sprintf(
+            "--- | %s\n",
+            implode(
+                "\n--- | ",
+                array_map(fn (string $name) => json_encode($name), $templateNames),
+            ),
+        );
+
+        file_put_contents($targetFile, $data);
+    }
+
     public function writeRawXmlToFile(string $filename, string $outDir, string $prefixToStrip): void
     {
         $targetFile = $filename;

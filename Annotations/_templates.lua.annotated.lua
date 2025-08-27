@@ -2514,6 +2514,7 @@
 --- | "STTTemplate"
 --- | "SubscriptionInterstitialBulletPointTemplate"
 --- | "SubscriptionInterstitialSubscribeButtonTemplate"
+--- | "SubscriptionWideCatalogShopProductCardTemplate"
 --- | "SubSpellFont"
 --- | "SubZoneTextFont"
 --- | "SummaryAchievementTemplate"

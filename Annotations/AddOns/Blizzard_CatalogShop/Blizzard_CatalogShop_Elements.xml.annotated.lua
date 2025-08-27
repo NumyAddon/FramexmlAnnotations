@@ -50,10 +50,10 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L114)
 --- child of CatalogShopLoadingScreenTemplate
 --- @class CatalogShopLoadingScreenTemplate_Sign : Frame
+--- @field Chain03-back Texture
 --- @field Sign Texture
 --- @field Chain02 Texture
 --- @field Chain03 Texture
---- @field Chain03-back Texture
 --- @field Glow Texture
 --- @field SignMask MaskTexture
 --- @field StartLoad CatalogShopLoadingScreenTemplate_Sign_StartLoad

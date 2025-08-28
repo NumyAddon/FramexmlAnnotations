@@ -912,104 +912,104 @@ AddonListScrollFrame = {}
 AddonListScrollFrame["ScrollChildFrame"] = AddonListScrollFrameScrollChildFrame -- inherited
 AddonListScrollFrame["ScrollBar"] = AddonListScrollFrameScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L746)
 --- child of AddonListInset (created in template InsetFrameTemplate)
 --- @type Texture
 AddonListInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L781)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L787)
 --- child of AddonList (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 AddonListInset = {}
 AddonListInset["layoutType"] = "InsetFrameTemplate" -- inherited
 AddonListInset["Bg"] = AddonListInsetBg -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L762)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L768)
 --- child of AddonList (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 AddonListBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L767)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L773)
 --- child of AddonList (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 AddonListBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L772)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L778)
 --- child of AddonList (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 AddonListButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L598)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L604)
 --- child of AddonList (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 AddonListCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L504)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L510)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 AddonListBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L510)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L516)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleBg
 AddonListTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L524)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 AddonListPortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L526)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L532)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 AddonListPortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L531)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L537)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 AddonListTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L542)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 AddonListTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L547)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 AddonListTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L547)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L553)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 AddonListTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L562)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 AddonListTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L562)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L568)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 AddonListBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L567)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L573)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 AddonListBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L572)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L578)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 AddonListBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L578)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L584)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 AddonListLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L584)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_AddOnList/Classic/AddonList.xml#L590)
 --- child of AddonList (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 AddonListRightBorder = {}

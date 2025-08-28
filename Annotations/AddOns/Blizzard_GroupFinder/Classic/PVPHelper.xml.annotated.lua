@@ -75,11 +75,17 @@ PVPReadyDialogExtraFrame = {}
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogEnterBattleButton : Button, StaticPopupButtonTemplate
 PVPReadyDialogEnterBattleButton = {}
+PVPReadyDialogEnterBattleButton["baseWidth"] = 128 -- inherited
+PVPReadyDialogEnterBattleButton["baseHeight"] = 21 -- inherited
+PVPReadyDialogEnterBattleButton["useScaleWeight"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L182)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogHideButton : Button, StaticPopupButtonTemplate
 PVPReadyDialogHideButton = {}
+PVPReadyDialogHideButton["baseWidth"] = 128 -- inherited
+PVPReadyDialogHideButton["baseHeight"] = 21 -- inherited
+PVPReadyDialogHideButton["useScaleWeight"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L110)
 --- child of PVPReadyDialog
@@ -105,6 +111,7 @@ PVPReadyDialogAlertIcon = {}
 --- @field text PVPReadyDialogText
 --- @field SubText PVPReadyDialog_SubText
 --- @field Separator Texture
+--- @field Buttons table<number, PVPReadyDialogEnterBattleButton | PVPReadyDialogHideButton>
 PVPReadyDialog = {}
 PVPReadyDialog["extraFrame"] = PVPReadyDialogExtraFrame
 PVPReadyDialog["enterButton"] = PVPReadyDialogEnterBattleButton

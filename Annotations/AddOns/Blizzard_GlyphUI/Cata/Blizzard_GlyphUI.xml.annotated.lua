@@ -67,7 +67,7 @@
 --- @class GlyphFrameSideInsetBackground : Texture
 GlyphFrameSideInsetBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GlyphUI/Cata/Blizzard_GlyphUI.xml#L746)
 --- child of GlyphFrameSideInset (created in template InsetFrameTemplate)
 --- @type Texture
 GlyphFrameSideInsetBg = {}

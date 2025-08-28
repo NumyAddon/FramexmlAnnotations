@@ -13,7 +13,7 @@
 --- @class ScenarioFinderFrame_NoScenariosCover : Frame
 --- @field Label ScenarioFinderFrame_NoScenariosCover_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/ScenarioFinder.xml#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/ScenarioFinder.xml#L746)
 --- child of ScenarioFinderFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 ScenarioFinderFrameInsetBg = {}

@@ -8,12 +8,12 @@
 --- child of ToyBox
 --- @class ToyBox_progressBar : StatusBar, CollectionsProgressBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1164)
 --- child of ToyBox_searchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 ToyBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1155)
 --- child of ToyBox_searchBox (created in template SearchBoxTemplate)
 --- @type Texture
 ToyBoxSearchIcon = {}
@@ -99,7 +99,7 @@ ToyBoxSearchIcon = {}
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton18 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L746)
 --- child of ToyBox_iconsFrame (created in template InsetFrameTemplate)
 --- @type Texture
 ToyBoxBg = {}

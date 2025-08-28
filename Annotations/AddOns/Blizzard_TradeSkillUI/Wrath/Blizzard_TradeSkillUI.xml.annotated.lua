@@ -17,7 +17,7 @@
 --- @class TradeSkillLinkButton : Button
 TradeSkillLinkButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_TradeSkillUI/Wrath/Blizzard_TradeSkillUI.xml#L417)
 --- child of TradeSkillFrameAvailableFilterCheckButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 TradeSkillFrameAvailableFilterCheckButtonText = {}

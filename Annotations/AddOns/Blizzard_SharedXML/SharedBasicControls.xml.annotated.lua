@@ -84,23 +84,23 @@ BasicMessageDialog = {}
 --- @field ignoreInLayout boolean # true
 --- @field Tex Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L330)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L326)
 --- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_CloseButton : Button, SharedButtonLargeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L293)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L289)
 --- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_Title : FontString, Game30Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L301)
 --- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_Description : FontString, System15Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L308)
 --- child of BaseNineSliceDialog_Contents
 --- @class BaseNineSliceDialog_Contents_DescriptionDuplicate : FontString, System15Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/SharedBasicControls.xml#L276)
 --- child of BaseNineSliceDialog
 --- @class BaseNineSliceDialog_Contents : Frame
 --- @field CloseButton BaseNineSliceDialog_Contents_CloseButton

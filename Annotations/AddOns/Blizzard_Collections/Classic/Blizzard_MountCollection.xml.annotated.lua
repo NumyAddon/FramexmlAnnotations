@@ -27,7 +27,7 @@
 --- @field new MountListButtonTemplate_new
 --- @field newGlow Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L746)
 --- child of MountJournal_LeftInset (created in template InsetFrameTemplate)
 --- @type Texture
 MountJournalBg = {}
@@ -36,7 +36,7 @@ MountJournalBg = {}
 --- child of MountJournal
 --- @class MountJournal_LeftInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L746)
 --- child of MountJournal_RightInset (created in template InsetFrameTemplate)
 --- @type Texture
 MountJournalBg = {}
@@ -45,12 +45,12 @@ MountJournalBg = {}
 --- child of MountJournal
 --- @class MountJournal_RightInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L1155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L1164)
 --- child of MountJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 MountJournalSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L1146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_MountCollection.xml#L1155)
 --- child of MountJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 MountJournalSearchBoxSearchIcon = {}
@@ -59,6 +59,7 @@ MountJournalSearchBoxSearchIcon = {}
 --- child of MountJournal
 --- @class MountJournalSearchBox : EditBox, SearchBoxTemplate
 MountJournalSearchBox = {}
+MountJournalSearchBox["instructionText"] = SEARCH -- inherited
 MountJournalSearchBox["clearButton"] = MountJournalSearchBoxClearButton -- inherited
 MountJournalSearchBox["searchIcon"] = MountJournalSearchBoxSearchIcon -- inherited
 

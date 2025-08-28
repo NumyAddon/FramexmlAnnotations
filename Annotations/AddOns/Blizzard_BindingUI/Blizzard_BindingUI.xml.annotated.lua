@@ -101,7 +101,7 @@ KeyBindingFrameRightBorder = {}
 --- @class KeyBindingFrame_header : Frame, TranslucentFrameTemplate
 --- @field text KeyBindingFrame_header_text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BindingUI/Blizzard_BindingUI.xml#L417)
 --- child of KeyBindingFrame_characterSpecificButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 KeyBindingFrameText = {}

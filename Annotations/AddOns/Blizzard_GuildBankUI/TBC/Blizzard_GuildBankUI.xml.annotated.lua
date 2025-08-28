@@ -809,12 +809,12 @@ GuildBankPopupFrameScrollBar["ThumbTexture"] = GuildBankPopupFrameScrollBarThumb
 GuildBankPopupFrame = {}
 GuildBankPopupFrame["EditBox"] = GuildBankPopupEditBox
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L1155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L1164)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 GuildItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L1146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L1155)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 GuildItemSearchBoxSearchIcon = {}
@@ -822,6 +822,7 @@ GuildItemSearchBoxSearchIcon = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildBankUI/TBC/Blizzard_GuildBankUI.xml#L907)
 --- @class GuildItemSearchBox : EditBox, BagSearchBoxTemplate, GuildItemSearchBoxMixin
 GuildItemSearchBox = {}
+GuildItemSearchBox["instructionText"] = SEARCH -- inherited
 GuildItemSearchBox["clearButton"] = GuildItemSearchBoxClearButton -- inherited
 GuildItemSearchBox["searchIcon"] = GuildItemSearchBoxSearchIcon -- inherited
 

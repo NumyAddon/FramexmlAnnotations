@@ -316,7 +316,7 @@ SkillRankFrame1FillBar = {}
 --- @type Texture
 SkillRankFrame1Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L639)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L636)
 --- child of SkillFrame
 --- @class SkillRankFrame1 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame1 = {}
@@ -346,7 +346,7 @@ SkillRankFrame2FillBar = {}
 --- @type Texture
 SkillRankFrame2Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L648)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L645)
 --- child of SkillFrame
 --- @class SkillRankFrame2 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame2 = {}
@@ -376,7 +376,7 @@ SkillRankFrame3FillBar = {}
 --- @type Texture
 SkillRankFrame3Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L657)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L654)
 --- child of SkillFrame
 --- @class SkillRankFrame3 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame3 = {}
@@ -406,7 +406,7 @@ SkillRankFrame4FillBar = {}
 --- @type Texture
 SkillRankFrame4Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L666)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L663)
 --- child of SkillFrame
 --- @class SkillRankFrame4 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame4 = {}
@@ -436,7 +436,7 @@ SkillRankFrame5FillBar = {}
 --- @type Texture
 SkillRankFrame5Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L675)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L672)
 --- child of SkillFrame
 --- @class SkillRankFrame5 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame5 = {}
@@ -466,7 +466,7 @@ SkillRankFrame6FillBar = {}
 --- @type Texture
 SkillRankFrame6Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L684)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L681)
 --- child of SkillFrame
 --- @class SkillRankFrame6 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame6 = {}
@@ -496,7 +496,7 @@ SkillRankFrame7FillBar = {}
 --- @type Texture
 SkillRankFrame7Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L693)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L690)
 --- child of SkillFrame
 --- @class SkillRankFrame7 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame7 = {}
@@ -526,7 +526,7 @@ SkillRankFrame8FillBar = {}
 --- @type Texture
 SkillRankFrame8Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L702)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L699)
 --- child of SkillFrame
 --- @class SkillRankFrame8 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame8 = {}
@@ -556,7 +556,7 @@ SkillRankFrame9FillBar = {}
 --- @type Texture
 SkillRankFrame9Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L711)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L708)
 --- child of SkillFrame
 --- @class SkillRankFrame9 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame9 = {}
@@ -586,7 +586,7 @@ SkillRankFrame10FillBar = {}
 --- @type Texture
 SkillRankFrame10Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L720)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L717)
 --- child of SkillFrame
 --- @class SkillRankFrame10 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame10 = {}
@@ -616,7 +616,7 @@ SkillRankFrame11FillBar = {}
 --- @type Texture
 SkillRankFrame11Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L729)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L726)
 --- child of SkillFrame
 --- @class SkillRankFrame11 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame11 = {}
@@ -646,7 +646,7 @@ SkillRankFrame12FillBar = {}
 --- @type Texture
 SkillRankFrame12Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L738)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/SkillFrame.xml#L735)
 --- child of SkillFrame
 --- @class SkillRankFrame12 : StatusBar, SkillStatusBarTemplate
 SkillRankFrame12 = {}

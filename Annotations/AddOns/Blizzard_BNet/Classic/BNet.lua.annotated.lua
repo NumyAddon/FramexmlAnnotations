@@ -4,7 +4,7 @@
 --- @class BNToastMixin
 BNToastMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L307)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L303)
 --- @class BNetTimeAlertMixin
 BNetTimeAlertMixin = {}
 
@@ -51,28 +51,25 @@ function BNToastMixin:UpdateToastEvent(cvar, value) end
 function BNToastMixin:SetToastsEnabled(enabled) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L186)
-function BNToastMixin:SetToastDuration(duration) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L190)
 function BNToastMixin:ShowToast() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L280)
 function BNToastMixin:CheckShowToast() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L286)
 function BNToastMixin:AddToast(toastType, toastData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L292)
 function BNToastMixin:RemoveToast(toastType, toastData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L309)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L305)
 function BNetTimeAlertMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L316)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L312)
 function BNetTimeAlertMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L322)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L318)
 function BNetTimeAlertMixin:Start(time) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_BNet/Classic/BNet.lua#L324)
 function BNetTimeAlertMixin:OnUpdate(elapsed) end

@@ -31,12 +31,12 @@
 --- child of HeirloomsJournal
 --- @class HeirloomsJournal_progressBar : StatusBar, CollectionsProgressBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1164)
 --- child of HeirloomsJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 HeirloomsJournalSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L1155)
 --- child of HeirloomsJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 HeirloomsJournalSearchBoxSearchIcon = {}
@@ -45,6 +45,7 @@ HeirloomsJournalSearchBoxSearchIcon = {}
 --- child of HeirloomsJournal
 --- @class HeirloomsJournalSearchBox : EditBox, SearchBoxTemplate
 HeirloomsJournalSearchBox = {}
+HeirloomsJournalSearchBox["instructionText"] = SEARCH -- inherited
 HeirloomsJournalSearchBox["clearButton"] = HeirloomsJournalSearchBoxClearButton -- inherited
 HeirloomsJournalSearchBox["searchIcon"] = HeirloomsJournalSearchBoxSearchIcon -- inherited
 
@@ -56,7 +57,7 @@ HeirloomsJournalSearchBox["searchIcon"] = HeirloomsJournalSearchBoxSearchIcon --
 --- child of HeirloomsJournal
 --- @class HeirloomsJournal_ClassDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_HeirloomCollection.xml#L746)
 --- child of HeirloomsJournal_iconsFrame (created in template InsetFrameTemplate)
 --- @type Texture
 HeirloomsJournalBg = {}

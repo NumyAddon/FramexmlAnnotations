@@ -67,7 +67,7 @@ CompactUnitFrameProfilesDeleteButton = {}
 CompactUnitFrameProfilesDeleteButton["fitTextCanWidthDecrease"] = true -- inherited
 CompactUnitFrameProfilesDeleteButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L417)
 --- child of CompactUnitFrameProfilesRaidStylePartyFrames (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 CompactUnitFrameProfilesRaidStylePartyFramesText = {}
@@ -352,7 +352,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderLow = {}
 --- @type CompactUnitFrameProfilesSliderTemplate_High
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderHigh = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1018)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1024)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameHeightSlider (created in template HorizontalSliderTemplate)
 --- @type Texture
 CompactUnitFrameProfilesGeneralOptionsFrameHeightSliderThumb = {}
@@ -382,7 +382,7 @@ CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderLow = {}
 --- @type CompactUnitFrameProfilesSliderTemplate_High
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderHigh = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1018)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CUFProfiles/Blizzard_CompactUnitFrameProfiles.xml#L1024)
 --- child of CompactUnitFrameProfilesGeneralOptionsFrameWidthSlider (created in template HorizontalSliderTemplate)
 --- @type Texture
 CompactUnitFrameProfilesGeneralOptionsFrameWidthSliderThumb = {}

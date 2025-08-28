@@ -383,7 +383,7 @@ GuildControlUIRankSettingsFrameCheckbox18Text = {}
 GuildControlUIRankSettingsFrameCheckbox18 = {}
 GuildControlUIRankSettingsFrameCheckbox18["text"] = GuildControlUIRankSettingsFrameCheckbox18Text -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L616)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L615)
 --- child of GuildControlUIRankSettingsFrame
 --- @class GuildControlUIRankSettingsFrameCheckbox18Tooltip : Frame
 GuildControlUIRankSettingsFrameCheckbox18Tooltip = {}

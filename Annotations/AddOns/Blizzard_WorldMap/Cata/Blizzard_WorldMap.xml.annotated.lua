@@ -96,7 +96,7 @@ WorldMapMagnifyingGlassButton = {}
 --- @class WorldMapFrameCloseButton : Button, UIPanelCloseButton
 WorldMapFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_WorldMap/Cata/Blizzard_WorldMap.xml#L417)
 --- child of WorldMapTrackQuest (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 WorldMapTrackQuestText = {}

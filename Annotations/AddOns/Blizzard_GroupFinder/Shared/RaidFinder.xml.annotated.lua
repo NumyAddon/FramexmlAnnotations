@@ -13,7 +13,7 @@
 --- @class RaidFinderFrame_NoRaidsCover : Frame
 --- @field Label RaidFinderFrame_NoRaidsCover_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L746)
 --- child of RaidFinderFrameRoleInset (created in template InsetFrameTemplate)
 --- @type Texture
 RaidFinderFrameRoleInsetBg = {}
@@ -25,7 +25,7 @@ RaidFinderFrameRoleInset = {}
 RaidFinderFrameRoleInset["layoutType"] = "InsetFrameTemplate" -- inherited
 RaidFinderFrameRoleInset["Bg"] = RaidFinderFrameRoleInsetBg -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder/Shared/RaidFinder.xml#L746)
 --- child of RaidFinderFrameBottomInset (created in template InsetFrameTemplate)
 --- @type Texture
 RaidFinderFrameBottomInsetBg = {}

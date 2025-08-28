@@ -102,29 +102,33 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L276)
 --- child of CommunitiesMemberListFrameTemplate
+--- @class CommunitiesMemberListFrameTemplate_Spinner : Frame, SpinnerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L282)
+--- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_ShowOfflineButton : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L306)
 --- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopLeft : Texture, UI_Frame_InnerTopLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L305)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L311)
 --- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTopRight : Texture, UI_Frame_InnerTopRight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L316)
 --- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderBottomLeft : Texture, UI_Frame_InnerBotLeftCorner
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L315)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L321)
 --- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTop : Texture, _UI_Frame_InnerTopTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L321)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L327)
 --- child of CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderLeft : Texture, _UI_Frame_InnerLeftTile
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L290)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L296)
 --- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_ColumnDisplay : Frame, ColumnDisplayTemplate
 --- @field sortingFunction any # CommunitiesMemberListColumnDisplay_OnClick
@@ -134,16 +138,16 @@
 --- @field InsetBorderTop CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderTop
 --- @field InsetBorderLeft CommunitiesMemberListFrameTemplate_ColumnDisplay_InsetBorderLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L330)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L336)
 --- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L336)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L342)
 --- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L347)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L353)
 --- child of CommunitiesMemberListFrameTemplate
 --- @class CommunitiesMemberListFrameTemplate_InsetFrame : Frame, InsetFrameTemplate
 
@@ -155,6 +159,7 @@
 --- Template
 --- @class CommunitiesMemberListFrameTemplate : Frame, CommunitiesMemberListMixin
 --- @field WatermarkFrame CommunitiesMemberListFrameTemplate_WatermarkFrame
+--- @field Spinner CommunitiesMemberListFrameTemplate_Spinner
 --- @field ShowOfflineButton CommunitiesMemberListFrameTemplate_ShowOfflineButton
 --- @field ColumnDisplay CommunitiesMemberListFrameTemplate_ColumnDisplay
 --- @field ScrollBox CommunitiesMemberListFrameTemplate_ScrollBox
@@ -162,22 +167,22 @@
 --- @field InsetFrame CommunitiesMemberListFrameTemplate_InsetFrame
 --- @field MemberCount CommunitiesMemberListFrameTemplate_MemberCount
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L377)
 --- child of CommunitiesFrameMemberListDropdownTemplate
 --- @class CommunitiesFrameMemberListDropdownTemplate_NotificationOverlay : Frame
 --- @field UnreadNotificationIcon Texture
 --- @field Flash Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L375)
 --- Template
 --- @class CommunitiesFrameMemberListDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate, CommunitiesFrameMemberListDropdownMixin
 --- @field NotificationOverlay CommunitiesFrameMemberListDropdownTemplate_NotificationOverlay
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L402)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L408)
 --- Template
 --- @class GuildMemberListDropdownTemplate : DropdownButton, CommunitiesFrameMemberListDropdownTemplate, GuildMemberListDropdownMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L403)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Communities/CommunitiesMemberList.xml#L409)
 --- Template
 --- @class CommunityMemberListDropdownTemplate : DropdownButton, CommunitiesFrameMemberListDropdownTemplate, CommunityMemberListDropdownMixin
 

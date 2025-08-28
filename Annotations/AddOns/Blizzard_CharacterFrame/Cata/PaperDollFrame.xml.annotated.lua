@@ -67,7 +67,7 @@
 --- @class GearSetButtonTemplate_DeleteButton : Button
 --- @field texture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L255)
 --- child of GearSetButtonTemplate
 --- @class GearSetButtonTemplate_EditButton : Button
 --- @field texture Texture
@@ -99,12 +99,12 @@
 --- @field SelectedBar Texture
 --- @field icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L318)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L316)
 --- Template
 --- @class GearSetPopupButtonTemplate : CheckButton, SimplePopupButtonTemplate
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L334)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L332)
 --- Template
 --- @class PaperDollSidebarTabTemplate : Button
 --- @field TabBg Texture
@@ -112,65 +112,65 @@
 --- @field Hider Texture
 --- @field Highlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L440)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L438)
 --- child of PaperDollSidebarTabs
 --- @class PaperDollSidebarTab3 : Button, PaperDollSidebarTabTemplate
 PaperDollSidebarTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L445)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L443)
 --- child of PaperDollSidebarTabs
 --- @class PaperDollSidebarTab2 : Button, PaperDollSidebarTabTemplate
 PaperDollSidebarTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L450)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L448)
 --- child of PaperDollSidebarTabs
 --- @class PaperDollSidebarTab1 : Button, PaperDollSidebarTabTemplate
 PaperDollSidebarTab1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L416)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L414)
 --- child of PaperDollFrame
 --- @class PaperDollSidebarTabs : Frame
 --- @field DecorLeft Texture
 --- @field DecorRight Texture
 PaperDollSidebarTabs = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L487)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L485)
 --- child of PaperDollFrame_TitleManagerPane
 --- @class PaperDollFrame_TitleManagerPane_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L498)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L496)
 --- child of PaperDollFrame_TitleManagerPane
 --- @class PaperDollFrame_TitleManagerPane_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L481)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L479)
 --- child of PaperDollFrame
 --- @class PaperDollFrame_TitleManagerPane : Frame
 --- @field ScrollBox PaperDollFrame_TitleManagerPane_ScrollBox
 --- @field ScrollBar PaperDollFrame_TitleManagerPane_ScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L516)
 --- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L524)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L522)
 --- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrame_EquipmentManagerPane_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L531)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L529)
 --- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrameEquipSet : Button, UIPanelButtonTemplate
 PaperDollFrameEquipSet = {}
 PaperDollFrameEquipSet["fitTextCanWidthDecrease"] = true -- inherited
 PaperDollFrameEquipSet["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L540)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L538)
 --- child of PaperDollFrame_EquipmentManagerPane
 --- @class PaperDollFrameSaveSet : Button, UIPanelButtonTemplate
 PaperDollFrameSaveSet = {}
 PaperDollFrameSaveSet["fitTextCanWidthDecrease"] = true -- inherited
 PaperDollFrameSaveSet["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L512)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L510)
 --- child of PaperDollFrame
 --- @class PaperDollFrame_EquipmentManagerPane : Frame
 --- @field ScrollBox PaperDollFrame_EquipmentManagerPane_ScrollBox
@@ -178,81 +178,81 @@ PaperDollFrameSaveSet["fitTextWidthPadding"] = 40 -- inherited
 --- @field EquipSet PaperDollFrameEquipSet
 --- @field SaveSet PaperDollFrameSaveSet
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L662)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L660)
 --- child of CharacterModelScene
 --- @class CharacterModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L567)
 --- child of CharacterModelScene
 --- @class CharacterModelFrameBackgroundTopLeft : Texture
 CharacterModelFrameBackgroundTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L576)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L574)
 --- child of CharacterModelScene
 --- @class CharacterModelFrameBackgroundTopRight : Texture
 CharacterModelFrameBackgroundTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L581)
 --- child of CharacterModelScene
 --- @class CharacterModelFrameBackgroundBotLeft : Texture
 CharacterModelFrameBackgroundBotLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L588)
 --- child of CharacterModelScene
 --- @class CharacterModelFrameBackgroundBotRight : Texture
 CharacterModelFrameBackgroundBotRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L597)
 --- child of CharacterModelScene
 --- @class CharacterModelFrameBackgroundOverlay : Texture
 CharacterModelFrameBackgroundOverlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L608)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L606)
 --- child of CharacterModelScene
 --- @class PaperDollInnerBorderTopLeft : Texture, Char_Corner_UpperLeft
 PaperDollInnerBorderTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L613)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L611)
 --- child of CharacterModelScene
 --- @class PaperDollInnerBorderTopRight : Texture, Char_Corner_UpperRight
 PaperDollInnerBorderTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L618)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L616)
 --- child of CharacterModelScene
 --- @class PaperDollInnerBorderBottomLeft : Texture, Char_Corner_LowerLeft
 PaperDollInnerBorderBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L623)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L621)
 --- child of CharacterModelScene
 --- @class PaperDollInnerBorderBottomRight : Texture, Char_Corner_LowerRight
 PaperDollInnerBorderBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L628)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L626)
 --- child of CharacterModelScene
 --- @class PaperDollInnerBorderLeft : Texture, Char_Inner_Left
 PaperDollInnerBorderLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L634)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L632)
 --- child of CharacterModelScene
 --- @class PaperDollInnerBorderRight : Texture, Char_Inner_Right
 PaperDollInnerBorderRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L640)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L638)
 --- child of CharacterModelScene
 --- @class PaperDollInnerBorderTop : Texture, Char_Inner_Top
 PaperDollInnerBorderTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L646)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L644)
 --- child of CharacterModelScene
 --- @class PaperDollInnerBorderBottom : Texture, Char_Inner_Bottom
 PaperDollInnerBorderBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L652)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L650)
 --- child of CharacterModelScene
 --- @class PaperDollInnerBorderBottom2 : Texture, Char_Inner_Bottom
 PaperDollInnerBorderBottom2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L562)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L560)
 --- child of PaperDollFrame
 --- @class CharacterModelScene : ModelScene, PanningModelSceneMixinTemplate, CharacterModelSceneMixin
 --- @field ControlFrame CharacterModelScene_ControlFrame
@@ -283,7 +283,7 @@ CharacterHeadSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterHeadSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L677)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L675)
 --- child of PaperDollItemsFrame
 --- @class CharacterHeadSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterHeadSlot = {}
@@ -306,7 +306,7 @@ CharacterNeckSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterNeckSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L682)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L680)
 --- child of PaperDollItemsFrame
 --- @class CharacterNeckSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterNeckSlot = {}
@@ -329,7 +329,7 @@ CharacterShoulderSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterShoulderSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L687)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L685)
 --- child of PaperDollItemsFrame
 --- @class CharacterShoulderSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterShoulderSlot = {}
@@ -352,7 +352,7 @@ CharacterBackSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterBackSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L692)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L690)
 --- child of PaperDollItemsFrame
 --- @class CharacterBackSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterBackSlot = {}
@@ -375,7 +375,7 @@ CharacterChestSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterChestSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L697)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L695)
 --- child of PaperDollItemsFrame
 --- @class CharacterChestSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterChestSlot = {}
@@ -398,7 +398,7 @@ CharacterShirtSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterShirtSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L702)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L700)
 --- child of PaperDollItemsFrame
 --- @class CharacterShirtSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterShirtSlot = {}
@@ -421,7 +421,7 @@ CharacterTabardSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterTabardSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L707)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L705)
 --- child of PaperDollItemsFrame
 --- @class CharacterTabardSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterTabardSlot = {}
@@ -444,7 +444,7 @@ CharacterWristSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterWristSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L712)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L710)
 --- child of PaperDollItemsFrame
 --- @class CharacterWristSlot : ItemButton, PaperDollItemSlotButtonLeftTemplate
 CharacterWristSlot = {}
@@ -467,7 +467,7 @@ CharacterHandsSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterHandsSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L717)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L715)
 --- child of PaperDollItemsFrame
 --- @class CharacterHandsSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterHandsSlot = {}
@@ -490,7 +490,7 @@ CharacterWaistSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterWaistSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L722)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L720)
 --- child of PaperDollItemsFrame
 --- @class CharacterWaistSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterWaistSlot = {}
@@ -513,7 +513,7 @@ CharacterLegsSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterLegsSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L727)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L725)
 --- child of PaperDollItemsFrame
 --- @class CharacterLegsSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterLegsSlot = {}
@@ -536,7 +536,7 @@ CharacterFeetSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterFeetSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L732)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L730)
 --- child of PaperDollItemsFrame
 --- @class CharacterFeetSlot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterFeetSlot = {}
@@ -559,7 +559,7 @@ CharacterFinger0SlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterFinger0SlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L737)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L735)
 --- child of PaperDollItemsFrame
 --- @class CharacterFinger0Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterFinger0Slot = {}
@@ -582,7 +582,7 @@ CharacterFinger1SlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterFinger1SlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L742)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L740)
 --- child of PaperDollItemsFrame
 --- @class CharacterFinger1Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterFinger1Slot = {}
@@ -605,7 +605,7 @@ CharacterTrinket0SlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterTrinket0SlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L747)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L745)
 --- child of PaperDollItemsFrame
 --- @class CharacterTrinket0Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterTrinket0Slot = {}
@@ -628,7 +628,7 @@ CharacterTrinket1SlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterTrinket1SlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L752)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L750)
 --- child of PaperDollItemsFrame
 --- @class CharacterTrinket1Slot : ItemButton, PaperDollItemSlotButtonRightTemplate
 CharacterTrinket1Slot = {}
@@ -651,14 +651,14 @@ CharacterMainHandSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterMainHandSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L757)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L755)
 --- child of PaperDollItemsFrame
 --- @class CharacterMainHandSlot : ItemButton, PaperDollItemSlotButtonBottomTemplate
 CharacterMainHandSlot = {}
 CharacterMainHandSlot["Cooldown"] = CharacterMainHandSlotCooldown -- inherited
 CharacterMainHandSlot["popoutButton"] = CharacterMainHandSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L778)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L776)
 --- child of CharacterSecondaryHandSlot
 --- @class CharacterSecondaryHandSlot_BottomRightSlotTexture : Texture, Char_Slot_Bottom_Right
 
@@ -677,7 +677,7 @@ CharacterSecondaryHandSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterSecondaryHandSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L771)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L769)
 --- child of PaperDollItemsFrame
 --- @class CharacterSecondaryHandSlot : ItemButton, PaperDollItemSlotButtonBottomTemplate
 --- @field BottomRightSlotTexture CharacterSecondaryHandSlot_BottomRightSlotTexture
@@ -685,7 +685,7 @@ CharacterSecondaryHandSlot = {}
 CharacterSecondaryHandSlot["Cooldown"] = CharacterSecondaryHandSlotCooldown -- inherited
 CharacterSecondaryHandSlot["popoutButton"] = CharacterSecondaryHandSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L793)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L791)
 --- child of CharacterRangedSlot
 --- @class CharacterRangedSlot_BottomRightSlotTexture : Texture, Char_Slot_Bottom_Right
 
@@ -704,7 +704,7 @@ CharacterRangedSlotCooldown = {}
 --- @type PaperDollItemSlotButtonTemplate_PopoutButton
 CharacterRangedSlotPopoutButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L786)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L784)
 --- child of PaperDollItemsFrame
 --- @class CharacterRangedSlot : ItemButton, PaperDollItemSlotButtonBottomTemplate
 --- @field BottomRightSlotTexture CharacterRangedSlot_BottomRightSlotTexture
@@ -712,30 +712,30 @@ CharacterRangedSlot = {}
 CharacterRangedSlot["Cooldown"] = CharacterRangedSlotCooldown -- inherited
 CharacterRangedSlot["popoutButton"] = CharacterRangedSlotPopoutButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L675)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L673)
 --- child of PaperDollFrame
 --- @class PaperDollItemsFrame : Frame
 --- @field EquipmentSlots table<number, CharacterHeadSlot | CharacterNeckSlot | CharacterShoulderSlot | CharacterBackSlot | CharacterChestSlot | CharacterShirtSlot | CharacterTabardSlot | CharacterWristSlot | CharacterHandsSlot | CharacterWaistSlot | CharacterLegsSlot | CharacterFeetSlot | CharacterFinger0Slot | CharacterFinger1Slot | CharacterTrinket0Slot | CharacterTrinket1Slot>
 --- @field WeaponSlots table<number, CharacterMainHandSlot | CharacterSecondaryHandSlot | CharacterRangedSlot>
 PaperDollItemsFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L401)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L399)
 --- child of PaperDollFrame
 --- @class CharacterLevelText : FontString, GameFontNormalSmall2
 CharacterLevelText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L404)
 --- child of PaperDollFrame
 --- @class CharacterTrialLevelErrorText : FontString, GameFontNormalSmall
 CharacterTrialLevelErrorText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L398)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L396)
 --- @class PaperDollFrame : Frame
 --- @field TitleManagerPane PaperDollFrame_TitleManagerPane
 --- @field EquipmentManagerPane PaperDollFrame_EquipmentManagerPane
 PaperDollFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L812)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CharacterFrame/Cata/PaperDollFrame.xml#L810)
 --- @class GearManagerPopupFrame : Frame, IconSelectorPopupFrameTemplate, GearManagerPopupFrameMixin
 --- @field editBoxHeaderText any # GEARSETS_POPUP_TEXT
 GearManagerPopupFrame = {}

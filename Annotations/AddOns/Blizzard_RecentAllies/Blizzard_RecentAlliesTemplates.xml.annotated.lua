@@ -86,6 +86,7 @@
 --- @field Class RecentAlliesEntryTemplate_CharacterData_Class
 --- @field MostRecentInteraction RecentAlliesEntryTemplate_CharacterData_MostRecentInteraction
 --- @field Location RecentAlliesEntryTemplate_CharacterData_Location
+--- @field Dividers table<number, Texture>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L86)
 --- Template

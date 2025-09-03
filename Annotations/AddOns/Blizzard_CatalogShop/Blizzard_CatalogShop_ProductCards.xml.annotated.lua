@@ -1,37 +1,47 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L9)
+--- child of CatalogShopSectionHeaderTemplate
+--- @class CatalogShopSectionHeaderTemplate_headerText : FontString, GameFontNormalLarge
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L5)
+--- Template
+--- @class CatalogShopSectionHeaderTemplate : Frame, CatalogShopSectionHeaderMixin
+--- @field headerText CatalogShopSectionHeaderTemplate_headerText
+--- @field sectionHeaderRule Texture
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L32)
 --- child of DefaultCatalogShopCardTemplate
 --- @class DefaultCatalogShopCardTemplate_InvisibleMouseOverFrame : Frame, InvisibleMouseOverFrameMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L38)
 --- child of DefaultCatalogShopCardTemplate
 --- @class DefaultCatalogShopCardTemplate_BackgroundContainer : Frame
 --- @field Background Texture
 --- @field FrameBackground Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L25)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L49)
 --- child of DefaultCatalogShopCardTemplate
 --- @class DefaultCatalogShopCardTemplate_ModelScene : ModelScene, NoCameraControlModelSceneMixinTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L74)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
 --- @class DefaultCatalogShopCardTemplate_ForegroundContainer_ProductCounterText : FontString, Game22Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L83)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
 --- @class DefaultCatalogShopCardTemplate_ForegroundContainer_Price : FontString, SystemFont_Huge2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L86)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
 --- @class DefaultCatalogShopCardTemplate_ForegroundContainer_Name : FontString, SystemFont_Large2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 14
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L102)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
 --- @class DefaultCatalogShopCardTemplate_ForegroundContainer_TimeRemaining : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L27)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L51)
 --- child of DefaultCatalogShopCardTemplate
 --- @class DefaultCatalogShopCardTemplate_ForegroundContainer : Frame
 --- @field SquareIconBorder Texture
@@ -48,25 +58,15 @@
 --- @field CircleIcon Texture
 --- @field HoverTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L6)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L30)
 --- Template
---- @class DefaultCatalogShopCardTemplate : Button
+--- @class DefaultCatalogShopCardTemplate : Button, CatalogShopDefaultProductCardMixin
 --- @field InvisibleMouseOverFrame DefaultCatalogShopCardTemplate_InvisibleMouseOverFrame
 --- @field BackgroundContainer DefaultCatalogShopCardTemplate_BackgroundContainer
 --- @field ModelScene DefaultCatalogShopCardTemplate_ModelScene
 --- @field ForegroundContainer DefaultCatalogShopCardTemplate_ForegroundContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L114)
---- child of CatalogShopSectionHeaderTemplate
---- @class CatalogShopSectionHeaderTemplate_headerText : FontString, GameFontNormalLarge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L110)
---- Template
---- @class CatalogShopSectionHeaderTemplate : Frame, CatalogShopSectionHeaderMixin
---- @field headerText CatalogShopSectionHeaderTemplate_headerText
---- @field sectionHeaderRule Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L139)
 --- Template
 --- @class SmallCatalogShopProductCardTemplate : Button, DefaultCatalogShopCardTemplate, SmallCatalogShopProductCardMixin
 --- @field defaultBackground string # shop-card-bg
@@ -79,33 +79,43 @@
 --- @field newBackground string # shop-card-bg
 --- @field classicTexture string # shop-card-bg
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L149)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L155)
 --- Template
---- @class SmallCatalogShopProductDetailsCardTemplate : Button, DefaultCatalogShopCardTemplate, SmallCatalogShopProductDetailsCardMixin
---- @field defaultBackground string # shop-card-bg
---- @field defaultFrameTexture string # shop-card-small-frame-default
---- @field selectedFrameTexture string # shop-card-small-frame-selected
---- @field hoverFrameTexture string # shop-card-small-frame-hover
---- @field discountedBackground string # shop-card-bg
---- @field ownedBackground string # shop-card-bg
---- @field expiringBackground string # shop-card-bg
---- @field newBackground string # shop-card-bg
---- @field classicTexture string # shop-card-bg
+--- @class SmallCatalogShopServicesCardTemplate : Button, SmallCatalogShopProductCardTemplate, SmallCatalogShopServicesCardMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L158)
 --- Template
---- @class SmallCatalogShopSubscriptionDetailsCardTemplate : Button, DefaultCatalogShopCardTemplate, SmallCatalogShopSubscriptionDetailsCardMixin
---- @field defaultBackground string # shop-card-bg
---- @field defaultFrameTexture string # shop-card-small-frame-default
---- @field selectedFrameTexture string # shop-card-small-frame-selected
---- @field hoverFrameTexture string # shop-card-small-frame-hover
---- @field discountedBackground string # shop-card-bg
---- @field ownedBackground string # shop-card-bg
---- @field expiringBackground string # shop-card-bg
---- @field newBackground string # shop-card-bg
---- @field classicTexture string # shop-card-bg
+--- @class SmallCatalogShopSubscriptionCardTemplate : Button, SmallCatalogShopProductCardTemplate, SmallCatalogShopSubscriptionCardMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L161)
+--- Template
+--- @class SmallCatalogShopTenderCardTemplate : Button, SmallCatalogShopProductCardTemplate, SmallCatalogShopTenderCardMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L164)
+--- Template
+--- @class SmallCatalogShopToysCardTemplate : Button, SmallCatalogShopProductCardTemplate, SmallCatalogShopToysCardMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L172)
+--- Template
+--- @class DetailsCatalogShopProductCardTemplate : Button, SmallCatalogShopProductCardTemplate, DetailsCatalogShopProductCardMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L175)
+--- Template
+--- @class DetailsCatalogShopServicesCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopServicesCardMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L178)
+--- Template
+--- @class DetailsCatalogShopSubscriptionCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopSubscriptionCardMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L181)
+--- Template
+--- @class DetailsCatalogShopTenderCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopTenderCardMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L184)
+--- Template
+--- @class DetailsCatalogShopToysCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopToysCardMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L191)
 --- Template
 --- @class WideCatalogShopProductCardTemplate : Button, DefaultCatalogShopCardTemplate, WideCatalogShopProductCardMixin
 --- @field defaultBackground string # shop-card-wide-bg
@@ -118,47 +128,29 @@
 --- @field newBackground string # shop-card-wide-bg
 --- @field classicTexture string # shop-card-wide-bg
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L195)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L207)
 --- Template
---- @class SubscriptionWideCatalogShopProductCardTemplate : Button, WideCatalogShopProductCardTemplate, SubscriptionWideCatalogShopProductCardMixin
---- @field defaultBackground string # shop-card-wide-bg
---- @field defaultFrameTexture string # shop-card-wide-frame-default
---- @field selectedFrameTexture string # shop-card-wide-frame-selected
---- @field hoverFrameTexture string # shop-card-wide-frame-hover
---- @field discountedBackground string # shop-card-wide-bg
---- @field ownedBackground string # shop-card-wide-bg
---- @field expiringBackground string # shop-card-wide-bg
---- @field newBackground string # shop-card-wide-bg
---- @field classicTexture string # shop-card-wide-bg
+--- @class WideSubscriptionCatalogShopCardTemplate : Button, WideCatalogShopProductCardTemplate, WideSubscriptionCatalogShopCardMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L225)
---- child of WoWTokenCatalogShopProductCardTemplate
---- @class WoWTokenCatalogShopProductCardTemplate_AnimContainer : Frame, GlowPulseAnimContainerTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L212)
+--- child of WideWoWTokenCatalogShopCardTemplate
+--- @class WideWoWTokenCatalogShopCardTemplate_AnimContainer : Frame, GlowPulseAnimContainerTemplate
 --- @field playLoopingSoundFX boolean # false
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L250)
---- child of WoWTokenCatalogShopProductCardTemplate_WoWTokenFrame
---- @class WoWTokenCatalogShopProductCardTemplate_WoWTokenFrame_CurrentMarketPrice : FontString, GameFontNormalMed2
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L237)
+--- child of WideWoWTokenCatalogShopCardTemplate_WoWTokenFrame
+--- @class WideWoWTokenCatalogShopCardTemplate_WoWTokenFrame_CurrentMarketPrice : FontString, GameFontNormalMed2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L234)
---- child of WoWTokenCatalogShopProductCardTemplate
---- @class WoWTokenCatalogShopProductCardTemplate_WoWTokenFrame : Frame
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L221)
+--- child of WideWoWTokenCatalogShopCardTemplate
+--- @class WideWoWTokenCatalogShopCardTemplate_WoWTokenFrame : Frame
 --- @field WoWTokenIcon Texture
 --- @field HeaderBackground Texture
---- @field CurrentMarketPrice WoWTokenCatalogShopProductCardTemplate_WoWTokenFrame_CurrentMarketPrice
+--- @field CurrentMarketPrice WideWoWTokenCatalogShopCardTemplate_WoWTokenFrame_CurrentMarketPrice
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L210)
 --- Template
---- @class WoWTokenCatalogShopProductCardTemplate : Button, WideCatalogShopProductCardTemplate, WoWTokenCatalogShopProductCardMixin
---- @field defaultBackground string # shop-card-wide-bg
---- @field defaultFrameTexture string # shop-card-wide-frame-default
---- @field selectedFrameTexture string # shop-card-wide-frame-selected
---- @field hoverFrameTexture string # shop-card-wide-frame-hover
---- @field discountedBackground string # shop-card-wide-bg
---- @field ownedBackground string # shop-card-wide-bg
---- @field expiringBackground string # shop-card-wide-bg
---- @field newBackground string # shop-card-wide-bg
---- @field classicTexture string # shop-card-wide-bg
---- @field AnimContainer WoWTokenCatalogShopProductCardTemplate_AnimContainer
---- @field WoWTokenFrame WoWTokenCatalogShopProductCardTemplate_WoWTokenFrame
+--- @class WideWoWTokenCatalogShopCardTemplate : Button, WideCatalogShopProductCardTemplate, WideWoWTokenCatalogShopCardMixin
+--- @field AnimContainer WideWoWTokenCatalogShopCardTemplate_AnimContainer
+--- @field WoWTokenFrame WideWoWTokenCatalogShopCardTemplate_WoWTokenFrame
 

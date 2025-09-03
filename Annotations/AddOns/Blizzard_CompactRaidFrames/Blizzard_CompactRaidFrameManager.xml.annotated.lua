@@ -69,7 +69,7 @@ CompactRaidFrameManagerToggleButtonBack["normalTex"] = "gm-btnback-normal"
 --- @class CompactRaidFrameManagerDisplayFrameModeControlDropdown : DropdownButton, WowStyle1DropdownTemplate
 CompactRaidFrameManagerDisplayFrameModeControlDropdown = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L2986)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CompactRaidFrames/Blizzard_CompactRaidFrameManager.xml#L2994)
 --- child of CompactRaidFrameManagerDisplayFrameOptionsButton (created in template UIPanelInfoButton)
 --- @type Texture
 CompactRaidFrameManagerDisplayFrameOptionsButtonTexture = {}

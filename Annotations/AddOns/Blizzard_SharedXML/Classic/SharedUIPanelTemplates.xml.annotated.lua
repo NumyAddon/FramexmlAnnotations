@@ -1142,3 +1142,8 @@
 --- Template
 --- @class TopLevelParentScaleFrameTemplate : Frame
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.xml#L2749)
+--- Template
+--- @class UIPanelIconDropdownButtonTemplate : DropdownButton, UIPanelIconDropdownButtonMixin
+--- @field Icon Texture
+

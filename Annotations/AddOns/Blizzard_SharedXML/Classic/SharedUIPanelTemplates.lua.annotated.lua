@@ -116,6 +116,10 @@ AlphaHighlightButtonMixin = {}
 --- @class IconSelectorEditBoxMixin
 IconSelectorEditBoxMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L2395)
+--- @class UIPanelIconDropdownButtonMixin
+UIPanelIconDropdownButtonMixin = { }
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L325)
 function PanelTabButtonMixin:OnLoad() end
 
@@ -703,3 +707,9 @@ function IconSelectorEditBoxMixin:GetIconSelectorPopupFrame() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L2391)
 function IconSelectorEditBoxMixin:SetIconSelector(iconSelector) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L2397)
+function UIPanelIconDropdownButtonMixin:OnMouseDown() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L2401)
+function UIPanelIconDropdownButtonMixin:OnMouseUp(button, upInside) end

@@ -33,7 +33,7 @@ function CatalogShopModelSceneContainerFrameMixin:OnShow() end
 function CatalogShopModelSceneContainerFrameMixin:OnUpdate() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Model.lua#L81)
-function CatalogShopModelSceneContainerFrameMixin:UpdateFormButtonVisibility(forceHideButtons) end
+function CatalogShopModelSceneContainerFrameMixin:UpdateFormButtonVisibility(forceHideFormButtons) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Model.lua#L96)
 function CatalogShopModelSceneContainerFrameMixin:OnFormSelected(button, buttonIndex) end
@@ -50,5 +50,5 @@ function CatalogShopModelSceneContainerFrameMixin:UpdatePlayerModel(data) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Model.lua#L170)
 function CatalogShopModelSceneContainerFrameMixin:OnProductSelected(data, forceSceneChange, preserveCurrentView) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Model.lua#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Model.lua#L261)
 function CatalogShopModelSceneContainerFrameMixin:OnFormChanged(useNativeForm) end

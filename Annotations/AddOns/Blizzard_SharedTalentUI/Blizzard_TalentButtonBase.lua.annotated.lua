@@ -136,5 +136,5 @@ function TalentButtonBaseMixin:PlayDeselectSound() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L375)
 function TalentButtonBaseMixin:StartGlow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L380)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L395)
 function TalentButtonBaseMixin:StopGlow() end

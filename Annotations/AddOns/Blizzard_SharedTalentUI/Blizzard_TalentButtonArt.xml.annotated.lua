@@ -108,3 +108,8 @@
 --- @field artSet any # TalentButtonArtMixin.ArtSet.LargeCircle
 --- @field sizingAdjustment any # TalentButtonUtil.SizingAdjustment.Large
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.xml#L229)
+--- Template
+--- @class TalentButtonCircularGlowTemplate : Frame, AnimateWhileShownTemplate
+--- @field GlowTexture Texture
+

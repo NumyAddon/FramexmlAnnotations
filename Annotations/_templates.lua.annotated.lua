@@ -2631,6 +2631,7 @@
 --- | "TalentButtonArtTemplate"
 --- | "TalentButtonChoiceTemplate"
 --- | "TalentButtonCircleTemplate"
+--- | "TalentButtonCircularGlowTemplate"
 --- | "TalentButtonLargeCircleTemplate"
 --- | "TalentButtonLargeSquareTemplate"
 --- | "TalentButtonLegionChoiceTemplate"

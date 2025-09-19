@@ -5,7 +5,7 @@
 CooldownViewerItemDataMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerItemData.lua#L3)
-function CooldownViewerItemDataMixin:SetCooldownID(cooldownID) end
+function CooldownViewerItemDataMixin:SetCooldownID(cooldownID, forceSet) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerItemData.lua#L10)
 function CooldownViewerItemDataMixin:OnCooldownIDSet() end

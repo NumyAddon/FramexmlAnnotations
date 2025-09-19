@@ -22,26 +22,26 @@ function CooldownViewerDataStoreSerializationMixin:SetSerializationPersistenceOb
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L55)
 function CooldownViewerDataStoreSerializationMixin:GetSerializedData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L63)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L69)
 function CooldownViewerDataStoreSerializationMixin:SetSerializedData(serializedData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L79)
 function CooldownViewerDataStoreSerializationMixin:ClearSerializedData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L89)
 function CooldownViewerDataStoreSerializationMixin:GetCurrentClassAndSpec() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L86)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L96)
 function CooldownViewerDataStoreSerializationMixin:GetCurrentClassAndSpecTag() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L201)
 function CooldownViewerDataStoreSerializationMixin:GetCurrentSaveFormatVersion() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L195)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L205)
 function CooldownViewerDataStoreSerializationMixin:GetCurrentEncodingVersion() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L199)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L209)
 function CooldownViewerDataStoreSerializationMixin:ReadData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L235)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L245)
 function CooldownViewerDataStoreSerializationMixin:WriteData() end

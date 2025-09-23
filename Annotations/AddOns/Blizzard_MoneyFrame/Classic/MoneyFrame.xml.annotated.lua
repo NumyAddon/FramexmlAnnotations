@@ -41,7 +41,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyFrame.xml#L154)
 --- Template
---- @class SmallMoneyFrameTemplate : Frame
+--- @class SmallMoneyFrameTemplate : Frame, SmallMoneyFrameMixin
 --- @field trialErrorButton SmallMoneyFrameTemplate_TrialErrorButton
 --- @field CopperButton SmallMoneyFrameTemplate_CopperButton
 --- @field SilverButton SmallMoneyFrameTemplate_SilverButton

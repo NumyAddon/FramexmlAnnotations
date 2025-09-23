@@ -100,7 +100,7 @@ LFDRoleCheckPopup = {}
 --- @field Text LFDReadyCheckPopup_Text
 LFDReadyCheckPopup = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L740)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GroupFinder/Classic/LFDFrame.xml#L746)
 --- child of LFDParentFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 LFDParentFrameInsetBg = {}

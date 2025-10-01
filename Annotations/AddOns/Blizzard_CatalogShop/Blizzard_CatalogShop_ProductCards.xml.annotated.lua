@@ -34,22 +34,22 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L88)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
---- @class DefaultCatalogShopCardTemplate_ForegroundContainer_Price : FontString, SystemFont_Huge2
+--- @class DefaultCatalogShopCardTemplate_ForegroundContainer_Price : FontString, SystemFont_Shadow_Huge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L91)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
---- @class DefaultCatalogShopCardTemplate_ForegroundContainer_DiscountPrice : FontString, SystemFont_Huge2
+--- @class DefaultCatalogShopCardTemplate_ForegroundContainer_DiscountPrice : FontString, SystemFont_Shadow_Huge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L94)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
---- @class DefaultCatalogShopCardTemplate_ForegroundContainer_OriginalPrice : FontString, SystemFont_Huge2
+--- @class DefaultCatalogShopCardTemplate_ForegroundContainer_OriginalPrice : FontString, SystemFont_Shadow_Huge2
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L97)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
---- @class DefaultCatalogShopCardTemplate_ForegroundContainer_Name : FontString, SystemFont_Large2, AutoScalingFontStringMixin
+--- @class DefaultCatalogShopCardTemplate_ForegroundContainer_Name : FontString, SystemFont_Shadow_Large2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 12
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L108)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
 --- @class DefaultCatalogShopCardTemplate_ForegroundContainer_TimeRemaining : FontString, GameFontHighlightLarge
 
@@ -69,11 +69,11 @@
 --- @field DiscountPrice DefaultCatalogShopCardTemplate_ForegroundContainer_DiscountPrice
 --- @field OriginalPrice DefaultCatalogShopCardTemplate_ForegroundContainer_OriginalPrice
 --- @field Name DefaultCatalogShopCardTemplate_ForegroundContainer_Name
---- @field PurchasedIcon Texture
 --- @field TimeRemainingIcon Texture
 --- @field TimeRemaining DefaultCatalogShopCardTemplate_ForegroundContainer_TimeRemaining
 --- @field RectIcon Texture
 --- @field CircleIcon Texture
+--- @field PurchasedIcon Texture
 --- @field DiscountSaleTag Texture
 --- @field DiscountAmount DefaultCatalogShopCardTemplate_ForegroundContainer_DiscountAmount
 --- @field Strikethrough Texture

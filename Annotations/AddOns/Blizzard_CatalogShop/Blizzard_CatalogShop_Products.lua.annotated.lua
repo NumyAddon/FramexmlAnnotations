@@ -74,5 +74,5 @@ function ProductContainerFrameMixin:Init() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L358)
 function ProductContainerFrameMixin:InitProductContainer() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L492)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L505)
 function ProductContainerFrameMixin:OnCategorySelected(categoryID) end

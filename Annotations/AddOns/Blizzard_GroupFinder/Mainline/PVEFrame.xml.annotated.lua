@@ -33,11 +33,6 @@ PVEFrameTab2 = {}
 --- @class PVEFrameTab3 : Button, PanelTabButtonTemplate
 PVEFrameTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L186)
---- child of PVEFrame
---- @class PVEFrameTab4 : Button, PanelTabButtonTemplate
-PVEFrameTab4 = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L16)
 --- child of GroupFinderFrameGroupButton1 (created in template GroupFinderGroupButtonTemplate)
 --- @type Texture
@@ -53,7 +48,7 @@ GroupFinderFrameGroupButton1Icon = {}
 --- @type GroupFinderGroupButtonTemplate_Name
 GroupFinderFrameGroupButton1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L196)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L188)
 --- child of GroupFinderFrame
 --- @class GroupFinderFrameGroupButton1 : Button, GroupFinderGroupButtonTemplate
 GroupFinderFrameGroupButton1 = {}
@@ -76,7 +71,7 @@ GroupFinderFrameGroupButton2Icon = {}
 --- @type GroupFinderGroupButtonTemplate_Name
 GroupFinderFrameGroupButton2Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L193)
 --- child of GroupFinderFrame
 --- @class GroupFinderFrameGroupButton2 : Button, GroupFinderGroupButtonTemplate
 GroupFinderFrameGroupButton2 = {}
@@ -99,7 +94,7 @@ GroupFinderFrameGroupButton3Icon = {}
 --- @type GroupFinderGroupButtonTemplate_Name
 GroupFinderFrameGroupButton3Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L198)
 --- child of GroupFinderFrame
 --- @class GroupFinderFrameGroupButton3 : Button, GroupFinderGroupButtonTemplate
 GroupFinderFrameGroupButton3 = {}
@@ -122,7 +117,7 @@ GroupFinderFrameGroupButton4Icon = {}
 --- @type GroupFinderGroupButtonTemplate_Name
 GroupFinderFrameGroupButton4Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L211)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L203)
 --- child of GroupFinderFrame
 --- @class GroupFinderFrameGroupButton4 : Button, GroupFinderGroupButtonTemplate
 GroupFinderFrameGroupButton4 = {}
@@ -130,12 +125,12 @@ GroupFinderFrameGroupButton4["ring"] = GroupFinderFrameGroupButton4Ring -- inher
 GroupFinderFrameGroupButton4["icon"] = GroupFinderFrameGroupButton4Icon -- inherited
 GroupFinderFrameGroupButton4["name"] = GroupFinderFrameGroupButton4Name -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L206)
 --- child of GroupFinderFrame
 --- @class LFGListPVEStub : Frame
 LFGListPVEStub = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L194)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L186)
 --- child of PVEFrame
 --- @class GroupFinderFrame : Frame
 --- @field groupButton1 GroupFinderFrameGroupButton1
@@ -148,7 +143,7 @@ GroupFinderFrame["groupButton2"] = GroupFinderFrameGroupButton2
 GroupFinderFrame["groupButton3"] = GroupFinderFrameGroupButton3
 GroupFinderFrame["groupButton4"] = GroupFinderFrameGroupButton4
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L223)
 --- child of PVEFrame
 --- @class PVEFrame_shadows : Frame
 
@@ -207,12 +202,12 @@ PVEFrameTopFiligree = {}
 --- @class PVEFrameBottomFiligree : Texture
 PVEFrameBottomFiligree = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L633)
 --- child of PVEFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 PVEFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L1062)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L600)
 --- child of PVEFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 PVEFrameBg = {}
@@ -223,16 +218,24 @@ PVEFrameBg = {}
 --- @field tab1 PVEFrameTab1
 --- @field tab2 PVEFrameTab2
 --- @field tab3 PVEFrameTab3
---- @field tab4 PVEFrameTab4
 --- @field shadows PVEFrame_shadows
---- @field Tabs table<number, PVEFrameTab1 | PVEFrameTab2 | PVEFrameTab3 | PVEFrameTab4>
+--- @field Tabs table<number, PVEFrameTab1 | PVEFrameTab2 | PVEFrameTab3>
 PVEFrame = {}
 PVEFrame["Inset"] = PVEFrameLeftInset
 PVEFrame["tab1"] = PVEFrameTab1
 PVEFrame["tab2"] = PVEFrameTab2
 PVEFrame["tab3"] = PVEFrameTab3
-PVEFrame["tab4"] = PVEFrameTab4
 PVEFrame["CloseButton"] = PVEFrameCloseButton -- inherited
 PVEFrame["Bg"] = PVEFrameBg -- inherited
 PVEFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L275)
+--- child of PlunderstormQueueTutorialFrame
+--- @class PlunderstormQueueTutorialFrame_NewText : Frame, NewFeatureLabelNoAnimateTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVEFrame.xml#L263)
+--- @class PlunderstormQueueTutorialFrame : Frame, PlunderstormQueueTutorialMixin
+--- @field NewText PlunderstormQueueTutorialFrame_NewText
+--- @field BadgeTexture Texture
+PlunderstormQueueTutorialFrame = {}
 

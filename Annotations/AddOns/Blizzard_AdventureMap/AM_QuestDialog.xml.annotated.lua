@@ -17,27 +17,27 @@
 --- @field Overlay Texture
 --- @field Count AdventureMapQuestRewardTemplate_Count
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L93)
 --- child of AdventureMapQuestChoiceDialog
 --- @class AdventureMapQuestChoiceDialog_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L121)
 --- child of AdventureMapQuestChoiceDialog_Details_Child
 --- @class AdventureMapQuestChoiceDialog_Details_Child_TitleHeader : FontString, QuestTitleFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L127)
 --- child of AdventureMapQuestChoiceDialog_Details_Child
 --- @class AdventureMapQuestChoiceDialog_Details_Child_DescriptionText : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L134)
 --- child of AdventureMapQuestChoiceDialog_Details_Child
 --- @class AdventureMapQuestChoiceDialog_Details_Child_ObjectivesHeader : FontString, QuestTitleFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L141)
 --- child of AdventureMapQuestChoiceDialog_Details_Child
 --- @class AdventureMapQuestChoiceDialog_Details_Child_ObjectivesText : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L117)
 --- child of AdventureMapQuestChoiceDialog_Details
 --- @class AdventureMapQuestChoiceDialog_Details_Child : Frame
 --- @field TitleHeader AdventureMapQuestChoiceDialog_Details_Child_TitleHeader
@@ -46,7 +46,7 @@
 --- @field ObjectivesText AdventureMapQuestChoiceDialog_Details_Child_ObjectivesText
 --- @field Elements table<number, AdventureMapQuestChoiceDialog_Details_Child_TitleHeader | AdventureMapQuestChoiceDialog_Details_Child_DescriptionText | AdventureMapQuestChoiceDialog_Details_Child_ObjectivesHeader | AdventureMapQuestChoiceDialog_Details_Child_ObjectivesText>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L105)
 --- child of AdventureMapQuestChoiceDialog
 --- @class AdventureMapQuestChoiceDialog_Details : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
@@ -55,19 +55,19 @@
 --- @field scrollBarBottomY number # -6
 --- @field Child AdventureMapQuestChoiceDialog_Details_Child
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L153)
 --- child of AdventureMapQuestChoiceDialog
 --- @class AdventureMapQuestChoiceDialog_DeclineButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L165)
 --- child of AdventureMapQuestChoiceDialog
 --- @class AdventureMapQuestChoiceDialog_AcceptButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L81)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L82)
 --- child of AdventureMapQuestChoiceDialog
 --- @class AdventureMapQuestChoiceDialog_RewardsHeader : FontString, QuestFont_Shadow_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestDialog.xml#L186)
 --- child of AdventureMapQuestChoiceDialog
 --- @class AdventureMapQuestChoiceDialog_FadeIn : AnimationGroup
 

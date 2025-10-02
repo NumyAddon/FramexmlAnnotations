@@ -40,9 +40,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L106)
 --- @class DruidComboPointBarFrame : Frame, DruidComboPointBarTemplate
+--- @field layoutIndex number # 3
 --- @field topPadding number # 7
 --- @field showTooltip boolean # true
 DruidComboPointBarFrame = {}
+DruidComboPointBarFrame["layoutIndex"] = 3
 DruidComboPointBarFrame["topPadding"] = 7
 DruidComboPointBarFrame["showTooltip"] = true
 DruidComboPointBarFrame["powerToken"] = "COMBO_POINTS" -- inherited
@@ -57,7 +59,6 @@ DruidComboPointBarFrame["spacing"] = 4 -- inherited
 DruidComboPointBarFrame["class"] = "DRUID" -- inherited
 DruidComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
 DruidComboPointBarFrame["resourceBarMixin"] = ClassPowerBar -- inherited
-DruidComboPointBarFrame["layoutIndex"] = 1 -- inherited
 DruidComboPointBarFrame["usePooledResourceButtons"] = true -- inherited
 DruidComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 DruidComboPointBarFrame["align"] = "center" -- inherited

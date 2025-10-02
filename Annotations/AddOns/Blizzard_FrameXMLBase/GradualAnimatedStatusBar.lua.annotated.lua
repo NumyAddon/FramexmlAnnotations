@@ -1,3 +1,4 @@
+
 GradualAnimatedStatusBarMixin = {};--- @class GradualAnimatedStatusBarMixin
 
 function GradualAnimatedStatusBarMixin:OnLoad()

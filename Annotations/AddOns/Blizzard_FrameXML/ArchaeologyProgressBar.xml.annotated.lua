@@ -48,6 +48,7 @@ ArcheologyDigsiteProgressBar["layoutIndex"] = 7
 ArcheologyDigsiteProgressBar["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 ArcheologyDigsiteProgressBar["align"] = "center" -- inherited
 ArcheologyDigsiteProgressBar["hideWhenActionBarIsOverriden"] = true -- inherited
+ArcheologyDigsiteProgressBar["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 ArcheologyDigsiteProgressBar["isBottomManagedFrame"] = true -- inherited
 ArcheologyDigsiteProgressBar["isManagedFrame"] = true -- inherited
 ArcheologyDigsiteProgressBar["system"] = Enum.EditModeSystem.ArchaeologyBar -- inherited

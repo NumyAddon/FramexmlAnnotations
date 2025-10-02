@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Druid.xml#L5)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Druid.xml#L4)
 --- @class ClassNameplateBarFeralDruidFrame : Frame, DruidComboPointBarTemplate, ClassNameplateBarFrame, ClassNameplateBar, ClassNameplateBarFeralDruid
 --- @field scale string # 0.7
 --- @field resourceBarMixin any # ClassNameplateBar

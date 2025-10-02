@@ -59,7 +59,7 @@ SideDressUpFrame["BGTopLeft"] = SideDressUpFrameBackgroundTop
 SideDressUpFrame["BGBottomLeft"] = SideDressUpFrameBackgroundBot
 SideDressUpFrame["hasOutfitControls"] = false
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L501)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L54)
 --- child of TransmogAndMountDressupFrame_ShowMountCheckButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 TransmogAndMountDressupFrameText = {}
@@ -184,18 +184,18 @@ DressUpFrameResetButton["fitTextWidthPadding"] = 40 -- inherited
 --- @field menuPointX number # 15
 --- @field menuPointY number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L686)
 --- child of DressUpFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 DressUpFrameInset = {}
 DressUpFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L680)
 --- child of DressUpFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 DressUpFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L1125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L663)
 --- child of DressUpFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 DressUpFrameBg = {}

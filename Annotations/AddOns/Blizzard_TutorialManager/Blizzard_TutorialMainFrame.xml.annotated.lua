@@ -52,3 +52,36 @@ TutorialSingleKey_Frame = {}
 TutorialSingleKey_Frame["widthPadding"] = 180
 TutorialSingleKey_Frame["heightPadding"] = 64
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L109)
+--- child of TutorialDoubleKey_Frame_ContainerFrame
+--- @class TutorialDoubleKey_Frame_ContainerFrame_KeyBind1 : Frame, KeyBindingTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L114)
+--- child of TutorialDoubleKey_Frame_ContainerFrame
+--- @class TutorialDoubleKey_Frame_ContainerFrame_KeyBind2 : Frame, KeyBindingTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L122)
+--- child of TutorialDoubleKey_Frame_ContainerFrame
+--- @class TutorialDoubleKey_Frame_ContainerFrame_Separator : FontString, GameFontNormalHuge2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L129)
+--- child of TutorialDoubleKey_Frame_ContainerFrame
+--- @class TutorialDoubleKey_Frame_ContainerFrame_Text : FontString, GameFontNormalHuge2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L104)
+--- child of TutorialDoubleKey_Frame
+--- @class TutorialDoubleKey_Frame_ContainerFrame : Frame, ResizeLayoutFrame
+--- @field KeyBind1 TutorialDoubleKey_Frame_ContainerFrame_KeyBind1
+--- @field KeyBind2 TutorialDoubleKey_Frame_ContainerFrame_KeyBind2
+--- @field Separator TutorialDoubleKey_Frame_ContainerFrame_Separator
+--- @field Text TutorialDoubleKey_Frame_ContainerFrame_Text
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialMainFrame.xml#L95)
+--- @class TutorialDoubleKey_Frame : Frame, ResizeLayoutFrame, TutorialDoubleKeyMixin
+--- @field widthPadding number # 180
+--- @field heightPadding number # 64
+--- @field ContainerFrame TutorialDoubleKey_Frame_ContainerFrame
+TutorialDoubleKey_Frame = {}
+TutorialDoubleKey_Frame["widthPadding"] = 180
+TutorialDoubleKey_Frame["heightPadding"] = 64
+

@@ -89,9 +89,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EssenceFramePlayer.xml#L294)
 --- @class EssencePlayerFrame : Frame, EssencePlayerFrameTemplate
+--- @field layoutIndex number # 3
 --- @field topPadding number # 5
 --- @field showTooltip boolean # true
 EssencePlayerFrame = {}
+EssencePlayerFrame["layoutIndex"] = 3
 EssencePlayerFrame["topPadding"] = 5
 EssencePlayerFrame["showTooltip"] = true
 EssencePlayerFrame["powerToken"] = "ESSENCE" -- inherited
@@ -104,7 +106,6 @@ EssencePlayerFrame["spacing"] = -1 -- inherited
 EssencePlayerFrame["class"] = "DRACTHYR" -- inherited
 EssencePlayerFrame["maxUsablePoints"] = 5 -- inherited
 EssencePlayerFrame["resourceBarMixin"] = ClassPowerBar -- inherited
-EssencePlayerFrame["layoutIndex"] = 1 -- inherited
 EssencePlayerFrame["usePooledResourceButtons"] = true -- inherited
 EssencePlayerFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 EssencePlayerFrame["align"] = "center" -- inherited

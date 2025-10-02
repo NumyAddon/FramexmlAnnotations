@@ -29,12 +29,18 @@ RaidWarningFrameSlot2 = {}
 RaidWarningFrame = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/RaidWarning.xml#L55)
+--- @class EncounterEventFrame : Frame, RaidBossEmoteFrameTemplate
+--- @field controlPrivateAnchor boolean # true
+EncounterEventFrame = {}
+EncounterEventFrame["controlPrivateAnchor"] = true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/RaidWarning.xml#L69)
 --- @class RaidBossEmoteFrame : Frame, RaidBossEmoteFrameTemplate
 --- @field controlPrivateAnchor boolean # true
 RaidBossEmoteFrame = {}
 RaidBossEmoteFrame["controlPrivateAnchor"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/RaidWarning.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/Mainline/RaidWarning.xml#L78)
 --- @class PrivateRaidBossEmoteFrameAnchor : Frame, PingTopLevelPassThroughAttributeTemplate, PrivateRaidBossEmoteFrameAnchorMixin
 PrivateRaidBossEmoteFrameAnchor = {}
 

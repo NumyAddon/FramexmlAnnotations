@@ -17,12 +17,12 @@
 --- @class HeroTalentsSelectionDialog_DisabledOverlay : Frame
 --- @field GrayOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L971)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L509)
 --- child of HeroTalentsSelectionDialog (created in template DefaultPanelTemplate)
 --- @type Texture
 HeroTalentsSelectionDialogBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L979)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L517)
 --- child of HeroTalentsSelectionDialog (created in template DefaultPanelTemplate)
 --- @type DefaultPanelTemplate_TopTileStreaks
 HeroTalentsSelectionDialogTopTileStreaks = {}
@@ -85,9 +85,9 @@ HeroTalentsSelectionDialog["layoutType"] = "ButtonFrameTemplateNoPortrait" -- in
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L253)
 --- child of HeroTalentSpecContentTemplate
---- @class HeroTalentSpecContentTemplate_ActivateButton : Button, MagicButtonTemplate
+--- @class HeroTalentSpecContentTemplate_ActivateButton : Button, MagicButtonTemplate, HeroTalentActivateButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_HeroTalentsSelectionDialog.xml#L263)
 --- child of HeroTalentSpecContentTemplate
 --- @class HeroTalentSpecContentTemplate_ApplyChangesButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
 

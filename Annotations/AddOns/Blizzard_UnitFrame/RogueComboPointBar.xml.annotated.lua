@@ -100,10 +100,12 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/RogueComboPointBar.xml#L242)
 --- @class RogueComboPointBarFrame : Frame, RogueComboPointBarTemplate
+--- @field layoutIndex number # 3
 --- @field topPadding number # 10
 --- @field leftPadding number # 0
 --- @field showTooltip boolean # true
 RogueComboPointBarFrame = {}
+RogueComboPointBarFrame["layoutIndex"] = 3
 RogueComboPointBarFrame["topPadding"] = 10
 RogueComboPointBarFrame["leftPadding"] = 0
 RogueComboPointBarFrame["showTooltip"] = true
@@ -118,7 +120,6 @@ RogueComboPointBarFrame["spacing"] = 4 -- inherited
 RogueComboPointBarFrame["class"] = "ROGUE" -- inherited
 RogueComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
 RogueComboPointBarFrame["resourceBarMixin"] = ClassPowerBar -- inherited
-RogueComboPointBarFrame["layoutIndex"] = 1 -- inherited
 RogueComboPointBarFrame["usePooledResourceButtons"] = true -- inherited
 RogueComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 RogueComboPointBarFrame["align"] = "center" -- inherited

@@ -78,8 +78,10 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/ShardBar.xml#L167)
 --- @class WarlockPowerFrame : Frame, WarlockPowerFrameTemplate
+--- @field layoutIndex number # 3
 --- @field showTooltip boolean # true
 WarlockPowerFrame = {}
+WarlockPowerFrame["layoutIndex"] = 3
 WarlockPowerFrame["showTooltip"] = true
 WarlockPowerFrame["powerToken"] = "SOUL_SHARDS" -- inherited
 WarlockPowerFrame["powerType"] = Enum.PowerType.SoulShards -- inherited
@@ -95,7 +97,6 @@ WarlockPowerFrame["leftPadding"] = 5 -- inherited
 WarlockPowerFrame["topPadding"] = -2 -- inherited
 WarlockPowerFrame["maxUsablePoints"] = 5 -- inherited
 WarlockPowerFrame["resourceBarMixin"] = ClassPowerBar -- inherited
-WarlockPowerFrame["layoutIndex"] = 1 -- inherited
 WarlockPowerFrame["usePooledResourceButtons"] = true -- inherited
 WarlockPowerFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 WarlockPowerFrame["align"] = "center" -- inherited

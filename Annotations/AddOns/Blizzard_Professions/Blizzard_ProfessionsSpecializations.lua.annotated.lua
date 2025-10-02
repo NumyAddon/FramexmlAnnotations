@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L936)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L951)
 --- @class ProfessionsDetailedSpecPathMixin : ProfessionsSpecPathMixin
 ProfessionsDetailedSpecPathMixin = CreateFromMixins(ProfessionsSpecPathMixin)
 
@@ -141,34 +141,40 @@ function ProfessionsSpecFrameMixin:RollbackConfig() end
 function ProfessionsSpecFrameMixin:AttemptConfigOperation(...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L859)
+function ProfessionsSpecFrameMixin:SetConfigID(configID) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L866)
+function ProfessionsSpecFrameMixin:GetConfigID() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L874)
 function ProfessionsSpecFrameMixin:HasValidConfig() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L863)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L878)
 function ProfessionsSpecFrameMixin:HasAnyConfigChanges() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L871)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L886)
 function ProfessionsSpecFrameMixin:UpdateConfigButtonsState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L886)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L901)
 function ProfessionsSpecFrameMixin:StartShake(delay) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L899)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L914)
 function ProfessionsSpecFrameMixin:CancelShake() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L906)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L921)
 function ProfessionsSpecFrameMixin:PlayDialLockInAnimation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L918)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L933)
 function ProfessionsSpecFrameMixin:PlayCompleteDialAnimation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L925)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L940)
 function ProfessionsSpecFrameMixin:SetTitle() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L938)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L953)
 function ProfessionsDetailedSpecPathMixin:SetLocked(locked) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L982)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L997)
 function ProfessionsDetailedSpecPathMixin:UpdateAssets() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L1019)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.lua#L1034)
 function ProfessionsDetailedSpecPathMixin:OnUpdate(dt) end

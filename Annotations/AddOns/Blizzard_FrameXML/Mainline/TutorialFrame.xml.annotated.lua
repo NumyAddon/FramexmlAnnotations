@@ -195,6 +195,7 @@ TutorialFrameAlertButton["layoutIndex"] = 24
 TutorialFrameAlertButton["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 TutorialFrameAlertButton["align"] = "center" -- inherited
 TutorialFrameAlertButton["hideWhenActionBarIsOverriden"] = true -- inherited
+TutorialFrameAlertButton["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 TutorialFrameAlertButton["isBottomManagedFrame"] = true -- inherited
 TutorialFrameAlertButton["isManagedFrame"] = true -- inherited
 

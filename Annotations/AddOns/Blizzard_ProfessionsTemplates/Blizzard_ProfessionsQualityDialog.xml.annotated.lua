@@ -21,21 +21,21 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L37)
 --- child of ProfessionsQualityDialogTemplate
---- @class ProfessionsQualityDialogTemplate_Container2 : Frame, ProfessionsQualityContainerTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L42)
---- child of ProfessionsQualityDialogTemplate
 --- @class ProfessionsQualityDialogTemplate_Container1 : Frame, ProfessionsQualityContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L38)
+--- child of ProfessionsQualityDialogTemplate
+--- @class ProfessionsQualityDialogTemplate_Container2 : Frame, ProfessionsQualityContainerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L43)
 --- child of ProfessionsQualityDialogTemplate
 --- @class ProfessionsQualityDialogTemplate_Container3 : Frame, ProfessionsQualityContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L48)
 --- child of ProfessionsQualityDialogTemplate
 --- @class ProfessionsQualityDialogTemplate_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L54)
 --- child of ProfessionsQualityDialogTemplate
 --- @class ProfessionsQualityDialogTemplate_AcceptButton : Button, UIPanelButtonTemplate
 
@@ -43,8 +43,8 @@
 --- Template
 --- @class ProfessionsQualityDialogTemplate : Frame, DefaultPanelFlatTemplate, ProfessionsQualityDialogMixin
 --- @field ClosePanelButton ProfessionsQualityDialogTemplate_ClosePanelButton
---- @field Container2 ProfessionsQualityDialogTemplate_Container2
 --- @field Container1 ProfessionsQualityDialogTemplate_Container1
+--- @field Container2 ProfessionsQualityDialogTemplate_Container2
 --- @field Container3 ProfessionsQualityDialogTemplate_Container3
 --- @field CancelButton ProfessionsQualityDialogTemplate_CancelButton
 --- @field AcceptButton ProfessionsQualityDialogTemplate_AcceptButton

@@ -69,58 +69,93 @@ PVPFramePopup["ringIcon"] = PVPFramePopupRingIcon
 PVPFramePopup["title"] = PVPFramePopupTitle
 PVPFramePopup["timer"] = PVPFramePopupTimer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L135)
+--- child of PlunderstormFramePopup
+--- @class PlunderstormFramePopup_Border : Frame, DialogBorderDarkTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L136)
+--- child of PlunderstormFramePopup
+--- @class PlunderstormFramePopup_AcceptButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L142)
+--- child of PlunderstormFramePopup
+--- @class PlunderstormFramePopup_DeclineButton : Button, UIPanelButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L112)
+--- child of PlunderstormFramePopup
+--- @class PlunderstormFramePopup_QueueTypeText : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L120)
+--- child of PlunderstormFramePopup
+--- @class PlunderstormFramePopup_Title : FontString, GameFontHighlight
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L126)
+--- child of PlunderstormFramePopup
+--- @class PlunderstormFramePopup_SubTitle : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L102)
+--- @class PlunderstormFramePopup : Frame, PlunderstormQueuePopupMixin
+--- @field Border PlunderstormFramePopup_Border
+--- @field AcceptButton PlunderstormFramePopup_AcceptButton
+--- @field DeclineButton PlunderstormFramePopup_DeclineButton
+--- @field QueueTypeIcon Texture
+--- @field QueueTypeText PlunderstormFramePopup_QueueTypeText
+--- @field Title PlunderstormFramePopup_Title
+--- @field SubTitle PlunderstormFramePopup_SubTitle
+PlunderstormFramePopup = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L167)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopup_Border : Frame, DialogBorderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L168)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopupRoleButtonTank : Button, LFGRoleButtonTemplate
 --- @field role string # TANK
 PVPRoleCheckPopupRoleButtonTank = {}
 PVPRoleCheckPopupRoleButtonTank["role"] = "TANK"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L183)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopupRoleButtonHealer : Button, LFGRoleButtonTemplate
 --- @field role string # HEALER
 PVPRoleCheckPopupRoleButtonHealer = {}
 PVPRoleCheckPopupRoleButtonHealer["role"] = "HEALER"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L198)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopupRoleButtonDPS : Button, LFGRoleButtonTemplate
 --- @field role string # DAMAGER
 PVPRoleCheckPopupRoleButtonDPS = {}
 PVPRoleCheckPopupRoleButtonDPS["role"] = "DAMAGER"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L213)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopupAcceptButton : Button, UIPanelButtonTemplate
 PVPRoleCheckPopupAcceptButton = {}
 PVPRoleCheckPopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 PVPRoleCheckPopupAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L222)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopupDeclineButton : Button, UIPanelButtonTemplate
 PVPRoleCheckPopupDeclineButton = {}
 PVPRoleCheckPopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 PVPRoleCheckPopupDeclineButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L238)
 --- child of PVPRoleCheckPopupDescription
 --- @class PVPRoleCheckPopupDescriptionText : FontString, GameFontHighlight
 PVPRoleCheckPopupDescriptionText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L231)
 --- child of PVPRoleCheckPopup
 --- @class PVPRoleCheckPopupDescription : Frame
 --- @field Text PVPRoleCheckPopupDescriptionText
 PVPRoleCheckPopupDescription = {}
 PVPRoleCheckPopupDescription["Text"] = PVPRoleCheckPopupDescriptionText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L155)
 --- @class PVPRoleCheckPopup : Frame
 --- @field Border PVPRoleCheckPopup_Border
 --- @field TankIcon PVPRoleCheckPopupRoleButtonTank
@@ -133,52 +168,52 @@ PVPRoleCheckPopup["HealerIcon"] = PVPRoleCheckPopupRoleButtonHealer
 PVPRoleCheckPopup["DPSIcon"] = PVPRoleCheckPopupRoleButtonDPS
 PVPRoleCheckPopup["Description"] = PVPRoleCheckPopupDescription
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L292)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialog_Border : Frame, DialogBorderTranslucentTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L240)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L293)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogCloseButton : Button, UIPanelHideButtonNoScripts
 PVPReadyDialogCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L305)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogEnterBattleButton : Button, UIPanelButtonTemplate, PVPReadyDialogEnterButtonMixin
 PVPReadyDialogEnterBattleButton = {}
 PVPReadyDialogEnterBattleButton["fitTextCanWidthDecrease"] = true -- inherited
 PVPReadyDialogEnterBattleButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L261)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L314)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogLeaveQueueButton : Button, UIPanelButtonTemplate, PVPReadyDialogLeaveButtonMixin
 PVPReadyDialogLeaveQueueButton = {}
 PVPReadyDialogLeaveQueueButton["fitTextCanWidthDecrease"] = true -- inherited
 PVPReadyDialogLeaveQueueButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L331)
 --- child of PVPReadyDialogRoleIcon
 --- @class PVPReadyDialogRoleIconTexture : Texture
 PVPReadyDialogRoleIconTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L271)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L324)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogRoleIcon : Frame
 --- @field texture PVPReadyDialogRoleIconTexture
 PVPReadyDialogRoleIcon = {}
 PVPReadyDialogRoleIcon["texture"] = PVPReadyDialogRoleIconTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L298)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L351)
 --- child of PVPReadyDialogInstanceInfoFrame
 --- @class PVPReadyDialogInstanceInfoFrameName : FontString, GameFontNormalLarge
 PVPReadyDialogInstanceInfoFrameName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L357)
 --- child of PVPReadyDialogInstanceInfoFrame
 --- @class PVPReadyDialogInstanceInfoFrameStatusText : FontString, GameFontNormal
 PVPReadyDialogInstanceInfoFrameStatusText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L282)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L335)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogInstanceInfoFrame : Frame
 --- @field underline Texture
@@ -188,32 +223,32 @@ PVPReadyDialogInstanceInfoFrame = {}
 PVPReadyDialogInstanceInfoFrame["name"] = PVPReadyDialogInstanceInfoFrameName
 PVPReadyDialogInstanceInfoFrame["statusText"] = PVPReadyDialogInstanceInfoFrameStatusText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L205)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L258)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogBackground : Texture
 PVPReadyDialogBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L214)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L267)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogLabel : FontString, GameFontHighlight
 PVPReadyDialogLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L220)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L273)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogBottomArt : Texture
 PVPReadyDialogBottomArt = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L226)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L279)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogYourRoleDescription : FontString, GameFontHighlightExtraSmall
 PVPReadyDialogYourRoleDescription = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L231)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L284)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogRoleLabel : FontString, GameFontNormalLarge
 PVPReadyDialogRoleLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GroupFinder/Mainline/PVPHelper.xml#L254)
 --- @class PVPReadyDialog : Frame
 --- @field Border PVPReadyDialog_Border
 --- @field enterButton PVPReadyDialogEnterBattleButton

@@ -19,5 +19,5 @@ function MonthlyActivitiesObjectiveTrackerMixin:UntrackPerksActivity(activityID)
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_MonthlyActivitiesObjectiveTracker.lua#L77)
 function MonthlyActivitiesObjectiveTrackerMixin:LayoutContents() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_MonthlyActivitiesObjectiveTracker.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_MonthlyActivitiesObjectiveTracker.lua#L90)
 function MonthlyActivitiesObjectiveTrackerMixin:AddActivity(activityInfo) end

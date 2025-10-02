@@ -13,23 +13,23 @@ function AdventureMapMixin:OnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L29)
 function AdventureMapMixin:AddStandardDataProviders() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L35)
 function AdventureMapMixin:ClearAreaTableIDAvailableForInsets() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L38)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L39)
 function AdventureMapMixin:SetAreaTableIDAvailableForInsets(areaID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L44)
 function AdventureMapMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L51)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L52)
 function AdventureMapMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L60)
 function AdventureMapMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L68)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L69)
 function AdventureMapMixin:RefreshInsets() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua#L84)
 function AdventureMapMixin:IsMapInsetExpanded(mapInsetIndex) end

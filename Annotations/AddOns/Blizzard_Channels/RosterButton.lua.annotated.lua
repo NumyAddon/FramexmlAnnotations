@@ -112,14 +112,14 @@ function ChannelRosterButtonMixin:UpdateNameSize() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L277)
 function ChannelRosterButtonMixin:GetMemberChannelRank() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L308)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L309)
 function ChannelRosterButtonMixin:UpdateRankVisibleState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L325)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L326)
 function ChannelRosterButtonMixin:UpdateRankPosition() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L335)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L336)
 function ChannelRosterButtonMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Channels/RosterButton.lua#L340)
 function ChannelRosterButtonMixin:ClearData() end

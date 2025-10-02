@@ -23,7 +23,7 @@ function CommentatorModelSceneMixin:Reset() end
 function CommentatorModelSceneMixin:IsInitialized() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L49)
-function CommentatorModelSceneMixin:OnUnfilteredCombatLogEvent(...) end
+function CommentatorModelSceneMixin:OnCommentatorCombatEvent(...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorModelScene.lua#L59)
 function CommentatorModelSceneMixin:Init(unitToken, guid, effectTarget) end

@@ -175,6 +175,7 @@ GroupLootContainer["layoutIndex"] = 3
 GroupLootContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 GroupLootContainer["align"] = "center" -- inherited
 GroupLootContainer["hideWhenActionBarIsOverriden"] = true -- inherited
+GroupLootContainer["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 GroupLootContainer["isBottomManagedFrame"] = true -- inherited
 GroupLootContainer["isManagedFrame"] = true -- inherited
 

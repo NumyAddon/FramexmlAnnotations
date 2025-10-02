@@ -128,6 +128,7 @@ TalkingHeadFrame["layoutIndex"] = 8
 TalkingHeadFrame["hideWhenActionBarIsOverriden"] = false
 TalkingHeadFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 TalkingHeadFrame["align"] = "center" -- inherited
+TalkingHeadFrame["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 TalkingHeadFrame["isBottomManagedFrame"] = true -- inherited
 TalkingHeadFrame["isManagedFrame"] = true -- inherited
 TalkingHeadFrame["system"] = Enum.EditModeSystem.TalkingHeadFrame -- inherited

@@ -1,48 +1,40 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L250)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L244)
 --- @class LargeMoneyInputBoxMixin
 LargeMoneyInputBoxMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L276)
---- @class LargeMoneyInputFrameMixin
-LargeMoneyInputFrameMixin = {}
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L323)
+--- @class MoneyFrameEditBoxMixin
+MoneyFrameEditBoxMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L252)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L355)
+--- @class MoneyInputFrameMixin
+MoneyInputFrameMixin = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L246)
 function LargeMoneyInputBoxMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L260)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L254)
 function LargeMoneyInputBoxMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L264)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L258)
 function LargeMoneyInputBoxMixin:SetAmount(amount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L268)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L262)
 function LargeMoneyInputBoxMixin:GetAmount() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L266)
 function LargeMoneyInputBoxMixin:OnTextChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L278)
-function LargeMoneyInputFrameMixin:OnLoad() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L296)
-function LargeMoneyInputFrameMixin:SetNextEditBox(nextEditBox) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L312)
-function LargeMoneyInputFrameMixin:Clear() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L318)
-function LargeMoneyInputFrameMixin:SetEnabled(enabled) end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L324)
-function LargeMoneyInputFrameMixin:SetAmount(amount) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L325)
+function MoneyFrameEditBoxMixin:OnLoad() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L330)
-function LargeMoneyInputFrameMixin:GetAmount() end
+function MoneyFrameEditBoxMixin:SetIsUserScaled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L334)
-function LargeMoneyInputFrameMixin:SetOnValueChangedCallback(callback) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L350)
+function MoneyFrameEditBoxMixin:SetDesiredWidth(width) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L338)
-function LargeMoneyInputFrameMixin:OnAmountChanged(callback) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyInputFrame.lua#L357)
+function MoneyInputFrameMixin:SetIsUserScaled() end

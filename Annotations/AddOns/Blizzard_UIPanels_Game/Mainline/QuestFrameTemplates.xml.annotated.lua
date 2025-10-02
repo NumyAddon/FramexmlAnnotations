@@ -36,3 +36,13 @@
 --- @field scrollBarX number # 9
 --- @field scrollBarTopY number # -2
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L172)
+--- child of QuestAccountCompletedNoticeTemplate
+--- @class QuestAccountCompletedNoticeTemplate_Text : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L168)
+--- Template
+--- @class QuestAccountCompletedNoticeTemplate : Frame, QuestAccountCompletedNoticeMixin
+--- @field Text QuestAccountCompletedNoticeTemplate_Text
+--- @field AccountCompletedIcon Texture
+

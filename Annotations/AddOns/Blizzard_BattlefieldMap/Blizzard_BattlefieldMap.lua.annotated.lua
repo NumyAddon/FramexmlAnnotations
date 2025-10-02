@@ -44,7 +44,7 @@ function BattlefieldMapMixin:OnHide() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L167)
 function BattlefieldMapMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L197)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L196)
 function BattlefieldMapMixin:AddStandardDataProviders() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L257)

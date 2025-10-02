@@ -43,9 +43,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L130)
 --- @class MageArcaneChargesFrame : Frame, MageArcaneChargesFrameTemplate, MagePowerBar
+--- @field layoutIndex number # 3
 --- @field showTooltip boolean # true
 --- @field topPadding number # 7
 MageArcaneChargesFrame = {}
+MageArcaneChargesFrame["layoutIndex"] = 3
 MageArcaneChargesFrame["showTooltip"] = true
 MageArcaneChargesFrame["topPadding"] = 7
 MageArcaneChargesFrame["powerToken"] = "ARCANE_CHARGES" -- inherited
@@ -60,7 +62,6 @@ MageArcaneChargesFrame["class"] = "MAGE" -- inherited
 MageArcaneChargesFrame["spec"] = SPEC_MAGE_ARCANE -- inherited
 MageArcaneChargesFrame["maxUsablePoints"] = 5 -- inherited
 MageArcaneChargesFrame["resourceBarMixin"] = ClassPowerBar -- inherited
-MageArcaneChargesFrame["layoutIndex"] = 1 -- inherited
 MageArcaneChargesFrame["usePooledResourceButtons"] = true -- inherited
 MageArcaneChargesFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 MageArcaneChargesFrame["align"] = "center" -- inherited

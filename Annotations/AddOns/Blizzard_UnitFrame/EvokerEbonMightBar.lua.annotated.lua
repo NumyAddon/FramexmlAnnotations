@@ -1,48 +1,48 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L1)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L3)
 --- @class EvokerEbonMightBarMixin
 EvokerEbonMightBarMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L111)
 --- @class PlayerFrameEvokerEbonMightBarMixin
 PlayerFrameEvokerEbonMightBarMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L8)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L10)
 function EvokerEbonMightBarMixin:Initialize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L39)
 function EvokerEbonMightBarMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L48)
 function EvokerEbonMightBarMixin:OnUnitAuraUpdate(unitToken, unitAuraUpdateInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L64)
 function EvokerEbonMightBarMixin:UpdateAuraState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L73)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L75)
 function EvokerEbonMightBarMixin:EvaluateUnit() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L82)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L84)
 function EvokerEbonMightBarMixin:OnBarEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L90)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L92)
 function EvokerEbonMightBarMixin:OnBarDisabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L98)
 function EvokerEbonMightBarMixin:GetCurrentPower() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L104)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L106)
 function EvokerEbonMightBarMixin:GetCurrentMinMaxPower() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L113)
 function PlayerFrameEvokerEbonMightBarMixin:Initialize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L118)
 function PlayerFrameEvokerEbonMightBarMixin:UpdatePower() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L125)
 function PlayerFrameEvokerEbonMightBarMixin:SetOverflowVisualsActive(active) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L139)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/EvokerEbonMightBar.lua#L141)
 function PlayerFrameEvokerEbonMightBarMixin:OnBarDisabled() end

@@ -1237,17 +1237,17 @@ MerchantBuyBackItem["Name"] = MerchantBuyBackItemName
 MerchantExtraCurrencyInset = {}
 MerchantExtraCurrencyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1354)
 --- child of MerchantExtraCurrencyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantExtraCurrencyBgLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1362)
 --- child of MerchantExtraCurrencyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantExtraCurrencyBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1370)
 --- child of MerchantExtraCurrencyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantExtraCurrencyBgMiddle = {}
@@ -1263,17 +1263,17 @@ MerchantExtraCurrencyBg = {}
 MerchantMoneyInset = {}
 MerchantMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1354)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantMoneyBgLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1362)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantMoneyBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/MerchantFrame.xml#L1370)
 --- child of MerchantMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 MerchantMoneyBgMiddle = {}

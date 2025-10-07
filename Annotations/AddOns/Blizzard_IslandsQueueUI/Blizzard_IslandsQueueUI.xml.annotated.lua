@@ -98,7 +98,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_IslandsQueueUI/Blizzard_IslandsQueueUI.xml#L286)
 --- Template
---- @class IslandsQueueFrameCardFrameTemplate : Frame, UIWidgetContainerTemplate
+--- @class IslandsQueueFrameCardFrameTemplate : Frame, UIWidgetContainerNoResizeTemplate
 --- @field showAndHideOnWidgetSetRegistration boolean # false
 --- @field CenterCard IslandsQueueFrameCardFrameTemplate_CenterCard
 --- @field LeftCard IslandsQueueFrameCardFrameTemplate_LeftCard

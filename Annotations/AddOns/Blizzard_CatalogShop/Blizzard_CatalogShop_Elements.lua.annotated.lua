@@ -128,7 +128,7 @@ function NavigationBarMixin:OnUpdate() end
 function NavigationBarMixin:SetupScrolling() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L223)
-function NavigationBarMixin:SelectCatorgyByLinkTag(linkTag) end
+function NavigationBarMixin:SelectCategoryByLinkTag(linkTag) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.lua#L247)
 function NavigationBarMixin:Init(buttonInfos) end

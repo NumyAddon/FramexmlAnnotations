@@ -36,6 +36,10 @@ CurrencyLayoutFrameIconMixin = {}
 --- @class CurrencyHorizontalLayoutFrameMixin
 CurrencyHorizontalLayoutFrameMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L647)
+--- @class AnimatedShineMixin
+AnimatedShineMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L60)
 function RoleCountMixin:OnShow() end
 
@@ -152,3 +156,12 @@ function CurrencyHorizontalLayoutFrameMixin:AddCurrency(currencyID, overrideAmou
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L623)
 function CurrencyHorizontalLayoutFrameMixin:AddItem(itemID, overrideAmount, color) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L651)
+function AnimatedShineMixin:Start(r, g, b) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L667)
+function AnimatedShineMixin:Stop() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanelTemplates/Mainline/UIPanelTemplates.lua#L675)
+function AnimatedShineMixin:Update(elapsed) end

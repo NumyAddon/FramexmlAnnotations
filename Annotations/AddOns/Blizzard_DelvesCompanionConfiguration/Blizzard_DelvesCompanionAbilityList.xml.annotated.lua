@@ -54,6 +54,7 @@ DelvesCompanionAbilityListFrame["Bg"] = DelvesCompanionAbilityListFrameBg -- inh
 DelvesCompanionAbilityListFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 DelvesCompanionAbilityListFrame["getSpecializedMixin"] = TalentButtonUtil.GetSpecializedMixin -- inherited
 DelvesCompanionAbilityListFrame["getEdgeTemplateType"] = TalentButtonUtil.GetTemplateForEdgeVisualStyle -- inherited
+DelvesCompanionAbilityListFrame["getSpecializedChoiceMixin"] = TalentButtonUtil.GetSpecializedChoiceMixin -- inherited
 DelvesCompanionAbilityListFrame["buttonSize"] = 40 -- inherited
 DelvesCompanionAbilityListFrame["topPadding"] = 0 -- inherited
 DelvesCompanionAbilityListFrame["leftPadding"] = 0 -- inherited

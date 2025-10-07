@@ -1,46 +1,46 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2283)
 --- @class LFGRoleButtonWithShortageRewardMixin
 LFGRoleButtonWithShortageRewardMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2346)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2343)
 --- @class LFGRoleShortagePulseAnimMixin
 LFGRoleShortagePulseAnimMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2359)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2356)
 --- @class LFGRewardFrameTemplateTitleMixin
 LFGRewardFrameTemplateTitleMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2285)
 function LFGRoleButtonWithShortageRewardMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2299)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2296)
 function LFGRoleButtonWithShortageRewardMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2300)
 function LFGRoleButtonWithShortageRewardMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2307)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2304)
 function LFGRoleButtonWithShortageRewardMixin:SetUpIconPulseAnim() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2309)
 function LFGRoleButtonWithShortageRewardMixin:EnableRoleShortagePulseAnim(enableAnim) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2323)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2320)
 function LFGRoleButtonWithShortageRewardMixin:RestartRoleShortagePulseAnim() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2328)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2325)
 function LFGRoleButtonWithShortageRewardMixin:TryPlayPulseEffect() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2338)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2335)
 function LFGRoleButtonWithShortageRewardMixin:CancelPulseEffect() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2345)
 function LFGRoleShortagePulseAnimMixin:OnLoop() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2355)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2352)
 function LFGRoleShortagePulseAnimMixin:OnStop() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2360)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Shared/LFGFrame.lua#L2357)
 function LFGRewardFrameTemplateTitleMixin:OnLoad() end

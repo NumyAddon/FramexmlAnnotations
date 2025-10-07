@@ -54,7 +54,7 @@ function GenericTraitFrameMixin:GetConfigCommitErrorString() end
 function GenericTraitFrameMixin:UpdateTreeCurrencyInfo() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.lua#L386)
-function GenericTraitFrameMixin:GetFrameLevelForButton(nodeInfo) end
+function GenericTraitFrameMixin:GetFrameLevelForButton(nodeInfo, _visualState) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.lua#L394)
 function GenericTraitFrameMixin:IsLocked() end

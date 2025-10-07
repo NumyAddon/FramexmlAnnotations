@@ -269,17 +269,17 @@ TabardFrameCustomizationFrame = {}
 TabardFrameMoneyInset = {}
 TabardFrameMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1354)
 --- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TabardFrameMoneyBgLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1362)
 --- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TabardFrameMoneyBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L1370)
 --- child of TabardFrameMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TabardFrameMoneyBgMiddle = {}

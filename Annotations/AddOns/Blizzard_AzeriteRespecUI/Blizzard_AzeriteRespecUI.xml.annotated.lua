@@ -10,17 +10,17 @@
 --- child of AzeriteRespecFrame_ButtonFrame
 --- @class AzeriteRespecFrame_ButtonFrame_AzeriteRespecButton : Button, MagicButtonTemplate, AzeriteRespecButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1354)
 --- child of AzeriteRespecFrame_ButtonFrame_MoneyFrameEdge (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 AzeriteRespecFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1362)
 --- child of AzeriteRespecFrame_ButtonFrame_MoneyFrameEdge (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 AzeriteRespecFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L1370)
 --- child of AzeriteRespecFrame_ButtonFrame_MoneyFrameEdge (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 AzeriteRespecFrameMiddle = {}
@@ -76,42 +76,42 @@ AzeriteRespecFrameMoneyFrame["trialErrorButton"] = AzeriteRespecFrameMoneyFrameT
 --- @field ButtonBorder AzeriteRespecFrame_ButtonFrame_ButtonBorder
 --- @field ButtonBottomBorder AzeriteRespecFrame_ButtonFrame_ButtonBottomBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L898)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L899)
 --- child of AzeriteRespecFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 AzeriteRespecFrameCornerTL = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L905)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L906)
 --- child of AzeriteRespecFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 AzeriteRespecFrameCornerTR = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L912)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L913)
 --- child of AzeriteRespecFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 AzeriteRespecFrameCornerBL = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L919)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L920)
 --- child of AzeriteRespecFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 AzeriteRespecFrameCornerBR = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L928)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L929)
 --- child of AzeriteRespecFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 AzeriteRespecFrameLeftEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L936)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L937)
 --- child of AzeriteRespecFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 AzeriteRespecFrameRightEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L944)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L945)
 --- child of AzeriteRespecFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 AzeriteRespecFrameTopEdge = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L952)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_AzeriteRespecUI/Blizzard_AzeriteRespecUI.xml#L953)
 --- child of AzeriteRespecFrame (created in template EtherealFrameTemplate)
 --- @type Texture
 AzeriteRespecFrameBottomEdge = {}

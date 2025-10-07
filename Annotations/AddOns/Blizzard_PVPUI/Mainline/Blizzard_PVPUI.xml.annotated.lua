@@ -473,42 +473,42 @@ HonorFrameTypeDropdown = {}
 --- @field isSpecialBrawl boolean # true
 --- @field tooltipTableKey string # SpecialEventBrawl
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1083)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1084)
 --- child of HonorFrame_BonusFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 HonorFrameTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1089)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1090)
 --- child of HonorFrame_BonusFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 HonorFrameTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1096)
 --- child of HonorFrame_BonusFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 HonorFrameBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1102)
 --- child of HonorFrame_BonusFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 HonorFrameBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1108)
 --- child of HonorFrame_BonusFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 HonorFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1115)
 --- child of HonorFrame_BonusFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 HonorFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1122)
 --- child of HonorFrame_BonusFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 HonorFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1129)
 --- child of HonorFrame_BonusFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 HonorFrameRight = {}
@@ -603,42 +603,42 @@ HonorFrame["QueueButton"] = HonorFrameQueueButton
 --- @class ConquestFrame_RatedBG : Button, PVPRatedActivityButtonTemplate
 --- @field toolTipTitle any # PVP_RATED_BATTLEGROUNDS
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1083)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1084)
 --- child of ConquestFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 ConquestFrameTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1089)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1090)
 --- child of ConquestFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 ConquestFrameTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1095)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1096)
 --- child of ConquestFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 ConquestFrameBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1101)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1102)
 --- child of ConquestFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 ConquestFrameBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1108)
 --- child of ConquestFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 ConquestFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1115)
 --- child of ConquestFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 ConquestFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1122)
 --- child of ConquestFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 ConquestFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1129)
 --- child of ConquestFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 ConquestFrameRight = {}

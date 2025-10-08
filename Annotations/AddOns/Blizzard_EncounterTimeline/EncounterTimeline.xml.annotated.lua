@@ -24,6 +24,4 @@
 EncounterTimeline = {}
 EncounterTimeline["systemIndex"] = Enum.EditModeEncounterEventsSystemIndices.Timeline
 EncounterTimeline["systemNameString"] = HUD_EDIT_MODE_SYSTEM_ENCOUNTER_TIMELINE
-EncounterTimeline["system"] = Enum.EditModeSystem.EncounterEvents -- inherited
-EncounterTimeline["defaultHideSelection"] = true -- inherited
 

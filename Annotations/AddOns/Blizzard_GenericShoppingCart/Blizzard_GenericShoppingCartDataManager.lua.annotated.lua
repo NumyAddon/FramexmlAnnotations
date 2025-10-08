@@ -22,20 +22,23 @@ function ShoppingCartDataManagerMixin:SetRemoveFromCartCallback(removeFromCartCa
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L46)
 function ShoppingCartDataManagerMixin:SetClearCartCallback(clearCartCallback) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L57)
 function ShoppingCartDataManagerMixin:AddToCart(cartItem) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L69)
+function ShoppingCartDataManagerMixin:RemoveFromCartInternal(index, currCartItem) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L80)
 function ShoppingCartDataManagerMixin:RemoveFromCart(cartItemToRemove) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L81)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L99)
 function ShoppingCartDataManagerMixin:ClearCart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L109)
 function ShoppingCartDataManagerMixin:PurchaseCart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L115)
 function ShoppingCartDataManagerMixin:UpdateCart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L121)
 function ShoppingCartDataManagerMixin:GetNumItemsInCart() end

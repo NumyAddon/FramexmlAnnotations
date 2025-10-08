@@ -416,4 +416,4 @@ function EventToastScoreboardMixin:OnEvent(event) end
 function EventToastScoreboardMixin:OnHide() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/EventToastManager.lua#L1320)
-function EventToastHouseUpgradeAvailableMixin:Setup(_toastInfo) end
+function EventToastHouseUpgradeAvailableMixin:Setup(toastInfo) end

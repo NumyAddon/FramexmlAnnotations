@@ -20,27 +20,27 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L91)
 --- child of HouseEditorStorageFrameTemplate
---- @class HouseEditorStorageFrameTemplate_SearchBox : EditBox, SearchBoxTemplate, HouseEditorStorageSearchBoxMixin
+--- @class HouseEditorStorageFrameTemplate_SearchBox : EditBox, HousingCatalogSearchBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L103)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L99)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_Filters : Frame, HousingCatalogFiltersTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L107)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_Categories : Frame, HousingCatalogCategoriesTemplate
 --- @field fixedWidth number # 75
 --- @field topPadding number # 5
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L118)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_OptionsContainer : Frame, ScrollingHousingCatalogTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L129)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L125)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_LoadingSpinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L132)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_TabSystem : Frame, TabSystemTemplate
 --- @field minTabWidth number # 100
@@ -48,13 +48,13 @@
 --- @field tabSelectSound any # SOUNDKIT.UI_CLASS_TALENT_TAB
 --- @field tabTemplate string # HouseEditorStorageTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L144)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_CollapseButton : Button
 --- @field Icon Texture
 --- @field OverlayIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L158)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_ResizeButton : Button, PanelResizeButtonMixin
 

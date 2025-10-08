@@ -21,7 +21,4 @@ VehicleSeatIndicator["align"] = "right" -- inherited
 VehicleSeatIndicator["hideWhenActionBarIsOverriden"] = false -- inherited
 VehicleSeatIndicator["isRightManagedFrame"] = true -- inherited
 VehicleSeatIndicator["isManagedFrame"] = true -- inherited
-VehicleSeatIndicator["system"] = Enum.EditModeSystem.VehicleSeatIndicator -- inherited
-VehicleSeatIndicator["systemNameString"] = HUD_EDIT_MODE_VEHICLE_SEAT_INDICATOR_LABEL -- inherited
-VehicleSeatIndicator["defaultHideSelection"] = true -- inherited
 

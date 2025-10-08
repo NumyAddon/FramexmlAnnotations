@@ -16,10 +16,6 @@ HousingMarketShowCartServiceMixin = {}
 --- @class HousingMarketHideCartServiceMixin
 HousingMarketHideCartServiceMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartServices.lua#L91)
---- @class HousingMarketPlaceInWorldServiceMixin
-HousingMarketPlaceInWorldServiceMixin = {}
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartServices.lua#L13)
 function HousingMarketAddToCartServiceMixin:GetEventData() end
 
@@ -31,6 +27,3 @@ function HousingMarketShowCartServiceMixin:GetEventData() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartServices.lua#L86)
 function HousingMarketHideCartServiceMixin:GetEventData() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartServices.lua#L93)
-function HousingMarketPlaceInWorldServiceMixin:GetEventData() end

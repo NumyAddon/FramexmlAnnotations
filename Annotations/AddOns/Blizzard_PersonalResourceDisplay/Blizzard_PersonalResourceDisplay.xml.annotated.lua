@@ -74,7 +74,4 @@
 --- @field ClassFrameContainer Frame
 --- @field FriendlyBuffsContainer PersonalResourceDisplayFrame_FriendlyBuffsContainer
 PersonalResourceDisplayFrame = {}
-PersonalResourceDisplayFrame["system"] = Enum.EditModeSystem.PersonalResourceDisplay -- inherited
-PersonalResourceDisplayFrame["systemNameString"] = HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_LABEL -- inherited
-PersonalResourceDisplayFrame["defaultHideSelection"] = true -- inherited
 

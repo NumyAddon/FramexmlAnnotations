@@ -4,15 +4,15 @@
 --- @class ShoppingCartServiceRegistrantMixin : CallbackRegistrantMixin
 ShoppingCartServiceRegistrantMixin = CreateFromMixins(CallbackRegistrantMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartServicesBase.lua#L14)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartServicesBase.lua#L16)
 --- @class ShoppingCartServiceButtonMixin
 ShoppingCartServiceButtonMixin = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartServicesBase.lua#L3)
 function ShoppingCartServiceRegistrantMixin:AddServiceEvents(services) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartServicesBase.lua#L16)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartServicesBase.lua#L18)
 function ShoppingCartServiceButtonMixin:BaseService_OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartServicesBase.lua#L23)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartServicesBase.lua#L25)
 function ShoppingCartServiceButtonMixin:GetEventData() end

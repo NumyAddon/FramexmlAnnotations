@@ -64,7 +64,7 @@ HousingCornerstoneFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inher
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L155)
 --- child of HousingCornerstonePurchaseFrame
 --- @class HousingCornerstonePurchaseFrame_ForSaleSign : Frame
---- @field Footer Texture
+--- @field WoodSign Texture
 --- @field ForSaleText HousingCornerstonePurchaseFrame_ForSaleSign_ForSaleText
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L105)

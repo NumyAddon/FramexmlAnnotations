@@ -368,6 +368,10 @@ CarouselContainer["bottomPadding"] = 0
 --- child of CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer
 --- @class CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer_NoPriceInGlues : FontString, SystemFont_Small2
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L461)
+--- child of CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer
+--- @class CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer_PendingPurchasesText : FontString, SystemFont_Small2
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L420)
 --- child of CatalogShopFrame_CatalogShopDetailsFrame
 --- @class CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer : Frame
@@ -378,8 +382,9 @@ CarouselContainer["bottomPadding"] = 0
 --- @field PurchaseButton CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer_PurchaseButton
 --- @field DetailsButton CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer_DetailsButton
 --- @field NoPriceInGlues CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer_NoPriceInGlues
+--- @field PendingPurchasesText CatalogShopFrame_CatalogShopDetailsFrame_ButtonContainer_PendingPurchasesText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L464)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L471)
 --- child of CatalogShopFrame_CatalogShopDetailsFrame
 --- @class CatalogShopFrame_CatalogShopDetailsFrame_BottomPadding : Frame
 --- @field layoutIndex number # 99
@@ -387,7 +392,7 @@ CarouselContainer["bottomPadding"] = 0
 --- @field bottomPadding number # 6
 --- @field leftPadding number # 0
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L473)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L480)
 --- child of CatalogShopFrame_CatalogShopDetailsFrame
 --- @class CatalogShopFrame_CatalogShopDetailsFrame_Border : Frame, NineSlicePanelTemplate
 --- @field Border Texture
@@ -436,15 +441,29 @@ CarouselContainer["bottomPadding"] = 0
 --- @field ProductDescription CatalogShopFrame_CatalogShopDetailsFrame_ProductDescription
 --- @field LegalDisclaimerText CatalogShopFrame_CatalogShopDetailsFrame_LegalDisclaimerText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L486)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L623)
+--- child of CatalogShopFrame_CatalogShopErrorFrame (created in template CatalogShopErrorFrameTemplate)
+--- Template
+--- Adds itself to the parent with key `Icon`
+--- @type Texture
+_G["store-error-icon"] = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L632)
+--- child of CatalogShopFrame_CatalogShopErrorFrame (created in template CatalogShopErrorFrameTemplate)
+--- Template
+--- Adds itself to the parent with key `Line`
+--- @type Texture
+_G["store-error-line"] = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L493)
 --- child of CatalogShopFrame
 --- @class CatalogShopFrame_CatalogShopErrorFrame : Frame, CatalogShopErrorFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L492)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L499)
 --- child of CatalogShopFrame
 --- @class CatalogShopFrame_CatalogShopLoadingScreenFrame : Frame, CatalogShopLoadingScreenTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L499)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L506)
 --- child of CatalogShopFrame
 --- @class CatalogShopFrame_CatalogShopUnavailableScreenFrame : Frame, CatalogShopUnavailableScreenTemplate
 

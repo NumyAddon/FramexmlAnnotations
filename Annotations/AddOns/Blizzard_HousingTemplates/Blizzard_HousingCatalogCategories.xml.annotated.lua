@@ -62,29 +62,29 @@
 --- @field Text HousingCategoryBackButtonTemplate_Text
 --- @field HoverIcon HousingCategoryBackButtonTemplate_HoverIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L145)
 --- child of HousingCatalogCategoriesTemplate
 --- @class HousingCatalogCategoriesTemplate_BackButton : Button, HousingCategoryBackButtonTemplate
 --- @field layoutIndex number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L150)
 --- child of HousingCatalogCategoriesTemplate
 --- @class HousingCatalogCategoriesTemplate_AllSubcategoriesStandIn : Button, BaseHousingCatalogSubcategoryTemplate
 --- @field layoutIndex number # 3
 --- @field iconName string # category-icons_all_active
 --- @field enabledTooltip any # HOUSING_CATALOG_CATEGORIES_ALL
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L114)
 --- child of HousingCatalogCategoriesTemplate
 --- @class HousingCatalogCategoriesTemplate_Background : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L119)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L121)
 --- child of HousingCatalogCategoriesTemplate
 --- @class HousingCatalogCategoriesTemplate_TopBorder : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L133)
 --- child of HousingCatalogCategoriesTemplate
 --- @class HousingCatalogCategoriesTemplate_SubcategoriesDivider : Texture
 --- @field layoutIndex number # 2
@@ -96,6 +96,8 @@
 --- Template
 --- @class HousingCatalogCategoriesTemplate : Frame, VerticalLayoutFrame, HousingCatalogCategoriesMixin
 --- @field fixedWidth number # 75
+--- @field categoryButtonSize number # 64
+--- @field subcategoryButtonSize number # 54
 --- @field topPadding number # 6
 --- @field backgroundCategories string # house-chest-nav-bg_primary
 --- @field backgroundSubcategories string # house-chest-nav-bg_secondary

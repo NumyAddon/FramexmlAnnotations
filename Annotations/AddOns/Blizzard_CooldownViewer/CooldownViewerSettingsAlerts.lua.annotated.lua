@@ -20,16 +20,22 @@ function CooldownViewerSettingsEditAlertMixin:OnHide() end
 function CooldownViewerSettingsEditAlertMixin:SetCooldown(cooldownItem) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L36)
+function CooldownViewerSettingsEditAlertMixin:GetCooldownID() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L40)
+function CooldownViewerSettingsEditAlertMixin:GetValidEventTypesForCooldown() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L52)
 function CooldownViewerSettingsEditAlertMixin:DisplayForCooldown(cooldownItem) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L58)
 function CooldownViewerSettingsEditAlertMixin:DisplayForAlert(cooldownItem, alert, isNewAlert) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L69)
 function CooldownViewerSettingsEditAlertMixin:UpdateAddButton(isNewAlert) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L73)
 function CooldownViewerSettingsEditAlertMixin:AddCurrentAlert() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L70)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L104)
 function CooldownViewerSettingsEditAlertMixin:SetupDropdowns() end

@@ -85,6 +85,4 @@ BagsBar = {}
 BagsBar["isHorizontal"] = true
 BagsBar["direction"] = Enum.BagsDirection.Left
 BagsBar["hideExpandToggle "] = false
-BagsBar["system"] = Enum.EditModeSystem.Bags -- inherited
-BagsBar["systemNameString"] = HUD_EDIT_MODE_BAGS_LABEL -- inherited
 

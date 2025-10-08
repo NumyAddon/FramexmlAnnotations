@@ -158,7 +158,7 @@ function CooldownViewerLayoutManagerMixin:WriteCooldownCategoryToLayout(layout, 
 function CooldownViewerLayoutManagerMixin:WriteCooldownAlertsToLayout(layout, alerts) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsLayoutManager.lua#L603)
-function CooldownViewerLayoutManagerMixin:FindExistingAlert(cooldownID, existingAlert) end
+function CooldownViewerLayoutManagerMixin:FindExistingAlert(cooldownID, alert) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsLayoutManager.lua#L617)
 function CooldownViewerLayoutManagerMixin:FindExactAlert(cooldownID, exactAlert) end

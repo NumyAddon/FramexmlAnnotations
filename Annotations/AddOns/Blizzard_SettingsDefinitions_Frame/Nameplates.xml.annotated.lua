@@ -8,4 +8,5 @@
 --- Template
 --- @class NamePlatePreviewTemplate : Frame
 --- @field NamePlate NamePlatePreviewTemplate_NamePlate
+--- @field Border Texture
 

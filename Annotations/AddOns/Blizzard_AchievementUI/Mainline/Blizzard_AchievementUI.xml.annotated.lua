@@ -1202,6 +1202,7 @@ AchievementFrameTab3 = {}
 AchievementFrameFilterDropdown = {}
 AchievementFrameFilterDropdown["resizeToText"] = false
 AchievementFrameFilterDropdown["text"] = FILTER -- inherited
+AchievementFrameFilterDropdown["disableFontObject"] = "GameFontDisable" -- inherited
 AchievementFrameFilterDropdown["menuRelativePoint"] = "BOTTOMLEFT" -- inherited
 AchievementFrameFilterDropdown["menuPointX"] = 6 -- inherited
 AchievementFrameFilterDropdown["menuPointY"] = 2 -- inherited

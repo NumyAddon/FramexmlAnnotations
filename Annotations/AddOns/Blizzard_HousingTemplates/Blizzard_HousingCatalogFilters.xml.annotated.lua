@@ -10,3 +10,7 @@
 --- @class HousingCatalogFiltersTemplate : Frame, HousingCatalogFiltersMixin
 --- @field FilterDropdown HousingCatalogFiltersTemplate_FilterDropdown
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogFilters.xml#L13)
+--- Template
+--- @class HousingCatalogSearchBoxTemplate : EditBox, SearchBoxTemplate, HousingCatalogSearchBoxMixin
+

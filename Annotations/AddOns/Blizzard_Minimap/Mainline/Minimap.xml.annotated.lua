@@ -159,6 +159,4 @@ Minimap = {}
 MinimapCluster = {}
 MinimapCluster["scaleMinimapHeader"] = false
 MinimapCluster["widthPadding"] = 20
-MinimapCluster["system"] = Enum.EditModeSystem.Minimap -- inherited
-MinimapCluster["systemNameString"] = HUD_EDIT_MODE_MINIMAP_LABEL -- inherited
 

@@ -184,9 +184,6 @@ PlayerCastingBarFrame["hideWhenActionBarIsOverriden"] = true -- inherited
 PlayerCastingBarFrame["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 PlayerCastingBarFrame["isBottomManagedFrame"] = true -- inherited
 PlayerCastingBarFrame["isManagedFrame"] = true -- inherited
-PlayerCastingBarFrame["system"] = Enum.EditModeSystem.CastBar -- inherited
-PlayerCastingBarFrame["systemNameString"] = HUD_EDIT_MODE_CAST_BAR_LABEL -- inherited
-PlayerCastingBarFrame["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/CastingBarFrame.xml#L500)
 --- @class OverlayPlayerCastingBarFrame : StatusBar, CastingBarFrameTemplate, OverlayPlayerCastingBarMixin

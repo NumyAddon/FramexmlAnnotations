@@ -13,13 +13,7 @@
 --- @class ScrollingHousingCatalogTemplate_ScrollBox : Frame, WowScrollBoxList
 --- @field wheelPanScalar number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L46)
---- child of ScrollingHousingCatalogTemplate
---- @class ScrollingHousingCatalogTemplate_Shadows : Frame
---- @field Upper Texture
---- @field Lower Texture
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L68)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L45)
 --- child of ScrollingHousingCatalogTemplate
 --- @class ScrollingHousingCatalogTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
@@ -33,6 +27,5 @@
 --- @field leftPadding number # 0
 --- @field rightPadding number # 0
 --- @field ScrollBox ScrollingHousingCatalogTemplate_ScrollBox
---- @field Shadows ScrollingHousingCatalogTemplate_Shadows
 --- @field ScrollBar ScrollingHousingCatalogTemplate_ScrollBar
 

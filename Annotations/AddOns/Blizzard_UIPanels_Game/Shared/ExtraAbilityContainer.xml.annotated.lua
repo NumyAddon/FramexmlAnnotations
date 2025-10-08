@@ -18,7 +18,4 @@ ExtraAbilityContainer["align"] = "center" -- inherited
 ExtraAbilityContainer["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 ExtraAbilityContainer["isBottomManagedFrame"] = true -- inherited
 ExtraAbilityContainer["isManagedFrame"] = true -- inherited
-ExtraAbilityContainer["system"] = Enum.EditModeSystem.ExtraAbilities -- inherited
-ExtraAbilityContainer["systemNameString"] = HUD_EDIT_MODE_EXTRA_ABILITIES_LABEL -- inherited
-ExtraAbilityContainer["defaultHideSelection"] = true -- inherited
 

@@ -23,7 +23,6 @@ PartyFrame["bottomPadding"] = 2
 PartyFrame["breakSnappedFramesOnSave"] = true
 PartyFrame["alwaysUseTopLeftAnchor"] = true
 PartyFrame["spacing"] = 10
-PartyFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PartyFrame.xml#L45)
 --- @class PartyMemberBuffTooltip : Frame, TooltipBackdropTemplate, PartyMemberBuffTooltipMixin

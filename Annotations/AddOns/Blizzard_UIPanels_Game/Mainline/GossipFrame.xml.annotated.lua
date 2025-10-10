@@ -43,18 +43,18 @@ GossipFrameMaterialBotRight = {}
 --- child of GossipFrame
 --- @class GossipFrame_FriendshipStatusBar : StatusBar, NPCFriendshipStatusBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L686)
 --- child of GossipFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 GossipFrameInset = {}
 GossipFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L680)
 --- child of GossipFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 GossipFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L864)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GossipFrame.xml#L663)
 --- child of GossipFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 GossipFrameBg = {}

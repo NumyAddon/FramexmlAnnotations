@@ -126,18 +126,18 @@ MacroFrameEnterMacroText = {}
 --- @class MacroFrameCharLimitText : FontString, GameFontHighlightSmall
 MacroFrameCharLimitText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L686)
 --- child of MacroFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 MacroFrameInset = {}
 MacroFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L680)
 --- child of MacroFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 MacroFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L864)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L663)
 --- child of MacroFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 MacroFrameBg = {}

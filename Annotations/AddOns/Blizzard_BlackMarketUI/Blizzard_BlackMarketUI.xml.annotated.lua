@@ -271,17 +271,17 @@ HotItemCurrentBidMoneyFrame["trialErrorButton"] = HotItemCurrentBidMoneyFrameTri
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1354)
 --- child of BlackMarketFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 BlackMarketFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1362)
 --- child of BlackMarketFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 BlackMarketFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1370)
 --- child of BlackMarketFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 BlackMarketFrameMiddle = {}

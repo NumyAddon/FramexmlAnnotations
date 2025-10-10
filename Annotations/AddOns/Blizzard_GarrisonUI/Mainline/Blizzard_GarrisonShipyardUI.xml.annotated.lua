@@ -865,12 +865,12 @@ GarrisonShipyardFrameTab2 = {}
 --- @class GarrisonShipyardFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 --- @field currencyType number # 1101
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L40)
 --- child of GarrisonShipyardFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 GarrisonShipyardFrameFollowersClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L1234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonShipyardUI.xml#L31)
 --- child of GarrisonShipyardFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 GarrisonShipyardFrameFollowersSearchIcon = {}

@@ -288,12 +288,12 @@ ContainerFrameCombinedBags["PortraitButton"] = ContainerFrameCombinedBagsPortrai
 ContainerFrameCombinedBags["onCloseCallback"] = ContainerFrameCombinedBagsMixin.Close
 ContainerFrameCombinedBags["layoutType"] = "HeldBagLayout"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L1243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L40)
 --- child of BagItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 BagItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L1234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L31)
 --- child of BagItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 BagItemSearchBoxSearchIcon = {}

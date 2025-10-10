@@ -3,15 +3,16 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBarTemplate.xml#L9)
 --- child of StatusTrackingBarTemplate
 --- @class StatusTrackingBarTemplate_StatusBar : StatusBar, GradualAnimatedStatusBarTemplate, TextStatusBarMixin
+--- @field supportsAnimation boolean # true
 --- @field Background Texture
 --- @field Underlay Texture
 --- @field Overlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBarTemplate.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBarTemplate.xml#L37)
 --- child of StatusTrackingBarTemplate_OverlayFrame
 --- @class StatusTrackingBarTemplate_OverlayFrame_Text : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBarTemplate.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBarTemplate.xml#L34)
 --- child of StatusTrackingBarTemplate
 --- @class StatusTrackingBarTemplate_OverlayFrame : Frame
 --- @field Text StatusTrackingBarTemplate_OverlayFrame_Text

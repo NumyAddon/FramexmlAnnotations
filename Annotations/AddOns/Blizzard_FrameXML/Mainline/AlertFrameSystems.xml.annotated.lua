@@ -1349,3 +1349,61 @@ AlertFrameSystemsRegistrar = {}
 --- @field animIn MonthlyActivityFrameTemplate_animIn
 --- @field waitAndAnimOut MonthlyActivityFrameTemplate_waitAndAnimOut
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L3028)
+--- child of HousingItemEarnedAlertFrameTemplate
+--- @class HousingItemEarnedAlertFrameTemplate_CollectedLabel : FontString, GameFontHighlightSmall2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L3048)
+--- child of HousingItemEarnedAlertFrameTemplate
+--- @class HousingItemEarnedAlertFrameTemplate_DecorType : FontString, GameFontNormalSmall
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L3054)
+--- child of HousingItemEarnedAlertFrameTemplate
+--- @class HousingItemEarnedAlertFrameTemplate_DecorName : FontString, GameFontHighlightMed2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2936)
+--- child of HousingItemEarnedAlertFrameTemplate
+--- @class HousingItemEarnedAlertFrameTemplate_animIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2940)
+--- child of HousingItemEarnedAlertFrameTemplate
+--- @class HousingItemEarnedAlertFrameTemplate_waitAndAnimOut : AnimationGroup
+--- @field animOut Alpha
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2949)
+--- child of HousingItemEarnedAlertFrameTemplate
+--- @class HousingItemEarnedAlertFrameTemplate_sparklesAnimIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2953)
+--- child of HousingItemEarnedAlertFrameTemplate
+--- @class HousingItemEarnedAlertFrameTemplate_lightRaysAnimIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2959)
+--- child of HousingItemEarnedAlertFrameTemplate
+--- @class HousingItemEarnedAlertFrameTemplate_glowAnimIn : AnimationGroup
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2933)
+--- Template
+--- @class HousingItemEarnedAlertFrameTemplate : ContainedAlertFrame, AlertFrameTemplate
+--- @field Glow Texture
+--- @field Background Texture
+--- @field LightRays Texture
+--- @field LightRays2 Texture
+--- @field Sparkles Texture
+--- @field Border Texture
+--- @field LeafTL Texture
+--- @field LeafL Texture
+--- @field LeafBL Texture
+--- @field LeafTR Texture
+--- @field LeafBR Texture
+--- @field CollectedLabel HousingItemEarnedAlertFrameTemplate_CollectedLabel
+--- @field Divider Texture
+--- @field Icon Texture
+--- @field DecorType HousingItemEarnedAlertFrameTemplate_DecorType
+--- @field DecorName HousingItemEarnedAlertFrameTemplate_DecorName
+--- @field animIn HousingItemEarnedAlertFrameTemplate_animIn
+--- @field waitAndAnimOut HousingItemEarnedAlertFrameTemplate_waitAndAnimOut
+--- @field sparklesAnimIn HousingItemEarnedAlertFrameTemplate_sparklesAnimIn
+--- @field lightRaysAnimIn HousingItemEarnedAlertFrameTemplate_lightRaysAnimIn
+--- @field glowAnimIn HousingItemEarnedAlertFrameTemplate_glowAnimIn
+

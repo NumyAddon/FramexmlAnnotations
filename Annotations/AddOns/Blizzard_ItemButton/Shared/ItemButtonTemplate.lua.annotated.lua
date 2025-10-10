@@ -1,3 +1,12 @@
+ItemButtonConstants =
+{
+	ContextMatch =
+	{
+		Standard = 1,
+		RuneForging = 2,
+	},
+};
+
 ItemButtonMixin = {};--- @class ItemButtonMixin
 
 function ItemButtonMixin:OnItemContextChanged()

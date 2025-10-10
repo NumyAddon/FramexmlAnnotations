@@ -88,18 +88,18 @@ ModelPreviewFrameCloseButton = {}
 ModelPreviewFrameCloseButton["fitTextCanWidthDecrease"] = true -- inherited
 ModelPreviewFrameCloseButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L686)
 --- child of ModelPreviewFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ModelPreviewFrameInset = {}
 ModelPreviewFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L680)
 --- child of ModelPreviewFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 ModelPreviewFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L864)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/ModelPreviewFrame.xml#L663)
 --- child of ModelPreviewFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ModelPreviewFrameBg = {}

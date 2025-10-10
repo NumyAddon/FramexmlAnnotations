@@ -525,18 +525,18 @@ QuestFrameGreetingPanel["MaterialBotRight"] = QuestFrameGreetingPanelMaterialBot
 --- @class QuestFramePortrait : Texture
 QuestFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L686)
 --- child of QuestFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 QuestFrameInset = {}
 QuestFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L680)
 --- child of QuestFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 QuestFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L864)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L663)
 --- child of QuestFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 QuestFrameBg = {}

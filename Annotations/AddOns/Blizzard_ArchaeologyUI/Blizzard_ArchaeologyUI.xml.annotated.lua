@@ -212,7 +212,7 @@ ArchaeologyFrameSummaryPageRace12Glow = {}
 ArchaeologyFrameSummaryPageRace12 = {}
 ArchaeologyFrameSummaryPageRace12["glow"] = ArchaeologyFrameSummaryPageRace12Glow -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L79)
 --- child of ArchaeologyFrameSummaryPagePrevPageButton (created in template UIPanelSquareButton)
 --- @type Texture
 ArchaeologyFrameSummaryPagePrevPageButtonIcon = {}
@@ -223,7 +223,7 @@ ArchaeologyFrameSummaryPagePrevPageButtonIcon = {}
 ArchaeologyFrameSummaryPagePrevPageButton = {}
 ArchaeologyFrameSummaryPagePrevPageButton["icon"] = ArchaeologyFrameSummaryPagePrevPageButtonIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L79)
 --- child of ArchaeologyFrameSummaryPageNextPageButton (created in template UIPanelSquareButton)
 --- @type Texture
 ArchaeologyFrameSummaryPageNextPageButtonIcon = {}
@@ -687,7 +687,7 @@ ArchaeologyFrameCompletedPageArtifact12["icon"] = ArchaeologyFrameCompletedPageA
 ArchaeologyFrameCompletedPageArtifact12["artifactName"] = ArchaeologyFrameCompletedPageArtifact12ArtifactName -- inherited
 ArchaeologyFrameCompletedPageArtifact12["artifactSubText"] = ArchaeologyFrameCompletedPageArtifact12ArtifactSubText -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L79)
 --- child of ArchaeologyFrameCompletedPagePrevPageButton (created in template UIPanelSquareButton)
 --- @type Texture
 ArchaeologyFrameCompletedPagePrevPageButtonIcon = {}
@@ -698,7 +698,7 @@ ArchaeologyFrameCompletedPagePrevPageButtonIcon = {}
 ArchaeologyFrameCompletedPagePrevPageButton = {}
 ArchaeologyFrameCompletedPagePrevPageButton["icon"] = ArchaeologyFrameCompletedPagePrevPageButtonIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L78)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L79)
 --- child of ArchaeologyFrameCompletedPageNextPageButton (created in template UIPanelSquareButton)
 --- @type Texture
 ArchaeologyFrameCompletedPageNextPageButtonIcon = {}
@@ -1024,18 +1024,18 @@ ArchaeologyFrameBgLeft = {}
 --- @class ArchaeologyFrameBgRight : Texture
 ArchaeologyFrameBgRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L887)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L686)
 --- child of ArchaeologyFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ArchaeologyFrameInset = {}
 ArchaeologyFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L881)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L680)
 --- child of ArchaeologyFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 ArchaeologyFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L864)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArchaeologyUI/Blizzard_ArchaeologyUI.xml#L663)
 --- child of ArchaeologyFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ArchaeologyFrameBg = {}

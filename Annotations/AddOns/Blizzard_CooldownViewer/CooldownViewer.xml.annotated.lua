@@ -149,8 +149,6 @@ EssentialCooldownViewer["align"] = "center" -- inherited
 EssentialCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 EssentialCooldownViewer["isBottomManagedFrame"] = true -- inherited
 EssentialCooldownViewer["isManagedFrame"] = true -- inherited
-EssentialCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
-EssentialCooldownViewer["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L293)
 --- @class UtilityCooldownViewer : Frame, UIParentBottomManagedFrameTemplate, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, UtilityCooldownViewerMixin
@@ -172,8 +170,6 @@ UtilityCooldownViewer["align"] = "center" -- inherited
 UtilityCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 UtilityCooldownViewer["isBottomManagedFrame"] = true -- inherited
 UtilityCooldownViewer["isManagedFrame"] = true -- inherited
-UtilityCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
-UtilityCooldownViewer["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L310)
 --- @class BuffIconCooldownViewer : Frame, UIParentBottomManagedFrameTemplate, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, BuffIconCooldownViewerMixin
@@ -195,8 +191,6 @@ BuffIconCooldownViewer["align"] = "center" -- inherited
 BuffIconCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 BuffIconCooldownViewer["isBottomManagedFrame"] = true -- inherited
 BuffIconCooldownViewer["isManagedFrame"] = true -- inherited
-BuffIconCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
-BuffIconCooldownViewer["defaultHideSelection"] = true -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L327)
 --- @class BuffBarCooldownViewer : Frame, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, BuffBarCooldownViewerMixin
@@ -209,6 +203,4 @@ BuffBarCooldownViewer["systemIndex"] = Enum.EditModeCooldownViewerSystemIndices.
 BuffBarCooldownViewer["systemNameString"] = HUD_EDIT_MODE_SYSTEM_TRACKED_BUFF_BARS
 BuffBarCooldownViewer["itemTemplate"] = "CooldownViewerBuffBarItemTemplate"
 BuffBarCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.TrackedBar
-BuffBarCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
-BuffBarCooldownViewer["defaultHideSelection"] = true -- inherited
 

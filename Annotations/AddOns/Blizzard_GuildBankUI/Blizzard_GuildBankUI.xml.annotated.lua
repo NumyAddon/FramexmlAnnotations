@@ -224,17 +224,17 @@ GuildBankMoneyLimitLabel = {}
 --- @class GuildBankMoneyUnlimitedLabel : FontString, GameFontHighlightSmall
 GuildBankMoneyUnlimitedLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1354)
 --- child of GuildBankFrame_MoneyFrameBG (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 GuildBankFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1362)
 --- child of GuildBankFrame_MoneyFrameBG (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 GuildBankFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1370)
 --- child of GuildBankFrame_MoneyFrameBG (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 GuildBankFrameMiddle = {}
@@ -615,12 +615,12 @@ GuildBankFrame["Info"] = GuildBankInfo
 GuildBankPopupFrame = {}
 GuildBankPopupFrame["editBoxHeaderText"] = GUILDBANK_POPUP_TEXT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1243)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L40)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 GuildItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L1234)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L31)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 GuildItemSearchBoxSearchIcon = {}

@@ -194,175 +194,181 @@ function MapCanvasMixin:OnCanvasSizeChanged() end
 function MapCanvasMixin:GetCanvasScale() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L794)
-function MapCanvasMixin:GetCanvasZoomPercent() end
+function MapCanvasMixin:HasZoomLevels() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L798)
-function MapCanvasMixin:IsZoomingIn() end
+function MapCanvasMixin:GetCanvasZoomPercent() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L802)
-function MapCanvasMixin:IsZoomingOut() end
+function MapCanvasMixin:IsZoomingIn() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L806)
-function MapCanvasMixin:ZoomIn() end
+function MapCanvasMixin:IsZoomingOut() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L810)
-function MapCanvasMixin:ZoomOut() end
+function MapCanvasMixin:ZoomIn() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L814)
-function MapCanvasMixin:ResetZoom() end
+function MapCanvasMixin:ZoomOut() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L818)
-function MapCanvasMixin:InstantPanAndZoom(scale, x, y, ignoreScaleRatio) end
+function MapCanvasMixin:ResetZoom() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L822)
-function MapCanvasMixin:IsAtMaxZoom() end
+function MapCanvasMixin:InstantPanAndZoom(scale, x, y, ignoreScaleRatio) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L826)
-function MapCanvasMixin:IsAtMinZoom() end
+function MapCanvasMixin:IsAtMaxZoom() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L830)
-function MapCanvasMixin:PanTo(normalizedX, normalizedY) end
+function MapCanvasMixin:IsAtMinZoom() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L834)
+function MapCanvasMixin:PanTo(normalizedX, normalizedY) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L838)
 function MapCanvasMixin:PanAndZoomTo(normalizedX, normalizedY) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L839)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L843)
 function MapCanvasMixin:SetMouseWheelZoomMode(zoomMode) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L843)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L847)
 function MapCanvasMixin:SetShouldZoomInOnClick(shouldZoomInOnClick) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L847)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L851)
 function MapCanvasMixin:ShouldZoomInOnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L851)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L855)
 function MapCanvasMixin:SetShouldNavigateOnClick(shouldNavigateOnClick) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L855)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L859)
 function MapCanvasMixin:ShouldNavigateOnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L860)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L864)
 function MapCanvasMixin:SetShouldNavigateIgnoreZoneMapPositionData(ignoreZoneMapPositionData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L864)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L868)
 function MapCanvasMixin:ShouldNavigateIgnoreZoneMapPositionData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L868)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L872)
 function MapCanvasMixin:SetShouldPanOnClick(shouldPanOnClick) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L872)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L876)
 function MapCanvasMixin:ShouldPanOnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L876)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L880)
 function MapCanvasMixin:SetShouldZoomInstantly(shouldZoomInstantly) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L880)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L884)
 function MapCanvasMixin:ShouldZoomInstantly() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L884)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L888)
 function MapCanvasMixin:GetViewRect() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L888)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L892)
 function MapCanvasMixin:GetMaxZoomViewRect() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L892)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L896)
 function MapCanvasMixin:GetMinZoomViewRect() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L896)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L900)
 function MapCanvasMixin:GetScaleForMaxZoom() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L900)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L904)
 function MapCanvasMixin:GetScaleForMinZoom() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L904)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L908)
 function MapCanvasMixin:CalculateZoomScaleAndPositionForAreaInViewRect(...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L908)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L912)
 function MapCanvasMixin:NormalizeHorizontalSize(size) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L912)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L916)
 function MapCanvasMixin:DenormalizeHorizontalSize(size) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L916)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L920)
 function MapCanvasMixin:NormalizeVerticalSize(size) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L920)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L924)
 function MapCanvasMixin:DenormalizeVerticalSize(size) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L924)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L928)
 function MapCanvasMixin:GetNormalizedCursorPosition() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L928)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L932)
 function MapCanvasMixin:IsCanvasMouseFocus() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L932)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L936)
 function MapCanvasMixin:AddLockReason(reason) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L937)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L941)
 function MapCanvasMixin:RemoveLockReason(reason) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L942)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L946)
 function MapCanvasMixin:EvaluateLockReasons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L958)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L962)
 function MapCanvasMixin:GetPinFrameLevelsManager() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L974)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L978)
 function MapCanvasMixin:NavigateToParentMap() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L981)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L985)
 function MapCanvasMixin:NavigateToCursor(ignoreZoneMapPositionData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L994)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L998)
 function MapCanvasMixin:AddCanvasClickHandler(handler, priority) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L998)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1002)
 function MapCanvasMixin:RemoveCanvasClickHandler(handler, priority) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1002)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1006)
 function MapCanvasMixin:ProcessCanvasClickHandlers(button, cursorX, cursorY) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1010)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1014)
 function MapCanvasMixin:AddGlobalPinMouseActionHandler(handler, priority) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1014)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1018)
 function MapCanvasMixin:RemoveGlobalPinMouseActionHandler(handler, priority) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1018)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1022)
 function MapCanvasMixin:ProcessGlobalPinMouseActionHandlers(mouseAction, button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1023)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1027)
 function MapCanvasMixin:AddCursorHandler(handler, priority) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1027)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1031)
 function MapCanvasMixin:RemoveCursorHandler(handler, priority) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1031)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1035)
 function MapCanvasMixin:ProcessCursorHandlers() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1056)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1060)
 function MapCanvasMixin:GetGlobalPinScale() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1073)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1077)
 function MapCanvasMixin:GetGlobalAlpha() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1094)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1098)
 function MapCanvasMixin:SetMaskTexture(maskTexture) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1109)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1113)
 function MapCanvasMixin:GetMaskTexture() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1117)
 function MapCanvasMixin:SetUseMaskTexture(useMaskTexture) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1125)
 function MapCanvasMixin:GetUseMaskTexture() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1129)
 function MapCanvasMixin:AddMaskableTexture(texture) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1141)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1145)
 function MapCanvasMixin:RefreshMaskableTextures() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1156)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1160)
 function MapCanvasMixin:HandleUIAction(actionType) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1166)
+function MapCanvasMixin:SetAllPinsByTemplateGlowing(pinTemplate, glowing, glowLoopCount) end

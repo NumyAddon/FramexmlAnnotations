@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L167)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L171)
 --- @class PlayerFrameAlternatePowerBarBaseMixin : AlternatePowerBarBaseMixin
 PlayerFrameAlternatePowerBarBaseMixin = CreateFromMixins(AlternatePowerBarBaseMixin)
 
@@ -24,61 +24,64 @@ function AlternatePowerBarBaseMixin:OnEvent(event, ...) end
 function AlternatePowerBarBaseMixin:SetBarEnabled(enabled) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L94)
+function AlternatePowerBarBaseMixin:IsBarEnabled() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L98)
 function AlternatePowerBarBaseMixin:UpdatePower() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L104)
 function AlternatePowerBarBaseMixin:UpdateMinMaxPower() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L111)
 function AlternatePowerBarBaseMixin:GetUnit() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L124)
 function AlternatePowerBarBaseMixin:UpdateArt() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L129)
 function AlternatePowerBarBaseMixin:UpdateIsAliveState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L134)
 function AlternatePowerBarBaseMixin:AttachBarToUnitUI() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L139)
 function AlternatePowerBarBaseMixin:RemoveBarFromUnitUI() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L146)
 function AlternatePowerBarBaseMixin:EvaluateUnit() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L151)
 function AlternatePowerBarBaseMixin:OnBarEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L151)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L155)
 function AlternatePowerBarBaseMixin:OnBarDisabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L159)
 function AlternatePowerBarBaseMixin:GetCurrentPower() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L163)
 function AlternatePowerBarBaseMixin:GetCurrentMinMaxPower() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L173)
 function PlayerFrameAlternatePowerBarBaseMixin:Initialize() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L189)
 function PlayerFrameAlternatePowerBarBaseMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L191)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L195)
 function PlayerFrameAlternatePowerBarBaseMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L195)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L199)
 function PlayerFrameAlternatePowerBarBaseMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L204)
 function PlayerFrameAlternatePowerBarBaseMixin:AttachBarToUnitUI() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L204)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L208)
 function PlayerFrameAlternatePowerBarBaseMixin:RemoveBarFromUnitUI() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L208)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L212)
 function PlayerFrameAlternatePowerBarBaseMixin:UpdateArt() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L239)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBarBase.lua#L243)
 function PlayerFrameAlternatePowerBarBaseMixin:UpdateIsAliveState() end

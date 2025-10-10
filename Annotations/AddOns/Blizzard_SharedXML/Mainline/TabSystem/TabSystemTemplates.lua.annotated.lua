@@ -8,7 +8,7 @@ TabSystemButtonArtMixin = {}
 --- @class TabSystemButtonMixin
 TabSystemButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L168)
 --- @class TabSystemMixin
 TabSystemMixin = {}
 
@@ -43,40 +43,49 @@ function TabSystemButtonMixin:SetTooltipText(tooltipText) end
 function TabSystemButtonMixin:SetTabEnabled(enabled, errorReason) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L122)
+function TabSystemButtonMixin:SetTabNotification(showNotification) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L138)
 function TabSystemButtonMixin:UpdateTabWidth() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L143)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L159)
 function TabSystemButtonMixin:GetTabID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L147)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L163)
 function TabSystemButtonMixin:GetTabSystem() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L170)
 function TabSystemMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L159)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L175)
 function TabSystemMixin:AddTab(tabText) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L170)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L186)
 function TabSystemMixin:SetTabSelectedCallback(tabSelectedCallback) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L174)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L190)
 function TabSystemMixin:SetTab(tabID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L196)
 function TabSystemMixin:SetTabVisuallySelected(tabID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L204)
+function TabSystemMixin:SetTabNotification(tabID, showNotification) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L208)
 function TabSystemMixin:SetTabShown(tabID, isShown) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L193)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L213)
+function TabSystemMixin:IsTabShown(tabID) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L217)
 function TabSystemMixin:SetTabEnabled(tabID, enabled, errorReason) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L222)
 function TabSystemMixin:GetTabWidthConstraints() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L202)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L226)
 function TabSystemMixin:GetTabButton(tabID) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L206)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L230)
 function TabSystemMixin:PlayTabSelectSound() end

@@ -4,7 +4,7 @@
 --- @class WarmodeButtonMixin
 WarmodeButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L179)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L182)
 --- @class WarmodeIncentiveMixin
 WarmodeIncentiveMixin = {}
 
@@ -14,38 +14,38 @@ function WarmodeButtonMixin:OnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L8)
 function WarmodeButtonMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L33)
 function WarmodeButtonMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L39)
 function WarmodeButtonMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L49)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L52)
 function WarmodeButtonMixin:SetUp() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L62)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L65)
 function WarmodeButtonMixin:GetWarModeDesired() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L69)
 function WarmodeButtonMixin:Update() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L87)
 function WarmodeButtonMixin:UpdateModelScenes(forceUpdate) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L102)
 function WarmodeButtonMixin:UpdateModelScene(scene, sceneID, fileID, forceUpdate) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L112)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L115)
 function WarmodeButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L134)
 function WarmodeButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L184)
 function WarmodeIncentiveMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L195)
 function WarmodeIncentiveMixin:GetPercentages() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/PvPTalents/Blizzard_WarmodeButtonTemplate.lua#L201)
 function WarmodeIncentiveMixin:Update() end

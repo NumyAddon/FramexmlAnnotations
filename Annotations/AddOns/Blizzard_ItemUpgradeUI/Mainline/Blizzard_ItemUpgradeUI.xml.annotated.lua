@@ -689,17 +689,17 @@ ItemUpgradeFrameItemHoverPreviewFrame["TextRight2"] = ItemUpgradeFrameItemHoverP
 --- @field iconFrameObject string # ItemUpgradeCostIconTemplate
 --- @field BGTex Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1353)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1354)
 --- child of ItemUpgradeFramePlayerCurrenciesBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemUpgradeFramePlayerCurrenciesBorderLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1362)
 --- child of ItemUpgradeFramePlayerCurrenciesBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemUpgradeFramePlayerCurrenciesBorderRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1369)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1370)
 --- child of ItemUpgradeFramePlayerCurrenciesBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemUpgradeFramePlayerCurrenciesBorderMiddle = {}
@@ -748,12 +748,12 @@ ItemUpgradeFramePlayerCurrenciesBorder = {}
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_IdleGlowSlide : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L834)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L633)
 --- child of ItemUpgradeFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 ItemUpgradeFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L801)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L600)
 --- child of ItemUpgradeFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ItemUpgradeFrameBg = {}

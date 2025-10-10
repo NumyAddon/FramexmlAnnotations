@@ -24,7 +24,7 @@ TutorialKeyboardMouseFrame_Frame["heightPadding"] = 130
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L60)
 --- child of TutorialWalk_Frame_ContainerFrame
---- @class TutorialWalk_Frame_ContainerFrame_TURNLEFT : Frame, KeyBindingTemplate
+--- @class TutorialWalk_Frame_ContainerFrame_STRAFELEFT : Frame, KeyBindingTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L65)
 --- child of TutorialWalk_Frame_ContainerFrame
@@ -36,7 +36,7 @@ TutorialKeyboardMouseFrame_Frame["heightPadding"] = 130
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L75)
 --- child of TutorialWalk_Frame_ContainerFrame
---- @class TutorialWalk_Frame_ContainerFrame_TURNRIGHT : Frame, KeyBindingTemplate
+--- @class TutorialWalk_Frame_ContainerFrame_STRAFERIGHT : Frame, KeyBindingTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L83)
 --- child of TutorialWalk_Frame_ContainerFrame
@@ -45,10 +45,10 @@ TutorialKeyboardMouseFrame_Frame["heightPadding"] = 130
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L55)
 --- child of TutorialWalk_Frame
 --- @class TutorialWalk_Frame_ContainerFrame : Frame, ResizeLayoutFrame
---- @field TURNLEFT TutorialWalk_Frame_ContainerFrame_TURNLEFT
+--- @field STRAFELEFT TutorialWalk_Frame_ContainerFrame_STRAFELEFT
 --- @field MOVEBACKWARD TutorialWalk_Frame_ContainerFrame_MOVEBACKWARD
 --- @field MOVEFORWARD TutorialWalk_Frame_ContainerFrame_MOVEFORWARD
---- @field TURNRIGHT TutorialWalk_Frame_ContainerFrame_TURNRIGHT
+--- @field STRAFERIGHT TutorialWalk_Frame_ContainerFrame_STRAFERIGHT
 --- @field Text TutorialWalk_Frame_ContainerFrame_Text
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialKeyboardMouseFrame.xml#L46)

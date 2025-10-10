@@ -47,10 +47,10 @@ function PetFrameMixin:OnLeave() end
 function PetFrameMixin:UpdateShownState() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.lua#L175)
-function PetCastingBarMixin:PetCastingBar_OnLoad() end
+function PetCastingBarMixin:OnLoad() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.lua#L183)
-function PetCastingBarMixin:PetCastingBar_OnEvent(event, ...) end
+function PetCastingBarMixin:OnEvent(event, ...) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PetFrame.lua#L202)
 function PetManaBarMixin:OnLoad() end

@@ -10,33 +10,60 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L20)
 --- Template
+--- @class PageTextTemplate : FontString, GameFontHighlight
+--- @field align string # center
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L27)
+--- Template
 --- @class PagingControlsTemplate : Frame, PagingControlsMixin
 --- @field hideWhenSinglePage boolean # false
 --- @field displayMaxPages boolean # true
 --- @field currentPageOnlyText any # PAGE_NUMBER
 --- @field currentPageWithMaxText any # PAGE_NUMBER_WITH_MAX
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L69)
 --- child of PagingControlsHorizontalTemplate
 --- @class PagingControlsHorizontalTemplate_PrevPageButton : Button, PagingControlsPrevPageButtonTemplate
 --- @field layoutIndex number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L74)
 --- child of PagingControlsHorizontalTemplate
 --- @class PagingControlsHorizontalTemplate_NextPageButton : Button, PagingControlsNextPageButtonTemplate
 --- @field layoutIndex number # 3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L54)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L61)
 --- child of PagingControlsHorizontalTemplate
---- @class PagingControlsHorizontalTemplate_PageText : FontString, GameFontHighlight
+--- @class PagingControlsHorizontalTemplate_PageText : FontString, PageTextTemplate
 --- @field layoutIndex number # 1
---- @field align string # center
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L54)
 --- Template
 --- @class PagingControlsHorizontalTemplate : Frame, HorizontalLayoutFrame, PagingControlsTemplate
 --- @field spacing number # 5
 --- @field PrevPageButton PagingControlsHorizontalTemplate_PrevPageButton
 --- @field NextPageButton PagingControlsHorizontalTemplate_NextPageButton
 --- @field PageText PagingControlsHorizontalTemplate_PageText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L97)
+--- child of PagingControlsCenteredTemplate
+--- @class PagingControlsCenteredTemplate_PrevPageButton : Button, PagingControlsPrevPageButtonTemplate
+--- @field layoutIndex number # 1
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L102)
+--- child of PagingControlsCenteredTemplate
+--- @class PagingControlsCenteredTemplate_NextPageButton : Button, PagingControlsNextPageButtonTemplate
+--- @field layoutIndex number # 3
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L89)
+--- child of PagingControlsCenteredTemplate
+--- @class PagingControlsCenteredTemplate_PageText : FontString, PageTextTemplate
+--- @field layoutIndex number # 2
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L82)
+--- Template
+--- @class PagingControlsCenteredTemplate : Frame, HorizontalLayoutFrame, PagingControlsTemplate
+--- @field spacing number # 5
+--- @field PrevPageButton PagingControlsCenteredTemplate_PrevPageButton
+--- @field NextPageButton PagingControlsCenteredTemplate_NextPageButton
+--- @field PageText PagingControlsCenteredTemplate_PageText
 

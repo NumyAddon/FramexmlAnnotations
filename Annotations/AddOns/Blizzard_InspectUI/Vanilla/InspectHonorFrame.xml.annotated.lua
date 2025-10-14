@@ -10,7 +10,7 @@ InspectHonorFrameCurrentHKText = {}
 --- @type HonorFrameHKButtonTemplate_Value
 InspectHonorFrameCurrentHKValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L105)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L76)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameCurrentHK : Frame, HonorFrameHKButtonTemplate
 InspectHonorFrameCurrentHK = {}
@@ -25,7 +25,7 @@ InspectHonorFrameCurrentDKText = {}
 --- @type HonorFrameDKButtonTemplate_Value
 InspectHonorFrameCurrentDKValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L81)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameCurrentDK : Frame, HonorFrameDKButtonTemplate
 InspectHonorFrameCurrentDK = {}
@@ -40,7 +40,7 @@ InspectHonorFrameYesterdayHKText = {}
 --- @type HonorFrameHKButtonTemplate_Value
 InspectHonorFrameYesterdayHKValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L115)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L86)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameYesterdayHK : Frame, HonorFrameHKButtonTemplate
 InspectHonorFrameYesterdayHK = {}
@@ -55,7 +55,7 @@ InspectHonorFrameYesterdayContributionText = {}
 --- @type HonorFrameContributionButtonTemplate_Value
 InspectHonorFrameYesterdayContributionValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L91)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameYesterdayContribution : Frame, HonorFrameContributionButtonTemplate
 InspectHonorFrameYesterdayContribution = {}
@@ -70,7 +70,7 @@ InspectHonorFrameThisWeekHKText = {}
 --- @type HonorFrameHKButtonTemplate_Value
 InspectHonorFrameThisWeekHKValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L125)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L96)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameThisWeekHK : Frame, HonorFrameHKButtonTemplate
 InspectHonorFrameThisWeekHK = {}
@@ -85,7 +85,7 @@ InspectHonorFrameThisWeekContributionText = {}
 --- @type HonorFrameContributionButtonTemplate_Value
 InspectHonorFrameThisWeekContributionValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L130)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L101)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameThisWeekContribution : Frame, HonorFrameContributionButtonTemplate
 InspectHonorFrameThisWeekContribution = {}
@@ -100,7 +100,7 @@ InspectHonorFrameLastWeekHKText = {}
 --- @type HonorFrameHKButtonTemplate_Value
 InspectHonorFrameLastWeekHKValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L135)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L106)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameLastWeekHK : Frame, HonorFrameHKButtonTemplate
 InspectHonorFrameLastWeekHK = {}
@@ -115,7 +115,7 @@ InspectHonorFrameLastWeekContributionText = {}
 --- @type HonorFrameContributionButtonTemplate_Value
 InspectHonorFrameLastWeekContributionValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L111)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameLastWeekContribution : Frame, HonorFrameContributionButtonTemplate
 InspectHonorFrameLastWeekContribution = {}
@@ -130,7 +130,7 @@ InspectHonorFrameLifeTimeHKText = {}
 --- @type HonorFrameHKButtonTemplate_Value
 InspectHonorFrameLifeTimeHKValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L145)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L116)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameLifeTimeHK : Frame, HonorFrameHKButtonTemplate
 InspectHonorFrameLifeTimeHK = {}
@@ -145,7 +145,7 @@ InspectHonorFrameLifeTimeDKText = {}
 --- @type HonorFrameDKButtonTemplate_Value
 InspectHonorFrameLifeTimeDKValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L150)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L121)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameLifeTimeDK : Frame, HonorFrameDKButtonTemplate
 InspectHonorFrameLifeTimeDK = {}
@@ -160,62 +160,62 @@ InspectHonorFrameLifeTimeRankText = {}
 --- @type HonorFrameRankButtonTemplate_Value
 InspectHonorFrameLifeTimeRankValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L126)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameLifeTimeRank : Frame, HonorFrameRankButtonTemplate
 InspectHonorFrameLifeTimeRank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L160)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L131)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameRankButton : Frame
 InspectHonorFrameRankButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L182)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L153)
 --- child of InspectHonorFrameProgressBar
 --- @class InspectHonorFrameProgressButton : Frame
 InspectHonorFrameProgressButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L176)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L147)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameProgressBar : StatusBar
 InspectHonorFrameProgressBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L59)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L30)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameCurrentPVPTitle : FontString, GameFontNormal
 InspectHonorFrameCurrentPVPTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L35)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameCurrentPVPRank : FontString, GameFontNormalSmall
 InspectHonorFrameCurrentPVPRank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L69)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L40)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameCurrentSessionTitle : FontString, GameFontNormal
 InspectHonorFrameCurrentSessionTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L74)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L45)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameYesterdayTitle : FontString, GameFontNormal
 InspectHonorFrameYesterdayTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L79)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L50)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameThisWeekTitle : FontString, GameFontNormal
 InspectHonorFrameThisWeekTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L55)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameLastWeekTitle : FontString, GameFontNormal
 InspectHonorFrameLastWeekTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L60)
 --- child of InspectHonorFrame
 --- @class InspectHonorFrameLifeTimeTitle : FontString, GameFontNormal
 InspectHonorFrameLifeTimeTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L96)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_InspectUI/Vanilla/InspectHonorFrame.xml#L67)
 --- child of InspectHonorFrame
 --- @class InspectHonorFramePvPIcon : Texture
 InspectHonorFramePvPIcon = {}

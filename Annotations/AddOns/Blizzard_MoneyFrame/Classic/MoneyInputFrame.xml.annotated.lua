@@ -20,7 +20,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_MoneyFrame/Classic/MoneyInputFrame.xml#L3)
 --- Template
---- @class MoneyInputFrameTemplate : Frame
+--- @class MoneyInputFrameTemplate : Frame, MoneyInputFrameMixin
 --- @field gold MoneyInputFrameTemplate_Gold
 --- @field silver MoneyInputFrameTemplate_Silver
 --- @field copper MoneyInputFrameTemplate_Copper

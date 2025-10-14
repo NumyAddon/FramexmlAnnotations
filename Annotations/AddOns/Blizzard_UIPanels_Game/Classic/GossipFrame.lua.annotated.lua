@@ -4,25 +4,25 @@
 --- @class GossipFrameMixin : GossipFrameSharedMixin
 GossipFrameMixin = CreateFromMixins(GossipFrameSharedMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L24)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L30)
 --- @class GossipAvailableQuestButtonMixin : GossipSharedAvailableQuestButtonMixin
 GossipAvailableQuestButtonMixin = CreateFromMixins(GossipSharedAvailableQuestButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L30)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L42)
 --- @class GossipActiveQuestButtonMixin : GossipSharedActiveQuestButtonMixin
 GossipActiveQuestButtonMixin = CreateFromMixins(GossipSharedActiveQuestButtonMixin)
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L3)
 function GossipFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L11)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L13)
 function GossipFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L25)
-function GossipAvailableQuestButtonMixin:Setup(...) end
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L31)
-function GossipActiveQuestButtonMixin:Setup(...) end
+function GossipAvailableQuestButtonMixin:Setup(questInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L81)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L43)
+function GossipActiveQuestButtonMixin:Setup(questInfo) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/GossipFrame.lua#L70)
 function GossipFrameMixin:SortOrder(leftInfo, rightInfo) end

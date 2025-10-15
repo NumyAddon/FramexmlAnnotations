@@ -16,26 +16,32 @@
 --- @field categoryButtonSize number # 48
 --- @field subcategoryButtonSize number # 48
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L61)
+--- child of HousingCatalogFrameTemplate_OptionsContainer
+--- @class HousingCatalogFrameTemplate_OptionsContainer_CategoryText : FontString, GameFontNormal
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L51)
 --- child of HousingCatalogFrameTemplate
 --- @class HousingCatalogFrameTemplate_OptionsContainer : Frame, ScrollingHousingCatalogTemplate
+--- @field scrollBoxTopOffset number # -20
+--- @field CategoryText HousingCatalogFrameTemplate_OptionsContainer_CategoryText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L58)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L70)
 --- child of HousingCatalogFrameTemplate
 --- @class HousingCatalogFrameTemplate_OverlayDecorations : Frame
 --- @field Divider Texture
 --- @field PreviewCornerLeft Texture
 --- @field PreviewCornerRight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L84)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L96)
 --- child of HousingCatalogFrameTemplate
 --- @class HousingCatalogFrameTemplate_PreviewFrame : Frame, HousingModelPreviewTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L95)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L107)
 --- child of HousingCatalogFrameTemplate_TempDisclaimer
 --- @class HousingCatalogFrameTemplate_TempDisclaimer_DisclaimerText : FontString, GameFontHighlightHuge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L92)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L104)
 --- child of HousingCatalogFrameTemplate
 --- @class HousingCatalogFrameTemplate_TempDisclaimer : Frame
 --- @field DisclaimerText HousingCatalogFrameTemplate_TempDisclaimer_DisclaimerText

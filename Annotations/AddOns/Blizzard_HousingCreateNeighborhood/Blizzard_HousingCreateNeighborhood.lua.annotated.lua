@@ -11,6 +11,7 @@ HousingCreateNeighborhoodMixin = {}--- @class HousingCreateNeighborhoodMixin
 
 function HousingCreateNeighborhoodMixin:CreateNeighborhoodBaseOnLoad()
     self:RegisterEvent("CREATE_NEIGHBORHOOD_RESULT");
+	self.NeighborhoodNameEditBox:SetMaxLetters(50);
 end
 
 function HousingCreateNeighborhoodMixin:CreateNeighborhoodBaseOnEvent(event, ...)

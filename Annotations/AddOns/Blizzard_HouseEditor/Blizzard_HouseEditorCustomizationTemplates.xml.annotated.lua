@@ -93,28 +93,28 @@
 --- @field Background Texture
 --- @field ShowOnlyOwnedText HousingDecorDyeSlotPopoutTemplate_ShowOnlyOwnedText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L207)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L206)
 --- child of HousingDyePaneTemplate
 --- @class HousingDyePaneTemplate_CloseButton : Button, UIPanelCloseButtonNoScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L212)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L211)
 --- child of HousingDyePaneTemplate
 --- @class HousingDyePaneTemplate_DyeSlotContainer : Frame, VerticalLayoutFrame
 --- @field spacing number # 3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L246)
 --- child of HousingDyePaneTemplate_ButtonFrame
 --- @class HousingDyePaneTemplate_ButtonFrame_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L254)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L253)
 --- child of HousingDyePaneTemplate_ButtonFrame
 --- @class HousingDyePaneTemplate_ButtonFrame_ApplyButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L238)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L237)
 --- child of HousingDyePaneTemplate_ButtonFrame
 --- @class HousingDyePaneTemplate_ButtonFrame_CurrentDyeIcons : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L222)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L221)
 --- child of HousingDyePaneTemplate
 --- @class HousingDyePaneTemplate_ButtonFrame : Frame
 --- @field CancelButton HousingDyePaneTemplate_ButtonFrame_CancelButton
@@ -122,27 +122,27 @@
 --- @field Divider Texture
 --- @field CurrentDyeIcons HousingDyePaneTemplate_ButtonFrame_CurrentDyeIcons
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L272)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L271)
 --- child of HousingDyePaneTemplate_DyeCostContainer
 --- @class HousingDyePaneTemplate_DyeCostContainer_DyeSpendWarning : FontString, GameFontHighlightLarge
 --- @field align string # center
 --- @field layoutIndex number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L262)
 --- child of HousingDyePaneTemplate
 --- @class HousingDyePaneTemplate_DyeCostContainer : Frame, HorizontalLayoutFrame
 --- @field spacing number # 12
 --- @field DyeSpendWarning HousingDyePaneTemplate_DyeCostContainer_DyeSpendWarning
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L197)
 --- child of HousingDyePaneTemplate
 --- @class HousingDyePaneTemplate_DecorName : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L283)
 --- child of HousingDyePaneTemplate
 --- @class HousingDyePaneTemplate_DyeRemoveWarning : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L180)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L179)
 --- Template
 --- @class HousingDyePaneTemplate : Frame, HousingDyePaneMixin
 --- @field CloseButton HousingDyePaneTemplate_CloseButton
@@ -154,82 +154,82 @@
 --- @field DecorName HousingDyePaneTemplate_DecorName
 --- @field DyeRemoveWarning HousingDyePaneTemplate_DyeRemoveWarning
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L309)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L308)
 --- child of HousingRoomComponentOptionTemplate
 --- @class HousingRoomComponentOptionTemplate_Dropdown : DropdownButton, WowStyle2DropdownTemplate
 --- @field dontConcatenateText boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L300)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L299)
 --- child of HousingRoomComponentOptionTemplate
 --- @class HousingRoomComponentOptionTemplate_SwitchLabel : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L297)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L296)
 --- Template
 --- @class HousingRoomComponentOptionTemplate : Frame, HousingRoomComponentOptionMixin
 --- @field Dropdown HousingRoomComponentOptionTemplate_Dropdown
 --- @field SwitchLabel HousingRoomComponentOptionTemplate_SwitchLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L323)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L322)
 --- Template
 --- @class HousingRoomComponentThemeTemplate : Frame, HousingRoomComponentOptionTemplate, HousingRoomComponentThemeMixin
 --- @field LabelText_Ceiling any # HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_CEILING
 --- @field LabelText_Wall any # HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_WALL
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L330)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L329)
 --- Template
 --- @class HousingRoomComponentWallpaperTemplate : Frame, HousingRoomComponentOptionTemplate, HousingRoomComponentWallpaperMixin
 --- @field LabelText_Ceiling any # HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_CEILING
 --- @field LabelText_Wall any # HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_WALL
 --- @field LabelText_Floor any # HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_FLOOR
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L338)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L337)
 --- Template
 --- @class HousingRoomComponentCeilingTypeTemplate : Frame, HousingRoomComponentOptionTemplate, HousingRoomComponentCeilingTypeMixin
 --- @field LabelText_Ceiling any # HOUSING_DECOR_CUSTOMIZATION_CEILING_TYPE_LABEL
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L344)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L343)
 --- Template
 --- @class HousingRoomComponentDoorTypeTemplate : Frame, HousingRoomComponentOptionTemplate, HousingRoomComponentDoorTypeMixin
 --- @field LabelText_Wall any # HOUSING_DECOR_CUSTOMIZATION_DOOR_TYPE_LABEL
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L370)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L369)
 --- child of HousingRoomComponentPaneTemplate
 --- @class HousingRoomComponentPaneTemplate_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L376)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L375)
 --- child of HousingRoomComponentPaneTemplate
 --- @class HousingRoomComponentPaneTemplate_WallWarning : Frame
 --- @field layoutIndex number # 0
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L390)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L389)
 --- child of HousingRoomComponentPaneTemplate
 --- @class HousingRoomComponentPaneTemplate_ThemeDropdown : Frame, HousingRoomComponentThemeTemplate
 --- @field layoutIndex number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L397)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L396)
 --- child of HousingRoomComponentPaneTemplate
 --- @class HousingRoomComponentPaneTemplate_ApplyThemeToRoomButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L406)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L405)
 --- child of HousingRoomComponentPaneTemplate
 --- @class HousingRoomComponentPaneTemplate_WallpaperDropdown : Frame, HousingRoomComponentWallpaperTemplate
 --- @field layoutIndex number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L413)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L412)
 --- child of HousingRoomComponentPaneTemplate
 --- @class HousingRoomComponentPaneTemplate_ApplyWallpaperToAllWallsButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L422)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L421)
 --- child of HousingRoomComponentPaneTemplate
 --- @class HousingRoomComponentPaneTemplate_CeilingTypeDropdown : Frame, HousingRoomComponentCeilingTypeTemplate
 --- @field layoutIndex number # 3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L429)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L428)
 --- child of HousingRoomComponentPaneTemplate
 --- @class HousingRoomComponentPaneTemplate_DoorTypeDropdown : Frame, HousingRoomComponentDoorTypeTemplate
 --- @field layoutIndex number # 4
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L350)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L349)
 --- Template
 --- @class HousingRoomComponentPaneTemplate : Frame, VerticalLayoutFrame, RoomComponentPaneMixin
 --- @field leftPadding number # 20
@@ -249,7 +249,7 @@
 --- @field Background Texture
 --- @field dropdowns table<number, HousingRoomComponentPaneTemplate_ThemeDropdown | HousingRoomComponentPaneTemplate_WallpaperDropdown | HousingRoomComponentPaneTemplate_CeilingTypeDropdown | HousingRoomComponentPaneTemplate_DoorTypeDropdown>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L442)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationTemplates.xml#L441)
 --- Template
 --- @class HousingDyeCostIconTemplate : Frame, HousingDyeCostIconMixin
 --- @field DyeIcon Texture

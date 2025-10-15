@@ -17,10 +17,6 @@
 --- Template
 --- @class HousingControlModeButtonTemplate : Button, BaseHousingModeButtonTemplate, BaseHousingControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L56)
---- child of HouseEditorButtonTemplate
---- @class HouseEditorButtonTemplate_ControlText : FontString, NumberFontNormalSmall
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L33)
 --- Template
 --- @class HouseEditorButtonTemplate : Button, HousingControlModeButtonTemplate, HouseEditorButtonMixin
@@ -34,10 +30,8 @@
 --- @field exitTooltipKeybind any # HOUSING_CONTROLS_EDITOR_BUTTON_EXIT_FMT
 --- @field keybindIconDefault string # keybind-bg
 --- @field keybindIconActive string # keybind-bg_active
---- @field KeybindBackground Texture
---- @field ControlText HouseEditorButtonTemplate_ControlText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L48)
 --- Template
 --- @class HouseSettingsButtonTemplate : Button, HousingControlModeButtonTemplate, HouseSettingsButtonMixin
 --- @field iconDefault string # decor-controls-settings-default
@@ -45,7 +39,7 @@
 --- @field iconPressed string # decor-controls-settings-pressed
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L75)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L57)
 --- Template
 --- @class HousingExitButtonTemplate : Button, HousingControlActionButtonTemplate, HouseExitButtonMixin
 --- @field iconDefault string # decor-controls-exit-default
@@ -54,7 +48,7 @@
 --- @field enabledTooltip any # HOUSING_CONTROLS_EXIT_BUTTON
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L88)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L70)
 --- Template
 --- @class HouseInfoButtonTemplate : Button, HousingControlModeButtonTemplate
 --- @field iconDefault string # decor-controls-houseinfo-default
@@ -64,7 +58,7 @@
 --- @field nyiLabel string # House Info
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L100)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L82)
 --- Template
 --- @class HouseInspectorButtonTemplate : Button, HousingControlModeButtonTemplate
 --- @field iconDefault string # decor-controls-inspect-default

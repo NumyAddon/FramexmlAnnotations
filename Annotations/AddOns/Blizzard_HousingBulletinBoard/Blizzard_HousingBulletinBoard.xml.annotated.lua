@@ -219,80 +219,46 @@ HousingInviteResidentFrame["CloseButton"] = HousingInviteResidentFrameCloseButto
 --- @field Footer Texture
 HousingBulletinBoardFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L490)
---- child of NeighborhoodSettingsFrame
---- @class NeighborhoodSettingsFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
-NeighborhoodSettingsFrameCloseButton = {}
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L520)
+--- child of NeighborhoodChangeNameDialog
+--- @class NeighborhoodChangeNameDialog_CostIcon : Frame, NeighborhoodChangeNameCostMixin
+--- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L492)
---- child of NeighborhoodSettingsFrame
---- @class NeighborhoodSettingsFrame_ChangeNameButton : Button, UIPanelButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L477)
---- child of NeighborhoodSettingsFrame
---- @class NeighborhoodSettingsFrame_NameLabel : FontString, Game15Font_Shadow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L482)
---- child of NeighborhoodSettingsFrame
---- @class NeighborhoodSettingsFrame_NameText : FontString, Game15Font_Shadow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L509)
---- child of NeighborhoodSettingsFrame (created in template DefaultPanelTemplate)
---- @type Texture
-NeighborhoodSettingsFrameBg = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L517)
---- child of NeighborhoodSettingsFrame (created in template DefaultPanelTemplate)
---- @type DefaultPanelTemplate_TopTileStreaks
-NeighborhoodSettingsFrameTopTileStreaks = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L468)
---- @class NeighborhoodSettingsFrame : Frame, DefaultPanelTemplate, NeighborhoodSettingsFrameMixin
---- @field CloseButton NeighborhoodSettingsFrameCloseButton
---- @field ChangeNameButton NeighborhoodSettingsFrame_ChangeNameButton
---- @field NameLabel NeighborhoodSettingsFrame_NameLabel
---- @field NameText NeighborhoodSettingsFrame_NameText
-NeighborhoodSettingsFrame = {}
-NeighborhoodSettingsFrame["CloseButton"] = NeighborhoodSettingsFrameCloseButton
-NeighborhoodSettingsFrame["Bg"] = NeighborhoodSettingsFrameBg -- inherited
-NeighborhoodSettingsFrame["TopTileStreaks"] = NeighborhoodSettingsFrameTopTileStreaks -- inherited
-NeighborhoodSettingsFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L552)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L536)
 --- child of NeighborhoodChangeNameDialog
 --- @class NeighborhoodChangeNameDialog_NameEditBox : EditBox, InputBoxInstructionsTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L558)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L542)
 --- child of NeighborhoodChangeNameDialog
---- @class NeighborhoodChangeNameDialog_ConfirmButton : Button, UIPanelButtonTemplate
+--- @class NeighborhoodChangeNameDialog_ConfirmButton : Button, SharedButtonSmallTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L568)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L550)
 --- child of NeighborhoodChangeNameDialog
---- @class NeighborhoodChangeNameDialog_CancelButton : Button, UIPanelButtonTemplate
+--- @class NeighborhoodChangeNameDialog_CancelButton : Button, SharedButtonSmallTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L481)
 --- child of NeighborhoodChangeNameDialog
---- @class NeighborhoodChangeNameDialog_Title : FontString, Game20Font
+--- @class NeighborhoodChangeNameDialog_Title : FontString, Game12Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L487)
 --- child of NeighborhoodChangeNameDialog
 --- @class NeighborhoodChangeNameDialog_NameLabel : FontString, Game15Font_Shadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L493)
 --- child of NeighborhoodChangeNameDialog
 --- @class NeighborhoodChangeNameDialog_NameText : FontString, Game15Font_Shadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L498)
 --- child of NeighborhoodChangeNameDialog
 --- @class NeighborhoodChangeNameDialog_NewNameLabel : FontString, Game15Font_Shadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L538)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L504)
+--- child of NeighborhoodChangeNameDialog
+--- @class NeighborhoodChangeNameDialog_CostLabel : FontString, Game15Font_Shadow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L510)
 --- child of NeighborhoodChangeNameDialog
 --- @class NeighborhoodChangeNameDialog_NameError : FontString, Game15Font_Shadow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L544)
---- child of NeighborhoodChangeNameDialog
---- @class NeighborhoodChangeNameDialog_Warning : FontString, Game11Font_Shadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1024)
 --- child of NeighborhoodChangeNameDialog (created in template TranslucentFrameTemplate)
@@ -339,8 +305,9 @@ NeighborhoodChangeNameDialogLeftBorder = {}
 --- @type TranslucentFrameTemplate_RightBorder
 NeighborhoodChangeNameDialogRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L505)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L468)
 --- @class NeighborhoodChangeNameDialog : Frame, TranslucentFrameTemplate, NeighborhoodChangeNameDialogMixin
+--- @field CostIcon NeighborhoodChangeNameDialog_CostIcon
 --- @field NameEditBox NeighborhoodChangeNameDialog_NameEditBox
 --- @field ConfirmButton NeighborhoodChangeNameDialog_ConfirmButton
 --- @field CancelButton NeighborhoodChangeNameDialog_CancelButton
@@ -348,8 +315,8 @@ NeighborhoodChangeNameDialogRightBorder = {}
 --- @field NameLabel NeighborhoodChangeNameDialog_NameLabel
 --- @field NameText NeighborhoodChangeNameDialog_NameText
 --- @field NewNameLabel NeighborhoodChangeNameDialog_NewNameLabel
+--- @field CostLabel NeighborhoodChangeNameDialog_CostLabel
 --- @field NameError NeighborhoodChangeNameDialog_NameError
---- @field Warning NeighborhoodChangeNameDialog_Warning
 NeighborhoodChangeNameDialog = {}
 NeighborhoodChangeNameDialog["Bg"] = NeighborhoodChangeNameDialogBg -- inherited
 NeighborhoodChangeNameDialog["TopLeftCorner"] = NeighborhoodChangeNameDialogTopLeftCorner -- inherited

@@ -20,36 +20,44 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L22)
 --- child of HouseEditorBasicDecorModeTemplate_Instructions
---- @class HouseEditorBasicDecorModeTemplate_Instructions_RotateInstruction : Frame, HouseEditorInstructionTemplate
---- @field iconAtlas string # newplayertutorial-icon-mouse-middlebutton
---- @field instructionText any # HOUSING_BASIC_DECOR_ROTATE_INSTRUCTION
+--- @class HouseEditorBasicDecorModeTemplate_Instructions_RotateLeftInstruction : Frame, HouseEditorInstructionTemplate
+--- @field instructionText any # HOUSING_BASIC_DECOR_ROTATE_LEFT_INSTRUCTION
+--- @field keybindName string # HOUSING_BASICDECOR_ROTATELEFT
 --- @field layoutIndex number # 4
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L29)
 --- child of HouseEditorBasicDecorModeTemplate_Instructions
---- @class HouseEditorBasicDecorModeTemplate_Instructions_CancelInstruction : Frame, HouseEditorInstructionTemplate
---- @field instructionText any # HOUSING_DECOR_CANCEL_INSTRUCTION
---- @field controlText any # KEY_ESCAPE
+--- @class HouseEditorBasicDecorModeTemplate_Instructions_RotateRightInstruction : Frame, HouseEditorInstructionTemplate
+--- @field instructionText any # HOUSING_BASIC_DECOR_ROTATE_RIGHT_INSTRUCTION
+--- @field keybindName string # HOUSING_BASICDECOR_ROTATERIGHT
 --- @field layoutIndex number # 5
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L36)
 --- child of HouseEditorBasicDecorModeTemplate_Instructions
+--- @class HouseEditorBasicDecorModeTemplate_Instructions_CancelInstruction : Frame, HouseEditorInstructionTemplate
+--- @field instructionText any # HOUSING_DECOR_CANCEL_INSTRUCTION
+--- @field controlText any # KEY_ESCAPE
+--- @field layoutIndex number # 6
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L43)
+--- child of HouseEditorBasicDecorModeTemplate_Instructions
 --- @class HouseEditorBasicDecorModeTemplate_Instructions_ToggleGridInstruction : Frame, HouseEditorInstructionTemplate
 --- @field instructionText any # HOUSING_DECOR_TOGGLE_GRID_INSTRUCTION
 --- @field keybindName string # HOUSING_TOGGLEDECORGRIDVISIBILITY
---- @field layoutIndex number # 6
+--- @field layoutIndex number # 7
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L6)
 --- child of HouseEditorBasicDecorModeTemplate
 --- @class HouseEditorBasicDecorModeTemplate_Instructions : Frame, HouseEditorInstructionsContainerTemplate
 --- @field PlaceInstruction HouseEditorBasicDecorModeTemplate_Instructions_PlaceInstruction
 --- @field RemoveInstruction HouseEditorBasicDecorModeTemplate_Instructions_RemoveInstruction
---- @field RotateInstruction HouseEditorBasicDecorModeTemplate_Instructions_RotateInstruction
+--- @field RotateLeftInstruction HouseEditorBasicDecorModeTemplate_Instructions_RotateLeftInstruction
+--- @field RotateRightInstruction HouseEditorBasicDecorModeTemplate_Instructions_RotateRightInstruction
 --- @field CancelInstruction HouseEditorBasicDecorModeTemplate_Instructions_CancelInstruction
 --- @field ToggleGridInstruction HouseEditorBasicDecorModeTemplate_Instructions_ToggleGridInstruction
---- @field SelectedInstructions table<number, HouseEditorBasicDecorModeTemplate_Instructions_PlaceInstruction | HouseEditorBasicDecorModeTemplate_Instructions_RemoveInstruction | HouseEditorBasicDecorModeTemplate_Instructions_RotateInstruction | HouseEditorBasicDecorModeTemplate_Instructions_CancelInstruction | HouseEditorBasicDecorModeTemplate_Instructions_ToggleGridInstruction>
+--- @field SelectedInstructions table<number, HouseEditorBasicDecorModeTemplate_Instructions_PlaceInstruction | HouseEditorBasicDecorModeTemplate_Instructions_RemoveInstruction | HouseEditorBasicDecorModeTemplate_Instructions_RotateLeftInstruction | HouseEditorBasicDecorModeTemplate_Instructions_RotateRightInstruction | HouseEditorBasicDecorModeTemplate_Instructions_CancelInstruction | HouseEditorBasicDecorModeTemplate_Instructions_ToggleGridInstruction>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L55)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L62)
 --- child of HouseEditorBasicDecorModeTemplate_SubButtonBar
 --- @class HouseEditorBasicDecorModeTemplate_SubButtonBar_SnapButton : Button, HouseEditorSubmodeButtonTemplate, HouseEditorSnapButtonMixin
 --- @field layoutIndex number # 1
@@ -63,7 +71,7 @@
 --- @field keybindName string # HOUSING_TOGGLEDECORSNAPMODE
 --- @field glowMaskKey string # snap
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L78)
 --- child of HouseEditorBasicDecorModeTemplate_SubButtonBar
 --- @class HouseEditorBasicDecorModeTemplate_SubButtonBar_NudgeButton : Button, HouseEditorSubmodeButtonTemplate, HouseEditorNudgeButtonMixin
 --- @field layoutIndex number # 2
@@ -77,7 +85,7 @@
 --- @field keybindName string # HOUSING_TOGGLEDECORNUDGEMODE
 --- @field glowMaskKey string # freeplacement
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L46)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L53)
 --- child of HouseEditorBasicDecorModeTemplate
 --- @class HouseEditorBasicDecorModeTemplate_SubButtonBar : Frame, HouseEditorSubmodesBarTemplate
 --- @field spacing number # -12

@@ -1,133 +1,121 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L3)
---- Template
---- @class PlayerSpecTabTemplate : CheckButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L33)
---- Template
---- @class PlayerTalentTabTemplate : Button, CharacterFrameTabButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L52)
---- Template
---- @class PlayerGlyphTabTemplate : Button, CharacterFrameTabButtonTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L4)
 --- Template
 --- @class PlayerTalentButtonTemplate : Button, TalentButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L66)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameCloseButton : Button, UIPanelCloseButton
 PlayerTalentFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L192)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L78)
 --- child of PlayerTalentFrameStatusFrame
 --- @class PlayerTalentFramePointsLeft : Texture
 PlayerTalentFramePointsLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L201)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L85)
 --- child of PlayerTalentFrameStatusFrame
 --- @class PlayerTalentFramePointsMiddle : Texture
 PlayerTalentFramePointsMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L210)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L92)
 --- child of PlayerTalentFrameStatusFrame
 --- @class PlayerTalentFramePointsRight : Texture
 PlayerTalentFramePointsRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L219)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L99)
 --- child of PlayerTalentFrameStatusFrame
 --- @class PlayerTalentFrameStatusText : FontString, GameFontNormal
 PlayerTalentFrameStatusText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L185)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L71)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameStatusFrame : Frame
 PlayerTalentFrameStatusFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L107)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameActivateButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameActivateButton = {}
 PlayerTalentFrameActivateButton["fitTextCanWidthDecrease"] = true -- inherited
 PlayerTalentFrameActivateButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L259)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L129)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFramePointsBarBackground : Texture
 PlayerTalentFramePointsBarBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L135)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFramePointsBarBorderLeft : Texture
 PlayerTalentFramePointsBarBorderLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L280)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L144)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFramePointsBarBorderRight : Texture
 PlayerTalentFramePointsBarBorderRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L295)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L153)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFramePointsBarBorderMiddle : Texture
 PlayerTalentFramePointsBarBorderMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L162)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFrameSpentPointsText : FontString, GameFontNormalSmall
 PlayerTalentFrameSpentPointsText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L168)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFrameTalentPointsText : FontString, GameFontNormalSmall
 PlayerTalentFrameTalentPointsText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L244)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L120)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFramePointsBar : Frame
 PlayerTalentFramePointsBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L196)
 --- child of PlayerTalentFramePreviewBar
 --- @class PlayerTalentFrameResetButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameResetButton = {}
 PlayerTalentFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 PlayerTalentFrameResetButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L361)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L207)
 --- child of PlayerTalentFramePreviewBar
 --- @class PlayerTalentFrameLearnButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameLearnButton = {}
 PlayerTalentFrameLearnButton["fitTextCanWidthDecrease"] = true -- inherited
 PlayerTalentFrameLearnButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L382)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L226)
 --- child of PlayerTalentFramePreviewBarFiller
 --- @class PlayerTalentFramePreviewBarFillerButtonBackgroundLeft : Texture
 PlayerTalentFramePreviewBarFillerButtonBackgroundLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L391)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L235)
 --- child of PlayerTalentFramePreviewBarFiller
 --- @class PlayerTalentFramePreviewBarFillerButtonBackgroundRight : Texture
 PlayerTalentFramePreviewBarFillerButtonBackgroundRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L400)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L244)
 --- child of PlayerTalentFramePreviewBarFiller
 --- @class PlayerTalentFramePreviewBarFillerButtonBackgroundMiddle : Texture
 PlayerTalentFramePreviewBarFillerButtonBackgroundMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L372)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L218)
 --- child of PlayerTalentFramePreviewBar
 --- @class PlayerTalentFramePreviewBarFiller : Frame
 PlayerTalentFramePreviewBarFiller = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L338)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L186)
 --- child of PlayerTalentFramePreviewBar
 --- @class PlayerTalentFramePreviewBarButtonBorder : Texture
 PlayerTalentFramePreviewBarButtonBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L323)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L177)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFramePreviewBar : Frame
 PlayerTalentFramePreviewBar = {}
@@ -177,7 +165,7 @@ PlayerTalentFrameTalent1SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent1NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L551)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L365)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent1 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent1 = {}
@@ -231,7 +219,7 @@ PlayerTalentFrameTalent2SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent2NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L552)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L366)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent2 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent2 = {}
@@ -285,7 +273,7 @@ PlayerTalentFrameTalent3SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent3NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L553)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L367)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent3 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent3 = {}
@@ -339,7 +327,7 @@ PlayerTalentFrameTalent4SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent4NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L554)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L368)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent4 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent4 = {}
@@ -393,7 +381,7 @@ PlayerTalentFrameTalent5SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent5NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L555)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L369)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent5 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent5 = {}
@@ -447,7 +435,7 @@ PlayerTalentFrameTalent6SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent6NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L556)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L370)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent6 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent6 = {}
@@ -501,7 +489,7 @@ PlayerTalentFrameTalent7SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent7NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L557)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L371)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent7 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent7 = {}
@@ -555,7 +543,7 @@ PlayerTalentFrameTalent8SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent8NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L558)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L372)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent8 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent8 = {}
@@ -609,7 +597,7 @@ PlayerTalentFrameTalent9SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent9NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L559)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L373)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent9 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent9 = {}
@@ -663,7 +651,7 @@ PlayerTalentFrameTalent10SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent10NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L560)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L374)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent10 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent10 = {}
@@ -717,7 +705,7 @@ PlayerTalentFrameTalent11SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent11NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L561)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L375)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent11 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent11 = {}
@@ -771,7 +759,7 @@ PlayerTalentFrameTalent12SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent12NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L562)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L376)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent12 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent12 = {}
@@ -825,7 +813,7 @@ PlayerTalentFrameTalent13SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent13NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L563)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L377)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent13 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent13 = {}
@@ -879,7 +867,7 @@ PlayerTalentFrameTalent14SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent14NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L564)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L378)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent14 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent14 = {}
@@ -933,7 +921,7 @@ PlayerTalentFrameTalent15SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent15NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L565)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L379)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent15 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent15 = {}
@@ -987,7 +975,7 @@ PlayerTalentFrameTalent16SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent16NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L566)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L380)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent16 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent16 = {}
@@ -1041,7 +1029,7 @@ PlayerTalentFrameTalent17SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent17NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L567)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L381)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent17 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent17 = {}
@@ -1095,7 +1083,7 @@ PlayerTalentFrameTalent18SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent18NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L568)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L382)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent18 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent18 = {}
@@ -1149,7 +1137,7 @@ PlayerTalentFrameTalent19SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent19NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L569)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L383)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent19 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent19 = {}
@@ -1203,7 +1191,7 @@ PlayerTalentFrameTalent20SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent20NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L570)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L384)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent20 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent20 = {}
@@ -1257,7 +1245,7 @@ PlayerTalentFrameTalent21SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent21NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L571)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L385)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent21 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent21 = {}
@@ -1311,7 +1299,7 @@ PlayerTalentFrameTalent22SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent22NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L572)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L386)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent22 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent22 = {}
@@ -1365,7 +1353,7 @@ PlayerTalentFrameTalent23SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent23NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L573)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L387)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent23 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent23 = {}
@@ -1419,7 +1407,7 @@ PlayerTalentFrameTalent24SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent24NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L574)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L388)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent24 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent24 = {}
@@ -1473,7 +1461,7 @@ PlayerTalentFrameTalent25SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent25NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L575)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L389)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent25 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent25 = {}
@@ -1527,7 +1515,7 @@ PlayerTalentFrameTalent26SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent26NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L576)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L390)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent26 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent26 = {}
@@ -1581,7 +1569,7 @@ PlayerTalentFrameTalent27SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent27NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L577)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L391)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent27 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent27 = {}
@@ -1635,7 +1623,7 @@ PlayerTalentFrameTalent28SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent28NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L578)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L392)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent28 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent28 = {}
@@ -1689,7 +1677,7 @@ PlayerTalentFrameTalent29SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent29NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L579)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L393)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent29 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent29 = {}
@@ -1743,7 +1731,7 @@ PlayerTalentFrameTalent30SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent30NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L580)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L394)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent30 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent30 = {}
@@ -1797,7 +1785,7 @@ PlayerTalentFrameTalent31SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent31NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L581)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L395)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent31 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent31 = {}
@@ -1851,7 +1839,7 @@ PlayerTalentFrameTalent32SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent32NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L582)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L396)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent32 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent32 = {}
@@ -1905,7 +1893,7 @@ PlayerTalentFrameTalent33SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent33NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L583)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L397)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent33 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent33 = {}
@@ -1959,7 +1947,7 @@ PlayerTalentFrameTalent34SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent34NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L584)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L398)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent34 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent34 = {}
@@ -2013,7 +2001,7 @@ PlayerTalentFrameTalent35SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent35NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L585)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L399)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent35 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent35 = {}
@@ -2067,7 +2055,7 @@ PlayerTalentFrameTalent36SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent36NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L586)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L400)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent36 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent36 = {}
@@ -2121,7 +2109,7 @@ PlayerTalentFrameTalent37SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent37NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L587)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L401)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent37 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent37 = {}
@@ -2175,7 +2163,7 @@ PlayerTalentFrameTalent38SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent38NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L588)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L402)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent38 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent38 = {}
@@ -2229,7 +2217,7 @@ PlayerTalentFrameTalent39SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent39NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L589)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L403)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent39 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent39 = {}
@@ -2283,7 +2271,7 @@ PlayerTalentFrameTalent40SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent40NormalTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L590)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L404)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent40 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent40 = {}
@@ -2292,347 +2280,347 @@ PlayerTalentFrameTalent40["Count"] = PlayerTalentFrameTalent40Count -- inherited
 PlayerTalentFrameTalent40["searchOverlay"] = PlayerTalentFrameTalent40SearchOverlay -- inherited
 PlayerTalentFrameTalent40["subicon"] = PlayerTalentFrameTalent40SubIconTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L595)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L409)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow1 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L596)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L410)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow2 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L597)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L411)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow3 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L598)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L412)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow4 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L599)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L413)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow5 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L600)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L414)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow6 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L601)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L415)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow7 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L602)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L416)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow8 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L603)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L417)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow9 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L604)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L418)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow10 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L605)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L419)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow11 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L606)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L420)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow12 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L607)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L421)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow13 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L608)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L422)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow14 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L609)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L423)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow15 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L610)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L424)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow16 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow16 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L611)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L425)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow17 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow17 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L612)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L426)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow18 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow18 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L613)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L427)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow19 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow19 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L614)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L428)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow20 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow20 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L615)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L429)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow21 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow21 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L616)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L430)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow22 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow22 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L617)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L431)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow23 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow23 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L618)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L432)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow24 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow24 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L619)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L433)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow25 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow25 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L620)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L434)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow26 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow26 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L621)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L435)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow27 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow27 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L622)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L436)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow28 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow28 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L623)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L437)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow29 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow29 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L624)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L438)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow30 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow30 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L592)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L406)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameArrowFrame : Frame
 PlayerTalentFrameArrowFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L518)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L332)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch1 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L519)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L333)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch2 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L520)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L334)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch3 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L521)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L335)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch4 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L522)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L336)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch5 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L523)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L337)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch6 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L524)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L338)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch7 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L525)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L339)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch8 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch8 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L526)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L340)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch9 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch9 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L527)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L341)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch10 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch10 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L528)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L342)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch11 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch11 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L529)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L343)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch12 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch12 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L530)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L344)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch13 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch13 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L531)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L345)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch14 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch14 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L532)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L346)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch15 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch15 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L533)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L347)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch16 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch16 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L534)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L348)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch17 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch17 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L535)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L349)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch18 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch18 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L536)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L350)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch19 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch19 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L537)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L351)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch20 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch20 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L538)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L352)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch21 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch21 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L539)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L353)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch22 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch22 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L540)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L354)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch23 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch23 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L355)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch24 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch24 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L542)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L356)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch25 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch25 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L543)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L357)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch26 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch26 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L544)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L358)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch27 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch27 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L545)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L359)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch28 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch28 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L546)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L360)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch29 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch29 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L547)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L361)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch30 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch30 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L509)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L325)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameScrollChildFrame : Frame
 PlayerTalentFrameScrollChildFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L496)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L316)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameActiveTalentGroupFrame : Frame
 PlayerTalentFrameActiveTalentGroupFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L428)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L264)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameBackgroundTopLeft : Texture
 PlayerTalentFrameBackgroundTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L441)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L273)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameBackgroundTopRight : Texture
 PlayerTalentFrameBackgroundTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L449)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L281)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameBackgroundBottomLeft : Texture
 PlayerTalentFrameBackgroundBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L457)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L289)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameBackgroundBottomRight : Texture
 PlayerTalentFrameBackgroundBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L467)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L299)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameScrollFrameBackgroundTop : Texture
 PlayerTalentFrameScrollFrameBackgroundTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L480)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L306)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameScrollFrameBackgroundBottom : Texture
 PlayerTalentFrameScrollFrameBackgroundBottom = {}
@@ -2660,13 +2648,13 @@ PlayerTalentFrameScrollFrameScrollBar["ScrollUpButton"] = PlayerTalentFrameScrol
 PlayerTalentFrameScrollFrameScrollBar["ScrollDownButton"] = PlayerTalentFrameScrollFrameScrollBarScrollDownButton -- inherited
 PlayerTalentFrameScrollFrameScrollBar["ThumbTexture"] = PlayerTalentFrameScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L412)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L256)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 PlayerTalentFrameScrollFrame = {}
 PlayerTalentFrameScrollFrame["ScrollBar"] = PlayerTalentFrameScrollFrameScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L632)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L446)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameScrollButtonOverlay : Frame
 PlayerTalentFrameScrollButtonOverlay = {}
@@ -2706,7 +2694,7 @@ PlayerTalentFrameTab1Right = {}
 --- @type Texture
 PlayerTalentFrameTab1HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L649)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L457)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTab1 : Button, PlayerTalentTabTemplate
 PlayerTalentFrameTab1 = {}
@@ -2746,7 +2734,7 @@ PlayerTalentFrameTab2Right = {}
 --- @type Texture
 PlayerTalentFrameTab2HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L658)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L462)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTab2 : Button, PlayerTalentTabTemplate
 PlayerTalentFrameTab2 = {}
@@ -2786,7 +2774,7 @@ PlayerTalentFrameTab3Right = {}
 --- @type Texture
 PlayerTalentFrameTab3HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L667)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L467)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTab3 : Button, PlayerTalentTabTemplate
 PlayerTalentFrameTab3 = {}
@@ -2826,7 +2814,7 @@ PlayerTalentFrameTab4Right = {}
 --- @type Texture
 PlayerTalentFrameTab4HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L676)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L472)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTab4 : Button, PlayerGlyphTabTemplate
 PlayerTalentFrameTab4 = {}
@@ -2836,7 +2824,7 @@ PlayerTalentFrameTab4 = {}
 --- @type Texture
 PlayerSpecTab1Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L685)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L477)
 --- child of PlayerTalentFrame
 --- @class PlayerSpecTab1 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab1 = {}
@@ -2846,7 +2834,7 @@ PlayerSpecTab1 = {}
 --- @type Texture
 PlayerSpecTab2Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L714)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L487)
 --- child of PlayerTalentFrame
 --- @class PlayerSpecTab2 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab2 = {}
@@ -2856,47 +2844,42 @@ PlayerSpecTab2 = {}
 --- @type Texture
 PlayerSpecTab3Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L743)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L497)
 --- child of PlayerTalentFrame
 --- @class PlayerSpecTab3 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L99)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L24)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFramePortrait : Texture
 PlayerTalentFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L111)
---- child of PlayerTalentFrame
---- @class PlayerTalentFrameActiveSpecTabHighlight : Texture
-PlayerTalentFrameActiveSpecTabHighlight = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L116)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L32)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTopLeft : Texture
 PlayerTalentFrameTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L38)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTopRight : Texture
 PlayerTalentFrameTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L140)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L44)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameBottomLeft : Texture
 PlayerTalentFrameBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L152)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L50)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameBottomRight : Texture
 PlayerTalentFrameBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L166)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L58)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTitleText : FontString, GameFontNormal
 PlayerTalentFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L16)
 --- @class PlayerTalentFrame : Frame
 PlayerTalentFrame = {}
 

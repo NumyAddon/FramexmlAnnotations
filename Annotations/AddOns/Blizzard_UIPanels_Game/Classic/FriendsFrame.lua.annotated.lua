@@ -8,7 +8,7 @@ FriendsTabHeaderMixin = {}
 --- @class FriendsFrameInviteTemplateMixin
 FriendsFrameInviteTemplateMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2082)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2079)
 --- @class FriendsFriendsFrameMixin
 FriendsFriendsFrameMixin = {}
 
@@ -18,14 +18,14 @@ function FriendsTabHeaderMixin:OnLoad() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L624)
 function FriendsFrameInviteTemplateMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2084)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2081)
 function FriendsFriendsFrameMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2092)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2089)
 function FriendsFriendsFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2110)
 function FriendsFriendsFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2114)
 function FriendsFriendsFrameMixin:OnEvent(event, ...) end

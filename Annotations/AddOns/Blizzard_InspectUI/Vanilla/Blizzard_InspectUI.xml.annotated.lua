@@ -1,19 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L47)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L30)
 --- child of InspectNameFrame
 --- @class InspectNameText : FontString, GameFontHighlight
 InspectNameText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L34)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L21)
 --- child of InspectFrame
 --- @class InspectNameFrame : Frame
 InspectNameFrame = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L63)
---- child of InspectFrame
---- @class InspectFrameCloseButton : Button, UIPanelCloseButton
-InspectFrameCloseButton = {}
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L9)
 --- child of InspectFrameTab1 (created in template CharacterFrameTabButtonTemplate)
@@ -50,7 +45,7 @@ InspectFrameTab1Right = {}
 --- @type Texture
 InspectFrameTab1HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L77)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L46)
 --- child of InspectFrame
 --- @class InspectFrameTab1 : Button, CharacterFrameTabButtonTemplate
 InspectFrameTab1 = {}
@@ -90,17 +85,136 @@ InspectFrameTab2Right = {}
 --- @type Texture
 InspectFrameTab2HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L94)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L59)
 --- child of InspectFrame
 --- @class InspectFrameTab2 : Button, CharacterFrameTabButtonTemplate
 InspectFrameTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L6)
 --- child of InspectFrame
 --- @class InspectFramePortrait : Texture
 InspectFramePortrait = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L746)
+--- child of InspectFrameInset (created in template InsetFrameTemplate)
+--- @type Texture
+InspectFrameInsetBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L787)
+--- child of InspectFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_Inset
+InspectFrameInset = {}
+InspectFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+InspectFrameInset["Bg"] = InspectFrameInsetBg -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L768)
+--- child of InspectFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_BtnCornerLeft
+InspectFrameBtnCornerLeft = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L773)
+--- child of InspectFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_BtnCornerRight
+InspectFrameBtnCornerRight = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L778)
+--- child of InspectFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_ButtonBottomBorder
+InspectFrameButtonBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L604)
+--- child of InspectFrame (created in template PortraitFrameTemplate)
+--- @type PortraitFrameTemplate_CloseButton
+InspectFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L510)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+InspectFrameBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L516)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TitleBg
+InspectFrameTitleBg = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L524)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type Texture
+InspectFramePortrait = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L532)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
+InspectFramePortraitFrame = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L537)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
+InspectFrameTopRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L542)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
+InspectFrameTopLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L547)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TopBorder
+InspectFrameTopBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L553)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TitleText
+InspectFrameTitleText = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L562)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
+InspectFrameTopTileStreaks = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L568)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
+InspectFrameBotLeftCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L573)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
+InspectFrameBotRightCorner = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L578)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_BottomBorder
+InspectFrameBottomBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L584)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_LeftBorder
+InspectFrameLeftBorder = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L590)
+--- child of InspectFrame (created in template PortraitFrameTemplateNoCloseButton)
+--- @type PortraitFrameTemplateNoCloseButton_RightBorder
+InspectFrameRightBorder = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_InspectUI/Vanilla/Blizzard_InspectUI.xml#L3)
---- @class InspectFrame : Frame
+--- @class InspectFrame : Frame, ButtonFrameTemplate
 InspectFrame = {}
+InspectFrame["Inset"] = InspectFrameInset -- inherited
+InspectFrame["CloseButton"] = InspectFrameCloseButton -- inherited
+InspectFrame["Bg"] = InspectFrameBg -- inherited
+InspectFrame["TitleBg"] = InspectFrameTitleBg -- inherited
+InspectFrame["portrait"] = InspectFramePortrait -- inherited
+InspectFrame["PortraitFrame"] = InspectFramePortraitFrame -- inherited
+InspectFrame["TopRightCorner"] = InspectFrameTopRightCorner -- inherited
+InspectFrame["TopLeftCorner"] = InspectFrameTopLeftCorner -- inherited
+InspectFrame["TopBorder"] = InspectFrameTopBorder -- inherited
+InspectFrame["TitleText"] = InspectFrameTitleText -- inherited
+InspectFrame["TopTileStreaks"] = InspectFrameTopTileStreaks -- inherited
+InspectFrame["BotLeftCorner"] = InspectFrameBotLeftCorner -- inherited
+InspectFrame["BotRightCorner"] = InspectFrameBotRightCorner -- inherited
+InspectFrame["BottomBorder"] = InspectFrameBottomBorder -- inherited
+InspectFrame["LeftBorder"] = InspectFrameLeftBorder -- inherited
+InspectFrame["RightBorder"] = InspectFrameRightBorder -- inherited
+InspectFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 

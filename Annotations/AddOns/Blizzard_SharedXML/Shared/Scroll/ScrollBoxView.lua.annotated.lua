@@ -29,34 +29,40 @@ function ScrollBoxViewMixin:SetPadding(padding) end
 function ScrollBoxViewMixin:GetPadding() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L44)
-function ScrollBoxViewMixin:SetPanExtent(panExtent) end
+function ScrollBoxViewMixin:HasBiaxalLayout() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L48)
+function ScrollBoxViewMixin:SetPanExtent(panExtent) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L52)
+function ScrollBoxViewMixin:SetMaxPanExtent(maxPanExtent) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L56)
 function ScrollBoxViewMixin:SetScrollBox(scrollBox) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L65)
 function ScrollBoxViewMixin:GetScrollBox() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L61)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L69)
 function ScrollBoxViewMixin:InitDefaultDrag(scrollBox) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L64)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L72)
 function ScrollBoxViewMixin:IsExtentValid() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L68)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L76)
 function ScrollBoxViewMixin:SetExtent(extent) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L72)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L80)
+function ScrollBoxViewMixin:GetExtent() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L84)
 function ScrollBoxViewMixin:GetScrollTarget() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L79)
-function ScrollBoxViewMixin:RequiresFullUpdateOnScrollTargetSizeChange() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L83)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L88)
 function ScrollBoxViewMixin:GetFrames() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L87)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L92)
 function ScrollBoxViewMixin:FindFrame(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L93)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxView.lua#L98)
 function ScrollBoxViewMixin:FindFrameByPredicate(predicate) end

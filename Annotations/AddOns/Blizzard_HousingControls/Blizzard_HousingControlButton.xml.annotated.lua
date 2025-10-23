@@ -50,12 +50,10 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L70)
 --- Template
---- @class HouseInfoButtonTemplate : Button, HousingControlModeButtonTemplate
+--- @class HouseInfoButtonTemplate : Button, HousingControlModeButtonTemplate, HouseInfoButtonMixin
 --- @field iconDefault string # decor-controls-houseinfo-default
 --- @field iconActive string # decor-controls-houseinfo-active
 --- @field iconPressed string # decor-controls-houseinfo-pressed
---- @field notYetImplemented boolean # true
---- @field nyiLabel string # House Info
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L82)
@@ -65,6 +63,6 @@
 --- @field iconActive string # decor-controls-inspect-active
 --- @field iconPressed string # decor-controls-inspect-pressed
 --- @field notYetImplemented boolean # true
---- @field nyiLabel string # House Inspector
+--- @field nyiLabel any # HOUSING_CONTROLS_COMING_SOON
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 

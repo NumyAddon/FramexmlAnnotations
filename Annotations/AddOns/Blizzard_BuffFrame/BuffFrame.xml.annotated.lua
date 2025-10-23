@@ -1,32 +1,36 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L12)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L4)
+--- Template
+--- @class BaseAuraFrameTemplate : Frame, AuraFrameEditModeTemplate, BaseAuraFrameMixin
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L14)
 --- child of BuffFrame
 --- @class BuffFrame_CollapseAndExpandButton : CheckButton, CollapseAndExpandButtonMixin
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L53)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L55)
 --- child of BuffFrame_ConsolidatedBuffs_Tooltip
 --- @class BuffFrame_ConsolidatedBuffs_Tooltip_Auras : Frame, AuraFrameTemplate, ConsolidatedBuffsTooltipAurasMixin
 --- @field maxAuras any # BUFF_MAX_DISPLAY
 --- @field ignoreDisabledAurasForSize boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L44)
 --- child of BuffFrame_ConsolidatedBuffs
 --- @class BuffFrame_ConsolidatedBuffs_Tooltip : Frame, TooltipBackdropTemplate, ResizeLayoutFrame, ConsolidatedBuffsTooltipMixin
 --- @field widthPadding number # 9
 --- @field heightPadding number # 2
 --- @field Auras BuffFrame_ConsolidatedBuffs_Tooltip_Auras
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L42)
 --- child of BuffFrame
 --- @class BuffFrame_ConsolidatedBuffs : Button, AuraButtonCodeTemplate, ConsolidatedBuffsMixin
 --- @field Tooltip BuffFrame_ConsolidatedBuffs_Tooltip
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L4)
---- @class BuffFrame : Frame, AuraFrameEditModeTemplate, BuffFrameMixin
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L6)
+--- @class BuffFrame : Frame, BaseAuraFrameTemplate, BuffFrameMixin
 --- @field exampleAuraType string # Buff
 --- @field maxAuras any # BUFF_MAX_DISPLAY
 --- @field systemIndex any # Enum.EditModeAuraFrameSystemIndices.BuffFrame
@@ -39,18 +43,18 @@ BuffFrame["maxAuras"] = BUFF_MAX_DISPLAY
 BuffFrame["systemIndex"] = Enum.EditModeAuraFrameSystemIndices.BuffFrame
 BuffFrame["systemNameString"] = HUD_EDIT_MODE_BUFF_FRAME_LABEL
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L97)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L99)
 --- child of DebuffFrame
 --- @class DebuffFrame_privateAuraAnchor1 : Frame, BuffFramePrivateAuraAnchorTemplate
 --- @field auraIndex number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L102)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L104)
 --- child of DebuffFrame
 --- @class DebuffFrame_privateAuraAnchor2 : Frame, BuffFramePrivateAuraAnchorTemplate
 --- @field auraIndex number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L85)
---- @class DebuffFrame : Frame, AuraFrameEditModeTemplate, DebuffFrameMixin
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L87)
+--- @class DebuffFrame : Frame, BaseAuraFrameTemplate, DebuffFrameMixin
 --- @field exampleAuraType string # Debuff
 --- @field maxAuras any # DEBUFF_MAX_DISPLAY
 --- @field systemIndex any # Enum.EditModeAuraFrameSystemIndices.DebuffFrame
@@ -66,15 +70,15 @@ DebuffFrame["systemIndex"] = Enum.EditModeAuraFrameSystemIndices.DebuffFrame
 DebuffFrame["systemNameString"] = HUD_EDIT_MODE_DEBUFF_FRAME_LABEL
 DebuffFrame["doNotAnchorDisabledFrames"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L133)
 --- child of DeadlyDebuffFrame
 --- @class DeadlyDebuffFrame_Debuff : Button, AuraButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L123)
 --- child of DeadlyDebuffFrame
 --- @class DeadlyDebuffFrame_WarningText : FontString, GameFontNormalHuge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L114)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L116)
 --- @class DeadlyDebuffFrame : Frame, DeadlyDebuffFrameMixin
 --- @field Debuff DeadlyDebuffFrame_Debuff
 --- @field WarningText DeadlyDebuffFrame_WarningText

@@ -12,7 +12,7 @@ EncounterTimelineViewFrameManagerMixin = {}
 --- @class EncounterTimelineViewAnchoringMixin
 EncounterTimelineViewAnchoringMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineView.lua#L977)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineView.lua#L976)
 --- @class EncounterTimelineViewSecureMixin
 EncounterTimelineViewSecureMixin = {}
 
@@ -208,5 +208,5 @@ function EncounterTimelineViewMixin:StartIntroTransition(eventFrame) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineView.lua#L782)
 function EncounterTimelineViewMixin:UpdateLayout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineView.lua#L979)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineView.lua#L978)
 function EncounterTimelineViewSecureMixin:OnViewSettingChanged(key, value) end

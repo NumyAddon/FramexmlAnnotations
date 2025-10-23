@@ -27,10 +27,10 @@ function HousingCatalogFiltersMixin:ResetFiltersToDefault() end
 function HousingCatalogFiltersMixin:SetEnabled(enabled) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogFilters.lua#L171)
-function HousingCatalogFiltersMixin:ResetHousingMarketFilters() end
+function HousingCatalogFiltersMixin:ResetCollectionFilters() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogFilters.lua#L177)
-function HousingCatalogFiltersMixin:SetHousingMarketFiltersAvailable(available) end
+function HousingCatalogFiltersMixin:SetCollectionFiltersAvailable(available) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogFilters.lua#L189)
 function HousingCatalogSearchBoxMixin:OnLoad() end

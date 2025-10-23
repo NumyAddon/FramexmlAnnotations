@@ -82,10 +82,13 @@ function TabSystemMixin:IsTabShown(tabID) end
 function TabSystemMixin:SetTabEnabled(tabID, enabled, errorReason) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L222)
-function TabSystemMixin:GetTabWidthConstraints() end
+function TabSystemMixin:IsTabEnabled(tabID) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L226)
-function TabSystemMixin:GetTabButton(tabID) end
+function TabSystemMixin:GetTabWidthConstraints() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L230)
+function TabSystemMixin:GetTabButton(tabID) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/TabSystem/TabSystemTemplates.lua#L234)
 function TabSystemMixin:PlayTabSelectSound() end

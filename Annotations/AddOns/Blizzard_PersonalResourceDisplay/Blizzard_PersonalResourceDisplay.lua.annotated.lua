@@ -61,5 +61,5 @@ function PersonalResourceDisplayMixin:UpdateAdditionalBarAnchors() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.lua#L616)
 function PersonalResourceDisplayMixin:UpdateFriendlyBuffs() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.lua#L685)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.lua#L686)
 function PersonalResourceDisplayMixin:ShouldShowFriendlyBuff(aura) end

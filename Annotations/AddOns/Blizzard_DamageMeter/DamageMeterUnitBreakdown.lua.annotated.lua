@@ -19,17 +19,17 @@ function DamageMeterUnitBreakdownMixin:OnEvent(event, ...) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L27)
 function DamageMeterUnitBreakdownMixin:InitializeScrollBox() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L36)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L53)
 function DamageMeterUnitBreakdownMixin:GetEntryList() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L62)
 function DamageMeterUnitBreakdownMixin:BuildDataProvider() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L57)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L74)
 function DamageMeterUnitBreakdownMixin:Refresh(retainScrollPosition) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L61)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L78)
 function DamageMeterUnitBreakdownMixin:SetTrackedData(trackedStat, trackedUnit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L66)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.lua#L83)
 function DamageMeterUnitBreakdownMixin:AnchorToWindow(windowFrame) end

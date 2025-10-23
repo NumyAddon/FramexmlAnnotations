@@ -25,41 +25,41 @@ function ScriptAnimatedEffectControllerMixin:SetSoundEnabled(enabled) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L41)
 function ScriptAnimatedEffectControllerMixin:StartEffect() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L77)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L78)
 function ScriptAnimatedEffectControllerMixin:DeltaUpdate(elapsedTime) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L107)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L108)
 function ScriptAnimatedEffectControllerMixin:IsActive() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L112)
 function ScriptAnimatedEffectControllerMixin:CancelLoopingSound() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L117)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L118)
 function ScriptAnimatedEffectControllerMixin:FinishLoopingSound() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L123)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L124)
 function ScriptAnimatedEffectControllerMixin:FinishEffect() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L151)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L152)
 function ScriptAnimatedEffectControllerMixin:CheckResolution() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L157)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L158)
 function ScriptAnimatedEffectControllerMixin:RunEffectResolution(cancelled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L163)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L164)
 function ScriptAnimatedEffectControllerMixin:RunEffectFinish(cancelled) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L172)
 function ScriptAnimatedEffectControllerMixin:SetDynamicOffsets(pixelX, pixelY, pixelZ) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L178)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L179)
 function ScriptAnimatedEffectControllerMixin:UpdateActorDynamicOffsets() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L185)
 function ScriptAnimatedEffectControllerMixin:CancelEffect() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L188)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L189)
 function ScriptAnimatedEffectControllerMixin:InternalCancelEffect(skipRemovingController) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L215)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedEffectController.lua#L216)
 function ScriptAnimatedEffectControllerMixin:BeginBehavior(behavior) end

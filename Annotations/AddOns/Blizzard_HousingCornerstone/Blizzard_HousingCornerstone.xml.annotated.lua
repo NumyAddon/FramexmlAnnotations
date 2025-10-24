@@ -200,59 +200,82 @@ HousingCornerstonePurchaseFrame["PriceMoneyFrame"] = HousingCornerstonePriceMone
 HousingCornerstonePurchaseFrame["CloseButton"] = HousingCornerstonePurchaseFrameCloseButton
 HousingCornerstonePurchaseFrame["MoneyFrame"] = HousingCornerstonePurchaseFrameMoneyFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L279)
---- child of HousingCornerstoneVisitorFrame
---- @class HousingCornerstoneVisitorFrameCloseButton : Button, UIPanelCloseButtonDefaultAnchors
-HousingCornerstoneVisitorFrameCloseButton = {}
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L273)
+--- child of HousingCornerstoneVisitorTemplate
+--- @class HousingCornerstoneVisitorTemplate_CloseButton : Button, UIPanelCloseButtonDefaultAnchors
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L284)
---- child of HousingCornerstoneVisitorFrame
---- @class HousingCornerstoneVisitorFrame_GearDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L278)
+--- child of HousingCornerstoneVisitorTemplate
+--- @class HousingCornerstoneVisitorTemplate_GearDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L238)
---- child of HousingCornerstoneVisitorFrame
---- @class HousingCornerstoneVisitorFrame_HouseNameText : FontString, Game22Font
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L232)
+--- child of HousingCornerstoneVisitorTemplate
+--- @class HousingCornerstoneVisitorTemplate_HouseNameText : FontString, Game22Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L243)
---- child of HousingCornerstoneVisitorFrame
---- @class HousingCornerstoneVisitorFrame_OwnerLabel : FontString, Game13FontShadow
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L237)
+--- child of HousingCornerstoneVisitorTemplate
+--- @class HousingCornerstoneVisitorTemplate_OwnerLabel : FontString, Game13FontShadow
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L242)
+--- child of HousingCornerstoneVisitorTemplate
+--- @class HousingCornerstoneVisitorTemplate_OwnerText : FontString, Game13FontShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L248)
---- child of HousingCornerstoneVisitorFrame
---- @class HousingCornerstoneVisitorFrame_OwnerText : FontString, Game13FontShadow
+--- child of HousingCornerstoneVisitorTemplate
+--- @class HousingCornerstoneVisitorTemplate_LocationLabel : FontString, Game13FontShadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L254)
---- child of HousingCornerstoneVisitorFrame
---- @class HousingCornerstoneVisitorFrame_LocationLabel : FontString, Game13FontShadow
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L253)
+--- child of HousingCornerstoneVisitorTemplate
+--- @class HousingCornerstoneVisitorTemplate_PlotText : FontString, Game13FontShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L259)
---- child of HousingCornerstoneVisitorFrame
---- @class HousingCornerstoneVisitorFrame_PlotText : FontString, Game13FontShadow
+--- child of HousingCornerstoneVisitorTemplate
+--- @class HousingCornerstoneVisitorTemplate_NeighborhoodLabel : FontString, Game13FontShadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L265)
---- child of HousingCornerstoneVisitorFrame
---- @class HousingCornerstoneVisitorFrame_NeighborhoodLabel : FontString, Game13FontShadow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L270)
---- child of HousingCornerstoneVisitorFrame
---- @class HousingCornerstoneVisitorFrame_NeighborhoodText : FontString, Game13FontShadow
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L264)
+--- child of HousingCornerstoneVisitorTemplate
+--- @class HousingCornerstoneVisitorTemplate_NeighborhoodText : FontString, Game13FontShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L209)
---- @class HousingCornerstoneVisitorFrame : Frame, HousingCornerstoneVisitorFrameMixin
---- @field CloseButton HousingCornerstoneVisitorFrameCloseButton
---- @field GearDropdown HousingCornerstoneVisitorFrame_GearDropdown
+--- Template
+--- @class HousingCornerstoneVisitorTemplate : Frame
+--- @field CloseButton HousingCornerstoneVisitorTemplate_CloseButton
+--- @field GearDropdown HousingCornerstoneVisitorTemplate_GearDropdown
 --- @field Border Texture
 --- @field Background Texture
 --- @field Header Texture
---- @field HouseNameText HousingCornerstoneVisitorFrame_HouseNameText
---- @field OwnerLabel HousingCornerstoneVisitorFrame_OwnerLabel
---- @field OwnerText HousingCornerstoneVisitorFrame_OwnerText
---- @field LocationLabel HousingCornerstoneVisitorFrame_LocationLabel
---- @field PlotText HousingCornerstoneVisitorFrame_PlotText
---- @field NeighborhoodLabel HousingCornerstoneVisitorFrame_NeighborhoodLabel
---- @field NeighborhoodText HousingCornerstoneVisitorFrame_NeighborhoodText
+--- @field HouseNameText HousingCornerstoneVisitorTemplate_HouseNameText
+--- @field OwnerLabel HousingCornerstoneVisitorTemplate_OwnerLabel
+--- @field OwnerText HousingCornerstoneVisitorTemplate_OwnerText
+--- @field LocationLabel HousingCornerstoneVisitorTemplate_LocationLabel
+--- @field PlotText HousingCornerstoneVisitorTemplate_PlotText
+--- @field NeighborhoodLabel HousingCornerstoneVisitorTemplate_NeighborhoodLabel
+--- @field NeighborhoodText HousingCornerstoneVisitorTemplate_NeighborhoodText
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L273)
+--- child of HousingCornerstoneVisitorFrame (created in template HousingCornerstoneVisitorTemplate)
+--- @type HousingCornerstoneVisitorTemplate_CloseButton
+HousingCornerstoneVisitorFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L286)
+--- @class HousingCornerstoneVisitorFrame : Frame, HousingCornerstoneVisitorTemplate, HousingCornerstoneVisitorFrameMixin
 HousingCornerstoneVisitorFrame = {}
-HousingCornerstoneVisitorFrame["CloseButton"] = HousingCornerstoneVisitorFrameCloseButton
+HousingCornerstoneVisitorFrame["CloseButton"] = HousingCornerstoneVisitorFrameCloseButton -- inherited
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L299)
+--- child of HousingCornerstoneHouseInfoFrame
+--- @class HousingCornerstoneHouseInfoFrame_LoadingSpinner : Frame, SpinnerTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L273)
+--- child of HousingCornerstoneHouseInfoFrame (created in template HousingCornerstoneVisitorTemplate)
+--- @type HousingCornerstoneVisitorTemplate_CloseButton
+HousingCornerstoneHouseInfoFrameCloseButton = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L296)
+--- @class HousingCornerstoneHouseInfoFrame : Frame, HousingCornerstoneVisitorTemplate, HousingCornerstoneHouseInfoFrameMixin
+--- @field LoadingSpinner HousingCornerstoneHouseInfoFrame_LoadingSpinner
+HousingCornerstoneHouseInfoFrame = {}
+HousingCornerstoneHouseInfoFrame["CloseButton"] = HousingCornerstoneHouseInfoFrameCloseButton -- inherited
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L105)
 --- child of MoveHouseConfirmationDialog_PriceMoneyFrameOriginal (created in template SmallMoneyFrameTemplate)
@@ -274,11 +297,11 @@ MoveHouseConfirmationDialogGoldButton = {}
 --- @type Texture
 MoveHouseConfirmationDialogTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L327)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L349)
 --- child of MoveHouseConfirmationDialog
 --- @class MoveHouseConfirmationDialog_PriceMoneyFrameOriginal : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L332)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L354)
 --- child of MoveHouseConfirmationDialog
 --- @class MoveHouseConfirmationDialog_OriginalStrikethrough : Frame
 --- @field PriceStrikethrough Texture
@@ -303,31 +326,31 @@ MoveHouseConfirmationDialogGoldButton = {}
 --- @type Texture
 MoveHouseConfirmationDialogTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L343)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L365)
 --- child of MoveHouseConfirmationDialog
 --- @class MoveHouseConfirmationDialog_PriceMoneyFrameDiscount : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L348)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L370)
 --- child of MoveHouseConfirmationDialog
 --- @class MoveHouseConfirmationDialog_ConfirmButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L358)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L380)
 --- child of MoveHouseConfirmationDialog
 --- @class MoveHouseConfirmationDialog_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L325)
 --- child of MoveHouseConfirmationDialog
 --- @class MoveHouseConfirmationDialog_ConfirmationText : FontString, Game20Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L309)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L331)
 --- child of MoveHouseConfirmationDialog
 --- @class MoveHouseConfirmationDialog_HouseToMoveLabel : FontString, Game15Font_Shadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L314)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L336)
 --- child of MoveHouseConfirmationDialog
 --- @class MoveHouseConfirmationDialog_HouseToMoveText : FontString, Game15Font_Shadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L319)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L341)
 --- child of MoveHouseConfirmationDialog
 --- @class MoveHouseConfirmationDialog_PriceLabel : FontString, Game15Font_Shadow
 
@@ -376,7 +399,7 @@ MoveHouseConfirmationDialogLeftBorder = {}
 --- @type TranslucentFrameTemplate_RightBorder
 MoveHouseConfirmationDialogRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L314)
 --- @class MoveHouseConfirmationDialog : Frame, TranslucentFrameTemplate, MoveHouseConfirmationDialogMixin
 --- @field PriceMoneyFrameOriginal MoveHouseConfirmationDialog_PriceMoneyFrameOriginal
 --- @field OriginalStrikethrough MoveHouseConfirmationDialog_OriginalStrikethrough
@@ -398,23 +421,23 @@ MoveHouseConfirmationDialog["BottomBorder"] = MoveHouseConfirmationDialogBottomB
 MoveHouseConfirmationDialog["LeftBorder"] = MoveHouseConfirmationDialogLeftBorder -- inherited
 MoveHouseConfirmationDialog["RightBorder"] = MoveHouseConfirmationDialogRightBorder -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L401)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L423)
 --- child of ImportHouseConfirmationDialog
 --- @class ImportHouseConfirmationDialog_ConfirmButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L411)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L433)
 --- child of ImportHouseConfirmationDialog
 --- @class ImportHouseConfirmationDialog_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L382)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L404)
 --- child of ImportHouseConfirmationDialog
 --- @class ImportHouseConfirmationDialog_ConfirmationText : FontString, Game20Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L388)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L410)
 --- child of ImportHouseConfirmationDialog
 --- @class ImportHouseConfirmationDialog_HouseToImportLabel : FontString, Game15Font_Shadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L393)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L415)
 --- child of ImportHouseConfirmationDialog
 --- @class ImportHouseConfirmationDialog_HouseToImportText : FontString, Game15Font_Shadow
 
@@ -463,7 +486,7 @@ ImportHouseConfirmationDialogLeftBorder = {}
 --- @type TranslucentFrameTemplate_RightBorder
 ImportHouseConfirmationDialogRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L371)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L393)
 --- @class ImportHouseConfirmationDialog : Frame, TranslucentFrameTemplate, ImportHouseConfirmationDialogMixin
 --- @field ConfirmButton ImportHouseConfirmationDialog_ConfirmButton
 --- @field CancelButton ImportHouseConfirmationDialog_CancelButton

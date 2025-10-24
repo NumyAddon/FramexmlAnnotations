@@ -14,13 +14,10 @@ function ScaleControlFrameMixin:OnShow() end
 function ScaleControlFrameMixin:OnValueChanged(value) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L18)
-function ScaleControlFrameMixin:UpdateParent() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L26)
 function ScaleControlFrameMixin:FormatValue(value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L32)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L24)
 function ScaleControlFrameMixin:OnMouseDown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L37)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L29)
 function ScaleControlFrameMixin:OnMouseUp() end

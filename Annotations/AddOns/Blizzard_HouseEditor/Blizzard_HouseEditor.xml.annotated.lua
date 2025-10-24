@@ -22,7 +22,7 @@
 --- @class HouseEditorFrame_LayoutModeFrame : Frame, HouseEditorLayoutModeTemplate
 --- @field modeType any # Enum.HouseEditorMode.Layout
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditor.xml#L17)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditor.xml#L25)
 --- child of HouseEditorFrame_CustomizeModeFrame (created in template HouseEditorCustomizeModeTemplate)
 --- @type HouseEditorCustomizeModeTemplate_DyeSelectionPopout
 DyeSelectionPopout = {}

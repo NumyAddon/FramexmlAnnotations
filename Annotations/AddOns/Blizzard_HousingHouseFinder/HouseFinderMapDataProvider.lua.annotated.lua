@@ -8,7 +8,7 @@ HouseFinderMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 --- @class HouseFinderPlotForSalePinMixin : MapCanvasPinMixin
 HouseFinderPlotForSalePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L120)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L121)
 --- @class HouseFinderFriendsPlotPinMixin : MapCanvasPinMixin
 HouseFinderFriendsPlotPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
@@ -51,32 +51,32 @@ function HouseFinderPlotForSalePinMixin:OnMouseUpAction(button, upInside) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L85)
 function HouseFinderPlotForSalePinMixin:OnMouseClickAction() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L91)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L92)
 function HouseFinderPlotForSalePinMixin:StartGlow(glowLoopCount) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L110)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L111)
 function HouseFinderPlotForSalePinMixin:StopGlow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L122)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L123)
 function HouseFinderFriendsPlotPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L128)
 function HouseFinderFriendsPlotPinMixin:OnAcquired(mapPlotInfo, dataProvider) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L134)
 function HouseFinderFriendsPlotPinMixin:Refresh() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L137)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L138)
 function HouseFinderFriendsPlotPinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L143)
 function HouseFinderFriendsPlotPinMixin:OnMouseLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L146)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L147)
 function HouseFinderFriendsPlotPinMixin:OnMouseDownAction(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L150)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L151)
 function HouseFinderFriendsPlotPinMixin:OnMouseUpAction(button, upInside) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L154)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.lua#L155)
 function HouseFinderFriendsPlotPinMixin:OnMouseClickAction() end

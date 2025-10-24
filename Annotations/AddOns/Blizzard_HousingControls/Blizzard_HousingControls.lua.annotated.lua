@@ -20,7 +20,4 @@ function HousingControlsMixin:OnShow() end
 function HousingControlsMixin:OnHide() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControls.lua#L54)
-function HousingControlsMixin:UpdateParent() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControls.lua#L62)
 function HousingControlsMixin:UpdateButtons() end

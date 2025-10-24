@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RPE_TurnStrafe/Blizzard_RPE_TurnStrafe.xml#L33)
 --- child of RPETurnStrafeStyleTypeTemplate
---- @class RPETurnStrafeStyleTypeTemplate_ActivateButton : Button, StaticPopupButtonTemplate
+--- @class RPETurnStrafeStyleTypeTemplate_ActivateButton : Button, UIPanelButtonTemplate
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RPE_TurnStrafe/Blizzard_RPE_TurnStrafe.xml#L12)
 --- child of RPETurnStrafeStyleTypeTemplate
@@ -23,7 +23,6 @@
 --- @field Title RPETurnStrafeStyleTypeTemplate_Title
 --- @field SubTitle RPETurnStrafeStyleTypeTemplate_SubTitle
 --- @field ActiveLabel RPETurnStrafeStyleTypeTemplate_ActiveLabel
---- @field Buttons table<number, RPETurnStrafeStyleTypeTemplate_ActivateButton>
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RPE_TurnStrafe/Blizzard_RPE_TurnStrafe.xml#L70)
 --- child of RPETurnStrafeStyleFrameTemplate

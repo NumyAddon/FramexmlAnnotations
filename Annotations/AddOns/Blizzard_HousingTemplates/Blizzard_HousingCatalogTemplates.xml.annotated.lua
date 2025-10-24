@@ -8,12 +8,12 @@
 --- @field xPadding number # 10
 --- @field yPadding number # 10
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L35)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L36)
 --- child of ScrollingHousingCatalogTemplate
 --- @class ScrollingHousingCatalogTemplate_ScrollBox : Frame, WowScrollBoxList
 --- @field wheelPanScalar number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L46)
 --- child of ScrollingHousingCatalogTemplate
 --- @class ScrollingHousingCatalogTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
@@ -26,6 +26,7 @@
 --- @field bottomPadding number # 0
 --- @field leftPadding number # 0
 --- @field rightPadding number # 0
+--- @field scrollBoxTopOffset number # 0
 --- @field ScrollBox ScrollingHousingCatalogTemplate_ScrollBox
 --- @field ScrollBar ScrollingHousingCatalogTemplate_ScrollBar
 

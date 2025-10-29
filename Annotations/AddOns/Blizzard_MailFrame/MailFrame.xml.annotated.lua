@@ -870,7 +870,6 @@ MailFrameBg = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L274)
 --- @class MailFrame : Frame, ButtonFrameTemplate
 --- @field trialError MailFrameTrialError
---- @field Tabs table<number, MailFrameTab1 | MailFrameTab2>
 MailFrame = {}
 MailFrame["trialError"] = MailFrameTrialError
 MailFrame["Inset"] = MailFrameInset -- inherited

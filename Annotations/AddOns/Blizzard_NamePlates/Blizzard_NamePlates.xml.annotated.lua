@@ -36,6 +36,7 @@ NamePlateDriverFrame = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L105)
 --- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar : StatusBar, TextStatusBar, NamePlateHealthBarMixin
+--- @field bgTexture Texture
 --- @field selectedBorder Texture
 --- @field myHealPrediction Texture
 --- @field otherHealPrediction Texture

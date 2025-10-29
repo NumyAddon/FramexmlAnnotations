@@ -22,7 +22,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingModelPreview.xml#L72)
 --- child of HousingModelPreviewTemplate_TextContainer
---- @class HousingModelPreviewTemplate_TextContainer_CollectionBonus : FontString, GameFontNormal
+--- @class HousingModelPreviewTemplate_TextContainer_CollectionBonus : FontString, GameFontHighlight
 --- @field layoutIndex number # 2
 --- @field expand boolean # true
 

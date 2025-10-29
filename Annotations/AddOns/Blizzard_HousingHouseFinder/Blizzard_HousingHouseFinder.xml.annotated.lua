@@ -283,53 +283,11 @@ HouseFinderFrameTrialErrorButton = {}
 --- @class HouseFinderFrame_WoodBorderFrame : Frame
 --- @field Border Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L105)
---- child of HouseFinderFrame_SelectedPlotTooltip_PriceMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_CopperButton
-HouseFinderFrameCopperButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L124)
---- child of HouseFinderFrame_SelectedPlotTooltip_PriceMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_SilverButton
-HouseFinderFrameSilverButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L143)
---- child of HouseFinderFrame_SelectedPlotTooltip_PriceMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type SmallMoneyFrameTemplate_GoldButton
-HouseFinderFrameGoldButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L85)
---- child of HouseFinderFrame_SelectedPlotTooltip_PriceMoneyFrame (created in template SmallMoneyFrameTemplate)
---- @type Texture
-HouseFinderFrameTrialErrorButton = {}
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L598)
---- child of HouseFinderFrame_SelectedPlotTooltip
---- @class HouseFinderFrame_SelectedPlotTooltip_PriceMoneyFrame : Frame, SmallMoneyFrameTemplate
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L575)
---- child of HouseFinderFrame_SelectedPlotTooltip
---- @class HouseFinderFrame_SelectedPlotTooltip_HeaderText : FontString, Game13FontShadow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L581)
---- child of HouseFinderFrame_SelectedPlotTooltip
---- @class HouseFinderFrame_SelectedPlotTooltip_SubText : FontString, Game13FontShadow
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L588)
---- child of HouseFinderFrame_SelectedPlotTooltip
---- @class HouseFinderFrame_SelectedPlotTooltip_FooterText : FontString, Game13FontShadow
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L552)
 --- child of HouseFinderFrame
---- @class HouseFinderFrame_SelectedPlotTooltip : Frame, TooltipBorderedFrameTemplate, SelectedPlotTooltipMixin
---- @field PriceMoneyFrame HouseFinderFrame_SelectedPlotTooltip_PriceMoneyFrame
---- @field Arrow Texture
---- @field CornerIcon Texture
---- @field HeaderText HouseFinderFrame_SelectedPlotTooltip_HeaderText
---- @field SubText HouseFinderFrame_SelectedPlotTooltip_SubText
---- @field FooterText HouseFinderFrame_SelectedPlotTooltip_FooterText
+--- @class HouseFinderFrame_SelectedPlotTooltip : Frame, SelectedPlotTooltipTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L605)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L557)
 --- child of HouseFinderFrame
 --- @class HouseFinderFrame_LoadingSpinnerMap : Frame, SpinnerTemplate
 

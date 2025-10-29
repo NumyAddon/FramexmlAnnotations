@@ -5,15 +5,15 @@
 --- @class DamageMeterEntryTemplate_Icon : Frame
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L45)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L43)
 --- child of DamageMeterEntryTemplate_StatusBar
 --- @class DamageMeterEntryTemplate_StatusBar_Value : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L50)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L48)
 --- child of DamageMeterEntryTemplate_StatusBar
 --- @class DamageMeterEntryTemplate_StatusBar_Name : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L19)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L17)
 --- child of DamageMeterEntryTemplate
 --- @class DamageMeterEntryTemplate_StatusBar : StatusBar
 --- @field Value DamageMeterEntryTemplate_StatusBar_Value
@@ -24,4 +24,14 @@
 --- @class DamageMeterEntryTemplate : Button, DamageMeterEntryMixin
 --- @field Icon DamageMeterEntryTemplate_Icon
 --- @field StatusBar DamageMeterEntryTemplate_StatusBar
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L60)
+--- Template
+--- @class DamageMeterSourceEntryTemplate : Button, DamageMeterEntryTemplate, DamageMeterSourceEntryMixin
+--- @field iconUsesAtlas boolean # true
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L65)
+--- Template
+--- @class DamageMeterSpellEntryTemplate : Button, DamageMeterEntryTemplate, DamageMeterSpellEntryMixin
+--- @field iconUsesAtlas boolean # false
 

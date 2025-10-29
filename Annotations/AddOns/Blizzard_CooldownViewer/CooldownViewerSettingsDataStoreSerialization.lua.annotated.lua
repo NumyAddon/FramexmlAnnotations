@@ -38,4 +38,10 @@ function CooldownViewerDataStoreSerializationMixin:GetCurrentEncodingVersion() e
 function CooldownViewerDataStoreSerializationMixin:ReadData() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L286)
+function CooldownViewerDataStoreSerializationMixin:CreateEncodeOutput(output) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L297)
+function CooldownViewerDataStoreSerializationMixin:SerializeLayouts(singleLayoutID) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L400)
 function CooldownViewerDataStoreSerializationMixin:WriteData() end

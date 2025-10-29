@@ -2,7 +2,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L8)
 --- child of ProfessionsQualityContainerTemplate
---- @class ProfessionsQualityContainerTemplate_Button : ItemButton, ProfessionsReagentButtonTemplate
+--- @class ProfessionsQualityContainerTemplate_Button : ItemButton, ProfessionsButtonTemplate
 --- @field minDisplayCount number # 0
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsQualityDialog.xml#L16)

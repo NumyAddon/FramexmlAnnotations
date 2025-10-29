@@ -56,3 +56,6 @@ function ScrollingHousingCatalogMixin:ClearCatalogData() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.lua#L175)
 function ScrollingHousingCatalogMixin:TryGetElementAndFrame(entryID) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.lua#L188)
+function ScrollingHousingCatalogMixin:RefreshFrames() end

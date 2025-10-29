@@ -8,7 +8,7 @@ SpellBookClassCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin)
 --- @class SpellBookGeneralCategoryMixin : BaseSpellBookCategoryMixin
 SpellBookGeneralCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L302)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L306)
 --- @class SpellBookPetCategoryMixin : BaseSpellBookCategoryMixin
 SpellBookPetCategoryMixin = CreateFromMixins(BaseSpellBookCategoryMixin)
 
@@ -79,20 +79,20 @@ function SpellBookGeneralCategoryMixin:Init(spellBookFrame) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L263)
 function SpellBookGeneralCategoryMixin:UpdateSpellGroups() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L290)
 function SpellBookGeneralCategoryMixin:IsAvailable() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L291)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L295)
 function SpellBookGeneralCategoryMixin:ContainsSkillLine(skillLineIndex) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L304)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L308)
 function SpellBookPetCategoryMixin:Init(spellBookFrame) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L312)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L316)
 function SpellBookPetCategoryMixin:UpdateSpellGroups() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L335)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L339)
 function SpellBookPetCategoryMixin:IsAvailable() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L339)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookCategory.lua#L343)
 function SpellBookPetCategoryMixin:ContainsSkillLine(skillLineIndex) end

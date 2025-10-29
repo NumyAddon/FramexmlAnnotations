@@ -109,5 +109,5 @@ function NamePlateUnitFrameMixin:ShouldShowName() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L553)
 function NamePlateUnitFrameMixin:UpdateAnchors() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L650)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L655)
 function NamePlateUnitFrameMixin:SetExplicitValues(explicitValues) end

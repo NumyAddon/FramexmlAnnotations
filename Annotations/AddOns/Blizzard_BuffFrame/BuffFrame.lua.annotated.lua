@@ -36,27 +36,27 @@ DebuffFrameMixin = { }
 --- @class AuraButtonMixin
 AuraButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1111)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1117)
 --- @class CollapseAndExpandButtonMixin
 CollapseAndExpandButtonMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1162)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1168)
 --- @class DeadlyDebuffFrameMixin
 DeadlyDebuffFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1198)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1204)
 --- @class BuffFramePrivateAuraAnchorMixin
 BuffFramePrivateAuraAnchorMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1253)
 --- @class ConsolidatedBuffsMixin
 ConsolidatedBuffsMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1292)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1298)
 --- @class ConsolidatedBuffsTooltipMixin
 ConsolidatedBuffsTooltipMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1315)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1321)
 --- @class ConsolidatedBuffsTooltipAurasMixin
 ConsolidatedBuffsTooltipAurasMixin = {}
 
@@ -213,92 +213,92 @@ function AuraButtonMixin:OnClick(button) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L868)
 function AuraButtonMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L889)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L891)
 function AuraButtonMixin:OnLeave() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L897)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L899)
 function AuraButtonMixin:OnUpdate(elapsed) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L959)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L963)
 function AuraButtonMixin:UpdateAuraType(auraType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L978)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L982)
 function AuraButtonMixin:GetFilter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L992)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L996)
 function AuraButtonMixin:UpdateExpirationTime(buttonInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1020)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1024)
 function AuraButtonMixin:Update(buttonInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1085)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1091)
 function AuraButtonMixin:GetID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1093)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1099)
 function AuraButtonMixin:UpdateDuration(timeLeft) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1113)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1119)
 function CollapseAndExpandButtonMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1121)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1127)
 function CollapseAndExpandButtonMixin:OnClick() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1126)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1132)
 function CollapseAndExpandButtonMixin:IsEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1131)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1137)
 function CollapseAndExpandButtonMixin:UpdateOrientation() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1164)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1170)
 function DeadlyDebuffFrameMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1169)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1175)
 function DeadlyDebuffFrameMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1183)
 function DeadlyDebuffFrameMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1184)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1190)
 function DeadlyDebuffFrameMixin:Setup(deadlyDebuffInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1200)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1206)
 function BuffFramePrivateAuraAnchorMixin:SetUnit(unit) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1249)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1255)
 function ConsolidatedBuffsMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1257)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1263)
 function ConsolidatedBuffsMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1263)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1269)
 function ConsolidatedBuffsMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1267)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1273)
 function ConsolidatedBuffsMixin:UpdateConsolidatedAuraCount(numConsolidatedAuras) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1278)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1284)
 function ConsolidatedBuffsMixin:UpdateConsolidatedAuras(auraInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1290)
 function ConsolidatedBuffsMixin:IsEnabled() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1288)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1294)
 function ConsolidatedBuffsMixin:ShouldShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1294)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1300)
 function ConsolidatedBuffsTooltipMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1303)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1309)
 function ConsolidatedBuffsTooltipMixin:OnUpdate() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1310)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1316)
 function ConsolidatedBuffsTooltipMixin:UpdateAurasAndLayout() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1317)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1323)
 function ConsolidatedBuffsTooltipAurasMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1326)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1332)
 function ConsolidatedBuffsTooltipAurasMixin:ShouldShowAura(potentialAuraInfo) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1331)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1337)
 function ConsolidatedBuffsTooltipAurasMixin:Update() end

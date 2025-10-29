@@ -2,49 +2,53 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L5)
 --- Template
---- @class ProfessionsItemFlyoutButtonTemplate : ItemButton, ProfessionsItemFlyoutButtonMixin
+--- @class ProfessionsFlyoutItemButtonTemplate : ItemButton, ProfessionsButtonTemplate, ProfessionsFlyoutItemButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L31)
---- child of ProfessionsItemFlyoutTemplate_UndoItem
---- @class ProfessionsItemFlyoutTemplate_UndoItem_Text : FontString, GameFontNormal
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L9)
+--- Template
+--- @class ProfessionsFlyoutCurrencyButtonTemplate : ItemButton, ProfessionsButtonTemplate, ProfessionsFlyoutCurrencyButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L25)
---- child of ProfessionsItemFlyoutTemplate
---- @class ProfessionsItemFlyoutTemplate_UndoItem : ItemButton, ProfessionsItemFlyoutButtonTemplate
---- @field Text ProfessionsItemFlyoutTemplate_UndoItem_Text
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L35)
+--- child of ProfessionsFlyoutTemplate_UndoItem
+--- @class ProfessionsFlyoutTemplate_UndoItem_Text : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L29)
+--- child of ProfessionsFlyoutTemplate
+--- @class ProfessionsFlyoutTemplate_UndoItem : ItemButton, ProfessionsButtonTemplate
+--- @field Text ProfessionsFlyoutTemplate_UndoItem_Text
 --- @field Line Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L46)
---- child of ProfessionsItemFlyoutTemplate
---- @class ProfessionsItemFlyoutTemplate_UndoButton : Button, IconButtonTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L50)
+--- child of ProfessionsFlyoutTemplate
+--- @class ProfessionsFlyoutTemplate_UndoButton : Button, IconButtonTemplate
 --- @field iconAtlas string # talents-button-undo
 --- @field useAtlasSize boolean # true
 --- @field useIconAsHighlight boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L57)
---- child of ProfessionsItemFlyoutTemplate
---- @class ProfessionsItemFlyoutTemplate_ScrollBox : Frame, WowScrollBoxList
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L61)
+--- child of ProfessionsFlyoutTemplate
+--- @class ProfessionsFlyoutTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L62)
---- child of ProfessionsItemFlyoutTemplate
---- @class ProfessionsItemFlyoutTemplate_ScrollBar : EventFrame, MinimalScrollBar
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L66)
+--- child of ProfessionsFlyoutTemplate
+--- @class ProfessionsFlyoutTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L68)
---- child of ProfessionsItemFlyoutTemplate
---- @class ProfessionsItemFlyoutTemplate_HideUnownedCheckbox : CheckButton, UICheckButtonTemplate
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L72)
+--- child of ProfessionsFlyoutTemplate
+--- @class ProfessionsFlyoutTemplate_HideUnownedCheckbox : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L16)
---- child of ProfessionsItemFlyoutTemplate
---- @class ProfessionsItemFlyoutTemplate_Text : FontString, GameFontNormal
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L20)
+--- child of ProfessionsFlyoutTemplate
+--- @class ProfessionsFlyoutTemplate_Text : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L9)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeFlyout.xml#L13)
 --- Template
---- @class ProfessionsItemFlyoutTemplate : Frame, TooltipBackdropTemplate, ProfessionsItemFlyoutMixin
+--- @class ProfessionsFlyoutTemplate : Frame, TooltipBackdropTemplate, ProfessionsFlyoutMixin
 --- @field backdropColor any # BLACK_FONT_COLOR
---- @field UndoItem ProfessionsItemFlyoutTemplate_UndoItem
---- @field UndoButton ProfessionsItemFlyoutTemplate_UndoButton
---- @field ScrollBox ProfessionsItemFlyoutTemplate_ScrollBox
---- @field ScrollBar ProfessionsItemFlyoutTemplate_ScrollBar
---- @field HideUnownedCheckbox ProfessionsItemFlyoutTemplate_HideUnownedCheckbox
---- @field Text ProfessionsItemFlyoutTemplate_Text
+--- @field UndoItem ProfessionsFlyoutTemplate_UndoItem
+--- @field UndoButton ProfessionsFlyoutTemplate_UndoButton
+--- @field ScrollBox ProfessionsFlyoutTemplate_ScrollBox
+--- @field ScrollBar ProfessionsFlyoutTemplate_ScrollBar
+--- @field HideUnownedCheckbox ProfessionsFlyoutTemplate_HideUnownedCheckbox
+--- @field Text ProfessionsFlyoutTemplate_Text
 

@@ -333,37 +333,37 @@ FriendsFrameBroadcastInputFill = {}
 FriendsFrameBroadcastInput = {}
 FriendsFrameBroadcastInput["clear"] = FriendsFrameBroadcastInputClearButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1206)
 --- child of FriendsTabHeaderTab1 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab1LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1219)
 --- child of FriendsTabHeaderTab1 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab1MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1238)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1228)
 --- child of FriendsTabHeaderTab1 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab1RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1237)
 --- child of FriendsTabHeaderTab1 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab1Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1246)
 --- child of FriendsTabHeaderTab1 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab1Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1255)
 --- child of FriendsTabHeaderTab1 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1286)
 --- child of FriendsTabHeaderTab1 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab1HighlightTexture = {}
@@ -380,37 +380,37 @@ FriendsTabHeaderTab1["Middle"] = FriendsTabHeaderTab1Middle -- inherited
 FriendsTabHeaderTab1["Right"] = FriendsTabHeaderTab1Right -- inherited
 FriendsTabHeaderTab1["HighlightTexture"] = FriendsTabHeaderTab1HighlightTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1206)
 --- child of FriendsTabHeaderTab2 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab2LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1219)
 --- child of FriendsTabHeaderTab2 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab2MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1238)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1228)
 --- child of FriendsTabHeaderTab2 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab2RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1237)
 --- child of FriendsTabHeaderTab2 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab2Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1246)
 --- child of FriendsTabHeaderTab2 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab2Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1255)
 --- child of FriendsTabHeaderTab2 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.xml#L1286)
 --- child of FriendsTabHeaderTab2 (created in template TabButtonTemplate)
 --- @type Texture
 FriendsTabHeaderTab2HighlightTexture = {}

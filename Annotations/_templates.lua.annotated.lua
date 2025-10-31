@@ -1016,7 +1016,6 @@
 --- | "MinimalScrollFrameTemplate"
 --- | "MinimalSliderTemplate"
 --- | "MinimalSliderWithSteppersTemplate"
---- | "MinimalTabTemplate"
 --- | "MiniMapButtonTemplate"
 --- | "MirrorTimerTemplate"
 --- | "ModelControlButtonTemplate"

@@ -10,7 +10,11 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L19)
 --- Template
---- @class AnimatedShineTemplate : Frame
+--- @class AnimatedShineTemplate : Frame, AnimatedShineMixin
+--- @field Shine1 Texture
+--- @field Shine2 Texture
+--- @field Shine3 Texture
+--- @field Shine4 Texture
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.xml#L83)
 --- child of UIServiceButtonTemplate

@@ -86,37 +86,37 @@ MacroSaveButton["fitTextWidthPadding"] = 40 -- inherited
 MacroFrameTextBackground = {}
 MacroFrameTextBackground["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1206)
 --- child of MacroFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab1LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1219)
 --- child of MacroFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab1MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1238)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1228)
 --- child of MacroFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab1RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1237)
 --- child of MacroFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab1Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1246)
 --- child of MacroFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab1Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1255)
 --- child of MacroFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1286)
 --- child of MacroFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab1HighlightTexture = {}
@@ -133,37 +133,37 @@ MacroFrameTab1["Middle"] = MacroFrameTab1Middle -- inherited
 MacroFrameTab1["Right"] = MacroFrameTab1Right -- inherited
 MacroFrameTab1["HighlightTexture"] = MacroFrameTab1HighlightTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1216)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1206)
 --- child of MacroFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab2LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1229)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1219)
 --- child of MacroFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab2MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1238)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1228)
 --- child of MacroFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab2RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1247)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1237)
 --- child of MacroFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab2Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1256)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1246)
 --- child of MacroFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab2Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1265)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1255)
 --- child of MacroFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1296)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_MacroUI/Blizzard_MacroUI.xml#L1286)
 --- child of MacroFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 MacroFrameTab2HighlightTexture = {}

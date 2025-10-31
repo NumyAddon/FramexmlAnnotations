@@ -12,6 +12,10 @@ UIExpandingButtonMixin = {}
 --- @class ButtonWithDisableMixin
 ButtonWithDisableMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L311)
+--- @class AnimatedShineMixin
+AnimatedShineMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L217)
 function CurrencyTemplateMixin:SetCurrencyFromID(currencyID, amount, formatString, colorCode) end
 
@@ -41,3 +45,12 @@ function ButtonWithDisableMixin:SetDisableTooltip(tooltipTitle, tooltipText) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L296)
 function ButtonWithDisableMixin:OnEnter() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L315)
+function AnimatedShineMixin:Start(r, g, b) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L331)
+function AnimatedShineMixin:Stop() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Classic/UIPanelTemplates.lua#L339)
+function AnimatedShineMixin:Update(elapsed) end

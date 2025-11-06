@@ -2,43 +2,48 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L31)
 --- child of DamageMeterWindowTemplate
---- @class DamageMeterWindowTemplate_SettingsDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
+--- @class DamageMeterWindowTemplate_SettingsDropdown : DropdownButton, DamageMeterSettingsDropdownButtonTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L43)
+--- child of DamageMeterWindowTemplate_SessionDropdown
+--- @class DamageMeterWindowTemplate_SessionDropdown_SessionName : FontString, GameFontNormalMed1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L36)
 --- child of DamageMeterWindowTemplate
---- @class DamageMeterWindowTemplate_SegmentDropdown : DropdownButton, WowStyle2DropdownTemplate
+--- @class DamageMeterWindowTemplate_SessionDropdown : DropdownButton, WowStyle2DropdownTemplate
+--- @field SessionName DamageMeterWindowTemplate_SessionDropdown_SessionName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L52)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L62)
 --- child of DamageMeterWindowTemplate_TrackedStatDropdown
 --- @class DamageMeterWindowTemplate_TrackedStatDropdown_StatName : FontString, GameFontNormalMed1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L42)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L52)
 --- child of DamageMeterWindowTemplate
 --- @class DamageMeterWindowTemplate_TrackedStatDropdown : DropdownButton, WowStyle1ArrowDropdownTemplate
 --- @field hasShadow boolean # false
 --- @field StatName DamageMeterWindowTemplate_TrackedStatDropdown_StatName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L70)
 --- child of DamageMeterWindowTemplate
 --- @class DamageMeterWindowTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L75)
 --- child of DamageMeterWindowTemplate
 --- @class DamageMeterWindowTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L71)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L81)
 --- child of DamageMeterWindowTemplate
 --- @class DamageMeterWindowTemplate_ResizeButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L80)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L90)
 --- child of DamageMeterWindowTemplate
 --- @class DamageMeterWindowTemplate_UnitBreakdownFrame : Frame, DamageMeterUnitBreakdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L85)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L95)
 --- child of DamageMeterWindowTemplate
 --- @class DamageMeterWindowTemplate_ShowResizeButton : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L89)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterWindow.xml#L100)
 --- child of DamageMeterWindowTemplate
 --- @class DamageMeterWindowTemplate_HideResizeButton : AnimationGroup
 
@@ -46,7 +51,7 @@
 --- Template
 --- @class DamageMeterWindowTemplate : Frame, DamageMeterWindowMixin
 --- @field SettingsDropdown DamageMeterWindowTemplate_SettingsDropdown
---- @field SegmentDropdown DamageMeterWindowTemplate_SegmentDropdown
+--- @field SessionDropdown DamageMeterWindowTemplate_SessionDropdown
 --- @field TrackedStatDropdown DamageMeterWindowTemplate_TrackedStatDropdown
 --- @field ScrollBox DamageMeterWindowTemplate_ScrollBox
 --- @field ScrollBar DamageMeterWindowTemplate_ScrollBar

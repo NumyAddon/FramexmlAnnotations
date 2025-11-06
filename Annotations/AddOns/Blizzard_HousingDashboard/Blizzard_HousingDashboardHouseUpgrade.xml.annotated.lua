@@ -91,7 +91,7 @@
 --- @field leaf6 Texture
 --- @field LeafAnimation HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_HouseBarFrame_LeafAnimation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L374)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L375)
 --- child of HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar_BarFill
 --- @class HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar_BarFill_BarAnimation : AnimationGroup
 

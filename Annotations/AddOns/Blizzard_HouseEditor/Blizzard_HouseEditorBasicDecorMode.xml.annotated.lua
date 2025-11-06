@@ -7,14 +7,14 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L8)
 --- child of HouseEditorBasicDecorModeTemplate_Instructions
 --- @class HouseEditorBasicDecorModeTemplate_Instructions_SelectInstruction : Frame, HouseEditorInstructionTemplate
---- @field iconAtlas string # plunderstorm-pickup-mouseclick-left
+--- @field iconAtlas string # housing-hotkey-icon-leftclick
 --- @field instructionText any # HOUSING_DECOR_SELECT_INSTRUCTION
 --- @field layoutIndex number # 1
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L15)
 --- child of HouseEditorBasicDecorModeTemplate_Instructions
 --- @class HouseEditorBasicDecorModeTemplate_Instructions_PlaceInstruction : Frame, HouseEditorInstructionTemplate
---- @field iconAtlas string # plunderstorm-pickup-mouseclick-left
+--- @field iconAtlas string # housing-hotkey-icon-leftclick
 --- @field instructionText any # HOUSING_BASIC_DECOR_PLACE_INSTRUCTION
 --- @field layoutIndex number # 2
 

@@ -2,13 +2,9 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.xml#L31)
 --- child of DamageMeterUnitBreakdownTemplate
---- @class DamageMeterUnitBreakdownTemplate_ClosePanelButton : Button, UIPanelCloseButton
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.xml#L36)
---- child of DamageMeterUnitBreakdownTemplate
 --- @class DamageMeterUnitBreakdownTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.xml#L41)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.xml#L36)
 --- child of DamageMeterUnitBreakdownTemplate
 --- @class DamageMeterUnitBreakdownTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
@@ -19,7 +15,6 @@
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterUnitBreakdown.xml#L3)
 --- Template
 --- @class DamageMeterUnitBreakdownTemplate : Frame, DamageMeterUnitBreakdownMixin
---- @field ClosePanelButton DamageMeterUnitBreakdownTemplate_ClosePanelButton
 --- @field ScrollBox DamageMeterUnitBreakdownTemplate_ScrollBox
 --- @field ScrollBar DamageMeterUnitBreakdownTemplate_ScrollBar
 --- @field Border Texture

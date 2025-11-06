@@ -140,21 +140,22 @@
 --- @field NeighborhoodTitleBG Texture
 --- @field NeighborhoodsLabel HouseFinderFrame_NeighborhoodListFrame_NeighborhoodsLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L461)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L467)
 --- child of HouseFinderFrame_PlotInfoFrame_BackButton
 --- @class HouseFinderFrame_PlotInfoFrame_BackButton_ButtonLabel : FontString, Game13FontShadow
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L448)
 --- child of HouseFinderFrame_PlotInfoFrame
---- @class HouseFinderFrame_PlotInfoFrame_BackButton : Button
+--- @class HouseFinderFrame_PlotInfoFrame_BackButton : Button, PlotInfoFrameBackButtonMixin
 --- @field Icon Texture
+--- @field IconHighlight Texture
 --- @field ButtonLabel HouseFinderFrame_PlotInfoFrame_BackButton_ButtonLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L471)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L482)
 --- child of HouseFinderFrame_PlotInfoFrame
 --- @class HouseFinderFrame_PlotInfoFrame_VisitHouseButton : Button, UIPanelButtonHeightScaledTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L481)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L492)
 --- child of HouseFinderFrame_PlotInfoFrame
 --- @class HouseFinderFrame_PlotInfoFrame_LoadingSpinnerVisitButton : Frame, SpinnerTemplate
 
@@ -178,7 +179,7 @@ HouseFinderFrameGoldButton = {}
 --- @type Texture
 HouseFinderFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L487)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L498)
 --- child of HouseFinderFrame_PlotInfoFrame
 --- @class HouseFinderFrame_PlotInfoFrame_PriceMoneyFrame : Frame, SmallMoneyFrameTemplate
 
@@ -258,36 +259,40 @@ HouseFinderFrameTrialErrorButton = {}
 --- @field OwnerText HouseFinderFrame_PlotInfoFrame_OwnerText
 --- @field ReservationError HouseFinderFrame_PlotInfoFrame_ReservationError
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L501)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L512)
 --- child of HouseFinderFrame_HouseFinderMapCanvasFrame
 --- @class HouseFinderFrame_HouseFinderMapCanvasFrame_ScrollContainer : ScrollFrame, MapCanvasFrameScrollContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L495)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L506)
 --- child of HouseFinderFrame
 --- @class HouseFinderFrame_HouseFinderMapCanvasFrame : Frame, MapCanvasFrameTemplate
 --- @field ScrollContainer HouseFinderFrame_HouseFinderMapCanvasFrame_ScrollContainer
 --- @field BorderFrame Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L531)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L542)
 --- child of HouseFinderFrame_HouseFinderNotificationBanner
 --- @class HouseFinderFrame_HouseFinderNotificationBanner_NotificationText : FontString, Game13FontShadow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L516)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L527)
 --- child of HouseFinderFrame
 --- @class HouseFinderFrame_HouseFinderNotificationBanner : Frame
 --- @field background Texture
 --- @field NotificationText HouseFinderFrame_HouseFinderNotificationBanner_NotificationText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L541)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L552)
+--- child of HouseFinderFrame
+--- @class HouseFinderFrame_GuildSubdivisionDropdown : DropdownButton, WowStyle1DropdownTemplate
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L558)
 --- child of HouseFinderFrame
 --- @class HouseFinderFrame_WoodBorderFrame : Frame
 --- @field Border Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L552)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L569)
 --- child of HouseFinderFrame
 --- @class HouseFinderFrame_SelectedPlotTooltip : Frame, SelectedPlotTooltipTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L557)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingHouseFinder/Blizzard_HousingHouseFinder.xml#L574)
 --- child of HouseFinderFrame
 --- @class HouseFinderFrame_LoadingSpinnerMap : Frame, SpinnerTemplate
 
@@ -307,6 +312,7 @@ HouseFinderFrameBg = {}
 --- @field PlotInfoFrame HouseFinderFrame_PlotInfoFrame
 --- @field HouseFinderMapCanvasFrame HouseFinderFrame_HouseFinderMapCanvasFrame
 --- @field HouseFinderNotificationBanner HouseFinderFrame_HouseFinderNotificationBanner
+--- @field GuildSubdivisionDropdown HouseFinderFrame_GuildSubdivisionDropdown
 --- @field WoodBorderFrame HouseFinderFrame_WoodBorderFrame
 --- @field SelectedPlotTooltip HouseFinderFrame_SelectedPlotTooltip
 --- @field LoadingSpinnerMap HouseFinderFrame_LoadingSpinnerMap

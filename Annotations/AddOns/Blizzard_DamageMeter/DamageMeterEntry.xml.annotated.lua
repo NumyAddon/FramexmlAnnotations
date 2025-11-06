@@ -5,11 +5,11 @@
 --- @class DamageMeterEntryTemplate_Icon : Frame
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L43)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L38)
 --- child of DamageMeterEntryTemplate_StatusBar
 --- @class DamageMeterEntryTemplate_StatusBar_Value : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L48)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L41)
 --- child of DamageMeterEntryTemplate_StatusBar
 --- @class DamageMeterEntryTemplate_StatusBar_Name : FontString, NumberFontNormal
 
@@ -25,12 +25,12 @@
 --- @field Icon DamageMeterEntryTemplate_Icon
 --- @field StatusBar DamageMeterEntryTemplate_StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L60)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L50)
 --- Template
 --- @class DamageMeterSourceEntryTemplate : Button, DamageMeterEntryTemplate, DamageMeterSourceEntryMixin
 --- @field iconUsesAtlas boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L65)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterEntry.xml#L55)
 --- Template
 --- @class DamageMeterSpellEntryTemplate : Button, DamageMeterEntryTemplate, DamageMeterSpellEntryMixin
 --- @field iconUsesAtlas boolean # false

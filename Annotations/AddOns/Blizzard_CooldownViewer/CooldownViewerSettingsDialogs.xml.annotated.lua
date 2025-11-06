@@ -4,3 +4,7 @@
 --- @class CooldownViewerLayoutDialog : Frame, EditModeLayoutDialogTemplate, CooldownViewerBaseDialogMixin
 CooldownViewerLayoutDialog = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDialogs.xml#L9)
+--- @class CooldownViewerImportLayoutDialog : Frame, EditModeImportLayoutDialogTemplate, CooldownViewerBaseDialogMixin, CooldownViewerImportLayoutDialogMixin
+CooldownViewerImportLayoutDialog = {}
+

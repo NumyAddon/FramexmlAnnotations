@@ -4,7 +4,7 @@
 --- @class AdventureMap_QuestOfferDataProviderMixin : MapCanvasDataProviderMixin
 AdventureMap_QuestOfferDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L136)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L144)
 --- @class AdventureMap_QuestOfferPinMixin : MapCanvasPinMixin
 AdventureMap_QuestOfferPinMixin = CreateFromMixins(MapCanvasPinMixin)
 
@@ -32,20 +32,20 @@ function AdventureMap_QuestOfferDataProviderMixin:OnQuestPinAreaEnclosedChanged(
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L96)
 function AdventureMap_QuestOfferDataProviderMixin:OnQuestOfferPinClicked(pin) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L128)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L136)
 function AdventureMap_QuestOfferDataProviderMixin:OnCanvasScaleChanged() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L138)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L146)
 function AdventureMap_QuestOfferPinMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L142)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L150)
 function AdventureMap_QuestOfferPinMixin:OnAcquired(playAnim) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L148)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L156)
 function AdventureMap_QuestOfferPinMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L163)
 function AdventureMap_QuestOfferPinMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L165)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua#L173)
 function AdventureMap_QuestOfferPinMixin:OnMouseLeave() end

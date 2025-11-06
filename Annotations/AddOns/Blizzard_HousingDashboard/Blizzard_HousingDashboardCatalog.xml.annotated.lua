@@ -30,15 +30,6 @@
 --- child of HousingCatalogFrameTemplate
 --- @class HousingCatalogFrameTemplate_PreviewFrame : Frame, HousingModelPreviewTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L73)
---- child of HousingCatalogFrameTemplate_TempDisclaimer
---- @class HousingCatalogFrameTemplate_TempDisclaimer_DisclaimerText : FontString, GameFontHighlightHuge
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L70)
---- child of HousingCatalogFrameTemplate
---- @class HousingCatalogFrameTemplate_TempDisclaimer : Frame
---- @field DisclaimerText HousingCatalogFrameTemplate_TempDisclaimer_DisclaimerText
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardCatalog.xml#L3)
 --- Template
 --- @class HousingCatalogFrameTemplate : Frame, HousingCatalogFrameMixin
@@ -47,7 +38,6 @@
 --- @field Categories HousingCatalogFrameTemplate_Categories
 --- @field OptionsContainer HousingCatalogFrameTemplate_OptionsContainer
 --- @field PreviewFrame HousingCatalogFrameTemplate_PreviewFrame
---- @field TempDisclaimer HousingCatalogFrameTemplate_TempDisclaimer
 --- @field Background Texture
 --- @field Divider Texture
 

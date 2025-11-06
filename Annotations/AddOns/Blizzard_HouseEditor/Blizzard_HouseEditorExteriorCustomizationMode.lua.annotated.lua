@@ -38,7 +38,7 @@ function HouseEditorExteriorCustomizationModeMixin:ReleasePoint(pointFrame) end
 function HouseEditorExteriorCustomizationModeMixin:ReleaseAllPoints() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.lua#L139)
-function HouseEditorExteriorCustomizationModeMixin:UpdatetSelectedPoint() end
+function HouseEditorExteriorCustomizationModeMixin:UpdateSelectedPoint() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.lua#L168)
 function HouseEditorExteriorCustomizationModeMixin:UpdateHoveredFixture(isHoveringFixture) end

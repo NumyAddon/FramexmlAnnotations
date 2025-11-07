@@ -16,15 +16,15 @@ UnitPopupTeamLeaveButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 --- @class UnitPopupTeamDisbandButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupTeamDisbandButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L155)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L180)
 --- @class UnitPopupRaidDifficulty2ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 UnitPopupRaidDifficulty2ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L165)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L190)
 --- @class UnitPopupRaidDifficulty3ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 UnitPopupRaidDifficulty3ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin)
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L175)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L200)
 --- @class UnitPopupRaidDifficulty4ButtonMixin : UnitPopupRaidDifficulty1ButtonMixin
 UnitPopupRaidDifficulty4ButtonMixin = CreateFromMixins(UnitPopupRaidDifficulty1ButtonMixin)
 
@@ -76,20 +76,20 @@ function UnitPopupTeamDisbandButtonMixin:CanShow(contextData) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L113)
 function UnitPopupTeamDisbandButtonMixin:OnClick(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L157)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L182)
 function UnitPopupRaidDifficulty2ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L186)
 function UnitPopupRaidDifficulty2ButtonMixin:GetDifficultyID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L167)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L192)
 function UnitPopupRaidDifficulty3ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L171)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L196)
 function UnitPopupRaidDifficulty3ButtonMixin:GetDifficultyID() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L177)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L202)
 function UnitPopupRaidDifficulty4ButtonMixin:GetText(contextData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L181)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/Wrath/UnitPopupButtons.lua#L206)
 function UnitPopupRaidDifficulty4ButtonMixin:GetDifficultyID() end

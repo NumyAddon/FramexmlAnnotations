@@ -53,7 +53,7 @@
 
 ----------------- DataGroup Progress Helper -----------------
 
-local VerticalDataGroupMixin = {};
+local VerticalDataGroupMixin = {};--- @class VerticalDataGroupMixin
 
 function VerticalDataGroupMixin:Init()
 	self:Reset(0);
@@ -79,7 +79,7 @@ end
 
 ----------------- ElementSet Progress Helper -----------------
 
-local VerticalElementSetMixin = {};
+local VerticalElementSetMixin = {};--- @class VerticalElementSetMixin
 
 function VerticalElementSetMixin:Init(columnsPerRow)
 	self.columnsPerRow = columnsPerRow;

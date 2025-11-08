@@ -71,7 +71,7 @@ local function SetupDropdown(dropdown, setting, options, width, initTooltip)
 end
 
 -- SettingsDropdownControlTemplate inherited in XML.
-local BaseLanguageDropdownControlMixin = {}; 
+local BaseLanguageDropdownControlMixin = {}; --- @class BaseLanguageDropdownControlMixin
 
 function BaseLanguageDropdownControlMixin:SetupDropdownMenu(button, setting, options, initTooltip)
 	SetupDropdown(self.Control.Dropdown, setting, options, initTooltip);

@@ -16,7 +16,7 @@ local function CreateSpacerInitializer()
 	return initializer;
 end
 
-local CategoryButtonInitializerMixin = CreateFromMixins(ScrollBoxFactoryInitializerMixin);
+local CategoryButtonInitializerMixin = CreateFromMixins(ScrollBoxFactoryInitializerMixin);--- @class CategoryButtonInitializerMixin : ScrollBoxFactoryInitializerMixin
 
 local function CreateCategoryButtonInitializer(category, indent)
 	local initializer = CreateFromMixins(CategoryButtonInitializerMixin);

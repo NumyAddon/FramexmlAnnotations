@@ -1,7 +1,7 @@
 
 EventUtil = {};
 
-local ContinueAfterAllEventsMixin = {};
+local ContinueAfterAllEventsMixin = {};--- @class ContinueAfterAllEventsMixin
 
 function ContinueAfterAllEventsMixin:Init(callback, ...)
 	self.events = {};

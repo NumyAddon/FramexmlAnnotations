@@ -16,8 +16,15 @@ LanguageRestartNeededMixin = CreateFromMixins(SettingsListElementMixin)
 --- @class SettingsLanguageDropdownMixin
 SettingsLanguageDropdownMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L74)
+--- @class BaseLanguageDropdownControlMixin
+BaseLanguageDropdownControlMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L34)
 function SettingsLanguageDropdownMixin:OnLoad() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L76)
+function BaseLanguageDropdownControlMixin:SetupDropdownMenu(button, setting, options, initTooltip) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L84)
 function SettingsAudioLocaleDropdownMixin:Init(initializer) end

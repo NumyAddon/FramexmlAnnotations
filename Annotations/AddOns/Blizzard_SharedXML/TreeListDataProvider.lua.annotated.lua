@@ -8,6 +8,76 @@ TreeDataProviderMixin = CreateFromMixins(CallbackRegistryMixin)
 --- @class LinearizedTreeDataProviderMixin : TreeDataProviderMixin
 LinearizedTreeDataProviderMixin = CreateFromMixins(TreeDataProviderMixin)
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L16)
+--- @class TreeNodeMixin
+TreeNodeMixin = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L25)
+function TreeNodeMixin:Init(dataProvider, parent, data) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L32)
+function TreeNodeMixin:GetNodes() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L36)
+function TreeNodeMixin:GetDepth() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L40)
+function TreeNodeMixin:GetData() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L44)
+function TreeNodeMixin:GetSize() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L48)
+function TreeNodeMixin:GetFirstNode() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L52)
+function TreeNodeMixin:MoveNode(node) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L65)
+function TreeNodeMixin:MoveNodeRelativeTo(node, referenceNode, offset) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L90)
+function TreeNodeMixin:GetParent() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L94)
+function TreeNodeMixin:Flush() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L99)
+function TreeNodeMixin:Insert(data) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L104)
+function TreeNodeMixin:InsertNodeAtIndex(data, insertIndex) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L109)
+function TreeNodeMixin:InsertNode(node, insertIndex) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L123)
+function TreeNodeMixin:Remove(node, skipInvalidation) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L135)
+function TreeNodeMixin:SetSortComparator(sortComparator, affectChildren, skipSort) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L149)
+function TreeNodeMixin:HasSortComparator() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L153)
+function TreeNodeMixin:Sort() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L160)
+function TreeNodeMixin:Invalidate() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L164)
+function TreeNodeMixin:SetChildrenCollapsed(collapsed, affectChildren, skipInvalidate) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L170)
+function TreeNodeMixin:SetCollapsed(collapsed, affectChildren, skipInvalidate) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L180)
+function TreeNodeMixin:ToggleCollapsed(affectChildren, skipInvalidate) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L186)
+function TreeNodeMixin:IsCollapsed() end
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/TreeListDataProvider.lua#L225)
 function TreeDataProviderMixin:Init() end
 

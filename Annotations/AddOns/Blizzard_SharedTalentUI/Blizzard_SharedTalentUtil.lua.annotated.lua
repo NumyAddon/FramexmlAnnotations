@@ -1,0 +1,9 @@
+--- @meta _
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentUtil.lua#L17)
+--- @class EntryTypeUsesArtMixin
+EntryTypeUsesArtMixin = {
+	[Enum.TraitNodeEntryType.SpendSquare] = true,
+	[Enum.TraitNodeEntryType.SpendCircle] = true,
+}
+

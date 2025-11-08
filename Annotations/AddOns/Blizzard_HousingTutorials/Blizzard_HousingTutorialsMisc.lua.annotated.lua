@@ -4,6 +4,10 @@
 --- @class HousingTutorialsHouseTeleportMixin : HelpTipStateMachineBasedTutorialMixin
 HousingTutorialsHouseTeleportMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin)
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L2)
+--- @class HousingTutorialsItemAcquisitionMixin : BagTutorialBaseMixin
+HousingTutorialsItemAcquisitionMixin = CreateFromMixins(BagTutorialBaseMixin)
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L57)
 --- @class HousingTutorialsNewPipMixin
 HousingTutorialsNewPipMixin = {}
@@ -11,6 +15,15 @@ HousingTutorialsNewPipMixin = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L80)
 --- @class HousingTutorialsHouseTeleportWatcherMixin
 HousingTutorialsHouseTeleportWatcherMixin = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L4)
+function HousingTutorialsItemAcquisitionMixin:Init() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L41)
+function HousingTutorialsItemAcquisitionMixin:IsValidItem(itemHyperlink) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L49)
+function HousingTutorialsItemAcquisitionMixin:IsComplete() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L59)
 function HousingTutorialsNewPipMixin:Init() end

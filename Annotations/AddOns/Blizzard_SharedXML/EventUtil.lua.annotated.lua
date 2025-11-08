@@ -1,8 +1,18 @@
 --- @meta _
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L4)
+--- @class ContinueAfterAllEventsMixin
+ContinueAfterAllEventsMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L108)
 --- @class CallbackHandleContainerMixin
 CallbackHandleContainerMixin = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L6)
+function ContinueAfterAllEventsMixin:Init(callback, ...) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L29)
+function ContinueAfterAllEventsMixin:HaveReceivedAllEvents() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L110)
 function CallbackHandleContainerMixin:Init() end

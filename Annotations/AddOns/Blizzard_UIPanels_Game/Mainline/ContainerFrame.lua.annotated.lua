@@ -16,6 +16,10 @@ ContainerFrameBackpackMixin = CreateFromMixins(ContainerFrameTokenWatcherMixin, 
 --- @class ContainerFrameCombinedBagsMixin : ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack
 ContainerFrameCombinedBagsMixin = CreateFromMixins(ContainerFrameTokenWatcherMixin, ContainerFrameExtendedSlotPack)
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L37)
+--- @class BagUpdaterMixin
+BagUpdaterMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L480)
 --- @class BaseContainerFrameMixin
 BaseContainerFrameMixin = {}
@@ -31,6 +35,12 @@ ContainerFramePortraitButtonMixin = {}
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L2700)
 --- @class ContainerFrameCurrencyBorderMixin
 ContainerFrameCurrencyBorderMixin = {}
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L39)
+function BagUpdaterMixin:MarkBagUpdateDirty(bag) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L47)
+function BagUpdaterMixin:Clean() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.lua#L482)
 function BaseContainerFrameMixin:GetBagSize() end

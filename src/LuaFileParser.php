@@ -73,9 +73,17 @@ class LuaFileParser
             $mixins,
         );
 
+        // e.g. `local FooMixin = CreateFromMixins({BarMixin, BazMixin})`
+        $this->parseMixinRegex(
+            '/^local (?<match>(?<name>\S+Mixin)\s*=\s*CreateFromMixins\((?<extends>[^)]+)\))/m',
+            $fileContents,
+            $linkPrefix,
+            $mixins,
+        );
+
         // e.g. `FooMixin = {}`
         $this->parseMixinRegex(
-            '/^(?<match>(?<name>\S+Mixin)\s*=\s*{\s*})/m',
+            '/^(?:local )?(?<match>(?<name>\S+Mixin)\s*=\s*{\s*})/m',
             $fileContents,
             $linkPrefix,
             $mixins,
@@ -83,7 +91,7 @@ class LuaFileParser
 
         // e.g. `FooMixin = {\n  Bar = 1,\n  Baz = 2,\n}`
         $this->parseMixinRegex(
-            '/^(?<match>(?<name>\S+Mixin)\s*=\s*{[^\n}]*\n.*?\n})/ms',
+            '/^(?:local )?(?<match>(?<name>\S+Mixin)\s*=\s*{[^\n}]*\n.*?\n})/ms',
             $fileContents,
             $linkPrefix,
             $mixins,

@@ -1,4 +1,4 @@
-local ReagentBagTutorialMixin = CreateFromMixins(BagTutorialBaseMixin);
+local ReagentBagTutorialMixin = CreateFromMixins(BagTutorialBaseMixin);--- @class ReagentBagTutorialMixin : BagTutorialBaseMixin
 
 function ReagentBagTutorialMixin:Init()
 	local reagentBagTutorialSystem = "TutorialReagentBag";

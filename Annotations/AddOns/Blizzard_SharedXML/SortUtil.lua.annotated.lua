@@ -8,7 +8,7 @@ function SortUtil.CompareUtf8i(lhs, rhs)
 	return Sign(strcmputf8i(lhs, rhs));
 end
 
-local SortManagerMixin = {};
+local SortManagerMixin = {};--- @class SortManagerMixin
 
 function SortManagerMixin:Init()
 	self.comparatorsTbls = {};

@@ -1,5 +1,5 @@
 
-local ContentTrackingManagerMixin = {};
+local ContentTrackingManagerMixin = {};--- @class ContentTrackingManagerMixin
 
 function ContentTrackingManagerMixin:Init()
 	self.typeToTrackableElementMap = {};

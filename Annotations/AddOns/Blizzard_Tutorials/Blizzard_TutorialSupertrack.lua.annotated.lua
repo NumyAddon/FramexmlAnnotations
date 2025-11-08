@@ -1,4 +1,4 @@
-local SupertrackTutorialMixin = CreateFromMixins(StateMachineBasedTutorialMixin);
+local SupertrackTutorialMixin = CreateFromMixins(StateMachineBasedTutorialMixin);--- @class SupertrackTutorialMixin : StateMachineBasedTutorialMixin
 
 function SupertrackTutorialMixin:Init()
 	self:AddState("ListenForNothingSupertracked", "StartPhase_ListenForNothingSupertracked", "StopPhase_ListenForNothingSupertracked");

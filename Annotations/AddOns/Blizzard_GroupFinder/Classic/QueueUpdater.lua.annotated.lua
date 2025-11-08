@@ -1,4 +1,4 @@
-local QueueUpdaterMixin = {};
+local QueueUpdaterMixin = {};--- @class QueueUpdaterMixin
 
 function QueueUpdaterMixin:RequestInfo()
 	-- This API exists to preserve previous behavior.  If a frame requiring this information is shown, then this

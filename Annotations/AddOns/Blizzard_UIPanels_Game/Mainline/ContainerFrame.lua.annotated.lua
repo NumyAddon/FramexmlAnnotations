@@ -34,7 +34,7 @@ BAG_FILTER_LABELS = {
 	[Enum.BagSlotFlags.ClassReagents] = BAG_FILTER_REAGENTS,
 };
 
-local BagUpdaterMixin = {};
+local BagUpdaterMixin = {};--- @class BagUpdaterMixin
 
 function BagUpdaterMixin:MarkBagUpdateDirty(bag)
 	if not self.dirtyBags then

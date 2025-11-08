@@ -75,7 +75,7 @@ local function MatchesCooldownCategory(cooldownInfo, displayCategory)
 	return cooldownInfo.category == displayCategory:GetCategory() and (cooldownInfo.isKnown or IsShowingUnlearned());
 end
 
-local CooldownViewerCategoryMixin = {};
+local CooldownViewerCategoryMixin = {};--- @class CooldownViewerCategoryMixin
 function CooldownViewerCategoryMixin:Init(category, title, filter)
 	self.category = category;
 	self.title = title;

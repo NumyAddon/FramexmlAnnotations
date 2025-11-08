@@ -63,7 +63,7 @@ local function OnElementEnterImplementation(reagent, tooltip, transaction, reage
 	end
 end
 
-local ProfessionsFlyoutButtonMixin = {};
+local ProfessionsFlyoutButtonMixin = {};--- @class ProfessionsFlyoutButtonMixin
 
 function ProfessionsFlyoutButtonMixin:UpdateState(count, elementData, behavior)
 	local valid = behavior:IsElementValid(elementData);
@@ -376,7 +376,7 @@ function ProfessionsFlyoutMixin:InitializeContents()
 	end
 end
 
-local FlyoutBehaviorMixin = {};
+local FlyoutBehaviorMixin = {};--- @class FlyoutBehaviorMixin
 
 function FlyoutBehaviorMixin:Init(transaction)
 	self.transaction = transaction;
@@ -435,7 +435,7 @@ function FlyoutBehaviorMixin:PopulateDataProvider(dataProvider, elements)
 	error("FlyoutBehaviorMixin:PopulateDataProvider(dataProvider, elements) implementation required.");
 end
 
-local FlyoutSchematicSlotMixin = {};
+local FlyoutSchematicSlotMixin = {};--- @class FlyoutSchematicSlotMixin
 
 function FlyoutSchematicSlotMixin:SetSlot(slot)
 	self.slot = slot;
@@ -453,7 +453,7 @@ function FlyoutSchematicSlotMixin:GetReagentSlotSchematic()
 	return self.reagentSlotSchematic;
 end
 
-local SelectRecraftMixin = CreateFromMixins(FlyoutBehaviorMixin);
+local SelectRecraftMixin = CreateFromMixins(FlyoutBehaviorMixin);--- @class SelectRecraftMixin : FlyoutBehaviorMixin
 
 function SelectRecraftMixin:GetElements(filterAvailable)
 	local itemGUIDs = C_TradeSkillUI.GetRecraftItems(self:GetRecipeID());
@@ -493,7 +493,7 @@ function CreateProfessionsRecraftFlyout(transaction)
 	return behavior;
 end
 
-local SelectEnchantMixin = CreateFromMixins(FlyoutBehaviorMixin);
+local SelectEnchantMixin = CreateFromMixins(FlyoutBehaviorMixin);--- @class SelectEnchantMixin : FlyoutBehaviorMixin
 
 function SelectEnchantMixin:GetElements(filterAvailable)
 	local includeItems = {};
@@ -604,7 +604,7 @@ do
 	end
 end
 
-local MCRFlyoutMixin = CreateFromMixins(FlyoutBehaviorMixin, FlyoutSchematicSlotMixin);
+local MCRFlyoutMixin = CreateFromMixins(FlyoutBehaviorMixin, FlyoutSchematicSlotMixin);--- @class MCRFlyoutMixin : FlyoutBehaviorMixin, FlyoutSchematicSlotMixin
 
 function MCRFlyoutMixin:GetUndoElement()
 	local slot = self:GetSlot();
@@ -688,7 +688,7 @@ function CreateProfessionsMCRFlyout(transaction, reagentSlotSchematic, slot)
 	return behavior;
 end
 
-local OrderRecraftFlyoutMixin = CreateFromMixins(FlyoutBehaviorMixin);
+local OrderRecraftFlyoutMixin = CreateFromMixins(FlyoutBehaviorMixin);--- @class OrderRecraftFlyoutMixin : FlyoutBehaviorMixin
 
 function OrderRecraftFlyoutMixin:GetElements(filterAvailable)
 	local isIndexTable = true;
@@ -716,7 +716,7 @@ function CreateProfessionsOrderRecraftFlyout(transaction)
 	return behavior;
 end
 
-local OrderMCRFlyoutMixin = CreateFromMixins(FlyoutBehaviorMixin, FlyoutSchematicSlotMixin);
+local OrderMCRFlyoutMixin = CreateFromMixins(FlyoutBehaviorMixin, FlyoutSchematicSlotMixin);--- @class OrderMCRFlyoutMixin : FlyoutBehaviorMixin, FlyoutSchematicSlotMixin
 
 function OrderMCRFlyoutMixin:GetElements(filterAvailable)
 	local reagentSlotSchematic = self:GetReagentSlotSchematic();

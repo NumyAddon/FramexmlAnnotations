@@ -231,7 +231,7 @@ function Settings.SetValue(variable, value, force)
 	end
 end
 
-local SettingsControlTextContainerMixin = {};
+local SettingsControlTextContainerMixin = {};--- @class SettingsControlTextContainerMixin
 
 function SettingsControlTextContainerMixin:Init()
 	self.data = {};

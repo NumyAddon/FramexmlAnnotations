@@ -1,5 +1,5 @@
 
-local HousingTutorialsItemAcquisitionMixin = CreateFromMixins(BagTutorialBaseMixin);
+local HousingTutorialsItemAcquisitionMixin = CreateFromMixins(BagTutorialBaseMixin);--- @class HousingTutorialsItemAcquisitionMixin : BagTutorialBaseMixin
 
 function HousingTutorialsItemAcquisitionMixin:Init()
 	local itemAcquisitionTutorialSystem = "TutorialItemAcquisition";

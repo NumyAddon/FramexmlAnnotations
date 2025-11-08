@@ -7,7 +7,7 @@ local CreateProxyDirectory = ProxyUtil.CreateProxyDirectory;
 local CreateProxyMixin = ProxyUtil.CreateProxyMixin;
 local SetPrivateReference = ProxyUtil.SetPrivateReference;
 local ReleasePrivateReference = ProxyUtil.ReleasePrivateReference;
-local ProxyConvertablePrivateMixin = CreateFromMixins(ProxyConvertableMixin);
+local ProxyConvertablePrivateMixin = CreateFromMixins(ProxyConvertableMixin);--- @class ProxyConvertablePrivateMixin : ProxyConvertableMixin
 local CreateFromMixinsPrivate = CreateFromMixins;
 local assert = assert;
 local type = type;
@@ -114,7 +114,7 @@ All descriptions in the menu hierarchy are assigned a single shared properties
 table to store information shared across all menus, and to store callbacks for
 menu structure changes.
 --]]
-local SharedMenuPropertiesMixin = {};
+local SharedMenuPropertiesMixin = {};--- @class SharedMenuPropertiesMixin
 SharedMenuPropertiesMixin.__index = SharedMenuPropertiesMixin;
 
 function SharedMenuPropertiesMixin:Init(menuMixin)

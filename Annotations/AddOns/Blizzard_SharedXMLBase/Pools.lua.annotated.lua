@@ -13,7 +13,7 @@ local CreateFromMixinsPrivate = CreateFromMixins;
 local enableProxyReporting = false; -- For debugging purposes only.
 local Proxies = CreateProxyDirectory("Pools.lua", enableProxyReporting);
 
-local ObjectPoolBaseMixin = {};
+local ObjectPoolBaseMixin = {};--- @class ObjectPoolBaseMixin
 
 --[[
 Reserve() is not exposed on the pool to prevent the attack vector of addons having control 
@@ -250,7 +250,7 @@ local function GetPoolKey(template, specialization)
 	return template..tostring(specialization);
 end
 
-local PoolCollectionBaseMixin = {};
+local PoolCollectionBaseMixin = {};--- @class PoolCollectionBaseMixin
 
 function PoolCollectionBaseMixin:GetPool(template, specialization)
 	local poolKey = GetPoolKey(template, specialization);
@@ -565,7 +565,7 @@ local function FramePoolCollection_ArgsToTable(frameType, parent, template, rese
 	return args;
 end
 
-local FramePoolCollectionConverterMixin = {};
+local FramePoolCollectionConverterMixin = {};--- @class FramePoolCollectionConverterMixin
 
 local function SecureCreatePoolKeyFromPoolArgs(args)
 	return GetPoolKey(args.template, args.specialization);

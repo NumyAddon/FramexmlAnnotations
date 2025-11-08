@@ -4,7 +4,7 @@ TEXTTOSPEECH_RATE_MAX = 10;
 TEXTTOSPEECH_VOLUME_MIN = 0;
 TEXTTOSPEECH_VOLUME_MAX = 100;
 
-local TextToSpeechCommandsMixin = {};
+local TextToSpeechCommandsMixin = {};--- @class TextToSpeechCommandsMixin
 
 function TextToSpeechCommandsMixin:Init()
 	self.commands = {};

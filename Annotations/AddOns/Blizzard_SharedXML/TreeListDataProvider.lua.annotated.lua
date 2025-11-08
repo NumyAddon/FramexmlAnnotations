@@ -13,7 +13,7 @@ TreeDataProviderConstants =
 	IncludeCollapsed = false,
 };
 
-local TreeNodeMixin = {};
+local TreeNodeMixin = {};--- @class TreeNodeMixin
 
 local function CreateTreeNode(dataProvider, parent, data)
 	local node = CreateFromMixins(TreeNodeMixin);

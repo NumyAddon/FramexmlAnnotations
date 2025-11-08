@@ -232,7 +232,7 @@ end
 -- ============================================================================================================
 -- Map Bridge
 -- ============================================================================================================
-local MapBridgeDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);
+local MapBridgeDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin);--- @class MapBridgeDataProviderMixin : MapCanvasDataProviderMixin
 
 function MapBridgeDataProviderMixin:OnMapChanged(...) -- override
 	if self.mapChangedCallback then

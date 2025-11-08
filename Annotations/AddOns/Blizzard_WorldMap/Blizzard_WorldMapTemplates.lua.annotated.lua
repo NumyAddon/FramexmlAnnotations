@@ -57,7 +57,7 @@ function WorldMapFloorNavigationFrameMixin:ShouldShowTrackingIconOnFloor(encount
 	return false;
 end
 
-local WorldMapFilterMixin = {};
+local WorldMapFilterMixin = {};--- @class WorldMapFilterMixin
 
 function WorldMapFilterMixin:Init(text, cvarName, tooltipText, minimapTrackingFilter)
 	self.text = text;

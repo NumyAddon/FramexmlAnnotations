@@ -10,7 +10,7 @@ local LargeTemplatesByTalentType = {
 	[Enum.TraitNodeEntryType.SpendCircle] = "TalentButtonLargeCircleTemplate",
 };
 
-local EntryTypeUsesArtMixin = {
+local EntryTypeUsesArtMixin = {--- @class EntryTypeUsesArtMixin
 	[Enum.TraitNodeEntryType.SpendSquare] = true,
 	[Enum.TraitNodeEntryType.SpendCircle] = true,
 };

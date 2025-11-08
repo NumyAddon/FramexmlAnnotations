@@ -1,4 +1,4 @@
-local CampaignChapterMixin = {};
+local CampaignChapterMixin = {};--- @class CampaignChapterMixin
 
 function CampaignChapterMixin:Init(chapterID)
 	self.chapterID = chapterID;

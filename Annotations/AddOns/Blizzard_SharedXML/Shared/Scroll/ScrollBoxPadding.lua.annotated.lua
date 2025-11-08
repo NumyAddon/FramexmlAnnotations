@@ -1,4 +1,4 @@
-local ScrollBoxBasePaddingMixin = {};
+local ScrollBoxBasePaddingMixin = {};--- @class ScrollBoxBasePaddingMixin
 
 function ScrollBoxBasePaddingMixin:Init(top, bottom, left, right)
 	self:SetTop(top or 0);
@@ -39,7 +39,7 @@ function ScrollBoxBasePaddingMixin:SetRight(right)
 	self.right = right;
 end
 
-local ScrollBoxPaddingMixin = CreateFromMixins(ScrollBoxBasePaddingMixin);
+local ScrollBoxPaddingMixin = CreateFromMixins(ScrollBoxBasePaddingMixin);--- @class ScrollBoxPaddingMixin : ScrollBoxBasePaddingMixin
 
 function ScrollBoxPaddingMixin:Init(top, bottom, left, right, spacing)
 	ScrollBoxBasePaddingMixin.Init(self, top, bottom, left, right);
@@ -58,7 +58,7 @@ function CreateScrollBoxPadding(top, bottom, left, right, spacing)
 	return CreateAndInitFromMixin(ScrollBoxPaddingMixin, top, bottom, left, right, spacing);
 end
 
-local ScrollBoxBiaxalPaddingMixin = CreateFromMixins(ScrollBoxBasePaddingMixin);
+local ScrollBoxBiaxalPaddingMixin = CreateFromMixins(ScrollBoxBasePaddingMixin);--- @class ScrollBoxBiaxalPaddingMixin : ScrollBoxBasePaddingMixin
 
 function ScrollBoxBiaxalPaddingMixin:Init(top, bottom, left, right, horizontalSpacing, verticalSpacing)
 	ScrollBoxBasePaddingMixin.Init(self, top, bottom, left, right);

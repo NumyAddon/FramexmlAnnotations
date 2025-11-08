@@ -8,6 +8,10 @@ SettingsCategoryListButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 --- @class SettingsCategoryListMixin : CallbackRegistryMixin
 SettingsCategoryListMixin = CreateFromMixins(CallbackRegistryMixin)
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L19)
+--- @class CategoryButtonInitializerMixin : ScrollBoxFactoryInitializerMixin
+CategoryButtonInitializerMixin = CreateFromMixins(ScrollBoxFactoryInitializerMixin)
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_CategoryList.lua#L28)
 --- @class SettingsCategoryListHeaderMixin
 SettingsCategoryListHeaderMixin = {}

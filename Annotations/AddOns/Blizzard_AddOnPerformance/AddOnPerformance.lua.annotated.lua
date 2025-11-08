@@ -25,7 +25,7 @@ StaticPopupDialogs["ADDON_PERFORMANCE_OVERALL_ERROR"] = {
 	hideOnEscape = 1
 };
 
-local AddOnPerformanceMixin = { };
+local AddOnPerformanceMixin = { };--- @class AddOnPerformanceMixin
 
 function AddOnPerformanceMixin:Init()
 	self.shownPerformanceMessages = { };

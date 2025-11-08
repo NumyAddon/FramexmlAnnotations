@@ -1,4 +1,4 @@
-local ProfessionsRecipeLoaderMixin = {};
+local ProfessionsRecipeLoaderMixin = {};--- @class ProfessionsRecipeLoaderMixin
 
 local function Load(item, func)
 	local continuableContainer = ContinuableContainer:Create();

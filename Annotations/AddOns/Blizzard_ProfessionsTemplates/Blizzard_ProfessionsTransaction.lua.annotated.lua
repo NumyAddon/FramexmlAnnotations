@@ -1,4 +1,4 @@
-local AllocationMixin = {};
+local AllocationMixin = {};--- @class AllocationMixin
 
 function AllocationMixin:Init(reagent, quantity)
 	self:SetReagent(reagent);
@@ -29,7 +29,7 @@ function CreateAllocation(reagent, quantity)
 	return CreateAndInitFromMixin(AllocationMixin, reagent, quantity);
 end
 
-local AllocationsMixin = {};
+local AllocationsMixin = {};--- @class AllocationsMixin
 
 function AllocationsMixin:Init()
 	self:Clear();

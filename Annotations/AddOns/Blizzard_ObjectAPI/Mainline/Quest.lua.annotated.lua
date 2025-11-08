@@ -1,4 +1,4 @@
-local QuestMixin = {};
+local QuestMixin = {};--- @class QuestMixin
 
 function QuestMixin:Init(questID)
 	self.questID = questID;

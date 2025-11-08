@@ -1,4 +1,4 @@
-local ReagentBagTutorialMixin = CreateFromMixins(StateMachineBasedTutorialMixin);
+local ReagentBagTutorialMixin = CreateFromMixins(StateMachineBasedTutorialMixin);--- @class ReagentBagTutorialMixin : StateMachineBasedTutorialMixin
 
 function ReagentBagTutorialMixin:Init()
 	self:AddState("ListenForBagUpdate", "StartPhase_ListenForBagUpdate", "StopPhase_ListenForBagUpdate");

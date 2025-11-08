@@ -24,6 +24,10 @@ CooldownViewerSettingsBarCategoryMixin = CreateFromMixins(CooldownViewerSettings
 --- @class CooldownViewerSettingsDraggedItemMixin
 CooldownViewerSettingsDraggedItemMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L78)
+--- @class CooldownViewerCategoryMixin
+CooldownViewerCategoryMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L150)
 --- @class CooldownViewerBaseReorderTargetMixin
 CooldownViewerBaseReorderTargetMixin = {}
@@ -49,6 +53,33 @@ function CooldownViewerSettingsDraggedItemMixin:SetToCursor(cooldownItem) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L36)
 function CooldownViewerSettingsDraggedItemMixin:OnUpdate() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L79)
+function CooldownViewerCategoryMixin:Init(category, title, filter) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L85)
+function CooldownViewerCategoryMixin:GetCategory() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L89)
+function CooldownViewerCategoryMixin:GetTitle() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L93)
+function CooldownViewerCategoryMixin:ShouldDisplayInfo(info) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L97)
+function CooldownViewerCategoryMixin:SetCollapsed(collapsed) end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L101)
+function CooldownViewerCategoryMixin:IsCollapsed() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L105)
+function CooldownViewerCategoryMixin:WillDisableCooldownsAssignedToThisCategory() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L109)
+function CooldownViewerCategoryMixin:GetCategoryAssignmentText() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L117)
+function CooldownViewerCategoryMixin:GetItemDisplayType() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.lua#L152)
 function CooldownViewerBaseReorderTargetMixin:OnEnter() end

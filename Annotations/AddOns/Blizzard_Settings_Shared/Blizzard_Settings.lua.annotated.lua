@@ -8,6 +8,10 @@ SettingsCallbackHandleContainerMixin = CreateFromMixins(CallbackHandleContainerM
 --- @class SettingsSearchableElementMixin
 SettingsSearchableElementMixin = {}
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L231)
+--- @class SettingsControlTextContainerMixin
+SettingsControlTextContainerMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L275)
 --- @class SettingsSliderOptionsMixin
 SettingsSliderOptionsMixin = {}
@@ -32,6 +36,15 @@ function SettingsSearchableElementMixin:GetShownPredicates() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L103)
 function SettingsSearchableElementMixin:ShouldShow() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L233)
+function SettingsControlTextContainerMixin:Init() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L237)
+function SettingsControlTextContainerMixin:GetData() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L241)
+function SettingsControlTextContainerMixin:Add(value, label, tooltip) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L277)
 function SettingsSliderOptionsMixin:SetLabelFormatter(labelType, value) end

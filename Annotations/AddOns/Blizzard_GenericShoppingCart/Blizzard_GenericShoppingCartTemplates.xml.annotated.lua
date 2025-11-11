@@ -83,7 +83,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L219)
 --- child of ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer
---- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer_ClearCartButton : Button, UIButtonTemplate, ShoppingCartServiceButtonTemplate
+--- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer_ClearCartButton : Button, UIButtonTemplate, ShoppingCartServiceButtonTemplate, ShoppingCartClearCartServiceMixin
 --- @field serviceName any # ShoppingCartDataServices.ClearCart
 --- @field buttonArtKit string # 128-RedButton-Delete
 

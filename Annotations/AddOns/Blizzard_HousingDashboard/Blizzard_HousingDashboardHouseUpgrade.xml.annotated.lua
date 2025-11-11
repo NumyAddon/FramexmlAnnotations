@@ -91,7 +91,7 @@
 --- @field leaf6 Texture
 --- @field LeafAnimation HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_HouseBarFrame_LeafAnimation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L375)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L376)
 --- child of HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar_BarFill
 --- @class HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar_BarFill_BarAnimation : AnimationGroup
 
@@ -126,11 +126,11 @@
 --- @field HouseBarFrame HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame
 --- @field HouseLevelText HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseLevelText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L433)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L434)
 --- child of HousingUpgradeFrameTemplate_TrackFrame
 --- @class HousingUpgradeFrameTemplate_TrackFrame_ReminderText : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L401)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L402)
 --- child of HousingUpgradeFrameTemplate
 --- @class HousingUpgradeFrameTemplate_TrackFrame : Frame, RewardTrackFrameTemplate, HouseLevelTrackFrameMixin
 --- @field elementTemplate string # HouseUpgradeLevelFrameTemplate
@@ -141,21 +141,21 @@
 --- @field Background Texture
 --- @field ReminderText HousingUpgradeFrameTemplate_TrackFrame_ReminderText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L456)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L457)
 --- child of HousingUpgradeFrameTemplate_WatchFavorButton
 --- @class HousingUpgradeFrameTemplate_WatchFavorButton_Label : FontString, GameFontHighlightSmall
 --- @field minLineHeight number # 8
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L449)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L450)
 --- child of HousingUpgradeFrameTemplate
 --- @class HousingUpgradeFrameTemplate_WatchFavorButton : CheckButton, UICheckButtonArtTemplate, HouseWatchFavorButtonMixin
 --- @field Label HousingUpgradeFrameTemplate_WatchFavorButton_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L476)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L477)
 --- child of HousingUpgradeFrameTemplate_RewardsFrame
 --- @class HousingUpgradeFrameTemplate_RewardsFrame_ComingSoonText : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L472)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L473)
 --- child of HousingUpgradeFrameTemplate
 --- @class HousingUpgradeFrameTemplate_RewardsFrame : Frame, GridLayoutFrame
 --- @field stride number # 2

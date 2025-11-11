@@ -60,18 +60,11 @@
 --- @field Border PersonalResourceDisplayFrame_AlternatePowerBar_Border
 --- @field background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L117)
---- child of PersonalResourceDisplayFrame
---- @class PersonalResourceDisplayFrame_FriendlyBuffsContainer : Frame, HorizontalLayoutFrame
---- @field spacing number # 4
---- @field fixedHeight number # 15
-
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L4)
 --- @class PersonalResourceDisplayFrame : Frame, EditModePersonalResourceDisplaySystemTemplate, PersonalResourceDisplayMixin
 --- @field HealthBarsContainer PersonalResourceDisplayFrame_HealthBarsContainer
 --- @field PowerBar PersonalResourceDisplayFrame_PowerBar
 --- @field AlternatePowerBar PersonalResourceDisplayFrame_AlternatePowerBar
 --- @field ClassFrameContainer Frame
---- @field FriendlyBuffsContainer PersonalResourceDisplayFrame_FriendlyBuffsContainer
 PersonalResourceDisplayFrame = {}
 

@@ -76,12 +76,12 @@
 --- @field inactiveAtlas string # icon_trackedbuffs
 --- @field tooltipText any # COOLDOWN_VIEWER_SETTINGS_TAB_BUFFS
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L44)
 --- child of CooldownViewerSettings_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 CooldownViewerSettingsClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L35)
 --- child of CooldownViewerSettings_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 CooldownViewerSettingsSearchIcon = {}

@@ -270,12 +270,12 @@ PetJournalPetCardInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetJournalRightInset = {}
 PetJournalRightInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L44)
 --- child of PetJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 PetJournalSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L35)
 --- child of PetJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 PetJournalSearchBoxSearchIcon = {}

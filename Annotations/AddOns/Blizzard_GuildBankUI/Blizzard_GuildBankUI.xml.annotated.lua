@@ -615,12 +615,12 @@ GuildBankFrame["Info"] = GuildBankInfo
 GuildBankPopupFrame = {}
 GuildBankPopupFrame["editBoxHeaderText"] = GUILDBANK_POPUP_TEXT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L44)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 GuildItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GuildBankUI/Blizzard_GuildBankUI.xml#L35)
 --- child of GuildItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 GuildItemSearchBoxSearchIcon = {}

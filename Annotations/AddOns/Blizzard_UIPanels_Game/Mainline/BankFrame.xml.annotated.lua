@@ -318,12 +318,12 @@
 --- @field minTabWidth number # 100
 --- @field maxTabWidth number # 150
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L44)
 --- child of BankItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 BankItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/BankFrame.xml#L35)
 --- child of BankItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 BankItemSearchBoxSearchIcon = {}

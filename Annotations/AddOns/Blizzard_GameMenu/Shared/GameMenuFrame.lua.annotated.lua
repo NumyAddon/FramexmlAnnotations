@@ -25,11 +25,11 @@ function GameMenuFrameMixin:OnUIPanelHidden(contextKey) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L60)
 function GameMenuFrameMixin:InitButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L157)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L160)
 function GameMenuFrameMixin:SetRatingsButtonShown(shown) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L161)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L164)
 function GameMenuFrameMixin:GetRatingsButtonShown() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L165)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L168)
 function GameMenuFrameMixin:GetLogoutText() end

@@ -1003,3 +1003,12 @@
 --- @field BarTexture Texture
 --- @field BarMask MaskTexture
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2278)
+--- child of ScrollBoxTextContainerTemplate
+--- @class ScrollBoxTextContainerTemplate_Text : FontString, GameFontNormal
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.xml#L2274)
+--- Template
+--- @class ScrollBoxTextContainerTemplate : Frame, ScrollBoxTextContainerMixin
+--- @field Text ScrollBoxTextContainerTemplate_Text
+

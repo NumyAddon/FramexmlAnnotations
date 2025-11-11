@@ -56,13 +56,10 @@ function HousingCatalogCategoriesMixin:ClearFocus(forceRebuild) end
 function HousingCatalogCategoriesMixin:SetFocus(focusedCategoryID, focusedSubcategoryID, forceRebuild, forceFocusChanged) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.lua#L203)
-function HousingCatalogCategoriesMixin:SetCustomFocus() end
+function HousingCatalogCategoriesMixin:SetManualFocusState(isManualFocus) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.lua#L208)
-function HousingCatalogCategoriesMixin:HasCustomFocus() end
-
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.lua#L212)
-function HousingCatalogCategoriesMixin:ClearCustomFocus() end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.lua#L218)
+function HousingCatalogCategoriesMixin:IsInManualFocusState() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.lua#L222)
 function HousingCatalogCategoriesMixin:IsFeaturedCategoryFocused() end

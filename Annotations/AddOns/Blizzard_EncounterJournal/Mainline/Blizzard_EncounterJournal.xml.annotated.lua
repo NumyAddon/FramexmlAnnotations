@@ -737,12 +737,12 @@ EncounterJournalSearchBoxSearchProgress = {}
 EncounterJournalSearchBoxSearchProgress["loading"] = SearchBoxListTemplateSearchProgressLoading
 EncounterJournalSearchBoxSearchProgress["bar"] = SearchBoxListTemplateSearchProgressBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L44)
 --- child of EncounterJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 EncounterJournalSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_EncounterJournal.xml#L35)
 --- child of EncounterJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 EncounterJournalSearchBoxSearchIcon = {}

@@ -4,6 +4,10 @@
 --- @class ShoppingCartDataManagerMixin : ShoppingCartServiceRegistrantMixin
 ShoppingCartDataManagerMixin = CreateFromMixins(ShoppingCartServiceRegistrantMixin)
 
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L125)
+--- @class ShoppingCartClearCartServiceMixin
+ShoppingCartClearCartServiceMixin = {}
+
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L11)
 function ShoppingCartDataManagerMixin:Init(eventNamespace) end
 
@@ -32,7 +36,7 @@ function ShoppingCartDataManagerMixin:RemoveFromCartInternal(index, currCartItem
 function ShoppingCartDataManagerMixin:RemoveFromCart(cartItemToRemove) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L99)
-function ShoppingCartDataManagerMixin:ClearCart() end
+function ShoppingCartDataManagerMixin:ClearCart(_requiresConfirmation) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L109)
 function ShoppingCartDataManagerMixin:PurchaseCart() end
@@ -42,3 +46,6 @@ function ShoppingCartDataManagerMixin:UpdateCart() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L121)
 function ShoppingCartDataManagerMixin:GetNumItemsInCart() end
+
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartDataManager.lua#L127)
+function ShoppingCartClearCartServiceMixin:GetEventData() end

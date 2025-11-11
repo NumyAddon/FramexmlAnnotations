@@ -37,11 +37,11 @@ function PagingControlsMixin:OnMouseWheel(delta) end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua#L110)
 function PagingControlsMixin:UpdateControls() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua#L127)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua#L129)
 function PagingControlsMixin:OnPageButtonEnter(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua#L133)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua#L135)
 function PagingControlsMixin:OnPageButtonLeave(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua#L139)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.lua#L141)
 function PagingControlsMixin:SetOverridePagedContentFrame(frame) end

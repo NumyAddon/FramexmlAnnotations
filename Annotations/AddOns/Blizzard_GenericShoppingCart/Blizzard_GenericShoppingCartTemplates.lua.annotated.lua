@@ -47,7 +47,7 @@ function ShoppingCartVisualsFrameMixin:FullUpdate() end
 function ShoppingCartVisualsFrameMixin:UpdateScrollBar() end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L192)
-function ShoppingCartVisualsFrameMixin:SetCartFrameShown(isShown) end
+function ShoppingCartVisualsFrameMixin:SetCartFrameShown(isShown, preserveCartState) end
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.lua#L200)
 function ShoppingCartVisualsFrameMixin:SetCartShown(isShown) end

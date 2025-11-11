@@ -79,7 +79,7 @@
 
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartItemTemplates.xml#L191)
 --- Template
---- @class HousingMarketCartBundleTemplate : Frame, HousingMarketCartBraceTemplate, HousingMarketCartBundleMixin
+--- @class HousingMarketCartBundleTemplate : Frame, HousingMarketCartBraceTemplate, CallbackRegistrantTemplate, HousingMarketCartBundleMixin
 --- @field RemoveFromCartButtonContainer HousingMarketCartBundleTemplate_RemoveFromCartButtonContainer
 --- @field PriceContainer HousingMarketCartBundleTemplate_PriceContainer
 --- @field BundleName HousingMarketCartBundleTemplate_BundleName

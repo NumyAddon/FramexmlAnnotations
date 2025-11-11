@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L626)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L651)
 --- @class SettingsCallbackHandleContainerMixin : CallbackHandleContainerMixin
 SettingsCallbackHandleContainerMixin = CreateFromMixins(CallbackHandleContainerMixin)
 
@@ -12,7 +12,7 @@ SettingsSearchableElementMixin = {}
 --- @class SettingsControlTextContainerMixin
 SettingsControlTextContainerMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L284)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L299)
 --- @class SettingsSliderOptionsMixin
 SettingsSliderOptionsMixin = {}
 
@@ -43,17 +43,17 @@ function SettingsControlTextContainerMixin:Init() end
 --- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L240)
 function SettingsControlTextContainerMixin:GetData() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L244)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L248)
 function SettingsControlTextContainerMixin:Add(value, label, tooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L250)
-function SettingsControlTextContainerMixin:AddCheckbox(value, label, tooltip, isChecked, setChecked) end
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L254)
+function SettingsControlTextContainerMixin:AddCheckbox(value, label, tooltip) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L286)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L301)
 function SettingsSliderOptionsMixin:SetLabelFormatter(labelType, value) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L628)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L653)
 function SettingsCallbackHandleContainerMixin:Init() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L632)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L657)
 function SettingsCallbackHandleContainerMixin:SetOnValueChangedCallback(variable, callback, owner, ...) end

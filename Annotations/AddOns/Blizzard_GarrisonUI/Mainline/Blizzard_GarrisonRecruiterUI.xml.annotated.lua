@@ -194,12 +194,12 @@ GarrisonRecruiterFrame["CloseButton"] = GarrisonRecruiterFrameCloseButton -- inh
 GarrisonRecruiterFrame["Bg"] = GarrisonRecruiterFrameBg -- inherited
 GarrisonRecruiterFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L40)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L44)
 --- child of GarrisonRecruitSelectFrame_FollowerList_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 GarrisonRecruitSelectFrameClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L31)
+--- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_GarrisonRecruiterUI.xml#L35)
 --- child of GarrisonRecruitSelectFrame_FollowerList_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 GarrisonRecruitSelectFrameSearchIcon = {}

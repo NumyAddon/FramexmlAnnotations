@@ -1,30 +1,30 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L63)
 --- child of SoulbindTreeNodeLinkTemplate
 --- @class SoulbindTreeNodeLinkTemplate_FlowAnim1 : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L75)
 --- child of SoulbindTreeNodeLinkTemplate
 --- @class SoulbindTreeNodeLinkTemplate_FlowAnim2 : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L81)
 --- child of SoulbindTreeNodeLinkTemplate
 --- @class SoulbindTreeNodeLinkTemplate_FlowAnim3 : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L84)
 --- child of SoulbindTreeNodeLinkTemplate
 --- @class SoulbindTreeNodeLinkTemplate_FlowAnim4 : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L87)
 --- child of SoulbindTreeNodeLinkTemplate
 --- @class SoulbindTreeNodeLinkTemplate_FlowAnim5 : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L91)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L91)
 --- child of SoulbindTreeNodeLinkTemplate
 --- @class SoulbindTreeNodeLinkTemplate_FlowAnim6 : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNodeLink.xml#L5)
 --- Template
 --- @class SoulbindTreeNodeLinkTemplate : Frame, SoulbindTreeNodeLinkMixin
 --- @field Background Texture

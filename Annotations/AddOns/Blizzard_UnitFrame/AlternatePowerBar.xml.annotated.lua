@@ -1,15 +1,15 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBar.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBar.xml#L5)
 --- Template
 --- @class AlternatePowerBarTemplate : StatusBar, AlternatePowerBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBar.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBar.xml#L17)
 --- child of AlternatePowerBar (created in template AlternatePowerBarBaseTemplate)
 --- @type AlternatePowerBarBaseTemplate_Text
 AlternatePowerBarText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBar.xml#L8)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBar.xml#L8)
 --- @class AlternatePowerBar : StatusBar, PlayerFrameAlternatePowerBarBaseTemplate, AlternatePowerBarTemplate, SecureFrameParentPropagationTemplate
 --- @field powerName string # MANA
 --- @field powerType any # Enum.PowerType.Mana

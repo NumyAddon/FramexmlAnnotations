@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L3)
 --- Template
 --- @class HouseEditorPlacedDecorListButtonTemplate : Button, BaseHousingModeButtonTemplate, HouseEditorPlacedDecorListButtonMixin
 --- @field useStateColors boolean # false
@@ -13,45 +13,45 @@
 --- @field Icon Texture
 --- @field HoverIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L39)
 --- child of HouseEditorPlacedDecorEntryTemplate
 --- @class HouseEditorPlacedDecorEntryTemplate_DecorNameText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L29)
 --- Template
 --- @class HouseEditorPlacedDecorEntryTemplate : Button, HouseEditorPlacedDecorEntryMixin
 --- @field expand boolean # true
 --- @field HighlightBGTex Texture
 --- @field DecorNameText HouseEditorPlacedDecorEntryTemplate_DecorNameText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L96)
 --- child of HouseEditorPlacedDecorListTemplate
 --- @class HouseEditorPlacedDecorListTemplate_InputBlocker : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L105)
 --- child of HouseEditorPlacedDecorListTemplate
 --- @class HouseEditorPlacedDecorListTemplate_DragBar : Button, PanelDragBarTemplate
 --- @field showCursorOnHover boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L114)
 --- child of HouseEditorPlacedDecorListTemplate
 --- @class HouseEditorPlacedDecorListTemplate_CloseButton : Button, UIPanelCloseButtonNoScripts
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L119)
 --- child of HouseEditorPlacedDecorListTemplate
 --- @class HouseEditorPlacedDecorListTemplate_ScrollBox : Frame, WowScrollBoxList
 --- @field wheelPanScalar number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L129)
 --- child of HouseEditorPlacedDecorListTemplate
 --- @class HouseEditorPlacedDecorListTemplate_ScrollBar : EventFrame, MinimalScrollBar
 --- @field hideIfUnscrollable boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L81)
 --- child of HouseEditorPlacedDecorListTemplate
 --- @class HouseEditorPlacedDecorListTemplate_HeaderText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorPlacedDecorList.xml#L54)
 --- Template
 --- @class HouseEditorPlacedDecorListTemplate : Frame, HouseEditorPlacedDecorListMixin
 --- @field horizontalSpacing number # 5

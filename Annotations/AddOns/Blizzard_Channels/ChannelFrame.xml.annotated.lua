@@ -1,46 +1,46 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L21)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L21)
 --- child of ChannelFrame
 --- @class ChannelFrame_NewButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L32)
 --- child of ChannelFrame
 --- @class ChannelFrame_SettingsButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L43)
 --- child of ChannelFrame
 --- @class ChannelFrame_ChannelList : ScrollFrame, ChannelListTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L50)
 --- child of ChannelFrame
 --- @class ChannelFrame_LeftInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L57)
 --- child of ChannelFrame
 --- @class ChannelFrame_ChannelRoster : Frame, ChannelRosterTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L63)
 --- child of ChannelFrame
 --- @class ChannelFrame_RightInset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L686)
 --- child of ChannelFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ChannelFrameInset = {}
 ChannelFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L680)
 --- child of ChannelFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 ChannelFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L663)
 --- child of ChannelFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ChannelFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Channels/ChannelFrame.xml#L5)
 --- @class ChannelFrame : Frame, ButtonFrameTemplate, ChannelFrameMixin
 --- @field NewButton ChannelFrame_NewButton
 --- @field SettingsButton ChannelFrame_SettingsButton

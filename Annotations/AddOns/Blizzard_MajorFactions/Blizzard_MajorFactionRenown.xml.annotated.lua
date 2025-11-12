@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L43)
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_NineSlice : Frame, NineSlicePanelTemplate
 --- @field TopLeftBorder Texture
@@ -9,23 +9,23 @@
 --- @field TopRightBorderDecoration Texture
 --- @field BottomBorderDecoration Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L78)
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_LevelSkipButton : Button, RewardTrackSkipLevelUpButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L83)
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L90)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L90)
 --- child of MajorFactionRenownFrame_HeaderFrame
 --- @class MajorFactionRenownFrame_HeaderFrame_RenownProgressBar : Cooldown, MajorFactionRenownTrackProgressBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L107)
 --- child of MajorFactionRenownFrame_HeaderFrame
 --- @class MajorFactionRenownFrame_HeaderFrame_Level : FontString, Game24Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L84)
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_HeaderFrame : Frame, MajorFactionRenownHeaderFrameMixin
 --- @field RenownProgressBar MajorFactionRenownFrame_HeaderFrame_RenownProgressBar
@@ -33,19 +33,19 @@
 --- @field Level MajorFactionRenownFrame_HeaderFrame_Level
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L128)
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_CelebrationModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L147)
 --- child of MajorFactionRenownFrame_TrackFrame
 --- @class MajorFactionRenownFrame_TrackFrame_Title : FontString, Fancy40Font, AutoScalingFontStringMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L156)
 --- child of MajorFactionRenownFrame_TrackFrame
 --- @class MajorFactionRenownFrame_TrackFrame_AccountWideLabel : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L134)
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_TrackFrame : Frame, RewardTrackFrameTemplate
 --- @field rewardButtonXOffset number # 30
@@ -56,11 +56,11 @@
 --- @field Title MajorFactionRenownFrame_TrackFrame_Title
 --- @field AccountWideLabel MajorFactionRenownFrame_TrackFrame_AccountWideLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L174)
 --- child of MajorFactionRenownFrame
 --- @class MajorFactionRenownFrame_LevelModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenown.xml#L3)
 --- @class MajorFactionRenownFrame : Frame, MajorFactionRenownMixin
 --- @field NineSlice MajorFactionRenownFrame_NineSlice
 --- @field LevelSkipButton MajorFactionRenownFrame_LevelSkipButton

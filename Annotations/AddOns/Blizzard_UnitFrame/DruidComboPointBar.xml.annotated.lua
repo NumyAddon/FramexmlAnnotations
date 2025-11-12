@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L64)
 --- child of DruidComboPointTemplate
 --- @class DruidComboPointTemplate_activateAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L78)
 --- child of DruidComboPointTemplate
 --- @class DruidComboPointTemplate_deactivateAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L5)
 --- Template
 --- @class DruidComboPointTemplate : Frame, DruidComboPointMixin
 --- @field BG_Shadow Texture
@@ -24,7 +24,7 @@
 --- @field deactivateAnim DruidComboPointTemplate_deactivateAnim
 --- @field fxTextures table<number, Texture>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L91)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L91)
 --- Template
 --- @class DruidComboPointBarTemplate : Frame, ClassResourceBarTemplate, DruidComboPointBarMixin
 --- @field powerToken string # COMBO_POINTS
@@ -38,7 +38,7 @@
 --- @field spacing number # 4
 --- @field class string # DRUID
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/DruidComboPointBar.xml#L106)
 --- @class DruidComboPointBarFrame : Frame, DruidComboPointBarTemplate
 --- @field topPadding number # 7
 --- @field showTooltip boolean # true

@@ -1,42 +1,42 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L99)
 --- child of UIWidgetTemplateTextureWithAnimation
 --- @class UIWidgetTemplateTextureWithAnimation_CenterEffect1Anim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L103)
 --- child of UIWidgetTemplateTextureWithAnimation
 --- @class UIWidgetTemplateTextureWithAnimation_CenterEffect2Anim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L107)
 --- child of UIWidgetTemplateTextureWithAnimation
 --- @class UIWidgetTemplateTextureWithAnimation_CenterEffect4GlowAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L111)
 --- child of UIWidgetTemplateTextureWithAnimation
 --- @class UIWidgetTemplateTextureWithAnimation_CenterEffect5Anim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L115)
 --- child of UIWidgetTemplateTextureWithAnimation
 --- @class UIWidgetTemplateTextureWithAnimation_TransitionGlowAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L123)
 --- child of UIWidgetTemplateTextureWithAnimation
 --- @class UIWidgetTemplateTextureWithAnimation_BorderGlow1Anim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L127)
 --- child of UIWidgetTemplateTextureWithAnimation
 --- @class UIWidgetTemplateTextureWithAnimation_BorderGlow2Anim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L131)
 --- child of UIWidgetTemplateTextureWithAnimation
 --- @class UIWidgetTemplateTextureWithAnimation_BorderGlow3Anim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L135)
 --- child of UIWidgetTemplateTextureWithAnimation
 --- @class UIWidgetTemplateTextureWithAnimation_BorderGlow4Anim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateTextureWithAnimation.xml#L3)
 --- Template
 --- @class UIWidgetTemplateTextureWithAnimation : Frame, UIWidgetBaseTemplate, UIWidgetTemplateTextureWithAnimationMixin
 --- @field defaultTooltipAnchor string # ANCHOR_BOTTOM

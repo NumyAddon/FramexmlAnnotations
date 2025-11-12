@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonAnim.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonAnim.xml#L3)
 --- Template
 --- @class TalentButtonAnimationTemplate : Frame, TalentDisplayAnimationMixin
 --- @field anchorPoint string # CENTER

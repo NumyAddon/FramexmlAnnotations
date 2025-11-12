@@ -1,12 +1,12 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSelectExpanded.xml#L6)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSelectExpanded.xml#L6)
 --- child of TalentButtonSelectExpandedTemplate
 --- @class TalentButtonSelectExpandedTemplate_SelectionFrame : Frame, TalentSelectionChoiceFrameTemplate
 --- @field dialogStyle boolean # false
 --- @field childXPadding number # 72
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSelectExpanded.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSelectExpanded.xml#L3)
 --- Template
 --- @class TalentButtonSelectExpandedTemplate : Button, TalentDisplayTemplate, TalentButtonSelectExpandedDisplayMixin
 --- @field SelectionFrame TalentButtonSelectExpandedTemplate_SelectionFrame

@@ -1,19 +1,19 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L3)
 --- Template
 --- Adds itself to the parent inside the array `LootButtons`
 --- @class LootRollButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L114)
 --- child of BonusRollFrameTemplate_RollingFrame
 --- @class BonusRollFrameTemplate_RollingFrame_Label : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L132)
 --- child of BonusRollFrameTemplate_RollingFrame
 --- @class BonusRollFrameTemplate_RollingFrame_LootSpinnerFinalText : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L111)
 --- child of BonusRollFrameTemplate
 --- @class BonusRollFrameTemplate_RollingFrame : Frame
 --- @field Label BonusRollFrameTemplate_RollingFrame_Label
@@ -22,33 +22,33 @@
 --- @field LootSpinnerFinalText BonusRollFrameTemplate_RollingFrame_LootSpinnerFinalText
 --- @field DieIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L159)
 --- child of BonusRollFrameTemplate_PromptFrame
 --- @class BonusRollFrameTemplate_PromptFrame_EncounterJournalLinkButton : Button, EncounterJournalLinkButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L178)
 --- child of BonusRollFrameTemplate_PromptFrame_InfoFrame
 --- @class BonusRollFrameTemplate_PromptFrame_InfoFrame_Label : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L185)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L185)
 --- child of BonusRollFrameTemplate_PromptFrame_InfoFrame
 --- @class BonusRollFrameTemplate_PromptFrame_InfoFrame_Cost : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L171)
 --- child of BonusRollFrameTemplate_PromptFrame
 --- @class BonusRollFrameTemplate_PromptFrame_InfoFrame : Frame
 --- @field Label BonusRollFrameTemplate_PromptFrame_InfoFrame_Label
 --- @field Cost BonusRollFrameTemplate_PromptFrame_InfoFrame_Cost
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L203)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L203)
 --- child of BonusRollFrameTemplate_PromptFrame
 --- @class BonusRollFrameTemplate_PromptFrame_RollButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L227)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L227)
 --- child of BonusRollFrameTemplate_PromptFrame
 --- @class BonusRollFrameTemplate_PromptFrame_PassButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L147)
 --- child of BonusRollFrameTemplate
 --- @class BonusRollFrameTemplate_PromptFrame : Frame
 --- @field EncounterJournalLinkButton BonusRollFrameTemplate_PromptFrame_EncounterJournalLinkButton
@@ -58,29 +58,29 @@
 --- @field PassButton BonusRollFrameTemplate_PromptFrame_PassButton
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L249)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L249)
 --- child of BonusRollFrameTemplate
 --- @class BonusRollFrameTemplate_BlackBackgroundHoist : Frame
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L269)
 --- child of BonusRollFrameTemplate_CurrentCountFrame
 --- @class BonusRollFrameTemplate_CurrentCountFrame_Text : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L262)
 --- child of BonusRollFrameTemplate
 --- @class BonusRollFrameTemplate_CurrentCountFrame : Frame
 --- @field Text BonusRollFrameTemplate_CurrentCountFrame_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L26)
 --- child of BonusRollFrameTemplate
 --- @class BonusRollFrameTemplate_StartRollAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L42)
 --- child of BonusRollFrameTemplate
 --- @class BonusRollFrameTemplate_FinishRollAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L23)
 --- Template
 --- @class BonusRollFrameTemplate : Frame
 --- @field RollingFrame BonusRollFrameTemplate_RollingFrame
@@ -96,47 +96,47 @@
 --- @field StartRollAnim BonusRollFrameTemplate_StartRollAnim
 --- @field FinishRollAnim BonusRollFrameTemplate_FinishRollAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L333)
 --- child of GroupLootFrameTemplate_IconFrame
 --- @class GroupLootFrameTemplate_IconFrame_Count : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L318)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L318)
 --- child of GroupLootFrameTemplate
 --- @class GroupLootFrameTemplate_IconFrame : Button
 --- @field Icon Texture
 --- @field Count GroupLootFrameTemplate_IconFrame_Count
 --- @field Border Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L371)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L371)
 --- child of GroupLootFrameTemplate
 --- @class GroupLootFrameTemplate_NeedButton : Button, LootRollButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L385)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L385)
 --- child of GroupLootFrameTemplate
 --- @class GroupLootFrameTemplate_PassButton : Button, LootRollButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L399)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L399)
 --- child of GroupLootFrameTemplate
 --- @class GroupLootFrameTemplate_GreedButton : Button, LootRollButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L413)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L413)
 --- child of GroupLootFrameTemplate
 --- @class GroupLootFrameTemplate_TransmogButton : Button, LootRollButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L426)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L426)
 --- child of GroupLootFrameTemplate
 --- @class GroupLootFrameTemplate_Timer : StatusBar
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L448)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L448)
 --- child of GroupLootFrameTemplate_NeedRollAnim
 --- @class GroupLootFrameTemplate_NeedRollAnim_RollNumber : FontString, Game32Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L498)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L498)
 --- child of GroupLootFrameTemplate_NeedRollAnim
 --- @class GroupLootFrameTemplate_NeedRollAnim_Animation : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L441)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L441)
 --- child of GroupLootFrameTemplate
 --- @class GroupLootFrameTemplate_NeedRollAnim : Frame
 --- @field RollNumber GroupLootFrameTemplate_NeedRollAnim_RollNumber
@@ -148,11 +148,11 @@
 --- @field FX_RevealFade Texture
 --- @field Animation GroupLootFrameTemplate_NeedRollAnim_Animation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L309)
 --- child of GroupLootFrameTemplate
 --- @class GroupLootFrameTemplate_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L290)
 --- Template
 --- @class GroupLootFrameTemplate : Frame
 --- @field IconFrame GroupLootFrameTemplate_IconFrame
@@ -167,7 +167,7 @@
 --- @field Name GroupLootFrameTemplate_Name
 --- @field LootButtons table<number, GroupLootFrameTemplate_NeedButton | GroupLootFrameTemplate_PassButton | GroupLootFrameTemplate_GreedButton | GroupLootFrameTemplate_TransmogButton>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L537)
 --- @class GroupLootContainer : ContainedAlertFrame, UIParentBottomManagedFrameTemplate
 --- @field layoutIndex number # 3
 GroupLootContainer = {}
@@ -179,50 +179,50 @@ GroupLootContainer["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherite
 GroupLootContainer["isBottomManagedFrame"] = true -- inherited
 GroupLootContainer["isManagedFrame"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L546)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L546)
 --- @class GroupLootFrame1 : Frame, GroupLootFrameTemplate
 GroupLootFrame1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L547)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L547)
 --- @class GroupLootFrame2 : Frame, GroupLootFrameTemplate
 GroupLootFrame2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L548)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L548)
 --- @class GroupLootFrame3 : Frame, GroupLootFrameTemplate
 GroupLootFrame3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L549)
 --- @class GroupLootFrame4 : Frame, GroupLootFrameTemplate
 GroupLootFrame4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L550)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L550)
 --- @class BonusRollFrame : Frame, BonusRollFrameTemplate
 BonusRollFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L551)
 --- @class BonusRollLootWonFrame : ContainedAlertFrame, LootWonAlertFrameTemplate
 BonusRollLootWonFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L560)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L560)
 --- @class BonusRollMoneyWonFrame : ContainedAlertFrame, MoneyWonAlertFrameTemplate
 BonusRollMoneyWonFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L581)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L581)
 --- child of MasterLooterPlayerTemplate
 --- @class MasterLooterPlayerTemplate_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L569)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L569)
 --- Template
 --- @class MasterLooterPlayerTemplate : Button
 --- @field Bg Texture
 --- @field Highlight Texture
 --- @field Name MasterLooterPlayerTemplate_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L663)
 --- child of MasterLooterFrame_Item
 --- @class MasterLooterFrame_Item_ItemName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L616)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L616)
 --- child of MasterLooterFrame
 --- @class MasterLooterFrame_Item : Frame
 --- @field Icon Texture
@@ -232,11 +232,11 @@ BonusRollMoneyWonFrame = {}
 --- @field IconBorder Texture
 --- @field ItemName MasterLooterFrame_Item_ItemName
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L672)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L672)
 --- child of MasterLooterFrame
 --- @class MasterLooterFrame_player1 : Button, MasterLooterPlayerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L610)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L610)
 --- @class MasterLooterFrame : Frame, TooltipBackdropTemplate
 --- @field Item MasterLooterFrame_Item
 --- @field player1 MasterLooterFrame_player1

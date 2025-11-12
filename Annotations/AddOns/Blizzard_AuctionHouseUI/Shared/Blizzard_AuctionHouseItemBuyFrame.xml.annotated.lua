@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L7)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L7)
 --- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_BackButton : Button, UIPanelButtonTemplate, AuctionHouseCommoditiesBackButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L16)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L16)
 --- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_ItemDisplay : Button, AuctionHouseItemDisplayTemplate, AuctionHouseItemBuyItemDisplayMixin
 --- @field backgroundAtlas string # auctionhouse-background-buy-noncommodities-header
@@ -16,15 +16,15 @@
 --- @field textureXOffsetClassic number # 3
 --- @field textureYOffsetClassic number # -2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L34)
 --- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_BuyoutFrame : Frame, AuctionHouseBuyoutFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L39)
 --- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_BidFrame : Frame, AuctionHouseBidFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L44)
 --- child of AuctionHouseItemBuyFrameTemplate
 --- @class AuctionHouseItemBuyFrameTemplate_ItemList : Frame, AuctionHouseItemListTemplate
 --- @field backgroundAtlas string # auctionhouse-background-buy-noncommodities-market
@@ -33,7 +33,7 @@
 --- @field refreshFrameXOffset number # -4
 --- @field refreshFrameYOffset number # 132
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseItemBuyFrame.xml#L4)
 --- Template
 --- @class AuctionHouseItemBuyFrameTemplate : Frame, AuctionHouseItemBuyFrameMixin
 --- @field BackButton AuctionHouseItemBuyFrameTemplate_BackButton

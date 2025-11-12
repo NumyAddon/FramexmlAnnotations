@@ -1,20 +1,20 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L5)
 --- Template
 --- @class ArtifactFrameTabButtonTemplate : Button, PanelTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L14)
 --- @class ArtifactFrameUnderlay : Frame, ArtifactFrameUnderlayMixin
 ArtifactFrameUnderlay = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L34)
 --- child of ArtifactFrame
 --- @class ArtifactFrame_VisitForgeOverlay : Frame
 --- @field Background Texture
 --- @field Text FontString
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L54)
 --- child of ArtifactFrame
 --- @class ArtifactFrame_BorderFrame : Frame
 --- @field ForgeBottomLeftCorner Texture
@@ -25,11 +25,11 @@ ArtifactFrameUnderlay = {}
 --- @field ForgeRightBorder Texture
 --- @field ForgeLeftBorder Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L143)
 --- child of ArtifactFrame_ForgeBadgeFrame
 --- @class ArtifactFrame_ForgeBadgeFrame_ForgeLevelLabel : FontString, SystemFont_Shadow_Med2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L110)
 --- child of ArtifactFrame
 --- @class ArtifactFrame_ForgeBadgeFrame : Frame
 --- @field ItemIcon Texture
@@ -39,29 +39,29 @@ ArtifactFrameUnderlay = {}
 --- @field ForgeLevelLabel ArtifactFrame_ForgeBadgeFrame_ForgeLevelLabel
 --- @field ForgeLevelBackgroundBlack Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L175)
 --- child of ArtifactFrame
 --- @class ArtifactFrameTab1 : Button, ArtifactFrameTabButtonTemplate
 ArtifactFrameTab1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L180)
 --- child of ArtifactFrame
 --- @class ArtifactFrameTab2 : Button, ArtifactFrameTabButtonTemplate
 ArtifactFrameTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L186)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L186)
 --- child of ArtifactFrame
 --- @class ArtifactFrame_PerksTab : Frame, ArtifactPerksTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L187)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L187)
 --- child of ArtifactFrame
 --- @class ArtifactFrame_AppearancesTab : Frame, ArtifactAppearancesTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L189)
 --- child of ArtifactFrame
 --- @class ArtifactFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ArtifactUI/Blizzard_ArtifactUI.xml#L26)
 --- @class ArtifactFrame : Frame, ArtifactUIMixin
 --- @field VisitForgeOverlay ArtifactFrame_VisitForgeOverlay
 --- @field BorderFrame ArtifactFrame_BorderFrame

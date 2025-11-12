@@ -1,42 +1,42 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L5)
 --- Template
 --- @class ProfessionsFrameTabTemplate : Button, TabSystemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L10)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L10)
 --- child of ProfessionsFrame
 --- @class ProfessionsFrame_CloseButton : Button, UIPanelCloseButtonDefaultAnchors
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L11)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L11)
 --- child of ProfessionsFrame
 --- @class ProfessionsFrame_MaximizeMinimize : Frame, MaximizeMinimizeButtonFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L17)
 --- child of ProfessionsFrame
 --- @class ProfessionsFrame_TabSystem : Frame, TabSystemTemplate
 --- @field minTabWidth number # 100
 --- @field maxTabWidth number # 150
 --- @field tabTemplate string # ProfessionsFrameTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L28)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L28)
 --- child of ProfessionsFrame
 --- @class ProfessionsFrame_CraftingPage : Frame, ProfessionsCraftingPageTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L29)
 --- child of ProfessionsFrame
 --- @class ProfessionsFrame_SpecPage : Frame, ProfessionsSpecPageTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L30)
 --- child of ProfessionsFrame
 --- @class ProfessionsFrame_OrdersPage : Frame, ProfessionsCraftingOrderPageTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L600)
 --- child of ProfessionsFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ProfessionsFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L7)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsFrame.xml#L7)
 --- @class ProfessionsFrame : Frame, PortraitFrameTemplateNoCloseButton, TabSystemOwnerTemplate, ProfessionsMixin
 --- @field CloseButton ProfessionsFrame_CloseButton
 --- @field MaximizeMinimize ProfessionsFrame_MaximizeMinimize

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.xml#L6)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.xml#L6)
 --- Template
 --- @class CovenantCallingQuestTemplate : Frame, CovenantCallingQuestMixin
 --- @field ignoreInLayout boolean # true
@@ -9,11 +9,11 @@
 --- @field Highlight Texture
 --- @field Bang Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.xml#L68)
 --- child of CovenantCallingsTemplate
 --- @class CovenantCallingsTemplate_Title : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.xml#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantCallings/CovenantCallings.xml#L50)
 --- Template
 --- @class CovenantCallingsTemplate : Frame, CovenantCallingsMixin
 --- @field Background Texture

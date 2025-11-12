@@ -1,50 +1,50 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L5)
 --- Template
 --- @class CollectionsJournalTab : Button, PanelTabButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L20)
 --- child of CollectionsJournal
 --- @class CollectionsJournalTab1 : Button, CollectionsJournalTab
 CollectionsJournalTab1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L25)
 --- child of CollectionsJournal
 --- @class CollectionsJournalTab2 : Button, CollectionsJournalTab
 CollectionsJournalTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L30)
 --- child of CollectionsJournal
 --- @class CollectionsJournalTab3 : Button, CollectionsJournalTab
 CollectionsJournalTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L35)
 --- child of CollectionsJournal
 --- @class CollectionsJournalTab4 : Button, CollectionsJournalTab
 CollectionsJournalTab4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L40)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L40)
 --- child of CollectionsJournal
 --- @class CollectionsJournalTab5 : Button, CollectionsJournalTab
 CollectionsJournalTab5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L45)
 --- child of CollectionsJournal
 --- @class CollectionsJournalTab6 : Button, CollectionsJournalTab
 CollectionsJournalTab6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L633)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L633)
 --- child of CollectionsJournal (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 CollectionsJournalCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L600)
 --- child of CollectionsJournal (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 CollectionsJournalBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_Collections.xml#L14)
 --- @class CollectionsJournal : Frame, PortraitFrameTemplate
 --- @field MountsTab CollectionsJournalTab1
 --- @field PetsTab CollectionsJournalTab2

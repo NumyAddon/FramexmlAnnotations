@@ -1,28 +1,28 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L27)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L27)
 --- child of PlayerChoiceFrame
 --- @class PlayerChoiceFrame_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L34)
 --- child of PlayerChoiceFrame
 --- @class PlayerChoiceFrame_BlackBackground : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L43)
 --- child of PlayerChoiceFrame
 --- @class PlayerChoiceFrame_Header : Frame, ResizeLayoutFrame
 --- @field Texture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L57)
 --- child of PlayerChoiceFrame
 --- @class PlayerChoiceFrame_Background : Frame
 --- @field BackgroundTile Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L96)
 --- child of PlayerChoiceFrame_Title
 --- @class PlayerChoiceFrame_Title_Text : FontString, SystemFont_Shadow_Large
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L68)
 --- child of PlayerChoiceFrame
 --- @class PlayerChoiceFrame_Title : Frame
 --- @field Left Texture
@@ -30,15 +30,15 @@
 --- @field Middle Texture
 --- @field Text PlayerChoiceFrame_Title_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L104)
 --- child of PlayerChoiceFrame
 --- @class PlayerChoiceFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L109)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L109)
 --- child of PlayerChoiceFrame
 --- @class PlayerChoiceFrame_BorderLayerModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L4)
 --- @class PlayerChoiceFrame : Frame, HorizontalLayoutFrame, PlayerChoiceFrameMixin
 --- @field fixedWidth number # 100
 --- @field expand boolean # true

@@ -1,43 +1,43 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L4)
 --- Template
 --- @class AuctionHouseSearchBoxTemplate : EditBox, SearchBoxTemplate, AuctionHouseSearchBoxMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L11)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L11)
 --- Template
 --- @class AuctionHouseFavoritesSearchButtonTemplate : Button, SquareIconButtonTemplate, AuctionHouseFavoritesSearchButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L21)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L21)
 --- child of AuctionHouseFilterButtonTemplate
 --- @class AuctionHouseFilterButtonTemplate_ClearFiltersButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L19)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L19)
 --- Template
 --- @class AuctionHouseFilterButtonTemplate : DropdownButton, WowStyle1FilterDropdownTemplate, AuctionHouseFilterButtonMixin
 --- @field ClearFiltersButton AuctionHouseFilterButtonTemplate_ClearFiltersButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L39)
 --- Template
 --- @class AuctionHouseSearchButtonTemplate : Button, UIPanelButtonTemplate, AuctionHouseSearchButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L49)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L49)
 --- child of AuctionHouseSearchBarTemplate
 --- @class AuctionHouseSearchBarTemplate_FavoritesSearchButton : Button, AuctionHouseFavoritesSearchButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L54)
 --- child of AuctionHouseSearchBarTemplate
 --- @class AuctionHouseSearchBarTemplate_SearchBox : EditBox, AuctionHouseSearchBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L59)
 --- child of AuctionHouseSearchBarTemplate
 --- @class AuctionHouseSearchBarTemplate_SearchButton : Button, AuctionHouseSearchButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L64)
 --- child of AuctionHouseSearchBarTemplate
 --- @class AuctionHouseSearchBarTemplate_FilterButton : DropdownButton, AuctionHouseFilterButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseSearchBar.xml#L46)
 --- Template
 --- @class AuctionHouseSearchBarTemplate : Frame, AuctionHouseSearchBarMixin
 --- @field FavoritesSearchButton AuctionHouseSearchBarTemplate_FavoritesSearchButton

@@ -1,21 +1,21 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/Frame/MainMenuFrameTemplates.xml#L11)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/Frame/MainMenuFrameTemplates.xml#L11)
 --- Template
 --- @class MainMenuFrameButtonTemplate : Button, BigRedThreeSliceButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/Frame/MainMenuFrameTemplates.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/Frame/MainMenuFrameTemplates.xml#L35)
 --- child of MainMenuFrameTemplate
 --- @class MainMenuFrameTemplate_Border : Frame, DialogBorderTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/Frame/MainMenuFrameTemplates.xml#L40)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/Frame/MainMenuFrameTemplates.xml#L40)
 --- child of MainMenuFrameTemplate
 --- @class MainMenuFrameTemplate_Header : Frame, DialogHeaderTemplate
 --- @field ignoreInLayout boolean # true
 --- @field textString any # MAINMENU_BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/Frame/MainMenuFrameTemplates.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/Frame/MainMenuFrameTemplates.xml#L18)
 --- Template
 --- @class MainMenuFrameTemplate : Frame, VerticalLayoutFrame, MainMenuFrameMixin
 --- @field buttonTemplate string # MainMenuFrameButtonTemplate

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSettingsDropdownButton.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSettingsDropdownButton.xml#L3)
 --- Template
 --- @class DamageMeterSettingsDropdownButtonTemplate : DropdownButton, DamageMeterSettingsDropdownButton
 --- @field disabled string # common-dropdown-a-button-settings-disabled-shadowless

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeech.xml#L12)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeech.xml#L12)
 --- child of TextToSpeechButtonFrame
 --- @class TextToSpeechButton : Button, VoiceToggleButtonTemplate, TextToSpeechButtonMixin
 --- @field fixedIconWidth number # 20
@@ -22,7 +22,7 @@ TextToSpeechButton["highlightAtlas"] = "chatframe-button-highlight" -- inherited
 TextToSpeechButton["tooltipFrame"] = GameTooltip -- inherited
 TextToSpeechButton["tooltipPoint"] = "ANCHOR_RIGHT" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeech.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ChatFrame/Shared/TextToSpeech.xml#L3)
 --- @class TextToSpeechButtonFrame : ContainedAlertFrame
 --- @field commandName string # TOGGLETEXTTOSPEECH
 --- @field Button TextToSpeechButton

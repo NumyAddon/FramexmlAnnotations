@@ -1,8 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua#L486)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua#L486)
 --- @class SmallMoneyFrameMixin
 SmallMoneyFrameMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua#L488)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MoneyFrame/Mainline/MoneyFrame.lua#L488)
 function SmallMoneyFrameMixin:SetIsUserScaled() end

@@ -1,4 +1,4 @@
-local InvalidationReason = EnumUtil.MakeEnum("DataProviderReassigned", "DataProviderContentsChanged");
+local InvalidationReason = EnumUtil.MakeEnum("DataProviderReassigned", "DataProviderContentsChanged");--- @type {["DataProviderReassigned"]: 1, ["DataProviderContentsChanged"]: 2}
 
 ScrollBoxListViewMixin = CreateFromMixins(ScrollBoxViewMixin, CallbackRegistryMixin);--- @class ScrollBoxListViewMixin : ScrollBoxViewMixin, CallbackRegistryMixin
 ScrollBoxListViewMixin:GenerateCallbackEvents(

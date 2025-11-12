@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSelect.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSelect.xml#L3)
 --- Template
 --- @class TalentButtonChoiceTemplate : Button, TalentButtonArtTemplate, TalentButtonSplitIconMixin
 --- @field GetEdgeDiameterOffset any # TalentButtonArtMixin.GetChoiceEdgeDiameterOffset

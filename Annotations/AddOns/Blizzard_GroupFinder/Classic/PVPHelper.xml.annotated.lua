@@ -1,54 +1,54 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L3)
 --- @class PVPHelperFrame : Frame
 PVPHelperFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L55)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L55)
 --- child of PVPFramePopup
 --- @class PVPFramePopupCloseButton : Button
 PVPFramePopupCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L70)
 --- child of PVPFramePopup
 --- @class PVPFramePopupAcceptButton : Button, UIPanelButtonTemplate
 PVPFramePopupAcceptButton = {}
 PVPFramePopupAcceptButton["fitTextCanWidthDecrease"] = true -- inherited
 PVPFramePopupAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L82)
 --- child of PVPFramePopup
 --- @class PVPFramePopupDeclineButton : Button, UIPanelButtonTemplate
 PVPFramePopupDeclineButton = {}
 PVPFramePopupDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 PVPFramePopupDeclineButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L17)
 --- child of PVPFramePopup
 --- @class PVPFramePopupBackground : Texture
 PVPFramePopupBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L26)
 --- child of PVPFramePopup
 --- @class PVPFramePopupRingIcon : Texture
 PVPFramePopupRingIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L34)
 --- child of PVPFramePopup
 --- @class PVPFramePopupRing : Texture
 PVPFramePopupRing = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L41)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L41)
 --- child of PVPFramePopup
 --- @class PVPFramePopupTitle : FontString, GameFontHighlight
 PVPFramePopupTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L47)
 --- child of PVPFramePopup
 --- @class PVPFramePopupTimer : FontString, GameFontHighlightExtraSmall
 PVPFramePopupTimer = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L10)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L10)
 --- @class PVPFramePopup : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DIALOG_32_32
 --- @field closeButton PVPFramePopupCloseButton
@@ -62,16 +62,16 @@ PVPFramePopup["title"] = PVPFramePopupTitle
 PVPFramePopup["timer"] = PVPFramePopupTimer
 PVPFramePopup["backdropInfo"] = BACKDROP_DIALOG_32_32
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L150)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialog_CoverFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L167)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogExtraFrame : Frame
 PVPReadyDialogExtraFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L168)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogEnterBattleButton : Button, StaticPopupButtonTemplate
 PVPReadyDialogEnterBattleButton = {}
@@ -79,7 +79,7 @@ PVPReadyDialogEnterBattleButton["baseWidth"] = 128 -- inherited
 PVPReadyDialogEnterBattleButton["baseHeight"] = 21 -- inherited
 PVPReadyDialogEnterBattleButton["useScaleWeight"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L184)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L184)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogHideButton : Button, StaticPopupButtonTemplate
 PVPReadyDialogHideButton = {}
@@ -87,21 +87,21 @@ PVPReadyDialogHideButton["baseWidth"] = 128 -- inherited
 PVPReadyDialogHideButton["baseHeight"] = 21 -- inherited
 PVPReadyDialogHideButton["useScaleWeight"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L112)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogText : FontString, GameFontHighlight
 PVPReadyDialogText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L124)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialog_SubText : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L130)
 --- child of PVPReadyDialog
 --- @class PVPReadyDialogAlertIcon : Texture
 PVPReadyDialogAlertIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder/Classic/PVPHelper.xml#L101)
 --- @class PVPReadyDialog : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_DARK_DIALOG_32_32
 --- @field windowHeightOffset string # 65

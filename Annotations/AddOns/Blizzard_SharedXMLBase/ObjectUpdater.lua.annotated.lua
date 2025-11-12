@@ -1,5 +1,5 @@
 
-local States = EnumUtil.MakeEnum("Ready", "Begin", "Update", "End");
+local States = EnumUtil.MakeEnum("Ready", "Begin", "Update", "End");--- @type {["Ready"]: 1, ["Begin"]: 2, ["Update"]: 3, ["End"]: 4}
 
 local ObjectUpdaterMixin = {};--- @class ObjectUpdaterMixin
 function ObjectUpdaterMixin:Init(data, updateFunc, isCompleteFunc, finishFunc)

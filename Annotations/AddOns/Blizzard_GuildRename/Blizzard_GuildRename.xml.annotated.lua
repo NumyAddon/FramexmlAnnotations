@@ -1,70 +1,70 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L31)
 --- child of GuildRenameFrame_TitleFlow
 --- @class GuildRenameFrame_TitleFlow_RenameOption : Button, GossipTitleButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L36)
 --- child of GuildRenameFrame_TitleFlow
 --- @class GuildRenameFrame_TitleFlow_RefundOption : Button, GossipTitleButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L22)
 --- child of GuildRenameFrame_TitleFlow
 --- @class GuildRenameFrame_TitleFlow_Description : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L15)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L15)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_TitleFlow : Frame, GuildRenameTitleFlowMixin
 --- @field RenameOption GuildRenameFrame_TitleFlow_RenameOption
 --- @field RefundOption GuildRenameFrame_TitleFlow_RefundOption
 --- @field Description GuildRenameFrame_TitleFlow_Description
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L71)
 --- child of GuildRenameFrame_RenameFlow_NameBox
 --- @class GuildRenameFrame_RenameFlow_NameBox_Instructions : FontString, GameFontDisableSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L63)
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_NameBox : EditBox, InputBoxTemplate
 --- @field Instructions GuildRenameFrame_RenameFlow_NameBox_Instructions
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L80)
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_Spinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L18)
 --- child of GuildRenameFrame_RenameFlow_CostFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_CopperButton
 GuildRenameFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L57)
 --- child of GuildRenameFrame_RenameFlow_CostFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_SilverButton
 GuildRenameFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L96)
 --- child of GuildRenameFrame_RenameFlow_CostFrame (created in template MoneyFrameTemplate)
 --- @type MoneyFrameTemplate_GoldButton
 GuildRenameFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L109)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L109)
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_CostFrame : Frame, MoneyFrameTemplate
 --- @field moneyType string # STATIC
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L54)
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_Description : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L94)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L94)
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_StatusText : FontString, GameFontRed
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L100)
 --- child of GuildRenameFrame_RenameFlow
 --- @class GuildRenameFrame_RenameFlow_CostLabel : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L47)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_RenameFlow : Frame, GuildRenameFlowMixin
 --- @field NameBox GuildRenameFrame_RenameFlow_NameBox
@@ -75,37 +75,37 @@ GuildRenameFrameGoldButton = {}
 --- @field StatusText GuildRenameFrame_RenameFlow_StatusText
 --- @field CostLabel GuildRenameFrame_RenameFlow_CostLabel
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L123)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_ContextButton : Button, UIPanelButtonNoTooltipResizeToFitTemplate, GuildRenameContextButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L159)
 --- child of GuildRenameFrame_MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_TrialErrorButton
 GuildRenameFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L185)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L185)
 --- child of GuildRenameFrame_MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 GuildRenameFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L225)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L225)
 --- child of GuildRenameFrame_MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 GuildRenameFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L265)
 --- child of GuildRenameFrame_MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 GuildRenameFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L132)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_MoneyFrame : Frame, SmallMoneyFrameTemplate, SimpleTooltipRegionMixin
 --- @field moneyType string # STATIC
 --- @field tooltip any # GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L145)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_GuildIcon : Frame, GuildIconDisplayMixin
 --- @field tooltip any # GUILD_RENAME_COSTS_TOOLTIP
@@ -113,113 +113,113 @@ GuildRenameFrameGoldButton = {}
 --- @field Emblem Texture
 --- @field HighlightEmblem Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L179)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L179)
 --- child of GuildRenameFrame
 --- @class GuildRenameFrame_Spinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L746)
 --- child of GuildRenameFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 GuildRenameFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L787)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L787)
 --- child of GuildRenameFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 GuildRenameFrameInset = {}
 GuildRenameFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 GuildRenameFrameInset["Bg"] = GuildRenameFrameInsetBg -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L768)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L768)
 --- child of GuildRenameFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 GuildRenameFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L773)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L773)
 --- child of GuildRenameFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 GuildRenameFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L778)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L778)
 --- child of GuildRenameFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 GuildRenameFrameButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L604)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L604)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 GuildRenameFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L510)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L510)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 GuildRenameFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L516)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L516)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleBg
 GuildRenameFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L524)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L524)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 GuildRenameFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L532)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L532)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 GuildRenameFramePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L537)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 GuildRenameFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L542)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L542)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 GuildRenameFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L547)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L547)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 GuildRenameFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L553)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L553)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 GuildRenameFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L562)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L562)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 GuildRenameFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L568)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L568)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 GuildRenameFrameBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L573)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L573)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 GuildRenameFrameBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L578)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L578)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 GuildRenameFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L584)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L584)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 GuildRenameFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L590)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L590)
 --- child of GuildRenameFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 GuildRenameFrameRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GuildRename/Blizzard_GuildRename.xml#L3)
 --- @class GuildRenameFrame : UIThemeContainerFrame, ButtonFrameTemplate, GuildRenameFrameMixin
 --- @field TitleFlow GuildRenameFrame_TitleFlow
 --- @field RenameFlow GuildRenameFrame_RenameFlow

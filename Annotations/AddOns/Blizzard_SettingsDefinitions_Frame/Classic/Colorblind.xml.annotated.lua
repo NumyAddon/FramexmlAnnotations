@@ -1,75 +1,75 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L5)
 --- Template
 --- @class ColorblindExampleIconTemplate2 : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L10)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L10)
 --- Template
 --- Adds itself to the parent inside the array `ItemQuality`
 --- @class ColorblindItemQualityTemplate2 : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L31)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_HostileLabel : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L42)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_NeutralLabel : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L53)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L53)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_FriendlyLabel : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L59)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ExampleIcon1 : Texture, ColorblindExampleIconTemplate2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L64)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ExampleIcon2 : Texture, ColorblindExampleIconTemplate2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L69)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ExampleIcon3 : Texture, ColorblindExampleIconTemplate2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L74)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L74)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ExampleIcon4 : Texture, ColorblindExampleIconTemplate2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L79)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ExampleIcon5 : Texture, ColorblindExampleIconTemplate2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L84)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ExampleIcon6 : Texture, ColorblindExampleIconTemplate2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L89)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ItemQualityText : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L95)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ItemQuality1 : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L101)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ItemQuality2 : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L107)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ItemQuality3 : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L113)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ItemQuality4 : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L119)
 --- child of ColorblindSelectorTemplate_ColorblindExamples
 --- @class ColorblindSelectorTemplate_ColorblindExamples_ItemQuality5 : FontString, OptionsFontSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L17)
 --- child of ColorblindSelectorTemplate
 --- @class ColorblindSelectorTemplate_ColorblindExamples : Frame
 --- @field ColorWheel Texture
@@ -100,11 +100,11 @@
 --- @field ItemQualities table<number, ColorblindSelectorTemplate_ColorblindExamples_ItemQuality1 | ColorblindSelectorTemplate_ColorblindExamples_ItemQuality2 | ColorblindSelectorTemplate_ColorblindExamples_ItemQuality3 | ColorblindSelectorTemplate_ColorblindExamples_ItemQuality4 | ColorblindSelectorTemplate_ColorblindExamples_ItemQuality5>
 --- @field ItemQuality table<number, ColorblindItemQualityTemplate2>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L180)
 --- child of ColorblindSelectorTemplate
 --- @class ColorblindSelectorTemplate_Instructions : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Classic/Colorblind.xml#L14)
 --- Template
 --- @class ColorblindSelectorTemplate : Frame, ColorblindSelectorMixin
 --- @field ColorblindExamples ColorblindSelectorTemplate_ColorblindExamples

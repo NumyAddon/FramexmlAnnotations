@@ -1,6 +1,6 @@
 SettingsLayoutMixin = {};--- @class SettingsLayoutMixin
 
-SettingsLayoutMixin.LayoutType = EnumUtil.MakeEnum("Vertical", "Canvas");
+SettingsLayoutMixin.LayoutType = EnumUtil.MakeEnum("Vertical", "Canvas");--- @type {["Vertical"]: 1, ["Canvas"]: 2} See [SettingsLayoutMixin.LayoutType](lua://SettingsLayoutMixin.LayoutType)
 
 function SettingsLayoutMixin:Init(layoutType)
 	self.layoutType = layoutType;

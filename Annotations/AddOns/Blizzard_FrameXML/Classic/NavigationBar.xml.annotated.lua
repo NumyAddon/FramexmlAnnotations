@@ -1,13 +1,13 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L32)
 --- child of NavButtonTemplate
 --- @class NavButtonTemplate_MenuArrowButton : DropdownButton
 --- @field Art Texture
 --- @field NormalTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L4)
 --- Template
 --- @class NavButtonTemplate : Button
 --- @field MenuArrowButton NavButtonTemplate_MenuArrowButton
@@ -15,23 +15,23 @@
 --- @field arrowDown Texture
 --- @field selected Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L136)
 --- child of NavBarTemplate
 --- @class NavBarTemplate_overlay : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L158)
 --- child of NavBarTemplate
 --- @class NavBarTemplate_OverflowButton : DropdownButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L175)
 --- child of NavBarTemplate
 --- @class NavBarTemplate_HomeButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L217)
 --- child of NavBarTemplate
 --- @class NavBarTemplate_KioskOverlay : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXML/Classic/NavigationBar.xml#L122)
 --- Template
 --- Adds itself to the parent with key `navBar`
 --- @class NavBarTemplate : Frame

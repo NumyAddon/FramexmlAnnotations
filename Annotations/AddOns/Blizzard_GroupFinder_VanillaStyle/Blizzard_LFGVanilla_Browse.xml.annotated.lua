@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L15)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L15)
 --- child of LFGListGroupDataDisplayTemplate_Solo
 --- @class LFGListGroupDataDisplayTemplate_Solo_RolesText : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L12)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L12)
 --- child of LFGListGroupDataDisplayTemplate
 --- @class LFGListGroupDataDisplayTemplate_Solo : Frame
 --- @field RolesText LFGListGroupDataDisplayTemplate_Solo_RolesText
@@ -13,11 +13,11 @@
 --- @field Role3 Texture
 --- @field Roles table<number, Texture>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L42)
 --- child of LFGListGroupDataDisplayTemplate
 --- @class LFGListGroupDataDisplayTemplate_RoleCount : Frame, RoleCountNoScriptsTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L43)
 --- child of LFGListGroupDataDisplayTemplate
 --- @class LFGListGroupDataDisplayTemplate_Enumerate : Frame
 --- @field Icon1 Texture
@@ -27,21 +27,21 @@
 --- @field Icon5 Texture
 --- @field Icons table<number, Texture>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L88)
 --- child of LFGListGroupDataDisplayTemplate_PlayerCount
 --- @class LFGListGroupDataDisplayTemplate_PlayerCount_Count : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L79)
 --- child of LFGListGroupDataDisplayTemplate
 --- @class LFGListGroupDataDisplayTemplate_PlayerCount : Frame
 --- @field Icon Texture
 --- @field Count LFGListGroupDataDisplayTemplate_PlayerCount_Count
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L8)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L8)
 --- child of LFGListGroupDataDisplayTemplate
 --- @class LFGListGroupDataDisplayTemplate_Comment : FontString, GameFontNormalLeftLightGrey
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L4)
 --- Template
 --- @class LFGListGroupDataDisplayTemplate : Frame
 --- @field Solo LFGListGroupDataDisplayTemplate_Solo
@@ -50,23 +50,23 @@
 --- @field PlayerCount LFGListGroupDataDisplayTemplate_PlayerCount
 --- @field Comment LFGListGroupDataDisplayTemplate_Comment
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L168)
 --- child of LFGBrowseSearchEntryTemplate
 --- @class LFGBrowseSearchEntryTemplate_DataDisplay : Frame, LFGListGroupDataDisplayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L118)
 --- child of LFGBrowseSearchEntryTemplate
 --- @class LFGBrowseSearchEntryTemplate_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L125)
 --- child of LFGBrowseSearchEntryTemplate
 --- @class LFGBrowseSearchEntryTemplate_Level : FontString, GameFontDisableSmallLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L143)
 --- child of LFGBrowseSearchEntryTemplate
 --- @class LFGBrowseSearchEntryTemplate_ActivityName : FontString, GameFontDisableSmallLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L99)
 --- Template
 --- @class LFGBrowseSearchEntryTemplate : Button
 --- @field DataDisplay LFGBrowseSearchEntryTemplate_DataDisplay
@@ -80,15 +80,15 @@
 --- @field Selected Texture
 --- @field Highlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L186)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L186)
 --- child of LFGBrowseSearchEntryTooltipGroupMember
 --- @class LFGBrowseSearchEntryTooltipGroupMember_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L192)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L192)
 --- child of LFGBrowseSearchEntryTooltipGroupMember
 --- @class LFGBrowseSearchEntryTooltipGroupMember_Level : FontString, GameFontDisableSmallLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L182)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L182)
 --- Template
 --- @class LFGBrowseSearchEntryTooltipGroupMember : Frame
 --- @field Name LFGBrowseSearchEntryTooltipGroupMember_Name
@@ -96,38 +96,38 @@
 --- @field Role Texture
 --- @field Roles table<number, Texture>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L207)
 --- Template
 --- @class LFGBrowseSearchEntryTooltipGroupLeader : Frame, LFGBrowseSearchEntryTooltipGroupMember
 --- @field Role2 Texture
 --- @field Role3 Texture
 --- @field Roles table<number, Texture>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L225)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L225)
 --- Template
 --- @class LFGBrowseSearchEntryTooltipActivityNameTemplate : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L271)
 --- child of LFGBrowseSearchEntryTooltip
 --- @class LFGBrowseSearchEntryTooltip_Leader : Frame, LFGBrowseSearchEntryTooltipGroupLeader
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L234)
 --- child of LFGBrowseSearchEntryTooltip
 --- @class LFGBrowseSearchEntryTooltip_Delisted : FontString, GameFontRed
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L244)
 --- child of LFGBrowseSearchEntryTooltip
 --- @class LFGBrowseSearchEntryTooltip_NewPlayerFriendlyText : FontString, GameFontGreen
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L256)
 --- child of LFGBrowseSearchEntryTooltip
 --- @class LFGBrowseSearchEntryTooltip_Comment : FontString, GameFontNormalLeftLightGrey
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L262)
 --- child of LFGBrowseSearchEntryTooltip
 --- @class LFGBrowseSearchEntryTooltip_MemberCount : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L226)
 --- @class LFGBrowseSearchEntryTooltip : Frame, TooltipBackdropTemplate
 --- @field Leader LFGBrowseSearchEntryTooltip_Leader
 --- @field Delisted LFGBrowseSearchEntryTooltip_Delisted
@@ -139,37 +139,37 @@
 LFGBrowseSearchEntryTooltip = {}
 LFGBrowseSearchEntryTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L284)
 --- child of LFGBrowseFrameCategoryDropDown (created in template UIDropDownMenuTemplate)
 --- @type UIDropDownMenuTemplate_Button
 LFGBrowseFrameCategoryDropDownButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L226)
 --- child of LFGBrowseFrameCategoryDropDown (created in template UIDropDownMenuTemplate)
 --- @type Texture
 LFGBrowseFrameCategoryDropDownLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L239)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L239)
 --- child of LFGBrowseFrameCategoryDropDown (created in template UIDropDownMenuTemplate)
 --- @type Texture
 LFGBrowseFrameCategoryDropDownMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L248)
 --- child of LFGBrowseFrameCategoryDropDown (created in template UIDropDownMenuTemplate)
 --- @type Texture
 LFGBrowseFrameCategoryDropDownRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L257)
 --- child of LFGBrowseFrameCategoryDropDown (created in template UIDropDownMenuTemplate)
 --- @type UIDropDownMenuTemplate_Text
 LFGBrowseFrameCategoryDropDownText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L271)
 --- child of LFGBrowseFrameCategoryDropDown (created in template UIDropDownMenuTemplate)
 --- @type Texture
 LFGBrowseFrameCategoryDropDownIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L333)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameCategoryDropDown : Button, LFGDropDownTemplate
 LFGBrowseFrameCategoryDropDown = {}
@@ -180,41 +180,41 @@ LFGBrowseFrameCategoryDropDown["Right"] = LFGBrowseFrameCategoryDropDownRight --
 LFGBrowseFrameCategoryDropDown["Text"] = LFGBrowseFrameCategoryDropDownText -- inherited
 LFGBrowseFrameCategoryDropDown["Icon"] = LFGBrowseFrameCategoryDropDownIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L350)
 --- child of LFGBrowseFrameActivityDropDown
 --- @class LFGBrowseFrameActivityDropDown_ResetButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L284)
 --- child of LFGBrowseFrameActivityDropDown (created in template UIDropDownMenuTemplate)
 --- @type UIDropDownMenuTemplate_Button
 LFGBrowseFrameActivityDropDownButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L226)
 --- child of LFGBrowseFrameActivityDropDown (created in template UIDropDownMenuTemplate)
 --- @type Texture
 LFGBrowseFrameActivityDropDownLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L239)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L239)
 --- child of LFGBrowseFrameActivityDropDown (created in template UIDropDownMenuTemplate)
 --- @type Texture
 LFGBrowseFrameActivityDropDownMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L248)
 --- child of LFGBrowseFrameActivityDropDown (created in template UIDropDownMenuTemplate)
 --- @type Texture
 LFGBrowseFrameActivityDropDownRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L257)
 --- child of LFGBrowseFrameActivityDropDown (created in template UIDropDownMenuTemplate)
 --- @type UIDropDownMenuTemplate_Text
 LFGBrowseFrameActivityDropDownText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L271)
 --- child of LFGBrowseFrameActivityDropDown (created in template UIDropDownMenuTemplate)
 --- @type Texture
 LFGBrowseFrameActivityDropDownIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L345)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L345)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameActivityDropDown : Button, LFGDropDownTemplate
 --- @field ResetButton LFGBrowseFrameActivityDropDown_ResetButton
@@ -226,20 +226,20 @@ LFGBrowseFrameActivityDropDown["Right"] = LFGBrowseFrameActivityDropDownRight --
 LFGBrowseFrameActivityDropDown["Text"] = LFGBrowseFrameActivityDropDownText -- inherited
 LFGBrowseFrameActivityDropDown["Icon"] = LFGBrowseFrameActivityDropDownIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L372)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L372)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameRefreshButton : Button
 --- @field Icon Texture
 LFGBrowseFrameRefreshButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L409)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L409)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameScrollBox : Frame, WowScrollBoxList
 LFGBrowseFrameScrollBox = {}
 LFGBrowseFrameScrollBox["canInterpolateScroll"] = false -- inherited
 LFGBrowseFrameScrollBox["debugInspectionSystem"] = "ScrollBox" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L415)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L415)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameScrollBar : EventFrame, WowClassicScrollBar
 LFGBrowseFrameScrollBar = {}
@@ -254,66 +254,66 @@ LFGBrowseFrameScrollBar["thumbAnchor"] = "TOPLEFT" -- inherited
 LFGBrowseFrameScrollBar["panRepeatTime"] = .1 -- inherited
 LFGBrowseFrameScrollBar["panDelay"] = .5 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L427)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L427)
 --- child of LFGBrowseFrameSearchingSpinner
 --- @class LFGBrowseFrameSearchingSpinner_Label : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L421)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L421)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameSearchingSpinner : Frame, LoadingSpinnerTemplate
 --- @field Label LFGBrowseFrameSearchingSpinner_Label
 LFGBrowseFrameSearchingSpinner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L435)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameOptionsButton : DropdownButton, LFGOptionsButton, LFGBrowseOptionsButton
 LFGBrowseFrameOptionsButton = {}
 LFGBrowseFrameOptionsButton["menuMixin"] = MenuStyle2Mixin -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L443)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameSendMessageButton : Button, UIPanelButtonTemplate
 LFGBrowseFrameSendMessageButton = {}
 LFGBrowseFrameSendMessageButton["fitTextCanWidthDecrease"] = true -- inherited
 LFGBrowseFrameSendMessageButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L452)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L452)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameGroupInviteButton : Button, UIPanelButtonTemplate
 LFGBrowseFrameGroupInviteButton = {}
 LFGBrowseFrameGroupInviteButton["fitTextCanWidthDecrease"] = true -- inherited
 LFGBrowseFrameGroupInviteButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L286)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameFrameBackgroundTop : Texture
 LFGBrowseFrameFrameBackgroundTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L293)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameFrameBackgroundMiddle : Texture
 LFGBrowseFrameFrameBackgroundMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L302)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameBackgroundArt : Texture
 LFGBrowseFrameBackgroundArt = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L310)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameFrameBackgroundBottom : Texture
 LFGBrowseFrameFrameBackgroundBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L317)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L317)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrameFrameTitle : FontString, GameFontNormal
 LFGBrowseFrameFrameTitle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L324)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L324)
 --- child of LFGBrowseFrame
 --- @class LFGBrowseFrame_NoResultsFound : FontString, GameFontDisable
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Browse.xml#L283)
 --- @class LFGBrowseFrame : Frame, LFGBrowseMixin
 --- @field CategoryDropDown LFGBrowseFrameCategoryDropDown
 --- @field ActivityDropDown LFGBrowseFrameActivityDropDown

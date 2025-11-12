@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/DialogPopup.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/DialogPopup.xml#L4)
 --- Template
 --- @class DialogButtonTemplate : Button, DialogButtonMixin
 --- @field popupDirection string # UP
@@ -8,7 +8,7 @@
 --- @field popupCrossAxisSize number # 38
 --- @field BorderShadow Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/DialogPopup.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/DialogPopup.xml#L33)
 --- child of DialogPopupTemplate
 --- @class DialogPopupTemplate_Background : Frame
 --- @field ignoreInlayout boolean # true
@@ -17,7 +17,7 @@
 --- @field VerticalMiddle Texture
 --- @field Start Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/DialogPopup.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/DialogPopup.xml#L31)
 --- Template
 --- @class DialogPopupTemplate : Frame, DialogPopupMixin
 --- @field Background DialogPopupTemplate_Background

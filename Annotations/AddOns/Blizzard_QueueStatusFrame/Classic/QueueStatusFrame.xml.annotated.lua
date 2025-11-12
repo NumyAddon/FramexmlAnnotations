@@ -1,58 +1,58 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L8)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L8)
 --- child of QueueStatusRoleCountTemplate
 --- @class QueueStatusRoleCountTemplate_Count : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L3)
 --- Template
 --- @class QueueStatusRoleCountTemplate : Frame
 --- @field RoleIcon Texture
 --- @field Count QueueStatusRoleCountTemplate_Count
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L83)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_HealersFound : Frame, QueueStatusRoleCountTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L88)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_TanksFound : Frame, QueueStatusRoleCountTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L93)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_DamagersFound : Frame, QueueStatusRoleCountTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L98)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_AssignedSpec : Frame
 --- @field Icon Texture
 --- @field Border Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L20)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_Title : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L26)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_Status : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L32)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_SubTitle : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L56)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_TimeInQueue : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L61)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_AverageWait : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L66)
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_ExtraText : FontString, GameFontDisableSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L16)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L16)
 --- Template
 --- @class QueueStatusEntryTemplate : Frame
 --- @field HealersFound QueueStatusEntryTemplate_HealersFound
@@ -70,7 +70,7 @@
 --- @field ExtraText QueueStatusEntryTemplate_ExtraText
 --- @field EntrySeparator Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Classic/QueueStatusFrame.xml#L124)
 --- @class QueueStatusFrame : Frame, TooltipBackdropTemplate, QueueStatusFrameMixin
 QueueStatusFrame = {}
 QueueStatusFrame["layoutType"] = "TooltipDefaultLayout" -- inherited

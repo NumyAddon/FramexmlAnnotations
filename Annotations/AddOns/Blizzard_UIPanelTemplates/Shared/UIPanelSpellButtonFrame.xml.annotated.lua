@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L44)
 --- child of UIPanelSpellButtonFrameTemplate_Button
 --- @class UIPanelSpellButtonFrameTemplate_Button_Cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L34)
 --- child of UIPanelSpellButtonFrameTemplate_Button
 --- @class UIPanelSpellButtonFrameTemplate_Button_Border : Texture, ActionBarFlyoutButton_IconFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L19)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L19)
 --- child of UIPanelSpellButtonFrameTemplate
 --- @class UIPanelSpellButtonFrameTemplate_Button : Button, SecureFrameTemplate, UIPanelSpellButtonFrameMixin
 --- @field Cooldown UIPanelSpellButtonFrameTemplate_Button_Cooldown
@@ -17,11 +17,11 @@
 --- @field Border UIPanelSpellButtonFrameTemplate_Button_Border
 --- @field LockIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L52)
 --- child of UIPanelSpellButtonFrameTemplate
 --- @class UIPanelSpellButtonFrameTemplate_Label : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L4)
 --- Template
 --- @class UIPanelSpellButtonFrameTemplate : Frame, UIPanelSpellButtonFrameMixin
 --- @field textPadLeft number # 8

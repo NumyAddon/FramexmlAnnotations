@@ -1,52 +1,52 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L5)
 --- Template
 --- @class IMECandidate : Frame
 --- @field label FontString
 --- @field candidate FontString
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L31)
 --- child of IMECandidatesFrame
 --- @class IMECandidatesFrame_c1 : Frame, IMECandidate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L36)
 --- child of IMECandidatesFrame
 --- @class IMECandidatesFrame_c2 : Frame, IMECandidate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L41)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L41)
 --- child of IMECandidatesFrame
 --- @class IMECandidatesFrame_c3 : Frame, IMECandidate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L46)
 --- child of IMECandidatesFrame
 --- @class IMECandidatesFrame_c4 : Frame, IMECandidate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L51)
 --- child of IMECandidatesFrame
 --- @class IMECandidatesFrame_c5 : Frame, IMECandidate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L56)
 --- child of IMECandidatesFrame
 --- @class IMECandidatesFrame_c6 : Frame, IMECandidate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L61)
 --- child of IMECandidatesFrame
 --- @class IMECandidatesFrame_c7 : Frame, IMECandidate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L66)
 --- child of IMECandidatesFrame
 --- @class IMECandidatesFrame_c8 : Frame, IMECandidate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L71)
 --- child of IMECandidatesFrame
 --- @class IMECandidatesFrame_c9 : Frame, IMECandidate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L76)
 --- child of IMECandidatesFrame
 --- @class IMECandidatesFrame_c10 : Frame, IMECandidate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_IME/IME.xml#L26)
 --- @class IMECandidatesFrame : Frame, TooltipBorderBackdropTemplate
 --- @field c1 IMECandidatesFrame_c1
 --- @field c2 IMECandidatesFrame_c2

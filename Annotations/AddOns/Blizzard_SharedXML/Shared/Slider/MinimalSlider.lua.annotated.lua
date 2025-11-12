@@ -37,7 +37,7 @@ MinimalSliderWithSteppersMixin:GenerateCallbackEvents(
 	}
 );
 
-MinimalSliderWithSteppersMixin.Label = EnumUtil.MakeEnum("Left", "Right", "Top", "Min", "Max");
+MinimalSliderWithSteppersMixin.Label = EnumUtil.MakeEnum("Left", "Right", "Top", "Min", "Max");--- @type {["Left"]: 1, ["Right"]: 2, ["Top"]: 3, ["Min"]: 4, ["Max"]: 5} See [MinimalSliderWithSteppersMixin.Label](lua://MinimalSliderWithSteppersMixin.Label)
 
 local interactionFlags = {
 	Hover = 1,

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L3)
 --- Template
 --- @class MinimalSliderTemplate : Slider, MinimalSliderMixin
 --- @field obeyStepOnDrag boolean # true
@@ -9,39 +9,39 @@
 --- @field Middle Texture
 --- @field Thumb Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L37)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L37)
 --- child of MinimalSliderWithSteppersTemplate
 --- @class MinimalSliderWithSteppersTemplate_Slider : Slider, MinimalSliderTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L43)
 --- child of MinimalSliderWithSteppersTemplate
 --- @class MinimalSliderWithSteppersTemplate_Back : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L54)
 --- child of MinimalSliderWithSteppersTemplate
 --- @class MinimalSliderWithSteppersTemplate_Forward : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L68)
 --- child of MinimalSliderWithSteppersTemplate
 --- @class MinimalSliderWithSteppersTemplate_LeftText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L73)
 --- child of MinimalSliderWithSteppersTemplate
 --- @class MinimalSliderWithSteppersTemplate_RightText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L78)
 --- child of MinimalSliderWithSteppersTemplate
 --- @class MinimalSliderWithSteppersTemplate_TopText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L83)
 --- child of MinimalSliderWithSteppersTemplate
 --- @class MinimalSliderWithSteppersTemplate_MinText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L88)
 --- child of MinimalSliderWithSteppersTemplate
 --- @class MinimalSliderWithSteppersTemplate_MaxText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.xml#L34)
 --- Template
 --- @class MinimalSliderWithSteppersTemplate : Frame, MinimalSliderWithSteppersMixin
 --- @field Slider MinimalSliderWithSteppersTemplate_Slider

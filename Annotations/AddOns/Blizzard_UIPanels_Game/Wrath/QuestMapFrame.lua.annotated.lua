@@ -1,6 +1,6 @@
 local tooltipButton;
 
-QuestLogButtonTypes = EnumUtil.MakeEnum("None", "Any", "Header", "Quest");
+QuestLogButtonTypes = EnumUtil.MakeEnum("None", "Any", "Header", "Quest");--- @type {["None"]: 1, ["Any"]: 2, ["Header"]: 3, ["Quest"]: 4} See [QuestLogButtonTypes](lua://QuestLogButtonTypes)
 
 QuestLogMixin = { };--- @class QuestLogMixin
 

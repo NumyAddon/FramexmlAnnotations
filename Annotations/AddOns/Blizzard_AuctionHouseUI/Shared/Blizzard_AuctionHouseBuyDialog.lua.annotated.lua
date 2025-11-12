@@ -91,7 +91,7 @@ local AUCTION_HOUSE_BUY_DIALOG_EVENTS = {
 	"COMMODITY_PURCHASE_FAILED",
 };
 
-local BuyState = EnumUtil.MakeEnum(
+local BuyState = EnumUtil.MakeEnum(--- @type {["WaitingForQuote"]: 1, ["PriceConfirmed"]: 2, ["PriceUpdated"]: 3, ["PriceUnavailable"]: 4, ["Purchasing"]: 5, ["Waiting"]: 6}
 	"WaitingForQuote",
 	"PriceConfirmed",
 	"PriceUpdated",

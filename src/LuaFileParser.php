@@ -4,10 +4,15 @@ declare(strict_types=1);
 
 namespace App;
 
+/**
+ * @phpstan-type AnnotationData array{lineNr: int, classAnnotation: string, annotated: string}
+ */
 class LuaFileParser
 {
     /** @var array<string, array<string, array{lineNr: int, classAnnotation: string, annotated: string}> [filename => [mixin name => mixin data]] */
     private array $mixins = [];
+    /** @var array<string, list<array{lineNr: int, enumAnnotation: null|string, typeAnnotation: string}>> [filename => list of enum data] */
+    private array $enums = [];
     /** @var array<string, array<string, string> [filename => [function name => function data]] */
     private array $functions = [];
 
@@ -21,7 +26,9 @@ class LuaFileParser
         $fileContents = file_get_contents($filename);
         if (str_starts_with($filename, $prefixToStrip)) {
             $linkFilename = substr($filename, strlen($prefixToStrip));
-            $linkPrefix = $linkPrefix ? str_replace('//', '/', $linkPrefix . '/' . $linkFilename) : null;
+            $linkPrefix = $linkPrefix
+                ? sprintf('%s/%s', rtrim($linkPrefix, '/'), ltrim($linkFilename, '/'))
+                : null;
         }
 
         $mixins = $this->extractMixins($fileContents, $linkPrefix);
@@ -30,6 +37,8 @@ class LuaFileParser
         if (!$this->mixAnnotationsIntoSource) {
             $functions = $this->extractFunctions($fileContents, $mixins, $linkPrefix);
             $this->functions[$filename] = $functions;
+        } else {
+            $this->enums[$filename] = $this->extractEnums($fileContents, $linkPrefix);
         }
     }
 
@@ -40,6 +49,9 @@ class LuaFileParser
             $byLine = explode("\n", $data);
             foreach ($this->mixins[$filename] ?? [] as $funcInfo) {
                 $byLine[$funcInfo['lineNr'] - 1] .= $funcInfo['classAnnotation'];
+            }
+            foreach ($this->enums[$filename] ?? [] as $enumInfo) {
+                $byLine[$enumInfo['lineNr'] - 1] .= $enumInfo['typeAnnotation'];
             }
             $data = implode("\n", $byLine);
         } else {
@@ -57,6 +69,25 @@ class LuaFileParser
         $targetFile = $outDir . '/' . $filename . '.annotated.lua';
         if (!is_dir(dirname($targetFile))) {
             mkdir($outDir . '/' . dirname($filename), recursive: true);
+        }
+
+        file_put_contents($targetFile, $data);
+    }
+
+    public function writeEnumsFile(string $filename, string $outDir): void
+    {
+        $targetFile = $outDir . '/' . $filename . '.annotated.lua';
+        if (!is_dir(dirname($targetFile))) {
+            mkdir($outDir . '/' . dirname($filename), recursive: true);
+        }
+
+        $data = "--- @meta _\n\n";
+        foreach ($this->enums as $enums) {
+            foreach ($enums as $enumInfo) {
+                if ($enumInfo['enumAnnotation']) {
+                    $data .= $enumInfo['enumAnnotation'] . "\n\n";
+                }
+            }
         }
 
         file_put_contents($targetFile, $data);
@@ -192,6 +223,88 @@ class LuaFileParser
 //        }
 
         return $functions;
+    }
+
+    private function extractEnums(string $fileContents, ?string $linkPrefix): array
+    {
+        $enums = [];
+        // e.g. `local foo = EnumUtil.MakeEnum("firstValue", "secondValue", "Value3")`
+        // e.g. `foo = EnumUtil.MakeEnum("firstValue", "secondValue", "Value3")`
+        // e.g. `Something.Foo = EnumUtil.MakeEnum("firstValue", "secondValue", "Value3")`
+        $regex = '/^(?<local>local )?(?<name>\S+) = EnumUtil\.MakeEnum\((?<values>(?:\s*"[^",]+?",?\s*(?:--\s*(?<comment>[^\n]+\n))?)+)\)/m';
+        $valueRegex = '/(?<value>"[^",]+?"),?\s*(?:--\s*(?<comment>[^\n]+))?/m';
+        $matches = [];
+        preg_match_all(
+            $regex,
+            $fileContents,
+            $matches,
+            PREG_SET_ORDER | PREG_OFFSET_CAPTURE,
+        );
+        foreach ($matches as $match) {
+            $isLocal = $match['local'][1] !== -1;
+            $enumName = $match['name'][0];
+            $enumValuesRaw = $match['values'][0];
+            $enumValues = [];
+            $valueComments = [];
+            $valueMatches = [];
+            preg_match_all($valueRegex, $enumValuesRaw, $valueMatches, PREG_SET_ORDER | PREG_OFFSET_CAPTURE);
+            foreach ($valueMatches as $valueMatch) {
+                $value = $valueMatch['value'][0];
+                if (isset($valueMatch['comment']) && $valueMatch['comment'][1] !== -1) {
+                    $valueComments[] = ' -- ' . $valueMatch['comment'][0];
+                } else {
+                    $valueComments[] = '';
+                }
+                $enumValues[] = $value;
+            }
+
+            // --- @type {["firstValue"] = 1, ["secondValue"] = 2, ["value3"] = 3}
+            $typeAnnotation = sprintf(
+                '--- @type {%s}',
+                implode(
+                    ', ',
+                    array_map(
+                        fn (string $v, int $i) => sprintf(
+                            '[%s]: %d',
+                            str_replace("\n", ' ', $v),
+                            $i + 1,
+                        ),
+                        $enumValues,
+                        array_keys($enumValues),
+                    ),
+                ),
+            );
+            $lineNr = $this->getLineNrFromOffset($fileContents, $match['name'][1]);
+            if ($isLocal) {
+                $enumAnnotation = null;
+            } else {
+                $typeAnnotation .= sprintf(' See [%s](lua://%s)', $enumName, $enumName);
+                $enumAnnotation = sprintf(
+                    "--- @enum %s\nlocal %s = {\n    %s\n}",
+                    $enumName,
+                    str_replace('.', '_', $enumName),
+                    implode(
+                        "\n    ",
+                        array_map(
+                            fn (string $v, int $i, string $comment) => sprintf('[%s] = %d,%s', $v, $i + 1, $comment),
+                            $enumValues,
+                            array_keys($enumValues),
+                            $valueComments,
+                        ),
+                    ),
+                );
+                if ($linkPrefix) {
+                    $enumAnnotation = "--- [Source]($linkPrefix#L$lineNr)\n$enumAnnotation";
+                }
+            }
+            $enums[] = [
+                'lineNr' => $lineNr,
+                'enumAnnotation' => $enumAnnotation,
+                'typeAnnotation' => $typeAnnotation,
+            ];
+        }
+
+        return $enums;
     }
 
     private function getLineNrFromOffset(string $file, int $offset): int

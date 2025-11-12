@@ -118,6 +118,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
             $progressBar->advance();
         }
         $xmlFileParser->writeTemplatesFile('_templates.lua', $outputDir);
+        $luaFileParser->writeEnumsFile('_enums.lua', $outputDir);
         $progressBar->finish();
 
         $io->success('Done!');

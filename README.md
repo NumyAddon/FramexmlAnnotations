@@ -20,9 +20,10 @@ Generated annotations are limited to
    - Frame Templates
    - Intrinsic Frame Templates
    - Limited support for inheritance, children, and <KeyValues>
- - Globals with a name ending in `Mixin`; some mixins may be missing
+ - Mixins - some mixins, especially local ones, may be missing
    - "methods" for a given mixin
    - inheritance through `CreateFromMixins`
+- Enums created with `EnumUtil.MakeEnum`
 
 Disclaimer: Generated annotations by their very nature are not 100% accurate and may be imprecise or missing altogether.
 

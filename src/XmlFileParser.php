@@ -173,7 +173,9 @@ class XmlFileParser
 
         if (str_starts_with($filename, $prefixToStrip)) {
             $filename = substr($filename, strlen($prefixToStrip));
-            $linkPrefix = $linkPrefix ? str_replace('//', '/', $linkPrefix . '/' . $filename) : null;
+            $linkPrefix = $linkPrefix
+                ? sprintf('%s/%s', rtrim($linkPrefix, '/'), ltrim($filename, '/'))
+                : null;
         }
         $targetFile = $outDir . '/' . $filename . '.annotated.lua';
         if (!is_dir(dirname($targetFile))) {

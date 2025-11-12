@@ -1,46 +1,46 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L3)
 --- Template
 --- @class MainBarActionBarButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field showButtonArt boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L10)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L10)
 --- Template
 --- @class HorizontalDividerTemplate : Frame, NineSliceCodeTemplate
 --- @field ignoreInLayout boolean # true
 --- @field layoutType string # ThreeSliceVerticalLayout
 --- @field layoutTextureKit string # ui-hud-actionbar-frame-divider
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L20)
 --- Template
 --- @class VerticalDividerTemplate : Frame, NineSliceCodeTemplate
 --- @field ignoreInLayout boolean # true
 --- @field layoutType string # ThreeSliceHorizontalLayout
 --- @field layoutTextureKit string # ui-hud-actionbar-frame-divider
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L91)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L91)
 --- child of MainMenuBar
 --- @class MainMenuBar_EndCaps : Frame
 --- @field ignoreInLayout boolean # true
 --- @field LeftEndCap Texture
 --- @field RightEndCap Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L131)
 --- child of MainMenuBar_ActionBarPageNumber
 --- @class MainMenuBar_ActionBarPageNumber_UpButton : Button, QuickKeybindButtonTemplate, MainActionBarUpButtonMixin
 --- @field commandName string # NEXTACTIONPAGE
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L148)
 --- child of MainMenuBar_ActionBarPageNumber
 --- @class MainMenuBar_ActionBarPageNumber_DownButton : Button, QuickKeybindButtonTemplate, MainActionBarDownButtonMixin
 --- @field commandName string # PREVIOUSACTIONPAGE
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L122)
 --- child of MainMenuBar_ActionBarPageNumber
 --- @class MainMenuBar_ActionBarPageNumber_Text : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L113)
 --- child of MainMenuBar
 --- @class MainMenuBar_ActionBarPageNumber : Frame, ResizeLayoutFrame
 --- @field ignoreInLayout boolean # true
@@ -48,7 +48,7 @@
 --- @field DownButton MainMenuBar_ActionBarPageNumber_DownButton
 --- @field Text MainMenuBar_ActionBarPageNumber_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L168)
 --- child of MainMenuBar
 --- @class MainMenuBarVehicleLeaveButton : Button, EditModeVehicleLeaveButtonSystemTemplate, MainMenuBarVehicleLeaveButtonMixin
 --- @field ignoreInLayout boolean # true
@@ -61,12 +61,12 @@ MainMenuBarVehicleLeaveButton["system"] = Enum.EditModeSystem.VehicleLeaveButton
 MainMenuBarVehicleLeaveButton["systemNameString"] = HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL -- inherited
 MainMenuBarVehicleLeaveButton["defaultHideSelection"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L52)
 --- child of MainMenuBar
 --- @class MainMenuBar_BorderArt : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L29)
 --- @class MainMenuBar : Frame, EditModeActionBarTemplate, MainMenuBarMixin
 --- @field buttonTemplate string # MainBarActionBarButtonTemplate
 --- @field commandNamePrefix string # ACTION

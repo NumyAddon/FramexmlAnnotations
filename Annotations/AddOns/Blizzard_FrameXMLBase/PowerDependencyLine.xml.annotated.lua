@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L22)
 --- child of PowerDependencyLineTemplate
 --- @class PowerDependencyLineTemplate_ScrollAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L26)
 --- child of PowerDependencyLineTemplate
 --- @class PowerDependencyLineTemplate_FadeAnim : AnimationGroup
 --- @field Background Alpha
@@ -12,14 +12,14 @@
 --- @field FillScroll1 Alpha
 --- @field FillScroll2 Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L32)
 --- child of PowerDependencyLineTemplate
 --- @class PowerDependencyLineTemplate_RevealAnim : AnimationGroup
 --- @field Start1 Alpha
 --- @field Start2 Alpha
 --- @field LineScale LineScale
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L5)
 --- Template
 --- @class PowerDependencyLineTemplate : Frame, PowerDependencyLineMixin
 --- @field isCurved boolean # false
@@ -32,18 +32,18 @@
 --- @field RevealAnim PowerDependencyLineTemplate_RevealAnim
 --- @field FillScrolls table<number, Line>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L60)
 --- child of PowerDependencyCurvedLineTemplate
 --- @class PowerDependencyCurvedLineTemplate_ScrollAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L63)
 --- child of PowerDependencyCurvedLineTemplate
 --- @class PowerDependencyCurvedLineTemplate_FadeAnim : AnimationGroup
 --- @field Background Alpha
 --- @field Fill Alpha
 --- @field FillScroll1 Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/PowerDependencyLine.xml#L44)
 --- Template
 --- @class PowerDependencyCurvedLineTemplate : Frame, PowerDependencyLineMixin
 --- @field isCurved boolean # true

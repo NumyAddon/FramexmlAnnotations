@@ -1,17 +1,17 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L186)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L186)
 --- @class PlayerInteractionFrameManagerMixin
 PlayerInteractionFrameManagerMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L188)
 function PlayerInteractionFrameManagerMixin:ShowFrame(interactionType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L210)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L210)
 function PlayerInteractionFrameManagerMixin:HideFrame(interactionType) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L233)
 function PlayerInteractionFrameManagerMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L238)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/PlayerInteractionFrameManager.lua#L238)
 function PlayerInteractionFrameManagerMixin:OnEvent(event, ...) end

@@ -1,31 +1,31 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L4)
 --- Template
 --- Adds itself to the parent inside the array `petUnitFrames`
 --- @class CompactPartyPetUnitFrameTemplate : Button, CompactUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L15)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L15)
 --- child of CompactPartyFrameTemplate
 --- @class CompactPartyFrameTemplate_Pet1 : Button, CompactPartyPetUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L20)
 --- child of CompactPartyFrameTemplate
 --- @class CompactPartyFrameTemplate_Pet2 : Button, CompactPartyPetUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L25)
 --- child of CompactPartyFrameTemplate
 --- @class CompactPartyFrameTemplate_Pet3 : Button, CompactPartyPetUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L30)
 --- child of CompactPartyFrameTemplate
 --- @class CompactPartyFrameTemplate_Pet4 : Button, CompactPartyPetUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L35)
 --- child of CompactPartyFrameTemplate
 --- @class CompactPartyFrameTemplate_Pet5 : Button, CompactPartyPetUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L6)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactPartyFrame.xml#L6)
 --- Template
 --- @class CompactPartyFrameTemplate : Frame, CompactRaidGroupTemplate, CompactPartyFrameMixin
 --- @field layoutIndex number # 1

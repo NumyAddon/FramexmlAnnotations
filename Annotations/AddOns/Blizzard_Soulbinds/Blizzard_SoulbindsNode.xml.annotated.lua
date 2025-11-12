@@ -1,28 +1,28 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L22)
 --- child of SoulbindTreeNodeTemplate
 --- @class SoulbindTreeNodeTemplate_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L5)
 --- Template
 --- @class SoulbindTreeNodeTemplate : Button, SoulbindTreeNodeMixin
 --- @field FxModelScene SoulbindTreeNodeTemplate_FxModelScene
 --- @field Arrow Texture
 --- @field Arrow2 Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L87)
 --- child of SoulbindTraitNodeTemplate_RingOverlay
 --- @class SoulbindTraitNodeTemplate_RingOverlay_Anim : AnimationGroup
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L81)
 --- child of SoulbindTraitNodeTemplate
 --- @class SoulbindTraitNodeTemplate_RingOverlay : Texture
 --- @field Anim SoulbindTraitNodeTemplate_RingOverlay_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L37)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L37)
 --- Template
 --- @class SoulbindTraitNodeTemplate : Button, SoulbindTreeNodeTemplate, SoulbindTraitNodeMixin
 --- @field Background Texture
@@ -32,158 +32,158 @@
 --- @field RingOverlay SoulbindTraitNodeTemplate_RingOverlay
 --- @field MouseOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L105)
 --- Template
 --- @class ConduitInstallTemplate : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L162)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L162)
 --- child of SoulbindConduitNodeTemplate_PickupOverlay
 --- @class SoulbindConduitNodeTemplate_PickupOverlay_Anim : AnimationGroup
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L156)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_PickupOverlay : Texture
 --- @field Anim SoulbindConduitNodeTemplate_PickupOverlay_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L174)
 --- child of SoulbindConduitNodeTemplate_PickupOverlay2
 --- @class SoulbindConduitNodeTemplate_PickupOverlay2_Anim : AnimationGroup
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L168)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_PickupOverlay2 : Texture
 --- @field Anim SoulbindConduitNodeTemplate_PickupOverlay2_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L186)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L186)
 --- child of SoulbindConduitNodeTemplate_PickupArrowsOverlay
 --- @class SoulbindConduitNodeTemplate_PickupArrowsOverlay_Anim : AnimationGroup
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L180)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_PickupArrowsOverlay : Texture
 --- @field Anim SoulbindConduitNodeTemplate_PickupArrowsOverlay_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L205)
 --- child of SoulbindConduitNodeTemplate_UnsocketedWarning
 --- @class SoulbindConduitNodeTemplate_UnsocketedWarning_Anim : AnimationGroup
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L199)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L199)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_UnsocketedWarning : Texture
 --- @field Anim SoulbindConduitNodeTemplate_UnsocketedWarning_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L217)
 --- child of SoulbindConduitNodeTemplate_UnsocketedWarning2
 --- @class SoulbindConduitNodeTemplate_UnsocketedWarning2_Anim : AnimationGroup
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L211)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L211)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_UnsocketedWarning2 : Texture
 --- @field Anim SoulbindConduitNodeTemplate_UnsocketedWarning2_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L228)
 --- child of SoulbindConduitNodeTemplate_EnhancedNodeSheen
 --- @class SoulbindConduitNodeTemplate_EnhancedNodeSheen_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L223)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L223)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_EnhancedNodeSheen : Texture
 --- @field Anim SoulbindConduitNodeTemplate_EnhancedNodeSheen_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L249)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L249)
 --- child of SoulbindConduitNodeTemplate_RingOverlay
 --- @class SoulbindConduitNodeTemplate_RingOverlay_Anim : AnimationGroup
 --- @field FadeIn Alpha
 --- @field FadeOut Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L243)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_RingOverlay : Texture
 --- @field Anim SoulbindConduitNodeTemplate_RingOverlay_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L271)
 --- child of SoulbindConduitNodeTemplate_Ring2
 --- @class SoulbindConduitNodeTemplate_Ring2_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L269)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_Ring2 : Texture, ConduitInstallTemplate
 --- @field Anim SoulbindConduitNodeTemplate_Ring2_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L278)
 --- child of SoulbindConduitNodeTemplate_Ring3
 --- @class SoulbindConduitNodeTemplate_Ring3_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L276)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_Ring3 : Texture, ConduitInstallTemplate
 --- @field Anim SoulbindConduitNodeTemplate_Ring3_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L285)
 --- child of SoulbindConduitNodeTemplate_Ring4
 --- @class SoulbindConduitNodeTemplate_Ring4_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L283)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_Ring4 : Texture, ConduitInstallTemplate
 --- @field Anim SoulbindConduitNodeTemplate_Ring4_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L292)
 --- child of SoulbindConduitNodeTemplate_Ring5
 --- @class SoulbindConduitNodeTemplate_Ring5_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L290)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_Ring5 : Texture, ConduitInstallTemplate
 --- @field Anim SoulbindConduitNodeTemplate_Ring5_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L299)
 --- child of SoulbindConduitNodeTemplate_Ring6
 --- @class SoulbindConduitNodeTemplate_Ring6_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L297)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_Ring6 : Texture, ConduitInstallTemplate
 --- @field Anim SoulbindConduitNodeTemplate_Ring6_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L311)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L311)
 --- child of SoulbindConduitNodeTemplate_Ring7
 --- @class SoulbindConduitNodeTemplate_Ring7_Anim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L305)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_Ring7 : Texture
 --- @field Anim SoulbindConduitNodeTemplate_Ring7_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L332)
 --- child of SoulbindConduitNodeTemplate_PendingStick
 --- @class SoulbindConduitNodeTemplate_PendingStick_RotateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L327)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L327)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_PendingStick : Texture
 --- @field RotateAnim SoulbindConduitNodeTemplate_PendingStick_RotateAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L342)
 --- child of SoulbindConduitNodeTemplate_PendingStick2
 --- @class SoulbindConduitNodeTemplate_PendingStick2_RotateAnim : AnimationGroup, VisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L337)
 --- child of SoulbindConduitNodeTemplate
 --- @class SoulbindConduitNodeTemplate_PendingStick2 : Texture
 --- @field RotateAnim SoulbindConduitNodeTemplate_PendingStick2_RotateAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Soulbinds/Blizzard_SoulbindsNode.xml#L112)
 --- Template
 --- @class SoulbindConduitNodeTemplate : Button, SoulbindTreeNodeTemplate, SoulbindConduitNodeMixin
 --- @field Background Texture

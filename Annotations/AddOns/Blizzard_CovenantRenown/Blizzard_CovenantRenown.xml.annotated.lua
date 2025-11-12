@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L31)
 --- child of CovenantRenownRewardTemplate
 --- @class CovenantRenownRewardTemplate_Name : FontString, GameFontNormalMed2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L5)
 --- Template
 --- @class CovenantRenownRewardTemplate : Frame, CovenantRenownRewardMixin
 --- @field Toast Texture
@@ -15,34 +15,34 @@
 --- @field Check Texture
 --- @field Highlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L126)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L126)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L127)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_LevelSkipButton : Button, RewardTrackSkipLevelUpButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L132)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L151)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L151)
 --- child of CovenantRenownFrame_HeaderFrame
 --- @class CovenantRenownFrame_HeaderFrame_Level : FontString, Game32Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L137)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_HeaderFrame : Frame, CovenantRenownHeaderFrameMixin
 --- @field Background Texture
 --- @field Level CovenantRenownFrame_HeaderFrame_Level
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L171)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_CelebrationModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L177)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_TrackFrame : Frame, RewardTrackFrameTemplate
 --- @field elementTemplate string # RenownLevelTemplate
@@ -50,24 +50,24 @@
 --- @field scrollStopSound any # SOUNDKIT.UI_COVENANT_RENOWN_SLIDE_STOP
 --- @field scrollCenterChangeSound any # SOUNDKIT.UI_COVENANT_RENOWN_SLIDE_START
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L188)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_LevelModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L194)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L194)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_FinalToast : Frame, CovenantCelebrationBannerTemplate
 --- @field SlabTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L110)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_Header : FontString, Fancy32Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L118)
 --- child of CovenantRenownFrame
 --- @class CovenantRenownFrame_PreviewText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CovenantRenown/Blizzard_CovenantRenown.xml#L66)
 --- @class CovenantRenownFrame : Frame, CovenantRenownMixin
 --- @field NineSlice CovenantRenownFrame_NineSlice
 --- @field LevelSkipButton CovenantRenownFrame_LevelSkipButton

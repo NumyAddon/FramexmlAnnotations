@@ -1,22 +1,22 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/RosterButton.xml#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/RosterButton.xml#L23)
 --- child of ChannelRosterButtonTemplate
 --- @class ChannelRosterButtonTemplate_SelfDeafenButton : Button, RosterSelfDeafenButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/RosterButton.xml#L28)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/RosterButton.xml#L28)
 --- child of ChannelRosterButtonTemplate
 --- @class ChannelRosterButtonTemplate_SelfMuteButton : Button, RosterSelfMuteButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/RosterButton.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/RosterButton.xml#L33)
 --- child of ChannelRosterButtonTemplate
 --- @class ChannelRosterButtonTemplate_MemberMuteButton : Button, RosterMemberMuteButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/RosterButton.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/RosterButton.xml#L9)
 --- child of ChannelRosterButtonTemplate
 --- @class ChannelRosterButtonTemplate_Name : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/RosterButton.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Channels/RosterButton.xml#L5)
 --- Template
 --- @class ChannelRosterButtonTemplate : Button, ChannelRosterButtonMixin
 --- @field SelfDeafenButton ChannelRosterButtonTemplate_SelfDeafenButton

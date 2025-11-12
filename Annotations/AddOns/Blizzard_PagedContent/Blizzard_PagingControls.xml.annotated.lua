@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L4)
 --- Template
 --- @class PagingControlsPrevPageButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L12)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L12)
 --- Template
 --- @class PagingControlsNextPageButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L20)
 --- Template
 --- @class PagingControlsTemplate : Frame, PagingControlsMixin
 --- @field hideWhenSinglePage boolean # false
@@ -16,23 +16,23 @@
 --- @field currentPageOnlyText any # PAGE_NUMBER
 --- @field currentPageWithMaxText any # PAGE_NUMBER_WITH_MAX
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L64)
 --- child of PagingControlsHorizontalTemplate
 --- @class PagingControlsHorizontalTemplate_PrevPageButton : Button, PagingControlsPrevPageButtonTemplate
 --- @field layoutIndex number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L69)
 --- child of PagingControlsHorizontalTemplate
 --- @class PagingControlsHorizontalTemplate_NextPageButton : Button, PagingControlsNextPageButtonTemplate
 --- @field layoutIndex number # 3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L54)
 --- child of PagingControlsHorizontalTemplate
 --- @class PagingControlsHorizontalTemplate_PageText : FontString, GameFontHighlight
 --- @field layoutIndex number # 1
 --- @field align string # center
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagingControls.xml#L47)
 --- Template
 --- @class PagingControlsHorizontalTemplate : Frame, HorizontalLayoutFrame, PagingControlsTemplate
 --- @field spacing number # 5

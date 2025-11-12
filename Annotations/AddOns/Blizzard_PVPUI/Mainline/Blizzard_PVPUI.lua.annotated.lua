@@ -1799,7 +1799,7 @@ local HONOR_INSET_WIDTH = 225;
 
 PVPUIHonorInsetMixin = { }--- @class PVPUIHonorInsetMixin
 
-PVPUIHonorInsetPanelType = EnumUtil.MakeEnum(
+PVPUIHonorInsetPanelType = EnumUtil.MakeEnum(--- @type {["Casual"]: 1, ["Rated"]: 2, ["Plunderstorm"]: 3, ["TrainingGrounds"]: 4} See [PVPUIHonorInsetPanelType](lua://PVPUIHonorInsetPanelType)
 	"Casual",
 	"Rated",
 	"Plunderstorm",
@@ -2664,7 +2664,7 @@ local TrainingGroundsFrameEvents = {
 	"TRAINING_GROUNDS_ENABLED_STATUS_UPDATED",
 };
 
-local TrainingGroundPVPType = EnumUtil.MakeEnum(
+local TrainingGroundPVPType = EnumUtil.MakeEnum(--- @type {["Specific"]: 1, ["Bonus"]: 2}
 	"Specific",
 	"Bonus"
 );

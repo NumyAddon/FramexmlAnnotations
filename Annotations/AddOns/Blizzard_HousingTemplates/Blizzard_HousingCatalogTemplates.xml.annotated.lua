@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L3)
 --- Template
 --- @class PagedHousingCatalogTemplate : Frame, PagedNaturalSizeGridContentFrameTemplate, PagedHousingCatalogMixin
 --- @field viewsPerPage number # 1
@@ -8,16 +8,16 @@
 --- @field xPadding number # 10
 --- @field yPadding number # 10
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L36)
 --- child of ScrollingHousingCatalogTemplate
 --- @class ScrollingHousingCatalogTemplate_ScrollBox : Frame, WowScrollBoxList
 --- @field wheelPanScalar number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L46)
 --- child of ScrollingHousingCatalogTemplate
 --- @class ScrollingHousingCatalogTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogTemplates.xml#L25)
 --- Template
 --- @class ScrollingHousingCatalogTemplate : Frame, ScrollingHousingCatalogMixin
 --- @field horizontalSpacing number # 5

@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L69)
 --- child of UIWidgetTemplateStatusBar_Bar
 --- @class UIWidgetTemplateStatusBar_Bar_Label : FontString, GameFontHighlightMedium, UIWidgetBaseTextMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L95)
 --- child of UIWidgetTemplateStatusBar_Bar
 --- @class UIWidgetTemplateStatusBar_Bar_GlowPulseAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L5)
 --- child of UIWidgetTemplateStatusBar
 --- @class UIWidgetTemplateStatusBar_Bar : StatusBar, UIWidgetBaseStatusBarTemplate
 --- @field BackgroundGlow Texture
@@ -26,11 +26,11 @@
 --- @field GlowCenter Texture
 --- @field GlowPulseAnim UIWidgetTemplateStatusBar_Bar_GlowPulseAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L105)
 --- child of UIWidgetTemplateStatusBar
 --- @class UIWidgetTemplateStatusBar_Label : FontString, GameFontHighlight, UIWidgetBaseTextMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateStatusBar.xml#L3)
 --- Template
 --- @class UIWidgetTemplateStatusBar : Frame, UIWidgetBaseTemplate, UIWidgetTemplateStatusBarMixin
 --- @field Bar UIWidgetTemplateStatusBar_Bar

@@ -183,7 +183,7 @@ local DRAGONRIDING_QUEST_ID = 90883;
 local SPELL_SURGE_FORWARD = 372608;
 local SPELL_SKYWARD_ASCENT = 372610;
 
-local DragonridingTutorialStep = EnumUtil.MakeEnum(
+local DragonridingTutorialStep = EnumUtil.MakeEnum(--- @type {["OpenMountJournal"]: 1, ["DragMount"]: 2, ["MountUp"]: 3, ["TakeOff"]: 4, ["FlyHigher"]: 5, ["SurgeForward"]: 6, ["LookAround"]: 7, ["Land"]: 8}
 	"OpenMountJournal",
 	"DragMount",
 	"MountUp",

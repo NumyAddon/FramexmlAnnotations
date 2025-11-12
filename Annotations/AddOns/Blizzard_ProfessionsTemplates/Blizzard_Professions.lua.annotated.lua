@@ -1,9 +1,9 @@
 
 Professions = {};
 
-Professions.ReagentInputMode = EnumUtil.MakeEnum("Fixed", "Quality", "Any");
-Professions.ReagentContents = EnumUtil.MakeEnum("None", "Partial", "All");
-Professions.ProfessionType = EnumUtil.MakeEnum("Crafting", "Gathering");
+Professions.ReagentInputMode = EnumUtil.MakeEnum("Fixed", "Quality", "Any");--- @type {["Fixed"]: 1, ["Quality"]: 2, ["Any"]: 3} See [Professions.ReagentInputMode](lua://Professions.ReagentInputMode)
+Professions.ReagentContents = EnumUtil.MakeEnum("None", "Partial", "All");--- @type {["None"]: 1, ["Partial"]: 2, ["All"]: 3} See [Professions.ReagentContents](lua://Professions.ReagentContents)
+Professions.ProfessionType = EnumUtil.MakeEnum("Crafting", "Gathering");--- @type {["Crafting"]: 1, ["Gathering"]: 2} See [Professions.ProfessionType](lua://Professions.ProfessionType)
 
 function Professions.IsValidReagent(reagent)
 	local isItemIDValid = reagent.itemID and reagent.itemID > 0;
@@ -888,7 +888,7 @@ local function SortCategoryData(lhs, rhs)
 	return strcmputf8i(lhsRecipeInfo.name, rhsRecipeInfo.name) < 0;
 end
 
-local Group = EnumUtil.MakeEnum("Favorite", "Learned", "UnlearnedDivider", "Unlearned");
+local Group = EnumUtil.MakeEnum("Favorite", "Learned", "UnlearnedDivider", "Unlearned");--- @type {["Favorite"]: 1, ["Learned"]: 2, ["UnlearnedDivider"]: 3, ["Unlearned"]: 4}
 local favoritesCategoryID = -1; --used for remembering collapse state
 
 function Professions.GenerateCraftingDataProvider(professionID, searching, noStripCategories, collapses)
@@ -1607,7 +1607,7 @@ function Professions.CreateNewOrderInfo(itemID, spellID, skillLineAbilityID, isR
 	return newOrder
 end
 
-ProfessionsSortOrder = EnumUtil.MakeEnum("Name", "Tip", "Reagents", "Quality", "Expiration", "ItemName", "Ilvl", "Slots", "Level", "Skill", "Status",
+ProfessionsSortOrder = EnumUtil.MakeEnum("Name", "Tip", "Reagents", "Quality", "Expiration", "ItemName", "Ilvl", "Slots", "Level", "Skill", "Status",--- @type {["Name"]: 1, ["Tip"]: 2, ["Reagents"]: 3, ["Quality"]: 4, ["Expiration"]: 5, ["ItemName"]: 6, ["Ilvl"]: 7, ["Slots"]: 8, ["Level"]: 9, ["Skill"]: 10, ["Status"]: 11, ["AverageTip"]: 12, ["MaxTip"]: 13, ["NumAvailable"]: 14, ["CustomerName"]: 15} See [ProfessionsSortOrder](lua://ProfessionsSortOrder)
 										 "AverageTip", "MaxTip", "NumAvailable", "CustomerName");
 									 
 local SortOrderToSortEnum =

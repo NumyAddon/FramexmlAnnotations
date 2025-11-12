@@ -176,7 +176,7 @@ function ReputationFrameMixin:RefreshAccountWideReputationTutorial()
 	HelpTip:Show(self, helpTipInfo, accountWideReputation);
 end
 
-local ReputationType = EnumUtil.MakeEnum(
+local ReputationType = EnumUtil.MakeEnum(--- @type {["Standard"]: 1, ["Friendship"]: 2, ["MajorFaction"]: 3}
 	"Standard",
 	"Friendship",
 	"MajorFaction"

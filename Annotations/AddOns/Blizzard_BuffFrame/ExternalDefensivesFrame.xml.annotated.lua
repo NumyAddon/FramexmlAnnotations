@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/ExternalDefensivesFrame.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/ExternalDefensivesFrame.xml#L3)
 --- @class ExternalDefensivesFrame : Frame, BaseAuraFrameTemplate, ExternalDefensivesFrameMixin
 --- @field exampleAuraType string # Buff
 --- @field maxAuras number # 5

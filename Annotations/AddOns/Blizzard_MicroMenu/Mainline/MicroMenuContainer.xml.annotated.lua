@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MicroMenuContainer.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MicroMenuContainer.xml#L4)
 --- @class MicroButtonAndBagsBar : Frame
 MicroButtonAndBagsBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MicroMenuContainer.xml#L11)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MicroMenuContainer.xml#L11)
 --- @class MicroMenuContainer : Frame, EditModeMicroMenuSystemTemplate, MicroMenuContainerMixin
 MicroMenuContainer = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MicroMenuContainer.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_MicroMenu/Mainline/MicroMenuContainer.xml#L22)
 --- @class MicroMenu : Frame, GridLayoutFrame, MicroMenuMixin
 --- @field childXPadding number # -5
 --- @field childYPadding number # -5

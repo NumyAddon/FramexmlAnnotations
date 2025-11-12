@@ -1,35 +1,35 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L89)
 --- child of PlayerChoiceTorghastOptionTemplate_Header
 --- @class PlayerChoiceTorghastOptionTemplate_Header_Text : FontString, QuestFontHighlightHuge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L82)
 --- child of PlayerChoiceTorghastOptionTemplate
 --- @class PlayerChoiceTorghastOptionTemplate_Header : Frame, PlayerChoiceBaseCenteredFrame, ResizeLayoutFrame
 --- @field layoutIndex number # 2
 --- @field topPadding number # 6
 --- @field Text PlayerChoiceTorghastOptionTemplate_Header_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L19)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L19)
 --- child of PlayerChoiceTorghastOptionTemplate
 --- @class PlayerChoiceTorghastOptionTemplate_SwirlBG : Texture, PlayerChoiceBaseCenteredFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L24)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L24)
 --- child of PlayerChoiceTorghastOptionTemplate
 --- @class PlayerChoiceTorghastOptionTemplate_TypeIcon : Texture, PlayerChoiceBaseCenteredFrame
 --- @field layoutIndex number # 1
 --- @field topPadding number # 3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L100)
 --- child of PlayerChoiceTorghastOptionTemplate
 --- @class PlayerChoiceTorghastOptionTemplate_SwirlAndGlowAnimations : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L108)
 --- child of PlayerChoiceTorghastOptionTemplate
 --- @class PlayerChoiceTorghastOptionTemplate_ChoiceSelectedAnimation : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceTorghastOptionTemplate.xml#L4)
 --- Template
 --- @class PlayerChoiceTorghastOptionTemplate : Frame, PlayerChoicePowerChoiceTemplate, PlayerChoiceTorghastOptionTemplateMixin
 --- @field minOptionHeight number # 388

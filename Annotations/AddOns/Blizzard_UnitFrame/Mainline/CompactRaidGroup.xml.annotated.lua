@@ -1,35 +1,35 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L4)
 --- Template
 --- Adds itself to the parent inside the array `memberUnitFrames`
 --- @class CompactRaidGroupUnitFrameTemplate : Button, CompactUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L18)
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member1 : Button, CompactRaidGroupUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L23)
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member2 : Button, CompactRaidGroupUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L30)
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member3 : Button, CompactRaidGroupUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L37)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L37)
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member4 : Button, CompactRaidGroupUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L44)
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member5 : Button, CompactRaidGroupUnitFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L61)
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_BorderFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L6)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L6)
 --- Template
 --- @class CompactRaidGroupTemplate : Frame
 --- @field isFlowGroup boolean # true

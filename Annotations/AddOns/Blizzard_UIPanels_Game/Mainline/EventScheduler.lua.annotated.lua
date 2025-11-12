@@ -27,7 +27,7 @@ local SCHEDULED_ENTRY_HEIGHT = nil;		-- calculated when first needed
 local SCHEDULED_HEADER_SPACING = 8;		-- spacing from header to first event
 local MAX_UPDATE_TIMER_DURATION = 60 * 60 * 24;		-- one day
 
-local EntryType = EnumUtil.MakeEnum(
+local EntryType = EnumUtil.MakeEnum(--- @type {["OngoingHeader"]: 1, ["OngoingEvent"]: 2, ["ScheduledHeader"]: 3, ["ScheduledEvent"]: 4, ["Date"]: 5, ["HiddenEventsLabel"]: 6, ["NoEventsLabel"]: 7}
 	"OngoingHeader",
 	"OngoingEvent",
 	"ScheduledHeader",
@@ -37,13 +37,13 @@ local EntryType = EnumUtil.MakeEnum(
 	"NoEventsLabel"
 );
 
-local AnimState = EnumUtil.MakeEnum(
+local AnimState = EnumUtil.MakeEnum(--- @type {["Pending"]: 1, ["Playing"]: 2, ["Finished"]: 3}
 	"Pending",
 	"Playing",
 	"Finished"
 );
 
-local AnimType = EnumUtil.MakeEnum(
+local AnimType = EnumUtil.MakeEnum(--- @type {["Started"]: 1, ["Expired"]: 2}
 	"Started",
 	"Expired"
 );

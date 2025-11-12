@@ -28,7 +28,7 @@ cooldownFormatter:Init(
 	SecondsFormatterConstants.DontConvertToLower);
 cooldownFormatter:SetDesiredUnitCount(2);
 
-local LayoutEntry = EnumUtil.MakeEnum("Cooldown", "Description", "Source", "FirstCraftBonus");
+local LayoutEntry = EnumUtil.MakeEnum("Cooldown", "Description", "Source", "FirstCraftBonus");--- @type {["Cooldown"]: 1, ["Description"]: 2, ["Source"]: 3, ["FirstCraftBonus"]: 4}
 
 local function CreateVerticalLayoutOrganizer(anchor, xPadding, yPadding)
 	local OrganizerMixin = {entries = {}};

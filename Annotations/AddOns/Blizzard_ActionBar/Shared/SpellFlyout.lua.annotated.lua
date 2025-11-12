@@ -3,7 +3,7 @@ local SPELLFLYOUT_DEFAULT_SPACING = 4;
 local SPELLFLYOUT_INITIAL_SPACING = 9;
 local SPELLFLYOUT_FINAL_SPACING = 9;
 
-SpellFlyoutOpenReason = EnumUtil.MakeEnum("GlyphPending", "GlyphActivated");
+SpellFlyoutOpenReason = EnumUtil.MakeEnum("GlyphPending", "GlyphActivated");--- @type {["GlyphPending"]: 1, ["GlyphActivated"]: 2} See [SpellFlyoutOpenReason](lua://SpellFlyoutOpenReason)
 
 SpellFlyoutPopupButtonMixin = {};--- @class SpellFlyoutPopupButtonMixin
 

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L4)
 --- Template
 --- Adds itself to the parent inside the array `Buttons`
 --- @class BaseHousingControlButtonTemplate : Button, BaseHousingControlButtonMixin
@@ -9,15 +9,15 @@
 --- @field Icon Texture
 --- @field HoverIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L26)
 --- Template
 --- @class HousingControlActionButtonTemplate : Button, BaseHousingActionButtonTemplate, BaseHousingControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L28)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L28)
 --- Template
 --- @class HousingControlModeButtonTemplate : Button, BaseHousingModeButtonTemplate, BaseHousingControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L33)
 --- Template
 --- @class HouseEditorButtonTemplate : Button, HousingControlModeButtonTemplate, HouseEditorButtonMixin
 --- @field iconDefault string # decor-controls-decoratemode-inactive
@@ -31,7 +31,7 @@
 --- @field keybindIconDefault string # keybind-bg
 --- @field keybindIconActive string # keybind-bg_active
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L48)
 --- Template
 --- @class HouseSettingsButtonTemplate : Button, HousingControlModeButtonTemplate, HouseSettingsButtonMixin
 --- @field iconDefault string # decor-controls-settings-default
@@ -39,7 +39,7 @@
 --- @field iconPressed string # decor-controls-settings-pressed
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L57)
 --- Template
 --- @class HousingExitButtonTemplate : Button, HousingControlActionButtonTemplate, HouseExitButtonMixin
 --- @field iconDefault string # decor-controls-exit-default
@@ -48,7 +48,7 @@
 --- @field enabledTooltip any # HOUSING_CONTROLS_EXIT_BUTTON
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L70)
 --- Template
 --- @class HouseInfoButtonTemplate : Button, HousingControlModeButtonTemplate, HouseInfoButtonMixin
 --- @field iconDefault string # decor-controls-houseinfo-default
@@ -56,7 +56,7 @@
 --- @field iconPressed string # decor-controls-houseinfo-pressed
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L82)
 --- Template
 --- @class HouseInspectorButtonTemplate : Button, HousingControlModeButtonTemplate
 --- @field iconDefault string # decor-controls-inspect-default

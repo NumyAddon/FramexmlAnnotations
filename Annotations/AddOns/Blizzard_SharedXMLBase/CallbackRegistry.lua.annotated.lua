@@ -8,7 +8,7 @@ local rawset = rawset;
 local next = next;
 local GetOrCreateTableEntry = GetOrCreateTableEntry;
 
-local CallbackType = EnumUtil.MakeEnum("Closure", "Function");
+local CallbackType = EnumUtil.MakeEnum("Closure", "Function");--- @type {["Closure"]: 1, ["Function"]: 2}
 
 local function IsCallbackTypeValid(callbackType)
 	return callbackType == CallbackType.Closure or callbackType == CallbackType.Function;

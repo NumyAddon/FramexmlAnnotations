@@ -21,10 +21,10 @@ Settings.Default =
 	False = false,
 };
 
-Settings.CategorySet = EnumUtil.MakeEnum("Game", "AddOns");
+Settings.CategorySet = EnumUtil.MakeEnum("Game", "AddOns");--- @type {["Game"]: 1, ["AddOns"]: 2} See [Settings.CategorySet](lua://Settings.CategorySet)
 
 -- Used for adding different types of controls to SettingsControlTextContainerMixin.
-Settings.ControlType = EnumUtil.MakeEnum("Radio", "Checkbox");
+Settings.ControlType = EnumUtil.MakeEnum("Radio", "Checkbox");--- @type {["Radio"]: 1, ["Checkbox"]: 2} See [Settings.ControlType](lua://Settings.ControlType)
 
 Settings.CommitFlag = FlagsUtil.MakeFlags(
 	"ClientRestart", 

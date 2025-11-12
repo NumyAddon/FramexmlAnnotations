@@ -1,40 +1,40 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L3)
 --- Template
 --- @class ItemSlotBackgroundCombinedBagsTemplate : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L7)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L7)
 --- Template
 --- @class ContainerFramePortraitButtonRouterTemplate : Button, DropdownButtonProxyMixin
 --- @field routeToSibling string # PortraitButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L22)
 --- Template
 --- @class ContainerFrameExtendedItemButtonTemplate : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L39)
 --- Template
 --- @class AddExtendedSlotsButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L58)
 --- Template
 --- @class ContainerFramePortraitButtonTemplate : DropdownButton, ContainerFramePortraitButtonMixin
 --- @field Highlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L147)
 --- child of ContainerFrameItemButtonTemplate
 --- @class ContainerFrameItemButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L86)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L86)
 --- child of ContainerFrameItemButtonTemplate
 --- @class ContainerFrameItemButtonTemplate_newitemglowAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L90)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L90)
 --- child of ContainerFrameItemButtonTemplate
 --- @class ContainerFrameItemButtonTemplate_flashAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L77)
 --- Template
 --- @class ContainerFrameItemButtonTemplate : ItemButton, EnchantingItemButtonAnimTemplate, ContainerFrameItemButtonMixin
 --- @field emptyBackgroundAtlas string # bags-item-slot64
@@ -50,40 +50,40 @@
 --- @field newitemglowAnim ContainerFrameItemButtonTemplate_newitemglowAnim
 --- @field flashAnim ContainerFrameItemButtonTemplate_flashAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L161)
 --- Template
 --- @class ContainerFrameCurrencyBorderTemplate : Frame, ContainerFrameCurrencyBorderMixin
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L195)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L195)
 --- child of ContainerMoneyFrameTemplate
 --- @class ContainerMoneyFrameTemplate_Border : Frame, ContainerFrameCurrencyBorderTemplate
 --- @field leftEdge string # common-coinbox-left
 --- @field rightEdge string # common-coinbox-right
 --- @field centerEdge string # _common-coinbox-center
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L190)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L190)
 --- Template
 --- @class ContainerMoneyFrameTemplate : Frame, SmallMoneyFrameTemplate
 --- @field showCurrencyTracking boolean # true
 --- @field Border ContainerMoneyFrameTemplate_Border
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L216)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L216)
 --- @class ContainerFrameContainer : Frame, PingTopLevelPassThroughAttributeTemplate
 ContainerFrameContainer = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_PortraitButton : DropdownButton, ContainerFramePortraitButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L241)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L241)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_FilterIcon : Frame
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L218)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L218)
 --- Template
 --- Adds itself to the parent inside the array `ContainerFrames`
 --- @class ContainerFrameTemplate : Frame, PortraitFrameFlatTemplate, ContainerFrameMixin
@@ -93,41 +93,41 @@ ContainerFrameContainer = {}
 --- @field FilterIcon ContainerFrameTemplate_FilterIcon
 --- @field Background1Slot Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L267)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L267)
 --- Template
 --- @class ContainerFrameReagentBagTemplate : Frame, ContainerFrameTemplate
 --- @field canUseForReagentBag boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L275)
 --- child of ContainerFrameBackpackTemplate
 --- @class ContainerFrameBackpackTemplate_MoneyFrame : Frame, ContainerMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L273)
 --- Template
 --- @class ContainerFrameBackpackTemplate : Frame, ContainerFrameTemplate, ContainerFrameBackpackMixin
 --- @field MoneyFrame ContainerFrameBackpackTemplate_MoneyFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L105)
 --- child of ContainerFrame1MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 ContainerFrame1MoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L124)
 --- child of ContainerFrame1MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 ContainerFrame1MoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L143)
 --- child of ContainerFrame1MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame1MoneyFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L85)
 --- child of ContainerFrame1MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type Texture
 ContainerFrame1MoneyFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L275)
 --- child of ContainerFrame1 (created in template ContainerFrameBackpackTemplate)
 --- @type ContainerFrameBackpackTemplate_MoneyFrame
 ContainerFrame1MoneyFrame = {}
@@ -138,17 +138,17 @@ ContainerFrame1MoneyFrame["SilverButton"] = ContainerFrame1MoneyFrameSilverButto
 ContainerFrame1MoneyFrame["GoldButton"] = ContainerFrame1MoneyFrameGoldButton -- inherited
 ContainerFrame1MoneyFrame["trialErrorButton"] = ContainerFrame1MoneyFrameTrialErrorButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_PortraitButton
 ContainerFrame1PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame1Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L283)
 --- @class ContainerFrame1 : Frame, ContainerFrameBackpackTemplate
 ContainerFrame1 = {}
 ContainerFrame1["MoneyFrame"] = ContainerFrame1MoneyFrame -- inherited
@@ -157,17 +157,17 @@ ContainerFrame1["onCloseCallback"] = ContainerFrame_OnCloseButtonClicked -- inhe
 ContainerFrame1["PortraitButton"] = ContainerFrame1PortraitButton -- inherited
 ContainerFrame1["Background1Slot"] = ContainerFrame1Background1Slot -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_PortraitButton
 ContainerFrame2PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame2Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L284)
 --- @class ContainerFrame2 : Frame, ContainerFrameTemplate
 ContainerFrame2 = {}
 ContainerFrame2["layoutType"] = "HeldBagLayout" -- inherited
@@ -175,17 +175,17 @@ ContainerFrame2["onCloseCallback"] = ContainerFrame_OnCloseButtonClicked -- inhe
 ContainerFrame2["PortraitButton"] = ContainerFrame2PortraitButton -- inherited
 ContainerFrame2["Background1Slot"] = ContainerFrame2Background1Slot -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_PortraitButton
 ContainerFrame3PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame3Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L285)
 --- @class ContainerFrame3 : Frame, ContainerFrameTemplate
 ContainerFrame3 = {}
 ContainerFrame3["layoutType"] = "HeldBagLayout" -- inherited
@@ -193,17 +193,17 @@ ContainerFrame3["onCloseCallback"] = ContainerFrame_OnCloseButtonClicked -- inhe
 ContainerFrame3["PortraitButton"] = ContainerFrame3PortraitButton -- inherited
 ContainerFrame3["Background1Slot"] = ContainerFrame3Background1Slot -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_PortraitButton
 ContainerFrame4PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame4Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L286)
 --- @class ContainerFrame4 : Frame, ContainerFrameTemplate
 ContainerFrame4 = {}
 ContainerFrame4["layoutType"] = "HeldBagLayout" -- inherited
@@ -211,17 +211,17 @@ ContainerFrame4["onCloseCallback"] = ContainerFrame_OnCloseButtonClicked -- inhe
 ContainerFrame4["PortraitButton"] = ContainerFrame4PortraitButton -- inherited
 ContainerFrame4["Background1Slot"] = ContainerFrame4Background1Slot -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_PortraitButton
 ContainerFrame5PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame5Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L287)
 --- @class ContainerFrame5 : Frame, ContainerFrameTemplate
 ContainerFrame5 = {}
 ContainerFrame5["layoutType"] = "HeldBagLayout" -- inherited
@@ -229,17 +229,17 @@ ContainerFrame5["onCloseCallback"] = ContainerFrame_OnCloseButtonClicked -- inhe
 ContainerFrame5["PortraitButton"] = ContainerFrame5PortraitButton -- inherited
 ContainerFrame5["Background1Slot"] = ContainerFrame5Background1Slot -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L236)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_PortraitButton
 ContainerFrame6PortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L226)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame6Background1Slot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L288)
 --- @class ContainerFrame6 : Frame, ContainerFrameReagentBagTemplate
 ContainerFrame6 = {}
 ContainerFrame6["canUseForReagentBag"] = true -- inherited
@@ -248,36 +248,36 @@ ContainerFrame6["onCloseCallback"] = ContainerFrame_OnCloseButtonClicked -- inhe
 ContainerFrame6["PortraitButton"] = ContainerFrame6PortraitButton -- inherited
 ContainerFrame6["Background1Slot"] = ContainerFrame6Background1Slot -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L296)
 --- child of ContainerFrameCombinedBags
 --- @class ContainerFrameCombinedBagsPortraitButton : DropdownButton, ContainerFramePortraitButtonTemplate
 ContainerFrameCombinedBagsPortraitButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L105)
 --- child of ContainerFrameCombinedBags_MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 ContainerFrameCombinedBagsCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L124)
 --- child of ContainerFrameCombinedBags_MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 ContainerFrameCombinedBagsSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L143)
 --- child of ContainerFrameCombinedBags_MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrameCombinedBagsGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L85)
 --- child of ContainerFrameCombinedBags_MoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type Texture
 ContainerFrameCombinedBagsTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L298)
 --- child of ContainerFrameCombinedBags
 --- @class ContainerFrameCombinedBags_MoneyFrame : Frame, ContainerMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L290)
 --- @class ContainerFrameCombinedBags : Frame, PortraitFrameFlatTemplate, ContainerFrameCombinedBagsMixin
 --- @field onCloseCallback any # ContainerFrameCombinedBagsMixin.Close
 --- @field layoutType string # HeldBagLayout
@@ -288,24 +288,24 @@ ContainerFrameCombinedBags["PortraitButton"] = ContainerFrameCombinedBagsPortrai
 ContainerFrameCombinedBags["onCloseCallback"] = ContainerFrameCombinedBagsMixin.Close
 ContainerFrameCombinedBags["layoutType"] = "HeldBagLayout"
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L44)
 --- child of BagItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 BagItemSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L35)
 --- child of BagItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 BagItemSearchBoxSearchIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L308)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L308)
 --- @class BagItemSearchBox : EditBox, BagSearchBoxTemplate
 BagItemSearchBox = {}
 BagItemSearchBox["instructionText"] = SEARCH -- inherited
 BagItemSearchBox["clearButton"] = BagItemSearchBoxClearButton -- inherited
 BagItemSearchBox["searchIcon"] = BagItemSearchBoxSearchIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L312)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ContainerFrame.xml#L312)
 --- @class BagItemAutoSortButton : Button
 BagItemAutoSortButton = {}
 

@@ -1,8 +1,8 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButton.lua#L1003)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButton.lua#L1003)
 --- @class ActionBarActionButtonMixin
 ActionBarActionButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButton.lua#L1005)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButton.lua#L1005)
 function ActionBarActionButtonMixin:UpdateAction(force) end

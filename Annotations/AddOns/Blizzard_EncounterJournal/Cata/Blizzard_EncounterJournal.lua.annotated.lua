@@ -1,49 +1,49 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L140)
 --- @class EncounterJournalItemMixin
 EncounterJournalItemMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L205)
 --- @class EncounterJournalItemHeaderMixin
 EncounterJournalItemHeaderMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L217)
 --- @class EncounterBossButtonMixin
 EncounterBossButtonMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2106)
 --- @class EncounterSearchResultLGMixin
 EncounterSearchResultLGMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2543)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2543)
 --- @class EncounterJournalScrollBarOldMixin
 EncounterJournalScrollBarOldMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2549)
 --- @class ModifiedInstanceIconMixin
 ModifiedInstanceIconMixin = { }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L142)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L142)
 function EncounterJournalItemMixin:Init(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L207)
 function EncounterJournalItemHeaderMixin:Init(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L219)
 function EncounterBossButtonMixin:Init(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2108)
 function EncounterSearchResultLGMixin:Init(elementData) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2545)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2545)
 function EncounterJournalScrollBarOldMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2550)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2550)
 function ModifiedInstanceIconMixin:OnEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2557)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2557)
 function ModifiedInstanceIconMixin:GetIconTextureAtlas() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2561)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_EncounterJournal/Cata/Blizzard_EncounterJournal.lua#L2561)
 function ModifiedInstanceIconMixin:OnLeave() end

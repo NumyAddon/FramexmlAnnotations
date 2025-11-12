@@ -1,42 +1,42 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L66)
 --- child of SideDressUpModel
 --- @class SideDressUpModelResetButton : Button, UIPanelButtonTemplate
 SideDressUpModelResetButton = {}
 SideDressUpModelResetButton["fitTextCanWidthDecrease"] = true -- inherited
 SideDressUpModelResetButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L84)
 --- child of SideDressUpModel
 --- @class SideDressUpModelCloseButton : Button, UIPanelCloseButton
 SideDressUpModelCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L107)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ControlFrame_ZoomInButton : Button, ModelControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L125)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ControlFrame_ZoomOutButton : Button, ModelControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L143)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ControlFrame_PanButton : Button, ModelControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L163)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L163)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ControlFrame_RotateLeftButton : Button, ModelControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L179)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L179)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ControlFrame_RotateRightButton : Button, ModelControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L195)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L195)
 --- child of ModelWithControlsTemplateControlFrame
 --- @class ModelWithControlsTemplate_ControlFrame_RotateResetButton : Button, ModelControlButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L75)
 --- child of SideDressUpModel (created in template ModelWithControlsTemplate)
 --- @type ModelWithControlsTemplate_ControlFrame
 SideDressUpModelControlFrame = {}
@@ -44,7 +44,7 @@ SideDressUpModelControlFrame["panButton"] = ModelWithControlsTemplateControlFram
 SideDressUpModelControlFrame["rotateLeftButton"] = ModelWithControlsTemplateControlFrameRotateLeftButton
 SideDressUpModelControlFrame["rotateRightButton"] = ModelWithControlsTemplateControlFrameRotateRightButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L52)
 --- child of SideDressUpFrame
 --- @class SideDressUpModel : DressUpModel, ModelWithControlsTemplate
 --- @field ResetButton SideDressUpModelResetButton
@@ -52,22 +52,22 @@ SideDressUpModel = {}
 SideDressUpModel["ResetButton"] = SideDressUpModelResetButton
 SideDressUpModel["controlFrame"] = SideDressUpModelControlFrame -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L9)
 --- child of SideDressUpFrame
 --- @class SideDressUpFrameTop : Texture
 SideDressUpFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L27)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L27)
 --- child of SideDressUpFrame
 --- @class SideDressUpFrameBackgroundTop : Texture
 SideDressUpFrameBackgroundTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L40)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L40)
 --- child of SideDressUpFrame
 --- @class SideDressUpFrameBackgroundBot : Texture
 SideDressUpFrameBackgroundBot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L3)
 --- @class SideDressUpFrame : Frame
 --- @field BGTopLeft SideDressUpFrameBackgroundTop
 --- @field BGBottomLeft SideDressUpFrameBackgroundBot
@@ -75,173 +75,173 @@ SideDressUpFrame = {}
 SideDressUpFrame["BGTopLeft"] = SideDressUpFrameBackgroundTop
 SideDressUpFrame["BGBottomLeft"] = SideDressUpFrameBackgroundBot
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L127)
 --- child of DressUpFrame
 --- @class DressUpFrameCancelButton : Button, UIPanelButtonTemplate
 DressUpFrameCancelButton = {}
 DressUpFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 DressUpFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L136)
 --- child of DressUpFrame
 --- @class DressUpFrameResetButton : Button, UIPanelButtonTemplate
 DressUpFrameResetButton = {}
 DressUpFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 DressUpFrameResetButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L156)
 --- child of DressUpModelFrame
 --- @class DressUpModelFrameRotateRightButton : Button
 DressUpModelFrameRotateRightButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L175)
 --- child of DressUpModelFrame
 --- @class DressUpModelFrameRotateLeftButton : Button
 DressUpModelFrameRotateLeftButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L148)
 --- child of DressUpFrame
 --- @class DressUpModelFrame : DressUpModel
 DressUpModelFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L217)
 --- child of DressUpFrame
 --- @class DressUpFramePortrait : Texture
 DressUpFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L225)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L225)
 --- child of DressUpFrame
 --- @class DressUpFrameTitleText : FontString, GameFontHighlight
 DressUpFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L231)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L231)
 --- child of DressUpFrame
 --- @class DressUpFrameDescriptionText : FontString, GameFontNormalSmall
 DressUpFrameDescriptionText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L239)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L239)
 --- child of DressUpFrame
 --- @class DressUpFrameBackgroundTopLeft : Texture
 DressUpFrameBackgroundTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L245)
 --- child of DressUpFrame
 --- @class DressUpFrameBackgroundTopRight : Texture
 DressUpFrameBackgroundTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L251)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L251)
 --- child of DressUpFrame
 --- @class DressUpFrameBackgroundBot : Texture
 DressUpFrameBackgroundBot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L257)
 --- child of DressUpFrame
 --- @class DressUpFrameBackgroundBot : Texture
 DressUpFrameBackgroundBot = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L746)
 --- child of DressUpFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 DressUpFrameInsetBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L787)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L787)
 --- child of DressUpFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 DressUpFrameInset = {}
 DressUpFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 DressUpFrameInset["Bg"] = DressUpFrameInsetBg -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L768)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L768)
 --- child of DressUpFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 DressUpFrameBtnCornerLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L773)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L773)
 --- child of DressUpFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 DressUpFrameBtnCornerRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L778)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L778)
 --- child of DressUpFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 DressUpFrameButtonBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L604)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L604)
 --- child of DressUpFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 DressUpFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L510)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L510)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 DressUpFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L516)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L516)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleBg
 DressUpFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L524)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L524)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 DressUpFramePortrait = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L532)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L532)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 DressUpFramePortraitFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L537)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 DressUpFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L542)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L542)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 DressUpFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L547)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L547)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 DressUpFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L553)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L553)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 DressUpFrameTitleText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L562)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L562)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 DressUpFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L568)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L568)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 DressUpFrameBotLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L573)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L573)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 DressUpFrameBotRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L578)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L578)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 DressUpFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L584)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L584)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 DressUpFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L590)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L590)
 --- child of DressUpFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 DressUpFrameRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Classic/DressUpFrames.xml#L125)
 --- @class DressUpFrame : Frame, ButtonFrameTemplate
 --- @field ResetButton DressUpFrameResetButton
 --- @field DressUpModel DressUpModelFrame

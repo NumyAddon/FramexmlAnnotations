@@ -1,41 +1,41 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L5)
 --- Template
 --- @class CommentatorUFStatusBarTemplate : StatusBar, SmoothStatusBarMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L9)
 --- Template
 --- @class CommentatorUnitFrameStatusBar : StatusBar, CommentatorUFStatusBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L13)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L13)
 --- Template
 --- @class CommentatorRadialCooldownTemplate : Cooldown
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L17)
 --- Template
 --- @class CommentatorTeamOverlayTemplate : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L52)
 --- child of CooldownCircleTrackerTemplate
 --- @class CooldownCircleTrackerTemplate_Cooldown : Cooldown, CommentatorRadialCooldownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L24)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L24)
 --- Template
 --- @class CooldownCircleTrackerTemplate : Frame, CooldownCircleTrackerMixin
 --- @field Cooldown CooldownCircleTrackerTemplate_Cooldown
 --- @field Icon Texture
 --- @field Overlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L152)
 --- child of CommentatorUnitFrameTemplate_Circle
 --- @class CommentatorUnitFrameTemplate_Circle_CCCooldown : Cooldown, CommentatorRadialCooldownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L131)
 --- child of CommentatorUnitFrameTemplate_Circle
 --- @class CommentatorUnitFrameTemplate_Circle_CCText : FontString, CommentatorCCFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L67)
 --- child of CommentatorUnitFrameTemplate
 --- @class CommentatorUnitFrameTemplate_Circle : Frame
 --- @field CCCooldown CommentatorUnitFrameTemplate_Circle_CCCooldown
@@ -47,33 +47,33 @@
 --- @field CCText CommentatorUnitFrameTemplate_Circle_CCText
 --- @field TeamOverlays table<number, CommentatorTeamOverlayTemplate>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L160)
 --- child of CommentatorUnitFrameTemplate
 --- @class CommentatorUnitFrameTemplate_Role : Frame
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L175)
 --- child of CommentatorUnitFrameTemplate
 --- @class CommentatorUnitFrameTemplate_CCRemover : Frame, CooldownCircleTrackerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L180)
 --- child of CommentatorUnitFrameTemplate
 --- @class CommentatorUnitFrameTemplate_RacialAbilityTracker : Frame, CooldownCircleTrackerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L196)
 --- child of CommentatorUnitFrameTemplate_Bars
 --- @class CommentatorUnitFrameTemplate_Bars_HealthBar : StatusBar, CommentatorUnitFrameStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L209)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L209)
 --- child of CommentatorUnitFrameTemplate_Bars
 --- @class CommentatorUnitFrameTemplate_Bars_AbsorbBar : StatusBar, CommentatorUFStatusBarTemplate
 --- @field OverAbsorb Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L226)
 --- child of CommentatorUnitFrameTemplate_Bars
 --- @class CommentatorUnitFrameTemplate_Bars_PowerBar : StatusBar, CommentatorUnitFrameStatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L185)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L185)
 --- child of CommentatorUnitFrameTemplate
 --- @class CommentatorUnitFrameTemplate_Bars : Frame
 --- @field HealthBar CommentatorUnitFrameTemplate_Bars_HealthBar
@@ -81,27 +81,27 @@
 --- @field PowerBar CommentatorUnitFrameTemplate_Bars_PowerBar
 --- @field Overlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L241)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L241)
 --- child of CommentatorUnitFrameTemplate
 --- @class CommentatorUnitFrameTemplate_DefensiveSpellTray : Frame, CommentatorDefensiveTrayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L246)
 --- child of CommentatorUnitFrameTemplate
 --- @class CommentatorUnitFrameTemplate_DebuffSpellTray : Frame, CommentatorDebuffTrayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L251)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L251)
 --- child of CommentatorUnitFrameTemplate
 --- @class CommentatorUnitFrameTemplate_OffensiveSpellTray : Frame, CommentatorOffensiveTrayTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L256)
 --- child of CommentatorUnitFrameTemplate
 --- @class CommentatorUnitFrameTemplate_ModelScene : ModelScene, CommentatorModelSceneTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L282)
 --- child of CommentatorUnitFrameTemplate
 --- @class CommentatorUnitFrameTemplate_Name : FontString, CommentatorFontMedium, ShrinkUntilTruncateFontStringMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.xml#L64)
 --- Template
 --- @class CommentatorUnitFrameTemplate : Frame, CommentatorUnitFrameMixin
 --- @field Circle CommentatorUnitFrameTemplate_Circle

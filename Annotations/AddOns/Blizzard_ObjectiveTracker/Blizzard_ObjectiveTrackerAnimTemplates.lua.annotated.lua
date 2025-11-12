@@ -2,7 +2,7 @@
 -- ***** ANIM LINE
 -- *****************************************************************************************************
 
-ObjectiveTrackerAnimLineState = EnumUtil.MakeEnum(
+ObjectiveTrackerAnimLineState = EnumUtil.MakeEnum(--- @type {["Adding"]: 1, ["Present"]: 2, ["Completing"]: 3, ["Completed"]: 4, ["Fading"]: 5, ["Faded"]: 6} See [ObjectiveTrackerAnimLineState](lua://ObjectiveTrackerAnimLineState)
 	"Adding",
 	"Present",
 	"Completing",

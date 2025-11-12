@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L79)
 --- child of ArcaneChargeTemplate
 --- @class ArcaneChargeTemplate_activateAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L103)
 --- child of ArcaneChargeTemplate
 --- @class ArcaneChargeTemplate_deactivateAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L5)
 --- Template
 --- @class ArcaneChargeTemplate : Frame, ArcaneChargeMixin
 --- @field ArcaneBGShadow Texture
@@ -27,7 +27,7 @@
 --- @field deactivateAnim ArcaneChargeTemplate_deactivateAnim
 --- @field fxTextures table<number, Texture>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L115)
 --- Template
 --- @class MageArcaneChargesFrameTemplate : Frame, ClassResourceBarTemplate
 --- @field powerToken string # ARCANE_CHARGES
@@ -41,7 +41,7 @@
 --- @field class string # MAGE
 --- @field spec any # SPEC_MAGE_ARCANE
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/MageArcaneChargesBar.xml#L130)
 --- @class MageArcaneChargesFrame : Frame, MageArcaneChargesFrameTemplate, MagePowerBar
 --- @field showTooltip boolean # true
 --- @field topPadding number # 7

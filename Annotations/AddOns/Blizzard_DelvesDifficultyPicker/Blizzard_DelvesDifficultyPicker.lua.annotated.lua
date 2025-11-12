@@ -29,7 +29,7 @@ local HIGHEST_TIER_UNLOCKED_CVAR = "highestUnlockedDelvesTier";
 local TIER_SELECT_DROPDOWN_MENU_MIN_WIDTH = 110;
 local TIER_SELECT_DROPDOWN_MENU_BTN_WIDTH = 130;
 
-local DelvesKeyState = EnumUtil.MakeEnum(
+local DelvesKeyState = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["Normal"]: 2}
 	"None",
 	"Normal"
 );

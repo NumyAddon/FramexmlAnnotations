@@ -1,46 +1,46 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L27)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L27)
 --- child of CovenantMissionPageEnemyTemplate_MechanicEffect
 --- @class CovenantMissionPageEnemyTemplate_MechanicEffect_Countered : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L5)
 --- child of CovenantMissionPageEnemyTemplate
 --- @class CovenantMissionPageEnemyTemplate_MechanicEffect : Frame
 --- @field CrossLeft Texture
 --- @field CrossRight Texture
 --- @field Countered CovenantMissionPageEnemyTemplate_MechanicEffect_Countered
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L3)
 --- Template
 --- @class CovenantMissionPageEnemyTemplate : Frame, GarrisonMissionPageEnemyTemplate, CovenantMissionPageEnemyMixin
 --- @field MechanicEffect CovenantMissionPageEnemyTemplate_MechanicEffect
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L128)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_MouseOverTitleFrame : Frame, ConvenantMissionPageMouseOverTitleMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L147)
 --- child of CovenantMissionPageStageTemplate_MissionInfo
 --- @class CovenantMissionPageStageTemplate_MissionInfo_XP : FontString, GameFontNormalMed2
 --- @field layoutIndex number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L153)
 --- child of CovenantMissionPageStageTemplate_MissionInfo
 --- @class CovenantMissionPageStageTemplate_MissionInfo_ExhaustingLabel : FontString, GameFontNormalMed2
 --- @field layoutIndex number # 2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L159)
 --- child of CovenantMissionPageStageTemplate_MissionInfo
 --- @class CovenantMissionPageStageTemplate_MissionInfo_MissionTime : FontString, GameFontNormalMed2
 --- @field layoutIndex number # 3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L166)
 --- child of CovenantMissionPageStageTemplate_MissionInfo
 --- @class CovenantMissionPageStageTemplate_MissionInfo_MissionEnv : FontString, GameFontNormalMed2
 --- @field layoutIndex number # 4
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L138)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_MissionInfo : Frame, VerticalLayoutFrame
 --- @field spacing number # 3
@@ -49,25 +49,25 @@
 --- @field MissionTime CovenantMissionPageStageTemplate_MissionInfo_MissionTime
 --- @field MissionEnv CovenantMissionPageStageTemplate_MissionInfo_MissionEnv
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L188)
 --- child of CovenantMissionPageStageTemplate_EnvironmentEffectFrame
 --- @class CovenantMissionPageStageTemplate_EnvironmentEffectFrame_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L175)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_EnvironmentEffectFrame : Frame, CovenantMissionEnvironmentEffectMixin
 --- @field Icon Texture
 --- @field Name CovenantMissionPageStageTemplate_EnvironmentEffectFrame_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L230)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L230)
 --- child of CovenantMissionPageStageTemplate_MissionEnvIcon
 --- @class CovenantMissionPageStageTemplate_MissionEnvIcon_Countered : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L236)
 --- child of CovenantMissionPageStageTemplate_MissionEnvIcon
 --- @class CovenantMissionPageStageTemplate_MissionEnvIcon_EnvironmentHighlight : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L200)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L200)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_MissionEnvIcon : Frame, GarrisonMissionCheckTemplate
 --- @field Highlight Texture
@@ -77,37 +77,37 @@
 --- @field Countered CovenantMissionPageStageTemplate_MissionEnvIcon_Countered
 --- @field EnvironmentHighlight CovenantMissionPageStageTemplate_MissionEnvIcon_EnvironmentHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L58)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_Level : FontString, Game24Font
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L64)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_ItemLevel : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L70)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_Title : FontString, QuestFont_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L78)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_EnemyHealthValue : FontString, GameFontHighlight, AutoScalingFontStringMixin
 --- @field minLineHeight number # 10
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L89)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_EnemyPowerValue : FontString, GameFontHighlight, AutoScalingFontStringMixin
 --- @field minLineHeight number # 10
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L110)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_Location : FontString, QuestFont_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L119)
 --- child of CovenantMissionPageStageTemplate
 --- @class CovenantMissionPageStageTemplate_MissionDescription : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L42)
 --- Template
 --- @class CovenantMissionPageStageTemplate : Frame
 --- @field MouseOverTitleFrame CovenantMissionPageStageTemplate_MouseOverTitleFrame
@@ -125,53 +125,53 @@
 --- @field Location CovenantMissionPageStageTemplate_Location
 --- @field MissionDescription CovenantMissionPageStageTemplate_MissionDescription
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L302)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # AdventuresMissionComplete
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L307)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L307)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_CloseButton : Button, GarrisonMissionPageCloseButtonTemplate
 --- @field CloseButtonBorder Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L322)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_EncounterIcon : Frame, SmallCovenantMissionEncounterIconTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L327)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L327)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_Stage : Frame, CovenantMissionPageStageTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L328)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L328)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_ItemLevelHitboxFrame : Frame, GarrisonMissionPageItemLevelHitboxFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L334)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L334)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_StartMissionFrame : Frame, ResizeLayoutFrame
 --- @field ButtonFrame Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L348)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L348)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_StartMissionButton : Button, StartMissionButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L353)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L353)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_CostFrame : Frame, GarrisonMissionPageCostWithTooltipTemplate
 --- @field leftAnchor number # 60
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L371)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L371)
 --- child of CovenantMissionPageTemplate_Board
 --- @class CovenantMissionPageTemplate_Board_AllyHealthValue : FontString, GameFontHighlight, AutoScalingFontStringMixin
 --- @field minLineHeight number # 10
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L382)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L382)
 --- child of CovenantMissionPageTemplate_Board
 --- @class CovenantMissionPageTemplate_Board_AllyPowerValue : FontString, GameFontHighlight, AutoScalingFontStringMixin
 --- @field minLineHeight number # 10
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L362)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_Board : Frame, AdventuresBoardTemplate
 --- @field followerTemplate string # AdventuresMissionPageFollowerPuckTemplate
@@ -180,11 +180,11 @@
 --- @field AllyPowerIcon Texture
 --- @field AllyHealthIcon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L256)
 --- child of CovenantMissionPageTemplate
 --- @class CovenantMissionPageTemplate_EmptyString : FontString, GameFontNormalMed3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L249)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L249)
 --- Template
 --- @class CovenantMissionPageTemplate : Button
 --- @field NineSlice CovenantMissionPageTemplate_NineSlice
@@ -203,43 +203,43 @@
 --- @field FollowerBackground Texture
 --- @field BoardDropShadow Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L442)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrame_OverlayElements : Frame
 --- @field CloseButtonBorder Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L453)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L453)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrame_RaisedBorder : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L459)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L459)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrameTab1 : Button, OrderHallFrameTabButtonTemplate
 CovenantMissionFrameTab1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L460)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L460)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrameTab2 : Button, OrderHallFrameTabButtonTemplate
 CovenantMissionFrameTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L461)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L461)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrameTab3 : Button, OrderHallFrameTabButtonTemplate
 CovenantMissionFrameTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L482)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L482)
 --- child of CovenantMissionFrameFollowers
 --- @class CovenantMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L488)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L488)
 --- child of CovenantMissionFrameFollowers
 --- @class CovenantMissionFrameFollowers_HealAllButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L474)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L474)
 --- child of CovenantMissionFrameFollowers
 --- @class CovenantMissionFrameFollowers_AdventurersLabel : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L462)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L462)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrameFollowers : Frame, CovenantFollowerListTemplate, GarrisonFollowerList, CovenantFollowerListMixin
 --- @field followerTemplate string # CovenantMissionFollowerOrCategoryListButtonTemplate
@@ -253,56 +253,56 @@ CovenantMissionFrameFollowers["followerTemplate"] = "CovenantMissionFollowerOrCa
 CovenantMissionFrameFollowers["showUncollected"] = true
 CovenantMissionFrameFollowers["canCastSpellsOnFollowers"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L526)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L526)
 --- child of CovenantMissionFrame_MapTab_ScrollContainer
 --- @class CovenantMissionFrame_MapTab_ScrollContainer_Child : Frame
 --- @field TiledBackground Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L518)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L518)
 --- child of CovenantMissionFrame_MapTab
 --- @class CovenantMissionFrame_MapTab_ScrollContainer : ScrollFrame, MapCanvasScrollControllerMixin
 --- @field Child CovenantMissionFrame_MapTab_ScrollContainer_Child
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L508)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L508)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrame_MapTab : Frame, MapCanvasMixin, AdventureMapMixin, OrderHallMissionAdventureMapMixin
 --- @field ScrollContainer CovenantMissionFrame_MapTab_ScrollContainer
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L552)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L552)
 --- child of CovenantMissionFrame_MissionTab
 --- @class CovenantMissionFrameMissions : Frame, CovenantMissionListTemplate, CovenantMissionListMixin
 CovenantMissionFrameMissions = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L562)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L562)
 --- child of CovenantMissionFrame_MissionTab
 --- @class CovenantMissionFrame_MissionTab_ZoneSupportMissionPageBackground : Frame
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L576)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L576)
 --- child of CovenantMissionFrame_MissionTab
 --- @class CovenantMissionFrame_MissionTab_MissionPage : Button, CovenantMissionPageTemplate, GarrisonMissionPageMixin, GarrisonFollowerMissionPageMixin, CovenantFollowerMissionPageMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L550)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L550)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrame_MissionTab : Frame
 --- @field MissionList CovenantMissionFrameMissions
 --- @field ZoneSupportMissionPageBackground CovenantMissionFrame_MissionTab_ZoneSupportMissionPageBackground
 --- @field MissionPage CovenantMissionFrame_MissionTab_MissionPage
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L579)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L579)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrame_FollowerTab : Frame, CovenantFollowerTabTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L14)
 --- child of CovenantMissionFrame_MissionComplete (created in template AdventuresCompleteScreenTemplate)
 --- @type AdventuresCompleteScreenTemplate_CombatLog
 CombatLog = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L585)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L585)
 --- child of CovenantMissionFrame
 --- @class CovenantMissionFrame_MissionComplete : Frame, AdventuresCompleteScreenTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L417)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_CovenantMissionUI.xml#L417)
 --- @class CovenantMissionFrame : Frame, GarrisonMissionFrameTemplate, GarrisonUITemplate, GarrisonMission, GarrisonFollowerMission, CovenantMission
 --- @field followerTypeID any # Enum.GarrisonFollowerType.FollowerType_9_0_GarrisonFollower
 --- @field OverlayElements CovenantMissionFrame_OverlayElements

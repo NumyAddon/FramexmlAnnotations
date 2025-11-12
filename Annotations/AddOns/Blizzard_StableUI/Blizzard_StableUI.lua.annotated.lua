@@ -27,14 +27,14 @@ local STABLE_FRAME_ON_SHOW_EVENTS = {
 	"PET_STABLE_FAVORITES_UPDATED",
 };
 
-local PetSortMode = EnumUtil.MakeEnum(
+local PetSortMode = EnumUtil.MakeEnum(--- @type {["Specialization"]: 1, ["Family"]: 2, ["Name"]: 3, ["NameReverse"]: 4}
 	"Specialization",
 	"Family",
 	"Name",
 	"NameReverse"
 );
 
-local StableTogglePetButton = EnumUtil.MakeEnum(
+local StableTogglePetButton = EnumUtil.MakeEnum(--- @type {["Stable"]: 1, ["MakeActive"]: 2}
 	"Stable",
 	"MakeActive"
 );

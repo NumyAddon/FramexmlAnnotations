@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L3)
 --- Template
 --- @class QuestFramePanelTemplate : Frame
 --- @field Bg Texture
@@ -10,37 +10,37 @@
 --- @field MaterialBotRight Texture
 --- @field SealMaterialBG Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L50)
 --- Template
 --- @class QuestItemTemplate : Button, LargeItemButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L106)
 --- child of QuestSpellTemplate
 --- @class QuestSpellTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L80)
 --- Template
 --- @class QuestSpellTemplate : Button
 --- @field Icon Texture
 --- @field NameFrame Texture
 --- @field Name QuestSpellTemplate_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L132)
 --- Template
 --- @class QuestTitleButtonTemplate : Button
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L158)
 --- Template
 --- @class QuestScrollFrameTemplate : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarX number # 9
 --- @field scrollBarTopY number # -2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L172)
 --- child of QuestAccountCompletedNoticeTemplate
 --- @class QuestAccountCompletedNoticeTemplate_Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrameTemplates.xml#L168)
 --- Template
 --- @class QuestAccountCompletedNoticeTemplate : Frame, QuestAccountCompletedNoticeMixin
 --- @field Text QuestAccountCompletedNoticeTemplate_Text

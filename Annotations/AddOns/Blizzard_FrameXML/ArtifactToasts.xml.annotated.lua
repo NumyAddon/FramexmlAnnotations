@@ -1,22 +1,22 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.xml#L147)
 --- child of ArtifactLevelUpToast
 --- @class ArtifactLevelUpToast_ArtifactName : FontString, QuestFont_Enormous
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.xml#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.xml#L160)
 --- child of ArtifactLevelUpToast
 --- @class ArtifactLevelUpToast_NewTrait : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.xml#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.xml#L167)
 --- child of ArtifactLevelUpToast
 --- @class ArtifactLevelUpToast_UnlockTrait : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.xml#L177)
 --- child of ArtifactLevelUpToast
 --- @class ArtifactLevelUpToast_ArtifactLevelUpAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArtifactToasts.xml#L5)
 --- @class ArtifactLevelUpToast : Frame, ArtifactLevelUpToastMixin
 --- @field ToastBG Texture
 --- @field GlowLine Texture

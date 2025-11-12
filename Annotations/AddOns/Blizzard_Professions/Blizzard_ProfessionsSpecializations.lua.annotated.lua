@@ -429,7 +429,7 @@ function ProfessionsSpecFrameMixin:InstantiateTalentButton(nodeID, xPos, yPos) -
 	return newTalentButton;
 end
 
-local PathLayers = EnumUtil.MakeEnum("Root", "Primary", "Secondary");
+local PathLayers = EnumUtil.MakeEnum("Root", "Primary", "Secondary");--- @type {["Root"]: 1, ["Primary"]: 2, ["Secondary"]: 3}
 local ParentLayerToChildLayer =
 {
 	[PathLayers.Root] = PathLayers.Primary,

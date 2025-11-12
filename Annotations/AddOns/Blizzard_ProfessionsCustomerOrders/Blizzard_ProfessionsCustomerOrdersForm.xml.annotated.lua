@@ -1,87 +1,87 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L5)
 --- Template
 --- @class ProfessionsCustomerListingsElementTemplate : Button, ProfessionsCustomerListingsElementMixin
 --- @field HighlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L67)
 --- child of ProfessionsCustomerOrderFormTemplate_LeftPanelBackground
 --- @class ProfessionsCustomerOrderFormTemplate_LeftPanelBackground_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L61)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_LeftPanelBackground : Frame
 --- @field NineSlice ProfessionsCustomerOrderFormTemplate_LeftPanelBackground_NineSlice
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L85)
 --- child of ProfessionsCustomerOrderFormTemplate_RightPanelBackground
 --- @class ProfessionsCustomerOrderFormTemplate_RightPanelBackground_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L79)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_RightPanelBackground : Frame
 --- @field NineSlice ProfessionsCustomerOrderFormTemplate_RightPanelBackground_NineSlice
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L98)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_BackButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L105)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_FavoriteButton : CheckButton, ProfessionsFavoriteButtonMixin
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L114)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_OutputIcon : Button, ProfessionsOutputButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L124)
 --- child of ProfessionsCustomerOrderFormTemplate_MinimumQuality
 --- @class ProfessionsCustomerOrderFormTemplate_MinimumQuality_Dropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L132)
 --- child of ProfessionsCustomerOrderFormTemplate_MinimumQuality
 --- @class ProfessionsCustomerOrderFormTemplate_MinimumQuality_Text : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L120)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_MinimumQuality : Frame
 --- @field Dropdown ProfessionsCustomerOrderFormTemplate_MinimumQuality_Dropdown
 --- @field Text ProfessionsCustomerOrderFormTemplate_MinimumQuality_Text
 --- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_MinimumQuality_Dropdown>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L142)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L142)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_OrderRecipientDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L149)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_OrderRecipientTarget : EditBox, InputBoxTemplate, AutoCompleteEditBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L222)
 --- child of ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay
 --- @class ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay_SocialDropdown : DropdownButton, UIMenuButtonStretchTemplate
 --- @field icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L201)
 --- child of ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay
 --- @class ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay_PostedTo : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L207)
 --- child of ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay
 --- @class ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay_Crafter : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L213)
 --- child of ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay
 --- @class ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay_CrafterValue : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L194)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L194)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay : Frame
 --- @field SocialDropdown ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay_SocialDropdown
@@ -89,68 +89,68 @@
 --- @field Crafter ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay_Crafter
 --- @field CrafterValue ProfessionsCustomerOrderFormTemplate_OrderRecipientDisplay_CrafterValue
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L243)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_RecraftSlot : Frame, ProfessionsRecraftSlotTemplate
 --- @field hideBackdrop boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L259)
 --- child of ProfessionsCustomerOrderFormTemplate_ReagentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_ReagentContainer_Reagents : Frame, ProfessionsReagentContainerTemplate
 --- @field labelText any # PROFESSIONS_CUSTOMER_REAGENT_CONTAINER_LABEL
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L268)
 --- child of ProfessionsCustomerOrderFormTemplate_ReagentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_ReagentContainer_OptionalReagents : Frame, ProfessionsReagentContainerTemplate
 --- @field labelText any # PROFESSIONS_CUSTOMER_OPTIONAL_REAGENT_CONTAINER_LABEL
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L279)
 --- child of ProfessionsCustomerOrderFormTemplate_ReagentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_ReagentContainer_RecraftInfoText : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L252)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L252)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_ReagentContainer : Frame
 --- @field Reagents ProfessionsCustomerOrderFormTemplate_ReagentContainer_Reagents
 --- @field OptionalReagents ProfessionsCustomerOrderFormTemplate_ReagentContainer_OptionalReagents
 --- @field RecraftInfoText ProfessionsCustomerOrderFormTemplate_ReagentContainer_RecraftInfoText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L361)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox_TitleBox
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox_TitleBox_Title : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L354)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox_TitleBox : Frame
 --- @field Title ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox_TitleBox_Title
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L371)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L371)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox_ScrollingEditBox : Frame, ScrollingEditBoxTemplate
 --- @field fontName string # GameFontHighlight
 --- @field defaultText any # PROFESSIONS_CRAFTING_FORM_OPTIONAL_MESSAGE
 --- @field maxLetters number # 250
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L339)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L339)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox : Frame
 --- @field TitleBox ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox_TitleBox
 --- @field ScrollingEditBox ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox_ScrollingEditBox
 --- @field Border Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L385)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L385)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyInputFrame : Frame, LargeMoneyInputFrameTemplate
 --- @field hideCopper boolean # false
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L395)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L395)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_ViewListingsButton : Button
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L408)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L408)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
@@ -158,65 +158,65 @@
 --- @field useAuctionHouseIcons boolean # true
 --- @field alwaysShowGold boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L421)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L421)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_DurationDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L437)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L437)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemainingDisplay
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemainingDisplay_Text : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L427)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L427)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemainingDisplay : Frame
 --- @field hideWhenCompleted boolean # true
 --- @field Text ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemainingDisplay_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L442)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_PostingFeeMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
 --- @field leftAlign boolean # true
 --- @field useAuctionHouseIcons boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L454)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L454)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TotalPriceMoneyDisplayFrame : Frame, MoneyDisplayFrameTemplate
 --- @field hideCopper boolean # true
 --- @field leftAlign boolean # true
 --- @field useAuctionHouseIcons boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L466)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L466)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_ListOrderButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L476)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L476)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_CancelOrderButton : Button, UIPanelButtonTemplate
 --- @field hideWhenCompleted boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L298)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_Tip : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L305)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_Duration : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L312)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L312)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemaining : FontString, GameFontNormal
 --- @field hideWhenCompleted boolean # true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L322)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_PostingFee : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L330)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L330)
 --- child of ProfessionsCustomerOrderFormTemplate_PaymentContainer
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer_TotalPrice : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L290)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_PaymentContainer : Frame
 --- @field NoteEditBox ProfessionsCustomerOrderFormTemplate_PaymentContainer_NoteEditBox
@@ -237,50 +237,50 @@
 --- @field uncommittedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyInputFrame | ProfessionsCustomerOrderFormTemplate_PaymentContainer_ViewListingsButton | ProfessionsCustomerOrderFormTemplate_PaymentContainer_DurationDropdown | ProfessionsCustomerOrderFormTemplate_PaymentContainer_ListOrderButton | ProfessionsCustomerOrderFormTemplate_PaymentContainer_Duration>
 --- @field committedRegions table<number, ProfessionsCustomerOrderFormTemplate_PaymentContainer_TipMoneyDisplayFrame | ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemainingDisplay | ProfessionsCustomerOrderFormTemplate_PaymentContainer_CancelOrderButton | ProfessionsCustomerOrderFormTemplate_PaymentContainer_TimeRemaining>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L506)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L506)
 --- child of ProfessionsCustomerOrderFormTemplate_TrackRecipeCheckbox
 --- @class ProfessionsCustomerOrderFormTemplate_TrackRecipeCheckbox_Checkbox : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L497)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L497)
 --- child of ProfessionsCustomerOrderFormTemplate_TrackRecipeCheckbox
 --- @class ProfessionsCustomerOrderFormTemplate_TrackRecipeCheckbox_Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L491)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L491)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_TrackRecipeCheckbox : Frame, ResizeLayoutFrame
 --- @field Checkbox ProfessionsCustomerOrderFormTemplate_TrackRecipeCheckbox_Checkbox
 --- @field Text ProfessionsCustomerOrderFormTemplate_TrackRecipeCheckbox_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L515)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L515)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_AllocateBestQualityCheckbox : CheckButton, UICheckButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L522)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L522)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_QualityDialog : Frame, ProfessionsQualityDialogTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L557)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L557)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L566)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L566)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L572)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L572)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L578)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L578)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_LoadingSpinner : Frame, SpinnerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L587)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L587)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_ResultsText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L534)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L534)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList : Frame
 --- @field HeaderContainer Frame
@@ -291,33 +291,33 @@
 --- @field Background Texture
 --- @field ResultsText ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList_ResultsText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L604)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L604)
 --- child of ProfessionsCustomerOrderFormTemplate_CurrentListings
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings_CloseButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L528)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L528)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_CurrentListings : Frame, DefaultPanelTemplate
 --- @field OrderList ProfessionsCustomerOrderFormTemplate_CurrentListings_OrderList
 --- @field CloseButton ProfessionsCustomerOrderFormTemplate_CurrentListings_CloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L27)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L27)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_RecipeName : FontString, GameFontNormalMed2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L34)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_RecraftRecipeName : FontString, GameFontHighlightMed2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L41)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L41)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_ProfessionText : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L47)
 --- child of ProfessionsCustomerOrderFormTemplate
 --- @class ProfessionsCustomerOrderFormTemplate_OrderStateText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrdersForm.xml#L18)
 --- Template
 --- @class ProfessionsCustomerOrderFormTemplate : Frame, ProfessionsCustomerOrderFormMixin
 --- @field LeftPanelBackground ProfessionsCustomerOrderFormTemplate_LeftPanelBackground

@@ -1,22 +1,22 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L37)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L37)
 --- child of GradualAnimatedStatusBarTemplate
 --- @class GradualAnimatedStatusBarTemplate_GainFlareAnimation : AnimationGroup, GainFlareAnimationMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L44)
 --- child of GradualAnimatedStatusBarTemplate
 --- @class GradualAnimatedStatusBarTemplate_LevelUpRolloverAnimation : AnimationGroup, LevelUpRolloverAnimationMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L52)
 --- child of GradualAnimatedStatusBarTemplate
 --- @class GradualAnimatedStatusBarTemplate_LevelUpMaxAnimation : AnimationGroup, LevelUpMaxAnimationMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L60)
 --- child of GradualAnimatedStatusBarTemplate
 --- @class GradualAnimatedStatusBarTemplate_LevelUpMaxAlphaAnimation : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLBase/GradualAnimatedStatusBar.xml#L5)
 --- Template
 --- @class GradualAnimatedStatusBarTemplate : StatusBar, GradualAnimatedStatusBarMixin
 --- @field gainAnimationDurationPerDistance number # 0.008

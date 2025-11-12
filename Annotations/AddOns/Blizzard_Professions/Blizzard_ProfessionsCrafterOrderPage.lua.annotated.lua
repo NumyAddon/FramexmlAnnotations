@@ -1,6 +1,6 @@
 
 local ignoreSkillLine = true;
-local OrderBrowseType = EnumUtil.MakeEnum("Flat", "Bucketed", "None");
+local OrderBrowseType = EnumUtil.MakeEnum("Flat", "Bucketed", "None");--- @type {["Flat"]: 1, ["Bucketed"]: 2, ["None"]: 3}
 local orderTypeTabTitles =
 {
 	[Enum.CraftingOrderType.Public] = PROFESSIONS_CRAFTER_ORDER_TAB_PUBLIC,

@@ -265,7 +265,7 @@ function MapPinAnimatedHighlightMixin:SetHighlightShown(shown, texture, params)
 	end
 end
 
-MapPinHighlightType = EnumUtil.MakeEnum(
+MapPinHighlightType = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["BountyRing"]: 2, ["SupertrackedHighlight"]: 3, ["DreamsurgeHighlight"]: 4, ["ImportantHubQuestHighlight"]: 5} See [MapPinHighlightType](lua://MapPinHighlightType)
 	"None",
 	"BountyRing",				-- Golden ring around the pin, used by the Emissary/Bounty Board, not really used any more after a consistency pass on quest pins
 	"SupertrackedHighlight",		-- Blue glow + animated icon pulse, used by Covenant Callings and the World Map Activity Tracker
@@ -277,7 +277,7 @@ local function isAnimatedHighlightType(highlightType)
 	return highlightType == MapPinHighlightType.SupertrackedHighlight or highlightType == MapPinHighlightType.DreamsurgeHighlight or highlightType == MapPinHighlightType.ImportantHubQuestHighlight;
 end
 
-MapPinHighlightAnimType = EnumUtil.MakeEnum(
+MapPinHighlightAnimType = EnumUtil.MakeEnum(--- @type {["ExpandAndFade"]: 1, ["BackgroundPulse"]: 2} See [MapPinHighlightAnimType](lua://MapPinHighlightAnimType)
 	"ExpandAndFade",	-- Expands and fades the MapPoi icon, and shows a glow texture
 	"BackgroundPulse"	-- Pulses a background glow a specified number of times
 );

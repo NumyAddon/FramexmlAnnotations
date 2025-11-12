@@ -1,15 +1,15 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L5)
 --- Template
 --- @class CircularItemButtonTemplate : Frame
 --- @field CircleMask MaskTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L59)
 --- child of CircularGiantItemButtonTemplate
 --- @class CircularGiantItemButtonTemplate_Count : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L23)
 --- Template
 --- @class CircularGiantItemButtonTemplate : Button, CircularGiantItemButtonMixin
 --- @field Icon Texture
@@ -19,11 +19,11 @@
 --- @field IconOverlay2 Texture
 --- @field Count CircularGiantItemButtonTemplate_Count
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L123)
 --- child of GiantItemButtonTemplate
 --- @class GiantItemButtonTemplate_Count : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L74)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L74)
 --- Template
 --- @class GiantItemButtonTemplate : Button
 --- @field EmptyBackground Texture
@@ -35,24 +35,24 @@
 --- @field Count GiantItemButtonTemplate_Count
 --- @field Highlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L148)
 --- child of SimplePopupButtonTemplate
 --- @class SimplePopupButtonTemplate_Name : FontString, GameFontHighlightSmallOutline
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L144)
 --- Template
 --- @class SimplePopupButtonTemplate : CheckButton
 --- @field Name SimplePopupButtonTemplate_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L188)
 --- child of LargeItemButtonTemplate
 --- @class LargeItemButtonTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L220)
 --- child of LargeItemButtonTemplate
 --- @class LargeItemButtonTemplate_Count : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L167)
 --- Template
 --- @class LargeItemButtonTemplate : Button
 --- @field largeItemButton boolean # true
@@ -64,15 +64,15 @@
 --- @field IconOverlay2 Texture
 --- @field Count LargeItemButtonTemplate_Count
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L249)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L249)
 --- child of SmallItemButtonTemplate
 --- @class SmallItemButtonTemplate_Name : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L255)
 --- child of SmallItemButtonTemplate
 --- @class SmallItemButtonTemplate_Count : FontString, NumberFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L229)
 --- Template
 --- @class SmallItemButtonTemplate : Button
 --- @field smallItemButton boolean # true
@@ -81,11 +81,11 @@
 --- @field Name SmallItemButtonTemplate_Name
 --- @field Count SmallItemButtonTemplate_Count
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L266)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L266)
 --- child of EnchantingItemButtonAnimTemplate
 --- @class EnchantingItemButtonAnimTemplate_AugmentBorderAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemButton/Mainline/ItemButtonTemplate.xml#L264)
 --- Template
 --- @class EnchantingItemButtonAnimTemplate : Button, EnchantingItemButtonAnimMixin
 --- @field AugmentBorderAnimTexture Texture

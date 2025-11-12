@@ -1,9 +1,9 @@
-BountyFrameType = EnumUtil.MakeEnum(
+BountyFrameType = EnumUtil.MakeEnum(--- @type {["BountyBoard"]: 1, ["ActivityTracker"]: 2} See [BountyFrameType](lua://BountyFrameType)
 	"BountyBoard",
 	"ActivityTracker"
 );
 
-local BountyLockType = EnumUtil.MakeEnum(
+local BountyLockType = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["ByQuest"]: 2, ["NoBounties"]: 3}
 	"None",
 	"ByQuest",
 	"NoBounties"

@@ -1,4 +1,4 @@
-ProfessionsCustomerOrdersMode = EnumUtil.MakeEnum("Browse", "Orders");
+ProfessionsCustomerOrdersMode = EnumUtil.MakeEnum("Browse", "Orders");--- @type {["Browse"]: 1, ["Orders"]: 2} See [ProfessionsCustomerOrdersMode](lua://ProfessionsCustomerOrdersMode)
 
 local ProfessionOrderFrameTitles =
 {

@@ -1,125 +1,125 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L88)
 --- child of GuildInviteFrame_Points
 --- @class GuildInviteFrame_Points_Title : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L95)
 --- child of GuildInviteFrame_Points
 --- @class GuildInviteFrame_Points_Text : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L81)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrame_Points : Frame
 --- @field Title GuildInviteFrame_Points_Title
 --- @field Text GuildInviteFrame_Points_Text
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L113)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameJoinButton : Button, UIPanelButtonTemplate
 GuildInviteFrameJoinButton = {}
 GuildInviteFrameJoinButton["fitTextCanWidthDecrease"] = true -- inherited
 GuildInviteFrameJoinButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L126)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L126)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameDeclineButton : Button, UIPanelButtonTemplate
 GuildInviteFrameDeclineButton = {}
 GuildInviteFrameDeclineButton["fitTextCanWidthDecrease"] = true -- inherited
 GuildInviteFrameDeclineButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L11)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L11)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameBackground : Texture
 GuildInviteFrameBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L20)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameTabardBackground : Texture
 GuildInviteFrameTabardBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L29)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameTabardEmblem : Texture
 GuildInviteFrameTabardEmblem = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L35)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameInviterName : FontString, GameFontHighlightSmall
 GuildInviteFrameInviterName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L41)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L41)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameInviteText : FontString, GameFontHighlightSmall
 GuildInviteFrameInviteText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L47)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameGuildName : FontString, GameFontNormal
 GuildInviteFrameGuildName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L52)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameWarningText : FontString, GameFontHighlight
 GuildInviteFrameWarningText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L61)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameTabardBorder : Texture
 GuildInviteFrameTabardBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L71)
 --- child of GuildInviteFrame
 --- @class GuildInviteFrameTabardRing : Texture
 GuildInviteFrameTabardRing = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1024)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1024)
 --- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
 --- @type Texture
 GuildInviteFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1033)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1033)
 --- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 GuildInviteFrameTopLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1038)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1038)
 --- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 GuildInviteFrameTopRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1043)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1043)
 --- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 GuildInviteFrameBottomLeftCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1048)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1048)
 --- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 GuildInviteFrameBottomRightCorner = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1053)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1053)
 --- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 GuildInviteFrameTopBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1059)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1059)
 --- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 GuildInviteFrameBottomBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1065)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1065)
 --- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 GuildInviteFrameLeftBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1071)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L1071)
 --- child of GuildInviteFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 GuildInviteFrameRightBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GuildInviteFrame.xml#L4)
 --- @class GuildInviteFrame : Frame, TranslucentFrameTemplate
 --- @field Points GuildInviteFrame_Points
 GuildInviteFrame = {}

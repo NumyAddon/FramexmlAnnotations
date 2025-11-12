@@ -363,7 +363,7 @@ end
 -- ***** SLIDING
 -- *****************************************************************************************************
 
-ObjectiveTrackerSlidingState = EnumUtil.MakeEnum(
+ObjectiveTrackerSlidingState = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["SlideIn"]: 2, ["SlideOut"]: 3} See [ObjectiveTrackerSlidingState](lua://ObjectiveTrackerSlidingState)
 	"None",
 	"SlideIn",
 	"SlideOut"

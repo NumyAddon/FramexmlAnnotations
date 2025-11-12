@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L29)
 --- child of RenownLevelTemplate
 --- @class RenownLevelTemplate_Level : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L5)
 --- Template
 --- @class RenownLevelTemplate : Frame, RenownLevelMixin
 --- @field Icon Texture
@@ -15,44 +15,44 @@
 --- @field HighlightTexture Texture
 --- @field Textures table<number, Texture>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L55)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L55)
 --- Template
 --- @class RewardTrackButtonTemplate : Button, RewardTrackButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L85)
 --- Template
 --- @class RewardTrackJumpButtonTemplate : Button, RewardTrackJumpButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L113)
 --- Template
 --- @class RewardTrackSkipLevelUpButtonTemplate : Button, SharedGoldRedButtonSmallTemplate, RewardTrackSkipLevelUpButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L126)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L126)
 --- child of RewardTrackFrameTemplate
 --- @class RewardTrackFrameTemplate_ClipFrame : Frame
 --- @field Mask MaskTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L137)
 --- child of RewardTrackFrameTemplate
 --- @class RewardTrackFrameTemplate_LeftButton : Button, RewardTrackButtonTemplate
 --- @field direction number # -1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L145)
 --- child of RewardTrackFrameTemplate
 --- @class RewardTrackFrameTemplate_JumpLeftButton : Button, RewardTrackJumpButtonTemplate
 --- @field direction number # -1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L153)
 --- child of RewardTrackFrameTemplate
 --- @class RewardTrackFrameTemplate_RightButton : Button, RewardTrackButtonTemplate
 --- @field direction number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L161)
 --- child of RewardTrackFrameTemplate
 --- @class RewardTrackFrameTemplate_JumpRightButton : Button, RewardTrackJumpButtonTemplate
 --- @field direction number # 1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L123)
 --- Template
 --- @class RewardTrackFrameTemplate : Frame, RewardTrackFrameMixin
 --- @field ClipFrame RewardTrackFrameTemplate_ClipFrame

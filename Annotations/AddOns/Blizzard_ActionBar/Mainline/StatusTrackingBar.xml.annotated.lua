@@ -1,18 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L11)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L11)
 --- child of StatusTrackingBarContainerTemplate
 --- @class StatusTrackingBarContainerTemplate_FadeInAnimation : AnimationGroup, StatusTrackingBarContainerAnimationMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L17)
 --- child of StatusTrackingBarContainerTemplate
 --- @class StatusTrackingBarContainerTemplate_FadeOutAnimation : AnimationGroup, StatusTrackingBarContainerFadeOutAnimationMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L23)
 --- child of StatusTrackingBarContainerTemplate
 --- @class StatusTrackingBarContainerTemplate_MaxLevelFadeOutAnimation : AnimationGroup, StatusTrackingBarContainerFadeOutAnimationMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L3)
 --- Template
 --- Adds itself to the parent inside the array `barContainers`
 --- @class StatusTrackingBarContainerTemplate : Frame, StatusTrackingBarContainerMixin
@@ -21,7 +21,7 @@
 --- @field FadeOutAnimation StatusTrackingBarContainerTemplate_FadeOutAnimation
 --- @field MaxLevelFadeOutAnimation StatusTrackingBarContainerTemplate_MaxLevelFadeOutAnimation
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L41)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L41)
 --- child of StatusTrackingBarManager
 --- @class MainStatusTrackingBarContainer : Frame, StatusTrackingBarContainerTemplate, EditModeStatusTrackingBar1SystemTemplate, EditModeStatusTrackingBarContainerMixin
 MainStatusTrackingBarContainer = {}
@@ -30,7 +30,7 @@ MainStatusTrackingBarContainer["systemNameString"] = HUD_EDIT_MODE_STATUS_TRACKI
 MainStatusTrackingBarContainer["addSystemIndexToName"] = true -- inherited
 MainStatusTrackingBarContainer["system"] = Enum.EditModeSystem.StatusTrackingBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L49)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L49)
 --- child of StatusTrackingBarManager
 --- @class SecondaryStatusTrackingBarContainer : Frame, StatusTrackingBarContainerTemplate, EditModeStatusTrackingBar2SystemTemplate, EditModeStatusTrackingBarContainerMixin
 SecondaryStatusTrackingBarContainer = {}
@@ -40,7 +40,7 @@ SecondaryStatusTrackingBarContainer["addSystemIndexToName"] = true -- inherited
 SecondaryStatusTrackingBarContainer["defaultHideSelection"] = true -- inherited
 SecondaryStatusTrackingBarContainer["system"] = Enum.EditModeSystem.StatusTrackingBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/StatusTrackingBar.xml#L35)
 --- @class StatusTrackingBarManager : Frame, StatusTrackingManagerMixin
 --- @field MainStatusTrackingBarContainer MainStatusTrackingBarContainer
 --- @field SecondaryStatusTrackingBarContainer SecondaryStatusTrackingBarContainer

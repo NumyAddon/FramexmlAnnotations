@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L5)
 --- Template
 --- @class AzeriteUnlockedItemTemplate : ItemButton
 --- @field topPadding number # 0
@@ -12,24 +12,24 @@
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L186)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L186)
 --- child of AzeriteLevelUpToast
 --- @class AzeriteLevelUpToast_IconEffect : ModelScene, NonInteractableModelSceneMixinTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L197)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L197)
 --- child of AzeriteLevelUpToast_UnlockItemsFrame
 --- @class AzeriteLevelUpToast_UnlockItemsFrame_EssenceSlotFrame : Frame
 --- @field layoutIndex number # 10
 --- @field GlassCover Texture
 --- @field Ring Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L211)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L211)
 --- child of AzeriteLevelUpToast_UnlockItemsFrame
 --- @class AzeriteLevelUpToast_UnlockItemsFrame_EssenceStaminaFrame : Frame
 --- @field layoutIndex number # 11
 --- @field Icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L222)
 --- child of AzeriteLevelUpToast_UnlockItemsFrame
 --- @class AzeriteLevelUpToast_UnlockItemsFrame_EssenceRankedFrame : Frame
 --- @field layoutIndex number # 12
@@ -37,7 +37,7 @@
 --- @field DiamondMask MaskTexture
 --- @field Border Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L192)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L192)
 --- child of AzeriteLevelUpToast
 --- @class AzeriteLevelUpToast_UnlockItemsFrame : Frame, HorizontalLayoutFrame
 --- @field EssenceSlotFrame AzeriteLevelUpToast_UnlockItemsFrame_EssenceSlotFrame
@@ -45,25 +45,25 @@
 --- @field EssenceRankedFrame AzeriteLevelUpToast_UnlockItemsFrame_EssenceRankedFrame
 --- @field Frames table<number, AzeriteLevelUpToast_UnlockItemsFrame_EssenceSlotFrame | AzeriteLevelUpToast_UnlockItemsFrame_EssenceStaminaFrame | AzeriteLevelUpToast_UnlockItemsFrame_EssenceRankedFrame>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L163)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L163)
 --- child of AzeriteLevelUpToast
 --- @class AzeriteLevelUpToast_ItemName : FontString, QuestFont_Enormous
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L176)
 --- child of AzeriteLevelUpToast
 --- @class AzeriteLevelUpToast_TextLabel : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L260)
 --- child of AzeriteLevelUpToast
 --- @class AzeriteLevelUpToast_SubTextLabel : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L269)
 --- child of AzeriteLevelUpToast
 --- @class AzeriteLevelUpToast_ShowAnim : AnimationGroup
 --- @field GlowLineBottomTranslation Translation
 --- @field BGScaleAnim Scale
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/AzeriteItemToasts.xml#L33)
 --- @class AzeriteLevelUpToast : Frame, AzeriteItemLevelUpToastMixin
 --- @field IconEffect AzeriteLevelUpToast_IconEffect
 --- @field UnlockItemsFrame AzeriteLevelUpToast_UnlockItemsFrame

@@ -1,85 +1,85 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L5)
 --- Template
 --- @class SubscriptionInterstitialBulletPointTemplate : Frame
 --- @field Bullet Texture
 --- @field Text FontString
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L25)
 --- Template
 --- @class SubscriptionInterstitialSubscribeButtonTemplate : Button, SubscriptionInterstitialSubscribeButtonBaseMixin
 --- @field Background Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L52)
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_Inset : Frame, InsetFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1084)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1084)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1090)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1090)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1096)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1096)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1102)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1102)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1108)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1115)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1122)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1129)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L59)
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_ShadowOverlay : Frame, ShadowOverlaySmallTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L72)
 --- child of SubscriptionInterstitialFrame_SubscribeButton
 --- @class SubscriptionInterstitialFrame_SubscribeButton_FirstLine : FontString, Game58Font_Shadow2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 40
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L82)
 --- child of SubscriptionInterstitialFrame_SubscribeButton
 --- @class SubscriptionInterstitialFrame_SubscribeButton_ThirdLine : FontString, Game69Font_Shadow2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 40
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L92)
 --- child of SubscriptionInterstitialFrame_SubscribeButton
 --- @class SubscriptionInterstitialFrame_SubscribeButton_SecondLine : FontString, Game52Font_Shadow2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 40
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L103)
 --- child of SubscriptionInterstitialFrame_SubscribeButton
 --- @class SubscriptionInterstitialFrame_SubscribeButton_ButtonText : FontString, SystemFont_Med3, AutoScalingFontStringMixin
 --- @field minLineHeight number # 9
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L66)
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_SubscribeButton : Button, SubscriptionInterstitialSubscribeButtonTemplate, SubscriptionInterstitialSubscribeButtonMixin
 --- @field backgroundAtlas string # interstitial-newplayerexperience-subscribe
@@ -88,22 +88,22 @@ SubscriptionInterstitialFrameRight = {}
 --- @field SecondLine SubscriptionInterstitialFrame_SubscribeButton_SecondLine
 --- @field ButtonText SubscriptionInterstitialFrame_SubscribeButton_ButtonText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L123)
 --- child of SubscriptionInterstitialFrame_UpgradeButton
 --- @class SubscriptionInterstitialFrame_UpgradeButton_TitleLine : FontString, Game40Font_Shadow2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 32
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L133)
 --- child of SubscriptionInterstitialFrame_UpgradeButton
 --- @class SubscriptionInterstitialFrame_UpgradeButton_TitleSubText : FontString, Game17Font_Shadow, AutoScalingFontStringMixin
 --- @field minLineHeight number # 11
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L143)
 --- child of SubscriptionInterstitialFrame_UpgradeButton
 --- @class SubscriptionInterstitialFrame_UpgradeButton_ButtonText : FontString, SystemFont_Med3, AutoScalingFontStringMixin
 --- @field minLineHeight number # 9
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L117)
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_UpgradeButton : Button, SubscriptionInterstitialSubscribeButtonTemplate, SubscriptionInterstitialUpgradeButtonMixin
 --- @field backgroundAtlas string # interstitial-newplayerexperience-upgrade
@@ -111,25 +111,25 @@ SubscriptionInterstitialFrameRight = {}
 --- @field TitleSubText SubscriptionInterstitialFrame_UpgradeButton_TitleSubText
 --- @field ButtonText SubscriptionInterstitialFrame_UpgradeButton_ButtonText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L157)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L157)
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_CloseButton : Button, UIPanelCloseButtonNoScripts, SubscriptionInterstitialCloseButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L166)
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_ClosePanelButton : Button, UIPanelButtonTemplate, SubscriptionInterstitialCloseButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L710)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L710)
 --- child of SubscriptionInterstitialFrame (created in template DefaultPanelTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L718)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L718)
 --- child of SubscriptionInterstitialFrame (created in template DefaultPanelTemplate)
 --- @type DefaultPanelTemplate_TopTileStreaks
 SubscriptionInterstitialFrameTopTileStreaks = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L46)
 --- @class SubscriptionInterstitialFrame : Frame, DefaultPanelTemplate, SubscriptionInterstitialFrameMixin
 --- @field Inset SubscriptionInterstitialFrame_Inset
 --- @field ShadowOverlay SubscriptionInterstitialFrame_ShadowOverlay

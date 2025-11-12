@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.xml#L30)
 --- child of WarbandSceneTemplate
 --- @class WarbandSceneTemplate_Name : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.xml#L3)
 --- Template
 --- @class WarbandSceneTemplate : Button, WarbandSceneEntryMixin
 --- @field Icon Texture
@@ -14,7 +14,7 @@
 --- @field SlotFavorite Texture
 --- @field HighlightTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedCollectionTemplates.xml#L56)
 --- Template
 --- @class CollectionsBackgroundTemplate : Frame, InsetFrameTemplate
 --- @field BackgroundTile Texture

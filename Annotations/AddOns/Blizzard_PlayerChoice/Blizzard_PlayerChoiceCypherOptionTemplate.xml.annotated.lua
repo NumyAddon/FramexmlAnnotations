@@ -1,17 +1,17 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L104)
 --- child of PlayerChoiceCypherOptionTemplate_Header
 --- @class PlayerChoiceCypherOptionTemplate_Header_Text : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L97)
 --- child of PlayerChoiceCypherOptionTemplate
 --- @class PlayerChoiceCypherOptionTemplate_Header : Frame, PlayerChoiceBaseCenteredFrame, ResizeLayoutFrame
 --- @field layoutIndex number # 2
 --- @field topPadding number # 18
 --- @field Text PlayerChoiceCypherOptionTemplate_Header_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCypherOptionTemplate.xml#L4)
 --- Template
 --- @class PlayerChoiceCypherOptionTemplate : Frame, PlayerChoicePowerChoiceTemplate, PlayerChoiceCypherOptionTemplateMixin
 --- @field minOptionHeight number # 343

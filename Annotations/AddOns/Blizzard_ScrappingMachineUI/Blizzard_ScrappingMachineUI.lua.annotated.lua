@@ -1,69 +1,69 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L2)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L2)
 --- @class ScrappingMachineMixin
 ScrappingMachineMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L139)
 --- @class ScrappingMachineItemSlotMixin
 ScrappingMachineItemSlotMixin = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L4)
 function ScrappingMachineMixin:SetupScrapButtonPool() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L22)
 function ScrappingMachineMixin:ClearAllScrapButtons() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L30)
 function ScrappingMachineMixin:ScrapItems() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L34)
 function ScrappingMachineMixin:UpdateScrapButtonState() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L38)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L38)
 function ScrappingMachineMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L54)
 function ScrappingMachineMixin:OnShow() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L72)
 function ScrappingMachineMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L111)
 function ScrappingMachineMixin:PlayItemChangeSounds(itemAdded) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L118)
 function ScrappingMachineMixin:CloseScrappingMachine() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L124)
 function ScrappingMachineMixin:OnHide() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L141)
 function ScrappingMachineItemSlotMixin:RefreshIcon() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L168)
 function ScrappingMachineItemSlotMixin:ClearSlot() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L175)
 function ScrappingMachineItemSlotMixin:Clear() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L188)
 function ScrappingMachineItemSlotMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L194)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L194)
 function ScrappingMachineItemSlotMixin:OnEvent(event, ...) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L203)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L203)
 function ScrappingMachineItemSlotMixin:OnClick(button) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L209)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L209)
 function ScrappingMachineItemSlotMixin:OnDragStart() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L213)
 function ScrappingMachineItemSlotMixin:OnReceiveDrag() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L217)
 function ScrappingMachineItemSlotMixin:OnMouseEnter() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ScrappingMachineUI/Blizzard_ScrappingMachineUI.lua#L226)
 function ScrappingMachineItemSlotMixin:OnMouseLeave() end

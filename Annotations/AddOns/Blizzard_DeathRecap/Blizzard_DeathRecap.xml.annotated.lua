@@ -1,30 +1,30 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L15)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L15)
 --- child of DeathRecapEntryTemplate_DamageInfo
 --- @class DeathRecapEntryTemplate_DamageInfo_Amount : FontString, GameFontNormal, AutoScalingFontStringMixin
 --- @field minLineHeight number # 9
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L25)
 --- child of DeathRecapEntryTemplate_DamageInfo
 --- @class DeathRecapEntryTemplate_DamageInfo_AmountLarge : FontString, GameFontNormalLarge2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 12
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L8)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L8)
 --- child of DeathRecapEntryTemplate
 --- @class DeathRecapEntryTemplate_DamageInfo : Frame
 --- @field Amount DeathRecapEntryTemplate_DamageInfo_Amount
 --- @field AmountLarge DeathRecapEntryTemplate_DamageInfo_AmountLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L55)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L55)
 --- child of DeathRecapEntryTemplate_SpellInfo
 --- @class DeathRecapEntryTemplate_SpellInfo_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L61)
 --- child of DeathRecapEntryTemplate_SpellInfo
 --- @class DeathRecapEntryTemplate_SpellInfo_Caster : FontString, SystemFont_Shadow_Small
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L42)
 --- child of DeathRecapEntryTemplate
 --- @class DeathRecapEntryTemplate_SpellInfo : Frame
 --- @field Icon Texture
@@ -32,91 +32,91 @@
 --- @field Caster DeathRecapEntryTemplate_SpellInfo_Caster
 --- @field IconBorder Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L5)
 --- Template
 --- Adds itself to the parent inside the array `DeathRecapEntry`
 --- @class DeathRecapEntryTemplate : Frame
 --- @field DamageInfo DeathRecapEntryTemplate_DamageInfo
 --- @field SpellInfo DeathRecapEntryTemplate_SpellInfo
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L184)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L184)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrame_CloseXButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L206)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrame_Recap1 : Frame, DeathRecapEntryTemplate
 --- @field tombstone Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L220)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrame_Recap2 : Frame, DeathRecapEntryTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L225)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L225)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrame_Recap3 : Frame, DeathRecapEntryTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L230)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L230)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrame_Recap4 : Frame, DeathRecapEntryTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L235)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L235)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrame_Recap5 : Frame, DeathRecapEntryTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L240)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrame_CloseButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L92)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrameBorderTopLeft : Texture
 DeathRecapFrameBorderTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L98)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrameBorderTopRight : Texture
 DeathRecapFrameBorderTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L104)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrameBorderBottomLeft : Texture
 DeathRecapFrameBorderBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L110)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrameBorderBottomRight : Texture
 DeathRecapFrameBorderBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L116)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrameBorderTop : Texture
 DeathRecapFrameBorderTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L123)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrameBorderBottom : Texture
 DeathRecapFrameBorderBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L130)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrameBorderLeft : Texture
 DeathRecapFrameBorderLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L137)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrameBorderRight : Texture
 DeathRecapFrameBorderRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L163)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L163)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrame_Title : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L176)
 --- child of DeathRecapFrame
 --- @class DeathRecapFrame_Unavailable : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DeathRecap/Blizzard_DeathRecap.xml#L85)
 --- @class DeathRecapFrame : Frame
 --- @field CloseXButton DeathRecapFrame_CloseXButton
 --- @field DragButton Button

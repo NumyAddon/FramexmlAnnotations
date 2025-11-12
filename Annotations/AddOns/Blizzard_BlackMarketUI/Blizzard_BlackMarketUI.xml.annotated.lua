@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L30)
 --- child of BlackMarketColumnButtonTemplate
 --- @class BlackMarketColumnButtonTemplate_Name : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L5)
 --- Template
 --- @class BlackMarketColumnButtonTemplate : Frame
 --- @field Left Texture
@@ -12,15 +12,15 @@
 --- @field Middle Texture
 --- @field Name BlackMarketColumnButtonTemplate_Name
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L115)
 --- child of BlackMarketItemTemplate_Item
 --- @class BlackMarketItemTemplate_Item_Count : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L120)
 --- child of BlackMarketItemTemplate_Item
 --- @class BlackMarketItemTemplate_Item_Stock : FontString, NumberFontNormalYellow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L107)
 --- child of BlackMarketItemTemplate
 --- @class BlackMarketItemTemplate_Item : Button
 --- @field IconTexture Texture
@@ -29,40 +29,40 @@
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L184)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L184)
 --- child of BlackMarketItemTemplate_TimeLeft
 --- @class BlackMarketItemTemplate_TimeLeft_Text : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L177)
 --- child of BlackMarketItemTemplate
 --- @class BlackMarketItemTemplate_TimeLeft : Button
 --- @field Text BlackMarketItemTemplate_TimeLeft_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L215)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L215)
 --- child of BlackMarketItemTemplate
 --- @class BlackMarketItemTemplate_CurrentBid : Frame, SmallMoneyFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L65)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L65)
 --- child of BlackMarketItemTemplate
 --- @class BlackMarketItemTemplate_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L71)
 --- child of BlackMarketItemTemplate
 --- @class BlackMarketItemTemplate_Level : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L77)
 --- child of BlackMarketItemTemplate
 --- @class BlackMarketItemTemplate_Type : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L83)
 --- child of BlackMarketItemTemplate
 --- @class BlackMarketItemTemplate_Seller : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L89)
 --- child of BlackMarketItemTemplate
 --- @class BlackMarketItemTemplate_YourBid : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L39)
 --- Template
 --- @class BlackMarketItemTemplate : Button, BlackMarketItemMixin
 --- @field Item BlackMarketItemTemplate_Item
@@ -77,43 +77,43 @@
 --- @field YourBid BlackMarketItemTemplate_YourBid
 --- @field Selection Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L239)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L239)
 --- Template
 --- @class _WoodFrameTile_Top : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L244)
 --- Template
 --- @class _WoodFrameTile_Bottom : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L249)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L249)
 --- Template
 --- @class _WoodFrameTile_Left : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L254)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L254)
 --- Template
 --- @class _WoodFrameTile_Right : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L268)
 --- child of WoodFrameTemplate
 --- @class WoodFrameTemplate_TitleBg : Texture, _WoodFrameTile_Top
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L276)
 --- child of WoodFrameTemplate
 --- @class WoodFrameTemplate_TopTileStreaks : Texture, _UI_Frame_TopTileStreaks
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L310)
 --- child of WoodFrameTemplate
 --- @class WoodFrameTemplate_BottomBorder : Texture, _WoodFrameTile_Bottom
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L316)
 --- child of WoodFrameTemplate
 --- @class WoodFrameTemplate_LeftBorder : Texture, _WoodFrameTile_Left
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L322)
 --- child of WoodFrameTemplate
 --- @class WoodFrameTemplate_RightBorder : Texture, _WoodFrameTile_Right
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L259)
 --- Template
 --- @class WoodFrameTemplate : Frame, BaseBasicFrameTemplate
 --- @field TopTileStreaks WoodFrameTemplate_TopTileStreaks
@@ -125,15 +125,15 @@
 --- @field LeftBorder WoodFrameTemplate_LeftBorder
 --- @field RightBorder WoodFrameTemplate_RightBorder
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L431)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L431)
 --- child of BlackMarketFrame_HotDeal_Item
 --- @class BlackMarketFrame_HotDeal_Item_Count : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L436)
 --- child of BlackMarketFrame_HotDeal_Item
 --- @class BlackMarketFrame_HotDeal_Item_Stock : FontString, NumberFontNormalYellow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L423)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L423)
 --- child of BlackMarketFrame_HotDeal
 --- @class BlackMarketFrame_HotDeal_Item : Button
 --- @field IconTexture Texture
@@ -142,44 +142,44 @@
 --- @field IconBorder Texture
 --- @field IconOverlay Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L487)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L487)
 --- child of BlackMarketFrame_HotDeal_TimeLeft
 --- @class BlackMarketFrame_HotDeal_TimeLeft_Text : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L480)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L480)
 --- child of BlackMarketFrame_HotDeal
 --- @class BlackMarketFrame_HotDeal_TimeLeft : Frame
 --- @field Text BlackMarketFrame_HotDeal_TimeLeft_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L512)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L512)
 --- child of HotItemCurrentBidMoneyFrame
 --- @class HotItemCurrentBidMoneyFrame_CurrentBid : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L518)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L518)
 --- child of HotItemCurrentBidMoneyFrame
 --- @class HotItemCurrentBidMoneyFrame_YourBid : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L105)
 --- child of HotItemCurrentBidMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 HotItemCurrentBidMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L124)
 --- child of HotItemCurrentBidMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 HotItemCurrentBidMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L143)
 --- child of HotItemCurrentBidMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 HotItemCurrentBidMoneyFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L85)
 --- child of HotItemCurrentBidMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type Texture
 HotItemCurrentBidMoneyFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L506)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L506)
 --- child of BlackMarketFrame_HotDeal
 --- @class HotItemCurrentBidMoneyFrame : Frame, SmallMoneyFrameTemplate
 --- @field CurrentBid HotItemCurrentBidMoneyFrame_CurrentBid
@@ -191,31 +191,31 @@ HotItemCurrentBidMoneyFrame["SilverButton"] = HotItemCurrentBidMoneyFrameSilverB
 HotItemCurrentBidMoneyFrame["GoldButton"] = HotItemCurrentBidMoneyFrameGoldButton -- inherited
 HotItemCurrentBidMoneyFrame["trialErrorButton"] = HotItemCurrentBidMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L363)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L363)
 --- child of BlackMarketFrame_HotDeal
 --- @class BlackMarketFrame_HotDeal_Title : FontString, QuestFont_Super_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L390)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L390)
 --- child of BlackMarketFrame_HotDeal
 --- @class BlackMarketFrame_HotDeal_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L396)
 --- child of BlackMarketFrame_HotDeal
 --- @class BlackMarketFrame_HotDeal_Level : FontString, GameFontHighlightCenter
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L402)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L402)
 --- child of BlackMarketFrame_HotDeal
 --- @class BlackMarketFrame_HotDeal_Type : FontString, GameFontHighlightLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L408)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L408)
 --- child of BlackMarketFrame_HotDeal
 --- @class BlackMarketFrame_HotDeal_SellerTAG : FontString, GameFontHighlightCenter
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L414)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L414)
 --- child of BlackMarketFrame_HotDeal
 --- @class BlackMarketFrame_HotDeal_Seller : FontString, GameFontHighlightCenter
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L356)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_HotDeal : Frame
 --- @field Item BlackMarketFrame_HotDeal_Item
@@ -230,87 +230,87 @@ HotItemCurrentBidMoneyFrame["trialErrorButton"] = HotItemCurrentBidMoneyFrameTri
 --- @field SellerTAG BlackMarketFrame_HotDeal_SellerTAG
 --- @field Seller BlackMarketFrame_HotDeal_Seller
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L535)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L535)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ColumnName : Frame, BlackMarketColumnButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L547)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L547)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ColumnLevel : Frame, BlackMarketColumnButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L559)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L559)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ColumnType : Frame, BlackMarketColumnButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L570)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L570)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ColumnDuration : Frame, BlackMarketColumnButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L581)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L581)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ColumnHighBidder : Frame, BlackMarketColumnButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L592)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L592)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ColumnCurrentBid : Frame, BlackMarketColumnButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L615)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L615)
 --- child of BlackMarketFrame_Inset
 --- @class BlackMarketFrame_Inset_NoItems : FontString, QuestFont_Super_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L603)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L603)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_Inset : Frame, InsetFrameTemplate2
 --- @field NoItems BlackMarketFrame_Inset_NoItems
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L623)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L623)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L629)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L629)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1354)
 --- child of BlackMarketFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 BlackMarketFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1362)
 --- child of BlackMarketFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 BlackMarketFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L1370)
 --- child of BlackMarketFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 BlackMarketFrameMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L635)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L635)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_MoneyFrameBorder : Frame, ThinGoldEdgeTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L105)
 --- child of BlackMarketMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_CopperButton
 BlackMarketMoneyFrameCopperButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L124)
 --- child of BlackMarketMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_SilverButton
 BlackMarketMoneyFrameSilverButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L143)
 --- child of BlackMarketMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type SmallMoneyFrameTemplate_GoldButton
 BlackMarketMoneyFrameGoldButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L85)
 --- child of BlackMarketMoneyFrame (created in template SmallMoneyFrameTemplate)
 --- @type Texture
 BlackMarketMoneyFrameTrialErrorButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L641)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L641)
 --- child of BlackMarketFrame
 --- @class BlackMarketMoneyFrame : Frame, SmallMoneyFrameTemplate
 BlackMarketMoneyFrame = {}
@@ -320,26 +320,26 @@ BlackMarketMoneyFrame["SilverButton"] = BlackMarketMoneyFrameSilverButton -- inh
 BlackMarketMoneyFrame["GoldButton"] = BlackMarketMoneyFrameGoldButton -- inherited
 BlackMarketMoneyFrame["trialErrorButton"] = BlackMarketMoneyFrameTrialErrorButton -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L653)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L653)
 --- child of BlackMarketFrame
 --- @class BlackMarketFrame_BidButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L17)
 --- child of BlackMarketBidPriceGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceGoldLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L25)
 --- child of BlackMarketBidPriceGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceGoldRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L33)
 --- child of BlackMarketBidPriceGold (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceGoldMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L79)
 --- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Gold
 BlackMarketBidPriceGold = {}
@@ -352,22 +352,22 @@ BlackMarketBidPriceGold["baseHeight"] = 20 -- inherited
 BlackMarketBidPriceGold["left"] = BlackMarketBidPriceGoldLeft -- inherited
 BlackMarketBidPriceGold["right"] = BlackMarketBidPriceGoldRight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L17)
 --- child of BlackMarketBidPriceSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceSilverLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L25)
 --- child of BlackMarketBidPriceSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceSilverRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L33)
 --- child of BlackMarketBidPriceSilver (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceSilverMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L96)
 --- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Silver
 BlackMarketBidPriceSilver = {}
@@ -378,22 +378,22 @@ BlackMarketBidPriceSilver["baseHeight"] = 20 -- inherited
 BlackMarketBidPriceSilver["left"] = BlackMarketBidPriceSilverLeft -- inherited
 BlackMarketBidPriceSilver["right"] = BlackMarketBidPriceSilverRight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L17)
 --- child of BlackMarketBidPriceCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceCopperLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L25)
 --- child of BlackMarketBidPriceCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceCopperRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L33)
 --- child of BlackMarketBidPriceCopper (created in template MoneyFrameEditBoxTemplate)
 --- @type Texture
 BlackMarketBidPriceCopperMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L111)
 --- child of BlackMarketBidPrice (created in template MoneyInputFrameTemplate)
 --- @type MoneyInputFrameTemplate_Copper
 BlackMarketBidPriceCopper = {}
@@ -404,7 +404,7 @@ BlackMarketBidPriceCopper["baseHeight"] = 20 -- inherited
 BlackMarketBidPriceCopper["left"] = BlackMarketBidPriceCopperLeft -- inherited
 BlackMarketBidPriceCopper["right"] = BlackMarketBidPriceCopperRight -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L662)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L662)
 --- child of BlackMarketFrame
 --- @class BlackMarketBidPrice : Frame, MoneyInputFrameTemplate
 BlackMarketBidPrice = {}
@@ -414,17 +414,17 @@ BlackMarketBidPrice["gold"] = BlackMarketBidPriceGold -- inherited
 BlackMarketBidPrice["silver"] = BlackMarketBidPriceSilver -- inherited
 BlackMarketBidPrice["copper"] = BlackMarketBidPriceCopper -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L262)
 --- child of BlackMarketFrame (created in template WoodFrameTemplate)
 --- @type Texture
 BlackMarketFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L268)
 --- child of BlackMarketFrame (created in template WoodFrameTemplate)
 --- @type WoodFrameTemplate_TitleBg
 BlackMarketFrameTitleBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BlackMarketUI/Blizzard_BlackMarketUI.xml#L332)
 --- @class BlackMarketFrame : Frame, WoodFrameTemplate
 --- @field HotDeal BlackMarketFrame_HotDeal
 --- @field ColumnName BlackMarketFrame_ColumnName

@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesLanguage.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesLanguage.xml#L17)
 --- child of CommunitiesLanguageDropdown
 --- @class CommunitiesLanguageDropdown_Label : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesLanguage.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Communities/CommunitiesLanguage.xml#L4)
 --- Template
 --- @class CommunitiesLanguageDropdown : DropdownButton, WowStyle1DropdownTemplate, CommunitiesLanguageDropdownMixin
 --- @field Language Texture

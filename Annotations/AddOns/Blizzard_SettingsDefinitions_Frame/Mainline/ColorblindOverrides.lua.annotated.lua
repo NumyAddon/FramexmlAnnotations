@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L14)
 --- @class ItemQualityColorOverrideMixin
 ItemQualityColorOverrideMixin = {
 	OverrideData =
@@ -40,14 +40,14 @@ ItemQualityColorOverrideMixin = {
 	};
 }
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L52)
 function ItemQualityColorOverrideMixin:Init(initializer) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L66)
 function ItemQualityColorOverrideMixin:OnLoad() end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L101)
 function ItemQualityColorOverrideMixin:SetupColorSwatch(frame, data) end
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Mainline/ColorblindOverrides.lua#L117)
 function ItemQualityColorOverrideMixin:OpenColorPicker(frame) end

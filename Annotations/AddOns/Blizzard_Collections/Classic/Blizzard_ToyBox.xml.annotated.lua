@@ -1,110 +1,110 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L3)
 --- Template
 --- @class ToySpellButtonTemplate : CheckButton, CollectionsSpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L25)
 --- child of ToyBox
 --- @class ToyBox_progressBar : StatusBar, CollectionsProgressBarTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1155)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1155)
 --- child of ToyBox_searchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 ToyBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L1146)
 --- child of ToyBox_searchBox (created in template SearchBoxTemplate)
 --- @type Texture
 ToyBoxSearchIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L28)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L28)
 --- child of ToyBox
 --- @class ToyBox_searchBox : EditBox, SearchBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L37)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L37)
 --- child of ToyBox
 --- @class ToyBox_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 --- @field resizeToText boolean # false
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L57)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton1 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L62)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L62)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton2 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L67)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton3 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L72)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton4 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L77)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton5 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L82)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton6 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L87)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton7 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L92)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton8 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L97)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton9 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L102)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L102)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton10 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L107)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton11 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L112)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton12 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L117)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton13 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L122)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton14 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L127)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton15 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L132)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton16 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L137)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton17 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L142)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L142)
 --- child of ToyBox_iconsFrame
 --- @class ToyBox_iconsFrame_spellButton18 : CheckButton, ToySpellButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L740)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L740)
 --- child of ToyBox_iconsFrame (created in template InsetFrameTemplate)
 --- @type Texture
 ToyBoxBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L45)
 --- child of ToyBox
 --- @class ToyBox_iconsFrame : Frame, CollectionsBackgroundTemplate
 --- @field spellButton1 ToyBox_iconsFrame_spellButton1
@@ -127,11 +127,11 @@ ToyBoxBg = {}
 --- @field spellButton18 ToyBox_iconsFrame_spellButton18
 --- @field watermark Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L151)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L151)
 --- child of ToyBox
 --- @class ToyBox_PagingFrame : Frame, CollectionsPagingFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_ToyBox.xml#L23)
 --- @class ToyBox : Frame
 --- @field progressBar ToyBox_progressBar
 --- @field searchBox ToyBox_searchBox

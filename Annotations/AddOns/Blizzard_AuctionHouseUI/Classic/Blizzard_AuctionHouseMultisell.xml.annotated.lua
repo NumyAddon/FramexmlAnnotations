@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Classic/Blizzard_AuctionHouseMultisell.xml#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Classic/Blizzard_AuctionHouseMultisell.xml#L47)
 --- child of AuctionHouseMultisellProgressFrame
 --- @class AuctionHouseMultisellProgressFrame_ProgressBar : StatusBar, CastingBarFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Classic/Blizzard_AuctionHouseMultisell.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Classic/Blizzard_AuctionHouseMultisell.xml#L70)
 --- child of AuctionHouseMultisellProgressFrame
 --- @class AuctionHouseMultisellProgressFrame_CancelButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Classic/Blizzard_AuctionHouseMultisell.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_AuctionHouseUI/Classic/Blizzard_AuctionHouseMultisell.xml#L4)
 --- @class AuctionHouseMultisellProgressFrame : Frame, UIParentBottomManagedFrameTemplate, MultisellProgressFrameMixin
 --- @field layoutIndex number # 61
 --- @field ProgressBar AuctionHouseMultisellProgressFrame_ProgressBar

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendshipStatusBar.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendshipStatusBar.xml#L3)
 --- Template
 --- @class NPCFriendshipStatusBarTemplate : StatusBar, NPCFriendshipStatusBarMixin
 --- @field BarBorder Texture

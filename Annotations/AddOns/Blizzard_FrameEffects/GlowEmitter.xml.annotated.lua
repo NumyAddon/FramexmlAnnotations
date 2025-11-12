@@ -1,28 +1,28 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L8)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L8)
 --- child of GlowEmitterTemplate
 --- @class GlowEmitterTemplate_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # IdenticalCornersLayoutNoCenter
 --- @field layoutTextureKit string # ButtonGreenGlow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L36)
 --- child of GlowEmitterTemplate
 --- @class GlowEmitterTemplate_FadeAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L43)
 --- child of GlowEmitterTemplate
 --- @class GlowEmitterTemplate_FaintFadeAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L50)
 --- child of GlowEmitterTemplate
 --- @class GlowEmitterTemplate_NPE_RedButton_GreenGlow : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L57)
 --- child of GlowEmitterTemplate
 --- @class GlowEmitterTemplate_GreenGlow : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameEffects/GlowEmitter.xml#L5)
 --- Template
 --- @class GlowEmitterTemplate : Frame, GlowEmitterMixin
 --- @field NineSlice GlowEmitterTemplate_NineSlice

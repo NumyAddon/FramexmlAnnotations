@@ -1,84 +1,84 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreColumnTemplate
 --- @class WorldStateScoreColumnTemplate_Text : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L3)
 --- Template
 --- @class WorldStateScoreColumnTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L244)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_ClassButton : Frame
 --- @field icon Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L285)
 --- child of WorldStateScoreTemplateName
 --- @class WorldStateScoreTemplate_Name_Text : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L272)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Name : Button
 --- @field text WorldStateScoreTemplate_Name_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L56)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Team : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L68)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_HonorableKills : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L77)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_KillingBlows : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L86)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L86)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Deaths : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L95)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_HonorGained : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L104)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_DamageDone : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L113)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_HealingDone : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L122)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column1Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L139)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column2Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L156)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column3Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L173)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column4Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L190)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L190)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column5Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L207)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column6Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L224)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L224)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column7Text : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L33)
 --- Template
 --- @class WorldStateScoreTemplate : Frame
 --- @field class WorldStateScoreTemplate_ClassButton
@@ -93,301 +93,301 @@
 --- @field damageDone WorldStateScoreTemplate_DamageDone
 --- @field healingDone WorldStateScoreTemplate_HealingDone
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L314)
 --- Template
 --- @class WorldStateScoreFrameTabButtonTemplate : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreFrameClass (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameClassText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L567)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L567)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameClass : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameClass = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreFrameName (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameNameText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L600)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameName : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreFrameTeam (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameTeamText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L616)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L616)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTeam : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameTeam = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreFrameKB (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameKBText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L632)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L632)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameKB : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameKB = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreFrameDeaths (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameDeathsText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L644)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L644)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameDeaths : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameDeaths = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreFrameHK (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameHKText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L656)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L656)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameHK : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameHK = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreFrameDamageDone (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameDamageDoneText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L668)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L668)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameDamageDone : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameDamageDone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreFrameHealingDone (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameHealingDoneText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L680)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameHealingDone : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameHealingDone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreFrameHonorGained (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameHonorGainedText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L692)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L692)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameHonorGained : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameHonorGained = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreColumn1 (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn1Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L709)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L709)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn1 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreColumn2 (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn2Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L719)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L719)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn2 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreColumn3 (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn3Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L729)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L729)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn3 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreColumn4 (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn4Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L739)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L739)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn4 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn4 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreColumn5 (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn5Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L749)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L749)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn5 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn5 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreColumn6 (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn6Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L759)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L759)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn6 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn6 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreColumn7 (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn7Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L769)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L769)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn7 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn7 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L244)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_ClassButton
 WorldStateScoreButton1ClassButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L285)
 --- child of WorldStateScoreTemplateName
 --- @class WorldStateScoreTemplate_Name_Text : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L272)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Name
 WorldStateScoreButton1Name = {}
 WorldStateScoreButton1Name["text"] = WorldStateScoreTemplateNameText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L39)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1FactionLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L46)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1FactionRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L56)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Team
 WorldStateScoreButton1Team = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L68)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_HonorableKills
 WorldStateScoreButton1HonorableKills = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L77)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_KillingBlows
 WorldStateScoreButton1KillingBlows = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L86)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L86)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Deaths
 WorldStateScoreButton1Deaths = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L95)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_HonorGained
 WorldStateScoreButton1HonorGained = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L104)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_DamageDone
 WorldStateScoreButton1DamageDone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L113)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_HealingDone
 WorldStateScoreButton1HealingDone = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L122)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column1Text
 WorldStateScoreButton1Column1Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L127)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column1Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L139)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column2Text
 WorldStateScoreButton1Column2Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L144)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column2Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L156)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column3Text
 WorldStateScoreButton1Column3Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L161)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column3Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L173)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column4Text
 WorldStateScoreButton1Column4Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L178)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column4Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L190)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L190)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column5Text
 WorldStateScoreButton1Column5Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L195)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L195)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column5Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L207)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column6Text
 WorldStateScoreButton1Column6Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L212)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column6Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L224)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L224)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column7Text
 WorldStateScoreButton1Column7Text = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L229)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column7Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L780)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L780)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreButton1 : Frame, WorldStateScoreTemplate
 WorldStateScoreButton1 = {}
@@ -403,32 +403,32 @@ WorldStateScoreButton1["honorGained"] = WorldStateScoreButton1HonorGained -- inh
 WorldStateScoreButton1["damageDone"] = WorldStateScoreButton1DamageDone -- inherited
 WorldStateScoreButton1["healingDone"] = WorldStateScoreButton1HealingDone -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L794)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L794)
 --- child of WorldStateScoreScrollFrame
 --- @class WorldStateScoreScrollFrameScrollBarTop : Texture
 WorldStateScoreScrollFrameScrollBarTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L163)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L163)
 --- child of WorldStateScoreScrollFrame (created in template FauxScrollFrameTemplate)
 --- @type Frame
 WorldStateScoreScrollFrameScrollChildFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L10)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L10)
 --- child of WorldStateScoreScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_ScrollUpButton
 WorldStateScoreScrollFrameScrollBarScrollUpButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L18)
 --- child of WorldStateScoreScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_ScrollDownButton
 WorldStateScoreScrollFrameScrollBarScrollDownButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L30)
 --- child of WorldStateScoreScrollFrameScrollBar (created in template UIPanelScrollBarTemplate)
 --- @type UIPanelScrollBarTemplate_ThumbTexture
 WorldStateScoreScrollFrameScrollBarThumbTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L46)
 --- child of WorldStateScoreScrollFrame (created in template UIPanelScrollFrameTemplate)
 --- @type UIPanelScrollFrameTemplate_ScrollBar
 WorldStateScoreScrollFrameScrollBar = {}
@@ -436,236 +436,236 @@ WorldStateScoreScrollFrameScrollBar["ScrollUpButton"] = WorldStateScoreScrollFra
 WorldStateScoreScrollFrameScrollBar["ScrollDownButton"] = WorldStateScoreScrollFrameScrollBarScrollDownButton -- inherited
 WorldStateScoreScrollFrameScrollBar["ThumbTexture"] = WorldStateScoreScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L785)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L785)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 WorldStateScoreScrollFrame = {}
 WorldStateScoreScrollFrame["ScrollChildFrame"] = WorldStateScoreScrollFrameScrollChildFrame -- inherited
 WorldStateScoreScrollFrame["ScrollBar"] = WorldStateScoreScrollFrameScrollBar -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L841)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L841)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameCloseButton : Button, UIPanelCloseButton
 WorldStateScoreFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L320)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L333)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L342)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L351)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L364)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L364)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L373)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L373)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L406)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L850)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L850)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTab1 : Button, WorldStateScoreFrameTabButtonTemplate
 WorldStateScoreFrameTab1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L320)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L333)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L342)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L351)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L364)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L364)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L373)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L373)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L406)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L862)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L862)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTab2 : Button, WorldStateScoreFrameTabButtonTemplate
 WorldStateScoreFrameTab2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L320)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3LeftDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L333)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3MiddleDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L342)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3RightDisabled = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L351)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3Left = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L364)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L364)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3Middle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L373)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L373)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3Right = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L406)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3HighlightTexture = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L874)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L874)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTab3 : Button, WorldStateScoreFrameTabButtonTemplate
 WorldStateScoreFrameTab3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L886)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L886)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameLeaveButton : Button, UIPanelButtonTemplate
 WorldStateScoreFrameLeaveButton = {}
 WorldStateScoreFrameLeaveButton["fitTextCanWidthDecrease"] = true -- inherited
 WorldStateScoreFrameLeaveButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L914)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L914)
 --- child of WorldStateScoreWinnerFrame
 --- @class WorldStateScoreWinnerFrameLeft : Texture
 WorldStateScoreWinnerFrameLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L927)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L927)
 --- child of WorldStateScoreWinnerFrame
 --- @class WorldStateScoreWinnerFrameRight : Texture
 WorldStateScoreWinnerFrameRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L945)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L945)
 --- child of WorldStateScoreWinnerFrame
 --- @class WorldStateScoreWinnerFrameText : FontString, GameFontHighlight
 WorldStateScoreWinnerFrameText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L904)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L904)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreWinnerFrame : Frame
 WorldStateScoreWinnerFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L431)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L431)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTopLeft : Texture
 WorldStateScoreFrameTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L443)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTopRight : Texture
 WorldStateScoreFrameTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L455)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L455)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTop : Texture
 WorldStateScoreFrameTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L472)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L472)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameBottomLeft : Texture
 WorldStateScoreFrameBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L480)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L480)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameBottomRight : Texture
 WorldStateScoreFrameBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L488)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L488)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameBottom : Texture
 WorldStateScoreFrameBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L507)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L507)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameLabel : FontString, GameFontNormal
 WorldStateScoreFrameLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L514)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L514)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTimerLabel : FontString, GameFontHighlightSmall
 WorldStateScoreFrameTimerLabel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L519)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L519)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTimer : FontString, GameFontNormalSmall
 WorldStateScoreFrameTimer = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L528)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L528)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScorePlayerCount : FontString, GameFontNormalSmall
 WorldStateScorePlayerCount = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L534)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L534)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreBattlegroundRunTime : FontString, GameFontNormalSmall
 WorldStateScoreBattlegroundRunTime = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L540)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L540)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameEnemyTeamAverageBGRating : FontString, GameFontNormalSmall
 WorldStateScoreFrameEnemyTeamAverageBGRating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L545)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L545)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTeamAverageBGRating : FontString, GameFontNormalSmall
 WorldStateScoreFrameTeamAverageBGRating = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L552)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L552)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTopBackground : Texture
 WorldStateScoreFrameTopBackground = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L422)
 --- @class WorldStateScoreFrame : Frame
 --- @field enemyTeamAverageRating WorldStateScoreFrameEnemyTeamAverageBGRating
 --- @field teamAverageRating WorldStateScoreFrameTeamAverageBGRating
@@ -673,24 +673,24 @@ WorldStateScoreFrame = {}
 WorldStateScoreFrame["enemyTeamAverageRating"] = WorldStateScoreFrameEnemyTeamAverageBGRating
 WorldStateScoreFrame["teamAverageRating"] = WorldStateScoreFrameTeamAverageBGRating
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1016)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1016)
 --- child of WorldStateChallengeModeFrame_statusBar
 --- @class WorldStateChallengeModeFrame_statusBar_timeLeft : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1000)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1000)
 --- child of WorldStateChallengeModeFrame
 --- @class WorldStateChallengeModeFrame_statusBar : StatusBar
 --- @field timeLeft WorldStateChallengeModeFrame_statusBar_timeLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1054)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1054)
 --- child of WorldStateChallengeModeFrame_GlowFrame
 --- @class WorldStateChallengeModeFrame_GlowFrame_MedalGlowAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1058)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1058)
 --- child of WorldStateChallengeModeFrame_GlowFrame
 --- @class WorldStateChallengeModeFrame_GlowFrame_MedalPulseAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1030)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1030)
 --- child of WorldStateChallengeModeFrame
 --- @class WorldStateChallengeModeFrame_GlowFrame : Frame
 --- @field MedalGlow Texture
@@ -698,7 +698,7 @@ WorldStateScoreFrame["teamAverageRating"] = WorldStateScoreFrameTeamAverageBGRat
 --- @field MedalGlowAnim WorldStateChallengeModeFrame_GlowFrame_MedalGlowAnim
 --- @field MedalPulseAnim WorldStateChallengeModeFrame_GlowFrame_MedalPulseAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L966)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L966)
 --- @class WorldStateChallengeModeFrame : Frame
 --- @field statusBar WorldStateChallengeModeFrame_statusBar
 --- @field GlowFrame WorldStateChallengeModeFrame_GlowFrame
@@ -706,40 +706,40 @@ WorldStateScoreFrame["teamAverageRating"] = WorldStateScoreFrameTeamAverageBGRat
 --- @field noMedal Texture
 WorldStateChallengeModeFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1073)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1073)
 --- @class WorldStateChallengeModeTimer : Frame
 WorldStateChallengeModeTimer = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1189)
 --- child of WorldStateProvingGroundsFrame_statusBar
 --- @class WorldStateProvingGroundsFrame_statusBar_timeLeft : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1175)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_statusBar : StatusBar
 --- @field timeLeft WorldStateProvingGroundsFrame_statusBar_timeLeft
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1119)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_WaveLabel : FontString, QuestFont_Large
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1129)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_Wave : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1134)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_ScoreLabel : FontString, QuestFont_Large
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1144)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_Score : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1081)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1081)
 --- child of WorldStateProvingGroundsFrame
 --- @class WorldStateProvingGroundsFrame_CountdownAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1078)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1078)
 --- @class WorldStateProvingGroundsFrame : Frame
 --- @field statusBar WorldStateProvingGroundsFrame_statusBar
 --- @field BG Texture
@@ -755,7 +755,7 @@ WorldStateChallengeModeTimer = {}
 --- @field CountdownAnim WorldStateProvingGroundsFrame_CountdownAnim
 WorldStateProvingGroundsFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_FrameXML/Mists/WorldStateFrame.xml#L1208)
 --- @class WorldStateProvingGroundsTimer : Frame
 WorldStateProvingGroundsTimer = {}
 

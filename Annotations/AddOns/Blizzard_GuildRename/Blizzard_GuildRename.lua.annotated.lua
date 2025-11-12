@@ -36,7 +36,7 @@ local function GetGuildError(statusCode)
 	return entry or guildErrorLookup[Enum.GuildErrorType.UnknownError];
 end
 
-local GuildRenameMode = EnumUtil.MakeEnum("Title", "DoRename");
+local GuildRenameMode = EnumUtil.MakeEnum("Title", "DoRename");--- @type {["Title"]: 1, ["DoRename"]: 2}
 
 GuildRenameFrameMixin = {};--- @class GuildRenameFrameMixin
 

@@ -1,71 +1,71 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L90)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L90)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_OpenParentButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L103)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_NavigateBackwardButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L116)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_NavigateForwardButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L129)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_DuplicateButton : Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L148)
 --- child of TableAttributeDisplayTemplate_VisibilityButton
 --- @class TableAttributeDisplayTemplate_VisibilityButton_Label : FontString, GameFontWhite
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L141)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_VisibilityButton : CheckButton
 --- @field Label TableAttributeDisplayTemplate_VisibilityButton_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L171)
 --- child of TableAttributeDisplayTemplate_HighlightButton
 --- @class TableAttributeDisplayTemplate_HighlightButton_Label : FontString, GameFontWhite
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L164)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_HighlightButton : CheckButton
 --- @field Label TableAttributeDisplayTemplate_HighlightButton_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L194)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L194)
 --- child of TableAttributeDisplayTemplate_DynamicUpdateButton
 --- @class TableAttributeDisplayTemplate_DynamicUpdateButton_Label : FontString, GameFontWhite
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L187)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L187)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_DynamicUpdateButton : CheckButton
 --- @field Label TableAttributeDisplayTemplate_DynamicUpdateButton_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L210)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L210)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_FilterBox : EditBox, SearchBoxTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L221)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L243)
 --- child of TableAttributeDisplayTemplate_TitleButton
 --- @class TableAttributeDisplayTemplate_TitleButton_Highlight : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L234)
 --- child of TableAttributeDisplayTemplate_TitleButton
 --- @class TableAttributeDisplayTemplate_TitleButton_Text : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L226)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_TitleButton : Button, TruncatedTooltipScriptTemplate, PanelDragBarTemplate
 --- @field Highlight TableAttributeDisplayTemplate_TitleButton_Highlight
 --- @field Text TableAttributeDisplayTemplate_TitleButton_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L254)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L254)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_LinesScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # true
@@ -74,15 +74,15 @@
 --- @field scrollBarBottomY number # -8
 --- @field LinesContainer Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L274)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_ScrollFrameArt : Frame, TooltipBorderBackdropTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L280)
 --- child of TableAttributeDisplayTemplate
 --- @class TableAttributeDisplayTemplate_FrameHighlight : Frame, FrameHighlightTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L5)
 --- Template
 --- @class TableAttributeDisplayTemplate : Frame, TableInspectorMixin
 --- @field OpenParentButton TableAttributeDisplayTemplate_OpenParentButton
@@ -109,7 +109,7 @@
 --- @field Left Texture
 --- @field Right Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DebugTools/Blizzard_TableInspector.xml#L284)
 --- @class TableAttributeDisplay : Frame, TableAttributeDisplayTemplate
 TableAttributeDisplay = {}
 

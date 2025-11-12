@@ -1,22 +1,22 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L62)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L62)
 --- child of PaladinPowerBarRuneTemplate
 --- @class PaladinPowerBarRuneTemplate_activateAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L73)
 --- child of PaladinPowerBarRuneTemplate
 --- @class PaladinPowerBarRuneTemplate_readyAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L83)
 --- child of PaladinPowerBarRuneTemplate
 --- @class PaladinPowerBarRuneTemplate_readyLoopAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L87)
 --- child of PaladinPowerBarRuneTemplate
 --- @class PaladinPowerBarRuneTemplate_depleteAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L6)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L6)
 --- Template
 --- @class PaladinPowerBarRuneTemplate : Frame, PaladinPowerBarRune
 --- @field runeNumber number # 1
@@ -36,7 +36,7 @@
 --- @field readyLoopAnim PaladinPowerBarRuneTemplate_readyLoopAnim
 --- @field depleteAnim PaladinPowerBarRuneTemplate_depleteAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L165)
 --- child of PaladinPowerBarFrameTemplate
 --- @class PaladinPowerBarFrameTemplate_Rune1 : Frame, PaladinPowerBarRuneTemplate
 --- @field runeNumber number # 1
@@ -44,7 +44,7 @@
 --- @field depleteFlipbookHeight number # 43
 --- @field depleteFlipbookOffsetY number # 7
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L177)
 --- child of PaladinPowerBarFrameTemplate
 --- @class PaladinPowerBarFrameTemplate_Rune2 : Frame, PaladinPowerBarRuneTemplate
 --- @field runeNumber number # 2
@@ -52,7 +52,7 @@
 --- @field depleteFlipbookHeight number # 42
 --- @field depleteFlipbookOffsetY number # 7
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L189)
 --- child of PaladinPowerBarFrameTemplate
 --- @class PaladinPowerBarFrameTemplate_Rune3 : Frame, PaladinPowerBarRuneTemplate
 --- @field runeNumber number # 3
@@ -60,7 +60,7 @@
 --- @field depleteFlipbookHeight number # 43
 --- @field depleteFlipbookOffsetY number # 9
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L201)
 --- child of PaladinPowerBarFrameTemplate
 --- @class PaladinPowerBarFrameTemplate_Rune4 : Frame, PaladinPowerBarRuneTemplate
 --- @field runeNumber number # 4
@@ -68,7 +68,7 @@
 --- @field depleteFlipbookHeight number # 42
 --- @field depleteFlipbookOffsetY number # 7
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L213)
 --- child of PaladinPowerBarFrameTemplate
 --- @class PaladinPowerBarFrameTemplate_Rune5 : Frame, PaladinPowerBarRuneTemplate
 --- @field runeNumber number # 5
@@ -76,27 +76,27 @@
 --- @field depleteFlipbookHeight number # 44
 --- @field depleteFlipbookOffsetY number # 7
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L141)
 --- child of PaladinPowerBarFrameTemplate
 --- @class PaladinPowerBarFrameTemplate_showAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L144)
 --- child of PaladinPowerBarFrameTemplate
 --- @class PaladinPowerBarFrameTemplate_activateAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L151)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L151)
 --- child of PaladinPowerBarFrameTemplate
 --- @class PaladinPowerBarFrameTemplate_readyAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L154)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L154)
 --- child of PaladinPowerBarFrameTemplate
 --- @class PaladinPowerBarFrameTemplate_readyLoopAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L158)
 --- child of PaladinPowerBarFrameTemplate
 --- @class PaladinPowerBarFrameTemplate_depleteAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L98)
 --- Template
 --- @class PaladinPowerBarFrameTemplate : Frame, ClassResourceBarSelfManagedPointsTemplate, PaladinPowerBar
 --- @field powerToken string # HOLY_POWER
@@ -118,7 +118,7 @@
 --- @field readyLoopAnim PaladinPowerBarFrameTemplate_readyLoopAnim
 --- @field depleteAnim PaladinPowerBarFrameTemplate_depleteAnim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L165)
 --- child of PaladinPowerBarFrame (created in template PaladinPowerBarFrameTemplate)
 --- @type PaladinPowerBarFrameTemplate_Rune1
 PaladinPowerBarFrameRune1 = {}
@@ -129,7 +129,7 @@ PaladinPowerBarFrameRune1["depleteFlipbookOffsetY"] = 7
 PaladinPowerBarFrameRune1["useBackground"] = false -- inherited
 PaladinPowerBarFrameRune1["fxOffsetY"] = 5 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L177)
 --- child of PaladinPowerBarFrame (created in template PaladinPowerBarFrameTemplate)
 --- @type PaladinPowerBarFrameTemplate_Rune2
 PaladinPowerBarFrameRune2 = {}
@@ -140,7 +140,7 @@ PaladinPowerBarFrameRune2["depleteFlipbookOffsetY"] = 7
 PaladinPowerBarFrameRune2["useBackground"] = false -- inherited
 PaladinPowerBarFrameRune2["fxOffsetY"] = 5 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L189)
 --- child of PaladinPowerBarFrame (created in template PaladinPowerBarFrameTemplate)
 --- @type PaladinPowerBarFrameTemplate_Rune3
 PaladinPowerBarFrameRune3 = {}
@@ -151,7 +151,7 @@ PaladinPowerBarFrameRune3["depleteFlipbookOffsetY"] = 9
 PaladinPowerBarFrameRune3["useBackground"] = false -- inherited
 PaladinPowerBarFrameRune3["fxOffsetY"] = 5 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L201)
 --- child of PaladinPowerBarFrame (created in template PaladinPowerBarFrameTemplate)
 --- @type PaladinPowerBarFrameTemplate_Rune4
 PaladinPowerBarFrameRune4 = {}
@@ -162,7 +162,7 @@ PaladinPowerBarFrameRune4["depleteFlipbookOffsetY"] = 7
 PaladinPowerBarFrameRune4["useBackground"] = false -- inherited
 PaladinPowerBarFrameRune4["fxOffsetY"] = 5 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L213)
 --- child of PaladinPowerBarFrame (created in template PaladinPowerBarFrameTemplate)
 --- @type PaladinPowerBarFrameTemplate_Rune5
 PaladinPowerBarFrameRune5 = {}
@@ -173,7 +173,7 @@ PaladinPowerBarFrameRune5["depleteFlipbookOffsetY"] = 7
 PaladinPowerBarFrameRune5["useBackground"] = false -- inherited
 PaladinPowerBarFrameRune5["fxOffsetY"] = 5 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/PaladinPowerBar.xml#L228)
 --- @class PaladinPowerBarFrame : Frame, PaladinPowerBarFrameTemplate
 --- @field layoutIndex number # 3
 --- @field topPadding number # -3

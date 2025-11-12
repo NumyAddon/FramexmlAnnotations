@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L52)
 --- child of BossBannerLootFrameTemplate
 --- @class BossBannerLootFrameTemplate_IconHitBox : Frame
 --- @field IconBorder Texture
@@ -9,27 +9,27 @@
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L25)
 --- child of BossBannerLootFrameTemplate
 --- @class BossBannerLootFrameTemplate_Count : FontString, NumberFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L30)
 --- child of BossBannerLootFrameTemplate
 --- @class BossBannerLootFrameTemplate_ItemName : FontString, GameFontNormalMed2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L36)
 --- child of BossBannerLootFrameTemplate
 --- @class BossBannerLootFrameTemplate_SetName : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L43)
 --- child of BossBannerLootFrameTemplate
 --- @class BossBannerLootFrameTemplate_PlayerName : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L106)
 --- child of BossBannerLootFrameTemplate
 --- @class BossBannerLootFrameTemplate_Anim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L6)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L6)
 --- Template
 --- Adds itself to the parent inside the array `LootFrames`
 --- @class BossBannerLootFrameTemplate : Frame
@@ -42,27 +42,27 @@
 --- @field PlayerName BossBannerLootFrameTemplate_PlayerName
 --- @field Anim BossBannerLootFrameTemplate_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L222)
 --- child of BossBanner
 --- @class BossBanner_Title : FontString, QuestFont_Enormous
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L228)
 --- child of BossBanner
 --- @class BossBanner_SubTitle : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L270)
 --- child of BossBanner
 --- @class BossBanner_AnimIn : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L337)
 --- child of BossBanner
 --- @class BossBanner_AnimSwitch : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L343)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L343)
 --- child of BossBanner
 --- @class BossBanner_AnimOut : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L142)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/BossBannerToast.xml#L142)
 --- @class BossBanner : Frame
 --- @field BannerTop Texture
 --- @field BannerTopGlow Texture

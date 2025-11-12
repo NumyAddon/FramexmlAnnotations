@@ -1,18 +1,18 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L5)
 --- Template
 --- @class ExpBar_Divider : Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L108)
 --- child of CompanionListButtonTemplate_dragButton
 --- @class CompanionListButtonTemplate_dragButton_Cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L94)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L94)
 --- child of CompanionListButtonTemplate_dragButton
 --- @class CompanionListButtonTemplate_dragButton_Level : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L79)
 --- child of CompanionListButtonTemplate
 --- @class CompanionListButtonTemplate_dragButton : Button, PetJournalDragButtonMixin
 --- @field Cooldown CompanionListButtonTemplate_dragButton_Cooldown
@@ -21,19 +21,19 @@
 --- @field level CompanionListButtonTemplate_dragButton_Level
 --- @field favorite Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L37)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L37)
 --- child of CompanionListButtonTemplate
 --- @class CompanionListButtonTemplate_name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L43)
 --- child of CompanionListButtonTemplate
 --- @class CompanionListButtonTemplate_subName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L61)
 --- child of CompanionListButtonTemplate
 --- @class CompanionListButtonTemplate_new : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L7)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L7)
 --- Template
 --- @class CompanionListButtonTemplate : Button, PetJournalListItemMixin
 --- @field dragButton CompanionListButtonTemplate_dragButton
@@ -48,11 +48,11 @@
 --- @field new CompanionListButtonTemplate_new
 --- @field newGlow Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L164)
 --- child of CompanionLoadOutSpellTemplate
 --- @class CompanionLoadOutSpellTemplate_LevelRequirement : FontString, GameFontNormalHuge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L143)
 --- Template
 --- @class CompanionLoadOutSpellTemplate : CheckButton
 --- @field icon Texture
@@ -61,117 +61,117 @@
 --- @field FlyoutArrow Texture
 --- @field selected Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L303)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_TextureFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L316)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_healthStatusBar : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L355)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L355)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_HealthValue : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L297)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_HealthFrame : Frame
 --- @field healthBar CompanionLoadOutTemplate_HealthFrame_healthStatusBar
 --- @field healthValue CompanionLoadOutTemplate_HealthFrame_HealthValue
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L376)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_Spell1 : CheckButton, CompanionLoadOutSpellTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L381)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L381)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_Spell2 : CheckButton, CompanionLoadOutSpellTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L386)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_Spell3 : CheckButton, CompanionLoadOutSpellTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L406)
 --- child of CompanionLoadOutTemplateHelpFrame
 --- @class CompanionLoadOutTemplate_HelpFrame_Text : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L392)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L392)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_HelpFrame : Frame
 --- @field text CompanionLoadOutTemplate_HelpFrame_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L423)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L423)
 --- child of CompanionLoadOutTemplateRequirement
 --- @class CompanionLoadOutTemplate_Requirement_Str : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L416)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L416)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_Requirement : Frame
 --- @field str CompanionLoadOutTemplate_Requirement_Str
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L442)
 --- child of CompanionLoadOutTemplateXPBar
 --- @class CompanionLoadOutTemplate_XPBar_Rank : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L435)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_XPBar : StatusBar
 --- @field rankText CompanionLoadOutTemplate_XPBar_Rank
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L532)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L532)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_modelScene : ModelScene, ModelSceneMixinTemplate
 --- @field cardButton Button
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L551)
 --- child of CompanionLoadOutTemplateSetButton
 --- @class CompanionLoadOutTemplate_SetButton_glow : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L549)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_SetButton : Button
 --- @field glow CompanionLoadOutTemplate_SetButton_glow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L608)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L608)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_dragButton : Button, PetJournalLoadoutDragButtonMixin
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L628)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L628)
 --- child of CompanionLoadOutTemplateEmptySlot
 --- @class CompanionLoadOutTemplate_EmptySlot_SlotInfo : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L634)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L634)
 --- child of CompanionLoadOutTemplateEmptySlot
 --- @class CompanionLoadOutTemplate_EmptySlot_DragHere : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L625)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_EmptySlot : Frame
 --- @field slot CompanionLoadOutTemplate_EmptySlot_SlotInfo
 --- @field draghere CompanionLoadOutTemplate_EmptySlot_DragHere
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L652)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L652)
 --- child of CompanionLoadOutTemplateReadOnlyFrame
 --- @class CompanionLoadOutTemplate_ReadOnlyFrame_LockIcon : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L643)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L643)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_ReadOnlyFrame : Frame
 --- @field LockIcon CompanionLoadOutTemplate_ReadOnlyFrame_LockIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L247)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_Name : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L253)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_SubName : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L283)
 --- child of CompanionLoadOutTemplate
 --- @class CompanionLoadOutTemplate_Level : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L209)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L209)
 --- Template
 --- @class CompanionLoadOutTemplate : Button
 --- @field healthFrame CompanionLoadOutTemplate_HealthFrame
@@ -199,88 +199,88 @@
 --- @field level CompanionLoadOutTemplate_Level
 --- @field favorite Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L726)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L726)
 --- child of PetCardSpellButtonTemplate
 --- @class PetCardSpellButtonTemplate_LevelRequirement : FontString, GameFontNormalHuge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L712)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L712)
 --- Template
 --- @class PetCardSpellButtonTemplate : Button
 --- @field icon Texture
 --- @field BlackCover Texture
 --- @field LevelRequirement PetCardSpellButtonTemplate_LevelRequirement
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L763)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L763)
 --- child of PetSpellSelectButtonTemplate
 --- @class PetSpellSelectButtonTemplate_LevelRequirement : FontString, GameFontNormalHuge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L749)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L749)
 --- Template
 --- @class PetSpellSelectButtonTemplate : CheckButton
 --- @field icon Texture
 --- @field BlackCover Texture
 --- @field LevelRequirement PetSpellSelectButtonTemplate_LevelRequirement
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L803)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L803)
 --- child of PetJournal_PetCount
 --- @class PetJournal_PetCount_Count : FontString, GameFontHighlightSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L808)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L808)
 --- child of PetJournal_PetCount
 --- @class PetJournal_PetCount_Label : FontString, GameFontNormalSmall
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L796)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L796)
 --- child of PetJournal
 --- @class PetJournal_PetCount : Frame, InsetFrameTemplate3
 --- @field Count PetJournal_PetCount_Count
 --- @field Label PetJournal_PetCount_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L823)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L823)
 --- child of PetJournal
 --- @class PetJournalTutorialButton : Button, MainHelpPlateButton
 PetJournalTutorialButton = {}
 PetJournalTutorialButton["mainHelpPlateButtonTooltipText"] = MAIN_HELP_BUTTON_TOOLTIP -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L833)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L833)
 --- child of PetJournal
 --- @class PetJournal_HealPetSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, PetJournalHealPetSpellFrameMixin
 --- @field spellID number # 125439
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L842)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L842)
 --- child of PetJournal
 --- @class PetJournal_SummonRandomPetSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, PetJournalSummonRandomPetSpellFrameMixin
 --- @field spellID number # 243819
 --- @field labelText any # PET_JOURNAL_SUMMON_RANDOM_FAVORITE_PET
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L852)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L852)
 --- child of PetJournal
 --- @class PetJournalLeftInset : Frame, InsetFrameTemplate
 PetJournalLeftInset = {}
 PetJournalLeftInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L859)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L859)
 --- child of PetJournal
 --- @class PetJournalPetCardInset : Frame, InsetFrameTemplate
 PetJournalPetCardInset = {}
 PetJournalPetCardInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L865)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L865)
 --- child of PetJournal
 --- @class PetJournalRightInset : Frame, InsetFrameTemplate
 PetJournalRightInset = {}
 PetJournalRightInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1243)
 --- child of PetJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 PetJournalSearchBoxClearButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1234)
 --- child of PetJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 PetJournalSearchBoxSearchIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L871)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L871)
 --- child of PetJournal
 --- @class PetJournalSearchBox : EditBox, SearchBoxTemplate
 PetJournalSearchBox = {}
@@ -288,144 +288,144 @@ PetJournalSearchBox["instructionText"] = SEARCH -- inherited
 PetJournalSearchBox["clearButton"] = PetJournalSearchBoxClearButton -- inherited
 PetJournalSearchBox["searchIcon"] = PetJournalSearchBoxSearchIcon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L880)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L880)
 --- child of PetJournal
 --- @class PetJournal_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
 --- @field resizeToText boolean # false
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L889)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L889)
 --- child of PetJournal
 --- @class PetJournal_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L896)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L896)
 --- child of PetJournal
 --- @class PetJournal_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L910)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L910)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderTopLeft : Texture
 PetJournalLoadoutBorderTopLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L915)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L915)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderTopRight : Texture
 PetJournalLoadoutBorderTopRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L922)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L922)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderBottomLeft : Texture
 PetJournalLoadoutBorderBottomLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L929)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L929)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderBottomRight : Texture
 PetJournalLoadoutBorderBottomRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L936)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L936)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderTop : Texture
 PetJournalLoadoutBorderTop = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L942)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L942)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderBottom : Texture
 PetJournalLoadoutBorderBottom = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L949)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L949)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderLeft : Texture
 PetJournalLoadoutBorderLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L955)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L955)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderRight : Texture
 PetJournalLoadoutBorderRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L964)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L964)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderUpperSeparator : Texture
 PetJournalLoadoutBorderUpperSeparator = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L970)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L970)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderLowerSeparator : Texture
 PetJournalLoadoutBorderLowerSeparator = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L978)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L978)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderSlotHeaderText : FontString, GameFontNormal
 PetJournalLoadoutBorderSlotHeaderText = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L984)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L984)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderSlotHeaderBG : Texture
 PetJournalLoadoutBorderSlotHeaderBG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L993)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L993)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderSlotHeaderF : Texture
 PetJournalLoadoutBorderSlotHeaderF = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1003)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1003)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderSlotHeaderLeft : Texture
 PetJournalLoadoutBorderSlotHeaderLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1008)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1008)
 --- child of PetJournalLoadoutBorder
 --- @class PetJournalLoadoutBorderSlotHeaderRight : Texture
 PetJournalLoadoutBorderSlotHeaderRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L903)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L903)
 --- child of PetJournal
 --- @class PetJournalLoadoutBorder : Frame
 PetJournalLoadoutBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L303)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_TextureFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L316)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_healthStatusBar : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L355)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L355)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_HealthValue : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L297)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_HealthFrame
 PetJournalLoadoutPet1HealthFrame = {}
 PetJournalLoadoutPet1HealthFrame["healthBar"] = CompanionLoadOutTemplateHealthFramehealthStatusBar
 PetJournalLoadoutPet1HealthFrame["healthValue"] = CompanionLoadOutTemplateHealthFrameHealthValue
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
 --- child of PetJournalLoadoutPet1Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell1Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
 --- child of PetJournalLoadoutPet1Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell1Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
 --- child of PetJournalLoadoutPet1Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell1FlyoutArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
 --- child of PetJournalLoadoutPet1Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell1Selected = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
 --- child of PetJournalLoadoutPet1Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell1Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L376)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Spell1
 PetJournalLoadoutPet1Spell1 = {}
@@ -433,32 +433,32 @@ PetJournalLoadoutPet1Spell1["icon"] = PetJournalLoadoutPet1Spell1Icon -- inherit
 PetJournalLoadoutPet1Spell1["FlyoutArrow"] = PetJournalLoadoutPet1Spell1FlyoutArrow -- inherited
 PetJournalLoadoutPet1Spell1["selected"] = PetJournalLoadoutPet1Spell1Selected -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
 --- child of PetJournalLoadoutPet1Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell2Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
 --- child of PetJournalLoadoutPet1Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell2Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
 --- child of PetJournalLoadoutPet1Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell2FlyoutArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
 --- child of PetJournalLoadoutPet1Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell2Selected = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
 --- child of PetJournalLoadoutPet1Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell2Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L381)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L381)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Spell2
 PetJournalLoadoutPet1Spell2 = {}
@@ -466,32 +466,32 @@ PetJournalLoadoutPet1Spell2["icon"] = PetJournalLoadoutPet1Spell2Icon -- inherit
 PetJournalLoadoutPet1Spell2["FlyoutArrow"] = PetJournalLoadoutPet1Spell2FlyoutArrow -- inherited
 PetJournalLoadoutPet1Spell2["selected"] = PetJournalLoadoutPet1Spell2Selected -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
 --- child of PetJournalLoadoutPet1Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell3Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
 --- child of PetJournalLoadoutPet1Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell3Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
 --- child of PetJournalLoadoutPet1Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell3FlyoutArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
 --- child of PetJournalLoadoutPet1Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell3Selected = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
 --- child of PetJournalLoadoutPet1Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Spell3Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L386)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Spell3
 PetJournalLoadoutPet1Spell3 = {}
@@ -499,121 +499,121 @@ PetJournalLoadoutPet1Spell3["icon"] = PetJournalLoadoutPet1Spell3Icon -- inherit
 PetJournalLoadoutPet1Spell3["FlyoutArrow"] = PetJournalLoadoutPet1Spell3FlyoutArrow -- inherited
 PetJournalLoadoutPet1Spell3["selected"] = PetJournalLoadoutPet1Spell3Selected -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L406)
 --- child of CompanionLoadOutTemplateHelpFrame
 --- @class CompanionLoadOutTemplate_HelpFrame_Text : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L392)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L392)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_HelpFrame
 PetJournalLoadoutPet1HelpFrame = {}
 PetJournalLoadoutPet1HelpFrame["text"] = CompanionLoadOutTemplateHelpFrameText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L423)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L423)
 --- child of CompanionLoadOutTemplateRequirement
 --- @class CompanionLoadOutTemplate_Requirement_Str : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L416)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L416)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Requirement
 PetJournalLoadoutPet1Requirement = {}
 PetJournalLoadoutPet1Requirement["str"] = CompanionLoadOutTemplateRequirementStr
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L442)
 --- child of CompanionLoadOutTemplateXPBar
 --- @class CompanionLoadOutTemplate_XPBar_Rank : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L435)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_XPBar
 PetJournalLoadoutPet1XPBar = {}
 PetJournalLoadoutPet1XPBar["rankText"] = CompanionLoadOutTemplateXPBarRank
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L551)
 --- child of CompanionLoadOutTemplateSetButton
 --- @class CompanionLoadOutTemplate_SetButton_glow : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L549)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_SetButton
 PetJournalLoadoutPet1SetButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L628)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L628)
 --- child of CompanionLoadOutTemplateEmptySlot
 --- @class CompanionLoadOutTemplate_EmptySlot_SlotInfo : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L634)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L634)
 --- child of CompanionLoadOutTemplateEmptySlot
 --- @class CompanionLoadOutTemplate_EmptySlot_DragHere : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L625)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_EmptySlot
 PetJournalLoadoutPet1EmptySlot = {}
 PetJournalLoadoutPet1EmptySlot["slot"] = CompanionLoadOutTemplateEmptySlotSlotInfo
 PetJournalLoadoutPet1EmptySlot["draghere"] = CompanionLoadOutTemplateEmptySlotDragHere
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L652)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L652)
 --- child of CompanionLoadOutTemplateReadOnlyFrame
 --- @class CompanionLoadOutTemplate_ReadOnlyFrame_LockIcon : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L643)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L643)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_ReadOnlyFrame
 PetJournalLoadoutPet1ReadOnlyFrame = {}
 PetJournalLoadoutPet1ReadOnlyFrame["LockIcon"] = CompanionLoadOutTemplateReadOnlyFrameLockIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L213)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet1BG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L220)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Shadows = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L227)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L227)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L242)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet1IconBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L247)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Name
 PetJournalLoadoutPet1Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L253)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_SubName
 PetJournalLoadoutPet1SubName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L262)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet1QualityBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L278)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet1LevelBG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L283)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Level
 PetJournalLoadoutPet1Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L289)
 --- child of PetJournalLoadoutPet1 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet1Favorite = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1027)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1027)
 --- child of PetJournalLoadout
 --- @class PetJournalLoadoutPet1 : Button, CompanionLoadOutTemplate
 PetJournalLoadoutPet1 = {}
@@ -637,51 +637,51 @@ PetJournalLoadoutPet1["levelBG"] = PetJournalLoadoutPet1LevelBG -- inherited
 PetJournalLoadoutPet1["level"] = PetJournalLoadoutPet1Level -- inherited
 PetJournalLoadoutPet1["favorite"] = PetJournalLoadoutPet1Favorite -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L303)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_TextureFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L316)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_healthStatusBar : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L355)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L355)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_HealthValue : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L297)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_HealthFrame
 PetJournalLoadoutPet2HealthFrame = {}
 PetJournalLoadoutPet2HealthFrame["healthBar"] = CompanionLoadOutTemplateHealthFramehealthStatusBar
 PetJournalLoadoutPet2HealthFrame["healthValue"] = CompanionLoadOutTemplateHealthFrameHealthValue
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
 --- child of PetJournalLoadoutPet2Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell1Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
 --- child of PetJournalLoadoutPet2Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell1Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
 --- child of PetJournalLoadoutPet2Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell1FlyoutArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
 --- child of PetJournalLoadoutPet2Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell1Selected = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
 --- child of PetJournalLoadoutPet2Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell1Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L376)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Spell1
 PetJournalLoadoutPet2Spell1 = {}
@@ -689,32 +689,32 @@ PetJournalLoadoutPet2Spell1["icon"] = PetJournalLoadoutPet2Spell1Icon -- inherit
 PetJournalLoadoutPet2Spell1["FlyoutArrow"] = PetJournalLoadoutPet2Spell1FlyoutArrow -- inherited
 PetJournalLoadoutPet2Spell1["selected"] = PetJournalLoadoutPet2Spell1Selected -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
 --- child of PetJournalLoadoutPet2Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell2Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
 --- child of PetJournalLoadoutPet2Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell2Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
 --- child of PetJournalLoadoutPet2Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell2FlyoutArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
 --- child of PetJournalLoadoutPet2Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell2Selected = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
 --- child of PetJournalLoadoutPet2Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell2Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L381)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L381)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Spell2
 PetJournalLoadoutPet2Spell2 = {}
@@ -722,32 +722,32 @@ PetJournalLoadoutPet2Spell2["icon"] = PetJournalLoadoutPet2Spell2Icon -- inherit
 PetJournalLoadoutPet2Spell2["FlyoutArrow"] = PetJournalLoadoutPet2Spell2FlyoutArrow -- inherited
 PetJournalLoadoutPet2Spell2["selected"] = PetJournalLoadoutPet2Spell2Selected -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
 --- child of PetJournalLoadoutPet2Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell3Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
 --- child of PetJournalLoadoutPet2Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell3Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
 --- child of PetJournalLoadoutPet2Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell3FlyoutArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
 --- child of PetJournalLoadoutPet2Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell3Selected = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
 --- child of PetJournalLoadoutPet2Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Spell3Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L386)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Spell3
 PetJournalLoadoutPet2Spell3 = {}
@@ -755,121 +755,121 @@ PetJournalLoadoutPet2Spell3["icon"] = PetJournalLoadoutPet2Spell3Icon -- inherit
 PetJournalLoadoutPet2Spell3["FlyoutArrow"] = PetJournalLoadoutPet2Spell3FlyoutArrow -- inherited
 PetJournalLoadoutPet2Spell3["selected"] = PetJournalLoadoutPet2Spell3Selected -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L406)
 --- child of CompanionLoadOutTemplateHelpFrame
 --- @class CompanionLoadOutTemplate_HelpFrame_Text : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L392)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L392)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_HelpFrame
 PetJournalLoadoutPet2HelpFrame = {}
 PetJournalLoadoutPet2HelpFrame["text"] = CompanionLoadOutTemplateHelpFrameText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L423)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L423)
 --- child of CompanionLoadOutTemplateRequirement
 --- @class CompanionLoadOutTemplate_Requirement_Str : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L416)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L416)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Requirement
 PetJournalLoadoutPet2Requirement = {}
 PetJournalLoadoutPet2Requirement["str"] = CompanionLoadOutTemplateRequirementStr
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L442)
 --- child of CompanionLoadOutTemplateXPBar
 --- @class CompanionLoadOutTemplate_XPBar_Rank : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L435)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_XPBar
 PetJournalLoadoutPet2XPBar = {}
 PetJournalLoadoutPet2XPBar["rankText"] = CompanionLoadOutTemplateXPBarRank
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L551)
 --- child of CompanionLoadOutTemplateSetButton
 --- @class CompanionLoadOutTemplate_SetButton_glow : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L549)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_SetButton
 PetJournalLoadoutPet2SetButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L628)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L628)
 --- child of CompanionLoadOutTemplateEmptySlot
 --- @class CompanionLoadOutTemplate_EmptySlot_SlotInfo : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L634)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L634)
 --- child of CompanionLoadOutTemplateEmptySlot
 --- @class CompanionLoadOutTemplate_EmptySlot_DragHere : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L625)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_EmptySlot
 PetJournalLoadoutPet2EmptySlot = {}
 PetJournalLoadoutPet2EmptySlot["slot"] = CompanionLoadOutTemplateEmptySlotSlotInfo
 PetJournalLoadoutPet2EmptySlot["draghere"] = CompanionLoadOutTemplateEmptySlotDragHere
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L652)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L652)
 --- child of CompanionLoadOutTemplateReadOnlyFrame
 --- @class CompanionLoadOutTemplate_ReadOnlyFrame_LockIcon : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L643)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L643)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_ReadOnlyFrame
 PetJournalLoadoutPet2ReadOnlyFrame = {}
 PetJournalLoadoutPet2ReadOnlyFrame["LockIcon"] = CompanionLoadOutTemplateReadOnlyFrameLockIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L213)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet2BG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L220)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Shadows = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L227)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L227)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L242)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet2IconBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L247)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Name
 PetJournalLoadoutPet2Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L253)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_SubName
 PetJournalLoadoutPet2SubName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L262)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet2QualityBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L278)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet2LevelBG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L283)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Level
 PetJournalLoadoutPet2Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L289)
 --- child of PetJournalLoadoutPet2 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet2Favorite = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1032)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1032)
 --- child of PetJournalLoadout
 --- @class PetJournalLoadoutPet2 : Button, CompanionLoadOutTemplate
 PetJournalLoadoutPet2 = {}
@@ -893,51 +893,51 @@ PetJournalLoadoutPet2["levelBG"] = PetJournalLoadoutPet2LevelBG -- inherited
 PetJournalLoadoutPet2["level"] = PetJournalLoadoutPet2Level -- inherited
 PetJournalLoadoutPet2["favorite"] = PetJournalLoadoutPet2Favorite -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L303)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_TextureFrame : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L316)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_healthStatusBar : StatusBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L355)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L355)
 --- child of CompanionLoadOutTemplateHealthFrame
 --- @class CompanionLoadOutTemplate_HealthFrame_HealthValue : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L297)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_HealthFrame
 PetJournalLoadoutPet3HealthFrame = {}
 PetJournalLoadoutPet3HealthFrame["healthBar"] = CompanionLoadOutTemplateHealthFramehealthStatusBar
 PetJournalLoadoutPet3HealthFrame["healthValue"] = CompanionLoadOutTemplateHealthFrameHealthValue
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
 --- child of PetJournalLoadoutPet3Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell1Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
 --- child of PetJournalLoadoutPet3Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell1Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
 --- child of PetJournalLoadoutPet3Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell1FlyoutArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
 --- child of PetJournalLoadoutPet3Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell1Selected = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
 --- child of PetJournalLoadoutPet3Spell1 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell1Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L376)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Spell1
 PetJournalLoadoutPet3Spell1 = {}
@@ -945,32 +945,32 @@ PetJournalLoadoutPet3Spell1["icon"] = PetJournalLoadoutPet3Spell1Icon -- inherit
 PetJournalLoadoutPet3Spell1["FlyoutArrow"] = PetJournalLoadoutPet3Spell1FlyoutArrow -- inherited
 PetJournalLoadoutPet3Spell1["selected"] = PetJournalLoadoutPet3Spell1Selected -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
 --- child of PetJournalLoadoutPet3Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell2Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
 --- child of PetJournalLoadoutPet3Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell2Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
 --- child of PetJournalLoadoutPet3Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell2FlyoutArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
 --- child of PetJournalLoadoutPet3Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell2Selected = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
 --- child of PetJournalLoadoutPet3Spell2 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell2Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L381)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L381)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Spell2
 PetJournalLoadoutPet3Spell2 = {}
@@ -978,32 +978,32 @@ PetJournalLoadoutPet3Spell2["icon"] = PetJournalLoadoutPet3Spell2Icon -- inherit
 PetJournalLoadoutPet3Spell2["FlyoutArrow"] = PetJournalLoadoutPet3Spell2FlyoutArrow -- inherited
 PetJournalLoadoutPet3Spell2["selected"] = PetJournalLoadoutPet3Spell2Selected -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L147)
 --- child of PetJournalLoadoutPet3Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell3Background = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L156)
 --- child of PetJournalLoadoutPet3Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell3Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L170)
 --- child of PetJournalLoadoutPet3Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell3FlyoutArrow = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L177)
 --- child of PetJournalLoadoutPet3Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell3Selected = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L205)
 --- child of PetJournalLoadoutPet3Spell3 (created in template CompanionLoadOutSpellTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Spell3Highlight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L386)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Spell3
 PetJournalLoadoutPet3Spell3 = {}
@@ -1011,121 +1011,121 @@ PetJournalLoadoutPet3Spell3["icon"] = PetJournalLoadoutPet3Spell3Icon -- inherit
 PetJournalLoadoutPet3Spell3["FlyoutArrow"] = PetJournalLoadoutPet3Spell3FlyoutArrow -- inherited
 PetJournalLoadoutPet3Spell3["selected"] = PetJournalLoadoutPet3Spell3Selected -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L406)
 --- child of CompanionLoadOutTemplateHelpFrame
 --- @class CompanionLoadOutTemplate_HelpFrame_Text : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L392)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L392)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_HelpFrame
 PetJournalLoadoutPet3HelpFrame = {}
 PetJournalLoadoutPet3HelpFrame["text"] = CompanionLoadOutTemplateHelpFrameText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L423)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L423)
 --- child of CompanionLoadOutTemplateRequirement
 --- @class CompanionLoadOutTemplate_Requirement_Str : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L416)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L416)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Requirement
 PetJournalLoadoutPet3Requirement = {}
 PetJournalLoadoutPet3Requirement["str"] = CompanionLoadOutTemplateRequirementStr
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L442)
 --- child of CompanionLoadOutTemplateXPBar
 --- @class CompanionLoadOutTemplate_XPBar_Rank : FontString, TextStatusBarText
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L435)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_XPBar
 PetJournalLoadoutPet3XPBar = {}
 PetJournalLoadoutPet3XPBar["rankText"] = CompanionLoadOutTemplateXPBarRank
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L551)
 --- child of CompanionLoadOutTemplateSetButton
 --- @class CompanionLoadOutTemplate_SetButton_glow : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L549)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_SetButton
 PetJournalLoadoutPet3SetButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L628)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L628)
 --- child of CompanionLoadOutTemplateEmptySlot
 --- @class CompanionLoadOutTemplate_EmptySlot_SlotInfo : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L634)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L634)
 --- child of CompanionLoadOutTemplateEmptySlot
 --- @class CompanionLoadOutTemplate_EmptySlot_DragHere : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L625)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_EmptySlot
 PetJournalLoadoutPet3EmptySlot = {}
 PetJournalLoadoutPet3EmptySlot["slot"] = CompanionLoadOutTemplateEmptySlotSlotInfo
 PetJournalLoadoutPet3EmptySlot["draghere"] = CompanionLoadOutTemplateEmptySlotDragHere
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L652)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L652)
 --- child of CompanionLoadOutTemplateReadOnlyFrame
 --- @class CompanionLoadOutTemplate_ReadOnlyFrame_LockIcon : Frame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L643)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L643)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_ReadOnlyFrame
 PetJournalLoadoutPet3ReadOnlyFrame = {}
 PetJournalLoadoutPet3ReadOnlyFrame["LockIcon"] = CompanionLoadOutTemplateReadOnlyFrameLockIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L213)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet3BG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L220)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Shadows = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L227)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L227)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L242)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet3IconBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L247)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Name
 PetJournalLoadoutPet3Name = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L253)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_SubName
 PetJournalLoadoutPet3SubName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L262)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet3QualityBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L278)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet3LevelBG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L283)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type CompanionLoadOutTemplate_Level
 PetJournalLoadoutPet3Level = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L289)
 --- child of PetJournalLoadoutPet3 (created in template CompanionLoadOutTemplate)
 --- @type Texture
 PetJournalLoadoutPet3Favorite = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1037)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1037)
 --- child of PetJournalLoadout
 --- @class PetJournalLoadoutPet3 : Button, CompanionLoadOutTemplate
 PetJournalLoadoutPet3 = {}
@@ -1149,7 +1149,7 @@ PetJournalLoadoutPet3["levelBG"] = PetJournalLoadoutPet3LevelBG -- inherited
 PetJournalLoadoutPet3["level"] = PetJournalLoadoutPet3Level -- inherited
 PetJournalLoadoutPet3["favorite"] = PetJournalLoadoutPet3Favorite -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1021)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1021)
 --- child of PetJournal
 --- @class PetJournalLoadout : Frame
 --- @field Pet1 PetJournalLoadoutPet1
@@ -1160,46 +1160,46 @@ PetJournalLoadout["Pet1"] = PetJournalLoadoutPet1
 PetJournalLoadout["Pet2"] = PetJournalLoadoutPet2
 PetJournalLoadout["Pet3"] = PetJournalLoadoutPet3
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1103)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoIcon : Texture
 PetJournalPetCardPetInfoIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1111)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoQualityBorder : Texture
 PetJournalPetCardPetInfoQualityBorder = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1119)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoName : FontString, GameFontNormal
 PetJournalPetCardPetInfoName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1126)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1126)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoSubName : FontString, GameFontNormalSmall
 PetJournalPetCardPetInfoSubName = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1141)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoLevelBubble : Texture
 PetJournalPetCardPetInfoLevelBubble = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1146)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoLevel : FontString, GameFontNormalSmall
 PetJournalPetCardPetInfoLevel = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1152)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfoFavorite : Texture
 PetJournalPetCardPetInfoFavorite = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1159)
 --- child of PetJournalPetCardPetInfo
 --- @class PetJournalPetCardPetInfo_new : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1096)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1096)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardPetInfo : Button
 --- @field icon PetJournalPetCardPetInfoIcon
@@ -1221,17 +1221,17 @@ PetJournalPetCardPetInfo["levelBG"] = PetJournalPetCardPetInfoLevelBubble
 PetJournalPetCardPetInfo["level"] = PetJournalPetCardPetInfoLevel
 PetJournalPetCardPetInfo["favorite"] = PetJournalPetCardPetInfoFavorite
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1213)
 --- child of PetJournalPetCardTypeInfo
 --- @class PetJournalPetCardTypeInfoTypeIcon : Texture
 PetJournalPetCardTypeInfoTypeIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1220)
 --- child of PetJournalPetCardTypeInfo
 --- @class PetJournalPetCardTypeInfoType : FontString, GameFontNormal
 PetJournalPetCardTypeInfoType = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1206)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardTypeInfo : Frame
 --- @field typeIcon PetJournalPetCardTypeInfoTypeIcon
@@ -1240,42 +1240,42 @@ PetJournalPetCardTypeInfo = {}
 PetJournalPetCardTypeInfo["typeIcon"] = PetJournalPetCardTypeInfoTypeIcon
 PetJournalPetCardTypeInfo["type"] = PetJournalPetCardTypeInfoType
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1250)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1250)
 --- child of PetJournalPetCardHealthFramehealthStatusBar
 --- @class PetJournalPetCardHealthFramehealthStatusBarLeft : Texture
 PetJournalPetCardHealthFramehealthStatusBarLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1255)
 --- child of PetJournalPetCardHealthFramehealthStatusBar
 --- @class PetJournalPetCardHealthFramehealthStatusBarRight : Texture
 PetJournalPetCardHealthFramehealthStatusBarRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1260)
 --- child of PetJournalPetCardHealthFramehealthStatusBar
 --- @class PetJournalPetCardHealthFramehealthStatusBarMiddle : Texture
 PetJournalPetCardHealthFramehealthStatusBarMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1268)
 --- child of PetJournalPetCardHealthFramehealthStatusBar
 --- @class PetJournalPetCardHealthFramehealthStatusBarBGMiddle : Texture
 PetJournalPetCardHealthFramehealthStatusBarBGMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1243)
 --- child of PetJournalPetCardHealthFrame
 --- @class PetJournalPetCardHealthFramehealthStatusBar : StatusBar
 PetJournalPetCardHealthFramehealthStatusBar = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1282)
 --- child of PetJournalPetCardHealthFrame
 --- @class PetJournalPetCardHealthFrameHealthTex : Texture
 PetJournalPetCardHealthFrameHealthTex = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1289)
 --- child of PetJournalPetCardHealthFrame
 --- @class PetJournalPetCardHealthFrameHealthValue : FontString, GameFontHighlight
 PetJournalPetCardHealthFrameHealthValue = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1237)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardHealthFrame : Frame
 --- @field healthBar PetJournalPetCardHealthFramehealthStatusBar
@@ -1284,168 +1284,168 @@ PetJournalPetCardHealthFrame = {}
 PetJournalPetCardHealthFrame["healthBar"] = PetJournalPetCardHealthFramehealthStatusBar
 PetJournalPetCardHealthFrame["health"] = PetJournalPetCardHealthFrameHealthValue
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1323)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1323)
 --- child of PetJournalPetCardPowerFrame
 --- @class PetJournalPetCardPowerFrame_power : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1309)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardPowerFrame : Frame
 --- @field power PetJournalPetCardPowerFrame_power
 PetJournalPetCardPowerFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1357)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1357)
 --- child of PetJournalPetCardSpeedFrame
 --- @class PetJournalPetCardSpeedFrame_speed : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1343)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1343)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardSpeedFrame : Frame
 --- @field speed PetJournalPetCardSpeedFrame_speed
 PetJournalPetCardSpeedFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1391)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1391)
 --- child of PetJournalPetCardQualityFrame
 --- @class PetJournalPetCardQualityFrame_quality : FontString, GameFontHighlight
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1377)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1377)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardQualityFrame : Frame
 --- @field quality PetJournalPetCardQualityFrame_quality
 PetJournalPetCardQualityFrame = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
 --- child of PetJournalPetCardSpell1 (created in template PetCardSpellButtonTemplate)
 --- @type Texture
 PetJournalPetCardSpell1Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1411)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1411)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardSpell1 : Button, PetCardSpellButtonTemplate
 PetJournalPetCardSpell1 = {}
 PetJournalPetCardSpell1["icon"] = PetJournalPetCardSpell1Icon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
 --- child of PetJournalPetCardSpell2 (created in template PetCardSpellButtonTemplate)
 --- @type Texture
 PetJournalPetCardSpell2Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1416)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1416)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardSpell2 : Button, PetCardSpellButtonTemplate
 PetJournalPetCardSpell2 = {}
 PetJournalPetCardSpell2["icon"] = PetJournalPetCardSpell2Icon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
 --- child of PetJournalPetCardSpell3 (created in template PetCardSpellButtonTemplate)
 --- @type Texture
 PetJournalPetCardSpell3Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1421)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1421)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardSpell3 : Button, PetCardSpellButtonTemplate
 PetJournalPetCardSpell3 = {}
 PetJournalPetCardSpell3["icon"] = PetJournalPetCardSpell3Icon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
 --- child of PetJournalPetCardSpell4 (created in template PetCardSpellButtonTemplate)
 --- @type Texture
 PetJournalPetCardSpell4Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1426)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1426)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardSpell4 : Button, PetCardSpellButtonTemplate
 PetJournalPetCardSpell4 = {}
 PetJournalPetCardSpell4["icon"] = PetJournalPetCardSpell4Icon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
 --- child of PetJournalPetCardSpell5 (created in template PetCardSpellButtonTemplate)
 --- @type Texture
 PetJournalPetCardSpell5Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1431)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1431)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardSpell5 : Button, PetCardSpellButtonTemplate
 PetJournalPetCardSpell5 = {}
 PetJournalPetCardSpell5["icon"] = PetJournalPetCardSpell5Icon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L716)
 --- child of PetJournalPetCardSpell6 (created in template PetCardSpellButtonTemplate)
 --- @type Texture
 PetJournalPetCardSpell6Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1436)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardSpell6 : Button, PetCardSpellButtonTemplate
 PetJournalPetCardSpell6 = {}
 PetJournalPetCardSpell6["icon"] = PetJournalPetCardSpell6Icon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1448)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1448)
 --- child of PetJournalPetCardXPBar
 --- @class PetJournalPetCardXPBarRank : FontString, TextStatusBarText
 PetJournalPetCardXPBarRank = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1453)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1453)
 --- child of PetJournalPetCardXPBar
 --- @class PetJournalPetCardXPBarLeft : Texture
 PetJournalPetCardXPBarLeft = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1458)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1458)
 --- child of PetJournalPetCardXPBar
 --- @class PetJournalPetCardXPBarRight : Texture
 PetJournalPetCardXPBarRight = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1463)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1463)
 --- child of PetJournalPetCardXPBar
 --- @class PetJournalPetCardXPBarMiddle : Texture
 PetJournalPetCardXPBarMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1508)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1508)
 --- child of PetJournalPetCardXPBar
 --- @class PetJournalPetCardXPBarBGMiddle : Texture
 PetJournalPetCardXPBarBGMiddle = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1441)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1441)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardXPBar : StatusBar
 --- @field rankText PetJournalPetCardXPBarRank
 PetJournalPetCardXPBar = {}
 PetJournalPetCardXPBar["rankText"] = PetJournalPetCardXPBarRank
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1540)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1540)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCard_modelScene : ModelScene, WrappedAndUnwrappedModelScene
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1053)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1053)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardBG : Texture
 PetJournalPetCardBG = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1061)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1061)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardAbilitiesBG1 : Texture
 PetJournalPetCardAbilitiesBG1 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1067)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1067)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardAbilitiesBG2 : Texture
 PetJournalPetCardAbilitiesBG2 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1073)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1073)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardAbilitiesBG3 : Texture
 PetJournalPetCardAbilitiesBG3 = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1079)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1079)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCardShadows : Texture
 PetJournalPetCardShadows = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1087)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1087)
 --- child of PetJournalPetCard
 --- @class PetJournalPetCard_CannotBattleText : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1046)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1046)
 --- child of PetJournal
 --- @class PetJournalPetCard : Frame
 --- @field PetInfo PetJournalPetCardPetInfo
@@ -1486,30 +1486,30 @@ PetJournalPetCard["AbilitiesBG2"] = PetJournalPetCardAbilitiesBG2
 PetJournalPetCard["AbilitiesBG3"] = PetJournalPetCardAbilitiesBG3
 PetJournalPetCard["shadows"] = PetJournalPetCardShadows
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1558)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1558)
 --- child of PetJournal
 --- @class PetJournalFindBattle : Button, MagicButtonTemplate
 PetJournalFindBattle = {}
 PetJournalFindBattle["fitTextCanWidthDecrease"] = true -- inherited
 PetJournalFindBattle["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1587)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1587)
 --- child of PetJournal
 --- @class PetJournalSummonButton : Button, MagicButtonTemplate
 PetJournalSummonButton = {}
 PetJournalSummonButton["fitTextCanWidthDecrease"] = true -- inherited
 PetJournalSummonButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1643)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1643)
 --- child of PetJournalAchievementStatus
 --- @class PetJournalAchievementStatusIcon : Texture
 PetJournalAchievementStatusIcon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1650)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1650)
 --- child of PetJournalAchievementStatus
 --- @class PetJournalAchievementStatus_SumText : FontString, GameFontNormalLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1611)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1611)
 --- child of PetJournal
 --- @class PetJournalAchievementStatus : Button
 --- @field highlight Texture
@@ -1518,29 +1518,29 @@ PetJournalAchievementStatusIcon = {}
 PetJournalAchievementStatus = {}
 PetJournalAchievementStatus["icon"] = PetJournalAchievementStatusIcon
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L753)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L753)
 --- child of PetJournalSpellSelectSpell1 (created in template PetSpellSelectButtonTemplate)
 --- @type Texture
 PetJournalSpellSelectSpell1Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1686)
 --- child of PetJournalSpellSelect
 --- @class PetJournalSpellSelectSpell1 : CheckButton, PetSpellSelectButtonTemplate
 PetJournalSpellSelectSpell1 = {}
 PetJournalSpellSelectSpell1["icon"] = PetJournalSpellSelectSpell1Icon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L753)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L753)
 --- child of PetJournalSpellSelectSpell2 (created in template PetSpellSelectButtonTemplate)
 --- @type Texture
 PetJournalSpellSelectSpell2Icon = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1691)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1691)
 --- child of PetJournalSpellSelect
 --- @class PetJournalSpellSelectSpell2 : CheckButton, PetSpellSelectButtonTemplate
 PetJournalSpellSelectSpell2 = {}
 PetJournalSpellSelectSpell2["icon"] = PetJournalSpellSelectSpell2Icon -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1664)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1664)
 --- child of PetJournal
 --- @class PetJournalSpellSelect : Frame
 --- @field Spell1 PetJournalSpellSelectSpell1
@@ -1551,7 +1551,7 @@ PetJournalSpellSelect = {}
 PetJournalSpellSelect["Spell1"] = PetJournalSpellSelectSpell1
 PetJournalSpellSelect["Spell2"] = PetJournalSpellSelectSpell2
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L794)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L794)
 --- @class PetJournal : Frame
 --- @field PetCount PetJournal_PetCount
 --- @field MainHelpButton PetJournalTutorialButton
@@ -1585,12 +1585,12 @@ PetJournal["SummonButton"] = PetJournalSummonButton
 PetJournal["AchievementStatus"] = PetJournalAchievementStatus
 PetJournal["SpellSelect"] = PetJournalSpellSelect
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1712)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1712)
 --- @class PetJournalPrimaryAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 PetJournalPrimaryAbilityTooltip = {}
 PetJournalPrimaryAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1713)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L1713)
 --- @class PetJournalSecondaryAbilityTooltip : Frame, SharedPetBattleAbilityTooltipTemplate
 PetJournalSecondaryAbilityTooltip = {}
 PetJournalSecondaryAbilityTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited

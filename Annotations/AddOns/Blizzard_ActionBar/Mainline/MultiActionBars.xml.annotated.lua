@@ -1,41 +1,41 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L3)
 --- Template
 --- @class MultiBar1ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR1BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L9)
 --- Template
 --- @class MultiBar2ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR2BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L15)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L15)
 --- Template
 --- @class MultiBar3ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR3BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L21)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L21)
 --- Template
 --- @class MultiBar4ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR4BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L27)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L27)
 --- Template
 --- @class MultiBar5ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR5BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L33)
 --- Template
 --- @class MultiBar6ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR6BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L39)
 --- Template
 --- @class MultiBar7ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR7BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L45)
 --- @class MultiBarBottomLeft : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar1ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR1
@@ -67,7 +67,7 @@ MultiBarBottomLeft["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarBottomLeft["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarBottomLeft["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L75)
 --- @class MultiBarBottomRight : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar2ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR2
@@ -99,7 +99,7 @@ MultiBarBottomRight["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarBottomRight["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarBottomRight["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L105)
 --- @class MultiBarLeft : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar4ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR4
@@ -129,7 +129,7 @@ MultiBarLeft["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarLeft["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarLeft["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L134)
 --- @class MultiBarRight : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar3ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR3
@@ -159,7 +159,7 @@ MultiBarRight["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBarRight["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBarRight["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L163)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L163)
 --- @class MultiBar5 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar5ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR5
@@ -189,7 +189,7 @@ MultiBar5["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBar5["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBar5["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L192)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L192)
 --- @class MultiBar6 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar6ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR6
@@ -219,7 +219,7 @@ MultiBar6["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MultiBar6["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MultiBar6["addSystemIndexToName"] = true -- inherited
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MultiActionBars.xml#L221)
 --- @class MultiBar7 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar7ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR7

@@ -42,7 +42,7 @@ end
 
 IconDataProviderMixin = {};--- @class IconDataProviderMixin
 
-IconDataProviderIconType = EnumUtil.MakeEnum(
+IconDataProviderIconType = EnumUtil.MakeEnum(--- @type {["Spell"]: 1, ["Item"]: 2} See [IconDataProviderIconType](lua://IconDataProviderIconType)
 	"Spell",
 	"Item"
 );

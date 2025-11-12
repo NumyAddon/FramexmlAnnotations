@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L58)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_HelpPlateButton : Button, MainHelpPlateButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L63)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_CategoryTabSystem : Frame, TabSystemTemplate
 --- @field minTabWidth number # 100
@@ -12,11 +12,11 @@
 --- @field tabTemplate string # SpellBookCategoryTabTemplate
 --- @field tabSelectSound any # SOUNDKIT.IG_SPELLBOOK_OPEN
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L74)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L74)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_SettingsDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L79)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_AssistedCombatRotationSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, AssistedCombatRotationSpellFrameMixin
 --- @field labelText any # ASSISTED_COMBAT_ROTATION_SPELLBOOK_LABEL
@@ -27,24 +27,24 @@
 --- @field buttonBorderAtlas string # spellbook-rotationhelper-iconframe
 --- @field buttonBorderAtlasSize number # 35
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L103)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_SearchBox : EditBox, SpellSearchBoxTemplate
 --- @field instructionText any # SPELLBOOK_SEARCH_INSTRUCTIONS
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L112)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_SearchPreviewContainer : Frame, SpellSearchPreviewContainerTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L134)
 --- child of SpellBookFrameTemplate_PagedSpellsFrame
 --- @class SpellBookFrameTemplate_PagedSpellsFrame_View1 : Frame, StaticGridLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L140)
 --- child of SpellBookFrameTemplate_PagedSpellsFrame
 --- @class SpellBookFrameTemplate_PagedSpellsFrame_View2 : Frame, StaticGridLayoutFrame
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L146)
 --- child of SpellBookFrameTemplate_PagedSpellsFrame
 --- @class SpellBookFrameTemplate_PagedSpellsFrame_PagingControls : Frame, PagingControlsHorizontalTemplate
 --- @field fontName string # SystemFont_Med3
@@ -53,7 +53,7 @@
 --- @field prevPageSound any # SOUNDKIT.IG_ABILITY_PAGE_TURN
 --- @field nextPageSound any # SOUNDKIT.IG_ABILITY_PAGE_TURN
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L119)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_PagedSpellsFrame : Frame, PagedCondensedVerticalGridContentFrameTemplate
 --- @field viewsPerPage number # 2
@@ -68,16 +68,16 @@
 --- @field PagingControls SpellBookFrameTemplate_PagedSpellsFrame_PagingControls
 --- @field ViewFrames table<number, SpellBookFrameTemplate_PagedSpellsFrame_View1 | SpellBookFrameTemplate_PagedSpellsFrame_View2>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L45)
 --- child of SpellBookFrameTemplate_BookCornerFlipbook
 --- @class SpellBookFrameTemplate_BookCornerFlipbook_Anim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L39)
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_BookCornerFlipbook : Texture
 --- @field Anim SpellBookFrameTemplate_BookCornerFlipbook_Anim
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L7)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L7)
 --- Template
 --- @class SpellBookFrameTemplate : Frame, TabSystemOwnerTemplate, SpellBookFrameMixin
 --- @field topBarFullWidth number # 1614

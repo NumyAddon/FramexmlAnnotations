@@ -1,48 +1,48 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L50)
 --- child of GuideFrame_ScrollFrame_Child
 --- @class GuideFrame_ScrollFrame_Child_ObjectivesFrame : Frame, CriteriaDisplayTemplate
 --- @field title any # NPEV2_CHAT_GUIDE_FRAME_ELIGIBILITY_LABEL
 --- @field font any # GameFontNormal
 --- @field verticalLineOffset number # -4
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L40)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L40)
 --- child of GuideFrame_ScrollFrame_Child
 --- @class GuideFrame_ScrollFrame_Child_Text : FontString, QuestFont
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L36)
 --- child of GuideFrame_ScrollFrame
 --- @class GuideFrame_ScrollFrame_Child : Frame
 --- @field ObjectivesFrame GuideFrame_ScrollFrame_Child_ObjectivesFrame
 --- @field Text GuideFrame_ScrollFrame_Child_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L64)
 --- child of GuideFrame_ScrollFrame
 --- @class GuideFrame_ScrollFrame_ConfirmationButton : Button, UIPanelButtonTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L29)
 --- child of GuideFrame
 --- @class GuideFrame_ScrollFrame : ScrollFrame, ScrollFrameTemplate
 --- @field Child GuideFrame_ScrollFrame_Child
 --- @field ConfirmationButton GuideFrame_ScrollFrame_ConfirmationButton
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L16)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L16)
 --- child of GuideFrame
 --- @class GuideFrame_Title : FontString, Fancy30Font, AutoScalingFontStringMixin
 --- @field minLineHeight number # 16
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L834)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L834)
 --- child of GuideFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 GuideFrameCloseButton = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L801)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L801)
 --- child of GuideFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 GuideFrameBg = {}
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NewPlayerExperienceGuide/GuideFrame.xml#L5)
 --- @class GuideFrame : Frame, PortraitFrameTemplate, GuideFrameMixin
 --- @field ScrollFrame GuideFrame_ScrollFrame
 --- @field Background Texture

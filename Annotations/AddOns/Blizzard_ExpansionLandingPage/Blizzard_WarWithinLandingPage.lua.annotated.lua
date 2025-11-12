@@ -20,7 +20,7 @@ local minimapAnimationEvents = {
 	"MAJOR_FACTION_UNLOCKED",
 };
 
-local minimapPulseLocks = EnumUtil.MakeEnum(
+local minimapPulseLocks = EnumUtil.MakeEnum(--- @type {["WarWithinSummaryUnlocked"]: 1, ["MajorFactionUnlocked"]: 2}
 	"WarWithinSummaryUnlocked",
 	"MajorFactionUnlocked"
 );

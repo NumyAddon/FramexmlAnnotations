@@ -8,7 +8,7 @@ MAX_LEARNABLE_PROFESSIONS = 2;
 
 UIPanelWindows["ClassTrainerFrame"] = { area = "left", pushable = 0, allowOtherPanels = 1,};
 
-local TrainDisableReason = EnumUtil.MakeEnum("NoProfessionSlot", "CannotAfford");
+local TrainDisableReason = EnumUtil.MakeEnum("NoProfessionSlot", "CannotAfford");--- @type {["NoProfessionSlot"]: 1, ["CannotAfford"]: 2}
 
 StaticPopupDialogs["CONFIRM_PROFESSION"] = {
 	text = format(PROFESSION_CONFIRMATION1, "XXX"),

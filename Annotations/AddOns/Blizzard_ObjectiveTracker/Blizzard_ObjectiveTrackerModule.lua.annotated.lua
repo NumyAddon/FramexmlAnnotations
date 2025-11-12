@@ -1,4 +1,4 @@
-ObjectiveTrackerModuleState = EnumUtil.MakeEnum(
+ObjectiveTrackerModuleState = EnumUtil.MakeEnum(--- @type {["Skipped"]: 1, ["NoObjectives"]: 2, ["NotShown"]: 3, ["ShownPartially"]: 4, ["ShownFully"]: 5} See [ObjectiveTrackerModuleState](lua://ObjectiveTrackerModuleState)
 	"Skipped",			-- module did not try to layout (due to availableHeight being 0)
 	"NoObjectives",		-- module has no objectives to show
 	"NotShown",			-- module has objectives but there was not enough room to display anything

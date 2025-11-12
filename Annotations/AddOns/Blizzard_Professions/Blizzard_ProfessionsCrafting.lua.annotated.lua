@@ -554,7 +554,7 @@ function ProfessionsCraftingPageMixin:SetCreateButtonTooltipText(tooltipText)
 	self.CreateAllButton.tooltipText = tooltipText;
 end
 
-local FailValidationReason = EnumUtil.MakeEnum("Cooldown", "InsufficientReagents", "PrerequisiteReagents", "Disabled", "Requirement", "LockedReagentSlot", "RecraftOptionalReagentLimit");
+local FailValidationReason = EnumUtil.MakeEnum("Cooldown", "InsufficientReagents", "PrerequisiteReagents", "Disabled", "Requirement", "LockedReagentSlot", "RecraftOptionalReagentLimit");--- @type {["Cooldown"]: 1, ["InsufficientReagents"]: 2, ["PrerequisiteReagents"]: 3, ["Disabled"]: 4, ["Requirement"]: 5, ["LockedReagentSlot"]: 6, ["RecraftOptionalReagentLimit"]: 7}
 
 local FailValidationTooltips = {
 	[FailValidationReason.Cooldown] = PROFESSIONS_RECIPE_COOLDOWN,

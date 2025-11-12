@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Shared/VehicleSeatIndicator.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Shared/VehicleSeatIndicator.xml#L3)
 --- Template
 --- Adds itself to the parent inside the array `buttons`
 --- @class VehicleSeatIndicatorButtonTemplate : Button, VehicleSeatIndicatorButtonMixin
@@ -10,7 +10,7 @@
 --- @field PulseTexture Texture
 --- @field Highlight Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Shared/VehicleSeatIndicator.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Shared/VehicleSeatIndicator.xml#L54)
 --- @class VehicleSeatIndicator : Frame, UIParentRightManagedFrameTemplate, EditModeVehicleSeatIndicatorSystemTemplate, VehicleSeatIndicatorMixin
 --- @field layoutIndex number # 3
 --- @field BackgroundTexture Texture

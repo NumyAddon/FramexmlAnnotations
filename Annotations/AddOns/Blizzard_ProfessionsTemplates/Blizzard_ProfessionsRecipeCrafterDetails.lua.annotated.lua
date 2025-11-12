@@ -20,7 +20,7 @@ local DetailsFrameEvents =
 	"TRADE_SKILL_CRAFT_BEGIN",
 };
 
-CraftingQualityStatLine = EnumUtil.MakeEnum("Difficulty", "Skill", "Concentration");
+CraftingQualityStatLine = EnumUtil.MakeEnum("Difficulty", "Skill", "Concentration");--- @type {["Difficulty"]: 1, ["Skill"]: 2, ["Concentration"]: 3} See [CraftingQualityStatLine](lua://CraftingQualityStatLine)
 
 local detailsPanelTitles =
 {

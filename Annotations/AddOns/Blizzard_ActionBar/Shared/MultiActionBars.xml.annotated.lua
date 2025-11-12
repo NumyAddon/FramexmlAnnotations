@@ -1,41 +1,41 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L3)
 --- Template
 --- @class MultiBar1ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR1BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L9)
 --- Template
 --- @class MultiBar2ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR2BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L15)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L15)
 --- Template
 --- @class MultiBar3ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR3BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L21)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L21)
 --- Template
 --- @class MultiBar4ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR4BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L27)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L27)
 --- Template
 --- @class MultiBar5ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR5BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L33)
 --- Template
 --- @class MultiBar6ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR6BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L39)
 --- Template
 --- @class MultiBar7ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR7BUTTON
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L45)
 --- @class MultiBarBottomLeft : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar1ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR1
@@ -64,7 +64,7 @@ MultiBarBottomLeft["systemIndex"] = Enum.EditModeActionBarSystemIndices.Bar2
 MultiBarBottomLeft["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
 MultiBarBottomLeft["isNormalBar"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L75)
 --- @class MultiBarBottomRight : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar2ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR2
@@ -91,7 +91,7 @@ MultiBarBottomRight["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarBottomRight["systemIndex"] = Enum.EditModeActionBarSystemIndices.Bar3
 MultiBarBottomRight["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L104)
 --- @class MultiBarLeft : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar4ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR4
@@ -118,7 +118,7 @@ MultiBarLeft["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarLeft["systemIndex"] = Enum.EditModeActionBarSystemIndices.RightBar2
 MultiBarLeft["isNormalBar"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L133)
 --- @class MultiBarRight : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar3ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR3
@@ -145,7 +145,7 @@ MultiBarRight["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarRight["systemIndex"] = Enum.EditModeActionBarSystemIndices.RightBar1
 MultiBarRight["isNormalBar"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L162)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L162)
 --- @class MultiBar5 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar5ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR5
@@ -172,7 +172,7 @@ MultiBar5["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBar5["systemIndex"] = Enum.EditModeActionBarSystemIndices.ExtraBar1
 MultiBar5["isNormalBar"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L191)
 --- @class MultiBar6 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar6ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR6
@@ -199,7 +199,7 @@ MultiBar6["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBar6["systemIndex"] = Enum.EditModeActionBarSystemIndices.ExtraBar2
 MultiBar6["isNormalBar"] = true
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L220)
 --- @class MultiBar7 : Frame, EditModeActionBarTemplate
 --- @field buttonTemplate string # MultiBar7ButtonTemplate
 --- @field commandNamePrefix string # MULTIACTIONBAR7

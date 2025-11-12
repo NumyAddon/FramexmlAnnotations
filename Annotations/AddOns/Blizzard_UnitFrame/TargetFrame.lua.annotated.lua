@@ -499,7 +499,7 @@ local function ShouldAuraBeLarge(caster)
 	end
 end
 
-local AuraUpdateChangedType = EnumUtil.MakeEnum(
+local AuraUpdateChangedType = EnumUtil.MakeEnum(--- @type {["None"]: 1, ["Debuff"]: 2, ["Buff"]: 3}
 	"None",
 	"Debuff",
 	"Buff"

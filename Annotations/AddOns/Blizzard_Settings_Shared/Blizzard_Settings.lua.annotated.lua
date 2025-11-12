@@ -21,7 +21,7 @@ Settings.Default =
 	False = false,
 };
 
-Settings.CategorySet = EnumUtil.MakeEnum("Game", "AddOns");
+Settings.CategorySet = EnumUtil.MakeEnum("Game", "AddOns");--- @type {["Game"]: 1, ["AddOns"]: 2} See [Settings.CategorySet](lua://Settings.CategorySet)
 
 Settings.CommitFlag = FlagsUtil.MakeFlags(
 	"ClientRestart", 

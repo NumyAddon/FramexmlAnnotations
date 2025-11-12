@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseCategoriesList.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseCategoriesList.xml#L4)
 --- Template
 --- Adds itself to the parent inside the array `FilterButtons`
 --- @class AuctionCategoryButtonTemplate : Button, TruncatedTooltipScriptTemplate
@@ -9,19 +9,19 @@
 --- @field HighlightTexture Texture
 --- @field SelectedTexture Texture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseCategoriesList.xml#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseCategoriesList.xml#L66)
 --- child of AuctionHouseCategoriesListTemplate
 --- @class AuctionHouseCategoriesListTemplate_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseCategoriesList.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseCategoriesList.xml#L68)
 --- child of AuctionHouseCategoriesListTemplate
 --- @class AuctionHouseCategoriesListTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseCategoriesList.xml#L74)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseCategoriesList.xml#L74)
 --- child of AuctionHouseCategoriesListTemplate
 --- @class AuctionHouseCategoriesListTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseCategoriesList.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseCategoriesList.xml#L60)
 --- Template
 --- @class AuctionHouseCategoriesListTemplate : Frame, AuctionHouseCategoriesListMixin
 --- @field layoutType string # InsetFrameTemplate

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L51)
 --- child of PlayerChoiceGenericPowerChoiceOptionTemplate
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate_BackgroundContainer : Frame
 --- @field ignoreInLayout string # true
@@ -15,17 +15,17 @@
 --- @field BackgroundBorderShineGold Texture
 --- @field BackgroundBorderShineGoldMask MaskTexture
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L133)
 --- child of PlayerChoiceGenericPowerChoiceOptionTemplate_Header
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate_Header_Text : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L127)
 --- child of PlayerChoiceGenericPowerChoiceOptionTemplate
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate_Header : Frame, PlayerChoiceBaseCenteredFrame, ResizeLayoutFrame
 --- @field layoutIndex number # 1
 --- @field Text PlayerChoiceGenericPowerChoiceOptionTemplate_Header_Text
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceGenericPowerChoiceOptionTemplate.xml#L4)
 --- Template
 --- @class PlayerChoiceGenericPowerChoiceOptionTemplate : Frame, PlayerChoicePowerChoiceTemplate, PlayerChoiceGenericPowerChoiceOptionTemplateMixin
 --- @field minOptionHeight number # 345

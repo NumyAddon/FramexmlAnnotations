@@ -1,24 +1,24 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L37)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L37)
 --- child of PaperDollAzeriteItemOverlayTemplate_RankFrame
 --- @class PaperDollAzeriteItemOverlayTemplate_RankFrame_Label : FontString, GameFontNormal
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L24)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L24)
 --- child of PaperDollAzeriteItemOverlayTemplate
 --- @class PaperDollAzeriteItemOverlayTemplate_RankFrame : Frame
 --- @field Texture Texture
 --- @field Label PaperDollAzeriteItemOverlayTemplate_RankFrame_Label
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L159)
 --- child of PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame
 --- @class PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame_AvailableAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L180)
 --- child of PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame
 --- @class PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame_AvailableAnimGlow : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L45)
 --- child of PaperDollAzeriteItemOverlayTemplate
 --- @class PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame : Frame
 --- @field SmokeRightUnderlay Texture
@@ -42,7 +42,7 @@
 --- @field AvailableAnim PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame_AvailableAnim
 --- @field AvailableAnimGlow PaperDollAzeriteItemOverlayTemplate_AvailableTraitFrame_AvailableAnimGlow
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/AzeritePaperDollItemOverlay.xml#L3)
 --- Template
 --- @class PaperDollAzeriteItemOverlayTemplate : Frame, AzeritePaperDollItemOverlayMixin
 --- @field HasPaperDollAzeriteItemOverlay string # true

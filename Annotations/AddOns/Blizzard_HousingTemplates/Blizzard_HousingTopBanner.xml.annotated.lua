@@ -1,34 +1,34 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L82)
 --- child of HousingTopBannerFrame
 --- @class HousingTopBannerFrame_Title : FontString, QuestFont_Super_Huge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L87)
 --- child of HousingTopBannerFrame
 --- @class HousingTopBannerFrame_Subtitle : FontString, GameFontHighlightLarge
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L150)
 --- child of HousingTopBannerFrame
 --- @class HousingTopBannerFrame_RaysAndGlow : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L160)
 --- child of HousingTopBannerFrame
 --- @class HousingTopBannerFrame_LeavesFlutter : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L189)
 --- child of HousingTopBannerFrame
 --- @class HousingTopBannerFrame_SheenShine : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L193)
 --- child of HousingTopBannerFrame
 --- @class HousingTopBannerFrame_PopinAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L200)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L200)
 --- child of HousingTopBannerFrame
 --- @class HousingTopBannerFrame_FadeOutAnim : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingTopBanner.xml#L4)
 --- @class HousingTopBannerFrame : Frame, HousingTopBannerMixin
 --- @field Rays Texture
 --- @field RaysMask MaskTexture

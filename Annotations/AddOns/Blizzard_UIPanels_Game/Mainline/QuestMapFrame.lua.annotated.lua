@@ -1,8 +1,8 @@
 local tooltipButton;
 
-QuestLogButtonTypes = EnumUtil.MakeEnum("None", "Any", "Header", "HeaderCampaign", "HeaderCampaignMinimal", "HeaderCallings", "StoryHeader", "Quest");
+QuestLogButtonTypes = EnumUtil.MakeEnum("None", "Any", "Header", "HeaderCampaign", "HeaderCampaignMinimal", "HeaderCallings", "StoryHeader", "Quest");--- @type {["None"]: 1, ["Any"]: 2, ["Header"]: 3, ["HeaderCampaign"]: 4, ["HeaderCampaignMinimal"]: 5, ["HeaderCallings"]: 6, ["StoryHeader"]: 7, ["Quest"]: 8} See [QuestLogButtonTypes](lua://QuestLogButtonTypes)
 
-QuestLogDisplayMode = EnumUtil.MakeEnum("Quests", "Events", "MapLegend");
+QuestLogDisplayMode = EnumUtil.MakeEnum("Quests", "Events", "MapLegend");--- @type {["Quests"]: 1, ["Events"]: 2, ["MapLegend"]: 3} See [QuestLogDisplayMode](lua://QuestLogDisplayMode)
 
 local QuestSearcherObject = { };
 

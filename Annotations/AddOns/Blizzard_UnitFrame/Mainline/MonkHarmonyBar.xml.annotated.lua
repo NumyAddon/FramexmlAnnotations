@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L70)
 --- child of MonkLightEnergyTemplate
 --- @class MonkLightEnergyTemplate_activate : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L89)
 --- child of MonkLightEnergyTemplate
 --- @class MonkLightEnergyTemplate_deactivate : AnimationGroup
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L4)
 --- Template
 --- @class MonkLightEnergyTemplate : Frame, MonkLightEnergyMixin
 --- @field Chi_BG Texture
@@ -25,7 +25,7 @@
 --- @field deactivate MonkLightEnergyTemplate_deactivate
 --- @field fxTextures table<number, Texture>
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L104)
 --- Template
 --- @class MonkHarmonyBarFrameTemplate : Frame, ClassResourceBarTemplate, MonkPowerBar
 --- @field powerToken string # CHI
@@ -38,7 +38,7 @@
 --- @field class string # MONK
 --- @field spec any # SPEC_MONK_WINDWALKER
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L120)
 --- @class MonkHarmonyBarFrame : Frame, MonkHarmonyBarFrameTemplate
 --- @field topPadding number # 7
 --- @field showTooltip boolean # true

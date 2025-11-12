@@ -1645,12 +1645,12 @@ end
 
 IconSelectorPopupFrameTemplateMixin = {};--- @class IconSelectorPopupFrameTemplateMixin
 
-IconSelectorPopupFrameModes = EnumUtil.MakeEnum(
+IconSelectorPopupFrameModes = EnumUtil.MakeEnum(--- @type {["New"]: 1, ["Edit"]: 2} See [IconSelectorPopupFrameModes](lua://IconSelectorPopupFrameModes)
 	"New",
 	"Edit"
 );
 
-IconSelectorPopupFrameIconFilterTypes = EnumUtil.MakeEnum(
+IconSelectorPopupFrameIconFilterTypes = EnumUtil.MakeEnum(--- @type {["All"]: 1, ["Spell"]: 2, ["Item"]: 3} See [IconSelectorPopupFrameIconFilterTypes](lua://IconSelectorPopupFrameIconFilterTypes)
 	"All",
 	"Spell",
 	"Item"

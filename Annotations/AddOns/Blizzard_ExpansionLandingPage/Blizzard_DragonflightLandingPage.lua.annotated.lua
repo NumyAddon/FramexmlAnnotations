@@ -20,7 +20,7 @@ local minimapAnimationEvents = {
 	"QUEST_TURNED_IN",
 };
 
-local minimapPulseLocks = EnumUtil.MakeEnum(
+local minimapPulseLocks = EnumUtil.MakeEnum(--- @type {["DragonridingUnlocked"]: 1, ["DragonflightSummaryUnlocked"]: 2, ["MajorFactionUnlocked"]: 3}
 	"DragonridingUnlocked",
 	"DragonflightSummaryUnlocked",
 	"MajorFactionUnlocked"

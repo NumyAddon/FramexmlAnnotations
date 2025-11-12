@@ -1,20 +1,20 @@
 --- @meta _
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.xml#L22)
 --- child of CovenantRenownToast
 --- @class CovenantRenownToast_RenownLabel : FontString, QuestFont_30
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.xml#L42)
 --- child of CovenantRenownToast
 --- @class CovenantRenownToast_RewardDescription : FontString, SystemFont_Shadow_Med1
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.xml#L95)
 --- child of CovenantRenownToast
 --- @class CovenantRenownToast_ShowAnim : AnimationGroup
 --- @field HoldAlpha Alpha
 --- @field FadeAlpha Alpha
 
---- [Source](https:/github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.xml#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CovenantToasts/Blizzard_CovenantRenownToast.xml#L3)
 --- @class CovenantRenownToast : Frame, CovenantCelebrationBannerTemplate, CovenantRenownToastMixin
 --- @field RewardIconMouseOver Frame
 --- @field Stars1 Texture

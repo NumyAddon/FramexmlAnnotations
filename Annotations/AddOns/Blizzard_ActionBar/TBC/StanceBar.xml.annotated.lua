@@ -1,6 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L3)
+--- Explicitly protected
 --- Template
 --- @class StanceButtonTemplate : CheckButton, SecureFrameTemplate, ActionButtonTemplate
 
@@ -150,6 +151,7 @@ StanceButton1Border = {}
 StanceButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L71)
+--- Explicitly protected
 --- child of StanceBarFrame
 --- @class StanceButton1 : CheckButton, StanceButtonTemplate
 StanceButton1 = {}
@@ -312,6 +314,7 @@ StanceButton2Border = {}
 StanceButton2NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L80)
+--- Explicitly protected
 --- child of StanceBarFrame
 --- @class StanceButton2 : CheckButton, StanceButtonTemplate
 StanceButton2 = {}
@@ -474,6 +477,7 @@ StanceButton3Border = {}
 StanceButton3NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L89)
+--- Explicitly protected
 --- child of StanceBarFrame
 --- @class StanceButton3 : CheckButton, StanceButtonTemplate
 StanceButton3 = {}
@@ -636,6 +640,7 @@ StanceButton4Border = {}
 StanceButton4NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L98)
+--- Explicitly protected
 --- child of StanceBarFrame
 --- @class StanceButton4 : CheckButton, StanceButtonTemplate
 StanceButton4 = {}
@@ -798,6 +803,7 @@ StanceButton5Border = {}
 StanceButton5NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L107)
+--- Explicitly protected
 --- child of StanceBarFrame
 --- @class StanceButton5 : CheckButton, StanceButtonTemplate
 StanceButton5 = {}
@@ -960,6 +966,7 @@ StanceButton6Border = {}
 StanceButton6NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L116)
+--- Explicitly protected
 --- child of StanceBarFrame
 --- @class StanceButton6 : CheckButton, StanceButtonTemplate
 StanceButton6 = {}
@@ -1122,6 +1129,7 @@ StanceButton7Border = {}
 StanceButton7NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L125)
+--- Explicitly protected
 --- child of StanceBarFrame
 --- @class StanceButton7 : CheckButton, StanceButtonTemplate
 StanceButton7 = {}
@@ -1284,6 +1292,7 @@ StanceButton8Border = {}
 StanceButton8NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L134)
+--- Explicitly protected
 --- child of StanceBarFrame
 --- @class StanceButton8 : CheckButton, StanceButtonTemplate
 StanceButton8 = {}
@@ -1446,6 +1455,7 @@ StanceButton9Border = {}
 StanceButton9NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L143)
+--- Explicitly protected
 --- child of StanceBarFrame
 --- @class StanceButton9 : CheckButton, StanceButtonTemplate
 StanceButton9 = {}
@@ -1608,6 +1618,7 @@ StanceButton10Border = {}
 StanceButton10NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L152)
+--- Explicitly protected
 --- child of StanceBarFrame
 --- @class StanceButton10 : CheckButton, StanceButtonTemplate
 StanceButton10 = {}
@@ -1640,6 +1651,7 @@ StanceBarMiddle = {}
 StanceBarRight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/TBC/StanceBar.xml#L32)
+--- Implicitly protected
 --- @class StanceBarFrame : Frame
 --- @field StanceButtons table<number, StanceButton1 | StanceButton2 | StanceButton3 | StanceButton4 | StanceButton5 | StanceButton6 | StanceButton7 | StanceButton8 | StanceButton9 | StanceButton10>
 StanceBarFrame = {}

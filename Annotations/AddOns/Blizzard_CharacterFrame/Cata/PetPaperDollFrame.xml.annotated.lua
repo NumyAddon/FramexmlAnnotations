@@ -5,6 +5,7 @@
 --- @class CompanionButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L3)
+--- Explicitly protected
 --- Template
 --- @class CompanionButtonTemplate : CheckButton, SecureFrameTemplate
 

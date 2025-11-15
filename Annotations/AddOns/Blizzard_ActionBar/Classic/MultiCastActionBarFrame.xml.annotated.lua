@@ -7,6 +7,7 @@
 --- @field overlayTex Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L34)
+--- Explicitly protected
 --- Template
 --- @class MultiCastActionButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field overlayTex Texture
@@ -16,6 +17,7 @@
 --- @class MultiCastSpellButton_HotKey : FontString, NumberFontNormalSmallGray
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L69)
+--- Explicitly protected
 --- Template
 --- @class MultiCastSpellButton : CheckButton, SecureFrameTemplate, ActionButtonTemplate
 
@@ -211,6 +213,7 @@ MultiCastSummonSpellButtonBorder = {}
 MultiCastSummonSpellButtonNormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L233)
+--- Explicitly protected
 --- child of MultiCastActionBarFrame
 --- @class MultiCastSummonSpellButton : CheckButton, MultiCastSpellButton
 --- @field flyoutButton MultiCastSummonSpellButtonFlyoutButton
@@ -390,6 +393,7 @@ MultiCastActionButton1Border = {}
 MultiCastActionButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L331)
+--- Explicitly protected
 --- child of MultiCastActionPage1
 --- @class MultiCastActionButton1 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton1 = {}
@@ -547,6 +551,7 @@ MultiCastActionButton2Border = {}
 MultiCastActionButton2NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L340)
+--- Explicitly protected
 --- child of MultiCastActionPage1
 --- @class MultiCastActionButton2 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton2 = {}
@@ -704,6 +709,7 @@ MultiCastActionButton3Border = {}
 MultiCastActionButton3NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L349)
+--- Explicitly protected
 --- child of MultiCastActionPage1
 --- @class MultiCastActionButton3 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton3 = {}
@@ -861,6 +867,7 @@ MultiCastActionButton4Border = {}
 MultiCastActionButton4NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L358)
+--- Explicitly protected
 --- child of MultiCastActionPage1
 --- @class MultiCastActionButton4 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton4 = {}
@@ -878,6 +885,7 @@ MultiCastActionButton4["Border"] = MultiCastActionButton4Border -- inherited
 MultiCastActionButton4["NormalTexture"] = MultiCastActionButton4NormalTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L321)
+--- Implicitly protected
 --- child of MultiCastActionBarFrame
 --- @class MultiCastActionPage1 : Frame
 MultiCastActionPage1 = {}
@@ -1023,6 +1031,7 @@ MultiCastActionButton5Border = {}
 MultiCastActionButton5NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L379)
+--- Explicitly protected
 --- child of MultiCastActionPage2
 --- @class MultiCastActionButton5 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton5 = {}
@@ -1180,6 +1189,7 @@ MultiCastActionButton6Border = {}
 MultiCastActionButton6NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L388)
+--- Explicitly protected
 --- child of MultiCastActionPage2
 --- @class MultiCastActionButton6 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton6 = {}
@@ -1337,6 +1347,7 @@ MultiCastActionButton7Border = {}
 MultiCastActionButton7NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L397)
+--- Explicitly protected
 --- child of MultiCastActionPage2
 --- @class MultiCastActionButton7 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton7 = {}
@@ -1494,6 +1505,7 @@ MultiCastActionButton8Border = {}
 MultiCastActionButton8NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L406)
+--- Explicitly protected
 --- child of MultiCastActionPage2
 --- @class MultiCastActionButton8 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton8 = {}
@@ -1511,6 +1523,7 @@ MultiCastActionButton8["Border"] = MultiCastActionButton8Border -- inherited
 MultiCastActionButton8["NormalTexture"] = MultiCastActionButton8NormalTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L369)
+--- Implicitly protected
 --- child of MultiCastActionBarFrame
 --- @class MultiCastActionPage2 : Frame
 MultiCastActionPage2 = {}
@@ -1656,6 +1669,7 @@ MultiCastActionButton9Border = {}
 MultiCastActionButton9NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L427)
+--- Explicitly protected
 --- child of MultiCastActionPage3
 --- @class MultiCastActionButton9 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton9 = {}
@@ -1813,6 +1827,7 @@ MultiCastActionButton10Border = {}
 MultiCastActionButton10NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L436)
+--- Explicitly protected
 --- child of MultiCastActionPage3
 --- @class MultiCastActionButton10 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton10 = {}
@@ -1970,6 +1985,7 @@ MultiCastActionButton11Border = {}
 MultiCastActionButton11NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L445)
+--- Explicitly protected
 --- child of MultiCastActionPage3
 --- @class MultiCastActionButton11 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton11 = {}
@@ -2127,6 +2143,7 @@ MultiCastActionButton12Border = {}
 MultiCastActionButton12NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L454)
+--- Explicitly protected
 --- child of MultiCastActionPage3
 --- @class MultiCastActionButton12 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton12 = {}
@@ -2144,6 +2161,7 @@ MultiCastActionButton12["Border"] = MultiCastActionButton12Border -- inherited
 MultiCastActionButton12["NormalTexture"] = MultiCastActionButton12NormalTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L417)
+--- Implicitly protected
 --- child of MultiCastActionBarFrame
 --- @class MultiCastActionPage3 : Frame
 MultiCastActionPage3 = {}
@@ -2299,6 +2317,7 @@ MultiCastRecallSpellButtonBorder = {}
 MultiCastRecallSpellButtonNormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L465)
+--- Explicitly protected
 --- child of MultiCastActionBarFrame
 --- @class MultiCastRecallSpellButton : CheckButton, MultiCastSpellButton
 MultiCastRecallSpellButton = {}
@@ -2316,6 +2335,7 @@ MultiCastRecallSpellButton["Border"] = MultiCastRecallSpellButtonBorder -- inher
 MultiCastRecallSpellButton["NormalTexture"] = MultiCastRecallSpellButtonNormalTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/MultiCastActionBarFrame.xml#L142)
+--- Implicitly protected
 --- @class MultiCastActionBarFrame : Frame
 MultiCastActionBarFrame = {}
 

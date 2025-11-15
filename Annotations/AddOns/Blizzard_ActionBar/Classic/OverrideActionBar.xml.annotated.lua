@@ -1,6 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L3)
+--- Explicitly protected
 --- Template
 --- @class OverrideActionBarButtonTemplate : CheckButton, ActionBarButtonTemplate
 
@@ -315,6 +316,7 @@ OverrideActionBarButton1Border = {}
 OverrideActionBarButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L523)
+--- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton1 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton1 = {}
@@ -472,6 +474,7 @@ OverrideActionBarButton2Border = {}
 OverrideActionBarButton2NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L528)
+--- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton2 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton2 = {}
@@ -629,6 +632,7 @@ OverrideActionBarButton3Border = {}
 OverrideActionBarButton3NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L533)
+--- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton3 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton3 = {}
@@ -786,6 +790,7 @@ OverrideActionBarButton4Border = {}
 OverrideActionBarButton4NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L538)
+--- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton4 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton4 = {}
@@ -943,6 +948,7 @@ OverrideActionBarButton5Border = {}
 OverrideActionBarButton5NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L543)
+--- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton5 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton5 = {}
@@ -1100,6 +1106,7 @@ OverrideActionBarButton6Border = {}
 OverrideActionBarButton6NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L548)
+--- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton6 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton6 = {}
@@ -1176,18 +1183,19 @@ OverrideActionBarBorder = {}
 --- @class OverrideActionBar_slideOut : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/OverrideActionBar.xml#L16)
+--- Implicitly protected
 --- @class OverrideActionBar : Frame
 --- @field pitchFrame OverrideActionBarPitchFrame
 --- @field leaveFrame OverrideActionBarLeaveFrame
 --- @field xpBar OverrideActionBarExpBar
 --- @field healthBar OverrideActionBarHealthBar
 --- @field powerBar OverrideActionBarPowerBar
---- @field SpellButton1 OverrideActionBarButton1
---- @field SpellButton2 OverrideActionBarButton2
---- @field SpellButton3 OverrideActionBarButton3
---- @field SpellButton4 OverrideActionBarButton4
---- @field SpellButton5 OverrideActionBarButton5
---- @field SpellButton6 OverrideActionBarButton6
+--- @field SpellButton1 OverrideActionBarButton1 # Explicitly protected
+--- @field SpellButton2 OverrideActionBarButton2 # Explicitly protected
+--- @field SpellButton3 OverrideActionBarButton3 # Explicitly protected
+--- @field SpellButton4 OverrideActionBarButton4 # Explicitly protected
+--- @field SpellButton5 OverrideActionBarButton5 # Explicitly protected
+--- @field SpellButton6 OverrideActionBarButton6 # Explicitly protected
 --- @field EndCapL OverrideActionBarEndCapL
 --- @field EndCapR OverrideActionBarEndCapR
 --- @field Divider2 OverrideActionBarDivider2

@@ -1,10 +1,12 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L4)
+--- Explicitly protected
 --- Template
 --- @class ActionBarButtonCodeTemplate : CheckButton, SecureActionButtonTemplate, ActionBarActionButtonMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L58)
+--- Explicitly protected
 --- Template
 --- @class ActionBarButtonTemplate : CheckButton, ActionBarButtonCodeTemplate, ActionButtonTemplate
 
@@ -177,6 +179,7 @@ ActionButton1Border = {}
 ActionButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L184)
+--- Explicitly protected
 --- @class ActionButton1 : CheckButton, ActionBarButtonTemplate
 ActionButton1 = {}
 ActionButton1["AutoCastShine"] = ActionButton1Shine -- inherited
@@ -333,6 +336,7 @@ ActionButton2Border = {}
 ActionButton2NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L193)
+--- Explicitly protected
 --- @class ActionButton2 : CheckButton, ActionBarButtonTemplate
 ActionButton2 = {}
 ActionButton2["AutoCastShine"] = ActionButton2Shine -- inherited
@@ -489,6 +493,7 @@ ActionButton3Border = {}
 ActionButton3NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L202)
+--- Explicitly protected
 --- @class ActionButton3 : CheckButton, ActionBarButtonTemplate
 ActionButton3 = {}
 ActionButton3["AutoCastShine"] = ActionButton3Shine -- inherited
@@ -645,6 +650,7 @@ ActionButton4Border = {}
 ActionButton4NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L211)
+--- Explicitly protected
 --- @class ActionButton4 : CheckButton, ActionBarButtonTemplate
 ActionButton4 = {}
 ActionButton4["AutoCastShine"] = ActionButton4Shine -- inherited
@@ -801,6 +807,7 @@ ActionButton5Border = {}
 ActionButton5NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L220)
+--- Explicitly protected
 --- @class ActionButton5 : CheckButton, ActionBarButtonTemplate
 ActionButton5 = {}
 ActionButton5["AutoCastShine"] = ActionButton5Shine -- inherited
@@ -957,6 +964,7 @@ ActionButton6Border = {}
 ActionButton6NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L229)
+--- Explicitly protected
 --- @class ActionButton6 : CheckButton, ActionBarButtonTemplate
 ActionButton6 = {}
 ActionButton6["AutoCastShine"] = ActionButton6Shine -- inherited
@@ -1113,6 +1121,7 @@ ActionButton7Border = {}
 ActionButton7NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L238)
+--- Explicitly protected
 --- @class ActionButton7 : CheckButton, ActionBarButtonTemplate
 ActionButton7 = {}
 ActionButton7["AutoCastShine"] = ActionButton7Shine -- inherited
@@ -1269,6 +1278,7 @@ ActionButton8Border = {}
 ActionButton8NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L247)
+--- Explicitly protected
 --- @class ActionButton8 : CheckButton, ActionBarButtonTemplate
 ActionButton8 = {}
 ActionButton8["AutoCastShine"] = ActionButton8Shine -- inherited
@@ -1425,6 +1435,7 @@ ActionButton9Border = {}
 ActionButton9NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L256)
+--- Explicitly protected
 --- @class ActionButton9 : CheckButton, ActionBarButtonTemplate
 ActionButton9 = {}
 ActionButton9["AutoCastShine"] = ActionButton9Shine -- inherited
@@ -1581,6 +1592,7 @@ ActionButton10Border = {}
 ActionButton10NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L265)
+--- Explicitly protected
 --- @class ActionButton10 : CheckButton, ActionBarButtonTemplate
 ActionButton10 = {}
 ActionButton10["AutoCastShine"] = ActionButton10Shine -- inherited
@@ -1737,6 +1749,7 @@ ActionButton11Border = {}
 ActionButton11NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L274)
+--- Explicitly protected
 --- @class ActionButton11 : CheckButton, ActionBarButtonTemplate
 ActionButton11 = {}
 ActionButton11["AutoCastShine"] = ActionButton11Shine -- inherited
@@ -1893,6 +1906,7 @@ ActionButton12Border = {}
 ActionButton12NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Classic/ActionBarFrame.xml#L283)
+--- Explicitly protected
 --- @class ActionButton12 : CheckButton, ActionBarButtonTemplate
 ActionButton12 = {}
 ActionButton12["AutoCastShine"] = ActionButton12Shine -- inherited

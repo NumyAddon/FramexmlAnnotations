@@ -138,6 +138,7 @@
 --- @field bg Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L140)
+--- Explicitly protected
 --- Template
 --- @class TargetFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field textureFrame TargetFrameTemplate_TextureFrame
@@ -153,6 +154,7 @@
 --- @class BossTargetFrameTemplate_PowerBarAlt : Frame, UnitPowerBarAltTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L384)
+--- Explicitly protected
 --- Template
 --- @class BossTargetFrameTemplate : Button, TargetFrameTemplate
 --- @field powerBarAlt BossTargetFrameTemplate_PowerBarAlt
@@ -198,6 +200,7 @@
 --- @class TargetofTargetFrameTemplate_Debuff4 : Frame, TargetofTargetDebuffFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L409)
+--- Explicitly protected
 --- Template
 --- @class TargetofTargetFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field background Texture
@@ -407,6 +410,7 @@ TargetFrameNameBackground = {}
 TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L527)
+--- Explicitly protected
 --- @class TargetFrame : Button, TargetFrameTemplate
 --- @field powerBarAlt TargetFramePowerBarAlt
 TargetFrame = {}
@@ -616,6 +620,7 @@ FocusFrameNameBackground = {}
 FocusFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L564)
+--- Explicitly protected
 --- @class FocusFrame : Button, TargetFrameTemplate, FocusFrameMixin
 --- @field powerBarAlt FocusFramePowerBarAlt
 FocusFrame = {}
@@ -825,6 +830,7 @@ Boss1TargetFrameNameBackground = {}
 Boss1TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L600)
+--- Explicitly protected
 --- @class Boss1TargetFrame : Button, BossTargetFrameTemplate
 Boss1TargetFrame = {}
 Boss1TargetFrame["powerBarAlt"] = Boss1TargetFramePowerBarAlt -- inherited
@@ -1033,6 +1039,7 @@ Boss2TargetFrameNameBackground = {}
 Boss2TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L605)
+--- Explicitly protected
 --- @class Boss2TargetFrame : Button, BossTargetFrameTemplate
 Boss2TargetFrame = {}
 Boss2TargetFrame["powerBarAlt"] = Boss2TargetFramePowerBarAlt -- inherited
@@ -1241,6 +1248,7 @@ Boss3TargetFrameNameBackground = {}
 Boss3TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L610)
+--- Explicitly protected
 --- @class Boss3TargetFrame : Button, BossTargetFrameTemplate
 Boss3TargetFrame = {}
 Boss3TargetFrame["powerBarAlt"] = Boss3TargetFramePowerBarAlt -- inherited
@@ -1449,6 +1457,7 @@ Boss4TargetFrameNameBackground = {}
 Boss4TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L615)
+--- Explicitly protected
 --- @class Boss4TargetFrame : Button, BossTargetFrameTemplate
 Boss4TargetFrame = {}
 Boss4TargetFrame["powerBarAlt"] = Boss4TargetFramePowerBarAlt -- inherited
@@ -1657,6 +1666,7 @@ Boss5TargetFrameNameBackground = {}
 Boss5TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Cata/TargetFrame.xml#L620)
+--- Explicitly protected
 --- @class Boss5TargetFrame : Button, BossTargetFrameTemplate
 Boss5TargetFrame = {}
 Boss5TargetFrame["powerBarAlt"] = Boss5TargetFramePowerBarAlt -- inherited

@@ -253,6 +253,7 @@ PartyMemberFrame1PetFrameFlash = {}
 PartyMemberFrame1PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L389)
+--- Explicitly protected
 --- child of PartyMemberFrame1 (created in template PartyMemberFrameTemplate)
 --- @type PartyMemberFrameTemplate_PetFrame
 PartyMemberFrame1PetFrame = {}
@@ -273,6 +274,7 @@ PartyMemberFrame1Portrait = {}
 PartyMemberFrame1Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L3)
+--- Explicitly protected
 --- @class PartyMemberFrame1 : Button, PartyMemberFrameTemplate
 PartyMemberFrame1 = {}
 PartyMemberFrame1["HealthBar"] = PartyMemberFrame1HealthBar -- inherited
@@ -532,6 +534,7 @@ PartyMemberFrame2PetFrameFlash = {}
 PartyMemberFrame2PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L389)
+--- Explicitly protected
 --- child of PartyMemberFrame2 (created in template PartyMemberFrameTemplate)
 --- @type PartyMemberFrameTemplate_PetFrame
 PartyMemberFrame2PetFrame = {}
@@ -552,6 +555,7 @@ PartyMemberFrame2Portrait = {}
 PartyMemberFrame2Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L13)
+--- Explicitly protected
 --- @class PartyMemberFrame2 : Button, PartyMemberFrameTemplate
 PartyMemberFrame2 = {}
 PartyMemberFrame2["HealthBar"] = PartyMemberFrame2HealthBar -- inherited
@@ -811,6 +815,7 @@ PartyMemberFrame3PetFrameFlash = {}
 PartyMemberFrame3PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L389)
+--- Explicitly protected
 --- child of PartyMemberFrame3 (created in template PartyMemberFrameTemplate)
 --- @type PartyMemberFrameTemplate_PetFrame
 PartyMemberFrame3PetFrame = {}
@@ -831,6 +836,7 @@ PartyMemberFrame3Portrait = {}
 PartyMemberFrame3Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L22)
+--- Explicitly protected
 --- @class PartyMemberFrame3 : Button, PartyMemberFrameTemplate
 PartyMemberFrame3 = {}
 PartyMemberFrame3["HealthBar"] = PartyMemberFrame3HealthBar -- inherited
@@ -1090,6 +1096,7 @@ PartyMemberFrame4PetFrameFlash = {}
 PartyMemberFrame4PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L389)
+--- Explicitly protected
 --- child of PartyMemberFrame4 (created in template PartyMemberFrameTemplate)
 --- @type PartyMemberFrameTemplate_PetFrame
 PartyMemberFrame4PetFrame = {}
@@ -1110,6 +1117,7 @@ PartyMemberFrame4Portrait = {}
 PartyMemberFrame4Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrame.xml#L31)
+--- Explicitly protected
 --- @class PartyMemberFrame4 : Button, PartyMemberFrameTemplate
 PartyMemberFrame4 = {}
 PartyMemberFrame4["HealthBar"] = PartyMemberFrame4HealthBar -- inherited

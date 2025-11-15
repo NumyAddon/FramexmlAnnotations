@@ -38,6 +38,7 @@
 --- @class PartyMemberPetFrameTemplate_Debuff4 : Button, PartyPetDebuffFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L76)
+--- Explicitly protected
 --- Template
 --- @class PartyMemberPetFrameTemplate : Button, SecureUnitButtonTemplate
 
@@ -123,10 +124,12 @@
 --- @class PartyMemberFrameTemplate_Debuff4 : Button, PartyDebuffFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L389)
+--- Explicitly protected
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PetFrame : Button, PartyMemberPetFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L182)
+--- Explicitly protected
 --- Template
 --- @class PartyMemberFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field textureFrame PartyMemberFrameTemplate_textureFrame

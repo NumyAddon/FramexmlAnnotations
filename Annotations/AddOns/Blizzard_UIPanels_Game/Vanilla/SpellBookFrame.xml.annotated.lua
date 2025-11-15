@@ -25,6 +25,7 @@
 --- @class SpellButtonTemplate_SubSpellName : FontString, SubSpellFont
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L79)
+--- Explicitly protected
 --- Template
 --- @class SpellButtonTemplate : CheckButton, SecureFrameTemplate, SpellButtonMixin
 --- @field cooldown SpellButtonTemplate_Cooldown
@@ -129,6 +130,7 @@ SpellButton1NormalTexture = {}
 SpellButton1Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L354)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton1 : CheckButton, SpellButtonTemplate
 SpellButton1 = {}
@@ -178,6 +180,7 @@ SpellButton2NormalTexture = {}
 SpellButton2Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L363)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton2 : CheckButton, SpellButtonTemplate
 SpellButton2 = {}
@@ -227,6 +230,7 @@ SpellButton3NormalTexture = {}
 SpellButton3Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L372)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton3 : CheckButton, SpellButtonTemplate
 SpellButton3 = {}
@@ -276,6 +280,7 @@ SpellButton4NormalTexture = {}
 SpellButton4Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L381)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton4 : CheckButton, SpellButtonTemplate
 SpellButton4 = {}
@@ -325,6 +330,7 @@ SpellButton5NormalTexture = {}
 SpellButton5Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L390)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton5 : CheckButton, SpellButtonTemplate
 SpellButton5 = {}
@@ -374,6 +380,7 @@ SpellButton6NormalTexture = {}
 SpellButton6Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L399)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton6 : CheckButton, SpellButtonTemplate
 SpellButton6 = {}
@@ -423,6 +430,7 @@ SpellButton7NormalTexture = {}
 SpellButton7Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L408)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton7 : CheckButton, SpellButtonTemplate
 SpellButton7 = {}
@@ -472,6 +480,7 @@ SpellButton8NormalTexture = {}
 SpellButton8Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L417)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton8 : CheckButton, SpellButtonTemplate
 SpellButton8 = {}
@@ -521,6 +530,7 @@ SpellButton9NormalTexture = {}
 SpellButton9Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L426)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton9 : CheckButton, SpellButtonTemplate
 SpellButton9 = {}
@@ -570,6 +580,7 @@ SpellButton10NormalTexture = {}
 SpellButton10Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L435)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton10 : CheckButton, SpellButtonTemplate
 SpellButton10 = {}
@@ -619,6 +630,7 @@ SpellButton11NormalTexture = {}
 SpellButton11Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L444)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton11 : CheckButton, SpellButtonTemplate
 SpellButton11 = {}
@@ -668,6 +680,7 @@ SpellButton12NormalTexture = {}
 SpellButton12Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L453)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton12 : CheckButton, SpellButtonTemplate
 SpellButton12 = {}
@@ -677,6 +690,7 @@ SpellButton12["SpellName"] = SpellButton12SpellName -- inherited
 SpellButton12["SpellSubName"] = SpellButton12SubSpellName -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L348)
+--- Implicitly protected
 --- child of SpellBookFrame
 --- @class SpellBookSpellIconsFrame : Frame
 SpellBookSpellIconsFrame = {}
@@ -782,6 +796,7 @@ SpellBookTitleText = {}
 SpellBookPageText = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/SpellBookFrame.xml#L161)
+--- Implicitly protected
 --- @class SpellBookFrame : Frame, SpellBookFrameMixin
 SpellBookFrame = {}
 

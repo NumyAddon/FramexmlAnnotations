@@ -22,6 +22,7 @@
 --- @class PlayerSpellsFrame_TalentsFrame : Frame, ClassTalentsFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L49)
+--- Implicitly protected
 --- child of PlayerSpellsFrame
 --- @class PlayerSpellsFrame_SpellBookFrame : Frame, SpellBookFrameTemplate
 --- @field minimizedWidth string # 806
@@ -38,6 +39,7 @@ PlayerSpellsFrameCloseButton = {}
 PlayerSpellsFrameBg = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/Blizzard_PlayerSpellsFrame.xml#L5)
+--- Implicitly protected
 --- @class PlayerSpellsFrame : Frame, PortraitFrameTemplate, TabSystemOwnerTemplate, PlayerSpellsFrameMixin
 --- @field minimizedWidth string # 809
 --- @field maximizedWidth string # 1618
@@ -46,7 +48,7 @@ PlayerSpellsFrameBg = {}
 --- @field TabSystem PlayerSpellsFrame_TabSystem
 --- @field SpecFrame PlayerSpellsFrame_SpecFrame
 --- @field TalentsFrame PlayerSpellsFrame_TalentsFrame
---- @field SpellBookFrame PlayerSpellsFrame_SpellBookFrame
+--- @field SpellBookFrame PlayerSpellsFrame_SpellBookFrame # Implicitly protected
 PlayerSpellsFrame = {}
 PlayerSpellsFrame["minimizedWidth"] = "809"
 PlayerSpellsFrame["maximizedWidth"] = "1618"

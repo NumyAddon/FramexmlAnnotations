@@ -13,6 +13,7 @@
 --- @class ExtraActionButtonTemplate_Count : FontString, NumberFontNormal
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L3)
+--- Explicitly protected
 --- Template
 --- @class ExtraActionButtonTemplate : CheckButton, ActionBarButtonCodeTemplate, ExtraActionButtonMixin
 --- @field isExtra boolean # true
@@ -53,6 +54,7 @@ ExtraActionButton1Count = {}
 ExtraActionButton1Flash = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L100)
+--- Explicitly protected
 --- child of ExtraActionBarFrame
 --- @class ExtraActionButton1 : CheckButton, ExtraActionButtonTemplate
 --- @field commandName string # EXTRAACTIONBUTTON1
@@ -75,8 +77,9 @@ ExtraActionButton1["Flash"] = ExtraActionButton1Flash -- inherited
 --- @class ExtraActionBarFrame_outro : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L77)
+--- Implicitly protected
 --- @class ExtraActionBarFrame : Frame
---- @field button ExtraActionButton1
+--- @field button ExtraActionButton1 # Explicitly protected
 --- @field intro ExtraActionBarFrame_intro
 --- @field outro ExtraActionBarFrame_outro
 ExtraActionBarFrame = {}

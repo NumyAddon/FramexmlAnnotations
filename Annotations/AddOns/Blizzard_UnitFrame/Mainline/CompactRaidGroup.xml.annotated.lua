@@ -1,27 +1,33 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L4)
+--- Explicitly protected
 --- Template
 --- Adds itself to the parent inside the array `memberUnitFrames`
 --- @class CompactRaidGroupUnitFrameTemplate : Button, CompactUnitFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L18)
+--- Explicitly protected
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member1 : Button, CompactRaidGroupUnitFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L23)
+--- Explicitly protected
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member2 : Button, CompactRaidGroupUnitFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L30)
+--- Explicitly protected
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member3 : Button, CompactRaidGroupUnitFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L37)
+--- Explicitly protected
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member4 : Button, CompactRaidGroupUnitFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L44)
+--- Explicitly protected
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_Member5 : Button, CompactRaidGroupUnitFrameTemplate
 
@@ -30,6 +36,7 @@
 --- @class CompactRaidGroupTemplate_BorderFrame : Frame
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactRaidGroup.xml#L6)
+--- Implicitly protected
 --- Template
 --- @class CompactRaidGroupTemplate : Frame
 --- @field isFlowGroup boolean # true

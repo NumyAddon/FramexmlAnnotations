@@ -10,6 +10,7 @@
 AlternatePowerBarText = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/AlternatePowerBar.xml#L8)
+--- Explicitly protected
 --- @class AlternatePowerBar : StatusBar, PlayerFrameAlternatePowerBarBaseTemplate, AlternatePowerBarTemplate, SecureFrameParentPropagationTemplate
 --- @field powerName string # MANA
 --- @field powerType any # Enum.PowerType.Mana

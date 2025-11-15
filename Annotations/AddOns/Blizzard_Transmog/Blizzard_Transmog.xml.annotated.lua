@@ -15,6 +15,7 @@
 --- @field OverlayActive Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L33)
+--- Implicitly protected
 --- child of TransmogFrame_OutfitCollection
 --- @class TransmogFrame_OutfitCollection_ShowEquippedGearSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, ShowEquippedGearSpellFrameMixin
 --- @field spellID number # 1247917
@@ -84,9 +85,10 @@ TransmogFrameTrialErrorButton = {}
 --- @field Background Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L16)
+--- Implicitly protected
 --- child of TransmogFrame
 --- @class TransmogFrame_OutfitCollection : Frame, TransmogOutfitCollectionMixin
---- @field ShowEquippedGearSpellFrame TransmogFrame_OutfitCollection_ShowEquippedGearSpellFrame
+--- @field ShowEquippedGearSpellFrame TransmogFrame_OutfitCollection_ShowEquippedGearSpellFrame # Implicitly protected
 --- @field OutfitList TransmogFrame_OutfitCollection_OutfitList
 --- @field PurchaseOutfitButton TransmogFrame_OutfitCollection_PurchaseOutfitButton
 --- @field SaveOutfitButton TransmogFrame_OutfitCollection_SaveOutfitButton
@@ -400,9 +402,10 @@ TransmogFrameCloseButton = {}
 TransmogFrameBg = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L5)
+--- Implicitly protected
 --- @class TransmogFrame : Frame, PortraitFrameTemplate, TransmogFrameMixin
 --- @field HelpPlateButton TransmogFrame_HelpPlateButton
---- @field OutfitCollection TransmogFrame_OutfitCollection
+--- @field OutfitCollection TransmogFrame_OutfitCollection # Implicitly protected
 --- @field OutfitPopup TransmogFrame_OutfitPopup
 --- @field CharacterPreview TransmogFrame_CharacterPreview
 --- @field WardrobeCollection TransmogFrame_WardrobeCollection

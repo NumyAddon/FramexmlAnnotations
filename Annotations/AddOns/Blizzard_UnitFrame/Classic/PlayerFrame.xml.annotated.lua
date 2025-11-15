@@ -252,6 +252,7 @@ PlayerFrameBackground = {}
 PlayerPortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L13)
+--- Explicitly protected
 --- @class PlayerFrame : Button, SecureUnitButtonTemplate
 --- @field rightFrame PlayerFrame_rightFrame
 --- @field HealthBar PlayerFrameHealthBar

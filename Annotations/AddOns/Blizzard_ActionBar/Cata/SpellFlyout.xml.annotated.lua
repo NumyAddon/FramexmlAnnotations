@@ -5,6 +5,7 @@
 --- @class ActionBarFlyoutButton_FlyoutTop : Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L8)
+--- Explicitly protected
 --- Template
 --- @class SpellFlyoutButtonTemplate : CheckButton, ActionButtonTemplate, SecureFrameTemplate, SpellFlyoutButtonMixin
 --- @field maxDisplayCount string # 99
@@ -150,6 +151,7 @@ SpellFlyoutButton1Border = {}
 SpellFlyoutButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L39)
+--- Explicitly protected
 --- child of SpellFlyout
 --- @class SpellFlyoutButton1 : CheckButton, SpellFlyoutButtonTemplate
 SpellFlyoutButton1 = {}
@@ -183,6 +185,7 @@ SpellFlyoutHorizontalBackground = {}
 SpellFlyoutVerticalBackground = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/SpellFlyout.xml#L24)
+--- Explicitly protected
 --- @class SpellFlyout : Frame, SecureFrameTemplate, SpellFlyoutMixin
 --- @field BgEnd SpellFlyoutBackgroundEnd
 --- @field HorizBg SpellFlyoutHorizontalBackground

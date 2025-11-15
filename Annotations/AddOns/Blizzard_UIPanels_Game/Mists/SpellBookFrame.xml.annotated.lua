@@ -102,6 +102,7 @@
 --- @class SpellButtonTemplate_TrainTextBackground : Texture, Spellbook_TrainTextBackground
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L97)
+--- Explicitly protected
 --- Template
 --- @class SpellButtonTemplate : CheckButton, SecureFrameTemplate, SpellButtonMixin
 --- @field cooldown SpellButtonTemplate_Cooldown
@@ -133,6 +134,7 @@
 --- @class ProfessionButtonTemplate_SubSpellName : FontString, NewSubSpellFont
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L235)
+--- Explicitly protected
 --- Template
 --- @class ProfessionButtonTemplate : CheckButton, SecureFrameTemplate, SpellButtonMixin
 --- @field cooldown ProfessionButtonTemplate_Cooldown
@@ -163,10 +165,12 @@
 --- @field capRight Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L435)
+--- Explicitly protected
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_SpellButtonTop : CheckButton, ProfessionButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L440)
+--- Explicitly protected
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_SpellButtonBottom : CheckButton, ProfessionButtonTemplate
 
@@ -200,10 +204,11 @@
 --- @class PrimaryProfessionTemplate_Rank : FontString, GameFontHighlightSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L381)
+--- Implicitly protected
 --- Template
 --- @class PrimaryProfessionTemplate : Frame
---- @field SpellButton2 PrimaryProfessionTemplate_SpellButtonTop
---- @field SpellButton1 PrimaryProfessionTemplate_SpellButtonBottom
+--- @field SpellButton2 PrimaryProfessionTemplate_SpellButtonTop # Explicitly protected
+--- @field SpellButton1 PrimaryProfessionTemplate_SpellButtonBottom # Explicitly protected
 --- @field statusBar PrimaryProfessionTemplate_StatusBar
 --- @field UnlearnButton PrimaryProfessionTemplate_UnlearnButton
 --- @field professionName PrimaryProfessionTemplate_ProfessionName
@@ -214,10 +219,12 @@
 --- @field icon Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L482)
+--- Explicitly protected
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_SpellButtonRight : CheckButton, ProfessionButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L487)
+--- Explicitly protected
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_SpellButtonLeft : CheckButton, ProfessionButtonTemplate
 
@@ -242,10 +249,11 @@
 --- @class SecondaryProfessionTemplate_missingText : FontString, SubSpellFont
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L479)
+--- Implicitly protected
 --- Template
 --- @class SecondaryProfessionTemplate : Frame
---- @field SpellButton1 SecondaryProfessionTemplate_SpellButtonRight
---- @field SpellButton2 SecondaryProfessionTemplate_SpellButtonLeft
+--- @field SpellButton1 SecondaryProfessionTemplate_SpellButtonRight # Explicitly protected
+--- @field SpellButton2 SecondaryProfessionTemplate_SpellButtonLeft # Explicitly protected
 --- @field statusBar SecondaryProfessionTemplate_StatusBar
 --- @field rank SecondaryProfessionTemplate_Rank
 --- @field professionName SecondaryProfessionTemplate_ProfessionName
@@ -277,6 +285,7 @@
 --- @class CoreAbilitySpellTemplate_RequiredLevel : FontString, GameFontBlackSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L540)
+--- Explicitly protected
 --- Template
 --- @class CoreAbilitySpellTemplate : CheckButton, SecureFrameTemplate, CoreAbilitySpellMixin
 --- @field EmptySlot CoreAbilitySpellTemplate_EmptySlot
@@ -624,6 +633,7 @@ SpellButton1NormalTexture = {}
 SpellButton1Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L748)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton1 : CheckButton, SpellButtonTemplate
 SpellButton1 = {}
@@ -744,6 +754,7 @@ SpellButton2NormalTexture = {}
 SpellButton2Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L753)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton2 : CheckButton, SpellButtonTemplate
 SpellButton2 = {}
@@ -864,6 +875,7 @@ SpellButton3NormalTexture = {}
 SpellButton3Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L758)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton3 : CheckButton, SpellButtonTemplate
 SpellButton3 = {}
@@ -984,6 +996,7 @@ SpellButton4NormalTexture = {}
 SpellButton4Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L763)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton4 : CheckButton, SpellButtonTemplate
 SpellButton4 = {}
@@ -1104,6 +1117,7 @@ SpellButton5NormalTexture = {}
 SpellButton5Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L768)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton5 : CheckButton, SpellButtonTemplate
 SpellButton5 = {}
@@ -1224,6 +1238,7 @@ SpellButton6NormalTexture = {}
 SpellButton6Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L773)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton6 : CheckButton, SpellButtonTemplate
 SpellButton6 = {}
@@ -1344,6 +1359,7 @@ SpellButton7NormalTexture = {}
 SpellButton7Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L778)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton7 : CheckButton, SpellButtonTemplate
 SpellButton7 = {}
@@ -1464,6 +1480,7 @@ SpellButton8NormalTexture = {}
 SpellButton8Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L783)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton8 : CheckButton, SpellButtonTemplate
 SpellButton8 = {}
@@ -1584,6 +1601,7 @@ SpellButton9NormalTexture = {}
 SpellButton9Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L788)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton9 : CheckButton, SpellButtonTemplate
 SpellButton9 = {}
@@ -1704,6 +1722,7 @@ SpellButton10NormalTexture = {}
 SpellButton10Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L793)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton10 : CheckButton, SpellButtonTemplate
 SpellButton10 = {}
@@ -1824,6 +1843,7 @@ SpellButton11NormalTexture = {}
 SpellButton11Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L798)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton11 : CheckButton, SpellButtonTemplate
 SpellButton11 = {}
@@ -1944,6 +1964,7 @@ SpellButton12NormalTexture = {}
 SpellButton12Highlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L803)
+--- Explicitly protected
 --- child of SpellBookSpellIconsFrame
 --- @class SpellButton12 : CheckButton, SpellButtonTemplate
 SpellButton12 = {}
@@ -1964,6 +1985,7 @@ SpellButton12["FlyoutArrow"] = SpellButton12FlyoutArrow -- inherited
 SpellButton12["TrainTextBackground"] = SpellButton12TrainTextBackground -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L742)
+--- Implicitly protected
 --- child of SpellBookFrame
 --- @class SpellBookSpellIconsFrame : Frame
 SpellBookSpellIconsFrame = {}
@@ -2089,6 +2111,7 @@ PrimaryProfession1SpellButtonTopNameFrame = {}
 PrimaryProfession1SpellButtonTopHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L435)
+--- Explicitly protected
 --- child of PrimaryProfession1 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_SpellButtonTop
 PrimaryProfession1SpellButtonTop = {}
@@ -2129,6 +2152,7 @@ PrimaryProfession1SpellButtonBottomNameFrame = {}
 PrimaryProfession1SpellButtonBottomHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L440)
+--- Explicitly protected
 --- child of PrimaryProfession1 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_SpellButtonBottom
 PrimaryProfession1SpellButtonBottom = {}
@@ -2218,6 +2242,7 @@ PrimaryProfession1IconBorder = {}
 PrimaryProfession1Icon = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L926)
+--- Implicitly protected
 --- child of SpellBookProfessionFrame
 --- @class PrimaryProfession1 : Frame, PrimaryProfessionTemplate
 PrimaryProfession1 = {}
@@ -2261,6 +2286,7 @@ PrimaryProfession2SpellButtonTopNameFrame = {}
 PrimaryProfession2SpellButtonTopHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L435)
+--- Explicitly protected
 --- child of PrimaryProfession2 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_SpellButtonTop
 PrimaryProfession2SpellButtonTop = {}
@@ -2301,6 +2327,7 @@ PrimaryProfession2SpellButtonBottomNameFrame = {}
 PrimaryProfession2SpellButtonBottomHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L440)
+--- Explicitly protected
 --- child of PrimaryProfession2 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_SpellButtonBottom
 PrimaryProfession2SpellButtonBottom = {}
@@ -2390,6 +2417,7 @@ PrimaryProfession2IconBorder = {}
 PrimaryProfession2Icon = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L931)
+--- Implicitly protected
 --- child of SpellBookProfessionFrame
 --- @class PrimaryProfession2 : Frame, PrimaryProfessionTemplate
 PrimaryProfession2 = {}
@@ -2433,6 +2461,7 @@ SecondaryProfession1SpellButtonRightNameFrame = {}
 SecondaryProfession1SpellButtonRightHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L482)
+--- Explicitly protected
 --- child of SecondaryProfession1 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonRight
 SecondaryProfession1SpellButtonRight = {}
@@ -2473,6 +2502,7 @@ SecondaryProfession1SpellButtonLeftNameFrame = {}
 SecondaryProfession1SpellButtonLeftHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L487)
+--- Explicitly protected
 --- child of SecondaryProfession1 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonLeft
 SecondaryProfession1SpellButtonLeft = {}
@@ -2547,6 +2577,7 @@ SecondaryProfession1ProfessionName = {}
 SecondaryProfession1Missing = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L943)
+--- Implicitly protected
 --- child of SpellBookProfessionFrame
 --- @class SecondaryProfession1 : Frame, SecondaryProfessionTemplate
 SecondaryProfession1 = {}
@@ -2588,6 +2619,7 @@ SecondaryProfession2SpellButtonRightNameFrame = {}
 SecondaryProfession2SpellButtonRightHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L482)
+--- Explicitly protected
 --- child of SecondaryProfession2 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonRight
 SecondaryProfession2SpellButtonRight = {}
@@ -2628,6 +2660,7 @@ SecondaryProfession2SpellButtonLeftNameFrame = {}
 SecondaryProfession2SpellButtonLeftHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L487)
+--- Explicitly protected
 --- child of SecondaryProfession2 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonLeft
 SecondaryProfession2SpellButtonLeft = {}
@@ -2702,6 +2735,7 @@ SecondaryProfession2ProfessionName = {}
 SecondaryProfession2Missing = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L954)
+--- Implicitly protected
 --- child of SpellBookProfessionFrame
 --- @class SecondaryProfession2 : Frame, SecondaryProfessionTemplate
 SecondaryProfession2 = {}
@@ -2743,6 +2777,7 @@ SecondaryProfession3SpellButtonRightNameFrame = {}
 SecondaryProfession3SpellButtonRightHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L482)
+--- Explicitly protected
 --- child of SecondaryProfession3 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonRight
 SecondaryProfession3SpellButtonRight = {}
@@ -2783,6 +2818,7 @@ SecondaryProfession3SpellButtonLeftNameFrame = {}
 SecondaryProfession3SpellButtonLeftHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L487)
+--- Explicitly protected
 --- child of SecondaryProfession3 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonLeft
 SecondaryProfession3SpellButtonLeft = {}
@@ -2857,6 +2893,7 @@ SecondaryProfession3ProfessionName = {}
 SecondaryProfession3Missing = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L965)
+--- Implicitly protected
 --- child of SpellBookProfessionFrame
 --- @class SecondaryProfession3 : Frame, SecondaryProfessionTemplate
 SecondaryProfession3 = {}
@@ -2898,6 +2935,7 @@ SecondaryProfession4SpellButtonRightNameFrame = {}
 SecondaryProfession4SpellButtonRightHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L482)
+--- Explicitly protected
 --- child of SecondaryProfession4 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonRight
 SecondaryProfession4SpellButtonRight = {}
@@ -2938,6 +2976,7 @@ SecondaryProfession4SpellButtonLeftNameFrame = {}
 SecondaryProfession4SpellButtonLeftHighlight = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L487)
+--- Explicitly protected
 --- child of SecondaryProfession4 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonLeft
 SecondaryProfession4SpellButtonLeft = {}
@@ -3012,6 +3051,7 @@ SecondaryProfession4ProfessionName = {}
 SecondaryProfession4Missing = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L976)
+--- Implicitly protected
 --- child of SpellBookProfessionFrame
 --- @class SecondaryProfession4 : Frame, SecondaryProfessionTemplate
 SecondaryProfession4 = {}
@@ -3023,6 +3063,7 @@ SecondaryProfession4["professionName"] = SecondaryProfession4ProfessionName -- i
 SecondaryProfession4["missingHeader"] = SecondaryProfession4Missing -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L920)
+--- Implicitly protected
 --- child of SpellBookFrame
 --- @class SpellBookProfessionFrame : Frame
 SpellBookProfessionFrame = {}
@@ -3032,6 +3073,7 @@ SpellBookProfessionFrame = {}
 --- @class SpellBookCoreAbilitiesFrame_SpecName : FontString, CoreAbilityFont
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L989)
+--- Implicitly protected
 --- child of SpellBookFrame
 --- @class SpellBookCoreAbilitiesFrame : Frame, SpellBookCoreAbilitiesMixin
 --- @field SpecName SpellBookCoreAbilitiesFrame_SpecName
@@ -3163,6 +3205,7 @@ SpellBookFrameLeftBorder = {}
 SpellBookFrameRightBorder = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_UIPanels_Game/Mists/SpellBookFrame.xml#L652)
+--- Implicitly protected
 --- @class SpellBookFrame : Frame, ButtonFrameTemplate, SpellBookFrameMixin
 SpellBookFrame = {}
 SpellBookFrame["Inset"] = SpellBookFrameInset -- inherited

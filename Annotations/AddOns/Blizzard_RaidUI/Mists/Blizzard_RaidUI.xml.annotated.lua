@@ -37,6 +37,7 @@
 --- @class RaidGroupButtonTemplate_Level : FontString, GameFontNormalSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L76)
+--- Explicitly protected
 --- Template
 --- @class RaidGroupButtonTemplate : Button, SecureUnitButtonTemplate
 
@@ -85,6 +86,7 @@
 --- @class RaidPulloutButtonTemplate_Target_Name : FontString, GameFontNormalSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L474)
+--- Explicitly protected
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_Target : StatusBar, SecureFrameTemplate, TextStatusBar
 
@@ -98,10 +100,12 @@
 --- @class RaidPulloutButtonTemplate_TargetTarget : StatusBar, TextStatusBar
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L616)
+--- Explicitly protected
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_ClearButton : Button, SecureUnitButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L631)
+--- Explicitly protected
 --- child of RaidPulloutButtonTemplate
 --- @class RaidPulloutButtonTemplate_TargetTargetClearButton : Button, SecureUnitButtonTemplate
 
@@ -130,6 +134,7 @@
 --- @class RaidPulloutButtonTemplate_Name : FontString, GameFontNormalSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L393)
+--- Implicitly protected
 --- Template
 --- @class RaidPulloutButtonTemplate : Frame
 
@@ -676,6 +681,7 @@ RaidGroupButton1Name = {}
 RaidGroupButton1Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L888)
+--- Explicitly protected
 --- @class RaidGroupButton1 : Button, RaidGroupButtonTemplate
 RaidGroupButton1 = {}
 
@@ -735,6 +741,7 @@ RaidGroupButton2Name = {}
 RaidGroupButton2Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L889)
+--- Explicitly protected
 --- @class RaidGroupButton2 : Button, RaidGroupButtonTemplate
 RaidGroupButton2 = {}
 
@@ -794,6 +801,7 @@ RaidGroupButton3Name = {}
 RaidGroupButton3Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L890)
+--- Explicitly protected
 --- @class RaidGroupButton3 : Button, RaidGroupButtonTemplate
 RaidGroupButton3 = {}
 
@@ -853,6 +861,7 @@ RaidGroupButton4Name = {}
 RaidGroupButton4Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L891)
+--- Explicitly protected
 --- @class RaidGroupButton4 : Button, RaidGroupButtonTemplate
 RaidGroupButton4 = {}
 
@@ -912,6 +921,7 @@ RaidGroupButton5Name = {}
 RaidGroupButton5Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L892)
+--- Explicitly protected
 --- @class RaidGroupButton5 : Button, RaidGroupButtonTemplate
 RaidGroupButton5 = {}
 
@@ -971,6 +981,7 @@ RaidGroupButton6Name = {}
 RaidGroupButton6Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L893)
+--- Explicitly protected
 --- @class RaidGroupButton6 : Button, RaidGroupButtonTemplate
 RaidGroupButton6 = {}
 
@@ -1030,6 +1041,7 @@ RaidGroupButton7Name = {}
 RaidGroupButton7Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L894)
+--- Explicitly protected
 --- @class RaidGroupButton7 : Button, RaidGroupButtonTemplate
 RaidGroupButton7 = {}
 
@@ -1089,6 +1101,7 @@ RaidGroupButton8Name = {}
 RaidGroupButton8Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L895)
+--- Explicitly protected
 --- @class RaidGroupButton8 : Button, RaidGroupButtonTemplate
 RaidGroupButton8 = {}
 
@@ -1148,6 +1161,7 @@ RaidGroupButton9Name = {}
 RaidGroupButton9Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L896)
+--- Explicitly protected
 --- @class RaidGroupButton9 : Button, RaidGroupButtonTemplate
 RaidGroupButton9 = {}
 
@@ -1207,6 +1221,7 @@ RaidGroupButton10Name = {}
 RaidGroupButton10Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L897)
+--- Explicitly protected
 --- @class RaidGroupButton10 : Button, RaidGroupButtonTemplate
 RaidGroupButton10 = {}
 
@@ -1266,6 +1281,7 @@ RaidGroupButton11Name = {}
 RaidGroupButton11Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L898)
+--- Explicitly protected
 --- @class RaidGroupButton11 : Button, RaidGroupButtonTemplate
 RaidGroupButton11 = {}
 
@@ -1325,6 +1341,7 @@ RaidGroupButton12Name = {}
 RaidGroupButton12Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L899)
+--- Explicitly protected
 --- @class RaidGroupButton12 : Button, RaidGroupButtonTemplate
 RaidGroupButton12 = {}
 
@@ -1384,6 +1401,7 @@ RaidGroupButton13Name = {}
 RaidGroupButton13Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L900)
+--- Explicitly protected
 --- @class RaidGroupButton13 : Button, RaidGroupButtonTemplate
 RaidGroupButton13 = {}
 
@@ -1443,6 +1461,7 @@ RaidGroupButton14Name = {}
 RaidGroupButton14Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L901)
+--- Explicitly protected
 --- @class RaidGroupButton14 : Button, RaidGroupButtonTemplate
 RaidGroupButton14 = {}
 
@@ -1502,6 +1521,7 @@ RaidGroupButton15Name = {}
 RaidGroupButton15Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L902)
+--- Explicitly protected
 --- @class RaidGroupButton15 : Button, RaidGroupButtonTemplate
 RaidGroupButton15 = {}
 
@@ -1561,6 +1581,7 @@ RaidGroupButton16Name = {}
 RaidGroupButton16Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L903)
+--- Explicitly protected
 --- @class RaidGroupButton16 : Button, RaidGroupButtonTemplate
 RaidGroupButton16 = {}
 
@@ -1620,6 +1641,7 @@ RaidGroupButton17Name = {}
 RaidGroupButton17Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L904)
+--- Explicitly protected
 --- @class RaidGroupButton17 : Button, RaidGroupButtonTemplate
 RaidGroupButton17 = {}
 
@@ -1679,6 +1701,7 @@ RaidGroupButton18Name = {}
 RaidGroupButton18Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L905)
+--- Explicitly protected
 --- @class RaidGroupButton18 : Button, RaidGroupButtonTemplate
 RaidGroupButton18 = {}
 
@@ -1738,6 +1761,7 @@ RaidGroupButton19Name = {}
 RaidGroupButton19Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L906)
+--- Explicitly protected
 --- @class RaidGroupButton19 : Button, RaidGroupButtonTemplate
 RaidGroupButton19 = {}
 
@@ -1797,6 +1821,7 @@ RaidGroupButton20Name = {}
 RaidGroupButton20Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L907)
+--- Explicitly protected
 --- @class RaidGroupButton20 : Button, RaidGroupButtonTemplate
 RaidGroupButton20 = {}
 
@@ -1856,6 +1881,7 @@ RaidGroupButton21Name = {}
 RaidGroupButton21Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L908)
+--- Explicitly protected
 --- @class RaidGroupButton21 : Button, RaidGroupButtonTemplate
 RaidGroupButton21 = {}
 
@@ -1915,6 +1941,7 @@ RaidGroupButton22Name = {}
 RaidGroupButton22Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L909)
+--- Explicitly protected
 --- @class RaidGroupButton22 : Button, RaidGroupButtonTemplate
 RaidGroupButton22 = {}
 
@@ -1974,6 +2001,7 @@ RaidGroupButton23Name = {}
 RaidGroupButton23Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L910)
+--- Explicitly protected
 --- @class RaidGroupButton23 : Button, RaidGroupButtonTemplate
 RaidGroupButton23 = {}
 
@@ -2033,6 +2061,7 @@ RaidGroupButton24Name = {}
 RaidGroupButton24Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L911)
+--- Explicitly protected
 --- @class RaidGroupButton24 : Button, RaidGroupButtonTemplate
 RaidGroupButton24 = {}
 
@@ -2092,6 +2121,7 @@ RaidGroupButton25Name = {}
 RaidGroupButton25Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L912)
+--- Explicitly protected
 --- @class RaidGroupButton25 : Button, RaidGroupButtonTemplate
 RaidGroupButton25 = {}
 
@@ -2151,6 +2181,7 @@ RaidGroupButton26Name = {}
 RaidGroupButton26Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L913)
+--- Explicitly protected
 --- @class RaidGroupButton26 : Button, RaidGroupButtonTemplate
 RaidGroupButton26 = {}
 
@@ -2210,6 +2241,7 @@ RaidGroupButton27Name = {}
 RaidGroupButton27Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L914)
+--- Explicitly protected
 --- @class RaidGroupButton27 : Button, RaidGroupButtonTemplate
 RaidGroupButton27 = {}
 
@@ -2269,6 +2301,7 @@ RaidGroupButton28Name = {}
 RaidGroupButton28Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L915)
+--- Explicitly protected
 --- @class RaidGroupButton28 : Button, RaidGroupButtonTemplate
 RaidGroupButton28 = {}
 
@@ -2328,6 +2361,7 @@ RaidGroupButton29Name = {}
 RaidGroupButton29Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L916)
+--- Explicitly protected
 --- @class RaidGroupButton29 : Button, RaidGroupButtonTemplate
 RaidGroupButton29 = {}
 
@@ -2387,6 +2421,7 @@ RaidGroupButton30Name = {}
 RaidGroupButton30Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L917)
+--- Explicitly protected
 --- @class RaidGroupButton30 : Button, RaidGroupButtonTemplate
 RaidGroupButton30 = {}
 
@@ -2446,6 +2481,7 @@ RaidGroupButton31Name = {}
 RaidGroupButton31Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L918)
+--- Explicitly protected
 --- @class RaidGroupButton31 : Button, RaidGroupButtonTemplate
 RaidGroupButton31 = {}
 
@@ -2505,6 +2541,7 @@ RaidGroupButton32Name = {}
 RaidGroupButton32Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L919)
+--- Explicitly protected
 --- @class RaidGroupButton32 : Button, RaidGroupButtonTemplate
 RaidGroupButton32 = {}
 
@@ -2564,6 +2601,7 @@ RaidGroupButton33Name = {}
 RaidGroupButton33Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L920)
+--- Explicitly protected
 --- @class RaidGroupButton33 : Button, RaidGroupButtonTemplate
 RaidGroupButton33 = {}
 
@@ -2623,6 +2661,7 @@ RaidGroupButton34Name = {}
 RaidGroupButton34Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L921)
+--- Explicitly protected
 --- @class RaidGroupButton34 : Button, RaidGroupButtonTemplate
 RaidGroupButton34 = {}
 
@@ -2682,6 +2721,7 @@ RaidGroupButton35Name = {}
 RaidGroupButton35Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L922)
+--- Explicitly protected
 --- @class RaidGroupButton35 : Button, RaidGroupButtonTemplate
 RaidGroupButton35 = {}
 
@@ -2741,6 +2781,7 @@ RaidGroupButton36Name = {}
 RaidGroupButton36Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L923)
+--- Explicitly protected
 --- @class RaidGroupButton36 : Button, RaidGroupButtonTemplate
 RaidGroupButton36 = {}
 
@@ -2800,6 +2841,7 @@ RaidGroupButton37Name = {}
 RaidGroupButton37Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L924)
+--- Explicitly protected
 --- @class RaidGroupButton37 : Button, RaidGroupButtonTemplate
 RaidGroupButton37 = {}
 
@@ -2859,6 +2901,7 @@ RaidGroupButton38Name = {}
 RaidGroupButton38Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L925)
+--- Explicitly protected
 --- @class RaidGroupButton38 : Button, RaidGroupButtonTemplate
 RaidGroupButton38 = {}
 
@@ -2918,6 +2961,7 @@ RaidGroupButton39Name = {}
 RaidGroupButton39Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L926)
+--- Explicitly protected
 --- @class RaidGroupButton39 : Button, RaidGroupButtonTemplate
 RaidGroupButton39 = {}
 
@@ -2977,6 +3021,7 @@ RaidGroupButton40Name = {}
 RaidGroupButton40Level = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_RaidUI/Mists/Blizzard_RaidUI.xml#L927)
+--- Explicitly protected
 --- @class RaidGroupButton40 : Button, RaidGroupButtonTemplate
 RaidGroupButton40 = {}
 

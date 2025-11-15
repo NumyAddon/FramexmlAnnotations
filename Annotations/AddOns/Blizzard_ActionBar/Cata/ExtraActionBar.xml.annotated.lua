@@ -13,6 +13,7 @@
 --- @class ExtraActionButtonTemplate_Count : FontString, NumberFontNormal
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/ExtraActionBar.xml#L5)
+--- Explicitly protected
 --- Template
 --- @class ExtraActionButtonTemplate : CheckButton, ActionBarButtonCodeTemplate
 --- @field cooldown ExtraActionButtonTemplate_cooldown
@@ -23,6 +24,7 @@
 --- @field style Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/ExtraActionBar.xml#L82)
+--- Explicitly protected
 --- child of ExtraActionBarFrame
 --- @class ExtraActionButton1 : CheckButton, ExtraActionButtonTemplate
 ExtraActionButton1 = {}
@@ -36,8 +38,9 @@ ExtraActionButton1 = {}
 --- @class ExtraActionBarFrame_outro : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_ActionBar/Cata/ExtraActionBar.xml#L57)
+--- Implicitly protected
 --- @class ExtraActionBarFrame : Frame
---- @field button ExtraActionButton1
+--- @field button ExtraActionButton1 # Explicitly protected
 --- @field intro ExtraActionBarFrame_intro
 --- @field outro ExtraActionBarFrame_outro
 ExtraActionBarFrame = {}

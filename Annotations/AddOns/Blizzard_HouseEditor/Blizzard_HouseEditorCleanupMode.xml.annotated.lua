@@ -7,7 +7,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCleanupMode.xml#L9)
 --- child of HouseEditorCleanupModeTemplate_Instructions
 --- @class HouseEditorCleanupModeTemplate_Instructions_SelectInstruction : Frame, HouseEditorInstructionTemplate
---- @field iconAtlas string # plunderstorm-pickup-mouseclick-left
+--- @field iconAtlas string # housing-hotkey-icon-leftclick
 --- @field instructionText any # HOUSING_CLEANUP_SELECT_INSTRUCTION
 --- @field layoutIndex number # 1
 

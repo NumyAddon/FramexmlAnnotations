@@ -41,14 +41,14 @@ local MinimalSliderWithSteppersMixin_Label = {
     ["Max"] = 5,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1648)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1649)
 --- @enum IconSelectorPopupFrameModes
 local IconSelectorPopupFrameModes = {
     ["New"] = 1,
     ["Edit"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1653)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1654)
 --- @enum IconSelectorPopupFrameIconFilterTypes
 local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
@@ -183,7 +183,7 @@ local BountyFrameType = {
     ["ActivityTracker"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L1)
 --- @enum QuestLogButtonTypes
 local QuestLogButtonTypes = {
     ["None"] = 1,
@@ -196,7 +196,7 @@ local QuestLogButtonTypes = {
     ["Quest"] = 8,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L3)
 --- @enum QuestLogDisplayMode
 local QuestLogDisplayMode = {
     ["Quests"] = 1,

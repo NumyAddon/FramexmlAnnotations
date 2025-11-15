@@ -9,6 +9,7 @@
 --- @class UIPanelSpellButtonFrameTemplate_Button_Border : Texture, ActionBarFlyoutButton_IconFrame
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L19)
+--- Explicitly protected
 --- child of UIPanelSpellButtonFrameTemplate
 --- @class UIPanelSpellButtonFrameTemplate_Button : Button, SecureFrameTemplate, UIPanelSpellButtonFrameMixin
 --- @field Cooldown UIPanelSpellButtonFrameTemplate_Button_Cooldown
@@ -22,11 +23,12 @@
 --- @class UIPanelSpellButtonFrameTemplate_Label : FontString, GameFontHighlight
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.xml#L4)
+--- Implicitly protected
 --- Template
 --- @class UIPanelSpellButtonFrameTemplate : Frame, UIPanelSpellButtonFrameMixin
 --- @field textPadLeft number # 8
 --- @field textPadRight number # 4
 --- @field tooltipAnchor string # ANCHOR_RIGHT
---- @field Button UIPanelSpellButtonFrameTemplate_Button
+--- @field Button UIPanelSpellButtonFrameTemplate_Button # Explicitly protected
 --- @field Label UIPanelSpellButtonFrameTemplate_Label
 

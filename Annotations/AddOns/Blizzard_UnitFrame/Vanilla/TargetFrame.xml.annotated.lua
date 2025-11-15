@@ -62,6 +62,7 @@
 --- @class TargetFrameTemplate_ManaBar : StatusBar, TextStatusBar
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L135)
+--- Explicitly protected
 --- Template
 --- @class TargetFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field textureFrame TargetFrameTemplate_TextureFrame
@@ -71,6 +72,7 @@
 --- @field nameBackground Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L303)
+--- Explicitly protected
 --- Template
 --- @class BossTargetFrameTemplate : Button, TargetFrameTemplate
 
@@ -115,6 +117,7 @@
 --- @class TargetofTargetFrameTemplate_Debuff4 : Frame, TargetofTargetDebuffFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L316)
+--- Explicitly protected
 --- Template
 --- @class TargetofTargetFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field background Texture
@@ -184,6 +187,7 @@ TargetFrameNameBackground = {}
 TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L433)
+--- Explicitly protected
 --- @class TargetFrame : Button, TargetFrameTemplate
 TargetFrame = {}
 TargetFrame["textureFrame"] = TargetFrameTextureFrame -- inherited
@@ -249,6 +253,7 @@ Boss1TargetFrameNameBackground = {}
 Boss1TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L478)
+--- Explicitly protected
 --- @class Boss1TargetFrame : Button, BossTargetFrameTemplate
 Boss1TargetFrame = {}
 Boss1TargetFrame["textureFrame"] = Boss1TargetFrameTextureFrame -- inherited
@@ -314,6 +319,7 @@ Boss2TargetFrameNameBackground = {}
 Boss2TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L483)
+--- Explicitly protected
 --- @class Boss2TargetFrame : Button, BossTargetFrameTemplate
 Boss2TargetFrame = {}
 Boss2TargetFrame["textureFrame"] = Boss2TargetFrameTextureFrame -- inherited
@@ -379,6 +385,7 @@ Boss3TargetFrameNameBackground = {}
 Boss3TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L488)
+--- Explicitly protected
 --- @class Boss3TargetFrame : Button, BossTargetFrameTemplate
 Boss3TargetFrame = {}
 Boss3TargetFrame["textureFrame"] = Boss3TargetFrameTextureFrame -- inherited
@@ -444,6 +451,7 @@ Boss4TargetFrameNameBackground = {}
 Boss4TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L493)
+--- Explicitly protected
 --- @class Boss4TargetFrame : Button, BossTargetFrameTemplate
 Boss4TargetFrame = {}
 Boss4TargetFrame["textureFrame"] = Boss4TargetFrameTextureFrame -- inherited
@@ -509,6 +517,7 @@ Boss5TargetFrameNameBackground = {}
 Boss5TargetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Vanilla/TargetFrame.xml#L498)
+--- Explicitly protected
 --- @class Boss5TargetFrame : Button, BossTargetFrameTemplate
 Boss5TargetFrame = {}
 Boss5TargetFrame["textureFrame"] = Boss5TargetFrameTextureFrame -- inherited

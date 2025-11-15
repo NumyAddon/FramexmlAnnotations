@@ -1,6 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainMenuBar.xml#L3)
+--- Explicitly protected
 --- Template
 --- @class MainBarActionBarButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field showButtonArt boolean # true

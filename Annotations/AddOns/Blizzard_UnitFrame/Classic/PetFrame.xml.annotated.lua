@@ -121,6 +121,7 @@ PetFrameFlash = {}
 PetPortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L4)
+--- Explicitly protected
 --- @class PetFrame : Button, SecureUnitButtonTemplate
 PetFrame = {}
 

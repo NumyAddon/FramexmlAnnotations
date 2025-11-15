@@ -1,235 +1,293 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L5)
+--- Explicitly protected
 --- Template
 --- @class MultiBarButtonTemplate : CheckButton, ActionBarButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L18)
+--- Explicitly protected
 --- Template
 --- @class MultiBar1ButtonTemplate : CheckButton, MultiBarButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L26)
+--- Explicitly protected
 --- Template
 --- @class MultiBar2ButtonTemplate : CheckButton, MultiBarButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L34)
+--- Explicitly protected
 --- Template
 --- @class MultiBar2ButtonNoBackgroundTemplate : CheckButton, ActionBarButtonTemplate
 --- @field noGrid boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L45)
+--- Explicitly protected
 --- Template
 --- @class MultiBar3ButtonTemplate : CheckButton, MultiBarButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L54)
+--- Explicitly protected
 --- Template
 --- @class MultiBar4ButtonTemplate : CheckButton, MultiBarButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L69)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button1 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L74)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button2 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L79)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button3 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L84)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button4 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L89)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button5 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button6 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button7 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L104)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button8 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L109)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button9 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L114)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button10 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button11 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L124)
+--- Explicitly protected
 --- child of HorizontalMultiBar1
 --- @class HorizontalMultiBar1_Button12 : CheckButton, MultiBar1ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L63)
+--- Implicitly protected
 --- Template
 --- @class HorizontalMultiBar1 : Frame
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L137)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button1 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L142)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button2 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L147)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button3 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L152)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button4 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L157)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button5 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L162)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button6 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L167)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button7 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L172)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button8 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L177)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button9 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L182)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button10 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L187)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button11 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L192)
+--- Explicitly protected
 --- child of HorizontalMultiBar2
 --- @class HorizontalMultiBar2_Button12 : CheckButton, MultiBar2ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L131)
+--- Implicitly protected
 --- Template
 --- @class HorizontalMultiBar2 : Frame
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L205)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button1 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button2 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L215)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button3 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L220)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button4 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L225)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button5 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L230)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button6 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L235)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button7 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L240)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button8 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L245)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button9 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L250)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button10 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L255)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button11 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L260)
+--- Explicitly protected
 --- child of VerticalMultiBar3
 --- @class VerticalMultiBar3_Button12 : CheckButton, MultiBar3ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L199)
+--- Implicitly protected
 --- Template
 --- @class VerticalMultiBar3 : Frame
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L273)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button1 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L278)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button2 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L283)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button3 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button4 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L293)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button5 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L298)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button6 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L303)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button7 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L308)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button8 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L313)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button9 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L318)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button10 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L323)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button11 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L328)
+--- Explicitly protected
 --- child of VerticalMultiBar4
 --- @class VerticalMultiBar4_Button12 : CheckButton, MultiBar4ButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L267)
+--- Implicitly protected
 --- Template
 --- @class VerticalMultiBar4 : Frame
 
@@ -379,6 +437,7 @@ MultiBarBottomLeftButton1Border = {}
 MultiBarBottomLeftButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L69)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button1
 MultiBarBottomLeftButton1 = {}
@@ -541,6 +600,7 @@ MultiBarBottomLeftButton2Border = {}
 MultiBarBottomLeftButton2NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L74)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button2
 MultiBarBottomLeftButton2 = {}
@@ -703,6 +763,7 @@ MultiBarBottomLeftButton3Border = {}
 MultiBarBottomLeftButton3NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L79)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button3
 MultiBarBottomLeftButton3 = {}
@@ -865,6 +926,7 @@ MultiBarBottomLeftButton4Border = {}
 MultiBarBottomLeftButton4NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L84)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button4
 MultiBarBottomLeftButton4 = {}
@@ -1027,6 +1089,7 @@ MultiBarBottomLeftButton5Border = {}
 MultiBarBottomLeftButton5NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L89)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button5
 MultiBarBottomLeftButton5 = {}
@@ -1189,6 +1252,7 @@ MultiBarBottomLeftButton6Border = {}
 MultiBarBottomLeftButton6NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L94)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button6
 MultiBarBottomLeftButton6 = {}
@@ -1351,6 +1415,7 @@ MultiBarBottomLeftButton7Border = {}
 MultiBarBottomLeftButton7NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L99)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button7
 MultiBarBottomLeftButton7 = {}
@@ -1513,6 +1578,7 @@ MultiBarBottomLeftButton8Border = {}
 MultiBarBottomLeftButton8NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L104)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button8
 MultiBarBottomLeftButton8 = {}
@@ -1675,6 +1741,7 @@ MultiBarBottomLeftButton9Border = {}
 MultiBarBottomLeftButton9NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L109)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button9
 MultiBarBottomLeftButton9 = {}
@@ -1837,6 +1904,7 @@ MultiBarBottomLeftButton10Border = {}
 MultiBarBottomLeftButton10NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L114)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button10
 MultiBarBottomLeftButton10 = {}
@@ -1999,6 +2067,7 @@ MultiBarBottomLeftButton11Border = {}
 MultiBarBottomLeftButton11NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L119)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button11
 MultiBarBottomLeftButton11 = {}
@@ -2161,6 +2230,7 @@ MultiBarBottomLeftButton12Border = {}
 MultiBarBottomLeftButton12NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L124)
+--- Explicitly protected
 --- child of MultiBarBottomLeft (created in template HorizontalMultiBar1)
 --- @type HorizontalMultiBar1_Button12
 MultiBarBottomLeftButton12 = {}
@@ -2178,6 +2248,7 @@ MultiBarBottomLeftButton12["Border"] = MultiBarBottomLeftButton12Border -- inher
 MultiBarBottomLeftButton12["NormalTexture"] = MultiBarBottomLeftButton12NormalTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L335)
+--- Implicitly protected
 --- @class MultiBarBottomLeft : Frame, HorizontalMultiBar1
 MultiBarBottomLeft = {}
 
@@ -2327,6 +2398,7 @@ MultiBarBottomRightButton1Border = {}
 MultiBarBottomRightButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L137)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button1
 MultiBarBottomRightButton1 = {}
@@ -2489,6 +2561,7 @@ MultiBarBottomRightButton2Border = {}
 MultiBarBottomRightButton2NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L142)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button2
 MultiBarBottomRightButton2 = {}
@@ -2651,6 +2724,7 @@ MultiBarBottomRightButton3Border = {}
 MultiBarBottomRightButton3NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L147)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button3
 MultiBarBottomRightButton3 = {}
@@ -2813,6 +2887,7 @@ MultiBarBottomRightButton4Border = {}
 MultiBarBottomRightButton4NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L152)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button4
 MultiBarBottomRightButton4 = {}
@@ -2975,6 +3050,7 @@ MultiBarBottomRightButton5Border = {}
 MultiBarBottomRightButton5NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L157)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button5
 MultiBarBottomRightButton5 = {}
@@ -3137,6 +3213,7 @@ MultiBarBottomRightButton6Border = {}
 MultiBarBottomRightButton6NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L162)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button6
 MultiBarBottomRightButton6 = {}
@@ -3299,6 +3376,7 @@ MultiBarBottomRightButton7Border = {}
 MultiBarBottomRightButton7NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L167)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button7
 MultiBarBottomRightButton7 = {}
@@ -3461,6 +3539,7 @@ MultiBarBottomRightButton8Border = {}
 MultiBarBottomRightButton8NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L172)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button8
 MultiBarBottomRightButton8 = {}
@@ -3623,6 +3702,7 @@ MultiBarBottomRightButton9Border = {}
 MultiBarBottomRightButton9NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L177)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button9
 MultiBarBottomRightButton9 = {}
@@ -3785,6 +3865,7 @@ MultiBarBottomRightButton10Border = {}
 MultiBarBottomRightButton10NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L182)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button10
 MultiBarBottomRightButton10 = {}
@@ -3947,6 +4028,7 @@ MultiBarBottomRightButton11Border = {}
 MultiBarBottomRightButton11NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L187)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button11
 MultiBarBottomRightButton11 = {}
@@ -4109,6 +4191,7 @@ MultiBarBottomRightButton12Border = {}
 MultiBarBottomRightButton12NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L192)
+--- Explicitly protected
 --- child of MultiBarBottomRight (created in template HorizontalMultiBar2)
 --- @type HorizontalMultiBar2_Button12
 MultiBarBottomRightButton12 = {}
@@ -4126,6 +4209,7 @@ MultiBarBottomRightButton12["Border"] = MultiBarBottomRightButton12Border -- inh
 MultiBarBottomRightButton12["NormalTexture"] = MultiBarBottomRightButton12NormalTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L344)
+--- Implicitly protected
 --- @class MultiBarBottomRight : Frame, HorizontalMultiBar2
 MultiBarBottomRight = {}
 
@@ -4279,6 +4363,7 @@ MultiBarRightButton1Border = {}
 MultiBarRightButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L205)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button1
 MultiBarRightButton1 = {}
@@ -4441,6 +4526,7 @@ MultiBarRightButton2Border = {}
 MultiBarRightButton2NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L210)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button2
 MultiBarRightButton2 = {}
@@ -4603,6 +4689,7 @@ MultiBarRightButton3Border = {}
 MultiBarRightButton3NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L215)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button3
 MultiBarRightButton3 = {}
@@ -4765,6 +4852,7 @@ MultiBarRightButton4Border = {}
 MultiBarRightButton4NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L220)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button4
 MultiBarRightButton4 = {}
@@ -4927,6 +5015,7 @@ MultiBarRightButton5Border = {}
 MultiBarRightButton5NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L225)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button5
 MultiBarRightButton5 = {}
@@ -5089,6 +5178,7 @@ MultiBarRightButton6Border = {}
 MultiBarRightButton6NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L230)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button6
 MultiBarRightButton6 = {}
@@ -5251,6 +5341,7 @@ MultiBarRightButton7Border = {}
 MultiBarRightButton7NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L235)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button7
 MultiBarRightButton7 = {}
@@ -5413,6 +5504,7 @@ MultiBarRightButton8Border = {}
 MultiBarRightButton8NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L240)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button8
 MultiBarRightButton8 = {}
@@ -5575,6 +5667,7 @@ MultiBarRightButton9Border = {}
 MultiBarRightButton9NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L245)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button9
 MultiBarRightButton9 = {}
@@ -5737,6 +5830,7 @@ MultiBarRightButton10Border = {}
 MultiBarRightButton10NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L250)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button10
 MultiBarRightButton10 = {}
@@ -5899,6 +5993,7 @@ MultiBarRightButton11Border = {}
 MultiBarRightButton11NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L255)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button11
 MultiBarRightButton11 = {}
@@ -6061,6 +6156,7 @@ MultiBarRightButton12Border = {}
 MultiBarRightButton12NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L260)
+--- Explicitly protected
 --- child of MultiBarRight (created in template VerticalMultiBar3)
 --- @type VerticalMultiBar3_Button12
 MultiBarRightButton12 = {}
@@ -6078,6 +6174,7 @@ MultiBarRightButton12["Border"] = MultiBarRightButton12Border -- inherited
 MultiBarRightButton12["NormalTexture"] = MultiBarRightButton12NormalTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L355)
+--- Implicitly protected
 --- child of VerticalMultiBarsContainer
 --- @class MultiBarRight : Frame, VerticalMultiBar3
 --- @field slideOut MultiBarRight_slideOut
@@ -6233,6 +6330,7 @@ MultiBarLeftButton1Border = {}
 MultiBarLeftButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L273)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button1
 MultiBarLeftButton1 = {}
@@ -6395,6 +6493,7 @@ MultiBarLeftButton2Border = {}
 MultiBarLeftButton2NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L278)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button2
 MultiBarLeftButton2 = {}
@@ -6557,6 +6656,7 @@ MultiBarLeftButton3Border = {}
 MultiBarLeftButton3NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L283)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button3
 MultiBarLeftButton3 = {}
@@ -6719,6 +6819,7 @@ MultiBarLeftButton4Border = {}
 MultiBarLeftButton4NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L288)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button4
 MultiBarLeftButton4 = {}
@@ -6881,6 +6982,7 @@ MultiBarLeftButton5Border = {}
 MultiBarLeftButton5NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L293)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button5
 MultiBarLeftButton5 = {}
@@ -7043,6 +7145,7 @@ MultiBarLeftButton6Border = {}
 MultiBarLeftButton6NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L298)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button6
 MultiBarLeftButton6 = {}
@@ -7205,6 +7308,7 @@ MultiBarLeftButton7Border = {}
 MultiBarLeftButton7NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L303)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button7
 MultiBarLeftButton7 = {}
@@ -7367,6 +7471,7 @@ MultiBarLeftButton8Border = {}
 MultiBarLeftButton8NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L308)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button8
 MultiBarLeftButton8 = {}
@@ -7529,6 +7634,7 @@ MultiBarLeftButton9Border = {}
 MultiBarLeftButton9NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L313)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button9
 MultiBarLeftButton9 = {}
@@ -7691,6 +7797,7 @@ MultiBarLeftButton10Border = {}
 MultiBarLeftButton10NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L318)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button10
 MultiBarLeftButton10 = {}
@@ -7853,6 +7960,7 @@ MultiBarLeftButton11Border = {}
 MultiBarLeftButton11NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L323)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button11
 MultiBarLeftButton11 = {}
@@ -8015,6 +8123,7 @@ MultiBarLeftButton12Border = {}
 MultiBarLeftButton12NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L328)
+--- Explicitly protected
 --- child of MultiBarLeft (created in template VerticalMultiBar4)
 --- @type VerticalMultiBar4_Button12
 MultiBarLeftButton12 = {}
@@ -8032,12 +8141,14 @@ MultiBarLeftButton12["Border"] = MultiBarLeftButton12Border -- inherited
 MultiBarLeftButton12["NormalTexture"] = MultiBarLeftButton12NormalTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L372)
+--- Implicitly protected
 --- child of VerticalMultiBarsContainer
 --- @class MultiBarLeft : Frame, VerticalMultiBar4
 --- @field slideOut MultiBarLeft_slideOut
 MultiBarLeft = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MultiActionBars.xml#L349)
+--- Implicitly protected
 --- @class VerticalMultiBarsContainer : Frame
 VerticalMultiBarsContainer = {}
 

@@ -103,19 +103,20 @@ class XmlFileParser
         }
         $isIntrinsic = (string) ($node->attributes()['intrinsic'] ?? '') === 'true';
         $isTemplate = (string) ($node->attributes()['virtual'] ?? '') === 'true';
+        $isProtected = (string) ($node->attributes()['protected'] ?? '') === 'true';
 
         $type = $node->getName();
         if (isset(self::TYPE_ALIASSES[$type])) {
             $type = self::TYPE_ALIASSES[$type];
         }
         if ($isIntrinsic) {
-            $frame = new Intrinsic($name, $type, $node, $parent);
+            $frame = new Intrinsic($name, $type, $node, $isProtected, $parent);
             $this->intrinsicRegistry->register($frame->getClassName(), $frame);
         } elseif ($isTemplate) {
-            $frame = new Template($name, $type, $node, $parent);
+            $frame = new Template($name, $type, $node, $isProtected, $parent);
             $this->templateRegistry->register($frame->getClassName(), $frame);
         } else {
-            $frame = new Frame($name, $type, $node, $parent);
+            $frame = new Frame($name, $type, $node, $isProtected, $parent);
             $this->frameRegistry->register($frame->getClassName(), $frame);
         }
         if (!empty($name)) {
@@ -159,6 +160,51 @@ class XmlFileParser
         foreach (self::SPECIAL_CHILDREN as $specialChild) {
             if (isset($node->$specialChild)) {
                 $this->parseNode($node->$specialChild, $fileRegistry, $filename, $frame);
+            }
+        }
+    }
+
+    public function prepareProtectionStatus(): void
+    {
+        foreach ($this->templateRegistry->all() as $template) {
+            $this->checkProtectionState($template);
+        }
+        foreach ($this->frameRegistry->all() as $frame) {
+            $this->checkProtectionState($frame);
+        }
+    }
+
+    private function checkProtectionState(Frame $frame): void
+    {
+        if ($frame->isExplicitlyProtected()) {
+            $frame->setProtected(ProtectedEnum::PROTECTED);
+        } else {
+            foreach ($this->iterateInherits($frame) as $template) {
+                if ($template->isExplicitlyProtected()) {
+                    $frame->setProtected(ProtectedEnum::PROTECTED);
+
+                    break;
+                }
+                if ($template->getProtected() === ProtectedEnum::IMPLICIT) {
+                    $frame->setProtected(ProtectedEnum::IMPLICIT);
+                }
+            }
+            if ($frame->getProtected() === ProtectedEnum::UNPROTECTED) {
+                foreach ($frame->getChildren() as $child) {
+                    $this->checkProtectionState($child);
+                    if ($child->getProtected() !== ProtectedEnum::UNPROTECTED) {
+                        $frame->setProtected(ProtectedEnum::IMPLICIT);
+                    }
+                }
+            }
+        }
+        if ($frame->getProtected() !== ProtectedEnum::UNPROTECTED) {
+            $parent = $frame->getParent();
+            while ($parent) {
+                if ($parent->getProtected() === ProtectedEnum::UNPROTECTED) {
+                    $parent->setProtected(ProtectedEnum::IMPLICIT);
+                }
+                $parent = $parent->getParent();
             }
         }
     }
@@ -295,6 +341,13 @@ class XmlFileParser
         if ($linkPrefix) {
             $data .= "--- [Source]($linkPrefix#L" . $frame->getLineNumber() . ")\n";
         }
+        if ($frame->getProtected() !== ProtectedEnum::UNPROTECTED) {
+            $text = match($frame->getProtected()) {
+                ProtectedEnum::PROTECTED => 'Explicitly protected',
+                ProtectedEnum::IMPLICIT => 'Implicitly protected',
+            };
+            $data .= "--- $text\n";
+        }
         if ($frame->getParent()) {
             $data .= '--- child of ' . ($frame->getParent()->getName() ?: $frame->getParent()->getClassName());
             if ($frame->getOriginalParent() && $frame->getOriginalParent() !== $frame->getParent()) {
@@ -380,6 +433,7 @@ class XmlFileParser
         }
         $allParentKeys = [];
         $allParentArrays = [];
+        $protected = [];
         foreach ($frame->getChildren() as $child) {
             $typehint = $this->childHasInterestingData($child) ? $child->getClassName() : null;
             if (empty($typehint) && 1 === count($child->getInherits())) {
@@ -388,24 +442,40 @@ class XmlFileParser
             $typehint = $typehint ?: $child->getType();
             $parentKeys = [];
             if ($child->getParentKey()) {
+                $key = $child->getParentKey();
                 $parentKeys[$child->getParentKey()] = $typehint ?: 'table';
+                if ($child->getProtected() !== ProtectedEnum::UNPROTECTED) {
+                    $protected[$key] = $child->getProtected();
+                }
             }
             foreach ($this->iterateInherits($child) as $inherit) {
-                if ($inherit->getParentKey()) {
+                $key = $inherit->getParentKey();
+                if ($key) {
                     $inheritTypehint = $typehint ?: $inherit->getClassName();
-                    $parentKeys[$inherit->getParentKey()] = $inheritTypehint;
+                    $parentKeys[$key] = $inheritTypehint;
+                    if ($inherit->getProtected() !== ProtectedEnum::UNPROTECTED) {
+                        $protected[$key] = $inherit->getProtected();
+                    }
                 }
             }
             $allParentKeys[] = $parentKeys;
 
             $parentArrays = [];
             if ($child->getParentArray()) {
-                $parentArrays[$child->getParentArray()] = $typehint ?: 'table';
+                $key = $child->getParentArray();
+                $parentArrays[$key] = $typehint ?: 'table';
+                if ($child->getProtected() !== ProtectedEnum::UNPROTECTED) {
+                    $protected[$key] = $child->getProtected();
+                }
             }
             foreach ($this->iterateInherits($child) as $inherit) {
-                if ($inherit->getParentArray()) {
+                $key = $inherit->getParentArray();
+                if ($key) {
                     $inheritTypehint = $typehint ?: $inherit->getClassName();
-                    $parentArrays[$inherit->getParentArray()] ??= $inheritTypehint;
+                    $parentArrays[$key] ??= $inheritTypehint;
+                    if ($inherit->getProtected() !== ProtectedEnum::UNPROTECTED) {
+                        $protected[$key] = $inherit->getProtected();
+                    }
                 }
             }
             $allParentArrays[] = $parentArrays;
@@ -418,7 +488,15 @@ class XmlFileParser
             }
         }
         foreach ($mergedParentKeys as $key => $types) {
-            $data .= '--- @field ' . $key . ' ' . implode(' | ', array_unique($types)) . "\n";
+            $data .= sprintf(
+                "--- @field %s %s%s\n",
+                $key,
+                implode(' | ', array_unique($types)),
+                isset($protected[$key]) ? (' # ' . match($protected[$key]) {
+                    ProtectedEnum::PROTECTED => 'Explicitly protected',
+                    ProtectedEnum::IMPLICIT => 'Implicitly protected',
+                }) : '',
+            );
         }
 
         $mergedParentArrays = [];

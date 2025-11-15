@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App;
 
-use RuntimeException;
 use SimpleXMLElement;
 
 class Frame
@@ -12,11 +11,13 @@ class Frame
     private readonly ?self $originalParent;
     /** @var array<string, KeyValueDTO> */
     private array $keyValues;
+    private ProtectedEnum $protected = ProtectedEnum::UNPROTECTED;
 
     public function __construct(
         private readonly string $name,
         private readonly string $type,
         private readonly SimpleXMLElement $xmlElement,
+        private readonly bool $explicitlyProtected = false,
         private ?self $parent = null,
         private array $children = [],
     ) {
@@ -69,6 +70,21 @@ class Frame
         }
 
         return $this->sanitizeClassName($prefix === '' ? $name : ($prefix . '_' . $name));
+    }
+
+    public function isExplicitlyProtected(): bool
+    {
+        return $this->explicitlyProtected || $this->getProtected() === ProtectedEnum::PROTECTED;
+    }
+
+    public function setProtected(ProtectedEnum $protected): void
+    {
+        $this->protected = $protected;
+    }
+
+    public function getProtected(): ProtectedEnum
+    {
+        return $this->protected;
     }
 
     public function getParent(): ?self

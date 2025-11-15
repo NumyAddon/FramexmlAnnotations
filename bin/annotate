@@ -104,6 +104,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
         $io->newLine();
         $io->writeln('Writing annotations...');
         $progressBar = $io->createProgressBar(count($fileList));
+        $xmlFileParser->prepareProtectionStatus();
         foreach($fileList as $filePath) {
             if (str_ends_with($filePath, 'xml')) {
                 $xmlFileParser->writeAnnotationsToFile($filePath, $outputDir, $inputDir, $linkPrefix, $mixAnnotationsIntoSource);

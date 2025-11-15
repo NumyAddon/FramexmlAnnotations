@@ -1,36 +1,43 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L3)
+--- Explicitly protected
 --- Template
 --- @class MultiBar1ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR1BUTTON
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L9)
+--- Explicitly protected
 --- Template
 --- @class MultiBar2ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR2BUTTON
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L15)
+--- Explicitly protected
 --- Template
 --- @class MultiBar3ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR3BUTTON
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L21)
+--- Explicitly protected
 --- Template
 --- @class MultiBar4ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR4BUTTON
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L27)
+--- Explicitly protected
 --- Template
 --- @class MultiBar5ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR5BUTTON
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L33)
+--- Explicitly protected
 --- Template
 --- @class MultiBar6ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR6BUTTON
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L39)
+--- Explicitly protected
 --- Template
 --- @class MultiBar7ButtonTemplate : CheckButton, ActionBarButtonTemplate
 --- @field buttonType string # MULTIACTIONBAR7BUTTON

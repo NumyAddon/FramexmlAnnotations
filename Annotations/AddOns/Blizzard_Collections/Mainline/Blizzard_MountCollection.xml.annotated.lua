@@ -64,6 +64,7 @@
 --- @field PushedTexture Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L219)
+--- Implicitly protected
 --- child of MountJournal
 --- @class MountJournal_SummonRandomFavoriteSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, MountJournalSummonRandomFavoriteSpellFrameMixin
 --- @field spellID number # 150544
@@ -313,8 +314,9 @@ MountJournalMountButton["fitTextCanWidthDecrease"] = true -- inherited
 MountJournalMountButton["fitTextWidthPadding"] = 40 -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_MountCollection.xml#L217)
+--- Implicitly protected
 --- @class MountJournal : Frame
---- @field SummonRandomFavoriteSpellFrame MountJournal_SummonRandomFavoriteSpellFrame
+--- @field SummonRandomFavoriteSpellFrame MountJournal_SummonRandomFavoriteSpellFrame # Implicitly protected
 --- @field ToggleDynamicFlightFlyoutButton MountJournal_ToggleDynamicFlightFlyoutButton
 --- @field DynamicFlightFlyoutPopup MountJournal_DynamicFlightFlyoutPopup
 --- @field LeftInset MountJournal_LeftInset

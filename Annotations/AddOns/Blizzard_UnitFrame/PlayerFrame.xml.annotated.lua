@@ -25,6 +25,7 @@
 --- @field HitText PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HitIndicator_HitText
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L115)
+--- Explicitly protected
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_TempMaxHealthLossDivider : Frame, SecureFrameParentPropagationTemplate, TempMaxHealthLossDividerMixin
 --- @field TempHPLossDivider Texture
@@ -64,6 +65,7 @@
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_OverHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L157)
+--- Explicitly protected
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate
 --- @field MyHealPredictionBar PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar_MyHealPredictionBar
@@ -87,12 +89,13 @@
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_RightText : FontString, TextStatusBarText
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L108)
+--- Explicitly protected
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer : Frame, SecureFrameParentPropagationTemplate
---- @field TempMaxHealthLossDivider PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_TempMaxHealthLossDivider
+--- @field TempMaxHealthLossDivider PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_TempMaxHealthLossDivider # Explicitly protected
 --- @field PlayerFrameTempMaxHealthLoss PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_PlayerFrameTempMaxHealthLoss
 --- @field PlayerFrameHealthBarAnimatedLoss PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_PlayerFrameHealthBarAnimatedLoss
---- @field HealthBar PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar
+--- @field HealthBar PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBar # Explicitly protected
 --- @field HealthBarText PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_HealthBarText
 --- @field LeftText PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_LeftText
 --- @field RightText PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer_RightText
@@ -128,6 +131,7 @@
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_Spark : Texture, TextStatusBarSparkTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L239)
+--- Explicitly protected
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate
 --- @field ManaCostPredictionBar PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar_ManaCostPredictionBar
@@ -140,11 +144,13 @@
 --- @field ManaBarMask MaskTexture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L237)
+--- Explicitly protected
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea : Frame, SecureFrameParentPropagationTemplate
---- @field ManaBar PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar
+--- @field ManaBar PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea_ManaBar # Explicitly protected
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L305)
+--- Explicitly protected
 --- child of PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
 --- @class PlayerFrameAlternatePowerBarArea : Frame, SecureFrameParentPropagationTemplate
 PlayerFrameAlternatePowerBarArea = {}
@@ -160,12 +166,13 @@ PlayerName = {}
 PlayerLevelText = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L71)
+--- Explicitly protected
 --- child of PlayerFrame_PlayerFrameContent
 --- @class PlayerFrame_PlayerFrameContent_PlayerFrameContentMain : Frame, SecureFrameParentPropagationTemplate
 --- @field HitIndicator PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HitIndicator
---- @field HealthBarsContainer PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer
---- @field ManaBarArea PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea
---- @field AlternatePowerBarArea PlayerFrameAlternatePowerBarArea
+--- @field HealthBarsContainer PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_HealthBarsContainer # Explicitly protected
+--- @field ManaBarArea PlayerFrame_PlayerFrameContent_PlayerFrameContentMain_ManaBarArea # Explicitly protected
+--- @field AlternatePowerBarArea PlayerFrameAlternatePowerBarArea # Explicitly protected
 --- @field StatusTexture Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L371)
@@ -221,17 +228,19 @@ PlayerPVPTimerText = {}
 --- @field PvpTimerText PlayerPVPTimerText
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L69)
+--- Explicitly protected
 --- child of PlayerFrame
 --- @class PlayerFrame_PlayerFrameContent : Frame, SecureFrameParentPropagationTemplate
---- @field PlayerFrameContentMain PlayerFrame_PlayerFrameContent_PlayerFrameContentMain
+--- @field PlayerFrameContentMain PlayerFrame_PlayerFrameContent_PlayerFrameContentMain # Explicitly protected
 --- @field PlayerFrameContentContextual PlayerFrame_PlayerFrameContent_PlayerFrameContentContextual
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/PlayerFrame.xml#L14)
+--- Explicitly protected
 --- @class PlayerFrame : Button, SecureUnitButtonTemplate, EditModePlayerFrameSystemTemplate, PingableType_UnitFrameMixin
 --- @field disablePortraitMask boolean # true
 --- @field frameType string # Player
 --- @field PlayerFrameContainer PlayerFrame_PlayerFrameContainer
---- @field PlayerFrameContent PlayerFrame_PlayerFrameContent
+--- @field PlayerFrameContent PlayerFrame_PlayerFrameContent # Explicitly protected
 PlayerFrame = {}
 PlayerFrame["disablePortraitMask"] = true
 PlayerFrame["frameType"] = "Player"

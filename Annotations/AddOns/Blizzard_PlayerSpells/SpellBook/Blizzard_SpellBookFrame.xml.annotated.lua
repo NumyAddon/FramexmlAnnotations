@@ -17,6 +17,7 @@
 --- @class SpellBookFrameTemplate_SettingsDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L79)
+--- Implicitly protected
 --- child of SpellBookFrameTemplate
 --- @class SpellBookFrameTemplate_AssistedCombatRotationSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, AssistedCombatRotationSpellFrameMixin
 --- @field labelText any # ASSISTED_COMBAT_ROTATION_SPELLBOOK_LABEL
@@ -78,13 +79,14 @@
 --- @field Anim SpellBookFrameTemplate_BookCornerFlipbook_Anim
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookFrame.xml#L7)
+--- Implicitly protected
 --- Template
 --- @class SpellBookFrameTemplate : Frame, TabSystemOwnerTemplate, SpellBookFrameMixin
 --- @field topBarFullWidth number # 1614
 --- @field HelpPlateButton SpellBookFrameTemplate_HelpPlateButton
 --- @field CategoryTabSystem SpellBookFrameTemplate_CategoryTabSystem
 --- @field SettingsDropdown SpellBookFrameTemplate_SettingsDropdown
---- @field AssistedCombatRotationSpellFrame SpellBookFrameTemplate_AssistedCombatRotationSpellFrame
+--- @field AssistedCombatRotationSpellFrame SpellBookFrameTemplate_AssistedCombatRotationSpellFrame # Implicitly protected
 --- @field SearchBox SpellBookFrameTemplate_SearchBox
 --- @field SearchPreviewContainer SpellBookFrameTemplate_SearchPreviewContainer
 --- @field PagedSpellsFrame SpellBookFrameTemplate_PagedSpellsFrame

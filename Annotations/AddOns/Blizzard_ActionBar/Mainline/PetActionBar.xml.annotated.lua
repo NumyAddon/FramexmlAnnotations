@@ -5,6 +5,7 @@
 --- @class PetActionButtonTemplate_SpellHighlightAnim : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Mainline/PetActionBar.xml#L3)
+--- Explicitly protected
 --- Template
 --- @class PetActionButtonTemplate : CheckButton, QuickKeybindButtonTemplate, SecureFrameTemplate, SmallActionButtonTemplate, PetActionButtonMixin
 --- @field SpellHighlightTexture Texture

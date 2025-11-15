@@ -132,6 +132,7 @@
 --- @class CompactUnitFrameTemplate_StatusText : FontString, GameFontDisable
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactUnitFrame.xml#L70)
+--- Explicitly protected
 --- Template
 --- @class CompactUnitFrameTemplate : Button, SecureUnitButtonTemplate, PingableUnitFrameTemplate
 --- @field healthBar CompactUnitFrameTemplate_HealthBar

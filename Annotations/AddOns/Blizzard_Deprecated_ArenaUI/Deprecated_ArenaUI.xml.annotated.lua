@@ -27,6 +27,7 @@
 --- @class ArenaEnemyPetFrameTemplate_ManaBar : StatusBar, TextStatusBar
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L67)
+--- Explicitly protected
 --- Template
 --- @class ArenaEnemyPetFrameTemplate : Button, SecureUnitButtonTemplate, ArenaEnemyPetFrameMixin
 --- @field topPadding number # -15
@@ -45,12 +46,14 @@
 --- @class ArenaEnemyPrepFrameTemplate_CastingBar : StatusBar, ArenaCastingBarFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L152)
+--- Explicitly protected
 --- Template
 --- @class ArenaEnemyPrepFrameTemplate : Button, SecureUnitButtonTemplate, ArenaEnemyPrepFrameMixin
 --- @field CastingBar ArenaEnemyPrepFrameTemplate_CastingBar
 --- @field classPortrait Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L335)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFrameTemplate
 --- @class ArenaEnemyMatchFrameTemplate_PetFrame : Button, ArenaEnemyPetFrameTemplate
 
@@ -65,9 +68,10 @@
 --- @field Icon Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L313)
+--- Explicitly protected
 --- Template
 --- @class ArenaEnemyMatchFrameTemplate : Button, ArenaEnemyPrepFrameTemplate, PingableUnitFrameTemplate, ArenaEnemyMatchFrameMixin
---- @field petFrame ArenaEnemyMatchFrameTemplate_PetFrame
+--- @field petFrame ArenaEnemyMatchFrameTemplate_PetFrame # Explicitly protected
 --- @field CC ArenaEnemyMatchFrameTemplate_CC
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L258)
@@ -96,6 +100,7 @@ ArenaEnemyPrepFrame1ClassPortrait = {}
 ArenaEnemyPrepFrame1Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L374)
+--- Explicitly protected
 --- child of ArenaEnemyPrepFramesContainer
 --- @class ArenaEnemyPrepFrame1 : Button, ArenaEnemyPrepFrameTemplate
 --- @field layoutIndex number # 1
@@ -130,6 +135,7 @@ ArenaEnemyPrepFrame2ClassPortrait = {}
 ArenaEnemyPrepFrame2Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L379)
+--- Explicitly protected
 --- child of ArenaEnemyPrepFramesContainer
 --- @class ArenaEnemyPrepFrame2 : Button, ArenaEnemyPrepFrameTemplate
 --- @field layoutIndex number # 3
@@ -164,6 +170,7 @@ ArenaEnemyPrepFrame3ClassPortrait = {}
 ArenaEnemyPrepFrame3Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L384)
+--- Explicitly protected
 --- child of ArenaEnemyPrepFramesContainer
 --- @class ArenaEnemyPrepFrame3 : Button, ArenaEnemyPrepFrameTemplate
 --- @field layoutIndex number # 5
@@ -198,6 +205,7 @@ ArenaEnemyPrepFrame4ClassPortrait = {}
 ArenaEnemyPrepFrame4Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L389)
+--- Explicitly protected
 --- child of ArenaEnemyPrepFramesContainer
 --- @class ArenaEnemyPrepFrame4 : Button, ArenaEnemyPrepFrameTemplate
 --- @field layoutIndex number # 7
@@ -232,6 +240,7 @@ ArenaEnemyPrepFrame5ClassPortrait = {}
 ArenaEnemyPrepFrame5Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L394)
+--- Explicitly protected
 --- child of ArenaEnemyPrepFramesContainer
 --- @class ArenaEnemyPrepFrame5 : Button, ArenaEnemyPrepFrameTemplate
 --- @field layoutIndex number # 9
@@ -241,6 +250,7 @@ ArenaEnemyPrepFrame5["CastingBar"] = ArenaEnemyPrepFrame5CastingBar -- inherited
 ArenaEnemyPrepFrame5["classPortrait"] = ArenaEnemyPrepFrame5ClassPortrait -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L366)
+--- Implicitly protected
 --- child of ArenaEnemyFramesContainer
 --- @class ArenaEnemyPrepFramesContainer : Frame, VerticalLayoutFrame, ArenaEnemyPrepFramesContainerMixin
 --- @field spacing number # 10
@@ -269,6 +279,7 @@ ArenaEnemyMatchFrame1PetFrameFlash = {}
 ArenaEnemyMatchFrame1PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L335)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFrame1 (created in template ArenaEnemyMatchFrameTemplate)
 --- @type ArenaEnemyMatchFrameTemplate_PetFrame
 ArenaEnemyMatchFrame1PetFrame = {}
@@ -301,6 +312,7 @@ ArenaEnemyMatchFrame1ClassPortrait = {}
 ArenaEnemyMatchFrame1Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L416)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFramesContainer
 --- @class ArenaEnemyMatchFrame1 : Button, ArenaEnemyMatchFrameTemplate
 --- @field layoutIndex number # 1
@@ -331,6 +343,7 @@ ArenaEnemyMatchFrame2PetFrameFlash = {}
 ArenaEnemyMatchFrame2PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L335)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFrame2 (created in template ArenaEnemyMatchFrameTemplate)
 --- @type ArenaEnemyMatchFrameTemplate_PetFrame
 ArenaEnemyMatchFrame2PetFrame = {}
@@ -363,6 +376,7 @@ ArenaEnemyMatchFrame2ClassPortrait = {}
 ArenaEnemyMatchFrame2Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L421)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFramesContainer
 --- @class ArenaEnemyMatchFrame2 : Button, ArenaEnemyMatchFrameTemplate
 --- @field layoutIndex number # 3
@@ -393,6 +407,7 @@ ArenaEnemyMatchFrame3PetFrameFlash = {}
 ArenaEnemyMatchFrame3PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L335)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFrame3 (created in template ArenaEnemyMatchFrameTemplate)
 --- @type ArenaEnemyMatchFrameTemplate_PetFrame
 ArenaEnemyMatchFrame3PetFrame = {}
@@ -425,6 +440,7 @@ ArenaEnemyMatchFrame3ClassPortrait = {}
 ArenaEnemyMatchFrame3Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L426)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFramesContainer
 --- @class ArenaEnemyMatchFrame3 : Button, ArenaEnemyMatchFrameTemplate
 --- @field layoutIndex number # 5
@@ -455,6 +471,7 @@ ArenaEnemyMatchFrame4PetFrameFlash = {}
 ArenaEnemyMatchFrame4PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L335)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFrame4 (created in template ArenaEnemyMatchFrameTemplate)
 --- @type ArenaEnemyMatchFrameTemplate_PetFrame
 ArenaEnemyMatchFrame4PetFrame = {}
@@ -487,6 +504,7 @@ ArenaEnemyMatchFrame4ClassPortrait = {}
 ArenaEnemyMatchFrame4Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L431)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFramesContainer
 --- @class ArenaEnemyMatchFrame4 : Button, ArenaEnemyMatchFrameTemplate
 --- @field layoutIndex number # 7
@@ -517,6 +535,7 @@ ArenaEnemyMatchFrame5PetFrameFlash = {}
 ArenaEnemyMatchFrame5PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L335)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFrame5 (created in template ArenaEnemyMatchFrameTemplate)
 --- @type ArenaEnemyMatchFrameTemplate_PetFrame
 ArenaEnemyMatchFrame5PetFrame = {}
@@ -549,6 +568,7 @@ ArenaEnemyMatchFrame5ClassPortrait = {}
 ArenaEnemyMatchFrame5Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L436)
+--- Explicitly protected
 --- child of ArenaEnemyMatchFramesContainer
 --- @class ArenaEnemyMatchFrame5 : Button, ArenaEnemyMatchFrameTemplate
 --- @field layoutIndex number # 9
@@ -559,6 +579,7 @@ ArenaEnemyMatchFrame5["CastingBar"] = ArenaEnemyMatchFrame5CastingBar -- inherit
 ArenaEnemyMatchFrame5["classPortrait"] = ArenaEnemyMatchFrame5ClassPortrait -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L408)
+--- Implicitly protected
 --- child of ArenaEnemyFramesContainer
 --- @class ArenaEnemyMatchFramesContainer : Frame, VerticalLayoutFrame, ArenaEnemyMatchFramesContainerMixin
 --- @field spacing number # 10
@@ -567,6 +588,7 @@ ArenaEnemyMatchFramesContainer = {}
 ArenaEnemyMatchFramesContainer["spacing"] = 10
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L360)
+--- Implicitly protected
 --- @class ArenaEnemyFramesContainer : Frame, ResizeLayoutFrame, UIParentRightManagedFrameTemplate, ArenaEnemyFramesContainerMixin
 --- @field layoutIndex number # 12
 --- @field fixedWidth number # 245

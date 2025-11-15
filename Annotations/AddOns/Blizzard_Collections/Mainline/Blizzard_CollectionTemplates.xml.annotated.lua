@@ -32,6 +32,7 @@
 --- @class CollectionsSpellButtonTemplate_IconFadeIn : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_CollectionTemplates.xml#L39)
+--- Explicitly protected
 --- Template
 --- @class CollectionsSpellButtonTemplate : CheckButton, SecureFrameTemplate
 --- @field cooldown CollectionsSpellButtonTemplate_cooldown

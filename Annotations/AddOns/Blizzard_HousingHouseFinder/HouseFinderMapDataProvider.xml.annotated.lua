@@ -46,6 +46,4 @@ HouseFinderHighlightedPlotTooltip["layoutType"] = "TooltipDefaultLayout" -- inhe
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingHouseFinder/HouseFinderMapDataProvider.xml#L83)
 --- Template
 --- @class HouseFinderFriendsPlotPinTemplate : Button, HouseFinderFriendsPlotPinMixin
---- @field HighlightTexture Texture
---- @field SelectedUnderlay Texture
 

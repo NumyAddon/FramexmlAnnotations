@@ -44,5 +44,11 @@ function HousingCharterMixin:SetCharterInfo(neighborhoodInfo, signatures, numSig
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.lua#L118)
 function HousingCharterRequestSignatureFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.lua#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.lua#L130)
+function HousingCharterRequestSignatureFrameMixin:OnShow() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.lua#L134)
+function HousingCharterRequestSignatureFrameMixin:OnHide() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.lua#L138)
 function HousingCharterRequestSignatureFrameMixin:SetNeighborhoodInfo(neighborhoodInfo) end

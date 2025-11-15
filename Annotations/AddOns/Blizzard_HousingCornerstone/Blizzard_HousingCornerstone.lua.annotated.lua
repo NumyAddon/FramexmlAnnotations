@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L285)
 --- @class HousingCornerstoneVisitorFrameMixin : HousingCornerstoneVisitorFrameSharedMixin
 HousingCornerstoneVisitorFrameMixin = CreateFromMixins(HousingCornerstoneVisitorFrameSharedMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L317)
 --- @class HousingCornerstoneHouseInfoFrameMixin : HousingCornerstoneVisitorFrameSharedMixin
 HousingCornerstoneHouseInfoFrameMixin = CreateFromMixins(HousingCornerstoneVisitorFrameSharedMixin)
 
@@ -16,15 +16,15 @@ HousingCornerstoneFrameMixin = {}
 --- @class HousingCornerstonePurchaseFrameMixin
 HousingCornerstonePurchaseFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L269)
 --- @class HousingCornerstoneVisitorFrameSharedMixin
 HousingCornerstoneVisitorFrameSharedMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L393)
 --- @class MoveHouseConfirmationDialogMixin
 MoveHouseConfirmationDialogMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L439)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L445)
 --- @class ImportHouseConfirmationDialogMixin
 ImportHouseConfirmationDialogMixin = {}
 
@@ -55,65 +55,68 @@ function HousingCornerstonePurchaseFrameMixin:OnLoad() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L76)
 function HousingCornerstonePurchaseFrameMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L91)
+function HousingCornerstonePurchaseFrameMixin:OnCinematicStopped() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L97)
 function HousingCornerstonePurchaseFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L145)
 function HousingCornerstonePurchaseFrameMixin:CheckMoveCooldown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L163)
 function HousingCornerstonePurchaseFrameMixin:GetTypeString() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L182)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L188)
 function HousingCornerstonePurchaseFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L190)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L196)
 function HousingCornerstonePurchaseFrameMixin:CheckPurchaseEligibility() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L231)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L237)
 function HousingCornerstonePurchaseFrameMixin:OnPurchaseClicked() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L250)
 function HousingCornerstonePurchaseFrameMixin:OnConfirmPurchase() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L262)
 function HousingCornerstonePurchaseFrameMixin:OnNeighborhoodInfoUpdated(neighborhoodInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L271)
 function HousingCornerstoneVisitorFrameSharedMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L277)
 function HousingCornerstoneVisitorFrameSharedMixin:OnReportClicked() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L292)
 function HousingCornerstoneVisitorFrameMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L298)
 function HousingCornerstoneVisitorFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L311)
 function HousingCornerstoneVisitorFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L318)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L325)
 function HousingCornerstoneHouseInfoFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L324)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L331)
 function HousingCornerstoneHouseInfoFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L329)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L336)
 function HousingCornerstoneHouseInfoFrameMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L359)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L366)
 function HousingCornerstoneHouseInfoFrameMixin:UpdateHouseInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L388)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L395)
 function MoveHouseConfirmationDialogMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L410)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L416)
 function MoveHouseConfirmationDialogMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L441)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L447)
 function ImportHouseConfirmationDialogMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L455)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.lua#L462)
 function ImportHouseConfirmationDialogMixin:OnShow() end

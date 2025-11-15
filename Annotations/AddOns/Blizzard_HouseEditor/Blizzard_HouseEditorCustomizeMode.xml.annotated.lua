@@ -7,7 +7,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L8)
 --- child of HouseEditorCustomizeModeTemplate_Instructions
 --- @class HouseEditorCustomizeModeTemplate_Instructions_SelectInstruction : Frame, HouseEditorInstructionTemplate
---- @field iconAtlas string # plunderstorm-pickup-mouseclick-left
+--- @field iconAtlas string # housing-hotkey-icon-leftclick
 --- @field instructionText any # HOUSING_DECOR_SELECT_INSTRUCTION
 --- @field layoutIndex number # 1
 

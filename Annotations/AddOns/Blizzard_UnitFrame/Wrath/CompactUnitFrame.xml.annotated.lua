@@ -98,6 +98,7 @@
 --- @class CompactUnitFrameTemplate_OverHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/CompactUnitFrame.xml#L141)
+--- Explicitly protected
 --- Template
 --- @class CompactUnitFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field healthBar CompactUnitFrameTemplate_HealthBar

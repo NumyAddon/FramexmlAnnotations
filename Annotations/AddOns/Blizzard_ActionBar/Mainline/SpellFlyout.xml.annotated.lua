@@ -9,6 +9,7 @@
 --- @class SpellFlyoutPopupButtonTemplate_AbilityHighlightAnim : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/SpellFlyout.xml#L3)
+--- Explicitly protected
 --- Template
 --- @class SpellFlyoutPopupButtonTemplate : CheckButton, SmallActionButtonTemplate, FlyoutPopupButtonTemplate, SecureFrameTemplate, SpellFlyoutPopupButtonMixin
 --- @field GlyphIcon Texture
@@ -19,6 +20,7 @@
 --- @field AbilityHighlightAnim SpellFlyoutPopupButtonTemplate_AbilityHighlightAnim
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/SpellFlyout.xml#L62)
+--- Explicitly protected
 --- @class SpellFlyout : Frame, SecureFrameTemplate, ResizeLayoutFrame, FlyoutPopupTemplate, SpellFlyoutMixin
 SpellFlyout = {}
 

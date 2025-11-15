@@ -84,6 +84,7 @@
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_HealthBar_OverHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L230)
+--- Explicitly protected
 --- child of TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_HealthBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate, TargetFrameHealthBarMixin
 --- @field MyHealPredictionBar TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_HealthBar_MyHealPredictionBar
@@ -114,10 +115,11 @@
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_UnconsciousText : FontString, GameFontNormalSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L217)
+--- Explicitly protected
 --- child of TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer : Frame, SecureFrameParentPropagationTemplate
 --- @field TempMaxHealthLoss TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_TempMaxHealthLoss
---- @field HealthBar TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_HealthBar
+--- @field HealthBar TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_HealthBar # Explicitly protected
 --- @field HealthBarText TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_HealthBarText
 --- @field LeftText TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_LeftText
 --- @field RightText TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer_RightText
@@ -142,6 +144,7 @@
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_ManaBar_Spark : Texture, TextStatusBarSparkTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L303)
+--- Explicitly protected
 --- child of TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_ManaBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate, TargetFrameStatusBarMixin
 --- @field ManaBarText TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_ManaBar_ManaBarText
@@ -159,10 +162,11 @@
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_LevelText : FontString, GameNormalNumberFont
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L193)
+--- Explicitly protected
 --- child of TargetFrameTemplate_TargetFrameContent
 --- @class TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain : Frame, SecureFrameParentPropagationTemplate
---- @field HealthBarsContainer TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer
---- @field ManaBar TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_ManaBar
+--- @field HealthBarsContainer TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_HealthBarsContainer # Explicitly protected
+--- @field ManaBar TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_ManaBar # Explicitly protected
 --- @field ReputationColor Texture
 --- @field Name TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_Name
 --- @field LevelText TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain_LevelText
@@ -195,22 +199,25 @@
 --- @field PrestigeBadge Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L191)
+--- Explicitly protected
 --- child of TargetFrameTemplate
 --- @class TargetFrameTemplate_TargetFrameContent : Frame, SecureFrameParentPropagationTemplate
---- @field TargetFrameContentMain TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain
+--- @field TargetFrameContentMain TargetFrameTemplate_TargetFrameContent_TargetFrameContentMain # Explicitly protected
 --- @field TargetFrameContentContextual TargetFrameTemplate_TargetFrameContent_TargetFrameContentContextual
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L143)
+--- Explicitly protected
 --- Template
 --- @class TargetFrameTemplate : Button, SecureUnitButtonTemplate, TargetFrameMixin, PingableType_UnitFrameMixin
 --- @field TargetFrameContainer TargetFrameTemplate_TargetFrameContainer
---- @field TargetFrameContent TargetFrameTemplate_TargetFrameContent
+--- @field TargetFrameContent TargetFrameTemplate_TargetFrameContent # Explicitly protected
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L463)
 --- child of BossTargetFrameTemplate
 --- @class BossTargetFrameTemplate_PowerBarAlt : Frame, UnitPowerBarAltTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L457)
+--- Explicitly protected
 --- Template
 --- @class BossTargetFrameTemplate : Button, TargetFrameTemplate, PingableUnitFrameTemplate, BossTargetFrameMixin
 --- @field align string # right
@@ -226,6 +233,7 @@
 --- @class TargetofTargetFrameTemplate_HealthBar_UnconsciousText : FontString, GameFontNormalSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L524)
+--- Explicitly protected
 --- child of TargetofTargetFrameTemplate
 --- @class TargetofTargetFrameTemplate_HealthBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate
 --- @field DeadText TargetofTargetFrameTemplate_HealthBar_DeadText
@@ -237,6 +245,7 @@
 --- @class TargetofTargetFrameTemplate_ManaBar_Spark : Texture, TextStatusBarSparkTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L562)
+--- Explicitly protected
 --- child of TargetofTargetFrameTemplate
 --- @class TargetofTargetFrameTemplate_ManaBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate
 --- @field Spark TargetofTargetFrameTemplate_ManaBar_Spark
@@ -263,11 +272,12 @@
 --- @class TargetofTargetFrameTemplate_Name : FontString, GameFontNormalSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L480)
+--- Explicitly protected
 --- Template
 --- @class TargetofTargetFrameTemplate : Button, SecureUnitButtonTemplate, PingableUnitFrameTemplate, TargetOfTargetMixin
 --- @field frameType string # TargetofTarget
---- @field HealthBar TargetofTargetFrameTemplate_HealthBar
---- @field ManaBar TargetofTargetFrameTemplate_ManaBar
+--- @field HealthBar TargetofTargetFrameTemplate_HealthBar # Explicitly protected
+--- @field ManaBar TargetofTargetFrameTemplate_ManaBar # Explicitly protected
 --- @field Portrait Texture
 --- @field PortraitMask MaskTexture
 --- @field FrameTexture Texture
@@ -358,6 +368,7 @@ TargetFramePowerBarAlt["fill"] = TargetFramePowerBarAltFill -- inherited
 TargetFramePowerBarAlt["flash"] = TargetFramePowerBarAltFlash -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L631)
+--- Explicitly protected
 --- @class TargetFrame : Button, TargetFrameTemplate, EditModeUnitFrameSystemTemplate, TargetFrameMixin
 --- @field systemIndex any # Enum.EditModeUnitFrameSystemIndices.Target
 --- @field systemNameString any # HUD_EDIT_MODE_TARGET_FRAME_LABEL
@@ -449,6 +460,7 @@ FocusFramePowerBarAlt["fill"] = FocusFramePowerBarAltFill -- inherited
 FocusFramePowerBarAlt["flash"] = FocusFramePowerBarAltFlash -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L672)
+--- Explicitly protected
 --- @class FocusFrame : Button, TargetFrameTemplate, EditModeUnitFrameSystemTemplate, FocusFrameMixin
 --- @field systemIndex any # Enum.EditModeUnitFrameSystemIndices.Focus
 --- @field systemNameString any # HUD_EDIT_MODE_FOCUS_FRAME_LABEL
@@ -563,6 +575,7 @@ Boss1TargetFramePowerBarAlt["fill"] = Boss1TargetFramePowerBarAltFill -- inherit
 Boss1TargetFramePowerBarAlt["flash"] = Boss1TargetFramePowerBarAltFlash -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L723)
+--- Explicitly protected
 --- @class Boss1TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 4
 --- @field align string # right
@@ -651,6 +664,7 @@ Boss2TargetFramePowerBarAlt["fill"] = Boss2TargetFramePowerBarAltFill -- inherit
 Boss2TargetFramePowerBarAlt["flash"] = Boss2TargetFramePowerBarAltFlash -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L730)
+--- Explicitly protected
 --- @class Boss2TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 5
 --- @field align string # right
@@ -737,6 +751,7 @@ Boss3TargetFramePowerBarAlt["fill"] = Boss3TargetFramePowerBarAltFill -- inherit
 Boss3TargetFramePowerBarAlt["flash"] = Boss3TargetFramePowerBarAltFlash -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L736)
+--- Explicitly protected
 --- @class Boss3TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 6
 --- @field align string # right
@@ -823,6 +838,7 @@ Boss4TargetFramePowerBarAlt["fill"] = Boss4TargetFramePowerBarAltFill -- inherit
 Boss4TargetFramePowerBarAlt["flash"] = Boss4TargetFramePowerBarAltFlash -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L742)
+--- Explicitly protected
 --- @class Boss4TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 7
 --- @field align string # right
@@ -909,6 +925,7 @@ Boss5TargetFramePowerBarAlt["fill"] = Boss5TargetFramePowerBarAltFill -- inherit
 Boss5TargetFramePowerBarAlt["flash"] = Boss5TargetFramePowerBarAltFlash -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L748)
+--- Explicitly protected
 --- @class Boss5TargetFrame : Button, BossTargetFrameTemplate
 --- @field layoutIndex number # 8
 --- @field align string # right

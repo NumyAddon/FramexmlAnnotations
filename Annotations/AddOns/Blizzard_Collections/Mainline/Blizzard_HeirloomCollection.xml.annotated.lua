@@ -18,6 +18,7 @@
 --- @class HeirloomSpellButtonTemplate_upgradeGlowAnim : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Mainline/Blizzard_HeirloomCollection.xml#L29)
+--- Explicitly protected
 --- Template
 --- @class HeirloomSpellButtonTemplate : CheckButton, CollectionsSpellButtonTemplate
 --- @field special HeirloomSpellButtonTemplate_special

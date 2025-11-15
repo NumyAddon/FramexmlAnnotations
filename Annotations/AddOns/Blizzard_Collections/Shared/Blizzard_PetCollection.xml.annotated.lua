@@ -242,11 +242,13 @@ PetJournalTutorialButton = {}
 PetJournalTutorialButton["mainHelpPlateButtonTooltipText"] = MAIN_HELP_BUTTON_TOOLTIP -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L833)
+--- Implicitly protected
 --- child of PetJournal
 --- @class PetJournal_HealPetSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, PetJournalHealPetSpellFrameMixin
 --- @field spellID number # 125439
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L842)
+--- Implicitly protected
 --- child of PetJournal
 --- @class PetJournal_SummonRandomPetSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, PetJournalSummonRandomPetSpellFrameMixin
 --- @field spellID number # 243819
@@ -1552,11 +1554,12 @@ PetJournalSpellSelect["Spell1"] = PetJournalSpellSelectSpell1
 PetJournalSpellSelect["Spell2"] = PetJournalSpellSelectSpell2
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_PetCollection.xml#L794)
+--- Implicitly protected
 --- @class PetJournal : Frame
 --- @field PetCount PetJournal_PetCount
 --- @field MainHelpButton PetJournalTutorialButton
---- @field HealPetSpellFrame PetJournal_HealPetSpellFrame
---- @field SummonRandomPetSpellFrame PetJournal_SummonRandomPetSpellFrame
+--- @field HealPetSpellFrame PetJournal_HealPetSpellFrame # Implicitly protected
+--- @field SummonRandomPetSpellFrame PetJournal_SummonRandomPetSpellFrame # Implicitly protected
 --- @field LeftInset PetJournalLeftInset
 --- @field PetCardInset PetJournalPetCardInset
 --- @field RightInset PetJournalRightInset

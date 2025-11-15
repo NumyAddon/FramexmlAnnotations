@@ -35,6 +35,7 @@
 --- @class PartyMemberPetFrameTemplate_Name : FontString, GameFontNormalSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L48)
+--- Explicitly protected
 --- Template
 --- @class PartyMemberPetFrameTemplate : Button, SecureUnitButtonTemplate, PartyMemberPetFrameMixin
 --- @field HealthBar PartyMemberPetFrameTemplate_HealthBar
@@ -78,6 +79,7 @@
 --- @class PartyMemberFrameTemplate_HealthBarContainer_HealthBar_OverHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L192)
+--- Explicitly protected
 --- child of PartyMemberFrameTemplate_HealthBarContainer
 --- @class PartyMemberFrameTemplate_HealthBarContainer_HealthBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate
 --- @field MyHealPredictionBar PartyMemberFrameTemplate_HealthBarContainer_HealthBar_MyHealPredictionBar
@@ -101,10 +103,11 @@
 --- @class PartyMemberFrameTemplate_HealthBarContainer_RightText : FontString, TextStatusBarText
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L179)
+--- Explicitly protected
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_HealthBarContainer : Frame, SecureFrameParentPropagationTemplate
 --- @field TempMaxHealthLoss PartyMemberFrameTemplate_HealthBarContainer_TempMaxHealthLoss
---- @field HealthBar PartyMemberFrameTemplate_HealthBarContainer_HealthBar
+--- @field HealthBar PartyMemberFrameTemplate_HealthBarContainer_HealthBar # Explicitly protected
 --- @field CenterText PartyMemberFrameTemplate_HealthBarContainer_CenterText
 --- @field LeftText PartyMemberFrameTemplate_HealthBarContainer_LeftText
 --- @field RightText PartyMemberFrameTemplate_HealthBarContainer_RightText
@@ -123,6 +126,7 @@
 --- @class PartyMemberFrameTemplate_ManaBar_RightText : FontString, TextStatusBarText
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L283)
+--- Explicitly protected
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_ManaBar : StatusBar, TextStatusBar, SecureFrameParentPropagationTemplate
 --- @field CenterText PartyMemberFrameTemplate_ManaBar_CenterText
@@ -151,6 +155,7 @@
 --- @field Border Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L406)
+--- Explicitly protected
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PetFrame : Button, PartyMemberPetFrameTemplate
 
@@ -168,16 +173,17 @@
 --- @class PartyMemberFrameTemplate_ResurrectableIndicator : FontString, ResurrectableIndicatorTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/PartyFrameTemplates.xml#L121)
+--- Explicitly protected
 --- Template
 --- @class PartyMemberFrameTemplate : Button, SecureUnitButtonTemplate, PingableUnitFrameTemplate, PartyMemberFrameMixin
 --- @field frameType string # Party
 --- @field PowerBarAlt PartyMemberFrameTemplate_PowerBarAlt
---- @field HealthBarContainer PartyMemberFrameTemplate_HealthBarContainer
---- @field ManaBar PartyMemberFrameTemplate_ManaBar
+--- @field HealthBarContainer PartyMemberFrameTemplate_HealthBarContainer # Explicitly protected
+--- @field ManaBar PartyMemberFrameTemplate_ManaBar # Explicitly protected
 --- @field PartyMemberOverlay PartyMemberFrameTemplate_PartyMemberOverlay
 --- @field ReadyCheck PartyMemberFrameTemplate_ReadyCheck
 --- @field NotPresentIcon PartyMemberFrameTemplate_NotPresentIcon
---- @field PetFrame PartyMemberFrameTemplate_PetFrame
+--- @field PetFrame PartyMemberFrameTemplate_PetFrame # Explicitly protected
 --- @field AuraFrameContainer PartyMemberFrameTemplate_AuraFrameContainer
 --- @field Portrait Texture
 --- @field PortraitMask MaskTexture

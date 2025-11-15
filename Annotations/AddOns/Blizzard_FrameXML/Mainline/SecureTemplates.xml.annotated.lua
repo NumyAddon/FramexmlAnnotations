@@ -1,6 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/SecureTemplates.xml#L4)
+--- Explicitly protected
 --- Template
 --- @class SecureActionButtonTemplate : Button, SecureFrameTemplate, SecureActionButtonMixin
 
@@ -9,6 +10,7 @@
 --- @class InsecureActionButtonTemplate : Button
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/SecureTemplates.xml#L21)
+--- Explicitly protected
 --- Template
 --- @class SecureUnitButtonTemplate : Button, SecureFrameTemplate
 

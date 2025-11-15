@@ -1,6 +1,7 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L3)
+--- Explicitly protected
 --- Template
 --- @class PossessButtonTemplate : CheckButton, SecureFrameTemplate, ActionButtonTemplate
 
@@ -145,6 +146,7 @@ PossessButton1Border = {}
 PossessButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L55)
+--- Explicitly protected
 --- child of PossessBarFrame
 --- @class PossessButton1 : CheckButton, PossessButtonTemplate
 PossessButton1 = {}
@@ -302,6 +304,7 @@ PossessButton2Border = {}
 PossessButton2NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L64)
+--- Explicitly protected
 --- child of PossessBarFrame
 --- @class PossessButton2 : CheckButton, PossessButtonTemplate
 PossessButton2 = {}
@@ -329,6 +332,7 @@ PossessBackground1 = {}
 PossessBackground2 = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L23)
+--- Implicitly protected
 --- @class PossessBarFrame : Frame
 PossessBarFrame = {}
 

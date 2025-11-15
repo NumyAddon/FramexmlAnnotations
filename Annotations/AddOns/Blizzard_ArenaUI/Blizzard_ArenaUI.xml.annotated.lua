@@ -22,6 +22,7 @@
 --- @class ArenaEnemyPetFrameTemplate_ManaBar : StatusBar, TextStatusBar
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L56)
+--- Explicitly protected
 --- Template
 --- @class ArenaEnemyPetFrameTemplate : Button, SecureUnitButtonTemplate
 
@@ -38,12 +39,14 @@
 --- @class ArenaPrepFrameTemplate_CastingBar : StatusBar, ArenaCastingBarFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L136)
+--- Explicitly protected
 --- Template
 --- @class ArenaPrepFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field CastingBar ArenaPrepFrameTemplate_CastingBar
 --- @field classPortrait Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- Explicitly protected
 --- child of ArenaEnemyFrameTemplate
 --- @class ArenaEnemyFrameTemplate_PetFrame : Button, ArenaEnemyPetFrameTemplate
 
@@ -58,9 +61,10 @@
 --- @field Icon Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
+--- Explicitly protected
 --- Template
 --- @class ArenaEnemyFrameTemplate : Button, ArenaPrepFrameTemplate
---- @field petFrame ArenaEnemyFrameTemplate_PetFrame
+--- @field petFrame ArenaEnemyFrameTemplate_PetFrame # Explicitly protected
 --- @field CC ArenaEnemyFrameTemplate_CC
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
@@ -89,6 +93,7 @@ ArenaPrepFrame1ClassPortrait = {}
 ArenaPrepFrame1Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L344)
+--- Explicitly protected
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrame1 : Button, ArenaPrepFrameTemplate
 ArenaPrepFrame1 = {}
@@ -121,6 +126,7 @@ ArenaPrepFrame2ClassPortrait = {}
 ArenaPrepFrame2Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L350)
+--- Explicitly protected
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrame2 : Button, ArenaPrepFrameTemplate
 ArenaPrepFrame2 = {}
@@ -153,6 +159,7 @@ ArenaPrepFrame3ClassPortrait = {}
 ArenaPrepFrame3Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L356)
+--- Explicitly protected
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrame3 : Button, ArenaPrepFrameTemplate
 ArenaPrepFrame3 = {}
@@ -185,6 +192,7 @@ ArenaPrepFrame4ClassPortrait = {}
 ArenaPrepFrame4Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L362)
+--- Explicitly protected
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrame4 : Button, ArenaPrepFrameTemplate
 ArenaPrepFrame4 = {}
@@ -217,6 +225,7 @@ ArenaPrepFrame5ClassPortrait = {}
 ArenaPrepFrame5Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L368)
+--- Explicitly protected
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrame5 : Button, ArenaPrepFrameTemplate
 ArenaPrepFrame5 = {}
@@ -231,6 +240,7 @@ ArenaPrepBackground = {}
 ArenaPrepBackground["backdropInfo"] = BACKDROP_ARENA_32_32
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L338)
+--- Implicitly protected
 --- @class ArenaPrepFrames : Frame
 ArenaPrepFrames = {}
 
@@ -255,6 +265,7 @@ ArenaEnemyFrame1PetFrameFlash = {}
 ArenaEnemyFrame1PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- Explicitly protected
 --- child of ArenaEnemyFrame1 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_PetFrame
 ArenaEnemyFrame1PetFrame = {}
@@ -285,6 +296,7 @@ ArenaEnemyFrame1ClassPortrait = {}
 ArenaEnemyFrame1Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L418)
+--- Explicitly protected
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrame1 : Button, ArenaEnemyFrameTemplate
 ArenaEnemyFrame1 = {}
@@ -313,6 +325,7 @@ ArenaEnemyFrame2PetFrameFlash = {}
 ArenaEnemyFrame2PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- Explicitly protected
 --- child of ArenaEnemyFrame2 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_PetFrame
 ArenaEnemyFrame2PetFrame = {}
@@ -343,6 +356,7 @@ ArenaEnemyFrame2ClassPortrait = {}
 ArenaEnemyFrame2Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L424)
+--- Explicitly protected
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrame2 : Button, ArenaEnemyFrameTemplate
 ArenaEnemyFrame2 = {}
@@ -371,6 +385,7 @@ ArenaEnemyFrame3PetFrameFlash = {}
 ArenaEnemyFrame3PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- Explicitly protected
 --- child of ArenaEnemyFrame3 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_PetFrame
 ArenaEnemyFrame3PetFrame = {}
@@ -401,6 +416,7 @@ ArenaEnemyFrame3ClassPortrait = {}
 ArenaEnemyFrame3Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L430)
+--- Explicitly protected
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrame3 : Button, ArenaEnemyFrameTemplate
 ArenaEnemyFrame3 = {}
@@ -429,6 +445,7 @@ ArenaEnemyFrame4PetFrameFlash = {}
 ArenaEnemyFrame4PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- Explicitly protected
 --- child of ArenaEnemyFrame4 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_PetFrame
 ArenaEnemyFrame4PetFrame = {}
@@ -459,6 +476,7 @@ ArenaEnemyFrame4ClassPortrait = {}
 ArenaEnemyFrame4Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L436)
+--- Explicitly protected
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrame4 : Button, ArenaEnemyFrameTemplate
 ArenaEnemyFrame4 = {}
@@ -487,6 +505,7 @@ ArenaEnemyFrame5PetFrameFlash = {}
 ArenaEnemyFrame5PetFramePortrait = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- Explicitly protected
 --- child of ArenaEnemyFrame5 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_PetFrame
 ArenaEnemyFrame5PetFrame = {}
@@ -517,6 +536,7 @@ ArenaEnemyFrame5ClassPortrait = {}
 ArenaEnemyFrame5Background = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L442)
+--- Explicitly protected
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrame5 : Button, ArenaEnemyFrameTemplate
 ArenaEnemyFrame5 = {}
@@ -532,6 +552,7 @@ ArenaEnemyBackground = {}
 ArenaEnemyBackground["backdropInfo"] = BACKDROP_ARENA_32_32
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L412)
+--- Implicitly protected
 --- @class ArenaEnemyFrames : Frame
 ArenaEnemyFrames = {}
 

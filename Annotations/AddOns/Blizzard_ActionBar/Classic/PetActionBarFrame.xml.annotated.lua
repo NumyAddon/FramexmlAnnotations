@@ -9,6 +9,7 @@
 --- @class PetActionButtonTemplate_SpellHighlightAnim : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L3)
+--- Explicitly protected
 --- Template
 --- @class PetActionButtonTemplate : CheckButton, SecureFrameTemplate, ActionButtonTemplate
 --- @field SpellHighlightTexture Texture
@@ -250,6 +251,7 @@ PetActionButton1Border = {}
 PetActionButton1NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L107)
+--- Explicitly protected
 --- child of PetActionBarFrame
 --- @class PetActionButton1 : CheckButton, PetActionButtonTemplate
 PetActionButton1 = {}
@@ -502,6 +504,7 @@ PetActionButton2Border = {}
 PetActionButton2NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L116)
+--- Explicitly protected
 --- child of PetActionBarFrame
 --- @class PetActionButton2 : CheckButton, PetActionButtonTemplate
 PetActionButton2 = {}
@@ -754,6 +757,7 @@ PetActionButton3Border = {}
 PetActionButton3NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L125)
+--- Explicitly protected
 --- child of PetActionBarFrame
 --- @class PetActionButton3 : CheckButton, PetActionButtonTemplate
 PetActionButton3 = {}
@@ -1006,6 +1010,7 @@ PetActionButton4Border = {}
 PetActionButton4NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L134)
+--- Explicitly protected
 --- child of PetActionBarFrame
 --- @class PetActionButton4 : CheckButton, PetActionButtonTemplate
 PetActionButton4 = {}
@@ -1258,6 +1263,7 @@ PetActionButton5Border = {}
 PetActionButton5NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L143)
+--- Explicitly protected
 --- child of PetActionBarFrame
 --- @class PetActionButton5 : CheckButton, PetActionButtonTemplate
 PetActionButton5 = {}
@@ -1510,6 +1516,7 @@ PetActionButton6Border = {}
 PetActionButton6NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L152)
+--- Explicitly protected
 --- child of PetActionBarFrame
 --- @class PetActionButton6 : CheckButton, PetActionButtonTemplate
 PetActionButton6 = {}
@@ -1762,6 +1769,7 @@ PetActionButton7Border = {}
 PetActionButton7NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L161)
+--- Explicitly protected
 --- child of PetActionBarFrame
 --- @class PetActionButton7 : CheckButton, PetActionButtonTemplate
 PetActionButton7 = {}
@@ -2014,6 +2022,7 @@ PetActionButton8Border = {}
 PetActionButton8NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L170)
+--- Explicitly protected
 --- child of PetActionBarFrame
 --- @class PetActionButton8 : CheckButton, PetActionButtonTemplate
 PetActionButton8 = {}
@@ -2266,6 +2275,7 @@ PetActionButton9Border = {}
 PetActionButton9NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L179)
+--- Explicitly protected
 --- child of PetActionBarFrame
 --- @class PetActionButton9 : CheckButton, PetActionButtonTemplate
 PetActionButton9 = {}
@@ -2518,6 +2528,7 @@ PetActionButton10Border = {}
 PetActionButton10NormalTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L188)
+--- Explicitly protected
 --- child of PetActionBarFrame
 --- @class PetActionButton10 : CheckButton, PetActionButtonTemplate
 PetActionButton10 = {}
@@ -2545,6 +2556,7 @@ SlidingActionBarTexture0 = {}
 SlidingActionBarTexture1 = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PetActionBarFrame.xml#L76)
+--- Implicitly protected
 --- @class PetActionBarFrame : Frame, PetActionBarMixin
 PetActionBarFrame = {}
 

@@ -10,22 +10,17 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L18)
 --- Template
---- @class StoreModelSceneMixinTemplate : ModelScene, ModelSceneMixinTemplate
---- @field allowOverlappedModels boolean # true
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L24)
---- Template
 --- @class NoZoomModelSceneMixinTemplate : ModelScene, ModelSceneMixinTemplate, NoZoomModelSceneMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L19)
 --- Template
 --- @class PanningModelSceneMixinTemplate : ModelScene, ModelSceneMixinTemplate, PanningModelSceneMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L20)
 --- Template
 --- @class NoCameraControlModelSceneMixinTemplate : ModelScene, ModelSceneMixinTemplate, NoCameraControlModelSceneMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L27)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ModelSceneMixin.xml#L21)
 --- Template
 --- @class ModelSceneDropShadowTemplate : Texture
 

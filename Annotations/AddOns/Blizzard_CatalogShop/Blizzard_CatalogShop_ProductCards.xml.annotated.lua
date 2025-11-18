@@ -34,21 +34,21 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L88)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
---- @class DefaultCatalogShopCardTemplate_ForegroundContainer_Price : FontString, GameFontNormalLarge
+--- @class DefaultCatalogShopCardTemplate_ForegroundContainer_Price : FontString, SystemFont_Shadow_Huge2
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L91)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
---- @class DefaultCatalogShopCardTemplate_ForegroundContainer_DiscountPrice : FontString, GameFontNormalMed3, AutoScalingFontStringMixin
+--- @class DefaultCatalogShopCardTemplate_ForegroundContainer_DiscountPrice : FontString, SystemFont_Shadow_Large2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 10
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L97)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
---- @class DefaultCatalogShopCardTemplate_ForegroundContainer_OriginalPrice : FontString, GameFontNormalMed3, AutoScalingFontStringMixin
+--- @class DefaultCatalogShopCardTemplate_ForegroundContainer_OriginalPrice : FontString, SystemFont_Shadow_Large2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 10
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L103)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
---- @class DefaultCatalogShopCardTemplate_ForegroundContainer_Name : FontString, GameFontNormalLarge, AutoScalingFontStringMixin
+--- @class DefaultCatalogShopCardTemplate_ForegroundContainer_Name : FontString, SystemFont_Shadow_Large2, AutoScalingFontStringMixin
 --- @field minLineHeight number # 12
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L114)

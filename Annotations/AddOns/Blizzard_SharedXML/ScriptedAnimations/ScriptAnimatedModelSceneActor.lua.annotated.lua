@@ -19,8 +19,8 @@ function ScriptAnimatedModelSceneActorMixin:DeltaUpdate(elapsed) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L62)
 function ScriptAnimatedModelSceneActorMixin:SetEffect(effectDescription, source, target, scaleMultiplier) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L123)
 function ScriptAnimatedModelSceneActorMixin:SetDynamicOffsets(pixelX, pixelY, pixelZ) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/ScriptedAnimations/ScriptAnimatedModelSceneActor.lua#L129)
 function ScriptAnimatedModelSceneActorMixin:SetEffectActorOffset(x, y, z) end

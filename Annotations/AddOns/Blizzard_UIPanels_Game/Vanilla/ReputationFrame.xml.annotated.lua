@@ -910,7 +910,7 @@ ReputationDetailAtWarCheckbox = {}
 --- @type OptionsSmallCheckButtonTemplate_Text
 ReputationDetailInactiveCheckboxText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L417)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L54)
 --- child of ReputationDetailInactiveCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 ReputationDetailInactiveCheckboxText = {}
@@ -926,7 +926,7 @@ ReputationDetailInactiveCheckbox["Text"] = ReputationDetailInactiveCheckboxText 
 --- @type OptionsSmallCheckButtonTemplate_Text
 ReputationDetailMainScreenCheckboxText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L417)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L54)
 --- child of ReputationDetailMainScreenCheckbox (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 ReputationDetailMainScreenCheckboxText = {}
@@ -977,8 +977,4 @@ ReputationFrameStandingLabel = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L208)
 --- @class ReputationFrame : Frame
 ReputationFrame = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/ReputationFrame.xml#L843)
---- @class ReputationWatchBar : Frame, MainMenuBarWatchBarTemplate
-ReputationWatchBar = {}
 

@@ -37,5 +37,5 @@ function TalentButtonSpendMixin:ResetDynamic() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSpend.lua#L77)
 function TalentButtonSpendMixin:AddTooltipInfo(tooltip) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSpend.lua#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonSpend.lua#L104)
 function TalentButtonSpendMixin:AddTooltipInstructions(tooltip) end

@@ -15,13 +15,13 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Classic/Blizzard_SettingsPanelTemplates.xml#L12)
 --- child of SettingsFrameTemplate
 --- @class SettingsFrameTemplate_NineSlice : Frame, NineSlicePanelTemplate
---- @field layoutType string # ButtonFrameTemplateNoPortrait
+--- @field layoutType string # Dialog
 --- @field TitleBg SettingsFrameTemplate_NineSlice_TitleBg
 --- @field Text SettingsFrameTemplate_NineSlice_Text
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Classic/Blizzard_SettingsPanelTemplates.xml#L36)
 --- child of SettingsFrameTemplate
---- @class SettingsFrameTemplate_ClosePanelButton : Button, UIPanelCloseButtonDefaultAnchors
+--- @class SettingsFrameTemplate_ClosePanelButton : Button, UIPanelCloseButton
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Classic/Blizzard_SettingsPanelTemplates.xml#L4)
 --- Template

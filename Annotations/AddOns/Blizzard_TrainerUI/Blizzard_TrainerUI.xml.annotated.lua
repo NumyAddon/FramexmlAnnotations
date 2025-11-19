@@ -32,7 +32,7 @@ ClassTrainerExpandButtonFrame = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L184)
 --- child of ClassTrainerFrame
---- @class ClassTrainerFrame_FilterDropdown : DropdownButton, WowStyle1FilterDropdownTemplate
+--- @class ClassTrainerFrame_FilterDropdown : DropdownButton, WowStyle1DropdownTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_TrainerUI/Blizzard_TrainerUI.xml#L198)
 --- child of ClassTrainerSkillHighlightFrame

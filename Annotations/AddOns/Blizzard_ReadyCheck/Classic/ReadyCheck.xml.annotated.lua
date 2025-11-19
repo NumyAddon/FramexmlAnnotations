@@ -3,6 +3,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReadyCheck/Classic/ReadyCheck.xml#L3)
 --- Template
 --- @class ReadyCheckStatusTemplate : Frame
+--- @field Texture Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReadyCheck/Classic/ReadyCheck.xml#L44)
 --- child of ReadyCheckListenerFrame

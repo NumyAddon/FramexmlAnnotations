@@ -322,3 +322,8 @@ HelpPlateTooltip = {}
 --- @class HelpPlateCanvas : Button
 HelpPlateCanvas = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_HelpPlate/Blizzard_HelpPlate.xml#L551)
+--- Template
+--- @class RinglessHelpPlateButtonTemplate : Button
+--- @field LetterI Texture
+

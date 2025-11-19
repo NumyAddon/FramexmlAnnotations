@@ -22,14 +22,34 @@
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_ReportButton : Button, UIPanelButtonTemplate, ReportButtonMixin
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L128)
+--- child of SharedReportFrameTemplate_ScreenshotReportingFrame
+--- @class SharedReportFrameTemplate_ScreenshotReportingFrame_TakeScreenshotButton : Button, UIPanelButtonTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L137)
+--- child of SharedReportFrameTemplate_ScreenshotReportingFrame
+--- @class SharedReportFrameTemplate_ScreenshotReportingFrame_ScreenshotDescription : FontString, GameFontNormal
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L149)
+--- child of SharedReportFrameTemplate_ScreenshotReportingFrame
+--- @class SharedReportFrameTemplate_ScreenshotReportingFrame_ScreenshotEmptyText : FontString, GameFontNormal
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L125)
+--- child of SharedReportFrameTemplate
+--- @class SharedReportFrameTemplate_ScreenshotReportingFrame : Frame
+--- @field TakeScreenshotButton SharedReportFrameTemplate_ScreenshotReportingFrame_TakeScreenshotButton
+--- @field ScreenshotDescription SharedReportFrameTemplate_ScreenshotReportingFrame_ScreenshotDescription
+--- @field ScreenshotPreview Texture
+--- @field ScreenshotEmptyText SharedReportFrameTemplate_ScreenshotReportingFrame_ScreenshotEmptyText
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L158)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_Comment : ScrollFrame, InputScrollFrameTemplate
 --- @field maxLetters number # 127
 --- @field instructions any # REPORTING_COMMENT_INSTRUCTIONS
 --- @field hideCharCount boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L166)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_CloseButton : Button, UIPanelCloseButton
 --- @field Border Texture
@@ -46,7 +66,7 @@
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_ReportString : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L185)
 --- child of SharedReportFrameTemplate
 --- @class SharedReportFrameTemplate_MinorReportDescription : FontString, GameFontNormal
 
@@ -59,6 +79,7 @@
 --- @field Border Frame
 --- @field ReportingMajorCategoryDropdown SharedReportFrameTemplate_ReportingMajorCategoryDropdown
 --- @field ReportButton SharedReportFrameTemplate_ReportButton
+--- @field ScreenshotReportingFrame SharedReportFrameTemplate_ScreenshotReportingFrame
 --- @field Comment SharedReportFrameTemplate_Comment
 --- @field CloseButton SharedReportFrameTemplate_CloseButton
 --- @field TopInset Texture
@@ -70,4 +91,15 @@
 --- @field ReportString SharedReportFrameTemplate_ReportString
 --- @field Watermark Texture
 --- @field MinorReportDescription SharedReportFrameTemplate_MinorReportDescription
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L207)
+--- child of ReportScreenshotModeFrame
+--- @class ReportScreenshotModeFrame_ScreenshotInstructions : FontString, Game22Font
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ReportFrameShared/ReportFrameShared.xml#L201)
+--- @class ReportScreenshotModeFrame : Frame, TopLevelParentScaleFrameTemplate, ScreenshotModeFrameMixin
+--- @field matchAnchors boolean # true
+--- @field ScreenshotInstructions ReportScreenshotModeFrame_ScreenshotInstructions
+ReportScreenshotModeFrame = {}
+ReportScreenshotModeFrame["matchAnchors"] = true
 

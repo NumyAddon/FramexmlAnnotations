@@ -83,14 +83,14 @@ GMChatFrameResizeButton = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L476)
 --- child of FloatingChatFrameTemplateButtonFrame
---- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button
+--- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button, MessageFrameScrollButtonMixin
 --- @field layoutIndex number # 2
 --- @field bottomPadding number # -2
 --- @field align string # center
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L504)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L493)
 --- child of FloatingChatFrameTemplateButtonFrame
---- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button
+--- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button, MessageFrameScrollButtonMixin
 --- @field layoutIndex number # 1
 --- @field bottomPadding number # -2
 --- @field align string # center
@@ -104,47 +104,47 @@ GMChatFrameButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownB
 GMChatFrameButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
 GMChatFrameButtonFrame["fixedWidth"] = 29
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L515)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_MinimizeButton
 GMChatFrameMinimizeButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L68)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 GMChatFrameEditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L6)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 GMChatFrameEditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L28)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L12)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 GMChatFrameEditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L18)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 GMChatFrameEditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L48)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 GMChatFrameEditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L54)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 GMChatFrameEditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L59)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 GMChatFrameEditBoxPrompt = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L584)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L562)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_EditBox
 GMChatFrameEditBox = {}

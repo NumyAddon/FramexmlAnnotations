@@ -6,7 +6,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L3)
 --- Template
---- @class ArenaCastingBarFrameTemplate : StatusBar
+--- @class ArenaCastingBarFrameTemplate : StatusBar, CastingBarMixin
 --- @field BorderShield Texture
 --- @field Text ArenaCastingBarFrameTemplate_Text
 --- @field Icon Texture

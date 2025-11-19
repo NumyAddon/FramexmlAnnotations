@@ -75,12 +75,12 @@
 --- @field inactiveAtlas string # icon_trackedbuffs
 --- @field tooltipText any # COOLDOWN_VIEWER_SETTINGS_TAB_BUFFS
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L1164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L40)
 --- child of CooldownViewerSettings_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 CooldownViewerSettingsClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L1155)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L31)
 --- child of CooldownViewerSettings_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 CooldownViewerSettingsSearchIcon = {}
@@ -118,104 +118,104 @@ CooldownViewerSettingsSearchIcon = {}
 --- @class CooldownViewerSettings_ReorderMarker : Frame, CooldownViewerSettingsReorderMarkerMixin
 --- @field Texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L680)
 --- child of CooldownViewerSettingsInset (created in template InsetFrameTemplate)
 --- @type Texture
 CooldownViewerSettingsInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L787)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L721)
 --- child of CooldownViewerSettings (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 CooldownViewerSettingsInset = {}
 CooldownViewerSettingsInset["layoutType"] = "InsetFrameTemplate" -- inherited
 CooldownViewerSettingsInset["Bg"] = CooldownViewerSettingsInsetBg -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L768)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L702)
 --- child of CooldownViewerSettings (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 CooldownViewerSettingsBtnCornerLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L773)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L707)
 --- child of CooldownViewerSettings (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 CooldownViewerSettingsBtnCornerRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L778)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L712)
 --- child of CooldownViewerSettings (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 CooldownViewerSettingsButtonBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L604)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L538)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 CooldownViewerSettingsCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L510)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L444)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 CooldownViewerSettingsBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L516)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L450)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleBg
 CooldownViewerSettingsTitleBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L524)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L458)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 CooldownViewerSettingsPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L532)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L466)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 CooldownViewerSettingsPortraitFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L471)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 CooldownViewerSettingsTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L542)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L476)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 CooldownViewerSettingsTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L547)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L481)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 CooldownViewerSettingsTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L553)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L487)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 CooldownViewerSettingsTitleText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L562)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L496)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 CooldownViewerSettingsTopTileStreaks = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L568)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L502)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 CooldownViewerSettingsBotLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L573)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L507)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 CooldownViewerSettingsBotRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L578)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L512)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 CooldownViewerSettingsBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L584)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L518)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 CooldownViewerSettingsLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L590)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L524)
 --- child of CooldownViewerSettings (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 CooldownViewerSettingsRightBorder = {}

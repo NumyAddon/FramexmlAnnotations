@@ -45,7 +45,11 @@
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
 --- @class DefaultCatalogShopCardTemplate_ForegroundContainer_TimeRemaining : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L124)
+--- child of DefaultCatalogShopCardTemplate_ForegroundContainer
+--- @class DefaultCatalogShopCardTemplate_ForegroundContainer_ConsumableQuantityText : FontString, Game22Font
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L135)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
 --- @class DefaultCatalogShopCardTemplate_ForegroundContainer_DiscountAmount : FontString, SystemFont_Shadow_Large
 
@@ -66,6 +70,8 @@
 --- @field RectIcon Texture
 --- @field CircleIcon Texture
 --- @field PurchasedIcon Texture
+--- @field ConsumableQuantityBackground Texture
+--- @field ConsumableQuantityText DefaultCatalogShopCardTemplate_ForegroundContainer_ConsumableQuantityText
 --- @field DiscountSaleTag Texture
 --- @field DiscountAmount DefaultCatalogShopCardTemplate_ForegroundContainer_DiscountAmount
 --- @field Strikethrough Texture
@@ -80,7 +86,7 @@
 --- @field SelectedContainer DefaultCatalogShopCardTemplate_SelectedContainer
 --- @field ForegroundContainer DefaultCatalogShopCardTemplate_ForegroundContainer
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L168)
 --- Template
 --- @class SmallCatalogShopProductCardTemplate : Button, DefaultCatalogShopCardTemplate, SmallCatalogShopProductCardMixin
 --- @field defaultBackground string # shop-card-bg
@@ -93,22 +99,22 @@
 --- @field newBackground string # shop-card-bg
 --- @field classicTexture string # shop-card-bg
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L183)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L195)
 --- child of SmallCatalogShopProductWithBuyButtonCardTemplate_PurchaseButton
 --- @class SmallCatalogShopProductWithBuyButtonCardTemplate_PurchaseButton_Spinner : Frame, SpinnerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L186)
 --- child of SmallCatalogShopProductWithBuyButtonCardTemplate
 --- @class SmallCatalogShopProductWithBuyButtonCardTemplate_PurchaseButton : Button, CatalogShopRedGoldButtonTemplate, EmbeddedPurchaseButtonMixin
 --- @field embeddedPurchaseButtonOnClickMethod string # PurchaseProduct
 --- @field Spinner SmallCatalogShopProductWithBuyButtonCardTemplate_PurchaseButton_Spinner
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L184)
 --- Template
 --- @class SmallCatalogShopProductWithBuyButtonCardTemplate : Button, SmallCatalogShopProductCardTemplate, SmallCatalogShopProductWithBuyButtonCardMixin
 --- @field PurchaseButton SmallCatalogShopProductWithBuyButtonCardTemplate_PurchaseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L208)
 --- Template
 --- @class WideCatalogShopProductCardTemplate : Button, DefaultCatalogShopCardTemplate, WideCatalogShopProductCardMixin
 --- @field useWideCardSettings boolean # true

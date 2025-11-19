@@ -70,7 +70,7 @@ local SpellFlyoutOpenReason = {
     ["GlyphActivated"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L169)
 --- @enum AuraUtil.AuraUpdateChangedType
 local AuraUtil_AuraUpdateChangedType = {
     ["None"] = 1,
@@ -79,7 +79,7 @@ local AuraUtil_AuraUpdateChangedType = {
     ["Dispel"] = 4,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L176)
 --- @enum AuraUtil.UnitFrameDebuffType
 local AuraUtil_UnitFrameDebuffType = {
     ["BossDebuff"] = 1,
@@ -121,7 +121,7 @@ local Professions_ProfessionType = {
     ["Gathering"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L1610)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L1549)
 --- @enum ProfessionsSortOrder
 local ProfessionsSortOrder = {
     ["Name"] = 1,

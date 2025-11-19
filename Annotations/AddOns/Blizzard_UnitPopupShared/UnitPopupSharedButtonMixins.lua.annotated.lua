@@ -1289,6 +1289,17 @@ function UnitPopupReportInWorldButtonMixin:GetReportType()
 	return Enum.ReportType.InWorld;
 end
 
+UnitPopupReportNeighborhoodRosterMixin = CreateFromMixins(UnitPopupReportButtonMixin);--- @class UnitPopupReportNeighborhoodRosterMixin : UnitPopupReportButtonMixin
+
+function UnitPopupReportNeighborhoodRosterMixin:GetText(contextData)
+	return REPORT_IN_WORLD_PLAYER;
+end
+
+function UnitPopupReportNeighborhoodRosterMixin:GetReportType()
+	return Enum.ReportType.NeighborhoodRoster;
+end
+
+
 UnitPopupPvpReportGroupMemberButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin);--- @class UnitPopupPvpReportGroupMemberButtonMixin : UnitPopupReportButtonMixin
 
 function UnitPopupPvpReportGroupMemberButtonMixin:GetText(contextData)

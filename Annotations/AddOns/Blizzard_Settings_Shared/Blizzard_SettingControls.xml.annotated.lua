@@ -76,40 +76,44 @@
 --- Template
 --- @class SettingButtonControlTemplate : Frame, SettingsListElementTemplate, SettingsButtonControlMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L126)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L127)
 --- Template
 --- @class SettingsCheckboxWithButtonControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckboxWithButtonControlMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L134)
 --- Template
 --- @class SettingsCheckboxSliderControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckboxSliderControlMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L141)
 --- Template
 --- @class SettingsCheckboxDropdownControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckboxDropdownControlMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L148)
+--- Template
+--- @class SettingsCheckboxWithColorSwatchControlTemplate : Frame, SettingsListElementTemplate, SettingsCheckboxWithColorSwatchControlMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L157)
 --- child of Metal2DropdownWithSteppersAndLabelTemplate
 --- @class Metal2DropdownWithSteppersAndLabelTemplate_Dropdown : DropdownButton, WowStyle2DropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L155)
 --- Template
 --- @class Metal2DropdownWithSteppersAndLabelTemplate : Frame, DropdownWithSteppersTemplate, DropdownWithSteppersAndLabelMixin
 --- @field Dropdown Metal2DropdownWithSteppersAndLabelTemplate_Dropdown
 --- @field Label FontString
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L175)
 --- Template
 --- @class SettingsDropdownWithButtonsTemplate : Frame, Metal2DropdownWithSteppersAndLabelTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L180)
 --- child of SettingsExpandableSectionTemplate
 --- @class SettingsExpandableSectionTemplate_Button : Button
 --- @field Left Texture
 --- @field Right Texture
 --- @field Text FontString
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L169)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingControls.xml#L177)
 --- Template
 --- @class SettingsExpandableSectionTemplate : EventFrame, SettingsExpandableSectionMixin
 --- @field Button SettingsExpandableSectionTemplate_Button

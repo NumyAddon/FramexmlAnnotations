@@ -4,7 +4,7 @@
 --- @class AnchorMixin
 AnchorMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L62)
 --- @class GridLayoutMixin
 GridLayoutMixin = {}
 
@@ -15,25 +15,31 @@ function AnchorMixin:Init(point, relativeTo, relativePoint, x, y) end
 function AnchorMixin:Set(point, relativeTo, relativePoint, x, y) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L16)
+function AnchorMixin:SetRelativeTo(relativeTo) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L20)
+function AnchorMixin:SetOffsets(x, y) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L25)
 function AnchorMixin:SetFromPoint(region, pointIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L31)
 function AnchorMixin:Get() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L39)
 function AnchorMixin:GetRelativeTo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L43)
 function AnchorMixin:SetPoint(region, clearAllPoints) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L50)
 function AnchorMixin:SetPointWithExtraOffset(region, clearAllPoints, extraOffsetX, extraOffsetY) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L88)
 function GridLayoutMixin:Init(direction, stride, paddingX, paddingY, horizontalSpacing, verticalSpacing) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L97)
 function GridLayoutMixin:SetCustomOffsetFunction(func) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L101)
 function GridLayoutMixin:GetCustomOffset(row, col) end

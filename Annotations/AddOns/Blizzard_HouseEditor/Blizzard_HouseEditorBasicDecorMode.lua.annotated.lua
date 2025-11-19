@@ -13,8 +13,8 @@ HouseEditorSnapButtonMixin = {}
 HouseEditorGridVisibilityButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.lua#L281)
---- @class HouseEditorNudgeButtonMixin
-HouseEditorNudgeButtonMixin = {}
+--- @class HouseEditorFreePlaceButtonMixin
+HouseEditorFreePlaceButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.lua#L20)
 function HouseEditorBasicDecorModeMixin:OnLoad() end
@@ -71,10 +71,10 @@ function HouseEditorGridVisibilityButtonMixin:EnterMode() end
 function HouseEditorGridVisibilityButtonMixin:LeaveMode() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.lua#L283)
-function HouseEditorNudgeButtonMixin:IsActive() end
+function HouseEditorFreePlaceButtonMixin:IsActive() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.lua#L287)
-function HouseEditorNudgeButtonMixin:EnterMode() end
+function HouseEditorFreePlaceButtonMixin:EnterMode() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.lua#L291)
-function HouseEditorNudgeButtonMixin:LeaveMode() end
+function HouseEditorFreePlaceButtonMixin:LeaveMode() end

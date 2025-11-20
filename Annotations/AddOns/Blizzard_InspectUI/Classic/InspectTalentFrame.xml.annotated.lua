@@ -35,7 +35,7 @@ InspectTalentFrameTab1Right = {}
 --- @type Texture
 InspectTalentFrameTab1HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L78)
 --- child of InspectTalentFrame
 --- @class InspectTalentFrameTab1 : Button, TabButtonTemplate, InspectTalentFrameTabMixin
 InspectTalentFrameTab1 = {}
@@ -82,7 +82,7 @@ InspectTalentFrameTab2Right = {}
 --- @type Texture
 InspectTalentFrameTab2HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L90)
 --- child of InspectTalentFrame
 --- @class InspectTalentFrameTab2 : Button, TabButtonTemplate, InspectTalentFrameTabMixin
 InspectTalentFrameTab2 = {}
@@ -129,7 +129,7 @@ InspectTalentFrameTab3Right = {}
 --- @type Texture
 InspectTalentFrameTab3HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L98)
 --- child of InspectTalentFrame
 --- @class InspectTalentFrameTab3 : Button, TabButtonTemplate, InspectTalentFrameTabMixin
 InspectTalentFrameTab3 = {}
@@ -141,42 +141,37 @@ InspectTalentFrameTab3["Middle"] = InspectTalentFrameTab3Middle -- inherited
 InspectTalentFrameTab3["Right"] = InspectTalentFrameTab3Right -- inherited
 InspectTalentFrameTab3["HighlightTexture"] = InspectTalentFrameTab3HighlightTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L152)
---- child of InspectTalentFrame
---- @class InspectTalentFrameCloseButton : Button, UIPanelCloseButton
-InspectTalentFrameCloseButton = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L121)
 --- child of InspectTalentFramePointsBar
 --- @class InspectTalentFramePointsBarBackground : Texture
 InspectTalentFramePointsBarBackground = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L182)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L127)
 --- child of InspectTalentFramePointsBar
 --- @class InspectTalentFramePointsBarBorderLeft : Texture
 InspectTalentFramePointsBarBorderLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L197)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L142)
 --- child of InspectTalentFramePointsBar
 --- @class InspectTalentFramePointsBarBorderRight : Texture
 InspectTalentFramePointsBarBorderRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L157)
 --- child of InspectTalentFramePointsBar
 --- @class InspectTalentFramePointsBarBorderMiddle : Texture
 InspectTalentFramePointsBarBorderMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L166)
 --- child of InspectTalentFramePointsBar
 --- @class InspectTalentFrameSpentPointsText : FontString, GameFontNormalSmall
 InspectTalentFrameSpentPointsText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L174)
 --- child of InspectTalentFramePointsBar
 --- @class InspectTalentFrameTalentPointsText : FontString, GameFontNormalSmall
 InspectTalentFrameTalentPointsText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L106)
 --- child of InspectTalentFrame
 --- @class InspectTalentFramePointsBar : Frame
 InspectTalentFramePointsBar = {}
@@ -236,7 +231,7 @@ InspectTalentFrameTalent1SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L331)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L276)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent1 : Button, TalentButtonTemplate
 InspectTalentFrameTalent1 = {}
@@ -305,7 +300,7 @@ InspectTalentFrameTalent2SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L277)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent2 : Button, TalentButtonTemplate
 InspectTalentFrameTalent2 = {}
@@ -374,7 +369,7 @@ InspectTalentFrameTalent3SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L278)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent3 : Button, TalentButtonTemplate
 InspectTalentFrameTalent3 = {}
@@ -443,7 +438,7 @@ InspectTalentFrameTalent4SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L334)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L279)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent4 : Button, TalentButtonTemplate
 InspectTalentFrameTalent4 = {}
@@ -512,7 +507,7 @@ InspectTalentFrameTalent5SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L280)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent5 : Button, TalentButtonTemplate
 InspectTalentFrameTalent5 = {}
@@ -581,7 +576,7 @@ InspectTalentFrameTalent6SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L336)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L281)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent6 : Button, TalentButtonTemplate
 InspectTalentFrameTalent6 = {}
@@ -650,7 +645,7 @@ InspectTalentFrameTalent7SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L282)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent7 : Button, TalentButtonTemplate
 InspectTalentFrameTalent7 = {}
@@ -719,7 +714,7 @@ InspectTalentFrameTalent8SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L338)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L283)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent8 : Button, TalentButtonTemplate
 InspectTalentFrameTalent8 = {}
@@ -788,7 +783,7 @@ InspectTalentFrameTalent9SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L339)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L284)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent9 : Button, TalentButtonTemplate
 InspectTalentFrameTalent9 = {}
@@ -857,7 +852,7 @@ InspectTalentFrameTalent10SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L340)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L285)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent10 : Button, TalentButtonTemplate
 InspectTalentFrameTalent10 = {}
@@ -926,7 +921,7 @@ InspectTalentFrameTalent11SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L341)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L286)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent11 : Button, TalentButtonTemplate
 InspectTalentFrameTalent11 = {}
@@ -995,7 +990,7 @@ InspectTalentFrameTalent12SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L287)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent12 : Button, TalentButtonTemplate
 InspectTalentFrameTalent12 = {}
@@ -1064,7 +1059,7 @@ InspectTalentFrameTalent13SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L343)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L288)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent13 : Button, TalentButtonTemplate
 InspectTalentFrameTalent13 = {}
@@ -1133,7 +1128,7 @@ InspectTalentFrameTalent14SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L344)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L289)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent14 : Button, TalentButtonTemplate
 InspectTalentFrameTalent14 = {}
@@ -1202,7 +1197,7 @@ InspectTalentFrameTalent15SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L345)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L290)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent15 : Button, TalentButtonTemplate
 InspectTalentFrameTalent15 = {}
@@ -1271,7 +1266,7 @@ InspectTalentFrameTalent16SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L346)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L291)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent16 : Button, TalentButtonTemplate
 InspectTalentFrameTalent16 = {}
@@ -1340,7 +1335,7 @@ InspectTalentFrameTalent17SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L347)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L292)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent17 : Button, TalentButtonTemplate
 InspectTalentFrameTalent17 = {}
@@ -1409,7 +1404,7 @@ InspectTalentFrameTalent18SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L348)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L293)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent18 : Button, TalentButtonTemplate
 InspectTalentFrameTalent18 = {}
@@ -1478,7 +1473,7 @@ InspectTalentFrameTalent19SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L349)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L294)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent19 : Button, TalentButtonTemplate
 InspectTalentFrameTalent19 = {}
@@ -1547,7 +1542,7 @@ InspectTalentFrameTalent20SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L295)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent20 : Button, TalentButtonTemplate
 InspectTalentFrameTalent20 = {}
@@ -1616,7 +1611,7 @@ InspectTalentFrameTalent21SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L296)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent21 : Button, TalentButtonTemplate
 InspectTalentFrameTalent21 = {}
@@ -1685,7 +1680,7 @@ InspectTalentFrameTalent22SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L352)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L297)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent22 : Button, TalentButtonTemplate
 InspectTalentFrameTalent22 = {}
@@ -1754,7 +1749,7 @@ InspectTalentFrameTalent23SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L353)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L298)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent23 : Button, TalentButtonTemplate
 InspectTalentFrameTalent23 = {}
@@ -1823,7 +1818,7 @@ InspectTalentFrameTalent24SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L299)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent24 : Button, TalentButtonTemplate
 InspectTalentFrameTalent24 = {}
@@ -1892,7 +1887,7 @@ InspectTalentFrameTalent25SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L355)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L300)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent25 : Button, TalentButtonTemplate
 InspectTalentFrameTalent25 = {}
@@ -1961,7 +1956,7 @@ InspectTalentFrameTalent26SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L301)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent26 : Button, TalentButtonTemplate
 InspectTalentFrameTalent26 = {}
@@ -2030,7 +2025,7 @@ InspectTalentFrameTalent27SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L357)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L302)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent27 : Button, TalentButtonTemplate
 InspectTalentFrameTalent27 = {}
@@ -2099,7 +2094,7 @@ InspectTalentFrameTalent28SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L358)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L303)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent28 : Button, TalentButtonTemplate
 InspectTalentFrameTalent28 = {}
@@ -2168,7 +2163,7 @@ InspectTalentFrameTalent29SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L359)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L304)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent29 : Button, TalentButtonTemplate
 InspectTalentFrameTalent29 = {}
@@ -2237,7 +2232,7 @@ InspectTalentFrameTalent30SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L360)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L305)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent30 : Button, TalentButtonTemplate
 InspectTalentFrameTalent30 = {}
@@ -2306,7 +2301,7 @@ InspectTalentFrameTalent31SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L306)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent31 : Button, TalentButtonTemplate
 InspectTalentFrameTalent31 = {}
@@ -2375,7 +2370,7 @@ InspectTalentFrameTalent32SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L307)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent32 : Button, TalentButtonTemplate
 InspectTalentFrameTalent32 = {}
@@ -2444,7 +2439,7 @@ InspectTalentFrameTalent33SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L363)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L308)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent33 : Button, TalentButtonTemplate
 InspectTalentFrameTalent33 = {}
@@ -2513,7 +2508,7 @@ InspectTalentFrameTalent34SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L364)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L309)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent34 : Button, TalentButtonTemplate
 InspectTalentFrameTalent34 = {}
@@ -2582,7 +2577,7 @@ InspectTalentFrameTalent35SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L365)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L310)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent35 : Button, TalentButtonTemplate
 InspectTalentFrameTalent35 = {}
@@ -2651,7 +2646,7 @@ InspectTalentFrameTalent36SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L366)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L311)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent36 : Button, TalentButtonTemplate
 InspectTalentFrameTalent36 = {}
@@ -2720,7 +2715,7 @@ InspectTalentFrameTalent37SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent37NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L367)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L312)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent37 : Button, TalentButtonTemplate
 InspectTalentFrameTalent37 = {}
@@ -2789,7 +2784,7 @@ InspectTalentFrameTalent38SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent38NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L368)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L313)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent38 : Button, TalentButtonTemplate
 InspectTalentFrameTalent38 = {}
@@ -2858,7 +2853,7 @@ InspectTalentFrameTalent39SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent39NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L314)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent39 : Button, TalentButtonTemplate
 InspectTalentFrameTalent39 = {}
@@ -2927,7 +2922,7 @@ InspectTalentFrameTalent40SubIconTexture = {}
 --- @type Texture
 InspectTalentFrameTalent40NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L315)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameTalent40 : Button, TalentButtonTemplate
 InspectTalentFrameTalent40 = {}
@@ -2941,312 +2936,312 @@ InspectTalentFrameTalent40["Count"] = InspectTalentFrameTalent40Count -- inherit
 InspectTalentFrameTalent40["searchOverlay"] = InspectTalentFrameTalent40SearchOverlay -- inherited
 InspectTalentFrameTalent40["subicon"] = InspectTalentFrameTalent40SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L320)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow1 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L321)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow2 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L377)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L322)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow3 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L378)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L323)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow4 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow4 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L379)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L324)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow5 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow5 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L380)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L325)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow6 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow6 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L381)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L326)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow7 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow7 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L382)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L327)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow8 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow8 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L383)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L328)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow9 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow9 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L384)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L329)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow10 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow10 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L385)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L330)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow11 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow11 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L331)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow12 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow12 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L332)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow13 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow13 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L388)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L333)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow14 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow14 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L389)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L334)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow15 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow15 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L390)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L335)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow16 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow16 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L391)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L336)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow17 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow17 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L392)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L337)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow18 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow18 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L393)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L338)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow19 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow19 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L394)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L339)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow20 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow20 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L395)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L340)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow21 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow21 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L341)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow22 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow22 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L397)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L342)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow23 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow23 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L398)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L343)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow24 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow24 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L399)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L344)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow25 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow25 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L400)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L345)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow26 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow26 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L401)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L346)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow27 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow27 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L402)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L347)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow28 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow28 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L403)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L348)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow29 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow29 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L404)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L349)
 --- child of InspectTalentFrameArrowFrame
 --- @class InspectTalentFrameArrow30 : Texture, TalentArrowTemplate
 InspectTalentFrameArrow30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L372)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L317)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameArrowFrame : Frame
 InspectTalentFrameArrowFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L243)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch1 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L244)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch2 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L245)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch3 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L246)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch4 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch4 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L247)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch5 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch5 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L248)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch6 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch6 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L249)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch7 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch7 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L250)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch8 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch8 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L306)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L251)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch9 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch9 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L307)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L252)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch10 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch10 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L308)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L253)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch11 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch11 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L254)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch12 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch12 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L255)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch13 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch13 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L311)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L256)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch14 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch14 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L312)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L257)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch15 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch15 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L313)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L258)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch16 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch16 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L259)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch17 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch17 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L260)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch18 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch18 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L261)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch19 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch19 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L317)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L262)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch20 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch20 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L318)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L263)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch21 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch21 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L264)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch22 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch22 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L265)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch23 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch23 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L321)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L266)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch24 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch24 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L267)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch25 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch25 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L323)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L268)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch26 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch26 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L324)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L269)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch27 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch27 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L325)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L270)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch28 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch28 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L326)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L271)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch29 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch29 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L327)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L272)
 --- child of InspectTalentFrameScrollChildFrame
 --- @class InspectTalentFrameBranch30 : Texture, TalentBranchTemplate
 InspectTalentFrameBranch30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L234)
 --- child of InspectTalentFrameScrollFrame
 --- @class InspectTalentFrameScrollChildFrame : Frame
 InspectTalentFrameScrollChildFrame = {}
@@ -3274,38 +3269,38 @@ InspectTalentFrameScrollFrameScrollBar["ScrollUpButton"] = InspectTalentFrameScr
 InspectTalentFrameScrollFrameScrollBar["ScrollDownButton"] = InspectTalentFrameScrollFrameScrollBarScrollDownButton -- inherited
 InspectTalentFrameScrollFrameScrollBar["ThumbTexture"] = InspectTalentFrameScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L189)
 --- child of InspectTalentFrame
 --- @class InspectTalentFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 InspectTalentFrameScrollFrame = {}
 InspectTalentFrameScrollFrame["ScrollBar"] = InspectTalentFrameScrollFrameScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L412)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L357)
 --- child of InspectTalentFrame
 --- @class InspectTalentFrameScrollButtonOverlay : Frame
 InspectTalentFrameScrollButtonOverlay = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L9)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L13)
 --- child of InspectTalentFrame
 --- @class InspectTalentFramePortrait : Texture
 InspectTalentFramePortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L27)
 --- child of InspectTalentFrame
 --- @class InspectTalentFrameBackgroundTopLeft : Texture
 InspectTalentFrameBackgroundTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L39)
 --- child of InspectTalentFrame
 --- @class InspectTalentFrameBackgroundTopRight : Texture
 InspectTalentFrameBackgroundTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L51)
 --- child of InspectTalentFrame
 --- @class InspectTalentFrameBackgroundBottomLeft : Texture
 InspectTalentFrameBackgroundBottomLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L109)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L63)
 --- child of InspectTalentFrame
 --- @class InspectTalentFrameBackgroundBottomRight : Texture
 InspectTalentFrameBackgroundBottomRight = {}

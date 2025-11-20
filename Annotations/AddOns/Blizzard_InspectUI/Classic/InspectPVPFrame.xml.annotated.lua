@@ -1,86 +1,86 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L41)
 --- child of InspectPVPFrameHonor
 --- @class InspectPVPFrameHonorLabel : FontString, GameFontHighlightSmall
 InspectPVPFrameHonorLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L50)
 --- child of InspectPVPFrameHonor
 --- @class InspectPVPFrameHonorPoints : FontString, GameFontNormal
 InspectPVPFrameHonorPoints = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L59)
 --- child of InspectPVPFrameHonor
 --- @class InspectPVPFrameHonorIcon : Texture
 InspectPVPFrameHonorIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L74)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L28)
 --- child of InspectPVPFrame
 --- @class InspectPVPFrameHonor : Frame
 InspectPVPFrameHonor = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L98)
 --- child of InspectPVPFrameArena
 --- @class InspectPVPFrameArenaLabel : FontString, GameFontHighlightSmall
 InspectPVPFrameArenaLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L107)
 --- child of InspectPVPFrameArena
 --- @class InspectPVPFrameArenaPoints : FontString, GameFontNormal
 InspectPVPFrameArenaPoints = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L162)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L116)
 --- child of InspectPVPFrameArena
 --- @class InspectPVPFrameArenaIcon : Texture
 InspectPVPFrameArenaIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L85)
 --- child of InspectPVPFrame
 --- @class InspectPVPFrameArena : Frame
 InspectPVPFrameArena = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L202)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L156)
 --- child of InspectPVPHonor
 --- @class InspectPVPHonorKillsLabel : FontString, GameFontDisableSmall
 InspectPVPHonorKillsLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L168)
 --- child of InspectPVPHonor
 --- @class InspectPVPFrameLine1 : Texture
 InspectPVPFrameLine1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L182)
 --- child of InspectPVPHonor
 --- @class InspectPVPHonorTodayLabel : FontString, GameFontDisableSmall
 InspectPVPHonorTodayLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L191)
 --- child of InspectPVPHonor
 --- @class InspectPVPHonorTodayKills : FontString, GameFontHighlightSmall
 InspectPVPHonorTodayKills = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L251)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L205)
 --- child of InspectPVPHonor
 --- @class InspectPVPHonorYesterdayLabel : FontString, GameFontDisableSmall
 InspectPVPHonorYesterdayLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L258)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L212)
 --- child of InspectPVPHonor
 --- @class InspectPVPHonorYesterdayKills : FontString, GameFontHighlightSmall
 InspectPVPHonorYesterdayKills = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L226)
 --- child of InspectPVPHonor
 --- @class InspectPVPHonorLifetimeLabel : FontString, GameFontDisableSmall
 InspectPVPHonorLifetimeLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L235)
 --- child of InspectPVPHonor
 --- @class InspectPVPHonorLifetimeKills : FontString, GameFontHighlightSmall
 InspectPVPHonorLifetimeKills = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L143)
 --- child of InspectPVPFrame
 --- @class InspectPVPHonor : Frame
 InspectPVPHonor = {}
@@ -110,7 +110,7 @@ InspectPVPTeam1StandardEmblem = {}
 --- @type PVPTeamStandardTemplate_Rank
 InspectPVPTeam1StandardRank = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L252)
 --- child of InspectPVPFrame
 --- @class InspectPVPTeam1Standard : Frame, PVPTeamStandardTemplate
 InspectPVPTeam1Standard = {}
@@ -175,12 +175,12 @@ InspectPVPTeam1DataPlayedLabel = {}
 --- @type PVPTeamDataTemplate_Played
 InspectPVPTeam1DataPlayed = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L329)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L283)
 --- child of InspectPVPTeam1
 --- @class InspectPVPTeam1Data : Frame, PVPTeamDataTemplate
 InspectPVPTeam1Data = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L317)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L271)
 --- child of InspectPVPTeam1
 --- @class InspectPVPTeam1TeamType : FontString, GameFontDisableLarge
 InspectPVPTeam1TeamType = {}
@@ -215,7 +215,7 @@ InspectPVPTeam1Right = {}
 --- @type Texture
 InspectPVPTeam1Bottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L307)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L261)
 --- child of InspectPVPFrame
 --- @class InspectPVPTeam1 : Button, PVPTeamBorderTemplate
 InspectPVPTeam1 = {}
@@ -245,7 +245,7 @@ InspectPVPTeam2StandardEmblem = {}
 --- @type PVPTeamStandardTemplate_Rank
 InspectPVPTeam2StandardRank = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L348)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L302)
 --- child of InspectPVPFrame
 --- @class InspectPVPTeam2Standard : Frame, PVPTeamStandardTemplate
 InspectPVPTeam2Standard = {}
@@ -310,12 +310,12 @@ InspectPVPTeam2DataPlayedLabel = {}
 --- @type PVPTeamDataTemplate_Played
 InspectPVPTeam2DataPlayed = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L379)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L333)
 --- child of InspectPVPTeam2
 --- @class InspectPVPTeam2Data : Frame, PVPTeamDataTemplate
 InspectPVPTeam2Data = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L367)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L321)
 --- child of InspectPVPTeam2
 --- @class InspectPVPTeam2TeamType : FontString, GameFontDisableLarge
 InspectPVPTeam2TeamType = {}
@@ -350,7 +350,7 @@ InspectPVPTeam2Right = {}
 --- @type Texture
 InspectPVPTeam2Bottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L357)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L311)
 --- child of InspectPVPFrame
 --- @class InspectPVPTeam2 : Button, PVPTeamBorderTemplate
 InspectPVPTeam2 = {}
@@ -380,7 +380,7 @@ InspectPVPTeam3StandardEmblem = {}
 --- @type PVPTeamStandardTemplate_Rank
 InspectPVPTeam3StandardRank = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L398)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L352)
 --- child of InspectPVPFrame
 --- @class InspectPVPTeam3Standard : Frame, PVPTeamStandardTemplate
 InspectPVPTeam3Standard = {}
@@ -445,12 +445,12 @@ InspectPVPTeam3DataPlayedLabel = {}
 --- @type PVPTeamDataTemplate_Played
 InspectPVPTeam3DataPlayed = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L429)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L383)
 --- child of InspectPVPTeam3
 --- @class InspectPVPTeam3Data : Frame, PVPTeamDataTemplate
 InspectPVPTeam3Data = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L417)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L371)
 --- child of InspectPVPTeam3
 --- @class InspectPVPTeam3TeamType : FontString, GameFontDisableLarge
 InspectPVPTeam3TeamType = {}
@@ -485,12 +485,12 @@ InspectPVPTeam3Right = {}
 --- @type Texture
 InspectPVPTeam3Bottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L407)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L361)
 --- child of InspectPVPFrame
 --- @class InspectPVPTeam3 : Button, PVPTeamBorderTemplate
 InspectPVPTeam3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_InspectUI/Classic/InspectPVPFrame.xml#L13)
 --- child of InspectPVPFrame
 --- @class InspectPVPFrameBackground : Texture
 InspectPVPFrameBackground = {}

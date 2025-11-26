@@ -47,17 +47,17 @@ function BattlefieldMapMixin:OnHide() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L184)
 function BattlefieldMapMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L225)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L220)
 function BattlefieldMapMixin:AddStandardDataProviders() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L278)
 function BattlefieldMapMixin:RefreshAlpha() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L284)
 function BattlefieldMapMixin:UpdateUnitsVisibility() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L298)
 function BattlefieldMapMixin:OnUpdate(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_BattlefieldMap/Blizzard_BattlefieldMap.lua#L346)
 function BattlefieldMapMixin:SetSpectatorMode(spectatorMode) end

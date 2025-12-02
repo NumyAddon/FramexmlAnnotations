@@ -75,12 +75,12 @@
 --- @field inactiveAtlas string # icon_trackedbuffs
 --- @field tooltipText any # COOLDOWN_VIEWER_SETTINGS_TAB_BUFFS
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L1243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L40)
 --- child of CooldownViewerSettings_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 CooldownViewerSettingsClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L1234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L31)
 --- child of CooldownViewerSettings_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 CooldownViewerSettingsSearchIcon = {}
@@ -118,18 +118,18 @@ CooldownViewerSettingsSearchIcon = {}
 --- @class CooldownViewerSettings_ReorderMarker : Frame, CooldownViewerSettingsReorderMarkerMixin
 --- @field Texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L887)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L686)
 --- child of CooldownViewerSettings (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 CooldownViewerSettingsInset = {}
 CooldownViewerSettingsInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L881)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L680)
 --- child of CooldownViewerSettings (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 CooldownViewerSettingsCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L864)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L663)
 --- child of CooldownViewerSettings (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 CooldownViewerSettingsBg = {}

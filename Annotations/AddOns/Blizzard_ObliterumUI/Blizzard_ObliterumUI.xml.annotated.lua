@@ -11,18 +11,18 @@
 --- child of ObliterumForgeFrame
 --- @class ObliterumForgeFrame_ObliterateButton : Button, MagicButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.xml#L887)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.xml#L686)
 --- child of ObliterumForgeFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ObliterumForgeFrameInset = {}
 ObliterumForgeFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.xml#L881)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.xml#L680)
 --- child of ObliterumForgeFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 ObliterumForgeFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.xml#L864)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObliterumUI/Blizzard_ObliterumUI.xml#L663)
 --- child of ObliterumForgeFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ObliterumForgeFrameBg = {}

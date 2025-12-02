@@ -49,7 +49,7 @@
 --- @field ignoreColorOverrides boolean # true
 --- @field Text LootFrameMoneyElementTemplate_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L730)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/LootFrame.xml#L529)
 --- child of LootFrame (created in template DefaultPanelFlatTemplate)
 --- @type DefaultPanelFlatTemplate_Bg
 LootFrameBg = {}
@@ -65,7 +65,4 @@ LootFrame["panelMaxHeight"] = 290
 LootFrame["panelWidth"] = 220
 LootFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 LootFrame["Bg"] = LootFrameBg -- inherited
-LootFrame["system"] = Enum.EditModeSystem.LootFrame -- inherited
-LootFrame["systemNameString"] = HUD_EDIT_MODE_LOOT_FRAME_LABEL -- inherited
-LootFrame["defaultHideSelection"] = true -- inherited
 

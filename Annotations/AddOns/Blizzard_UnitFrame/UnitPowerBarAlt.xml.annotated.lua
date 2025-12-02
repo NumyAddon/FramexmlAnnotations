@@ -114,9 +114,6 @@ EncounterBar["align"] = "center" -- inherited
 EncounterBar["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 EncounterBar["isBottomManagedFrame"] = true -- inherited
 EncounterBar["isManagedFrame"] = true -- inherited
-EncounterBar["system"] = Enum.EditModeSystem.EncounterBar -- inherited
-EncounterBar["systemNameString"] = HUD_EDIT_MODE_ENCOUNTER_BAR_LABEL -- inherited
-EncounterBar["defaultHideSelection"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/UnitPowerBarAlt.xml#L96)
 --- child of PlayerPowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)

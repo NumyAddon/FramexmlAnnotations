@@ -94,18 +94,18 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L389)
 --- Template
---- @class FloatingChatFrameTemplate : ScrollingMessageFrame, ChatFrameTemplate, FloatingBorderedFrame
+--- @class FloatingChatFrameTemplate : ScrollingMessageFrame, ChatFrameTemplate, FloatingBorderedFrame, FloatingChatFrameMixin
 --- @field clickAnywhereButton Button
 --- @field ResizeButton FloatingChatFrameTemplate_ResizeButton
 --- @field buttonFrame FloatingChatFrameTemplate_ButtonFrame
 --- @field ScrollToBottomButton FloatingChatFrameTemplate_ScrollToBottomButton
 --- @field editBox FloatingChatFrameTemplate_EditBox
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L591)
 --- child of FloatingChatFrameMinimizedTemplate
 --- @class FloatingChatFrameMinimizedTemplate_MaximizeButton : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L528)
 --- Template
 --- @class FloatingChatFrameMinimizedTemplate : Button
 --- @field Left Texture
@@ -138,7 +138,7 @@ GeneralDockManagerScrollFrame["dynTabSize"] = 1
 --- @type Texture
 GeneralDockManagerInsertHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L640)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L631)
 --- @class GeneralDockManager : Frame, DockManagerTemplate
 GeneralDockManager = {}
 GeneralDockManager["overflowButton"] = GeneralDockManagerOverflowButton -- inherited
@@ -155,7 +155,7 @@ ChatFrame1TabFlash = {}
 --- @type Texture
 ChatFrame1TabGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L653)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L644)
 --- @class ChatFrame1Tab : Button, ChatTabTemplate
 ChatFrame1Tab = {}
 ChatFrame1Tab["glow"] = ChatFrame1TabGlow -- inherited
@@ -226,57 +226,57 @@ ChatFrame1ButtonFrame = {}
 ChatFrame1ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame1ButtonFrame["Background"] = ChatFrame1ButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L80)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 ChatFrame1EditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame1EditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L12)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame1EditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L18)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame1EditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L27)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame1EditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L33)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame1EditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L39)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame1EditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L48)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 ChatFrame1EditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L54)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 ChatFrame1EditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L65)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 ChatFrame1EditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L71)
 --- child of ChatFrame1EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 ChatFrame1EditBoxPrompt = {}
@@ -338,7 +338,7 @@ ChatFrame1BottomTexture = {}
 --- @type Texture
 ChatFrame1TopTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L654)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L645)
 --- @class ChatFrame1 : ScrollingMessageFrame, FloatingChatFrameTemplate, EditModeChatFrameSystemTemplate, PrimaryChatFrameMixin
 --- @field allowAtGlues boolean # true
 ChatFrame1 = {}
@@ -348,10 +348,8 @@ ChatFrame1["ResizeButton"] = ChatFrame1ResizeButton -- inherited
 ChatFrame1["buttonFrame"] = ChatFrame1ButtonFrame -- inherited
 ChatFrame1["editBox"] = ChatFrame1EditBox -- inherited
 ChatFrame1["Background"] = ChatFrame1Background -- inherited
-ChatFrame1["system"] = Enum.EditModeSystem.ChatFrame -- inherited
-ChatFrame1["systemNameString"] = HUD_EDIT_MODE_CHAT_FRAME_LABEL -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L668)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L659)
 --- @class ChatFrameMenuButton : DropdownButton, ChatFrameMenuButtonMixin
 ChatFrameMenuButton = {}
 
@@ -365,7 +363,7 @@ ChatFrame2TabFlash = {}
 --- @type Texture
 ChatFrame2TabGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L684)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L675)
 --- @class ChatFrame2Tab : Button, ChatTabTemplate
 ChatFrame2Tab = {}
 ChatFrame2Tab["glow"] = ChatFrame2TabGlow -- inherited
@@ -436,57 +434,57 @@ ChatFrame2ButtonFrame = {}
 ChatFrame2ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame2ButtonFrame["Background"] = ChatFrame2ButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L80)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 ChatFrame2EditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame2EditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L12)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame2EditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L18)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame2EditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L27)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame2EditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L33)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame2EditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L39)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame2EditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L48)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 ChatFrame2EditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L54)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 ChatFrame2EditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L65)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 ChatFrame2EditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L71)
 --- child of ChatFrame2EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 ChatFrame2EditBoxPrompt = {}
@@ -548,7 +546,7 @@ ChatFrame2BottomTexture = {}
 --- @type Texture
 ChatFrame2TopTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L685)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L676)
 --- @class ChatFrame2 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame2 = {}
 ChatFrame2["clickAnywhereButton"] = ChatFrame2ClickAnywhereButton -- inherited
@@ -567,7 +565,7 @@ ChatFrame3TabFlash = {}
 --- @type Texture
 ChatFrame3TabGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L694)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L683)
 --- @class ChatFrame3Tab : Button, ChatTabTemplate
 ChatFrame3Tab = {}
 ChatFrame3Tab["glow"] = ChatFrame3TabGlow -- inherited
@@ -638,57 +636,57 @@ ChatFrame3ButtonFrame = {}
 ChatFrame3ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame3ButtonFrame["Background"] = ChatFrame3ButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L80)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 ChatFrame3EditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame3EditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L12)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame3EditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L18)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame3EditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L27)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame3EditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L33)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame3EditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L39)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame3EditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L48)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 ChatFrame3EditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L54)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 ChatFrame3EditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L65)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 ChatFrame3EditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L71)
 --- child of ChatFrame3EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 ChatFrame3EditBoxPrompt = {}
@@ -750,7 +748,7 @@ ChatFrame3BottomTexture = {}
 --- @type Texture
 ChatFrame3TopTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L695)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L684)
 --- @class ChatFrame3 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame3 = {}
 ChatFrame3["clickAnywhereButton"] = ChatFrame3ClickAnywhereButton -- inherited
@@ -769,7 +767,7 @@ ChatFrame4TabFlash = {}
 --- @type Texture
 ChatFrame4TabGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L696)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L685)
 --- @class ChatFrame4Tab : Button, ChatTabTemplate
 ChatFrame4Tab = {}
 ChatFrame4Tab["glow"] = ChatFrame4TabGlow -- inherited
@@ -840,57 +838,57 @@ ChatFrame4ButtonFrame = {}
 ChatFrame4ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame4ButtonFrame["Background"] = ChatFrame4ButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L80)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 ChatFrame4EditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame4EditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L12)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame4EditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L18)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame4EditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L27)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame4EditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L33)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame4EditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L39)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame4EditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L48)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 ChatFrame4EditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L54)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 ChatFrame4EditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L65)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 ChatFrame4EditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L71)
 --- child of ChatFrame4EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 ChatFrame4EditBoxPrompt = {}
@@ -952,7 +950,7 @@ ChatFrame4BottomTexture = {}
 --- @type Texture
 ChatFrame4TopTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L697)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L686)
 --- @class ChatFrame4 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame4 = {}
 ChatFrame4["clickAnywhereButton"] = ChatFrame4ClickAnywhereButton -- inherited
@@ -971,7 +969,7 @@ ChatFrame5TabFlash = {}
 --- @type Texture
 ChatFrame5TabGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L698)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L687)
 --- @class ChatFrame5Tab : Button, ChatTabTemplate
 ChatFrame5Tab = {}
 ChatFrame5Tab["glow"] = ChatFrame5TabGlow -- inherited
@@ -1042,57 +1040,57 @@ ChatFrame5ButtonFrame = {}
 ChatFrame5ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame5ButtonFrame["Background"] = ChatFrame5ButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L80)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 ChatFrame5EditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame5EditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L12)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame5EditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L18)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame5EditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L27)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame5EditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L33)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame5EditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L39)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame5EditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L48)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 ChatFrame5EditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L54)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 ChatFrame5EditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L65)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 ChatFrame5EditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L71)
 --- child of ChatFrame5EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 ChatFrame5EditBoxPrompt = {}
@@ -1154,7 +1152,7 @@ ChatFrame5BottomTexture = {}
 --- @type Texture
 ChatFrame5TopTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L699)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L688)
 --- @class ChatFrame5 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame5 = {}
 ChatFrame5["clickAnywhereButton"] = ChatFrame5ClickAnywhereButton -- inherited
@@ -1173,7 +1171,7 @@ ChatFrame6TabFlash = {}
 --- @type Texture
 ChatFrame6TabGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L700)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L689)
 --- @class ChatFrame6Tab : Button, ChatTabTemplate
 ChatFrame6Tab = {}
 ChatFrame6Tab["glow"] = ChatFrame6TabGlow -- inherited
@@ -1244,57 +1242,57 @@ ChatFrame6ButtonFrame = {}
 ChatFrame6ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame6ButtonFrame["Background"] = ChatFrame6ButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L80)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 ChatFrame6EditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame6EditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L12)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame6EditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L18)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame6EditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L27)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame6EditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L33)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame6EditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L39)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame6EditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L48)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 ChatFrame6EditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L54)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 ChatFrame6EditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L65)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 ChatFrame6EditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L71)
 --- child of ChatFrame6EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 ChatFrame6EditBoxPrompt = {}
@@ -1356,7 +1354,7 @@ ChatFrame6BottomTexture = {}
 --- @type Texture
 ChatFrame6TopTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L701)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L690)
 --- @class ChatFrame6 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame6 = {}
 ChatFrame6["clickAnywhereButton"] = ChatFrame6ClickAnywhereButton -- inherited
@@ -1375,7 +1373,7 @@ ChatFrame7TabFlash = {}
 --- @type Texture
 ChatFrame7TabGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L702)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L691)
 --- @class ChatFrame7Tab : Button, ChatTabTemplate
 ChatFrame7Tab = {}
 ChatFrame7Tab["glow"] = ChatFrame7TabGlow -- inherited
@@ -1446,57 +1444,57 @@ ChatFrame7ButtonFrame = {}
 ChatFrame7ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame7ButtonFrame["Background"] = ChatFrame7ButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L80)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 ChatFrame7EditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame7EditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L12)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame7EditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L18)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame7EditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L27)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame7EditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L33)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame7EditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L39)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame7EditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L48)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 ChatFrame7EditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L54)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 ChatFrame7EditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L65)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 ChatFrame7EditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L71)
 --- child of ChatFrame7EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 ChatFrame7EditBoxPrompt = {}
@@ -1558,7 +1556,7 @@ ChatFrame7BottomTexture = {}
 --- @type Texture
 ChatFrame7TopTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L703)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L692)
 --- @class ChatFrame7 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame7 = {}
 ChatFrame7["clickAnywhereButton"] = ChatFrame7ClickAnywhereButton -- inherited
@@ -1577,7 +1575,7 @@ ChatFrame8TabFlash = {}
 --- @type Texture
 ChatFrame8TabGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L704)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L693)
 --- @class ChatFrame8Tab : Button, ChatTabTemplate
 ChatFrame8Tab = {}
 ChatFrame8Tab["glow"] = ChatFrame8TabGlow -- inherited
@@ -1648,57 +1646,57 @@ ChatFrame8ButtonFrame = {}
 ChatFrame8ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame8ButtonFrame["Background"] = ChatFrame8ButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L80)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 ChatFrame8EditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame8EditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L12)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame8EditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L18)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame8EditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L27)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame8EditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L33)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame8EditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L39)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame8EditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L48)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 ChatFrame8EditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L54)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 ChatFrame8EditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L65)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 ChatFrame8EditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L71)
 --- child of ChatFrame8EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 ChatFrame8EditBoxPrompt = {}
@@ -1760,7 +1758,7 @@ ChatFrame8BottomTexture = {}
 --- @type Texture
 ChatFrame8TopTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L705)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L694)
 --- @class ChatFrame8 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame8 = {}
 ChatFrame8["clickAnywhereButton"] = ChatFrame8ClickAnywhereButton -- inherited
@@ -1779,7 +1777,7 @@ ChatFrame9TabFlash = {}
 --- @type Texture
 ChatFrame9TabGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L706)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L695)
 --- @class ChatFrame9Tab : Button, ChatTabTemplate
 ChatFrame9Tab = {}
 ChatFrame9Tab["glow"] = ChatFrame9TabGlow -- inherited
@@ -1850,57 +1848,57 @@ ChatFrame9ButtonFrame = {}
 ChatFrame9ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame9ButtonFrame["Background"] = ChatFrame9ButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L80)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 ChatFrame9EditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame9EditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L12)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame9EditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L18)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame9EditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L27)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame9EditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L33)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame9EditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L39)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame9EditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L48)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 ChatFrame9EditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L54)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 ChatFrame9EditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L65)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 ChatFrame9EditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L71)
 --- child of ChatFrame9EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 ChatFrame9EditBoxPrompt = {}
@@ -1962,7 +1960,7 @@ ChatFrame9BottomTexture = {}
 --- @type Texture
 ChatFrame9TopTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L707)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L696)
 --- @class ChatFrame9 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame9 = {}
 ChatFrame9["clickAnywhereButton"] = ChatFrame9ClickAnywhereButton -- inherited
@@ -1981,7 +1979,7 @@ ChatFrame10TabFlash = {}
 --- @type Texture
 ChatFrame10TabGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L708)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L697)
 --- @class ChatFrame10Tab : Button, ChatTabTemplate
 ChatFrame10Tab = {}
 ChatFrame10Tab["glow"] = ChatFrame10TabGlow -- inherited
@@ -2052,57 +2050,57 @@ ChatFrame10ButtonFrame = {}
 ChatFrame10ButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 ChatFrame10ButtonFrame["Background"] = ChatFrame10ButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L80)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 ChatFrame10EditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L6)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame10EditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L12)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame10EditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L18)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame10EditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L27)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame10EditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L33)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame10EditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L39)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 ChatFrame10EditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L48)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 ChatFrame10EditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L54)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 ChatFrame10EditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L65)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 ChatFrame10EditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L71)
 --- child of ChatFrame10EditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 ChatFrame10EditBoxPrompt = {}
@@ -2164,7 +2162,7 @@ ChatFrame10BottomTexture = {}
 --- @type Texture
 ChatFrame10TopTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L709)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L698)
 --- @class ChatFrame10 : ScrollingMessageFrame, FloatingChatFrameTemplate
 ChatFrame10 = {}
 ChatFrame10["clickAnywhereButton"] = ChatFrame10ClickAnywhereButton -- inherited
@@ -2173,7 +2171,7 @@ ChatFrame10["buttonFrame"] = ChatFrame10ButtonFrame -- inherited
 ChatFrame10["editBox"] = ChatFrame10EditBox -- inherited
 ChatFrame10["Background"] = ChatFrame10Background -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L712)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrameBase/Mainline/FloatingChatFrame.xml#L701)
 --- @class FloatingChatFrameManager : Frame
 FloatingChatFrameManager = {}
 

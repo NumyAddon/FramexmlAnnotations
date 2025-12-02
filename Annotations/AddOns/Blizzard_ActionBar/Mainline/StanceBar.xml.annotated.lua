@@ -30,6 +30,4 @@ StanceBar["noSpacers"] = true
 StanceBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.StanceBar
 StanceBar["systemNameString"] = HUD_EDIT_MODE_STANCE_BAR_LABEL
 StanceBar["defaultHideSelection"] = true
-StanceBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
-StanceBar["addSystemIndexToName"] = true -- inherited
 

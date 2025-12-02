@@ -131,57 +131,57 @@ GMChatFrameButtonFrame = {}
 GMChatFrameButtonFrame["minimizeButton"] = FloatingChatFrameTemplateButtonFrameMinimizeButton
 GMChatFrameButtonFrame["Background"] = GMChatFrameButtonFrameBackground -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L80)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Language
 GMChatFrameEditBoxLanguage = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L6)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 GMChatFrameEditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L12)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 GMChatFrameEditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L18)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 GMChatFrameEditBoxMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L27)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 GMChatFrameEditBoxFocusLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L33)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 GMChatFrameEditBoxFocusRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L39)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type Texture
 GMChatFrameEditBoxFocusMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L48)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Header
 GMChatFrameEditBoxHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L54)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_HeaderSuffix
 GMChatFrameEditBoxHeaderSuffix = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L65)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_NewcomerHint
 GMChatFrameEditBoxNewcomerHint = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L71)
 --- child of GMChatFrameEditBox (created in template ChatFrameEditBoxTemplate)
 --- @type ChatFrameEditBoxTemplate_Prompt
 GMChatFrameEditBoxPrompt = {}

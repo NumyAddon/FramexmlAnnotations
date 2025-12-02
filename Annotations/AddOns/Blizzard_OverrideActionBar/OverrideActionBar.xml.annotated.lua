@@ -1,46 +1,46 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L3)
 --- Explicitly protected
 --- Template
 --- @class OverrideActionBarButtonTemplate : CheckButton, ActionBarButtonTemplate, OverrideActionBarButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L175)
 --- child of OverrideActionBarPitchFrame
 --- @class OverrideActionBarPitchFramePitchUpButton : Button
 OverrideActionBarPitchFramePitchUpButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L200)
 --- child of OverrideActionBarPitchFrame
 --- @class OverrideActionBarPitchFramePitchDownButton : Button
 OverrideActionBarPitchFramePitchDownButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L131)
 --- child of OverrideActionBarPitchFrame
 --- @class OverrideActionBarPitchFrameDivider1 : Texture
 OverrideActionBarPitchFrameDivider1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L140)
 --- child of OverrideActionBarPitchFrame
 --- @class OverrideActionBarPitchFramePitchOverlay : Texture
 OverrideActionBarPitchFramePitchOverlay = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L149)
 --- child of OverrideActionBarPitchFrame
 --- @class OverrideActionBarPitchFramePitchBG : Texture
 OverrideActionBarPitchFramePitchBG = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L157)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L156)
 --- child of OverrideActionBarPitchFrame
 --- @class OverrideActionBarPitchFramePitchButtonBG : Texture
 OverrideActionBarPitchFramePitchButtonBG = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L165)
 --- child of OverrideActionBarPitchFrame
 --- @class OverrideActionBarPitchFramePitchMarker : Texture
 OverrideActionBarPitchFramePitchMarker = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L124)
 --- child of OverrideActionBar
 --- @class OverrideActionBarPitchFrame : Frame
 --- @field PitchUpButton OverrideActionBarPitchFramePitchUpButton
@@ -59,22 +59,22 @@ OverrideActionBarPitchFrame["PitchBG"] = OverrideActionBarPitchFramePitchBG
 OverrideActionBarPitchFrame["PitchButtonBG"] = OverrideActionBarPitchFramePitchButtonBG
 OverrideActionBarPitchFrame["PitchMarker"] = OverrideActionBarPitchFramePitchMarker
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L267)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L266)
 --- child of OverrideActionBarLeaveFrame
 --- @class OverrideActionBarLeaveFrameLeaveButton : Button
 OverrideActionBarLeaveFrameLeaveButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L247)
 --- child of OverrideActionBarLeaveFrame
 --- @class OverrideActionBarLeaveFrameDivider3 : Texture
 OverrideActionBarLeaveFrameDivider3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L256)
 --- child of OverrideActionBarLeaveFrame
 --- @class OverrideActionBarLeaveFrameExitBG : Texture
 OverrideActionBarLeaveFrameExitBG = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L241)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L240)
 --- child of OverrideActionBar
 --- @class OverrideActionBarLeaveFrame : Frame
 --- @field LeaveButton OverrideActionBarLeaveFrameLeaveButton
@@ -85,34 +85,34 @@ OverrideActionBarLeaveFrame["LeaveButton"] = OverrideActionBarLeaveFrameLeaveBut
 OverrideActionBarLeaveFrame["Divider3"] = OverrideActionBarLeaveFrameDivider3
 OverrideActionBarLeaveFrame["ExitBG"] = OverrideActionBarLeaveFrameExitBG
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L347)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L346)
 --- child of OverrideActionBarExpBarOverlayFrame
 --- @class OverrideActionBarExpBarOverlayFrameText : FontString, TextStatusBarText
 OverrideActionBarExpBarOverlayFrameText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L340)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L339)
 --- child of OverrideActionBarExpBar
 --- @class OverrideActionBarExpBarOverlayFrame : Frame
 --- @field text OverrideActionBarExpBarOverlayFrameText
 OverrideActionBarExpBarOverlayFrame = {}
 OverrideActionBarExpBarOverlayFrame["text"] = OverrideActionBarExpBarOverlayFrameText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L315)
 --- child of OverrideActionBarExpBar
 --- @class OverrideActionBarExpBarXpMid : Texture
 OverrideActionBarExpBarXpMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L323)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L322)
 --- child of OverrideActionBarExpBar
 --- @class OverrideActionBarExpBarXpL : Texture
 OverrideActionBarExpBarXpL = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L330)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L329)
 --- child of OverrideActionBarExpBar
 --- @class OverrideActionBarExpBarXpR : Texture
 OverrideActionBarExpBarXpR = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L303)
 --- child of OverrideActionBar
 --- @class OverrideActionBarExpBar : StatusBar, TextStatusBar
 --- @field XpMid OverrideActionBarExpBarXpMid
@@ -123,22 +123,22 @@ OverrideActionBarExpBar["XpMid"] = OverrideActionBarExpBarXpMid
 OverrideActionBarExpBar["XpL"] = OverrideActionBarExpBarXpL
 OverrideActionBarExpBar["XpR"] = OverrideActionBarExpBarXpR
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L416)
 --- child of OverrideActionBarHealthBar
 --- @class OverrideActionBarHealthBarBackground : Texture
 OverrideActionBarHealthBarBackground = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L431)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L425)
 --- child of OverrideActionBarHealthBar
 --- @class OverrideActionBarHealthBarOverlay : Texture
 OverrideActionBarHealthBarOverlay = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L438)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L432)
 --- child of OverrideActionBarHealthBar
 --- @class OverrideActionBarHealthBarText : FontString, VehicleMenuBarStatusBarText
 OverrideActionBarHealthBarText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L415)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L409)
 --- child of OverrideActionBar
 --- @class OverrideActionBarHealthBar : StatusBar, TextStatusBar
 --- @field HealthBarBG OverrideActionBarHealthBarBackground
@@ -149,22 +149,22 @@ OverrideActionBarHealthBar["HealthBarBG"] = OverrideActionBarHealthBarBackground
 OverrideActionBarHealthBar["HealthBarOverlay"] = OverrideActionBarHealthBarOverlay
 OverrideActionBarHealthBar["text"] = OverrideActionBarHealthBarText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L480)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L474)
 --- child of OverrideActionBarPowerBar
 --- @class OverrideActionBarPowerBarBackground : Texture
 OverrideActionBarPowerBarBackground = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L489)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L483)
 --- child of OverrideActionBarPowerBar
 --- @class OverrideActionBarPowerBarOverlay : Texture
 OverrideActionBarPowerBarOverlay = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L496)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L490)
 --- child of OverrideActionBarPowerBar
 --- @class OverrideActionBarPowerBarText : FontString, VehicleMenuBarStatusBarText
 OverrideActionBarPowerBarText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L473)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L467)
 --- child of OverrideActionBar
 --- @class OverrideActionBarPowerBar : StatusBar, TextStatusBar
 --- @field PowerBarBG OverrideActionBarPowerBarBackground
@@ -175,41 +175,42 @@ OverrideActionBarPowerBar["PowerBarBG"] = OverrideActionBarPowerBarBackground
 OverrideActionBarPowerBar["PowerBarOverlay"] = OverrideActionBarPowerBarOverlay
 OverrideActionBarPowerBar["parentKey"] = OverrideActionBarPowerBarText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L110)
 --- child of OverrideActionBarButton1 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton1Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L349)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L22)
 --- child of OverrideActionBarButton1 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton1Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L35)
 --- child of OverrideActionBarButton1 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton1Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L42)
 --- child of OverrideActionBarButton1 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 OverrideActionBarButton1Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L48)
 --- child of OverrideActionBarButton1 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton1Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L455)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L129)
 --- child of OverrideActionBarButton1 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L528)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L522)
 --- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton1 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton1 = {}
+OverrideActionBarButton1["enableSpellFX"] = true -- inherited
 OverrideActionBarButton1["popupDirection"] = "UP" -- inherited
 OverrideActionBarButton1["popupOffset"] = -4 -- inherited
 OverrideActionBarButton1["popupCrossAxisSize"] = 47 -- inherited
@@ -217,6 +218,10 @@ OverrideActionBarButton1["openArrowOffset"] = 2 -- inherited
 OverrideActionBarButton1["closedArrowOffset"] = 4 -- inherited
 OverrideActionBarButton1["arrowMainAxisSize"] = 18 -- inherited
 OverrideActionBarButton1["arrowCrossAxisSize"] = 7 -- inherited
+OverrideActionBarButton1["hotkeyTextKeyboardX"] = -4 -- inherited
+OverrideActionBarButton1["hotkeyTextKeyboardY"] = -5 -- inherited
+OverrideActionBarButton1["hotkeyTextGamepadX"] = 0 -- inherited
+OverrideActionBarButton1["hotkeyTextGamepadY"] = 0 -- inherited
 OverrideActionBarButton1["cooldown"] = OverrideActionBarButton1Cooldown -- inherited
 OverrideActionBarButton1["icon"] = OverrideActionBarButton1Icon -- inherited
 OverrideActionBarButton1["Flash"] = OverrideActionBarButton1Flash -- inherited
@@ -227,41 +232,42 @@ OverrideActionBarButton1["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- in
 OverrideActionBarButton1["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 OverrideActionBarButton1["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L110)
 --- child of OverrideActionBarButton2 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton2Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L349)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L22)
 --- child of OverrideActionBarButton2 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton2Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L35)
 --- child of OverrideActionBarButton2 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton2Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L42)
 --- child of OverrideActionBarButton2 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 OverrideActionBarButton2Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L48)
 --- child of OverrideActionBarButton2 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton2Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L455)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L129)
 --- child of OverrideActionBarButton2 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L533)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L527)
 --- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton2 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton2 = {}
+OverrideActionBarButton2["enableSpellFX"] = true -- inherited
 OverrideActionBarButton2["popupDirection"] = "UP" -- inherited
 OverrideActionBarButton2["popupOffset"] = -4 -- inherited
 OverrideActionBarButton2["popupCrossAxisSize"] = 47 -- inherited
@@ -269,6 +275,10 @@ OverrideActionBarButton2["openArrowOffset"] = 2 -- inherited
 OverrideActionBarButton2["closedArrowOffset"] = 4 -- inherited
 OverrideActionBarButton2["arrowMainAxisSize"] = 18 -- inherited
 OverrideActionBarButton2["arrowCrossAxisSize"] = 7 -- inherited
+OverrideActionBarButton2["hotkeyTextKeyboardX"] = -4 -- inherited
+OverrideActionBarButton2["hotkeyTextKeyboardY"] = -5 -- inherited
+OverrideActionBarButton2["hotkeyTextGamepadX"] = 0 -- inherited
+OverrideActionBarButton2["hotkeyTextGamepadY"] = 0 -- inherited
 OverrideActionBarButton2["cooldown"] = OverrideActionBarButton2Cooldown -- inherited
 OverrideActionBarButton2["icon"] = OverrideActionBarButton2Icon -- inherited
 OverrideActionBarButton2["Flash"] = OverrideActionBarButton2Flash -- inherited
@@ -279,41 +289,42 @@ OverrideActionBarButton2["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- in
 OverrideActionBarButton2["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 OverrideActionBarButton2["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L110)
 --- child of OverrideActionBarButton3 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton3Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L349)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L22)
 --- child of OverrideActionBarButton3 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton3Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L35)
 --- child of OverrideActionBarButton3 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton3Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L42)
 --- child of OverrideActionBarButton3 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 OverrideActionBarButton3Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L48)
 --- child of OverrideActionBarButton3 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton3Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L455)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L129)
 --- child of OverrideActionBarButton3 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L538)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L532)
 --- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton3 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton3 = {}
+OverrideActionBarButton3["enableSpellFX"] = true -- inherited
 OverrideActionBarButton3["popupDirection"] = "UP" -- inherited
 OverrideActionBarButton3["popupOffset"] = -4 -- inherited
 OverrideActionBarButton3["popupCrossAxisSize"] = 47 -- inherited
@@ -321,6 +332,10 @@ OverrideActionBarButton3["openArrowOffset"] = 2 -- inherited
 OverrideActionBarButton3["closedArrowOffset"] = 4 -- inherited
 OverrideActionBarButton3["arrowMainAxisSize"] = 18 -- inherited
 OverrideActionBarButton3["arrowCrossAxisSize"] = 7 -- inherited
+OverrideActionBarButton3["hotkeyTextKeyboardX"] = -4 -- inherited
+OverrideActionBarButton3["hotkeyTextKeyboardY"] = -5 -- inherited
+OverrideActionBarButton3["hotkeyTextGamepadX"] = 0 -- inherited
+OverrideActionBarButton3["hotkeyTextGamepadY"] = 0 -- inherited
 OverrideActionBarButton3["cooldown"] = OverrideActionBarButton3Cooldown -- inherited
 OverrideActionBarButton3["icon"] = OverrideActionBarButton3Icon -- inherited
 OverrideActionBarButton3["Flash"] = OverrideActionBarButton3Flash -- inherited
@@ -331,41 +346,42 @@ OverrideActionBarButton3["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- in
 OverrideActionBarButton3["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 OverrideActionBarButton3["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L110)
 --- child of OverrideActionBarButton4 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton4Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L349)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L22)
 --- child of OverrideActionBarButton4 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton4Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L35)
 --- child of OverrideActionBarButton4 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton4Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L42)
 --- child of OverrideActionBarButton4 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 OverrideActionBarButton4Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L48)
 --- child of OverrideActionBarButton4 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton4Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L455)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L129)
 --- child of OverrideActionBarButton4 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L543)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L537)
 --- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton4 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton4 = {}
+OverrideActionBarButton4["enableSpellFX"] = true -- inherited
 OverrideActionBarButton4["popupDirection"] = "UP" -- inherited
 OverrideActionBarButton4["popupOffset"] = -4 -- inherited
 OverrideActionBarButton4["popupCrossAxisSize"] = 47 -- inherited
@@ -373,6 +389,10 @@ OverrideActionBarButton4["openArrowOffset"] = 2 -- inherited
 OverrideActionBarButton4["closedArrowOffset"] = 4 -- inherited
 OverrideActionBarButton4["arrowMainAxisSize"] = 18 -- inherited
 OverrideActionBarButton4["arrowCrossAxisSize"] = 7 -- inherited
+OverrideActionBarButton4["hotkeyTextKeyboardX"] = -4 -- inherited
+OverrideActionBarButton4["hotkeyTextKeyboardY"] = -5 -- inherited
+OverrideActionBarButton4["hotkeyTextGamepadX"] = 0 -- inherited
+OverrideActionBarButton4["hotkeyTextGamepadY"] = 0 -- inherited
 OverrideActionBarButton4["cooldown"] = OverrideActionBarButton4Cooldown -- inherited
 OverrideActionBarButton4["icon"] = OverrideActionBarButton4Icon -- inherited
 OverrideActionBarButton4["Flash"] = OverrideActionBarButton4Flash -- inherited
@@ -383,41 +403,42 @@ OverrideActionBarButton4["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- in
 OverrideActionBarButton4["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 OverrideActionBarButton4["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L110)
 --- child of OverrideActionBarButton5 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton5Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L349)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L22)
 --- child of OverrideActionBarButton5 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton5Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L35)
 --- child of OverrideActionBarButton5 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton5Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L42)
 --- child of OverrideActionBarButton5 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 OverrideActionBarButton5Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L48)
 --- child of OverrideActionBarButton5 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton5Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L455)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L129)
 --- child of OverrideActionBarButton5 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L548)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L542)
 --- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton5 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton5 = {}
+OverrideActionBarButton5["enableSpellFX"] = true -- inherited
 OverrideActionBarButton5["popupDirection"] = "UP" -- inherited
 OverrideActionBarButton5["popupOffset"] = -4 -- inherited
 OverrideActionBarButton5["popupCrossAxisSize"] = 47 -- inherited
@@ -425,6 +446,10 @@ OverrideActionBarButton5["openArrowOffset"] = 2 -- inherited
 OverrideActionBarButton5["closedArrowOffset"] = 4 -- inherited
 OverrideActionBarButton5["arrowMainAxisSize"] = 18 -- inherited
 OverrideActionBarButton5["arrowCrossAxisSize"] = 7 -- inherited
+OverrideActionBarButton5["hotkeyTextKeyboardX"] = -4 -- inherited
+OverrideActionBarButton5["hotkeyTextKeyboardY"] = -5 -- inherited
+OverrideActionBarButton5["hotkeyTextGamepadX"] = 0 -- inherited
+OverrideActionBarButton5["hotkeyTextGamepadY"] = 0 -- inherited
 OverrideActionBarButton5["cooldown"] = OverrideActionBarButton5Cooldown -- inherited
 OverrideActionBarButton5["icon"] = OverrideActionBarButton5Icon -- inherited
 OverrideActionBarButton5["Flash"] = OverrideActionBarButton5Flash -- inherited
@@ -435,41 +460,42 @@ OverrideActionBarButton5["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- in
 OverrideActionBarButton5["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 OverrideActionBarButton5["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L110)
 --- child of OverrideActionBarButton6 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton6Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L349)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L22)
 --- child of OverrideActionBarButton6 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton6Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L35)
 --- child of OverrideActionBarButton6 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton6Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L42)
 --- child of OverrideActionBarButton6 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 OverrideActionBarButton6Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L48)
 --- child of OverrideActionBarButton6 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton6Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L455)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L129)
 --- child of OverrideActionBarButton6 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L553)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L547)
 --- Explicitly protected
 --- child of OverrideActionBar
 --- @class OverrideActionBarButton6 : CheckButton, OverrideActionBarButtonTemplate
 OverrideActionBarButton6 = {}
+OverrideActionBarButton6["enableSpellFX"] = true -- inherited
 OverrideActionBarButton6["popupDirection"] = "UP" -- inherited
 OverrideActionBarButton6["popupOffset"] = -4 -- inherited
 OverrideActionBarButton6["popupCrossAxisSize"] = 47 -- inherited
@@ -477,6 +503,10 @@ OverrideActionBarButton6["openArrowOffset"] = 2 -- inherited
 OverrideActionBarButton6["closedArrowOffset"] = 4 -- inherited
 OverrideActionBarButton6["arrowMainAxisSize"] = 18 -- inherited
 OverrideActionBarButton6["arrowCrossAxisSize"] = 7 -- inherited
+OverrideActionBarButton6["hotkeyTextKeyboardX"] = -4 -- inherited
+OverrideActionBarButton6["hotkeyTextKeyboardY"] = -5 -- inherited
+OverrideActionBarButton6["hotkeyTextGamepadX"] = 0 -- inherited
+OverrideActionBarButton6["hotkeyTextGamepadY"] = 0 -- inherited
 OverrideActionBarButton6["cooldown"] = OverrideActionBarButton6Cooldown -- inherited
 OverrideActionBarButton6["icon"] = OverrideActionBarButton6Icon -- inherited
 OverrideActionBarButton6["Flash"] = OverrideActionBarButton6Flash -- inherited
@@ -487,66 +517,66 @@ OverrideActionBarButton6["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- in
 OverrideActionBarButton6["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 OverrideActionBarButton6["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L34)
 --- child of OverrideActionBar
 --- @class OverrideActionBarEndCapL : Texture
 OverrideActionBarEndCapL = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L41)
 --- child of OverrideActionBar
 --- @class OverrideActionBarEndCapR : Texture
 OverrideActionBarEndCapR = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L50)
 --- child of OverrideActionBar
 --- @class OverrideActionBarDivider2 : Texture
 OverrideActionBarDivider2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L59)
 --- child of OverrideActionBar
 --- @class OverrideActionBarBG : Texture
 OverrideActionBarBG = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L69)
 --- child of OverrideActionBar
 --- @class OverrideActionBarMicroBGL : Texture
 OverrideActionBarMicroBGL = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L76)
 --- child of OverrideActionBar
 --- @class OverrideActionBarMicroBGMid : Texture
 OverrideActionBarMicroBGMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L83)
 --- child of OverrideActionBar
 --- @class OverrideActionBarMicroBGR : Texture
 OverrideActionBarMicroBGR = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L91)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L90)
 --- child of OverrideActionBar
 --- @class OverrideActionBarButtonBGR : Texture
 OverrideActionBarButtonBGR = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L97)
 --- child of OverrideActionBar
 --- @class OverrideActionBarButtonBGMid : Texture
 OverrideActionBarButtonBGMid = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L104)
 --- child of OverrideActionBar
 --- @class OverrideActionBarButtonBGL : Texture
 OverrideActionBarButtonBGL = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L113)
 --- child of OverrideActionBar
 --- @class OverrideActionBarBorder : Texture
 OverrideActionBarBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L17)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L16)
 --- child of OverrideActionBar
 --- @class OverrideActionBar_slideOut : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L15)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L14)
 --- Implicitly protected
 --- @class OverrideActionBar : Frame, OverrideActionBarMixin
 --- @field pitchFrame OverrideActionBarPitchFrame

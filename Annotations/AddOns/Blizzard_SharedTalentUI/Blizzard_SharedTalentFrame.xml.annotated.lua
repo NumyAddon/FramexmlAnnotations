@@ -1,28 +1,28 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L60)
 --- child of TalentFrameBaseTemplate_AnimationHolder
 --- @class TalentFrameBaseTemplate_AnimationHolder_BackgroundFlashAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L58)
 --- child of TalentFrameBaseTemplate
 --- @class TalentFrameBaseTemplate_AnimationHolder : Frame
 --- @field BackgroundFlashAnim TalentFrameBaseTemplate_AnimationHolder_BackgroundFlashAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L62)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L66)
 --- child of TalentFrameBaseTemplate
 --- @class TalentFrameBaseTemplate_ButtonsParent : Frame, TalentFrameBaseButtonsParentMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L74)
 --- child of TalentFrameBaseTemplate
 --- @class TalentFrameBaseTemplate_SelectionChoiceFrame : Frame, TalentSelectionChoiceFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L76)
 --- child of TalentFrameBaseTemplate
 --- @class TalentFrameBaseTemplate_DisabledOverlay : Frame
 --- @field GrayOverlay Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L86)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L90)
 --- child of TalentFrameBaseTemplate
 --- @class TalentFrameBaseTemplate_CommitSpinner : Frame, SpinnerTemplate
 
@@ -53,4 +53,12 @@
 --- @field DisabledOverlay TalentFrameBaseTemplate_DisabledOverlay
 --- @field CommitSpinner TalentFrameBaseTemplate_CommitSpinner
 --- @field BackgroundFlash Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L116)
+--- Template
+--- @class TalentFrameFixedPositionsTemplate : Frame, TalentFrameFixedPositionsMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_SharedTalentFrame.xml#L118)
+--- Template
+--- @class TalentFrameDisplayOnlyTemplate : Frame, TalentFrameDisplayOnlyMixin
 

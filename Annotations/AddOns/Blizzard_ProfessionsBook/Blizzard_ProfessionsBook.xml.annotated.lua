@@ -1090,18 +1090,18 @@ ProfessionsBookPage1 = {}
 --- @class ProfessionsBookPage2 : Texture
 ProfessionsBookPage2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L887)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L686)
 --- child of ProfessionsBookFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 ProfessionsBookFrameInset = {}
 ProfessionsBookFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L881)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L680)
 --- child of ProfessionsBookFrame (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 ProfessionsBookFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L864)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L663)
 --- child of ProfessionsBookFrame (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 ProfessionsBookFrameBg = {}

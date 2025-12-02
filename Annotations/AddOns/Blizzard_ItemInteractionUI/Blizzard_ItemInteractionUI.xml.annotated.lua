@@ -174,12 +174,12 @@ ItemInteractionFrameMiddle = {}
 --- child of ItemInteractionFrame
 --- @class ItemInteractionFrame_Description : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L834)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L633)
 --- child of ItemInteractionFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 ItemInteractionFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L801)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ItemInteractionUI/Blizzard_ItemInteractionUI.xml#L600)
 --- child of ItemInteractionFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 ItemInteractionFrameBg = {}

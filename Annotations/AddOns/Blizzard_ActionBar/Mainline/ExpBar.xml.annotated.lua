@@ -3,6 +3,8 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/ExpBar.xml#L20)
 --- child of ExpStatusBarTemplate
 --- @class ExpStatusBarTemplate_ExhaustionTick : Button, ExhaustionTickMixin
+--- @field hideAtBarEdge boolean # true
+--- @field yOffset number # 2
 --- @field Normal Texture
 --- @field Highlight Texture
 

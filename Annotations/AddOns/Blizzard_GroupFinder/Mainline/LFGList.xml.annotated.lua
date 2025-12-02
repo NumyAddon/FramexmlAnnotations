@@ -358,12 +358,12 @@
 --- child of LFGListFrame_SearchPanel
 --- @class LFGListFrame_SearchPanel_FilterButton : DropdownButton, WowStyle1FilterDropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L40)
 --- child of LFGListFrame_SearchPanel_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 LFGListFrameClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L1234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GroupFinder/Mainline/LFGList.xml#L31)
 --- child of LFGListFrame_SearchPanel_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 LFGListFrameSearchIcon = {}

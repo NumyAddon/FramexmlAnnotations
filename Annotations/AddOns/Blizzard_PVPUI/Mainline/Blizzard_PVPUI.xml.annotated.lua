@@ -341,7 +341,7 @@ PVPTalentPrestigeLevelDialogCloseButton = {}
 --- child of PVPTalentPrestigeLevelDialog
 --- @class PVPTalentPrestigeLevelDialog_Warning : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L801)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L600)
 --- child of PVPTalentPrestigeLevelDialog (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 PVPTalentPrestigeLevelDialogBg = {}

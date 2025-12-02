@@ -50,7 +50,7 @@ function RewardTrackFrameMixin:OnUpdate(elapsed) end
 function RewardTrackFrameMixin:SetSelection(index, forceRefresh, skipSound, overrideStopSound) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L122)
-function RewardTrackFrameMixin:RefreshView() end
+function RewardTrackFrameMixin:RefreshView(forceRefresh) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L140)
 function RewardTrackFrameMixin:GetCenterIndex() end

@@ -9,7 +9,7 @@
 --- @class EncounterWarningsSystemFrameTemplate : Frame, EditModeEncounterEventsSystemTemplate, ResizeLayoutFrame, EncounterWarningsSystemFrameMixin
 --- @field View EncounterWarningsSystemFrameTemplate_View
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarnings.xml#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarnings.xml#L24)
 --- @class CriticalEncounterWarnings : Frame, EncounterWarningsSystemFrameTemplate
 --- @field minimumWidth number # 600
 --- @field minimumHeight number # 48
@@ -21,7 +21,7 @@ CriticalEncounterWarnings["minimumHeight"] = 48
 CriticalEncounterWarnings["systemIndex"] = Enum.EditModeEncounterEventsSystemIndices.CriticalWarnings
 CriticalEncounterWarnings["systemNameString"] = HUD_EDIT_MODE_SYSTEM_ENCOUNTER_CRITICAL_WARNINGS
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarnings.xml#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarnings.xml#L33)
 --- @class MediumEncounterWarnings : Frame, EncounterWarningsSystemFrameTemplate
 --- @field minimumWidth number # 550
 --- @field minimumHeight number # 36
@@ -33,7 +33,7 @@ MediumEncounterWarnings["minimumHeight"] = 36
 MediumEncounterWarnings["systemIndex"] = Enum.EditModeEncounterEventsSystemIndices.MediumWarnings
 MediumEncounterWarnings["systemNameString"] = HUD_EDIT_MODE_SYSTEM_ENCOUNTER_MEDIUM_WARNINGS
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarnings.xml#L41)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarnings.xml#L42)
 --- @class MinorEncounterWarnings : Frame, EncounterWarningsSystemFrameTemplate
 --- @field minimumWidth number # 500
 --- @field minimumHeight number # 36

@@ -15,3 +15,6 @@ function HouseEditorCleanupModeMixin:OnHide() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCleanupMode.lua#L38)
 function HouseEditorCleanupModeMixin:TryHandleEscape() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCleanupMode.lua#L42)
+function HouseEditorCleanupModeMixin:ShowDecorInstanceTooltip(decorInstanceInfo) end

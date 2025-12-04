@@ -16,11 +16,11 @@ UnoccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 --- @class OccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
 OccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L95)
 --- @class FriendsPlotPinMixin : NeighborhoodMapBasePinMixin
 FriendsPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L105)
 --- @class PlayersPlotPinMixin : NeighborhoodMapBasePinMixin
 PlayersPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
@@ -63,8 +63,8 @@ function NeighborhoodMapBasePinMixin:OnMouseLeave() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L90)
 function OccupiedPlotPinMixin:OnMouseEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L97)
 function FriendsPlotPinMixin:OnMouseEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L107)
 function PlayersPlotPinMixin:OnMouseEnter() end

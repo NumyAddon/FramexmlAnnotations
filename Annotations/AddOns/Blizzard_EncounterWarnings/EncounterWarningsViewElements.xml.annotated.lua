@@ -36,7 +36,7 @@
 --- @field DeadlyOverlay Texture
 --- @field DeadlyOverlayGlow Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsViewElements.xml#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsViewElements.xml#L62)
 --- Template
 --- @class EncounterWarningsTextElementTemplate : FontString, EncounterWarningsTextElementMixin
 

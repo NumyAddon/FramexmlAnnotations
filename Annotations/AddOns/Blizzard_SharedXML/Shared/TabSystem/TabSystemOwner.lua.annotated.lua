@@ -27,7 +27,7 @@ function TabSystemTrackerMixin:SetTabCallback(tabID, callback) end
 function TabSystemTrackerMixin:SetTabDeselectCallback(tabID, callback) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L38)
-function TabSystemTrackerMixin:SetTab(tabID) end
+function TabSystemTrackerMixin:SetTab(tabID, isUserAction) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L59)
 function TabSystemTrackerMixin:GetTab() end
@@ -54,7 +54,7 @@ function TabSystemOwnerMixin:SetTabCallback(tabID, callback) end
 function TabSystemOwnerMixin:SetTabDeselectCallback(tabID, callback) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L98)
-function TabSystemOwnerMixin:SetTab(tabID) end
+function TabSystemOwnerMixin:SetTab(tabID, isUserAction) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/TabSystem/TabSystemOwner.lua#L103)
 function TabSystemOwnerMixin:GetTab() end

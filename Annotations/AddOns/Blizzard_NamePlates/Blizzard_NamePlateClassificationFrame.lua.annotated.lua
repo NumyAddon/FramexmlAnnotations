@@ -11,43 +11,40 @@ function NamePlateClassificationFrameMixin:OnLoad() end
 function NamePlateClassificationFrameMixin:OnEvent(event, ...) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L31)
-function NamePlateClassificationFrameMixin:OnSizeChanged() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L40)
 function NamePlateClassificationFrameMixin:OnInfoDisplayCVarChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L35)
 function NamePlateClassificationFrameMixin:SetOptions(optionTable) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L49)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L40)
 function NamePlateClassificationFrameMixin:SetUnit(unitToken) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L54)
 function NamePlateClassificationFrameMixin:UpdatePvPClassificationEnabled() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L58)
 function NamePlateClassificationFrameMixin:ShouldShowPvPClassificationIndicator() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L68)
 function NamePlateClassificationFrameMixin:ShouldShowPvEClassificationIndicator() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L86)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L77)
 function NamePlateClassificationFrameMixin:GetClassification() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L90)
 function NamePlateClassificationFrameMixin:GetClassificationAtlasElement() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L128)
 function NamePlateClassificationFrameMixin:UpdateClassificationIndicator() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L144)
 function NamePlateClassificationFrameMixin:ShouldBeShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L152)
 function NamePlateClassificationFrameMixin:UpdateShownState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L162)
 function NamePlateClassificationFrameMixin:SetRaidTargetIndex(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateClassificationFrame.lua#L168)
 function NamePlateClassificationFrameMixin:SetExplicitValues(explicitValues) end

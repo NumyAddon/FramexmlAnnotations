@@ -5,32 +5,33 @@
 --- @class CooldownViewerSettingsDraggedItemTemplate : Frame, CooldownViewerSettingsDraggedItemMixin
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L16)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L17)
 --- Template
 --- @class CooldownViewerSettingsItemTemplate : Frame, CooldownViewerSettingsItemMixin
 --- @field Icon Texture
 --- @field Highlight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L76)
 --- child of CooldownViewerSettingsBarItemTemplate_Bar
 --- @class CooldownViewerSettingsBarItemTemplate_Bar_Name : FontString, NumberFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L56)
 --- child of CooldownViewerSettingsBarItemTemplate
 --- @class CooldownViewerSettingsBarItemTemplate_Bar : StatusBar
 --- @field Name CooldownViewerSettingsBarItemTemplate_Bar_Name
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L35)
 --- Template
 --- @class CooldownViewerSettingsBarItemTemplate : Frame, CooldownViewerSettingsBarItemMixin
 --- @field Bar CooldownViewerSettingsBarItemTemplate_Bar
 --- @field Icon Texture
+--- @field Highlight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L101)
 --- child of CooldownViewerSettingsCategoryTemplate
 --- @class CooldownViewerSettingsCategoryTemplate_Header : Button, ListHeaderThreeSliceTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L108)
 --- child of CooldownViewerSettingsCategoryTemplate
 --- @class CooldownViewerSettingsCategoryTemplate_Container : Frame, GridLayoutFrame, CooldownViewerContainerReorderTargetMixin
 --- @field childXPadding number # 8
@@ -41,7 +42,7 @@
 --- @field layoutFramesGoingUp boolean # false
 --- @field alwaysUpdateLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L94)
 --- Template
 --- @class CooldownViewerSettingsCategoryTemplate : Frame, ResizeLayoutFrame, CooldownViewerSettingsCategoryMixin
 --- @field minimumHeight number # 22
@@ -50,16 +51,16 @@
 --- @field Header CooldownViewerSettingsCategoryTemplate_Header
 --- @field Container CooldownViewerSettingsCategoryTemplate_Container
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L130)
 --- Template
 --- @class CooldownViewerSettingsBarCategoryTemplate : Frame, CooldownViewerSettingsCategoryTemplate, CooldownViewerSettingsBarCategoryMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L134)
 --- Template
 --- Adds itself to the parent inside the array `TabButtons`
 --- @class CooldownViewerSettingsTabTemplate : Frame, LargeSideTabButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L152)
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_SpellsTab : Frame, CooldownViewerSettingsTabTemplate
 --- @field displayMode string # spells
@@ -67,7 +68,7 @@
 --- @field inactiveAtlas string # icon_cooldownmanager
 --- @field tooltipText any # COOLDOWN_VIEWER_SETTINGS_TAB_SPELLS
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L154)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L163)
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_AurasTab : Frame, CooldownViewerSettingsTabTemplate
 --- @field displayMode string # auras
@@ -75,30 +76,30 @@
 --- @field inactiveAtlas string # icon_trackedbuffs
 --- @field tooltipText any # COOLDOWN_VIEWER_SETTINGS_TAB_BUFFS
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L1243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L44)
 --- child of CooldownViewerSettings_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 CooldownViewerSettingsClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L1234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L35)
 --- child of CooldownViewerSettings_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 CooldownViewerSettingsSearchIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L174)
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_SearchBox : EditBox, SearchBoxTemplate, CooldownViewerSettingsSearchBoxMixin
 --- @field instructionText any # COOLDOWN_VIEWER_SETTINGS_SEARCH_INSTRUCTIONS
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L190)
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_SettingsDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L207)
 --- child of CooldownViewerSettings_CooldownScroll
 --- @class CooldownViewerSettings_CooldownScroll_Content : Frame, CooldownViewerSettingsContentMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L186)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L195)
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_CooldownScroll : ScrollFrame, ScrollFrameTemplate
 --- @field scrollBarHideIfUnscrollable boolean # false
@@ -107,40 +108,47 @@ CooldownViewerSettingsSearchIcon = {}
 --- @field scrollBarBottomY number # 0
 --- @field Content CooldownViewerSettings_CooldownScroll_Content
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L215)
+--- child of CooldownViewerSettings
+--- @class CooldownViewerSettings_LayoutDropdown : DropdownButton, WowStyle1DropdownTemplate
+--- @field menuPoint string # BOTTOMLEFT
+--- @field menuRelativePoint string # TOPLEFT
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L224)
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_UndoButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
 --- @field tooltipTitle any # COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES_TOOLTIP
 --- @field disabledTooltip any # COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES_TOOLTIP
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L216)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L234)
 --- child of CooldownViewerSettings
 --- @class CooldownViewerSettings_ReorderMarker : Frame, CooldownViewerSettingsReorderMarkerMixin
 --- @field Texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L887)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L686)
 --- child of CooldownViewerSettings (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 CooldownViewerSettingsInset = {}
 CooldownViewerSettingsInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L881)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L680)
 --- child of CooldownViewerSettings (created in template ButtonFrameBaseTemplate)
 --- @type ButtonFrameBaseTemplate_CloseButton
 CooldownViewerSettingsCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L864)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L663)
 --- child of CooldownViewerSettings (created in template ButtonFrameBaseTemplate)
 --- @type Texture
 CooldownViewerSettingsBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L136)
 --- @class CooldownViewerSettings : Frame, ButtonFrameTemplate, CallbackRegistrantTemplate, CooldownViewerSettingsMixin
 --- @field SpellsTab CooldownViewerSettings_SpellsTab
 --- @field AurasTab CooldownViewerSettings_AurasTab
 --- @field SearchBox CooldownViewerSettings_SearchBox
 --- @field SettingsDropdown CooldownViewerSettings_SettingsDropdown
 --- @field CooldownScroll CooldownViewerSettings_CooldownScroll
+--- @field LayoutDropdown CooldownViewerSettings_LayoutDropdown
 --- @field UndoButton CooldownViewerSettings_UndoButton
 --- @field ReorderMarker CooldownViewerSettings_ReorderMarker
 --- @field Background Texture

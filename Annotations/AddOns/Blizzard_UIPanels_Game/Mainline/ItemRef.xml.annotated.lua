@@ -1,25 +1,5 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L118)
---- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextLeft3
-ItemRefShoppingTooltip1TextLeft3 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L123)
---- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextRight3
-ItemRefShoppingTooltip1TextRight3 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L128)
---- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextLeft4
-ItemRefShoppingTooltip1TextLeft4 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L133)
---- child of ItemRefShoppingTooltip1 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextRight4
-ItemRefShoppingTooltip1TextRight4 = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L35)
 --- child of ItemRefShoppingTooltip1 (created in template SharedTooltipArtTemplate)
 --- @type SharedTooltipArtTemplate_TextLeft1
@@ -193,35 +173,15 @@ ItemRefShoppingTooltip1Texture30 = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L3)
 --- @class ItemRefShoppingTooltip1 : GameTooltip, ShoppingTooltipTemplate
 ItemRefShoppingTooltip1 = {}
-ItemRefShoppingTooltip1["textLeft1Font"] = "GameFontNormalSmall" -- inherited
-ItemRefShoppingTooltip1["textRight1Font"] = "GameFontNormal" -- inherited
-ItemRefShoppingTooltip1["textLeft2Font"] = "GameFontNormal" -- inherited
-ItemRefShoppingTooltip1["textRight2Font"] = "GameFontHighlightSmall" -- inherited
+ItemRefShoppingTooltip1["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+ItemRefShoppingTooltip1["textRight1Font"] = "GameTooltipHeaderText" -- inherited
+ItemRefShoppingTooltip1["textLeft2Font"] = "GameTooltipText" -- inherited
+ItemRefShoppingTooltip1["textRight2Font"] = "GameTooltipText" -- inherited
 ItemRefShoppingTooltip1["layoutType"] = "TooltipDefaultLayout" -- inherited
 ItemRefShoppingTooltip1["TextLeft1"] = ItemRefShoppingTooltip1TextLeft1 -- inherited
 ItemRefShoppingTooltip1["TextRight1"] = ItemRefShoppingTooltip1TextRight1 -- inherited
 ItemRefShoppingTooltip1["TextLeft2"] = ItemRefShoppingTooltip1TextLeft2 -- inherited
 ItemRefShoppingTooltip1["TextRight2"] = ItemRefShoppingTooltip1TextRight2 -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L118)
---- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextLeft3
-ItemRefShoppingTooltip2TextLeft3 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L123)
---- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextRight3
-ItemRefShoppingTooltip2TextRight3 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L128)
---- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextLeft4
-ItemRefShoppingTooltip2TextLeft4 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L133)
---- child of ItemRefShoppingTooltip2 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextRight4
-ItemRefShoppingTooltip2TextRight4 = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L35)
 --- child of ItemRefShoppingTooltip2 (created in template SharedTooltipArtTemplate)
@@ -396,10 +356,10 @@ ItemRefShoppingTooltip2Texture30 = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/ItemRef.xml#L4)
 --- @class ItemRefShoppingTooltip2 : GameTooltip, ShoppingTooltipTemplate
 ItemRefShoppingTooltip2 = {}
-ItemRefShoppingTooltip2["textLeft1Font"] = "GameFontNormalSmall" -- inherited
-ItemRefShoppingTooltip2["textRight1Font"] = "GameFontNormal" -- inherited
-ItemRefShoppingTooltip2["textLeft2Font"] = "GameFontNormal" -- inherited
-ItemRefShoppingTooltip2["textRight2Font"] = "GameFontHighlightSmall" -- inherited
+ItemRefShoppingTooltip2["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+ItemRefShoppingTooltip2["textRight1Font"] = "GameTooltipHeaderText" -- inherited
+ItemRefShoppingTooltip2["textLeft2Font"] = "GameTooltipText" -- inherited
+ItemRefShoppingTooltip2["textRight2Font"] = "GameTooltipText" -- inherited
 ItemRefShoppingTooltip2["layoutType"] = "TooltipDefaultLayout" -- inherited
 ItemRefShoppingTooltip2["TextLeft1"] = ItemRefShoppingTooltip2TextLeft1 -- inherited
 ItemRefShoppingTooltip2["TextRight1"] = ItemRefShoppingTooltip2TextRight1 -- inherited

@@ -210,12 +210,12 @@ StableFrameRight = {}
 --- child of StableFrame_StabledPetList
 --- @class StableFrame_StabledPetList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L44)
 --- child of StableFrame_StabledPetList_FilterBar_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 StableFrameClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L1234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L35)
 --- child of StableFrame_StabledPetList_FilterBar_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 StableFrameSearchIcon = {}
@@ -298,12 +298,12 @@ StableFrameSearchIcon = {}
 --- @field ListName StableFrame_ActivePetList_ListName
 --- @field PetButtons table<number, StableFrame_ActivePetList_PetButton1 | StableFrame_ActivePetList_PetButton2 | StableFrame_ActivePetList_PetButton3 | StableFrame_ActivePetList_PetButton4 | StableFrame_ActivePetList_PetButton5>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L834)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L633)
 --- child of StableFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 StableFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L801)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_StableUI/Blizzard_StableUI.xml#L600)
 --- child of StableFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 StableFrameBg = {}

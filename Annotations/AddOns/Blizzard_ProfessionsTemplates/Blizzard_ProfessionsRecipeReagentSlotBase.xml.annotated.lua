@@ -9,7 +9,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.xml#L28)
 --- child of ProfessionsReagentSlotBaseTemplate
---- @class ProfessionsReagentSlotBaseTemplate_Button : ItemButton, ProfessionsReagentButtonTemplate, ProfessionsReagentSlotButtonMixin
+--- @class ProfessionsReagentSlotBaseTemplate_Button : ItemButton, ProfessionsButtonTemplate, ProfessionsReagentSlotButtonMixin
 --- @field InputOverlay ProfessionsReagentSlotBaseTemplate_Button_InputOverlay
 --- @field ColorOverlay Texture
 --- @field CropFrame Texture

@@ -39,58 +39,62 @@
 --- @field Label CustomizationOptionCheckButtonTemplate_Label
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L66)
---- child of CustomizationDropdownElementDetailsTemplate
---- @class CustomizationDropdownElementDetailsTemplate_SelectionNumberBG : FontString
+--- child of CustomizationElementDetailsTemplate
+--- @class CustomizationElementDetailsTemplate_SelectionNumberBG : FontString
 --- @field ignoreInLayout boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L104)
---- child of CustomizationDropdownElementDetailsTemplate
---- @class CustomizationDropdownElementDetailsTemplate_NewGlow : Texture
+--- child of CustomizationElementDetailsTemplate
+--- @class CustomizationElementDetailsTemplate_NewGlow : Texture
 --- @field ignoreInLayout boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L60)
 --- Template
---- @class CustomizationDropdownElementDetailsTemplate : Frame, CustomizationDropdownElementDetailsMixin
+--- @class CustomizationElementDetailsTemplate : Frame, CustomizationElementDetailsMixin
 --- @field selectable boolean # true
---- @field SelectionNumberBG CustomizationDropdownElementDetailsTemplate_SelectionNumberBG
+--- @field SelectionNumberBG CustomizationElementDetailsTemplate_SelectionNumberBG
 --- @field SelectionNumber FontString
 --- @field SelectionName FontString
 --- @field ColorSwatch1 Texture
 --- @field ColorSwatch2 Texture
---- @field NewGlow CustomizationDropdownElementDetailsTemplate_NewGlow
+--- @field NewGlow CustomizationElementDetailsTemplate_NewGlow
 --- @field LockIcon Texture
 --- @field ColorSwatch1Glow Texture
 --- @field ColorSwatch2Glow Texture
 --- @field ColorSelected Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L146)
---- child of CustomizationDropdownElementTemplate
---- @class CustomizationDropdownElementTemplate_SelectionDetails : Frame, CustomizationDropdownElementDetailsTemplate
+--- child of CustomizationElementTemplate
+--- @class CustomizationElementTemplate_SelectionDetails : Frame, CustomizationElementDetailsTemplate
 --- @field includeInLayout boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L141)
 --- Template
---- @class CustomizationDropdownElementTemplate : Button, DarkMenuElementTemplate, CustomizationDropdownElementMixin
+--- @class CustomizationElementTemplate : Button, DarkMenuElementTemplate, CustomizationElementMixin
 --- @field ignoreAllChildren boolean # true
---- @field SelectionDetails CustomizationDropdownElementTemplate_SelectionDetails
+--- @field SelectionDetails CustomizationElementTemplate_SelectionDetails
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L161)
+--- Template
+--- @class CustomizationDropdownElementTemplate : Button, CustomizationElementTemplate, CustomizationDropdownElementMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L179)
 --- child of CustomizationDropdownWithSteppersAndLabelTemplate_Dropdown
---- @class CustomizationDropdownWithSteppersAndLabelTemplate_Dropdown_SelectionDetails : Frame, CustomizationDropdownElementDetailsTemplate, ResizeLayoutFrame
+--- @class CustomizationDropdownWithSteppersAndLabelTemplate_Dropdown_SelectionDetails : Frame, CustomizationElementDetailsTemplate, ResizeLayoutFrame
 --- @field selectable boolean # false
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L170)
 --- child of CustomizationDropdownWithSteppersAndLabelTemplate
 --- @class CustomizationDropdownWithSteppersAndLabelTemplate_Dropdown : DropdownButton, WowStyle2DropdownTemplate, CustomizationDropdownMixin
 --- @field menuPoint string # TOPRIGHT
 --- @field menuRelativePoint string # BOTTOMRIGHT
 --- @field SelectionDetails CustomizationDropdownWithSteppersAndLabelTemplate_Dropdown_SelectionDetails
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L194)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L197)
 --- child of CustomizationDropdownWithSteppersAndLabelTemplate
 --- @class CustomizationDropdownWithSteppersAndLabelTemplate_New : Frame, NewFeatureLabelNoAnimateTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationOptionTemplates.xml#L164)
 --- Template
 --- @class CustomizationDropdownWithSteppersAndLabelTemplate : Frame, DropdownWithSteppersAndLabelTemplate, CustomizationFrameWithTooltipTemplate, CustomizationDropdownWithSteppersAndLabelMixin
 --- @field tooltipMinWidth any # nil

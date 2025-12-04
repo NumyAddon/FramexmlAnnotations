@@ -4,7 +4,7 @@
 --- @class TalkingHeadFrameMixin
 TalkingHeadFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L251)
 --- @class TalkingHeadFrameModelMixin
 TalkingHeadFrameModelMixin = {}
 
@@ -29,32 +29,32 @@ function TalkingHeadFrameMixin:FadeoutFrames() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L87)
 function TalkingHeadFrameMixin:Reset(text, name) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L128)
 function TalkingHeadFrameMixin:PlayCurrent() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L219)
 function TalkingHeadFrameMixin:Close() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L230)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L241)
 function TalkingHeadFrameMixin:Close_OnFinished() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L247)
 function TalkingHeadFrameMixin:UpdateShownState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L253)
 function TalkingHeadFrameModelMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L258)
 function TalkingHeadFrameModelMixin:OnEvent() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L254)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L265)
 function TalkingHeadFrameModelMixin:OnModelLoaded() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L274)
 function TalkingHeadFrameModelMixin:SetupAnimations() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L307)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L318)
 function TalkingHeadFrameModelMixin:VOComplete() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L311)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.lua#L322)
 function TalkingHeadFrameModelMixin:IdleAnim() end

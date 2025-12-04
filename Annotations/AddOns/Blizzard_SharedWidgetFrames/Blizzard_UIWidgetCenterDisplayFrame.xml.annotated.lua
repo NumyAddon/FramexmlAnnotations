@@ -7,7 +7,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_UIWidgetCenterDisplayFrame.xml#L39)
 --- child of UIWidgetCenterDisplayFrame_TitleContainer
---- @class UIWidgetCenterDisplayFrame_TitleContainer_Title : FontString, QuestFont_39
+--- @class UIWidgetCenterDisplayFrame_TitleContainer_Title : FontString, Game36Font_Shadow2
 --- @field layoutIndex number # 1
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedWidgetFrames/Blizzard_UIWidgetCenterDisplayFrame.xml#L30)

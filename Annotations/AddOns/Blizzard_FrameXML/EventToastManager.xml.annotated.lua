@@ -577,3 +577,30 @@ EventToastManagerSideDisplay = {}
 --- @field BottomLine EventToastScoreboardTemplate_BottomLine
 --- @field Background EventToastScoreboardTemplate_Background
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1450)
+--- child of EventToastHouseUpgradeAvailableTemplate
+--- @class EventToastHouseUpgradeAvailableTemplate_Title : FontString, GameFont_Gigantic
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1456)
+--- child of EventToastHouseUpgradeAvailableTemplate
+--- @class EventToastHouseUpgradeAvailableTemplate_SubTitle : FontString, SystemFont_Shadow_Large
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1484)
+--- child of EventToastHouseUpgradeAvailableTemplate
+--- @class EventToastHouseUpgradeAvailableTemplate_showAnim : AnimationGroup, ShowToastAnimGroupTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1485)
+--- child of EventToastHouseUpgradeAvailableTemplate
+--- @class EventToastHouseUpgradeAvailableTemplate_hideAnim : AnimationGroup, HideToastAnimGroupTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/EventToastManager.xml#L1443)
+--- Template
+--- @class EventToastHouseUpgradeAvailableTemplate : Frame, EventToastManagerFrameTemplateNormal, EventToastHouseUpgradeAvailableMixin
+--- @field animInStartDelay number # 0
+--- @field Title EventToastHouseUpgradeAvailableTemplate_Title
+--- @field SubTitle EventToastHouseUpgradeAvailableTemplate_SubTitle
+--- @field BG Texture
+--- @field Border Texture
+--- @field showAnim EventToastHouseUpgradeAvailableTemplate_showAnim
+--- @field hideAnim EventToastHouseUpgradeAvailableTemplate_hideAnim
+

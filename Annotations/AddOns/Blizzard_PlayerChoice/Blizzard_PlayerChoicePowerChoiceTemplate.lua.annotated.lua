@@ -47,10 +47,10 @@ function PlayerChoicePowerChoiceTemplateMixin:CancelEffects() end
 function PlayerChoicePowerChoiceTemplateMixin:SetupHeader() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L176)
-function PlayerChoicePowerChoiceTemplateMixin:GetOptionFontColors() end
+function PlayerChoicePowerChoiceTemplateMixin:GetOptionFontInfo() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L180)
-function PlayerChoicePowerChoiceTemplateMixin:SetupTextColors() end
+function PlayerChoicePowerChoiceTemplateMixin:SetupTextFonts() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L201)
 function PlayerChoicePowerChoiceTemplateMixin:SetupOptionText() end

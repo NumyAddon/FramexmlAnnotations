@@ -27,7 +27,7 @@ function CommentatorUnitFrameMixin:SetAlignment(alignment) end
 function CommentatorUnitFrameMixin:Init(isAlignedLeft, playerData, teamIndex) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L124)
-function CommentatorUnitFrameMixin:OnUnfilteredCombatLogEvent(...) end
+function CommentatorUnitFrameMixin:OnCommentatorCombatEvent(...) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorUnitFrame.lua#L149)
 function CommentatorUnitFrameMixin:OnEvent(event, ...) end

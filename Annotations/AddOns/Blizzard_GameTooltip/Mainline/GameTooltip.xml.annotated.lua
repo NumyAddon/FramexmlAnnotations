@@ -2,7 +2,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L9)
 --- child of GameTooltipTemplate
---- @class GameTooltipTemplate_StatusBar : StatusBar, GameTooltipUnitHealthBarMixin
+--- @class GameTooltipTemplate_StatusBar : StatusBar, GameTooltipUnitHealthBarMixin, GameTooltipUnitHealthBarSecureMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L4)
 --- Template
@@ -39,44 +39,34 @@
 --- @field IconOverlay Texture
 --- @field IconOverlay2 Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L118)
---- child of ShoppingTooltipTemplate
---- @class ShoppingTooltipTemplate_TextLeft3 : FontString, GameFontHighlightSmall
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L121)
+--- child of ShoppingTooltipTemplate_CompareHeader
+--- @class ShoppingTooltipTemplate_CompareHeader_Label : FontString, GameTooltipText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L111)
 --- child of ShoppingTooltipTemplate
---- @class ShoppingTooltipTemplate_TextRight3 : FontString, GameFontHighlightSmall
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L128)
---- child of ShoppingTooltipTemplate
---- @class ShoppingTooltipTemplate_TextLeft4 : FontString, GameTooltipTextSmall
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L133)
---- child of ShoppingTooltipTemplate
---- @class ShoppingTooltipTemplate_TextRight4 : FontString, GameFontHighlightSmall
+--- @class ShoppingTooltipTemplate_CompareHeader : Frame
+--- @field Label ShoppingTooltipTemplate_CompareHeader_Label
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L109)
 --- Template
 --- @class ShoppingTooltipTemplate : GameTooltip, SharedTooltipTemplate, TooltipDataHandlerMixin
---- @field textLeft1Font string # GameFontNormalSmall
---- @field textRight1Font string # GameFontNormal
---- @field textLeft2Font string # GameFontNormal
---- @field textRight2Font string # GameFontHighlightSmall
+--- @field CompareHeader ShoppingTooltipTemplate_CompareHeader
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L157)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L149)
 --- child of TooltipStatusBarTemplate
 --- @class TooltipStatusBarTemplate_Text : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L145)
 --- Template
 --- @class TooltipStatusBarTemplate : StatusBar
 --- @field Text TooltipStatusBarTemplate_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L221)
 --- child of TooltipProgressBarTemplate_Bar
 --- @class TooltipProgressBarTemplate_Bar_Label : FontString, GameFontHighlightMedium
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L183)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L175)
 --- child of TooltipProgressBarTemplate
 --- @class TooltipProgressBarTemplate_Bar : StatusBar
 --- @field BorderLeft Texture
@@ -86,30 +76,10 @@
 --- @field RightDivider Texture
 --- @field Label TooltipProgressBarTemplate_Bar_Label
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L172)
 --- Template
 --- @class TooltipProgressBarTemplate : Frame
 --- @field Bar TooltipProgressBarTemplate_Bar
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L118)
---- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextLeft3
-ShoppingTooltip1TextLeft3 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L123)
---- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextRight3
-ShoppingTooltip1TextRight3 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L128)
---- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextLeft4
-ShoppingTooltip1TextLeft4 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L133)
---- child of ShoppingTooltip1 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextRight4
-ShoppingTooltip1TextRight4 = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L35)
 --- child of ShoppingTooltip1 (created in template SharedTooltipArtTemplate)
@@ -281,38 +251,18 @@ ShoppingTooltip1Texture29 = {}
 --- @type SharedTooltipArtTemplate_Texture30
 ShoppingTooltip1Texture30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L239)
 --- @class ShoppingTooltip1 : GameTooltip, ShoppingTooltipTemplate
 ShoppingTooltip1 = {}
-ShoppingTooltip1["textLeft1Font"] = "GameFontNormalSmall" -- inherited
-ShoppingTooltip1["textRight1Font"] = "GameFontNormal" -- inherited
-ShoppingTooltip1["textLeft2Font"] = "GameFontNormal" -- inherited
-ShoppingTooltip1["textRight2Font"] = "GameFontHighlightSmall" -- inherited
+ShoppingTooltip1["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+ShoppingTooltip1["textRight1Font"] = "GameTooltipHeaderText" -- inherited
+ShoppingTooltip1["textLeft2Font"] = "GameTooltipText" -- inherited
+ShoppingTooltip1["textRight2Font"] = "GameTooltipText" -- inherited
 ShoppingTooltip1["layoutType"] = "TooltipDefaultLayout" -- inherited
 ShoppingTooltip1["TextLeft1"] = ShoppingTooltip1TextLeft1 -- inherited
 ShoppingTooltip1["TextRight1"] = ShoppingTooltip1TextRight1 -- inherited
 ShoppingTooltip1["TextLeft2"] = ShoppingTooltip1TextLeft2 -- inherited
 ShoppingTooltip1["TextRight2"] = ShoppingTooltip1TextRight2 -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L118)
---- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextLeft3
-ShoppingTooltip2TextLeft3 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L123)
---- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextRight3
-ShoppingTooltip2TextRight3 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L128)
---- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextLeft4
-ShoppingTooltip2TextLeft4 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L133)
---- child of ShoppingTooltip2 (created in template ShoppingTooltipTemplate)
---- @type ShoppingTooltipTemplate_TextRight4
-ShoppingTooltip2TextRight4 = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L35)
 --- child of ShoppingTooltip2 (created in template SharedTooltipArtTemplate)
@@ -484,24 +434,22 @@ ShoppingTooltip2Texture29 = {}
 --- @type SharedTooltipArtTemplate_Texture30
 ShoppingTooltip2Texture30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L240)
 --- @class ShoppingTooltip2 : GameTooltip, ShoppingTooltipTemplate
 ShoppingTooltip2 = {}
-ShoppingTooltip2["textLeft1Font"] = "GameFontNormalSmall" -- inherited
-ShoppingTooltip2["textRight1Font"] = "GameFontNormal" -- inherited
-ShoppingTooltip2["textLeft2Font"] = "GameFontNormal" -- inherited
-ShoppingTooltip2["textRight2Font"] = "GameFontHighlightSmall" -- inherited
+ShoppingTooltip2["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
+ShoppingTooltip2["textRight1Font"] = "GameTooltipHeaderText" -- inherited
+ShoppingTooltip2["textLeft2Font"] = "GameTooltipText" -- inherited
+ShoppingTooltip2["textRight2Font"] = "GameTooltipText" -- inherited
 ShoppingTooltip2["layoutType"] = "TooltipDefaultLayout" -- inherited
 ShoppingTooltip2["TextLeft1"] = ShoppingTooltip2TextLeft1 -- inherited
 ShoppingTooltip2["TextRight1"] = ShoppingTooltip2TextRight1 -- inherited
 ShoppingTooltip2["TextLeft2"] = ShoppingTooltip2TextLeft2 -- inherited
 ShoppingTooltip2["TextRight2"] = ShoppingTooltip2TextRight2 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L250)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L242)
 --- @class GameTooltipDefaultContainer : Frame, EditModeHudTooltipSystemTemplate
 GameTooltipDefaultContainer = {}
-GameTooltipDefaultContainer["system"] = Enum.EditModeSystem.HudTooltip -- inherited
-GameTooltipDefaultContainer["systemNameString"] = HUD_EDIT_MODE_HUD_TOOLTIP_LABEL -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L9)
 --- child of GameTooltipTooltip (created in template GameTooltipTemplate)
@@ -700,7 +648,7 @@ GameTooltipTooltip["TextRight2"] = GameTooltipTooltipTextRight2 -- inherited
 --- @type InternalEmbeddedItemTooltipTemplate_GarrisonFollowerTooltip
 GameTooltipGarrisonFollowerTooltip = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L254)
 --- child of GameTooltip
 --- @class GameTooltip_ItemTooltip : Frame, InternalEmbeddedItemTooltipTemplate
 --- @field yspacing number # 13
@@ -880,7 +828,7 @@ GameTooltipTexture29 = {}
 --- @type SharedTooltipArtTemplate_Texture30
 GameTooltipTexture30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L249)
 --- @class GameTooltip : GameTooltip, GameTooltipTemplate
 --- @field supportsItemComparison boolean # true
 --- @field ItemTooltip GameTooltip_ItemTooltip
@@ -1095,7 +1043,7 @@ EmbeddedItemTooltipTooltip["TextRight2"] = EmbeddedItemTooltipTooltipTextRight2 
 --- @type InternalEmbeddedItemTooltipTemplate_GarrisonFollowerTooltip
 EmbeddedItemTooltipGarrisonFollowerTooltip = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L287)
 --- child of EmbeddedItemTooltip
 --- @class EmbeddedItemTooltip_ItemTooltip : Frame, InternalEmbeddedItemTooltipTemplate
 
@@ -1274,7 +1222,7 @@ EmbeddedItemTooltipTexture29 = {}
 --- @type SharedTooltipArtTemplate_Texture30
 EmbeddedItemTooltipTexture30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L276)
 --- @class EmbeddedItemTooltip : GameTooltip, GameTooltipTemplate
 --- @field ItemTooltip EmbeddedItemTooltip_ItemTooltip
 --- @field BottomFontString FontString
@@ -1466,7 +1414,7 @@ GameNoHeaderTooltipTexture29 = {}
 --- @type SharedTooltipArtTemplate_Texture30
 GameNoHeaderTooltipTexture30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L321)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L313)
 --- @class GameNoHeaderTooltip : GameTooltip, GameTooltipTemplate
 --- @field textLeft1Font string # GameTooltipText
 --- @field textRight1Font string # GameTooltipText
@@ -1660,7 +1608,7 @@ GameSmallHeaderTooltipTexture29 = {}
 --- @type SharedTooltipArtTemplate_Texture30
 GameSmallHeaderTooltipTexture30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L330)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L322)
 --- @class GameSmallHeaderTooltip : GameTooltip, GameTooltipTemplate
 --- @field textLeft1Font string # SystemFont_Med2
 --- @field textRight1Font string # SystemFont_Med2

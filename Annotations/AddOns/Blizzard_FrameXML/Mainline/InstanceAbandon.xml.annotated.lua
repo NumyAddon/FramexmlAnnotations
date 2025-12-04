@@ -1,12 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L154)
---- child of InstanceAbandonPopup (created in template StaticPopupTemplate)
---- @type StaticPopupTemplate_CloseButton
-InstanceAbandonPopupCloseButton = {}
-InstanceAbandonPopupCloseButton["ignoreInLayout"] = true
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L196)
 --- child of InstanceAbandonPopup (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_ExtraButton
 InstanceAbandonPopupExtraButton = {}
@@ -14,12 +8,12 @@ InstanceAbandonPopupExtraButton["baseWidth"] = 128 -- inherited
 InstanceAbandonPopupExtraButton["baseHeight"] = 21 -- inherited
 InstanceAbandonPopupExtraButton["useScaleWeight"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L214)
 --- child of StaticPopupTemplateEditBox
 --- @class StaticPopupTemplate_EditBox_Instructions : FontString, UserScaledFontGameDisableSmall, UserScaledFontStringTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L201)
 --- child of InstanceAbandonPopup (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_EditBox
 InstanceAbandonPopupEditBox = {}
@@ -49,7 +43,7 @@ InstanceAbandonPopupMoneyFrameGoldButton = {}
 --- @type Texture
 InstanceAbandonPopupMoneyFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L232)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L240)
 --- child of InstanceAbandonPopup (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_MoneyFrame
 InstanceAbandonPopupMoneyFrame = {}
@@ -139,7 +133,7 @@ InstanceAbandonPopupMoneyInputFrameCopper["baseHeight"] = 20 -- inherited
 InstanceAbandonPopupMoneyInputFrameCopper["left"] = InstanceAbandonPopupMoneyInputFrameCopperLeft -- inherited
 InstanceAbandonPopupMoneyInputFrameCopper["right"] = InstanceAbandonPopupMoneyInputFrameCopperRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L248)
 --- child of InstanceAbandonPopup (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_MoneyInputFrame
 InstanceAbandonPopupMoneyInputFrame = {}
@@ -149,11 +143,17 @@ InstanceAbandonPopupMoneyInputFrame["gold"] = InstanceAbandonPopupMoneyInputFram
 InstanceAbandonPopupMoneyInputFrame["silver"] = InstanceAbandonPopupMoneyInputFrameSilver -- inherited
 InstanceAbandonPopupMoneyInputFrame["copper"] = InstanceAbandonPopupMoneyInputFrameCopper -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L94)
 --- child of InstanceAbandonPopup (created in template StaticPopupTemplate)
 --- @type StaticPopupTemplate_Text
 InstanceAbandonPopupText = {}
 InstanceAbandonPopupText["useScaleWeight"] = true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L64)
+--- child of InstanceAbandonPopup (created in template StaticPopupBaseTemplate)
+--- @type StaticPopupBaseTemplate_CloseButton
+InstanceAbandonPopupCloseButton = {}
+InstanceAbandonPopupCloseButton["ignoreInLayout"] = true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L4)
 --- @class InstanceAbandonPopup : Frame, StaticPopupTemplate
@@ -162,12 +162,12 @@ InstanceAbandonPopup = {}
 InstanceAbandonPopup["reserved"] = true
 InstanceAbandonPopup["onCloseCallback"] = StaticPopup_OnCloseButtonClicked -- inherited
 InstanceAbandonPopup["heightPadding"] = 16 -- inherited
-InstanceAbandonPopup["CloseButton"] = InstanceAbandonPopupCloseButton -- inherited
 InstanceAbandonPopup["ExtraButton"] = InstanceAbandonPopupExtraButton -- inherited
 InstanceAbandonPopup["EditBox"] = InstanceAbandonPopupEditBox -- inherited
 InstanceAbandonPopup["MoneyFrame"] = InstanceAbandonPopupMoneyFrame -- inherited
 InstanceAbandonPopup["MoneyInputFrame"] = InstanceAbandonPopupMoneyInputFrame -- inherited
 InstanceAbandonPopup["Text"] = InstanceAbandonPopupText -- inherited
+InstanceAbandonPopup["CloseButton"] = InstanceAbandonPopupCloseButton -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/InstanceAbandon.xml#L24)
 --- child of InstanceAbandonFrame

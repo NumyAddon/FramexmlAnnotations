@@ -1202,17 +1202,18 @@ AchievementFrameTab3 = {}
 AchievementFrameFilterDropdown = {}
 AchievementFrameFilterDropdown["resizeToText"] = false
 AchievementFrameFilterDropdown["text"] = FILTER -- inherited
+AchievementFrameFilterDropdown["disableFontObject"] = "GameFontDisable" -- inherited
 AchievementFrameFilterDropdown["menuRelativePoint"] = "BOTTOMLEFT" -- inherited
 AchievementFrameFilterDropdown["menuPointX"] = 6 -- inherited
 AchievementFrameFilterDropdown["menuPointY"] = 2 -- inherited
 AchievementFrameFilterDropdown["resizeToTextPadding"] = 60 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L44)
 --- child of AchievementFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 AchievementFrameClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L1234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L35)
 --- child of AchievementFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 AchievementFrameSearchIcon = {}
@@ -1483,6 +1484,10 @@ AchievementFrameWoodBorderBottomRight = {}
 --- @field backdropInfo any # BACKDROP_ACHIEVEMENTS_0_64
 --- @field Header AchievementFrame_Header
 --- @field Categories AchievementFrameCategories
+--- @field Tab1 AchievementFrameTab1
+--- @field Tab2 AchievementFrameTab2
+--- @field Tab3 AchievementFrameTab3
+--- @field FilterDropdown AchievementFrameFilterDropdown
 --- @field SearchBox AchievementFrame_SearchBox
 --- @field SearchPreviewContainer AchievementFrame_SearchPreviewContainer
 --- @field searchProgressBar AchievementFrame_searchProgressBar
@@ -1493,5 +1498,9 @@ AchievementFrameWoodBorderBottomRight = {}
 --- @field BackgroundBlackCover Texture
 AchievementFrame = {}
 AchievementFrame["Categories"] = AchievementFrameCategories
+AchievementFrame["Tab1"] = AchievementFrameTab1
+AchievementFrame["Tab2"] = AchievementFrameTab2
+AchievementFrame["Tab3"] = AchievementFrameTab3
+AchievementFrame["FilterDropdown"] = AchievementFrameFilterDropdown
 AchievementFrame["backdropInfo"] = BACKDROP_ACHIEVEMENTS_0_64
 

@@ -10,44 +10,44 @@ function AdventureObjectiveTrackerMixin:InitModule() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L22)
 function AdventureObjectiveTrackerMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L52)
 function AdventureObjectiveTrackerMixin:OnBlockHeaderClick(block, mouseButton) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L86)
 function AdventureObjectiveTrackerMixin:OnBlockHeaderEnter(block) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L108)
 function AdventureObjectiveTrackerMixin:OnBlockHeaderLeave(block) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L116)
 function AdventureObjectiveTrackerMixin:GetDebugReportInfo(block) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L120)
 function AdventureObjectiveTrackerMixin:ClickProfessionTarget(recipeID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L126)
 function AdventureObjectiveTrackerMixin:OpenToAppearance(appearanceID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L130)
 function AdventureObjectiveTrackerMixin:Untrack(trackableType, id) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L134)
 function AdventureObjectiveTrackerMixin:ProcessTrackingEntry(trackableType, trackableID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L194)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L199)
 function AdventureObjectiveTrackerMixin:OnFreeBlock(block) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L204)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L209)
 function AdventureObjectiveTrackerMixin:EnumerateTrackables(callback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L215)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L220)
 function AdventureObjectiveTrackerMixin:StopTrackingCollectedItems() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L231)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L236)
 function AdventureObjectiveTrackerMixin:OnTrackableItemCollected(trackableType, trackableID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L267)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L280)
 function AdventureObjectiveTrackerMixin:OnShowRewardsToastDone(block) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_AdventureObjectiveTracker.lua#L284)
 function AdventureObjectiveTrackerMixin:LayoutContents() end

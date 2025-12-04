@@ -17,11 +17,11 @@
 --- @field hasShadow boolean # true
 --- @field Arrow Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/Mainline/MenuTemplates.xml#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/Mainline/MenuTemplates.xml#L83)
 --- child of WowStyle1FilterDropdownTemplate
 --- @class WowStyle1FilterDropdownTemplate_ResetButton : Button, UIResetButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/Mainline/MenuTemplates.xml#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/Mainline/MenuTemplates.xml#L99)
 --- child of WowStyle1FilterDropdownTemplate
 --- @class WowStyle1FilterDropdownTemplate_Text : FontString, GameFontNormal
 
@@ -29,6 +29,7 @@
 --- Template
 --- @class WowStyle1FilterDropdownTemplate : DropdownButton, WowStyle1FilterDropdownMixin
 --- @field text any # FILTER
+--- @field disableFontObject string # GameFontDisable
 --- @field menuRelativePoint string # BOTTOMLEFT
 --- @field menuPointX number # 6
 --- @field menuPointY number # 2

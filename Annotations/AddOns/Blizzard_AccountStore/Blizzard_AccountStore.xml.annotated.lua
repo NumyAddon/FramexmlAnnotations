@@ -118,12 +118,12 @@ AccountStoreFrameRight = {}
 --- child of AccountStoreFrame
 --- @class AccountStoreFrame_PageText : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L834)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L633)
 --- child of AccountStoreFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 AccountStoreFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L801)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AccountStore/Blizzard_AccountStore.xml#L600)
 --- child of AccountStoreFrame (created in template PortraitFrameTexturedBaseTemplate)
 --- @type Texture
 AccountStoreFrameBg = {}

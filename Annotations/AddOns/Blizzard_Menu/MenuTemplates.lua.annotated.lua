@@ -1,206 +1,212 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L444)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L562)
 --- @class DropdownSelectionTextMixin : DropdownTextMixin
 DropdownSelectionTextMixin = CreateFromMixins(DropdownTextMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L615)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L741)
 --- @class WowFilterButtonMixin : WowDropdownFilterBehaviorMixin
 WowFilterButtonMixin = CreateFromMixins(WowDropdownFilterBehaviorMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L627)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L753)
 --- @class WowStyle1DropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin
 WowStyle1DropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownSelectionTextMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L650)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L776)
 --- @class WowStyle1FilterDropdownMixin : ButtonStateBehaviorMixin, DropdownTextMixin, WowFilterButtonMixin
 WowStyle1FilterDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownTextMixin, WowFilterButtonMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L688)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L832)
 --- @class WowStyle2DropdownMixin : ButtonStateBehaviorMixin, DropdownSelectionTextMixin, WowFilterButtonMixin
 WowStyle2DropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin, DropdownSelectionTextMixin, WowFilterButtonMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L748)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L892)
 --- @class WowStyle1ArrowDropdownMixin : ButtonStateBehaviorMixin
 WowStyle1ArrowDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L793)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L937)
 --- @class RandomColorStyleMenuMixin : MenuStyleMixin
 RandomColorStyleMenuMixin = CreateFromMixins(MenuStyleMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L804)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L948)
 --- @class BlackColorStyleMenuMixin : MenuStyleMixin
 BlackColorStyleMenuMixin = CreateFromMixins(MenuStyleMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L813)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L957)
 --- @class MenuStyle2Mixin : MenuStyleMixin
 MenuStyle2Mixin = CreateFromMixins(MenuStyleMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L837)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L981)
 --- @class WowStyle2IconButtonMixin : ButtonStateBehaviorMixin
 WowStyle2IconButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L392)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L510)
 --- @class DropdownTextMixin
 DropdownTextMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L557)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L681)
 --- @class WowDropdownFilterBehaviorMixin
 WowDropdownFilterBehaviorMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L756)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L900)
 --- @class MenuStyleMixin
 MenuStyleMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L394)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L512)
 function DropdownTextMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L400)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L518)
 function DropdownTextMixin:GetText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L404)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L522)
 function DropdownTextMixin:SetText(text) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L409)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L527)
 function DropdownTextMixin:GetUpdateText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L413)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L531)
 function DropdownTextMixin:UpdateText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L553)
 function DropdownTextMixin:UpdateToMenuSelections(menuDescription, currentSelections) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L450)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L568)
 function DropdownSelectionTextMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L456)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L574)
 function DropdownSelectionTextMixin:GetUpdateText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L460)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L578)
 function DropdownSelectionTextMixin:GetDefaultText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L464)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L582)
 function DropdownSelectionTextMixin:SetDefaultText(text) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L469)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L587)
 function DropdownSelectionTextMixin:SetSelectionTranslator(translator) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L473)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L591)
 function DropdownSelectionTextMixin:SetSelectionText(selectionFunc) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L477)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L595)
 function DropdownSelectionTextMixin:OverrideText(text) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L486)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L604)
 function DropdownSelectionTextMixin:UpdateToMenuSelections(menuDescription, currentSelections) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L517)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L641)
 function DropdownSelectionTextMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L523)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L647)
 function DropdownSelectionTextMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L531)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L655)
 function DropdownSelectionTextMixin:ShouldShowTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L535)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L659)
 function DropdownSelectionTextMixin:SetTooltip(tooltipFunc) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L539)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L663)
 function DropdownSelectionTextMixin:ShowTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L673)
 function DropdownSelectionTextMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L559)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L683)
 function WowDropdownFilterBehaviorMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L569)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L695)
 function WowDropdownFilterBehaviorMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L574)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L700)
 function WowDropdownFilterBehaviorMixin:SetDefaultCallback(callback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L579)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L705)
 function WowDropdownFilterBehaviorMixin:SetIsDefaultCallback(callback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L584)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L710)
 function WowDropdownFilterBehaviorMixin:SetUpdateCallback(callback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L588)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L714)
 function WowDropdownFilterBehaviorMixin:NotifyUpdate(description) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L594)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L720)
 function WowDropdownFilterBehaviorMixin:Reset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L598)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L724)
 function WowDropdownFilterBehaviorMixin:ValidateResetState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L605)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L731)
 function WowDropdownFilterBehaviorMixin:OnMenuResponse(menu, description) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L611)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L737)
 function WowDropdownFilterBehaviorMixin:OnMenuAssigned() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L617)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L743)
 function WowFilterButtonMixin:OnMenuResponse(menu, description) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L622)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L748)
 function WowFilterButtonMixin:OnMenuAssigned() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L629)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L755)
 function WowStyle1DropdownMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L635)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L761)
 function WowStyle1DropdownMixin:OnButtonStateChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L652)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L778)
 function WowStyle1FilterDropdownMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L662)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L794)
 function WowStyle1FilterDropdownMixin:GetBackgroundAtlas() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L679)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L811)
 function WowStyle1FilterDropdownMixin:OnButtonStateChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L690)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L815)
+function WowStyle1FilterDropdownMixin:OnEnable() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L821)
+function WowStyle1FilterDropdownMixin:OnDisable() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L834)
 function WowStyle2DropdownMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L699)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L843)
 function WowStyle2DropdownMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L704)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L848)
 function WowStyle2DropdownMixin:GetBackgroundAtlas() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L722)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L866)
 function WowStyle2DropdownMixin:OnButtonStateChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L736)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L880)
 function WowStyle2DropdownMixin:OnMenuOpened(menu) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L742)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L886)
 function WowStyle2DropdownMixin:OnMenuClosed(menu) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L750)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L894)
 function WowStyle1ArrowDropdownMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L758)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L902)
 function MenuStyleMixin:Generate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L795)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L939)
 function RandomColorStyleMenuMixin:Generate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L806)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L950)
 function BlackColorStyleMenuMixin:Generate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L815)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L959)
 function MenuStyle2Mixin:Generate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L839)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L983)
 function WowStyle2IconButtonMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L846)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L990)
 function WowStyle2IconButtonMixin:GetBackgroundAtlas() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L862)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.lua#L1006)
 function WowStyle2IconButtonMixin:OnButtonStateChanged() end

@@ -20,7 +20,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L96)
 --- child of PlayerChoiceFrame_Title
---- @class PlayerChoiceFrame_Title_Text : FontString, SystemFont_Large
+--- @class PlayerChoiceFrame_Title_Text : FontString, SystemFont_Shadow_Large
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoice.xml#L68)
 --- child of PlayerChoiceFrame

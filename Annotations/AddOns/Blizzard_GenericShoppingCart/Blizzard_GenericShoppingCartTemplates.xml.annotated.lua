@@ -29,7 +29,7 @@
 --- @field PriceContainer ShoppingCartPriceTemplate_PriceContainer
 --- @field PriceIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L77)
 --- child of ShoppingCartCheckoutButtonTemplate
 --- @class ShoppingCartCheckoutButtonTemplate_PriceContainer : Frame, ShoppingCartPriceTemplate
 --- @field isLarge string # true
@@ -37,81 +37,77 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L71)
 --- Template
 --- @class ShoppingCartCheckoutButtonTemplate : Button, SharedButtonLargeTemplate, ShoppingCartServiceButtonTemplate
---- @field serviceName string # ShoppingCartDataServices.PurchaseCart
+--- @field serviceName any # ShoppingCartDataServices.PurchaseCart
 --- @field PriceContainer ShoppingCartCheckoutButtonTemplate_PriceContainer
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L90)
 --- child of ShoppingCartRemoveFromCartButtonTemplate
 --- @class ShoppingCartRemoveFromCartButtonTemplate_RemoveFromListButton : Button, ShoppingCartServiceButtonTemplate, ShoppingCartRemoveFromCartItemButtonMixin
 --- @field serviceName any # ShoppingCartDataServices.RemoveFromCart
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L88)
 --- Template
 --- @class ShoppingCartRemoveFromCartButtonTemplate : Frame, ShoppingCartRemoveFromCartItemButtonContainerMixin
 --- @field RemoveFromListButton ShoppingCartRemoveFromCartButtonTemplate_RemoveFromListButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L141)
 --- child of ShoppingCartVisualsFrameTemplate_CartVisibleContainer
 --- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Background : Frame, NineSlicePanelTemplate
 --- @field layoutType string # PerksProgramProductsPanelTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L151)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L155)
 --- child of ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Header
---- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Header_HideCartButton : Button, ShoppingCartServiceButtonTemplate, ShoppingCartHideCartServiceMixin
+--- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Header_HideCartButton : Button, UIButtonTemplate, ShoppingCartServiceButtonTemplate, ShoppingCartHideCartServiceMixin
 --- @field serviceName any # ShoppingCartVisualServices.SetCartShown
---- @field BG Texture
+--- @field buttonArtKit string # 128-redbutton-arrowdown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L168)
 --- child of ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Header
 --- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Header_Title : FontString, GameFontNormalHuge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L148)
 --- child of ShoppingCartVisualsFrameTemplate_CartVisibleContainer
 --- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Header : Frame
 --- @field HideCartButton ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Header_HideCartButton
 --- @field Title ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Header_Title
 --- @field TopDivider Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L187)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L184)
 --- child of ShoppingCartVisualsFrameTemplate_CartVisibleContainer
 --- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L194)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L191)
 --- child of ShoppingCartVisualsFrameTemplate_CartVisibleContainer
 --- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L216)
 --- child of ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer
 --- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer_ClearCartButton : Button, UIButtonTemplate, ShoppingCartServiceButtonTemplate, ShoppingCartClearCartServiceMixin
 --- @field serviceName any # ShoppingCartDataServices.ClearCart
 --- @field buttonArtKit string # 128-RedButton-Delete
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L230)
---- child of ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer
---- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer_PurchaseCartButton : Button, ShoppingCartCheckoutButtonTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L198)
 --- child of ShoppingCartVisualsFrameTemplate_CartVisibleContainer
 --- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer : Frame
 --- @field ClearCartButton ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer_ClearCartButton
---- @field PurchaseCartButton ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer_PurchaseCartButton
 --- @field BottomDivider Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L132)
 --- child of ShoppingCartVisualsFrameTemplate
 --- @class ShoppingCartVisualsFrameTemplate_CartVisibleContainer : Frame
+--- @field InputBlocker Button
 --- @field Background ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Background
 --- @field Header ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Header
 --- @field ScrollBox ShoppingCartVisualsFrameTemplate_CartVisibleContainer_ScrollBox
 --- @field ScrollBar ShoppingCartVisualsFrameTemplate_CartVisibleContainer_ScrollBar
 --- @field Footer ShoppingCartVisualsFrameTemplate_CartVisibleContainer_Footer
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L260)
 --- child of ShoppingCartVisualsFrameTemplate_CartHiddenContainer_ViewCartButton
 --- @class ShoppingCartVisualsFrameTemplate_CartHiddenContainer_ViewCartButton_ItemCountText : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L243)
 --- child of ShoppingCartVisualsFrameTemplate_CartHiddenContainer
 --- @class ShoppingCartVisualsFrameTemplate_CartHiddenContainer_ViewCartButton : Button, UIButtonTemplate, ShoppingCartServiceButtonTemplate, ShoppingCartShowCartServiceMixin, ShoppingCartViewCartButtonMixin
 --- @field serviceName any # ShoppingCartVisualServices.SetCartShown
@@ -119,46 +115,28 @@
 --- @field ItemCountBG Texture
 --- @field ItemCountText ShoppingCartVisualsFrameTemplate_CartHiddenContainer_ViewCartButton_ItemCountText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L275)
---- child of ShoppingCartVisualsFrameTemplate_CartHiddenContainer
---- @class ShoppingCartVisualsFrameTemplate_CartHiddenContainer_AddToCartButton : Button, HousingMarketShoppingCartServiceButtonTemplate, HousingMarketAddToCartServiceMixin
---- @field serviceName any # ShoppingCartDataServices.AddToCart
---- @field BG Texture
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L292)
---- child of ShoppingCartVisualsFrameTemplate_CartHiddenContainer
---- @class ShoppingCartVisualsFrameTemplate_CartHiddenContainer_AddToCartButtonBundle : Button, HousingMarketShoppingCartServiceButtonTemplate, HousingMarketAddToCartServiceMixin
---- @field serviceName any # ShoppingCartDataServices.AddToCart
---- @field bundleButton boolean # true
---- @field BG Texture
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L310)
---- child of ShoppingCartVisualsFrameTemplate_CartHiddenContainer
---- @class ShoppingCartVisualsFrameTemplate_CartHiddenContainer_PurchaseCartButton : Button, ShoppingCartCheckoutButtonTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L241)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L234)
 --- child of ShoppingCartVisualsFrameTemplate
 --- @class ShoppingCartVisualsFrameTemplate_CartHiddenContainer : Frame
+--- @field InputBlocker Button
 --- @field ViewCartButton ShoppingCartVisualsFrameTemplate_CartHiddenContainer_ViewCartButton
---- @field AddToCartButton ShoppingCartVisualsFrameTemplate_CartHiddenContainer_AddToCartButton
---- @field AddToCartButtonBundle ShoppingCartVisualsFrameTemplate_CartHiddenContainer_AddToCartButtonBundle
---- @field PurchaseCartButton ShoppingCartVisualsFrameTemplate_CartHiddenContainer_PurchaseCartButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L336)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L291)
 --- child of ShoppingCartVisualsFrameTemplate_PlayerTotalCurrencyDisplay
 --- @class ShoppingCartVisualsFrameTemplate_PlayerTotalCurrencyDisplay_CurrencyTotal : FontString, GameFontHighlightHuge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L274)
 --- child of ShoppingCartVisualsFrameTemplate
---- @class ShoppingCartVisualsFrameTemplate_PlayerTotalCurrencyDisplay : Frame
+--- @class ShoppingCartVisualsFrameTemplate_PlayerTotalCurrencyDisplay : Frame, ShoppingCartPlayerTotalCurrencyMixin
 --- @field CurrencyIcon Texture
 --- @field CurrencyTotal ShoppingCartVisualsFrameTemplate_PlayerTotalCurrencyDisplay_CurrencyTotal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_GenericShoppingCart/Blizzard_GenericShoppingCartTemplates.xml#L123)
 --- Template
 --- @class ShoppingCartVisualsFrameTemplate : Frame, ResizeLayoutFrame, ShoppingCartVisualsFrameMixin
 --- @field eventNamespace string # GenericCartEvents
 --- @field maxItemsToShow number # 5
+--- @field purchaseButtonTemplate string # ShoppingCartCheckoutButtonTemplate
 --- @field CartVisibleContainer ShoppingCartVisualsFrameTemplate_CartVisibleContainer
 --- @field CartHiddenContainer ShoppingCartVisualsFrameTemplate_CartHiddenContainer
 --- @field PlayerTotalCurrencyDisplay ShoppingCartVisualsFrameTemplate_PlayerTotalCurrencyDisplay

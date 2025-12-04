@@ -88,10 +88,7 @@ UnoccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin);--- @clas
 OccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin);--- @class OccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
 
 function OccupiedPlotPinMixin:OnMouseEnter()
-	GameTooltip:SetOwner(self, "ANCHOR_LEFT");
-	GameTooltip_SetTitle(GameTooltip, C_HousingNeighborhood.GetNeighborhoodPlotName(self:GetPlotInfo().plotID));
-	GameTooltip_AddNormalLine(GameTooltip, string.format(NEIGHBORHOODMAP_OWNED_BY, self:GetPlotInfo().ownerName));
-	GameTooltip:Show();
+	--we only want to show the tooltip for friends, not strangers
 end
 
 --///////////////////Friend Plot Pin////////////////////////////

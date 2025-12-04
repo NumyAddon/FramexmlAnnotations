@@ -34,6 +34,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactRaidGroup.xml#L61)
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_BorderFrame : Frame
+--- @field Background Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactRaidGroup.xml#L6)
 --- Implicitly protected

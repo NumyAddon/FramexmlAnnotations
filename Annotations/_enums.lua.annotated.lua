@@ -48,14 +48,14 @@ local MinimalSliderWithSteppersMixin_Label = {
     ["Max"] = 5,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1659)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1663)
 --- @enum IconSelectorPopupFrameModes
 local IconSelectorPopupFrameModes = {
     ["New"] = 1,
     ["Edit"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1664)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1668)
 --- @enum IconSelectorPopupFrameIconFilterTypes
 local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
@@ -70,7 +70,7 @@ local SpellFlyoutOpenReason = {
     ["GlyphActivated"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L169)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L188)
 --- @enum AuraUtil.AuraUpdateChangedType
 local AuraUtil_AuraUpdateChangedType = {
     ["None"] = 1,
@@ -79,7 +79,7 @@ local AuraUtil_AuraUpdateChangedType = {
     ["Dispel"] = 4,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L195)
 --- @enum AuraUtil.UnitFrameDebuffType
 local AuraUtil_UnitFrameDebuffType = {
     ["BossDebuff"] = 1,

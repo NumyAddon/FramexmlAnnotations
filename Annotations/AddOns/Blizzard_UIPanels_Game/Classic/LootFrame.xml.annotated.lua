@@ -484,8 +484,15 @@ LootFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- @field Name GroupLootFrameTemplate_Name
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L618)
---- @class GroupLootContainer : Frame
+--- @class GroupLootContainer : Frame, UIParentBottomManagedFrameTemplate
+--- @field layoutIndex number # 3
 GroupLootContainer = {}
+GroupLootContainer["layoutIndex"] = 3
+GroupLootContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+GroupLootContainer["align"] = "center" -- inherited
+GroupLootContainer["hideWhenActionBarIsOverriden"] = true -- inherited
+GroupLootContainer["isBottomManagedFrame"] = true -- inherited
+GroupLootContainer["isManagedFrame"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L423)
 --- child of GroupLootFrame1 (created in template GroupLootFrameTemplate)
@@ -512,7 +519,7 @@ GroupLootFrame1Decoration = {}
 --- @type Texture
 GroupLootFrame1Corner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L624)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L627)
 --- @class GroupLootFrame1 : Frame, GroupLootFrameTemplate
 GroupLootFrame1 = {}
 GroupLootFrame1["Name"] = GroupLootFrame1Name -- inherited
@@ -542,7 +549,7 @@ GroupLootFrame2Decoration = {}
 --- @type Texture
 GroupLootFrame2Corner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L628)
 --- @class GroupLootFrame2 : Frame, GroupLootFrameTemplate
 GroupLootFrame2 = {}
 GroupLootFrame2["Name"] = GroupLootFrame2Name -- inherited
@@ -572,7 +579,7 @@ GroupLootFrame3Decoration = {}
 --- @type Texture
 GroupLootFrame3Corner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L626)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L629)
 --- @class GroupLootFrame3 : Frame, GroupLootFrameTemplate
 GroupLootFrame3 = {}
 GroupLootFrame3["Name"] = GroupLootFrame3Name -- inherited
@@ -602,40 +609,40 @@ GroupLootFrame4Decoration = {}
 --- @type Texture
 GroupLootFrame4Corner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L627)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L630)
 --- @class GroupLootFrame4 : Frame, GroupLootFrameTemplate
 GroupLootFrame4 = {}
 GroupLootFrame4["Name"] = GroupLootFrame4Name -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L628)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L631)
 --- @class BonusRollFrame : Frame, BonusRollFrameTemplate
 BonusRollFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L630)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L633)
 --- @class BonusRollLootWonFrame : ContainedAlertFrame, LootWonAlertFrameTemplate
 BonusRollLootWonFrame = {}
 BonusRollLootWonFrame["numArrows"] = 5 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L639)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L642)
 --- @class BonusRollMoneyWonFrame : ContainedAlertFrame, MoneyWonAlertFrameTemplate
 BonusRollMoneyWonFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L660)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L663)
 --- child of MasterLooterPlayerTemplate
 --- @class MasterLooterPlayerTemplate_Name : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L648)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L651)
 --- Template
 --- @class MasterLooterPlayerTemplate : Button
 --- @field Bg Texture
 --- @field Highlight Texture
 --- @field Name MasterLooterPlayerTemplate_Name
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L742)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L745)
 --- child of MasterLooterFrame_Item
 --- @class MasterLooterFrame_Item_ItemName : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L695)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L698)
 --- child of MasterLooterFrame
 --- @class MasterLooterFrame_Item : Frame
 --- @field Icon Texture
@@ -645,11 +652,11 @@ BonusRollMoneyWonFrame = {}
 --- @field IconBorder Texture
 --- @field ItemName MasterLooterFrame_Item_ItemName
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L751)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L754)
 --- child of MasterLooterFrame
 --- @class MasterLooterFrame_player1 : Button, MasterLooterPlayerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L689)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/LootFrame.xml#L692)
 --- @class MasterLooterFrame : Frame, TooltipBorderedFrameTemplate
 --- @field Item MasterLooterFrame_Item
 --- @field player1 MasterLooterFrame_player1

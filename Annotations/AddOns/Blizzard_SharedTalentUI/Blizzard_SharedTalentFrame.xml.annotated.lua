@@ -32,6 +32,7 @@
 --- @field getTemplateType any # TalentButtonUtil.GetTemplateForTalentType
 --- @field getSpecializedMixin any # TalentButtonUtil.GetSpecializedMixin
 --- @field getEdgeTemplateType any # TalentButtonUtil.GetTemplateForEdgeVisualStyle
+--- @field getSpecializedChoiceMixin any # TalentButtonUtil.GetSpecializedChoiceMixin
 --- @field buttonSize number # 40
 --- @field topPadding number # 0
 --- @field leftPadding number # 0

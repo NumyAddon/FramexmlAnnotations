@@ -4,27 +4,27 @@
 --- @class ContinueAfterAllEventsMixin
 ContinueAfterAllEventsMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L115)
 --- @class CallbackHandleContainerMixin
 CallbackHandleContainerMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L6)
 function ContinueAfterAllEventsMixin:Init(callback, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L36)
 function ContinueAfterAllEventsMixin:HaveReceivedAllEvents() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L117)
 function CallbackHandleContainerMixin:Init() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L122)
 function CallbackHandleContainerMixin:RegisterCallback(cbr, event, callback, owner) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L126)
 function CallbackHandleContainerMixin:AddHandle(handle) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L130)
 function CallbackHandleContainerMixin:Unregister() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/EventUtil.lua#L137)
 function CallbackHandleContainerMixin:IsEmpty() end

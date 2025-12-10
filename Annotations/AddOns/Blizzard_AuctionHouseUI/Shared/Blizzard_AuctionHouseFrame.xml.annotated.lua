@@ -197,7 +197,7 @@ AuctionHouseFrameAuctionsTab["displayMode"] = AuctionHouseFrameDisplayMode.Aucti
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L153)
 --- child of BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay
---- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_StoreButton : Button, UIPanelGoldButtonTemplate
+--- @class BrowseWowTokenResultsTemplate_GameTimeTutorial_RightDisplay_StoreButton : Button, UIPanelGoldButtonTemplate, AuctionHouseStoreButtonMixin
 --- @field Logo Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L113)
@@ -387,37 +387,37 @@ GameTimeTutorial["layoutType"] = "PortraitFrameTemplate" -- inherited
 --- child of AuctionHouseFrame
 --- @class AuctionHouseFrame_WoWTokenSellFrame : Frame, WoWTokenSellFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1216)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1206)
 --- child of AuctionHouseFrameAuctionsFrameAuctionsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameAuctionsTabLeftDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1219)
 --- child of AuctionHouseFrameAuctionsFrameAuctionsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameAuctionsTabMiddleDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1238)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1228)
 --- child of AuctionHouseFrameAuctionsFrameAuctionsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameAuctionsTabRightDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1237)
 --- child of AuctionHouseFrameAuctionsFrameAuctionsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameAuctionsTabLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1246)
 --- child of AuctionHouseFrameAuctionsFrameAuctionsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameAuctionsTabMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1255)
 --- child of AuctionHouseFrameAuctionsFrameAuctionsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameAuctionsTabRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1286)
 --- child of AuctionHouseFrameAuctionsFrameAuctionsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameAuctionsTabHighlightTexture = {}
@@ -434,37 +434,37 @@ AuctionHouseFrameAuctionsFrameAuctionsTab["Middle"] = AuctionHouseFrameAuctionsF
 AuctionHouseFrameAuctionsFrameAuctionsTab["Right"] = AuctionHouseFrameAuctionsFrameAuctionsTabRight -- inherited
 AuctionHouseFrameAuctionsFrameAuctionsTab["HighlightTexture"] = AuctionHouseFrameAuctionsFrameAuctionsTabHighlightTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1216)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1206)
 --- child of AuctionHouseFrameAuctionsFrameBidsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameBidsTabLeftDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1219)
 --- child of AuctionHouseFrameAuctionsFrameBidsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameBidsTabMiddleDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1238)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1228)
 --- child of AuctionHouseFrameAuctionsFrameBidsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameBidsTabRightDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1237)
 --- child of AuctionHouseFrameAuctionsFrameBidsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameBidsTabLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1246)
 --- child of AuctionHouseFrameAuctionsFrameBidsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameBidsTabMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1255)
 --- child of AuctionHouseFrameAuctionsFrameBidsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameBidsTabRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1286)
 --- child of AuctionHouseFrameAuctionsFrameBidsTab (created in template TabButtonTemplate)
 --- @type Texture
 AuctionHouseFrameAuctionsFrameBidsTabHighlightTexture = {}

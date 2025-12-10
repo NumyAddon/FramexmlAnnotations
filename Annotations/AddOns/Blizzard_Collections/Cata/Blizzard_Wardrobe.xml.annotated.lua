@@ -1,36 +1,36 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1216)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1206)
 --- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 WardrobeCollectionFrameTab1LeftDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1219)
 --- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 WardrobeCollectionFrameTab1MiddleDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1238)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1228)
 --- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 WardrobeCollectionFrameTab1RightDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1237)
 --- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 WardrobeCollectionFrameTab1Left = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1246)
 --- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 WardrobeCollectionFrameTab1Middle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1255)
 --- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 WardrobeCollectionFrameTab1Right = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Collections/Cata/Blizzard_Wardrobe.xml#L1286)
 --- child of WardrobeCollectionFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 WardrobeCollectionFrameTab1HighlightTexture = {}

@@ -61,17 +61,17 @@ QuestFrameCompleteQuestButton["fitTextWidthPadding"] = 40 -- inherited
 --- @class QuestRewardScrollChildFrame : Frame
 QuestRewardScrollChildFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L70)
 --- child of QuestRewardScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestRewardScrollFrameTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L77)
 --- child of QuestRewardScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestRewardScrollFrameBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L84)
 --- child of QuestRewardScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestRewardScrollFrameMiddle = {}
@@ -105,22 +105,27 @@ QuestRewardScrollFrameScrollBar["ThumbTexture"] = QuestRewardScrollFrameScrollBa
 QuestRewardScrollFrame = {}
 QuestRewardScrollFrame["ScrollBar"] = QuestRewardScrollFrameScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L10)
+--- child of QuestFrameRewardPanel (created in template QuestFramePanelTemplate)
+--- @type Texture
+QuestFrameRewardPanelBg = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L18)
 --- child of QuestFrameRewardPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameRewardPanelMaterialTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L30)
 --- child of QuestFrameRewardPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameRewardPanelMaterialTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L38)
 --- child of QuestFrameRewardPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameRewardPanelMaterialBotLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L46)
 --- child of QuestFrameRewardPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameRewardPanelMaterialBotRight = {}
@@ -366,17 +371,17 @@ QuestProgressRequiredMoneyText = {}
 --- @class QuestProgressScrollChildFrame : Frame
 QuestProgressScrollChildFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L70)
 --- child of QuestProgressScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestProgressScrollFrameTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L77)
 --- child of QuestProgressScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestProgressScrollFrameBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L84)
 --- child of QuestProgressScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestProgressScrollFrameMiddle = {}
@@ -410,22 +415,27 @@ QuestProgressScrollFrameScrollBar["ThumbTexture"] = QuestProgressScrollFrameScro
 QuestProgressScrollFrame = {}
 QuestProgressScrollFrame["ScrollBar"] = QuestProgressScrollFrameScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L10)
+--- child of QuestFrameProgressPanel (created in template QuestFramePanelTemplate)
+--- @type Texture
+QuestFrameProgressPanelBg = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L18)
 --- child of QuestFrameProgressPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameProgressPanelMaterialTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L30)
 --- child of QuestFrameProgressPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameProgressPanelMaterialTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L38)
 --- child of QuestFrameProgressPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameProgressPanelMaterialBotLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L46)
 --- child of QuestFrameProgressPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameProgressPanelMaterialBotRight = {}
@@ -454,17 +464,17 @@ QuestFrameAcceptButton["fitTextWidthPadding"] = 40 -- inherited
 --- @class QuestDetailScrollChildFrame : Frame
 QuestDetailScrollChildFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L70)
 --- child of QuestDetailScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestDetailScrollFrameTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L77)
 --- child of QuestDetailScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestDetailScrollFrameBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L84)
 --- child of QuestDetailScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestDetailScrollFrameMiddle = {}
@@ -498,22 +508,27 @@ QuestDetailScrollFrameScrollBar["ThumbTexture"] = QuestDetailScrollFrameScrollBa
 QuestDetailScrollFrame = {}
 QuestDetailScrollFrame["ScrollBar"] = QuestDetailScrollFrameScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L10)
+--- child of QuestFrameDetailPanel (created in template QuestFramePanelTemplate)
+--- @type Texture
+QuestFrameDetailPanelBg = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L18)
 --- child of QuestFrameDetailPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameDetailPanelMaterialTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L30)
 --- child of QuestFrameDetailPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameDetailPanelMaterialTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L38)
 --- child of QuestFrameDetailPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameDetailPanelMaterialBotLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L46)
 --- child of QuestFrameDetailPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameDetailPanelMaterialBotRight = {}
@@ -805,17 +820,17 @@ AvailableQuestsText = {}
 --- @class QuestGreetingScrollChildFrame : Frame
 QuestGreetingScrollChildFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L70)
 --- child of QuestGreetingScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestGreetingScrollFrameTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L77)
 --- child of QuestGreetingScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestGreetingScrollFrameBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L84)
 --- child of QuestGreetingScrollFrame (created in template QuestScrollFrameTemplate)
 --- @type Texture
 QuestGreetingScrollFrameMiddle = {}
@@ -849,22 +864,27 @@ QuestGreetingScrollFrameScrollBar["ThumbTexture"] = QuestGreetingScrollFrameScro
 QuestGreetingScrollFrame = {}
 QuestGreetingScrollFrame["ScrollBar"] = QuestGreetingScrollFrameScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L10)
+--- child of QuestFrameGreetingPanel (created in template QuestFramePanelTemplate)
+--- @type Texture
+QuestFrameGreetingPanelBg = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L18)
 --- child of QuestFrameGreetingPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameGreetingPanelMaterialTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L30)
 --- child of QuestFrameGreetingPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameGreetingPanelMaterialTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L38)
 --- child of QuestFrameGreetingPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameGreetingPanelMaterialBotLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/TBC/QuestFrame.xml#L46)
 --- child of QuestFrameGreetingPanel (created in template QuestFramePanelTemplate)
 --- @type Texture
 QuestFrameGreetingPanelMaterialBotRight = {}

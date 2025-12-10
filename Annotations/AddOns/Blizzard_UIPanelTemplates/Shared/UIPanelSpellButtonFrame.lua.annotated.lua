@@ -7,50 +7,50 @@ UIPanelSpellButtonFrameMixin = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L3)
 function UIPanelSpellButtonFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L24)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L34)
 function UIPanelSpellButtonFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L40)
 function UIPanelSpellButtonFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L44)
 function UIPanelSpellButtonFrameMixin:OnIconClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L38)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L48)
 function UIPanelSpellButtonFrameMixin:OnIconDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L52)
 function UIPanelSpellButtonFrameMixin:OnIconEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L57)
 function UIPanelSpellButtonFrameMixin:OnIconLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L61)
 function UIPanelSpellButtonFrameMixin:SetSpellID(spellID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L66)
 function UIPanelSpellButtonFrameMixin:UpdateDisplay() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L94)
 function UIPanelSpellButtonFrameMixin:AddUsabilityUpdateEvent(event) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L98)
 function UIPanelSpellButtonFrameMixin:UpdateUsability() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L121)
 function UIPanelSpellButtonFrameMixin:IsAvailable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L126)
 function UIPanelSpellButtonFrameMixin:IsLocked() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L131)
 function UIPanelSpellButtonFrameMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L142)
 function UIPanelSpellButtonFrameMixin:UpdateCooldown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L151)
 function UIPanelSpellButtonFrameMixin:UpdateTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanelTemplates/Shared/UIPanelSpellButtonFrame.lua#L157)
 function UIPanelSpellButtonFrameMixin:OnSetTooltip(tooltip) end

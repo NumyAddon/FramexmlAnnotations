@@ -1,14 +1,14 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L82)
 --- @class SettingsLanguageDropdownControlMixin : BaseLanguageDropdownControlMixin
 SettingsLanguageDropdownControlMixin = CreateFromMixins(BaseLanguageDropdownControlMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L84)
 --- @class SettingsAudioLocaleDropdownMixin : BaseLanguageDropdownControlMixin
 SettingsAudioLocaleDropdownMixin = CreateFromMixins(BaseLanguageDropdownControlMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L101)
 --- @class LanguageRestartNeededMixin : SettingsListElementMixin
 LanguageRestartNeededMixin = CreateFromMixins(SettingsListElementMixin)
 
@@ -26,8 +26,8 @@ function SettingsLanguageDropdownMixin:OnLoad() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L76)
 function BaseLanguageDropdownControlMixin:SetupDropdownMenu(button, setting, options, initTooltip) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L86)
 function SettingsAudioLocaleDropdownMixin:Init(initializer) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Languages.lua#L103)
 function LanguageRestartNeededMixin:EvaluateState() end

@@ -11,4 +11,4 @@ function FocusFrameMixin:IsLocked() end
 function FocusFrameMixin:SetLock(locked) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Wrath/TargetFrame.lua#L1257)
-function FocusFrameMixin:SetSmallSize(smallSize, onChange) end
+function FocusFrameMixin:SetSmallSize(smallSize) end

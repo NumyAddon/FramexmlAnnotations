@@ -1362,6 +1362,7 @@
 --- | "store-receipt-parchment-top"
 --- | "store-strikethrough"
 --- | "store-toast"
+--- | "StoreModelSceneMixinTemplate"
 --- | "StorePurchaseAlertFrameTemplate"
 --- | "StorylineQuestPinTemplate"
 --- | "StreamDropdownTemplate"

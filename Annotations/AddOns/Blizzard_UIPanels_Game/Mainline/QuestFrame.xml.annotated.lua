@@ -588,7 +588,7 @@ QuestNPCModelTextScrollFrame["scrollBarBottomY"] = -10
 QuestNPCModelNameText = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestFrame.xml#L290)
---- @class QuestModelScene : ModelScene, PanningModelSceneMixinTemplate
+--- @class QuestModelScene : ModelScene, PanningModelSceneMixinTemplate, QuestFrameModelSceneMixin
 --- @field normalIntensity number # 0.75
 --- @field highlightIntensity number # 1.2
 --- @field ModelTextFrame QuestModelScene_ModelTextFrame

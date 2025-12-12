@@ -296,11 +296,11 @@
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L934)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L935)
 --- child of TransmogItemModelTemplate_PendingFrame
 --- @class TransmogItemModelTemplate_PendingFrame_Anim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L879)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L880)
 --- child of TransmogItemModelTemplate
 --- @class TransmogItemModelTemplate_PendingFrame : Frame
 --- @field SmokeFXRight Texture
@@ -314,11 +314,11 @@
 --- @field PendingFX Texture
 --- @field Anim TransmogItemModelTemplate_PendingFrame_Anim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1002)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1003)
 --- child of TransmogItemModelTemplate_SavedFrame
 --- @class TransmogItemModelTemplate_SavedFrame_Anim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L956)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L957)
 --- child of TransmogItemModelTemplate
 --- @class TransmogItemModelTemplate_SavedFrame : Frame
 --- @field FlipbookRight Texture
@@ -330,27 +330,27 @@
 --- @field FlipbookSparks Texture
 --- @field Anim TransmogItemModelTemplate_SavedFrame_Anim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1021)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1022)
 --- child of TransmogItemModelTemplate_NewVisual
 --- @class TransmogItemModelTemplate_NewVisual_NewString : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1018)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1019)
 --- child of TransmogItemModelTemplate
 --- @class TransmogItemModelTemplate_NewVisual : Frame
 --- @field NewString TransmogItemModelTemplate_NewVisual_NewString
 --- @field NewGlow Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1038)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1039)
 --- child of TransmogItemModelTemplate
 --- @class TransmogItemModelTemplate_FavoriteVisual : Frame
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1049)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1050)
 --- child of TransmogItemModelTemplate
 --- @class TransmogItemModelTemplate_HideVisual : Frame
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L848)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L849)
 --- Template
 --- @class TransmogItemModelTemplate : DressUpModel, TransmogItemModelMixin
 --- @field PendingFrame TransmogItemModelTemplate_PendingFrame
@@ -363,11 +363,11 @@
 --- @field StateTexture Texture
 --- @field BorderHighlight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1168)
 --- child of TransmogSetBaseModelTemplate_PendingFrame
 --- @class TransmogSetBaseModelTemplate_PendingFrame_Anim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1112)
 --- child of TransmogSetBaseModelTemplate
 --- @class TransmogSetBaseModelTemplate_PendingFrame : Frame
 --- @field SmokeFXRight Texture
@@ -381,11 +381,11 @@
 --- @field PendingFX Texture
 --- @field Anim TransmogSetBaseModelTemplate_PendingFrame_Anim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1238)
 --- child of TransmogSetBaseModelTemplate_SavedFrame
 --- @class TransmogSetBaseModelTemplate_SavedFrame_Anim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1190)
 --- child of TransmogSetBaseModelTemplate
 --- @class TransmogSetBaseModelTemplate_SavedFrame : Frame
 --- @field FlipbookRight Texture
@@ -397,12 +397,12 @@
 --- @field FlipbookSparks Texture
 --- @field Anim TransmogSetBaseModelTemplate_SavedFrame_Anim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1254)
 --- child of TransmogSetBaseModelTemplate
 --- @class TransmogSetBaseModelTemplate_Favorite : Frame
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1074)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1075)
 --- Template
 --- @class TransmogSetBaseModelTemplate : DressUpModel, TransmogSetBaseModelMixin
 --- @field PendingFrame TransmogSetBaseModelTemplate_PendingFrame
@@ -414,23 +414,23 @@
 --- @field TransmogStateTexture Texture
 --- @field Highlight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1277)
 --- Template
 --- @class TransmogSetModelTemplate : DressUpModel, TransmogSetBaseModelTemplate, TransmogSetModelMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1284)
 --- Template
 --- @class TransmogCustomSetModelTemplate : DressUpModel, TransmogSetBaseModelTemplate, TransmogCustomSetModelMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1304)
 --- child of TransmogSituationTemplate
 --- @class TransmogSituationTemplate_Dropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1295)
 --- child of TransmogSituationTemplate
 --- @class TransmogSituationTemplate_Title : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.xml#L1291)
 --- Template
 --- @class TransmogSituationTemplate : Frame, TransmogSituationMixin
 --- @field Dropdown TransmogSituationTemplate_Dropdown

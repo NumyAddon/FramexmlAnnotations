@@ -8,7 +8,7 @@
 --- child of AuraButtonArtTemplate
 --- @class AuraButtonArtTemplate_Duration : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L38)
 --- child of AuraButtonArtTemplate
 --- @class AuraButtonArtTemplate_Symbol : FontString, TextStatusBarText
 
@@ -22,24 +22,24 @@
 --- @field TempEnchantBorder Texture
 --- @field Symbol AuraButtonArtTemplate_Symbol
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L47)
 --- Template
 --- @class AuraButtonCodeTemplate : Button, AuraButtonArtTemplate, AuraButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L55)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L54)
 --- Template
 --- @class AuraButtonTemplate : Button, AuraButtonCodeTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L65)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L64)
 --- Template
 --- @class AuraContainerWarningFaderTemplate : AnimationGroup, AuraContainerWarningFaderMixin
 --- @field Animation Animation
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L82)
 --- child of AuraContainerTemplate
 --- @class AuraContainerTemplate_WarningFader : AnimationGroup, AuraContainerWarningFaderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L68)
 --- Template
 --- @class AuraContainerTemplate : Frame, AuraContainerMixin
 --- @field isHorizontal boolean # true
@@ -53,7 +53,7 @@
 --- @field auraWarningMinAlpha number # 0.3
 --- @field WarningFader AuraContainerTemplate_WarningFader
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L91)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L90)
 --- Template
 --- Adds itself to the parent inside the array `PrivateAuraAnchors`
 --- @class BuffFramePrivateAuraAnchorTemplate : Frame, BuffFramePrivateAuraAnchorMixin
@@ -61,20 +61,20 @@
 --- @field Icon Frame
 --- @field Duration Frame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L119)
 --- child of AuraFrameTemplate
 --- @class AuraFrameTemplate_AuraContainer : Frame, AuraContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L112)
 --- Template
 --- @class AuraFrameTemplate : Frame, AuraFrameMixin
 --- @field AuraContainer AuraFrameTemplate_AuraContainer
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L130)
 --- Template
 --- @class AuraFrameEventListenerTemplate : Frame, AuraFrameTemplate, AuraFrameEventListenerMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L137)
 --- Template
 --- @class AuraFrameEditModeTemplate : Frame, EditModeAuraFrameSystemTemplate, AuraFrameEventListenerTemplate, AuraFrameEditModeMixin
 

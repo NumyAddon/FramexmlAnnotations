@@ -4,11 +4,11 @@
 --- @class PartyMemberAuraMixin
 PartyMemberAuraMixin={}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L146)
 --- @class PartyAuraFrameMixin
 PartyAuraFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L210)
 --- @class ResurrectableIndicatorMixin
 ResurrectableIndicatorMixin = {}
 
@@ -18,26 +18,26 @@ function PartyMemberAuraMixin:UpdateMemberAuras(unitAuraUpdateInfo) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L21)
 function PartyMemberAuraMixin:UpdateAurasInternal(unitAuraUpdateInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L122)
 function PartyMemberAuraMixin:ParseAllAuras(displayOnlyDispellableDebuffs, ignoreBuffs, ignoreDebuffs, ignoreDispelDebuffs) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L147)
 function PartyAuraFrameMixin:Setup(unit, aura, isBuff) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L187)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L185)
 function PartyAuraFrameMixin:OnUpdate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L191)
 function PartyAuraFrameMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L196)
 function PartyAuraFrameMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L202)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L200)
 function PartyAuraFrameMixin:UpdateTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L211)
 function ResurrectableIndicatorMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/PartyMemberFrame.lua#L217)
 function ResurrectableIndicatorMixin:OnLeave() end

@@ -1,0 +1,102 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L65)
+--- @class EditModeSettingSliderMixin : CallbackRegistryMixin
+EditModeSettingSliderMixin = CreateFromMixins(CallbackRegistryMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L1)
+--- @class EditModeUnsavedChangesCheckerMixin
+EditModeUnsavedChangesCheckerMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L16)
+--- @class EditModeSettingDropdownMixin
+EditModeSettingDropdownMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L131)
+--- @class EditModeSettingCheckboxMixin
+EditModeSettingCheckboxMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L146)
+--- @class EditModeGridLineMixin
+EditModeGridLineMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L167)
+--- @class MagnetismPreviewLineMixin
+MagnetismPreviewLineMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L239)
+--- @class EditModeCheckButtonMixin
+EditModeCheckButtonMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L318)
+--- @class EditModeManagerSettingCheckButtonMixin
+EditModeManagerSettingCheckButtonMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L3)
+function EditModeUnsavedChangesCheckerMixin:OnEnter() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L11)
+function EditModeUnsavedChangesCheckerMixin:OnLeave() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L18)
+function EditModeSettingDropdownMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L22)
+function EditModeSettingDropdownMixin:SetupSetting(settingData) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L57)
+function EditModeSettingDropdownMixin:EditModeSettingDropdown_OnEnter() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L61)
+function EditModeSettingDropdownMixin:EditModeSettingDropdown_OnLeave() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L67)
+function EditModeSettingSliderMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L76)
+function EditModeSettingSliderMixin:SetupSetting(settingData) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L117)
+function EditModeSettingSliderMixin:OnSliderValueChanged(value) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L123)
+function EditModeSettingSliderMixin:OnSliderInteractStart() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L127)
+function EditModeSettingSliderMixin:OnSliderInteractEnd() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L133)
+function EditModeSettingCheckboxMixin:SetupSetting(settingData) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L140)
+function EditModeSettingCheckboxMixin:OnCheckButtonClick() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L155)
+function EditModeGridLineMixin:SetupLine(centerLine, verticalLine, xOffset, yOffset) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L171)
+function MagnetismPreviewLineMixin:Setup(magneticFrameInfo, lineAnchor) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L241)
+function EditModeCheckButtonMixin:EditModeCheckButton_OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L255)
+function EditModeCheckButtonMixin:EditModeCheckButton_OnShow() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L261)
+function EditModeCheckButtonMixin:OnEnter() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L284)
+function EditModeCheckButtonMixin:OnLeave() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L293)
+function EditModeCheckButtonMixin:RunMouseOverCallback(isMouseOver) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L299)
+function EditModeCheckButtonMixin:SetMouseOverCallback(callback) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L304)
+function EditModeCheckButtonMixin:ShouldEnable() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.lua#L320)
+function EditModeManagerSettingCheckButtonMixin:EditModeManagerSettingCheckButton_OnLoad() end

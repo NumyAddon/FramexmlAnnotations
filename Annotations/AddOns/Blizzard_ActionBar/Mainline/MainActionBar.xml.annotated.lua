@@ -58,6 +58,9 @@
 MainMenuBarVehicleLeaveButton = {}
 MainMenuBarVehicleLeaveButton["ignoreInLayout"] = true
 MainMenuBarVehicleLeaveButton["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
+MainMenuBarVehicleLeaveButton["system"] = Enum.EditModeSystem.VehicleLeaveButton -- inherited
+MainMenuBarVehicleLeaveButton["systemNameString"] = HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL -- inherited
+MainMenuBarVehicleLeaveButton["defaultHideSelection"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L52)
 --- child of MainActionBar
@@ -100,4 +103,7 @@ MainActionBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.MainBar
 MainActionBar["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
 MainActionBar["isNormalBar"] = true
 MainActionBar["enableDividers"] = true
+MainActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MainActionBar["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
+MainActionBar["addSystemIndexToName"] = true -- inherited
 

@@ -38,6 +38,8 @@ BuffFrame["exampleAuraType"] = "Buff"
 BuffFrame["maxAuras"] = BUFF_MAX_DISPLAY
 BuffFrame["systemIndex"] = Enum.EditModeAuraFrameSystemIndices.BuffFrame
 BuffFrame["systemNameString"] = HUD_EDIT_MODE_BUFF_FRAME_LABEL
+BuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
+BuffFrame["defaultHideSelection"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L97)
 --- child of DebuffFrame
@@ -65,6 +67,8 @@ DebuffFrame["maxAuras"] = DEBUFF_MAX_DISPLAY
 DebuffFrame["systemIndex"] = Enum.EditModeAuraFrameSystemIndices.DebuffFrame
 DebuffFrame["systemNameString"] = HUD_EDIT_MODE_DEBUFF_FRAME_LABEL
 DebuffFrame["doNotAnchorDisabledFrames"] = true
+DebuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
+DebuffFrame["defaultHideSelection"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L131)
 --- child of DeadlyDebuffFrame

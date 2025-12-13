@@ -450,6 +450,8 @@ ShoppingTooltip2["TextRight2"] = ShoppingTooltip2TextRight2 -- inherited
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L242)
 --- @class GameTooltipDefaultContainer : Frame, EditModeHudTooltipSystemTemplate
 GameTooltipDefaultContainer = {}
+GameTooltipDefaultContainer["system"] = Enum.EditModeSystem.HudTooltip -- inherited
+GameTooltipDefaultContainer["systemNameString"] = HUD_EDIT_MODE_HUD_TOOLTIP_LABEL -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L9)
 --- child of GameTooltipTooltip (created in template GameTooltipTemplate)

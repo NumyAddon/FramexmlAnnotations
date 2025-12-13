@@ -94,6 +94,11 @@ class TocFileParser
                                 continue 2; // skip this file
                             }
                             break;
+                        case 'ExcludeLoadGameType':
+                            if ($this->allowLoadGameType($value)) {
+                                continue 2; // skip this file
+                            }
+                            break;
                         case 'AllowLoad':
                             if (strtolower($value) === 'glue') {
                                 continue 2; // skip this file

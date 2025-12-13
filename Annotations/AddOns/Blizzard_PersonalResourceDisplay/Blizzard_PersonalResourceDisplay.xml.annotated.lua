@@ -67,4 +67,7 @@
 --- @field AlternatePowerBar PersonalResourceDisplayFrame_AlternatePowerBar
 --- @field ClassFrameContainer Frame
 PersonalResourceDisplayFrame = {}
+PersonalResourceDisplayFrame["system"] = Enum.EditModeSystem.PersonalResourceDisplay -- inherited
+PersonalResourceDisplayFrame["systemNameString"] = HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_LABEL -- inherited
+PersonalResourceDisplayFrame["defaultHideSelection"] = true -- inherited
 

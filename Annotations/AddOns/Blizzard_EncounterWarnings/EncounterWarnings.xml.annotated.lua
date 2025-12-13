@@ -20,6 +20,8 @@ CriticalEncounterWarnings["minimumWidth"] = 600
 CriticalEncounterWarnings["minimumHeight"] = 48
 CriticalEncounterWarnings["systemIndex"] = Enum.EditModeEncounterEventsSystemIndices.CriticalWarnings
 CriticalEncounterWarnings["systemNameString"] = HUD_EDIT_MODE_SYSTEM_ENCOUNTER_CRITICAL_WARNINGS
+CriticalEncounterWarnings["system"] = Enum.EditModeSystem.EncounterEvents -- inherited
+CriticalEncounterWarnings["defaultHideSelection"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarnings.xml#L33)
 --- @class MediumEncounterWarnings : Frame, EncounterWarningsSystemFrameTemplate
@@ -32,6 +34,8 @@ MediumEncounterWarnings["minimumWidth"] = 550
 MediumEncounterWarnings["minimumHeight"] = 36
 MediumEncounterWarnings["systemIndex"] = Enum.EditModeEncounterEventsSystemIndices.MediumWarnings
 MediumEncounterWarnings["systemNameString"] = HUD_EDIT_MODE_SYSTEM_ENCOUNTER_MEDIUM_WARNINGS
+MediumEncounterWarnings["system"] = Enum.EditModeSystem.EncounterEvents -- inherited
+MediumEncounterWarnings["defaultHideSelection"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarnings.xml#L42)
 --- @class MinorEncounterWarnings : Frame, EncounterWarningsSystemFrameTemplate
@@ -44,4 +48,6 @@ MinorEncounterWarnings["minimumWidth"] = 500
 MinorEncounterWarnings["minimumHeight"] = 36
 MinorEncounterWarnings["systemIndex"] = Enum.EditModeEncounterEventsSystemIndices.NormalWarnings
 MinorEncounterWarnings["systemNameString"] = HUD_EDIT_MODE_SYSTEM_ENCOUNTER_NORMAL_WARNINGS
+MinorEncounterWarnings["system"] = Enum.EditModeSystem.EncounterEvents -- inherited
+MinorEncounterWarnings["defaultHideSelection"] = true -- inherited
 

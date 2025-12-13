@@ -7,4 +7,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.xml#L11)
 --- @class DamageMeter : Frame, DamageMeterTemplate
 DamageMeter = {}
+DamageMeter["system"] = Enum.EditModeSystem.DamageMeter -- inherited
+DamageMeter["systemNameString"] = HUD_EDIT_MODE_DAMAGE_METER_LABEL -- inherited
+DamageMeter["defaultHideSelection"] = true -- inherited
 

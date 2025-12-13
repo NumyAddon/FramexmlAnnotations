@@ -60,4 +60,5 @@ CompactRaidFrameContainer["systemNameString"] = HUD_EDIT_MODE_RAID_FRAMES_LABEL
 CompactRaidFrameContainer["defaultHideSelection"] = true
 CompactRaidFrameContainer["breakSnappedFramesOnSave"] = true
 CompactRaidFrameContainer["alwaysUseTopLeftAnchor"] = true
+CompactRaidFrameContainer["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 

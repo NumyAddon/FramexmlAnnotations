@@ -74,6 +74,7 @@ class TocFileParser
 
         $dir = dirname($tocFilePath);
         $files = [];
+        $pattern = '/\[(?<name>[^ \]]+) (?<value>[^\]]+)\]/';
         foreach ($fileLines as $line) {
             $line = strtr(
                 $line,
@@ -83,33 +84,29 @@ class TocFileParser
                     '\\' => '/',
                 ],
             );
-            $gameTypeFilter = '[AllowLoadGameType';
-            if (str_contains($line, $gameTypeFilter)) {
-                $offset = strpos($line, $gameTypeFilter);
-                $filterSubString = substr(
-                    $line,
-                    $offset + strlen($gameTypeFilter),
-                    strpos($line, ']', $offset) - $offset - strlen($gameTypeFilter),
-                );
-                if (!$this->allowLoadGameType($filterSubString)) {
-                    continue; // skip this file
+            if (preg_match_all($pattern, $line, $matches, PREG_SET_ORDER)) {
+                foreach ($matches as $match) {
+                    $name = $match['name'];
+                    $value = $match['value'];
+                    switch ($name) {
+                        case 'AllowLoadGameType':
+                            if (!$this->allowLoadGameType($value)) {
+                                continue 2; // skip this file
+                            }
+                            break;
+                        case 'AllowLoad':
+                            if (strtolower($value) === 'glue') {
+                                continue 2; // skip this file
+                            }
+                            break;
+                        case 'AllowLoadEnvironment':
+                        case 'LoadIntoEnvironment':
+                            break; // ignore for now
+                        default:
+                            throw new RuntimeException("Unrecognized in-line directive ($name) in TOC line: $line");
+                    }
+                    $line = str_replace($match[0], '', $line);
                 }
-                $line = str_replace(
-                    substr($line, $offset, strpos($line, ']', $offset)),
-                    '',
-                    $line,
-                );
-            }
-            if (str_contains($line, '[AllowLoad ')) {
-                if (str_contains($line, '[AllowLoad Glue]')) {
-                    continue; // skip this file
-                }
-                $offset = strpos($line, '[AllowLoad ');
-                $line = str_replace(
-                    substr($line, $offset, strpos($line, ']', $offset)),
-                    '',
-                    $line,
-                );
             }
 
             $line = trim($line);

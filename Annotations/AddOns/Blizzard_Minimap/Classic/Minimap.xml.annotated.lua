@@ -106,4 +106,6 @@ MinimapCluster = {}
 MinimapCluster["ZoneTextButton"] = MinimapZoneTextButton
 MinimapCluster["ToggleButton"] = MinimapToggleButton
 MinimapCluster["scaleMinimapHeader"] = true
+MinimapCluster["system"] = Enum.EditModeSystem.Minimap -- inherited
+MinimapCluster["systemNameString"] = HUD_EDIT_MODE_MINIMAP_LABEL -- inherited
 

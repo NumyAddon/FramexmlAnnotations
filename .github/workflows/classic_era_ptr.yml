@@ -10,13 +10,13 @@ jobs:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic_era_ptr
-      FLAVOR: vanilla
+      FLAVOR: tbc # temporary change
 
   classic_era_ptr-mix-into-source:
     uses: ./.github/workflows/template.yml
     with:
       BRANCH: classic_era_ptr
-      FLAVOR: vanilla
+      FLAVOR: tbc # temporary change
       TARGET_BRANCH_SUFFIX: '-mix-into-source'
       MIX_ANNOTATIONS_INTO_SOURCE: true
       INCLUDE_RAW_XML_SOURCE: true

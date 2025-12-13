@@ -11,4 +11,6 @@ ExternalDefensivesFrame["exampleAuraType"] = "Buff"
 ExternalDefensivesFrame["maxAuras"] = 5
 ExternalDefensivesFrame["systemIndex"] = Enum.EditModeAuraFrameSystemIndices.ExternalDefensivesFrame
 ExternalDefensivesFrame["systemNameString"] = HUD_EDIT_MODE_EXTERNAL_DEFENSIVES_FRAME_LABEL
+ExternalDefensivesFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
+ExternalDefensivesFrame["defaultHideSelection"] = true -- inherited
 

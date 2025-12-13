@@ -70,6 +70,9 @@ MultiBarBottomLeft["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarBottomLeft["systemIndex"] = Enum.EditModeActionBarSystemIndices.Bar2
 MultiBarBottomLeft["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
 MultiBarBottomLeft["isNormalBar"] = true
+MultiBarBottomLeft["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBarBottomLeft["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
+MultiBarBottomLeft["addSystemIndexToName"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L75)
 --- @class MultiBarBottomRight : Frame, EditModeActionBarTemplate
@@ -97,6 +100,9 @@ MultiBarBottomRight["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBarBottomRight["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarBottomRight["systemIndex"] = Enum.EditModeActionBarSystemIndices.Bar3
 MultiBarBottomRight["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
+MultiBarBottomRight["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBarBottomRight["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
+MultiBarBottomRight["addSystemIndexToName"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L104)
 --- @class MultiBarLeft : Frame, EditModeActionBarTemplate
@@ -124,6 +130,9 @@ MultiBarLeft["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBarLeft["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarLeft["systemIndex"] = Enum.EditModeActionBarSystemIndices.RightBar2
 MultiBarLeft["isNormalBar"] = true
+MultiBarLeft["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBarLeft["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
+MultiBarLeft["addSystemIndexToName"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L133)
 --- @class MultiBarRight : Frame, EditModeActionBarTemplate
@@ -151,6 +160,9 @@ MultiBarRight["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBarRight["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBarRight["systemIndex"] = Enum.EditModeActionBarSystemIndices.RightBar1
 MultiBarRight["isNormalBar"] = true
+MultiBarRight["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBarRight["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
+MultiBarRight["addSystemIndexToName"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L162)
 --- @class MultiBar5 : Frame, EditModeActionBarTemplate
@@ -178,6 +190,9 @@ MultiBar5["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBar5["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBar5["systemIndex"] = Enum.EditModeActionBarSystemIndices.ExtraBar1
 MultiBar5["isNormalBar"] = true
+MultiBar5["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBar5["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
+MultiBar5["addSystemIndexToName"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L191)
 --- @class MultiBar6 : Frame, EditModeActionBarTemplate
@@ -205,6 +220,9 @@ MultiBar6["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBar6["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBar6["systemIndex"] = Enum.EditModeActionBarSystemIndices.ExtraBar2
 MultiBar6["isNormalBar"] = true
+MultiBar6["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBar6["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
+MultiBar6["addSystemIndexToName"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiActionBars.xml#L220)
 --- @class MultiBar7 : Frame, EditModeActionBarTemplate
@@ -232,4 +250,7 @@ MultiBar7["showGridEventName"] = "ACTIONBAR_SHOWGRID"
 MultiBar7["hideGridEventName"] = "ACTIONBAR_HIDEGRID"
 MultiBar7["systemIndex"] = Enum.EditModeActionBarSystemIndices.ExtraBar3
 MultiBar7["isNormalBar"] = true
+MultiBar7["system"] = Enum.EditModeSystem.ActionBar -- inherited
+MultiBar7["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
+MultiBar7["addSystemIndexToName"] = true -- inherited
 

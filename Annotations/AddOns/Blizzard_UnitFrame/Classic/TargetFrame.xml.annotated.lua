@@ -430,6 +430,7 @@ TargetFrame["buffs"] = TargetFrameBuffs -- inherited
 TargetFrame["debuffs"] = TargetFrameDebuffs -- inherited
 TargetFrame["Background"] = TargetFrameBackground -- inherited
 TargetFrame["nameBackground"] = TargetFrameNameBackground -- inherited
+TargetFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/TargetFrame.xml#L98)
 --- child of FocusFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -648,6 +649,7 @@ FocusFrame["buffs"] = FocusFrameBuffs -- inherited
 FocusFrame["debuffs"] = FocusFrameDebuffs -- inherited
 FocusFrame["Background"] = FocusFrameBackground -- inherited
 FocusFrame["nameBackground"] = FocusFrameNameBackground -- inherited
+FocusFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/TargetFrame.xml#L98)
 --- child of Boss1TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)

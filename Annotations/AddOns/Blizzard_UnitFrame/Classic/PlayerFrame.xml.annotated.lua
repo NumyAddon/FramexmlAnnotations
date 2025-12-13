@@ -240,6 +240,9 @@ PlayerPortrait = {}
 PlayerFrame = {}
 PlayerFrame["HealthBar"] = PlayerFrameHealthBar
 PlayerFrame["ManaBar"] = PlayerFrameManaBar
+PlayerFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Player -- inherited
+PlayerFrame["systemNameString"] = HUD_EDIT_MODE_PLAYER_FRAME_LABEL -- inherited
+PlayerFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PlayerFrame.xml#L381)
 --- @class PlayerFrameBottomManagedFramesContainer : Frame, PlayerFrameManagedContainerTemplate, PlayerFrameBottomManagedFramesContainerMixin

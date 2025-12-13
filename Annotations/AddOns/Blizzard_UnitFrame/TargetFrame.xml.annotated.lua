@@ -381,6 +381,7 @@ TargetFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Target
 TargetFrame["systemNameString"] = HUD_EDIT_MODE_TARGET_FRAME_LABEL
 TargetFrame["defaultHideSelection"] = true
 TargetFrame["frameType"] = "Target"
+TargetFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L96)
 --- child of FocusFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)
@@ -472,6 +473,7 @@ FocusFrame["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Focus
 FocusFrame["systemNameString"] = HUD_EDIT_MODE_FOCUS_FRAME_LABEL
 FocusFrame["defaultHideSelection"] = true
 FocusFrame["frameType"] = "Target"
+FocusFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L707)
 --- @class BossTargetFrameContainer : Frame, VerticalLayoutFrame, UIParentRightManagedFrameTemplate, EditModeBossUnitFrameSystemTemplate, BossTargetFrameContainerMixin
@@ -489,6 +491,12 @@ BossTargetFrameContainer["align"] = "right" -- inherited
 BossTargetFrameContainer["hideWhenActionBarIsOverriden"] = false -- inherited
 BossTargetFrameContainer["isRightManagedFrame"] = true -- inherited
 BossTargetFrameContainer["isManagedFrame"] = true -- inherited
+BossTargetFrameContainer["systemIndex"] = Enum.EditModeUnitFrameSystemIndices.Boss -- inherited
+BossTargetFrameContainer["systemNameString"] = HUD_EDIT_MODE_BOSS_FRAMES_LABEL -- inherited
+BossTargetFrameContainer["defaultHideSelection"] = true -- inherited
+BossTargetFrameContainer["breakSnappedFramesOnSave"] = true -- inherited
+BossTargetFrameContainer["alwaysUseTopRightAnchor"] = true -- inherited
+BossTargetFrameContainer["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/TargetFrame.xml#L96)
 --- child of Boss1TargetFramePowerBarAltCounterBar (created in template UnitPowerBarAltCounterTemplate)

@@ -28,4 +28,6 @@ PossessActionBar["noSpacers"] = true
 PossessActionBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.PossessActionBar
 PossessActionBar["systemNameString"] = HUD_EDIT_MODE_POSSESS_ACTION_BAR_LABEL
 PossessActionBar["defaultHideSelection"] = true
+PossessActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
+PossessActionBar["addSystemIndexToName"] = true -- inherited
 

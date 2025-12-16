@@ -89,7 +89,7 @@ local AuraUtil_UnitFrameDebuffType = {
     ["NonBossDebuff"] = 5,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1802)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1814)
 --- @enum PVPUIHonorInsetPanelType
 local PVPUIHonorInsetPanelType = {
     ["Casual"] = 1,

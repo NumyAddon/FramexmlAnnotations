@@ -712,6 +712,7 @@
 --- | "CooldownViewerBuffBarItemTemplate"
 --- | "CooldownViewerBuffIconItemTemplate"
 --- | "CooldownViewerEssentialItemTemplate"
+--- | "CooldownViewerItemDebuffBorderTemplate"
 --- | "CooldownViewerSettingsBarCategoryTemplate"
 --- | "CooldownViewerSettingsBarItemTemplate"
 --- | "CooldownViewerSettingsCategoryTemplate"

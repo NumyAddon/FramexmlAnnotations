@@ -8,7 +8,7 @@ EncounterTimelineEventFrameMixin = CreateFromMixins(EncounterTimelineSettingsMix
 --- @class EncounterTimelineTextWithIconEventFrameMixin : EncounterTimelineEventFrameMixin, EncounterTimelineEventFrameTranslationMixin
 EncounterTimelineTextWithIconEventFrameMixin = CreateFromMixins(EncounterTimelineEventFrameMixin, EncounterTimelineEventFrameTranslationMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L912)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L925)
 --- @class EncounterTimelineSpellEventFrameMixin : EncounterTimelineTextWithIconEventFrameMixin
 EncounterTimelineSpellEventFrameMixin = CreateFromMixins(EncounterTimelineTextWithIconEventFrameMixin)
 
@@ -235,83 +235,83 @@ function EncounterTimelineTextWithIconEventFrameMixin:UpdateEventState() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L539)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateEventTrack() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L565)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L566)
 function EncounterTimelineTextWithIconEventFrameMixin:HighlightEvent() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L574)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L575)
 function EncounterTimelineTextWithIconEventFrameMixin:PlayIntroAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L589)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L590)
 function EncounterTimelineTextWithIconEventFrameMixin:PlayCancelAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L615)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L616)
 function EncounterTimelineTextWithIconEventFrameMixin:PlayFinishAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L640)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L641)
 function EncounterTimelineTextWithIconEventFrameMixin:PlayHighlightAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L648)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L649)
 function EncounterTimelineTextWithIconEventFrameMixin:PlayPulseAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L652)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L653)
 function EncounterTimelineTextWithIconEventFrameMixin:StopIntroAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L656)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L657)
 function EncounterTimelineTextWithIconEventFrameMixin:StopCancelAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L660)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L661)
 function EncounterTimelineTextWithIconEventFrameMixin:StopFinishAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L664)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L665)
 function EncounterTimelineTextWithIconEventFrameMixin:StopHighlightAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L668)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L669)
 function EncounterTimelineTextWithIconEventFrameMixin:StopPulseAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L672)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L673)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateBorderStyle() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L684)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L707)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateCountdown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L706)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L722)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateFrameLevel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L731)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L747)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateIconAlpha() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L750)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L763)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateIconography() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L757)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L770)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateNameText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L765)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L778)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateOrientation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L812)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L825)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdatePointOffsets() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L834)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L847)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdatePulseAnimation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L849)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L862)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateStatusText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L868)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L881)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateTextAnchors() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L888)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L901)
 function EncounterTimelineTextWithIconEventFrameMixin:UpdateTrailAlpha() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L914)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L927)
 function EncounterTimelineSpellEventFrameMixin:Init(eventInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L920)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L933)
 function EncounterTimelineSpellEventFrameMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L931)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L944)
 function EncounterTimelineSpellEventFrameMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L939)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineEventTemplates.lua#L952)
 function EncounterTimelineSpellEventFrameMixin:UpdateNameText() end

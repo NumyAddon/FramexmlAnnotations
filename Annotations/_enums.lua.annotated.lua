@@ -70,7 +70,7 @@ local SpellFlyoutOpenReason = {
     ["GlyphActivated"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L180)
 --- @enum AuraUtil.AuraUpdateChangedType
 local AuraUtil_AuraUpdateChangedType = {
     ["None"] = 1,
@@ -79,7 +79,7 @@ local AuraUtil_AuraUpdateChangedType = {
     ["Dispel"] = 4,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L195)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L187)
 --- @enum AuraUtil.UnitFrameDebuffType
 local AuraUtil_UnitFrameDebuffType = {
     ["BossDebuff"] = 1,
@@ -89,7 +89,7 @@ local AuraUtil_UnitFrameDebuffType = {
     ["NonBossDebuff"] = 5,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1802)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1814)
 --- @enum PVPUIHonorInsetPanelType
 local PVPUIHonorInsetPanelType = {
     ["Casual"] = 1,
@@ -147,6 +147,21 @@ local CraftingQualityStatLine = {
     ["Difficulty"] = 1,
     ["Skill"] = 2,
     ["Concentration"] = 3,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L128)
+--- @enum CooldownViewerVisual
+local CooldownViewerVisual = {
+    ["MarchingAnts"] = 1,
+    ["MarchingAntsCyan"] = 2,
+    ["MarchingAntsRed"] = 3,
+    ["MarchingAntsGreen"] = 4,
+    ["MarchingAntsBlue"] = 5,
+    ["Flash"] = 6,
+    ["FlashCyan"] = 7,
+    ["FlashRed"] = 8,
+    ["FlashGreen"] = 9,
+    ["FlashBlue"] = 10,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L366)

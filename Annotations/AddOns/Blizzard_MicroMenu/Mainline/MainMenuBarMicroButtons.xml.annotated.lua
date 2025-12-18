@@ -118,18 +118,23 @@ EJMicroButton["commandName"] = "TOGGLEENCOUNTERJOURNAL"
 HelpMicroButton = {}
 HelpMicroButton["tooltipText"] = HELP_BUTTON
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L304)
+--- child of StoreMicroButton
+--- @class StoreMicroButton_NotificationOverlay : Frame, MainMenuBarMicroButtonNotificationTemplate
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L289)
 --- @class StoreMicroButton : Button, MainMenuBarMicroButton, StoreMicroButtonMixin
 --- @field buttonContext string # StoreMicroButton
+--- @field NotificationOverlay StoreMicroButton_NotificationOverlay
 --- @field FlashContent Texture
 StoreMicroButton = {}
 StoreMicroButton["buttonContext"] = "StoreMicroButton"
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L325)
 --- child of MainMenuMicroButton
 --- @class MainMenuMicroButton_NotificationOverlay : Frame, MainMenuBarMicroButtonNotificationTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L308)
 --- @class MainMenuMicroButton : Button, MainMenuBarMicroButton, MainMenuMicroButtonMixin
 --- @field commandName string # TOGGLEGAMEMENU
 --- @field newbieText any # NEWBIE_TOOLTIP_MAINMENU

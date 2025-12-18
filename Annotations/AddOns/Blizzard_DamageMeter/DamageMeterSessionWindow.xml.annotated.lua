@@ -4,42 +4,44 @@
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_SettingsDropdown : DropdownButton, DamageMeterSettingsDropdownButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L55)
 --- child of DamageMeterSessionWindowTemplate_SessionDropdown
 --- @class DamageMeterSessionWindowTemplate_SessionDropdown_SessionName : FontString, GameFontNormalMed1
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L44)
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_SessionDropdown : DropdownButton, WowStyle2DropdownTemplate
+--- @field shortShortNameWidth number # 18
+--- @field longShortNameWidth number # 32
 --- @field SessionName DamageMeterSessionWindowTemplate_SessionDropdown_SessionName
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L73)
 --- child of DamageMeterSessionWindowTemplate_DamageMeterTypeDropdown
 --- @class DamageMeterSessionWindowTemplate_DamageMeterTypeDropdown_TypeName : FontString, GameFontNormalMed1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L64)
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_DamageMeterTypeDropdown : DropdownButton, WowStyle1ArrowDropdownTemplate
 --- @field hasShadow boolean # false
 --- @field TypeName DamageMeterSessionWindowTemplate_DamageMeterTypeDropdown_TypeName
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L82)
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L87)
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_LocalPlayerEntry : Button, DamageMeterSourceEntryTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L92)
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L94)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L98)
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_ResizeButton : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L107)
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_SourceWindow : Frame, DamageMeterSourceWindowTemplate
 
@@ -47,15 +49,15 @@
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_NotActive : FontString, GameFontNormalMed1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L112)
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_ShowResizeButton : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L115)
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_ShowBackground : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DamageMeter/DamageMeterSessionWindow.xml#L118)
 --- child of DamageMeterSessionWindowTemplate
 --- @class DamageMeterSessionWindowTemplate_EmphasizeScrollBar : AnimationGroup
 

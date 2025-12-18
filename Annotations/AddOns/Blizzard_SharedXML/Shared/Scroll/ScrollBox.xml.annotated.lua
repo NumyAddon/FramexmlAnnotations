@@ -13,7 +13,7 @@
 --- Template
 --- @class ScrollBoxDragLineTemplate : Frame, ScrollBoxDragIndicatorTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.xml#L36)
 --- child of ScrollBoxBaseTemplate
 --- @class ScrollBoxBaseTemplate_Shadows : Frame
 --- @field Lower Texture

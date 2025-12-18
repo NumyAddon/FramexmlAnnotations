@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L144)
 --- @class HousingTutorialsHouseTeleportMixin : HelpTipStateMachineBasedTutorialMixin
 HousingTutorialsHouseTeleportMixin = CreateFromMixins(HelpTipStateMachineBasedTutorialMixin)
 
@@ -43,14 +43,14 @@ function HousingTutorialsHouseTeleportWatcherMixin:PLAYER_HOUSE_LIST_UPDATED(...
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L110)
 function HousingTutorialsHouseTeleportWatcherMixin:InitTutorial() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L119)
 function HousingTutorialsHouseTeleportWatcherMixin:OnHousingMicroButtonShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L128)
 function HousingTutorialsHouseTeleportWatcherMixin:OnHousingUpgradeFrameShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L136)
 function HousingTutorialsHouseTeleportWatcherMixin:OnHousingUpgradeFrameHidden() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTutorials/Blizzard_HousingTutorialsMisc.lua#L146)
 function HousingTutorialsHouseTeleportMixin:Init() end

@@ -72,32 +72,32 @@ MultiCastSummonSpellButtonHotKey = {}
 --- @type Texture
 MultiCastSummonSpellButtonHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastSummonSpellButton (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastSummonSpellButtonCooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastSummonSpellButton (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastSummonSpellButtonIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastSummonSpellButton (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastSummonSpellButtonFlash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastSummonSpellButton (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastSummonSpellButtonName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastSummonSpellButton (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastSummonSpellButtonBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastSummonSpellButton (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastSummonSpellButtonNormalTexture = {}
@@ -110,6 +110,7 @@ MultiCastSummonSpellButtonNormalTexture = {}
 MultiCastSummonSpellButton = {}
 MultiCastSummonSpellButton["flyoutButton"] = MultiCastSummonSpellButtonFlyoutButton
 MultiCastSummonSpellButton["enableSpellFX"] = true -- inherited
+MultiCastSummonSpellButton["enableLOCCooldown"] = true -- inherited
 MultiCastSummonSpellButton["popupDirection"] = "UP" -- inherited
 MultiCastSummonSpellButton["popupOffset"] = -4 -- inherited
 MultiCastSummonSpellButton["popupCrossAxisSize"] = 47 -- inherited
@@ -151,32 +152,32 @@ MultiCastSlotButton3 = {}
 --- @class MultiCastSlotButton4 : CheckButton, MultiCastSlotButtonTemplate
 MultiCastSlotButton4 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton1 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton1Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton1 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton1Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton1 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton1Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton1 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton1Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton1 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton1Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton1 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton1NormalTexture = {}
@@ -187,6 +188,7 @@ MultiCastActionButton1NormalTexture = {}
 --- @class MultiCastActionButton1 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton1 = {}
 MultiCastActionButton1["enableSpellFX"] = true -- inherited
+MultiCastActionButton1["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton1["popupDirection"] = "UP" -- inherited
 MultiCastActionButton1["popupOffset"] = -4 -- inherited
 MultiCastActionButton1["popupCrossAxisSize"] = 47 -- inherited
@@ -208,32 +210,32 @@ MultiCastActionButton1["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inhe
 MultiCastActionButton1["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 MultiCastActionButton1["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton2 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton2Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton2 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton2Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton2 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton2Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton2 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton2Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton2 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton2Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton2 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton2NormalTexture = {}
@@ -244,6 +246,7 @@ MultiCastActionButton2NormalTexture = {}
 --- @class MultiCastActionButton2 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton2 = {}
 MultiCastActionButton2["enableSpellFX"] = true -- inherited
+MultiCastActionButton2["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton2["popupDirection"] = "UP" -- inherited
 MultiCastActionButton2["popupOffset"] = -4 -- inherited
 MultiCastActionButton2["popupCrossAxisSize"] = 47 -- inherited
@@ -265,32 +268,32 @@ MultiCastActionButton2["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inhe
 MultiCastActionButton2["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 MultiCastActionButton2["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton3 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton3Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton3 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton3Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton3 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton3Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton3 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton3Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton3 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton3Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton3 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton3NormalTexture = {}
@@ -301,6 +304,7 @@ MultiCastActionButton3NormalTexture = {}
 --- @class MultiCastActionButton3 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton3 = {}
 MultiCastActionButton3["enableSpellFX"] = true -- inherited
+MultiCastActionButton3["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton3["popupDirection"] = "UP" -- inherited
 MultiCastActionButton3["popupOffset"] = -4 -- inherited
 MultiCastActionButton3["popupCrossAxisSize"] = 47 -- inherited
@@ -322,32 +326,32 @@ MultiCastActionButton3["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inhe
 MultiCastActionButton3["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 MultiCastActionButton3["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton4 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton4Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton4 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton4Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton4 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton4Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton4 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton4Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton4 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton4Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton4 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton4NormalTexture = {}
@@ -358,6 +362,7 @@ MultiCastActionButton4NormalTexture = {}
 --- @class MultiCastActionButton4 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton4 = {}
 MultiCastActionButton4["enableSpellFX"] = true -- inherited
+MultiCastActionButton4["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton4["popupDirection"] = "UP" -- inherited
 MultiCastActionButton4["popupOffset"] = -4 -- inherited
 MultiCastActionButton4["popupCrossAxisSize"] = 47 -- inherited
@@ -385,32 +390,32 @@ MultiCastActionButton4["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover"
 --- @class MultiCastActionPage1 : Frame
 MultiCastActionPage1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton5 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton5Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton5 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton5Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton5 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton5Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton5 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton5Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton5 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton5Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton5 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton5NormalTexture = {}
@@ -421,6 +426,7 @@ MultiCastActionButton5NormalTexture = {}
 --- @class MultiCastActionButton5 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton5 = {}
 MultiCastActionButton5["enableSpellFX"] = true -- inherited
+MultiCastActionButton5["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton5["popupDirection"] = "UP" -- inherited
 MultiCastActionButton5["popupOffset"] = -4 -- inherited
 MultiCastActionButton5["popupCrossAxisSize"] = 47 -- inherited
@@ -442,32 +448,32 @@ MultiCastActionButton5["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inhe
 MultiCastActionButton5["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 MultiCastActionButton5["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton6 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton6Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton6 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton6Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton6 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton6Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton6 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton6Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton6 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton6Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton6 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton6NormalTexture = {}
@@ -478,6 +484,7 @@ MultiCastActionButton6NormalTexture = {}
 --- @class MultiCastActionButton6 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton6 = {}
 MultiCastActionButton6["enableSpellFX"] = true -- inherited
+MultiCastActionButton6["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton6["popupDirection"] = "UP" -- inherited
 MultiCastActionButton6["popupOffset"] = -4 -- inherited
 MultiCastActionButton6["popupCrossAxisSize"] = 47 -- inherited
@@ -499,32 +506,32 @@ MultiCastActionButton6["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inhe
 MultiCastActionButton6["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 MultiCastActionButton6["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton7 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton7Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton7 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton7Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton7 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton7Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton7 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton7Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton7 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton7Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton7 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton7NormalTexture = {}
@@ -535,6 +542,7 @@ MultiCastActionButton7NormalTexture = {}
 --- @class MultiCastActionButton7 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton7 = {}
 MultiCastActionButton7["enableSpellFX"] = true -- inherited
+MultiCastActionButton7["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton7["popupDirection"] = "UP" -- inherited
 MultiCastActionButton7["popupOffset"] = -4 -- inherited
 MultiCastActionButton7["popupCrossAxisSize"] = 47 -- inherited
@@ -556,32 +564,32 @@ MultiCastActionButton7["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inhe
 MultiCastActionButton7["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 MultiCastActionButton7["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton8 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton8Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton8 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton8Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton8 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton8Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton8 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton8Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton8 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton8Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton8 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton8NormalTexture = {}
@@ -592,6 +600,7 @@ MultiCastActionButton8NormalTexture = {}
 --- @class MultiCastActionButton8 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton8 = {}
 MultiCastActionButton8["enableSpellFX"] = true -- inherited
+MultiCastActionButton8["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton8["popupDirection"] = "UP" -- inherited
 MultiCastActionButton8["popupOffset"] = -4 -- inherited
 MultiCastActionButton8["popupCrossAxisSize"] = 47 -- inherited
@@ -619,32 +628,32 @@ MultiCastActionButton8["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover"
 --- @class MultiCastActionPage2 : Frame
 MultiCastActionPage2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton9 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton9Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton9 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton9Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton9 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton9Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton9 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton9Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton9 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton9Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton9 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton9NormalTexture = {}
@@ -655,6 +664,7 @@ MultiCastActionButton9NormalTexture = {}
 --- @class MultiCastActionButton9 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton9 = {}
 MultiCastActionButton9["enableSpellFX"] = true -- inherited
+MultiCastActionButton9["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton9["popupDirection"] = "UP" -- inherited
 MultiCastActionButton9["popupOffset"] = -4 -- inherited
 MultiCastActionButton9["popupCrossAxisSize"] = 47 -- inherited
@@ -676,32 +686,32 @@ MultiCastActionButton9["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inhe
 MultiCastActionButton9["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 MultiCastActionButton9["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton10 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton10Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton10 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton10Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton10 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton10Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton10 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton10Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton10 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton10Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton10 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton10NormalTexture = {}
@@ -712,6 +722,7 @@ MultiCastActionButton10NormalTexture = {}
 --- @class MultiCastActionButton10 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton10 = {}
 MultiCastActionButton10["enableSpellFX"] = true -- inherited
+MultiCastActionButton10["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton10["popupDirection"] = "UP" -- inherited
 MultiCastActionButton10["popupOffset"] = -4 -- inherited
 MultiCastActionButton10["popupCrossAxisSize"] = 47 -- inherited
@@ -733,32 +744,32 @@ MultiCastActionButton10["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inh
 MultiCastActionButton10["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 MultiCastActionButton10["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton11 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton11Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton11 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton11Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton11 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton11Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton11 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton11Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton11 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton11Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton11 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton11NormalTexture = {}
@@ -769,6 +780,7 @@ MultiCastActionButton11NormalTexture = {}
 --- @class MultiCastActionButton11 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton11 = {}
 MultiCastActionButton11["enableSpellFX"] = true -- inherited
+MultiCastActionButton11["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton11["popupDirection"] = "UP" -- inherited
 MultiCastActionButton11["popupOffset"] = -4 -- inherited
 MultiCastActionButton11["popupCrossAxisSize"] = 47 -- inherited
@@ -790,32 +802,32 @@ MultiCastActionButton11["arrowNormalTexture"] = "UI-HUD-ActionBar-Flyout" -- inh
 MultiCastActionButton11["arrowDownTexture"] = "UI-HUD-ActionBar-Flyout-Down" -- inherited
 MultiCastActionButton11["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseover" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastActionButton12 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastActionButton12Cooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastActionButton12 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton12Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastActionButton12 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton12Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastActionButton12 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastActionButton12Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastActionButton12 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton12Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastActionButton12 (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastActionButton12NormalTexture = {}
@@ -826,6 +838,7 @@ MultiCastActionButton12NormalTexture = {}
 --- @class MultiCastActionButton12 : CheckButton, MultiCastActionButtonTemplate
 MultiCastActionButton12 = {}
 MultiCastActionButton12["enableSpellFX"] = true -- inherited
+MultiCastActionButton12["enableLOCCooldown"] = true -- inherited
 MultiCastActionButton12["popupDirection"] = "UP" -- inherited
 MultiCastActionButton12["popupOffset"] = -4 -- inherited
 MultiCastActionButton12["popupCrossAxisSize"] = 47 -- inherited
@@ -863,32 +876,32 @@ MultiCastRecallSpellButtonHotKey = {}
 --- @type Texture
 MultiCastRecallSpellButtonHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L111)
 --- child of MultiCastRecallSpellButton (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 MultiCastRecallSpellButtonCooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L23)
 --- child of MultiCastRecallSpellButton (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastRecallSpellButtonIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L36)
 --- child of MultiCastRecallSpellButton (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastRecallSpellButtonFlash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L43)
 --- child of MultiCastRecallSpellButton (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Name
 MultiCastRecallSpellButtonName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L49)
 --- child of MultiCastRecallSpellButton (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastRecallSpellButtonBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/MultiCastActionBarFrame.xml#L146)
 --- child of MultiCastRecallSpellButton (created in template ActionButtonTemplate)
 --- @type Texture
 MultiCastRecallSpellButtonNormalTexture = {}
@@ -899,6 +912,7 @@ MultiCastRecallSpellButtonNormalTexture = {}
 --- @class MultiCastRecallSpellButton : CheckButton, MultiCastSpellButton
 MultiCastRecallSpellButton = {}
 MultiCastRecallSpellButton["enableSpellFX"] = true -- inherited
+MultiCastRecallSpellButton["enableLOCCooldown"] = true -- inherited
 MultiCastRecallSpellButton["popupDirection"] = "UP" -- inherited
 MultiCastRecallSpellButton["popupOffset"] = -4 -- inherited
 MultiCastRecallSpellButton["popupCrossAxisSize"] = 47 -- inherited

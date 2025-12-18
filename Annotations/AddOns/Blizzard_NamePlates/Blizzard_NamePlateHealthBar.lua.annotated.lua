@@ -61,5 +61,5 @@ function NamePlateHealthBarMixin:SetIsFocus(isFocus) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L160)
 function NamePlateHealthBarMixin:ShouldBeShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L181)
 function NamePlateHealthBarMixin:UpdateShownState() end

@@ -18,7 +18,19 @@
 --- @field disabledTooltipAnchor string # ANCHOR_RIGHT
 --- @field PriceContainer HousingMarketCartCheckoutButtonTemplate_PriceContainer
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartTemplates.xml#L79)
+--- child of HousingMarketCartFrameTemplate_HearthSteelCoinGlow
+--- @class HousingMarketCartFrameTemplate_HearthSteelCoinGlow_Anim : AnimationGroup
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartTemplates.xml#L51)
+--- child of HousingMarketCartFrameTemplate
+--- @class HousingMarketCartFrameTemplate_HearthSteelCoinGlow : Frame
+--- @field BackGlow Texture
+--- @field IconGlow Texture
+--- @field ParticleFlipbook Texture
+--- @field Anim HousingMarketCartFrameTemplate_HearthSteelCoinGlow_Anim
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartTemplates.xml#L94)
 --- child of HousingMarketCartFrameTemplate
 --- @class HousingMarketCartFrameTemplate_CartUpdatedFlipbookAnim : AnimationGroup
 
@@ -30,6 +42,7 @@
 --- @field spacingSize number # 6
 --- @field sizingItemTemplate string # HousingMarketCartItemTemplate
 --- @field purchaseButtonTemplate string # HousingMarketCartCheckoutButtonTemplate
+--- @field HearthSteelCoinGlow HousingMarketCartFrameTemplate_HearthSteelCoinGlow
 --- @field CartUpdatedFlipbookTexture Texture
 --- @field CartUpdatedFlipbookAnim HousingMarketCartFrameTemplate_CartUpdatedFlipbookAnim
 

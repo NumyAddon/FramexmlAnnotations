@@ -28,14 +28,14 @@ function CommentatorNamePlateMixin:ApplyLossOfControlAtIndex(index) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L93)
 function CommentatorNamePlateMixin:UpdateAnchors() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L123)
 function CommentatorNamePlateMixin:OnUpdateNameOverride() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L130)
 function CommentatorNamePlateMixin:SetBorderColors() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L136)
 function CommentatorNamePlateMixin:OnUpdateHealthBorderOverride() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorNamePlate.lua#L146)
 function CommentatorNamePlateMixin:UpdateCrowdControlAuras() end

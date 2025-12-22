@@ -4,15 +4,15 @@
 --- @class TransmogAppearanceSlotMixin : TransmogSlotMixin
 TransmogAppearanceSlotMixin = CreateFromMixins(TransmogSlotMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L688)
 --- @class TransmogSlotFlyoutDropdownMixin : ButtonStateBehaviorMixin
 TransmogSlotFlyoutDropdownMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L710)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L712)
 --- @class TransmogIllusionSlotMixin : TransmogSlotMixin
 TransmogIllusionSlotMixin = CreateFromMixins(TransmogSlotMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L930)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L932)
 --- @class TransmogItemModelMixin : ItemModelBaseMixin
 TransmogItemModelMixin = CreateFromMixins(ItemModelBaseMixin)
 
@@ -20,15 +20,15 @@ TransmogItemModelMixin = CreateFromMixins(ItemModelBaseMixin)
 --- @class TransmogSlotMixin
 TransmogSlotMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L795)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L797)
 --- @class TransmogWardrobeCollectionTabMixin
 TransmogWardrobeCollectionTabMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1338)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1340)
 --- @class TransmogSetModelMixin
 TransmogSetModelMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1513)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1515)
 --- @class TransmogCustomSetModelMixin
 TransmogCustomSetModelMixin = {}
 
@@ -40,20 +40,20 @@ TransmogOutfitEntryMixin = {
 	};
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L804)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L806)
 --- @class TransmogSearchBoxMixin
 TransmogSearchBoxMixin = {
 	WARDROBE_SEARCH_DELAY = 0.6;
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L874)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L876)
 --- @class TransmogSearchBoxProgressMixin
 TransmogSearchBoxProgressMixin = {
 	MIN_VALUE = 0;
 	MAX_VALUE = 1000;
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1257)
 --- @class TransmogSetBaseModelMixin
 TransmogSetBaseModelMixin = {
 	DYNAMIC_EVENTS = {
@@ -62,7 +62,7 @@ TransmogSetBaseModelMixin = {
 	};
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1659)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1661)
 --- @class TransmogSituationMixin
 TransmogSituationMixin = {
 	DROPDOWN_WIDTH = 305;
@@ -167,188 +167,188 @@ function TransmogAppearanceSlotMixin:SetSelected(selected) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L580)
 function TransmogAppearanceSlotMixin:RefreshWeaponOptions() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L624)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L626)
 function TransmogAppearanceSlotMixin:Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L689)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L691)
 function TransmogSlotFlyoutDropdownMixin:OnButtonStateChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L695)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L697)
 function TransmogSlotFlyoutDropdownMixin:OnMenuOpened(menu) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L703)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L705)
 function TransmogSlotFlyoutDropdownMixin:OnMenuClosed(menu) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L712)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L714)
 function TransmogIllusionSlotMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L719)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L721)
 function TransmogIllusionSlotMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L723)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L725)
 function TransmogIllusionSlotMixin:OnTransmogrifySuccess() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L733)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L735)
 function TransmogIllusionSlotMixin:SetSelected(selected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L737)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L739)
 function TransmogIllusionSlotMixin:Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L797)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L799)
 function TransmogWardrobeCollectionTabMixin:SetTabSelected(isSelected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L808)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L810)
 function TransmogSearchBoxMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L813)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L815)
 function TransmogSearchBoxMixin:OnUpdate(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L833)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L835)
 function TransmogSearchBoxMixin:OnTextChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L839)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L841)
 function TransmogSearchBoxMixin:SetSearchType(searchType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L844)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L846)
 function TransmogSearchBoxMixin:Reset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L856)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L858)
 function TransmogSearchBoxMixin:UpdateSearch() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L879)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L881)
 function TransmogSearchBoxProgressMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L886)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L888)
 function TransmogSearchBoxProgressMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L890)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L892)
 function TransmogSearchBoxProgressMixin:OnUpdate(_elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L911)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L913)
 function TransmogSearchBoxProgressMixin:SetSearchType(searchType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L915)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L917)
 function TransmogSearchBoxProgressMixin:ShowLoadingFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L922)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L924)
 function TransmogSearchBoxProgressMixin:ShowProgressBar() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L938)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L940)
 function TransmogItemModelMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L947)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L949)
 function TransmogItemModelMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L963)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L965)
 function TransmogItemModelMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L974)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L976)
 function TransmogItemModelMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L978)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L980)
 function TransmogItemModelMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L985)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L987)
 function TransmogItemModelMixin:GetAppearanceInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L994)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L996)
 function TransmogItemModelMixin:GetCollectionFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1003)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1005)
 function TransmogItemModelMixin:GetAppearanceLink() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1023)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1025)
 function TransmogItemModelMixin:CanCheckDressUpClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1028)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1030)
 function TransmogItemModelMixin:UpdateCamera() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1076)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1078)
 function TransmogItemModelMixin:Init(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1091)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1093)
 function TransmogItemModelMixin:UpdateItemBorder() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1149)
 function TransmogItemModelMixin:UpdateItem() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1223)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1225)
 function TransmogItemModelMixin:RefreshItemCamera() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1231)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1233)
 function TransmogItemModelMixin:ShouldLocationUseDefaultVisual() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1264)
 function TransmogSetBaseModelMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1282)
 function TransmogSetBaseModelMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1290)
 function TransmogSetBaseModelMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1298)
 function TransmogSetBaseModelMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1302)
 function TransmogSetBaseModelMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1306)
 function TransmogSetBaseModelMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1312)
 function TransmogSetBaseModelMixin:OnModelLoaded() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1318)
 function TransmogSetBaseModelMixin:UpdateCamera() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1321)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1323)
 function TransmogSetBaseModelMixin:RefreshSetCamera() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1329)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1331)
 function TransmogSetBaseModelMixin:UpdateSet() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1335)
 function TransmogSetBaseModelMixin:RefreshTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1340)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1342)
 function TransmogSetModelMixin:OnMouseDown(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1353)
 function TransmogSetModelMixin:OnMouseUp(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1378)
 function TransmogSetModelMixin:UpdateSet() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1433)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1435)
 function TransmogSetModelMixin:RefreshTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1480)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1482)
 function TransmogSetModelMixin:Init(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1494)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1496)
 function TransmogSetModelMixin:ToggleFavorite(setFavorite, isGroupFavorite) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1515)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1517)
 function TransmogCustomSetModelMixin:OnMouseDown(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1526)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1528)
 function TransmogCustomSetModelMixin:OnMouseUp(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1570)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1572)
 function TransmogCustomSetModelMixin:UpdateSet() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1627)
 function TransmogCustomSetModelMixin:RefreshTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1644)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1646)
 function TransmogCustomSetModelMixin:Init(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1663)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1665)
 function TransmogSituationMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1667)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1669)
 function TransmogSituationMixin:Init(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1720)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Transmog/Blizzard_TransmogTemplates.lua#L1722)
 function TransmogSituationMixin:IsValid() end

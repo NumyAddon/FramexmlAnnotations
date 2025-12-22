@@ -748,7 +748,7 @@ TrainingGroundsFrameTypeDropdown = {}
 --- child of TrainingGroundsFrame_BonusTrainingGroundList
 --- @class TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundButton : Button, PVPTrainingGroundActivityButtonTemplate
 --- @field titleText any # RANDOM_BATTLEGROUNDS
---- @field queueOption any # Constants.TrainingGroundConstants.RANDOM_TRAINING_GROUND_LFG_DUNGEON_ID
+--- @field queueOption string # RandomTrainingGround
 --- @field tooltipTitle any # BONUS_BUTTON_RANDOM_BG_TITLE
 --- @field tooltipDescription any # BONUS_BUTTON_RANDOM_BG_DESC
 

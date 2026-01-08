@@ -8,19 +8,19 @@ NeighborhoodMapDataProviderMixin = CreateFromMixins(MapCanvasDataProviderMixin)
 --- @class NeighborhoodMapBasePinMixin : MapCanvasPinMixin
 NeighborhoodMapBasePinMixin = CreateFromMixins(MapCanvasPinMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L98)
 --- @class UnoccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
 UnoccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L101)
 --- @class OccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
 OccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L104)
 --- @class FriendsPlotPinMixin : NeighborhoodMapBasePinMixin
 FriendsPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L107)
 --- @class PlayersPlotPinMixin : NeighborhoodMapBasePinMixin
 PlayersPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin)
 
@@ -58,13 +58,10 @@ function NeighborhoodMapBasePinMixin:GetSuperTrackMarkerOffset() end
 function NeighborhoodMapBasePinMixin:Refresh() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L79)
+function NeighborhoodMapBasePinMixin:OnMouseEnter() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L92)
 function NeighborhoodMapBasePinMixin:OnMouseLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L90)
-function OccupiedPlotPinMixin:OnMouseEnter() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L97)
-function FriendsPlotPinMixin:OnMouseEnter() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/NeighborhoodMapDataProvider.lua#L109)
 function PlayersPlotPinMixin:OnMouseEnter() end

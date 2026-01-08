@@ -80,12 +80,6 @@ MainMenuBarPerformanceBarFrame = {}
 --- @class MainMenuBarPerformanceBarFrameButton : Button
 MainMenuBarPerformanceBarFrameButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L176)
---- child of MainMenuBar
---- @class MainMenuBarVehicleLeaveButton : Button
---- @field Highlight Texture
-MainMenuBarVehicleLeaveButton = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/MainMenuBar.xml#L3)
 --- @class MainMenuBar : Frame
 MainMenuBar = {}

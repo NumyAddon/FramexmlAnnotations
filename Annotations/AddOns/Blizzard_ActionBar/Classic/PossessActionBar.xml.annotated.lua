@@ -5,12 +5,12 @@
 --- Template
 --- @class PossessButtonTemplate : CheckButton, SecureFrameTemplate, SmallActionButtonTemplate, PossessButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L34)
 --- child of PossessActionBar
 --- @class PossessActionBar_BackgroundArt1 : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/PossessActionBar.xml#L46)
 --- child of PossessActionBar
 --- @class PossessActionBar_BackgroundArt2 : Texture
 --- @field ignoreInLayout boolean # true
@@ -27,6 +27,7 @@
 --- @field systemIndex any # Enum.EditModeActionBarSystemIndices.PossessActionBar
 --- @field systemNameString any # HUD_EDIT_MODE_POSSESS_ACTION_BAR_LABEL
 --- @field defaultHideSelection boolean # true
+--- @field dynamicBackgroundArt boolean # true
 --- @field BackgroundArt1 PossessActionBar_BackgroundArt1
 --- @field BackgroundArt2 PossessActionBar_BackgroundArt2
 --- @field BackgroundArtTextures table<number, PossessActionBar_BackgroundArt1 | PossessActionBar_BackgroundArt2>
@@ -41,6 +42,7 @@ PossessActionBar["noSpacers"] = true
 PossessActionBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.PossessActionBar
 PossessActionBar["systemNameString"] = HUD_EDIT_MODE_POSSESS_ACTION_BAR_LABEL
 PossessActionBar["defaultHideSelection"] = true
+PossessActionBar["dynamicBackgroundArt"] = true
 PossessActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 PossessActionBar["addSystemIndexToName"] = true -- inherited
 

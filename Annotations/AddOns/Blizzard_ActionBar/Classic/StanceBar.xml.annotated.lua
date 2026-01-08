@@ -5,17 +5,17 @@
 --- Template
 --- @class StanceButtonTemplate : CheckButton, QuickKeybindButtonTemplate, SecureFrameTemplate, SmallActionButtonTemplate, StanceButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L35)
 --- child of StanceBar
 --- @class StanceBar_BackgroundArtLeft : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L45)
 --- child of StanceBar
 --- @class StanceBar_BackgroundArtMiddle : Texture
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StanceBar.xml#L57)
 --- child of StanceBar
 --- @class StanceBar_BackgroundArtRight : Texture
 --- @field ignoreInLayout boolean # true
@@ -33,6 +33,7 @@
 --- @field systemIndex any # Enum.EditModeActionBarSystemIndices.StanceBar
 --- @field systemNameString any # HUD_EDIT_MODE_STANCE_BAR_LABEL
 --- @field defaultHideSelection boolean # true
+--- @field dynamicBackgroundArt boolean # true
 --- @field BackgroundArtLeft StanceBar_BackgroundArtLeft
 --- @field BackgroundArtMiddle StanceBar_BackgroundArtMiddle
 --- @field BackgroundArtRight StanceBar_BackgroundArtRight
@@ -48,6 +49,7 @@ StanceBar["noSpacers"] = true
 StanceBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.StanceBar
 StanceBar["systemNameString"] = HUD_EDIT_MODE_STANCE_BAR_LABEL
 StanceBar["defaultHideSelection"] = true
+StanceBar["dynamicBackgroundArt"] = true
 StanceBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 StanceBar["addSystemIndexToName"] = true -- inherited
 

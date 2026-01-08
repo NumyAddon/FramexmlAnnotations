@@ -52,39 +52,39 @@ ActionBarButtonMixin = {}
 --- @class SmallActionButtonMixin
 SmallActionButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1757)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1755)
 --- @class ActionButtonInterruptFrameMixin
 ActionButtonInterruptFrameMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1769)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1767)
 --- @class ActionButtonCastingAnimFrameMixin
 ActionButtonCastingAnimFrameMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1828)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1826)
 --- @class ActionButtonCastingAnimationFillMixin
 ActionButtonCastingAnimationFillMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1836)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1834)
 --- @class ActionButtonCastingFinishAnimMixin
 ActionButtonCastingFinishAnimMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1843)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1841)
 --- @class ActionButtonTargetReticleFrameMixin
 ActionButtonTargetReticleFrameMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1849)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1847)
 --- @class ActionButtonCooldownFlashMixin
 ActionButtonCooldownFlashMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1855)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1853)
 --- @class ActionButtonCooldownFlashAnimMixin
 ActionButtonCooldownFlashAnimMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1861)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1859)
 --- @class ActionButtonTextOverlayContainerMixin
 ActionButtonTextOverlayContainerMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1868)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1866)
 --- @class ActionBarButtonAssistedCombatRotationFrameMixin
 ActionBarButtonAssistedCombatRotationFrameMixin = { }
 
@@ -397,62 +397,62 @@ function ActionBarButtonMixin:ActionBarButtonMixin_OnDragStart() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1713)
 function SmallActionButtonMixin:SmallActionButtonMixin_OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1749)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1747)
 function SmallActionButtonMixin:UpdateButtonArt() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1759)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1757)
 function ActionButtonInterruptFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1764)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1762)
 function ActionButtonInterruptFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1771)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1769)
 function ActionButtonCastingAnimFrameMixin:Setup(actionButtonCastType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1816)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1814)
 function ActionButtonCastingAnimFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1823)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1821)
 function ActionButtonCastingAnimFrameMixin:FinishAnimAndPlayBurst() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1830)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1828)
 function ActionButtonCastingAnimationFillMixin:OnFinished() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1837)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1835)
 function ActionButtonCastingFinishAnimMixin:OnFinished() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1844)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1842)
 function ActionButtonTargetReticleFrameMixin:Setup() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1850)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1848)
 function ActionButtonCooldownFlashMixin:Setup() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1856)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1854)
 function ActionButtonCooldownFlashAnimMixin:OnFinished() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1862)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1860)
 function ActionButtonTextOverlayContainerMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1870)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1868)
 function ActionBarButtonAssistedCombatRotationFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1885)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1883)
 function ActionBarButtonAssistedCombatRotationFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1893)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1891)
 function ActionBarButtonAssistedCombatRotationFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1898)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1896)
 function ActionBarButtonAssistedCombatRotationFrameMixin:OnEvent(event) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1917)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1915)
 function ActionBarButtonAssistedCombatRotationFrameMixin:OnUpdate(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1926)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1924)
 function ActionBarButtonAssistedCombatRotationFrameMixin:UpdateState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1936)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1934)
 function ActionBarButtonAssistedCombatRotationFrameMixin:UpdateGlow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1948)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButton.lua#L1946)
 function ActionBarButtonAssistedCombatRotationFrameMixin:EvaluateTutorials() end

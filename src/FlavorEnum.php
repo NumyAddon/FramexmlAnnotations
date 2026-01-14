@@ -28,7 +28,7 @@ enum FlavorEnum: string
             self::MISTS => 'Mists',
             self::CATA => 'Cata',
             self::WRATH => 'Wrath',
-            self::TBC => 'TBC', // unconfirmed
+            self::TBC => 'TBC',
             self::VANILLA => 'Vanilla',
         };
     }

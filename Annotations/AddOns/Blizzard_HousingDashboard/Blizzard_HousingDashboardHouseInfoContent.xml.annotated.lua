@@ -37,26 +37,27 @@
 --- @field Checkmark Texture
 --- @field CollapseIconAlphaAdd Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L151)
 --- child of HousingDashboard_InitiativeSubtaskTemplate
 --- @class HousingDashboard_InitiativeSubtaskTemplate_Title : FontString, GameFontHighlightSmall2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L158)
 --- child of HousingDashboard_InitiativeSubtaskTemplate
 --- @class HousingDashboard_InitiativeSubtaskTemplate_ActivityXP : FontString, GameFontNormalMed2
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L133)
 --- Template
---- @class HousingDashboard_InitiativeSubtaskTemplate : Button
+--- @class HousingDashboard_InitiativeSubtaskTemplate : Button, InitiativeTaskButtonMixin
 --- @field BG Texture
+--- @field TrackingCheckmark Texture
 --- @field Title HousingDashboard_InitiativeSubtaskTemplate_Title
 --- @field ActivityXP HousingDashboard_InitiativeSubtaskTemplate_ActivityXP
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L243)
 --- child of ProgressThresholdTemplate_Reward
 --- @class ProgressThresholdTemplate_Reward_ThresholdReached : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L191)
 --- child of ProgressThresholdTemplate
 --- @class ProgressThresholdTemplate_Reward : Frame
 --- @field Icon Texture
@@ -68,18 +69,18 @@
 --- @field CheckmarkFlipbook Texture
 --- @field ThresholdReached ProgressThresholdTemplate_Reward_ThresholdReached
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L174)
 --- Template
 --- @class ProgressThresholdTemplate : Frame, ProgressThresholdMixin
 --- @field Reward ProgressThresholdTemplate_Reward
 --- @field LineComplete Texture
 --- @field LineIncomplete Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L313)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L327)
 --- child of ProgressThresholdLargeTemplate_Reward
 --- @class ProgressThresholdLargeTemplate_Reward_ThresholdReached : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L254)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L268)
 --- child of ProgressThresholdLargeTemplate
 --- @class ProgressThresholdLargeTemplate_Reward : Frame
 --- @field IconBG Texture
@@ -92,36 +93,36 @@
 --- @field CheckmarkFlipbook Texture
 --- @field ThresholdReached ProgressThresholdLargeTemplate_Reward_ThresholdReached
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L251)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L265)
 --- Template
 --- @class ProgressThresholdLargeTemplate : Frame, ProgressThresholdMixin
 --- @field Reward ProgressThresholdLargeTemplate_Reward
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L334)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L352)
 --- child of HousingDashboardHouseInfoTemplate
 --- @class HousingDashboardHouseInfoTemplate_LoadingSpinner : Frame, SpinnerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L341)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L359)
 --- child of HousingDashboardHouseInfoTemplate
 --- @class HousingDashboardHouseInfoTemplate_HouseDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L348)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L366)
 --- child of HousingDashboardHouseInfoTemplate
 --- @class HousingDashboardHouseInfoTemplate_HouseFinderButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L383)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L401)
 --- child of HousingDashboardHouseInfoTemplate_DashboardNoHousesFrame
 --- @class HousingDashboardHouseInfoTemplate_DashboardNoHousesFrame_NoHouseButton : Button, UIPanelButtonHeightScaledTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L387)
 --- child of HousingDashboardHouseInfoTemplate_DashboardNoHousesFrame
 --- @class HousingDashboardHouseInfoTemplate_DashboardNoHousesFrame_TitleText : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L393)
 --- child of HousingDashboardHouseInfoTemplate_DashboardNoHousesFrame
 --- @class HousingDashboardHouseInfoTemplate_DashboardNoHousesFrame_SubtitleText : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L359)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L377)
 --- child of HousingDashboardHouseInfoTemplate
 --- @class HousingDashboardHouseInfoTemplate_DashboardNoHousesFrame : Frame
 --- @field NoHouseButton HousingDashboardHouseInfoTemplate_DashboardNoHousesFrame_NoHouseButton
@@ -129,7 +130,7 @@
 --- @field TitleText HousingDashboardHouseInfoTemplate_DashboardNoHousesFrame_TitleText
 --- @field SubtitleText HousingDashboardHouseInfoTemplate_DashboardNoHousesFrame_SubtitleText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L402)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L420)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_TabSystem : Frame, TabSystemTemplate
 --- @field minTabWidth number # 100
@@ -137,7 +138,7 @@
 --- @field tabTemplate string # TabSystemTopButtonTemplate
 --- @field tabSelectSound any # SOUNDKIT.UI_CLASS_TALENT_TAB
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L429)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L447)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativesArt
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativesArt_BorderArt : Frame
 --- @field InitiativesCornerTL Texture
@@ -145,88 +146,88 @@
 --- @field InitiativesCornerBL Texture
 --- @field InitiativesCornerBR Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L417)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L435)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativesArt : Frame
 --- @field BorderArt HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativesArt_BorderArt
 --- @field InitiativesBG Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L466)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L484)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_NoInitiativeSetFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_NoInitiativeSetFrame_TitleText : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L463)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L481)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_NoInitiativeSetFrame : Frame
 --- @field TitleText HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_NoInitiativeSetFrame_TitleText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L528)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L546)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTimer
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTimer_TimeRemaining : FontString, GameFontHighlightSmall2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L506)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L524)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTimer : Frame
 --- @field TimerBG Texture
 --- @field TimerIcon Texture
 --- @field TimeRemaining HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTimer_TimeRemaining
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L562)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L580)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_TextContainer
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_TextContainer_Points : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L568)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L586)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_TextContainer
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_TextContainer_ProgressText : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L559)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L577)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_TextContainer : Frame
 --- @field Points HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_TextContainer_Points
 --- @field ProgressText HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_TextContainer_ProgressText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L597)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L615)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_BarEnd
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_BarEnd_Sparkles : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L577)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L595)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_BarEnd : Frame
 --- @field Overlay Texture
 --- @field Flipbook Texture
 --- @field Sparkles HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_BarEnd_Sparkles
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L539)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L557)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar : StatusBar
 --- @field TextContainer HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_TextContainer
 --- @field BarEnd HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_ProgressBar_BarEnd
 --- @field BarBackground Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L643)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L661)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_SwitchActiveNeighborhoodBtn : Button, UIPanelButtonTemplate, InitiativeActiveNeighborhoodSwitcherMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L660)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L678)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_CurrentlyActiveInfo
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_CurrentlyActiveInfo_CurrentlyActive : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L666)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L684)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_CurrentlyActiveInfo
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_CurrentlyActiveInfo_ActiveName : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L672)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L690)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_CurrentlyActiveInfo
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_CurrentlyActiveInfo_ActiveNeighborhoodName : FontString, GameFontNormalMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L653)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L671)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_CurrentlyActiveInfo : Frame
 --- @field CurrentlyActive HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_CurrentlyActiveInfo_CurrentlyActive
 --- @field ActiveName HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_CurrentlyActiveInfo_ActiveName
 --- @field ActiveNeighborhoodName HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_CurrentlyActiveInfo_ActiveNeighborhoodName
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L608)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L626)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher : Frame
 --- @field SwitchActiveNeighborhoodBtn HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActiveNeighborhoodSwitcher_SwitchActiveNeighborhoodBtn
@@ -235,11 +236,11 @@
 --- @field BorderTop Texture
 --- @field BorderRight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L730)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L748)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks_TaskListTitleContainer
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks_TaskListTitleContainer_Title : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L727)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L745)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks_TaskListTitleContainer : Frame
 --- @field Title HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks_TaskListTitleContainer_Title
@@ -249,16 +250,16 @@
 --- @field TitleFoliage Texture
 --- @field TitleCornerBR Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L772)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L790)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks_TaskList : Frame, WowScrollBoxList
 --- @field wheelPanScalar number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L782)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L800)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L685)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L703)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks : Frame
 --- @field TaskListTitleContainer HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTasks_TaskListTitleContainer
@@ -269,11 +270,11 @@
 --- @field BorderRight Texture
 --- @field TitleCornerTR Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L842)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L860)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity_ActivityLogTitleContainer
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity_ActivityLogTitleContainer_Title : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L839)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L857)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity_ActivityLogTitleContainer : Frame
 --- @field Title HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity_ActivityLogTitleContainer_Title
@@ -283,20 +284,20 @@
 --- @field TitleFoliage Texture
 --- @field TitleCornerBL Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L884)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L902)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity_ActivityLog : Frame, WowScrollBoxList
 --- @field wheelPanScalar number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L894)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L912)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L831)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L849)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity_NoActivityText : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L792)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L810)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity : Frame
 --- @field ActivityLogTitleContainer HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity_ActivityLogTitleContainer
@@ -308,19 +309,19 @@
 --- @field TitleCornerTR Texture
 --- @field NoActivityText HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeActivity_NoActivityText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L482)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L500)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeName : FontString, GameFontHighlightLarge2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L489)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L507)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeDescription : FontString, GameFontNormalMed1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L496)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L514)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_NeighborhoodGroupText : FontString, GameFontNormalMed1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L475)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L493)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame : Frame
 --- @field InitiativeTimer HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeTimer
@@ -332,25 +333,25 @@
 --- @field InitiativeDescription HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_InitiativeDescription
 --- @field NeighborhoodGroupText HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame_NeighborhoodGroupText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L415)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L433)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame : Frame, InitiativesTabMixin
 --- @field InitiativesArt HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativesArt
 --- @field NoInitiativeSetFrame HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_NoInitiativeSetFrame
 --- @field InitiativeSetFrame HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame_InitiativeSetFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L914)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L932)
 --- child of HousingDashboardHouseInfoTemplate_ContentFrame
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame_HouseUpgradeFrame : Frame, HousingUpgradeFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L414)
 --- child of HousingDashboardHouseInfoTemplate
 --- @class HousingDashboardHouseInfoTemplate_ContentFrame : Frame, TabSystemOwnerTemplate, HousingDashboardHouseInfoContentFrameMixin
 --- @field TabSystem HousingDashboardHouseInfoTemplate_ContentFrame_TabSystem
 --- @field InitiativesFrame HousingDashboardHouseInfoTemplate_ContentFrame_InitiativesFrame
 --- @field HouseUpgradeFrame HousingDashboardHouseInfoTemplate_ContentFrame_HouseUpgradeFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L331)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseInfoContent.xml#L349)
 --- Template
 --- @class HousingDashboardHouseInfoTemplate : Frame, HousingDashboardHouseInfoMixin
 --- @field LoadingSpinner HousingDashboardHouseInfoTemplate_LoadingSpinner

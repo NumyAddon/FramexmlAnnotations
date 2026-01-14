@@ -109,7 +109,7 @@
 --- @field bottomPadding number # 82
 --- @field rightPadding number # 0
 --- @field basePanOffsetX number # 49
---- @field basePanOffsetY number # 21
+--- @field basePanOffsetY number # 24
 --- @field maximumCommitTime number # 6
 --- @field disabledOverlayAlpha number # .3
 --- @field enableCommitEndFlash boolean # true

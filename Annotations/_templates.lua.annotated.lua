@@ -1572,6 +1572,7 @@
 --- | "IMECandidate"
 --- | "IMEHighlight"
 --- | "IMENormal"
+--- | "InitiativeTaskCompleteAlertFrameTemplate"
 --- | "InlineHyperlinkFrameTemplate"
 --- | "InputBoxInstructionsNineSliceTemplate"
 --- | "InputBoxInstructionsTemplate"

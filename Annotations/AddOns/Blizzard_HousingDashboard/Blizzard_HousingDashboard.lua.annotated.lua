@@ -25,5 +25,5 @@ function HousingDashboardFrameMixin:GetPanelExtraWidth() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.lua#L77)
 function HousingDashboardFrameMixin:OpenInitiativesFrameToTaskID(taskID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.lua#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.lua#L85)
 function HousingDashboardFrameMixin:UpdateSizeToContent(contentFrame) end

@@ -4,17 +4,17 @@
 --- child of TransmogFrame
 --- @class TransmogFrame_HelpPlateButton : Button, MainHelpPlateButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L85)
 --- child of TransmogFrame_OutfitCollection_ShowEquippedGearSpellFrame_OverlayFX
 --- @class TransmogFrame_OutfitCollection_ShowEquippedGearSpellFrame_OverlayFX_OverlayLocked : Frame, AutoCastOverlayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L70)
 --- child of TransmogFrame_OutfitCollection_ShowEquippedGearSpellFrame
 --- @class TransmogFrame_OutfitCollection_ShowEquippedGearSpellFrame_OverlayFX : Frame
 --- @field OverlayLocked TransmogFrame_OutfitCollection_ShowEquippedGearSpellFrame_OverlayFX_OverlayLocked
 --- @field OverlayActive Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L33)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L47)
 --- Implicitly protected
 --- child of TransmogFrame_OutfitCollection
 --- @class TransmogFrame_OutfitCollection_ShowEquippedGearSpellFrame : Frame, UIPanelSpellButtonFrameTemplate, ShowEquippedGearSpellFrameMixin
@@ -26,15 +26,15 @@
 --- @field OverlayFX TransmogFrame_OutfitCollection_ShowEquippedGearSpellFrame_OverlayFX
 --- @field Checkmark Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L115)
 --- child of TransmogFrame_OutfitCollection_OutfitList
 --- @class TransmogFrame_OutfitCollection_OutfitList_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L121)
 --- child of TransmogFrame_OutfitCollection_OutfitList
 --- @class TransmogFrame_OutfitCollection_OutfitList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L95)
 --- child of TransmogFrame_OutfitCollection
 --- @class TransmogFrame_OutfitCollection_OutfitList : Frame
 --- @field ScrollBox TransmogFrame_OutfitCollection_OutfitList_ScrollBox
@@ -42,7 +42,7 @@
 --- @field DividerTop Texture
 --- @field DividerBottom Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L130)
 --- child of TransmogFrame_OutfitCollection
 --- @class TransmogFrame_OutfitCollection_PurchaseOutfitButton : Button
 --- @field Icon Texture
@@ -50,7 +50,7 @@
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L157)
 --- child of TransmogFrame_OutfitCollection
 --- @class TransmogFrame_OutfitCollection_SaveOutfitButton : Button, SharedButtonTemplate
 
@@ -74,11 +74,11 @@ TransmogFrameGoldButton = {}
 --- @type Texture
 TransmogFrameTrialErrorButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L174)
 --- child of TransmogFrame_OutfitCollection_MoneyFrame
 --- @class TransmogFrame_OutfitCollection_MoneyFrame_Money : Frame, SmallMoneyFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L163)
 --- child of TransmogFrame_OutfitCollection
 --- @class TransmogFrame_OutfitCollection_MoneyFrame : Frame
 --- @field Money TransmogFrame_OutfitCollection_MoneyFrame_Money
@@ -94,18 +94,20 @@ TransmogFrameTrialErrorButton = {}
 --- @field SaveOutfitButton TransmogFrame_OutfitCollection_SaveOutfitButton
 --- @field MoneyFrame TransmogFrame_OutfitCollection_MoneyFrame
 --- @field Background Texture
+--- @field GradientTop Texture
+--- @field GradientBottom Texture
 --- @field DividerBar Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L190)
 --- child of TransmogFrame
 --- @class TransmogFrame_OutfitPopup : Frame, IconSelectorPopupFrameTemplate, TransmogOutfitPopupMixin
 --- @field editBoxHeaderText any # TRANSMOG_OUTFIT_SLOT_POPUP_TEXT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L282)
 --- child of TransmogFrame_CharacterPreview_SavedFrame
 --- @class TransmogFrame_CharacterPreview_SavedFrame_Anim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L199)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L213)
 --- child of TransmogFrame_CharacterPreview
 --- @class TransmogFrame_CharacterPreview_SavedFrame : Frame
 --- @field Glow Texture
@@ -119,13 +121,13 @@ TransmogFrameTrialErrorButton = {}
 --- @field LinesFade5FX Texture
 --- @field Anim TransmogFrame_CharacterPreview_SavedFrame_Anim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L312)
 --- child of TransmogFrame_CharacterPreview
 --- @class TransmogFrame_CharacterPreview_Gradients : Frame
 --- @field GradientLeft Texture
 --- @field GradientRight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L330)
 --- child of TransmogFrame_CharacterPreview
 --- @class TransmogFrame_CharacterPreview_ClearAllPendingButton : Button
 --- @field Icon Texture
@@ -133,45 +135,45 @@ TransmogFrameTrialErrorButton = {}
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L351)
 --- child of TransmogFrame_CharacterPreview_ModelScene
 --- @class TransmogFrame_CharacterPreview_ModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L349)
 --- child of TransmogFrame_CharacterPreview
 --- @class TransmogFrame_CharacterPreview_ModelScene : ModelScene, PanningModelSceneMixinTemplate
 --- @field ControlFrame TransmogFrame_CharacterPreview_ModelScene_ControlFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L364)
 --- child of TransmogFrame_CharacterPreview_HideIgnoredToggle
---- @class TransmogFrame_CharacterPreview_HideIgnoredToggle_Checkbox : CheckButton
+--- @class TransmogFrame_CharacterPreview_HideIgnoredToggle_Checkbox : CheckButton, MinimalCheckboxArtTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L363)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L368)
 --- child of TransmogFrame_CharacterPreview_HideIgnoredToggle
 --- @class TransmogFrame_CharacterPreview_HideIgnoredToggle_Text : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L344)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L358)
 --- child of TransmogFrame_CharacterPreview
 --- @class TransmogFrame_CharacterPreview_HideIgnoredToggle : Frame
 --- @field Checkbox TransmogFrame_CharacterPreview_HideIgnoredToggle_Checkbox
 --- @field Text TransmogFrame_CharacterPreview_HideIgnoredToggle_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L371)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L376)
 --- child of TransmogFrame_CharacterPreview
 --- @class TransmogFrame_CharacterPreview_LeftSlots : Frame, VerticalLayoutFrame
 --- @field spacing number # 5
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L379)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L384)
 --- child of TransmogFrame_CharacterPreview
 --- @class TransmogFrame_CharacterPreview_RightSlots : Frame, VerticalLayoutFrame
 --- @field spacing number # 5
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L392)
 --- child of TransmogFrame_CharacterPreview
 --- @class TransmogFrame_CharacterPreview_BottomSlots : Frame, HorizontalLayoutFrame
 --- @field spacing number # 5
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L184)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L198)
 --- child of TransmogFrame
 --- @class TransmogFrame_CharacterPreview : Frame, TransmogCharacterMixin
 --- @field SavedFrame TransmogFrame_CharacterPreview_SavedFrame
@@ -184,7 +186,7 @@ TransmogFrameTrialErrorButton = {}
 --- @field BottomSlots TransmogFrame_CharacterPreview_BottomSlots
 --- @field Background Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L414)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L419)
 --- child of TransmogFrame_WardrobeCollection
 --- @class TransmogFrame_WardrobeCollection_TabHeaders : Frame, TabSystemTemplate
 --- @field minTabWidth number # 95
@@ -192,28 +194,28 @@ TransmogFrameTrialErrorButton = {}
 --- @field tabTemplate string # TransmogWardrobeCollectionTabTemplate
 --- @field tabSelectSound any # SOUNDKIT.UI_TRANSMOG_CATEGORIES_CLICK
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L465)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L470)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_FilterButton : DropdownButton, WowStyle1FilterDropdownTemplate
 --- @field resizeToText boolean # false
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L473)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L478)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_SearchBox : EditBox, TransmogSearchBoxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L478)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L483)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_WeaponDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L483)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L488)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_DisplayTypeUnassignedButton : Button, DisplayTypeButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L488)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L493)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_DisplayTypeEquippedButton : Button, DisplayTypeButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L505)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L510)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_PagedContent
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_PagedContent_PagingControls : Frame, PagingControlsHorizontalTemplate
 --- @field layoutIndex number # 2
@@ -221,7 +223,7 @@ TransmogFrameTrialErrorButton = {}
 --- @field prevPageSound any # SOUNDKIT.UI_TRANSMOG_PAGE_TURN
 --- @field nextPageSound any # SOUNDKIT.UI_TRANSMOG_PAGE_TURN
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L493)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L498)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_PagedContent : Frame, PagedNaturalSizeGridContentFrameTemplate
 --- @field viewsPerPage number # 1
@@ -231,25 +233,25 @@ TransmogFrameTrialErrorButton = {}
 --- @field PagingControls TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_PagedContent_PagingControls
 --- @field ViewFrames table<number, Frame>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L524)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L529)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_SecondaryAppearanceToggle
---- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_SecondaryAppearanceToggle_Checkbox : CheckButton
+--- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_SecondaryAppearanceToggle_Checkbox : CheckButton, MinimalCheckboxArtTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L533)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_SecondaryAppearanceToggle
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_SecondaryAppearanceToggle_Text : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L518)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L523)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_SecondaryAppearanceToggle : Frame
 --- @field Checkbox TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_SecondaryAppearanceToggle_Checkbox
 --- @field Text TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_SecondaryAppearanceToggle_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L452)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L457)
 --- child of TransmogFrame_WardrobeCollection_TabContent_ItemsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_ActiveSlotTitle : FontString, GameFontHighlightHuge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L446)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L451)
 --- child of TransmogFrame_WardrobeCollection_TabContent
 --- @class TransmogFrame_WardrobeCollection_TabContent_ItemsFrame : Frame, TransmogWardrobeItemsMixin
 --- @field searchType any # Enum.TransmogSearchType.Items
@@ -263,16 +265,16 @@ TransmogFrameTrialErrorButton = {}
 --- @field ActiveSlotTitle TransmogFrame_WardrobeCollection_TabContent_ItemsFrame_ActiveSlotTitle
 --- @field Divider Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L559)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L555)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SetsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_SetsFrame_FilterButton : DropdownButton, WowStyle1FilterDropdownTemplate
 --- @field resizeToText boolean # false
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L567)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L563)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SetsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_SetsFrame_SearchBox : EditBox, TransmogSearchBoxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L584)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L580)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SetsFrame_PagedContent
 --- @class TransmogFrame_WardrobeCollection_TabContent_SetsFrame_PagedContent_PagingControls : Frame, PagingControlsHorizontalTemplate
 --- @field layoutIndex number # 2
@@ -280,7 +282,7 @@ TransmogFrameTrialErrorButton = {}
 --- @field prevPageSound any # SOUNDKIT.UI_TRANSMOG_PAGE_TURN
 --- @field nextPageSound any # SOUNDKIT.UI_TRANSMOG_PAGE_TURN
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L572)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L568)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SetsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_SetsFrame_PagedContent : Frame, PagedNaturalSizeGridContentFrameTemplate
 --- @field viewsPerPage number # 1
@@ -290,7 +292,7 @@ TransmogFrameTrialErrorButton = {}
 --- @field PagingControls TransmogFrame_WardrobeCollection_TabContent_SetsFrame_PagedContent_PagingControls
 --- @field ViewFrames table<number, Frame>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L554)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L550)
 --- child of TransmogFrame_WardrobeCollection_TabContent
 --- @class TransmogFrame_WardrobeCollection_TabContent_SetsFrame : Frame, TransmogWardrobeSetsMixin
 --- @field searchType any # Enum.TransmogSearchType.UsableSets
@@ -298,11 +300,11 @@ TransmogFrameTrialErrorButton = {}
 --- @field SearchBox TransmogFrame_WardrobeCollection_TabContent_SetsFrame_SearchBox
 --- @field PagedContent TransmogFrame_WardrobeCollection_TabContent_SetsFrame_PagedContent
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L607)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L603)
 --- child of TransmogFrame_WardrobeCollection_TabContent_CustomSetsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_CustomSetsFrame_NewCustomSetButton : Button, SharedButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L627)
 --- child of TransmogFrame_WardrobeCollection_TabContent_CustomSetsFrame_PagedContent
 --- @class TransmogFrame_WardrobeCollection_TabContent_CustomSetsFrame_PagedContent_PagingControls : Frame, PagingControlsHorizontalTemplate
 --- @field layoutIndex number # 2
@@ -310,7 +312,7 @@ TransmogFrameTrialErrorButton = {}
 --- @field prevPageSound any # SOUNDKIT.UI_TRANSMOG_PAGE_TURN
 --- @field nextPageSound any # SOUNDKIT.UI_TRANSMOG_PAGE_TURN
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L613)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L615)
 --- child of TransmogFrame_WardrobeCollection_TabContent_CustomSetsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_CustomSetsFrame_PagedContent : Frame, PagedNaturalSizeGridContentFrameTemplate
 --- @field viewsPerPage number # 1
@@ -320,17 +322,17 @@ TransmogFrameTrialErrorButton = {}
 --- @field PagingControls TransmogFrame_WardrobeCollection_TabContent_CustomSetsFrame_PagedContent_PagingControls
 --- @field ViewFrames table<number, Frame>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L605)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L601)
 --- child of TransmogFrame_WardrobeCollection_TabContent
 --- @class TransmogFrame_WardrobeCollection_TabContent_CustomSetsFrame : Frame, TransmogWardrobeCustomSetsMixin
 --- @field NewCustomSetButton TransmogFrame_WardrobeCollection_TabContent_CustomSetsFrame_NewCustomSetButton
 --- @field PagedContent TransmogFrame_WardrobeCollection_TabContent_CustomSetsFrame_PagedContent
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L658)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L660)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SituationsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_DefaultsButton : Button, SharedButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L664)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L666)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SituationsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_Situations : Frame, VerticalLayoutFrame
 --- @field topPadding number # 22
@@ -339,25 +341,25 @@ TransmogFrameTrialErrorButton = {}
 --- @field spacing number # 15
 --- @field Background Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L686)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L688)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_EnabledToggle
---- @class TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_EnabledToggle_Checkbox : CheckButton
+--- @class TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_EnabledToggle_Checkbox : CheckButton, MinimalCheckboxArtTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L699)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L692)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_EnabledToggle
 --- @class TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_EnabledToggle_Text : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L682)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SituationsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_EnabledToggle : Frame
 --- @field Checkbox TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_EnabledToggle_Checkbox
 --- @field Text TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_EnabledToggle_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L707)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L700)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SituationsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_ApplyButton : Button, SharedButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L713)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L706)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SituationsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_UndoButton : Button, IconButtonTemplate
 --- @field iconAtlas string # common-icon-undo
@@ -366,11 +368,11 @@ TransmogFrameTrialErrorButton = {}
 --- @field tooltipText any # TRANSMOG_SITUATIONS_UNDO
 --- @field tooltipTextColor any # NORMAL_FONT_COLOR
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L649)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L651)
 --- child of TransmogFrame_WardrobeCollection_TabContent_SituationsFrame
 --- @class TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_DescriptionText : FontString, GameFontNormalMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L646)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L648)
 --- child of TransmogFrame_WardrobeCollection_TabContent
 --- @class TransmogFrame_WardrobeCollection_TabContent_SituationsFrame : Frame, TransmogWardrobeSituationsMixin
 --- @field DefaultsButton TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_DefaultsButton
@@ -380,7 +382,7 @@ TransmogFrameTrialErrorButton = {}
 --- @field UndoButton TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_UndoButton
 --- @field DescriptionText TransmogFrame_WardrobeCollection_TabContent_SituationsFrame_DescriptionText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L425)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L430)
 --- child of TransmogFrame_WardrobeCollection
 --- @class TransmogFrame_WardrobeCollection_TabContent : Frame
 --- @field ItemsFrame TransmogFrame_WardrobeCollection_TabContent_ItemsFrame
@@ -390,7 +392,7 @@ TransmogFrameTrialErrorButton = {}
 --- @field Background Texture
 --- @field Border Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L403)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Transmog/Blizzard_Transmog.xml#L408)
 --- child of TransmogFrame
 --- @class TransmogFrame_WardrobeCollection : Frame, TabSystemOwnerTemplate, TransmogWardrobeMixin
 --- @field TabHeaders TransmogFrame_WardrobeCollection_TabHeaders

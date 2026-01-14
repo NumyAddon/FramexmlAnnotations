@@ -20,9 +20,9 @@ ClassTalentSelectionChoiceMixin = CreateFromMixins(TalentSelectionChoiceArtMixin
 --- @class ClassTalentButtonCapstoneWithTrackMixin : ClassTalentButtonBaseMixin, TalentButtonCapstoneWithTrackMixin
 ClassTalentButtonCapstoneWithTrackMixin = CreateFromMixins(ClassTalentButtonBaseMixin, TalentButtonCapstoneWithTrackMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L439)
---- @class ClassTalentButtonCapstonePipMixin : ClassTalentButtonBaseMixin, TalentButtonCapstonePipMixin
-ClassTalentButtonCapstonePipMixin = CreateFromMixins(ClassTalentButtonBaseMixin, TalentButtonCapstonePipMixin)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L451)
+--- @class ClassTalentButtonCapstonePipMixin : TalentButtonCapstonePipMixin, ClassTalentButtonBaseMixin
+ClassTalentButtonCapstonePipMixin = CreateFromMixins(TalentButtonCapstonePipMixin, ClassTalentButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L7)
 --- @class ClassTalentButtonArtMixin
@@ -173,8 +173,11 @@ function ClassTalentSelectionChoiceMixin:OnLeave() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L430)
 function ClassTalentButtonCapstoneWithTrackMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L438)
+function ClassTalentButtonCapstoneWithTrackMixin:UpdateEntryInfo(skipUpdate) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L445)
 function ClassTalentButtonCapstoneWithTrackMixin:GetCapstonePipMixin() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L441)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentButtonTemplates.lua#L453)
 function ClassTalentButtonCapstonePipMixin:OnLoad() end

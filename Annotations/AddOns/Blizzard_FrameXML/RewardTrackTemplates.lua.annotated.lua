@@ -127,5 +127,5 @@ function RenownLevelMixin:OnMouseUp() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L433)
 function RenownLevelMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L438)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L439)
 function RenownLevelMixin:RefreshTooltip() end

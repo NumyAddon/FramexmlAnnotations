@@ -8,7 +8,7 @@ PVPMatchResultsCurrencyRewardMixin = {}
 --- @class PVPMatchResultsMixin
 PVPMatchResultsMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L506)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L507)
 --- @class PVPMatchResultsRatingMixin
 PVPMatchResultsRatingMixin = {}
 
@@ -75,11 +75,11 @@ function PVPMatchResultsMixin:OnRequeueButtonClicked(button) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L497)
 function PVPMatchResultsMixin:OnTabGroupClicked(tab) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L507)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L508)
 function PVPMatchResultsRatingMixin:Init(rating, ratingChange) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L528)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L529)
 function PVPMatchResultsRatingMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L558)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchResults.lua#L559)
 function PVPMatchResultsRatingMixin:OnLeave() end

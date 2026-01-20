@@ -4,7 +4,7 @@
 --- @class SpellFlyoutPopupButtonMixin
 SpellFlyoutPopupButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L151)
 --- @class SpellFlyoutMixin
 SpellFlyoutMixin = {}
 
@@ -38,23 +38,23 @@ function SpellFlyoutPopupButtonMixin:UpdateGlyphState(reason) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L146)
 function SpellFlyoutPopupButtonMixin:UpdateCount() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L162)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L153)
 function SpellFlyoutMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L157)
 function SpellFlyoutMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L210)
 function SpellFlyoutMixin:Toggle(flyoutButton, flyoutID, isActionBar, specID, showFullTooltip, reason) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L328)
 function SpellFlyoutMixin:CloseIfWorldMapMaximized() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L343)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L334)
 function SpellFlyoutMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L359)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L350)
 function SpellFlyoutMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L379)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L370)
 function SpellFlyoutMixin:GetFlyoutButtonForSpell(spellID) end

@@ -28,13 +28,13 @@ function PVPMatchScoreboardMixin:SetupArtwork(factionIndex, isFactionalMatch) en
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L107)
 function PVPMatchScoreboardMixin:UpdateTable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L113)
 function PVPMatchScoreboardMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L117)
 function PVPMatchScoreboardMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L121)
 function PVPMatchScoreboardMixin:OnTabGroupClicked(tab) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPMatch/PVPMatchScoreboard.lua#L131)

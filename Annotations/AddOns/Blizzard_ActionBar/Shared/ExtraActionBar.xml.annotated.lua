@@ -4,6 +4,14 @@
 --- child of ExtraActionButtonTemplate
 --- @class ExtraActionButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L54)
+--- child of ExtraActionButtonTemplate
+--- @class ExtraActionButtonTemplate_lossOfControlCooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L64)
+--- child of ExtraActionButtonTemplate
+--- @class ExtraActionButtonTemplate_chargeCooldown : Cooldown, CooldownFrameTemplate
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L19)
 --- child of ExtraActionButtonTemplate
 --- @class ExtraActionButtonTemplate_HotKey : FontString, NumberFontNormalGray
@@ -19,6 +27,8 @@
 --- @field isExtra boolean # true
 --- @field buttonType string # EXTRAACTIONBUTTON
 --- @field cooldown ExtraActionButtonTemplate_Cooldown
+--- @field lossOfControlCooldown ExtraActionButtonTemplate_lossOfControlCooldown
+--- @field chargeCooldown ExtraActionButtonTemplate_chargeCooldown
 --- @field icon Texture
 --- @field IconMask MaskTexture
 --- @field HotKey ExtraActionButtonTemplate_HotKey
@@ -53,7 +63,7 @@ ExtraActionButton1Count = {}
 --- @type Texture
 ExtraActionButton1Flash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L116)
 --- Explicitly protected
 --- child of ExtraActionBarFrame
 --- @class ExtraActionButton1 : CheckButton, ExtraActionButtonTemplate
@@ -68,15 +78,15 @@ ExtraActionButton1["HotKey"] = ExtraActionButton1HotKey -- inherited
 ExtraActionButton1["Count"] = ExtraActionButton1Count -- inherited
 ExtraActionButton1["Flash"] = ExtraActionButton1Flash -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L96)
 --- child of ExtraActionBarFrame
 --- @class ExtraActionBarFrame_intro : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L104)
 --- child of ExtraActionBarFrame
 --- @class ExtraActionBarFrame_outro : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L93)
 --- Implicitly protected
 --- @class ExtraActionBarFrame : Frame
 --- @field button ExtraActionButton1 # Explicitly protected

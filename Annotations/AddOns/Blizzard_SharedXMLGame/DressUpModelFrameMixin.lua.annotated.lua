@@ -4,11 +4,11 @@
 --- @class DressUpModelFrameMixin : DressUpModelFrameBaseMixin
 DressUpModelFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L263)
 --- @class SideDressUpModelFrameFrameMixin : DressUpModelFrameBaseMixin
 SideDressUpModelFrameFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L283)
 --- @class TransmogAndMountDressupFrameMixin : DressUpModelFrameBaseMixin
 TransmogAndMountDressupFrameMixin = CreateFromMixins(DressUpModelFrameBaseMixin)
 
@@ -36,15 +36,15 @@ DressUpModelFrameMaximizeMinimizeMixin = {}
 --- @class DressUpModelFrameBaseMixin
 DressUpModelFrameBaseMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L334)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L340)
 --- @class DressUpFrameSetSelectionLabelMixin
 DressUpFrameSetSelectionLabelMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L360)
 --- @class DressUpFrameTransmogSetMixin
 DressUpFrameTransmogSetMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L702)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L708)
 --- @class DressUpFrameTransmogSetButtonMixin
 DressUpFrameTransmogSetButtonMixin = {}
 
@@ -106,91 +106,94 @@ function DressUpModelFrameMixin:OnDressModel(itemModifiedAppearanceID, invSlot, 
 function DressUpModelFrameMixin:InitSetSelectionPanel(setID, setLink) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L208)
-function DressUpModelFrameMixin:ToggleOutfitDetails() end
+function DressUpModelFrameMixin:ToggleCustomSetDetails() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L214)
 function DressUpModelFrameMixin:ConfigureSize(isMinimized) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L235)
-function DressUpModelFrameMixin:SetShownOutfitDetailsPanel(show) end
+function DressUpModelFrameMixin:SetShownCustomSetDetailsPanel(show) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L248)
-function DressUpModelFrameMixin:ForceOutfitDetailsOn() end
+function DressUpModelFrameMixin:ForceCustomSetDetailsOn() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L258)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L255)
+function DressUpModelFrameMixin:ShowCustomSet(customSetID) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L264)
 function SideDressUpModelFrameFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L269)
 function SideDressUpModelFrameFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L275)
 function SideDressUpModelFrameFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L284)
 function TransmogAndMountDressupFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L294)
 function TransmogAndMountDressupFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L305)
 function TransmogAndMountDressupFrameMixin:RemoveWeapons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L308)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L314)
 function TransmogAndMountDressupFrameMixin:CheckButtonOnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L325)
 function TransmogAndMountDressupFrameMixin:OnDressModel(itemModifiedAppearanceID, invSlot, removed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L326)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L332)
 function TransmogAndMountDressupFrameMixin:OnUpdate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L336)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L342)
 function DressUpFrameSetSelectionLabelMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L356)
 function DressUpFrameSetSelectionLabelMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L402)
 function DressUpFrameTransmogSetMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L428)
 function DressUpFrameTransmogSetMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L433)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L439)
 function DressUpFrameTransmogSetMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L449)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L455)
 function DressUpFrameTransmogSetMixin:SetData(setID, setLink, setItems) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L481)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L487)
 function DressUpFrameTransmogSetMixin:UpdateTransmogSlot(itemModifiedAppearanceID, invSlot, removed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L572)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L578)
 function DressUpFrameTransmogSetMixin:Init() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L606)
 function DressUpFrameTransmogSetMixin:CreateSetItemFrame(setItem, dataProvider) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L640)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L646)
 function DressUpFrameTransmogSetMixin:OnItemSelected(element, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L644)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L650)
 function DressUpFrameTransmogSetMixin:RefreshItems() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L650)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L656)
 function DressUpFrameTransmogSetMixin:UpdateSelectedAppearance(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L704)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L710)
 function DressUpFrameTransmogSetButtonMixin:InitItem(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L723)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L729)
 function DressUpFrameTransmogSetButtonMixin:Refresh() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L739)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L745)
 function DressUpFrameTransmogSetButtonMixin:SetSelected(selected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L744)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L750)
 function DressUpFrameTransmogSetButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L752)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLGame/DressUpModelFrameMixin.lua#L758)
 function DressUpFrameTransmogSetButtonMixin:OnLeave() end

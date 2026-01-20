@@ -106,10 +106,10 @@ function PlayerChoiceBaseOptionTemplateMixin:SetupHeader() end
 function PlayerChoiceBaseOptionTemplateMixin:SetupSubHeader() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.lua#L155)
-function PlayerChoiceBaseOptionTemplateMixin:GetOptionFontColors() end
+function PlayerChoiceBaseOptionTemplateMixin:GetOptionFontInfo() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.lua#L158)
-function PlayerChoiceBaseOptionTemplateMixin:SetupTextColors() end
+function PlayerChoiceBaseOptionTemplateMixin:SetupTextFonts() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceOptionBase.lua#L161)
 function PlayerChoiceBaseOptionTemplateMixin:SetupOptionText() end

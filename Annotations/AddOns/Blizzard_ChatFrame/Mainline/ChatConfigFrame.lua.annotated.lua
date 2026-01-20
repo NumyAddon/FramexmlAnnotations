@@ -1,105 +1,105 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2254)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2298)
 --- @class ChatWindowTabMixin
 ChatWindowTabMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2320)
 --- @class ChatConfigFrameTabManagerMixin
 ChatConfigFrameTabManagerMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2372)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2416)
 --- @class ChatConfigWideCheckboxManagerMixin
 ChatConfigWideCheckboxManagerMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2460)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2504)
 --- @class ChatConfigWideCheckboxMixin
 ChatConfigWideCheckboxMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2527)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2571)
 --- @class TextToSpeechCharacterSpecificButtonMixin
 TextToSpeechCharacterSpecificButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2300)
 function ChatWindowTabMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2304)
 function ChatWindowTabMixin:SetChatWindowIndex(chatWindowIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2314)
 function ChatWindowTabMixin:UpdateWidth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2324)
 function ChatConfigFrameTabManagerMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2328)
 function ChatConfigFrameTabManagerMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2332)
 function ChatConfigFrameTabManagerMixin:UpdateTabDisplay() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2326)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2370)
 function ChatConfigFrameTabManagerMixin:UpdateSelection(selectedChatWindowIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2381)
 function ChatConfigFrameTabManagerMixin:UpdateWidth(selectedChatWindowIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2394)
 function ChatConfigFrameTabManagerMixin:GetMaxTabWidth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2359)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2403)
 function ChatConfigFrameTabManagerMixin:GetCurrentWidth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2363)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2407)
 function ChatConfigFrameTabManagerMixin:CalculateCurrentWidth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2374)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2418)
 function ChatConfigWideCheckboxManagerMixin:OnUpdate(dt) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2414)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2458)
 function ChatConfigWideCheckboxManagerMixin:UpdateStates() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2432)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2476)
 function ChatConfigWideCheckboxManagerMixin:StartMovingEntry(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2438)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2482)
 function ChatConfigWideCheckboxManagerMixin:StopMovingEntry() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2446)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2490)
 function ChatConfigWideCheckboxManagerMixin:GetMovingEntry() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2467)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2511)
 function ChatConfigWideCheckboxMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2473)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2517)
 function ChatConfigWideCheckboxMixin:SetState(state) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2482)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2526)
 function ChatConfigWideCheckboxMixin:GetChannelIndex() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2488)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2532)
 function ChatConfigWideCheckboxMixin:GetChannelDisabled() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2497)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2541)
 function ChatConfigWideCheckboxMixin:GetChannelRuleset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2502)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2546)
 function ChatConfigWideCheckboxMixin:OnDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2506)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2550)
 function ChatConfigWideCheckboxMixin:LeaveChannel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2529)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2573)
 function TextToSpeechCharacterSpecificButtonMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2535)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2579)
 function TextToSpeechCharacterSpecificButtonMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2540)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2584)
 function TextToSpeechCharacterSpecificButtonMixin:OnClick(button, down) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2552)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2596)
 function TextToSpeechCharacterSpecificButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2557)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ChatFrame/Mainline/ChatConfigFrame.lua#L2601)
 function TextToSpeechCharacterSpecificButtonMixin:OnHide() end

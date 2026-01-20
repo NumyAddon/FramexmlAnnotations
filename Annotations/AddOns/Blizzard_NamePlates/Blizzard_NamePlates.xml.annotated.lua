@@ -1,31 +1,10 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L4)
 --- @class NamePlateDriverFrame : Frame, NamePlateDriverMixin
 NamePlateDriverFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L31)
---- child of NameplateBuffButtonTemplate
---- @class NameplateBuffButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L39)
---- child of NameplateBuffButtonTemplate_CountFrame
---- @class NameplateBuffButtonTemplate_CountFrame_Count : FontString, NumberFontNormalSmall
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L36)
---- child of NameplateBuffButtonTemplate
---- @class NameplateBuffButtonTemplate_CountFrame : Frame
---- @field Count NameplateBuffButtonTemplate_CountFrame_Count
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L12)
---- Template
---- @class NameplateBuffButtonTemplate : Frame, NameplateBuffButtonTemplateMixin
---- @field Cooldown NameplateBuffButtonTemplate_Cooldown
---- @field CountFrame NameplateBuffButtonTemplate_CountFrame
---- @field Border Texture
---- @field Icon Texture
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L11)
 --- Template
 --- @class NamePlateFullBorderTemplate : Frame, NamePlateBorderTemplateMixin
 --- @field Left Texture
@@ -34,7 +13,7 @@ NamePlateDriverFrame = {}
 --- @field Top Texture
 --- @field Textures table<number, Texture>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L57)
 --- Template
 --- @class NamePlateSecondaryBarBorderTemplate : Frame, NamePlateBorderTemplateMixin
 --- @field Left Texture
@@ -42,315 +21,190 @@ NamePlateDriverFrame = {}
 --- @field Bottom Texture
 --- @field Textures table<number, Texture>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L155)
---- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer
---- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_border : Frame, NamePlateFullBorderTemplate
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L143)
+--- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar
+--- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar_Text : FontString, SystemFont_NamePlate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L156)
---- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer
---- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_TempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L148)
+--- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar
+--- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar_RightText : FontString, SystemFont_NamePlate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L163)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L153)
+--- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar
+--- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar_LeftText : FontString, SystemFont_NamePlate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L105)
 --- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer
---- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar : StatusBar
+--- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar : StatusBar, TextStatusBar, NamePlateHealthBarMixin
+--- @field bgTexture Texture
+--- @field selectedBorder Texture
+--- @field deselectedOverlay Texture
 --- @field myHealPrediction Texture
 --- @field otherHealPrediction Texture
 --- @field totalAbsorb Texture
 --- @field totalAbsorbOverlay Texture
+--- @field Text BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar_Text
+--- @field RightText BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar_RightText
+--- @field LeftText BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar_LeftText
 --- @field myHealAbsorb Texture
 --- @field myHealAbsorbLeftShadow Texture
 --- @field myHealAbsorbRightShadow Texture
 --- @field overAbsorbGlow Texture
 --- @field overHealAbsorbGlow Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L103)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer : Frame
---- @field border BaseNamePlateUnitFrameTemplate_HealthBarsContainer_border
---- @field TempMaxHealthLoss BaseNamePlateUnitFrameTemplate_HealthBarsContainer_TempMaxHealthLoss
 --- @field healthBar BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar
---- @field background Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L209)
 --- child of BaseNamePlateUnitFrameTemplate_castBar
---- @class BaseNamePlateUnitFrameTemplate_castBar_Text : FontString, SystemFont_Shadow_Small
+--- @class BaseNamePlateUnitFrameTemplate_castBar_Text : FontString, SystemFont_NamePlateCastBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L194)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L214)
+--- child of BaseNamePlateUnitFrameTemplate_castBar
+--- @class BaseNamePlateUnitFrameTemplate_castBar_CastTargetNameText : FontString, SystemFont_NamePlateCastBar
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L243)
+--- child of BaseNamePlateUnitFrameTemplate_castBar
+--- @class BaseNamePlateUnitFrameTemplate_castBar_ImportantCastFlashAnim : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L178)
 --- child of BaseNamePlateUnitFrameTemplate
---- @class BaseNamePlateUnitFrameTemplate_castBar : StatusBar, CastingBarFrameAnimsTemplate, CastingBarMixin
---- @field iconWhenNoninterruptible boolean # true
+--- @class BaseNamePlateUnitFrameTemplate_castBar : StatusBar, CastingBarFrameAnimsTemplate, NamePlateCastingBarMixin
+--- @field HideIconWhenNotInterruptible boolean # true
 --- @field Background Texture
---- @field Text BaseNamePlateUnitFrameTemplate_castBar_Text
---- @field BorderShield Texture
+--- @field ImportantCastIndicator Texture
+--- @field CastTargetIndicator Texture
 --- @field Icon Texture
+--- @field Text BaseNamePlateUnitFrameTemplate_castBar_Text
+--- @field CastTargetNameText BaseNamePlateUnitFrameTemplate_castBar_CastTargetNameText
+--- @field BorderShield Texture
 --- @field Spark Texture
 --- @field Flash Texture
+--- @field ImportantCastFlashAnim BaseNamePlateUnitFrameTemplate_castBar_ImportantCastFlashAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L250)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_WidgetContainer : Frame, UIWidgetContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L256)
 --- child of BaseNamePlateUnitFrameTemplate
---- @class BaseNamePlateUnitFrameTemplate_BuffFrame : Frame, HorizontalLayoutFrame, NameplateBuffContainerMixin
---- @field spacing number # 4
---- @field fixedHeight number # 14
+--- @class BaseNamePlateUnitFrameTemplate_RaidTargetFrame : Frame, NamePlateRaidTargetMixin
+--- @field RaidTargetIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L266)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L268)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_ClassificationFrame : Frame, NamePlateClassificationFrameMixin
 --- @field classificationIndicator Texture
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L291)
+--- child of BaseNamePlateUnitFrameTemplate_AurasFrame
+--- @class BaseNamePlateUnitFrameTemplate_AurasFrame_DebuffListFrame : Frame, NamePlateAuraListTemplate
+--- @field maxAuraItemsDisplayed number # 12
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L300)
+--- child of BaseNamePlateUnitFrameTemplate_AurasFrame
+--- @class BaseNamePlateUnitFrameTemplate_AurasFrame_BuffListFrame : Frame, NamePlateAuraListTemplate
+--- @field layoutFramesGoingRight boolean # false
+--- @field maxAuraItemsDisplayed number # 2
+--- @field needsFixedHeight boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L310)
+--- child of BaseNamePlateUnitFrameTemplate_AurasFrame
+--- @class BaseNamePlateUnitFrameTemplate_AurasFrame_CrowdControlListFrame : Frame, NamePlateAuraListTemplate
+--- @field maxAuraItemsDisplayed number # 2
+--- @field needsFixedHeight boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L325)
+--- child of BaseNamePlateUnitFrameTemplate_AurasFrame_LossOfControlFrame
+--- @class BaseNamePlateUnitFrameTemplate_AurasFrame_LossOfControlFrame_AuraItemFrame : Frame, NameplateAuraItemTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L319)
+--- child of BaseNamePlateUnitFrameTemplate_AurasFrame
+--- @class BaseNamePlateUnitFrameTemplate_AurasFrame_LossOfControlFrame : Frame
+--- @field AuraItemFrame BaseNamePlateUnitFrameTemplate_AurasFrame_LossOfControlFrame_AuraItemFrame
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L289)
+--- child of BaseNamePlateUnitFrameTemplate
+--- @class BaseNamePlateUnitFrameTemplate_AurasFrame : Frame, NamePlateAurasMixin
+--- @field DebuffListFrame BaseNamePlateUnitFrameTemplate_AurasFrame_DebuffListFrame
+--- @field BuffListFrame BaseNamePlateUnitFrameTemplate_AurasFrame_BuffListFrame
+--- @field CrowdControlListFrame BaseNamePlateUnitFrameTemplate_AurasFrame_CrowdControlListFrame
+--- @field LossOfControlFrame BaseNamePlateUnitFrameTemplate_AurasFrame_LossOfControlFrame
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L350)
 --- child of BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame
 --- @class BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame_playerLevelDiffText : FontString, GameFontWhiteTiny2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L335)
 --- child of BaseNamePlateUnitFrameTemplate
---- @class BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame : Frame, NamePlateLevelDiffMixin
+--- @class BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame : Frame
 --- @field playerLevelDiffIcon Texture
 --- @field playerLevelDiffText BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame_playerLevelDiffText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L311)
---- child of BaseNamePlateUnitFrameTemplate
---- @class BaseNamePlateUnitFrameTemplate_RaidTargetFrame : Frame
---- @field RaidTargetIcon Texture
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L359)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_SoftTargetFrame : Frame
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L336)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L387)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_name : FontString, SystemFont_NamePlate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L433)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_LoseAggroAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L437)
+--- child of BaseNamePlateUnitFrameTemplate
+--- @class BaseNamePlateUnitFrameTemplate_AggroHighlightFadeInAnim : AnimationGroup
+--- @field aggroHighlightBaseAlpha Alpha
+--- @field aggroHighlightAdditiveAlpha Alpha
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L441)
+--- child of BaseNamePlateUnitFrameTemplate
+--- @class BaseNamePlateUnitFrameTemplate_AggroHighlightFadeOutAnim : AnimationGroup
+--- @field aggroHighlightBaseAlpha Alpha
+--- @field aggroHighlightAdditiveAlpha Alpha
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L445)
+--- child of BaseNamePlateUnitFrameTemplate
+--- @class BaseNamePlateUnitFrameTemplate_AggroHighlightScrollAnim : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L93)
 --- Template
 --- Adds itself to the parent with key `UnitFrame`
---- @class BaseNamePlateUnitFrameTemplate : Button
+--- @class BaseNamePlateUnitFrameTemplate : Button, NamePlateUnitFrameMixin
 --- @field disableMouse boolean # true
 --- @field ignoreCUFNameRequirement boolean # true
 --- @field HealthBarsContainer BaseNamePlateUnitFrameTemplate_HealthBarsContainer
 --- @field castBar BaseNamePlateUnitFrameTemplate_castBar
 --- @field WidgetContainer BaseNamePlateUnitFrameTemplate_WidgetContainer
---- @field BuffFrame BaseNamePlateUnitFrameTemplate_BuffFrame
---- @field ClassificationFrame BaseNamePlateUnitFrameTemplate_ClassificationFrame
---- @field PlayerLevelDiffFrame BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame
 --- @field RaidTargetFrame BaseNamePlateUnitFrameTemplate_RaidTargetFrame
+--- @field ClassificationFrame BaseNamePlateUnitFrameTemplate_ClassificationFrame
+--- @field AurasFrame BaseNamePlateUnitFrameTemplate_AurasFrame
+--- @field PlayerLevelDiffFrame BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame
 --- @field SoftTargetFrame BaseNamePlateUnitFrameTemplate_SoftTargetFrame
+--- @field HitTestFrame Frame
+--- @field behindCameraIcon Texture
 --- @field name BaseNamePlateUnitFrameTemplate_name
 --- @field selectionHighlight Texture
 --- @field aggroHighlight Texture
+--- @field aggroHighlightBase Texture
+--- @field aggroHighlightAdditive Texture
+--- @field aggroHighlightMask MaskTexture
+--- @field aggroFlash Texture
 --- @field LoseAggroAnim BaseNamePlateUnitFrameTemplate_LoseAggroAnim
+--- @field AggroHighlightFadeInAnim BaseNamePlateUnitFrameTemplate_AggroHighlightFadeInAnim
+--- @field AggroHighlightFadeOutAnim BaseNamePlateUnitFrameTemplate_AggroHighlightFadeOutAnim
+--- @field AggroHighlightScrollAnim BaseNamePlateUnitFrameTemplate_AggroHighlightScrollAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L375)
---- @class PersonalFriendlyBuffFrame : Frame, HorizontalLayoutFrame, PersonalFriendlyBuffContainerMixin
---- @field spacing number # 4
---- @field fixedHeight number # 14
-PersonalFriendlyBuffFrame = {}
-PersonalFriendlyBuffFrame["spacing"] = 4
-PersonalFriendlyBuffFrame["fixedHeight"] = 14
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L456)
 --- Template
 --- @class NamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L388)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L457)
 --- Template
 --- @class ForbiddenNamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L9)
---- child of NamePlateTooltip (created in template GameTooltipTemplate)
---- @type GameTooltipTemplate_StatusBar
-NamePlateTooltipStatusBar = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L35)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_TextLeft1
-NamePlateTooltipTextLeft1 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L36)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_TextRight1
-NamePlateTooltipTextRight1 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L41)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_TextLeft2
-NamePlateTooltipTextLeft2 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L42)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_TextRight2
-NamePlateTooltipTextRight2 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L47)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture1
-NamePlateTooltipTexture1 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L48)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture2
-NamePlateTooltipTexture2 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L49)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture3
-NamePlateTooltipTexture3 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L50)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture4
-NamePlateTooltipTexture4 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L51)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture5
-NamePlateTooltipTexture5 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L52)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture6
-NamePlateTooltipTexture6 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L53)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture7
-NamePlateTooltipTexture7 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L54)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture8
-NamePlateTooltipTexture8 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L55)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture9
-NamePlateTooltipTexture9 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L56)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture10
-NamePlateTooltipTexture10 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L57)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture11
-NamePlateTooltipTexture11 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L58)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture12
-NamePlateTooltipTexture12 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L59)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture13
-NamePlateTooltipTexture13 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L60)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture14
-NamePlateTooltipTexture14 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L61)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture15
-NamePlateTooltipTexture15 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L62)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture16
-NamePlateTooltipTexture16 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L63)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture17
-NamePlateTooltipTexture17 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L64)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture18
-NamePlateTooltipTexture18 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L65)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture19
-NamePlateTooltipTexture19 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L66)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture20
-NamePlateTooltipTexture20 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L67)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture21
-NamePlateTooltipTexture21 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L68)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture22
-NamePlateTooltipTexture22 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L69)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture23
-NamePlateTooltipTexture23 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L70)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture24
-NamePlateTooltipTexture24 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L71)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture25
-NamePlateTooltipTexture25 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L72)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture26
-NamePlateTooltipTexture26 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L73)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture27
-NamePlateTooltipTexture27 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L74)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture28
-NamePlateTooltipTexture28 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L75)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture29
-NamePlateTooltipTexture29 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L76)
---- child of NamePlateTooltip (created in template SharedTooltipArtTemplate)
---- @type SharedTooltipArtTemplate_Texture30
-NamePlateTooltipTexture30 = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L390)
---- @class NamePlateTooltip : GameTooltip, GameTooltipTemplate
-NamePlateTooltip = {}
-NamePlateTooltip["supportsDataRefresh"] = true -- inherited
-NamePlateTooltip["StatusBar"] = NamePlateTooltipStatusBar -- inherited
-NamePlateTooltip["textLeft1Font"] = "GameTooltipHeaderText" -- inherited
-NamePlateTooltip["textRight1Font"] = "GameTooltipHeaderText" -- inherited
-NamePlateTooltip["textLeft2Font"] = "GameTooltipText" -- inherited
-NamePlateTooltip["textRight2Font"] = "GameTooltipText" -- inherited
-NamePlateTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
-NamePlateTooltip["TextLeft1"] = NamePlateTooltipTextLeft1 -- inherited
-NamePlateTooltip["TextRight1"] = NamePlateTooltipTextRight1 -- inherited
-NamePlateTooltip["TextLeft2"] = NamePlateTooltipTextLeft2 -- inherited
-NamePlateTooltip["TextRight2"] = NamePlateTooltipTextRight2 -- inherited
 

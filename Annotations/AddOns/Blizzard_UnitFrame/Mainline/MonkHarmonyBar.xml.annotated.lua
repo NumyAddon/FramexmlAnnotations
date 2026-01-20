@@ -40,11 +40,13 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Mainline/MonkHarmonyBar.xml#L120)
 --- @class MonkHarmonyBarFrame : Frame, MonkHarmonyBarFrameTemplate
+--- @field layoutIndex number # 3
 --- @field topPadding number # 7
 --- @field showTooltip boolean # true
 --- @field tooltip1 any # CHI_POWER
 --- @field tooltip2 any # CHI_TOOLTIP
 MonkHarmonyBarFrame = {}
+MonkHarmonyBarFrame["layoutIndex"] = 3
 MonkHarmonyBarFrame["topPadding"] = 7
 MonkHarmonyBarFrame["showTooltip"] = true
 MonkHarmonyBarFrame["tooltip1"] = CHI_POWER
@@ -60,7 +62,6 @@ MonkHarmonyBarFrame["class"] = "MONK" -- inherited
 MonkHarmonyBarFrame["spec"] = SPEC_MONK_WINDWALKER -- inherited
 MonkHarmonyBarFrame["maxUsablePoints"] = 5 -- inherited
 MonkHarmonyBarFrame["resourceBarMixin"] = ClassPowerBar -- inherited
-MonkHarmonyBarFrame["layoutIndex"] = 1 -- inherited
 MonkHarmonyBarFrame["usePooledResourceButtons"] = true -- inherited
 MonkHarmonyBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 MonkHarmonyBarFrame["align"] = "center" -- inherited

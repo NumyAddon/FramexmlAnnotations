@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Monk.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Monk.xml#L4)
 --- @class ClassNameplateBarWindwalkerMonkFrame : Frame, MonkHarmonyBarFrameTemplate, ClassNameplateBarFrame, ClassNameplateBar, ClassNameplateBarWindwalkerMonk
 --- @field resourceBarMixin any # ClassNameplateBar
 --- @field unit string # player
@@ -28,7 +28,7 @@ ClassNameplateBarWindwalkerMonkFrame["isManagedFrame"] = true -- inherited
 ClassNameplateBarWindwalkerMonkFrame["showBarFunc"] = ClassNameplateBar.ShowNameplateBar -- inherited
 ClassNameplateBarWindwalkerMonkFrame["hideBarFunc"] = ClassNameplateBar.HideNameplateBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Monk.xml#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Monk.xml#L13)
 --- @class ClassNameplateBrewmasterBarFrame : StatusBar, ClassNameplateAlternatePowerBarBaseTemplate, MonkStaggerBarTemplate, ClassNameplateBarBrewmasterMonk
 --- @field scale string # 1
 --- @field unit string # player

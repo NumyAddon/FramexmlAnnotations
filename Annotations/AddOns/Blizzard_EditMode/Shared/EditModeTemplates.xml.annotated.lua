@@ -58,29 +58,29 @@
 --- @field Dropdown EditModeSettingDropdownTemplate_Dropdown
 --- @field Label EditModeSettingDropdownTemplate_Label
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L122)
 --- child of EditModeSettingSliderTemplate
 --- @class EditModeSettingSliderTemplate_Slider : Frame, MinimalSliderWithSteppersTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L113)
 --- child of EditModeSettingSliderTemplate
 --- @class EditModeSettingSliderTemplate_Label : FontString, GameFontHighlightMedium
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L109)
 --- Template
 --- @class EditModeSettingSliderTemplate : Frame, EditModeSettingSliderMixin
 --- @field Slider EditModeSettingSliderTemplate_Slider
 --- @field Label EditModeSettingSliderTemplate_Label
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L140)
 --- child of EditModeSettingCheckboxTemplate
 --- @class EditModeSettingCheckboxTemplate_Button : CheckButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L157)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L159)
 --- child of EditModeSettingCheckboxTemplate
 --- @class EditModeSettingCheckboxTemplate_Label : FontString, GameFontHighlightMedium
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L134)
 --- Template
 --- @class EditModeSettingCheckboxTemplate : Frame, ResizeLayoutFrame, EditModeSettingCheckboxMixin
 --- @field widthPadding number # -5
@@ -88,12 +88,12 @@
 --- @field Button EditModeSettingCheckboxTemplate_Button
 --- @field Label EditModeSettingCheckboxTemplate_Label
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L169)
 --- Template
 --- @class EditModeGridLineTemplate : Line, EditModeGridLineMixin
 --- @field isGridLine boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L175)
 --- Template
 --- @class MagnetismPreviewLineTemplate : Line, MagnetismPreviewLineMixin
 

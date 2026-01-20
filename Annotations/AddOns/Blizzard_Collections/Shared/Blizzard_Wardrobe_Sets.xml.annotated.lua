@@ -49,15 +49,3 @@
 --- @field IconBorder Texture
 --- @field New WardrobeSetsDetailsItemFrameTemplate_New
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L166)
---- child of WardrobeSetsTransmogModelTemplate
---- @class WardrobeSetsTransmogModelTemplate_Favorite : Frame
---- @field Icon Texture
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Collections/Shared/Blizzard_Wardrobe_Sets.xml#L135)
---- Template
---- @class WardrobeSetsTransmogModelTemplate : DressUpModel, WardrobeSetsTransmogModelMixin
---- @field Favorite WardrobeSetsTransmogModelTemplate_Favorite
---- @field Border Texture
---- @field TransmogStateTexture Texture
-

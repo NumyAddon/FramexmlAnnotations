@@ -1,44 +1,32 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L1)
---- @class ProfessionsReagentSlotButtonMixin
-ProfessionsReagentSlotButtonMixin = {}
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L2)
+--- @class ProfessionsReagentSlotButtonMixin : ProfessionsButtonMixin
+ProfessionsReagentSlotButtonMixin = CreateFromMixins(ProfessionsButtonMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L3)
-function ProfessionsReagentSlotButtonMixin:SetItem(item) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L4)
+function ProfessionsReagentSlotButtonMixin:GetReagent() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L8)
-function ProfessionsReagentSlotButtonMixin:SetCurrency(currencyID) end
+function ProfessionsReagentSlotButtonMixin:SetReagent(reagent) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L20)
-function ProfessionsReagentSlotButtonMixin:GetCurrencyID() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L16)
+function ProfessionsReagentSlotButtonMixin:Init() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L24)
-function ProfessionsReagentSlotButtonMixin:Reset() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L25)
+function ProfessionsReagentSlotButtonMixin:Clear() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L32)
 function ProfessionsReagentSlotButtonMixin:Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L40)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L37)
 function ProfessionsReagentSlotButtonMixin:SetLocked(locked) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L45)
-function ProfessionsReagentSlotButtonMixin:SetCropOverlayShown(shown) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L49)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L42)
 function ProfessionsReagentSlotButtonMixin:SetModifyingRequired(isModifyingRequired) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L53)
-function ProfessionsReagentSlotButtonMixin:IsModifyingRequired() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L71)
 function ProfessionsReagentSlotButtonMixin:UpdateOverlay() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L88)
 function ProfessionsReagentSlotButtonMixin:UpdateCursor() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L78)
-function ProfessionsReagentSlotButtonMixin:SetSlotQuality(quality) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeReagentSlotBase.lua#L94)
-function ProfessionsReagentSlotButtonMixin:SetItemInternal(item) end

@@ -7,6 +7,13 @@ local Settings_CategorySet = {
     ["AddOns"] = 2,
 }
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L27)
+--- @enum Settings.ControlType
+local Settings_ControlType = {
+    ["Radio"] = 1,
+    ["Checkbox"] = 2,
+}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L3)
 --- @enum SettingsLayoutMixin.LayoutType
 local SettingsLayoutMixin_LayoutType = {
@@ -41,14 +48,14 @@ local MinimalSliderWithSteppersMixin_Label = {
     ["Max"] = 5,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1649)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1663)
 --- @enum IconSelectorPopupFrameModes
 local IconSelectorPopupFrameModes = {
     ["New"] = 1,
     ["Edit"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1654)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1668)
 --- @enum IconSelectorPopupFrameIconFilterTypes
 local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
@@ -63,7 +70,7 @@ local SpellFlyoutOpenReason = {
     ["GlyphActivated"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L180)
 --- @enum AuraUtil.AuraUpdateChangedType
 local AuraUtil_AuraUpdateChangedType = {
     ["None"] = 1,
@@ -72,7 +79,7 @@ local AuraUtil_AuraUpdateChangedType = {
     ["Dispel"] = 4,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L155)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L187)
 --- @enum AuraUtil.UnitFrameDebuffType
 local AuraUtil_UnitFrameDebuffType = {
     ["BossDebuff"] = 1,
@@ -80,6 +87,15 @@ local AuraUtil_UnitFrameDebuffType = {
     ["PriorityDebuff"] = 3,
     ["NonBossRaidDebuff"] = 4,
     ["NonBossDebuff"] = 5,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1814)
+--- @enum PVPUIHonorInsetPanelType
+local PVPUIHonorInsetPanelType = {
+    ["Casual"] = 1,
+    ["Rated"] = 2,
+    ["Plunderstorm"] = 3,
+    ["TrainingGrounds"] = 4,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L4)
@@ -105,7 +121,7 @@ local Professions_ProfessionType = {
     ["Gathering"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L1396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L1549)
 --- @enum ProfessionsSortOrder
 local ProfessionsSortOrder = {
     ["Name"] = 1,
@@ -131,6 +147,21 @@ local CraftingQualityStatLine = {
     ["Difficulty"] = 1,
     ["Skill"] = 2,
     ["Concentration"] = 3,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L128)
+--- @enum CooldownViewerVisual
+local CooldownViewerVisual = {
+    ["MarchingAnts"] = 1,
+    ["MarchingAntsCyan"] = 2,
+    ["MarchingAntsRed"] = 3,
+    ["MarchingAntsGreen"] = 4,
+    ["MarchingAntsBlue"] = 5,
+    ["Flash"] = 6,
+    ["FlashCyan"] = 7,
+    ["FlashRed"] = 8,
+    ["FlashGreen"] = 9,
+    ["FlashBlue"] = 10,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L366)

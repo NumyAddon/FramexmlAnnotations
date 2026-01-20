@@ -2,13 +2,13 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L47)
 --- child of HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel
---- @class HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_HouseTypeOption : Frame, HouseExteriorPlaceholderDropdownTemplate
+--- @class HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_HouseTypeOption : Frame, HouseExteriorTypeDropdownTemplate
 --- @field layoutIndex number # 1
 --- @field label any # HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_TYPE_LABEL
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L53)
 --- child of HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel
---- @class HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_HouseSizeOption : Frame, HouseExteriorPlaceholderDropdownTemplate
+--- @class HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_HouseSizeOption : Frame, HouseExteriorSizeDropdownTemplate
 --- @field layoutIndex number # 3
 --- @field label any # HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_SIZE_LABEL
 

@@ -8,7 +8,7 @@
 --- child of MajorFactionsRenownToast
 --- @class MajorFactionsRenownToast_RewardDescription : FontString, SystemFont_Shadow_Med1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.xml#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.xml#L73)
 --- child of MajorFactionsRenownToast
 --- @class MajorFactionsRenownToast_ShowAnim : AnimationGroup
 --- @field HoldAlpha Alpha
@@ -21,8 +21,6 @@
 --- @field RewardIcon Texture
 --- @field RewardIconMask MaskTexture
 --- @field RewardDescription MajorFactionsRenownToast_RewardDescription
---- @field GlowLineBottom Texture
---- @field ToastBG Texture
 --- @field RewardIconRing Texture
 --- @field ShowAnim MajorFactionsRenownToast_ShowAnim
 MajorFactionsRenownToast = {}

@@ -2,7 +2,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L9)
 --- child of GameTooltipTemplate
---- @class GameTooltipTemplate_StatusBar : StatusBar, GameTooltipUnitHealthBarMixin
+--- @class GameTooltipTemplate_StatusBar : StatusBar, GameTooltipUnitHealthBarMixin, GameTooltipUnitHealthBarSecureMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L4)
 --- Template

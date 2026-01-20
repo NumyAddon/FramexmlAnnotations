@@ -5,13 +5,14 @@
 --- @class ClassSpecSpellTemplate : Button, ClassSpecSpellMixin
 --- @field Ring Texture
 --- @field Icon Texture
+--- @field CircleMask MaskTexture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L58)
 --- child of ClassSpecFrameTemplate
 --- @class ClassSpecFrameTemplate_DisabledOverlay : Frame
 --- @field GrayOverlay Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L43)
 --- Template
 --- @class ClassSpecFrameTemplate : Frame, HorizontalLayoutFrame, ClassSpecFrameMixin
 --- @field disabledOverlayAlpha number # 0.8
@@ -19,50 +20,50 @@
 --- @field BlackBG Texture
 --- @field Background Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L311)
 --- child of ClassSpecContentFrameTemplate
 --- @class ClassSpecContentFrameTemplate_ActivateButton : Button, MagicButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L330)
 --- child of ClassSpecContentFrameTemplate_AnimationHolder
 --- @class ClassSpecContentFrameTemplate_AnimationHolder_ActivationFlashBack : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L327)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L338)
 --- child of ClassSpecContentFrameTemplate_AnimationHolder
 --- @class ClassSpecContentFrameTemplate_AnimationHolder_ActivationFlashLeft : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L344)
 --- child of ClassSpecContentFrameTemplate_AnimationHolder
 --- @class ClassSpecContentFrameTemplate_AnimationHolder_ActivationFlashRight : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L317)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L328)
 --- child of ClassSpecContentFrameTemplate
 --- @class ClassSpecContentFrameTemplate_AnimationHolder : Frame
 --- @field ActivationFlashBack ClassSpecContentFrameTemplate_AnimationHolder_ActivationFlashBack
 --- @field ActivationFlashLeft ClassSpecContentFrameTemplate_AnimationHolder_ActivationFlashLeft
 --- @field ActivationFlashRight ClassSpecContentFrameTemplate_AnimationHolder_ActivationFlashRight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L129)
 --- child of ClassSpecContentFrameTemplate
 --- @class ClassSpecContentFrameTemplate_SpecName : FontString, Game30Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L141)
 --- child of ClassSpecContentFrameTemplate
 --- @class ClassSpecContentFrameTemplate_RoleName : FontString, GameFontNormalMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L146)
 --- child of ClassSpecContentFrameTemplate
 --- @class ClassSpecContentFrameTemplate_Description : FontString, GameFontNormalMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L152)
 --- child of ClassSpecContentFrameTemplate
 --- @class ClassSpecContentFrameTemplate_SampleAbilityText : FontString, GameFontHighlightMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L157)
 --- child of ClassSpecContentFrameTemplate
 --- @class ClassSpecContentFrameTemplate_ActivatedText : FontString, GameFontNormalLarge2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L65)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassSpecializations/Blizzard_ClassSpecializationsFrame.xml#L76)
 --- Template
 --- @class ClassSpecContentFrameTemplate : Frame, ClassSpecContentFrameMixin
 --- @field expand boolean # true

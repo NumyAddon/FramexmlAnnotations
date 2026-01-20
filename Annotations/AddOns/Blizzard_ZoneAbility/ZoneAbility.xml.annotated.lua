@@ -16,6 +16,10 @@
 --- child of ZoneAbilityFrameSpellButtonTemplate
 --- @class ZoneAbilityFrameSpellButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.xml#L47)
+--- child of ZoneAbilityFrameSpellButtonTemplate
+--- @class ZoneAbilityFrameSpellButtonTemplate_ChargeCooldown : Cooldown, CooldownFrameTemplate
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.xml#L38)
 --- child of ZoneAbilityFrameSpellButtonTemplate
 --- @class ZoneAbilityFrameSpellButtonTemplate_Count : FontString, NumberFontNormal
@@ -24,11 +28,12 @@
 --- Template
 --- @class ZoneAbilityFrameSpellButtonTemplate : Button, ZoneAbilityFrameSpellButtonMixin
 --- @field Cooldown ZoneAbilityFrameSpellButtonTemplate_Cooldown
+--- @field ChargeCooldown ZoneAbilityFrameSpellButtonTemplate_ChargeCooldown
 --- @field Icon Texture
 --- @field Count ZoneAbilityFrameSpellButtonTemplate_Count
 --- @field NormalTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.xml#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.xml#L68)
 --- @class ZoneAbilityFrame : Frame, ZoneAbilityFrameTemplate
 ZoneAbilityFrame = {}
 

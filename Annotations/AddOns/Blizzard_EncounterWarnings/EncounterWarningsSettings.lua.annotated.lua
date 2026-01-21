@@ -11,16 +11,16 @@ function EncounterWarningsSettingsMixin:OnLoad() end
 function EncounterWarningsSettingsMixin:OnIconScaleChanged(_iconScale) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsSettings.lua#L12)
-function EncounterWarningsSettingsMixin:OnTooltipsEnabledChanged(_tooltipsEnabled) end
+function EncounterWarningsSettingsMixin:OnTooltipAnchorChanged(_tooltipAnchor) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsSettings.lua#L16)
 function EncounterWarningsSettingsMixin:GetIconScale() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsSettings.lua#L20)
-function EncounterWarningsSettingsMixin:GetTooltipsEnabled() end
+function EncounterWarningsSettingsMixin:GetTooltipAnchor() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsSettings.lua#L24)
 function EncounterWarningsSettingsMixin:SetIconScale(iconScale) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsSettings.lua#L34)
-function EncounterWarningsSettingsMixin:SetTooltipsEnabled(tooltipsEnabled) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterWarnings/EncounterWarningsSettings.lua#L31)
+function EncounterWarningsSettingsMixin:SetTooltipAnchor(tooltipAnchor) end

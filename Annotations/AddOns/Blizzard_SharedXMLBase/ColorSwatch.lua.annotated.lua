@@ -18,3 +18,6 @@ function ColorSwatchMixin:OnEnter() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/ColorSwatch.lua#L19)
 function ColorSwatchMixin:OnLeave() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXMLBase/ColorSwatch.lua#L23)
+function ColorSwatchMixin:OnShow() end

@@ -327,16 +327,16 @@ CatalogShopTooltip["TextRight2"] = CatalogShopTooltipTextRight2 -- inherited
 --- @field AnimContainer CatalogShopFrame_ServicesContainerFrame_AnimContainer
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L339)
---- child of CatalogShopFrame_CrossGameContainerFrame
---- @class CatalogShopFrame_CrossGameContainerFrame_OtherProductWarningText : FontString, GameFontHighlightLarge
+--- child of CatalogShopFrame_PMTImageContainerFrame
+--- @class CatalogShopFrame_PMTImageContainerFrame_OtherProductWarningText : FontString, GameFontHighlightLarge
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L310)
 --- child of CatalogShopFrame
---- @class CatalogShopFrame_CrossGameContainerFrame : Frame, CrossGameContainerFrameMixin
+--- @class CatalogShopFrame_PMTImageContainerFrame : Frame, PMTImageContainerFrameMixin
 --- @field WatermarkLogoTexture Texture
 --- @field PMTImageForNoModel Texture
 --- @field PMTImageForNoModelMask MaskTexture
---- @field OtherProductWarningText CatalogShopFrame_CrossGameContainerFrame_OtherProductWarningText
+--- @field OtherProductWarningText CatalogShopFrame_PMTImageContainerFrame_OtherProductWarningText
 --- @field PMTImageForNoModelBorder Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L391)
@@ -548,7 +548,7 @@ CatalogShopFrameBg = {}
 --- @field WoWTokenContainerFrame CatalogShopFrame_WoWTokenContainerFrame
 --- @field ToyContainerFrame CatalogShopFrame_ToyContainerFrame
 --- @field ServicesContainerFrame CatalogShopFrame_ServicesContainerFrame
---- @field CrossGameContainerFrame CatalogShopFrame_CrossGameContainerFrame
+--- @field PMTImageContainerFrame CatalogShopFrame_PMTImageContainerFrame
 --- @field CatalogShopVCFrame CatalogShopFrame_CatalogShopVCFrame
 --- @field CatalogShopDetailsFrame CatalogShopFrame_CatalogShopDetailsFrame
 --- @field PersistentRefundContainerFrame CatalogShopFrame_PersistentRefundContainerFrame

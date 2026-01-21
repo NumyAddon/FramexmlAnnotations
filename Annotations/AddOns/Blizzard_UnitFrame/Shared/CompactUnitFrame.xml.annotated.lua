@@ -48,96 +48,111 @@
 --- @field Gradient Texture
 --- @field Border Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L131)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_TempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L138)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_PowerBar : StatusBar
 --- @field background Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L147)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_DispelOverlay : Frame, CompactUnitFrameDispelOverlayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L153)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Buff1 : Button, CompactBuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L151)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L154)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Buff2 : Button, CompactBuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L155)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Buff3 : Button, CompactBuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L156)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Buff4 : Button, CompactBuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L154)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L157)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Buff5 : Button, CompactBuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L155)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L158)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Buff6 : Button, CompactBuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L159)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Debuff1 : Button, CompactDebuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L157)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L160)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Debuff2 : Button, CompactDebuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L161)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Debuff3 : Button, CompactDebuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L162)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_PrivateAuraAnchor1 : Frame, CompactUnitPrivateAuraAnchorTemplate
 --- @field auraIndex number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L167)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_PrivateAuraAnchor2 : Frame, CompactUnitPrivateAuraAnchorTemplate
 --- @field auraIndex number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L175)
+--- child of CompactUnitFrameTemplate
+--- @class CompactUnitFrameTemplate_PrivateAuraAnchor3 : Frame, CompactUnitPrivateAuraAnchorTemplate
+--- @field auraIndex number # 3
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L183)
+--- child of CompactUnitFrameTemplate
+--- @class CompactUnitFrameTemplate_PrivateAuraAnchor4 : Frame, CompactUnitPrivateAuraAnchorTemplate
+--- @field auraIndex number # 4
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L191)
+--- child of CompactUnitFrameTemplate
+--- @class CompactUnitFrameTemplate_PrivateAuraAnchor5 : Frame, CompactUnitPrivateAuraAnchorTemplate
+--- @field auraIndex number # 5
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L199)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_DispelDebuff1 : Button, CompactDispelDebuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L200)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_DispelDebuff2 : Button, CompactDispelDebuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L201)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_DispelDebuff3 : Button, CompactDispelDebuffTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L202)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CenterStatusIcon : Button, CompactUnitFrameCenterStatusIconMixin
 --- @field texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L216)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CenterDefensiveBuff : Button, CompactBuffBaseTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L194)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L221)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_ReadyCheckIcon : Frame, CompactUnitFrameReadyCheckMixin
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L102)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Name : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L103)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_StatusText : FontString, GameFontDisable
 
@@ -145,6 +160,7 @@
 --- Explicitly protected
 --- Template
 --- @class CompactUnitFrameTemplate : Button, SecureUnitButtonTemplate, PingableUnitFrameTemplate
+--- @field maxPrivateAuras number # 5
 --- @field healthBar StatusBar
 --- @field TempMaxHealthLoss CompactUnitFrameTemplate_TempMaxHealthLoss
 --- @field powerBar CompactUnitFrameTemplate_PowerBar
@@ -154,6 +170,9 @@
 --- @field Debuff3 CompactUnitFrameTemplate_Debuff3
 --- @field PrivateAuraAnchor1 CompactUnitFrameTemplate_PrivateAuraAnchor1
 --- @field PrivateAuraAnchor2 CompactUnitFrameTemplate_PrivateAuraAnchor2
+--- @field PrivateAuraAnchor3 CompactUnitFrameTemplate_PrivateAuraAnchor3
+--- @field PrivateAuraAnchor4 CompactUnitFrameTemplate_PrivateAuraAnchor4
+--- @field PrivateAuraAnchor5 CompactUnitFrameTemplate_PrivateAuraAnchor5
 --- @field centerStatusIcon CompactUnitFrameTemplate_CenterStatusIcon
 --- @field CenterDefensiveBuff CompactUnitFrameTemplate_CenterDefensiveBuff
 --- @field readyCheckIcon CompactUnitFrameTemplate_ReadyCheckIcon
@@ -175,6 +194,6 @@
 --- @field selectionHighlight Texture
 --- @field buffFrames table<number, CompactUnitFrameTemplate_Buff1 | CompactUnitFrameTemplate_Buff2 | CompactUnitFrameTemplate_Buff3 | CompactUnitFrameTemplate_Buff4 | CompactUnitFrameTemplate_Buff5 | CompactUnitFrameTemplate_Buff6>
 --- @field debuffFrames table<number, CompactUnitFrameTemplate_Debuff1 | CompactUnitFrameTemplate_Debuff2 | CompactUnitFrameTemplate_Debuff3>
---- @field PrivateAuraAnchors table<number, CompactUnitFrameTemplate_PrivateAuraAnchor1 | CompactUnitFrameTemplate_PrivateAuraAnchor2>
+--- @field PrivateAuraAnchors table<number, CompactUnitFrameTemplate_PrivateAuraAnchor1 | CompactUnitFrameTemplate_PrivateAuraAnchor2 | CompactUnitFrameTemplate_PrivateAuraAnchor3 | CompactUnitFrameTemplate_PrivateAuraAnchor4 | CompactUnitFrameTemplate_PrivateAuraAnchor5>
 --- @field dispelDebuffFrames table<number, CompactUnitFrameTemplate_DispelDebuff1 | CompactUnitFrameTemplate_DispelDebuff2 | CompactUnitFrameTemplate_DispelDebuff3>
 

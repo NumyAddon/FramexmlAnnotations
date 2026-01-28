@@ -55,6 +55,26 @@ BuffFrame["defaultHideSelection"] = true -- inherited
 --- @class DebuffFrame_privateAuraAnchor2 : Frame, BuffFramePrivateAuraAnchorTemplate
 --- @field auraIndex number # 2
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L109)
+--- child of DebuffFrame
+--- @class DebuffFrame_privateAuraAnchor3 : Frame, BuffFramePrivateAuraAnchorTemplate
+--- @field auraIndex number # 3
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L114)
+--- child of DebuffFrame
+--- @class DebuffFrame_privateAuraAnchor4 : Frame, BuffFramePrivateAuraAnchorTemplate
+--- @field auraIndex number # 4
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L119)
+--- child of DebuffFrame
+--- @class DebuffFrame_privateAuraAnchor5 : Frame, BuffFramePrivateAuraAnchorTemplate
+--- @field auraIndex number # 5
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L124)
+--- child of DebuffFrame
+--- @class DebuffFrame_privateAuraAnchor6 : Frame, BuffFramePrivateAuraAnchorTemplate
+--- @field auraIndex number # 6
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L87)
 --- @class DebuffFrame : Frame, BaseAuraFrameTemplate, DebuffFrameMixin
 --- @field exampleAuraType string # Debuff
@@ -64,7 +84,11 @@ BuffFrame["defaultHideSelection"] = true -- inherited
 --- @field doNotAnchorDisabledFrames boolean # true
 --- @field privateAuraAnchor1 DebuffFrame_privateAuraAnchor1
 --- @field privateAuraAnchor2 DebuffFrame_privateAuraAnchor2
---- @field PrivateAuraAnchors table<number, DebuffFrame_privateAuraAnchor1 | DebuffFrame_privateAuraAnchor2>
+--- @field privateAuraAnchor3 DebuffFrame_privateAuraAnchor3
+--- @field privateAuraAnchor4 DebuffFrame_privateAuraAnchor4
+--- @field privateAuraAnchor5 DebuffFrame_privateAuraAnchor5
+--- @field privateAuraAnchor6 DebuffFrame_privateAuraAnchor6
+--- @field PrivateAuraAnchors table<number, DebuffFrame_privateAuraAnchor1 | DebuffFrame_privateAuraAnchor2 | DebuffFrame_privateAuraAnchor3 | DebuffFrame_privateAuraAnchor4 | DebuffFrame_privateAuraAnchor5 | DebuffFrame_privateAuraAnchor6>
 DebuffFrame = {}
 DebuffFrame["exampleAuraType"] = "Debuff"
 DebuffFrame["maxAuras"] = DEBUFF_MAX_DISPLAY
@@ -74,15 +98,15 @@ DebuffFrame["doNotAnchorDisabledFrames"] = true
 DebuffFrame["system"] = Enum.EditModeSystem.AuraFrame -- inherited
 DebuffFrame["defaultHideSelection"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L153)
 --- child of DeadlyDebuffFrame
 --- @class DeadlyDebuffFrame_Debuff : Button, AuraButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L143)
 --- child of DeadlyDebuffFrame
 --- @class DeadlyDebuffFrame_WarningText : FontString, GameFontNormalHuge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.xml#L136)
 --- @class DeadlyDebuffFrame : Frame, DeadlyDebuffFrameMixin
 --- @field Debuff DeadlyDebuffFrame_Debuff
 --- @field WarningText DeadlyDebuffFrame_WarningText

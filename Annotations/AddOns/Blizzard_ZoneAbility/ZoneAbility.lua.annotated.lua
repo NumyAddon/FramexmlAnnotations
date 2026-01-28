@@ -59,17 +59,17 @@ function ZoneAbilityFrameSpellButtonMixin:OnDragStart() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L274)
 function ZoneAbilityFrameSpellButtonMixin:Refresh() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L298)
 function ZoneAbilityFrameSpellButtonMixin:CheckForTutorial() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L302)
 function ZoneAbilityFrameSpellButtonMixin:SetSpellID(spellID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L308)
 function ZoneAbilityFrameSpellButtonMixin:GetSpellID() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L313)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L312)
 function ZoneAbilityFrameSpellButtonMixin:GetOverrideSpellID() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L318)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L317)
 function ZoneAbilityFrameSpellButtonMixin:SetContent(zoneAbilityInfo) end

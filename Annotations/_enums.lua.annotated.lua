@@ -149,7 +149,7 @@ local CraftingQualityStatLine = {
     ["Concentration"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L125)
 --- @enum CooldownViewerVisual
 local CooldownViewerVisual = {
     ["MarchingAnts"] = 1,

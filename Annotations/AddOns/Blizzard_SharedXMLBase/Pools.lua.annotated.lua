@@ -8,11 +8,11 @@ ProxyConvertablePrivateMixin = CreateFromMixins(ProxyConvertableMixin)
 --- @class ObjectPoolBaseMixin
 ObjectPoolBaseMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L307)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L290)
 --- @class PoolCollectionBaseMixin
 PoolCollectionBaseMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L637)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L620)
 --- @class FramePoolCollectionConverterMixin
 FramePoolCollectionConverterMixin = {}
 
@@ -20,49 +20,46 @@ FramePoolCollectionConverterMixin = {}
 function ObjectPoolBaseMixin:Acquire() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L72)
-function ObjectPoolBaseMixin:CheckAllowReleaseObject(object) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L78)
 function ObjectPoolBaseMixin:Release(object, canFailToFindObject) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L110)
 function ObjectPoolBaseMixin:Dump() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L292)
 function PoolCollectionBaseMixin:GetPool(template, specialization) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L297)
 function PoolCollectionBaseMixin:HasPool(poolKey) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L318)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L301)
 function PoolCollectionBaseMixin:Acquire(template, specialization) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L323)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L306)
 function PoolCollectionBaseMixin:ReleaseAllByTemplate(template, specialization) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L330)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L313)
 function PoolCollectionBaseMixin:EnumerateActiveByTemplate(template, specialization) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L339)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L322)
 function PoolCollectionBaseMixin:GetOrCreatePool(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L343)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L326)
 function PoolCollectionBaseMixin:CreatePool(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L347)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L330)
 function PoolCollectionBaseMixin:CreatePoolWithArgs(args) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L339)
 function PoolCollectionBaseMixin:GetOrCreatePoolWithArgs(args) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L366)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L349)
 function PoolCollectionBaseMixin:Dump() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L643)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L626)
 function FramePoolCollectionConverterMixin:CreatePoolKeyFromPoolArgs(args) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L647)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L630)
 function FramePoolCollectionConverterMixin:GetOrCreatePool(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L652)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/Pools.lua#L635)
 function FramePoolCollectionConverterMixin:CreatePool(...) end

@@ -8,7 +8,7 @@ TransmogLocationMixin = {}
 --- @class ItemModelBaseMixin
 ItemModelBaseMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L916)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L914)
 --- @class WardrobeSetsDataProviderMixin
 WardrobeSetsDataProviderMixin = {}
 
@@ -69,107 +69,107 @@ function ItemModelBaseMixin:OnModelLoaded() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L674)
 function ItemModelBaseMixin:OnMouseUp(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L736)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L734)
 function ItemModelBaseMixin:OnMouseDown(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L761)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L759)
 function ItemModelBaseMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L789)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L787)
 function ItemModelBaseMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L799)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L797)
 function ItemModelBaseMixin:OnUpdate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L819)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L817)
 function ItemModelBaseMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L825)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L823)
 function ItemModelBaseMixin:Reload() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L866)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L864)
 function ItemModelBaseMixin:UpdateCamera() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L870)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L868)
 function ItemModelBaseMixin:SetDesaturated(desaturated) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L877)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L875)
 function ItemModelBaseMixin:ToggleFavorite(visualID, isFavorite) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L882)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L880)
 function ItemModelBaseMixin:GetAppearanceInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L887)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L885)
 function ItemModelBaseMixin:GetCollectionFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L892)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L890)
 function ItemModelBaseMixin:GetIllusionLink() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L905)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L903)
 function ItemModelBaseMixin:GetAppearanceLink() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L910)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L908)
 function ItemModelBaseMixin:CanCheckDressUpClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L918)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L916)
 function WardrobeSetsDataProviderMixin:SortSets(sets, reverseUIOrder, ignorePatchID, ignoreCollected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L964)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L962)
 function WardrobeSetsDataProviderMixin:GetBaseSets() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L977)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L975)
 function WardrobeSetsDataProviderMixin:GetBaseSetByID(baseSetID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L988)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L986)
 function WardrobeSetsDataProviderMixin:GetUsableSets() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1020)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1018)
 function WardrobeSetsDataProviderMixin:GetAvailableSets() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1033)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1031)
 function WardrobeSetsDataProviderMixin:GetVariantSets(baseSetID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1057)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1055)
 function WardrobeSetsDataProviderMixin:GetSetSourceData(setID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1079)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1077)
 function WardrobeSetsDataProviderMixin:GetSetSourceCounts(setID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1084)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1082)
 function WardrobeSetsDataProviderMixin:GetBaseSetData(setID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1110)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1108)
 function WardrobeSetsDataProviderMixin:GetSetSourceTopCounts(setID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1117)
 function WardrobeSetsDataProviderMixin:IsBaseSetNew(baseSetID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1142)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1140)
 function WardrobeSetsDataProviderMixin:ResetBaseSetNewStatus(baseSetID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1147)
 function WardrobeSetsDataProviderMixin:GetSortedSetSources(setID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1170)
 function WardrobeSetsDataProviderMixin:ClearSets() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1179)
 function WardrobeSetsDataProviderMixin:ClearBaseSets() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1185)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1183)
 function WardrobeSetsDataProviderMixin:ClearVariantSets() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1187)
 function WardrobeSetsDataProviderMixin:ClearUsableSets() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1191)
 function WardrobeSetsDataProviderMixin:ClearAvailableSets() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1197)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1195)
 function WardrobeSetsDataProviderMixin:GetIconForSet(setID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1211)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1209)
 function WardrobeSetsDataProviderMixin:DetermineFavorites() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1231)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_TransmogShared/Blizzard_TransmogShared.lua#L1229)
 function WardrobeSetsDataProviderMixin:RefreshFavorites() end

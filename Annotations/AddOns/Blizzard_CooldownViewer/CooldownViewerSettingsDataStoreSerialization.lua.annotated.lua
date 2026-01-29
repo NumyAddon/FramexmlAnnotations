@@ -49,5 +49,5 @@ function CooldownViewerDataStoreSerializationMixin:CreateEncodeOutput(output) en
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L338)
 function CooldownViewerDataStoreSerializationMixin:SerializeLayouts(singleLayoutID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L441)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsDataStoreSerialization.lua#L438)
 function CooldownViewerDataStoreSerializationMixin:WriteData() end

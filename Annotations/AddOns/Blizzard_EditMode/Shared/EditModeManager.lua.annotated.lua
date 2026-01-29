@@ -16,7 +16,7 @@ EditModeGridSpacingSliderMixin = {}
 --- @class EditModeAccountSettingsMixin
 EditModeAccountSettingsMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2706)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2710)
 --- @class EditModeManagerTutorialMixin
 EditModeManagerTutorialMixin = {}
 
@@ -749,38 +749,38 @@ function EditModeAccountSettingsMixin:GetEncounterEventsFrames() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2636)
 function EditModeAccountSettingsMixin:RefreshEncounterEvents() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2653)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2657)
 function EditModeAccountSettingsMixin:SetDamageMeterShown(shown, isUserInput) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2662)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2666)
 function EditModeAccountSettingsMixin:GetDamageMeterFrames() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2667)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2671)
 function EditModeAccountSettingsMixin:RefreshDamageMeter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2685)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2689)
 function EditModeAccountSettingsMixin:SetExpandedState(expanded, isUserInput) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2701)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2705)
 function EditModeAccountSettingsMixin:ToggleExpandedState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2719)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2723)
 function EditModeManagerTutorialMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2726)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2730)
 function EditModeManagerTutorialMixin:HasHelptipsToShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2730)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2734)
 function EditModeManagerTutorialMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2736)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2740)
 function EditModeManagerTutorialMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2744)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2748)
 function EditModeManagerTutorialMixin:BeginHelpTips() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2754)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2758)
 function EditModeManagerTutorialMixin:ShowHelpTip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2762)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua#L2766)
 function EditModeManagerTutorialMixin:ProgressHelpTips() end

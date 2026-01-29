@@ -107,15 +107,15 @@
 --- @field RightButton RewardTrackFrameTemplate_RightButton
 --- @field JumpRightButton RewardTrackFrameTemplate_JumpRightButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L329)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L339)
 --- child of RewardProgressFrameTemplate_ClipFrame_ParagonLevelFrame
 --- @class RewardProgressFrameTemplate_ClipFrame_ParagonLevelFrame_Label : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L345)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L355)
 --- child of RewardProgressFrameTemplate_ClipFrame_ParagonLevelFrame
 --- @class RewardProgressFrameTemplate_ClipFrame_ParagonLevelFrame_Level : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L306)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L316)
 --- child of RewardProgressFrameTemplate_ClipFrame
 --- @class RewardProgressFrameTemplate_ClipFrame_ParagonLevelFrame : Frame
 --- @field Divider Texture
@@ -130,23 +130,24 @@
 --- child of RewardProgressFrameTemplate
 --- @class RewardProgressFrameTemplate_ClipFrame : Frame
 --- @field ParagonLevelFrame RewardProgressFrameTemplate_ClipFrame_ParagonLevelFrame
+--- @field Mask MaskTexture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L363)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L373)
 --- child of RewardProgressFrameTemplate
 --- @class RewardProgressFrameTemplate_LeftButton : Button, RewardTrackButtonTemplate
 --- @field direction number # -1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L371)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L381)
 --- child of RewardProgressFrameTemplate
 --- @class RewardProgressFrameTemplate_JumpLeftButton : Button, RewardTrackJumpButtonTemplate
 --- @field direction number # -1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L379)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L389)
 --- child of RewardProgressFrameTemplate
 --- @class RewardProgressFrameTemplate_RightButton : Button, RewardTrackButtonTemplate
 --- @field direction number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.xml#L397)
 --- child of RewardProgressFrameTemplate
 --- @class RewardProgressFrameTemplate_JumpRightButton : Button, RewardTrackJumpButtonTemplate
 --- @field direction number # 1

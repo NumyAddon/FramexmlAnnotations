@@ -170,6 +170,7 @@
 --- child of JourneysFrameTemplate_JourneyProgress
 --- @class JourneysFrameTemplate_JourneyProgress_DelveRewardProgressBar : StatusBar
 --- @field DelveRewardProgressBarBG Texture
+--- @field DelveRewardProgressBarFrame Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.xml#L423)
 --- child of JourneysFrameTemplate_JourneyProgress
@@ -187,7 +188,7 @@
 --- child of JourneysFrameTemplate_JourneyProgress
 --- @class JourneysFrameTemplate_JourneyProgress_EncounterRewardProgressFrame : Frame, RewardProgressFrameTemplate
 --- @field elementWidth number # 135
---- @field elementSpacing number # 15
+--- @field elementSpacing number # -5
 --- @field rewardButtonXOffset number # 30
 --- @field elementTemplate string # RenownLevelCardTemplate
 --- @field scrollStartSound any # SOUNDKIT.UI_MAJOR_FACTION_RENOWN_SLIDE_START

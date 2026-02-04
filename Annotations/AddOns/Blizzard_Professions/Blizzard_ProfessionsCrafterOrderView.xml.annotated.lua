@@ -2,7 +2,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L5)
 --- Template
---- @class ProfessionsCrafterOrderRewardTemplate : ItemButton, ProfessionsReagentButtonTemplate, ProfessionsCrafterOrderRewardMixin
+--- @class ProfessionsCrafterOrderRewardTemplate : ItemButton, ProfessionsButtonTemplate, ProfessionsCrafterOrderRewardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsCrafterOrderView.xml#L13)
 --- child of ProfessionsCrafterOrderRewardTooltipTemplate

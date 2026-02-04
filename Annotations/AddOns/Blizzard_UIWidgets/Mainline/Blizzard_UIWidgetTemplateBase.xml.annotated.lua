@@ -253,10 +253,20 @@
 --- child of UIWidgetBaseButtonTemplate
 --- @class UIWidgetBaseButtonTemplate_cooldown : Cooldown, CooldownFrameTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L576)
+--- child of UIWidgetBaseButtonTemplate
+--- @class UIWidgetBaseButtonTemplate_lossOfControlCooldown : Cooldown, CooldownFrameTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L582)
+--- child of UIWidgetBaseButtonTemplate
+--- @class UIWidgetBaseButtonTemplate_chargeCooldown : Cooldown, CooldownFrameTemplate
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateBase.xml#L547)
 --- Template
 --- @class UIWidgetBaseButtonTemplate : Button, UIWidgetTemplateTooltipFrame, UIWidgetBaseButtonTemplateMixin
 --- @field cooldown UIWidgetBaseButtonTemplate_cooldown
+--- @field lossOfControlCooldown UIWidgetBaseButtonTemplate_lossOfControlCooldown
+--- @field chargeCooldown UIWidgetBaseButtonTemplate_chargeCooldown
 --- @field Icon Texture
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture

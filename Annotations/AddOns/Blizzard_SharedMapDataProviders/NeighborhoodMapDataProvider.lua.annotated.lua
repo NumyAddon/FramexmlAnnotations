@@ -76,6 +76,19 @@ function NeighborhoodMapBasePinMixin:Refresh()
 
 end
 
+function NeighborhoodMapBasePinMixin:OnMouseEnter()
+	local plotInfo = self:GetPlotInfo();
+
+	GameTooltip:SetOwner(self, "ANCHOR_LEFT");
+	GameTooltip_SetTitle(GameTooltip, C_HousingNeighborhood.GetNeighborhoodPlotName(plotInfo.plotID));
+
+	if plotInfo.ownerName then
+		GameTooltip_AddNormalLine(GameTooltip, string.format(NEIGHBORHOODMAP_OWNED_BY, plotInfo.ownerName));
+	end
+
+	GameTooltip:Show();
+end
+
 function NeighborhoodMapBasePinMixin:OnMouseLeave()
 	if GameTooltip:GetOwner() == self then
 		GameTooltip:Hide();
@@ -87,27 +100,15 @@ UnoccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin);--- @clas
 --///////////////////Occupied Pin////////////////////////////
 OccupiedPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin);--- @class OccupiedPlotPinMixin : NeighborhoodMapBasePinMixin
 
-function OccupiedPlotPinMixin:OnMouseEnter()
-	GameTooltip:SetOwner(self, "ANCHOR_LEFT");
-	GameTooltip_SetTitle(GameTooltip, C_HousingNeighborhood.GetNeighborhoodPlotName(self:GetPlotInfo().plotID));
-	GameTooltip_AddNormalLine(GameTooltip, string.format(NEIGHBORHOODMAP_OWNED_BY, self:GetPlotInfo().ownerName));
-	GameTooltip:Show();
-end
-
 --///////////////////Friend Plot Pin////////////////////////////
 FriendsPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin);--- @class FriendsPlotPinMixin : NeighborhoodMapBasePinMixin
-
-function FriendsPlotPinMixin:OnMouseEnter()
-	GameTooltip:SetOwner(self, "ANCHOR_LEFT");
-	GameTooltip_SetTitle(GameTooltip, C_HousingNeighborhood.GetNeighborhoodPlotName(self:GetPlotInfo().plotID));
-	GameTooltip_AddNormalLine(GameTooltip, string.format(NEIGHBORHOODMAP_OWNED_BY, self:GetPlotInfo().ownerName));
-	GameTooltip:Show();
-end
 
 --///////////////////Player Plot Pin////////////////////////////
 PlayersPlotPinMixin = CreateFromMixins(NeighborhoodMapBasePinMixin);--- @class PlayersPlotPinMixin : NeighborhoodMapBasePinMixin
 
 function PlayersPlotPinMixin:OnMouseEnter()
+	-- Overrides NeighborhoodMapBasePinMixin.
+
 	GameTooltip:SetOwner(self, "ANCHOR_LEFT");
 	GameTooltip_SetTitle(GameTooltip, C_HousingNeighborhood.GetNeighborhoodPlotName(self:GetPlotInfo().plotID));
 	GameTooltip_AddNormalLine(GameTooltip, NEIGHBORHOODMAP_YOUR_HOUSE);

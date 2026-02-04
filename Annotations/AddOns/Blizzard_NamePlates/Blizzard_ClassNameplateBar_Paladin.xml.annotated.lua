@@ -55,7 +55,7 @@ ClassNameplateBarPaladinFrameRune5["depleteFlipbookOffsetY"] = 7
 ClassNameplateBarPaladinFrameRune5["useBackground"] = false -- inherited
 ClassNameplateBarPaladinFrameRune5["fxOffsetY"] = 5 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Paladin.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Paladin.xml#L4)
 --- @class ClassNameplateBarPaladinFrame : Frame, PaladinPowerBarFrameTemplate, ClassNameplateBarFrame, ClassNameplateBar, ClassNameplateBarPaladin
 --- @field resourceBarMixin any # ClassNameplateBar
 --- @field unit string # player

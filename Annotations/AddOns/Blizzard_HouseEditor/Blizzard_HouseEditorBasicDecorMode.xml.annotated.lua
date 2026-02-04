@@ -82,7 +82,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L84)
 --- child of HouseEditorBasicDecorModeTemplate_SubButtonBar
---- @class HouseEditorBasicDecorModeTemplate_SubButtonBar_NudgeButton : Button, HouseEditorSubmodeButtonTemplate, HouseEditorNudgeButtonMixin
+--- @class HouseEditorBasicDecorModeTemplate_SubButtonBar_FreePlaceButton : Button, HouseEditorSubmodeButtonTemplate, HouseEditorFreePlaceButtonMixin
 --- @field layoutIndex number # 2
 --- @field iconDefault string # decor-ability-freeplacement-default
 --- @field iconActive string # decor-ability-freeplacement-active
@@ -100,8 +100,8 @@
 --- @field spacing number # -12
 --- @field bottomPadding number # 0
 --- @field SnapButton HouseEditorBasicDecorModeTemplate_SubButtonBar_SnapButton
---- @field NudgeButton HouseEditorBasicDecorModeTemplate_SubButtonBar_NudgeButton
---- @field Buttons table<number, HouseEditorBasicDecorModeTemplate_SubButtonBar_SnapButton | HouseEditorBasicDecorModeTemplate_SubButtonBar_NudgeButton>
+--- @field FreePlaceButton HouseEditorBasicDecorModeTemplate_SubButtonBar_FreePlaceButton
+--- @field Buttons table<number, HouseEditorBasicDecorModeTemplate_SubButtonBar_SnapButton | HouseEditorBasicDecorModeTemplate_SubButtonBar_FreePlaceButton>
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorBasicDecorMode.xml#L3)
 --- Template

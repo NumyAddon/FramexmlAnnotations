@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Dracthyr.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Dracthyr.xml#L4)
 --- @class ClassNameplateBarDracthyrFrame : Frame, EssencePlayerFrameTemplate, ClassNameplateBarFrame, ClassNameplateBar, ClassNameplateBarDracthyr
 --- @field shouldShowBarFunc any # ClassNameplateBarDracthyr.SetupDracthyr
 --- @field resourceBarMixin any # ClassNameplateBar
@@ -30,7 +30,7 @@ ClassNameplateBarDracthyrFrame["scale"] = ".75" -- inherited
 ClassNameplateBarDracthyrFrame["showBarFunc"] = ClassNameplateBar.ShowNameplateBar -- inherited
 ClassNameplateBarDracthyrFrame["hideBarFunc"] = ClassNameplateBar.HideNameplateBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Dracthyr.xml#L16)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_ClassNameplateBar_Dracthyr.xml#L15)
 --- @class ClassNameplateEbonMightBarFrame : StatusBar, ClassNameplateAlternatePowerBarBaseTemplate, EvokerEbonMightBarTemplate, ClassNameplateEbonMightBar
 --- @field scale string # 1
 --- @field unit string # player

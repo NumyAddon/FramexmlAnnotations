@@ -4,7 +4,7 @@
 --- @class HouseListFrameMixin
 HouseListFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L108)
 --- @class HouseEntryTemplateMixin
 HouseEntryTemplateMixin = {}
 
@@ -26,32 +26,32 @@ function HouseListFrameMixin:OnEvent(event, ...) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L71)
 function HouseListFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L76)
 function HouseListFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L81)
 function HouseListFrameMixin:OnHouseListUpdated(houseInfoList) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L94)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L96)
 function HouseListFrameMixin:SelectedFirstHouse(dataProvider) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L110)
 function HouseEntryTemplateMixin:Init(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L133)
 function HouseEntryTemplateMixin:OnVisitHouseClicked() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L138)
 function HouseEntryTemplateMixin:SetSelected(selected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L146)
 function HouseEntryTemplateMixin:Expand(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L159)
 function HouseEntryTemplateMixin:Collapse(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L169)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L172)
 function HouseEntryTemplateMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseList/Blizzard_HouseList.lua#L177)
 function HouseEntryTemplateMixin:UpdatePlusMinusTexture() end

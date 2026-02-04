@@ -16,32 +16,32 @@ function ColorMixin:IsEqualTo(otherColor) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L23)
 function ColorMixin:GetRGB() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L27)
 function ColorMixin:GetHSL() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L33)
 function ColorMixin:GetRGBAsBytes() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L65)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L37)
 function ColorMixin:GetRGBA() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L41)
 function ColorMixin:GetRGBAAsBytes() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L45)
 function ColorMixin:SetRGBA(r, g, b, a) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L52)
 function ColorMixin:SetRGB(r, g, b) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L56)
 function ColorMixin:GenerateHexColor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L60)
 function ColorMixin:GenerateHexColorNoAlpha() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L64)
 function ColorMixin:GenerateHexColorMarkup() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXMLBase/Color.lua#L68)
 function ColorMixin:WrapTextInColorCode(text) end

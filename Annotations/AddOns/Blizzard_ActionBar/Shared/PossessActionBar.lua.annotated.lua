@@ -4,7 +4,7 @@
 --- @class PossessActionBarMixin
 PossessActionBarMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L65)
 --- @class PossessButtonMixin
 PossessButtonMixin = {}
 
@@ -18,19 +18,22 @@ function PossessActionBarMixin:Update() end
 function PossessActionBarMixin:UpdateState() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L48)
+function PossessActionBarMixin:ShouldShowBackgroundArt() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L57)
 function PossessActionBarMixin:SetBackgroundArtShown(shown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L67)
 function PossessButtonMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L62)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L71)
 function PossessButtonMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L92)
 function PossessButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L108)
 function PossessButtonMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L112)
 function PossessButtonMixin:HasAction() end

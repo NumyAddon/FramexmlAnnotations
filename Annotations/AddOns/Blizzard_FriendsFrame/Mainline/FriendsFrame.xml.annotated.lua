@@ -404,12 +404,12 @@ FriendsFrameBg = {}
 --- @field ScrollBox FriendsFrame_IgnoreListWindow_ScrollBox
 --- @field ScrollBar FriendsFrame_IgnoreListWindow_ScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L40)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L44)
 --- child of WhoFrameEditBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 WhoFrameEditBoxClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L35)
 --- child of WhoFrameEditBox (created in template SearchBoxTemplate)
 --- @type Texture
 WhoFrameEditBoxSearchIcon = {}

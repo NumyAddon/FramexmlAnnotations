@@ -1,94 +1,94 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L408)
---- @class DressUpOutfitMixin
-DressUpOutfitMixin = { }
+--- @class DressUpCustomSetMixin
+DressUpCustomSetMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L461)
---- @class DressUpOutfitDetailsPanelMixin
-DressUpOutfitDetailsPanelMixin = { }
+--- @class DressUpCustomSetDetailsPanelMixin
+DressUpCustomSetDetailsPanelMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L641)
---- @class DressUpOutfitDetailsSlotMixin
-DressUpOutfitDetailsSlotMixin = { }
+--- @class DressUpCustomSetDetailsSlotMixin
+DressUpCustomSetDetailsSlotMixin = { }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L410)
-function DressUpOutfitMixin:GetItemTransmogInfoList() end
+function DressUpCustomSetMixin:GetItemTransmogInfoList() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L418)
-function DressUpOutfitMixin:LoadOutfit(outfitID) end
+function DressUpCustomSetMixin:LoadCustomSet(customSetID) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L475)
-function DressUpOutfitDetailsPanelMixin:OnLoad() end
+function DressUpCustomSetDetailsPanelMixin:OnLoad() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L486)
-function DressUpOutfitDetailsPanelMixin:OnShow() end
+function DressUpCustomSetDetailsPanelMixin:OnShow() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L497)
-function DressUpOutfitDetailsPanelMixin:OnHide() end
+function DressUpCustomSetDetailsPanelMixin:OnHide() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L503)
-function DressUpOutfitDetailsPanelMixin:OnEvent(event, ...) end
+function DressUpCustomSetDetailsPanelMixin:OnEvent(event, ...) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L518)
-function DressUpOutfitDetailsPanelMixin:OnUpdate() end
+function DressUpCustomSetDetailsPanelMixin:OnUpdate() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L523)
-function DressUpOutfitDetailsPanelMixin:OnKeyDown(key) end
+function DressUpCustomSetDetailsPanelMixin:OnKeyDown(key) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L531)
-function DressUpOutfitDetailsPanelMixin:MarkDirty() end
+function DressUpCustomSetDetailsPanelMixin:MarkDirty() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L535)
-function DressUpOutfitDetailsPanelMixin:MarkWaitingOnItemData() end
+function DressUpCustomSetDetailsPanelMixin:MarkWaitingOnItemData() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L539)
-function DressUpOutfitDetailsPanelMixin:OnAppearanceChange() end
+function DressUpCustomSetDetailsPanelMixin:OnAppearanceChange() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L545)
-function DressUpOutfitDetailsPanelMixin:SetMousedOverFrame(frame) end
+function DressUpCustomSetDetailsPanelMixin:SetMousedOverFrame(frame) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L549)
-function DressUpOutfitDetailsPanelMixin:Refresh() end
+function DressUpCustomSetDetailsPanelMixin:Refresh() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L594)
-function DressUpOutfitDetailsPanelMixin:RefreshPlayerModel(forcePlayerRefresh) end
+function DressUpCustomSetDetailsPanelMixin:RefreshPlayerModel(forcePlayerRefresh) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L607)
-function DressUpOutfitDetailsPanelMixin:AddSlotFrame(slotID, transmogInfo, field) end
+function DressUpCustomSetDetailsPanelMixin:AddSlotFrame(slotID, transmogInfo, field) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L643)
-function DressUpOutfitDetailsSlotMixin:OnHide() end
+function DressUpCustomSetDetailsSlotMixin:OnHide() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L659)
-function DressUpOutfitDetailsSlotMixin:OnEnter() end
+function DressUpCustomSetDetailsSlotMixin:OnEnter() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L731)
-function DressUpOutfitDetailsSlotMixin:CheckForWarningString() end
+function DressUpCustomSetDetailsSlotMixin:CheckForWarningString() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L738)
-function DressUpOutfitDetailsSlotMixin:OnLeave() end
+function DressUpCustomSetDetailsSlotMixin:OnLeave() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L745)
-function DressUpOutfitDetailsSlotMixin:OnMouseUp() end
+function DressUpCustomSetDetailsSlotMixin:OnMouseUp() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L761)
-function DressUpOutfitDetailsSlotMixin:OnCycleKeyDown() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L764)
+function DressUpCustomSetDetailsSlotMixin:OnCycleKeyDown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L773)
-function DressUpOutfitDetailsSlotMixin:RefreshAppearanceTooltip() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L776)
+function DressUpCustomSetDetailsSlotMixin:RefreshAppearanceTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L788)
-function DressUpOutfitDetailsSlotMixin:SetUp(slotID, transmogInfo, field) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L799)
+function DressUpCustomSetDetailsSlotMixin:SetUp(slotID, transmogInfo, field) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L800)
-function DressUpOutfitDetailsSlotMixin:SetAppearance(slotID, transmogID, isSecondary) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L811)
+function DressUpCustomSetDetailsSlotMixin:SetAppearance(slotID, transmogID, isSecondary) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L840)
-function DressUpOutfitDetailsSlotMixin:SetItemInfo(transmogID, appearanceInfo, isSecondary) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L850)
+function DressUpCustomSetDetailsSlotMixin:SetItemInfo(transmogID, appearanceInfo, isSecondary) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L868)
-function DressUpOutfitDetailsSlotMixin:SetIllusion(slotID, transmogID) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L878)
+function DressUpCustomSetDetailsSlotMixin:SetIllusion(slotID, transmogID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L885)
-function DressUpOutfitDetailsSlotMixin:SetDetails(transmogID, icon, name, useSmallIcon, slotState, isHiddenVisual) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.lua#L896)
+function DressUpCustomSetDetailsSlotMixin:SetDetails(transmogID, icon, name, useSmallIcon, slotState, isHiddenVisual) end

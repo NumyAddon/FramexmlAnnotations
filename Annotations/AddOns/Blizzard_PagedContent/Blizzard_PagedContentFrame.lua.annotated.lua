@@ -38,94 +38,109 @@ function PagedContentFrameBaseMixin:GetPageForViewDataIndex(viewIndex) end
 function PagedContentFrameBaseMixin:GetFrames() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L180)
+function PagedContentFrameBaseMixin:GetSize() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L194)
 function PagedContentFrameBaseMixin:EnumerateFrames() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L184)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L198)
 function PagedContentFrameBaseMixin:ForEachFrame(func) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L207)
 function PagedContentFrameBaseMixin:GoToElementByPredicate(predicateFunc) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L228)
 function PagedContentFrameBaseMixin:TryGetElementAndFrameByPredicate(predicateFunc) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L239)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L253)
 function PagedContentFrameBaseMixin:GetElementFrameByPredicate(predicateFunc) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L251)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L265)
 function PagedContentFrameBaseMixin:GetElementFrameByPredicateAndTemplate(predicateFunc, template, templateKey) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L274)
+function PagedContentFrameBaseMixin:GetElementDataByIndex(targetIndex) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L293)
+function PagedContentFrameBaseMixin:FindIndexByPredicate(predicateFunc) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L311)
 function PagedContentFrameBaseMixin:OnMouseWheel(delta) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L315)
 function PagedContentFrameBaseMixin:OnDataProviderSizeChanged(pendingSort) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L322)
 function PagedContentFrameBaseMixin:OnDataProviderSort() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L326)
 function PagedContentFrameBaseMixin:OnDataProviderContentsChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L331)
 function PagedContentFrameBaseMixin:OnPageChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L335)
 function PagedContentFrameBaseMixin:InternalGetTemplateInfo(templateKey) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L371)
 function PagedContentFrameBaseMixin:SplitElementsIntoViewData() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L364)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L415)
 function PagedContentFrameBaseMixin:ProcessElement(splitData, elementData, elementIndex, isHeader, dataGroup) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L423)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L474)
 function PagedContentFrameBaseMixin:DisplayViewsForCurrentPage() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L494)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L546)
 function PagedContentFrameBaseMixin:SetPagingControls(pagingControls) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L500)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L551)
+function PagedContentFrameBaseMixin:TryGetMaxGridCountForTemplateInView(templateKey, viewIndex) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L567)
 function PagedContentFrameBaseMixin:ProcessTemplateInfo(templateInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L505)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L572)
 function PagedContentFrameBaseMixin:InitializeElementSplit(splitData, viewFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L510)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L577)
 function PagedContentFrameBaseMixin:GetTotalViewSpace(viewFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L516)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L583)
 function PagedContentFrameBaseMixin:OnDataGroupStarted(splitData, dataGroup) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L522)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L589)
 function PagedContentFrameBaseMixin:GetViewSpaceNeededForElement(splitData, elementData, elementTemplateInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L530)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L597)
 function PagedContentFrameBaseMixin:GetViewSpaceNeededForSpacer(splitData, spacerTemplateInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L604)
 function PagedContentFrameBaseMixin:WillElementUseTrackedViewSpace(splitData, elementData, elementTemplateInfo, needsGroupSpacer) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L545)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L612)
 function PagedContentFrameBaseMixin:ShouldStartNewView(viewSpaceRemaining, totalSizeNeededForElement, splitData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L618)
 function PagedContentFrameBaseMixin:OnNewViewStarted(splitData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L557)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L624)
 function PagedContentFrameBaseMixin:OnElementSpaceTakenFromView(splitData, elementData, elementTemplateInfo, spaceTaken, sizeOfNextElement) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L563)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L630)
 function PagedContentFrameBaseMixin:OnElementAddedToView(splitData, elementData, elementTemplateInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L569)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L636)
 function PagedContentFrameBaseMixin:OnSpacerAddedToView(splitData, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L574)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L641)
 function PagedContentFrameBaseMixin:ProcessSpacerFrame(spacerFrame, elementData, elementIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L579)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L646)
 function PagedContentFrameBaseMixin:ProcessElementFrame(elementFrame, elementData, elementIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L584)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L651)
 function PagedContentFrameBaseMixin:ApplyLayout(layoutFrames, viewFrame) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PagedContent/Blizzard_PagedContentFrame.lua#L657)
+function PagedContentFrameBaseMixin:TryGetMaxGridCountForTemplateInViewFrame(elementTemplateInfo, viewFrame) end

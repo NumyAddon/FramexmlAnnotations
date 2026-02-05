@@ -9,113 +9,120 @@
 --- @class PlayerTalentFrameCloseButton : Button, UIPanelCloseButton
 PlayerTalentFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L71)
+--- child of PlayerTalentFrame
+--- @class PlayerTalentFrameCancelButton : Button, UIPanelButtonTemplate
+PlayerTalentFrameCancelButton = {}
+PlayerTalentFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+PlayerTalentFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L89)
 --- child of PlayerTalentFrameStatusFrame
 --- @class PlayerTalentFramePointsLeft : Texture
 PlayerTalentFramePointsLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L96)
 --- child of PlayerTalentFrameStatusFrame
 --- @class PlayerTalentFramePointsMiddle : Texture
 PlayerTalentFramePointsMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L103)
 --- child of PlayerTalentFrameStatusFrame
 --- @class PlayerTalentFramePointsRight : Texture
 PlayerTalentFramePointsRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L110)
+--- child of PlayerTalentFrameStatusFrame
+--- @class PlayerTalentFrameSpentPointsText : FontString, GameFontNormalSmall
+PlayerTalentFrameSpentPointsText = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L116)
 --- child of PlayerTalentFrameStatusFrame
 --- @class PlayerTalentFrameStatusText : FontString, GameFontNormal
 PlayerTalentFrameStatusText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L82)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameStatusFrame : Frame
 PlayerTalentFrameStatusFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L124)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameActivateButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameActivateButton = {}
 PlayerTalentFrameActivateButton["fitTextCanWidthDecrease"] = true -- inherited
 PlayerTalentFrameActivateButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L146)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFramePointsBarBackground : Texture
 PlayerTalentFramePointsBarBackground = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L152)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFramePointsBarBorderLeft : Texture
 PlayerTalentFramePointsBarBorderLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L161)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFramePointsBarBorderRight : Texture
 PlayerTalentFramePointsBarBorderRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L170)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFramePointsBarBorderMiddle : Texture
 PlayerTalentFramePointsBarBorderMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L162)
---- child of PlayerTalentFramePointsBar
---- @class PlayerTalentFrameSpentPointsText : FontString, GameFontNormalSmall
-PlayerTalentFrameSpentPointsText = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L179)
 --- child of PlayerTalentFramePointsBar
 --- @class PlayerTalentFrameTalentPointsText : FontString, GameFontNormalSmall
 PlayerTalentFrameTalentPointsText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L137)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFramePointsBar : Frame
 PlayerTalentFramePointsBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L207)
 --- child of PlayerTalentFramePreviewBar
 --- @class PlayerTalentFrameResetButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameResetButton = {}
 PlayerTalentFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
 PlayerTalentFrameResetButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L218)
 --- child of PlayerTalentFramePreviewBar
 --- @class PlayerTalentFrameLearnButton : Button, UIPanelButtonTemplate
 PlayerTalentFrameLearnButton = {}
 PlayerTalentFrameLearnButton["fitTextCanWidthDecrease"] = true -- inherited
 PlayerTalentFrameLearnButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L237)
 --- child of PlayerTalentFramePreviewBarFiller
 --- @class PlayerTalentFramePreviewBarFillerButtonBackgroundLeft : Texture
 PlayerTalentFramePreviewBarFillerButtonBackgroundLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L235)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L246)
 --- child of PlayerTalentFramePreviewBarFiller
 --- @class PlayerTalentFramePreviewBarFillerButtonBackgroundRight : Texture
 PlayerTalentFramePreviewBarFillerButtonBackgroundRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L255)
 --- child of PlayerTalentFramePreviewBarFiller
 --- @class PlayerTalentFramePreviewBarFillerButtonBackgroundMiddle : Texture
 PlayerTalentFramePreviewBarFillerButtonBackgroundMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L218)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L229)
 --- child of PlayerTalentFramePreviewBar
 --- @class PlayerTalentFramePreviewBarFiller : Frame
 PlayerTalentFramePreviewBarFiller = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L186)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L197)
 --- child of PlayerTalentFramePreviewBar
 --- @class PlayerTalentFramePreviewBarButtonBorder : Texture
 PlayerTalentFramePreviewBarButtonBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L188)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFramePreviewBar : Frame
 PlayerTalentFramePreviewBar = {}
@@ -165,7 +172,7 @@ PlayerTalentFrameTalent1SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L365)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L376)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent1 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent1 = {}
@@ -219,7 +226,7 @@ PlayerTalentFrameTalent2SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L366)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L377)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent2 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent2 = {}
@@ -273,7 +280,7 @@ PlayerTalentFrameTalent3SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L367)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L378)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent3 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent3 = {}
@@ -327,7 +334,7 @@ PlayerTalentFrameTalent4SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L368)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L379)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent4 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent4 = {}
@@ -381,7 +388,7 @@ PlayerTalentFrameTalent5SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L380)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent5 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent5 = {}
@@ -435,7 +442,7 @@ PlayerTalentFrameTalent6SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L381)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent6 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent6 = {}
@@ -489,7 +496,7 @@ PlayerTalentFrameTalent7SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L371)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L382)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent7 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent7 = {}
@@ -543,7 +550,7 @@ PlayerTalentFrameTalent8SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L372)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L383)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent8 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent8 = {}
@@ -597,7 +604,7 @@ PlayerTalentFrameTalent9SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L373)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L384)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent9 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent9 = {}
@@ -651,7 +658,7 @@ PlayerTalentFrameTalent10SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L374)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L385)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent10 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent10 = {}
@@ -705,7 +712,7 @@ PlayerTalentFrameTalent11SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L386)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent11 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent11 = {}
@@ -759,7 +766,7 @@ PlayerTalentFrameTalent12SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L387)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent12 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent12 = {}
@@ -813,7 +820,7 @@ PlayerTalentFrameTalent13SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L377)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L388)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent13 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent13 = {}
@@ -867,7 +874,7 @@ PlayerTalentFrameTalent14SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L378)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L389)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent14 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent14 = {}
@@ -921,7 +928,7 @@ PlayerTalentFrameTalent15SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L379)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L390)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent15 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent15 = {}
@@ -975,7 +982,7 @@ PlayerTalentFrameTalent16SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L380)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L391)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent16 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent16 = {}
@@ -1029,7 +1036,7 @@ PlayerTalentFrameTalent17SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L381)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L392)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent17 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent17 = {}
@@ -1083,7 +1090,7 @@ PlayerTalentFrameTalent18SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L382)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L393)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent18 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent18 = {}
@@ -1137,7 +1144,7 @@ PlayerTalentFrameTalent19SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L383)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L394)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent19 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent19 = {}
@@ -1191,7 +1198,7 @@ PlayerTalentFrameTalent20SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L384)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L395)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent20 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent20 = {}
@@ -1245,7 +1252,7 @@ PlayerTalentFrameTalent21SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L385)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L396)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent21 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent21 = {}
@@ -1299,7 +1306,7 @@ PlayerTalentFrameTalent22SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L397)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent22 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent22 = {}
@@ -1353,7 +1360,7 @@ PlayerTalentFrameTalent23SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L398)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent23 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent23 = {}
@@ -1407,7 +1414,7 @@ PlayerTalentFrameTalent24SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L388)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L399)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent24 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent24 = {}
@@ -1461,7 +1468,7 @@ PlayerTalentFrameTalent25SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L389)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L400)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent25 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent25 = {}
@@ -1515,7 +1522,7 @@ PlayerTalentFrameTalent26SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L390)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L401)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent26 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent26 = {}
@@ -1569,7 +1576,7 @@ PlayerTalentFrameTalent27SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L391)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L402)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent27 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent27 = {}
@@ -1623,7 +1630,7 @@ PlayerTalentFrameTalent28SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L392)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L403)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent28 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent28 = {}
@@ -1677,7 +1684,7 @@ PlayerTalentFrameTalent29SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L393)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L404)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent29 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent29 = {}
@@ -1731,7 +1738,7 @@ PlayerTalentFrameTalent30SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L394)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L405)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent30 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent30 = {}
@@ -1785,7 +1792,7 @@ PlayerTalentFrameTalent31SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L395)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L406)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent31 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent31 = {}
@@ -1839,7 +1846,7 @@ PlayerTalentFrameTalent32SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L407)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent32 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent32 = {}
@@ -1893,7 +1900,7 @@ PlayerTalentFrameTalent33SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L397)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L408)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent33 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent33 = {}
@@ -1947,7 +1954,7 @@ PlayerTalentFrameTalent34SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L398)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L409)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent34 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent34 = {}
@@ -2001,7 +2008,7 @@ PlayerTalentFrameTalent35SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L399)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L410)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent35 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent35 = {}
@@ -2055,7 +2062,7 @@ PlayerTalentFrameTalent36SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L400)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L411)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent36 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent36 = {}
@@ -2109,7 +2116,7 @@ PlayerTalentFrameTalent37SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent37NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L401)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L412)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent37 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent37 = {}
@@ -2163,7 +2170,7 @@ PlayerTalentFrameTalent38SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent38NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L402)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L413)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent38 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent38 = {}
@@ -2217,7 +2224,7 @@ PlayerTalentFrameTalent39SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent39NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L403)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L414)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent39 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent39 = {}
@@ -2271,7 +2278,7 @@ PlayerTalentFrameTalent40SubIconTexture = {}
 --- @type Texture
 PlayerTalentFrameTalent40NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L404)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L415)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameTalent40 : Button, PlayerTalentButtonTemplate
 PlayerTalentFrameTalent40 = {}
@@ -2280,347 +2287,347 @@ PlayerTalentFrameTalent40["Count"] = PlayerTalentFrameTalent40Count -- inherited
 PlayerTalentFrameTalent40["searchOverlay"] = PlayerTalentFrameTalent40SearchOverlay -- inherited
 PlayerTalentFrameTalent40["subicon"] = PlayerTalentFrameTalent40SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L409)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L420)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow1 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L410)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L421)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow2 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L411)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L422)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow3 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L412)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L423)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow4 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow4 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L413)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L424)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow5 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow5 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L414)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L425)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow6 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow6 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L415)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L426)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow7 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow7 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L416)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L427)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow8 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow8 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L417)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L428)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow9 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow9 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L418)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L429)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow10 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow10 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L419)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L430)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow11 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow11 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L420)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L431)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow12 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow12 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L421)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L432)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow13 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow13 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L433)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow14 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow14 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L423)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L434)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow15 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow15 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L424)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L435)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow16 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow16 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L425)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L436)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow17 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow17 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L426)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L437)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow18 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow18 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L427)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L438)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow19 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow19 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L428)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L439)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow20 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow20 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L429)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L440)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow21 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow21 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L430)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L441)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow22 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow22 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L431)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L442)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow23 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow23 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L432)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L443)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow24 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow24 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L433)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L444)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow25 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow25 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L434)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L445)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow26 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow26 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L446)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow27 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow27 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L447)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow28 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow28 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L437)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L448)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow29 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow29 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L438)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L449)
 --- child of PlayerTalentFrameArrowFrame
 --- @class PlayerTalentFrameArrow30 : Texture, TalentArrowTemplate
 PlayerTalentFrameArrow30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L417)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameArrowFrame : Frame
 PlayerTalentFrameArrowFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L343)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch1 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L344)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch2 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L334)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L345)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch3 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L346)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch4 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch4 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L336)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L347)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch5 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch5 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L348)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch6 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch6 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L338)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L349)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch7 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch7 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L339)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L350)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch8 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch8 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L340)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L351)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch9 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch9 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L341)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L352)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch10 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch10 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L353)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch11 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch11 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L343)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L354)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch12 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch12 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L344)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L355)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch13 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch13 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L345)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L356)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch14 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch14 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L346)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L357)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch15 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch15 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L347)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L358)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch16 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch16 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L348)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L359)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch17 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch17 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L349)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L360)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch18 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch18 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L361)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch19 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch19 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L362)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch20 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch20 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L352)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L363)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch21 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch21 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L353)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L364)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch22 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch22 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L365)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch23 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch23 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L355)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L366)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch24 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch24 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L367)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch25 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch25 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L357)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L368)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch26 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch26 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L358)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L369)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch27 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch27 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L359)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L370)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch28 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch28 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L360)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L371)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch29 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch29 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L372)
 --- child of PlayerTalentFrameScrollChildFrame
 --- @class PlayerTalentFrameBranch30 : Texture, TalentBranchTemplate
 PlayerTalentFrameBranch30 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L325)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L336)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameScrollChildFrame : Frame
 PlayerTalentFrameScrollChildFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L327)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameActiveTalentGroupFrame : Frame
 PlayerTalentFrameActiveTalentGroupFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L275)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameBackgroundTopLeft : Texture
 PlayerTalentFrameBackgroundTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L284)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameBackgroundTopRight : Texture
 PlayerTalentFrameBackgroundTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L292)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameBackgroundBottomLeft : Texture
 PlayerTalentFrameBackgroundBottomLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L300)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameBackgroundBottomRight : Texture
 PlayerTalentFrameBackgroundBottomRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L310)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameScrollFrameBackgroundTop : Texture
 PlayerTalentFrameScrollFrameBackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L306)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L317)
 --- child of PlayerTalentFrameScrollFrame
 --- @class PlayerTalentFrameScrollFrameBackgroundBottom : Texture
 PlayerTalentFrameScrollFrameBackgroundBottom = {}
@@ -2648,13 +2655,13 @@ PlayerTalentFrameScrollFrameScrollBar["ScrollUpButton"] = PlayerTalentFrameScrol
 PlayerTalentFrameScrollFrameScrollBar["ScrollDownButton"] = PlayerTalentFrameScrollFrameScrollBarScrollDownButton -- inherited
 PlayerTalentFrameScrollFrameScrollBar["ThumbTexture"] = PlayerTalentFrameScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L267)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameScrollFrame : ScrollFrame, UIPanelScrollFrameTemplate
 PlayerTalentFrameScrollFrame = {}
 PlayerTalentFrameScrollFrame["ScrollBar"] = PlayerTalentFrameScrollFrameScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L446)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L457)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameScrollButtonOverlay : Frame
 PlayerTalentFrameScrollButtonOverlay = {}
@@ -2694,7 +2701,7 @@ PlayerTalentFrameTab1Right = {}
 --- @type Texture
 PlayerTalentFrameTab1HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L457)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L468)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTab1 : Button, PlayerTalentTabTemplate
 PlayerTalentFrameTab1 = {}
@@ -2734,7 +2741,7 @@ PlayerTalentFrameTab2Right = {}
 --- @type Texture
 PlayerTalentFrameTab2HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L462)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L473)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTab2 : Button, PlayerTalentTabTemplate
 PlayerTalentFrameTab2 = {}
@@ -2774,7 +2781,7 @@ PlayerTalentFrameTab3Right = {}
 --- @type Texture
 PlayerTalentFrameTab3HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L467)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L478)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTab3 : Button, PlayerTalentTabTemplate
 PlayerTalentFrameTab3 = {}
@@ -2814,7 +2821,7 @@ PlayerTalentFrameTab4Right = {}
 --- @type Texture
 PlayerTalentFrameTab4HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L472)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L483)
 --- child of PlayerTalentFrame
 --- @class PlayerTalentFrameTab4 : Button, PlayerGlyphTabTemplate
 PlayerTalentFrameTab4 = {}
@@ -2824,7 +2831,7 @@ PlayerTalentFrameTab4 = {}
 --- @type Texture
 PlayerSpecTab1Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L477)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L488)
 --- child of PlayerTalentFrame
 --- @class PlayerSpecTab1 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab1 = {}
@@ -2834,7 +2841,7 @@ PlayerSpecTab1 = {}
 --- @type Texture
 PlayerSpecTab2Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L487)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L498)
 --- child of PlayerTalentFrame
 --- @class PlayerSpecTab2 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab2 = {}
@@ -2844,7 +2851,7 @@ PlayerSpecTab2 = {}
 --- @type Texture
 PlayerSpecTab3Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L497)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TalentUI/Classic/Blizzard_TalentUI.xml#L508)
 --- child of PlayerTalentFrame
 --- @class PlayerSpecTab3 : CheckButton, PlayerSpecTabTemplate
 PlayerSpecTab3 = {}

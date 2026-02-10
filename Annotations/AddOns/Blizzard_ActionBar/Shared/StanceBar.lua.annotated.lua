@@ -4,7 +4,7 @@
 --- @class StanceBarMixin
 StanceBarMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L107)
 --- @class StanceButtonMixin
 StanceButtonMixin = {}
 
@@ -24,28 +24,31 @@ function StanceBarMixin:ShouldShow() end
 function StanceBarMixin:Update() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L46)
-function StanceBarMixin:SetBackgroundArtShown(shown) end
+function StanceBarMixin:ShouldShowBackgroundArt() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L50)
-function StanceBarMixin:UpdateBackgroundArt() end
+function StanceBarMixin:SetBackgroundArtShown(shown) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L54)
+function StanceBarMixin:UpdateBackgroundArt() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L58)
 function StanceBarMixin:UpdateState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L102)
 function StanceBarMixin:Select(id) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L109)
 function StanceButtonMixin:StanceButtonMixin_OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L116)
 function StanceButtonMixin:StanceButtonMixin_OnClick(button, down) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L125)
 function StanceButtonMixin:StanceButtonMixin_OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L138)
 function StanceButtonMixin:StanceButtonMixin_OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L142)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Shared/StanceBar.lua#L146)
 function StanceButtonMixin:HasAction() end

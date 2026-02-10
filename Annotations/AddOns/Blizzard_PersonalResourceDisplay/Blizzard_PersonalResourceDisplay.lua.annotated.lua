@@ -55,5 +55,5 @@ function PersonalResourceDisplayMixin:SetupAlternatePowerBar() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.lua#L561)
 function PersonalResourceDisplayMixin:SetupClassBar() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.lua#L587)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.lua#L588)
 function PersonalResourceDisplayMixin:UpdateAdditionalBarAnchors() end

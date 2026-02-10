@@ -1,18 +1,18 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L241)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L242)
 --- @class RewardTrackButtonMixin
 RewardTrackButtonMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L275)
 --- @class RewardTrackJumpButtonMixin
 RewardTrackJumpButtonMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L310)
 --- @class RewardTrackSkipLevelUpButtonMixin
 RewardTrackSkipLevelUpButtonMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L321)
 --- @class RenownLevelMixin
 RenownLevelMixin = { }
 
@@ -40,92 +40,92 @@ function RewardTrackFrameMixin:OnHide() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L38)
 function RewardTrackFrameMixin:Init(elementList, paragonInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L97)
 function RewardTrackFrameMixin:GetElements() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L101)
 function RewardTrackFrameMixin:OnUpdate(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L135)
 function RewardTrackFrameMixin:SetSelection(index, forceRefresh, skipSound, overrideStopSound) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L155)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L156)
 function RewardTrackFrameMixin:RefreshView(forceRefresh) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L174)
 function RewardTrackFrameMixin:GetCenterIndex() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L178)
 function RewardTrackFrameMixin:GetDesiredAlphaForIndex(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L189)
 function RewardTrackFrameMixin:GetAbsoluteOffsetForIndex(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L192)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L193)
 function RewardTrackFrameMixin:GetMaxOffset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L197)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L198)
 function RewardTrackFrameMixin:GetClosestIndexToCenter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L203)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L204)
 function RewardTrackFrameMixin:GetDistanceFromCenterForIndex(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L208)
 function RewardTrackFrameMixin:StartScroll(direction) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L213)
 function RewardTrackFrameMixin:StopScroll(direction) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L235)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L236)
 function RewardTrackFrameMixin:RequestStop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L244)
 function RewardTrackButtonMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L252)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L253)
 function RewardTrackButtonMixin:OnMouseDown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L263)
 function RewardTrackButtonMixin:OnMouseUp() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L270)
 function RewardTrackButtonMixin:OnDisable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L277)
 function RewardTrackJumpButtonMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L286)
 function RewardTrackJumpButtonMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L311)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L312)
 function RewardTrackSkipLevelUpButtonMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L323)
 function RenownLevelMixin:SetInfo(info) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L327)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L328)
 function RenownLevelMixin:GetLevel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L331)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L332)
 function RenownLevelMixin:TryInit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L365)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L366)
 function RenownLevelMixin:Refresh(actualLevel, displayLevel, selected) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L413)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L422)
 function RenownLevelMixin:SetIcon() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L418)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L430)
 function RenownLevelMixin:SetRewardName() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L423)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L435)
 function RenownLevelMixin:ApplyAlpha(alpha) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L427)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L442)
 function RenownLevelMixin:OnMouseUp() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L433)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L448)
 function RenownLevelMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L439)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/RewardTrackTemplates.lua#L454)
 function RenownLevelMixin:RefreshTooltip() end

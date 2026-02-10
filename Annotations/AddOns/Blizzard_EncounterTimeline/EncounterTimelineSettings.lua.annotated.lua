@@ -1,125 +1,223 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L1)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L122)
+--- @class EncounterTimelineViewSettingsMixin : EncounterTimelineSettingsMixin
+EncounterTimelineViewSettingsMixin = CreateFromMixins(EncounterTimelineSettingsMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L186)
+--- @class EncounterTimelineTrackViewSettingsMixin : EncounterTimelineTrackSettingsMixin
+EncounterTimelineTrackViewSettingsMixin = CreateFromMixins(EncounterTimelineTrackSettingsMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L312)
+--- @class EncounterTimelineTimerViewSettingsMixin : EncounterTimelineTimerSettingsMixin
+EncounterTimelineTimerViewSettingsMixin = CreateFromMixins(EncounterTimelineTimerSettingsMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L3)
 --- @class EncounterTimelineSettingsMixin
 EncounterTimelineSettingsMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L147)
+--- @class EncounterTimelineTrackSettingsMixin
+EncounterTimelineTrackSettingsMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L257)
+--- @class EncounterTimelineTimerSettingsMixin
+EncounterTimelineTimerSettingsMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L5)
 function EncounterTimelineSettingsMixin:OnLoad() end
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L15)
+function EncounterTimelineSettingsMixin:OnFlipHorizontallyChanged(_flipHorizontally) end
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L19)
-function EncounterTimelineSettingsMixin:OnCrossAxisExtentChanged(_crossAxisExtent) end
+function EncounterTimelineSettingsMixin:OnHighlightTimeChanged(_highlightTime) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L23)
-function EncounterTimelineSettingsMixin:OnCrossAxisOffsetChanged(_crossAxisOffset) end
+function EncounterTimelineSettingsMixin:OnIconScaleChanged(_iconScale) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L27)
-function EncounterTimelineSettingsMixin:OnEventCountdownEnabledChanged(_countdownEnabled) end
+function EncounterTimelineSettingsMixin:OnIndicatorIconMaskChanged(_indicatorIconMask) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L31)
-function EncounterTimelineSettingsMixin:OnEventIconScaleChanged(_iconScale) end
+function EncounterTimelineSettingsMixin:OnShowCountdownChanged(_showCountdown) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L35)
-function EncounterTimelineSettingsMixin:OnEventTextEnabledChanged(_textEnabled) end
+function EncounterTimelineSettingsMixin:OnShowTextChanged(_showText) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L39)
-function EncounterTimelineSettingsMixin:OnEventTooltipsEnabledChanged(_tooltipsEnabled) end
+function EncounterTimelineSettingsMixin:OnTooltipAnchorChanged(_tooltipAnchor) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L43)
-function EncounterTimelineSettingsMixin:OnEventIndicatorIconMaskChanged(_iconMask) end
+function EncounterTimelineSettingsMixin:GetHighlightTime() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L47)
-function EncounterTimelineSettingsMixin:OnViewBackgroundAlphaChanged(_backgroundAlpha) end
+function EncounterTimelineSettingsMixin:GetIconScale() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L51)
-function EncounterTimelineSettingsMixin:OnViewOrientationChanged(_viewOrientation) end
+function EncounterTimelineSettingsMixin:GetIndicatorIconMask() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L55)
-function EncounterTimelineSettingsMixin:OnPipDurationChanged(_pipDuration) end
+function EncounterTimelineSettingsMixin:GetTooltipAnchor() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L59)
-function EncounterTimelineSettingsMixin:OnPipIconShownChanged(_pipIconShown) end
+function EncounterTimelineSettingsMixin:ShouldShowCountdown() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L63)
-function EncounterTimelineSettingsMixin:OnPipTextAnchorChanged(_pipTextAnchor) end
+function EncounterTimelineSettingsMixin:ShouldFlipHorizontally() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L67)
-function EncounterTimelineSettingsMixin:OnPipTextShownChanged(_pipTextShown) end
+function EncounterTimelineSettingsMixin:ShouldShowText() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L71)
-function EncounterTimelineSettingsMixin:GetCrossAxisExtent() end
+function EncounterTimelineSettingsMixin:SetFlipHorizontally(flipHorizontally) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L75)
-function EncounterTimelineSettingsMixin:GetCrossAxisOffset() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L78)
+function EncounterTimelineSettingsMixin:SetHighlightTime(highlightTime) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L79)
-function EncounterTimelineSettingsMixin:GetEventCountdownEnabled() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L85)
+function EncounterTimelineSettingsMixin:SetIconScale(iconScale) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L83)
-function EncounterTimelineSettingsMixin:GetEventIconScale() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L87)
-function EncounterTimelineSettingsMixin:GetEventTextEnabled() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L91)
-function EncounterTimelineSettingsMixin:GetEventTooltipsEnabled() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L95)
-function EncounterTimelineSettingsMixin:GetEventIndicatorIconMask() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L92)
+function EncounterTimelineSettingsMixin:SetIndicatorIconMask(indicatorIconMask) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L99)
-function EncounterTimelineSettingsMixin:GetViewBackgroundAlpha() end
+function EncounterTimelineSettingsMixin:SetShowCountdown(showCountdown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L103)
-function EncounterTimelineSettingsMixin:GetViewOrientation() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L106)
+function EncounterTimelineSettingsMixin:SetShowText(showText) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L107)
-function EncounterTimelineSettingsMixin:GetPipDuration() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L113)
+function EncounterTimelineSettingsMixin:SetTooltipAnchor(tooltipAnchor) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L111)
-function EncounterTimelineSettingsMixin:GetPipIconShown() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L124)
+function EncounterTimelineViewSettingsMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L115)
-function EncounterTimelineSettingsMixin:GetPipTextAnchor() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L130)
+function EncounterTimelineViewSettingsMixin:OnBackgroundAlphaChanged(_backgroundAlpha) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L119)
-function EncounterTimelineSettingsMixin:GetPipTextShown() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L134)
+function EncounterTimelineViewSettingsMixin:GetBackgroundAlpha() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L123)
-function EncounterTimelineSettingsMixin:SetCrossAxisExtent(extent) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L138)
+function EncounterTimelineViewSettingsMixin:SetBackgroundAlpha(backgroundAlpha) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L132)
-function EncounterTimelineSettingsMixin:SetCrossAxisOffset(offset) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L149)
+function EncounterTimelineTrackSettingsMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L141)
-function EncounterTimelineSettingsMixin:SetEventCountdownEnabled(countdownEnabled) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L154)
+function EncounterTimelineTrackSettingsMixin:OnCrossAxisOffsetChanged(_crossAxisOffset) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L150)
-function EncounterTimelineSettingsMixin:SetEventIconScale(iconScale) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L158)
+function EncounterTimelineTrackSettingsMixin:OnTrackOrientationChanged(_trackOrientation) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L160)
-function EncounterTimelineSettingsMixin:SetEventTextEnabled(textEnabled) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L162)
+function EncounterTimelineTrackSettingsMixin:GetCrossAxisOffset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L169)
-function EncounterTimelineSettingsMixin:SetEventTooltipsEnabled(tooltipsEnabled) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L166)
+function EncounterTimelineTrackSettingsMixin:GetTrackOrientation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L178)
-function EncounterTimelineSettingsMixin:SetEventIndicatorIconMask(iconMask) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L170)
+function EncounterTimelineTrackSettingsMixin:SetCrossAxisOffset(offset) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L187)
-function EncounterTimelineSettingsMixin:SetViewBackgroundAlpha(backgroundAlpha) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L177)
+function EncounterTimelineTrackSettingsMixin:SetTrackOrientation(orientation) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L188)
+function EncounterTimelineTrackViewSettingsMixin:OnLoad() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L197)
-function EncounterTimelineSettingsMixin:SetViewOrientation(orientation) end
+function EncounterTimelineTrackViewSettingsMixin:OnCrossAxisExtentChanged(_crossAxisExtent) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L201)
+function EncounterTimelineTrackViewSettingsMixin:OnPipTextAnchorChanged(_pipTextAnchor) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L205)
-function EncounterTimelineSettingsMixin:SetPipDuration(pipDuration) end
+function EncounterTimelineTrackViewSettingsMixin:OnShowPipIconChanged(_showPipIcon) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L214)
-function EncounterTimelineSettingsMixin:SetPipIconShown(pipIconShown) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L209)
+function EncounterTimelineTrackViewSettingsMixin:OnShowPipTextChanged(_showPipText) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L223)
-function EncounterTimelineSettingsMixin:SetPipTextAnchor(pipTextAnchor) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L213)
+function EncounterTimelineTrackViewSettingsMixin:GetCrossAxisExtent() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L234)
-function EncounterTimelineSettingsMixin:SetPipTextShown(pipTextShown) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L217)
+function EncounterTimelineTrackViewSettingsMixin:GetPipTextAnchor() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L221)
+function EncounterTimelineTrackViewSettingsMixin:ShouldShowPipIcon() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L225)
+function EncounterTimelineTrackViewSettingsMixin:ShouldShowPipText() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L229)
+function EncounterTimelineTrackViewSettingsMixin:SetCrossAxisExtent(extent) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L236)
+function EncounterTimelineTrackViewSettingsMixin:SetPipTextAnchor(pipTextAnchor) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L241)
+function EncounterTimelineTrackViewSettingsMixin:SetShowPipIcon(showPipIcon) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L248)
+function EncounterTimelineTrackViewSettingsMixin:SetShowPipText(showPipText) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L259)
+function EncounterTimelineTimerSettingsMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L265)
+function EncounterTimelineTimerSettingsMixin:OnShowIconChanged(_showIcon) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L269)
+function EncounterTimelineTimerSettingsMixin:OnShowTimerSparkChanged(_showTimerSpark) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L273)
+function EncounterTimelineTimerSettingsMixin:OnTimerFillDirectionChanged(_timerFillDirection) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L277)
+function EncounterTimelineTimerSettingsMixin:GetTimerFillDirection() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L281)
+function EncounterTimelineTimerSettingsMixin:ShouldShowIcon() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L285)
+function EncounterTimelineTimerSettingsMixin:ShouldShowTimerSpark() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L289)
+function EncounterTimelineTimerSettingsMixin:SetShowIcon(showIcon) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L296)
+function EncounterTimelineTimerSettingsMixin:SetShowTimerSpark(showTimerSpark) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L303)
+function EncounterTimelineTimerSettingsMixin:SetTimerFillDirection(timerFillDirection) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L314)
+function EncounterTimelineTimerViewSettingsMixin:OnLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L322)
+function EncounterTimelineTimerViewSettingsMixin:OnTimerLayoutDirectionChanged(_timerLayoutDirection) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L326)
+function EncounterTimelineTimerViewSettingsMixin:OnTimerSpacingChanged(_timerSpacing) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L330)
+function EncounterTimelineTimerViewSettingsMixin:OnTimerWidthScaleChanged(_timerWidthScale) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L334)
+function EncounterTimelineTimerViewSettingsMixin:GetTimerLayoutDirection() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L338)
+function EncounterTimelineTimerViewSettingsMixin:GetTimerSpacing() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L342)
+function EncounterTimelineTimerViewSettingsMixin:GetTimerWidthScale() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L346)
+function EncounterTimelineTimerViewSettingsMixin:SetTimerLayoutDirection(timerLayoutDirection) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L353)
+function EncounterTimelineTimerViewSettingsMixin:SetTimerSpacing(timerSpacing) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_EncounterTimeline/EncounterTimelineSettings.lua#L360)
+function EncounterTimelineTimerViewSettingsMixin:SetTimerWidthScale(timerWidthScale) end

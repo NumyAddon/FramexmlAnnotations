@@ -40,5 +40,5 @@ function CooldownViewerSettingsEditAlertMixin:UpdateAddButton(isNewAlert) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L80)
 function CooldownViewerSettingsEditAlertMixin:AddCurrentAlert() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsAlerts.lua#L109)
 function CooldownViewerSettingsEditAlertMixin:SetupDropdowns() end

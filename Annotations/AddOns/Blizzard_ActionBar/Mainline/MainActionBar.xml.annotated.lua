@@ -20,28 +20,28 @@
 --- @field layoutType string # ThreeSliceHorizontalLayout
 --- @field layoutTextureKit string # ui-hud-actionbar-frame-divider
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L91)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L92)
 --- child of MainActionBar
 --- @class MainActionBar_EndCaps : Frame
 --- @field ignoreInLayout boolean # true
 --- @field LeftEndCap Texture
 --- @field RightEndCap Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L132)
 --- child of MainActionBar_ActionBarPageNumber
 --- @class MainActionBar_ActionBarPageNumber_UpButton : Button, QuickKeybindButtonTemplate, MainActionBarUpButtonMixin
 --- @field commandName string # NEXTACTIONPAGE
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L149)
 --- child of MainActionBar_ActionBarPageNumber
 --- @class MainActionBar_ActionBarPageNumber_DownButton : Button, QuickKeybindButtonTemplate, MainActionBarDownButtonMixin
 --- @field commandName string # PREVIOUSACTIONPAGE
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L123)
 --- child of MainActionBar_ActionBarPageNumber
 --- @class MainActionBar_ActionBarPageNumber_Text : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L114)
 --- child of MainActionBar
 --- @class MainActionBar_ActionBarPageNumber : Frame, ResizeLayoutFrame
 --- @field ignoreInLayout boolean # true
@@ -49,20 +49,7 @@
 --- @field DownButton MainActionBar_ActionBarPageNumber_DownButton
 --- @field Text MainActionBar_ActionBarPageNumber_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L168)
---- child of MainActionBar
---- @class MainMenuBarVehicleLeaveButton : Button, EditModeVehicleLeaveButtonSystemTemplate, MainMenuBarVehicleLeaveButtonMixin
---- @field ignoreInLayout boolean # true
---- @field skipAutomaticPositioning any # ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
---- @field Highlight Texture
-MainMenuBarVehicleLeaveButton = {}
-MainMenuBarVehicleLeaveButton["ignoreInLayout"] = true
-MainMenuBarVehicleLeaveButton["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
-MainMenuBarVehicleLeaveButton["system"] = Enum.EditModeSystem.VehicleLeaveButton -- inherited
-MainMenuBarVehicleLeaveButton["systemNameString"] = HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL -- inherited
-MainMenuBarVehicleLeaveButton["defaultHideSelection"] = true -- inherited
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ActionBar/Mainline/MainActionBar.xml#L53)
 --- child of MainActionBar
 --- @class MainActionBar_BorderArt : Texture
 --- @field ignoreInLayout boolean # true
@@ -81,16 +68,15 @@ MainMenuBarVehicleLeaveButton["defaultHideSelection"] = true -- inherited
 --- @field skipAutomaticPositioning any # ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
 --- @field isNormalBar boolean # true
 --- @field enableDividers boolean # true
+--- @field dynamicEndCaps boolean # true
 --- @field EndCaps MainActionBar_EndCaps
 --- @field ActionBarPageNumber MainActionBar_ActionBarPageNumber
---- @field VehicleLeaveButton MainMenuBarVehicleLeaveButton
 --- @field BorderArt MainActionBar_BorderArt
 --- @field QuickKeybindBottomShadow Texture
 --- @field QuickKeybindRightShadow Texture
 --- @field QuickKeybindGlowLarge Texture
 --- @field QuickKeybindGlowSmall Texture
 MainActionBar = {}
-MainActionBar["VehicleLeaveButton"] = MainMenuBarVehicleLeaveButton
 MainActionBar["buttonTemplate"] = "MainBarActionBarButtonTemplate"
 MainActionBar["commandNamePrefix"] = "ACTION"
 MainActionBar["isHorizontal"] = true
@@ -103,6 +89,7 @@ MainActionBar["systemIndex"] = Enum.EditModeActionBarSystemIndices.MainBar
 MainActionBar["skipAutomaticPositioning"] = ACTION_BARS_SKIP_AUTOMATIC_POSITIONING
 MainActionBar["isNormalBar"] = true
 MainActionBar["enableDividers"] = true
+MainActionBar["dynamicEndCaps"] = true
 MainActionBar["system"] = Enum.EditModeSystem.ActionBar -- inherited
 MainActionBar["systemNameString"] = HUD_EDIT_MODE_ACTION_BAR_LABEL -- inherited
 MainActionBar["addSystemIndexToName"] = true -- inherited

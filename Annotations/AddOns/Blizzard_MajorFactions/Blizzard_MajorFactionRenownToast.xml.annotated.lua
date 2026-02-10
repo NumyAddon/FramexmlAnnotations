@@ -11,8 +11,11 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.xml#L73)
 --- child of MajorFactionsRenownToast
 --- @class MajorFactionsRenownToast_ShowAnim : AnimationGroup
---- @field HoldAlpha Alpha
---- @field FadeAlpha Alpha
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.xml#L98)
+--- child of MajorFactionsRenownToast
+--- @class MajorFactionsRenownToast_waitAndAnimOut : AnimationGroup
+--- @field animOut Alpha
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_MajorFactions/Blizzard_MajorFactionRenownToast.xml#L3)
 --- @class MajorFactionsRenownToast : Frame, MajorFactionCelebrationBannerTemplate, MajorFactionsRenownToastMixin
@@ -23,5 +26,6 @@
 --- @field RewardDescription MajorFactionsRenownToast_RewardDescription
 --- @field RewardIconRing Texture
 --- @field ShowAnim MajorFactionsRenownToast_ShowAnim
+--- @field waitAndAnimOut MajorFactionsRenownToast_waitAndAnimOut
 MajorFactionsRenownToast = {}
 

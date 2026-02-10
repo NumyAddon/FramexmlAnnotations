@@ -20,48 +20,48 @@
 --- @field CurrentAmountContainer ClassTalentCurrencyDisplayTemplate_CurrentAmountContainer
 --- @field CurrencyLabel ClassTalentCurrencyDisplayTemplate_CurrencyLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L207)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_HeroTalentsContainer : Frame, HeroTalentsContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L213)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_ClassCurrencyDisplay : Frame, ClassTalentCurrencyDisplayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L218)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L219)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_SpecCurrencyDisplay : Frame, ClassTalentCurrencyDisplayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L224)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L225)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_LoadSystem : Frame, DropdownLoadSystemTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L231)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L232)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_SearchBox : EditBox, SpellSearchBoxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L239)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L240)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_SearchPreviewContainer : Frame, SpellSearchPreviewContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L252)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L253)
 --- child of ClassTalentsFrameTemplate_ApplyButton
 --- @class ClassTalentsFrameTemplate_ApplyButton_YellowGlow : Frame
 --- @field Left Texture
 --- @field Right Texture
 --- @field Middle Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L247)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_ApplyButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
 --- @field YellowGlow ClassTalentsFrameTemplate_ApplyButton_YellowGlow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L283)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_InspectCopyButton : Button, UIPanelButtonNoTooltipTemplate, UIButtonTemplate
 --- @field fitTextWidthPadding number # 80
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L293)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_ResetButton : DropdownButton, IconButtonTemplate
 --- @field menuPoint string # BOTTOMLEFT
@@ -72,7 +72,7 @@
 --- @field useAtlasSize boolean # true
 --- @field useIconAsHighlight boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L311)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_UndoButton : Button, IconButtonTemplate
 --- @field iconAtlas string # talents-button-undo
@@ -81,19 +81,19 @@
 --- @field tooltipText any # TALENT_FRAME_DISCARD_CHANGES_BUTTON_TOOLTIP
 --- @field tooltipTextColor any # HIGHLIGHT_FONT_COLOR
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L324)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L325)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_WarmodeButton : Button, WarmodeButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L330)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L331)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_PvPTalentSlotTray : Frame, PvPTalentSlotTrayTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L338)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_PvPTalentList : Frame, PvPTalentListTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L340)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentsFrame.xml#L341)
 --- child of ClassTalentsFrameTemplate
 --- @class ClassTalentsFrameTemplate_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
@@ -109,7 +109,7 @@
 --- @field bottomPadding number # 82
 --- @field rightPadding number # 0
 --- @field basePanOffsetX number # 49
---- @field basePanOffsetY number # 21
+--- @field basePanOffsetY number # 24
 --- @field maximumCommitTime number # 6
 --- @field disabledOverlayAlpha number # .3
 --- @field enableCommitEndFlash boolean # true
@@ -117,6 +117,7 @@
 --- @field enableCommitSpinner boolean # true
 --- @field commitSound any # SOUNDKIT.UI_CLASS_TALENT_APPLY_CHANGES
 --- @field heroSpecSelectionDialog any # HeroTalentsSelectionDialog
+--- @field refreshOnShow boolean # true
 --- @field HeroTalentsContainer ClassTalentsFrameTemplate_HeroTalentsContainer
 --- @field ClassCurrencyDisplay ClassTalentsFrameTemplate_ClassCurrencyDisplay
 --- @field SpecCurrencyDisplay ClassTalentsFrameTemplate_SpecCurrencyDisplay

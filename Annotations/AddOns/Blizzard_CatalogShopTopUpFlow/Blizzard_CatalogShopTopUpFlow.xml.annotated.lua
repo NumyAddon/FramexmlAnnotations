@@ -12,12 +12,17 @@
 --- child of CatalogShopTopUpFrame_TopUpProductContainerFrame
 --- @class CatalogShopTopUpFrame_TopUpProductContainerFrame_ScrollBox : Frame, WowScrollBoxList
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopTopUpFlow/Blizzard_CatalogShopTopUpFlow.xml#L73)
+--- child of CatalogShopTopUpFrame_TopUpProductContainerFrame
+--- @class CatalogShopTopUpFrame_TopUpProductContainerFrame_HousingWarningText : FontString, Game16Font
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopTopUpFlow/Blizzard_CatalogShopTopUpFlow.xml#L58)
 --- child of CatalogShopTopUpFrame
 --- @class CatalogShopTopUpFrame_TopUpProductContainerFrame : Frame, TopUpProductContainerFrameMixin
 --- @field ScrollBox CatalogShopTopUpFrame_TopUpProductContainerFrame_ScrollBox
+--- @field HousingWarningText CatalogShopTopUpFrame_TopUpProductContainerFrame_HousingWarningText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopTopUpFlow/Blizzard_CatalogShopTopUpFlow.xml#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopTopUpFlow/Blizzard_CatalogShopTopUpFlow.xml#L82)
 --- child of CatalogShopTopUpFrame
 --- @class CatalogShopTopUpFrame_CoverFrame : Frame
 --- @field ignoreInLayout boolean # true

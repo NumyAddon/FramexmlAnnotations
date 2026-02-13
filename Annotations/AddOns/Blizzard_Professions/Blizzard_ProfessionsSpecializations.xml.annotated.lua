@@ -142,20 +142,21 @@
 --- @class ProfessionsSpecPageTemplate_TreePreview_PathIcon : Frame
 --- @field Ring Texture
 --- @field Icon Texture
+--- @field CircleMask MaskTexture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L438)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L447)
 --- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_Highlight1 : Frame, ProfessionSpecHighlightTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L452)
 --- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_Highlight2 : Frame, ProfessionSpecHighlightTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L448)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L457)
 --- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_Highlight3 : Frame, ProfessionSpecHighlightTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L453)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L462)
 --- child of ProfessionsSpecPageTemplate_TreePreview
 --- @class ProfessionsSpecPageTemplate_TreePreview_Highlight4 : Frame, ProfessionSpecHighlightTemplate
 
@@ -186,7 +187,7 @@
 --- @field HighlightsHeader ProfessionsSpecPageTemplate_TreePreview_HighlightsHeader
 --- @field Highlights table<number, ProfessionsSpecPageTemplate_TreePreview_Highlight1 | ProfessionsSpecPageTemplate_TreePreview_Highlight2 | ProfessionsSpecPageTemplate_TreePreview_Highlight3 | ProfessionsSpecPageTemplate_TreePreview_Highlight4>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L461)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Professions/Blizzard_ProfessionsSpecializations.xml#L470)
 --- child of ProfessionsSpecPageTemplate
 --- @class ProfessionsSpecPageTemplate_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 

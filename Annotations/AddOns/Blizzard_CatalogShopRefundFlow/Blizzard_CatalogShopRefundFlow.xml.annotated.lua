@@ -80,11 +80,11 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.xml#L143)
 --- child of CatalogShopRefundFrame
---- @class CatalogShopRefundFrame_ProcessingContainer : Frame
+--- @class CatalogShopRefundFrame_ProcessingContainer : Frame, CatalogShopRefundFlowProcessingContainerMixin
 --- @field CoverFrame CatalogShopRefundFrame_ProcessingContainer_CoverFrame
 --- @field Spinner CatalogShopRefundFrame_ProcessingContainer_Spinner
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CatalogShopRefundFlow/Blizzard_CatalogShopRefundFlow.xml#L178)
 --- child of CatalogShopRefundFrame
 --- @class CatalogShopRefundFrame_CoverFrame : Frame
 --- @field ignoreInLayout boolean # true

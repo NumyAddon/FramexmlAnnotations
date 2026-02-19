@@ -113,5 +113,5 @@ function HousingMarketCartDataManagerMixin:OnUpdateItemInfo(itemID) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartTemplates.lua#L717)
 function HousingMarketCartDataManagerMixin:PlaceInWorld(placeItemData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartTemplates.lua#L730)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_HousingMarketCart/Blizzard_HousingMarketCartTemplates.lua#L739)
 function HousingMarketCartDataManagerMixin:SetPlaceInWorldCallback(placeInWorldCallback) end

@@ -4,11 +4,11 @@
 --- @class HousingPhotoSharingMixin
 HousingPhotoSharingMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L91)
 --- @class HousingPhotoSharingSubmitButtonMixin
 HousingPhotoSharingSubmitButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L104)
 --- @class HousingPhotoSharingCancelButtonMixin
 HousingPhotoSharingCancelButtonMixin = {}
 
@@ -30,8 +30,8 @@ function HousingPhotoSharingMixin:OnHide(noSound) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L58)
 function HousingPhotoSharingMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L93)
 function HousingPhotoSharingSubmitButtonMixin:OnClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingPhotoSharing/Blizzard_HousingPhotoSharing.lua#L106)
 function HousingPhotoSharingCancelButtonMixin:OnClick() end

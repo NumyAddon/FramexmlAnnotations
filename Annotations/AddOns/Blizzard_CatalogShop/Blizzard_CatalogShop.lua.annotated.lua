@@ -4,11 +4,11 @@
 --- @class CatalogShopMixin
 CatalogShopMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L790)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L792)
 --- @class CatalogShopProductDetailsFrameMixin
 CatalogShopProductDetailsFrameMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L879)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L881)
 --- @class BackgroundContainerMixin
 BackgroundContainerMixin = {}
 
@@ -147,50 +147,50 @@ function CatalogShopMixin:OnCategorySelected(categoryID) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L613)
 function CatalogShopMixin:ToggleProductDetails(showDetails, productInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L627)
 function CatalogShopMixin:FormatTimeLeft(secondsRemaining, formatter) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L631)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L633)
 function CatalogShopMixin:GetProductInfo(productID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L708)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L710)
 function CatalogShopMixin:GetSelectedProductInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L712)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L714)
 function CatalogShopMixin:GetCurrencyInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L736)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L738)
 function CatalogShopMixin:ShowPurchaseSent() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L747)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L749)
 function CatalogShopMixin:HidePurchaseSent() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L752)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L754)
 function CatalogShopMixin:HasFreeBagSlots() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L763)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L765)
 function CatalogShopMixin:OnSearchTextChanged(editBox, userInput) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L783)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L785)
 function CatalogShopMixin:ClearSearchBox() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L791)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L793)
 function CatalogShopProductDetailsFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L799)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L801)
 function CatalogShopProductDetailsFrameMixin:SetDetailsFrameProductInfo(productInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L804)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L806)
 function CatalogShopProductDetailsFrameMixin:GetDetailsFrameProductInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L808)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L810)
 function CatalogShopProductDetailsFrameMixin:UpdateState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L866)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L868)
 function CatalogShopProductDetailsFrameMixin:OnProductInfoChanged(productInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L880)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L882)
 function BackgroundContainerMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L901)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.lua#L903)
 function BackgroundContainerMixin:SetBackgroundTexture(backgroundAtlas) end

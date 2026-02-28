@@ -1,212 +1,215 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L67)
 --- @class DamageMeterMixin
 DamageMeterMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L69)
 function DamageMeterMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L85)
 function DamageMeterMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L91)
+function DamageMeterMixin:GetDefaultWindowData() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L98)
 function DamageMeterMixin:InitializeWindowDataList() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L116)
 function DamageMeterMixin:OnVariablesLoaded() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L120)
 function DamageMeterMixin:OnEnabledCVarChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L124)
 function DamageMeterMixin:GetWindowDataList() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L128)
 function DamageMeterMixin:SetIsEditing(isEditing) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L140)
 function DamageMeterMixin:IsEditing() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L144)
 function DamageMeterMixin:IsPlayerInCombat() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L149)
 function DamageMeterMixin:ShouldBeShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L178)
 function DamageMeterMixin:UpdateShownState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L184)
 function DamageMeterMixin:UpdateSessionTimerState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L188)
 function DamageMeterMixin:RefreshLayout() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L184)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L192)
 function DamageMeterMixin:GetSessionWindow(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L196)
 function DamageMeterMixin:EnumerateSessionWindows() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L204)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L212)
 function DamageMeterMixin:ForEachSessionWindow(func, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L210)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L218)
 function DamageMeterMixin:GetPrimarySessionWindow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L222)
 function DamageMeterMixin:GetMaxSessionWindowCount() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L218)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L226)
 function DamageMeterMixin:GetCurrentSessionWindowCount() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L230)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L238)
 function DamageMeterMixin:CanShowNewSessionWindow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L242)
 function DamageMeterMixin:GetAvailableSessionWindowIndex() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L253)
 function DamageMeterMixin:SetupSessionWindow(windowData, windowIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L312)
 function DamageMeterMixin:LoadSavedWindowDataList() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L334)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L342)
 function DamageMeterMixin:GetSessionWindowData(sessionWindow) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L341)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L349)
 function DamageMeterMixin:ShowNewSessionWindow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L367)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L371)
 function DamageMeterMixin:CanHideSessionWindow(sessionWindow) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L379)
 function DamageMeterMixin:CanMoveOrResizeSessionWindow(sessionWindow) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L384)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L388)
 function DamageMeterMixin:HideSessionWindow(sessionWindow) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L400)
 function DamageMeterMixin:HideAllSessionWindows() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L401)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L405)
 function DamageMeterMixin:SetSessionWindowDamageMeterType(sessionWindow, damageMeterType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L411)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L415)
 function DamageMeterMixin:GetSessionWindowDamageMeterType(sessionWindow) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L416)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L420)
 function DamageMeterMixin:SetSessionWindowSessionID(sessionWindow, sessionType, sessionID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L427)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L431)
 function DamageMeterMixin:GetSessionType() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L431)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L435)
 function DamageMeterMixin:GetSessionID() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L439)
 function DamageMeterMixin:SetSessionWindowLocked(sessionWindow, locked) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L445)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L449)
 function DamageMeterMixin:SetSessionWindowNonInteractive(sessionWindow, nonInteractive) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L455)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L459)
 function DamageMeterMixin:OnUseClassColorChanged(useClassColor) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L459)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L463)
 function DamageMeterMixin:ShouldUseClassColor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L463)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L467)
 function DamageMeterMixin:SetUseClassColor(useClassColor) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L470)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L474)
 function DamageMeterMixin:OnBarHeightChanged(barHeight) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L474)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L478)
 function DamageMeterMixin:GetBarHeight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L478)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L482)
 function DamageMeterMixin:SetBarHeight(barHeight) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L485)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L489)
 function DamageMeterMixin:OnTextScaleChanged(textScale) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L489)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L493)
 function DamageMeterMixin:GetTextScale() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L493)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L497)
 function DamageMeterMixin:SetTextScale(textScale) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L500)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L504)
 function DamageMeterMixin:GetTextSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L504)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L508)
 function DamageMeterMixin:SetTextSize(textSize) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L508)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L512)
 function DamageMeterMixin:OnWindowAlphaChanged(alpha) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L512)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L516)
 function DamageMeterMixin:GetWindowAlpha() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L516)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L520)
 function DamageMeterMixin:SetWindowAlpha(alpha) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L523)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L527)
 function DamageMeterMixin:GetWindowTransparency() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L527)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L531)
 function DamageMeterMixin:SetWindowTransparency(transparency) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L531)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L535)
 function DamageMeterMixin:OnShowBarIconsChanged(showBarIcons) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L535)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L539)
 function DamageMeterMixin:ShouldShowBarIcons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L539)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L543)
 function DamageMeterMixin:SetShowBarIcons(showBarIcons) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L546)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L550)
 function DamageMeterMixin:OnBarSpacingChanged(spacing) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L550)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L554)
 function DamageMeterMixin:GetBarSpacing() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L554)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L558)
 function DamageMeterMixin:SetBarSpacing(spacing) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L561)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L565)
 function DamageMeterMixin:OnStyleChanged(style) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L565)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L569)
 function DamageMeterMixin:GetStyle() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L569)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L573)
 function DamageMeterMixin:SetStyle(style) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L576)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L580)
 function DamageMeterMixin:OnNumberDisplayTypeChanged(numberDisplayType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L580)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L584)
 function DamageMeterMixin:GetNumberDisplayType() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L584)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L588)
 function DamageMeterMixin:SetNumberDisplayType(numberDisplayType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L591)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L595)
 function DamageMeterMixin:OnBackgroundAlphaChanged(alpha) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L595)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L599)
 function DamageMeterMixin:GetBackgroundAlpha() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L599)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L603)
 function DamageMeterMixin:SetBackgroundAlpha(alpha) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L606)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L610)
 function DamageMeterMixin:GetBackgroundTransparency() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L610)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_DamageMeter/DamageMeter.lua#L614)
 function DamageMeterMixin:SetBackgroundTransparency(transparency) end

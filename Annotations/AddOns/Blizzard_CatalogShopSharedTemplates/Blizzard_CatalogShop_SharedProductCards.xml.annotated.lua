@@ -49,7 +49,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L139)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
---- @class DefaultCatalogShopCardTemplate_ForegroundContainer_ConsumableQuantityText : FontString, Game22Font
+--- @class DefaultCatalogShopCardTemplate_ForegroundContainer_QuantityInBundleText : FontString, GameFontNormalLarge
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L150)
 --- child of DefaultCatalogShopCardTemplate_ForegroundContainer
@@ -72,8 +72,8 @@
 --- @field RectIcon Texture
 --- @field CircleIcon Texture
 --- @field PurchasedIcon Texture
---- @field ConsumableQuantityBackground Texture
---- @field ConsumableQuantityText DefaultCatalogShopCardTemplate_ForegroundContainer_ConsumableQuantityText
+--- @field QuantityInBundleBackground Texture
+--- @field QuantityInBundleText DefaultCatalogShopCardTemplate_ForegroundContainer_QuantityInBundleText
 --- @field DiscountSaleTag Texture
 --- @field DiscountAmount DefaultCatalogShopCardTemplate_ForegroundContainer_DiscountAmount
 --- @field Strikethrough Texture

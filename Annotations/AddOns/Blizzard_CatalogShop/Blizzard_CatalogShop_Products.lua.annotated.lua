@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L378)
 --- @class ProductContainerFrameMixin : CatalogShopProductContainerFrameMixin
 ProductContainerFrameMixin = CreateFromMixins(CatalogShopProductContainerFrameMixin)
 
@@ -26,59 +26,59 @@ function CatalogShopProductContainerFrameMixin:AllDataRefresh(resetSelection) en
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L85)
 function CatalogShopProductContainerFrameMixin:UpdateSpecificProduct(productID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L126)
 function CatalogShopProductContainerFrameMixin:UpdateProducts(resetSelection) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L169)
 function CatalogShopProductContainerFrameMixin:TrySelectProduct(productInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L176)
 function CatalogShopProductContainerFrameMixin:TrySelectProductByID(productID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L191)
 function CatalogShopProductContainerFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L204)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L206)
 function CatalogShopProductContainerFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L209)
 function CatalogShopProductContainerFrameMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L210)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L212)
 function CatalogShopProductContainerFrameMixin:OnModelSceneFailure(displayInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L228)
 function CatalogShopProductContainerFrameMixin:OnProductSelected(productInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L334)
 function CatalogShopProductContainerFrameMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L337)
 function CatalogShopProductContainerFrameMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L339)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L341)
 function CatalogShopProductContainerFrameMixin:OnUpdate(deltaTime) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L356)
 function CatalogShopProductContainerFrameMixin:SelectFirstProduct() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L359)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L361)
 function CatalogShopProductContainerFrameMixin:SelectFirstProductSilent() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L365)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L367)
 function CatalogShopProductContainerFrameMixin:SetSelectedProductInfo(productInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L371)
 function CatalogShopProductContainerFrameMixin:GetSelectedProductInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L377)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L379)
 function ProductContainerFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L382)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L384)
 function ProductContainerFrameMixin:Init() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L389)
 function ProductContainerFrameMixin:InitProductContainer() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Products.lua#L551)
 function ProductContainerFrameMixin:OnCategorySelected(categoryID) end

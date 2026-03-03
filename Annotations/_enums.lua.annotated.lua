@@ -14,6 +14,13 @@ local SettingsLayoutMixin_LayoutType = {
     ["Canvas"] = 2,
 }
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L45)
+--- @enum IconDataProviderIconType
+local IconDataProviderIconType = {
+    ["Spell"] = 1,
+    ["Item"] = 2,
+}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L40)
 --- @enum MinimalSliderWithSteppersMixin.Label
 local MinimalSliderWithSteppersMixin_Label = {
@@ -37,13 +44,6 @@ local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
     ["Spell"] = 2,
     ["Item"] = 3,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L45)
---- @enum IconDataProviderIconType
-local IconDataProviderIconType = {
-    ["Spell"] = 1,
-    ["Item"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.lua#L3)

@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L651)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L667)
 --- @class SettingsCallbackHandleContainerMixin : CallbackHandleContainerMixin
 SettingsCallbackHandleContainerMixin = CreateFromMixins(CallbackHandleContainerMixin)
 
@@ -52,8 +52,8 @@ function SettingsControlTextContainerMixin:AddCheckbox(value, label, tooltip) en
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L301)
 function SettingsSliderOptionsMixin:SetLabelFormatter(labelType, value) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L653)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L669)
 function SettingsCallbackHandleContainerMixin:Init() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L657)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L673)
 function SettingsCallbackHandleContainerMixin:SetOnValueChangedCallback(variable, callback, owner, ...) end

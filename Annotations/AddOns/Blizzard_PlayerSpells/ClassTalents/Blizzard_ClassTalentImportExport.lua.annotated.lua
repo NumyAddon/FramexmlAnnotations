@@ -37,5 +37,11 @@ function ClassTalentImportExportMixin:WriteLoadoutHeader(exportStream, serializa
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentImportExport.lua#L298)
 function ClassTalentImportExportMixin:ReadLoadoutHeader(importStream) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentImportExport.lua#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentImportExport.lua#L315)
+function ClassTalentImportExportMixin:CreateImportLoadoutEntryInfoFromSingleNode(results, configID, treeNodeInfo, indexInfo) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentImportExport.lua#L354)
+function ClassTalentImportExportMixin:CreateImportLoadoutEntryInfoFromTieredNode(results, configID, treeNodeInfo, indexInfo) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/ClassTalents/Blizzard_ClassTalentImportExport.lua#L395)
 function ClassTalentImportExportMixin:ConvertToImportLoadoutEntryInfo(configID, treeID, loadoutContent) end

@@ -40,11 +40,11 @@ function HouseEditorCustomizeModeMixin:ShowDecorInstanceTooltip(decorInstanceInf
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L174)
 function HouseEditorCustomizeModeMixin:ShowHouseTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L181)
 function HouseEditorCustomizeModeMixin:ShowRoomComponentTooltip(componentInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L195)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L205)
 function HouseEditorCustomizeModeMixin:ShowSelectedRoomComponentInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L211)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.lua#L221)
 function HouseEditorCustomizeModeMixin:HideSelectedRoomComponentInfo() end

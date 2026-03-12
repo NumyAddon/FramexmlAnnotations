@@ -37,9 +37,10 @@
 --- @field iconDefault string # decor-controls-settings-default
 --- @field iconActive string # decor-controls-settings-active
 --- @field iconPressed string # decor-controls-settings-pressed
+--- @field enabledTooltip any # HOUSING_CONTROLS_SETTINGS_TOOLTIP
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L57)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L58)
 --- Template
 --- @class HousingExitButtonTemplate : Button, HousingControlActionButtonTemplate, HouseExitButtonMixin
 --- @field iconDefault string # decor-controls-exit-default
@@ -48,21 +49,21 @@
 --- @field enabledTooltip any # HOUSING_CONTROLS_EXIT_BUTTON
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L71)
 --- Template
 --- @class HouseInfoButtonTemplate : Button, HousingControlModeButtonTemplate, HouseInfoButtonMixin
 --- @field iconDefault string # decor-controls-houseinfo-default
 --- @field iconActive string # decor-controls-houseinfo-active
 --- @field iconPressed string # decor-controls-houseinfo-pressed
+--- @field enabledTooltip any # HOUSING_DASHBOARD_HOUSEINFO_TOOLTIP
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L84)
 --- Template
---- @class HouseInspectorButtonTemplate : Button, HousingControlModeButtonTemplate
+--- @class HouseInspectorButtonTemplate : Button, HousingControlModeButtonTemplate, HouseInspectorButtonMixin
 --- @field iconDefault string # decor-controls-inspect-default
 --- @field iconActive string # decor-controls-inspect-active
 --- @field iconPressed string # decor-controls-inspect-pressed
---- @field notYetImplemented boolean # true
---- @field nyiLabel any # HOUSING_CONTROLS_COMING_SOON
+--- @field enabledTooltip any # HOUSING_CONTROLS_INSPECT_TOOLTIP
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 

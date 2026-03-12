@@ -21,15 +21,15 @@ NamePlateDriverFrame = {}
 --- @field Bottom Texture
 --- @field Textures table<number, Texture>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L137)
 --- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar_Text : FontString, SystemFont_NamePlate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L142)
 --- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar_RightText : FontString, SystemFont_NamePlate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L147)
 --- child of BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar_LeftText : FontString, SystemFont_NamePlate
 
@@ -57,19 +57,19 @@ NamePlateDriverFrame = {}
 --- @class BaseNamePlateUnitFrameTemplate_HealthBarsContainer : Frame
 --- @field healthBar BaseNamePlateUnitFrameTemplate_HealthBarsContainer_healthBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L209)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L200)
 --- child of BaseNamePlateUnitFrameTemplate_castBar
 --- @class BaseNamePlateUnitFrameTemplate_castBar_Text : FontString, SystemFont_NamePlateCastBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L205)
 --- child of BaseNamePlateUnitFrameTemplate_castBar
 --- @class BaseNamePlateUnitFrameTemplate_castBar_CastTargetNameText : FontString, SystemFont_NamePlateCastBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L234)
 --- child of BaseNamePlateUnitFrameTemplate_castBar
 --- @class BaseNamePlateUnitFrameTemplate_castBar_ImportantCastFlashAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L172)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_castBar : StatusBar, CastingBarFrameAnimsTemplate, NamePlateCastingBarMixin
 --- @field HideIconWhenNotInterruptible boolean # true
@@ -84,48 +84,48 @@ NamePlateDriverFrame = {}
 --- @field Flash Texture
 --- @field ImportantCastFlashAnim BaseNamePlateUnitFrameTemplate_castBar_ImportantCastFlashAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L250)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L241)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_WidgetContainer : Frame, UIWidgetContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L247)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_RaidTargetFrame : Frame, NamePlateRaidTargetMixin
 --- @field RaidTargetIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L257)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_ClassificationFrame : Frame, NamePlateClassificationFrameMixin
 --- @field classificationIndicator Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L280)
 --- child of BaseNamePlateUnitFrameTemplate_AurasFrame
 --- @class BaseNamePlateUnitFrameTemplate_AurasFrame_DebuffListFrame : Frame, NamePlateAuraListTemplate
 --- @field maxAuraItemsDisplayed number # 12
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L289)
 --- child of BaseNamePlateUnitFrameTemplate_AurasFrame
 --- @class BaseNamePlateUnitFrameTemplate_AurasFrame_BuffListFrame : Frame, NamePlateAuraListTemplate
 --- @field layoutFramesGoingRight boolean # false
 --- @field maxAuraItemsDisplayed number # 2
 --- @field needsFixedHeight boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L299)
 --- child of BaseNamePlateUnitFrameTemplate_AurasFrame
 --- @class BaseNamePlateUnitFrameTemplate_AurasFrame_CrowdControlListFrame : Frame, NamePlateAuraListTemplate
 --- @field maxAuraItemsDisplayed number # 2
 --- @field needsFixedHeight boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L325)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L314)
 --- child of BaseNamePlateUnitFrameTemplate_AurasFrame_LossOfControlFrame
 --- @class BaseNamePlateUnitFrameTemplate_AurasFrame_LossOfControlFrame_AuraItemFrame : Frame, NameplateAuraItemTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L308)
 --- child of BaseNamePlateUnitFrameTemplate_AurasFrame
 --- @class BaseNamePlateUnitFrameTemplate_AurasFrame_LossOfControlFrame : Frame
 --- @field AuraItemFrame BaseNamePlateUnitFrameTemplate_AurasFrame_LossOfControlFrame_AuraItemFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L278)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_AurasFrame : Frame, NamePlateAurasMixin
 --- @field DebuffListFrame BaseNamePlateUnitFrameTemplate_AurasFrame_DebuffListFrame
@@ -133,42 +133,42 @@ NamePlateDriverFrame = {}
 --- @field CrowdControlListFrame BaseNamePlateUnitFrameTemplate_AurasFrame_CrowdControlListFrame
 --- @field LossOfControlFrame BaseNamePlateUnitFrameTemplate_AurasFrame_LossOfControlFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L339)
 --- child of BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame
 --- @class BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame_playerLevelDiffText : FontString, GameFontWhiteTiny2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L324)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame : Frame
 --- @field playerLevelDiffIcon Texture
 --- @field playerLevelDiffText BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame_playerLevelDiffText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L359)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L348)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_SoftTargetFrame : Frame
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L376)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_name : FontString, SystemFont_NamePlate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L433)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L422)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_LoseAggroAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L437)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L426)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_AggroHighlightFadeInAnim : AnimationGroup
 --- @field aggroHighlightBaseAlpha Alpha
 --- @field aggroHighlightAdditiveAlpha Alpha
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L441)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L430)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_AggroHighlightFadeOutAnim : AnimationGroup
 --- @field aggroHighlightBaseAlpha Alpha
 --- @field aggroHighlightAdditiveAlpha Alpha
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L445)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L434)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_AggroHighlightScrollAnim : AnimationGroup
 
@@ -200,11 +200,11 @@ NamePlateDriverFrame = {}
 --- @field AggroHighlightFadeOutAnim BaseNamePlateUnitFrameTemplate_AggroHighlightFadeOutAnim
 --- @field AggroHighlightScrollAnim BaseNamePlateUnitFrameTemplate_AggroHighlightScrollAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L456)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L445)
 --- Template
 --- @class NamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L457)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L446)
 --- Template
 --- @class ForbiddenNamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
 

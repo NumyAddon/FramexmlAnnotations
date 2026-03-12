@@ -10,26 +10,26 @@ function GameMenuFrameMixin:OnLoad() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L18)
 function GameMenuFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L34)
 function GameMenuFrameMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L46)
 function GameMenuFrameMixin:OnEvent() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L50)
 function GameMenuFrameMixin:OnStoreFrameClosed(contextKey) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L56)
 function GameMenuFrameMixin:OnUIPanelHidden(contextKey) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L62)
 function GameMenuFrameMixin:InitButtons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L162)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L164)
 function GameMenuFrameMixin:SetRatingsButtonShown(shown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L168)
 function GameMenuFrameMixin:GetRatingsButtonShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GameMenu/Shared/GameMenuFrame.lua#L172)
 function GameMenuFrameMixin:GetLogoutText() end

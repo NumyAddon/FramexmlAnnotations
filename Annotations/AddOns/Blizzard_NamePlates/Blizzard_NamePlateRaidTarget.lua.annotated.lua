@@ -10,5 +10,5 @@ function NamePlateRaidTargetMixin:SetRaidTargetIndex(raidTargetIndex) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateRaidTarget.lua#L19)
 function NamePlateRaidTargetMixin:ShouldBeShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateRaidTarget.lua#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateRaidTarget.lua#L36)
 function NamePlateRaidTargetMixin:UpdateShownState() end

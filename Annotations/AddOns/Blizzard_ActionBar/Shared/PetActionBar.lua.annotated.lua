@@ -4,7 +4,7 @@
 --- @class PetActionBarMixin
 PetActionBarMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L227)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L236)
 --- @class PetActionButtonMixin
 PetActionButtonMixin = {}
 
@@ -45,46 +45,49 @@ function PetActionBarMixin:LockPetActionBar() end
 function PetActionBarMixin:UnlockPetActionBar() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L219)
+function PetActionBarMixin:ShouldShowBackgroundArt() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L228)
 function PetActionBarMixin:SetBackgroundArtShown(shown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L238)
 function PetActionButtonMixin:PetActionButtonMixin_OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L249)
 function PetActionButtonMixin:PetActionButtonMixin_OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L256)
 function PetActionButtonMixin:PetActionButtonMixin_PreClick() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L251)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L260)
 function PetActionButtonMixin:PetActionButtonMixin_OnClick(button, down) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L277)
 function PetActionButtonMixin:PetActionButtonMixin_OnDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L287)
 function PetActionButtonMixin:PetActionButtonMixin_OnReceiveDrag() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L296)
 function PetActionButtonMixin:PetActionButtonMixin_OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L328)
 function PetActionButtonMixin:PetActionButtonMixin_OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L326)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L335)
 function PetActionButtonMixin:PetActionButtonMixin_OnUpdate(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L359)
 function PetActionButtonMixin:SetHotkeys() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L371)
 function PetActionButtonMixin:StartFlash() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L367)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L376)
 function PetActionButtonMixin:StopFlash() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L372)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L381)
 function PetActionButtonMixin:IsFlashing() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L385)
 function PetActionButtonMixin:HasAction() end

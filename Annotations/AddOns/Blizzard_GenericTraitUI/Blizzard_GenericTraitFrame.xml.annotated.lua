@@ -1,41 +1,41 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L40)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L46)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_NineSlice : Frame, NineSlicePanelTemplate
 --- @field layoutType string # UniqueCornersLayout
 --- @field layoutTextureKit string # none
 --- @field DetailTop Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L73)
 --- child of GenericTraitFrame_Header
 --- @class GenericTraitFrame_Header_Title : FontString, Fancy24Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L65)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L66)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_Header : Frame
 --- @field Title GenericTraitFrame_Header_Title
 --- @field TitleDivider Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L91)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L92)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_Inset : Frame, InsetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L116)
 --- child of GenericTraitFrame_Currency
 --- @class GenericTraitFrame_Currency_UnspentPointsCount : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L98)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_Currency : Button, GenericTraitFrameCurrencyFrameMixin
 --- @field CurrencyBackground Texture
 --- @field UnspentPointsCount GenericTraitFrame_Currency_UnspentPointsCount
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GenericTraitUI/Blizzard_GenericTraitFrame.xml#L126)
 --- child of GenericTraitFrame
 --- @class GenericTraitFrame_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
@@ -51,6 +51,7 @@
 --- @field disabledOverlayAlpha number # 0
 --- @field defaultSelectSound any # SOUNDKIT.UI_CLASS_TALENT_LEARN_TALENT
 --- @field defaultDeselectSound any # SOUNDKIT.UI_CLASS_TALENT_NODE_REFUND
+--- @field refreshOnShow boolean # true
 --- @field CloseButton GenericTraitFrame_CloseButton
 --- @field NineSlice GenericTraitFrame_NineSlice
 --- @field Header GenericTraitFrame_Header
@@ -70,6 +71,7 @@ GenericTraitFrame["basePanOffsetY"] = 0
 GenericTraitFrame["disabledOverlayAlpha"] = 0
 GenericTraitFrame["defaultSelectSound"] = SOUNDKIT.UI_CLASS_TALENT_LEARN_TALENT
 GenericTraitFrame["defaultDeselectSound"] = SOUNDKIT.UI_CLASS_TALENT_NODE_REFUND
+GenericTraitFrame["refreshOnShow"] = true
 GenericTraitFrame["getTemplateType"] = TalentButtonUtil.GetTemplateForTalentType -- inherited
 GenericTraitFrame["getSpecializedMixin"] = TalentButtonUtil.GetSpecializedMixin -- inherited
 GenericTraitFrame["getSpecializedChoiceMixin"] = TalentButtonUtil.GetSpecializedChoiceMixin -- inherited

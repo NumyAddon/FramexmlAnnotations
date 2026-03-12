@@ -36,29 +36,29 @@
 --- Template
 --- @class HouseExteriorCoreFixtureDropdownTemplate : Frame, HouseExteriorOptionDropdownTemplate, HouseExteriorCoreFixtureDropdownMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L110)
 --- child of HouseExteriorFixtureOptionListTemplate
 --- @class HouseExteriorFixtureOptionListTemplate_InputBlocker : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L119)
 --- child of HouseExteriorFixtureOptionListTemplate
 --- @class HouseExteriorFixtureOptionListTemplate_CloseButton : Button, UIPanelCloseButtonNoScripts
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L124)
 --- child of HouseExteriorFixtureOptionListTemplate
 --- @class HouseExteriorFixtureOptionListTemplate_ScrollBox : Frame, WowScrollBoxList
 --- @field wheelPanScalar number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L134)
 --- child of HouseExteriorFixtureOptionListTemplate
 --- @class HouseExteriorFixtureOptionListTemplate_ScrollBar : EventFrame, MinimalScrollBar
 --- @field hideIfUnscrollable boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L94)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L100)
 --- child of HouseExteriorFixtureOptionListTemplate
 --- @class HouseExteriorFixtureOptionListTemplate_HeaderText : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L73)
 --- Template
 --- @class HouseExteriorFixtureOptionListTemplate : Frame, HouseExteriorFixtureOptionListMixin
 --- @field horizontalSpacing number # 5
@@ -74,4 +74,15 @@
 --- @field Background Texture
 --- @field Header Texture
 --- @field HeaderText HouseExteriorFixtureOptionListTemplate_HeaderText
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L155)
+--- child of HouseExteriorCheckboxOptionTemplate
+--- @class HouseExteriorCheckboxOptionTemplate_Button : CheckButton
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorOptionTemplates.xml#L150)
+--- Template
+--- @class HouseExteriorCheckboxOptionTemplate : Frame, ResizeLayoutFrame, HouseExteriorCheckboxOptionMixin
+--- @field align string # left
+--- @field Button HouseExteriorCheckboxOptionTemplate_Button
+--- @field Label FontString
 

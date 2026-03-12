@@ -682,11 +682,39 @@ ItemUpgradeFrameItemHoverPreviewFrame["TextRight2"] = ItemUpgradeFrameItemHoverP
 --- @field Glow Texture
 --- @field GlowAnim ItemUpgradeFrame_UpgradeButton_GlowAnim
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L105)
+--- child of ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_CopperButton
+ItemUpgradeFrameCopperButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L124)
+--- child of ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SilverButton
+ItemUpgradeFrameSilverButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L143)
+--- child of ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_GoldButton
+ItemUpgradeFrameGoldButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L85)
+--- child of ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+ItemUpgradeFrameTrialErrorButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L407)
+--- child of ItemUpgradeFrame_UpgradeCostFrame
+--- @class ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame : Frame, SmallMoneyFrameTemplate
+--- @field leftPadding number # 20
+--- @field topPadding number # 2
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L388)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_UpgradeCostFrame : Frame, CurrencyHorizontalLayoutFrameTemplate
 --- @field quantityFontObject string # ItemUpgradeCostQuantityTemplate
 --- @field iconFrameObject string # ItemUpgradeCostIconTemplate
+--- @field expand boolean # false
+--- @field MoneyCostFrame ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame
 --- @field BGTex Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1354)
@@ -704,22 +732,49 @@ ItemUpgradeFramePlayerCurrenciesBorderRight = {}
 --- @type Texture
 ItemUpgradeFramePlayerCurrenciesBorderMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L407)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L422)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFramePlayerCurrenciesBorder : Frame, ThinGoldEdgeTemplate
 ItemUpgradeFramePlayerCurrenciesBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L414)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L105)
+--- child of ItemUpgradeFrame_PlayerCurrencies_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_CopperButton
+ItemUpgradeFrameCopperButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L124)
+--- child of ItemUpgradeFrame_PlayerCurrencies_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_SilverButton
+ItemUpgradeFrameSilverButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L143)
+--- child of ItemUpgradeFrame_PlayerCurrencies_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
+--- @type SmallMoneyFrameTemplate_GoldButton
+ItemUpgradeFrameGoldButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L85)
+--- child of ItemUpgradeFrame_PlayerCurrencies_MoneyCostFrame (created in template SmallMoneyFrameTemplate)
+--- @type Texture
+ItemUpgradeFrameTrialErrorButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L439)
+--- child of ItemUpgradeFrame_PlayerCurrencies
+--- @class ItemUpgradeFrame_PlayerCurrencies_MoneyCostFrame : Frame, SmallMoneyFrameTemplate
+--- @field leftPadding number # 20
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L429)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_PlayerCurrencies : Frame, CurrencyHorizontalLayoutFrameTemplate
 --- @field fixedHeight number # 12
+--- @field expand boolean # false
 --- @field iconFrameObject string # ItemUpgradeCostIconTemplate
+--- @field MoneyCostFrame ItemUpgradeFrame_PlayerCurrencies_MoneyCostFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L426)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L455)
 --- child of ItemUpgradeFrame_AnimationHolder
 --- @class ItemUpgradeFrame_AnimationHolder_UpgradedFlash : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L424)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L453)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_AnimationHolder : Frame
 --- @field UpgradedFlash ItemUpgradeFrame_AnimationHolder_UpgradedFlash
@@ -740,11 +795,11 @@ ItemUpgradeFramePlayerCurrenciesBorder = {}
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_RightPreviewBigText : FontString, ItemUpgradePreviewBigTextTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L439)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L468)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_MicaFleckSheenSlide : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L471)
 --- child of ItemUpgradeFrame
 --- @class ItemUpgradeFrame_IdleGlowSlide : AnimationGroup
 

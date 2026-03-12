@@ -82,7 +82,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationRoomTemplates.xml#L104)
 --- child of HousingRoomComponentPaneTemplate
---- @class HousingRoomComponentPaneTemplate_WallWarning : FontString, GameFontDisableSmall
+--- @class HousingRoomComponentPaneTemplate_Warning : FontString, GameFontDisableSmall
 --- @field topPadding number # 10
 --- @field bottomPadding number # -10
 --- @field layoutIndex number # 10
@@ -107,6 +107,6 @@
 --- @field Background HousingRoomComponentPaneTemplate_Background
 --- @field Header HousingRoomComponentPaneTemplate_Header
 --- @field HeaderLabel HousingRoomComponentPaneTemplate_HeaderLabel
---- @field WallWarning HousingRoomComponentPaneTemplate_WallWarning
+--- @field Warning HousingRoomComponentPaneTemplate_Warning
 --- @field dropdowns table<number, HousingRoomComponentPaneTemplate_ThemeDropdown | HousingRoomComponentPaneTemplate_WallpaperDropdown | HousingRoomComponentPaneTemplate_CeilingTypeDropdown | HousingRoomComponentPaneTemplate_DoorTypeDropdown>
 

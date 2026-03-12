@@ -142,9 +142,9 @@
 --- @class HouseEditorModesBarTemplate_ExteriorCustomizationModeButton : Button, HouseEditorModeButtonTemplate
 --- @field layoutIndex number # 7
 --- @field editorMode any # Enum.HouseEditorMode.ExteriorCustomization
---- @field iconDefault string # decor-ability-layoutmode-default
---- @field iconActive string # decor-ability-layoutmode-active
---- @field iconPressed string # decor-ability-layoutmode-pressed
+--- @field iconDefault string # decor-ability-exterior-default
+--- @field iconActive string # decor-ability-exterior-active
+--- @field iconPressed string # decor-ability-exterior-pressed
 --- @field modeName any # HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_NAME
 --- @field keybindName string # HOUSING_TOGGLEEXTERIORCUSTOMIZEMODE
 --- @field enabledTooltip any # HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON

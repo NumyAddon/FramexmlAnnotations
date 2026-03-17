@@ -16,11 +16,11 @@ function HousingCatalogBundleDisplayMixin:OnLeave() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogBundleDisplay.lua#L50)
 function HousingCatalogBundleDisplayMixin:OnClick(button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogBundleDisplay.lua#L62)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogBundleDisplay.lua#L64)
 function HousingCatalogBundleDisplayMixin:Init(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogBundleDisplay.lua#L73)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogBundleDisplay.lua#L75)
 function HousingCatalogBundleDisplayMixin:IsBundleInCart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogBundleDisplay.lua#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogBundleDisplay.lua#L80)
 function HousingCatalogBundleDisplayMixin:ShowContextMenu() end

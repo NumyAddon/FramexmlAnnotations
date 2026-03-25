@@ -90,7 +90,7 @@ local Professions_ProfessionType = {
     ["Gathering"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L1549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L1551)
 --- @enum ProfessionsSortOrder
 local ProfessionsSortOrder = {
     ["Name"] = 1,

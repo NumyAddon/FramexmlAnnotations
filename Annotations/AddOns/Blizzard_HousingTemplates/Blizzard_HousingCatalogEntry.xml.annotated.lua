@@ -10,10 +10,6 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.xml#L85)
 --- child of BaseHousingCatalogEntryTemplate
---- @class BaseHousingCatalogEntryTemplate_DyeDisplay : Frame, HousingCatalogDyeDisplayTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.xml#L91)
---- child of BaseHousingCatalogEntryTemplate
 --- @class BaseHousingCatalogEntryTemplate_ModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.xml#L70)
@@ -26,7 +22,6 @@
 --- @field backgroundDefault string # house-chest-list-Item-default
 --- @field backgroundActive string # house-chest-list-Item-active
 --- @field backgroundPressed string # house-chest-list-Item-pressed
---- @field DyeDisplay BaseHousingCatalogEntryTemplate_DyeDisplay
 --- @field ModelScene BaseHousingCatalogEntryTemplate_ModelScene
 --- @field Background Texture
 --- @field HoverBackground Texture
@@ -35,11 +30,18 @@
 --- @field InfoText BaseHousingCatalogEntryTemplate_InfoText
 --- @field InfoIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.xml#L107)
+--- child of HousingCatalogDecorEntryTemplate
+--- @class HousingCatalogDecorEntryTemplate_DyeDisplay : Frame, HousingCatalogDyeDisplayTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.xml#L105)
 --- Template
 --- @class HousingCatalogDecorEntryTemplate : Button, BaseHousingCatalogEntryTemplate, HousingCatalogDecorEntryMixin
+--- @field DyeDisplay HousingCatalogDecorEntryTemplate_DyeDisplay
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.xml#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogEntry.xml#L114)
 --- Template
 --- @class HousingCatalogRoomEntryTemplate : Button, BaseHousingCatalogEntryTemplate, HousingCatalogRoomEntryMixin
+--- @field SpecialRoomFrame Texture
+--- @field SpecialRoomIcon Texture
 

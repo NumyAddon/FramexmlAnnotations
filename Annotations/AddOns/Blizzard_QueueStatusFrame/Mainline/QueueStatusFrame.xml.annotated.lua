@@ -26,6 +26,7 @@
 --- child of QueueStatusEntryTemplate
 --- @class QueueStatusEntryTemplate_AssignedSpec : Frame
 --- @field Icon Texture
+--- @field CircleMask MaskTexture
 --- @field Border Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L20)
@@ -70,11 +71,11 @@
 --- @field ExtraText QueueStatusEntryTemplate_ExtraText
 --- @field EntrySeparator Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L169)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L178)
 --- child of EyeTemplate_EyeInitial
 --- @class EyeTemplate_EyeInitial_EyeInitialAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L146)
 --- child of EyeTemplate
 --- @class EyeTemplate_EyeInitial : Frame
 --- @field GlowFront Texture
@@ -83,31 +84,31 @@
 --- @field EyeInitialTexture Texture
 --- @field EyeInitialAnim EyeTemplate_EyeInitial_EyeInitialAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L197)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L206)
 --- child of EyeTemplate_EyeSearchingLoop
 --- @class EyeTemplate_EyeSearchingLoop_EyeSearchingLoopAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L184)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L193)
 --- child of EyeTemplate
 --- @class EyeTemplate_EyeSearchingLoop : Frame
 --- @field EyeSearchingTexture Texture
 --- @field EyeSearchingLoopAnim EyeTemplate_EyeSearchingLoop_EyeSearchingLoopAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L215)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L224)
 --- child of EyeTemplate_EyeMouseOver
 --- @class EyeTemplate_EyeMouseOver_EyeMouseOverAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L202)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L211)
 --- child of EyeTemplate
 --- @class EyeTemplate_EyeMouseOver : Frame
 --- @field EyeMouseOverTexture Texture
 --- @field EyeMouseOverAnim EyeTemplate_EyeMouseOver_EyeMouseOverAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L262)
 --- child of EyeTemplate_EyeFoundInitial
 --- @class EyeTemplate_EyeFoundInitial_EyeFoundInitialAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L229)
 --- child of EyeTemplate
 --- @class EyeTemplate_EyeFoundInitial : Frame
 --- @field SpriteShards Texture
@@ -116,57 +117,57 @@
 --- @field EyeFoundInitialTexture Texture
 --- @field EyeFoundInitialAnim EyeTemplate_EyeFoundInitial_EyeFoundInitialAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L283)
 --- child of EyeTemplate_EyeFoundLoop
 --- @class EyeTemplate_EyeFoundLoop_EyeFoundLoopAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L261)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L270)
 --- child of EyeTemplate
 --- @class EyeTemplate_EyeFoundLoop : Frame
 --- @field EyeFoundLoopTexture Texture
 --- @field EyeFoundLoopAnim EyeTemplate_EyeFoundLoop_EyeFoundLoopAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L300)
 --- child of EyeTemplate_GlowBackLoop
 --- @class EyeTemplate_GlowBackLoop_GlowBackLoopAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L288)
 --- child of EyeTemplate
 --- @class EyeTemplate_GlowBackLoop : Frame
 --- @field GlowBack Texture
 --- @field GlowBackLoopAnim EyeTemplate_GlowBackLoop_GlowBackLoopAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L318)
 --- child of EyeTemplate_EyePokeInitial
 --- @class EyeTemplate_EyePokeInitial_EyePokeInitialAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L305)
 --- child of EyeTemplate
 --- @class EyeTemplate_EyePokeInitial : Frame
 --- @field EyePokeInitialTexture Texture
 --- @field EyePokeInitialAnim EyeTemplate_EyePokeInitial_EyePokeInitialAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L327)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L336)
 --- child of EyeTemplate_EyePokeLoop
 --- @class EyeTemplate_EyePokeLoop_EyePokeLoopAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L323)
 --- child of EyeTemplate
 --- @class EyeTemplate_EyePokeLoop : Frame
 --- @field EyePokeLoopTexture Texture
 --- @field EyePokeLoopAnim EyeTemplate_EyePokeLoop_EyePokeLoopAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L345)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L354)
 --- child of EyeTemplate_EyePokeEnd
 --- @class EyeTemplate_EyePokeEnd_EyePokeEndAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L341)
 --- child of EyeTemplate
 --- @class EyeTemplate_EyePokeEnd : Frame
 --- @field EyePokeEndTexture Texture
 --- @field EyePokeEndAnim EyeTemplate_EyePokeEnd_EyePokeEndAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L133)
 --- Template
 --- @class EyeTemplate : Frame, EyeTemplateMixin
 --- @field EyeInitial EyeTemplate_EyeInitial
@@ -180,16 +181,16 @@
 --- @field EyePokeEnd EyeTemplate_EyePokeEnd
 --- @field texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L384)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L393)
 --- child of QueueStatusButton
 --- @class QueueStatusButtonIcon : Frame, EyeTemplate
 QueueStatusButtonIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L371)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L380)
 --- child of QueueStatusButton
 --- @class QueueStatusButton_EyeHighlightAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L355)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L364)
 --- @class QueueStatusButton : Button, QueueStatusButtonMixin
 --- @field Eye QueueStatusButtonIcon
 --- @field Highlight Texture
@@ -197,7 +198,7 @@ QueueStatusButtonIcon = {}
 QueueStatusButton = {}
 QueueStatusButton["Eye"] = QueueStatusButtonIcon
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L401)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QueueStatusFrame/Mainline/QueueStatusFrame.xml#L410)
 --- @class QueueStatusFrame : Frame, TooltipBackdropTemplate, QueueStatusFrameMixin
 QueueStatusFrame = {}
 QueueStatusFrame["layoutType"] = "TooltipDefaultLayout" -- inherited

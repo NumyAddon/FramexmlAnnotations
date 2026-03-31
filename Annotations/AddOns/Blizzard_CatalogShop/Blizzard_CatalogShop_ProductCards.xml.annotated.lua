@@ -56,69 +56,77 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L94)
 --- Template
---- @class SmallCatalogShopAccessCardTemplate : Button, SmallCatalogShopProductCardTemplate, SmallCatalogShopAccessCardMixin
+--- @class SmallCatalogShopExteriorTypeCardTemplate : Button, SmallCatalogShopProductCardTemplate, SmallCatalogShopExteriorTypeCardMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L97)
 --- Template
---- @class DetailsCatalogShopProductCardTemplate : Button, SmallCatalogShopProductCardTemplate, DetailsCatalogShopProductCardMixin
+--- @class SmallCatalogShopAccessCardTemplate : Button, SmallCatalogShopProductCardTemplate, SmallCatalogShopAccessCardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L104)
 --- Template
---- @class DetailsCatalogShopServicesCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopServicesCardMixin
+--- @class DetailsCatalogShopProductCardTemplate : Button, SmallCatalogShopProductCardTemplate, DetailsCatalogShopProductCardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L107)
 --- Template
---- @class DetailsCatalogShopSubscriptionCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopSubscriptionCardMixin
+--- @class DetailsCatalogShopServicesCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopServicesCardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L110)
 --- Template
---- @class DetailsCatalogShopGameTimeCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopGameTimeCardMixin
+--- @class DetailsCatalogShopSubscriptionCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopSubscriptionCardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L113)
 --- Template
---- @class DetailsCatalogShopTenderCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopTenderCardMixin
+--- @class DetailsCatalogShopGameTimeCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopGameTimeCardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L116)
 --- Template
---- @class DetailsCatalogShopToysCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopToysCardMixin
+--- @class DetailsCatalogShopTenderCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopTenderCardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L119)
 --- Template
---- @class DetailsCatalogShopDecorCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopDecorCardMixin
+--- @class DetailsCatalogShopToysCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopToysCardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L122)
 --- Template
---- @class DetailsCatalogShopRoomCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopRoomCardMixin
+--- @class DetailsCatalogShopDecorCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopDecorCardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L125)
 --- Template
---- @class DetailsCatalogShopAccessCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopAccessCardMixin
+--- @class DetailsCatalogShopRoomCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopRoomCardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L128)
 --- Template
---- @class WideSubscriptionCatalogShopCardTemplate : Button, WideCatalogShopProductCardTemplate, WideSubscriptionCatalogShopCardMixin
+--- @class DetailsCatalogShopExteriorTypeCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopExteriorTypeCardMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L131)
 --- Template
+--- @class DetailsCatalogShopAccessCardTemplate : Button, DetailsCatalogShopProductCardTemplate, DetailsCatalogShopAccessCardMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L134)
+--- Template
+--- @class WideSubscriptionCatalogShopCardTemplate : Button, WideCatalogShopProductCardTemplate, WideSubscriptionCatalogShopCardMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L137)
+--- Template
 --- @class WideGameTimeCatalogShopCardTemplate : Button, WideCatalogShopProductCardTemplate, WideGameTimeCatalogShopCardMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L142)
 --- child of WideWoWTokenCatalogShopCardTemplate
 --- @class WideWoWTokenCatalogShopCardTemplate_AnimContainer : Frame, GlowPulseAnimContainerTemplate
 --- @field playLoopingSoundFX boolean # false
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L167)
 --- child of WideWoWTokenCatalogShopCardTemplate_WoWTokenFrame
 --- @class WideWoWTokenCatalogShopCardTemplate_WoWTokenFrame_CurrentMarketPrice : FontString, GameFontNormalMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L151)
 --- child of WideWoWTokenCatalogShopCardTemplate
 --- @class WideWoWTokenCatalogShopCardTemplate_WoWTokenFrame : Frame
 --- @field WoWTokenIcon Texture
 --- @field HeaderBackground Texture
 --- @field CurrentMarketPrice WideWoWTokenCatalogShopCardTemplate_WoWTokenFrame_CurrentMarketPrice
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_ProductCards.xml#L140)
 --- Template
 --- @class WideWoWTokenCatalogShopCardTemplate : Button, WideCatalogShopProductCardTemplate, WideWoWTokenCatalogShopCardMixin
 --- @field AnimContainer WideWoWTokenCatalogShopCardTemplate_AnimContainer

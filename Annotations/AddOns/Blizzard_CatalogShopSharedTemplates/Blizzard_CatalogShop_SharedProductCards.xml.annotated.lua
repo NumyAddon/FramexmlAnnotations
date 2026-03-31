@@ -102,23 +102,190 @@
 --- @field newBackground string # shop-card-bg
 --- @field classicTexture string # shop-card-bg
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L218)
+--- child of HearthsteelVFX_L_Template_Glows
+--- @class HearthsteelVFX_L_Template_Glows_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L200)
+--- child of HearthsteelVFX_L_Template
+--- @class HearthsteelVFX_L_Template_Glows : Frame
+--- @field Rays1 Texture
+--- @field Rays2 Texture
+--- @field animation HearthsteelVFX_L_Template_Glows_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L238)
+--- child of HearthsteelVFX_L_Template_IconGlow
+--- @class HearthsteelVFX_L_Template_IconGlow_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L226)
+--- child of HearthsteelVFX_L_Template
+--- @class HearthsteelVFX_L_Template_IconGlow : Frame
+--- @field IconGlow Texture
+--- @field animation HearthsteelVFX_L_Template_IconGlow_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L256)
+--- child of HearthsteelVFX_L_Template_Flipbook
+--- @class HearthsteelVFX_L_Template_Flipbook_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L244)
+--- child of HearthsteelVFX_L_Template
+--- @class HearthsteelVFX_L_Template_Flipbook : Frame
+--- @field flipbook Texture
+--- @field animation HearthsteelVFX_L_Template_Flipbook_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L198)
+--- Template
+--- @class HearthsteelVFX_L_Template : Frame, HearthsteelVFX_L_Mixin
+--- @field Glows HearthsteelVFX_L_Template_Glows
+--- @field IconGlow HearthsteelVFX_L_Template_IconGlow
+--- @field Flipbook HearthsteelVFX_L_Template_Flipbook
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L289)
+--- child of HearthsteelVFX_XL_Template_Rays
+--- @class HearthsteelVFX_XL_Template_Rays_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L271)
+--- child of HearthsteelVFX_XL_Template
+--- @class HearthsteelVFX_XL_Template_Rays : Frame
+--- @field Rays1 Texture
+--- @field Rays2 Texture
+--- @field animation HearthsteelVFX_XL_Template_Rays_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L309)
+--- child of HearthsteelVFX_XL_Template_Flipbook
+--- @class HearthsteelVFX_XL_Template_Flipbook_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L297)
+--- child of HearthsteelVFX_XL_Template
+--- @class HearthsteelVFX_XL_Template_Flipbook : Frame
+--- @field Flipbook Texture
+--- @field animation HearthsteelVFX_XL_Template_Flipbook_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L334)
+--- child of HearthsteelVFX_XL_Template_Shine01
+--- @class HearthsteelVFX_XL_Template_Shine01_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L314)
+--- child of HearthsteelVFX_XL_Template
+--- @class HearthsteelVFX_XL_Template_Shine01 : Frame
+--- @field Glow1 Texture
+--- @field mask02 MaskTexture
+--- @field animation HearthsteelVFX_XL_Template_Shine01_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L361)
+--- child of HearthsteelVFX_XL_Template_Shine02
+--- @class HearthsteelVFX_XL_Template_Shine02_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L340)
+--- child of HearthsteelVFX_XL_Template
+--- @class HearthsteelVFX_XL_Template_Shine02 : Frame
+--- @field RimShine Texture
+--- @field Mask MaskTexture
+--- @field animation HearthsteelVFX_XL_Template_Shine02_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L386)
+--- child of HearthsteelVFX_XL_Template_CoinShine
+--- @class HearthsteelVFX_XL_Template_CoinShine_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L366)
+--- child of HearthsteelVFX_XL_Template
+--- @class HearthsteelVFX_XL_Template_CoinShine : Frame
+--- @field CoinShine Texture
+--- @field Mask MaskTexture
+--- @field animation HearthsteelVFX_XL_Template_CoinShine_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L269)
+--- Template
+--- @class HearthsteelVFX_XL_Template : Frame, HearthsteelVFX_XL_Mixin
+--- @field Rays HearthsteelVFX_XL_Template_Rays
+--- @field Flipbook HearthsteelVFX_XL_Template_Flipbook
+--- @field Shine01 HearthsteelVFX_XL_Template_Shine01
+--- @field Shine02 HearthsteelVFX_XL_Template_Shine02
+--- @field CoinShine HearthsteelVFX_XL_Template_CoinShine
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L418)
+--- child of HearthsteelVFX_XXL_Template_Rays
+--- @class HearthsteelVFX_XXL_Template_Rays_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L402)
+--- child of HearthsteelVFX_XXL_Template
+--- @class HearthsteelVFX_XXL_Template_Rays : Frame
+--- @field rays1 Texture
+--- @field rays2 Texture
+--- @field animation HearthsteelVFX_XXL_Template_Rays_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L438)
+--- child of HearthsteelVFX_XXL_Template_Flipbook
+--- @class HearthsteelVFX_XXL_Template_Flipbook_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L426)
+--- child of HearthsteelVFX_XXL_Template
+--- @class HearthsteelVFX_XXL_Template_Flipbook : Frame
+--- @field Flipbook Texture
+--- @field animation HearthsteelVFX_XXL_Template_Flipbook_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L463)
+--- child of HearthsteelVFX_XXL_Template_MetalShine
+--- @class HearthsteelVFX_XXL_Template_MetalShine_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L443)
+--- child of HearthsteelVFX_XXL_Template
+--- @class HearthsteelVFX_XXL_Template_MetalShine : Frame
+--- @field Shine Texture
+--- @field ChestMask MaskTexture
+--- @field animation HearthsteelVFX_XXL_Template_MetalShine_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L488)
+--- child of HearthsteelVFX_XXL_Template_CoinShine
+--- @class HearthsteelVFX_XXL_Template_CoinShine_animation : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L468)
+--- child of HearthsteelVFX_XXL_Template
+--- @class HearthsteelVFX_XXL_Template_CoinShine : Frame
+--- @field Shine Texture
+--- @field Mask MaskTexture
+--- @field animation HearthsteelVFX_XXL_Template_CoinShine_animation
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L400)
+--- Template
+--- @class HearthsteelVFX_XXL_Template : Frame, HearthsteelVFX_XXL_Mixin
+--- @field Rays HearthsteelVFX_XXL_Template_Rays
+--- @field Flipbook HearthsteelVFX_XXL_Template_Flipbook
+--- @field MetalShine HearthsteelVFX_XXL_Template_MetalShine
+--- @field CoinShine HearthsteelVFX_XXL_Template_CoinShine
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L516)
 --- child of SmallCatalogShopHousingCurrencyCardTemplate_PurchaseButton
 --- @class SmallCatalogShopHousingCurrencyCardTemplate_PurchaseButton_Spinner : Frame, SpinnerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L204)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L507)
 --- child of SmallCatalogShopHousingCurrencyCardTemplate
 --- @class SmallCatalogShopHousingCurrencyCardTemplate_PurchaseButton : Button, CatalogShopRedGoldButtonTemplate, EmbeddedPurchaseButtonMixin
 --- @field embeddedPurchaseButtonOnClickMethod string # PurchaseProduct
 --- @field Spinner SmallCatalogShopHousingCurrencyCardTemplate_PurchaseButton_Spinner
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L199)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L522)
+--- child of SmallCatalogShopHousingCurrencyCardTemplate
+--- @class SmallCatalogShopHousingCurrencyCardTemplate_HeathSteel_L_VFX : Frame, HearthsteelVFX_L_Template
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L528)
+--- child of SmallCatalogShopHousingCurrencyCardTemplate
+--- @class SmallCatalogShopHousingCurrencyCardTemplate_HeathSteel_XL_VFX : Frame, HearthsteelVFX_XL_Template
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L534)
+--- child of SmallCatalogShopHousingCurrencyCardTemplate
+--- @class SmallCatalogShopHousingCurrencyCardTemplate_HeathSteel_XXL_VFX : Frame, HearthsteelVFX_XXL_Template
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L502)
 --- Template
 --- @class SmallCatalogShopHousingCurrencyCardTemplate : Button, SmallCatalogShopProductCardTemplate, SmallCatalogShopHousingCurrencyCardMixin
 --- @field hoverVisualEnabled boolean # false
 --- @field PurchaseButton SmallCatalogShopHousingCurrencyCardTemplate_PurchaseButton
+--- @field HeathSteel_L_VFX SmallCatalogShopHousingCurrencyCardTemplate_HeathSteel_L_VFX
+--- @field HeathSteel_XL_VFX SmallCatalogShopHousingCurrencyCardTemplate_HeathSteel_XL_VFX
+--- @field HeathSteel_XXL_VFX SmallCatalogShopHousingCurrencyCardTemplate_HeathSteel_XXL_VFX
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShopSharedTemplates/Blizzard_CatalogShop_SharedProductCards.xml#L549)
 --- Template
 --- @class WideCatalogShopProductCardTemplate : Button, DefaultCatalogShopCardTemplate, WideCatalogShopProductCardMixin
 --- @field useWideCardSettings boolean # true

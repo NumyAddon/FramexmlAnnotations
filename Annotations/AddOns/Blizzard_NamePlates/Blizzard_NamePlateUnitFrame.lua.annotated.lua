@@ -126,3 +126,6 @@ function NamePlateUnitFrameMixin:GetNamePlateFrame() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L809)
 function NamePlateUnitFrameMixin:SetNamePlateFrame(namePlateFrame) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L813)
+function NamePlateUnitFrameMixin:UpdatePrivateAuras() end

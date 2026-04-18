@@ -1,24 +1,36 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
---- @enum Settings.CategorySet
-local Settings_CategorySet = {
-    ["Game"] = 1,
-    ["AddOns"] = 2,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L3)
---- @enum SettingsLayoutMixin.LayoutType
-local SettingsLayoutMixin_LayoutType = {
-    ["Vertical"] = 1,
-    ["Canvas"] = 2,
-}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L45)
 --- @enum IconDataProviderIconType
 local IconDataProviderIconType = {
     ["Spell"] = 1,
     ["Item"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)
+--- @enum SpellFlyoutOpenReason
+local SpellFlyoutOpenReason = {
+    ["GlyphPending"] = 1,
+    ["GlyphActivated"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L188)
+--- @enum AuraUtil.AuraUpdateChangedType
+local AuraUtil_AuraUpdateChangedType = {
+    ["None"] = 1,
+    ["Debuff"] = 2,
+    ["Buff"] = 3,
+    ["Dispel"] = 4,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L195)
+--- @enum AuraUtil.UnitFrameDebuffType
+local AuraUtil_UnitFrameDebuffType = {
+    ["BossDebuff"] = 1,
+    ["BossBuff"] = 2,
+    ["PriorityDebuff"] = 3,
+    ["NonBossRaidDebuff"] = 4,
+    ["NonBossDebuff"] = 5,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L40)
@@ -31,14 +43,14 @@ local MinimalSliderWithSteppersMixin_Label = {
     ["Max"] = 5,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1447)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1256)
 --- @enum IconSelectorPopupFrameModes
 local IconSelectorPopupFrameModes = {
     ["New"] = 1,
     ["Edit"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1452)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1261)
 --- @enum IconSelectorPopupFrameIconFilterTypes
 local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
@@ -53,5 +65,41 @@ local QuestLogButtonTypes = {
     ["Any"] = 2,
     ["Header"] = 3,
     ["Quest"] = 4,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
+--- @enum Settings.CategorySet
+local Settings_CategorySet = {
+    ["Game"] = 1,
+    ["AddOns"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L27)
+--- @enum Settings.ControlType
+local Settings_ControlType = {
+    ["Radio"] = 1,
+    ["Checkbox"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L3)
+--- @enum SettingsLayoutMixin.LayoutType
+local SettingsLayoutMixin_LayoutType = {
+    ["Vertical"] = 1,
+    ["Canvas"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L125)
+--- @enum CooldownViewerVisual
+local CooldownViewerVisual = {
+    ["MarchingAnts"] = 1,
+    ["MarchingAntsCyan"] = 2,
+    ["MarchingAntsRed"] = 3,
+    ["MarchingAntsGreen"] = 4,
+    ["MarchingAntsBlue"] = 5,
+    ["Flash"] = 6,
+    ["FlashCyan"] = 7,
+    ["FlashRed"] = 8,
+    ["FlashGreen"] = 9,
+    ["FlashBlue"] = 10,
 }
 

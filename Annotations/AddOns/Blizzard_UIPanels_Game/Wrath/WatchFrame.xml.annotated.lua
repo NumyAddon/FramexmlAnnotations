@@ -52,156 +52,158 @@
 --- Template
 --- @class WatchFontTemplate : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L57)
 --- Template
 --- @class WatchFrameLinkButtonTemplate : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L92)
 --- child of WatchFrameItemButtonTemplate
 --- @class WatchFrameItemButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L70)
 --- child of WatchFrameItemButtonTemplate
 --- @class WatchFrameItemButtonTemplate_HotKey : FontString, NumberFontNormalSmallGray
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L79)
 --- child of WatchFrameItemButtonTemplate
 --- @class WatchFrameItemButtonTemplate_Count : FontString, NumberFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L84)
 --- child of WatchFrameItemButtonTemplate
 --- @class WatchFrameItemButtonTemplate_Stock : FontString, NumberFontNormalYellow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L66)
 --- Template
 --- @class WatchFrameItemButtonTemplate : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L124)
 --- child of WatchFrameLineTemplate
 --- @class WatchFrameLineTemplate_Dash : FontString, WatchFontTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L130)
 --- child of WatchFrameLineTemplate
 --- @class WatchFrameLineTemplate_Text : FontString, WatchFontTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L114)
 --- Template
 --- @class WatchFrameLineTemplate : Frame
 --- @field Icon Texture
 --- @field dash WatchFrameLineTemplate_Dash
 --- @field text WatchFrameLineTemplate_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L211)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L168)
 --- child of WatchFrameHeader
 --- @class WatchFrameTitle : FontString, GameFontNormal
 WatchFrameTitle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L200)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L161)
 --- child of WatchFrame
 --- @class WatchFrameHeader : Button
 WatchFrameHeader = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L223)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L180)
 --- child of WatchFrame
 --- @class WatchFrameCollapseExpandButton : Button
 WatchFrameCollapseExpandButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L260)
---- child of WatchFrameLinesAutoQuestShadow
---- @class WatchFrameLinesAutoQuestShadowFadeIn : AnimationGroup
-WatchFrameLinesAutoQuestShadowFadeIn = {}
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L209)
+--- child of WatchFrameLinesShadow
+--- @class WatchFrameLinesShadowFadeIn : AnimationGroup
+WatchFrameLinesShadowFadeIn = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L204)
 --- child of WatchFrameLines
---- @class WatchFrameLinesAutoQuestShadow : Texture, QuestTracker_Shadow
---- @field FadeIn WatchFrameLinesAutoQuestShadowFadeIn
-WatchFrameLinesAutoQuestShadow = {}
-WatchFrameLinesAutoQuestShadow["FadeIn"] = WatchFrameLinesAutoQuestShadowFadeIn
+--- @class WatchFrameLinesShadow : Texture, QuestTracker_Shadow
+--- @field FadeIn WatchFrameLinesShadowFadeIn
+WatchFrameLinesShadow = {}
+WatchFrameLinesShadow["FadeIn"] = WatchFrameLinesShadowFadeIn
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L197)
 --- child of WatchFrame
 --- @class WatchFrameLines : Frame
---- @field AutoQuestShadow WatchFrameLinesAutoQuestShadow
+--- @field Shadow WatchFrameLinesShadow
 WatchFrameLines = {}
-WatchFrameLines["AutoQuestShadow"] = WatchFrameLinesAutoQuestShadow
+WatchFrameLines["Shadow"] = WatchFrameLinesShadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L192)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L152)
 --- @class WatchFrame : Frame
+--- @field layoutIndex number # 10
 WatchFrame = {}
+WatchFrame["layoutIndex"] = 10
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L457)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L400)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChildFlash
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_Flash_QuestLogFrameCompleteButtonFlash : Texture, UIPanelButtonHighlightTexture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L465)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L408)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChildFlash
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_Flash_IconFlash : Texture, QuestIcon_WhiteFlash
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L454)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L397)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_Flash : Frame
 --- @field Flash WatchFrameAutoQuestPopUpTemplate_ScrollChild_Flash_QuestLogFrameCompleteButtonFlash
 --- @field IconFlash WatchFrameAutoQuestPopUpTemplate_ScrollChild_Flash_IconFlash
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L258)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_BorderTopLeft : Texture, AutoQuestToastBorder_TopLeft
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L263)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_BorderTopRight : Texture, AutoQuestToastBorder_TopRight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L268)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_BorderBotLeft : Texture, AutoQuestToastBorder_BotLeft
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L324)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L273)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_BorderBotRight : Texture, AutoQuestToastBorder_BotRight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L363)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L312)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_QuestIconBg : Texture, QuestIcon_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L319)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_Exclamation : Texture, QuestIcon_Exclamation
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L324)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_QuestionMark : Texture, QuestIcon_QuestionMark
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L382)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L331)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_QuestName : FontString, QuestFont_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L390)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L339)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_TopText : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L397)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L346)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_BottomText : FontString, GameFontDisableSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L408)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L357)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChildShine
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_Shine_Flash : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L355)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_Shine : Texture
 --- @field Flash WatchFrameAutoQuestPopUpTemplate_ScrollChild_Shine_Flash
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L434)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L379)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChildIconShine
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_IconShine_Flash : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L429)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L374)
 --- child of WatchFrameAutoQuestPopUpTemplateScrollChild
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild_IconShine : Texture, QuestIcon_WhiteFlash
 --- @field Flash WatchFrameAutoQuestPopUpTemplate_ScrollChild_IconShine_Flash
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L249)
 --- child of WatchFrameAutoQuestPopUpTemplate
 --- @class WatchFrameAutoQuestPopUpTemplate_ScrollChild : Frame
 --- @field Flash WatchFrameAutoQuestPopUpTemplate_ScrollChild_Flash
@@ -213,7 +215,7 @@ WatchFrame = {}
 --- @field Shine WatchFrameAutoQuestPopUpTemplate_ScrollChild_Shine
 --- @field IconShine WatchFrameAutoQuestPopUpTemplate_ScrollChild_IconShine
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/WatchFrame.xml#L235)
 --- Template
 --- @class WatchFrameAutoQuestPopUpTemplate : ScrollFrame
 --- @field ScrollChild WatchFrameAutoQuestPopUpTemplate_ScrollChild

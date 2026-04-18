@@ -44,5 +44,5 @@ function DetailsProductContainerFrameMixin:Init() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Details.lua#L55)
 function DetailsProductContainerFrameMixin:InitProductContainer() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Details.lua#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Details.lua#L137)
 function DetailsProductContainerFrameMixin:UpdateProductInfo(productInfo) end

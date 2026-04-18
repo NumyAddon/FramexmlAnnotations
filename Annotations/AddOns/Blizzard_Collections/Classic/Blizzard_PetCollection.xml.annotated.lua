@@ -56,7 +56,7 @@
 --- @field Count PetJournal_PetCount_Count
 --- @field Label PetJournal_PetCount_Label
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L689)
 --- child of PetJournalLeftInset (created in template InsetFrameTemplate)
 --- @type Texture
 PetJournalLeftInsetBg = {}
@@ -68,7 +68,7 @@ PetJournalLeftInset = {}
 PetJournalLeftInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetJournalLeftInset["Bg"] = PetJournalLeftInsetBg -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L689)
 --- child of PetJournalRightInset (created in template InsetFrameTemplate)
 --- @type Texture
 PetJournalRightInsetBg = {}
@@ -80,12 +80,12 @@ PetJournalRightInset = {}
 PetJournalRightInset["layoutType"] = "InsetFrameTemplate" -- inherited
 PetJournalRightInset["Bg"] = PetJournalRightInsetBg -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L44)
 --- child of PetJournalSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 PetJournalSearchBoxClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L1155)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_Collections/Classic/Blizzard_PetCollection.xml#L35)
 --- child of PetJournalSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 PetJournalSearchBoxSearchIcon = {}

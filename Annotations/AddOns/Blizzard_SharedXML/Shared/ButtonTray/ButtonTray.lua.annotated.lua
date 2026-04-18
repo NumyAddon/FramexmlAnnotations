@@ -46,7 +46,22 @@ function GridButtonTrayMixin:MarkTrayLayoutDirty() end
 function GridButtonTrayMixin:IsTrayLayoutDirty() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L94)
-function GridButtonTrayMixin:AddControl(label, controlCallback, ...) end
+function GridButtonTrayMixin:AddControlExternal(control) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L104)
+function GridButtonTrayMixin:AddControl(label, controlCallback, ...) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L114)
+function GridButtonTrayMixin:AddControlsExternal(...) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L122)
+function GridButtonTrayMixin:RemoveControl(control) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L132)
+function GridButtonTrayMixin:RemoveControls(...) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L140)
+function GridButtonTrayMixin:RemoveAllControls() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/ButtonTray/ButtonTray.lua#L149)
 function GridButtonTrayMixin:UpdateTrayLayout() end

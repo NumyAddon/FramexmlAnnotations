@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L56)
 --- @class UnitPopupVoiceLevelsMixin : UnitPopupAttachableFrameMixin
 UnitPopupVoiceLevelsMixin = CreateFromMixins(UnitPopupAttachableFrameMixin)
 
@@ -16,27 +16,27 @@ UnitPopupVoiceMemberInfoMixin = {}
 --- @class UnitPopupVoiceToggleButtonMixin
 UnitPopupVoiceToggleButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L91)
 --- @class UnitPopupToggleMuteMixin
 UnitPopupToggleMuteMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L123)
 --- @class UnitPopupVoiceMicrophoneVolumeSliderMixin
 UnitPopupVoiceMicrophoneVolumeSliderMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L130)
 --- @class UnitPopupToggleDeafenMixin
 UnitPopupToggleDeafenMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L152)
 --- @class UnitPopupVoiceSpeakerVolumeSliderMixin
 UnitPopupVoiceSpeakerVolumeSliderMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L159)
 --- @class UnitPopupToggleUserMuteMixin
 UnitPopupToggleUserMuteMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L197)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L208)
 --- @class UnitPopupVoiceUserVolumeSliderMixin
 UnitPopupVoiceUserVolumeSliderMixin = {}
 
@@ -62,76 +62,82 @@ function UnitPopupVoiceMemberInfoMixin:CallAccessor(...) end
 function UnitPopupVoiceMemberInfoMixin:CallMutator(...) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L35)
+function UnitPopupVoiceToggleButtonMixin:UpdateTooltipForState(state) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L41)
+function UnitPopupVoiceToggleButtonMixin:OnClick() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L46)
 function UnitPopupVoiceToggleButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L40)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L51)
 function UnitPopupVoiceToggleButtonMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L47)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L58)
 function UnitPopupVoiceLevelsMixin:GetVoiceChannelID() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L51)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L62)
 function UnitPopupVoiceLevelsMixin:GetVoiceMemberID() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L55)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L66)
 function UnitPopupVoiceLevelsMixin:GetVoiceChannel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L70)
 function UnitPopupVoiceLevelsMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L78)
 function UnitPopupVoiceLevelsMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L82)
 function UnitPopupVoiceLevelsMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L86)
 function UnitPopupVoiceLevelsMixin:OnAttach() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L93)
 function UnitPopupToggleMuteMixin:IsForPublicChannel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L87)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L98)
 function UnitPopupToggleMuteMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L102)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L113)
 function UnitPopupToggleMuteMixin:RegisterEvents() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L118)
 function UnitPopupToggleMuteMixin:UnregisterEvents() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L125)
 function UnitPopupVoiceMicrophoneVolumeSliderMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L132)
 function UnitPopupToggleDeafenMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L144)
 function UnitPopupToggleDeafenMixin:RegisterEvents() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L148)
 function UnitPopupToggleDeafenMixin:UnregisterEvents() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L154)
 function UnitPopupVoiceSpeakerVolumeSliderMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L161)
 function UnitPopupToggleUserMuteMixin:IsMuted() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L169)
 function UnitPopupToggleUserMuteMixin:IsSilenced() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L178)
 function UnitPopupToggleUserMuteMixin:ToggleMuted() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L185)
 function UnitPopupToggleUserMuteMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L185)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L196)
 function UnitPopupToggleUserMuteMixin:RegisterEvents() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L202)
 function UnitPopupToggleUserMuteMixin:UnregisterEvents() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L199)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitPopup/UnitPopupCustomControls.lua#L210)
 function UnitPopupVoiceUserVolumeSliderMixin:OnLoad() end

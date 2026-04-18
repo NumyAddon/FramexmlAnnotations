@@ -19,8 +19,8 @@ function EclipseBarFrameMixin:OnLoad() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.lua#L92)
 function EclipseBarFrameMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.lua#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.lua#L142)
 function EclipseBarFrameMixin:CheckBuffs() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.lua#L232)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.lua#L204)
 function EclipseBarFrameMixin:OnEvent(event, ...) end

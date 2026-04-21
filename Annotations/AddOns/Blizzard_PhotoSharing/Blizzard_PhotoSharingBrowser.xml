@@ -1,7 +1,7 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
 ..\Blizzard_SharedXML\UI.xsd">
 
-	<Browser name="HousingPhotoSharingBrowserTemplate" frameStrata="HIGH" IMEFont="ChatFontNormal" virtual="true">
+	<Browser name="PhotoSharingBrowserTemplate" frameStrata="HIGH" IMEFont="ChatFontNormal" virtual="true">
 		<Frames>
 			<Frame parentKey="BrowserInset" inherits="InsetFrameTemplate" frameStrata="MEDIUM">
 				<Anchors>
@@ -22,7 +22,7 @@
 		</Scripts>
 	</Browser>
 
-	<Browser name="HousingPhotoSharingBrowserTemplatePopup" frameStrata="HIGH" IMEFont="ChatFontNormal" virtual="true">
+	<Browser name="PhotoSharingBrowserTemplatePopup" frameStrata="HIGH" IMEFont="ChatFontNormal" virtual="true">
 		<Frames>
 			<Frame parentKey="BrowserInset" inherits="InsetFrameTemplate" frameStrata="MEDIUM">
 				<Anchors>
@@ -43,21 +43,21 @@
 		</Scripts>
 	</Browser>
 
-	<Frame name="HousingPhotoSharingBrowser" toplevel="true" parent="UIParent" inherits="DefaultPanelTemplate" hidden="true" enableMouse="true" mixin="HousingPhotoSharingBrowserMixin">
+	<Frame name="PhotoSharingBrowserFrame" toplevel="true" parent="UIParent" inherits="DefaultPanelTemplate" hidden="true" enableMouse="true" mixin="PhotoSharingBrowserMixin">
 		<Size x="1090" y="820"/>
 		<Anchors>
 			<Anchor point="CENTER" x="0" y="0"/>
 		</Anchors>
 		<Frames>
 			<Button parentKey="CloseButton" inherits="UIPanelCloseButtonDefaultAnchors"/>
-			<Browser parentKey="Browser" name="PhotoSharingBrowser" inherits="HousingPhotoSharingBrowserTemplate" >
+			<Browser parentKey="Browser" name="PhotoSharingBrowser" inherits="PhotoSharingBrowserTemplate" >
 				<Anchors>
 					<Anchor point="TOPLEFT" x="7" y="-22"/>
 					<Anchor point="BOTTOMRIGHT" x="-3" y="4"/>
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						self.homepage = "HousingPhotoSharing";
+						self.homepage = "PhotoSharing";
 					</OnLoad>
 				</Scripts>
 			</Browser>
@@ -97,14 +97,14 @@
 		</Scripts>
 	</Frame>
 
-	<Frame name="HousingPhotoSharingBrowserPopup" toplevel="true" parent="UIParent" inherits="DefaultPanelTemplate" hidden="true" enableMouse="true" mixin="HousingPhotoSharingBrowserPopupMixin">
+	<Frame name="PhotoSharingBrowserPopup" toplevel="true" parent="UIParent" inherits="DefaultPanelTemplate" hidden="true" enableMouse="true" mixin="PhotoSharingBrowserPopupMixin">
 		<Size x="800" y="500"/>
 		<Anchors>
 			<Anchor point="CENTER" x="0" y="0"/>
 		</Anchors>
 		<Frames>
 			<Button parentKey="CloseButton" inherits="UIPanelCloseButtonDefaultAnchors"/>
-			<Browser parentKey="Browser" name="PhotoSharingBrowserPopup" inherits="HousingPhotoSharingBrowserTemplatePopup" >
+			<Browser parentKey="Browser" name="PhotoSharingBrowserPopup" inherits="PhotoSharingBrowserTemplatePopup" >
 				<Anchors>
 					<Anchor point="TOPLEFT" x="7" y="-22"/>
 					<Anchor point="BOTTOMRIGHT" x="-3" y="4"/>

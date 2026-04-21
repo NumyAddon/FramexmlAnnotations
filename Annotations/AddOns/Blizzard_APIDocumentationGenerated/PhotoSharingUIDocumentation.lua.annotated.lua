@@ -1,8 +1,8 @@
-local HousingPhotoSharingUI =
+local PhotoSharingUI =
 {
-	Name = "HousingPhotoSharingUI",
+	Name = "PhotoSharingUI",
 	Type = "System",
-	Namespace = "C_HousingPhotoSharing",
+	Namespace = "C_PhotoSharing",
 	Environment = "All",
 
 	Functions =
@@ -41,6 +41,15 @@ local HousingPhotoSharingUI =
 			Returns =
 			{
 				{ Name = "authUrl", Type = "cstring", Nilable = false },
+			},
+		},
+		{
+			Name = "GetStatus",
+			Type = "Function",
+
+			Returns =
+			{
+				{ Name = "status", Type = "PhotoSharingStatus", Nilable = false },
 			},
 		},
 		{
@@ -137,6 +146,9 @@ local HousingPhotoSharingUI =
 	Tables =
 	{
 	},
+	Predicates =
+	{
+	},
 };
 
-APIDocumentation:AddDocumentationTable(HousingPhotoSharingUI);
+APIDocumentation:AddDocumentationTable(PhotoSharingUI);

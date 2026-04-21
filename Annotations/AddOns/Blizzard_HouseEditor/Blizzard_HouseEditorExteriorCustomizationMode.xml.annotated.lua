@@ -17,24 +17,38 @@
 --- @class HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_BaseStyleOption : Frame, HouseExteriorCoreFixtureDropdownTemplate
 --- @field layoutIndex number # 4
 --- @field label any # HOUSING_EXTERIOR_CUSTOMIZATION_BASE_TYPE_LABEL
+--- @field isVariantSelection boolean # false
+--- @field coreFixtureType any # Enum.HousingFixtureType.Base
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L65)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L67)
 --- child of HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel
 --- @class HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_BaseVariantOption : Frame, HouseExteriorCoreFixtureDropdownTemplate
 --- @field layoutIndex number # 5
 --- @field label any # HOUSING_EXTERIOR_CUSTOMIZATION_BASE_VARIANT_LABEL
+--- @field isVariantSelection boolean # true
+--- @field coreFixtureType any # Enum.HousingFixtureType.Base
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L75)
 --- child of HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel
 --- @class HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_RoofStyleOption : Frame, HouseExteriorCoreFixtureDropdownTemplate
 --- @field layoutIndex number # 6
 --- @field label any # HOUSING_EXTERIOR_CUSTOMIZATION_ROOF_TYPE_LABEL
+--- @field isVariantSelection boolean # false
+--- @field coreFixtureType any # Enum.HousingFixtureType.Roof
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L83)
 --- child of HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel
 --- @class HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_RoofVariantOption : Frame, HouseExteriorCoreFixtureDropdownTemplate
 --- @field layoutIndex number # 7
 --- @field label any # HOUSING_EXTERIOR_CUSTOMIZATION_ROOF_VARIANT_LABEL
+--- @field isVariantSelection boolean # true
+--- @field coreFixtureType any # Enum.HousingFixtureType.Roof
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L91)
+--- child of HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel
+--- @class HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_HideDecorButton : Frame, HouseExteriorCheckboxOptionTemplate
+--- @field layoutIndex number # 8
+--- @field label any # HOUSING_EXTERIOR_CUSTOMIZATION_HIDE_DECOR_LABEL
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L24)
 --- child of HouseEditorExteriorCustomizationModeTemplate
@@ -48,8 +62,9 @@
 --- @field BaseVariantOption HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_BaseVariantOption
 --- @field RoofStyleOption HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_RoofStyleOption
 --- @field RoofVariantOption HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_RoofVariantOption
+--- @field HideDecorButton HouseEditorExteriorCustomizationModeTemplate_CoreOptionsPanel_HideDecorButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L86)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorExteriorCustomizationMode.xml#L100)
 --- child of HouseEditorExteriorCustomizationModeTemplate
 --- @class HouseEditorExteriorCustomizationModeTemplate_FixtureOptionList : Frame, HouseExteriorFixtureOptionListTemplate
 

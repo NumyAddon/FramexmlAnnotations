@@ -1,15 +1,15 @@
-HousingPhotoSharingBrowserMixin = {}--- @class HousingPhotoSharingBrowserMixin
+PhotoSharingBrowserMixin = {}--- @class PhotoSharingBrowserMixin
 
-function HousingPhotoSharingBrowserMixin:SetInitialLoading(initialLoading)
+function PhotoSharingBrowserMixin:SetInitialLoading(initialLoading)
 	self.initialLoading = initialLoading;
 	self.SpinnerOverlay:SetShown(initialLoading);
 end
 
-function HousingPhotoSharingBrowserMixin:GetInitialLoading()
+function PhotoSharingBrowserMixin:GetInitialLoading()
 	return self.initialLoading;
 end
 
-function HousingPhotoSharingBrowserMixin:OnLoad()
+function PhotoSharingBrowserMixin:OnLoad()
 	self:SetTitle(PHOTO_SHARING_BROWSER_TITLE);
 	self:RegisterEvent("PHOTO_SHARING_AUTHORIZATION_NEEDED");
 	self:RegisterEvent("SIMPLE_BROWSER_SOCIAL_CALLBACK_INVOKED");
@@ -17,39 +17,39 @@ function HousingPhotoSharingBrowserMixin:OnLoad()
 	self.popupActive = false;
 end
 
-function HousingPhotoSharingBrowserMixin:OnShow()
+function PhotoSharingBrowserMixin:OnShow()
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_OPEN);
-	PhotoSharingBrowser:NavigateHome("HousingPhotoSharing");
+	PhotoSharingBrowser:NavigateHome("PhotoSharing");
 	self:SetInitialLoading(true);
 end
 
-function HousingPhotoSharingBrowserMixin:OnHide()
+function PhotoSharingBrowserMixin:OnHide()
 	PlaySound(SOUNDKIT.IG_CHARACTER_INFO_CLOSE);
 end
 
-function HousingPhotoSharingBrowserMixin:OnEvent(evt, callbackUrl, ...)
+function PhotoSharingBrowserMixin:OnEvent(evt, callbackUrl, ...)
 	if (evt == "PHOTO_SHARING_AUTHORIZATION_NEEDED") then
 		self:Show();
 	elseif (evt == "SIMPLE_BROWSER_SOCIAL_CALLBACK_INVOKED") then
 		if self.popupActive == false then
-			C_HousingPhotoSharing.CompleteAuthorizationFlow(callbackUrl);
+			C_PhotoSharing.CompleteAuthorizationFlow(callbackUrl);
 			self:Hide();
 		end
 	end
 end	
 
-HousingPhotoSharingBrowserPopupMixin = {}--- @class HousingPhotoSharingBrowserPopupMixin
+PhotoSharingBrowserPopupMixin = {}--- @class PhotoSharingBrowserPopupMixin
 
-function HousingPhotoSharingBrowserPopupMixin:SetInitialLoading(initialLoading)
+function PhotoSharingBrowserPopupMixin:SetInitialLoading(initialLoading)
 	self.initialLoading = initialLoading;
 	self.SpinnerOverlay:SetShown(initialLoading);
 end
 
-function HousingPhotoSharingBrowserPopupMixin:GetInitialLoading()
+function PhotoSharingBrowserPopupMixin:GetInitialLoading()
 	return self.initialLoading;
 end
 
-function HousingPhotoSharingBrowserPopupMixin:OnLoad()
+function PhotoSharingBrowserPopupMixin:OnLoad()
 	self:SetTitle(PHOTO_SHARING_BROWSER_TITLE);
 	self:RegisterEvent("SIMPLE_BROWSER_POPUP");
 	self:RegisterEvent("SIMPLE_BROWSER_SOCIAL_CALLBACK_INVOKED");
@@ -57,16 +57,16 @@ function HousingPhotoSharingBrowserPopupMixin:OnLoad()
 	self.loginComplete = false;
 end
 
-function HousingPhotoSharingBrowserPopupMixin:OnHide()
+function PhotoSharingBrowserPopupMixin:OnHide()
 	-- Re-establish ownership of the shared cache
 	PhotoSharingBrowser:Hide();
 	PhotoSharingBrowser:Show();
 	PhotoSharingBrowser:GetParent():SetInitialLoading(true);
 
-	PhotoSharingBrowser:NavigateTo(C_HousingPhotoSharing.GetPhotoSharingAuthURL());
+	PhotoSharingBrowser:NavigateTo(C_PhotoSharing.GetPhotoSharingAuthURL());
 end
 
-function HousingPhotoSharingBrowserPopupMixin:OnEvent(evt, url)
+function PhotoSharingBrowserPopupMixin:OnEvent(evt, url)
 	if (evt == "SIMPLE_BROWSER_POPUP") then
 		self.SpinnerOverlay:SetShown(false);
 		self:Show();

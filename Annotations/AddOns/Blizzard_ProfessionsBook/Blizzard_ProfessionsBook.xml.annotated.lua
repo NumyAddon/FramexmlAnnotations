@@ -48,21 +48,21 @@
 --- @field rankText ProfessionStatusBarTemplate_Rank
 --- @field capRight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L221)
 --- Explicitly protected
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_SpellButtonTop : CheckButton, ProfessionButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L226)
 --- Explicitly protected
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_SpellButtonBottom : CheckButton, ProfessionButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L231)
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_StatusBar : StatusBar, ProfessionStatusBarTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L227)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L236)
 --- child of PrimaryProfessionTemplate
 --- @class PrimaryProfessionTemplate_UnlearnButton : Button, ResizeLayoutFrame, ProfessionsUnlearnButtonMixin
 --- @field Icon Texture
@@ -101,38 +101,39 @@
 --- @field missingText PrimaryProfessionTemplate_missingText
 --- @field rank PrimaryProfessionTemplate_Rank
 --- @field icon Texture
+--- @field CircleMask MaskTexture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L268)
 --- Explicitly protected
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_SpellButtonRight : CheckButton, ProfessionButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L273)
 --- Explicitly protected
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_SpellButtonLeft : CheckButton, ProfessionButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L278)
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_StatusBar : StatusBar, ProfessionStatusBarTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L286)
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_Rank : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L293)
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_ProfessionName : FontString, QuestFont_Shadow_Small
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L307)
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_Missing : FontString, QuestFont_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L314)
 --- child of SecondaryProfessionTemplate
 --- @class SecondaryProfessionTemplate_missingText : FontString, SubSpellFont
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L265)
 --- Implicitly protected
 --- Template
 --- @class SecondaryProfessionTemplate : Frame
@@ -144,7 +145,7 @@
 --- @field missingHeader SecondaryProfessionTemplate_Missing
 --- @field missingText SecondaryProfessionTemplate_missingText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L342)
 --- child of ProfessionsBookFrame
 --- @class ProfessionsBookFrameTutorialButton : Button, MainHelpPlateButton
 ProfessionsBookFrameTutorialButton = {}
@@ -180,7 +181,7 @@ PrimaryProfession1SpellButtonTopNameFrame = {}
 --- @type Texture
 PrimaryProfession1SpellButtonTopHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L221)
 --- Explicitly protected
 --- child of PrimaryProfession1 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_SpellButtonTop
@@ -231,7 +232,7 @@ PrimaryProfession1SpellButtonBottomNameFrame = {}
 --- @type Texture
 PrimaryProfession1SpellButtonBottomHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L226)
 --- Explicitly protected
 --- child of PrimaryProfession1 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_SpellButtonBottom
@@ -293,7 +294,7 @@ PrimaryProfession1StatusBarBGRight = {}
 --- @type Texture
 PrimaryProfession1StatusBarBGMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L231)
 --- child of PrimaryProfession1 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_StatusBar
 PrimaryProfession1StatusBar = {}
@@ -331,7 +332,7 @@ PrimaryProfession1IconBorder = {}
 --- @type Texture
 PrimaryProfession1Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L359)
 --- Implicitly protected
 --- child of ProfessionsContentFrame
 --- @class PrimaryProfession1 : Frame, PrimaryProfessionTemplate
@@ -375,7 +376,7 @@ PrimaryProfession2SpellButtonTopNameFrame = {}
 --- @type Texture
 PrimaryProfession2SpellButtonTopHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L221)
 --- Explicitly protected
 --- child of PrimaryProfession2 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_SpellButtonTop
@@ -426,7 +427,7 @@ PrimaryProfession2SpellButtonBottomNameFrame = {}
 --- @type Texture
 PrimaryProfession2SpellButtonBottomHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L226)
 --- Explicitly protected
 --- child of PrimaryProfession2 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_SpellButtonBottom
@@ -488,7 +489,7 @@ PrimaryProfession2StatusBarBGRight = {}
 --- @type Texture
 PrimaryProfession2StatusBarBGMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L231)
 --- child of PrimaryProfession2 (created in template PrimaryProfessionTemplate)
 --- @type PrimaryProfessionTemplate_StatusBar
 PrimaryProfession2StatusBar = {}
@@ -526,7 +527,7 @@ PrimaryProfession2IconBorder = {}
 --- @type Texture
 PrimaryProfession2Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L355)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L364)
 --- Implicitly protected
 --- child of ProfessionsContentFrame
 --- @class PrimaryProfession2 : Frame, PrimaryProfessionTemplate
@@ -570,7 +571,7 @@ SecondaryProfession1SpellButtonRightNameFrame = {}
 --- @type Texture
 SecondaryProfession1SpellButtonRightHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L268)
 --- Explicitly protected
 --- child of SecondaryProfession1 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonRight
@@ -621,7 +622,7 @@ SecondaryProfession1SpellButtonLeftNameFrame = {}
 --- @type Texture
 SecondaryProfession1SpellButtonLeftHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L273)
 --- Explicitly protected
 --- child of SecondaryProfession1 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonLeft
@@ -683,7 +684,7 @@ SecondaryProfession1StatusBarBGRight = {}
 --- @type Texture
 SecondaryProfession1StatusBarBGMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L278)
 --- child of SecondaryProfession1 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_StatusBar
 SecondaryProfession1StatusBar = {}
@@ -691,22 +692,22 @@ SecondaryProfession1StatusBar["capped"] = SecondaryProfession1StatusBarCapped --
 SecondaryProfession1StatusBar["rankText"] = SecondaryProfession1StatusBarRank -- inherited
 SecondaryProfession1StatusBar["capRight"] = SecondaryProfession1StatusBarRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L286)
 --- child of SecondaryProfession1 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_Rank
 SecondaryProfession1Rank = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L293)
 --- child of SecondaryProfession1 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_ProfessionName
 SecondaryProfession1ProfessionName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L307)
 --- child of SecondaryProfession1 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_Missing
 SecondaryProfession1Missing = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L367)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L376)
 --- Implicitly protected
 --- child of ProfessionsContentFrame
 --- @class SecondaryProfession1 : Frame, SecondaryProfessionTemplate
@@ -748,7 +749,7 @@ SecondaryProfession2SpellButtonRightNameFrame = {}
 --- @type Texture
 SecondaryProfession2SpellButtonRightHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L268)
 --- Explicitly protected
 --- child of SecondaryProfession2 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonRight
@@ -799,7 +800,7 @@ SecondaryProfession2SpellButtonLeftNameFrame = {}
 --- @type Texture
 SecondaryProfession2SpellButtonLeftHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L273)
 --- Explicitly protected
 --- child of SecondaryProfession2 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonLeft
@@ -861,7 +862,7 @@ SecondaryProfession2StatusBarBGRight = {}
 --- @type Texture
 SecondaryProfession2StatusBarBGMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L278)
 --- child of SecondaryProfession2 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_StatusBar
 SecondaryProfession2StatusBar = {}
@@ -869,22 +870,22 @@ SecondaryProfession2StatusBar["capped"] = SecondaryProfession2StatusBarCapped --
 SecondaryProfession2StatusBar["rankText"] = SecondaryProfession2StatusBarRank -- inherited
 SecondaryProfession2StatusBar["capRight"] = SecondaryProfession2StatusBarRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L286)
 --- child of SecondaryProfession2 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_Rank
 SecondaryProfession2Rank = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L293)
 --- child of SecondaryProfession2 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_ProfessionName
 SecondaryProfession2ProfessionName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L307)
 --- child of SecondaryProfession2 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_Missing
 SecondaryProfession2Missing = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L378)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L387)
 --- Implicitly protected
 --- child of ProfessionsContentFrame
 --- @class SecondaryProfession2 : Frame, SecondaryProfessionTemplate
@@ -926,7 +927,7 @@ SecondaryProfession3SpellButtonRightNameFrame = {}
 --- @type Texture
 SecondaryProfession3SpellButtonRightHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L268)
 --- Explicitly protected
 --- child of SecondaryProfession3 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonRight
@@ -977,7 +978,7 @@ SecondaryProfession3SpellButtonLeftNameFrame = {}
 --- @type Texture
 SecondaryProfession3SpellButtonLeftHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L273)
 --- Explicitly protected
 --- child of SecondaryProfession3 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_SpellButtonLeft
@@ -1039,7 +1040,7 @@ SecondaryProfession3StatusBarBGRight = {}
 --- @type Texture
 SecondaryProfession3StatusBarBGMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L278)
 --- child of SecondaryProfession3 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_StatusBar
 SecondaryProfession3StatusBar = {}
@@ -1047,22 +1048,22 @@ SecondaryProfession3StatusBar["capped"] = SecondaryProfession3StatusBarCapped --
 SecondaryProfession3StatusBar["rankText"] = SecondaryProfession3StatusBarRank -- inherited
 SecondaryProfession3StatusBar["capRight"] = SecondaryProfession3StatusBarRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L286)
 --- child of SecondaryProfession3 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_Rank
 SecondaryProfession3Rank = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L293)
 --- child of SecondaryProfession3 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_ProfessionName
 SecondaryProfession3ProfessionName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L307)
 --- child of SecondaryProfession3 (created in template SecondaryProfessionTemplate)
 --- @type SecondaryProfessionTemplate_Missing
 SecondaryProfession3Missing = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L389)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L398)
 --- Implicitly protected
 --- child of ProfessionsContentFrame
 --- @class SecondaryProfession3 : Frame, SecondaryProfessionTemplate
@@ -1074,18 +1075,18 @@ SecondaryProfession3["rank"] = SecondaryProfession3Rank -- inherited
 SecondaryProfession3["professionName"] = SecondaryProfession3ProfessionName -- inherited
 SecondaryProfession3["missingHeader"] = SecondaryProfession3Missing -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L344)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L353)
 --- Implicitly protected
 --- child of ProfessionsBookFrame
 --- @class ProfessionsContentFrame : Frame
 ProfessionsContentFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L329)
 --- child of ProfessionsBookFrame
 --- @class ProfessionsBookPage1 : Texture
 ProfessionsBookPage1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L325)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L334)
 --- child of ProfessionsBookFrame
 --- @class ProfessionsBookPage2 : Texture
 ProfessionsBookPage2 = {}
@@ -1106,7 +1107,7 @@ ProfessionsBookFrameCloseButton = {}
 --- @type Texture
 ProfessionsBookFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_ProfessionsBook/Blizzard_ProfessionsBook.xml#L325)
 --- Implicitly protected
 --- @class ProfessionsBookFrame : Frame, ButtonFrameTemplate
 --- @field MainHelpButton ProfessionsBookFrameTutorialButton

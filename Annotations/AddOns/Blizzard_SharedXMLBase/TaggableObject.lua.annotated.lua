@@ -11,10 +11,13 @@ function TaggableObjectMixin:AddTag(tag) end
 function TaggableObjectMixin:RemoveTag(tag) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/TaggableObject.lua#L47)
+function TaggableObjectMixin:RemoveAllTags() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/TaggableObject.lua#L51)
 function TaggableObjectMixin:MatchesTag(tag) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/TaggableObject.lua#L55)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/TaggableObject.lua#L59)
 function TaggableObjectMixin:MatchesAnyTag(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/TaggableObject.lua#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedXMLBase/TaggableObject.lua#L72)
 function TaggableObjectMixin:MatchesAllTags(...) end

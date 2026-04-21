@@ -127,7 +127,7 @@ function RaidFrameToggleButtonMixin:OnLeave() end
 function CRFM_DifficultyDropdownMixin:OnMenuOpened(menu) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L715)
-function CRFM_DifficultyDropdownMixin:OnMenuClosed(menu) end
+function CRFM_DifficultyDropdownMixin:OnMenuClosed(menu, closeReason) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CompactRaidFrames/Mainline/Blizzard_CompactRaidFrameManager.lua#L721)
 function CRFM_DifficultyDropdownMixin:OnButtonStateChanged() end

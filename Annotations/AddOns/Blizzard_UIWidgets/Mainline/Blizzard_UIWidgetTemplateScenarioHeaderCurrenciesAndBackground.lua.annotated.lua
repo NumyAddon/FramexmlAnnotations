@@ -4,14 +4,14 @@
 --- @class UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin : UIWidgetBaseTemplateMixin
 UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin = CreateFromMixins(UIWidgetBaseTemplateMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.lua#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.lua#L24)
 function UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin:Setup(widgetInfo, widgetContainer) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.lua#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.lua#L88)
 function UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin:CustomDebugSetup(color) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.lua#L86)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.lua#L98)
 function UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.lua#L90)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIWidgets/Mainline/Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.lua#L102)
 function UIWidgetTemplateScenarioHeaderCurrenciesAndBackgroundMixin:OnReset() end

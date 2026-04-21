@@ -17,6 +17,10 @@ HouseExitButtonMixin = {}
 HouseInfoButtonMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L144)
+--- @class HouseInspectorButtonMixin
+HouseInspectorButtonMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L172)
 --- @class HouseSettingsButtonMixin
 HouseSettingsButtonMixin = {}
 
@@ -69,13 +73,25 @@ function HouseInfoButtonMixin:CheckEnabled() end
 function HouseInfoButtonMixin:IsActive() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L146)
+function HouseInspectorButtonMixin:EnterMode() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L154)
+function HouseInspectorButtonMixin:LeaveMode() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L158)
+function HouseInspectorButtonMixin:CheckEnabled() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L167)
+function HouseInspectorButtonMixin:IsActive() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L174)
 function HouseSettingsButtonMixin:EnterMode() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L181)
 function HouseSettingsButtonMixin:LeaveMode() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L157)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L185)
 function HouseSettingsButtonMixin:IsActive() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.lua#L189)
 function HouseSettingsButtonMixin:CheckEnabled() end

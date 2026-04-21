@@ -4,75 +4,75 @@
 --- @class TalentButtonArtMixin
 TalentButtonArtMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L471)
 --- @class TalentButtonSplitIconMixin
 TalentButtonSplitIconMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L211)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L239)
 function TalentButtonArtMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L262)
 function TalentButtonArtMixin:ApplyVisualState(visualState) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L261)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L289)
 function TalentButtonArtMixin:UpdateNonStateVisuals() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L267)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L295)
 function TalentButtonArtMixin:UpdateStateBorder(visualState) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L326)
 function TalentButtonArtMixin:SetAndApplySize(width, height) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L307)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L335)
 function TalentButtonArtMixin:ApplySize(width, height) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L361)
 function TalentButtonArtMixin:GetCircleEdgeDiameterOffset(unused_angle) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L365)
 function TalentButtonArtMixin:GetSquareEdgeDiameterOffset(angle) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L344)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L372)
 function TalentButtonArtMixin:GetChoiceEdgeDiameterOffset(angle) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L379)
 function TalentButtonArtMixin:UpdateSearchIcon() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L390)
 function TalentButtonArtMixin:UpdateGlow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L368)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L396)
 function TalentButtonArtMixin:OnEnterVisuals() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L374)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L402)
 function TalentButtonArtMixin:OnLeaveVisuals() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L380)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L408)
 function TalentButtonArtMixin:UpdateColorBlindVisuals(isColorBlindModeActive) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L415)
 function TalentButtonArtMixin:PlayPurchaseInProgressEffect(fxModelScene, fxIDs) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L391)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L419)
 function TalentButtonArtMixin:StopPurchaseInProgressEffect() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L424)
 function TalentButtonArtMixin:PlayPurchaseCompleteEffect(fxModelScene, fxIDs) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L400)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L428)
 function TalentButtonArtMixin:StopPurchaseCompleteEffect() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L405)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L433)
 function TalentButtonArtMixin:InternalPlayAnimEffects(animEffectControllers, fxModelScene, fxIDs) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L425)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L453)
 function TalentButtonArtMixin:InternalStopAnimEffects(animEffectControllers) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L437)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L465)
 function TalentButtonArtMixin:ResetActiveVisuals() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L445)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L473)
 function TalentButtonSplitIconMixin:ApplyVisualState(visualState) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L452)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.lua#L480)
 function TalentButtonSplitIconMixin:SetSplitIconShown(isSplitShown) end

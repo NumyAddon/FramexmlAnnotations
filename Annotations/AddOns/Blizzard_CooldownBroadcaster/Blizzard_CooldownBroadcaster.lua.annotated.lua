@@ -4,56 +4,62 @@
 --- @class CooldownSyncRelayMixin
 CooldownSyncRelayMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L19)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L41)
 function CooldownSyncRelayMixin:GetSupportedTrackedSpells() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L42)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L100)
 function CooldownSyncRelayMixin:GetChannel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L50)
-function CooldownSyncRelayMixin:SendComm(...) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L108)
+function CooldownSyncRelayMixin:SendComm(msg, key) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L56)
-function CooldownSyncRelayMixin:SendINF() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L67)
-function CooldownSyncRelayMixin:RefreshCooldownSyncIDs() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L83)
-function CooldownSyncRelayMixin:GetSpellCooldown(spellID, gcdInfo) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L114)
-function CooldownSyncRelayMixin:EnableSync() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L123)
-function CooldownSyncRelayMixin:DisableSync() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L116)
+function CooldownSyncRelayMixin:SendSpellInfoMessage() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L130)
+function CooldownSyncRelayMixin:RefreshSpellData(list, specID) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L149)
+function CooldownSyncRelayMixin:HasTrackedSpellsChanged() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L166)
+function CooldownSyncRelayMixin:GetSpellCooldown(spellID) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L201)
+function CooldownSyncRelayMixin:EnableSync() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L212)
+function CooldownSyncRelayMixin:DisableSync() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L222)
 function CooldownSyncRelayMixin:ShouldSyncBeEnabled() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L226)
+function CooldownSyncRelayMixin:GetOnlineGroupMemberGUIDs() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L249)
 function CooldownSyncRelayMixin:UpdateSyncState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L145)
-function CooldownSyncRelayMixin:BuildCooldownPayload(filterSpellIDs, force) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L257)
+function CooldownSyncRelayMixin:BuildSpellCooldownRows(filterSpellIDs, force) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L219)
-function CooldownSyncRelayMixin:FlushCooldownsIfChanged(filterSpellIDs, force) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L320)
+function CooldownSyncRelayMixin:SendSpellCooldownMessage(filterSpellIDs, force) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L226)
-function CooldownSyncRelayMixin:ADDON_LOADED(addon) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L349)
+function CooldownSyncRelayMixin:PLAYER_ENTERING_WORLD(isInitialLogin, isReloadingUi) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L232)
-function CooldownSyncRelayMixin:PLAYER_ENTERING_WORLD() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L358)
 function CooldownSyncRelayMixin:GROUP_ROSTER_UPDATE() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L383)
+function CooldownSyncRelayMixin:UNIT_CONNECTION(unit, isConnected) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L390)
 function CooldownSyncRelayMixin:SPELLS_CHANGED() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L261)
-function CooldownSyncRelayMixin:SPELL_UPDATE_COOLDOWN(spellID, baseSpellID) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L411)
+function CooldownSyncRelayMixin:SPELL_UPDATE_COOLDOWN(spellID, baseSpellID, category, startRecoveryCategory) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_CooldownBroadcaster/Blizzard_CooldownBroadcaster.lua#L433)
 function CooldownSyncRelayMixin:OnLoad() end

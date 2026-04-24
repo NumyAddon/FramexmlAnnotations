@@ -20,7 +20,7 @@ PrivateAuraAnchorContainerMixin = {}
 --- @class PrivateAuraAnchorSingleMixin
 PrivateAuraAnchorSingleMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L1330)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L1332)
 --- @class CompactUnitFrameDispelOverlayMixin
 CompactUnitFrameDispelOverlayMixin = {}
 
@@ -261,8 +261,8 @@ function PrivateAuraAnchorSingleMixin:HandleUpdateInfo(_privateSource, _updateIn
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L1078)
 function PrivateAuraAnchorSingleMixin:ShouldShowDispelType() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L1332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L1334)
 function CompactUnitFrameDispelOverlayMixin:SetDispelType(dispelType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L1350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_PrivateAurasUI/Blizzard_PrivateAurasUI.lua#L1352)
 function CompactUnitFrameDispelOverlayMixin:SetOrientation(orientation, additionalXOffset, additionalYOffset) end

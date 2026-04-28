@@ -1768,6 +1768,7 @@
 --- | "TotalAbsorbBarOverlayTemplate"
 --- | "TotalAbsorbBarTemplate"
 --- | "TradeHighlightTemplate"
+--- | "TradeItemAlertTemplate"
 --- | "TradeItemTemplate"
 --- | "TradeSkillItemTemplate"
 --- | "TradeSkillSkillButtonTemplate"

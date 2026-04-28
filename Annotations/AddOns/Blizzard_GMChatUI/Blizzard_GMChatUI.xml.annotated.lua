@@ -65,37 +65,37 @@ GMChatFrameLeft = {}
 --- @class GMChatFrameRight : Texture, _Thin_BorderRight
 GMChatFrameRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L398)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
 --- @type Button
 GMChatFrameClickAnywhereButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L409)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L411)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_ResizeButton
 GMChatFrameResizeButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L454)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L456)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_BottomButton : Button
 --- @field layoutIndex number # 3
 --- @field align string # center
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L476)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L478)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_DownButton : Button, MessageFrameScrollButtonMixin
 --- @field layoutIndex number # 2
 --- @field bottomPadding number # -2
 --- @field align string # center
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L493)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L495)
 --- child of FloatingChatFrameTemplateButtonFrame
 --- @class FloatingChatFrameTemplate_ButtonFrame_UpButton : Button, MessageFrameScrollButtonMixin
 --- @field layoutIndex number # 1
 --- @field bottomPadding number # -2
 --- @field align string # center
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L448)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L450)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_ButtonFrame
 GMChatFrameButtonFrame = {}
@@ -104,7 +104,7 @@ GMChatFrameButtonFrame["downButton"] = FloatingChatFrameTemplateButtonFrameDownB
 GMChatFrameButtonFrame["upButton"] = FloatingChatFrameTemplateButtonFrameUpButton
 GMChatFrameButtonFrame["fixedWidth"] = 29
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L515)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L517)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_MinimizeButton
 GMChatFrameMinimizeButton = {}
@@ -144,7 +144,7 @@ GMChatFrameEditBoxHeaderSuffix = {}
 --- @type ChatFrameEditBoxTemplate_Prompt
 GMChatFrameEditBoxPrompt = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L562)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GMChatUI/Blizzard_GMChatUI.xml#L564)
 --- child of GMChatFrame (created in template FloatingChatFrameTemplate)
 --- @type FloatingChatFrameTemplate_EditBox
 GMChatFrameEditBox = {}

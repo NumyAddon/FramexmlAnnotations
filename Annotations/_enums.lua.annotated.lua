@@ -14,29 +14,11 @@ local SettingsLayoutMixin_LayoutType = {
     ["Canvas"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L40)
---- @enum MinimalSliderWithSteppersMixin.Label
-local MinimalSliderWithSteppersMixin_Label = {
-    ["Left"] = 1,
-    ["Right"] = 2,
-    ["Top"] = 3,
-    ["Min"] = 4,
-    ["Max"] = 5,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1246)
---- @enum IconSelectorPopupFrameModes
-local IconSelectorPopupFrameModes = {
-    ["New"] = 1,
-    ["Edit"] = 2,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1251)
---- @enum IconSelectorPopupFrameIconFilterTypes
-local IconSelectorPopupFrameIconFilterTypes = {
-    ["All"] = 1,
-    ["Spell"] = 2,
-    ["Item"] = 3,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L45)
+--- @enum IconDataProviderIconType
+local IconDataProviderIconType = {
+    ["Spell"] = 1,
+    ["Item"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)
@@ -65,10 +47,28 @@ local AuraUtil_UnitFrameDebuffType = {
     ["NonBossDebuff"] = 5,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L45)
---- @enum IconDataProviderIconType
-local IconDataProviderIconType = {
-    ["Spell"] = 1,
-    ["Item"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L40)
+--- @enum MinimalSliderWithSteppersMixin.Label
+local MinimalSliderWithSteppersMixin_Label = {
+    ["Left"] = 1,
+    ["Right"] = 2,
+    ["Top"] = 3,
+    ["Min"] = 4,
+    ["Max"] = 5,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1246)
+--- @enum IconSelectorPopupFrameModes
+local IconSelectorPopupFrameModes = {
+    ["New"] = 1,
+    ["Edit"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1251)
+--- @enum IconSelectorPopupFrameIconFilterTypes
+local IconSelectorPopupFrameIconFilterTypes = {
+    ["All"] = 1,
+    ["Spell"] = 2,
+    ["Item"] = 3,
 }
 

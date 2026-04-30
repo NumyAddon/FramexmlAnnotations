@@ -5,7 +5,7 @@
 --- @class ActionButtonSpellAlertTemplate_ProcLoop : AnimationGroup
 --- @field FlipAnim FlipBook
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonSpellAlerts.xml#L27)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/ActionButtonSpellAlerts.xml#L28)
 --- child of ActionButtonSpellAlertTemplate
 --- @class ActionButtonSpellAlertTemplate_ProcStartAnim : AnimationGroup
 

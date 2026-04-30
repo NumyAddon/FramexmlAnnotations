@@ -81,7 +81,7 @@ function DropdownButtonMixin:OnMenuChanged() end
 function DropdownButtonMixin:OnMenuOpened(menu) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L320)
-function DropdownButtonMixin:OnMenuClosed(menu) end
+function DropdownButtonMixin:OnMenuClosed(menu, closeReason) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Menu/DropdownButton.lua#L326)
 function DropdownButtonMixin:UpdateSelections(selections) end

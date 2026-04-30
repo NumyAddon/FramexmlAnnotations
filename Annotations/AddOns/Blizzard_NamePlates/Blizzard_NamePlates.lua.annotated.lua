@@ -8,6 +8,10 @@ NamePlateDriverMixin = {}
 --- @class NamePlateBorderTemplateMixin
 NamePlateBorderTemplateMixin = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L556)
+--- @class NamePlateScriptBaseMixin
+NamePlateScriptBaseMixin = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L11)
 function NamePlateDriverMixin:OnLoad() end
 
@@ -136,3 +140,21 @@ function NamePlateBorderTemplateMixin:SetBorderSizes(borderSize, borderSizeMinPi
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L530)
 function NamePlateBorderTemplateMixin:UpdateSizes() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L558)
+function NamePlateScriptBaseMixin:CanChangeHitTestPoints() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L562)
+function NamePlateScriptBaseMixin:ClearAllHitTestPoints() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L565)
+function NamePlateScriptBaseMixin:GetHitTestPoints() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L569)
+function NamePlateScriptBaseMixin:SetHitTestPoints(_points) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L572)
+function NamePlateScriptBaseMixin:SetAllHitTestPoints(_relativeTo) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L575)
+function NamePlateScriptBaseMixin:SetStackingBoundsFrame(_frame) end

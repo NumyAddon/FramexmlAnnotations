@@ -21,4 +21,5 @@
 --- @field FillOverlay InsanityBarFrame_FillOverlay
 --- @field InsanityAnims InsanityBarFrame_InsanityAnims
 InsanityBarFrame = {}
+InsanityBarFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 

@@ -236,10 +236,22 @@ BonusRollMoneyWonFrame = {}
 --- child of MasterLooterFrame
 --- @class MasterLooterFrame_player1 : Button, MasterLooterPlayerTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L509)
+--- child of MasterLooterFrame (created in template DefaultPanelTemplate)
+--- @type Texture
+MasterLooterFrameBg = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L517)
+--- child of MasterLooterFrame (created in template DefaultPanelTemplate)
+--- @type DefaultPanelTemplate_TopTileStreaks
+MasterLooterFrameTopTileStreaks = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L610)
---- @class MasterLooterFrame : Frame, TooltipBackdropTemplate
+--- @class MasterLooterFrame : Frame, DefaultPanelTemplate
 --- @field Item MasterLooterFrame_Item
 --- @field player1 MasterLooterFrame_player1
 MasterLooterFrame = {}
-MasterLooterFrame["layoutType"] = "TooltipDefaultLayout" -- inherited
+MasterLooterFrame["Bg"] = MasterLooterFrameBg -- inherited
+MasterLooterFrame["TopTileStreaks"] = MasterLooterFrameTopTileStreaks -- inherited
+MasterLooterFrame["layoutType"] = "ButtonFrameTemplateNoPortrait" -- inherited
 

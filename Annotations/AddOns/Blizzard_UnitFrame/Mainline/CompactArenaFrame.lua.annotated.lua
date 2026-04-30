@@ -20,7 +20,7 @@ ArenaUnitFrameCcRemoverMixin = {}
 --- @class ArenaUnitFrameDebuffMixin
 ArenaUnitFrameDebuffMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L547)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L551)
 --- @class StealthedArenaUnitFrameMixin
 StealthedArenaUnitFrameMixin = {}
 
@@ -102,26 +102,26 @@ function ArenaUnitFrameDebuffMixin:UpdateTooltip() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L485)
 function ArenaUnitFrameDebuffMixin:SetUnit(unitToken) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L500)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L502)
 function ArenaUnitFrameDebuffMixin:Update() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L538)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L542)
 function ArenaUnitFrameDebuffMixin:SetIsInEditMode(isInEditMode) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L543)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L547)
 function ArenaUnitFrameDebuffMixin:UpdateShownState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L553)
 function StealthedArenaUnitFrameMixin:SetUnitFrame(unitFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L570)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L574)
 function StealthedArenaUnitFrameMixin:HasValidUnitFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L574)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L578)
 function StealthedArenaUnitFrameMixin:GetUnitClassInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L592)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L596)
 function StealthedArenaUnitFrameMixin:UpdateName(unitClassInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L600)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.lua#L604)
 function StealthedArenaUnitFrameMixin:UpdateShownState() end

@@ -750,7 +750,7 @@ TrainingGroundsFrameTypeDropdown = {}
 --- @field titleText any # RANDOM_BATTLEGROUNDS
 --- @field queueOption string # RandomTrainingGround
 --- @field tooltipTitle any # BONUS_BUTTON_RANDOM_BG_TITLE
---- @field tooltipDescription any # BONUS_BUTTON_RANDOM_BG_DESC
+--- @field tooltipDescription any # BONUS_BUTTON_RANDOM_TRAINING_GROUND_DESC
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1084)
 --- child of TrainingGroundsFrame_BonusTrainingGroundList_ShadowOverlay (created in template ShadowOverlaySmallTemplate)

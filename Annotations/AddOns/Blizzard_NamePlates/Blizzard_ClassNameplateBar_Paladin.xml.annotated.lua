@@ -77,6 +77,7 @@ ClassNameplateBarPaladinFrame["rune4"] = ClassNameplateBarPaladinFrameRune4 -- i
 ClassNameplateBarPaladinFrame["rune5"] = ClassNameplateBarPaladinFrameRune5 -- inherited
 ClassNameplateBarPaladinFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarPaladinFrame["layoutIndex"] = 1 -- inherited
+ClassNameplateBarPaladinFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 ClassNameplateBarPaladinFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 ClassNameplateBarPaladinFrame["align"] = "center" -- inherited
 ClassNameplateBarPaladinFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

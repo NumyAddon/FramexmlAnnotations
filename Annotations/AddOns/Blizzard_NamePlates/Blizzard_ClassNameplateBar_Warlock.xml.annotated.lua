@@ -27,6 +27,7 @@ ClassNameplateBarWarlockFrame["requiredShownLevel"] = 10 -- inherited
 ClassNameplateBarWarlockFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarWarlockFrame["layoutIndex"] = 1 -- inherited
 ClassNameplateBarWarlockFrame["usePooledResourceButtons"] = true -- inherited
+ClassNameplateBarWarlockFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 ClassNameplateBarWarlockFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 ClassNameplateBarWarlockFrame["align"] = "center" -- inherited
 ClassNameplateBarWarlockFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

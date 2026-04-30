@@ -1,10 +1,10 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L33)
 --- @class CommentatorSpellMixin : CommentatorSpellBaseMixin
 CommentatorSpellMixin = CreateFromMixins(CommentatorSpellBaseMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L102)
 --- @class CommentatorDebuffMixin : CommentatorSpellBaseMixin
 CommentatorDebuffMixin = CreateFromMixins(CommentatorSpellBaseMixin)
 
@@ -12,63 +12,63 @@ CommentatorDebuffMixin = CreateFromMixins(CommentatorSpellBaseMixin)
 --- @class CommentatorSpellBaseMixin
 CommentatorSpellBaseMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L119)
 --- @class CommentatorCooldownMixin
 CommentatorCooldownMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L3)
 function CommentatorSpellBaseMixin:Initialize(spellCache) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L12)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L13)
 function CommentatorSpellBaseMixin:Reset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L16)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L17)
 function CommentatorSpellBaseMixin:GetSpellID() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L21)
 function CommentatorSpellBaseMixin:IsActive() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L24)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L25)
 function CommentatorSpellBaseMixin:OnUpdate(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L28)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L29)
 function CommentatorSpellBaseMixin:SetActive(isActive) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L35)
 function CommentatorSpellMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L39)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L40)
 function CommentatorSpellMixin:OnUpdate(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L47)
 function CommentatorSpellMixin:UpdateActiveAnimation(elapsed) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L51)
 function CommentatorSpellMixin:SetActive(isActive) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L60)
 function CommentatorSpellMixin:UpdateCharges() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L69)
 function CommentatorSpellMixin:UpdateCooldown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L78)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L79)
 function CommentatorSpellMixin:UsesItemCharges() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L86)
 function CommentatorSpellMixin:UpdateCooldownsAndCharges() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L96)
 function CommentatorSpellMixin:Initialize(spellCache) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L104)
 function CommentatorDebuffMixin:UpdateCooldowns() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L109)
 function CommentatorDebuffMixin:SetActive(isActive) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L113)
 function CommentatorDebuffMixin:Initialize(spellCache) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Commentator/Blizzard_CommentatorSpell.lua#L121)
 function CommentatorCooldownMixin:OnLoad() end

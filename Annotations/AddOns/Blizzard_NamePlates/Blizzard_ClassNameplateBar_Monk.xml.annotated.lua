@@ -21,6 +21,7 @@ ClassNameplateBarWindwalkerMonkFrame["spec"] = SPEC_MONK_WINDWALKER -- inherited
 ClassNameplateBarWindwalkerMonkFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarWindwalkerMonkFrame["layoutIndex"] = 1 -- inherited
 ClassNameplateBarWindwalkerMonkFrame["usePooledResourceButtons"] = true -- inherited
+ClassNameplateBarWindwalkerMonkFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 ClassNameplateBarWindwalkerMonkFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 ClassNameplateBarWindwalkerMonkFrame["align"] = "center" -- inherited
 ClassNameplateBarWindwalkerMonkFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

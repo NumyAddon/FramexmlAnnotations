@@ -2,25 +2,25 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L14)
 --- child of AuraButtonArtTemplate
---- @class AuraButtonArtTemplate_Count : FontString, NumberFontNormal
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L19)
---- child of AuraButtonArtTemplate
 --- @class AuraButtonArtTemplate_Duration : FontString, GameFontNormalSmall
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L33)
+--- child of AuraButtonArtTemplate
+--- @class AuraButtonArtTemplate_Symbol : FontString, TextStatusBarText
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L38)
 --- child of AuraButtonArtTemplate
---- @class AuraButtonArtTemplate_Symbol : FontString, TextStatusBarText
+--- @class AuraButtonArtTemplate_Count : FontString, NumberFontNormal
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L4)
 --- Template
 --- @class AuraButtonArtTemplate : Frame
 --- @field Icon Texture
---- @field Count AuraButtonArtTemplate_Count
 --- @field Duration AuraButtonArtTemplate_Duration
 --- @field DebuffBorder Texture
 --- @field TempEnchantBorder Texture
 --- @field Symbol AuraButtonArtTemplate_Symbol
+--- @field Count AuraButtonArtTemplate_Count
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_BuffFrame/BuffFrameTemplates.xml#L47)
 --- Template

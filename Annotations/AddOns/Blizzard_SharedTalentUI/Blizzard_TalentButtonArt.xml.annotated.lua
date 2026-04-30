@@ -127,3 +127,14 @@
 --- @field artSet any # TalentButtonArtMixin.ArtSet.CapstoneSquare
 --- @field sizingAdjustment any # TalentButtonUtil.SizingAdjustment.CapstoneSquare
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.xml#L265)
+--- Template
+--- @class TalentButtonScenarioChallengeCircleTemplate : Button, TalentButtonArtTemplate
+--- @field artSet any # TalentButtonArtMixin.ArtSet.ScenarioChallengeCircle
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.xml#L271)
+--- Template
+--- @class TalentButtonDelveChallengeCircleTemplate : Button, TalentButtonArtTemplate
+--- @field artSet any # TalentButtonArtMixin.ArtSet.DelveChallengeCircle
+--- @field sizingAdjustment any # TalentButtonUtil.SizingAdjustment.DelveChallengeCircle
+

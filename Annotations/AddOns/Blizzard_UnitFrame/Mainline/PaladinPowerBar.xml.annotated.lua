@@ -199,6 +199,7 @@ PaladinPowerBarFrame["rune4"] = PaladinPowerBarFrameRune4 -- inherited
 PaladinPowerBarFrame["rune5"] = PaladinPowerBarFrameRune5 -- inherited
 PaladinPowerBarFrame["maxUsablePoints"] = 5 -- inherited
 PaladinPowerBarFrame["resourceBarMixin"] = ClassPowerBar -- inherited
+PaladinPowerBarFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 PaladinPowerBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 PaladinPowerBarFrame["align"] = "center" -- inherited
 PaladinPowerBarFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

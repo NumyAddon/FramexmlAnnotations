@@ -63,6 +63,7 @@ MonkHarmonyBarFrame["spec"] = SPEC_MONK_WINDWALKER -- inherited
 MonkHarmonyBarFrame["maxUsablePoints"] = 5 -- inherited
 MonkHarmonyBarFrame["resourceBarMixin"] = ClassPowerBar -- inherited
 MonkHarmonyBarFrame["usePooledResourceButtons"] = true -- inherited
+MonkHarmonyBarFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 MonkHarmonyBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 MonkHarmonyBarFrame["align"] = "center" -- inherited
 MonkHarmonyBarFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

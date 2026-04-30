@@ -35,7 +35,7 @@
 --- Template
 --- @class SecureAuraHeaderTemplate : Frame, SecureFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RestrictedAddOnEnvironment/SecureGroupHeaders.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_RestrictedAddOnEnvironment/SecureGroupHeaders.xml#L65)
 --- Explicitly protected
 --- Template
 --- @class SecureAuraButtonTemplate : Button, SecureActionButtonTemplate

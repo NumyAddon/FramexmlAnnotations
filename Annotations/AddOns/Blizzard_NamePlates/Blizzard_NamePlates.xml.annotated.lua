@@ -148,27 +148,27 @@ NamePlateDriverFrame = {}
 --- @class BaseNamePlateUnitFrameTemplate_SoftTargetFrame : Frame
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L370)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_name : FontString, SystemFont_NamePlate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L416)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_LoseAggroAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L426)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L420)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_AggroHighlightFadeInAnim : AnimationGroup
 --- @field aggroHighlightBaseAlpha Alpha
 --- @field aggroHighlightAdditiveAlpha Alpha
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L430)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L424)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_AggroHighlightFadeOutAnim : AnimationGroup
 --- @field aggroHighlightBaseAlpha Alpha
 --- @field aggroHighlightAdditiveAlpha Alpha
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L434)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L428)
 --- child of BaseNamePlateUnitFrameTemplate
 --- @class BaseNamePlateUnitFrameTemplate_AggroHighlightScrollAnim : AnimationGroup
 
@@ -186,7 +186,6 @@ NamePlateDriverFrame = {}
 --- @field AurasFrame BaseNamePlateUnitFrameTemplate_AurasFrame
 --- @field PlayerLevelDiffFrame BaseNamePlateUnitFrameTemplate_PlayerLevelDiffFrame
 --- @field SoftTargetFrame BaseNamePlateUnitFrameTemplate_SoftTargetFrame
---- @field HitTestFrame Frame
 --- @field behindCameraIcon Texture
 --- @field name BaseNamePlateUnitFrameTemplate_name
 --- @field selectionHighlight Texture
@@ -200,11 +199,15 @@ NamePlateDriverFrame = {}
 --- @field AggroHighlightFadeOutAnim BaseNamePlateUnitFrameTemplate_AggroHighlightFadeOutAnim
 --- @field AggroHighlightScrollAnim BaseNamePlateUnitFrameTemplate_AggroHighlightScrollAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L445)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L439)
 --- Template
 --- @class NamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L446)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L440)
 --- Template
 --- @class ForbiddenNamePlateUnitFrameTemplate : Button, BaseNamePlateUnitFrameTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.xml#L443)
+--- Template
+--- @class NamePlateScriptBaseTemplate : Frame, NamePlateScriptBaseMixin
 

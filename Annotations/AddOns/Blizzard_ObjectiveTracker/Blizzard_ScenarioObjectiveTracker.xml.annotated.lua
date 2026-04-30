@@ -101,31 +101,31 @@
 --- @class ScenarioObjectiveTracker_ObjectivesBlock : Frame, ObjectiveTrackerBlockTemplate
 --- @field offsetX number # 32
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L308)
 --- child of ScenarioObjectiveTracker_StageBlock
 --- @class ScenarioObjectiveTracker_StageBlock_WidgetContainer : Frame, UIWidgetContainerTemplate
 --- @field verticalAnchorPoint string # TOPRIGHT
 --- @field verticalRelativePoint string # TOPRIGHT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L262)
 --- child of ScenarioObjectiveTracker_StageBlock_GlowTexture
 --- @class ScenarioObjectiveTracker_StageBlock_GlowTexture_AlphaAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L250)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L257)
 --- child of ScenarioObjectiveTracker_StageBlock
 --- @class ScenarioObjectiveTracker_StageBlock_GlowTexture : Texture
 --- @field AlphaAnim ScenarioObjectiveTracker_StageBlock_GlowTexture_AlphaAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L270)
 --- child of ScenarioObjectiveTracker_StageBlock
 --- @class ScenarioObjectiveTracker_StageBlock_Stage : FontString, Game18Font, AutoScalingFontStringMixin
 --- @field minLineHeight number # 12
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L286)
 --- child of ScenarioObjectiveTracker_StageBlock
 --- @class ScenarioObjectiveTracker_StageBlock_CompleteLabel : FontString, QuestTitleFont
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L298)
 --- child of ScenarioObjectiveTracker_StageBlock
 --- @class ScenarioObjectiveTracker_StageBlock_Name : FontString, GameFontNormal
 
@@ -135,72 +135,83 @@
 --- @field height number # 83
 --- @field WidgetContainer ScenarioObjectiveTracker_StageBlock_WidgetContainer
 --- @field NormalBG Texture
+--- @field ThemeOverlay Texture
 --- @field FinalBG Texture
 --- @field GlowTexture ScenarioObjectiveTracker_StageBlock_GlowTexture
 --- @field Stage ScenarioObjectiveTracker_StageBlock_Stage
 --- @field CompleteLabel ScenarioObjectiveTracker_StageBlock_CompleteLabel
 --- @field Name ScenarioObjectiveTracker_StageBlock_Name
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L321)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L328)
 --- child of ScenarioObjectiveTracker_TopWidgetContainerBlock
 --- @class ScenarioObjectiveTracker_TopWidgetContainerBlock_WidgetContainer : Frame, UIWidgetContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L323)
 --- child of ScenarioObjectiveTracker
 --- @class ScenarioObjectiveTracker_TopWidgetContainerBlock : Frame
 --- @field padding number # 7
 --- @field WidgetContainer ScenarioObjectiveTracker_TopWidgetContainerBlock_WidgetContainer
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L340)
 --- child of ScenarioObjectiveTracker_BottomWidgetContainerBlock
 --- @class ScenarioObjectiveTracker_BottomWidgetContainerBlock_WidgetContainer : Frame, UIWidgetContainerTemplate
 --- @field horizontalRowAnchorPoint string # TOPLEFT
 --- @field horizontalRowRelativePoint string # BOTTOMLEFT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L328)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L335)
 --- child of ScenarioObjectiveTracker
 --- @class ScenarioObjectiveTracker_BottomWidgetContainerBlock : Frame
 --- @field padding number # 15
 --- @field WidgetContainer ScenarioObjectiveTracker_BottomWidgetContainerBlock_WidgetContainer
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L357)
 --- child of ScenarioObjectiveTracker_MawBuffsBlock
 --- @class ScenarioObjectiveTracker_MawBuffsBlock_Container : Button, MawBuffsContainer
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L344)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L351)
 --- child of ScenarioObjectiveTracker
 --- @class ScenarioObjectiveTracker_MawBuffsBlock : Frame
 --- @field height number # 50
 --- @field Container ScenarioObjectiveTracker_MawBuffsBlock_Container
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L392)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L370)
+--- child of ScenarioObjectiveTracker_TieredEntranceTraitsBlock
+--- @class ScenarioObjectiveTracker_TieredEntranceTraitsBlock_Container : Button, TieredEntranceTraitsContainer
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L364)
+--- child of ScenarioObjectiveTracker
+--- @class ScenarioObjectiveTracker_TieredEntranceTraitsBlock : Frame
+--- @field height number # 34
+--- @field Container ScenarioObjectiveTracker_TieredEntranceTraitsBlock_Container
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L412)
 --- child of ScenarioObjectiveTracker_ChallengeModeBlock
 --- @class ScenarioObjectiveTracker_ChallengeModeBlock_StartedDepleted : Frame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L417)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L437)
 --- child of ScenarioObjectiveTracker_ChallengeModeBlock
 --- @class ScenarioObjectiveTracker_ChallengeModeBlock_TimesUpLootStatus : Frame
 --- @field NoLoot Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L454)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L474)
 --- child of ScenarioObjectiveTracker_ChallengeModeBlock_DeathCount
 --- @class ScenarioObjectiveTracker_ChallengeModeBlock_DeathCount_Count : FontString, GameFontHighlightSmall2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L462)
 --- child of ScenarioObjectiveTracker_ChallengeModeBlock
 --- @class ScenarioObjectiveTracker_ChallengeModeBlock_DeathCount : Frame
 --- @field Icon Texture
 --- @field Count ScenarioObjectiveTracker_ChallengeModeBlock_DeathCount_Count
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L379)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L399)
 --- child of ScenarioObjectiveTracker_ChallengeModeBlock
 --- @class ScenarioObjectiveTracker_ChallengeModeBlock_Level : FontString, GameFontNormalMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L384)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L404)
 --- child of ScenarioObjectiveTracker_ChallengeModeBlock
 --- @class ScenarioObjectiveTracker_ChallengeModeBlock_TimeLeft : FontString, GameFontHighlightHuge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L357)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L377)
 --- child of ScenarioObjectiveTracker
 --- @class ScenarioObjectiveTracker_ChallengeModeBlock : Frame, ScenarioObjectiveTrackerChallengeModeMixin
 --- @field height number # 87
@@ -213,20 +224,20 @@
 --- @field Level ScenarioObjectiveTracker_ChallengeModeBlock_Level
 --- @field TimeLeft ScenarioObjectiveTracker_ChallengeModeBlock_TimeLeft
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L548)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L568)
 --- child of ScenarioObjectiveTracker_ProvingGroundsBlock_StatusBar
 --- @class ScenarioObjectiveTracker_ProvingGroundsBlock_StatusBar_TimeLeft : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L538)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L558)
 --- child of ScenarioObjectiveTracker_ProvingGroundsBlock
 --- @class ScenarioObjectiveTracker_ProvingGroundsBlock_StatusBar : StatusBar
 --- @field TimeLeft ScenarioObjectiveTracker_ProvingGroundsBlock_StatusBar_TimeLeft
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L556)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L576)
 --- child of ScenarioObjectiveTracker_ProvingGroundsBlock_CountdownAnimFrame
 --- @class ScenarioObjectiveTracker_ProvingGroundsBlock_CountdownAnimFrame_Anim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L554)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L574)
 --- child of ScenarioObjectiveTracker_ProvingGroundsBlock
 --- @class ScenarioObjectiveTracker_ProvingGroundsBlock_CountdownAnimFrame : Frame
 --- @field BGAnim Texture
@@ -234,23 +245,23 @@
 --- @field Glow Texture
 --- @field Anim ScenarioObjectiveTracker_ProvingGroundsBlock_CountdownAnimFrame_Anim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L505)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L525)
 --- child of ScenarioObjectiveTracker_ProvingGroundsBlock
 --- @class ScenarioObjectiveTracker_ProvingGroundsBlock_WaveLabel : FontString, QuestFont_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L515)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L535)
 --- child of ScenarioObjectiveTracker_ProvingGroundsBlock
 --- @class ScenarioObjectiveTracker_ProvingGroundsBlock_Wave : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L520)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L540)
 --- child of ScenarioObjectiveTracker_ProvingGroundsBlock
 --- @class ScenarioObjectiveTracker_ProvingGroundsBlock_ScoreLabel : FontString, QuestFont_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L530)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L550)
 --- child of ScenarioObjectiveTracker_ProvingGroundsBlock
 --- @class ScenarioObjectiveTracker_ProvingGroundsBlock_Score : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L478)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L498)
 --- child of ScenarioObjectiveTracker
 --- @class ScenarioObjectiveTracker_ProvingGroundsBlock : Frame, ScenarioObjectiveTrackerProvingGroundsMixin
 --- @field height number # 77
@@ -271,22 +282,23 @@
 --- @field TopWidgetContainerBlock ScenarioObjectiveTracker_TopWidgetContainerBlock
 --- @field BottomWidgetContainerBlock ScenarioObjectiveTracker_BottomWidgetContainerBlock
 --- @field MawBuffsBlock ScenarioObjectiveTracker_MawBuffsBlock
+--- @field TieredEntranceTraitsBlock ScenarioObjectiveTracker_TieredEntranceTraitsBlock
 --- @field ChallengeModeBlock ScenarioObjectiveTracker_ChallengeModeBlock
 --- @field ProvingGroundsBlock ScenarioObjectiveTracker_ProvingGroundsBlock
---- @field FixedBlocks table<number, ScenarioObjectiveTracker_ObjectivesBlock | ScenarioObjectiveTracker_StageBlock | ScenarioObjectiveTracker_TopWidgetContainerBlock | ScenarioObjectiveTracker_BottomWidgetContainerBlock | ScenarioObjectiveTracker_MawBuffsBlock | ScenarioObjectiveTracker_ChallengeModeBlock | ScenarioObjectiveTracker_ProvingGroundsBlock>
+--- @field FixedBlocks table<number, ScenarioObjectiveTracker_ObjectivesBlock | ScenarioObjectiveTracker_StageBlock | ScenarioObjectiveTracker_TopWidgetContainerBlock | ScenarioObjectiveTracker_BottomWidgetContainerBlock | ScenarioObjectiveTracker_MawBuffsBlock | ScenarioObjectiveTracker_TieredEntranceTraitsBlock | ScenarioObjectiveTracker_ChallengeModeBlock | ScenarioObjectiveTracker_ProvingGroundsBlock>
 ScenarioObjectiveTracker = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L627)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L647)
 --- child of ScenarioRewardsFrame
 --- @class ScenarioRewardsFrame_Header : FontString, QuestFont_Outline_Huge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L640)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L660)
 --- child of ScenarioRewardsFrame
 --- @class ScenarioRewardsFrame_Anim : AnimationGroup
 --- @field RewardsBottomAnim Translation
 --- @field RewardsShadowAnim Scale
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L596)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L616)
 --- @class ScenarioRewardsFrame : Frame, ScenarioRewardsFrameMixin
 --- @field RewardsTop Texture
 --- @field HeaderTop Texture
@@ -297,7 +309,7 @@ ScenarioObjectiveTracker = {}
 --- @field Anim ScenarioRewardsFrame_Anim
 ScenarioRewardsFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L671)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ScenarioObjectiveTracker.xml#L691)
 --- @class ScenarioTimerFrame : Frame, ScenarioTimerMixin
 ScenarioTimerFrame = {}
 

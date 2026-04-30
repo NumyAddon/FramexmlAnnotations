@@ -153,7 +153,7 @@ HousingInviteResidentFrameCloseButton = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L252)
 --- child of HousingInviteResidentFrame
---- @class HousingInviteResidentFrame_ErrorText : FontString, Game13FontShadow
+--- @class HousingInviteResidentFrame_ErrorText : FontString, Game13FontShadow, TruncatedTooltipFontStringTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L260)
 --- child of HousingInviteResidentFrame

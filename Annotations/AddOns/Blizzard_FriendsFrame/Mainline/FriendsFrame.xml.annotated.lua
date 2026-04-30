@@ -203,7 +203,7 @@
 --- @field tooltipTitle any # CONTACTS_MENU_NAME
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L2176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L2177)
 --- child of FriendsFrameBattlenetFrame_UnavailableInfoButton (created in template UIPanelInfoButton)
 --- @type Texture
 FriendsFrameBattlenetFrameTexture = {}
@@ -849,7 +849,7 @@ AddFriendInfoFrame = {}
 AddFriendInfoFrame["widthPadding"] = 80
 AddFriendInfoFrame["heightPadding"] = 16
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L2176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.xml#L2177)
 --- child of AddFriendEntryFrameInfoButton (created in template UIPanelInfoButton)
 --- @type Texture
 AddFriendEntryFrameInfoButtonTexture = {}

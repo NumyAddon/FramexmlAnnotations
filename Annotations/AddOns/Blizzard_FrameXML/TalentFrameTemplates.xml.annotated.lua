@@ -25,4 +25,5 @@
 --- @field Arrow Texture
 --- @field New PvpTalentSlotTemplate_New
 --- @field NewGlow Texture
+--- @field CircleMask MaskTexture
 

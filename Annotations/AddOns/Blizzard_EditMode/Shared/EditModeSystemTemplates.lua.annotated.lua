@@ -16,7 +16,7 @@ EditModeSystemSelectionMixin = CreateFromMixins(EditModeSystemSelectionBaseMixin
 --- @class EditModeSystemSelectionDoubleLabelMixin : EditModeSystemSelectionBaseMixin
 EditModeSystemSelectionDoubleLabelMixin = CreateFromMixins(EditModeSystemSelectionBaseMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3372)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3386)
 --- @class EditModeDamageMeterSystemMixin : EditModeSystemMixin
 EditModeDamageMeterSystemMixin = CreateFromMixins(EditModeSystemMixin)
 
@@ -1078,98 +1078,101 @@ function EditModePersonalResourceDisplaySystemMixin:OnEditModeExit() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3256)
 function EditModePersonalResourceDisplaySystemMixin:UpdateDisplayInfoOptions(displayInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3276)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHideHealth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3281)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHidePower() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3286)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHideAltPower() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3291)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHideClassInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3296)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHideClassInfoOnPlayerFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3301)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingVisibleSetting() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3306)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHealthBarHeight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3311)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingPowerBarHeight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3316)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingPadding() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3321)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingOpacity() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3326)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3319)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3331)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingShowClassColor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3324)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3336)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingBarWidth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3329)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3341)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingShowBarText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3334)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3346)
 function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3374)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3388)
 function EditModeDamageMeterSystemMixin:OnSystemLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3403)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3417)
 function EditModeDamageMeterSystemMixin:OnEditModeEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3411)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3425)
 function EditModeDamageMeterSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3421)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3435)
 function EditModeDamageMeterSystemMixin:ShouldShowSetting(setting) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3438)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3452)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingVisibility() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3457)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingStyle() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3448)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3462)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingNumberDisplayType() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3453)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3467)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingFrameWidth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3458)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3472)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingFrameHeight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3463)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3477)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingBarHeight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3468)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3482)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingPadding() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3473)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3487)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingTransparency() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3478)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3492)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingShowSpecIcon() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3483)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3497)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingShowClassColor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3488)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3502)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingTextSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3493)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3507)
 function EditModeDamageMeterSystemMixin:UpdateSystemSettingBackgroundTransparency() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3498)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3512)
 function EditModeDamageMeterSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3540)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3554)
 function EditModeDamageMeterSystemMixin:OnUpdateSystem(anySettingsDirty) end

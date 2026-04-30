@@ -1,34 +1,34 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L75)
 --- child of PaladinPowerBarGlowBG
 --- @class PaladinPowerBarGlowBGTexture : Texture
 PaladinPowerBarGlowBGTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L61)
 --- child of PaladinPowerBarGlowBG
 --- @class PaladinPowerBarGlowBG_pulse : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L59)
 --- child of PaladinPowerBar
 --- @class PaladinPowerBarGlowBG : Frame
 --- @field pulse PaladinPowerBarGlowBG_pulse
 PaladinPowerBarGlowBG = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L110)
 --- child of PaladinPowerBarRune1
 --- @class PaladinPowerBarRune1Texture : Texture
 PaladinPowerBarRune1Texture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L87)
 --- child of PaladinPowerBarRune1
 --- @class PaladinPowerBarRune1_activate : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L90)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L95)
 --- child of PaladinPowerBarRune1
 --- @class PaladinPowerBarRune1_deactivate : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L85)
 --- child of PaladinPowerBar
 --- @class PaladinPowerBarRune1 : Frame
 --- @field rune1 PaladinPowerBarRune1Texture
@@ -37,20 +37,20 @@ PaladinPowerBarRune1Texture = {}
 PaladinPowerBarRune1 = {}
 PaladinPowerBarRune1["rune1"] = PaladinPowerBarRune1Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L141)
 --- child of PaladinPowerBarRune2
 --- @class PaladinPowerBarRune2Texture : Texture
 PaladinPowerBarRune2Texture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L118)
 --- child of PaladinPowerBarRune2
 --- @class PaladinPowerBarRune2_activate : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L126)
 --- child of PaladinPowerBarRune2
 --- @class PaladinPowerBarRune2_deactivate : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L116)
 --- child of PaladinPowerBar
 --- @class PaladinPowerBarRune2 : Frame
 --- @field rune2 PaladinPowerBarRune2Texture
@@ -59,27 +59,27 @@ PaladinPowerBarRune2Texture = {}
 PaladinPowerBarRune2 = {}
 PaladinPowerBarRune2["rune2"] = PaladinPowerBarRune2Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L172)
 --- child of PaladinPowerBarRune3
 --- @class PaladinPowerBarRune3Texture : Texture
 PaladinPowerBarRune3Texture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L149)
 --- child of PaladinPowerBarRune3
 --- @class PaladinPowerBarRune3_activate : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L157)
 --- child of PaladinPowerBarRune3
 --- @class PaladinPowerBarRune3_deactivate : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L142)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L147)
 --- child of PaladinPowerBar
 --- @class PaladinPowerBarRune3 : Frame
 --- @field activate PaladinPowerBarRune3_activate
 --- @field deactivate PaladinPowerBarRune3_deactivate
 PaladinPowerBarRune3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L49)
 --- child of PaladinPowerBar
 --- @class PaladinPowerBarBG : Texture
 PaladinPowerBarBG = {}
@@ -89,7 +89,10 @@ PaladinPowerBarBG = {}
 --- @class PaladinPowerBar_showAnim : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_UnitFrame/Cata/PaladinPowerBar.xml#L27)
---- @class PaladinPowerBar : Frame
+--- @class PaladinPowerBar : Frame, PlayerFrameBottomManagedFrameTemplate
+--- @field layoutIndex number # 3
+--- @field leftPadding number # 30
+--- @field topPadding number # 1
 --- @field glow PaladinPowerBarGlowBG
 --- @field rune1 PaladinPowerBarRune1
 --- @field rune2 PaladinPowerBarRune2
@@ -100,4 +103,11 @@ PaladinPowerBar["glow"] = PaladinPowerBarGlowBG
 PaladinPowerBar["rune1"] = PaladinPowerBarRune1
 PaladinPowerBar["rune2"] = PaladinPowerBarRune2
 PaladinPowerBar["rune3"] = PaladinPowerBarRune3
+PaladinPowerBar["layoutIndex"] = 3
+PaladinPowerBar["leftPadding"] = 30
+PaladinPowerBar["topPadding"] = 1
+PaladinPowerBar["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+PaladinPowerBar["align"] = "center" -- inherited
+PaladinPowerBar["isPlayerFrameBottomManagedFrame"] = true -- inherited
+PaladinPowerBar["isManagedFrame"] = true -- inherited
 

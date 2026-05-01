@@ -1,19 +1,5 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
---- @enum Settings.CategorySet
-local Settings_CategorySet = {
-    ["Game"] = 1,
-    ["AddOns"] = 2,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L3)
---- @enum SettingsLayoutMixin.LayoutType
-local SettingsLayoutMixin_LayoutType = {
-    ["Vertical"] = 1,
-    ["Canvas"] = 2,
-}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L45)
 --- @enum IconDataProviderIconType
 local IconDataProviderIconType = {
@@ -70,5 +56,19 @@ local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
     ["Spell"] = 2,
     ["Item"] = 3,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
+--- @enum Settings.CategorySet
+local Settings_CategorySet = {
+    ["Game"] = 1,
+    ["AddOns"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L3)
+--- @enum SettingsLayoutMixin.LayoutType
+local SettingsLayoutMixin_LayoutType = {
+    ["Vertical"] = 1,
+    ["Canvas"] = 2,
 }
 

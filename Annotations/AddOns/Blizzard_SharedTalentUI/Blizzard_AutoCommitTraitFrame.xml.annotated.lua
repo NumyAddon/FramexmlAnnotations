@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_AutoCommitTraitFrame.xml#L13)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_AutoCommitTraitFrame.xml#L14)
 --- child of AutoCommitTraitFrameTemplate
 --- @class AutoCommitTraitFrameTemplate_FxModelScene : ModelScene, ScriptAnimatedModelSceneTemplate
 
@@ -12,5 +12,6 @@
 --- @field defaultDeselectSound any # SOUNDKIT.UI_CLASS_TALENT_NODE_REFUND
 --- @field purchaseConfirmationString any # GENERIC_TRAIT_FRAME_CONFIRM_PURCHASE
 --- @field purchaseConfirmationFormatString any # GENERIC_TRAIT_FRAME_CONFIRM_PURCHASE_FORMAT
+--- @field getEdgeTemplateType any # AutoCommitTraitUtil.GetEdgeTemplateType
 --- @field FxModelScene AutoCommitTraitFrameTemplate_FxModelScene
 

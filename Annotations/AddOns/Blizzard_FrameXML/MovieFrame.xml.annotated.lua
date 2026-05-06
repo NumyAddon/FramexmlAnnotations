@@ -53,7 +53,7 @@
 --- @field Summary MovieFrame_CloseDialog_Summary
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/MovieFrame.xml#L3)
---- @class MovieFrame : MovieFrame, MovieFrameMixin
+--- @class MovieFrame : Frame, MovieFrameMixin
 --- @field CloseDialog MovieFrame_CloseDialog
 --- @field Background Texture
 MovieFrame = {}

@@ -256,7 +256,7 @@ GameTooltipTexture9 = {}
 GameTooltipTexture10 = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_GameTooltip/Classic/GameTooltip.xml#L13)
---- @class GameTooltip : GameTooltip, GameTooltipTemplate
+--- @class GameTooltip : Frame, GameTooltipTemplate
 GameTooltip = {}
 GameTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 

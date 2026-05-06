@@ -131,7 +131,7 @@ MinimapBackdrop = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L178)
 --- child of MinimapCluster_MinimapContainer
---- @class Minimap : Minimap, MinimapMixin
+--- @class Minimap : Frame, MinimapMixin
 --- @field ZoomHitArea Frame
 --- @field ZoomIn Minimap_ZoomIn
 --- @field ZoomOut Minimap_ZoomOut

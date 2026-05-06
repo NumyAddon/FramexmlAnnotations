@@ -420,7 +420,12 @@ class XmlFileParser
         if (!$frame->getClassName()) {
             return '';
         }
-        $data = '--- @class ' . $frame->getClassName() . ' : ' . $frame->getType();
+        $className = $frame->getClassName();
+        $type = $frame->getType();
+        if ($className === $type) {
+            $type = 'Frame';
+        }
+        $data = '--- @class ' . $className . ' : ' . $type;
         foreach ($frame->getInherits() as $inherit) {
             $data .= ', ' . $inherit;
         }

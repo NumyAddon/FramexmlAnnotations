@@ -159,7 +159,7 @@ MinimapBackdrop = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Minimap/Mists/Minimap.xml#L82)
 --- child of MinimapCluster
---- @class Minimap : Minimap
+--- @class Minimap : Frame
 Minimap = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_beta/Interface/AddOns/Blizzard_Minimap/Mists/Minimap.xml#L504)

@@ -20,7 +20,7 @@
 --- @field ResumeButton MovieFrame_CloseDialog_ResumeButton
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXML/MovieFrame.xml#L3)
---- @class MovieFrame : MovieFrame
+--- @class MovieFrame : Frame
 --- @field CloseDialog MovieFrame_CloseDialog
 --- @field Background Texture
 MovieFrame = {}

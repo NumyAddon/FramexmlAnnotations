@@ -32,7 +32,7 @@ TabardCharacterModelRotateRightButton["rotateDirection"] = "right"
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L195)
 --- child of TabardFrame
---- @class TabardModel : TabardModel, TabardModelFrameMixin
+--- @class TabardModel : Frame, TabardModelFrameMixin
 TabardModel = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TabardFrame.xml#L248)

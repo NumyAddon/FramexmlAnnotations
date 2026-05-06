@@ -831,7 +831,7 @@ GameTooltipTexture29 = {}
 GameTooltipTexture30 = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_GameTooltip/Mainline/GameTooltip.xml#L249)
---- @class GameTooltip : GameTooltip, GameTooltipTemplate
+--- @class GameTooltip : Frame, GameTooltipTemplate
 --- @field supportsItemComparison boolean # true
 --- @field ItemTooltip GameTooltip_ItemTooltip
 GameTooltip = {}

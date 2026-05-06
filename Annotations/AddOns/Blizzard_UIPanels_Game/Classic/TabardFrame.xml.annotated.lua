@@ -28,7 +28,7 @@ TabardCharacterModelRotateRightButton = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L212)
 --- child of TabardFrame
---- @class TabardModel : TabardModel
+--- @class TabardModel : Frame
 TabardModel = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TabardFrame.xml#L270)

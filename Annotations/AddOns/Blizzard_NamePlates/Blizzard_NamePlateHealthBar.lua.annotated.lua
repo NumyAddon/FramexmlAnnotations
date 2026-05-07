@@ -35,31 +35,25 @@ function NamePlateHealthBarMixin:IsPlayer() end
 function NamePlateHealthBarMixin:SetIsPlayer(isPlayer) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L119)
-function NamePlateHealthBarMixin:IsDead() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L123)
-function NamePlateHealthBarMixin:SetIsDead(isDead) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L129)
 function NamePlateHealthBarMixin:IsSimplified() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L123)
 function NamePlateHealthBarMixin:SetIsSimplified(isSimplified) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L129)
 function NamePlateHealthBarMixin:IsTarget() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L133)
 function NamePlateHealthBarMixin:SetIsTarget(isTarget) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L140)
 function NamePlateHealthBarMixin:IsFocus() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L154)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L144)
 function NamePlateHealthBarMixin:SetIsFocus(isFocus) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L150)
 function NamePlateHealthBarMixin:ShouldBeShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateHealthBar.lua#L166)
 function NamePlateHealthBarMixin:UpdateShownState() end

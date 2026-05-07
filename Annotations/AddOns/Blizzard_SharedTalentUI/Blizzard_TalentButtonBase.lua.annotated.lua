@@ -73,74 +73,74 @@ function TalentButtonBaseMixin:GetTraitCurrenciesCost() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L232)
 function TalentButtonBaseMixin:AddTooltipCost(tooltip) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L243)
 function TalentButtonBaseMixin:AddTooltipErrors(tooltip) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L264)
 function TalentButtonBaseMixin:IsInDeactivatedSubTree() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L269)
 function TalentButtonBaseMixin:ShouldBeVisible() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L273)
 function TalentButtonBaseMixin:IsVisibleAndSelectable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L277)
 function TalentButtonBaseMixin:IsRefundInvalid() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L281)
 function TalentButtonBaseMixin:HasProgress() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L286)
 function TalentButtonBaseMixin:HasIncreasedRanks() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L291)
 function TalentButtonBaseMixin:IsMaxed() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L296)
 function TalentButtonBaseMixin:IsGated() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L301)
 function TalentButtonBaseMixin:IsLocked() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L306)
 function TalentButtonBaseMixin:IsDisplayError() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L317)
 function TalentButtonBaseMixin:IsCascadeRepurchasable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L324)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L325)
 function TalentButtonBaseMixin:CanCascadeRepurchaseRanks() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L328)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L329)
 function TalentButtonBaseMixin:HasMassPurchase() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L333)
 function TalentButtonBaseMixin:IsGhosted() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L343)
 function TalentButtonBaseMixin:CanAfford() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L352)
 function TalentButtonBaseMixin:CanRefundRank() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L357)
 function TalentButtonBaseMixin:IsSelectable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L362)
 function TalentButtonBaseMixin:CascadeRepurchaseRanks() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L367)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L368)
 function TalentButtonBaseMixin:ClearCascadeRepurchaseHistory() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L377)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L378)
 function TalentButtonBaseMixin:PlaySelectSound() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L385)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L386)
 function TalentButtonBaseMixin:PlayDeselectSound() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L393)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L394)
 function TalentButtonBaseMixin:StartGlow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L414)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L415)
 function TalentButtonBaseMixin:StopGlow() end

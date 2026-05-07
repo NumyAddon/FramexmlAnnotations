@@ -43,14 +43,14 @@ local MinimalSliderWithSteppersMixin_Label = {
     ["Max"] = 5,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1278)
 --- @enum IconSelectorPopupFrameModes
 local IconSelectorPopupFrameModes = {
     ["New"] = 1,
     ["Edit"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1261)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1283)
 --- @enum IconSelectorPopupFrameIconFilterTypes
 local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,

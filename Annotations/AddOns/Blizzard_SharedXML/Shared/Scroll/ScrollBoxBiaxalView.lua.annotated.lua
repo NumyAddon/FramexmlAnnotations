@@ -26,37 +26,43 @@ function ScrollBoxListBiaxalViewMixin:HasBiaxalLayout() end
 function ScrollBoxListBiaxalViewMixin:ResizeFrame(scrollBox, frame, dataIndex, elementData) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L37)
-function ScrollBoxListBiaxalViewMixin:SetElementSizeCalculator(elementSizeCalculator) end
+function ScrollBoxListBiaxalViewMixin:SetElementExtent(extent) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L42)
-function ScrollBoxListBiaxalViewMixin:GetElementSizeCalculator() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L41)
+function ScrollBoxListBiaxalViewMixin:SetElementSize(width, height) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L46)
-function ScrollBoxListBiaxalViewMixin:ClearElementSizeData() end
+function ScrollBoxListBiaxalViewMixin:SetElementSizeCalculator(elementSizeCalculator) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L51)
+function ScrollBoxListBiaxalViewMixin:GetElementSizeCalculator() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L55)
+function ScrollBoxListBiaxalViewMixin:ClearElementSizeData() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L61)
 function ScrollBoxListBiaxalViewMixin:ClearCachedData() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L66)
 function ScrollBoxListBiaxalViewMixin:HasIdenticalElementSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L78)
 function ScrollBoxListBiaxalViewMixin:GetIdenticalElementSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L88)
 function ScrollBoxListBiaxalViewMixin:GetTemplateSizeFromElementData(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L81)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L98)
 function ScrollBoxListBiaxalViewMixin:CalculateFrameSize(dataIndex, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L110)
 function ScrollBoxListBiaxalViewMixin:GetElementSize(dataIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L126)
 function ScrollBoxListBiaxalViewMixin:HasAnyExtentOrSizeCalculator() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L109)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L130)
 function ScrollBoxListBiaxalViewMixin:CalculateFrameExtent(dataIndex, elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxBiaxalView.lua#L139)
 function ScrollBoxListBiaxalViewMixin:GetElementExtent(dataIndex) end

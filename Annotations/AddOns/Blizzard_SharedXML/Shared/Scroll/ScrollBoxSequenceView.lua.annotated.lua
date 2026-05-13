@@ -16,8 +16,8 @@ function ScrollBoxListSequenceViewMixin:CalculateNumElementsInRow(startDataIndex
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxSequenceView.lua#L102)
 function ScrollBoxListSequenceViewMixin:CalculateDataIndices(scrollBox) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxSequenceView.lua#L174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxSequenceView.lua#L182)
 function ScrollBoxListSequenceViewMixin:GetExtentTo(scrollBox, dataIndexEnd) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxSequenceView.lua#L215)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxSequenceView.lua#L223)
 function ScrollBoxListSequenceViewMixin:GetExtentUntil(scrollBox, dataIndexEnd) end

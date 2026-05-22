@@ -4,11 +4,11 @@
 --- @class NamePlateDriverMixin
 NamePlateDriverMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L505)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L628)
 --- @class NamePlateBorderTemplateMixin
 NamePlateBorderTemplateMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L556)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L679)
 --- @class NamePlateScriptBaseMixin
 NamePlateScriptBaseMixin = {}
 
@@ -115,46 +115,46 @@ function NamePlateDriverMixin:GetBaseNamePlateHeight() end
 function NamePlateDriverMixin:IsUsingLargerNamePlateStyle() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L339)
-function NamePlateDriverMixin:GetNamePlateScale() end
+function NamePlateDriverMixin:GetNamePlateScale(namePlateStyle) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L407)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L498)
 function NamePlateDriverMixin:GetNamePlateHeight(namePlateStyle, namePlateScale) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L435)
-function NamePlateDriverMixin:GetNamePlateWidth(namePlateScale) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L526)
+function NamePlateDriverMixin:GetNamePlateWidth(namePlateStyle, namePlateScale) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L538)
 function NamePlateDriverMixin:UpdateNamePlateOptions() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L492)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L615)
 function NamePlateDriverMixin:UpdateNamePlateSize(namePlateStyle, namePlateScale) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L507)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L630)
 function NamePlateBorderTemplateMixin:SetVertexColor(r, g, b, a) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L513)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L636)
 function NamePlateBorderTemplateMixin:SetUnderlineColor(r, g, b, a) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L523)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L646)
 function NamePlateBorderTemplateMixin:SetBorderSizes(borderSize, borderSizeMinPixels, upwardExtendHeightPixels, upwardExtendHeightMinPixels) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L530)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L653)
 function NamePlateBorderTemplateMixin:UpdateSizes() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L558)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L681)
 function NamePlateScriptBaseMixin:CanChangeHitTestPoints() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L562)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L685)
 function NamePlateScriptBaseMixin:ClearAllHitTestPoints() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L565)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L688)
 function NamePlateScriptBaseMixin:GetHitTestPoints() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L569)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L692)
 function NamePlateScriptBaseMixin:SetHitTestPoints(_points) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L572)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L695)
 function NamePlateScriptBaseMixin:SetAllHitTestPoints(_relativeTo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L575)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlates.lua#L698)
 function NamePlateScriptBaseMixin:SetStackingBoundsFrame(_frame) end

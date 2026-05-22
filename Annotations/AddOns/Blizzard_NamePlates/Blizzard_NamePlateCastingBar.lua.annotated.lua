@@ -9,3 +9,6 @@ function NamePlateCastingBarMixin:OnLoad() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateCastingBar.lua#L12)
 function NamePlateCastingBarMixin:ShouldShowCastBar() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateCastingBar.lua#L24)
+function NamePlateCastingBarMixin:ApplyStyleAndAnchoring(setupOptions) end

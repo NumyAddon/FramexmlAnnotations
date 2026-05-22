@@ -7,119 +7,119 @@ NamePlateUnitFrameMixin = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L16)
 function NamePlateUnitFrameMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L89)
 function NamePlateUnitFrameMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L113)
 function NamePlateUnitFrameMixin:OnUnitSet() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L162)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L153)
 function NamePlateUnitFrameMixin:OnUnitCleared() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L188)
 function NamePlateUnitFrameMixin:ApplyFrameOptions(setupOptions, frameOptions) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L250)
 function NamePlateUnitFrameMixin:OnUnitFactionChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L257)
 function NamePlateUnitFrameMixin:UpdateIsPlayer() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L280)
 function NamePlateUnitFrameMixin:IsPlayer() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L284)
 function NamePlateUnitFrameMixin:IsFriend() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L288)
 function NamePlateUnitFrameMixin:UpdateIsFriend() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L317)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L318)
 function NamePlateUnitFrameMixin:IsMinion() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L326)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L327)
 function NamePlateUnitFrameMixin:IsMinusMob() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L336)
 function NamePlateUnitFrameMixin:ShouldBeSimplified() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L363)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L364)
 function NamePlateUnitFrameMixin:IsSimplified() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L367)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L368)
 function NamePlateUnitFrameMixin:UpdateIsSimplified() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L387)
 function NamePlateUnitFrameMixin:ShouldBeTarget() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L398)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L395)
 function NamePlateUnitFrameMixin:IsTarget() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L402)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L399)
 function NamePlateUnitFrameMixin:UpdateIsTarget() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L414)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L411)
 function NamePlateUnitFrameMixin:ShouldBeFocus() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L419)
 function NamePlateUnitFrameMixin:IsFocus() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L426)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L423)
 function NamePlateUnitFrameMixin:UpdateIsFocus() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L438)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L435)
 function NamePlateUnitFrameMixin:GetRaidTargetIndex() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L447)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L444)
 function NamePlateUnitFrameMixin:UpdateRaidTarget() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L454)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L451)
 function NamePlateUnitFrameMixin:ShouldAggroHighlightBeShown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L459)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L456)
 function NamePlateUnitFrameMixin:UpdateAggroHighlight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L496)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L493)
 function NamePlateUnitFrameMixin:UpdateCastBarDisplay() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L513)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L510)
 function NamePlateUnitFrameMixin:GetScaleData() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L518)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L515)
 function NamePlateUnitFrameMixin:UpdateScale() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L529)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L526)
 function NamePlateUnitFrameMixin:UpdateBehindCamera() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L538)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L535)
 function NamePlateUnitFrameMixin:UpdateWidgetsOnlyMode() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L557)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L554)
 function NamePlateUnitFrameMixin:IsShowOnlyName() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L561)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L558)
 function NamePlateUnitFrameMixin:UpdateShowOnlyName() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L583)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L580)
 function NamePlateUnitFrameMixin:UpdateNameClassColor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L599)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L596)
 function NamePlateUnitFrameMixin:UpdateThreatDisplay() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L615)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L612)
 function NamePlateUnitFrameMixin:ShouldShowName() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L624)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L621)
 function NamePlateUnitFrameMixin:UpdateAnchors() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L761)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L790)
 function NamePlateUnitFrameMixin:SetExplicitValues(explicitValues) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L778)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L807)
 function NamePlateUnitFrameMixin:GetNamePlateFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L782)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L811)
 function NamePlateUnitFrameMixin:SetNamePlateFrame(namePlateFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L786)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_ptr/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateUnitFrame.lua#L815)
 function NamePlateUnitFrameMixin:UpdatePrivateAuras() end

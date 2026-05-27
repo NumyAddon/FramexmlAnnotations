@@ -67,6 +67,7 @@
 --- child of ChallengesKeystoneFrame
 --- @class ChallengesKeystoneFrame_KeystoneSlot : Button, ChallengesKeystoneSlotMixin
 --- @field Texture Texture
+--- @field CircleMask MaskTexture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L255)
 --- child of ChallengesKeystoneFrame
@@ -84,27 +85,27 @@
 --- child of ChallengesKeystoneFrame
 --- @class ChallengesKeystoneFrame_Instructions : FontString, GameFontHighlightLarge2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L467)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L476)
 --- child of ChallengesKeystoneFrame
 --- @class ChallengesKeystoneFrame_InsertedAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L492)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L501)
 --- child of ChallengesKeystoneFrame
 --- @class ChallengesKeystoneFrame_PulseAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L496)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L505)
 --- child of ChallengesKeystoneFrame
 --- @class ChallengesKeystoneFrame_RunesLargeRotateAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L501)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L510)
 --- child of ChallengesKeystoneFrame
 --- @class ChallengesKeystoneFrame_RunesLargeAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L509)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L518)
 --- child of ChallengesKeystoneFrame
 --- @class ChallengesKeystoneFrame_RunesSmallRotateAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L514)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L523)
 --- child of ChallengesKeystoneFrame
 --- @class ChallengesKeystoneFrame_RunesSmallAnim : AnimationGroup
 
@@ -154,19 +155,19 @@
 --- @field Affixes table<number, ChallengesKeystoneFrameAffixTemplate>
 ChallengesKeystoneFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L552)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L561)
 --- child of ChallengeModeBannerPartyMemberTemplate
 --- @class ChallengeModeBannerPartyMemberTemplate_Name : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L560)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L569)
 --- child of ChallengeModeBannerPartyMemberTemplate
 --- @class ChallengeModeBannerPartyMemberTemplate_AnimIn : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L563)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L572)
 --- child of ChallengeModeBannerPartyMemberTemplate
 --- @class ChallengeModeBannerPartyMemberTemplate_AnimOut : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L531)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L540)
 --- Template
 --- Adds itself to the parent inside the array `PartyMembers`
 --- @class ChallengeModeBannerPartyMemberTemplate : Frame, ChallengeModeBannerPartyMemberMixin
@@ -177,35 +178,35 @@ ChallengesKeystoneFrame = {}
 --- @field AnimIn ChallengeModeBannerPartyMemberTemplate_AnimIn
 --- @field AnimOut ChallengeModeBannerPartyMemberTemplate_AnimOut
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L618)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L627)
 --- child of ChallengeModeCompleteBanner
 --- @class ChallengeModeCompleteBanner_Level : FontString, GameFontNormalWTF2Outline
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L640)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L649)
 --- child of ChallengeModeCompleteBanner
 --- @class ChallengeModeCompleteBanner_Title : FontString, QuestFont_Enormous
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L645)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L654)
 --- child of ChallengeModeCompleteBanner
 --- @class ChallengeModeCompleteBanner_DescriptionLineOne : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L650)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L659)
 --- child of ChallengeModeCompleteBanner
 --- @class ChallengeModeCompleteBanner_DescriptionLineTwo : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L655)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L664)
 --- child of ChallengeModeCompleteBanner
 --- @class ChallengeModeCompleteBanner_DescriptionLineThree : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L674)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L683)
 --- child of ChallengeModeCompleteBanner
 --- @class ChallengeModeCompleteBanner_AnimIn : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L721)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L730)
 --- child of ChallengeModeCompleteBanner
 --- @class ChallengeModeCompleteBanner_AnimOut : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L569)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L578)
 --- @class ChallengeModeCompleteBanner : Frame, ChallengeModeCompleteBannerMixin
 --- @field BannerTop Texture
 --- @field BannerTopGlow Texture
@@ -228,42 +229,42 @@ ChallengesKeystoneFrame = {}
 --- @field PartyMembers table<number, ChallengeModeBannerPartyMemberTemplate>
 ChallengeModeCompleteBanner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L750)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L759)
 --- child of ChallengesDungeonIconFrameTemplate
 --- @class ChallengesDungeonIconFrameTemplate_HighestLevel : FontString, SystemFont_Huge1_Outline
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L735)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L744)
 --- Template
 --- Adds itself to the parent inside the array `DungeonIcons`
 --- @class ChallengesDungeonIconFrameTemplate : Frame, ChallengesDungeonIconMixin
 --- @field Icon Texture
 --- @field HighestLevel ChallengesDungeonIconFrameTemplate_HighestLevel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L772)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L781)
 --- child of ChallengesFrame
 --- @class ChallengesFrameInset : Frame, InsetFrameTemplate
 ChallengesFrameInset = {}
 ChallengesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L853)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L862)
 --- child of ChallengesFrame_WeeklyInfo_Child
 --- @class ChallengesFrame_WeeklyInfo_Child_AffixesContainer : Frame, HorizontalLayoutFrame
 --- @field spacing number # 10
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L869)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L878)
 --- child of ChallengesFrame_WeeklyInfo_Child_WeeklyChest
 --- @class ChallengesFrame_WeeklyInfo_Child_WeeklyChest_RunStatus : FontString, GameFontNormalMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L895)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L904)
 --- child of ChallengesFrame_WeeklyInfo_Child_WeeklyChest_AnimTexture
 --- @class ChallengesFrame_WeeklyInfo_Child_WeeklyChest_AnimTexture_Anim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L890)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L899)
 --- child of ChallengesFrame_WeeklyInfo_Child_WeeklyChest
 --- @class ChallengesFrame_WeeklyInfo_Child_WeeklyChest_AnimTexture : Texture
 --- @field Anim ChallengesFrame_WeeklyInfo_Child_WeeklyChest_AnimTexture_Anim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L862)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L871)
 --- child of ChallengesFrame_WeeklyInfo_Child
 --- @class ChallengesFrame_WeeklyInfo_Child_WeeklyChest : Frame, ChallengeModeWeeklyChestMixin
 --- @field RunStatus ChallengesFrame_WeeklyInfo_Child_WeeklyChest_RunStatus
@@ -271,49 +272,49 @@ ChallengesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field Highlight Texture
 --- @field AnimTexture ChallengesFrame_WeeklyInfo_Child_WeeklyChest_AnimTexture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L916)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L925)
 --- child of ChallengesFrame_WeeklyInfo_Child_DungeonScoreInfo
 --- @class ChallengesFrame_WeeklyInfo_Child_DungeonScoreInfo_Title : FontString, GameFontHighlightMedium
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L922)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L931)
 --- child of ChallengesFrame_WeeklyInfo_Child_DungeonScoreInfo
 --- @class ChallengesFrame_WeeklyInfo_Child_DungeonScoreInfo_Score : FontString, SystemFont_Huge2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L909)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L918)
 --- child of ChallengesFrame_WeeklyInfo_Child
 --- @class ChallengesFrame_WeeklyInfo_Child_DungeonScoreInfo : Button, DungeonScoreInfoMixin
 --- @field Title ChallengesFrame_WeeklyInfo_Child_DungeonScoreInfo_Title
 --- @field Score ChallengesFrame_WeeklyInfo_Child_DungeonScoreInfo_Score
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L791)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L800)
 --- child of ChallengesFrame_WeeklyInfo_Child
 --- @class ChallengesFrame_WeeklyInfo_Child_ThisWeekLabel : FontString, GameFontNormalHuge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L803)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L812)
 --- child of ChallengesFrame_WeeklyInfo_Child
 --- @class ChallengesFrame_WeeklyInfo_Child_Description : FontString, GameFontNormalMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L809)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L818)
 --- child of ChallengesFrame_WeeklyInfo_Child
 --- @class ChallengesFrame_WeeklyInfo_Child_SeasonBest : FontString, GameFontNormalMed2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L938)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L947)
 --- child of ChallengesFrame_WeeklyInfo_Child
 --- @class ChallengesFrame_WeeklyInfo_Child_RunesSmallRotateAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L942)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L951)
 --- child of ChallengesFrame_WeeklyInfo_Child
 --- @class ChallengesFrame_WeeklyInfo_Child_RunesLargeRotateAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L946)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L955)
 --- child of ChallengesFrame_WeeklyInfo_Child
 --- @class ChallengesFrame_WeeklyInfo_Child_RunesLargeAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L950)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L959)
 --- child of ChallengesFrame_WeeklyInfo_Child
 --- @class ChallengesFrame_WeeklyInfo_Child_RunesSmallAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L784)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L793)
 --- child of ChallengesFrame_WeeklyInfo
 --- @class ChallengesFrame_WeeklyInfo_Child : Frame
 --- @field AffixesContainer ChallengesFrame_WeeklyInfo_Child_AffixesContainer
@@ -332,16 +333,16 @@ ChallengesFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 --- @field RunesLargeAnim ChallengesFrame_WeeklyInfo_Child_RunesLargeAnim
 --- @field RunesSmallAnim ChallengesFrame_WeeklyInfo_Child_RunesSmallAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L778)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L787)
 --- child of ChallengesFrame
 --- @class ChallengesFrame_WeeklyInfo : ScrollFrame, ChallengesFrameWeeklyInfoMixin
 --- @field Child ChallengesFrame_WeeklyInfo_Child
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L973)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L982)
 --- child of ChallengesFrame
 --- @class ChallengesFrame_SeasonChangeNoticeFrame : Frame, MythicPlusSeasonChangesNoticeTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L770)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChallengesUI/Mainline/Blizzard_ChallengesUI.xml#L779)
 --- @class ChallengesFrame : Frame, ChallengesFrameMixin
 --- @field WeeklyInfo ChallengesFrame_WeeklyInfo
 --- @field SeasonChangeNoticeFrame ChallengesFrame_SeasonChangeNoticeFrame

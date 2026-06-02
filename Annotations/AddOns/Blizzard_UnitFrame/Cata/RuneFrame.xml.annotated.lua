@@ -23,8 +23,18 @@
 --- @field energize RuneButtonIndividualTemplate_energize
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L113)
---- @class RuneFrame : Frame
+--- @class RuneFrame : Frame, PlayerFrameBottomManagedFrameTemplate
+--- @field layoutIndex number # 6
+--- @field leftPadding number # 52
+--- @field topPadding number # 6
 RuneFrame = {}
+RuneFrame["layoutIndex"] = 6
+RuneFrame["leftPadding"] = 52
+RuneFrame["topPadding"] = 6
+RuneFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+RuneFrame["align"] = "center" -- inherited
+RuneFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
+RuneFrame["isManagedFrame"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L17)
 --- child of Rune1 (created in template RuneButtonIndividualTemplate)
@@ -46,7 +56,7 @@ Rune1Shine = {}
 --- @type Texture
 Rune1Rune = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L129)
 --- @class Rune1 : Button, RuneButtonIndividualTemplate
 Rune1 = {}
 Rune1["rune"] = Rune1Rune -- inherited
@@ -71,7 +81,7 @@ Rune2Shine = {}
 --- @type Texture
 Rune2Rune = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L139)
 --- @class Rune2 : Button, RuneButtonIndividualTemplate
 Rune2 = {}
 Rune2["rune"] = Rune2Rune -- inherited
@@ -96,7 +106,7 @@ Rune5Shine = {}
 --- @type Texture
 Rune5Rune = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L149)
 --- @class Rune5 : Button, RuneButtonIndividualTemplate
 Rune5 = {}
 Rune5["rune"] = Rune5Rune -- inherited
@@ -121,7 +131,7 @@ Rune6Shine = {}
 --- @type Texture
 Rune6Rune = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L154)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L159)
 --- @class Rune6 : Button, RuneButtonIndividualTemplate
 Rune6 = {}
 Rune6["rune"] = Rune6Rune -- inherited
@@ -146,7 +156,7 @@ Rune3Shine = {}
 --- @type Texture
 Rune3Rune = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L169)
 --- @class Rune3 : Button, RuneButtonIndividualTemplate
 Rune3 = {}
 Rune3["rune"] = Rune3Rune -- inherited
@@ -171,7 +181,7 @@ Rune4Shine = {}
 --- @type Texture
 Rune4Rune = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/RuneFrame.xml#L179)
 --- @class Rune4 : Button, RuneButtonIndividualTemplate
 Rune4 = {}
 Rune4["rune"] = Rune4Rune -- inherited

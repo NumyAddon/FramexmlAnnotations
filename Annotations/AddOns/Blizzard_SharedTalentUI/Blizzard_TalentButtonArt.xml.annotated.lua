@@ -113,3 +113,28 @@
 --- @class TalentButtonCircularGlowTemplate : Frame, AnimateWhileShownTemplate
 --- @field GlowTexture Texture
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.xml#L247)
+--- Template
+--- @class TalentButtonCapstoneCircleTemplate : Button, TalentButtonArtTemplate
+--- @field buttonSizeScaleOverride number # 1.6
+--- @field artSet any # TalentButtonArtMixin.ArtSet.CapstoneCircle
+--- @field sizingAdjustment any # TalentButtonUtil.SizingAdjustment.CapstoneCircle
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.xml#L256)
+--- Template
+--- @class TalentButtonCapstoneSquareTemplate : Button, TalentButtonArtTemplate
+--- @field buttonSizeScaleOverride number # 1.6
+--- @field artSet any # TalentButtonArtMixin.ArtSet.CapstoneSquare
+--- @field sizingAdjustment any # TalentButtonUtil.SizingAdjustment.CapstoneSquare
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.xml#L265)
+--- Template
+--- @class TalentButtonScenarioChallengeCircleTemplate : Button, TalentButtonArtTemplate
+--- @field artSet any # TalentButtonArtMixin.ArtSet.ScenarioChallengeCircle
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonArt.xml#L271)
+--- Template
+--- @class TalentButtonDelveChallengeCircleTemplate : Button, TalentButtonArtTemplate
+--- @field artSet any # TalentButtonArtMixin.ArtSet.DelveChallengeCircle
+--- @field sizingAdjustment any # TalentButtonUtil.SizingAdjustment.DelveChallengeCircle
+

@@ -2,7 +2,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L23)
 --- child of WowStyle1DropdownTemplate
---- @class WowStyle1DropdownTemplate_Text : FontString, GameFontHighlight
+--- @class WowStyle1DropdownTemplate_Text : FontString, GameFontHighlightSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L3)
 --- Template
@@ -14,21 +14,27 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L45)
 --- Template
+--- @class WowStyle1ThinDropdownTemplate : DropdownButton, WowStyle1DropdownTemplate
+--- @field menuMixin any # MenuStyle1ThinMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L51)
+--- Template
 --- @class WowStyle1ArrowDropdownTemplate : DropdownButton, WowStyle1ArrowDropdownMixin
 --- @field Arrow Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L92)
 --- child of WowStyle1FilterDropdownTemplate
 --- @class WowStyle1FilterDropdownTemplate_ResetButton : Button, UIResetButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L108)
 --- child of WowStyle1FilterDropdownTemplate
 --- @class WowStyle1FilterDropdownTemplate_Text : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L67)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.xml#L73)
 --- Template
 --- @class WowStyle1FilterDropdownTemplate : DropdownButton, WowStyle1FilterDropdownMixin
 --- @field text any # FILTER
+--- @field disableFontObject string # GameFontDisable
 --- @field menuMixin any # MenuStyle2Mixin
 --- @field menuRelativePoint string # BOTTOMLEFT
 --- @field menuPointX number # 6

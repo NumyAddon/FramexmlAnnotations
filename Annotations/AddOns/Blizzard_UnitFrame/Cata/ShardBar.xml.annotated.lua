@@ -38,7 +38,7 @@ ShardBarFrameShard1SmokeB = {}
 --- @type Texture
 ShardBarFrameShard1Fill = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L141)
 --- child of ShardBarFrame
 --- @class ShardBarFrameShard1 : Frame, ShardTemplate
 ShardBarFrameShard1 = {}
@@ -67,7 +67,7 @@ ShardBarFrameShard2SmokeB = {}
 --- @type Texture
 ShardBarFrameShard2Fill = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L146)
 --- child of ShardBarFrame
 --- @class ShardBarFrameShard2 : Frame, ShardTemplate
 ShardBarFrameShard2 = {}
@@ -96,7 +96,7 @@ ShardBarFrameShard3SmokeB = {}
 --- @type Texture
 ShardBarFrameShard3Fill = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L151)
 --- child of ShardBarFrame
 --- @class ShardBarFrameShard3 : Frame, ShardTemplate
 ShardBarFrameShard3 = {}
@@ -110,7 +110,10 @@ ShardBarFrameShard3["shardFill"] = ShardBarFrameShard3Fill -- inherited
 --- @class ShardBarFrame_showAnim : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/ShardBar.xml#L114)
---- @class ShardBarFrame : Frame
+--- @class ShardBarFrame : Frame, PlayerFrameBottomManagedFrameTemplate
+--- @field layoutIndex number # 1
+--- @field leftPadding number # 44
+--- @field topPadding number # 6
 --- @field shard1 ShardBarFrameShard1
 --- @field shard2 ShardBarFrameShard2
 --- @field shard3 ShardBarFrameShard3
@@ -119,4 +122,11 @@ ShardBarFrame = {}
 ShardBarFrame["shard1"] = ShardBarFrameShard1
 ShardBarFrame["shard2"] = ShardBarFrameShard2
 ShardBarFrame["shard3"] = ShardBarFrameShard3
+ShardBarFrame["layoutIndex"] = 1
+ShardBarFrame["leftPadding"] = 44
+ShardBarFrame["topPadding"] = 6
+ShardBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+ShardBarFrame["align"] = "center" -- inherited
+ShardBarFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
+ShardBarFrame["isManagedFrame"] = true -- inherited
 

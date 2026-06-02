@@ -4,7 +4,7 @@
 --- @class QuestTimerMixin
 QuestTimerMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L50)
 --- @class QuestTimerButtonMixin
 QuestTimerButtonMixin = {}
 
@@ -23,11 +23,5 @@ function QuestTimerMixin:UpdateQuestTimers(...) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L44)
 function QuestTimerMixin:OnUpdate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L50)
-function QuestTimerMixin:OnShow() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L54)
-function QuestTimerMixin:OnHide() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_QuestTimer/Blizzard_QuestTimer.lua#L52)
 function QuestTimerButtonMixin:OnClick() end

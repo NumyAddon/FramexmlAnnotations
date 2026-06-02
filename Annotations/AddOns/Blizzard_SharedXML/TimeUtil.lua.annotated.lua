@@ -68,10 +68,10 @@ function SecondsFormatterMixin:GetMinInterval(seconds) end
 function SecondsFormatterMixin:GetFormatString(interval, abbreviation, convertToLower) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/TimeUtil.lua#L167)
-function SecondsFormatterMixin:FormatZero(abbreviation, toLower) end
+function SecondsFormatterMixin:FormatZero(abbreviation, convertToLower) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/TimeUtil.lua#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/TimeUtil.lua#L174)
 function SecondsFormatterMixin:FormatMillseconds(millseconds, abbreviation) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/TimeUtil.lua#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/TimeUtil.lua#L178)
 function SecondsFormatterMixin:Format(seconds, abbreviation) end

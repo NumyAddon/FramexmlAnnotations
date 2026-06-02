@@ -1,36 +1,36 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L978)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1LeftDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L991)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1MiddleDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1000)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1RightDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1009)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1Left = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1018)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1Middle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1027)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1Right = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1058)
 --- child of InspectTalentFrameTab1 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab1HighlightTexture = {}
@@ -47,37 +47,37 @@ InspectTalentFrameTab1["Middle"] = InspectTalentFrameTab1Middle -- inherited
 InspectTalentFrameTab1["Right"] = InspectTalentFrameTab1Right -- inherited
 InspectTalentFrameTab1["HighlightTexture"] = InspectTalentFrameTab1HighlightTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L978)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2LeftDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L991)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2MiddleDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1000)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2RightDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1009)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2Left = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1018)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2Middle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1027)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2Right = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1058)
 --- child of InspectTalentFrameTab2 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab2HighlightTexture = {}
@@ -94,37 +94,37 @@ InspectTalentFrameTab2["Middle"] = InspectTalentFrameTab2Middle -- inherited
 InspectTalentFrameTab2["Right"] = InspectTalentFrameTab2Right -- inherited
 InspectTalentFrameTab2["HighlightTexture"] = InspectTalentFrameTab2HighlightTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L978)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3LeftDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L991)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3MiddleDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1000)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3RightDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1009)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3Left = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1018)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3Middle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1027)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3Right = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_InspectUI/Classic/InspectTalentFrame.xml#L1058)
 --- child of InspectTalentFrameTab3 (created in template TabButtonTemplate)
 --- @type Texture
 InspectTalentFrameTab3HighlightTexture = {}

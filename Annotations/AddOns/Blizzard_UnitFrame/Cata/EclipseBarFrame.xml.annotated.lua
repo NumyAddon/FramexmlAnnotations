@@ -1,56 +1,56 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L132)
 --- child of EclipseBarFrame
 --- @class EclipseBarFrameBar : Texture
 EclipseBarFrameBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L141)
 --- child of EclipseBarFrame
 --- @class EclipseBarFrameSun : Texture
 EclipseBarFrameSun = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L148)
 --- child of EclipseBarFrame
 --- @class EclipseBarFrameMoon : Texture
 EclipseBarFrameMoon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L157)
 --- child of EclipseBarFrame
 --- @class EclipseBarFrameDarkSun : Texture
 EclipseBarFrameDarkSun = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L164)
 --- child of EclipseBarFrame
 --- @class EclipseBarFrameDarkMoon : Texture
 EclipseBarFrameDarkMoon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L173)
 --- child of EclipseBarFrame
 --- @class EclipseBarFrameSunBar : Texture
 EclipseBarFrameSunBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L180)
 --- child of EclipseBarFrame
 --- @class EclipseBarFrameMoonBar : Texture
 EclipseBarFrameMoonBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L184)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L189)
 --- child of EclipseBarFrame
 --- @class EclipseBarFrameMarker : Texture
 EclipseBarFrameMarker = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L198)
 --- child of EclipseBarFrameGlow
 --- @class EclipseBarFrameGlow_pulse : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L196)
 --- child of EclipseBarFrame
 --- @class EclipseBarFrameGlow : Texture
 --- @field pulse EclipseBarFrameGlow_pulse
 EclipseBarFrameGlow = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L204)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L209)
 --- child of EclipseBarFrame
 --- @class EclipseBarFramePowertext : FontString, TextStatusBarText
 EclipseBarFramePowertext = {}
@@ -72,7 +72,10 @@ EclipseBarFramePowertext = {}
 --- @class EclipseBarFrame_moonDeactivate : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UnitFrame/Cata/EclipseBarFrame.xml#L47)
---- @class EclipseBarFrame : Frame, EclipseBarFrameMixin
+--- @class EclipseBarFrame : Frame, PlayerFrameBottomManagedFrameTemplate, EclipseBarFrameMixin
+--- @field layoutIndex number # 5
+--- @field leftPadding number # 40
+--- @field topPadding number # 0
 --- @field sun EclipseBarFrameSun
 --- @field moon EclipseBarFrameMoon
 --- @field darkSun EclipseBarFrameDarkSun
@@ -96,4 +99,11 @@ EclipseBarFrame["moonBar"] = EclipseBarFrameMoonBar
 EclipseBarFrame["marker"] = EclipseBarFrameMarker
 EclipseBarFrame["glow"] = EclipseBarFrameGlow
 EclipseBarFrame["powerText"] = EclipseBarFramePowertext
+EclipseBarFrame["layoutIndex"] = 5
+EclipseBarFrame["leftPadding"] = 40
+EclipseBarFrame["topPadding"] = 0
+EclipseBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+EclipseBarFrame["align"] = "center" -- inherited
+EclipseBarFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
+EclipseBarFrame["isManagedFrame"] = true -- inherited
 

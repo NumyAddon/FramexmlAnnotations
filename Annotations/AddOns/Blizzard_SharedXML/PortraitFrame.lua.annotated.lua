@@ -12,7 +12,7 @@ PortraitFrameMixin = CreateFromMixins(TitledPanelMixin)
 --- @class TitledPanelMixin
 TitledPanelMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L119)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L123)
 --- @class PortraitFrameFlatBaseMixin
 PortraitFrameFlatBaseMixin = {}
 
@@ -38,37 +38,40 @@ function TitledPanelMixin:SetTitleOffsets(leftOffset, rightOffset) end
 function PortraitFrameMixin:GetPortrait() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L43)
+function PortraitFrameMixin:HasPortraitTexture() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L47)
 function PortraitFrameMixin:SetBorder(layoutName) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L52)
 function PortraitFrameMixin:SetPortraitToAsset(texture) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L52)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L56)
 function PortraitFrameMixin:SetPortraitToUnit(unit) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L60)
 function PortraitFrameMixin:SetPortraitToBag(bagID) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L64)
 function PortraitFrameMixin:SetPortraitTextureRaw(texture) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L68)
 function PortraitFrameMixin:SetPortraitAtlasRaw(atlas, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L72)
 function PortraitFrameMixin:SetPortraitToClassIcon(classFilename) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L74)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L78)
 function PortraitFrameMixin:SetPortraitToSpecIcon() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L89)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L93)
 function PortraitFrameMixin:SetPortraitTexCoord(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L97)
 function PortraitFrameMixin:SetPortraitShown(shown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L101)
 function PortraitFrameMixin:SetPortraitTextureSizeAndOffset(size, offsetX, offsetY) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/PortraitFrame.lua#L125)
 function PortraitFrameFlatBaseMixin:SetBackgroundColor(color) end

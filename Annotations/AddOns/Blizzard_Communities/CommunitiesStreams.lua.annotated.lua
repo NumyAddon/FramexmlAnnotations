@@ -95,17 +95,17 @@ function CommunitiesNotificationSettingsDialogMixin:GetCommunitiesFrame() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L358)
 function CommunitiesAddToChatMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L459)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L458)
 function CommunitiesAddToChatMixin:SetClubId(clubId) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L463)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L462)
 function CommunitiesAddToChatMixin:GetClubId() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L467)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L466)
 function CommunitiesAddToChatMixin:SetStreamId(streamId) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L471)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L470)
 function CommunitiesAddToChatMixin:GetStreamId() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L475)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Communities/CommunitiesStreams.lua#L474)
 function CommunitiesAddToChatMixin:GetCommunitiesFrame() end

@@ -1,98 +1,100 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L21)
 --- child of ArenaCastingBarFrameTemplate
 --- @class ArenaCastingBarFrameTemplate_Text : FontString, GameFontHighlightSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L3)
 --- Template
---- @class ArenaCastingBarFrameTemplate : StatusBar
+--- @class ArenaCastingBarFrameTemplate : StatusBar, CastingBarFrameAnimsFXTemplate, CastingBarMixin
+--- @field classicStyleCastBar boolean # true
 --- @field BorderShield Texture
 --- @field Text ArenaCastingBarFrameTemplate_Text
 --- @field Icon Texture
 --- @field Spark Texture
 --- @field Flash Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L103)
 --- child of ArenaEnemyPetFrameTemplate
 --- @class ArenaEnemyPetFrameTemplate_HealthBar : StatusBar, TextStatusBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L118)
 --- child of ArenaEnemyPetFrameTemplate
 --- @class ArenaEnemyPetFrameTemplate_ManaBar : StatusBar, TextStatusBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L59)
 --- Explicitly protected
 --- Template
 --- @class ArenaEnemyPetFrameTemplate : Button, SecureUnitButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaPrepFrameTemplate
 --- @class ArenaPrepFrameTemplate_HealthBar : StatusBar, TextStatusBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaPrepFrameTemplate
 --- @class ArenaPrepFrameTemplate_ManaBar : StatusBar, TextStatusBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaPrepFrameTemplate
 --- @class ArenaPrepFrameTemplate_CastingBar : StatusBar, ArenaCastingBarFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L139)
 --- Explicitly protected
 --- Template
 --- @class ArenaPrepFrameTemplate : Button, SecureUnitButtonTemplate
 --- @field CastingBar ArenaPrepFrameTemplate_CastingBar
 --- @field classPortrait Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L326)
 --- Explicitly protected
 --- child of ArenaEnemyFrameTemplate
 --- @class ArenaEnemyFrameTemplate_PetFrame : Button, ArenaEnemyPetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L326)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L338)
 --- child of ArenaEnemyFrameTemplate_CC
 --- @class ArenaEnemyFrameTemplate_CC_Cooldown : Cooldown, CooldownFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L327)
 --- child of ArenaEnemyFrameTemplate
 --- @class ArenaEnemyFrameTemplate_CC : Frame
 --- @field Cooldown ArenaEnemyFrameTemplate_CC_Cooldown
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L310)
 --- Explicitly protected
 --- Template
 --- @class ArenaEnemyFrameTemplate : Button, ArenaPrepFrameTemplate
 --- @field petFrame ArenaEnemyFrameTemplate_PetFrame # Explicitly protected
 --- @field CC ArenaEnemyFrameTemplate_CC
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_HealthBar
 ArenaPrepFrame1HealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ManaBar
 ArenaPrepFrame1ManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_CastingBar
 ArenaPrepFrame1CastingBar = {}
+ArenaPrepFrame1CastingBar["classicStyleCastBar"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
 --- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame1ClassPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L149)
 --- child of ArenaPrepFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame1Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L344)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L356)
 --- Explicitly protected
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrame1 : Button, ArenaPrepFrameTemplate
@@ -100,32 +102,33 @@ ArenaPrepFrame1 = {}
 ArenaPrepFrame1["CastingBar"] = ArenaPrepFrame1CastingBar -- inherited
 ArenaPrepFrame1["classPortrait"] = ArenaPrepFrame1ClassPortrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_HealthBar
 ArenaPrepFrame2HealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ManaBar
 ArenaPrepFrame2ManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_CastingBar
 ArenaPrepFrame2CastingBar = {}
+ArenaPrepFrame2CastingBar["classicStyleCastBar"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
 --- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame2ClassPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L149)
 --- child of ArenaPrepFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame2Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L362)
 --- Explicitly protected
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrame2 : Button, ArenaPrepFrameTemplate
@@ -133,32 +136,33 @@ ArenaPrepFrame2 = {}
 ArenaPrepFrame2["CastingBar"] = ArenaPrepFrame2CastingBar -- inherited
 ArenaPrepFrame2["classPortrait"] = ArenaPrepFrame2ClassPortrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_HealthBar
 ArenaPrepFrame3HealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ManaBar
 ArenaPrepFrame3ManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_CastingBar
 ArenaPrepFrame3CastingBar = {}
+ArenaPrepFrame3CastingBar["classicStyleCastBar"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
 --- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame3ClassPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L149)
 --- child of ArenaPrepFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame3Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L368)
 --- Explicitly protected
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrame3 : Button, ArenaPrepFrameTemplate
@@ -166,32 +170,33 @@ ArenaPrepFrame3 = {}
 ArenaPrepFrame3["CastingBar"] = ArenaPrepFrame3CastingBar -- inherited
 ArenaPrepFrame3["classPortrait"] = ArenaPrepFrame3ClassPortrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_HealthBar
 ArenaPrepFrame4HealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ManaBar
 ArenaPrepFrame4ManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_CastingBar
 ArenaPrepFrame4CastingBar = {}
+ArenaPrepFrame4CastingBar["classicStyleCastBar"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
 --- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame4ClassPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L149)
 --- child of ArenaPrepFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame4Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L374)
 --- Explicitly protected
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrame4 : Button, ArenaPrepFrameTemplate
@@ -199,32 +204,33 @@ ArenaPrepFrame4 = {}
 ArenaPrepFrame4["CastingBar"] = ArenaPrepFrame4CastingBar -- inherited
 ArenaPrepFrame4["classPortrait"] = ArenaPrepFrame4ClassPortrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_HealthBar
 ArenaPrepFrame5HealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ManaBar
 ArenaPrepFrame5ManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_CastingBar
 ArenaPrepFrame5CastingBar = {}
+ArenaPrepFrame5CastingBar["classicStyleCastBar"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
 --- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame5ClassPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L149)
 --- child of ArenaPrepFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaPrepFrame5Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L368)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L380)
 --- Explicitly protected
 --- child of ArenaPrepFrames
 --- @class ArenaPrepFrame5 : Button, ArenaPrepFrameTemplate
@@ -232,70 +238,71 @@ ArenaPrepFrame5 = {}
 ArenaPrepFrame5["CastingBar"] = ArenaPrepFrame5CastingBar -- inherited
 ArenaPrepFrame5["classPortrait"] = ArenaPrepFrame5ClassPortrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L374)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L386)
 --- child of ArenaPrepFrames
 --- @class ArenaPrepBackground : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_ARENA_32_32
 ArenaPrepBackground = {}
 ArenaPrepBackground["backdropInfo"] = BACKDROP_ARENA_32_32
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L338)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L350)
 --- Implicitly protected
 --- @class ArenaPrepFrames : Frame
 ArenaPrepFrames = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L103)
 --- child of ArenaEnemyFrame1PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type ArenaEnemyPetFrameTemplate_HealthBar
 ArenaEnemyFrame1PetFrameHealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L118)
 --- child of ArenaEnemyFrame1PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type ArenaEnemyPetFrameTemplate_ManaBar
 ArenaEnemyFrame1PetFrameManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L66)
 --- child of ArenaEnemyFrame1PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame1PetFrameFlash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L72)
 --- child of ArenaEnemyFrame1PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame1PetFramePortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L326)
 --- Explicitly protected
 --- child of ArenaEnemyFrame1 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_PetFrame
 ArenaEnemyFrame1PetFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaEnemyFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_HealthBar
 ArenaEnemyFrame1HealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaEnemyFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ManaBar
 ArenaEnemyFrame1ManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaEnemyFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_CastingBar
 ArenaEnemyFrame1CastingBar = {}
+ArenaEnemyFrame1CastingBar["classicStyleCastBar"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
 --- child of ArenaEnemyFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame1ClassPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L149)
 --- child of ArenaEnemyFrame1 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame1Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L418)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L430)
 --- Explicitly protected
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrame1 : Button, ArenaEnemyFrameTemplate
@@ -304,58 +311,59 @@ ArenaEnemyFrame1["petFrame"] = ArenaEnemyFrame1PetFrame -- inherited
 ArenaEnemyFrame1["CastingBar"] = ArenaEnemyFrame1CastingBar -- inherited
 ArenaEnemyFrame1["classPortrait"] = ArenaEnemyFrame1ClassPortrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L103)
 --- child of ArenaEnemyFrame2PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type ArenaEnemyPetFrameTemplate_HealthBar
 ArenaEnemyFrame2PetFrameHealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L118)
 --- child of ArenaEnemyFrame2PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type ArenaEnemyPetFrameTemplate_ManaBar
 ArenaEnemyFrame2PetFrameManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L66)
 --- child of ArenaEnemyFrame2PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame2PetFrameFlash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L72)
 --- child of ArenaEnemyFrame2PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame2PetFramePortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L326)
 --- Explicitly protected
 --- child of ArenaEnemyFrame2 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_PetFrame
 ArenaEnemyFrame2PetFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaEnemyFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_HealthBar
 ArenaEnemyFrame2HealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaEnemyFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ManaBar
 ArenaEnemyFrame2ManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaEnemyFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_CastingBar
 ArenaEnemyFrame2CastingBar = {}
+ArenaEnemyFrame2CastingBar["classicStyleCastBar"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
 --- child of ArenaEnemyFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame2ClassPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L149)
 --- child of ArenaEnemyFrame2 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame2Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L424)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L436)
 --- Explicitly protected
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrame2 : Button, ArenaEnemyFrameTemplate
@@ -364,58 +372,59 @@ ArenaEnemyFrame2["petFrame"] = ArenaEnemyFrame2PetFrame -- inherited
 ArenaEnemyFrame2["CastingBar"] = ArenaEnemyFrame2CastingBar -- inherited
 ArenaEnemyFrame2["classPortrait"] = ArenaEnemyFrame2ClassPortrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L103)
 --- child of ArenaEnemyFrame3PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type ArenaEnemyPetFrameTemplate_HealthBar
 ArenaEnemyFrame3PetFrameHealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L118)
 --- child of ArenaEnemyFrame3PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type ArenaEnemyPetFrameTemplate_ManaBar
 ArenaEnemyFrame3PetFrameManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L66)
 --- child of ArenaEnemyFrame3PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame3PetFrameFlash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L72)
 --- child of ArenaEnemyFrame3PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame3PetFramePortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L326)
 --- Explicitly protected
 --- child of ArenaEnemyFrame3 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_PetFrame
 ArenaEnemyFrame3PetFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaEnemyFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_HealthBar
 ArenaEnemyFrame3HealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaEnemyFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ManaBar
 ArenaEnemyFrame3ManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaEnemyFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_CastingBar
 ArenaEnemyFrame3CastingBar = {}
+ArenaEnemyFrame3CastingBar["classicStyleCastBar"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
 --- child of ArenaEnemyFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame3ClassPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L149)
 --- child of ArenaEnemyFrame3 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame3Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L430)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L442)
 --- Explicitly protected
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrame3 : Button, ArenaEnemyFrameTemplate
@@ -424,58 +433,59 @@ ArenaEnemyFrame3["petFrame"] = ArenaEnemyFrame3PetFrame -- inherited
 ArenaEnemyFrame3["CastingBar"] = ArenaEnemyFrame3CastingBar -- inherited
 ArenaEnemyFrame3["classPortrait"] = ArenaEnemyFrame3ClassPortrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L103)
 --- child of ArenaEnemyFrame4PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type ArenaEnemyPetFrameTemplate_HealthBar
 ArenaEnemyFrame4PetFrameHealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L118)
 --- child of ArenaEnemyFrame4PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type ArenaEnemyPetFrameTemplate_ManaBar
 ArenaEnemyFrame4PetFrameManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L66)
 --- child of ArenaEnemyFrame4PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame4PetFrameFlash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L72)
 --- child of ArenaEnemyFrame4PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame4PetFramePortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L326)
 --- Explicitly protected
 --- child of ArenaEnemyFrame4 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_PetFrame
 ArenaEnemyFrame4PetFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaEnemyFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_HealthBar
 ArenaEnemyFrame4HealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaEnemyFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ManaBar
 ArenaEnemyFrame4ManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaEnemyFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_CastingBar
 ArenaEnemyFrame4CastingBar = {}
+ArenaEnemyFrame4CastingBar["classicStyleCastBar"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
 --- child of ArenaEnemyFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame4ClassPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L149)
 --- child of ArenaEnemyFrame4 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame4Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L436)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L448)
 --- Explicitly protected
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrame4 : Button, ArenaEnemyFrameTemplate
@@ -484,58 +494,59 @@ ArenaEnemyFrame4["petFrame"] = ArenaEnemyFrame4PetFrame -- inherited
 ArenaEnemyFrame4["CastingBar"] = ArenaEnemyFrame4CastingBar -- inherited
 ArenaEnemyFrame4["classPortrait"] = ArenaEnemyFrame4ClassPortrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L100)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L103)
 --- child of ArenaEnemyFrame5PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type ArenaEnemyPetFrameTemplate_HealthBar
 ArenaEnemyFrame5PetFrameHealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L118)
 --- child of ArenaEnemyFrame5PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type ArenaEnemyPetFrameTemplate_ManaBar
 ArenaEnemyFrame5PetFrameManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L66)
 --- child of ArenaEnemyFrame5PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame5PetFrameFlash = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L69)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L72)
 --- child of ArenaEnemyFrame5PetFrame (created in template ArenaEnemyPetFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame5PetFramePortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L326)
 --- Explicitly protected
 --- child of ArenaEnemyFrame5 (created in template ArenaEnemyFrameTemplate)
 --- @type ArenaEnemyFrameTemplate_PetFrame
 ArenaEnemyFrame5PetFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L242)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L254)
 --- child of ArenaEnemyFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_HealthBar
 ArenaEnemyFrame5HealthBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L277)
 --- child of ArenaEnemyFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_ManaBar
 ArenaEnemyFrame5ManaBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L298)
 --- child of ArenaEnemyFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type ArenaPrepFrameTemplate_CastingBar
 ArenaEnemyFrame5CastingBar = {}
+ArenaEnemyFrame5CastingBar["classicStyleCastBar"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L143)
 --- child of ArenaEnemyFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame5ClassPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L149)
 --- child of ArenaEnemyFrame5 (created in template ArenaPrepFrameTemplate)
 --- @type Texture
 ArenaEnemyFrame5Background = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L454)
 --- Explicitly protected
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyFrame5 : Button, ArenaEnemyFrameTemplate
@@ -544,14 +555,14 @@ ArenaEnemyFrame5["petFrame"] = ArenaEnemyFrame5PetFrame -- inherited
 ArenaEnemyFrame5["CastingBar"] = ArenaEnemyFrame5CastingBar -- inherited
 ArenaEnemyFrame5["classPortrait"] = ArenaEnemyFrame5ClassPortrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L448)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L460)
 --- child of ArenaEnemyFrames
 --- @class ArenaEnemyBackground : Frame, BackdropTemplate
 --- @field backdropInfo any # BACKDROP_ARENA_32_32
 ArenaEnemyBackground = {}
 ArenaEnemyBackground["backdropInfo"] = BACKDROP_ARENA_32_32
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L412)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ArenaUI/Blizzard_ArenaUI.xml#L424)
 --- Implicitly protected
 --- @class ArenaEnemyFrames : Frame
 ArenaEnemyFrames = {}

@@ -24,3 +24,11 @@
 --- Template
 --- @class EasyFrameAnimationsTemplate : Frame, AnimateWhileShownTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/AnimationTemplates.xml#L57)
+--- Template
+--- @class PointsOffsetAnimationTemplate : Animation, PointsOffsetAnimationMixin
+--- @field offsetFromX number # 0
+--- @field offsetFromY number # 0
+--- @field offsetToX number # 0
+--- @field offsetToY number # 0
+

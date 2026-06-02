@@ -24,17 +24,17 @@ PetPaperDollFrameExpBarText = {}
 --- @class PetPaperDollFrameExpBar : StatusBar, TextStatusBar
 PetPaperDollFrameExpBar = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L133)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L131)
 --- child of PetModelFrame
 --- @class PetModelFrameRotateLeftButton : Button
 PetModelFrameRotateLeftButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L150)
 --- child of PetModelFrame
 --- @class PetModelFrameRotateRightButton : Button
 PetModelFrameRotateRightButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L169)
 --- child of PetModelFrame
 --- @class PetPaperDollPetInfo : Frame
 PetPaperDollPetInfo = {}
@@ -79,7 +79,7 @@ PetModelFrameShadowOverlayLeft = {}
 --- @type Texture
 PetModelFrameShadowOverlayRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L192)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L190)
 --- child of PetModelFrame
 --- @class PetModelFrameShadowOverlay : Frame, ShadowOverlayTemplate
 PetModelFrameShadowOverlay = {}
@@ -88,7 +88,7 @@ PetModelFrameShadowOverlay["TopRight"] = PetModelFrameShadowOverlayTopRight -- i
 PetModelFrameShadowOverlay["BottomLeft"] = PetModelFrameShadowOverlayBottomLeft -- inherited
 PetModelFrameShadowOverlay["BottomRight"] = PetModelFrameShadowOverlayBottomRight -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CharacterFrame/Cata/PetPaperDollFrame.xml#L119)
 --- child of PetPaperDollFrame
 --- @class PetModelFrame : PlayerModel, ModelWithZoomTemplate
 PetModelFrame = {}

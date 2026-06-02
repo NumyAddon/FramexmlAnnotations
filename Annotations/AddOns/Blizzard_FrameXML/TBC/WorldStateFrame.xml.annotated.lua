@@ -8,16 +8,16 @@
 --- Template
 --- @class WorldStateScoreColumnTemplate : Button
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L253)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_ClassButton : Frame
 --- @field icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L294)
 --- child of WorldStateScoreTemplateName
 --- @class WorldStateScoreTemplate_Name_Text : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L281)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Name : Button
 --- @field text WorldStateScoreTemplate_Name_Text
@@ -44,37 +44,41 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L104)
 --- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_DamageDone : FontString, GameFontNormalSmall
+--- @class WorldStateScoreTemplate_MatchmakingRating : FontString, GameFontNormalSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L113)
 --- child of WorldStateScoreTemplate
---- @class WorldStateScoreTemplate_HealingDone : FontString, GameFontNormalSmall
+--- @class WorldStateScoreTemplate_DamageDone : FontString, GameFontNormalSmall
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L122)
 --- child of WorldStateScoreTemplate
+--- @class WorldStateScoreTemplate_HealingDone : FontString, GameFontNormalSmall
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L131)
+--- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column1Text : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L148)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column2Text : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L165)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column3Text : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L182)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column4Text : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L190)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L199)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column5Text : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L216)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column6Text : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L224)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L233)
 --- child of WorldStateScoreTemplate
 --- @class WorldStateScoreTemplate_Column7Text : FontString, GameFontNormalSmall
 
@@ -90,10 +94,11 @@
 --- @field killingBlows WorldStateScoreTemplate_KillingBlows
 --- @field deaths WorldStateScoreTemplate_Deaths
 --- @field honorGained WorldStateScoreTemplate_HonorGained
+--- @field matchmakingRating WorldStateScoreTemplate_MatchmakingRating
 --- @field damageDone WorldStateScoreTemplate_DamageDone
 --- @field healingDone WorldStateScoreTemplate_HealingDone
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L323)
 --- Template
 --- @class WorldStateScoreFrameTabButtonTemplate : Button
 
@@ -102,7 +107,7 @@
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameClassText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L557)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L566)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameClass : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameClass = {}
@@ -112,7 +117,7 @@ WorldStateScoreFrameClass = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameNameText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L590)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L599)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameName : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameName = {}
@@ -122,7 +127,7 @@ WorldStateScoreFrameName = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameTeamText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L606)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L615)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTeam : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameTeam = {}
@@ -132,7 +137,7 @@ WorldStateScoreFrameTeam = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameKBText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L622)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L631)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameKB : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameKB = {}
@@ -142,7 +147,7 @@ WorldStateScoreFrameKB = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameDeathsText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L634)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L643)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameDeaths : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameDeaths = {}
@@ -152,7 +157,7 @@ WorldStateScoreFrameDeaths = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameHKText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L646)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L655)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameHK : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameHK = {}
@@ -162,7 +167,7 @@ WorldStateScoreFrameHK = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameDamageDoneText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L658)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L667)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameDamageDone : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameDamageDone = {}
@@ -172,7 +177,7 @@ WorldStateScoreFrameDamageDone = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameHealingDoneText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L670)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L679)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameHealingDone : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameHealingDone = {}
@@ -182,17 +187,27 @@ WorldStateScoreFrameHealingDone = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreFrameHonorGainedText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L682)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L691)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameHonorGained : Button, WorldStateScoreColumnTemplate
 WorldStateScoreFrameHonorGained = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L9)
+--- child of WorldStateScoreFrameMatchmakingRating (created in template WorldStateScoreColumnTemplate)
+--- @type WorldStateScoreColumnTemplate_Text
+WorldStateScoreFrameMatchmakingRatingText = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L708)
+--- child of WorldStateScoreFrame
+--- @class WorldStateScoreFrameMatchmakingRating : Button, WorldStateScoreColumnTemplate
+WorldStateScoreFrameMatchmakingRating = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L9)
 --- child of WorldStateScoreColumn1 (created in template WorldStateScoreColumnTemplate)
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn1Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L699)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L725)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn1 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn1 = {}
@@ -202,7 +217,7 @@ WorldStateScoreColumn1 = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn2Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L709)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L735)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn2 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn2 = {}
@@ -212,7 +227,7 @@ WorldStateScoreColumn2 = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn3Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L719)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L745)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn3 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn3 = {}
@@ -222,7 +237,7 @@ WorldStateScoreColumn3 = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn4Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L729)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L755)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn4 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn4 = {}
@@ -232,7 +247,7 @@ WorldStateScoreColumn4 = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn5Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L739)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L765)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn5 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn5 = {}
@@ -242,7 +257,7 @@ WorldStateScoreColumn5 = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn6Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L749)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L775)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn6 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn6 = {}
@@ -252,21 +267,21 @@ WorldStateScoreColumn6 = {}
 --- @type WorldStateScoreColumnTemplate_Text
 WorldStateScoreColumn7Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L759)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L785)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreColumn7 : Button, WorldStateScoreColumnTemplate
 WorldStateScoreColumn7 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L253)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_ClassButton
 WorldStateScoreButton1ClassButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L294)
 --- child of WorldStateScoreTemplateName
 --- @class WorldStateScoreTemplate_Name_Text : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L281)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Name
 WorldStateScoreButton1Name = {}
@@ -309,85 +324,90 @@ WorldStateScoreButton1HonorGained = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L104)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
+--- @type WorldStateScoreTemplate_MatchmakingRating
+WorldStateScoreButton1MatchmakingRating = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L113)
+--- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_DamageDone
 WorldStateScoreButton1DamageDone = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L122)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_HealingDone
 WorldStateScoreButton1HealingDone = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L131)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column1Text
 WorldStateScoreButton1Column1Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L127)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L136)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column1Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L148)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column2Text
 WorldStateScoreButton1Column2Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L153)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column2Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L165)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column3Text
 WorldStateScoreButton1Column3Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L170)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column3Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L182)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column4Text
 WorldStateScoreButton1Column4Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L187)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column4Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L190)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L199)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column5Text
 WorldStateScoreButton1Column5Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L195)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L204)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column5Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L207)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L216)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column6Text
 WorldStateScoreButton1Column6Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L221)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column6Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L224)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L233)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type WorldStateScoreTemplate_Column7Text
 WorldStateScoreButton1Column7Text = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L238)
 --- child of WorldStateScoreButton1 (created in template WorldStateScoreTemplate)
 --- @type Texture
 WorldStateScoreButton1Column7Icon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L770)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L796)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreButton1 : Frame, WorldStateScoreTemplate
 WorldStateScoreButton1 = {}
@@ -400,10 +420,11 @@ WorldStateScoreButton1["honorableKills"] = WorldStateScoreButton1HonorableKills 
 WorldStateScoreButton1["killingBlows"] = WorldStateScoreButton1KillingBlows -- inherited
 WorldStateScoreButton1["deaths"] = WorldStateScoreButton1Deaths -- inherited
 WorldStateScoreButton1["honorGained"] = WorldStateScoreButton1HonorGained -- inherited
+WorldStateScoreButton1["matchmakingRating"] = WorldStateScoreButton1MatchmakingRating -- inherited
 WorldStateScoreButton1["damageDone"] = WorldStateScoreButton1DamageDone -- inherited
 WorldStateScoreButton1["healingDone"] = WorldStateScoreButton1HealingDone -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L784)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L810)
 --- child of WorldStateScoreScrollFrame
 --- @class WorldStateScoreScrollFrameScrollBarTop : Texture
 WorldStateScoreScrollFrameScrollBarTop = {}
@@ -436,226 +457,226 @@ WorldStateScoreScrollFrameScrollBar["ScrollUpButton"] = WorldStateScoreScrollFra
 WorldStateScoreScrollFrameScrollBar["ScrollDownButton"] = WorldStateScoreScrollFrameScrollBarScrollDownButton -- inherited
 WorldStateScoreScrollFrameScrollBar["ThumbTexture"] = WorldStateScoreScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L775)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L801)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreScrollFrame : ScrollFrame, FauxScrollFrameTemplate
 WorldStateScoreScrollFrame = {}
 WorldStateScoreScrollFrame["ScrollChildFrame"] = WorldStateScoreScrollFrameScrollChildFrame -- inherited
 WorldStateScoreScrollFrame["ScrollBar"] = WorldStateScoreScrollFrameScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L831)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L857)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameCloseButton : Button, UIPanelCloseButton
 WorldStateScoreFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L329)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1LeftDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L342)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1MiddleDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L351)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1RightDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L360)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1Left = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L364)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L373)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1Middle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L373)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L382)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1Right = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L415)
 --- child of WorldStateScoreFrameTab1 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab1HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L840)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L866)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTab1 : Button, WorldStateScoreFrameTabButtonTemplate
 WorldStateScoreFrameTab1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L329)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2LeftDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L342)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2MiddleDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L351)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2RightDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L360)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2Left = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L364)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L373)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2Middle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L373)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L382)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2Right = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L415)
 --- child of WorldStateScoreFrameTab2 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab2HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L852)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L878)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTab2 : Button, WorldStateScoreFrameTabButtonTemplate
 WorldStateScoreFrameTab2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L329)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3LeftDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L342)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3MiddleDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L351)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3RightDisabled = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L360)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3Left = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L364)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L373)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3Middle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L373)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L382)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3Right = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L415)
 --- child of WorldStateScoreFrameTab3 (created in template WorldStateScoreFrameTabButtonTemplate)
 --- @type Texture
 WorldStateScoreFrameTab3HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L864)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L890)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTab3 : Button, WorldStateScoreFrameTabButtonTemplate
 WorldStateScoreFrameTab3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L876)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L902)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameLeaveButton : Button, UIPanelButtonTemplate
 WorldStateScoreFrameLeaveButton = {}
 WorldStateScoreFrameLeaveButton["fitTextCanWidthDecrease"] = true -- inherited
 WorldStateScoreFrameLeaveButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L904)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L930)
 --- child of WorldStateScoreWinnerFrame
 --- @class WorldStateScoreWinnerFrameLeft : Texture
 WorldStateScoreWinnerFrameLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L917)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L943)
 --- child of WorldStateScoreWinnerFrame
 --- @class WorldStateScoreWinnerFrameRight : Texture
 WorldStateScoreWinnerFrameRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L935)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L961)
 --- child of WorldStateScoreWinnerFrame
 --- @class WorldStateScoreWinnerFrameText : FontString, GameFontHighlight
 WorldStateScoreWinnerFrameText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L894)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L920)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreWinnerFrame : Frame
 WorldStateScoreWinnerFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L431)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L440)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTopLeft : Texture
 WorldStateScoreFrameTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L452)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTopRight : Texture
 WorldStateScoreFrameTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L455)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L464)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTop : Texture
 WorldStateScoreFrameTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L472)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L481)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameBottomLeft : Texture
 WorldStateScoreFrameBottomLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L480)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L489)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameBottomRight : Texture
 WorldStateScoreFrameBottomRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L488)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L497)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameBottom : Texture
 WorldStateScoreFrameBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L507)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L516)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameLabel : FontString, GameFontNormal
 WorldStateScoreFrameLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L514)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L523)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTimerLabel : FontString, GameFontHighlightSmall
 WorldStateScoreFrameTimerLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L519)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L528)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTimer : FontString, GameFontNormalSmall
 WorldStateScoreFrameTimer = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L528)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L537)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScorePlayerCount : FontString, GameFontNormalSmall
 WorldStateScorePlayerCount = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L534)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L543)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreBattlegroundRunTime : FontString, GameFontNormalSmall
 WorldStateScoreBattlegroundRunTime = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L542)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L551)
 --- child of WorldStateScoreFrame
 --- @class WorldStateScoreFrameTopBackground : Texture
 WorldStateScoreFrameTopBackground = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXML/TBC/WorldStateFrame.xml#L431)
 --- @class WorldStateScoreFrame : Frame
 WorldStateScoreFrame = {}
 

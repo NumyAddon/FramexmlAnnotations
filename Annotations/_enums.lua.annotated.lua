@@ -1,48 +1,5 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.lua#L3)
---- @enum QuestLogButtonTypes
-local QuestLogButtonTypes = {
-    ["None"] = 1,
-    ["Any"] = 2,
-    ["Header"] = 3,
-    ["Quest"] = 4,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L188)
---- @enum AuraUtil.AuraUpdateChangedType
-local AuraUtil_AuraUpdateChangedType = {
-    ["None"] = 1,
-    ["Debuff"] = 2,
-    ["Buff"] = 3,
-    ["Dispel"] = 4,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L195)
---- @enum AuraUtil.UnitFrameDebuffType
-local AuraUtil_UnitFrameDebuffType = {
-    ["BossDebuff"] = 1,
-    ["BossBuff"] = 2,
-    ["PriorityDebuff"] = 3,
-    ["NonBossRaidDebuff"] = 4,
-    ["NonBossDebuff"] = 5,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L125)
---- @enum CooldownViewerVisual
-local CooldownViewerVisual = {
-    ["MarchingAnts"] = 1,
-    ["MarchingAntsCyan"] = 2,
-    ["MarchingAntsRed"] = 3,
-    ["MarchingAntsGreen"] = 4,
-    ["MarchingAntsBlue"] = 5,
-    ["Flash"] = 6,
-    ["FlashCyan"] = 7,
-    ["FlashRed"] = 8,
-    ["FlashGreen"] = 9,
-    ["FlashBlue"] = 10,
-}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
 --- @enum Settings.CategorySet
 local Settings_CategorySet = {
@@ -89,11 +46,13 @@ local IconSelectorPopupFrameIconFilterTypes = {
     ["Item"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)
---- @enum SpellFlyoutOpenReason
-local SpellFlyoutOpenReason = {
-    ["GlyphPending"] = 1,
-    ["GlyphActivated"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_UIPanels_Game/Wrath/QuestMapFrame.lua#L3)
+--- @enum QuestLogButtonTypes
+local QuestLogButtonTypes = {
+    ["None"] = 1,
+    ["Any"] = 2,
+    ["Header"] = 3,
+    ["Quest"] = 4,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLBase/IconDataProvider.lua#L45)
@@ -101,5 +60,46 @@ local SpellFlyoutOpenReason = {
 local IconDataProviderIconType = {
     ["Spell"] = 1,
     ["Item"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)
+--- @enum SpellFlyoutOpenReason
+local SpellFlyoutOpenReason = {
+    ["GlyphPending"] = 1,
+    ["GlyphActivated"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L125)
+--- @enum CooldownViewerVisual
+local CooldownViewerVisual = {
+    ["MarchingAnts"] = 1,
+    ["MarchingAntsCyan"] = 2,
+    ["MarchingAntsRed"] = 3,
+    ["MarchingAntsGreen"] = 4,
+    ["MarchingAntsBlue"] = 5,
+    ["Flash"] = 6,
+    ["FlashCyan"] = 7,
+    ["FlashRed"] = 8,
+    ["FlashGreen"] = 9,
+    ["FlashBlue"] = 10,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L188)
+--- @enum AuraUtil.AuraUpdateChangedType
+local AuraUtil_AuraUpdateChangedType = {
+    ["None"] = 1,
+    ["Debuff"] = 2,
+    ["Buff"] = 3,
+    ["Dispel"] = 4,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L195)
+--- @enum AuraUtil.UnitFrameDebuffType
+local AuraUtil_UnitFrameDebuffType = {
+    ["BossDebuff"] = 1,
+    ["BossBuff"] = 2,
+    ["PriorityDebuff"] = 3,
+    ["NonBossRaidDebuff"] = 4,
+    ["NonBossDebuff"] = 5,
 }
 

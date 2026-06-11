@@ -1,24 +1,5 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L148)
---- @enum AuraUtil.AuraUpdateChangedType
-local AuraUtil_AuraUpdateChangedType = {
-    ["None"] = 1,
-    ["Debuff"] = 2,
-    ["Buff"] = 3,
-    ["Dispel"] = 4,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L155)
---- @enum AuraUtil.UnitFrameDebuffType
-local AuraUtil_UnitFrameDebuffType = {
-    ["BossDebuff"] = 1,
-    ["BossBuff"] = 2,
-    ["PriorityDebuff"] = 3,
-    ["NonBossRaidDebuff"] = 4,
-    ["NonBossDebuff"] = 5,
-}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
 --- @enum Settings.CategorySet
 local Settings_CategorySet = {
@@ -58,6 +39,13 @@ local IconSelectorPopupFrameIconFilterTypes = {
     ["Item"] = 3,
 }
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L45)
+--- @enum IconDataProviderIconType
+local IconDataProviderIconType = {
+    ["Spell"] = 1,
+    ["Item"] = 2,
+}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)
 --- @enum SpellFlyoutOpenReason
 local SpellFlyoutOpenReason = {
@@ -65,10 +53,22 @@ local SpellFlyoutOpenReason = {
     ["GlyphActivated"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXMLBase/Classic/IconDataProvider.lua#L45)
---- @enum IconDataProviderIconType
-local IconDataProviderIconType = {
-    ["Spell"] = 1,
-    ["Item"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L148)
+--- @enum AuraUtil.AuraUpdateChangedType
+local AuraUtil_AuraUpdateChangedType = {
+    ["None"] = 1,
+    ["Debuff"] = 2,
+    ["Buff"] = 3,
+    ["Dispel"] = 4,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L155)
+--- @enum AuraUtil.UnitFrameDebuffType
+local AuraUtil_UnitFrameDebuffType = {
+    ["BossDebuff"] = 1,
+    ["BossBuff"] = 2,
+    ["PriorityDebuff"] = 3,
+    ["NonBossRaidDebuff"] = 4,
+    ["NonBossDebuff"] = 5,
 }
 

@@ -1,16 +1,35 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L23)
---- child of PersonalResourceDisplayFrame_HealthBarsContainer
---- @class PersonalResourceDisplayFrame_HealthBarsContainer_border : Frame, NamePlateFullBorderTemplate
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L21)
+--- child of PersonalResourceStatusBar
+--- @class PersonalResourceStatusBar_TextString : FontString, TextStatusBarText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L24)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L26)
+--- child of PersonalResourceStatusBar
+--- @class PersonalResourceStatusBar_RightText : FontString, TextStatusBarText
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L31)
+--- child of PersonalResourceStatusBar
+--- @class PersonalResourceStatusBar_LeftText : FontString, TextStatusBarText
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L3)
+--- Template
+--- @class PersonalResourceStatusBar : StatusBar, TextStatusBar
+--- @field showPercentage boolean # true
+--- @field showNumeric boolean # true
+--- @field capNumericDisplay boolean # true
+--- @field controlsShownState boolean # false
+--- @field TextString PersonalResourceStatusBar_TextString
+--- @field RightText PersonalResourceStatusBar_RightText
+--- @field LeftText PersonalResourceStatusBar_LeftText
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L50)
 --- child of PersonalResourceDisplayFrame_HealthBarsContainer
 --- @class PersonalResourceDisplayFrame_HealthBarsContainer_TempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L57)
 --- child of PersonalResourceDisplayFrame_HealthBarsContainer
---- @class PersonalResourceDisplayFrame_HealthBarsContainer_healthBar : StatusBar
+--- @class PersonalResourceDisplayFrame_HealthBarsContainer_healthBar : StatusBar, PersonalResourceStatusBar
 --- @field myHealPrediction Texture
 --- @field otherHealPrediction Texture
 --- @field totalAbsorb Texture
@@ -21,46 +40,34 @@
 --- @field overAbsorbGlow Texture
 --- @field overHealAbsorbGlow Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L8)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L44)
 --- child of PersonalResourceDisplayFrame
 --- @class PersonalResourceDisplayFrame_HealthBarsContainer : Frame
---- @field border PersonalResourceDisplayFrame_HealthBarsContainer_border
 --- @field TempMaxHealthLoss PersonalResourceDisplayFrame_HealthBarsContainer_TempMaxHealthLoss
 --- @field healthBar PersonalResourceDisplayFrame_HealthBarsContainer_healthBar
---- @field background Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L81)
---- child of PersonalResourceDisplayFrame_PowerBar
---- @class PersonalResourceDisplayFrame_PowerBar_Border : Frame, NamePlateSecondaryBarBorderTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L82)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L101)
 --- child of PersonalResourceDisplayFrame_PowerBar
 --- @class PersonalResourceDisplayFrame_PowerBar_FeedbackFrame : Frame, BuilderSpenderFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L102)
 --- child of PersonalResourceDisplayFrame_PowerBar
 --- @class PersonalResourceDisplayFrame_PowerBar_FullPowerFrame : Frame, FullResourcePulseFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L88)
 --- child of PersonalResourceDisplayFrame
---- @class PersonalResourceDisplayFrame_PowerBar : StatusBar
---- @field Border PersonalResourceDisplayFrame_PowerBar_Border
+--- @class PersonalResourceDisplayFrame_PowerBar : StatusBar, PersonalResourceStatusBar
 --- @field FeedbackFrame PersonalResourceDisplayFrame_PowerBar_FeedbackFrame
 --- @field FullPowerFrame PersonalResourceDisplayFrame_PowerBar_FullPowerFrame
---- @field background Texture
 --- @field ManaCostPredictionBar Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L105)
---- child of PersonalResourceDisplayFrame_AlternatePowerBar
---- @class PersonalResourceDisplayFrame_AlternatePowerBar_Border : Frame, NamePlateSecondaryBarBorderTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L113)
 --- child of PersonalResourceDisplayFrame
---- @class PersonalResourceDisplayFrame_AlternatePowerBar : StatusBar
---- @field Border PersonalResourceDisplayFrame_AlternatePowerBar_Border
---- @field background Texture
+--- @class PersonalResourceDisplayFrame_AlternatePowerBar : StatusBar, PersonalResourceStatusBar
+--- @field showPercentage boolean # false
+--- @field disableMaxValue boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PersonalResourceDisplay/Blizzard_PersonalResourceDisplay.xml#L40)
 --- @class PersonalResourceDisplayFrame : Frame, EditModePersonalResourceDisplaySystemTemplate, PersonalResourceDisplayMixin
 --- @field HealthBarsContainer PersonalResourceDisplayFrame_HealthBarsContainer
 --- @field PowerBar PersonalResourceDisplayFrame_PowerBar

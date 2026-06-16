@@ -25,6 +25,7 @@ ClassNameplateBarMageFrame["spec"] = SPEC_MAGE_ARCANE -- inherited
 ClassNameplateBarMageFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarMageFrame["layoutIndex"] = 1 -- inherited
 ClassNameplateBarMageFrame["usePooledResourceButtons"] = true -- inherited
+ClassNameplateBarMageFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 ClassNameplateBarMageFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 ClassNameplateBarMageFrame["align"] = "center" -- inherited
 ClassNameplateBarMageFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

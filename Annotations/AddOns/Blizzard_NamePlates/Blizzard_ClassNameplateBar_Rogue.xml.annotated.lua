@@ -23,6 +23,7 @@ ClassNameplateBarRogueFrame["class"] = "ROGUE" -- inherited
 ClassNameplateBarRogueFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarRogueFrame["layoutIndex"] = 1 -- inherited
 ClassNameplateBarRogueFrame["usePooledResourceButtons"] = true -- inherited
+ClassNameplateBarRogueFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 ClassNameplateBarRogueFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 ClassNameplateBarRogueFrame["align"] = "center" -- inherited
 ClassNameplateBarRogueFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

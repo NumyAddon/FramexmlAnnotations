@@ -121,6 +121,7 @@ RogueComboPointBarFrame["class"] = "ROGUE" -- inherited
 RogueComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
 RogueComboPointBarFrame["resourceBarMixin"] = ClassPowerBar -- inherited
 RogueComboPointBarFrame["usePooledResourceButtons"] = true -- inherited
+RogueComboPointBarFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 RogueComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 RogueComboPointBarFrame["align"] = "center" -- inherited
 RogueComboPointBarFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

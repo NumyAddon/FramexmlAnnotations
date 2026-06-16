@@ -26,6 +26,7 @@ ClassNameplateBarFeralDruidFrame["class"] = "DRUID" -- inherited
 ClassNameplateBarFeralDruidFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarFeralDruidFrame["layoutIndex"] = 1 -- inherited
 ClassNameplateBarFeralDruidFrame["usePooledResourceButtons"] = true -- inherited
+ClassNameplateBarFeralDruidFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 ClassNameplateBarFeralDruidFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 ClassNameplateBarFeralDruidFrame["align"] = "center" -- inherited
 ClassNameplateBarFeralDruidFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

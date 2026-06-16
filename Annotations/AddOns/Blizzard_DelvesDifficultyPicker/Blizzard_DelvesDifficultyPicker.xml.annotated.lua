@@ -22,71 +22,77 @@
 --- @field FadeIn BountifulWidgetAnimationTemplate_FadeIn
 --- @field RaysTranslation BountifulWidgetAnimationTemplate_RaysTranslation
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L94)
 --- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_Border : Frame, DialogBorderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L100)
 --- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L117)
 --- child of DelvesDifficultyPickerFrame_Dropdown
 --- @class DelvesDifficultyPickerFrame_Dropdown_NewLabel : Frame, NewFeatureLabelTemplate
 --- @field animateGlow boolean # true
 --- @field label any # DELVES_NEW_CURIO
 --- @field justifyH string # CENTER
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L112)
 --- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_Dropdown : DropdownButton, WowStyle1DropdownTemplate, DelvesDifficultyPickerDropdownMixin
 --- @field NewLabel DelvesDifficultyPickerFrame_Dropdown_NewLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L144)
+--- child of DelvesDifficultyPickerFrame_DelveModifiersWidgetContainer
+--- @class DelvesDifficultyPickerFrame_DelveModifiersWidgetContainer_ModifiersLabel : FontString, Game16Font
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L136)
 --- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_DelveModifiersWidgetContainer : Frame, UIWidgetContainerTemplate
+--- @field ModifiersLabel DelvesDifficultyPickerFrame_DelveModifiersWidgetContainer_ModifiersLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L157)
 --- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_DelveBackgroundWidgetContainer : Frame, UIWidgetContainerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L166)
 --- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_EnterDelveButton : Button, UIPanelButtonTemplate, DelvesDifficultyPickerEnterDelveButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L196)
 --- child of DelvesDifficultyPickerFrame_DelveRewardsContainerFrame
 --- @class DelvesDifficultyPickerFrame_DelveRewardsContainerFrame_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L203)
 --- child of DelvesDifficultyPickerFrame_DelveRewardsContainerFrame
 --- @class DelvesDifficultyPickerFrame_DelveRewardsContainerFrame_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L188)
 --- child of DelvesDifficultyPickerFrame_DelveRewardsContainerFrame
 --- @class DelvesDifficultyPickerFrame_DelveRewardsContainerFrame_RewardText : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L180)
 --- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_DelveRewardsContainerFrame : Frame, DelveRewardsContainerFrameMixin
 --- @field ScrollBox DelvesDifficultyPickerFrame_DelveRewardsContainerFrame_ScrollBox
 --- @field ScrollBar DelvesDifficultyPickerFrame_DelveRewardsContainerFrame_ScrollBar
 --- @field RewardText DelvesDifficultyPickerFrame_DelveRewardsContainerFrame_RewardText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L238)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L247)
 --- child of DelvesDifficultyPickerFrame_ChallengesContainerFrame_BlockingFrame
 --- @class DelvesDifficultyPickerFrame_ChallengesContainerFrame_BlockingFrame_Label : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L235)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L244)
 --- child of DelvesDifficultyPickerFrame_ChallengesContainerFrame
 --- @class DelvesDifficultyPickerFrame_ChallengesContainerFrame_BlockingFrame : Frame
 --- @field Label DelvesDifficultyPickerFrame_ChallengesContainerFrame_BlockingFrame_Label
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L227)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L236)
 --- child of DelvesDifficultyPickerFrame_ChallengesContainerFrame
 --- @class DelvesDifficultyPickerFrame_ChallengesContainerFrame_Title : FontString, Game16Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L209)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L216)
 --- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_ChallengesContainerFrame : Frame, TalentFrameGridTemplate, DelveChallengesContainerFrameMixin
 --- @field topPadding number # 8
@@ -98,6 +104,8 @@
 --- @field getTemplateType any # DelveChallengesContainerFrameMixin.GetTemplateForTalentType
 --- @field refreshOnShow boolean # true
 --- @field disabledOverlayAlpha number # 0
+--- @field defaultSelectSound any # SOUNDKIT.TIERED_ENTRANCE_CHALLENGE_SELECT
+--- @field defaultDeselectSound any # SOUNDKIT.TIERED_ENTRANCE_CHALLENGE_DESELECT
 --- @field BlockingFrame DelvesDifficultyPickerFrame_ChallengesContainerFrame_BlockingFrame
 --- @field Title DelvesDifficultyPickerFrame_ChallengesContainerFrame_Title
 
@@ -111,13 +119,9 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L79)
 --- child of DelvesDifficultyPickerFrame
---- @class DelvesDifficultyPickerFrame_ModifiersLabel : FontString, Game16Font
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L84)
---- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_EntranceErrorText : FontString, GameFontNormal, TruncatedTooltipFontStringTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_DelvesDifficultyPicker/Blizzard_DelvesDifficultyPicker.xml#L266)
 --- child of DelvesDifficultyPickerFrame
 --- @class DelvesDifficultyPickerFrame_Description : FontString, GameFontNormalMed1, TruncatedTooltipFontStringTemplate
 
@@ -133,7 +137,6 @@
 --- @field ChallengesContainerFrame DelvesDifficultyPickerFrame_ChallengesContainerFrame
 --- @field Title DelvesDifficultyPickerFrame_Title
 --- @field ScenarioLabel DelvesDifficultyPickerFrame_ScenarioLabel
---- @field ModifiersLabel DelvesDifficultyPickerFrame_ModifiersLabel
 --- @field EntranceErrorText DelvesDifficultyPickerFrame_EntranceErrorText
 --- @field DividingLine Texture
 --- @field Description DelvesDifficultyPickerFrame_Description

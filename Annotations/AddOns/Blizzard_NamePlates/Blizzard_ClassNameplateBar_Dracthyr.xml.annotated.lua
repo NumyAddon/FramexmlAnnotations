@@ -22,6 +22,7 @@ ClassNameplateBarDracthyrFrame["spacing"] = -1 -- inherited
 ClassNameplateBarDracthyrFrame["maxUsablePoints"] = 5 -- inherited
 ClassNameplateBarDracthyrFrame["layoutIndex"] = 1 -- inherited
 ClassNameplateBarDracthyrFrame["usePooledResourceButtons"] = true -- inherited
+ClassNameplateBarDracthyrFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 ClassNameplateBarDracthyrFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 ClassNameplateBarDracthyrFrame["align"] = "center" -- inherited
 ClassNameplateBarDracthyrFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

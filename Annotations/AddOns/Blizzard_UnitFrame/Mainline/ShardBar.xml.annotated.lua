@@ -98,6 +98,7 @@ WarlockPowerFrame["topPadding"] = -2 -- inherited
 WarlockPowerFrame["maxUsablePoints"] = 5 -- inherited
 WarlockPowerFrame["resourceBarMixin"] = ClassPowerBar -- inherited
 WarlockPowerFrame["usePooledResourceButtons"] = true -- inherited
+WarlockPowerFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 WarlockPowerFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 WarlockPowerFrame["align"] = "center" -- inherited
 WarlockPowerFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

@@ -59,3 +59,15 @@
 --- @field Artwork Texture
 --- @field AlignedSections table<number, PlayerChoiceNormalOptionTemplate_Rewards>
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceNormalOptionTemplate.xml#L116)
+--- Template
+--- @class PlayerChoiceNormalOptionGridTemplate : Button, PlayerChoiceNormalOptionGridTemplateMixin
+--- @field TextBackground Texture
+--- @field Complete Texture
+--- @field Artwork Texture
+--- @field ArtworkAdditive Texture
+--- @field ArtworkBorder Texture
+--- @field Selected Texture
+--- @field Text FontString
+--- @field SubHeaderText FontString
+

@@ -2,9 +2,9 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.xml#L55)
 --- child of PlayerChoiceCovenantChoiceOptionTemplate
---- @class PlayerChoiceCovenantChoiceOptionTemplate_PreviewButton : Button, PlayerChoiceCovenantChoicePreviewButtonMixin
+--- @class PlayerChoiceCovenantChoiceOptionTemplate_PreviewButton : Button, PlayerChoiceBaseOptionButtonTemplateMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.xml#L67)
 --- child of PlayerChoiceCovenantChoiceOptionTemplate
 --- @class PlayerChoiceCovenantChoiceOptionTemplate_ScrollingBackgroundAnim : AnimationGroup
 

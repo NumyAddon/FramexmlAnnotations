@@ -60,6 +60,7 @@ DruidComboPointBarFrame["class"] = "DRUID" -- inherited
 DruidComboPointBarFrame["maxUsablePoints"] = 5 -- inherited
 DruidComboPointBarFrame["resourceBarMixin"] = ClassPowerBar -- inherited
 DruidComboPointBarFrame["usePooledResourceButtons"] = true -- inherited
+DruidComboPointBarFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 DruidComboPointBarFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 DruidComboPointBarFrame["align"] = "center" -- inherited
 DruidComboPointBarFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

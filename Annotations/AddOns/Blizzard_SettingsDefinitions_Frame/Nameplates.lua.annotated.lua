@@ -4,7 +4,7 @@
 --- @class NamePlatePreviewMixin
 NamePlatePreviewMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L798)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L793)
 --- @class NamePlatesTutorialMixin
 NamePlatesTutorialMixin = {}
 
@@ -38,23 +38,23 @@ function NamePlatePreviewMixin:OnNamePlateInfoChanged() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L158)
 function NamePlatePreviewMixin:OnNamePlateThreatDisplayChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L170)
 function NamePlatePreviewMixin:ToggleEnemyNPCAuraDisplay() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L178)
 function NamePlatePreviewMixin:ToggleEnemyPlayerAuraDisplay() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L186)
 function NamePlatePreviewMixin:ToggleFriendlyPlayerAuraDisplay() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L194)
 function NamePlatePreviewMixin:ToggleSimplifiedType(simplifiedType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L800)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L795)
 function NamePlatesTutorialMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L810)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L805)
 function NamePlatesTutorialMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L814)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L809)
 function NamePlatesTutorialMixin:OnShow() end

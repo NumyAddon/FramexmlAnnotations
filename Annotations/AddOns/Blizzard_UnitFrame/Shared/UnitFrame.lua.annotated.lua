@@ -5,7 +5,7 @@
 TempMaxHealthLossMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/UnitFrame.lua#L4)
-function TempMaxHealthLossMixin:InitalizeMaxHealthLossBar(healthBarsContainer, healthBar, optionalTempMaxHealthLossDivider) end
+function TempMaxHealthLossMixin:InitializeMaxHealthLossBar(healthBarsContainer, healthBar, optionalTempMaxHealthLossDivider) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UnitFrame/Shared/UnitFrame.lua#L19)
 function TempMaxHealthLossMixin:SetShouldAdjustHealthBarAnchor(xOffset, yOffset) end

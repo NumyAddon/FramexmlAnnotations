@@ -63,6 +63,7 @@ MageArcaneChargesFrame["spec"] = SPEC_MAGE_ARCANE -- inherited
 MageArcaneChargesFrame["maxUsablePoints"] = 5 -- inherited
 MageArcaneChargesFrame["resourceBarMixin"] = ClassPowerBar -- inherited
 MageArcaneChargesFrame["usePooledResourceButtons"] = true -- inherited
+MageArcaneChargesFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 MageArcaneChargesFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
 MageArcaneChargesFrame["align"] = "center" -- inherited
 MageArcaneChargesFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited

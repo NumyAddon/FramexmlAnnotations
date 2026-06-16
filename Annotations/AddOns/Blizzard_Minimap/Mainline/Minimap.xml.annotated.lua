@@ -142,7 +142,7 @@ Minimap = {}
 --- @class MinimapCluster_MinimapContainer : Frame
 --- @field Minimap Minimap
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L397)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L399)
 --- child of MinimapCluster
 --- @class MinimapCluster_InstanceDifficulty : Frame, InstanceDifficultyTemplate, InstanceDifficultyMixin
 

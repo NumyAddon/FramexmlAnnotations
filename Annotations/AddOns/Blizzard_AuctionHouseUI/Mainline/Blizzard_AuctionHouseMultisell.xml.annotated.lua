@@ -9,7 +9,7 @@
 --- @class AuctionHouseMultisellProgressFrame_CancelButton : Button
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Mainline/Blizzard_AuctionHouseMultisell.xml#L4)
---- @class AuctionHouseMultisellProgressFrame : Frame, UIParentBottomManagedFrameTemplate, MultisellProgressFrameMixin
+--- @class AuctionHouseMultisellProgressFrame : Frame, BottomManagedFrameTemplate, MultisellProgressFrameMixin
 --- @field layoutIndex number # 61
 --- @field ProgressBar AuctionHouseMultisellProgressFrame_ProgressBar
 --- @field CancelButton AuctionHouseMultisellProgressFrame_CancelButton
@@ -19,7 +19,7 @@
 --- @field Middle Texture
 AuctionHouseMultisellProgressFrame = {}
 AuctionHouseMultisellProgressFrame["layoutIndex"] = 61
-AuctionHouseMultisellProgressFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+AuctionHouseMultisellProgressFrame["layoutParent"] = BottomManagedFrameContainer -- inherited
 AuctionHouseMultisellProgressFrame["align"] = "center" -- inherited
 AuctionHouseMultisellProgressFrame["hideWhenActionBarIsOverriden"] = true -- inherited
 AuctionHouseMultisellProgressFrame["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited

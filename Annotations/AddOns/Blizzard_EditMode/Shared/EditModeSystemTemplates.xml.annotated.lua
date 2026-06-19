@@ -279,6 +279,14 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L393)
 --- Template
+--- @class EditModeRaidWarningSystemTemplate : Frame, EditModeSystemTemplate, EditModeRaidWarningSystemMixin
+--- @field system any # Enum.EditModeSystem.RaidWarning
+--- @field systemNameString any # HUD_EDIT_MODE_RAID_WARNING_LABEL
+--- @field defaultHideSelection boolean # true
+--- @field Selection EditModeSystemSelectionTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L404)
+--- Template
 --- @class EditModeTotemActionBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeTotemActionBarSystemMixin
 --- @field system any # Enum.EditModeSystem.TotemActionBar
 --- @field systemNameString any # HUD_EDIT_MODE_TOTEM_ACTION_BAR_LABEL

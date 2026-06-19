@@ -7,4 +7,5 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Button/UIPanelButtonTemplates.xml#L12)
 --- Template
 --- @class UIPanelDynamicResizeButtonTemplate : Button, UIPanelButtonTemplate
+--- @field padding number # 40
 

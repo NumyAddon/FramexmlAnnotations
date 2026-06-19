@@ -46,8 +46,14 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.xml#L110)
 --- Template
 --- @class HouseEditorDecorCountTemplate : Frame, HouseEditorBudgetCountTemplate, HouseEditorDecorCountMixin
+--- @field Icon Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.xml#L126)
+--- Template
+--- @class HouseEditorPetCountTemplate : Frame, HouseEditorBudgetCountTemplate, HouseEditorPetCountMixin
+--- @field Icon Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.xml#L142)
 --- Template
 --- @class HouseEditorRoomCountTemplate : Frame, HouseEditorBudgetCountTemplate, HouseEditorRoomCountMixin
 

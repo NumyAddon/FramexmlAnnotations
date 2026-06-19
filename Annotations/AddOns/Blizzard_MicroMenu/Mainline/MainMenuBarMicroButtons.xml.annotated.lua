@@ -118,11 +118,11 @@ EJMicroButton["commandName"] = "TOGGLEENCOUNTERJOURNAL"
 HelpMicroButton = {}
 HelpMicroButton["tooltipText"] = HELP_BUTTON
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L303)
 --- child of StoreMicroButton
 --- @class StoreMicroButton_NotificationOverlay : Frame, MainMenuBarMicroButtonNotificationTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L288)
 --- @class StoreMicroButton : Button, MainMenuBarMicroButton, StoreMicroButtonMixin
 --- @field buttonContext string # StoreMicroButton
 --- @field NotificationOverlay StoreMicroButton_NotificationOverlay
@@ -130,11 +130,11 @@ HelpMicroButton["tooltipText"] = HELP_BUTTON
 StoreMicroButton = {}
 StoreMicroButton["buttonContext"] = "StoreMicroButton"
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L325)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L324)
 --- child of MainMenuMicroButton
 --- @class MainMenuMicroButton_NotificationOverlay : Frame, MainMenuBarMicroButtonNotificationTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L308)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MicroMenu/Mainline/MainMenuBarMicroButtons.xml#L307)
 --- @class MainMenuMicroButton : Button, MainMenuBarMicroButton, MainMenuMicroButtonMixin
 --- @field commandName string # TOGGLEGAMEMENU
 --- @field newbieText any # NEWBIE_TOOLTIP_MAINMENU

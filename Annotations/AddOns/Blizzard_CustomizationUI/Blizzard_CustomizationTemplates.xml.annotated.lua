@@ -171,7 +171,7 @@ CustomizationNoHeaderTooltipTexture29 = {}
 CustomizationNoHeaderTooltipTexture30 = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CustomizationUI/Blizzard_CustomizationTemplates.xml#L3)
---- @class CustomizationNoHeaderTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate, CustomizationNoHeaderTooltipMixin
+--- @class CustomizationNoHeaderTooltip : GameTooltip, SharedTooltipTemplate, TopLevelParentScaleFrameTemplate, NarratableTooltipTemplate, CustomizationNoHeaderTooltipMixin
 --- @field textLeft1Font string # GameFontNormalMed2
 --- @field textRight1Font string # GameFontNormalMed2
 --- @field textLeft2Font string # GameFontNormalMed2

@@ -1,29 +1,34 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L57)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_TempMaxHealthLoss : StatusBar, TempMaxHealthLossMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L61)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L64)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_PowerBar : StatusBar
 --- @field background Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L73)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_CenterStatusIcon : Button, CompactUnitFrameCenterStatusIconMixin
 --- @field texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L84)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L87)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_ReadyCheckIcon : Frame, CompactUnitFrameReadyCheckMixin
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L25)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L94)
+--- child of CompactUnitFrameTemplate
+--- @class CompactUnitFrameTemplate_pingIconFrame : Frame, UnitPingIconFrameTemplate
+--- @field isRaidFrame boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L31)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Name : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L32)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_StatusText : FontString, GameFontDisable
 
@@ -37,18 +42,19 @@
 --- @field powerBar CompactUnitFrameTemplate_PowerBar
 --- @field centerStatusIcon CompactUnitFrameTemplate_CenterStatusIcon
 --- @field readyCheckIcon CompactUnitFrameTemplate_ReadyCheckIcon
+--- @field pingIconFrame CompactUnitFrameTemplate_pingIconFrame
 --- @field background Texture
 --- @field myHealPrediction Texture
 --- @field otherHealPrediction Texture
 --- @field totalAbsorb Texture
 --- @field totalAbsorbOverlay Texture
+--- @field TotalAbsorbLeftShadow Texture
 --- @field name CompactUnitFrameTemplate_Name
 --- @field statusText CompactUnitFrameTemplate_StatusText
 --- @field roleIcon Texture
 --- @field myHealAbsorb Texture
 --- @field myHealAbsorbOverlay Texture
 --- @field myHealAbsorbLeftShadow Texture
---- @field myHealAbsorbRightShadow Texture
 --- @field overAbsorbGlow Texture
 --- @field overHealAbsorbGlow Texture
 --- @field aggroHighlight Texture

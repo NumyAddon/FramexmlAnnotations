@@ -260,47 +260,47 @@ HousingBulletinBoardFrame = {}
 --- child of NeighborhoodChangeNameDialog
 --- @class NeighborhoodChangeNameDialog_NameError : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1024)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L988)
 --- child of NeighborhoodChangeNameDialog (created in template TranslucentFrameTemplate)
 --- @type Texture
 NeighborhoodChangeNameDialogBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1033)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L997)
 --- child of NeighborhoodChangeNameDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 NeighborhoodChangeNameDialogTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1038)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1002)
 --- child of NeighborhoodChangeNameDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 NeighborhoodChangeNameDialogTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1043)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1007)
 --- child of NeighborhoodChangeNameDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 NeighborhoodChangeNameDialogBottomLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1048)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1012)
 --- child of NeighborhoodChangeNameDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 NeighborhoodChangeNameDialogBottomRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1053)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1017)
 --- child of NeighborhoodChangeNameDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 NeighborhoodChangeNameDialogTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1059)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1023)
 --- child of NeighborhoodChangeNameDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 NeighborhoodChangeNameDialogBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1065)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1029)
 --- child of NeighborhoodChangeNameDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 NeighborhoodChangeNameDialogLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1071)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBulletinBoard/Blizzard_HousingBulletinBoard.xml#L1035)
 --- child of NeighborhoodChangeNameDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 NeighborhoodChangeNameDialogRightBorder = {}

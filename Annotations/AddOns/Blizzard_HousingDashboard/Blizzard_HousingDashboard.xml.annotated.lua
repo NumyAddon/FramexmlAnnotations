@@ -1,32 +1,25 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L3)
---- Template
---- Adds itself to the parent inside the array `TabButtons`
---- @class HousingDashboardSideTabTemplate : Frame, SidePanelTabButtonMixin
---- @field Icon Texture
---- @field Highlight Texture
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L11)
 --- child of HousingDashboardFrame
 --- @class HousingDashboardFrame_HouseInfoContent : Frame, HousingDashboardHouseInfoTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L13)
 --- child of HousingDashboardFrame
 --- @class HousingDashboardFrame_CatalogContent : Frame, HousingCatalogFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L16)
 --- child of HousingDashboardFrame
---- @class HousingDashboardFrame_HouseInfoTabButton : Frame, HousingDashboardSideTabTemplate
---- @field activeAtlas string # housing-sidetabs-dashboard-active
---- @field inactiveAtlas string # housing-dashboard-sidetabs-inactive
+--- @class HousingDashboardFrame_HouseInfoTabButton : Frame, LargeSideTabButtonTemplate
+--- @field activeAtlas string # housing-icon-dashboard
+--- @field inactiveAtlas string # housing-icon-dashboard-dis
 --- @field tooltipText any # HOUSING_DASHBOARD_HOUSEINFO_TOOLTIP
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L26)
 --- child of HousingDashboardFrame
---- @class HousingDashboardFrame_CatalogTabButton : Frame, HousingDashboardSideTabTemplate
---- @field activeAtlas string # housing-sidetabs-catalog-active
---- @field inactiveAtlas string # housing-dashboard-sidetabs-catalog-inactive
+--- @class HousingDashboardFrame_CatalogTabButton : Frame, LargeSideTabButtonTemplate
+--- @field activeAtlas string # housing-icon-catalog
+--- @field inactiveAtlas string # housing-icon-catalog-dis
 --- @field tooltipText any # HOUSING_DASHBOARD_CATALOG_TOOLTIP
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L633)
@@ -39,7 +32,7 @@ HousingDashboardFrameCloseButton = {}
 --- @type Texture
 HousingDashboardFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L21)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L3)
 --- @class HousingDashboardFrame : Frame, PortraitFrameTemplate, TabSystemOwnerTemplate, HousingDashboardFrameMixin
 --- @field HouseInfoContent HousingDashboardFrame_HouseInfoContent
 --- @field CatalogContent HousingDashboardFrame_CatalogContent

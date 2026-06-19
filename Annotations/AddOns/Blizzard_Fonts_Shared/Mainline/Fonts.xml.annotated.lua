@@ -116,3 +116,7 @@
 --- Template
 --- @class NumberFont_Outline_Large : Font
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/Fonts.xml#L910)
+--- Template
+--- @class NumberFont_Outline_Large2 : Font
+

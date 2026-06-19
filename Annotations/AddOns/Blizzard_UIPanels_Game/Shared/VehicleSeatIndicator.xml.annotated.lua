@@ -11,12 +11,12 @@
 --- @field Highlight Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Shared/VehicleSeatIndicator.xml#L54)
---- @class VehicleSeatIndicator : Frame, UIParentRightManagedFrameTemplate, EditModeVehicleSeatIndicatorSystemTemplate, VehicleSeatIndicatorMixin
+--- @class VehicleSeatIndicator : Frame, RightManagedFrameTemplate, EditModeVehicleSeatIndicatorSystemTemplate, VehicleSeatIndicatorMixin
 --- @field layoutIndex number # 3
 --- @field BackgroundTexture Texture
 VehicleSeatIndicator = {}
 VehicleSeatIndicator["layoutIndex"] = 3
-VehicleSeatIndicator["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
+VehicleSeatIndicator["layoutParent"] = RightManagedFrameContainer -- inherited
 VehicleSeatIndicator["align"] = "right" -- inherited
 VehicleSeatIndicator["hideWhenActionBarIsOverriden"] = false -- inherited
 VehicleSeatIndicator["isRightManagedFrame"] = true -- inherited

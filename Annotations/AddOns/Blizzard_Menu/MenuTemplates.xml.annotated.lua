@@ -28,8 +28,7 @@
 --- @class WowMenuAutoHideButtonTemplate : Button
 --- @field Texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.xml#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Menu/MenuTemplates.xml#L94)
 --- Template
---- @class WowMenuDropdownHighlightRadioTemplate : Button, DarkMenuElementTemplate
---- @field Text FontString
+--- @class WowMenuDropdownHighlightButtonTemplate : Button, DarkMenuElementTemplate
 

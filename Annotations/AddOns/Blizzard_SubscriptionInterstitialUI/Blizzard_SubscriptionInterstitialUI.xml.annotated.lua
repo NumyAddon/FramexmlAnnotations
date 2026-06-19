@@ -15,42 +15,42 @@
 --- child of SubscriptionInterstitialFrame
 --- @class SubscriptionInterstitialFrame_Inset : Frame, InsetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1084)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1048)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1090)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1054)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1096)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1060)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBottomLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1102)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1066)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBottomRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1072)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1079)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1086)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SubscriptionInterstitialUI/Blizzard_SubscriptionInterstitialUI.xml#L1093)
 --- child of SubscriptionInterstitialFrame_ShadowOverlay (created in template ShadowOverlaySmallTemplate)
 --- @type Texture
 SubscriptionInterstitialFrameRight = {}

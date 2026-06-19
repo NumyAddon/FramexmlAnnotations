@@ -50,12 +50,12 @@ BFAMissionFrameTab3 = {}
 --- child of BFAMissionFrameFollowers
 --- @class BFAMissionFrameFollowers_MaterialFrame : Frame, MaterialFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L221)
 --- child of BFAMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 BFAMissionFrameFollowersClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GarrisonUI/Mainline/Blizzard_BFAMissionUI.xml#L212)
 --- child of BFAMissionFrameFollowers_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 BFAMissionFrameFollowersSearchIcon = {}

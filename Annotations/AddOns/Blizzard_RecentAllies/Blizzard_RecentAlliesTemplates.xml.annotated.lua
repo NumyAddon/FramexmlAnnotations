@@ -98,3 +98,109 @@
 --- @field NormalTexture Texture
 --- @field HighlightTexture Texture
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L207)
+--- Template
+--- @class RecentAlliesSocialViewTemplate : Frame, SocialUIContactsFrameTemplate, RecentAlliesSocialViewMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L216)
+--- Template
+--- @class RecentAlliesSocialCardFriendRequestSentDisplayTemplate : Frame, UserScaledFrameTemplate, RecentAlliesSocialCardFriendRequestSentDisplayMixin
+--- @field baseWidth number # 18
+--- @field baseHeight number # 18
+--- @field useScaleWeight boolean # true
+--- @field useScaleWeightForHeight boolean # true
+--- @field scaleWeight number # 0.5
+--- @field Icon Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L240)
+--- Template
+--- @class RecentAlliesSocialCardPinDisplayTemplate : Frame, UserScaledFrameTemplate, RecentAlliesSocialCardPinDisplayMixin
+--- @field baseWidth number # 18
+--- @field baseHeight number # 18
+--- @field useScaleWeight boolean # true
+--- @field useScaleWeightForHeight boolean # true
+--- @field scaleWeight number # 0.5
+--- @field Icon Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L268)
+--- child of RecentAlliesCardStateDisplayTemplate
+--- @class RecentAlliesCardStateDisplayTemplate_PinDisplay : Frame, RecentAlliesSocialCardPinDisplayTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L273)
+--- child of RecentAlliesCardStateDisplayTemplate
+--- @class RecentAlliesCardStateDisplayTemplate_FriendRequestSentDisplay : Frame, RecentAlliesSocialCardFriendRequestSentDisplayTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L259)
+--- Template
+--- @class RecentAlliesCardStateDisplayTemplate : Frame, UserScaledFrameTemplate, RecentAlliesCardStateDisplayMixin
+--- @field baseWidth number # 38
+--- @field baseHeight number # 18
+--- @field useScaleWeight boolean # true
+--- @field useScaleWeightForHeight boolean # true
+--- @field scaleWeight number # 0.5
+--- @field PinDisplay RecentAlliesCardStateDisplayTemplate_PinDisplay
+--- @field FriendRequestSentDisplay RecentAlliesCardStateDisplayTemplate_FriendRequestSentDisplay
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L281)
+--- Template
+--- @class RecentAlliesSocialCardPartyButtonTemplate : Button, SocialCardActionButtonTemplate, RecentAlliesSocialCardPartyButtonMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L307)
+--- child of RecentAlliesSocialCardTemplate
+--- @class RecentAlliesSocialCardTemplate_PresenceHolder : Frame, SocialCardPresenceHolderTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L311)
+--- child of RecentAlliesSocialCardTemplate
+--- @class RecentAlliesSocialCardTemplate_PartyButton : Button, RecentAlliesSocialCardPartyButtonTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L321)
+--- child of RecentAlliesSocialCardTemplate
+--- @class RecentAlliesSocialCardTemplate_StateDisplay : Frame, RecentAlliesCardStateDisplayTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L330)
+--- child of RecentAlliesSocialCardTemplate
+--- @class RecentAlliesSocialCardTemplate_Name : FontString, UserScaledFontHeader
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L335)
+--- child of RecentAlliesSocialCardTemplate
+--- @class RecentAlliesSocialCardTemplate_Level : FontString, UserScaledFontHeader
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L341)
+--- child of RecentAlliesSocialCardTemplate
+--- @class RecentAlliesSocialCardTemplate_Class : FontString, UserScaledFontHeader
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L348)
+--- child of RecentAlliesSocialCardTemplate
+--- @class RecentAlliesSocialCardTemplate_MostRecentInteraction : FontString, UserScaledFontBody
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L354)
+--- child of RecentAlliesSocialCardTemplate
+--- @class RecentAlliesSocialCardTemplate_Location : FontString, UserScaledFontBody
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecentAllies/Blizzard_RecentAlliesTemplates.xml#L283)
+--- Template
+--- @class RecentAlliesSocialCardTemplate : Button, RecentAlliesSocialCardMixin
+--- @field baseHeight number # 70
+--- @field useScaleWeightForHeight boolean # true
+--- @field scaleWeight number # 0.6
+--- @field presenceHolderXOffset number # 3
+--- @field presenceHolderYOffset number # -4
+--- @field textHolderTopLeftXOffset number # -4
+--- @field textHolderTopLeftYOffset number # 3
+--- @field textHolderRightXOffset number # -5
+--- @field textHolderBottomYOffset number # 5
+--- @field interStringTextSpacing number # 6
+--- @field lineSpacing number # 4
+--- @field secondaryTextIndent number # 1
+--- @field stateDisplayXOffset number # 2
+--- @field PresenceHolder RecentAlliesSocialCardTemplate_PresenceHolder
+--- @field PartyButton RecentAlliesSocialCardTemplate_PartyButton
+--- @field TextHolder Frame
+--- @field StateDisplay RecentAlliesSocialCardTemplate_StateDisplay
+--- @field Background Texture
+--- @field Name RecentAlliesSocialCardTemplate_Name
+--- @field Level RecentAlliesSocialCardTemplate_Level
+--- @field Class RecentAlliesSocialCardTemplate_Class
+--- @field MostRecentInteraction RecentAlliesSocialCardTemplate_MostRecentInteraction
+--- @field Location RecentAlliesSocialCardTemplate_Location
+

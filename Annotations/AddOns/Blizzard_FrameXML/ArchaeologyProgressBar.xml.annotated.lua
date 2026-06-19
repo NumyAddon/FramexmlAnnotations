@@ -32,7 +32,7 @@
 --- @class ArcheologyDigsiteProgressBar_AnimOutAndTriggerToast : AnimationGroup, ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L5)
---- @class ArcheologyDigsiteProgressBar : Frame, UIParentBottomManagedFrameTemplate, EditModeArchaeologyBarSystemTemplate, ArcheologyDigsiteProgressBarMixin
+--- @class ArcheologyDigsiteProgressBar : Frame, BottomManagedFrameTemplate, EditModeArchaeologyBarSystemTemplate, ArcheologyDigsiteProgressBarMixin
 --- @field layoutIndex number # 7
 --- @field FillBar ArcheologyDigsiteProgressBar_FillBar
 --- @field BarTitle ArcheologyDigsiteProgressBar_BarTitle
@@ -45,7 +45,7 @@
 --- @field AnimOutAndTriggerToast ArcheologyDigsiteProgressBar_AnimOutAndTriggerToast
 ArcheologyDigsiteProgressBar = {}
 ArcheologyDigsiteProgressBar["layoutIndex"] = 7
-ArcheologyDigsiteProgressBar["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+ArcheologyDigsiteProgressBar["layoutParent"] = BottomManagedFrameContainer -- inherited
 ArcheologyDigsiteProgressBar["align"] = "center" -- inherited
 ArcheologyDigsiteProgressBar["hideWhenActionBarIsOverriden"] = true -- inherited
 ArcheologyDigsiteProgressBar["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited

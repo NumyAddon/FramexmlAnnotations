@@ -23,7 +23,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/ExtraActionBar.xml#L3)
 --- Explicitly protected
 --- Template
---- @class ExtraActionButtonTemplate : CheckButton, ActionBarButtonCodeTemplate, ExtraActionButtonMixin
+--- @class ExtraActionButtonTemplate : CheckButton, ActionBarButtonCodeTemplate, PingableActionButtonTemplate, ExtraActionButtonMixin
 --- @field isExtra boolean # true
 --- @field buttonType string # EXTRAACTIONBUTTON
 --- @field cooldown ExtraActionButtonTemplate_Cooldown

@@ -16,6 +16,6 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Button/UIButtonTemplate.xml#L61)
 --- Template
---- @class BigRedExitButtonTemplate : Button, UIButtonTemplate
+--- @class BigRedExitButtonTemplate : Button, UIButtonTemplate, UIPanelCloseButtonNarrationMixin
 --- @field buttonArtKit string # 128-redbutton-exit
 

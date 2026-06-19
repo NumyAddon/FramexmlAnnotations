@@ -37,7 +37,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L20)
 --- Template
---- @class CooldownViewerEssentialItemTemplate : Frame, CooldownViewerBaseItemTemplate, CooldownViewerEssentialItemMixin
+--- @class CooldownViewerEssentialItemTemplate : Frame, CooldownViewerBaseItemTemplate, PingableCooldownViewerItemTemplate, CooldownViewerEssentialItemMixin
 --- @field cooldownFont string # GameFontHighlightHugeOutline
 --- @field includeAsLayoutChildWhenHidden boolean # true
 --- @field Cooldown CooldownViewerEssentialItemTemplate_Cooldown
@@ -74,7 +74,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L86)
 --- Template
---- @class CooldownViewerUtilityItemTemplate : Frame, CooldownViewerBaseItemTemplate, CooldownViewerUtilityItemMixin
+--- @class CooldownViewerUtilityItemTemplate : Frame, CooldownViewerBaseItemTemplate, PingableCooldownViewerItemTemplate, CooldownViewerUtilityItemMixin
 --- @field cooldownFont string # GameFontHighlightOutline
 --- @field includeAsLayoutChildWhenHidden boolean # true
 --- @field Cooldown CooldownViewerUtilityItemTemplate_Cooldown
@@ -153,8 +153,8 @@
 --- Template
 --- @class CooldownViewerTemplate : Frame, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, CooldownViewerMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L293)
---- @class EssentialCooldownViewer : Frame, CooldownViewerTemplate, UIParentBottomManagedFrameTemplate, EssentialCooldownViewerMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L292)
+--- @class EssentialCooldownViewer : Frame, CooldownViewerTemplate, BottomManagedFrameTemplate, EssentialCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.Essential
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_ESSENTIAL_COOLDOWNS
 --- @field itemTemplate string # CooldownViewerEssentialItemTemplate
@@ -170,14 +170,14 @@ EssentialCooldownViewer["layoutIndex"] = 10
 EssentialCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
 EssentialCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 EssentialCooldownViewer["defaultHideSelection"] = true -- inherited
-EssentialCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+EssentialCooldownViewer["layoutParent"] = BottomManagedFrameContainer -- inherited
 EssentialCooldownViewer["align"] = "center" -- inherited
 EssentialCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 EssentialCooldownViewer["isBottomManagedFrame"] = true -- inherited
 EssentialCooldownViewer["isManagedFrame"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L304)
---- @class UtilityCooldownViewer : Frame, CooldownViewerTemplate, UIParentBottomManagedFrameTemplate, UtilityCooldownViewerMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L303)
+--- @class UtilityCooldownViewer : Frame, CooldownViewerTemplate, BottomManagedFrameTemplate, UtilityCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.Utility
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_UTILITY_COOLDOWNS
 --- @field itemTemplate string # CooldownViewerUtilityItemTemplate
@@ -193,14 +193,14 @@ UtilityCooldownViewer["layoutIndex"] = 11
 UtilityCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
 UtilityCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 UtilityCooldownViewer["defaultHideSelection"] = true -- inherited
-UtilityCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+UtilityCooldownViewer["layoutParent"] = BottomManagedFrameContainer -- inherited
 UtilityCooldownViewer["align"] = "center" -- inherited
 UtilityCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 UtilityCooldownViewer["isBottomManagedFrame"] = true -- inherited
 UtilityCooldownViewer["isManagedFrame"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L315)
---- @class BuffIconCooldownViewer : Frame, CooldownViewerTemplate, UIParentBottomManagedFrameTemplate, BuffIconCooldownViewerMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L314)
+--- @class BuffIconCooldownViewer : Frame, CooldownViewerTemplate, BottomManagedFrameTemplate, BuffIconCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.BuffIcon
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_TRACKED_BUFFS
 --- @field itemTemplate string # CooldownViewerBuffIconItemTemplate
@@ -216,13 +216,13 @@ BuffIconCooldownViewer["layoutIndex"] = 9
 BuffIconCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
 BuffIconCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
 BuffIconCooldownViewer["defaultHideSelection"] = true -- inherited
-BuffIconCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+BuffIconCooldownViewer["layoutParent"] = BottomManagedFrameContainer -- inherited
 BuffIconCooldownViewer["align"] = "center" -- inherited
 BuffIconCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 BuffIconCooldownViewer["isBottomManagedFrame"] = true -- inherited
 BuffIconCooldownViewer["isManagedFrame"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L326)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L325)
 --- @class BuffBarCooldownViewer : Frame, CooldownViewerTemplate, BuffBarCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.BuffBar
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_TRACKED_BUFF_BARS

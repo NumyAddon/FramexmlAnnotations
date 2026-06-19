@@ -174,35 +174,39 @@ SharedTooltipDefaultContainer = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L88)
 --- Template
+--- @class NarratableTooltipTemplate : Frame, NarratableTooltipMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L95)
+--- Template
 --- @class SharedTooltipTemplate : GameTooltip, SharedTooltipArtTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L97)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L104)
 --- Template
 --- @class SharedNoHeaderTooltipTemplate : GameTooltip, SharedTooltipTemplate
 --- @field textLeft1Font string # GameTooltipText
 --- @field textRight1Font string # GameTooltipText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L109)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L116)
 --- child of TooltipBackdropTemplate
 --- @class TooltipBackdropTemplate_NineSlice : Frame, NineSlicePanelTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L111)
 --- Template
 --- @class TooltipBackdropTemplate : Frame, TooltipBackdropTemplateMixin
 --- @field layoutType string # TooltipDefaultLayout
 --- @field NineSlice TooltipBackdropTemplate_NineSlice
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L123)
 --- Template
 --- @class TooltipBorderBackdropTemplate : Frame, TooltipBackdropTemplate
 --- @field backdropColorAlpha number # 0
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L129)
 --- Template
 --- @class TooltipBorderedFrameTemplate : Frame, TooltipBackdropTemplate
 --- @field backdropColorAlpha number # 0.8
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.xml#L135)
 --- Template
 --- @class DisabledTooltipButtonTemplate : Button, DisabledTooltipButtonMixin
 

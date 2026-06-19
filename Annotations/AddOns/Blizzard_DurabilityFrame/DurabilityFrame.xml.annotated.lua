@@ -61,14 +61,14 @@ DurabilityOffWeapon = {}
 DurabilityRanged = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DurabilityFrame/DurabilityFrame.xml#L3)
---- @class DurabilityFrame : Frame, EditModeDurabilityFrameSystemTemplate, UIParentRightManagedFrameTemplate, DurabilityFrameMixin
+--- @class DurabilityFrame : Frame, EditModeDurabilityFrameSystemTemplate, RightManagedFrameTemplate, DurabilityFrameMixin
 --- @field layoutIndex number # 9
 DurabilityFrame = {}
 DurabilityFrame["layoutIndex"] = 9
 DurabilityFrame["system"] = Enum.EditModeSystem.DurabilityFrame -- inherited
 DurabilityFrame["systemNameString"] = HUD_EDIT_MODE_DURABILITY_FRAME_LABEL -- inherited
 DurabilityFrame["defaultHideSelection"] = true -- inherited
-DurabilityFrame["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
+DurabilityFrame["layoutParent"] = RightManagedFrameContainer -- inherited
 DurabilityFrame["align"] = "right" -- inherited
 DurabilityFrame["hideWhenActionBarIsOverriden"] = false -- inherited
 DurabilityFrame["isRightManagedFrame"] = true -- inherited

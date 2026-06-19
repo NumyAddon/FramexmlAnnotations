@@ -67,3 +67,12 @@
 --- @field enabledTooltip any # HOUSING_CONTROLS_INSPECT_TOOLTIP
 --- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingControls/Blizzard_HousingControlButton.xml#L97)
+--- Template
+--- @class HousingBlueprintActionButtonTemplate : Button, HousingControlActionButtonTemplate, HousingBlueprintActionButtonMixin
+--- @field iconDefault string # decor-controls-save-default
+--- @field iconActive string # decor-controls-save-active
+--- @field iconPressed string # decor-controls-save-pressed
+--- @field enabledTooltip any # HOUSING_CONTROLS_BLUEPRINT_TOOLTIP
+--- @field clickSoundKit any # SOUNDKIT.HOUSING_MINOR_TOP_ACTION_BAR_INTERACT
+

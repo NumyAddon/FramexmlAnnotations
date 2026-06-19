@@ -236,7 +236,7 @@ PlayerPVPTimerText = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L14)
 --- Explicitly protected
---- @class PlayerFrame : Button, SecureUnitButtonTemplate, EditModePlayerFrameSystemTemplate, PingableType_UnitFrameMixin
+--- @class PlayerFrame : Button, SecureUnitButtonTemplate, EditModePlayerFrameSystemTemplate, PingableType_PlayerUnitFrameMixin
 --- @field disablePortraitMask boolean # true
 --- @field frameType string # Player
 --- @field PlayerFrameContainer PlayerFrame_PlayerFrameContainer
@@ -249,11 +249,11 @@ PlayerFrame["systemNameString"] = HUD_EDIT_MODE_PLAYER_FRAME_LABEL -- inherited
 PlayerFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PlayerFrame.xml#L467)
---- @class PlayerFrameBottomManagedFramesContainer : Frame, PlayerFrameManagedContainerTemplate, PlayerFrameBottomManagedFramesContainerMixin
+--- @class PlayerBottomManagedFrameContainer : Frame, PlayerManagedContainerTemplate, PlayerBottomManagedFrameContainerMixin
 --- @field fixedWidth number # 160
-PlayerFrameBottomManagedFramesContainer = {}
-PlayerFrameBottomManagedFramesContainer["fixedWidth"] = 160
-PlayerFrameBottomManagedFramesContainer["spacing"] = 2 -- inherited
-PlayerFrameBottomManagedFramesContainer["respectChildScale"] = true -- inherited
-PlayerFrameBottomManagedFramesContainer["minimumHeight"] = 1 -- inherited
+PlayerBottomManagedFrameContainer = {}
+PlayerBottomManagedFrameContainer["fixedWidth"] = 160
+PlayerBottomManagedFrameContainer["spacing"] = 2 -- inherited
+PlayerBottomManagedFrameContainer["respectChildScale"] = true -- inherited
+PlayerBottomManagedFrameContainer["minimumHeight"] = 1 -- inherited
 

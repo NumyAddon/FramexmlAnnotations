@@ -96,47 +96,47 @@ AbandonHouseRefundMoneyFrame["trialErrorButton"] = AbandonHouseRefundMoneyFrameT
 --- child of AbandonHouseConfirmationDialog
 --- @class AbandonHouseConfirmationDialog_ConfirmationDescription : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1024)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L988)
 --- child of AbandonHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type Texture
 AbandonHouseConfirmationDialogBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1033)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L997)
 --- child of AbandonHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 AbandonHouseConfirmationDialogTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1038)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1002)
 --- child of AbandonHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 AbandonHouseConfirmationDialogTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1043)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1007)
 --- child of AbandonHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 AbandonHouseConfirmationDialogBottomLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1048)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1012)
 --- child of AbandonHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 AbandonHouseConfirmationDialogBottomRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1053)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1017)
 --- child of AbandonHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 AbandonHouseConfirmationDialogTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1059)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1023)
 --- child of AbandonHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 AbandonHouseConfirmationDialogBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1065)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1029)
 --- child of AbandonHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 AbandonHouseConfirmationDialogLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1071)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L1035)
 --- child of AbandonHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 AbandonHouseConfirmationDialogRightBorder = {}
@@ -174,29 +174,33 @@ AbandonHouseConfirmationDialog["RightBorder"] = AbandonHouseConfirmationDialogRi
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L153)
 --- child of HousingHouseSettingsFrame
+--- @class HousingHouseSettingsFrame_BlueprintExport : Frame, HouseSettingsAccessOptionsTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L158)
+--- child of HousingHouseSettingsFrame
 --- @class HousingHouseSettingsFrame_IgnoreListButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L164)
 --- child of HousingHouseSettingsFrame
 --- @class HousingHouseSettingsFrame_SaveButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L171)
 --- child of HousingHouseSettingsFrame
 --- @class HousingHouseSettingsFrame_HouseOwnerDropdown : DropdownButton, WowStyle1DropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L177)
 --- child of HousingHouseSettingsFrame
 --- @class HousingHouseSettingsFrame_AbandonHouseButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L203)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L208)
 --- child of HousingHouseSettingsFrame
 --- @class HousingHouseSettingsFrame_Title : FontString, Game17Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L213)
 --- child of HousingHouseSettingsFrame
 --- @class HousingHouseSettingsFrame_HouseNameText : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L214)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingHouseSettings/Blizzard_HousingHouseSettings.xml#L219)
 --- child of HousingHouseSettingsFrame
 --- @class HousingHouseSettingsFrame_HouseOwnerLabel : FontString, Game15Font_Shadow
 
@@ -205,6 +209,7 @@ AbandonHouseConfirmationDialog["RightBorder"] = AbandonHouseConfirmationDialogRi
 --- @field CloseButton HousingHouseSettingsFrame_CloseButton
 --- @field PlotAccess HousingHouseSettingsFrame_PlotAccess
 --- @field HouseAccess HousingHouseSettingsFrame_HouseAccess
+--- @field BlueprintExport HousingHouseSettingsFrame_BlueprintExport
 --- @field IgnoreListButton HousingHouseSettingsFrame_IgnoreListButton
 --- @field SaveButton HousingHouseSettingsFrame_SaveButton
 --- @field HouseOwnerDropdown HousingHouseSettingsFrame_HouseOwnerDropdown

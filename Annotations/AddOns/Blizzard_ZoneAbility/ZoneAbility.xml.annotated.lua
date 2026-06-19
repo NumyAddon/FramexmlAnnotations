@@ -26,7 +26,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.xml#L31)
 --- Template
---- @class ZoneAbilityFrameSpellButtonTemplate : Button, ZoneAbilityFrameSpellButtonMixin
+--- @class ZoneAbilityFrameSpellButtonTemplate : Button, PingableActionButtonTemplate, ZoneAbilityFrameSpellButtonMixin
 --- @field Cooldown ZoneAbilityFrameSpellButtonTemplate_Cooldown
 --- @field ChargeCooldown ZoneAbilityFrameSpellButtonTemplate_ChargeCooldown
 --- @field Icon Texture

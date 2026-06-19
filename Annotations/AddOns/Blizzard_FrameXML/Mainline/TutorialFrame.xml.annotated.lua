@@ -188,11 +188,11 @@ TutorialFrame = {}
 TutorialFrame["onCloseCallback"] = TutorialFrame_Hide
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/Mainline/TutorialFrame.xml#L271)
---- @class TutorialFrameAlertButton : Button, UIParentBottomManagedFrameTemplate
+--- @class TutorialFrameAlertButton : Button, BottomManagedFrameTemplate
 --- @field layoutIndex number # 24
 TutorialFrameAlertButton = {}
 TutorialFrameAlertButton["layoutIndex"] = 24
-TutorialFrameAlertButton["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+TutorialFrameAlertButton["layoutParent"] = BottomManagedFrameContainer -- inherited
 TutorialFrameAlertButton["align"] = "center" -- inherited
 TutorialFrameAlertButton["hideWhenActionBarIsOverriden"] = true -- inherited
 TutorialFrameAlertButton["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited

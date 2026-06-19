@@ -94,68 +94,40 @@
 --- @field Background Texture
 --- @field ShowOnlyOwnedText HousingDecorDyeSlotPopoutTemplate_ShowOnlyOwnedText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L212)
---- child of HousingDyePaneTemplate
---- @class HousingDyePaneTemplate_CloseButton : Button, UIPanelCloseButtonNoScripts
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L187)
 --- child of HousingDyePaneTemplate
 --- @class HousingDyePaneTemplate_DyeSlotContainer : Frame, VerticalLayoutFrame
 --- @field spacing number # 3
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L252)
---- child of HousingDyePaneTemplate_ButtonFrame
---- @class HousingDyePaneTemplate_ButtonFrame_CancelButton : Button, UIPanelButtonTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L259)
---- child of HousingDyePaneTemplate_ButtonFrame
---- @class HousingDyePaneTemplate_ButtonFrame_ApplyButton : Button, UIPanelButtonTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L243)
---- child of HousingDyePaneTemplate_ButtonFrame
---- @class HousingDyePaneTemplate_ButtonFrame_CurrentDyeIcons : FontString, GameFontNormal
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L227)
---- child of HousingDyePaneTemplate
---- @class HousingDyePaneTemplate_ButtonFrame : Frame
---- @field CancelButton HousingDyePaneTemplate_ButtonFrame_CancelButton
---- @field ApplyButton HousingDyePaneTemplate_ButtonFrame_ApplyButton
---- @field Divider Texture
---- @field CurrentDyeIcons HousingDyePaneTemplate_ButtonFrame_CurrentDyeIcons
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L206)
 --- child of HousingDyePaneTemplate_DyeCostContainer
 --- @class HousingDyePaneTemplate_DyeCostContainer_DyeSpendWarning : FontString, GameFontHighlightLarge
 --- @field align string # center
 --- @field layoutIndex number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L197)
 --- child of HousingDyePaneTemplate
 --- @class HousingDyePaneTemplate_DyeCostContainer : Frame, HorizontalLayoutFrame
 --- @field spacing number # 12
 --- @field DyeSpendWarning HousingDyePaneTemplate_DyeCostContainer_DyeSpendWarning
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L203)
---- child of HousingDyePaneTemplate
---- @class HousingDyePaneTemplate_DecorName : FontString, GameFontHighlight
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L218)
 --- child of HousingDyePaneTemplate
 --- @class HousingDyePaneTemplate_DyeRemoveWarning : FontString, GameFontHighlight
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L223)
+--- child of HousingDyePaneTemplate
+--- @class HousingDyePaneTemplate_CurrentDyeIcons : FontString, GameFontNormal
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L185)
 --- Template
 --- @class HousingDyePaneTemplate : Frame, HousingDyePaneMixin
---- @field CloseButton HousingDyePaneTemplate_CloseButton
 --- @field DyeSlotContainer HousingDyePaneTemplate_DyeSlotContainer
---- @field ButtonFrame HousingDyePaneTemplate_ButtonFrame
 --- @field DyeCostContainer HousingDyePaneTemplate_DyeCostContainer
---- @field Background Texture
---- @field WoodHeader Texture
---- @field DecorName HousingDyePaneTemplate_DecorName
 --- @field DyeRemoveWarning HousingDyePaneTemplate_DyeRemoveWarning
+--- @field CurrentDyeIcons HousingDyePaneTemplate_CurrentDyeIcons
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationDyeTemplates.xml#L237)
 --- Template
 --- @class HousingDyeCostIconTemplate : Frame, HousingDyeCostIconMixin
 --- @field DyeIcon Texture

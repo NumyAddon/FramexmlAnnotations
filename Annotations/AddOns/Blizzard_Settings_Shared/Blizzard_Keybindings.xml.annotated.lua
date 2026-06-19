@@ -16,10 +16,14 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L59)
 --- child of KeyBindingFrameBindingTemplate
+--- @class KeyBindingFrameBindingTemplate_NewFeature : Frame, NewFeatureLabelTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L65)
+--- child of KeyBindingFrameBindingTemplate
 --- @class KeyBindingFrameBindingTemplate_Button1 : Button, KeyBindingFrameBindingButtonTemplate
 --- @field SlotIndex number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L74)
 --- child of KeyBindingFrameBindingTemplate
 --- @class KeyBindingFrameBindingTemplate_Button2 : Button, KeyBindingFrameBindingButtonTemplate
 --- @field SlotIndex number # 2
@@ -31,6 +35,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Keybindings.xml#L42)
 --- Template
 --- @class KeyBindingFrameBindingTemplate : Frame, KeyBindingFrameBindingTemplateMixin
+--- @field NewFeature KeyBindingFrameBindingTemplate_NewFeature
 --- @field Button1 KeyBindingFrameBindingTemplate_Button1
 --- @field Button2 KeyBindingFrameBindingTemplate_Button2
 --- @field Label KeyBindingFrameBindingTemplate_Label

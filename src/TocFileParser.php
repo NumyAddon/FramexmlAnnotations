@@ -74,7 +74,7 @@ class TocFileParser
 
         $dir = dirname($tocFilePath);
         $files = [];
-        $pattern = '/\[(?<name>[^ \]]+) (?<value>[^\]]+)\]/';
+        $pattern = '/\[(?<name>[^ \]]+)(?: (?<value>[^\]]+))?\]/';
         foreach ($fileLines as $line) {
             $line = strtr(
                 $line,
@@ -87,7 +87,7 @@ class TocFileParser
             if (preg_match_all($pattern, $line, $matches, PREG_SET_ORDER)) {
                 foreach ($matches as $match) {
                     $name = $match['name'];
-                    $value = $match['value'];
+                    $value = $match['value'] ?? null;
                     switch ($name) {
                         case 'AllowLoadGameType':
                             if (!$this->allowLoadGameType($value)) {
@@ -106,6 +106,7 @@ class TocFileParser
                             break;
                         case 'AllowLoadEnvironment':
                         case 'LoadIntoEnvironment':
+                        case 'Bootstrap':
                             break; // ignore for now
                         default:
                             throw new RuntimeException("Unrecognized in-line directive ($name) in TOC line: $line");

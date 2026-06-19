@@ -1,43 +1,41 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLBase/Mainline/IconDataProvider.lua#L45)
---- @enum IconDataProviderIconType
-local IconDataProviderIconType = {
-    ["Spell"] = 1,
-    ["Item"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
+--- @enum Settings.CategorySet
+local Settings_CategorySet = {
+    ["Game"] = 1,
+    ["AddOns"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)
---- @enum SpellFlyoutOpenReason
-local SpellFlyoutOpenReason = {
-    ["GlyphPending"] = 1,
-    ["GlyphActivated"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L27)
+--- @enum Settings.ControlType
+local Settings_ControlType = {
+    ["Radio"] = 1,
+    ["Checkbox"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.lua#L1)
---- @enum ProfessionsCustomerOrdersMode
-local ProfessionsCustomerOrdersMode = {
-    ["Browse"] = 1,
-    ["Orders"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L3)
+--- @enum SettingsLayoutMixin.LayoutType
+local SettingsLayoutMixin_LayoutType = {
+    ["Vertical"] = 1,
+    ["Canvas"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L189)
---- @enum AuraUtil.AuraUpdateChangedType
-local AuraUtil_AuraUpdateChangedType = {
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L268)
+--- @enum MapPinHighlightType
+local MapPinHighlightType = {
     ["None"] = 1,
-    ["Debuff"] = 2,
-    ["Buff"] = 3,
-    ["Dispel"] = 4,
+    ["BountyRing"] = 2, -- Golden ring around the pin, used by the Emissary/Bounty Board, not really used any more after a consistency pass on quest pins
+    ["SupertrackedHighlight"] = 3, -- Blue glow + animated icon pulse, used by Covenant Callings and the World Map Activity Tracker
+    ["DreamsurgeHighlight"] = 4, -- Green glow + animated icon pulse, used by the Dreamsurge event
+    ["ImportantHubQuestHighlight"] = 5, -- Animated background glow, used by Quest Hub with important (manually specified) quests
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L196)
---- @enum AuraUtil.UnitFrameDebuffType
-local AuraUtil_UnitFrameDebuffType = {
-    ["BossDebuff"] = 1,
-    ["BossBuff"] = 2,
-    ["PriorityDebuff"] = 3,
-    ["NonBossRaidDebuff"] = 4,
-    ["NonBossDebuff"] = 5,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L280)
+--- @enum MapPinHighlightAnimType
+local MapPinHighlightAnimType = {
+    ["ExpandAndFade"] = 1, -- Expands and fades the MapPoi icon, and shows a glow texture
+    ["BackgroundPulse"] = 2, -- Pulses a background glow a specified number of times
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L4)
@@ -91,50 +89,13 @@ local CraftingQualityStatLine = {
     ["Concentration"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L268)
---- @enum MapPinHighlightType
-local MapPinHighlightType = {
-    ["None"] = 1,
-    ["BountyRing"] = 2, -- Golden ring around the pin, used by the Emissary/Bounty Board, not really used any more after a consistency pass on quest pins
-    ["SupertrackedHighlight"] = 3, -- Blue glow + animated icon pulse, used by Covenant Callings and the World Map Activity Tracker
-    ["DreamsurgeHighlight"] = 4, -- Green glow + animated icon pulse, used by the Dreamsurge event
-    ["ImportantHubQuestHighlight"] = 5, -- Animated background glow, used by Quest Hub with important (manually specified) quests
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L280)
---- @enum MapPinHighlightAnimType
-local MapPinHighlightAnimType = {
-    ["ExpandAndFade"] = 1, -- Expands and fades the MapPoi icon, and shows a glow texture
-    ["BackgroundPulse"] = 2, -- Pulses a background glow a specified number of times
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L366)
---- @enum ObjectiveTrackerSlidingState
-local ObjectiveTrackerSlidingState = {
-    ["None"] = 1,
-    ["SlideIn"] = 2,
-    ["SlideOut"] = 3,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua#L1)
---- @enum ObjectiveTrackerModuleState
-local ObjectiveTrackerModuleState = {
-    ["Skipped"] = 1, -- module did not try to layout (due to availableHeight being 0)
-    ["NoObjectives"] = 2, -- module has no objectives to show
-    ["NotShown"] = 3, -- module has objectives but there was not enough room to display anything
-    ["ShownPartially"] = 4, -- at least 1 objective is shown
-    ["ShownFully"] = 5, -- all objectives are shown, or header is collapsed and at least 1 objective could have shown
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerAnimTemplates.lua#L5)
---- @enum ObjectiveTrackerAnimLineState
-local ObjectiveTrackerAnimLineState = {
-    ["Adding"] = 1,
-    ["Present"] = 2,
-    ["Completing"] = 3,
-    ["Completed"] = 4,
-    ["Fading"] = 5,
-    ["Faded"] = 6,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1814)
+--- @enum PVPUIHonorInsetPanelType
+local PVPUIHonorInsetPanelType = {
+    ["Casual"] = 1,
+    ["Rated"] = 2,
+    ["Plunderstorm"] = 3,
+    ["TrainingGrounds"] = 4,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L40)
@@ -190,34 +151,47 @@ local QuestLogDisplayMode = {
     ["MapLegend"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
---- @enum Settings.CategorySet
-local Settings_CategorySet = {
-    ["Game"] = 1,
-    ["AddOns"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLBase/Mainline/IconDataProvider.lua#L45)
+--- @enum IconDataProviderIconType
+local IconDataProviderIconType = {
+    ["Spell"] = 1,
+    ["Item"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L27)
---- @enum Settings.ControlType
-local Settings_ControlType = {
-    ["Radio"] = 1,
-    ["Checkbox"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L366)
+--- @enum ObjectiveTrackerSlidingState
+local ObjectiveTrackerSlidingState = {
+    ["None"] = 1,
+    ["SlideIn"] = 2,
+    ["SlideOut"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L3)
---- @enum SettingsLayoutMixin.LayoutType
-local SettingsLayoutMixin_LayoutType = {
-    ["Vertical"] = 1,
-    ["Canvas"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerModule.lua#L1)
+--- @enum ObjectiveTrackerModuleState
+local ObjectiveTrackerModuleState = {
+    ["Skipped"] = 1, -- module did not try to layout (due to availableHeight being 0)
+    ["NoObjectives"] = 2, -- module has no objectives to show
+    ["NotShown"] = 3, -- module has objectives but there was not enough room to display anything
+    ["ShownPartially"] = 4, -- at least 1 objective is shown
+    ["ShownFully"] = 5, -- all objectives are shown, or header is collapsed and at least 1 objective could have shown
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1814)
---- @enum PVPUIHonorInsetPanelType
-local PVPUIHonorInsetPanelType = {
-    ["Casual"] = 1,
-    ["Rated"] = 2,
-    ["Plunderstorm"] = 3,
-    ["TrainingGrounds"] = 4,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerAnimTemplates.lua#L5)
+--- @enum ObjectiveTrackerAnimLineState
+local ObjectiveTrackerAnimLineState = {
+    ["Adding"] = 1,
+    ["Present"] = 2,
+    ["Completing"] = 3,
+    ["Completed"] = 4,
+    ["Fading"] = 5,
+    ["Faded"] = 6,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)
+--- @enum SpellFlyoutOpenReason
+local SpellFlyoutOpenReason = {
+    ["GlyphPending"] = 1,
+    ["GlyphActivated"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L125)
@@ -233,5 +207,31 @@ local CooldownViewerVisual = {
     ["FlashRed"] = 8,
     ["FlashGreen"] = 9,
     ["FlashBlue"] = 10,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L189)
+--- @enum AuraUtil.AuraUpdateChangedType
+local AuraUtil_AuraUpdateChangedType = {
+    ["None"] = 1,
+    ["Debuff"] = 2,
+    ["Buff"] = 3,
+    ["Dispel"] = 4,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L196)
+--- @enum AuraUtil.UnitFrameDebuffType
+local AuraUtil_UnitFrameDebuffType = {
+    ["BossDebuff"] = 1,
+    ["BossBuff"] = 2,
+    ["PriorityDebuff"] = 3,
+    ["NonBossRaidDebuff"] = 4,
+    ["NonBossDebuff"] = 5,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.lua#L1)
+--- @enum ProfessionsCustomerOrdersMode
+local ProfessionsCustomerOrdersMode = {
+    ["Browse"] = 1,
+    ["Orders"] = 2,
 }
 

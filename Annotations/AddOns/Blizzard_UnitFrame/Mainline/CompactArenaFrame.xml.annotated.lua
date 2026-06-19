@@ -15,29 +15,29 @@
 --- @field Icon Texture
 --- @field Border Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L51)
 --- child of ArenaUnitFrameCcRemoverTemplate
 --- @class ArenaUnitFrameCcRemoverTemplate_Cooldown : Cooldown, ArenaUnitFrameCooldownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L38)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L43)
 --- Template
 --- @class ArenaUnitFrameCcRemoverTemplate : Frame, ArenaUnitFrameCcRemoverMixin
 --- @field Cooldown ArenaUnitFrameCcRemoverTemplate_Cooldown
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L61)
 --- Template
 --- @class ArenaUnitFrameCastingBarTemplate : StatusBar, SmallCastingBarFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L106)
 --- child of PreMatchArenaUnitFrameTemplate
 --- @class PreMatchArenaUnitFrameTemplate_SpecNameText : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L109)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L114)
 --- child of PreMatchArenaUnitFrameTemplate
 --- @class PreMatchArenaUnitFrameTemplate_ClassNameText : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L65)
 --- Template
 --- Adds itself to the parent inside the array `preMatchUnitFrames`
 --- @class PreMatchArenaUnitFrameTemplate : Frame, PreMatchArenaUnitFrameMixin
@@ -49,11 +49,11 @@
 --- @field SpecNameText PreMatchArenaUnitFrameTemplate_SpecNameText
 --- @field ClassNameText PreMatchArenaUnitFrameTemplate_ClassNameText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L158)
 --- child of StealthedArenaUnitFrameTemplate
 --- @class StealthedArenaUnitFrameTemplate_NameText : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L125)
 --- Template
 --- Adds itself to the parent inside the array `stealthedUnitFrames`
 --- @class StealthedArenaUnitFrameTemplate : Frame, StealthedArenaUnitFrameMixin
@@ -63,14 +63,14 @@
 --- @field RoleIconTexture Texture
 --- @field NameText StealthedArenaUnitFrameTemplate_NameText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L176)
 --- child of CompactArenaFrameTemplate
 --- @class CompactArenaFrameTemplate_PreMatchFramesContainer : Frame, ArenaPreMatchFramesContainerMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/CompactArenaFrame.xml#L169)
 --- Implicitly protected
 --- Template
---- @class CompactArenaFrameTemplate : Frame, CompactPartyFrameTemplate, UIParentRightManagedFrameTemplate, EditModeArenaUnitFrameSystemTemplate, CompactArenaFrameMixin
+--- @class CompactArenaFrameTemplate : Frame, CompactPartyFrameTemplate, RightManagedFrameTemplate, EditModeArenaUnitFrameSystemTemplate, CompactArenaFrameMixin
 --- @field layoutIndex number # 12
 --- @field titleText any # ARENA
 --- @field groupType any # CompactRaidGroupTypeEnum.Arena

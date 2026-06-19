@@ -736,17 +736,17 @@ SendMailMoneyButton = {}
 SendMailMoneyInset = {}
 SendMailMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1318)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 SendMailMoneyBgLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1326)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 SendMailMoneyBgRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MailFrame/MailFrame.xml#L1334)
 --- child of SendMailMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 SendMailMoneyBgMiddle = {}

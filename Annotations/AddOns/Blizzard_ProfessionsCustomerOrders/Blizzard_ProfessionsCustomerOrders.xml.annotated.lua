@@ -12,17 +12,17 @@
 --- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder
 --- @class ProfessionsCustomerOrdersFrame_MoneyFrameBorder_MoneyFrame : Frame, MoneyDisplayFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1318)
 --- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ProfessionsCustomerOrdersFrameLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1326)
 --- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ProfessionsCustomerOrdersFrameRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.xml#L1334)
 --- child of ProfessionsCustomerOrdersFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ProfessionsCustomerOrdersFrameMiddle = {}

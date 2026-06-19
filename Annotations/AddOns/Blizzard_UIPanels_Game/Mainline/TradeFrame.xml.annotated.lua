@@ -706,17 +706,17 @@ TradePlayerInputMoneyFrame["copper"] = TradePlayerInputMoneyFrameCopper -- inher
 TradeRecipientMoneyInset = {}
 TradeRecipientMoneyInset["layoutType"] = "InsetFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L1354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L1318)
 --- child of TradeRecipientMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TradeRecipientMoneyBgLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L1362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L1326)
 --- child of TradeRecipientMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TradeRecipientMoneyBgRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L1370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/TradeFrame.xml#L1334)
 --- child of TradeRecipientMoneyBg (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 TradeRecipientMoneyBgMiddle = {}

@@ -194,53 +194,61 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1439)
 --- Template
+--- @class System15Font_Shadow : Font
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1477)
+--- Template
+--- @class Game15Font_Shadow : Font
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1515)
+--- Template
 --- @class Game16Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1457)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1533)
 --- Template
 --- @class Game22Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1510)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1586)
 --- Template
 --- @class Game30Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1528)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1604)
 --- Template
 --- @class Game32Font_Shadow2 : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1566)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1642)
 --- Template
 --- @class Game36Font_Shadow2 : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1604)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1680)
 --- Template
 --- @class Game40Font_Shadow2 : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1642)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1718)
 --- Template
 --- @class Game60Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1660)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1736)
 --- Template
 --- @class Game72Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1678)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1754)
 --- Template
 --- @class FriendsFont_Small : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1731)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1807)
 --- Template
 --- @class FriendsFont_Normal : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1784)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1860)
 --- Template
 --- @class FriendsFont_Large : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1837)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1913)
 --- Template
 --- @class UserScaledFontSystem_Header : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1875)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Shared/Fonts.xml#L1951)
 --- Template
 --- @class UserScaledFontSystem_Body : Font
 

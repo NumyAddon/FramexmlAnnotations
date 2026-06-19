@@ -2,7 +2,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ClassResourceBarTemplate.xml#L6)
 --- Template
---- @class ClassResourceBarTemplate : Frame, ClassPowerBarFrame, HorizontalLayoutFrame, PlayerFrameBottomManagedFrameTemplate, ClassPowerBar, ClassResourceBarMixin
+--- @class ClassResourceBarTemplate : Frame, ClassPowerBarFrame, HorizontalLayoutFrame, PlayerBottomManagedFrameTemplate, ClassPowerBar, ClassResourceBarMixin
 --- @field maxUsablePoints number # 5
 --- @field powerType any # Enum.PowerType.None
 --- @field resourceBarMixin any # ClassPowerBar
@@ -11,7 +11,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/ClassResourceBarTemplate.xml#L17)
 --- Template
---- @class ClassResourceBarSelfManagedPointsTemplate : Frame, ClassPowerBarFrame, PlayerFrameBottomManagedFrameTemplate, ClassPowerBar, ClassResourceBarMixin
+--- @class ClassResourceBarSelfManagedPointsTemplate : Frame, ClassPowerBarFrame, PlayerBottomManagedFrameTemplate, ClassPowerBar, ClassResourceBarMixin
 --- @field maxUsablePoints number # 5
 --- @field powerType any # Enum.PowerType.None
 --- @field resourceBarMixin any # ClassPowerBar

@@ -76,7 +76,7 @@
 --- child of EditModeSettingCheckboxTemplate
 --- @class EditModeSettingCheckboxTemplate_Button : CheckButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L159)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L165)
 --- child of EditModeSettingCheckboxTemplate
 --- @class EditModeSettingCheckboxTemplate_Label : FontString, GameFontHighlightMedium
 
@@ -88,12 +88,12 @@
 --- @field Button EditModeSettingCheckboxTemplate_Button
 --- @field Label EditModeSettingCheckboxTemplate_Label
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L169)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L175)
 --- Template
 --- @class EditModeGridLineTemplate : Line, EditModeGridLineMixin
 --- @field isGridLine boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeTemplates.xml#L181)
 --- Template
 --- @class MagnetismPreviewLineTemplate : Line, MagnetismPreviewLineMixin
 

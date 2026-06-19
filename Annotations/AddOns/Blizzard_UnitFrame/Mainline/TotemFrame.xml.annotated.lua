@@ -23,7 +23,7 @@
 --- @field Border Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/TotemFrame.xml#L57)
---- @class TotemFrame : Frame, HorizontalLayoutFrame, PlayerFrameBottomManagedFrameTemplate, TotemFrameMixin
+--- @class TotemFrame : Frame, HorizontalLayoutFrame, PlayerBottomManagedFrameTemplate, TotemFrameMixin
 --- @field layoutIndex number # 50
 --- @field layoutOnBottom boolean # true
 --- @field leftPadding number # 15
@@ -35,7 +35,7 @@ TotemFrame["layoutOnBottom"] = true
 TotemFrame["leftPadding"] = 15
 TotemFrame["topPadding"] = -2
 TotemFrame["spacing"] = -6
-TotemFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+TotemFrame["layoutParent"] = PlayerBottomManagedFrameContainer -- inherited
 TotemFrame["align"] = "center" -- inherited
 TotemFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 TotemFrame["isManagedFrame"] = true -- inherited

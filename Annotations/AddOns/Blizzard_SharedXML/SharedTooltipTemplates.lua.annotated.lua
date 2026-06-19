@@ -4,7 +4,11 @@
 --- @class TooltipBackdropTemplateMixin
 TooltipBackdropTemplateMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L266)
+--- @class NarratableTooltipMixin
+NarratableTooltipMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L314)
 --- @class DisabledTooltipButtonMixin
 DisabledTooltipButtonMixin = {}
 
@@ -26,17 +30,29 @@ function TooltipBackdropTemplateMixin:GetBackdropBorderColor() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L259)
 function TooltipBackdropTemplateMixin:SetBorderBlendMode(blendMode) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L268)
+function NarratableTooltipMixin:OnShow() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L272)
+function NarratableTooltipMixin:OnHide() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L276)
+function NarratableTooltipMixin:NarrationGetName() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L290)
+function NarratableTooltipMixin:NarrationGetDescription() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L316)
 function DisabledTooltipButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L325)
 function DisabledTooltipButtonMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L330)
 function DisabledTooltipButtonMixin:SetDisabledTooltip(disabledTooltip, disabledTooltipAnchor) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L335)
 function DisabledTooltipButtonMixin:GetDisabledTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/SharedTooltipTemplates.lua#L339)
 function DisabledTooltipButtonMixin:SetDisabledState(disabled, disabledTooltip, disabledTooltipAnchor) end

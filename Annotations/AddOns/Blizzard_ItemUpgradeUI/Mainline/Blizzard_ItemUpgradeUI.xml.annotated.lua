@@ -717,17 +717,17 @@ ItemUpgradeFrameTrialErrorButton = {}
 --- @field MoneyCostFrame ItemUpgradeFrame_UpgradeCostFrame_MoneyCostFrame
 --- @field BGTex Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1318)
 --- child of ItemUpgradeFramePlayerCurrenciesBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemUpgradeFramePlayerCurrenciesBorderLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1326)
 --- child of ItemUpgradeFramePlayerCurrenciesBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemUpgradeFramePlayerCurrenciesBorderRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ItemUpgradeUI/Mainline/Blizzard_ItemUpgradeUI.xml#L1334)
 --- child of ItemUpgradeFramePlayerCurrenciesBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 ItemUpgradeFramePlayerCurrenciesBorderMiddle = {}

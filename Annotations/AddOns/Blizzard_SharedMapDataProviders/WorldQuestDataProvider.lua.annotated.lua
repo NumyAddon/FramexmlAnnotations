@@ -112,7 +112,7 @@ function WorldQuestDataProviderMixin:ShouldSupertrackHighlightInfo(questID, tagI
 function WorldQuestDataProviderMixin:GetPinTemplate() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L291)
-function WorldQuestDataProviderMixin:ShouldShowExpirationIcon(questID, worldQuestType) end
+function WorldQuestDataProviderMixin:ShouldShowExpirationIcon(questID) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedMapDataProviders/WorldQuestDataProvider.lua#L306)
 function WorldQuestDataProviderMixin:AddWorldQuest(info) end

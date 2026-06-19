@@ -89,5 +89,8 @@ function PetActionButtonMixin:StopFlash() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L381)
 function PetActionButtonMixin:IsFlashing() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L385)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L386)
 function PetActionButtonMixin:HasAction() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PetActionBar.lua#L391)
+function PetActionButtonMixin:GetActionButtonInfo() end

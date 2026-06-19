@@ -16,8 +16,8 @@ function SubtitlesFrameMixin:OnMovieCinematicStop() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Subtitles/Blizzard_Subtitles.lua#L37)
 function SubtitlesFrameMixin:AddSubtitle(body) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Subtitles/Blizzard_Subtitles.lua#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Subtitles/Blizzard_Subtitles.lua#L76)
 function SubtitlesFrameMixin:HideSubtitles() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Subtitles/Blizzard_Subtitles.lua#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Subtitles/Blizzard_Subtitles.lua#L85)
 function SubtitlesFrameMixin:OnEvent(event, ...) end

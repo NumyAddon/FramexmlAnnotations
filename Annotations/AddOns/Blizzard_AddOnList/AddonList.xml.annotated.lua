@@ -87,12 +87,12 @@ AddonDialog = {}
 --- child of AddonList
 --- @class AddonList_ForceLoad : CheckButton, MinimalCheckboxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L221)
 --- child of AddonList_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 AddonListClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddOnList/AddonList.xml#L212)
 --- child of AddonList_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 AddonListSearchIcon = {}

@@ -4,10 +4,6 @@
 --- @class PlayerChoiceCovenantChoiceOptionTemplateMixin : PlayerChoiceBaseOptionTemplateMixin
 PlayerChoiceCovenantChoiceOptionTemplateMixin = CreateFromMixins(PlayerChoiceBaseOptionTemplateMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L100)
---- @class PlayerChoiceCovenantChoicePreviewButtonMixin : PlayerChoiceBaseOptionButtonTemplateMixin
-PlayerChoiceCovenantChoicePreviewButtonMixin = CreateFromMixins(PlayerChoiceBaseOptionButtonTemplateMixin)
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L3)
 function PlayerChoiceCovenantChoiceOptionTemplateMixin:OnLoad() end
 
@@ -26,20 +22,14 @@ function PlayerChoiceCovenantChoiceOptionTemplateMixin:SetupFrame() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L37)
 function PlayerChoiceCovenantChoiceOptionTemplateMixin:SetupButtons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L49)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L52)
 function PlayerChoiceCovenantChoiceOptionTemplateMixin:OnUpdate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L59)
 function PlayerChoiceCovenantChoiceOptionTemplateMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L79)
 function PlayerChoiceCovenantChoiceOptionTemplateMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L98)
 function PlayerChoiceCovenantChoiceOptionTemplateMixin:OnSelected() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L102)
-function PlayerChoiceCovenantChoicePreviewButtonMixin:OnLoad() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoiceCovenantChoiceOptionTemplate.lua#L106)
-function PlayerChoiceCovenantChoicePreviewButtonMixin:OnConfirm() end

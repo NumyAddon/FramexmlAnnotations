@@ -40,7 +40,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Mainline/ActionButtonTemplate.xml#L4)
 --- Template
---- @class ActionButtonTemplate : CheckButton, ActionButtonSpellFXTemplate, FlyoutButtonTemplate, BaseActionButtonMixin
+--- @class ActionButtonTemplate : CheckButton, ActionButtonSpellFXTemplate, FlyoutButtonTemplate, PingableActionButtonTemplate, BaseActionButtonMixin
 --- @field enableSpellFX boolean # true
 --- @field enableLOCCooldown boolean # true
 --- @field popupDirection string # UP

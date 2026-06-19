@@ -7,23 +7,23 @@ DemonHunterAlternatePowerBarMixin = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L6)
 function DemonHunterAlternatePowerBarMixin:Initialize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L21)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L17)
 function DemonHunterAlternatePowerBarMixin:EvaluateUnit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L32)
 function DemonHunterAlternatePowerBarMixin:UpdatePower() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L42)
 function DemonHunterAlternatePowerBarMixin:UpdateMinMaxPower() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L53)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L49)
 function DemonHunterAlternatePowerBarMixin:UpdateAuraState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L62)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L58)
 function DemonHunterAlternatePowerBarMixin:GetCurrentPower() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L80)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L76)
 function DemonHunterAlternatePowerBarMixin:GetCurrentMinMaxPower() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L91)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PersonalResourceDisplay/AlternatePowerBars/DemonHunterAlternatePower.lua#L87)
 function DemonHunterAlternatePowerBarMixin:UpdateArt() end

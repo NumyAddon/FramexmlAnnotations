@@ -14,4 +14,5 @@
 --- @field FillOverlay DevourerFuryBarFrame_FillOverlay
 --- @field StartAnim DevourerFuryBarFrame_StartAnim
 DevourerFuryBarFrame = {}
+DevourerFuryBarFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
 

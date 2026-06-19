@@ -168,11 +168,11 @@
 --- @field LootButtons table<number, GroupLootFrameTemplate_NeedButton | GroupLootFrameTemplate_PassButton | GroupLootFrameTemplate_GreedButton | GroupLootFrameTemplate_TransmogButton>
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GroupLootFrame.xml#L537)
---- @class GroupLootContainer : ContainedAlertFrame, UIParentBottomManagedFrameTemplate
+--- @class GroupLootContainer : ContainedAlertFrame, BottomManagedFrameTemplate
 --- @field layoutIndex number # 3
 GroupLootContainer = {}
 GroupLootContainer["layoutIndex"] = 3
-GroupLootContainer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+GroupLootContainer["layoutParent"] = BottomManagedFrameContainer -- inherited
 GroupLootContainer["align"] = "center" -- inherited
 GroupLootContainer["hideWhenActionBarIsOverriden"] = true -- inherited
 GroupLootContainer["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited

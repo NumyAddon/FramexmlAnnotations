@@ -220,12 +220,12 @@ QuestLogPopupDetailFrame["MaterialBotRight"] = QuestLogPopupDetailFrameMaterialB
 --- @field inactiveAtlas string # questlog-tab-icon-maplegend-inactive
 --- @field tooltipText any # MAP_LEGEND_FRAME_LABEL
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L221)
 --- child of QuestScrollFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 QuestScrollFrameClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.xml#L212)
 --- child of QuestScrollFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 QuestScrollFrameSearchIcon = {}

@@ -28,35 +28,35 @@ function PlayerChoicePowerChoiceTemplateMixin:FadeOut() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L101)
 function PlayerChoicePowerChoiceTemplateMixin:OnSelected() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L110)
 function PlayerChoicePowerChoiceTemplateMixin:GetMinOptionHeight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L121)
 function PlayerChoicePowerChoiceTemplateMixin:GetTextureKitRegionTable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L140)
 function PlayerChoicePowerChoiceTemplateMixin:SetupFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L149)
 function PlayerChoicePowerChoiceTemplateMixin:BeginEffects() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L153)
 function PlayerChoicePowerChoiceTemplateMixin:CancelEffects() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L162)
 function PlayerChoicePowerChoiceTemplateMixin:SetupHeader() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L180)
 function PlayerChoicePowerChoiceTemplateMixin:GetOptionFontInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L184)
 function PlayerChoicePowerChoiceTemplateMixin:SetupTextFonts() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L201)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L205)
 function PlayerChoicePowerChoiceTemplateMixin:SetupOptionText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L212)
 function PlayerChoicePowerChoiceTemplateMixin:SetupButtons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L223)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerChoice/Blizzard_PlayerChoicePowerChoiceTemplate.lua#L227)
 function PlayerChoicePowerChoiceTemplateMixin:GetRarityDescriptionString() end

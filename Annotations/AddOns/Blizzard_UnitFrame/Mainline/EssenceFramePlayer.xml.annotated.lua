@@ -85,7 +85,7 @@
 --- @field resourcePointTemplate string # EssencePointButtonTemplate
 --- @field shouldShowBarFunc any # EssencePowerBar.SetupEvoker
 --- @field spacing number # -1
---- @field class string # DRACTHYR
+--- @field class string # EVOKER
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/EssenceFramePlayer.xml#L294)
 --- @class EssencePlayerFrame : Frame, EssencePlayerFrameTemplate
@@ -103,11 +103,12 @@ EssencePlayerFrame["tooltip2"] = ESSENCE_TOOLTIP -- inherited
 EssencePlayerFrame["resourcePointTemplate"] = "EssencePointButtonTemplate" -- inherited
 EssencePlayerFrame["shouldShowBarFunc"] = EssencePowerBar.SetupEvoker -- inherited
 EssencePlayerFrame["spacing"] = -1 -- inherited
-EssencePlayerFrame["class"] = "DRACTHYR" -- inherited
+EssencePlayerFrame["class"] = "EVOKER" -- inherited
 EssencePlayerFrame["maxUsablePoints"] = 5 -- inherited
 EssencePlayerFrame["resourceBarMixin"] = ClassPowerBar -- inherited
 EssencePlayerFrame["usePooledResourceButtons"] = true -- inherited
-EssencePlayerFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+EssencePlayerFrame["canBeHiddenByPersonalResourceDisplay"] = true -- inherited
+EssencePlayerFrame["layoutParent"] = PlayerBottomManagedFrameContainer -- inherited
 EssencePlayerFrame["align"] = "center" -- inherited
 EssencePlayerFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 EssencePlayerFrame["isManagedFrame"] = true -- inherited

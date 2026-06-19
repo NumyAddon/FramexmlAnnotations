@@ -115,7 +115,7 @@
 --- @field Close TalkingHeadFrame_MainFrame_Close
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/TalkingHeadUI.xml#L5)
---- @class TalkingHeadFrame : ContainedAlertFrame, UIParentBottomManagedFrameTemplate, EditModeTalkingHeadFrameSystemTemplate, TalkingHeadFrameMixin
+--- @class TalkingHeadFrame : ContainedAlertFrame, BottomManagedFrameTemplate, EditModeTalkingHeadFrameSystemTemplate, TalkingHeadFrameMixin
 --- @field layoutIndex number # 8
 --- @field hideWhenActionBarIsOverriden boolean # false
 --- @field NameFrame TalkingHeadFrame_NameFrame
@@ -126,7 +126,7 @@
 TalkingHeadFrame = {}
 TalkingHeadFrame["layoutIndex"] = 8
 TalkingHeadFrame["hideWhenActionBarIsOverriden"] = false
-TalkingHeadFrame["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+TalkingHeadFrame["layoutParent"] = BottomManagedFrameContainer -- inherited
 TalkingHeadFrame["align"] = "center" -- inherited
 TalkingHeadFrame["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 TalkingHeadFrame["isBottomManagedFrame"] = true -- inherited

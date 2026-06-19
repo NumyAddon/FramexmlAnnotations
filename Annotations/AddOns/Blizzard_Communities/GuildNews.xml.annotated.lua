@@ -220,47 +220,47 @@
 --- child of CommunitiesGuildNewsFiltersFrame
 --- @class CommunitiesGuildNewsFiltersFrame_Title : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1024)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L988)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type Texture
 CommunitiesGuildNewsFiltersFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1033)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L997)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 CommunitiesGuildNewsFiltersFrameTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1038)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1002)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 CommunitiesGuildNewsFiltersFrameTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1043)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1007)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 CommunitiesGuildNewsFiltersFrameBottomLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1048)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1012)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 CommunitiesGuildNewsFiltersFrameBottomRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1053)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1017)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 CommunitiesGuildNewsFiltersFrameTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1059)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1023)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 CommunitiesGuildNewsFiltersFrameBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1065)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1029)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 CommunitiesGuildNewsFiltersFrameLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1071)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Communities/GuildNews.xml#L1035)
 --- child of CommunitiesGuildNewsFiltersFrame (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 CommunitiesGuildNewsFiltersFrameRightBorder = {}

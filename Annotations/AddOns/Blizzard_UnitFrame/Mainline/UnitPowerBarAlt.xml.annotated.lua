@@ -103,13 +103,13 @@
 --- @field flashOutAnim UnitPowerBarAltTemplate_flashOutAnim
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/UnitPowerBarAlt.xml#L205)
---- @class EncounterBar : Frame, VerticalLayoutFrame, UIParentBottomManagedFrameTemplate, EditModeEncounterBarSystemTemplate, EncounterBarMixin
+--- @class EncounterBar : Frame, VerticalLayoutFrame, BottomManagedFrameTemplate, EditModeEncounterBarSystemTemplate, EncounterBarMixin
 --- @field layoutIndex number # 6
 --- @field hideWhenActionBarIsOverriden boolean # false
 EncounterBar = {}
 EncounterBar["layoutIndex"] = 6
 EncounterBar["hideWhenActionBarIsOverriden"] = false
-EncounterBar["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+EncounterBar["layoutParent"] = BottomManagedFrameContainer -- inherited
 EncounterBar["align"] = "center" -- inherited
 EncounterBar["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited
 EncounterBar["isBottomManagedFrame"] = true -- inherited

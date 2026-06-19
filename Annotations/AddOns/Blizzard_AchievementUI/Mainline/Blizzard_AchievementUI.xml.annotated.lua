@@ -1208,12 +1208,12 @@ AchievementFrameFilterDropdown["menuPointX"] = 6 -- inherited
 AchievementFrameFilterDropdown["menuPointY"] = 2 -- inherited
 AchievementFrameFilterDropdown["resizeToTextPadding"] = 60 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L221)
 --- child of AchievementFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 AchievementFrameClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L35)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AchievementUI/Mainline/Blizzard_AchievementUI.xml#L212)
 --- child of AchievementFrame_SearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 AchievementFrameSearchIcon = {}

@@ -148,15 +148,15 @@
 --- child of JourneysFrameTemplate
 --- @class JourneysFrameTemplate_BorderFrame : Frame, QuestLogBorderFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.xml#L380)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.xml#L374)
 --- child of JourneysFrameTemplate_JourneyProgress_LockedStateFrame
 --- @class JourneysFrameTemplate_JourneyProgress_LockedStateFrame_JourneyLockedText : FontString, GameFontHighlightLarge
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.xml#L367)
 --- child of JourneysFrameTemplate_JourneyProgress
 --- @class JourneysFrameTemplate_JourneyProgress_LockedStateFrame : Frame, JourneysLockedStateMixin
---- @field LockIcon Texture
 --- @field JourneyLockedText JourneysFrameTemplate_JourneyProgress_LockedStateFrame_JourneyLockedText
+--- @field LockIcon Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EncounterJournal/Mainline/Blizzard_Journeys.xml#L411)
 --- child of JourneysFrameTemplate_JourneyProgress_ProgressDetailsFrame

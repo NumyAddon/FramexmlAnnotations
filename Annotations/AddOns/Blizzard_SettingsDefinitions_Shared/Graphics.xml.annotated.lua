@@ -159,31 +159,35 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L243)
 --- child of SettingsAdvancedQualitySectionTemplate
---- @class SettingsAdvancedQualitySectionTemplate_RaidTab : Button, MinimalTabTemplate
+--- @class SettingsAdvancedQualitySectionTemplate_RaidTab : Button, MinimalTabTemplate, SettingsTabNarrationMixin
 --- @field tabText any # RAID_SETTINGS
 --- @field categorySet any # Settings.CategorySet.AddOns
+--- @field tabIndex number # 2
+--- @field numTabs number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L255)
 --- child of SettingsAdvancedQualitySectionTemplate
---- @class SettingsAdvancedQualitySectionTemplate_BaseTab : Button, MinimalTabTemplate
+--- @class SettingsAdvancedQualitySectionTemplate_BaseTab : Button, MinimalTabTemplate, SettingsTabNarrationMixin
 --- @field tabText any # BASE_SETTINGS_TAB
 --- @field categorySet any # Settings.CategorySet.Game
+--- @field tabIndex number # 1
+--- @field numTabs number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L266)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L270)
 --- child of SettingsAdvancedQualitySectionTemplate_BaseQualityControls
 --- @class SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideSliderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L268)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_BaseQualityControls : Frame, SettingsAdvancedQualityControlsTemplate
 --- @field GraphicsQuality SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality
 --- @field Controls table<number, SettingsAdvancedQualitySectionTemplate_BaseQualityControls_GraphicsQuality>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L281)
 --- child of SettingsAdvancedQualitySectionTemplate_RaidQualityControls
 --- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality : Frame, SettingsAdvancedWideCheckboxSliderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Shared/Graphics.xml#L279)
 --- child of SettingsAdvancedQualitySectionTemplate
 --- @class SettingsAdvancedQualitySectionTemplate_RaidQualityControls : Frame, SettingsAdvancedQualityControlsTemplate
 --- @field GraphicsQuality SettingsAdvancedQualitySectionTemplate_RaidQualityControls_GraphicsQuality

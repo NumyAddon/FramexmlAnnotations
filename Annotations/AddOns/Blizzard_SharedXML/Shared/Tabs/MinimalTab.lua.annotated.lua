@@ -19,11 +19,11 @@ function MinimalTabMixin:OnSelected(newSelected) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Tabs/MinimalTab.lua#L42)
 function MinimalTabMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Tabs/MinimalTab.lua#L46)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Tabs/MinimalTab.lua#L50)
 function MinimalTabMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Tabs/MinimalTab.lua#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Tabs/MinimalTab.lua#L58)
 function MinimalTabMixin:OnEnable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Tabs/MinimalTab.lua#L54)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/Shared/Tabs/MinimalTab.lua#L62)
 function MinimalTabMixin:OnDisable() end

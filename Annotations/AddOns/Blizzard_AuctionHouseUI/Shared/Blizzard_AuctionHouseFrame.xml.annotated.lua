@@ -8,17 +8,17 @@
 --- child of AuctionHouseFrame_MoneyFrameBorder
 --- @class AuctionHouseFrame_MoneyFrameBorder_MoneyFrame : Frame, MoneyDisplayFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1318)
 --- child of AuctionHouseFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 AuctionHouseFrameLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1362)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1326)
 --- child of AuctionHouseFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 AuctionHouseFrameRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuctionHouseUI/Shared/Blizzard_AuctionHouseFrame.xml#L1334)
 --- child of AuctionHouseFrame_MoneyFrameBorder (created in template ThinGoldEdgeTemplate)
 --- @type Texture
 AuctionHouseFrameMiddle = {}

@@ -62,33 +62,29 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L273)
 --- Template
---- @class Game15Font_Shadow : Font
+--- @class Game19Font : Font
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L311)
 --- Template
---- @class Game19Font : Font
+--- @class Game21Font : Font
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L349)
 --- Template
---- @class Game21Font : Font
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L387)
---- Template
 --- @class Game40Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L406)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L368)
 --- Template
 --- @class Fancy36Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L424)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L386)
 --- Template
 --- @class Fancy40Font : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L405)
 --- Template
 --- @class OrderHallTalentRowFont : Font
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L471)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Fonts_Shared/Mainline/GameFonts.xml#L433)
 --- Template
 --- @class MailFont_Large : Font
 

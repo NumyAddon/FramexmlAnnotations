@@ -4,5 +4,5 @@
 --- @class RaidFramePreviewMixin
 RaidFramePreviewMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Interface.lua#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Interface.lua#L5)
 function RaidFramePreviewMixin:OnLoad() end

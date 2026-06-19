@@ -1,8 +1,8 @@
 --- @meta _
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L230)
---- @class ZoneAbilityFrameSpellButtonMixin : ContentFrameMixin
-ZoneAbilityFrameSpellButtonMixin = CreateFromMixins(ContentFrameMixin)
+--- @class ZoneAbilityFrameSpellButtonMixin : ContentFrameMixin, BaseActionButtonInfoMixin
+ZoneAbilityFrameSpellButtonMixin = CreateFromMixins(ContentFrameMixin, BaseActionButtonInfoMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L63)
 --- @class ZoneAbilityFrameMixin
@@ -73,3 +73,9 @@ function ZoneAbilityFrameSpellButtonMixin:GetOverrideSpellID() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L317)
 function ZoneAbilityFrameSpellButtonMixin:SetContent(zoneAbilityInfo) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L324)
+function ZoneAbilityFrameSpellButtonMixin:HasAction() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ZoneAbility/ZoneAbility.lua#L329)
+function ZoneAbilityFrameSpellButtonMixin:GetActionButtonInfo() end

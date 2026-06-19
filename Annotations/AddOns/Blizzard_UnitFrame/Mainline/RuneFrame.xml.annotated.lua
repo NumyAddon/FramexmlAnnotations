@@ -90,7 +90,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/RuneFrame.xml#L186)
 --- Template
---- @class RuneFrameTemplate : Frame, HorizontalLayoutFrame, PlayerFrameBottomManagedFrameTemplate, RuneFrameMixin
+--- @class RuneFrameTemplate : Frame, HorizontalLayoutFrame, PlayerBottomManagedFrameTemplate, RuneFrameMixin
 --- @field spacing number # -1
 --- @field Rune1 RuneFrameTemplate_Rune1
 --- @field Rune2 RuneFrameTemplate_Rune2
@@ -116,7 +116,7 @@ RuneFrame["showTooltip"] = true
 RuneFrame["tooltip"] = RUNES_TOOLTIP
 RuneFrame["tooltipTitle"] = COMBAT_TEXT_RUNE_DEATH
 RuneFrame["spacing"] = -1 -- inherited
-RuneFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+RuneFrame["layoutParent"] = PlayerBottomManagedFrameContainer -- inherited
 RuneFrame["align"] = "center" -- inherited
 RuneFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 RuneFrame["isManagedFrame"] = true -- inherited

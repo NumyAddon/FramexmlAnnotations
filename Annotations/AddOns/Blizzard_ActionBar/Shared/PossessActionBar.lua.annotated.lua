@@ -35,5 +35,8 @@ function PossessButtonMixin:OnEnter() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L108)
 function PossessButtonMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L113)
 function PossessButtonMixin:HasAction() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_ActionBar/Shared/PossessActionBar.lua#L119)
+function PossessButtonMixin:GetActionButtonInfo() end

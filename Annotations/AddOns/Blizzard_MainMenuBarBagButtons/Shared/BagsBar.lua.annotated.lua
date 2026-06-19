@@ -26,4 +26,4 @@ function BagsBarMixin:IsDirectionLeft() end
 function BagsBarMixin:IsDirectionUp() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Shared/BagsBar.lua#L133)
-function BagsBarMixin:OnUpdateEndCaps(show) end
+function BagsBarMixin:MainActionBarStateOverridden(overridden) end

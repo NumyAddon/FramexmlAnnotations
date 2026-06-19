@@ -589,13 +589,13 @@ ArenaEnemyMatchFramesContainer["spacing"] = 10
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_Deprecated_ArenaUI/Deprecated_ArenaUI.xml#L360)
 --- Implicitly protected
---- @class ArenaEnemyFramesContainer : Frame, ResizeLayoutFrame, UIParentRightManagedFrameTemplate, ArenaEnemyFramesContainerMixin
+--- @class ArenaEnemyFramesContainer : Frame, ResizeLayoutFrame, RightManagedFrameTemplate, ArenaEnemyFramesContainerMixin
 --- @field layoutIndex number # 12
 --- @field fixedWidth number # 245
 ArenaEnemyFramesContainer = {}
 ArenaEnemyFramesContainer["layoutIndex"] = 12
 ArenaEnemyFramesContainer["fixedWidth"] = 245
-ArenaEnemyFramesContainer["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
+ArenaEnemyFramesContainer["layoutParent"] = RightManagedFrameContainer -- inherited
 ArenaEnemyFramesContainer["align"] = "right" -- inherited
 ArenaEnemyFramesContainer["hideWhenActionBarIsOverriden"] = false -- inherited
 ArenaEnemyFramesContainer["isRightManagedFrame"] = true -- inherited

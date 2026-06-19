@@ -11,14 +11,8 @@
 --- @field Text SpellBookHeaderTemplate_Text
 --- @field Border Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.xml#L50)
---- child of SpellBookCategoryTabTemplate
---- @class SpellBookCategoryTabTemplate_NewSpellsGlowAnim : AnimationGroup, TargetsVisibleWhilePlayingAnimGroupTemplate
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_PlayerSpells/SpellBook/Blizzard_SpellBookTemplates.xml#L38)
 --- Template
---- @class SpellBookCategoryTabTemplate : Button, TabSystemButtonTemplate, SpellBookCategoryTabMixin
+--- @class SpellBookCategoryTabTemplate : Button, TabSystemButtonTemplate
 --- @field isTabOnTop boolean # true
---- @field NewSpellsGlow Texture
---- @field NewSpellsGlowAnim SpellBookCategoryTabTemplate_NewSpellsGlowAnim
 

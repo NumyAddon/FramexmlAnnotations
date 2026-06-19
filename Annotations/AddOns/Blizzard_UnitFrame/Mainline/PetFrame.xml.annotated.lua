@@ -131,7 +131,7 @@ PetAttackModeTexture = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Mainline/PetFrame.xml#L12)
 --- Explicitly protected
---- @class PetFrame : Button, PlayerFrameBottomManagedFrameTemplate, SecureUnitButtonTemplate, EditModePetFrameSystemTemplate, PingableUnitFrameTemplate, PetFrameMixin
+--- @class PetFrame : Button, PlayerBottomManagedFrameTemplate, SecureUnitButtonTemplate, EditModePetFrameSystemTemplate, PingableUnitFrameTemplate, PetFrameMixin
 --- @field layoutIndex number # 48
 --- @field leftPadding number # 15
 --- @field bottomPadding number # -3
@@ -145,7 +145,7 @@ PetFrame["layoutIndex"] = 48
 PetFrame["leftPadding"] = 15
 PetFrame["bottomPadding"] = -3
 PetFrame["frameType"] = "TargetofTarget"
-PetFrame["layoutParent"] = PlayerFrameBottomManagedFramesContainer -- inherited
+PetFrame["layoutParent"] = PlayerBottomManagedFrameContainer -- inherited
 PetFrame["align"] = "center" -- inherited
 PetFrame["isPlayerFrameBottomManagedFrame"] = true -- inherited
 PetFrame["isManagedFrame"] = true -- inherited

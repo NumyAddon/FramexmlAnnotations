@@ -33,47 +33,47 @@
 --- child of HousingCharterRequestSignatureDialog
 --- @class HousingCharterRequestSignatureDialog_NeighborhoodNameText : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1024)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L988)
 --- child of HousingCharterRequestSignatureDialog (created in template TranslucentFrameTemplate)
 --- @type Texture
 HousingCharterRequestSignatureDialogBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1033)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L997)
 --- child of HousingCharterRequestSignatureDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 HousingCharterRequestSignatureDialogTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1038)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1002)
 --- child of HousingCharterRequestSignatureDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 HousingCharterRequestSignatureDialogTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1043)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1007)
 --- child of HousingCharterRequestSignatureDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 HousingCharterRequestSignatureDialogBottomLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1048)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1012)
 --- child of HousingCharterRequestSignatureDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 HousingCharterRequestSignatureDialogBottomRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1053)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1017)
 --- child of HousingCharterRequestSignatureDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 HousingCharterRequestSignatureDialogTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1059)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1023)
 --- child of HousingCharterRequestSignatureDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 HousingCharterRequestSignatureDialogBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1065)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1029)
 --- child of HousingCharterRequestSignatureDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 HousingCharterRequestSignatureDialogLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1071)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingCharter/Blizzard_HousingCharter.xml#L1035)
 --- child of HousingCharterRequestSignatureDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 HousingCharterRequestSignatureDialogRightBorder = {}

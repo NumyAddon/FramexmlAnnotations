@@ -68,123 +68,123 @@ BrowserSettingsTooltip["layoutType"] = "TooltipDefaultLayout" -- inherited
 --- @class HelpOpenWebTicketButton : Button
 HelpOpenWebTicketButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L223)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L224)
 --- child of TicketStatusFrame
 --- @class TicketStatusFrameButton : Button, HelpFrameContainerFrameTemplate
 TicketStatusFrameButton = {}
 TicketStatusFrameButton["backdropColor"] = BLACK_FONT_COLOR -- inherited
 TicketStatusFrameButton["layoutType"] = "TooltipDefaultLayout" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L189)
 --- child of TicketStatusFrame
 --- @class TicketStatusTitleText : FontString, GameFontNormalSmall
 TicketStatusTitleText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L199)
 --- child of TicketStatusFrame
 --- @class TicketStatusTime : FontString, GameFontHighlightSmall
 TicketStatusTime = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L209)
 --- child of TicketStatusFrame
 --- @class TicketStatusFrameIcon : Texture
 TicketStatusFrameIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L182)
 --- @class TicketStatusFrame : Frame
 TicketStatusFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L265)
 --- child of ReportCheatingDialog
 --- @class ReportCheatingDialog_Border : Frame, DialogBorderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L344)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L345)
 --- child of ReportCheatingDialogCommentFrameEditBox
 --- @class ReportCheatingDialogCommentFrameEditBox_InformationText : FontString, GameFontDisable
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L338)
 --- child of ReportCheatingDialogCommentFrame
 --- @class ReportCheatingDialogCommentFrameEditBox : EditBox
 --- @field InformationText ReportCheatingDialogCommentFrameEditBox_InformationText
 ReportCheatingDialogCommentFrameEditBox = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L273)
 --- child of ReportCheatingDialogCommentFrame
 --- @class ReportCheatingDialogCommentFrameTopLeft : Texture
 ReportCheatingDialogCommentFrameTopLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L281)
 --- child of ReportCheatingDialogCommentFrame
 --- @class ReportCheatingDialogCommentFrameTopRight : Texture
 ReportCheatingDialogCommentFrameTopRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L289)
 --- child of ReportCheatingDialogCommentFrame
 --- @class ReportCheatingDialogCommentFrameTop : Texture
 ReportCheatingDialogCommentFrameTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L295)
 --- child of ReportCheatingDialogCommentFrame
 --- @class ReportCheatingDialogCommentFrameBottomLeft : Texture
 ReportCheatingDialogCommentFrameBottomLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L303)
 --- child of ReportCheatingDialogCommentFrame
 --- @class ReportCheatingDialogCommentFrameBottomRight : Texture
 ReportCheatingDialogCommentFrameBottomRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L311)
 --- child of ReportCheatingDialogCommentFrame
 --- @class ReportCheatingDialogCommentFrameBottom : Texture
 ReportCheatingDialogCommentFrameBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L317)
 --- child of ReportCheatingDialogCommentFrame
 --- @class ReportCheatingDialogCommentFrameLeft : Texture
 ReportCheatingDialogCommentFrameLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L323)
 --- child of ReportCheatingDialogCommentFrame
 --- @class ReportCheatingDialogCommentFrameRight : Texture
 ReportCheatingDialogCommentFrameRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L328)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L329)
 --- child of ReportCheatingDialogCommentFrame
 --- @class ReportCheatingDialogCommentFrameMiddle : Texture
 ReportCheatingDialogCommentFrameMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L266)
 --- child of ReportCheatingDialog
 --- @class ReportCheatingDialogCommentFrame : Frame
 --- @field EditBox ReportCheatingDialogCommentFrameEditBox
 ReportCheatingDialogCommentFrame = {}
 ReportCheatingDialogCommentFrame["EditBox"] = ReportCheatingDialogCommentFrameEditBox
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L376)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L377)
 --- child of ReportCheatingDialog
 --- @class ReportCheatingDialogReportButton : Button, UIPanelButtonTemplate
 ReportCheatingDialogReportButton = {}
 ReportCheatingDialogReportButton["fitTextCanWidthDecrease"] = true -- inherited
 ReportCheatingDialogReportButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L389)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L390)
 --- child of ReportCheatingDialog
 --- @class ReportCheatingDialogCancelButton : Button, UIPanelButtonTemplate
 ReportCheatingDialogCancelButton = {}
 ReportCheatingDialogCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 ReportCheatingDialogCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L250)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L251)
 --- child of ReportCheatingDialog
 --- @class ReportCheatingDialogTitle : FontString, GameFontNormal
 ReportCheatingDialogTitle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L256)
 --- child of ReportCheatingDialog
 --- @class ReportCheatingDialogText1 : FontString, GameFontHighlight
 ReportCheatingDialogText1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HelpFrame/HelpFrame.xml#L247)
 --- @class ReportCheatingDialog : Frame
 --- @field Border ReportCheatingDialog_Border
 --- @field CommentFrame ReportCheatingDialogCommentFrame

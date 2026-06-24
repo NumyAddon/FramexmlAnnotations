@@ -90,11 +90,11 @@
 --- @field SavedName HousingBlueprintExportFrame_SuccessContent_SavedName
 --- @field ShareCodeLabel HousingBlueprintExportFrame_SuccessContent_ShareCodeLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L166)
 --- child of HousingBlueprintExportFrame_LoadingOverlay
 --- @class HousingBlueprintExportFrame_LoadingOverlay_Spinner : Frame, SpinnerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L157)
 --- child of HousingBlueprintExportFrame
 --- @class HousingBlueprintExportFrame_LoadingOverlay : Frame
 --- @field ignoreInLayout boolean # true

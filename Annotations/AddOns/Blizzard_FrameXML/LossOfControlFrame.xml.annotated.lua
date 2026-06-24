@@ -27,7 +27,7 @@
 --- @class LossOfControlFrame_Anim : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/LossOfControlFrame.xml#L4)
---- @class LossOfControlFrame : Frame, LossOfControlMixin
+--- @class LossOfControlFrame : Frame, EditModeLossOfControlSystemTemplate, LossOfControlMixin
 --- @field Cooldown LossOfControlFrame_Cooldown
 --- @field TimeLeft LossOfControlFrame_TimeLeft
 --- @field blackBg Texture
@@ -37,4 +37,7 @@
 --- @field AbilityName LossOfControlFrame_AbilityName
 --- @field Anim LossOfControlFrame_Anim
 LossOfControlFrame = {}
+LossOfControlFrame["system"] = Enum.EditModeSystem.LossOfControl -- inherited
+LossOfControlFrame["systemNameString"] = HUD_EDIT_MODE_LOSS_OF_CONTROL_LABEL -- inherited
+LossOfControlFrame["defaultHideSelection"] = true -- inherited
 

@@ -45,3 +45,6 @@ function HouseEditorFrameMixin:HouseStorageSetShown(shown) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditor.lua#L162)
 function HouseEditorFrameMixin:ExpandHouseStorage() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditor.lua#L167)
+function HouseEditorFrameMixin:TryShowHouseStorageTab(tabEnum) end

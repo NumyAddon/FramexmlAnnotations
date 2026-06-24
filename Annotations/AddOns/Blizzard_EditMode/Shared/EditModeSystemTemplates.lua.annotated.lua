@@ -140,6 +140,10 @@ EditModePersonalResourceDisplaySystemMixin = {}
 --- @class EditModeRaidWarningSystemMixin
 EditModeRaidWarningSystemMixin = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3601)
+--- @class EditModeLossOfControlSystemMixin
+EditModeLossOfControlSystemMixin = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3)
 function EditModeSystemMixin:OnSystemLoad() end
 
@@ -1192,3 +1196,12 @@ function EditModeDamageMeterSystemMixin:OnUpdateSystem(anySettingsDirty) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3595)
 function EditModeRaidWarningSystemMixin:OnEditModeExit() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3603)
+function EditModeLossOfControlSystemMixin:OnEditModeExit() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3610)
+function EditModeLossOfControlSystemMixin:UpdateSystemSettingSize() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3614)
+function EditModeLossOfControlSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end

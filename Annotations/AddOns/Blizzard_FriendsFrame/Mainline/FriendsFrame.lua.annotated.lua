@@ -52,6 +52,10 @@ FriendsIgnoreListMixin = {}
 --- @class ContactsMenuMixin
 ContactsMenuMixin = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2737)
+--- @class FriendsFrameAddFriendButtonMixin
+FriendsFrameAddFriendButtonMixin = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L495)
 function FriendsTabHeaderMixin:OnLoad() end
 
@@ -198,3 +202,12 @@ function ContactsMenuMixin:OnEnter() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2733)
 function ContactsMenuMixin:OnLeave() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2739)
+function FriendsFrameAddFriendButtonMixin:OnClick() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2743)
+function FriendsFrameAddFriendButtonMixin:OnEnter() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFrame.lua#L2751)
+function FriendsFrameAddFriendButtonMixin:OnLeave() end

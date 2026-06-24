@@ -52,19 +52,23 @@
 --- @field HeaderBackground Texture
 --- @field CornerBorder Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L136)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L137)
 --- child of DecorPetCustomizationTemplate_AssignPetContainer
 --- @class DecorPetCustomizationTemplate_AssignPetContainer_AssignPetText : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L141)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L142)
 --- child of DecorPetCustomizationTemplate_AssignPetContainer
 --- @class DecorPetCustomizationTemplate_AssignPetContainer_PetCustomName : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L147)
 --- child of DecorPetCustomizationTemplate_AssignPetContainer
 --- @class DecorPetCustomizationTemplate_AssignPetContainer_PetName : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L123)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L160)
+--- child of DecorPetCustomizationTemplate_AssignPetContainer
+--- @class DecorPetCustomizationTemplate_AssignPetContainer_PetApplyDescription : FontString, GameFontNormalSmall
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L124)
 --- child of DecorPetCustomizationTemplate
 --- @class DecorPetCustomizationTemplate_AssignPetContainer : Frame
 --- @field PetIconSlot Texture
@@ -72,12 +76,13 @@
 --- @field PetCustomName DecorPetCustomizationTemplate_AssignPetContainer_PetCustomName
 --- @field PetName DecorPetCustomizationTemplate_AssignPetContainer_PetName
 --- @field PetIcon Texture
+--- @field PetApplyDescription DecorPetCustomizationTemplate_AssignPetContainer_PetApplyDescription
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L162)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L170)
 --- child of DecorPetCustomizationTemplate
 --- @class DecorPetCustomizationTemplate_BehaviorDropdown : DropdownButton, WowStyle2DropdownTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L179)
 --- child of DecorPetCustomizationTemplate
 --- @class DecorPetCustomizationTemplate_BehaviorLabel : FontString, GameFontHighlight
 
@@ -88,11 +93,11 @@
 --- @field BehaviorDropdown DecorPetCustomizationTemplate_BehaviorDropdown
 --- @field BehaviorLabel DecorPetCustomizationTemplate_BehaviorLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L209)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L217)
 --- child of HousingPetEntryTemplate
 --- @class HousingPetEntryTemplate_ModelScene : ModelScene, NonInteractableModelSceneMixinTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L183)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizationPetTemplates.xml#L191)
 --- Template
 --- @class HousingPetEntryTemplate : Button, HousingPetEntryMixin
 --- @field backgroundDefault string # house-chest-list-Item-default

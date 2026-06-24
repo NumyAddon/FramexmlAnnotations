@@ -21,7 +21,7 @@ function HousingBlueprintContentListFrameMixin:OnShow() end
 function HousingBlueprintContentListFrameMixin:OnHide() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentList.lua#L91)
-function HousingBlueprintContentListFrameMixin:IsShowingBlueprint(shareCode, houseGUID) end
+function HousingBlueprintContentListFrameMixin:IsShowingBlueprintForTarget(shareCode, houseGUID) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentList.lua#L99)
 function HousingBlueprintContentListFrameMixin:IsOperationInProgress() end

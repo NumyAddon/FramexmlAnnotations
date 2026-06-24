@@ -31,8 +31,8 @@ function HousingBlueprintBaseFrameMixin:ShowSelf() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L64)
 function HousingBlueprintBaseFrameMixin:HideSelf() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L77)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L79)
 function HousingBlueprintBaseFrameMixin:SetFullInputBlockerEnabled(enabled) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L90)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L92)
 function HousingBlueprintBaseFrameMixin:TryHandleEscape() end

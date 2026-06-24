@@ -293,3 +293,11 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L415)
+--- Template
+--- @class EditModeLossOfControlSystemTemplate : Frame, EditModeSystemTemplate, EditModeLossOfControlSystemMixin
+--- @field system any # Enum.EditModeSystem.LossOfControl
+--- @field systemNameString any # HUD_EDIT_MODE_LOSS_OF_CONTROL_LABEL
+--- @field defaultHideSelection boolean # true
+--- @field Selection EditModeSystemSelectionTemplate
+

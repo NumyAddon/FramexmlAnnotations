@@ -922,6 +922,7 @@
 --- | "EditModeImportLayoutDialogTemplate"
 --- | "EditModeLayoutDialogTemplate"
 --- | "EditModeLootFrameSystemTemplate"
+--- | "EditModeLossOfControlSystemTemplate"
 --- | "EditModeManagerFrameButtonTemplate"
 --- | "EditModeManagerSettingCheckButtonTemplate"
 --- | "EditModeManagerSettingsOptionsContainerTemplate"

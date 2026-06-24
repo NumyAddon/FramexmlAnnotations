@@ -9,7 +9,7 @@
 --- @class DecorCustomizationsPaneTemplate_CustomizeComponentContainer_PetPane : Frame, DecorPetCustomizationTemplate
 --- @field layoutIndex number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L55)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L54)
 --- child of DecorCustomizationsPaneTemplate_CustomizeComponentContainer
 --- @class DecorCustomizationsPaneTemplate_CustomizeComponentContainer_DyePane : Frame, HousingDyePaneTemplate
 --- @field layoutIndex number # 2
@@ -21,15 +21,15 @@
 --- @field PetPane DecorCustomizationsPaneTemplate_CustomizeComponentContainer_PetPane
 --- @field DyePane DecorCustomizationsPaneTemplate_CustomizeComponentContainer_DyePane
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L82)
 --- child of DecorCustomizationsPaneTemplate_ButtonFrame
 --- @class DecorCustomizationsPaneTemplate_ButtonFrame_CancelButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L90)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L89)
 --- child of DecorCustomizationsPaneTemplate_ButtonFrame
 --- @class DecorCustomizationsPaneTemplate_ButtonFrame_ApplyButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L63)
 --- child of DecorCustomizationsPaneTemplate
 --- @class DecorCustomizationsPaneTemplate_ButtonFrame : Frame
 --- @field CancelButton DecorCustomizationsPaneTemplate_ButtonFrame_CancelButton
@@ -51,46 +51,46 @@
 --- @field WoodHeader Texture
 --- @field DecorName DecorCustomizationsPaneTemplate_DecorName
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L107)
 --- child of HouseEditorCustomizeModeTemplate
 --- @class HouseEditorCustomizeModeTemplate_DecorCount : Frame, HouseEditorDecorCountTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L110)
 --- child of HouseEditorCustomizeModeTemplate_Instructions
 --- @class HouseEditorCustomizeModeTemplate_Instructions_SelectInstruction : Frame, HouseEditorInstructionTemplate
 --- @field iconAtlas string # housing-hotkey-icon-leftclick
 --- @field instructionText any # HOUSING_DECOR_SELECT_INSTRUCTION
 --- @field layoutIndex number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L109)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L108)
 --- child of HouseEditorCustomizeModeTemplate
 --- @class HouseEditorCustomizeModeTemplate_Instructions : Frame, HouseEditorInstructionsContainerTemplate
 --- @field SelectInstruction HouseEditorCustomizeModeTemplate_Instructions_SelectInstruction
 --- @field UnselectedInstructions table<number, HouseEditorCustomizeModeTemplate_Instructions_SelectInstruction>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L120)
 --- child of HouseEditorCustomizeModeTemplate
 --- @class HouseEditorCustomizeModeTemplate_DecorCustomizationsPane : Frame, DecorCustomizationsPaneTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L127)
 --- child of HouseEditorCustomizeModeTemplate
 --- @class HouseEditorCustomizeModeTemplate_PetCustomizationsPane : Frame, CustomizeDecorPetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L132)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L131)
 --- child of HouseEditorCustomizeModeTemplate
 --- @class HouseEditorCustomizeModeTemplate_PetCustomizationsPaneExpandButton : Button, PetCustomizationsPaneExpandButtonMixin
 --- @field Icon Texture
 --- @field OverlayIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L160)
 --- child of HouseEditorCustomizeModeTemplate
 --- @class HouseEditorCustomizeModeTemplate_DyeSelectionPopout : Frame, HousingDecorDyeSlotPopoutTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L167)
 --- child of HouseEditorCustomizeModeTemplate
 --- @class HouseEditorCustomizeModeTemplate_RoomComponentCustomizationsPane : Frame, HousingRoomComponentPaneTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L106)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorCustomizeMode.xml#L105)
 --- Template
 --- @class HouseEditorCustomizeModeTemplate : Frame, BaseHouseEditorModeTemplate, HouseEditorCustomizeModeMixin
 --- @field DecorCount HouseEditorCustomizeModeTemplate_DecorCount

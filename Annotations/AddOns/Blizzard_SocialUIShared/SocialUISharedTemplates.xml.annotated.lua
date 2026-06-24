@@ -39,13 +39,13 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L52)
 --- Template
---- @class SocialUIActionButtonTemplate : Button, UserScaledButtonFitToTextTemplate, SharedButtonTemplate
+--- @class SocialUIActionButtonTemplate : Button, UserScaledButtonFitToTextTemplate, SharedButtonTemplate, SocialUIActionButtonMixin
 --- @field buttonArtKit string # 128-RedButton
 --- @field baseWidth number # 70
 --- @field baseHeight number # 30
 --- @field baseButtonTextInset number # 15
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L71)
 --- Template
 --- @class SocialUIScrollableHeaderTemplate : Button, ListHeaderVisualTemplate, ListHeaderCodeTemplate, UserScaledFrameTemplate, SocialUIScrollableHeaderMixin
 --- @field baseHeight number # 24
@@ -53,38 +53,38 @@
 --- @field useScaleWeightForHeight boolean # true
 --- @field scaleWeight number # 0.6
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L91)
 --- Template
 --- @class SocialUIScrollableSpacerTemplate : Frame, SocialUIScrollableSpacerMixin
 --- @field baseHeight number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L99)
 --- child of SocialUIContactsFrameTemplate
 --- @class SocialUIContactsFrameTemplate_FilterBar : Frame, SocialUIFilterBarTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L120)
 --- child of SocialUIContactsFrameTemplate
 --- @class SocialUIContactsFrameTemplate_LoadingSpinner : Frame, SpinnerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L127)
 --- child of SocialUIContactsFrameTemplate
---- @class SocialUIContactsFrameTemplate_ActionButton : Button, SocialUIActionButtonTemplate, SocialUIActionButtonMixin
+--- @class SocialUIContactsFrameTemplate_ActionButton : Button, SocialUIActionButtonTemplate
 --- @field baseWidth number # 160
 --- @field maxWidth number # 400
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L159)
 --- child of SocialUIContactsFrameTemplate
 --- @class SocialUIContactsFrameTemplate_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L168)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L167)
 --- child of SocialUIContactsFrameTemplate
 --- @class SocialUIContactsFrameTemplate_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L148)
 --- child of SocialUIContactsFrameTemplate
 --- @class SocialUIContactsFrameTemplate_FriendsDisabledText : FontString, UserScaledFontBody
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L94)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L97)
 --- Template
 --- @class SocialUIContactsFrameTemplate : Frame, SocialUIContactsFrameMixin
 --- @field FilterBar SocialUIContactsFrameTemplate_FilterBar
@@ -96,7 +96,7 @@
 --- @field BottomDivider Texture
 --- @field FriendsDisabledText SocialUIContactsFrameTemplate_FriendsDisabledText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L176)
 --- Template
 --- @class SocialCardPresenceHolderTemplate : Frame, UserScaledFrameTemplate, SocialCardPresenceHolderMixin
 --- @field baseWidth number # 19
@@ -106,7 +106,7 @@
 --- @field scaleWeight number # 0.6
 --- @field PresenceIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L192)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedTemplates.xml#L191)
 --- Template
 --- @class SocialCardActionButtonTemplate : Button, SocialCardActionButtonMixin
 --- @field ActionIcon Texture

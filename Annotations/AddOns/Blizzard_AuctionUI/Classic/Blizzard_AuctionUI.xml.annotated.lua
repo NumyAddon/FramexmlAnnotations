@@ -504,34 +504,34 @@ StoreButton = {}
 --- @field Tutorial3 WowTokenGameTimeTutorial_RightDisplay_Tutorial3
 --- @field infoarrow Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L689)
 --- child of WowTokenGameTimeTutorialInset (created in template InsetFrameTemplate)
 --- @type Texture
 WowTokenGameTimeTutorialInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L721)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L730)
 --- child of WowTokenGameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 WowTokenGameTimeTutorialInset = {}
 WowTokenGameTimeTutorialInset["layoutType"] = "InsetFrameTemplate" -- inherited
 WowTokenGameTimeTutorialInset["Bg"] = WowTokenGameTimeTutorialInsetBg -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L702)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L711)
 --- child of WowTokenGameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 WowTokenGameTimeTutorialBtnCornerLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L707)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L716)
 --- child of WowTokenGameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 WowTokenGameTimeTutorialBtnCornerRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L712)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L721)
 --- child of WowTokenGameTimeTutorial (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 WowTokenGameTimeTutorialButtonBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L538)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L547)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 WowTokenGameTimeTutorialCloseButton = {}
@@ -551,57 +551,57 @@ WowTokenGameTimeTutorialTitleBg = {}
 --- @type Texture
 WowTokenGameTimeTutorialPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L466)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L475)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 WowTokenGameTimeTutorialPortraitFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L471)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L480)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 WowTokenGameTimeTutorialTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L476)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L485)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 WowTokenGameTimeTutorialTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L481)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L490)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 WowTokenGameTimeTutorialTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L487)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L496)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 WowTokenGameTimeTutorialTitleText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L496)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L505)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 WowTokenGameTimeTutorialTopTileStreaks = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L502)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L511)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 WowTokenGameTimeTutorialBotLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L507)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L516)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 WowTokenGameTimeTutorialBotRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L512)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L521)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 WowTokenGameTimeTutorialBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L518)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L527)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 WowTokenGameTimeTutorialLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L524)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L533)
 --- child of WowTokenGameTimeTutorial (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 WowTokenGameTimeTutorialRightBorder = {}
@@ -4685,6 +4685,7 @@ AuctionFrame = {}
 --- child of AuctionProgressFrame
 --- @class AuctionProgressBar : StatusBar, CastingBarFrameTemplate
 AuctionProgressBar = {}
+AuctionProgressBar["classicStyleCastBar"] = true -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_AuctionUI/Classic/Blizzard_AuctionUI.xml#L2552)
 --- child of AuctionProgressFrame

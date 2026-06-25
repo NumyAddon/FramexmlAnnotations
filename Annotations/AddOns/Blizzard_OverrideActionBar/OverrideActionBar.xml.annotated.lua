@@ -179,8 +179,6 @@ OverrideActionBarPowerBar["parentKey"] = OverrideActionBarPowerBarText
 --- child of OverrideActionBarButton1 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton1Cooldown = {}
-OverrideActionBarButton1Cooldown["edgeTextureNormal"] = "Interface\\Cooldown\\edge-LoC"
-OverrideActionBarButton1Cooldown["edgeTextureLOC"] = "Interface\\Cooldown\\edge"
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L23)
 --- child of OverrideActionBarButton1 (created in template ActionButtonTemplate)
@@ -202,7 +200,7 @@ OverrideActionBarButton1Name = {}
 --- @type Texture
 OverrideActionBarButton1Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L140)
 --- child of OverrideActionBarButton1 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton1NormalTexture = {}
@@ -239,8 +237,6 @@ OverrideActionBarButton1["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseove
 --- child of OverrideActionBarButton2 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton2Cooldown = {}
-OverrideActionBarButton2Cooldown["edgeTextureNormal"] = "Interface\\Cooldown\\edge-LoC"
-OverrideActionBarButton2Cooldown["edgeTextureLOC"] = "Interface\\Cooldown\\edge"
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L23)
 --- child of OverrideActionBarButton2 (created in template ActionButtonTemplate)
@@ -262,7 +258,7 @@ OverrideActionBarButton2Name = {}
 --- @type Texture
 OverrideActionBarButton2Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L140)
 --- child of OverrideActionBarButton2 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton2NormalTexture = {}
@@ -299,8 +295,6 @@ OverrideActionBarButton2["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseove
 --- child of OverrideActionBarButton3 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton3Cooldown = {}
-OverrideActionBarButton3Cooldown["edgeTextureNormal"] = "Interface\\Cooldown\\edge-LoC"
-OverrideActionBarButton3Cooldown["edgeTextureLOC"] = "Interface\\Cooldown\\edge"
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L23)
 --- child of OverrideActionBarButton3 (created in template ActionButtonTemplate)
@@ -322,7 +316,7 @@ OverrideActionBarButton3Name = {}
 --- @type Texture
 OverrideActionBarButton3Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L140)
 --- child of OverrideActionBarButton3 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton3NormalTexture = {}
@@ -359,8 +353,6 @@ OverrideActionBarButton3["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseove
 --- child of OverrideActionBarButton4 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton4Cooldown = {}
-OverrideActionBarButton4Cooldown["edgeTextureNormal"] = "Interface\\Cooldown\\edge-LoC"
-OverrideActionBarButton4Cooldown["edgeTextureLOC"] = "Interface\\Cooldown\\edge"
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L23)
 --- child of OverrideActionBarButton4 (created in template ActionButtonTemplate)
@@ -382,7 +374,7 @@ OverrideActionBarButton4Name = {}
 --- @type Texture
 OverrideActionBarButton4Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L140)
 --- child of OverrideActionBarButton4 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton4NormalTexture = {}
@@ -419,8 +411,6 @@ OverrideActionBarButton4["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseove
 --- child of OverrideActionBarButton5 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton5Cooldown = {}
-OverrideActionBarButton5Cooldown["edgeTextureNormal"] = "Interface\\Cooldown\\edge-LoC"
-OverrideActionBarButton5Cooldown["edgeTextureLOC"] = "Interface\\Cooldown\\edge"
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L23)
 --- child of OverrideActionBarButton5 (created in template ActionButtonTemplate)
@@ -442,7 +432,7 @@ OverrideActionBarButton5Name = {}
 --- @type Texture
 OverrideActionBarButton5Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L140)
 --- child of OverrideActionBarButton5 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton5NormalTexture = {}
@@ -479,8 +469,6 @@ OverrideActionBarButton5["arrowOverTexture"] = "UI-HUD-ActionBar-Flyout-Mouseove
 --- child of OverrideActionBarButton6 (created in template ActionButtonTemplate)
 --- @type ActionButtonTemplate_Cooldown
 OverrideActionBarButton6Cooldown = {}
-OverrideActionBarButton6Cooldown["edgeTextureNormal"] = "Interface\\Cooldown\\edge-LoC"
-OverrideActionBarButton6Cooldown["edgeTextureLOC"] = "Interface\\Cooldown\\edge"
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L23)
 --- child of OverrideActionBarButton6 (created in template ActionButtonTemplate)
@@ -502,7 +490,7 @@ OverrideActionBarButton6Name = {}
 --- @type Texture
 OverrideActionBarButton6Border = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L138)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_OverrideActionBar/OverrideActionBar.xml#L140)
 --- child of OverrideActionBarButton6 (created in template ActionButtonTemplate)
 --- @type Texture
 OverrideActionBarButton6NormalTexture = {}

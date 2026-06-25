@@ -14,29 +14,9 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/GameFontStyles.xml#L15)
 --- Template
---- @class NumberFontNormalLarge : Font, NumberFont_Outline_Large
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/GameFontStyles.xml#L19)
---- Template
---- @class NumberFontNormalLargeRight : Font, NumberFontNormalLarge
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/GameFontStyles.xml#L21)
---- Template
---- @class NumberFontNormalLargeRightRed : Font, NumberFontNormalLargeRight
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/GameFontStyles.xml#L25)
---- Template
---- @class NumberFontNormalLargeRightYellow : Font, NumberFontNormalLargeRight
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/GameFontStyles.xml#L29)
---- Template
---- @class NumberFontNormalLargeRightGray : Font, NumberFontNormalLargeRight
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/GameFontStyles.xml#L33)
---- Template
 --- @class QuestTitleFontBlackShadowSmaller : Font, QuestFont_Shadow_Larger
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/GameFontStyles.xml#L40)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/GameFontStyles.xml#L22)
 --- Template
 --- @class TextStatusBarText : Font, NumberFontNormal
 

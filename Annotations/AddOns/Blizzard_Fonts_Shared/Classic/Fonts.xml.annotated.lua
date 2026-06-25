@@ -50,9 +50,13 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/Fonts.xml#L339)
 --- Template
---- @class Game30Font2 : Font
+--- @class NumberFont_Outline_Large : Font
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/Fonts.xml#L357)
+--- Template
+--- @class Game30Font2 : Font
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Fonts_Shared/Classic/Fonts.xml#L375)
 --- Template
 --- @class Game30Font2Outline : Font
 

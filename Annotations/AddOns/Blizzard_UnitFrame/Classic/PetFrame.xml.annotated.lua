@@ -148,4 +148,5 @@ PetFrame["system"] = Enum.EditModeSystem.UnitFrame -- inherited
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UnitFrame/Classic/PetFrame.xml#L207)
 --- @class PetCastingBarFrame : StatusBar, CastingBarFrameTemplate, PetCastingBarMixin
 PetCastingBarFrame = {}
+PetCastingBarFrame["classicStyleCastBar"] = true -- inherited
 

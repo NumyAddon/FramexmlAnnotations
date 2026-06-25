@@ -33,7 +33,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L154)
 --- child of StaticPopupTemplate
---- @class StaticPopupTemplate_CoverFrame : Frame
+--- @class StaticPopupTemplate_CoverFrame : Frame, GameDialogCoverFrameMixin
 --- @field ignoreInLayout boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_StaticPopup_Game/GameDialog.xml#L172)

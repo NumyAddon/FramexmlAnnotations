@@ -7,17 +7,17 @@ MinimapClusterMixin = { }
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L153)
 function MinimapClusterMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L178)
 function MinimapClusterMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L179)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L182)
 function MinimapClusterMixin:SetEditModeScale(scale) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L201)
 function MinimapClusterMixin:SetHeaderUnderneath(headerUnderneath) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L216)
 function MinimapClusterMixin:SetRotateMinimap(rotateMinimap) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_Minimap/Classic/Minimap.lua#L220)
 function MinimapClusterMixin:OnUpdateRotationSetting() end

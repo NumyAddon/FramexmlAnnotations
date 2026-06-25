@@ -12,6 +12,10 @@ FriendsFrameInviteTemplateMixin = {}
 --- @class FriendsFriendsFrameMixin
 FriendsFriendsFrameMixin = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L3375)
+--- @class GuildFrameMemberNoteMixin
+GuildFrameMemberNoteMixin = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L520)
 function FriendsTabHeaderMixin:OnLoad() end
 
@@ -29,3 +33,12 @@ function FriendsFriendsFrameMixin:OnHide() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L2116)
 function FriendsFriendsFrameMixin:OnEvent(event, ...) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L3377)
+function GuildFrameMemberNoteMixin:GetStaticPopupDialog() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L3385)
+function GuildFrameMemberNoteMixin:IsPublicNote() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_UIPanels_Game/Classic/FriendsFrame.lua#L3389)
+function GuildFrameMemberNoteMixin:OnMouseUp() end

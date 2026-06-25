@@ -108,34 +108,34 @@ RaidParentFrameTab2HighlightTexture = {}
 --- @class RaidParentFrameTab2 : Button, CharacterFrameTabButtonTemplate
 RaidParentFrameTab2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L689)
 --- child of RaidParentFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 RaidParentFrameInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L721)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L730)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 RaidParentFrameInset = {}
 RaidParentFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 RaidParentFrameInset["Bg"] = RaidParentFrameInsetBg -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L702)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L711)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 RaidParentFrameBtnCornerLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L707)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L716)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 RaidParentFrameBtnCornerRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L712)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L721)
 --- child of RaidParentFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 RaidParentFrameButtonBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L538)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L547)
 --- child of RaidParentFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 RaidParentFrameCloseButton = {}
@@ -155,57 +155,57 @@ RaidParentFrameTitleBg = {}
 --- @type Texture
 RaidParentFramePortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L466)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L475)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 RaidParentFramePortraitFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L471)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L480)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 RaidParentFrameTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L476)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L485)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 RaidParentFrameTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L481)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L490)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 RaidParentFrameTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L487)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L496)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 RaidParentFrameTitleText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L496)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L505)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 RaidParentFrameTopTileStreaks = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L502)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L511)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 RaidParentFrameBotLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L507)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L516)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 RaidParentFrameBotRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L512)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L521)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 RaidParentFrameBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L518)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L527)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 RaidParentFrameLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L524)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_RaidFrame/Classic/RaidFrame.xml#L533)
 --- child of RaidParentFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 RaidParentFrameRightBorder = {}

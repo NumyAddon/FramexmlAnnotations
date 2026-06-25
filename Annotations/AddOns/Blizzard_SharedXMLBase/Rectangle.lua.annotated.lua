@@ -59,25 +59,31 @@ function RectangleMixin:GetHeight() end
 function RectangleMixin:GetCenter() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L95)
-function RectangleMixin:SetTop(top) end
+function RectangleMixin:GetCenterH() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L99)
-function RectangleMixin:SetBottom(bottom) end
+function RectangleMixin:GetCenterV() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L103)
-function RectangleMixin:SetLeft(left) end
+function RectangleMixin:SetTop(top) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L107)
-function RectangleMixin:SetRight(right) end
+function RectangleMixin:SetBottom(bottom) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L111)
-function RectangleMixin:SetWidth(width) end
+function RectangleMixin:SetLeft(left) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L115)
-function RectangleMixin:SetHeight(height) end
+function RectangleMixin:SetRight(right) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L119)
+function RectangleMixin:SetWidth(width) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L123)
+function RectangleMixin:SetHeight(height) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L127)
 function RectangleMixin:SetSize(width, height) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_SharedXMLBase/Rectangle.lua#L132)
 function RectangleMixin:SetCenter(x, y) end

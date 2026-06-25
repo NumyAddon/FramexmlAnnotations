@@ -1,124 +1,140 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2614)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2721)
 --- @class EditModeCooldownViewerSystemMixin : EditModeSystemMixin
 EditModeCooldownViewerSystemMixin = CreateFromMixins(EditModeSystemMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2922)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2917)
+--- @class EditModeEncounterEventsSystemMixin : EditModeSystemMixin
+EditModeEncounterEventsSystemMixin = CreateFromMixins(EditModeSystemMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3225)
 --- @class EditModeSystemSelectionMixin : EditModeSystemSelectionBaseMixin
 EditModeSystemSelectionMixin = CreateFromMixins(EditModeSystemSelectionBaseMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2929)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3232)
 --- @class EditModeSystemSelectionDoubleLabelMixin : EditModeSystemSelectionBaseMixin
 EditModeSystemSelectionDoubleLabelMixin = CreateFromMixins(EditModeSystemSelectionBaseMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3386)
+--- @class EditModeDamageMeterSystemMixin : EditModeSystemMixin
+EditModeDamageMeterSystemMixin = CreateFromMixins(EditModeSystemMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1)
 --- @class EditModeSystemMixin
 EditModeSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L915)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L919)
 --- @class EditModeActionBarSystemMixin
 EditModeActionBarSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1227)
 --- @class EditModeUnitFrameSystemMixin
 EditModeUnitFrameSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1554)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1600)
 --- @class EditModeBossUnitFrameSystemMixin
 EditModeBossUnitFrameSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1585)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1631)
 --- @class EditModeArenaUnitFrameSystemMixin
 EditModeArenaUnitFrameSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1636)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1687)
 --- @class EditModeMinimapSystemMixin
 EditModeMinimapSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1674)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1725)
 --- @class EditModeCastBarSystemMixin
 EditModeCastBarSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1797)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1848)
 --- @class EditModeEncounterBarSystemMixin
 EditModeEncounterBarSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1804)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1855)
 --- @class EditModeExtraAbilitiesSystemMixin
 EditModeExtraAbilitiesSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1813)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1864)
 --- @class EditModeAuraFrameSystemMixin
 EditModeAuraFrameSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2004)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2077)
 --- @class EditModeTalkingHeadFrameSystemMixin
 EditModeTalkingHeadFrameSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2013)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2086)
 --- @class EditModeChatFrameSystemMixin
 EditModeChatFrameSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2189)
 --- @class EditModeChatFrameResizeButtonMixin
 EditModeChatFrameResizeButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2208)
 --- @class EditModeVehicleLeaveButtonSystemMixin
 EditModeVehicleLeaveButtonSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2225)
 --- @class EditModeLootFrameSystemMixin
 EditModeLootFrameSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2174)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2247)
 --- @class EditModeObjectiveTrackerSystemMixin
 EditModeObjectiveTrackerSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2336)
 --- @class EditModeMicroMenuSystemMixin
 EditModeMicroMenuSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2410)
 --- @class EditModeBagsSystemMixin
 EditModeBagsSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2420)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2493)
 --- @class EditModeStatusTrackingBarSystemMixin
 EditModeStatusTrackingBarSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2441)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2529)
 --- @class EditModeStatusTrackingBar1SystemMixin
 EditModeStatusTrackingBar1SystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2463)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2551)
 --- @class EditModeDurabilityFrameSystemMixin
 EditModeDurabilityFrameSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2503)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2591)
 --- @class EditModePlayerFrameSystemMixin
 EditModePlayerFrameSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2520)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2608)
 --- @class EditModePetFrameSystemMixin
 EditModePetFrameSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2533)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2621)
 --- @class EditModeTimerBarsSystemMixin
 EditModeTimerBarsSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2560)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2648)
 --- @class EditModeVehicleSeatIndicatorSystemMixin
 EditModeVehicleSeatIndicatorSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2587)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2675)
+--- @class EditModeTotemActionBarSystemMixin
+EditModeTotemActionBarSystemMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2694)
 --- @class EditModeArchaeologyBarSystemMixin
 EditModeArchaeologyBarSystemMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2817)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3120)
 --- @class EditModeSystemSelectionBaseMixin
 EditModeSystemSelectionBaseMixin = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3249)
+--- @class EditModePersonalResourceDisplaySystemMixin
+EditModePersonalResourceDisplaySystemMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3)
 function EditModeSystemMixin:OnSystemLoad() end
@@ -249,719 +265,914 @@ function EditModeSystemMixin:GetCompositeNumberSettingValue(setting, useRawValue
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L483)
 function EditModeSystemMixin:GetSettingValue(setting, useRawValue) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L500)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L504)
 function EditModeSystemMixin:GetSettingValueBool(setting, useRawValue) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L504)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L508)
 function EditModeSystemMixin:DoesSettingValueEqual(setting, value) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L509)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L513)
 function EditModeSystemMixin:DoesSettingDisplayValueEqual(setting, value) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L515)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L519)
 function EditModeSystemMixin:UseSettingAltName(setting) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L520)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L524)
 function EditModeSystemMixin:UpdateDisplayInfoOptions(displayInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L525)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L529)
 function EditModeSystemMixin:ShouldShowSetting(setting) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L529)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L533)
 function EditModeSystemMixin:GetSettingsDialogAnchor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L534)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L538)
 function EditModeSystemMixin:AddExtraButtons(extraButtonPool) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L545)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L549)
 function EditModeSystemMixin:IsToTheLeftOfFrame(systemFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L555)
 function EditModeSystemMixin:IsToTheRightOfFrame(systemFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L557)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L561)
 function EditModeSystemMixin:IsAboveFrame(systemFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L563)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L567)
 function EditModeSystemMixin:IsBelowFrame(systemFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L569)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L573)
 function EditModeSystemMixin:IsVerticallyAlignedWithFrame(systemFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L575)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L579)
 function EditModeSystemMixin:IsHorizontallyAlignedWithFrame(systemFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L582)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L586)
 function EditModeSystemMixin:GetScaledSelectionCenter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L589)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L593)
 function EditModeSystemMixin:GetScaledCenter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L596)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L600)
 function EditModeSystemMixin:GetScaledSelectionSides() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L604)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L608)
 function EditModeSystemMixin:GetLeftOffset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L607)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L611)
 function EditModeSystemMixin:GetRightOffset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L610)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L614)
 function EditModeSystemMixin:GetTopOffset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L613)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L617)
 function EditModeSystemMixin:GetBottomOffset() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L617)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L621)
 function EditModeSystemMixin:GetSelectionOffset(point, forYOffset) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L649)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L653)
 function EditModeSystemMixin:GetCombinedSelectionOffset(frameInfo, forYOffset) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L660)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L664)
 function EditModeSystemMixin:GetCombinedCenterOffset(frame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L673)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L677)
 function EditModeSystemMixin:GetSnapOffsets(frameInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L692)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L696)
 function EditModeSystemMixin:AddSnappedFrame(frame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L696)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L700)
 function EditModeSystemMixin:RemoveSnappedFrame(frame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L700)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L704)
 function EditModeSystemMixin:BreakSnappedFrames() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L706)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L710)
 function EditModeSystemMixin:ShouldBreakSnappedFramesOnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L711)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L715)
 function EditModeSystemMixin:SetSnappedToFrame(frame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L722)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L726)
 function EditModeSystemMixin:ClearFrameSnap() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L729)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L733)
 function EditModeSystemMixin:BreakFrameSnap(deltaX, deltaY) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L758)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L762)
 function EditModeSystemMixin:SnapToFrame(frameInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L766)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L770)
 function EditModeSystemMixin:IsFrameAnchoredToMe(frame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L786)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L790)
 function EditModeSystemMixin:GetFrameMagneticEligibility(systemFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L803)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L807)
 function EditModeSystemMixin:UpdateMagnetismRegistration() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L811)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L815)
 function EditModeSystemMixin:ClearHighlight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L822)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L826)
 function EditModeSystemMixin:HighlightSystem() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L835)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L839)
 function EditModeSystemMixin:SelectSystem() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L845)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L849)
 function EditModeSystemMixin:SetSelectionShown(shown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L849)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L853)
 function EditModeSystemMixin:ShowEditInstructions(shown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L853)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L857)
 function EditModeSystemMixin:OnEditModeEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L859)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L863)
 function EditModeSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L865)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L869)
 function EditModeSystemMixin:CanBeMoved() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L869)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L873)
 function EditModeSystemMixin:IsInDefaultPosition() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L873)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L877)
 function EditModeSystemMixin:IsEditModeDragging() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L877)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L881)
 function EditModeSystemMixin:OnDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L889)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L893)
 function EditModeSystemMixin:OnDragStop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L902)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L906)
 function EditModeSystemMixin:GetSystemName() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L906)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L910)
 function EditModeSystemMixin:OnSystemPositionChange() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L912)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L916)
 function EditModeSystemMixin:OnAnyEditModeSystemAnchorChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L917)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L921)
 function EditModeActionBarSystemMixin:UpdateSystem(systemInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L924)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L928)
 function EditModeActionBarSystemMixin:OnEditModeEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L931)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L935)
 function EditModeActionBarSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L938)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L942)
 function EditModeActionBarSystemMixin:OnSystemPositionChange() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L945)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L949)
 function EditModeActionBarSystemMixin:ApplySystemAnchor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L953)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L957)
 function EditModeActionBarSystemMixin:OnAnyEditModeSystemAnchorChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L959)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L963)
 function EditModeActionBarSystemMixin:MarkGridLayoutDirty() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L963)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L967)
 function EditModeActionBarSystemMixin:RefreshGridLayout() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L970)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L974)
 function EditModeActionBarSystemMixin:UpdateGridLayout() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L980)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L984)
 function EditModeActionBarSystemMixin:MarkDividersDirty() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L984)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L988)
 function EditModeActionBarSystemMixin:RefreshDividers() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L994)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L998)
 function EditModeActionBarSystemMixin:MarkBarArtDirty() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L998)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1002)
 function EditModeActionBarSystemMixin:RefreshBarArt(force) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1014)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1018)
 function EditModeActionBarSystemMixin:UpdateSystemSettingOrientation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1035)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1039)
 function EditModeActionBarSystemMixin:UpdateSystemSettingNumRows() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1048)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1052)
 function EditModeActionBarSystemMixin:UpdateSystemSettingNumIcons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1064)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1068)
 function EditModeActionBarSystemMixin:UpdateSystemSettingIconSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1086)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1090)
 function EditModeActionBarSystemMixin:UpdateSystemSettingIconPadding() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1099)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1103)
 function EditModeActionBarSystemMixin:UpdateSystemSettingHideBarArt() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1119)
 function EditModeActionBarSystemMixin:UpdateSystemSettingHideBarScrolling() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1124)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1128)
 function EditModeActionBarSystemMixin:UpdateSystemSettingVisibleSetting() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1141)
 function EditModeActionBarSystemMixin:UpdateSystemSettingAlwaysShowButtons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1149)
 function EditModeActionBarSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1182)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1188)
 function EditModeActionBarSystemMixin:UseSettingAltName(setting) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1199)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1205)
 function EditModeActionBarSystemMixin:AddExtraButtons(extraButtonPool) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1228)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1234)
 function EditModeUnitFrameSystemMixin:AddExtraButtons(extraButtonPool) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1249)
 function EditModeUnitFrameSystemMixin:ShouldResetSettingsDialogAnchors(oldSelectedSystemFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1247)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1253)
 function EditModeUnitFrameSystemMixin:UseCombinedGroups() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1262)
 function EditModeUnitFrameSystemMixin:UseSettingAltName(setting) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1269)
 function EditModeUnitFrameSystemMixin:ShouldShowSetting(setting) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1328)
 function EditModeUnitFrameSystemMixin:AnchorSelectionFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1340)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1363)
 function EditModeUnitFrameSystemMixin:SetupSettingsDialogAnchor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1360)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1383)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingBuffsOnTop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1365)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1388)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingUseLargerFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1398)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingUseRaidStylePartyFrames() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1382)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1405)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingShowPartyFrameBackground() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1386)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1409)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingUseHorizontalGroups() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1398)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1421)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingCastBarOnSide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1404)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1427)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingShowCastTime() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1408)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1431)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingViewRaidSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1413)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1436)
+function EditModeUnitFrameSystemMixin:UpdateCompactRaidFrameContainerSetting(...) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1446)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingFrameWidth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1426)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1454)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingFrameHeight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1439)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1462)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingDisplayBorder() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1449)
-function EditModeUnitFrameSystemMixin:UpdateSystemSettingRaidGroupDisplayType() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1466)
+function EditModeUnitFrameSystemMixin:UpdateSystemSettingAuraOrganizationType() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1456)
-function EditModeUnitFrameSystemMixin:UpdateSystemSettingSortPlayersBy() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1470)
+function EditModeUnitFrameSystemMixin:UpdateSystemSettingIconSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1476)
-function EditModeUnitFrameSystemMixin:UpdateSystemSettingRowSize() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1474)
+function EditModeUnitFrameSystemMixin:UpdateSystemSettingBigDefensiveIconSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1480)
-function EditModeUnitFrameSystemMixin:UpdateSelectionVerticalState() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1478)
+function EditModeUnitFrameSystemMixin:UpdateSystemSettingOpacity() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1485)
+function EditModeUnitFrameSystemMixin:UpdateSystemSettingRaidGroupDisplayType() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1492)
+function EditModeUnitFrameSystemMixin:UpdateSystemSettingSortPlayersBy() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1512)
+function EditModeUnitFrameSystemMixin:UpdateSystemSettingRowSize() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1516)
+function EditModeUnitFrameSystemMixin:UpdateSelectionVerticalState() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1521)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingFrameSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1503)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1539)
 function EditModeUnitFrameSystemMixin:UpdateSystemSettingViewArenaSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1507)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1543)
 function EditModeUnitFrameSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1556)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1602)
 function EditModeBossUnitFrameSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1563)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1609)
 function EditModeBossUnitFrameSystemMixin:ShouldAnyBossFrameShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1573)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1619)
 function EditModeBossUnitFrameSystemMixin:UpdateShownState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1592)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1638)
 function EditModeArenaUnitFrameSystemMixin:SetIsInEditMode(isInEditMode) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1624)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1675)
 function EditModeArenaUnitFrameSystemMixin:AddExtraButtons(extraButtonPool) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1638)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1689)
 function EditModeMinimapSystemMixin:UpdateSystemSettingHeaderUnderneath() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1643)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1694)
 function EditModeMinimapSystemMixin:UpdateSystemSettingRotateMinimap() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1647)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1698)
 function EditModeMinimapSystemMixin:UpdateSystemSettingSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1655)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1706)
 function EditModeMinimapSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1676)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1727)
 function EditModeCastBarSystemMixin:OnDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1683)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1734)
 function EditModeCastBarSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1690)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1741)
 function EditModeCastBarSystemMixin:ApplySystemAnchor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1701)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1752)
 function EditModeCastBarSystemMixin:ResetToDefaultPosition() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1706)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1757)
 function EditModeCastBarSystemMixin:ShouldResetSettingsDialogAnchors(oldSelectedSystemFrame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1710)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1761)
 function EditModeCastBarSystemMixin:ShouldShowSetting(setting) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1718)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1769)
 function EditModeCastBarSystemMixin:SetupSettingsDialogAnchor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1722)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1773)
 function EditModeCastBarSystemMixin:AnchorSelectionFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1742)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1793)
 function EditModeCastBarSystemMixin:UpdateSystemSettingLockToPlayerFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1760)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1811)
 function EditModeCastBarSystemMixin:UpdateSystemSettingShowCastTime() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1765)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1816)
 function EditModeCastBarSystemMixin:UpdateSystemSettingBarSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1778)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1829)
 function EditModeCastBarSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1799)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1850)
 function EditModeEncounterBarSystemMixin:ApplySystemAnchor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1806)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1857)
 function EditModeExtraAbilitiesSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1815)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1866)
 function EditModeAuraFrameSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1822)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1873)
 function EditModeAuraFrameSystemMixin:AnchorSelectionFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1832)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1883)
 function EditModeAuraFrameSystemMixin:UpdateDisplayInfoOptions(displayInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1864)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1915)
 function EditModeAuraFrameSystemMixin:UpdateSystem(systemInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1869)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1920)
 function EditModeAuraFrameSystemMixin:UpdateSystemSettingOrientation(entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1924)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1975)
 function EditModeAuraFrameSystemMixin:UpdateSystemSettingIconWrap() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1942)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1993)
 function EditModeAuraFrameSystemMixin:UpdateSystemSettingIconDirection() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1960)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2011)
 function EditModeAuraFrameSystemMixin:UpdateSystemSettingIconLimit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1965)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2015)
 function EditModeAuraFrameSystemMixin:UpdateSystemSettingIconSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1970)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2020)
 function EditModeAuraFrameSystemMixin:UpdateSystemSettingIconPadding() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L1974)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2024)
+function EditModeAuraFrameSystemMixin:UpdateSystemSettingVisibleSetting() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2029)
+function EditModeAuraFrameSystemMixin:UpdateSystemSettingOpacity() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2034)
+function EditModeAuraFrameSystemMixin:UpdateSystemSettingShowDispelType() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2039)
 function EditModeAuraFrameSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2006)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2079)
 function EditModeTalkingHeadFrameSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2015)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2088)
 function EditModeChatFrameSystemMixin:UpdateSystem(systemInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2020)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2093)
 function EditModeChatFrameSystemMixin:MarkSystemPositionDirty() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2024)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2097)
 function EditModeChatFrameSystemMixin:RefreshSystemPosition() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2031)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2104)
 function EditModeChatFrameSystemMixin:OnEditModeEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2040)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2113)
 function EditModeChatFrameSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2048)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2121)
 function EditModeChatFrameSystemMixin:EditMode_OnResized() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2057)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2130)
 function EditModeChatFrameSystemMixin:UpdateSystemSettingWidth() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2074)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2147)
 function EditModeChatFrameSystemMixin:UpdateSystemSettingHeight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2091)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2164)
 function EditModeChatFrameSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2191)
 function EditModeChatFrameResizeButtonMixin:OnMouseDown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2126)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2199)
 function EditModeChatFrameResizeButtonMixin:OnMouseUp() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2210)
 function EditModeVehicleLeaveButtonSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2217)
 function EditModeVehicleLeaveButtonSystemMixin:EditModeVehicleLeaveButtonSystem_OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2148)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2221)
 function EditModeVehicleLeaveButtonSystemMixin:EditModeVehicleLeaveButtonSystem_OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2154)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2227)
 function EditModeLootFrameSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2234)
 function EditModeLootFrameSystemMixin:OnDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2239)
 function EditModeLootFrameSystemMixin:ApplySystemAnchor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2249)
 function EditModeObjectiveTrackerSystemMixin:OnEditModeEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2185)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2258)
 function EditModeObjectiveTrackerSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2266)
 function EditModeObjectiveTrackerSystemMixin:OnDragStop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2199)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2272)
 function EditModeObjectiveTrackerSystemMixin:AnchorSelectionFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2281)
 function EditModeObjectiveTrackerSystemMixin:ResetToDefaultPosition() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2286)
 function EditModeObjectiveTrackerSystemMixin:ShouldShowSetting(setting) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2225)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2298)
 function EditModeObjectiveTrackerSystemMixin:UpdateSystemSettingHeight() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2230)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2303)
 function EditModeObjectiveTrackerSystemMixin:UpdateSystemSettingOpacity() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2307)
 function EditModeObjectiveTrackerSystemMixin:UpdateSystemSettingTextSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2238)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2311)
 function EditModeObjectiveTrackerSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2330)
 function EditModeObjectiveTrackerSystemMixin:OnAnyEditModeSystemAnchorChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2338)
 function EditModeMicroMenuSystemMixin:OnEditModeEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2345)
 function EditModeMicroMenuSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2351)
 function EditModeMicroMenuSystemMixin:OnAnyEditModeSystemAnchorChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2357)
 function EditModeMicroMenuSystemMixin:OnDragStop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2363)
 function EditModeMicroMenuSystemMixin:UpdateSystem(systemInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2368)
 function EditModeMicroMenuSystemMixin:UpdateSystemSettingOrientation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2372)
 function EditModeMicroMenuSystemMixin:UpdateSystemSettingOrder() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2304)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2377)
 function EditModeMicroMenuSystemMixin:UpdateSystemSettingSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2308)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2381)
 function EditModeMicroMenuSystemMixin:UpdateSystemSettingEyeSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2312)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2385)
 function EditModeMicroMenuSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2424)
 function EditModeBagsSystemMixin:UpdateSystem(systemInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2429)
 function EditModeBagsSystemMixin:UpdateDisplayInfoOptions(displayInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2443)
 function EditModeBagsSystemMixin:UpdateSystemSettingOrientation(entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2383)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2456)
 function EditModeBagsSystemMixin:UpdateSystemSettingDirection() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2460)
 function EditModeBagsSystemMixin:UpdateSystemSettingSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2391)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2464)
 function EditModeBagsSystemMixin:UpdateSystemSettingBagSlotPadding() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2395)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2468)
 function EditModeBagsSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2495)
 function EditModeStatusTrackingBarSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2429)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2502)
 function EditModeStatusTrackingBarSystemMixin:OnSystemPositionChange() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2508)
 function EditModeStatusTrackingBarSystemMixin:ApplySystemAnchor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2514)
+function EditModeStatusTrackingBarSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2531)
 function EditModeStatusTrackingBar1SystemMixin:OnEditModeEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2450)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2538)
 function EditModeStatusTrackingBar1SystemMixin:GetSystemName() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2465)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2553)
 function EditModeDurabilityFrameSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2472)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2560)
 function EditModeDurabilityFrameSystemMixin:UpdateSystemSettingSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2476)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2564)
 function EditModeDurabilityFrameSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2505)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2593)
 function EditModePlayerFrameSystemMixin:ApplySystemAnchor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2512)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2600)
 function EditModePlayerFrameSystemMixin:UpdateSystemSettingFrameSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2522)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2610)
 function EditModePetFrameSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2529)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2617)
 function EditModePetFrameSystemMixin:UpdateSystemSettingFrameSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2535)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2623)
 function EditModeTimerBarsSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2541)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2629)
 function EditModeTimerBarsSystemMixin:UpdateSystemSettingSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2545)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2633)
 function EditModeTimerBarsSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2562)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2650)
 function EditModeVehicleSeatIndicatorSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2568)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2656)
 function EditModeVehicleSeatIndicatorSystemMixin:UpdateSystemSettingSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2572)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2660)
 function EditModeVehicleSeatIndicatorSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2589)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2677)
+function EditModeTotemActionBarSystemMixin:OnEditModeExit() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2683)
+function EditModeTotemActionBarSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2696)
 function EditModeArchaeologyBarSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2595)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2702)
 function EditModeArchaeologyBarSystemMixin:UpdateSystemSettingSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2599)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2706)
 function EditModeArchaeologyBarSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2616)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2723)
 function EditModeCooldownViewerSystemMixin:OnEditModeExit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2622)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2729)
 function EditModeCooldownViewerSystemMixin:ShouldShowSetting(setting) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2659)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2766)
 function EditModeCooldownViewerSystemMixin:UpdateDisplayInfoOptions(displayInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2677)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2784)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingOrientation() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2681)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2788)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingIconLimit() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2685)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2792)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingIconDirection() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2689)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2796)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingIconSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2694)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2801)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingIconPadding() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2698)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2805)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingOpacity() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2703)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2810)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingVisibleSetting() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2708)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2815)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingBarContent() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2714)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2819)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingHideWhenInactive() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2718)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2823)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingShowTimer() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2722)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2827)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSettingShowTooltips() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2726)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2831)
+function EditModeCooldownViewerSystemMixin:UpdateSystemSettingBarWidthScale() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2835)
 function EditModeCooldownViewerSystemMixin:UseSettingAltName(setting) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2734)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2843)
 function EditModeCooldownViewerSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2772)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2885)
 function EditModeCooldownViewerSystemMixin:OnUpdateSystem(anySettingsDirty) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2780)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2893)
 function EditModeCooldownViewerSystemMixin:AddExtraButtons(extraButtonPool) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2819)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2919)
+function EditModeEncounterEventsSystemMixin:OnEditModeExit() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2991)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingViewType() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2995)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingOrientation() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2999)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingIconDirection() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3003)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingIconSize() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3007)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingOverallSize() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3011)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingPadding() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3015)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingBarWidth() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3019)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingBackgroundTransparency() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3023)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingTransparency() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3027)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingVisibility() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3031)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingTooltipAnchor() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3035)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingFlipHorizontally() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3039)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingShowSpellName() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3043)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSettingShowTimer() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3047)
+function EditModeEncounterEventsSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3090)
+function EditModeEncounterEventsSystemMixin:OpenToBossWarningSettingsCategory() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3095)
+function EditModeEncounterEventsSystemMixin:AddExtraButtons(extraButtonPool) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3122)
 function EditModeSystemSelectionBaseMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2832)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3135)
 function EditModeSystemSelectionBaseMixin:SetSystem(system) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2836)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3139)
 function EditModeSystemSelectionBaseMixin:ShowHighlighted() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2846)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3149)
 function EditModeSystemSelectionBaseMixin:ShowSelected() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2857)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3160)
 function EditModeSystemSelectionBaseMixin:IsSelected() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2861)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3164)
 function EditModeSystemSelectionBaseMixin:ShouldShowLabelText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2865)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3168)
 function EditModeSystemSelectionBaseMixin:OnDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2869)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3172)
 function EditModeSystemSelectionBaseMixin:OnDragStop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2873)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3176)
 function EditModeSystemSelectionBaseMixin:OnMouseDown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2877)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3180)
 function EditModeSystemSelectionBaseMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2882)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3185)
 function EditModeSystemSelectionBaseMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2887)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3190)
 function EditModeSystemSelectionBaseMixin:ShowEditInstructions(shown) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2894)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3197)
 function EditModeSystemSelectionBaseMixin:IsShowingEditInstructions() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2898)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3201)
 function EditModeSystemSelectionBaseMixin:CheckShowInstructionalTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2909)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3212)
 function EditModeSystemSelectionBaseMixin:HideInstructionalTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2914)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3217)
 function EditModeSystemSelectionBaseMixin:GetLabelText() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2924)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3227)
 function EditModeSystemSelectionMixin:UpdateLabelVisibility() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2931)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3234)
 function EditModeSystemSelectionDoubleLabelMixin:SetVerticalState(vertical) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L2936)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3239)
 function EditModeSystemSelectionDoubleLabelMixin:UpdateLabelVisibility() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3251)
+function EditModePersonalResourceDisplaySystemMixin:OnEditModeExit() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3256)
+function EditModePersonalResourceDisplaySystemMixin:UpdateDisplayInfoOptions(displayInfo) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3276)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHideHealth() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3281)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHidePower() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3286)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHideAltPower() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3291)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHideClassInfo() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3296)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHideClassInfoOnPlayerFrame() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3301)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingVisibleSetting() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3306)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingHealthBarHeight() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3311)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingPowerBarHeight() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3316)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingPadding() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3321)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingOpacity() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3326)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingSize() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3331)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingShowClassColor() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3336)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingBarWidth() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3341)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSettingShowBarText() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3346)
+function EditModePersonalResourceDisplaySystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3388)
+function EditModeDamageMeterSystemMixin:OnSystemLoad() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3417)
+function EditModeDamageMeterSystemMixin:OnEditModeEnter() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3425)
+function EditModeDamageMeterSystemMixin:OnEditModeExit() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3435)
+function EditModeDamageMeterSystemMixin:ShouldShowSetting(setting) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3452)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingVisibility() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3457)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingStyle() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3462)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingNumberDisplayType() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3467)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingFrameWidth() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3472)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingFrameHeight() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3477)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingBarHeight() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3482)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingPadding() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3487)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingTransparency() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3492)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingShowSpecIcon() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3497)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingShowClassColor() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3502)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingTextSize() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3507)
+function EditModeDamageMeterSystemMixin:UpdateSystemSettingBackgroundTransparency() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3512)
+function EditModeDamageMeterSystemMixin:UpdateSystemSetting(setting, entireSystemUpdate) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.lua#L3554)
+function EditModeDamageMeterSystemMixin:OnUpdateSystem(anySettingsDirty) end

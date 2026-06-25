@@ -35,7 +35,7 @@
 --- @field MainMenuBarTextures table<number, Texture>
 --- @field StandaloneTextures table<number, Texture>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StatusTrackingBar.xml#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StatusTrackingBar.xml#L155)
 --- child of StatusTrackingBarManager
 --- @class MainStatusTrackingBarContainer : Frame, StatusTrackingBarContainerTemplate, EditModeStatusTrackingBar1SystemTemplate, EditModeStatusTrackingBarContainerMixin
 MainStatusTrackingBarContainer = {}
@@ -44,7 +44,7 @@ MainStatusTrackingBarContainer["systemNameString"] = HUD_EDIT_MODE_STATUS_TRACKI
 MainStatusTrackingBarContainer["addSystemIndexToName"] = true -- inherited
 MainStatusTrackingBarContainer["system"] = Enum.EditModeSystem.StatusTrackingBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StatusTrackingBar.xml#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StatusTrackingBar.xml#L163)
 --- child of StatusTrackingBarManager
 --- @class SecondaryStatusTrackingBarContainer : Frame, StatusTrackingBarContainerTemplate, EditModeStatusTrackingBar2SystemTemplate, EditModeStatusTrackingBarContainerMixin
 SecondaryStatusTrackingBarContainer = {}
@@ -56,10 +56,14 @@ SecondaryStatusTrackingBarContainer["system"] = Enum.EditModeSystem.StatusTracki
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_ActionBar/Classic/StatusTrackingBar.xml#L144)
 --- @class StatusTrackingBarManager : Frame, StatusTrackingManagerMixin
+--- @field ClassicScale number # 1
+--- @field WrathScale number # 1.015
 --- @field MainStatusTrackingBarContainer MainStatusTrackingBarContainer
 --- @field SecondaryStatusTrackingBarContainer SecondaryStatusTrackingBarContainer
 --- @field barContainers table<number, MainStatusTrackingBarContainer | SecondaryStatusTrackingBarContainer>
 StatusTrackingBarManager = {}
 StatusTrackingBarManager["MainStatusTrackingBarContainer"] = MainStatusTrackingBarContainer
 StatusTrackingBarManager["SecondaryStatusTrackingBarContainer"] = SecondaryStatusTrackingBarContainer
+StatusTrackingBarManager["ClassicScale"] = 1
+StatusTrackingBarManager["WrathScale"] = 1.015
 

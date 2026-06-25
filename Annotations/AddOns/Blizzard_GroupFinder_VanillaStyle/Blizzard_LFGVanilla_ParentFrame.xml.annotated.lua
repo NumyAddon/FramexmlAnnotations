@@ -91,7 +91,7 @@ LFGParentFrameTab2 = {}
 --- @class LFGParentFramePortraitIcon : Texture
 LFGParentFramePortraitIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L8)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era_ptr/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_ParentFrame.xml#L9)
 --- child of LFGParentFramePortrait (created in template LFGEyeTemplate)
 --- @type Texture
 LFGParentFramePortraitTexture = {}

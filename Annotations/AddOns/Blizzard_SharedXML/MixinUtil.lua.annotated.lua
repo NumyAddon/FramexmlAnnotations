@@ -20,6 +20,10 @@ TextureLoadingGroupMixin = {}
 --- @class DirtiableMixin
 DirtiableMixin = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L357)
+--- @class DirtyPhaseMixin
+DirtyPhaseMixin = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L76)
 function LineMixin:SetStartPoint(x, y) end
 
@@ -85,3 +89,27 @@ function DirtiableMixin:SetDirtyMethod(method) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L346)
 function DirtiableMixin:MarkDirty() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L359)
+function DirtyPhaseMixin:InitDirtyPhases() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L365)
+function DirtyPhaseMixin:OnDirtyChanged(_dirty) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L369)
+function DirtyPhaseMixin:SetDirtyPhases(phases) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L380)
+function DirtyPhaseMixin:IsDirty(mask) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L388)
+function DirtyPhaseMixin:UpdateDirtyState() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L397)
+function DirtyPhaseMixin:MarkDirty(mask) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L405)
+function DirtyPhaseMixin:MarkClean(mask) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/MixinUtil.lua#L413)
+function DirtyPhaseMixin:ProcessDirtyFlags() end

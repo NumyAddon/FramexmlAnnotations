@@ -73,31 +73,19 @@
 --- @field Text HousingCategoryBackButtonTemplate_Text
 --- @field HoverIcon HousingCategoryBackButtonTemplate_HoverIcon
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L163)
---- child of HousingCatalogCategoriesTemplate
---- @class HousingCatalogCategoriesTemplate_BackButton : Button, HousingCategoryBackButtonTemplate
---- @field layoutIndex number # 1
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L168)
---- child of HousingCatalogCategoriesTemplate
---- @class HousingCatalogCategoriesTemplate_AllSubcategoriesStandIn : Button, BaseHousingCatalogSubcategoryTemplate
---- @field layoutIndex number # 3
---- @field iconName string # category-icons_all_active
---- @field enabledTooltip any # HOUSING_CATALOG_CATEGORIES_ALL
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L132)
---- child of HousingCatalogCategoriesTemplate
---- @class HousingCatalogCategoriesTemplate_Background : Texture
+--- child of HousingCatalogCategoriesVisualsTemplate
+--- @class HousingCatalogCategoriesVisualsTemplate_Background : Texture
 --- @field ignoreInLayout boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L139)
---- child of HousingCatalogCategoriesTemplate
---- @class HousingCatalogCategoriesTemplate_TopBorder : Texture
+--- child of HousingCatalogCategoriesVisualsTemplate
+--- @class HousingCatalogCategoriesVisualsTemplate_TopBorder : Texture
 --- @field ignoreInLayout boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L151)
---- child of HousingCatalogCategoriesTemplate
---- @class HousingCatalogCategoriesTemplate_SubcategoriesDivider : Texture
+--- child of HousingCatalogCategoriesVisualsTemplate
+--- @class HousingCatalogCategoriesVisualsTemplate_SubcategoriesDivider : Texture
 --- @field layoutIndex number # 2
 --- @field topPadding number # -30
 --- @field bottomPadding number # 15
@@ -105,16 +93,32 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L121)
 --- Template
---- @class HousingCatalogCategoriesTemplate : Frame, VerticalLayoutFrame, HousingCatalogCategoriesMixin
+--- @class HousingCatalogCategoriesVisualsTemplate : Frame, VerticalLayoutFrame
 --- @field fixedWidth number # 75
 --- @field categoryButtonSize number # 64
 --- @field subcategoryButtonSize number # 54
 --- @field topPadding number # 6
 --- @field backgroundCategories string # house-chest-nav-bg_primary
 --- @field backgroundSubcategories string # house-chest-nav-bg_secondary
+--- @field Background HousingCatalogCategoriesVisualsTemplate_Background
+--- @field TopBorder HousingCatalogCategoriesVisualsTemplate_TopBorder
+--- @field SubcategoriesDivider HousingCatalogCategoriesVisualsTemplate_SubcategoriesDivider
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L166)
+--- child of HousingCatalogCategoriesTemplate
+--- @class HousingCatalogCategoriesTemplate_BackButton : Button, HousingCategoryBackButtonTemplate
+--- @field layoutIndex number # 1
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L171)
+--- child of HousingCatalogCategoriesTemplate
+--- @class HousingCatalogCategoriesTemplate_AllSubcategoriesStandIn : Button, BaseHousingCatalogSubcategoryTemplate
+--- @field layoutIndex number # 3
+--- @field iconName string # category-icons_all_active
+--- @field enabledTooltip any # HOUSING_CATALOG_CATEGORIES_ALL
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingCatalogCategories.xml#L164)
+--- Template
+--- @class HousingCatalogCategoriesTemplate : Frame, HousingCatalogCategoriesVisualsTemplate, HousingCatalogCategoriesMixin
 --- @field BackButton HousingCatalogCategoriesTemplate_BackButton
 --- @field AllSubcategoriesStandIn HousingCatalogCategoriesTemplate_AllSubcategoriesStandIn
---- @field Background HousingCatalogCategoriesTemplate_Background
---- @field TopBorder HousingCatalogCategoriesTemplate_TopBorder
---- @field SubcategoriesDivider HousingCatalogCategoriesTemplate_SubcategoriesDivider
 

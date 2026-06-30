@@ -324,7 +324,7 @@ GuildControlUIRankDiscordFrameChannelButton["fitTextWidthPadding"] = 40 -- inher
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L574)
 --- child of GuildControlUIRankDiscordFrame
---- @class GuildControlUIRankDiscordFrame_serverError : FontString, GameFontNormal
+--- @class GuildControlUIRankDiscordFrame_noChannelsError : FontString, GameFontNormal
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_GuildControlUI/Blizzard_GuildControlUI.xml#L542)
 --- child of GuildControlUI
@@ -333,7 +333,7 @@ GuildControlUIRankDiscordFrameChannelButton["fitTextWidthPadding"] = 40 -- inher
 --- @field channelDropdown GuildControlUIRankDiscordFrameChannelDropdown
 --- @field channelButton GuildControlUIRankDiscordFrameChannelButton
 --- @field channelListTitle GuildControlUIRankDiscordFrame_channelListTitle
---- @field serverError GuildControlUIRankDiscordFrame_serverError
+--- @field noChannelsError GuildControlUIRankDiscordFrame_noChannelsError
 GuildControlUIRankDiscordFrame = {}
 GuildControlUIRankDiscordFrame["serverDropdown"] = GuildControlUIRankDiscordFrameServerDropdown
 GuildControlUIRankDiscordFrame["channelDropdown"] = GuildControlUIRankDiscordFrameChannelDropdown

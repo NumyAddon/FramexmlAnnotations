@@ -45,12 +45,13 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L132)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_BlueprintCollection : Frame, HousingBlueprintCollectionTemplate
+--- @field showReset boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L142)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_LoadingSpinner : Frame, SpinnerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L149)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_TabSystem : Frame, TabSystemTemplate
 --- @field minTabWidth number # 100
@@ -58,13 +59,13 @@
 --- @field tabSelectSound any # SOUNDKIT.UI_CLASS_TALENT_TAB
 --- @field tabTemplate string # HouseEditorStorageTabTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L158)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L161)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_CollapseButton : Button
 --- @field Icon Texture
 --- @field OverlayIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L175)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_ResizeButton : Button, PanelResizeButtonMixin
 

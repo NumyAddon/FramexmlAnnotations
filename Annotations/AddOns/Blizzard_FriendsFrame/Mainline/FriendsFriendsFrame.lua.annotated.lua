@@ -8,7 +8,7 @@ FriendsFriendsFrameMixin = CreateFromMixins(SocialUIScrollableElementExtentPrevi
 --- @class FriendsFriendsButtonMixin
 FriendsFriendsButtonMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFriendsFrame.lua#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFriendsFrame.lua#L278)
 --- @class FriendsFriendsWaitFrameMixin
 FriendsFriendsWaitFrameMixin = {}
 
@@ -60,5 +60,5 @@ function FriendsFriendsFrameMixin:Close() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFriendsFrame.lua#L253)
 function FriendsFriendsFrameMixin:Open(bnetIDAccount) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFriendsFrame.lua#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsFriendsFrame.lua#L280)
 function FriendsFriendsWaitFrameMixin:OnShow() end

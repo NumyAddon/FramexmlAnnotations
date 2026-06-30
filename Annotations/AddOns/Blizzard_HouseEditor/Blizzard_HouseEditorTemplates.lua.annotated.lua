@@ -20,11 +20,11 @@ HouseEditorBudgetCountMixin = {}
 --- @class HouseEditorDecorCountMixin
 HouseEditorDecorCountMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L329)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L328)
 --- @class HouseEditorPetCountMixin
 HouseEditorPetCountMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L350)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L351)
 --- @class HouseEditorRoomCountMixin
 HouseEditorRoomCountMixin = {}
 
@@ -148,14 +148,14 @@ function HouseEditorDecorCountMixin:OnShow() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L317)
 function HouseEditorDecorCountMixin:UpdateCount() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L331)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L330)
 function HouseEditorPetCountMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L336)
-function HouseEditorPetCountMixin:UpdateCount() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L335)
+function HouseEditorPetCountMixin:UpdateCount(event) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L352)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L353)
 function HouseEditorRoomCountMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L357)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorTemplates.lua#L358)
 function HouseEditorRoomCountMixin:UpdateCount() end

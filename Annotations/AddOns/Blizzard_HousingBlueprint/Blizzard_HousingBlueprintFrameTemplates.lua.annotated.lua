@@ -28,11 +28,14 @@ function HousingBlueprintBaseFrameMixin:GetNonPanelAnchor() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L40)
 function HousingBlueprintBaseFrameMixin:ShowSelf() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L67)
 function HousingBlueprintBaseFrameMixin:HideSelf() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L82)
 function HousingBlueprintBaseFrameMixin:SetFullInputBlockerEnabled(enabled) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L95)
 function HousingBlueprintBaseFrameMixin:TryHandleEscape() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintFrameTemplates.lua#L99)
+function HousingBlueprintBaseFrameMixin:TryHandleCloseInput() end

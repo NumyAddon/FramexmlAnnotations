@@ -8,6 +8,10 @@ AnchorMixin = {}
 --- @class GridLayoutMixin
 GridLayoutMixin = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L473)
+--- @class FlowLayoutDescriptionMixin
+FlowLayoutDescriptionMixin = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L4)
 function AnchorMixin:Init(point, relativeTo, relativePoint, x, y) end
 
@@ -43,3 +47,27 @@ function GridLayoutMixin:SetCustomOffsetFunction(func) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L101)
 function GridLayoutMixin:GetCustomOffset(row, col) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L476)
+function FlowLayoutDescriptionMixin:GetAnchorPoint(_container) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L482)
+function FlowLayoutDescriptionMixin:GetHorizontalGrowthDirection(_container) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L488)
+function FlowLayoutDescriptionMixin:GetVerticalGrowthDirection(_container) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L494)
+function FlowLayoutDescriptionMixin:GetPadding(_container) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L502)
+function FlowLayoutDescriptionMixin:GetRowWidth(_container, _rowIndex) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L508)
+function FlowLayoutDescriptionMixin:GetElementSize(_container, element) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L515)
+function FlowLayoutDescriptionMixin:ApplyElementLayout(container, element, anchorPoint, offsetX, offsetY, _width, _height) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L525)
+function FlowLayoutDescriptionMixin:OnLayoutComplete(container, width, height, _hasPlacedElement, _rowCount) end

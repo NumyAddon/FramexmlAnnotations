@@ -207,7 +207,7 @@ local SpellFlyoutOpenReason = {
     ["GlyphActivated"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L205)
 --- @enum AuraUtil.AuraUpdateChangedType
 local AuraUtil_AuraUpdateChangedType = {
     ["None"] = 1,
@@ -216,7 +216,7 @@ local AuraUtil_AuraUpdateChangedType = {
     ["Dispel"] = 4,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L212)
 --- @enum AuraUtil.UnitFrameDebuffType
 local AuraUtil_UnitFrameDebuffType = {
     ["BossDebuff"] = 1,

@@ -4,11 +4,11 @@
 --- @class HousingMarketProductDisplayMixin
 HousingMarketProductDisplayMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L117)
 --- @class HousingMarketSmallProductDisplayMixin
 HousingMarketSmallProductDisplayMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L230)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L197)
 --- @class HousingMarketBundleDisplayMixin
 HousingMarketBundleDisplayMixin = {}
 
@@ -40,46 +40,37 @@ function HousingMarketProductDisplayMixin:AddTooltipLines(tooltip) end
 function HousingMarketProductDisplayMixin:AddTooltipPrice(tooltip) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L65)
-function HousingMarketProductDisplayMixin:GetCartItemData() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L71)
 function HousingMarketProductDisplayMixin:ShowContextMenu() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L106)
 function HousingMarketProductDisplayMixin:CanAddToCart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L113)
 function HousingMarketProductDisplayMixin:StartPreview() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L132)
 function HousingMarketSmallProductDisplayMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L138)
 function HousingMarketSmallProductDisplayMixin:Init(elementData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L160)
 function HousingMarketSmallProductDisplayMixin:OnDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L166)
 function HousingMarketSmallProductDisplayMixin:AddTooltipTitle(tooltip) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L183)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L178)
 function HousingMarketSmallProductDisplayMixin:AddTooltipLines(tooltip) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L188)
 function HousingMarketSmallProductDisplayMixin:StartPreview() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L202)
-function HousingMarketSmallProductDisplayMixin:GetCartItemData() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L232)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L199)
 function HousingMarketBundleDisplayMixin:AddTooltipLines(tooltip) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L223)
 function HousingMarketBundleDisplayMixin:StartPreview() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L264)
-function HousingMarketBundleDisplayMixin:GetCartItemData() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_HousingTemplates/Blizzard_HousingMarketProductDisplay.lua#L231)
 function HousingMarketBundleDisplayMixin:CanAddToCart() end

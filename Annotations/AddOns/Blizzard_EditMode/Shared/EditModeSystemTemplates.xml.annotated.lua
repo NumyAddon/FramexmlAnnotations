@@ -249,3 +249,39 @@
 --- @field defaultHideSelection boolean # true
 --- @field Selection EditModeSystemSelectionTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L352)
+--- Template
+--- @class EditModePersonalResourceDisplaySystemTemplate : Frame, EditModeSystemTemplate, EditModePersonalResourceDisplaySystemMixin
+--- @field system any # Enum.EditModeSystem.PersonalResourceDisplay
+--- @field systemNameString any # HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_LABEL
+--- @field defaultHideSelection boolean # true
+--- @field Selection EditModeSystemSelectionTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L363)
+--- Template
+--- @class EditModeEncounterEventsSystemTemplate : Frame, EditModeSystemTemplate, EditModeEncounterEventsSystemMixin
+--- @field system any # Enum.EditModeSystem.EncounterEvents
+--- @field defaultHideSelection boolean # true
+--- @field Selection EditModeSystemSelectionTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L381)
+--- child of EditModeDamageMeterSystemTemplate
+--- @class EditModeDamageMeterSystemTemplate_EditModeResizeButton : Button
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L373)
+--- Template
+--- @class EditModeDamageMeterSystemTemplate : Frame, EditModeSystemTemplate, EditModeDamageMeterSystemMixin
+--- @field system any # Enum.EditModeSystem.DamageMeter
+--- @field systemNameString any # HUD_EDIT_MODE_DAMAGE_METER_LABEL
+--- @field defaultHideSelection boolean # true
+--- @field Selection EditModeSystemSelectionTemplate
+--- @field EditModeResizeButton EditModeDamageMeterSystemTemplate_EditModeResizeButton
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeSystemTemplates.xml#L393)
+--- Template
+--- @class EditModeTotemActionBarSystemTemplate : Frame, EditModeSystemTemplate, EditModeTotemActionBarSystemMixin
+--- @field system any # Enum.EditModeSystem.TotemActionBar
+--- @field systemNameString any # HUD_EDIT_MODE_TOTEM_ACTION_BAR_LABEL
+--- @field defaultHideSelection boolean # true
+--- @field Selection EditModeSystemSelectionTemplate
+

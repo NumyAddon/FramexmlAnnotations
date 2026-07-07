@@ -4,7 +4,7 @@
 --- Explicitly protected
 --- Template
 --- Adds itself to the parent inside the array `memberUnitFrames`
---- @class CompactRaidGroupUnitFrameTemplate : Button, CompactUnitFrameTemplate
+--- @class CompactRaidGroupUnitFrameTemplate : Button, CompactUnitFrameTemplate, ContainerPrivateAuraBehaviorMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactRaidGroup.xml#L18)
 --- Explicitly protected
@@ -34,6 +34,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactRaidGroup.xml#L61)
 --- child of CompactRaidGroupTemplate
 --- @class CompactRaidGroupTemplate_BorderFrame : Frame
+--- @field Background Texture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactRaidGroup.xml#L6)
 --- Implicitly protected

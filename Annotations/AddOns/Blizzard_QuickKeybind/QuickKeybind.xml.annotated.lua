@@ -226,6 +226,7 @@ QuickKeybindTooltip["TextRight2"] = QuickKeybindTooltipTextRight2 -- inherited
 --- @class QuickKeybindFrameTemplate_OutputText : FontString, GameFontWhite
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L20)
+--- Explicitly protected
 --- Template
 --- @class QuickKeybindFrameTemplate : Button, QuickKeybindFrameMixin
 --- @field BG QuickKeybindFrameTemplate_BG
@@ -239,6 +240,7 @@ QuickKeybindTooltip["TextRight2"] = QuickKeybindTooltipTextRight2 -- inherited
 --- @field OutputText QuickKeybindFrameTemplate_OutputText
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_QuickKeybind/QuickKeybind.xml#L89)
+--- Explicitly protected
 --- @class QuickKeybindFrame : Button, QuickKeybindFrameTemplate
 QuickKeybindFrame = {}
 

@@ -1,34 +1,43 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L32)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L4)
+--- Template
+--- @class CooldownViewerBaseItemTemplate : Frame
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L12)
+--- Template
+--- @class CooldownViewerItemDebuffBorderTemplate : Frame, CooldownViewerItemDebuffBorderMixin
+--- @field Texture Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L48)
 --- child of CooldownViewerEssentialItemTemplate
 --- @class CooldownViewerEssentialItemTemplate_Cooldown : Cooldown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L41)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L57)
 --- child of CooldownViewerEssentialItemTemplate_ChargeCount
 --- @class CooldownViewerEssentialItemTemplate_ChargeCount_Current : FontString, NumberFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L38)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L54)
 --- child of CooldownViewerEssentialItemTemplate
 --- @class CooldownViewerEssentialItemTemplate_ChargeCount : Frame
 --- @field Current CooldownViewerEssentialItemTemplate_ChargeCount_Current
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L76)
 --- child of CooldownViewerEssentialItemTemplate_CooldownFlash
 --- @class CooldownViewerEssentialItemTemplate_CooldownFlash_FlashAnim : AnimationGroup
 --- @field HideAnim Alpha
 --- @field ShowAnim Alpha
 --- @field PlayAnim FlipBook
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L49)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L65)
 --- child of CooldownViewerEssentialItemTemplate
 --- @class CooldownViewerEssentialItemTemplate_CooldownFlash : Frame
 --- @field Flipbook Texture
 --- @field FlashAnim CooldownViewerEssentialItemTemplate_CooldownFlash_FlashAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L20)
 --- Template
---- @class CooldownViewerEssentialItemTemplate : Frame, CooldownViewerEssentialItemMixin
+--- @class CooldownViewerEssentialItemTemplate : Frame, CooldownViewerBaseItemTemplate, CooldownViewerEssentialItemMixin
 --- @field cooldownFont string # GameFontHighlightHugeOutline
 --- @field includeAsLayoutChildWhenHidden boolean # true
 --- @field Cooldown CooldownViewerEssentialItemTemplate_Cooldown
@@ -37,35 +46,35 @@
 --- @field Icon Texture
 --- @field OutOfRange Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L114)
 --- child of CooldownViewerUtilityItemTemplate
 --- @class CooldownViewerUtilityItemTemplate_Cooldown : Cooldown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L123)
 --- child of CooldownViewerUtilityItemTemplate_ChargeCount
 --- @class CooldownViewerUtilityItemTemplate_ChargeCount_Current : FontString, NumberFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L109)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L120)
 --- child of CooldownViewerUtilityItemTemplate
 --- @class CooldownViewerUtilityItemTemplate_ChargeCount : Frame
 --- @field Current CooldownViewerUtilityItemTemplate_ChargeCount_Current
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L131)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L142)
 --- child of CooldownViewerUtilityItemTemplate_CooldownFlash
 --- @class CooldownViewerUtilityItemTemplate_CooldownFlash_FlashAnim : AnimationGroup
 --- @field HideAnim Alpha
 --- @field ShowAnim Alpha
 --- @field PlayAnim FlipBook
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L131)
 --- child of CooldownViewerUtilityItemTemplate
 --- @class CooldownViewerUtilityItemTemplate_CooldownFlash : Frame
 --- @field Flipbook Texture
 --- @field FlashAnim CooldownViewerUtilityItemTemplate_CooldownFlash_FlashAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L75)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L86)
 --- Template
---- @class CooldownViewerUtilityItemTemplate : Frame, CooldownViewerUtilityItemMixin
+--- @class CooldownViewerUtilityItemTemplate : Frame, CooldownViewerBaseItemTemplate, CooldownViewerUtilityItemMixin
 --- @field cooldownFont string # GameFontHighlightOutline
 --- @field includeAsLayoutChildWhenHidden boolean # true
 --- @field Cooldown CooldownViewerUtilityItemTemplate_Cooldown
@@ -74,63 +83,78 @@
 --- @field Icon Texture
 --- @field OutOfRange Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L171)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L177)
 --- child of CooldownViewerBuffIconItemTemplate
 --- @class CooldownViewerBuffIconItemTemplate_Cooldown : Cooldown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L180)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L183)
+--- child of CooldownViewerBuffIconItemTemplate
+--- @class CooldownViewerBuffIconItemTemplate_DebuffBorder : Frame, CooldownViewerItemDebuffBorderTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L192)
 --- child of CooldownViewerBuffIconItemTemplate_Applications
 --- @class CooldownViewerBuffIconItemTemplate_Applications_Applications : FontString, NumberFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L177)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L189)
 --- child of CooldownViewerBuffIconItemTemplate
 --- @class CooldownViewerBuffIconItemTemplate_Applications : Frame
 --- @field Applications CooldownViewerBuffIconItemTemplate_Applications_Applications
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L152)
 --- Template
---- @class CooldownViewerBuffIconItemTemplate : Frame, CooldownViewerBuffIconItemMixin
+--- @class CooldownViewerBuffIconItemTemplate : Frame, CooldownViewerBaseItemTemplate, CooldownViewerBuffIconItemMixin
 --- @field allowHideWhenInactive boolean # true
 --- @field includeAsLayoutChildWhenHidden boolean # true
 --- @field Cooldown CooldownViewerBuffIconItemTemplate_Cooldown
+--- @field DebuffBorder CooldownViewerBuffIconItemTemplate_DebuffBorder
 --- @field Applications CooldownViewerBuffIconItemTemplate_Applications
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L224)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L231)
 --- child of CooldownViewerBuffBarItemTemplate_Icon
 --- @class CooldownViewerBuffBarItemTemplate_Icon_Applications : FontString, NumberFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L203)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L210)
 --- child of CooldownViewerBuffBarItemTemplate
 --- @class CooldownViewerBuffBarItemTemplate_Icon : Frame
 --- @field Icon Texture
 --- @field Applications CooldownViewerBuffBarItemTemplate_Icon_Applications
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L254)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L240)
+--- child of CooldownViewerBuffBarItemTemplate
+--- @class CooldownViewerBuffBarItemTemplate_DebuffBorder : Frame, CooldownViewerItemDebuffBorderTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L266)
 --- child of CooldownViewerBuffBarItemTemplate_Bar
 --- @class CooldownViewerBuffBarItemTemplate_Bar_Name : FontString, NumberFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L272)
 --- child of CooldownViewerBuffBarItemTemplate_Bar
 --- @class CooldownViewerBuffBarItemTemplate_Bar_Duration : FontString, NumberFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L246)
 --- child of CooldownViewerBuffBarItemTemplate
 --- @class CooldownViewerBuffBarItemTemplate_Bar : StatusBar
+--- @field BarBG Texture
 --- @field Pip Texture
 --- @field Name CooldownViewerBuffBarItemTemplate_Bar_Name
 --- @field Duration CooldownViewerBuffBarItemTemplate_Bar_Duration
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L196)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L203)
 --- Template
---- @class CooldownViewerBuffBarItemTemplate : Frame, CooldownViewerBuffBarItemMixin
+--- @class CooldownViewerBuffBarItemTemplate : Frame, CooldownViewerBaseItemTemplate, CooldownViewerBuffBarItemMixin
 --- @field allowHideWhenInactive boolean # true
 --- @field includeAsLayoutChildWhenHidden boolean # true
 --- @field Icon CooldownViewerBuffBarItemTemplate_Icon
+--- @field DebuffBorder CooldownViewerBuffBarItemTemplate_DebuffBorder
 --- @field Bar CooldownViewerBuffBarItemTemplate_Bar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L276)
---- @class EssentialCooldownViewer : Frame, UIParentBottomManagedFrameTemplate, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, EssentialCooldownViewerMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L283)
+--- Template
+--- @class CooldownViewerTemplate : Frame, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, CooldownViewerMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L293)
+--- @class EssentialCooldownViewer : Frame, CooldownViewerTemplate, UIParentBottomManagedFrameTemplate, EssentialCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.Essential
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_ESSENTIAL_COOLDOWNS
 --- @field itemTemplate string # CooldownViewerEssentialItemTemplate
@@ -144,16 +168,16 @@ EssentialCooldownViewer["itemTemplate"] = "CooldownViewerEssentialItemTemplate"
 EssentialCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.Essential
 EssentialCooldownViewer["layoutIndex"] = 10
 EssentialCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
+EssentialCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
+EssentialCooldownViewer["defaultHideSelection"] = true -- inherited
 EssentialCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 EssentialCooldownViewer["align"] = "center" -- inherited
 EssentialCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 EssentialCooldownViewer["isBottomManagedFrame"] = true -- inherited
 EssentialCooldownViewer["isManagedFrame"] = true -- inherited
-EssentialCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
-EssentialCooldownViewer["defaultHideSelection"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L293)
---- @class UtilityCooldownViewer : Frame, UIParentBottomManagedFrameTemplate, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, UtilityCooldownViewerMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L304)
+--- @class UtilityCooldownViewer : Frame, CooldownViewerTemplate, UIParentBottomManagedFrameTemplate, UtilityCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.Utility
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_UTILITY_COOLDOWNS
 --- @field itemTemplate string # CooldownViewerUtilityItemTemplate
@@ -167,16 +191,16 @@ UtilityCooldownViewer["itemTemplate"] = "CooldownViewerUtilityItemTemplate"
 UtilityCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.Utility
 UtilityCooldownViewer["layoutIndex"] = 11
 UtilityCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
+UtilityCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
+UtilityCooldownViewer["defaultHideSelection"] = true -- inherited
 UtilityCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 UtilityCooldownViewer["align"] = "center" -- inherited
 UtilityCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 UtilityCooldownViewer["isBottomManagedFrame"] = true -- inherited
 UtilityCooldownViewer["isManagedFrame"] = true -- inherited
-UtilityCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
-UtilityCooldownViewer["defaultHideSelection"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L310)
---- @class BuffIconCooldownViewer : Frame, UIParentBottomManagedFrameTemplate, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, BuffIconCooldownViewerMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L315)
+--- @class BuffIconCooldownViewer : Frame, CooldownViewerTemplate, UIParentBottomManagedFrameTemplate, BuffIconCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.BuffIcon
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_TRACKED_BUFFS
 --- @field itemTemplate string # CooldownViewerBuffIconItemTemplate
@@ -190,16 +214,16 @@ BuffIconCooldownViewer["itemTemplate"] = "CooldownViewerBuffIconItemTemplate"
 BuffIconCooldownViewer["cooldownViewerCategory"] = Enum.CooldownViewerCategory.TrackedBuff
 BuffIconCooldownViewer["layoutIndex"] = 9
 BuffIconCooldownViewer["ignoreInLayoutWhenActionBarIsOverriden"] = true
+BuffIconCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
+BuffIconCooldownViewer["defaultHideSelection"] = true -- inherited
 BuffIconCooldownViewer["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
 BuffIconCooldownViewer["align"] = "center" -- inherited
 BuffIconCooldownViewer["hideWhenActionBarIsOverriden"] = true -- inherited
 BuffIconCooldownViewer["isBottomManagedFrame"] = true -- inherited
 BuffIconCooldownViewer["isManagedFrame"] = true -- inherited
-BuffIconCooldownViewer["system"] = Enum.EditModeSystem.CooldownViewer -- inherited
-BuffIconCooldownViewer["defaultHideSelection"] = true -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L327)
---- @class BuffBarCooldownViewer : Frame, EditModeCooldownViewerSystemTemplate, GridLayoutFrame, BuffBarCooldownViewerMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewer.xml#L326)
+--- @class BuffBarCooldownViewer : Frame, CooldownViewerTemplate, BuffBarCooldownViewerMixin
 --- @field systemIndex any # Enum.EditModeCooldownViewerSystemIndices.BuffBar
 --- @field systemNameString any # HUD_EDIT_MODE_SYSTEM_TRACKED_BUFF_BARS
 --- @field itemTemplate string # CooldownViewerBuffBarItemTemplate

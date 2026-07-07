@@ -98,34 +98,34 @@ TimeManagerGlobe = {}
 --- @class TimeManagerFrameTicker : FontString, GameFontHighlightLarge
 TimeManagerFrameTicker = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L680)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L689)
 --- child of TimeManagerFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 TimeManagerFrameInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L721)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L730)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 TimeManagerFrameInset = {}
 TimeManagerFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 TimeManagerFrameInset["Bg"] = TimeManagerFrameInsetBg -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L702)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L711)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 TimeManagerFrameBtnCornerLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L707)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L716)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 TimeManagerFrameBtnCornerRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L712)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L721)
 --- child of TimeManagerFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 TimeManagerFrameButtonBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L538)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L547)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 TimeManagerFrameCloseButton = {}
@@ -145,57 +145,57 @@ TimeManagerFrameTitleBg = {}
 --- @type Texture
 TimeManagerFramePortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L466)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L475)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 TimeManagerFramePortraitFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L471)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L480)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 TimeManagerFrameTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L476)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L485)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 TimeManagerFrameTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L481)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L490)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 TimeManagerFrameTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L487)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L496)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 TimeManagerFrameTitleText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L496)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L505)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 TimeManagerFrameTopTileStreaks = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L502)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L511)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 TimeManagerFrameBotLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L507)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L516)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 TimeManagerFrameBotRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L512)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L521)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 TimeManagerFrameBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L518)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L527)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 TimeManagerFrameLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L524)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L533)
 --- child of TimeManagerFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 TimeManagerFrameRightBorder = {}
@@ -223,12 +223,12 @@ TimeManagerFrame["LeftBorder"] = TimeManagerFrameLeftBorder -- inherited
 TimeManagerFrame["RightBorder"] = TimeManagerFrameRightBorder -- inherited
 TimeManagerFrame["layoutType"] = "PortraitFrameTemplate" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L193)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L194)
 --- child of TimeManagerClockButton
 --- @class TimeManagerClockTicker : FontString, WhiteNormalNumberFont
 TimeManagerClockTicker = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L198)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L199)
 --- child of TimeManagerClockButton
 --- @class TimeManagerAlarmFiredTexture : Texture
 TimeManagerAlarmFiredTexture = {}
@@ -237,72 +237,72 @@ TimeManagerAlarmFiredTexture = {}
 --- @class TimeManagerClockButton : Button
 TimeManagerClockButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L244)
 --- child of StopwatchTicker
 --- @class StopwatchTickerSecond : FontString, GameFontHighlightLarge
 StopwatchTickerSecond = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L253)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L254)
 --- child of StopwatchTicker
 --- @class StopwatchTickerMinute : FontString, GameFontHighlightLarge
 StopwatchTickerMinute = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L263)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L264)
 --- child of StopwatchTicker
 --- @class StopwatchTickerHour : FontString, GameFontHighlightLarge
 StopwatchTickerHour = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L236)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L237)
 --- child of StopwatchFrame
 --- @class StopwatchTicker : Frame
 StopwatchTicker = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L313)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L314)
 --- child of StopwatchTabFrame
 --- @class StopwatchCloseButton : Button, UIPanelCloseButton
 StopwatchCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L279)
 --- child of StopwatchTabFrame
 --- @class StopwatchTabFrameLeft : Texture
 StopwatchTabFrameLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L288)
 --- child of StopwatchTabFrame
 --- @class StopwatchTabFrameMiddle : Texture
 StopwatchTabFrameMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L297)
 --- child of StopwatchTabFrame
 --- @class StopwatchTabFrameRight : Texture
 StopwatchTabFrameRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L306)
 --- child of StopwatchTabFrame
 --- @class StopwatchTitle : FontString, GameFontNormalSmall
 StopwatchTitle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L272)
 --- child of StopwatchFrame
 --- @class StopwatchTabFrame : Frame
 StopwatchTabFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L324)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L325)
 --- child of StopwatchFrame
 --- @class StopwatchResetButton : Button
 StopwatchResetButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L339)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L340)
 --- child of StopwatchFrame
 --- @class StopwatchPlayPauseButton : Button
 StopwatchPlayPauseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L220)
 --- child of StopwatchFrame
 --- @class StopwatchFrameBackgroundLeft : Texture
 StopwatchFrameBackgroundLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_TimeManager/Classic/Blizzard_TimeManager.xml#L213)
 --- @class StopwatchFrame : Frame
 StopwatchFrame = {}
 

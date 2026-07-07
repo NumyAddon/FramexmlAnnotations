@@ -16,35 +16,35 @@ function WorldMapMixin:HandleUserActionMaximizeSelf() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L47)
 function WorldMapMixin:SynchronizeDisplayState() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L94)
 function WorldMapMixin:Minimize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L111)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L104)
 function WorldMapMixin:Maximize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L114)
 function WorldMapMixin:SetupMinimizeMaximizeButton() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L133)
 function WorldMapMixin:IsMaximized() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L137)
 function WorldMapMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L157)
 function WorldMapMixin:OnEvent(event, ...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L175)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L168)
 function WorldMapMixin:AddStandardDataProviders() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L252)
 function WorldMapMixin:OnMapChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L273)
 function WorldMapMixin:OnShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L292)
 function WorldMapMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_WorldMap/TBC/Blizzard_WorldMap.lua#L298)
 function WorldMapMixin:GetCurrentMapContinent() end

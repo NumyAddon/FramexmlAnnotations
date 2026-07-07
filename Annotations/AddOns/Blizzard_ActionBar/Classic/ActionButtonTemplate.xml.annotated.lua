@@ -21,8 +21,10 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L116)
 --- child of ActionButtonTemplate
 --- @class ActionButtonTemplate_Cooldown : Cooldown, CooldownFrameTemplate
---- @field edgeTextureNormal string # Interface\Cooldown\edge-LoC
---- @field edgeTextureLOC string # Interface\Cooldown\edge
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L124)
+--- child of ActionButtonTemplate
+--- @class ActionButtonTemplate_chargeCooldown : Cooldown, CooldownFrameTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L47)
 --- child of ActionButtonTemplate
@@ -51,6 +53,7 @@
 --- @field TextOverlayContainer ActionButtonTemplate_TextOverlayContainer
 --- @field AutoCastOverlay ActionButtonTemplate_AutoCastOverlay
 --- @field cooldown ActionButtonTemplate_Cooldown
+--- @field chargeCooldown ActionButtonTemplate_chargeCooldown
 --- @field icon Texture
 --- @field IconMask MaskTexture
 --- @field SlotBackground Texture
@@ -65,17 +68,17 @@
 --- @field HighlightTexture Texture
 --- @field PushedTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L150)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L152)
 --- Explicitly protected
 --- Template
 --- @class ActionBarButtonCodeTemplate : CheckButton, SecureActionButtonTemplate, QuickKeybindButtonTemplate, ActionBarActionButtonDerivedMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L167)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L169)
 --- Explicitly protected
 --- Template
 --- @class ActionBarButtonTemplate : CheckButton, ActionButtonTemplate, ActionBarButtonCodeTemplate, ActionBarButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_ActionBar/Classic/ActionButtonTemplate.xml#L178)
 --- Template
 --- @class SmallActionButtonTemplate : CheckButton, ActionButtonTemplate, SmallActionButtonMixin
 --- @field hotkeyX number # 0

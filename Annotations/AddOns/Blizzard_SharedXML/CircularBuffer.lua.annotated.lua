@@ -43,11 +43,11 @@ function CircularBufferMixin:IsEmpty() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L159)
 function CircularBufferMixin:OnLoad(maxElements) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L166)
 function CircularBufferMixin:CalculateElementIndex(index) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L171)
 function CircularBufferMixin:CalculateElementIndexFromGlobalIndex(globalIndex) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L179)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedXML/CircularBuffer.lua#L180)
 function CircularBufferMixin:ReplaceElements(elements) end

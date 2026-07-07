@@ -2,224 +2,193 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L4)
 --- Template
---- @class EditModeDialogTemplate : Frame, EditModeDialogMixin
+--- @class EditModeBaseDialogTemplate : Frame, EditModeBaseDialogMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L10)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L12)
 --- Template
---- @class EditModeDialogLayoutNameEditBoxTemplate : EditBox, InputBoxTemplate, EditModeDialogNameEditBoxMixin
+--- @class EditModeDialogLayoutNameEditBoxTemplate : EditBox, InputBoxTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L17)
 --- Template
 --- @class EditModeDialogButton : Button, UIPanelButtonTemplate, UIButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L24)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L21)
 --- Template
 --- @class CharacterSpecificLayoutCheckButtonTemplate : Frame, EditModeCheckButtonTemplate
 --- @field labelText any # HUD_EDIT_MODE_CHARACTER_SPECIFIC_LAYOUT
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L46)
---- child of EditModeNewLayoutDialog
---- @class EditModeNewLayoutDialog_Border : Frame, DialogBorderTemplate
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L41)
+--- child of EditModeLayoutDialogTemplate
+--- @class EditModeLayoutDialogTemplate_Border : Frame, DialogBorderTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L42)
+--- child of EditModeLayoutDialogTemplate
+--- @class EditModeLayoutDialogTemplate_LayoutNameEditBox : EditBox, EditModeDialogLayoutNameEditBoxTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L47)
---- child of EditModeNewLayoutDialog
---- @class EditModeNewLayoutDialog_LayoutNameEditBox : EditBox, EditModeDialogLayoutNameEditBoxTemplate
+--- child of EditModeLayoutDialogTemplate
+--- @class EditModeLayoutDialogTemplate_CharacterSpecificLayoutCheckButton : Frame, CharacterSpecificLayoutCheckButtonTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L52)
---- child of EditModeNewLayoutDialog
---- @class EditModeNewLayoutDialog_CharacterSpecificLayoutCheckButton : Frame, CharacterSpecificLayoutCheckButtonTemplate
+--- child of EditModeLayoutDialogTemplate
+--- @class EditModeLayoutDialogTemplate_AcceptButton : Button, EditModeDialogButton
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L57)
---- child of EditModeNewLayoutDialog
---- @class EditModeNewLayoutDialog_AcceptButton : Button, EditModeDialogButton
---- @field disabledTooltip any # HUD_EDIT_MODE_ERROR_ENTER_NAME
+--- child of EditModeLayoutDialogTemplate
+--- @class EditModeLayoutDialogTemplate_CancelButton : Button, EditModeDialogButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L65)
---- child of EditModeNewLayoutDialog
---- @class EditModeNewLayoutDialog_CancelButton : Button, EditModeDialogButton
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L32)
+--- child of EditModeLayoutDialogTemplate
+--- @class EditModeLayoutDialogTemplate_Title : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L37)
---- child of EditModeNewLayoutDialog
---- @class EditModeNewLayoutDialog_Title : FontString, GameFontHighlight
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L28)
+--- Template
+--- @class EditModeLayoutDialogTemplate : Frame, EditModeBaseDialogTemplate, EditModeLayoutDialogMixin
+--- @field Border EditModeLayoutDialogTemplate_Border
+--- @field LayoutNameEditBox EditModeLayoutDialogTemplate_LayoutNameEditBox
+--- @field CharacterSpecificLayoutCheckButton EditModeLayoutDialogTemplate_CharacterSpecificLayoutCheckButton
+--- @field AcceptButton EditModeLayoutDialogTemplate_AcceptButton
+--- @field CancelButton EditModeLayoutDialogTemplate_CancelButton
+--- @field Title EditModeLayoutDialogTemplate_Title
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L30)
---- @class EditModeNewLayoutDialog : Frame, EditModeDialogTemplate, EditModeNewLayoutDialogMixin
---- @field Border EditModeNewLayoutDialog_Border
---- @field LayoutNameEditBox EditModeNewLayoutDialog_LayoutNameEditBox
---- @field CharacterSpecificLayoutCheckButton EditModeNewLayoutDialog_CharacterSpecificLayoutCheckButton
---- @field AcceptButton EditModeNewLayoutDialog_AcceptButton
---- @field CancelButton EditModeNewLayoutDialog_CancelButton
---- @field Title EditModeNewLayoutDialog_Title
-EditModeNewLayoutDialog = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L103)
---- child of EditModeImportLayoutDialog
---- @class EditModeImportLayoutDialog_Border : Frame, DialogBorderTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L104)
---- child of EditModeImportLayoutDialog
---- @class EditModeImportLayoutDialog_ImportBox : ScrollFrame, InputScrollFrameTemplate
---- @field maxLetters number # 2000
---- @field instructions any # HUD_EDIT_MODE_IMPORT_LAYOUT_INSTRUCTIONS
---- @field hideCharCount boolean # true
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L115)
---- child of EditModeImportLayoutDialog
---- @class EditModeImportLayoutDialog_LayoutNameEditBox : EditBox, EditModeDialogLayoutNameEditBoxTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L120)
---- child of EditModeImportLayoutDialog
---- @class EditModeImportLayoutDialog_CharacterSpecificLayoutCheckButton : Frame, CharacterSpecificLayoutCheckButtonTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L125)
---- child of EditModeImportLayoutDialog
---- @class EditModeImportLayoutDialog_AcceptButton : Button, EditModeDialogButton
---- @field disabledTooltip any # HUD_EDIT_MODE_ERROR_ENTER_IMPORT_STRING_AND_NAME
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L133)
---- child of EditModeImportLayoutDialog
---- @class EditModeImportLayoutDialog_CancelButton : Button, EditModeDialogButton
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L84)
---- child of EditModeImportLayoutDialog
---- @class EditModeImportLayoutDialog_Title : FontString, GameFontHighlight
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L90)
---- child of EditModeImportLayoutDialog
---- @class EditModeImportLayoutDialog_EditBoxLabel : FontString, GameFontNormal
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L66)
+--- @class EditModeLayoutDialog : Frame, EditModeLayoutDialogTemplate
+EditModeLayoutDialog = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L95)
---- child of EditModeImportLayoutDialog
---- @class EditModeImportLayoutDialog_NameEditBoxLabel : FontString, GameFontNormal
+--- child of EditModeImportLayoutDialogTemplate
+--- @class EditModeImportLayoutDialogTemplate_Border : Frame, DialogBorderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L77)
---- @class EditModeImportLayoutDialog : Frame, EditModeDialogTemplate, EditModeImportLayoutDialogMixin
---- @field Border EditModeImportLayoutDialog_Border
---- @field ImportBox EditModeImportLayoutDialog_ImportBox
---- @field LayoutNameEditBox EditModeImportLayoutDialog_LayoutNameEditBox
---- @field CharacterSpecificLayoutCheckButton EditModeImportLayoutDialog_CharacterSpecificLayoutCheckButton
---- @field AcceptButton EditModeImportLayoutDialog_AcceptButton
---- @field CancelButton EditModeImportLayoutDialog_CancelButton
---- @field Title EditModeImportLayoutDialog_Title
---- @field EditBoxLabel EditModeImportLayoutDialog_EditBoxLabel
---- @field NameEditBoxLabel EditModeImportLayoutDialog_NameEditBoxLabel
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L96)
+--- child of EditModeImportLayoutDialogTemplate
+--- @class EditModeImportLayoutDialogTemplate_ImportBox : ScrollFrame, InputScrollFrameTemplate
+--- @field maxLetters number # 3000
+--- @field hideCharCount boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L107)
+--- child of EditModeImportLayoutDialogTemplate
+--- @class EditModeImportLayoutDialogTemplate_LayoutNameEditBox : EditBox, EditModeDialogLayoutNameEditBoxTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L112)
+--- child of EditModeImportLayoutDialogTemplate
+--- @class EditModeImportLayoutDialogTemplate_CharacterSpecificLayoutCheckButton : Frame, CharacterSpecificLayoutCheckButtonTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L117)
+--- child of EditModeImportLayoutDialogTemplate
+--- @class EditModeImportLayoutDialogTemplate_AcceptButton : Button, EditModeDialogButton
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L122)
+--- child of EditModeImportLayoutDialogTemplate
+--- @class EditModeImportLayoutDialogTemplate_CancelButton : Button, EditModeDialogButton
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L76)
+--- child of EditModeImportLayoutDialogTemplate
+--- @class EditModeImportLayoutDialogTemplate_Title : FontString, GameFontHighlight
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L82)
+--- child of EditModeImportLayoutDialogTemplate
+--- @class EditModeImportLayoutDialogTemplate_EditBoxLabel : FontString, GameFontNormal
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L87)
+--- child of EditModeImportLayoutDialogTemplate
+--- @class EditModeImportLayoutDialogTemplate_NameEditBoxLabel : FontString, GameFontNormal
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L72)
+--- Template
+--- @class EditModeImportLayoutDialogTemplate : Frame, EditModeBaseDialogTemplate, EditModeImportLayoutDialogMixin
+--- @field Border EditModeImportLayoutDialogTemplate_Border
+--- @field ImportBox EditModeImportLayoutDialogTemplate_ImportBox
+--- @field LayoutNameEditBox EditModeImportLayoutDialogTemplate_LayoutNameEditBox
+--- @field CharacterSpecificLayoutCheckButton EditModeImportLayoutDialogTemplate_CharacterSpecificLayoutCheckButton
+--- @field AcceptButton EditModeImportLayoutDialogTemplate_AcceptButton
+--- @field CancelButton EditModeImportLayoutDialogTemplate_CancelButton
+--- @field Title EditModeImportLayoutDialogTemplate_Title
+--- @field EditBoxLabel EditModeImportLayoutDialogTemplate_EditBoxLabel
+--- @field NameEditBoxLabel EditModeImportLayoutDialogTemplate_NameEditBoxLabel
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L134)
+--- @class EditModeImportLayoutDialog : Frame, EditModeImportLayoutDialogTemplate
 EditModeImportLayoutDialog = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L166)
---- child of EditModeImportLayoutLinkDialog
---- @class EditModeImportLayoutLinkDialog_Border : Frame, DialogBorderTemplate
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L210)
+--- child of EditModeUnsavedChangesDialogTemplate
+--- @class EditModeUnsavedChangesDialogTemplate_Border : Frame, DialogBorderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L167)
---- child of EditModeImportLayoutLinkDialog
---- @class EditModeImportLayoutLinkDialog_LayoutNameEditBox : EditBox, EditModeDialogLayoutNameEditBoxTemplate
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L211)
+--- child of EditModeUnsavedChangesDialogTemplate
+--- @class EditModeUnsavedChangesDialogTemplate_SaveAndProceedButton : Button, EditModeDialogButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L172)
---- child of EditModeImportLayoutLinkDialog
---- @class EditModeImportLayoutLinkDialog_CharacterSpecificLayoutCheckButton : Frame, CharacterSpecificLayoutCheckButtonTemplate
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L217)
+--- child of EditModeUnsavedChangesDialogTemplate
+--- @class EditModeUnsavedChangesDialogTemplate_ProceedButton : Button, EditModeDialogButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L177)
---- child of EditModeImportLayoutLinkDialog
---- @class EditModeImportLayoutLinkDialog_AcceptButton : Button, EditModeDialogButton
---- @field disabledTooltip any # HUD_EDIT_MODE_ERROR_ENTER_NAME
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L223)
+--- child of EditModeUnsavedChangesDialogTemplate
+--- @class EditModeUnsavedChangesDialogTemplate_CancelButton : Button, EditModeDialogButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L185)
---- child of EditModeImportLayoutLinkDialog
---- @class EditModeImportLayoutLinkDialog_CancelButton : Button, EditModeDialogButton
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L201)
+--- child of EditModeUnsavedChangesDialogTemplate
+--- @class EditModeUnsavedChangesDialogTemplate_Title : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L152)
---- child of EditModeImportLayoutLinkDialog
---- @class EditModeImportLayoutLinkDialog_Title : FontString, GameFontHighlight
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L194)
+--- Template
+--- @class EditModeUnsavedChangesDialogTemplate : Frame, EditModeBaseDialogTemplate, EditModeUnsavedChangesDialogMixin
+--- @field Border EditModeUnsavedChangesDialogTemplate_Border
+--- @field SaveAndProceedButton EditModeUnsavedChangesDialogTemplate_SaveAndProceedButton
+--- @field ProceedButton EditModeUnsavedChangesDialogTemplate_ProceedButton
+--- @field CancelButton EditModeUnsavedChangesDialogTemplate_CancelButton
+--- @field Title EditModeUnsavedChangesDialogTemplate_Title
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L158)
---- child of EditModeImportLayoutLinkDialog
---- @class EditModeImportLayoutLinkDialog_NameEditBoxLabel : FontString, GameFontNormal
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L145)
---- @class EditModeImportLayoutLinkDialog : Frame, EditModeDialogTemplate, EditModeImportLayoutLinkDialogMixin
---- @field Border EditModeImportLayoutLinkDialog_Border
---- @field LayoutNameEditBox EditModeImportLayoutLinkDialog_LayoutNameEditBox
---- @field CharacterSpecificLayoutCheckButton EditModeImportLayoutLinkDialog_CharacterSpecificLayoutCheckButton
---- @field AcceptButton EditModeImportLayoutLinkDialog_AcceptButton
---- @field CancelButton EditModeImportLayoutLinkDialog_CancelButton
---- @field Title EditModeImportLayoutLinkDialog_Title
---- @field NameEditBoxLabel EditModeImportLayoutLinkDialog_NameEditBoxLabel
-EditModeImportLayoutLinkDialog = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L213)
---- child of EditModeUnsavedChangesDialog
---- @class EditModeUnsavedChangesDialog_Border : Frame, DialogBorderTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L214)
---- child of EditModeUnsavedChangesDialog
---- @class EditModeUnsavedChangesDialog_SaveAndProceedButton : Button, EditModeDialogButton
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L220)
---- child of EditModeUnsavedChangesDialog
---- @class EditModeUnsavedChangesDialog_ProceedButton : Button, EditModeDialogButton
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L226)
---- child of EditModeUnsavedChangesDialog
---- @class EditModeUnsavedChangesDialog_CancelButton : Button, EditModeDialogButton
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L204)
---- child of EditModeUnsavedChangesDialog
---- @class EditModeUnsavedChangesDialog_Title : FontString, GameFontHighlight
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L197)
---- @class EditModeUnsavedChangesDialog : Frame, EditModeDialogTemplate, EditModeUnsavedChangesDialogMixin
---- @field Border EditModeUnsavedChangesDialog_Border
---- @field SaveAndProceedButton EditModeUnsavedChangesDialog_SaveAndProceedButton
---- @field ProceedButton EditModeUnsavedChangesDialog_ProceedButton
---- @field CancelButton EditModeUnsavedChangesDialog_CancelButton
---- @field Title EditModeUnsavedChangesDialog_Title
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L237)
+--- @class EditModeUnsavedChangesDialog : Frame, EditModeUnsavedChangesDialogTemplate
 EditModeUnsavedChangesDialog = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L243)
 --- Template
 --- @class EditModeSystemSettingsDialogButtonTemplate : Button, UIPanelButtonTemplate, UIButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L247)
 --- Template
 --- @class EditModeSystemSettingsDialogExtraButtonTemplate : Button, UIPanelButtonTemplate, UIButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L267)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L270)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Border : Frame, DialogBorderTranslucentTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L275)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_CloseButton : Button, UIPanelCloseButton
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L283)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Settings : Frame, VerticalLayoutFrame
 --- @field spacing number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L300)
 --- child of EditModeSystemSettingsDialog_Buttons
 --- @class EditModeSystemSettingsDialog_Buttons_RevertChangesButton : Button, EditModeSystemSettingsDialogButtonTemplate
 --- @field layoutIndex number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L308)
 --- child of EditModeSystemSettingsDialog_Buttons
 --- @class EditModeSystemSettingsDialog_Buttons_Divider : Texture
 --- @field layoutIndex number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L292)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Buttons : Frame, VerticalLayoutFrame
 --- @field spacing number # 2
 --- @field RevertChangesButton EditModeSystemSettingsDialog_Buttons_RevertChangesButton
 --- @field Divider EditModeSystemSettingsDialog_Buttons_Divider
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L259)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L262)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Title : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L248)
---- @class EditModeSystemSettingsDialog : Frame, EditModeDialogTemplate, ResizeLayoutFrame, EditModeSystemSettingsDialogMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L251)
+--- @class EditModeSystemSettingsDialog : Frame, EditModeBaseDialogTemplate, ResizeLayoutFrame, EditModeSystemSettingsDialogMixin
 --- @field widthPadding number # 40
 --- @field heightPadding number # 40
 --- @field Border EditModeSystemSettingsDialog_Border

@@ -70,77 +70,77 @@ function TalentButtonBaseMixin:CalculateVisualState() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L221)
 function TalentButtonBaseMixin:GetTraitCurrenciesCost() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L230)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L232)
 function TalentButtonBaseMixin:AddTooltipCost(tooltip) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L243)
 function TalentButtonBaseMixin:AddTooltipErrors(tooltip) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L261)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L264)
 function TalentButtonBaseMixin:IsInDeactivatedSubTree() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L266)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L269)
 function TalentButtonBaseMixin:ShouldBeVisible() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L273)
 function TalentButtonBaseMixin:IsVisibleAndSelectable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L277)
 function TalentButtonBaseMixin:IsRefundInvalid() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L281)
 function TalentButtonBaseMixin:HasProgress() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L286)
 function TalentButtonBaseMixin:HasIncreasedRanks() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L291)
 function TalentButtonBaseMixin:IsMaxed() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L296)
 function TalentButtonBaseMixin:IsGated() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L301)
 function TalentButtonBaseMixin:IsLocked() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L306)
 function TalentButtonBaseMixin:IsDisplayError() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L314)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L317)
 function TalentButtonBaseMixin:IsCascadeRepurchasable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L325)
 function TalentButtonBaseMixin:CanCascadeRepurchaseRanks() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L326)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L329)
 function TalentButtonBaseMixin:HasMassPurchase() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L330)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L333)
 function TalentButtonBaseMixin:IsGhosted() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L340)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L343)
 function TalentButtonBaseMixin:CanAfford() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L349)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L352)
 function TalentButtonBaseMixin:CanRefundRank() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L354)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L357)
 function TalentButtonBaseMixin:IsSelectable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L359)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L362)
 function TalentButtonBaseMixin:CascadeRepurchaseRanks() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L365)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L368)
 function TalentButtonBaseMixin:ClearCascadeRepurchaseHistory() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L375)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L378)
 function TalentButtonBaseMixin:PlaySelectSound() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L383)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L386)
 function TalentButtonBaseMixin:PlayDeselectSound() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L391)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L394)
 function TalentButtonBaseMixin:StartGlow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L412)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SharedTalentUI/Blizzard_TalentButtonBase.lua#L415)
 function TalentButtonBaseMixin:StopGlow() end

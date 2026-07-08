@@ -194,21 +194,6 @@ local SpellFlyoutOpenReason = {
     ["GlyphActivated"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L125)
---- @enum CooldownViewerVisual
-local CooldownViewerVisual = {
-    ["MarchingAnts"] = 1,
-    ["MarchingAntsCyan"] = 2,
-    ["MarchingAntsRed"] = 3,
-    ["MarchingAntsGreen"] = 4,
-    ["MarchingAntsBlue"] = 5,
-    ["Flash"] = 6,
-    ["FlashCyan"] = 7,
-    ["FlashRed"] = 8,
-    ["FlashGreen"] = 9,
-    ["FlashBlue"] = 10,
-}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L189)
 --- @enum AuraUtil.AuraUpdateChangedType
 local AuraUtil_AuraUpdateChangedType = {

@@ -178,7 +178,6 @@ class TocFileParser
     {
         $prioritized = [];
         $suffixes = $this->getGameTypesForFlavor($flavor);
-        $suffixes[] = 'Standard';
         foreach ($suffixes as $suffix) {
             $prioritized[] = '_' . $suffix;
             $prioritized[] = '-' . $suffix;
@@ -194,7 +193,7 @@ class TocFileParser
     private function getGameTypesForFlavor(FlavorEnum $flavor): array
     {
         $gameTypes = match ($flavor) {
-            FlavorEnum::MAINLINE => ['Mainline'],
+            FlavorEnum::MAINLINE => ['Standard', 'Mainline'],
             FlavorEnum::MISTS => ['Mists'],
             FlavorEnum::CATA => ['Cata'],
             FlavorEnum::WRATH => ['Wrath', 'WOTLKC'],

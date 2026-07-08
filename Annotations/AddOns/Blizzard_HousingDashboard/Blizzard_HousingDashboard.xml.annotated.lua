@@ -2,31 +2,35 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L11)
 --- child of HousingDashboardFrame
+--- @class HousingDashboardFrame_HouseDropdown : Frame, HousingDashboardHouseDropdownTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L18)
+--- child of HousingDashboardFrame
 --- @class HousingDashboardFrame_HouseInfoContent : Frame, HousingDashboardHouseInfoTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L13)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L20)
 --- child of HousingDashboardFrame
 --- @class HousingDashboardFrame_CatalogContent : Frame, HousingCatalogFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L15)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L22)
 --- child of HousingDashboardFrame
 --- @class HousingDashboardFrame_CollectionContent : Frame, HousingDashboardCollectionFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L25)
 --- child of HousingDashboardFrame
 --- @class HousingDashboardFrame_HouseInfoTabButton : Frame, LargeSideTabButtonTemplate
 --- @field activeAtlas string # housing-icon-dashboard
 --- @field inactiveAtlas string # housing-icon-dashboard-dis
 --- @field tooltipText any # HOUSING_DASHBOARD_HOUSEINFO_TOOLTIP
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L28)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L35)
 --- child of HousingDashboardFrame
 --- @class HousingDashboardFrame_CatalogTabButton : Frame, LargeSideTabButtonTemplate
 --- @field activeAtlas string # housing-icon-catalog
 --- @field inactiveAtlas string # housing-icon-catalog-dis
 --- @field tooltipText any # HOUSING_DASHBOARD_CATALOG_TOOLTIP
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L38)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L45)
 --- child of HousingDashboardFrame
 --- @class HousingDashboardFrame_CollectionTabButton : Frame, LargeSideTabButtonTemplate
 --- @field activeAtlas string # common-icons-blueprints
@@ -45,6 +49,7 @@ HousingDashboardFrameBg = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboard.xml#L3)
 --- @class HousingDashboardFrame : Frame, PortraitFrameTemplate, TabSystemOwnerTemplate, HousingDashboardFrameMixin
+--- @field HouseDropdown HousingDashboardFrame_HouseDropdown
 --- @field HouseInfoContent HousingDashboardFrame_HouseInfoContent
 --- @field CatalogContent HousingDashboardFrame_CatalogContent
 --- @field CollectionContent HousingDashboardFrame_CollectionContent

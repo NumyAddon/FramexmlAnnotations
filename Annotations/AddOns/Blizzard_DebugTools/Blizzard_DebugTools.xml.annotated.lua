@@ -191,22 +191,22 @@ FrameStackTooltip["TextRight2"] = FrameStackTooltipTextRight2 -- inherited
 --- @class FrameStackHighlight : Frame, FrameHighlightTemplate
 FrameStackHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L29)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L34)
 --- Template
 --- Adds itself to the parent inside the array `AnchorHighlights`
 --- @class FrameStackAnchorHighlightTemplate : Frame
 --- @field AnchorPoint Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L48)
 --- Template
 --- @class DebugIdentifierFrameNoNameTemplate : Frame
 --- @field DebugHighlight Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L59)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L64)
 --- child of DebugIdentifierFrameTemplate
 --- @class DebugIdentifierFrameTemplate_DebugName : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L56)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_DebugTools/Blizzard_DebugTools.xml#L61)
 --- Template
 --- @class DebugIdentifierFrameTemplate : Frame, DebugIdentifierFrameNoNameTemplate
 --- @field DebugName DebugIdentifierFrameTemplate_DebugName

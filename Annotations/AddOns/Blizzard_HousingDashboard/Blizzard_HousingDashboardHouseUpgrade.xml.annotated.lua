@@ -82,11 +82,11 @@
 --- @field Cooldown HousingUpgradeFrameTemplate_TeleportToHouseButton_Cooldown
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L304)
 --- child of HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar_BarFill
 --- @class HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar_BarFill_BarAnimation : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L266)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L260)
 --- child of HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar
 --- @class HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar_BarFill : Cooldown, HouseUpgradeProgressBarMixin
 --- @field Threshold Texture
@@ -95,19 +95,18 @@
 --- @field BarMask MaskTexture
 --- @field BarAnimation HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar_BarFill_BarAnimation
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L254)
 --- child of HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame
 --- @class HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar : Frame
 --- @field BarFill HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar_BarFill
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L363)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L357)
 --- child of HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame
 --- @class HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_LeafAnimation : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L248)
 --- child of HousingUpgradeFrameTemplate_CurrentLevelFrame
 --- @class HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame : Frame, EasyFrameAnimationsTemplate
---- @field HouseBarFrame Frame
 --- @field Bar HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame_Bar
 --- @field leaf2 Texture
 --- @field leaf5 Texture
@@ -128,11 +127,11 @@
 --- @field HouseBarFrame HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseBarFrame
 --- @field HouseLevelText HousingUpgradeFrameTemplate_CurrentLevelFrame_HouseLevelText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L436)
 --- child of HousingUpgradeFrameTemplate_TrackFrame
 --- @class HousingUpgradeFrameTemplate_TrackFrame_ReminderText : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L410)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L404)
 --- child of HousingUpgradeFrameTemplate
 --- @class HousingUpgradeFrameTemplate_TrackFrame : Frame, RewardTrackFrameTemplate, HouseLevelTrackFrameMixin
 --- @field elementTemplate string # HouseUpgradeLevelFrameTemplate
@@ -143,21 +142,21 @@
 --- @field Background Texture
 --- @field ReminderText HousingUpgradeFrameTemplate_TrackFrame_ReminderText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L465)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L459)
 --- child of HousingUpgradeFrameTemplate_WatchFavorButton
 --- @class HousingUpgradeFrameTemplate_WatchFavorButton_Label : FontString, GameFontHighlightSmall
 --- @field minLineHeight number # 8
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L458)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L452)
 --- child of HousingUpgradeFrameTemplate
 --- @class HousingUpgradeFrameTemplate_WatchFavorButton : CheckButton, UICheckButtonArtTemplate, HouseWatchFavorButtonMixin
 --- @field Label HousingUpgradeFrameTemplate_WatchFavorButton_Label
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L485)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L479)
 --- child of HousingUpgradeFrameTemplate_RewardsFrame
 --- @class HousingUpgradeFrameTemplate_RewardsFrame_ComingSoonText : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L481)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingDashboard/Blizzard_HousingDashboardHouseUpgrade.xml#L475)
 --- child of HousingUpgradeFrameTemplate
 --- @class HousingUpgradeFrameTemplate_RewardsFrame : Frame, GridLayoutFrame
 --- @field stride number # 2

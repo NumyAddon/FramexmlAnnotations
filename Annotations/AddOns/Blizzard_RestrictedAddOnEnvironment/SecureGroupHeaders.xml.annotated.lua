@@ -30,13 +30,3 @@
 --- Template
 --- @class SecureRaidPetHeaderTemplate : Frame, SecureGroupPetHeaderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RestrictedAddOnEnvironment/SecureGroupHeaders.xml#L53)
---- Explicitly protected
---- Template
---- @class SecureAuraHeaderTemplate : Frame, SecureFrameTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RestrictedAddOnEnvironment/SecureGroupHeaders.xml#L65)
---- Explicitly protected
---- Template
---- @class SecureAuraButtonTemplate : Button, SecureActionButtonTemplate
-

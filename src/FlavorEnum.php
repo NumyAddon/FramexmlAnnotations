@@ -24,7 +24,7 @@ enum FlavorEnum: string
     public function game(): string
     {
         return match ($this) {
-            self::MAINLINE => 'Mainline',
+            self::MAINLINE => 'Standard',
             self::MISTS => 'Mists',
             self::CATA => 'Cata',
             self::WRATH => 'Wrath',

@@ -91,17 +91,17 @@ class TocFileParser
                     switch ($name) {
                         case 'AllowLoadGameType':
                             if (!$this->allowLoadGameType($value)) {
-                                continue 2; // skip this file
+                                continue 3; // skip this file
                             }
                             break;
                         case 'ExcludeLoadGameType':
                             if ($this->allowLoadGameType($value)) {
-                                continue 2; // skip this file
+                                continue 3; // skip this file
                             }
                             break;
                         case 'AllowLoad':
                             if (strtolower($value) === 'glue') {
-                                continue 2; // skip this file
+                                continue 3; // skip this file
                             }
                             break;
                         case 'AllowLoadEnvironment':
@@ -117,6 +117,19 @@ class TocFileParser
 
             $line = trim($line);
             $filePath = $dir . '/' . ltrim($line, '/');
+            if (str_contains($filePath, '[') || str_contains($filePath, ']')) {
+                throw new RuntimeException("Unparsed square brackets in TOC line: $line (path: $filePath)");
+            }
+            if (!file_exists($filePath)) {
+                $result = current(preg_grep(
+                    '/^' . preg_quote($filePath, '/') . '$/i',
+                    glob(dirname($filePath) . '/*')
+                ));
+                if (!$result || !file_exists($result)) {
+                    throw new RuntimeException("File not found: $filePath");
+                }
+                $filePath = $result;
+            }
             $realPath = $this->normalizedPathsMap[strtolower($filePath)] ?? null;
             if (!$realPath) {
                 continue;
@@ -124,7 +137,7 @@ class TocFileParser
             $files[] = $realPath;
 
             if (str_ends_with($line, '.xml')) {
-                $files = array_merge($files, $this->parseXmlIncludes($realPath));
+                $files = array_merge($files, $this->parseXmlIncludes($realPath, $tocFilePath));
             }
         }
 
@@ -197,13 +210,14 @@ class TocFileParser
     /**
      * @return list<string> list of xml file includes
      */
-    private function parseXmlIncludes(string $filePath, ?array &$tree = null): array
+    private function parseXmlIncludes(string $filePath, string $tocFilePath, ?array &$tree = null): array
     {
         $tree ??= [];
         if (isset($tree[$filePath])) {
             throw new RuntimeException("Recursive include detected: $filePath");
         }
         $tree[$filePath] = true;
+        $xmlFile = $filePath;
         $xml = simplexml_load_file($filePath);
         $files = [];
         foreach ($xml as $node) {
@@ -211,13 +225,20 @@ class TocFileParser
             if ('include' === $nodeName || 'script' === $nodeName) {
                 $file = $node->attributes()['file'] ?? null;
                 if ($file) {
-                    $file = (string) $file;
+                    $file = str_replace('\\','/', (string) $file);
                     $filePath = dirname($filePath) . '/' . ltrim($file, '/');
+                    if (!file_exists($filePath)) {
+                        $alternativeFilePath = dirname($tocFilePath) . '/' . ltrim($file, '/');
+                        if (!file_exists($alternativeFilePath)) {
+                            throw new RuntimeException("File not found: $filePath, defined in $xmlFile");
+                        }
+                        $filePath = $alternativeFilePath;
+                    }
                     $realPath = $this->normalizedPathsMap[strtolower($filePath)] ?? null;
                     if ($realPath) {
                         $files[] = $realPath;
                         if (str_ends_with($realPath, '.xml')) {
-                            $files = array_merge($files, $this->parseXmlIncludes($realPath, $tree));
+                            $files = array_merge($files, $this->parseXmlIncludes($realPath, $tocFilePath, $tree));
                         }
                     }
                 }

@@ -8,10 +8,6 @@ HousingBlueprintCollectionMixin = {}
 --- @class HousingBlueprintCollectionGroupMixin
 HousingBlueprintCollectionGroupMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L318)
---- @class HousingBlueprintCollectionEntryMixin
-HousingBlueprintCollectionEntryMixin = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L16)
 function HousingBlueprintCollectionMixin:OnLoad() end
 
@@ -77,36 +73,3 @@ function HousingBlueprintCollectionGroupMixin:IsCollapsed() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L310)
 function HousingBlueprintCollectionGroupMixin:GetDebugName() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L320)
-function HousingBlueprintCollectionEntryMixin:Init(node, owner) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L341)
-function HousingBlueprintCollectionEntryMixin:GetDateTimeStr(excludeTime) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L355)
-function HousingBlueprintCollectionEntryMixin:OnClick(button) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L374)
-function HousingBlueprintCollectionEntryMixin:OnEnter() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L395)
-function HousingBlueprintCollectionEntryMixin:OnLeave() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L400)
-function HousingBlueprintCollectionEntryMixin:ShowContextMenu() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L416)
-function HousingBlueprintCollectionEntryMixin:OnDeleteConfirmed() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L422)
-function HousingBlueprintCollectionEntryMixin:UpdateStateVisuals() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L432)
-function HousingBlueprintCollectionEntryMixin:IsSelected() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L463)
-function HousingBlueprintCollectionEntryMixin:IsHovered() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintCollection.lua#L471)
-function HousingBlueprintCollectionEntryMixin:GetDebugName() end

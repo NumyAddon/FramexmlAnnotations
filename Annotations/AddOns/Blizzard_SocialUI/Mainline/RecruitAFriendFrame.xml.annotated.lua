@@ -88,25 +88,26 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L171)
 --- Template
 --- @class RecruitActivityButtonSocialTemplate : Button, RecruitActivityButtonTemplate
---- @field Icon_CursorOverChecked string # friends-RAF-chest-claimed
---- @field Icon_CursorOver string # friends-raf-chest-default
+--- @field Icon_TrialAccount string # friends-RAF-chest-locked
+--- @field Icon_CursorOverChecked string # friends-RAF-chest-claimed-hover
+--- @field Icon_CursorOver string # friends-RAF-chest-default-hover
 --- @field Icon_ActiveChest string # friends-raf-chest-default
 --- @field Icon_OpenChest string # friends-raf-chest-ready
 --- @field Icon_ClaimedChest string # friends-RAF-chest-claimed
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L199)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L200)
 --- child of RecruitListButtonSocialTemplate
 --- @class RecruitListButtonSocialTemplate_Name : FontString, UserScaledFontGameNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L206)
 --- child of RecruitListButtonSocialTemplate
 --- @class RecruitListButtonSocialTemplate_CharacterName : FontString, UserScaledFontGameNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L211)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L212)
 --- child of RecruitListButtonSocialTemplate
 --- @class RecruitListButtonSocialTemplate_InfoText : FontString, UserScaledFontGameNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L182)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L183)
 --- Template
 --- @class RecruitListButtonSocialTemplate : Button, RecruitListButtonSocialMixin
 --- @field dynamicBackground boolean # false
@@ -119,48 +120,48 @@
 --- @field FriendsStatus Texture
 --- @field Activities table<number, RecruitActivityButtonSocialTemplate>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L258)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L259)
 --- child of RecruitAFriendFrameSocialTemplate
 --- @class RecruitAFriendFrameSocialTemplate_RewardClaiming : Frame, RewardClaimingSocialTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L280)
 --- child of RecruitAFriendFrameSocialTemplate_RecruitList_Header
 --- @class RecruitAFriendFrameSocialTemplate_RecruitList_Header_RecruitedFriends : FontString, UserScaledFontGameNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L286)
 --- child of RecruitAFriendFrameSocialTemplate_RecruitList_Header
 --- @class RecruitAFriendFrameSocialTemplate_RecruitList_Header_Count : FontString, UserScaledFontGameNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L272)
 --- child of RecruitAFriendFrameSocialTemplate_RecruitList
 --- @class RecruitAFriendFrameSocialTemplate_RecruitList_Header : Frame
 --- @field RecruitedFriends RecruitAFriendFrameSocialTemplate_RecruitList_Header_RecruitedFriends
 --- @field Count RecruitAFriendFrameSocialTemplate_RecruitList_Header_Count
 --- @field Divider Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L310)
 --- child of RecruitAFriendFrameSocialTemplate_RecruitList_NoRecruitsScrollBox
 --- @class RecruitAFriendFrameSocialTemplate_RecruitList_NoRecruitsScrollBox_NoRecruitsDesc : SimpleHTML
 --- @field scrollable boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L303)
 --- child of RecruitAFriendFrameSocialTemplate_RecruitList
 --- @class RecruitAFriendFrameSocialTemplate_RecruitList_NoRecruitsScrollBox : Frame, WowScrollBox
 --- @field NoRecruitsDesc RecruitAFriendFrameSocialTemplate_RecruitList_NoRecruitsScrollBox_NoRecruitsDesc
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L321)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L322)
 --- child of RecruitAFriendFrameSocialTemplate_RecruitList
 --- @class RecruitAFriendFrameSocialTemplate_RecruitList_NoRecruitsScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L327)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L328)
 --- child of RecruitAFriendFrameSocialTemplate_RecruitList
 --- @class RecruitAFriendFrameSocialTemplate_RecruitList_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L334)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L335)
 --- child of RecruitAFriendFrameSocialTemplate_RecruitList
 --- @class RecruitAFriendFrameSocialTemplate_RecruitList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L266)
 --- child of RecruitAFriendFrameSocialTemplate
 --- @class RecruitAFriendFrameSocialTemplate_RecruitList : Frame
 --- @field Header RecruitAFriendFrameSocialTemplate_RecruitList_Header
@@ -169,15 +170,15 @@
 --- @field ScrollBox RecruitAFriendFrameSocialTemplate_RecruitList_ScrollBox
 --- @field ScrollBar RecruitAFriendFrameSocialTemplate_RecruitList_ScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L343)
 --- child of RecruitAFriendFrameSocialTemplate
 --- @class RecruitAFriendFrameSocialTemplate_RecruitmentButton : Button, SharedButtonTemplate, RecruitAFriendRecruitmentButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L358)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L359)
 --- child of RecruitAFriendFrameSocialTemplate
 --- @class RecruitAFriendFrameSocialTemplate_FriendsDisabledText : FontString, UserScaledFontBody
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L252)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/RecruitAFriendFrame.xml#L253)
 --- Template
 --- @class RecruitAFriendFrameSocialTemplate : Frame, CallbackRegistrantTemplate, RecruitAFriendFrameSocialMixin
 --- @field fractionString any # GENERIC_FRACTION_STRING

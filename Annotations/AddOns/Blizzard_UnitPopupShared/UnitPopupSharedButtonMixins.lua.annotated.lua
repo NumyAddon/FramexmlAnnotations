@@ -621,6 +621,10 @@ UnitPopupRecentAllyPinButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 UnitPopupAddRecentAllyBattleTagFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3741)
+--- @class UnitPopupAddRecentAllyTitleFriendButtonMixin : UnitPopupButtonBaseMixin
+UnitPopupAddRecentAllyTitleFriendButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3767)
 --- @class UnitPopupReportRecentAllyButtonMixin : UnitPopupReportButtonMixin
 UnitPopupReportRecentAllyButtonMixin = CreateFromMixins(UnitPopupReportButtonMixin)
 
@@ -2153,10 +2157,22 @@ function UnitPopupAddRecentAllyBattleTagFriendButtonMixin:OnClick(contextData) e
 function UnitPopupAddRecentAllyBattleTagFriendButtonMixin:IsEnabled(contextData) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3743)
-function UnitPopupReportRecentAllyButtonMixin:GetText(contextData) end
+function UnitPopupAddRecentAllyTitleFriendButtonMixin:GetText(_contextData) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3747)
+function UnitPopupAddRecentAllyTitleFriendButtonMixin:CanShow(_contextData) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3751)
+function UnitPopupAddRecentAllyTitleFriendButtonMixin:IsDisabledInKioskMode() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3755)
+function UnitPopupAddRecentAllyTitleFriendButtonMixin:OnClick(contextData) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3769)
+function UnitPopupReportRecentAllyButtonMixin:GetText(contextData) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3773)
 function UnitPopupReportRecentAllyButtonMixin:GetReportType() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3752)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopupShared/UnitPopupSharedButtonMixins.lua#L3778)
 function UnitPopupReportRecentAllyButtonMixin:CanShow(contextData) end

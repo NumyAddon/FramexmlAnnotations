@@ -52,18 +52,6 @@ SocialUIIgnoreListHeaderMixin = {}
 --- @class SocialUIIgnoreListEntryMixin
 SocialUIIgnoreListEntryMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L798)
---- @class SocialUIRaidInfoFrameMixin
-SocialUIRaidInfoFrameMixin = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L913)
---- @class SocialUIRaidInfoExtendMixin
-SocialUIRaidInfoExtendMixin = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L924)
---- @class SocialUIRaidInfoContentFrameMixin
-SocialUIRaidInfoContentFrameMixin = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L3)
 function SocialUITabMixin:Initialize(tabData) end
 
@@ -324,45 +312,3 @@ function SocialUIIgnoreListEntryMixin:RefreshSelected() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L794)
 function SocialUIIgnoreListEntryMixin:SetSelected(selected) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L806)
-function SocialUIRaidInfoFrameMixin:OnLoad() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L819)
-function SocialUIRaidInfoFrameMixin:OnEvent(event, ...) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L827)
-function SocialUIRaidInfoFrameMixin:OnShow() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L833)
-function SocialUIRaidInfoFrameMixin:OnHide() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L837)
-function SocialUIRaidInfoFrameMixin:UpdateButtons() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L860)
-function SocialUIRaidInfoFrameMixin:UpdateScrollAndButtons() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L875)
-function SocialUIRaidInfoFrameMixin:InitButton(button, elementData) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L909)
-function SocialUIRaidInfoFrameMixin:SetButtonSelected(button, selected) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L915)
-function SocialUIRaidInfoExtendMixin:OnClick() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L926)
-function SocialUIRaidInfoContentFrameMixin:OnMouseUp() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L931)
-function SocialUIRaidInfoContentFrameMixin:OnMouseDown() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L936)
-function SocialUIRaidInfoContentFrameMixin:OnClick() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L964)
-function SocialUIRaidInfoContentFrameMixin:OnEnter() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SocialUI/Mainline/SocialUITemplates.lua#L975)
-function SocialUIRaidInfoContentFrameMixin:OnLeave() end

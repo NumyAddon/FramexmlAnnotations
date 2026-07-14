@@ -7,9 +7,9 @@ SocialUITabType = EnumUtil.MakeEnum(--- @type {["Friends"]: 1, ["FriendRequests"
 	"RecentAllies"
 );
 
-SocialUISideWindowType = EnumUtil.MakeEnum(--- @type {["BattleNetBroadcastFrame"]: 1, ["BattleNetUnavailableNoticeFrame"]: 2, ["IgnoreListFrame"]: 3, ["RaidInfo"]: 4} See [SocialUISideWindowType](lua://SocialUISideWindowType)
+SocialUISideWindowType = EnumUtil.MakeEnum(--- @type {["BattleNetBroadcastFrame"]: 1, ["BattleNetUnavailableNoticeFrame"]: 2, ["IgnoreListFrame"]: 3, ["RaidInfoFrame"]: 4} See [SocialUISideWindowType](lua://SocialUISideWindowType)
 	"BattleNetBroadcastFrame",
 	"BattleNetUnavailableNoticeFrame",
 	"IgnoreListFrame",
-	"RaidInfo"
+	"RaidInfoFrame"
 );

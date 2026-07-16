@@ -4,7 +4,7 @@
 --- @class NamePlatePreviewMixin
 NamePlatePreviewMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L797)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L843)
 --- @class NamePlatesTutorialMixin
 NamePlatesTutorialMixin = {}
 
@@ -50,11 +50,11 @@ function NamePlatePreviewMixin:ToggleFriendlyPlayerAuraDisplay() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L194)
 function NamePlatePreviewMixin:ToggleSimplifiedType(simplifiedType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L799)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L845)
 function NamePlatesTutorialMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L809)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L855)
 function NamePlatesTutorialMixin:OnHide() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L813)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_anniversary/Interface/AddOns/Blizzard_SettingsDefinitions_Frame/Nameplates.lua#L859)
 function NamePlatesTutorialMixin:OnShow() end

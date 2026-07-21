@@ -5,87 +5,78 @@
 --- @class PartyFrameBarSegmentTemplate : Frame
 --- @field fillTexture string # Interface\TargetingFrame\UI-StatusBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L9)
---- Template
---- @class PartyBuffFrameTemplate : Frame
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L31)
---- Template
---- @class PartyDebuffFrameTemplate : Frame
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L63)
---- Template
---- @class PartyPetDebuffFrameTemplate : Frame, PartyDebuffFrameTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L42)
 --- child of PartyMemberPetFrameTemplate
 --- @class PartyMemberPetFrameTemplate_HealthBar : StatusBar, TextStatusBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L134)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L54)
 --- child of PartyMemberPetFrameTemplate
---- @class PartyMemberPetFrameTemplate_Debuff1 : Button, PartyPetDebuffFrameTemplate
+--- @class PartyMemberPetFrameTemplate_AuraFrameContainer : Frame, HorizontalLayoutFrame
+--- @field spacing number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L34)
 --- child of PartyMemberPetFrameTemplate
---- @class PartyMemberPetFrameTemplate_Debuff2 : Button, PartyPetDebuffFrameTemplate
+--- @class PartyMemberPetFrameTemplate_Name : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L144)
---- child of PartyMemberPetFrameTemplate
---- @class PartyMemberPetFrameTemplate_Debuff3 : Button, PartyPetDebuffFrameTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L149)
---- child of PartyMemberPetFrameTemplate
---- @class PartyMemberPetFrameTemplate_Debuff4 : Button, PartyPetDebuffFrameTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L9)
 --- Explicitly protected
 --- Template
---- @class PartyMemberPetFrameTemplate : Button, SecureUnitButtonTemplate
+--- @class PartyMemberPetFrameTemplate : Button, SecureUnitButtonTemplate, PartyMemberPetFrameMixin
+--- @field HealthBar PartyMemberPetFrameTemplate_HealthBar
+--- @field AuraFrameContainer PartyMemberPetFrameTemplate_AuraFrameContainer
+--- @field Portrait Texture
+--- @field Texture Texture
+--- @field Flash Texture
+--- @field Name PartyMemberPetFrameTemplate_Name
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L211)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L97)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PowerBarAlt : Frame, UnitPowerBarAltTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L233)
---- child of PartyMemberFrameTemplate_textureFrame_childFrame
---- @class PartyMemberFrameTemplate_textureFrame_childFrame_Name : FontString, GameFontNormalSmall
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L117)
+--- child of PartyMemberFrameTemplate_PartyMemberOverlay
+--- @class PartyMemberFrameTemplate_PartyMemberOverlay_Name : FontString, GameFontNormalSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L247)
---- child of PartyMemberFrameTemplate_textureFrame_childFrame
---- @class PartyMemberFrameTemplate_textureFrame_childFrame_overAbsorbGlow : Texture, OverAbsorbGlowTemplate
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L131)
+--- child of PartyMemberFrameTemplate_PartyMemberOverlay
+--- @class PartyMemberFrameTemplate_PartyMemberOverlay_overAbsorbGlow : Texture, OverAbsorbGlowTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L248)
---- child of PartyMemberFrameTemplate_textureFrame_childFrame
---- @class PartyMemberFrameTemplate_textureFrame_childFrame_overHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L132)
+--- child of PartyMemberFrameTemplate_PartyMemberOverlay
+--- @class PartyMemberFrameTemplate_PartyMemberOverlay_overHealAbsorbGlow : Texture, OverHealAbsorbGlowTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L218)
---- child of PartyMemberFrameTemplate_textureFrame
---- @class PartyMemberFrameTemplate_textureFrame_childFrame : Frame
---- @field overAbsorbGlow PartyMemberFrameTemplate_textureFrame_childFrame_overAbsorbGlow
---- @field overHealAbsorbGlow PartyMemberFrameTemplate_textureFrame_childFrame_overHealAbsorbGlow
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L216)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L102)
 --- child of PartyMemberFrameTemplate
---- @class PartyMemberFrameTemplate_textureFrame : Frame
---- @field childFrame PartyMemberFrameTemplate_textureFrame_childFrame
+--- @class PartyMemberFrameTemplate_PartyMemberOverlay : Frame
+--- @field Texture Texture
+--- @field VehicleTexture Texture
+--- @field Name PartyMemberFrameTemplate_PartyMemberOverlay_Name
+--- @field Status Texture
+--- @field overAbsorbGlow PartyMemberFrameTemplate_PartyMemberOverlay_overAbsorbGlow
+--- @field overHealAbsorbGlow PartyMemberFrameTemplate_PartyMemberOverlay_overHealAbsorbGlow
+--- @field LeaderIcon Texture
+--- @field MasterIcon Texture
+--- @field GuideIcon Texture
+--- @field PVPIcon Texture
+--- @field Disconnect Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L293)
---- child of PartyMemberFrameTemplateHealthBar
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L178)
+--- child of PartyMemberFrameTemplate_HealthBar
 --- @class PartyMemberFrameTemplate_HealthBar_MyHealPredictionBar : Frame, PartyFrameBarSegmentTemplate, MyHealPredictionBarTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L294)
---- child of PartyMemberFrameTemplateHealthBar
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L179)
+--- child of PartyMemberFrameTemplate_HealthBar
 --- @class PartyMemberFrameTemplate_HealthBar_OtherHealPredictionBar : Frame, PartyFrameBarSegmentTemplate, OtherHealPredictionBarTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L295)
---- child of PartyMemberFrameTemplateHealthBar
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L180)
+--- child of PartyMemberFrameTemplate_HealthBar
 --- @class PartyMemberFrameTemplate_HealthBar_HealAbsorbBar : Frame, PlayerFrameBarSegmentTemplate, HealAbsorbBarTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L296)
---- child of PartyMemberFrameTemplateHealthBar
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L181)
+--- child of PartyMemberFrameTemplate_HealthBar
 --- @class PartyMemberFrameTemplate_HealthBar_TotalAbsorbBar : Frame, PlayerFrameBarSegmentTemplate, TotalAbsorbBarTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L172)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_HealthBar : StatusBar, TextStatusBar
 --- @field MyHealPredictionBar PartyMemberFrameTemplate_HealthBar_MyHealPredictionBar
@@ -93,47 +84,43 @@
 --- @field HealAbsorbBar PartyMemberFrameTemplate_HealthBar_HealAbsorbBar
 --- @field TotalAbsorbBar PartyMemberFrameTemplate_HealthBar_TotalAbsorbBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L318)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L204)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_ManaBar : StatusBar, TextStatusBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L223)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_ReadyCheck : Frame, ReadyCheckStatusTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L347)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L233)
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_NotPresentIcon : Frame
 --- @field texture Texture
 --- @field Border Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L369)
---- child of PartyMemberFrameTemplate
---- @class PartyMemberFrameTemplate_Debuff1 : Button, PartyDebuffFrameTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L374)
---- child of PartyMemberFrameTemplate
---- @class PartyMemberFrameTemplate_Debuff2 : Button, PartyDebuffFrameTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L379)
---- child of PartyMemberFrameTemplate
---- @class PartyMemberFrameTemplate_Debuff3 : Button, PartyDebuffFrameTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L384)
---- child of PartyMemberFrameTemplate
---- @class PartyMemberFrameTemplate_Debuff4 : Button, PartyDebuffFrameTemplate
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L389)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L255)
 --- Explicitly protected
 --- child of PartyMemberFrameTemplate
 --- @class PartyMemberFrameTemplate_PetFrame : Button, PartyMemberPetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L182)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L260)
+--- child of PartyMemberFrameTemplate
+--- @class PartyMemberFrameTemplate_AuraFrameContainer : Frame, HorizontalLayoutFrame
+--- @field spacing number # 2
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UnitFrame/Classic/PartyFrameTemplates.xml#L70)
 --- Explicitly protected
 --- Template
---- @class PartyMemberFrameTemplate : Button, SecureUnitButtonTemplate
---- @field textureFrame PartyMemberFrameTemplate_textureFrame
+--- @class PartyMemberFrameTemplate : Button, SecureUnitButtonTemplate, PartyMemberFrameMixin
+--- @field PowerBarAlt PartyMemberFrameTemplate_PowerBarAlt
+--- @field PartyMemberOverlay PartyMemberFrameTemplate_PartyMemberOverlay
 --- @field HealthBar PartyMemberFrameTemplate_HealthBar
 --- @field ManaBar PartyMemberFrameTemplate_ManaBar
---- @field notPresentIcon PartyMemberFrameTemplate_NotPresentIcon
+--- @field ReadyCheck PartyMemberFrameTemplate_ReadyCheck
+--- @field NotPresentIcon PartyMemberFrameTemplate_NotPresentIcon
+--- @field PetFrame PartyMemberFrameTemplate_PetFrame # Explicitly protected
+--- @field AuraFrameContainer PartyMemberFrameTemplate_AuraFrameContainer
+--- @field Flash Texture
+--- @field Portrait Texture
+--- @field Background Texture
 

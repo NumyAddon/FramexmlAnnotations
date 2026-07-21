@@ -5,11 +5,15 @@
 MenuStyle1Mixin = CreateFromMixins(MenuStyleMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.lua#L64)
+--- @class MenuStyle1ThinMixin : MenuStyle1Mixin
+MenuStyle1ThinMixin = CreateFromMixins(MenuStyle1Mixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.lua#L81)
 --- @class MenuStyle2Mixin : MenuStyleMixin
 MenuStyle2Mixin = CreateFromMixins(MenuStyleMixin)
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.lua#L36)
 function MenuStyle1Mixin:Generate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.lua#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Menu/Classic/MenuTemplates.lua#L83)
 function MenuStyle2Mixin:Generate() end

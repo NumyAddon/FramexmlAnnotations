@@ -1,0 +1,7 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateTextureAndTextRow.xml#L3)
+--- Template
+--- @class UIWidgetTemplateTextureAndTextRow : Frame, UIWidgetBaseTemplate, HorizontalLayoutFrame, UIWidgetTemplateTextureAndTextRowMixin
+--- @field expand boolean # true
+

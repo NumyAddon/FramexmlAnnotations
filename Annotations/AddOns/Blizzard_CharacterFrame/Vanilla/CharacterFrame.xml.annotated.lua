@@ -97,17 +97,17 @@
 --- @field Label CharacterStatFrameTemplate_Label
 --- @field Value CharacterStatFrameTemplate_Value
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L185)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L167)
 --- child of CharacterNameFrame
 --- @class CharacterNameText : FontString, GameFontNormal
 CharacterNameText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L160)
 --- child of CharacterFrame
 --- @class CharacterNameFrame : Frame
 CharacterNameFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L202)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L182)
 --- child of CharacterFrame
 --- @class CharacterFrameCloseButton : Button, UIPanelCloseButton
 CharacterFrameCloseButton = {}
@@ -147,7 +147,7 @@ CharacterFrameTab1Right = {}
 --- @type Texture
 CharacterFrameTab1HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L216)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L192)
 --- child of CharacterFrame
 --- @class CharacterFrameTab1 : Button, CharacterFrameTabButtonTemplate
 CharacterFrameTab1 = {}
@@ -187,7 +187,7 @@ CharacterFrameTab2Right = {}
 --- @type Texture
 CharacterFrameTab2HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L232)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L204)
 --- child of CharacterFrame
 --- @class CharacterFrameTab2 : Button, CharacterFrameTabButtonTemplate
 CharacterFrameTab2 = {}
@@ -227,7 +227,7 @@ CharacterFrameTab3Right = {}
 --- @type Texture
 CharacterFrameTab3HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L216)
 --- child of CharacterFrame
 --- @class CharacterFrameTab3 : Button, CharacterFrameTabButtonTemplate
 CharacterFrameTab3 = {}
@@ -267,7 +267,7 @@ CharacterFrameTab4Right = {}
 --- @type Texture
 CharacterFrameTab4HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L228)
 --- child of CharacterFrame
 --- @class CharacterFrameTab4 : Button, CharacterFrameTabButtonTemplate
 CharacterFrameTab4 = {}
@@ -307,12 +307,12 @@ CharacterFrameTab5Right = {}
 --- @type Texture
 CharacterFrameTab5HighlightTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L240)
 --- child of CharacterFrame
 --- @class CharacterFrameTab5 : Button, CharacterFrameTabButtonTemplate
 CharacterFrameTab5 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L157)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_CharacterFrame/Vanilla/CharacterFrame.xml#L151)
 --- child of CharacterFrame
 --- @class CharacterFramePortrait : Texture
 CharacterFramePortrait = {}

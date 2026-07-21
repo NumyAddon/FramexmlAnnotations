@@ -13,19 +13,39 @@
 --- @class TradeItemTemplate : Frame
 --- @field SlotTexture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L60)
---- child of RecipientTradeItemTemplate
---- @class RecipientTradeItemTemplate_ItemButton : Button, ItemButtonTemplate
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L66)
+--- child of TradeItemAlertTemplate
+--- @class TradeItemAlertTemplate_ItemIconAlertAnim : AnimationGroup
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L58)
 --- Template
+--- @class TradeItemAlertTemplate : Frame, TradeItemAlertTemplateMixin
+--- @field LoopFlipbook Texture
+--- @field ItemIconAlertAnim TradeItemAlertTemplate_ItemIconAlertAnim
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L87)
+--- child of RecipientTradeItemTemplateItemButton
+--- @class RecipientTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L82)
+--- child of RecipientTradeItemTemplate
+--- @class RecipientTradeItemTemplate_ItemButton : Button, ItemButtonTemplate
+--- @field Alert RecipientTradeItemTemplate_ItemButton_Alert
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L80)
+--- Template
 --- @class RecipientTradeItemTemplate : Frame, TradeItemTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L137)
+--- child of PlayerTradeItemTemplateItemButton
+--- @class PlayerTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L132)
 --- child of PlayerTradeItemTemplate
 --- @class PlayerTradeItemTemplate_ItemButton : Button, ItemButtonTemplate
+--- @field Alert PlayerTradeItemTemplate_ItemButton_Alert
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L101)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L130)
 --- Template
 --- @class PlayerTradeItemTemplate : Frame, TradeItemTemplate
 
@@ -44,7 +64,7 @@ TradeHighlightPlayerBottom = {}
 --- @type Texture
 TradeHighlightPlayerMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L225)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L261)
 --- child of TradeFrame
 --- @class TradeHighlightPlayer : Frame, TradeHighlightTemplate
 TradeHighlightPlayer = {}
@@ -64,7 +84,7 @@ TradeHighlightRecipientBottom = {}
 --- @type Texture
 TradeHighlightRecipientMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L231)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L267)
 --- child of TradeFrame
 --- @class TradeHighlightRecipient : Frame, TradeHighlightTemplate
 TradeHighlightRecipient = {}
@@ -84,7 +104,7 @@ TradeHighlightPlayerEnchantBottom = {}
 --- @type Texture
 TradeHighlightPlayerEnchantMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L273)
 --- child of TradeFrame
 --- @class TradeHighlightPlayerEnchant : Frame, TradeHighlightTemplate
 TradeHighlightPlayerEnchant = {}
@@ -104,22 +124,26 @@ TradeHighlightRecipientEnchantBottom = {}
 --- @type Texture
 TradeHighlightRecipientEnchantMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L243)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L279)
 --- child of TradeFrame
 --- @class TradeHighlightRecipientEnchant : Frame, TradeHighlightTemplate
 TradeHighlightRecipientEnchant = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L689)
 --- child of TradeRecipientItemsInset (created in template InsetFrameTemplate)
 --- @type Texture
 TradeRecipientItemsInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L249)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L285)
 --- child of TradeFrame
 --- @class TradeRecipientItemsInset : Frame, InsetFrameTemplate
 TradeRecipientItemsInset = {}
 TradeRecipientItemsInset["layoutType"] = "InsetFrameTemplate" -- inherited
 TradeRecipientItemsInset["Bg"] = TradeRecipientItemsInsetBg -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L87)
+--- child of RecipientTradeItemTemplateItemButton
+--- @class RecipientTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradeRecipientItem1ItemButton (created in template ItemButtonTemplate)
@@ -151,7 +175,7 @@ TradeRecipientItem1ItemButtonSubIconTexture = {}
 --- @type Texture
 TradeRecipientItem1ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L82)
 --- child of TradeRecipientItem1 (created in template RecipientTradeItemTemplate)
 --- @type RecipientTradeItemTemplate_ItemButton
 TradeRecipientItem1ItemButton = {}
@@ -175,11 +199,15 @@ TradeRecipientItem1NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradeRecipientItem1Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L255)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L291)
 --- child of TradeFrame
 --- @class TradeRecipientItem1 : Frame, RecipientTradeItemTemplate
 TradeRecipientItem1 = {}
 TradeRecipientItem1["SlotTexture"] = TradeRecipientItem1SlotTexture -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L87)
+--- child of RecipientTradeItemTemplateItemButton
+--- @class RecipientTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradeRecipientItem2ItemButton (created in template ItemButtonTemplate)
@@ -211,7 +239,7 @@ TradeRecipientItem2ItemButtonSubIconTexture = {}
 --- @type Texture
 TradeRecipientItem2ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L82)
 --- child of TradeRecipientItem2 (created in template RecipientTradeItemTemplate)
 --- @type RecipientTradeItemTemplate_ItemButton
 TradeRecipientItem2ItemButton = {}
@@ -235,11 +263,15 @@ TradeRecipientItem2NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradeRecipientItem2Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L296)
 --- child of TradeFrame
 --- @class TradeRecipientItem2 : Frame, RecipientTradeItemTemplate
 TradeRecipientItem2 = {}
 TradeRecipientItem2["SlotTexture"] = TradeRecipientItem2SlotTexture -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L87)
+--- child of RecipientTradeItemTemplateItemButton
+--- @class RecipientTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradeRecipientItem3ItemButton (created in template ItemButtonTemplate)
@@ -271,7 +303,7 @@ TradeRecipientItem3ItemButtonSubIconTexture = {}
 --- @type Texture
 TradeRecipientItem3ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L82)
 --- child of TradeRecipientItem3 (created in template RecipientTradeItemTemplate)
 --- @type RecipientTradeItemTemplate_ItemButton
 TradeRecipientItem3ItemButton = {}
@@ -295,11 +327,15 @@ TradeRecipientItem3NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradeRecipientItem3Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L301)
 --- child of TradeFrame
 --- @class TradeRecipientItem3 : Frame, RecipientTradeItemTemplate
 TradeRecipientItem3 = {}
 TradeRecipientItem3["SlotTexture"] = TradeRecipientItem3SlotTexture -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L87)
+--- child of RecipientTradeItemTemplateItemButton
+--- @class RecipientTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradeRecipientItem4ItemButton (created in template ItemButtonTemplate)
@@ -331,7 +367,7 @@ TradeRecipientItem4ItemButtonSubIconTexture = {}
 --- @type Texture
 TradeRecipientItem4ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L82)
 --- child of TradeRecipientItem4 (created in template RecipientTradeItemTemplate)
 --- @type RecipientTradeItemTemplate_ItemButton
 TradeRecipientItem4ItemButton = {}
@@ -355,11 +391,15 @@ TradeRecipientItem4NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradeRecipientItem4Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L306)
 --- child of TradeFrame
 --- @class TradeRecipientItem4 : Frame, RecipientTradeItemTemplate
 TradeRecipientItem4 = {}
 TradeRecipientItem4["SlotTexture"] = TradeRecipientItem4SlotTexture -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L87)
+--- child of RecipientTradeItemTemplateItemButton
+--- @class RecipientTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradeRecipientItem5ItemButton (created in template ItemButtonTemplate)
@@ -391,7 +431,7 @@ TradeRecipientItem5ItemButtonSubIconTexture = {}
 --- @type Texture
 TradeRecipientItem5ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L82)
 --- child of TradeRecipientItem5 (created in template RecipientTradeItemTemplate)
 --- @type RecipientTradeItemTemplate_ItemButton
 TradeRecipientItem5ItemButton = {}
@@ -415,11 +455,15 @@ TradeRecipientItem5NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradeRecipientItem5Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L311)
 --- child of TradeFrame
 --- @class TradeRecipientItem5 : Frame, RecipientTradeItemTemplate
 TradeRecipientItem5 = {}
 TradeRecipientItem5["SlotTexture"] = TradeRecipientItem5SlotTexture -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L87)
+--- child of RecipientTradeItemTemplateItemButton
+--- @class RecipientTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradeRecipientItem6ItemButton (created in template ItemButtonTemplate)
@@ -451,7 +495,7 @@ TradeRecipientItem6ItemButtonSubIconTexture = {}
 --- @type Texture
 TradeRecipientItem6ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L82)
 --- child of TradeRecipientItem6 (created in template RecipientTradeItemTemplate)
 --- @type RecipientTradeItemTemplate_ItemButton
 TradeRecipientItem6ItemButton = {}
@@ -475,23 +519,27 @@ TradeRecipientItem6NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradeRecipientItem6Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L316)
 --- child of TradeFrame
 --- @class TradeRecipientItem6 : Frame, RecipientTradeItemTemplate
 TradeRecipientItem6 = {}
 TradeRecipientItem6["SlotTexture"] = TradeRecipientItem6SlotTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L689)
 --- child of TradeRecipientEnchantInset (created in template InsetFrameTemplate)
 --- @type Texture
 TradeRecipientEnchantInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L321)
 --- child of TradeFrame
 --- @class TradeRecipientEnchantInset : Frame, InsetFrameTemplate
 TradeRecipientEnchantInset = {}
 TradeRecipientEnchantInset["layoutType"] = "InsetFrameTemplate" -- inherited
 TradeRecipientEnchantInset["Bg"] = TradeRecipientEnchantInsetBg -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L87)
+--- child of RecipientTradeItemTemplateItemButton
+--- @class RecipientTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradeRecipientItem7ItemButton (created in template ItemButtonTemplate)
@@ -523,7 +571,7 @@ TradeRecipientItem7ItemButtonSubIconTexture = {}
 --- @type Texture
 TradeRecipientItem7ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L82)
 --- child of TradeRecipientItem7 (created in template RecipientTradeItemTemplate)
 --- @type RecipientTradeItemTemplate_ItemButton
 TradeRecipientItem7ItemButton = {}
@@ -547,23 +595,27 @@ TradeRecipientItem7NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradeRecipientItem7Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L327)
 --- child of TradeFrame
 --- @class TradeRecipientItem7 : Frame, RecipientTradeItemTemplate
 TradeRecipientItem7 = {}
 TradeRecipientItem7["SlotTexture"] = TradeRecipientItem7SlotTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L689)
 --- child of TradePlayerItemsInset (created in template InsetFrameTemplate)
 --- @type Texture
 TradePlayerItemsInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L306)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L342)
 --- child of TradeFrame
 --- @class TradePlayerItemsInset : Frame, InsetFrameTemplate
 TradePlayerItemsInset = {}
 TradePlayerItemsInset["layoutType"] = "InsetFrameTemplate" -- inherited
 TradePlayerItemsInset["Bg"] = TradePlayerItemsInsetBg -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L137)
+--- child of PlayerTradeItemTemplateItemButton
+--- @class PlayerTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradePlayerItem1ItemButton (created in template ItemButtonTemplate)
@@ -595,7 +647,7 @@ TradePlayerItem1ItemButtonSubIconTexture = {}
 --- @type Texture
 TradePlayerItem1ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L132)
 --- child of TradePlayerItem1 (created in template PlayerTradeItemTemplate)
 --- @type PlayerTradeItemTemplate_ItemButton
 TradePlayerItem1ItemButton = {}
@@ -619,11 +671,15 @@ TradePlayerItem1NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradePlayerItem1Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L312)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L348)
 --- child of TradeFrame
 --- @class TradePlayerItem1 : Frame, PlayerTradeItemTemplate
 TradePlayerItem1 = {}
 TradePlayerItem1["SlotTexture"] = TradePlayerItem1SlotTexture -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L137)
+--- child of PlayerTradeItemTemplateItemButton
+--- @class PlayerTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradePlayerItem2ItemButton (created in template ItemButtonTemplate)
@@ -655,7 +711,7 @@ TradePlayerItem2ItemButtonSubIconTexture = {}
 --- @type Texture
 TradePlayerItem2ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L132)
 --- child of TradePlayerItem2 (created in template PlayerTradeItemTemplate)
 --- @type PlayerTradeItemTemplate_ItemButton
 TradePlayerItem2ItemButton = {}
@@ -679,11 +735,15 @@ TradePlayerItem2NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradePlayerItem2Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L317)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L353)
 --- child of TradeFrame
 --- @class TradePlayerItem2 : Frame, PlayerTradeItemTemplate
 TradePlayerItem2 = {}
 TradePlayerItem2["SlotTexture"] = TradePlayerItem2SlotTexture -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L137)
+--- child of PlayerTradeItemTemplateItemButton
+--- @class PlayerTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradePlayerItem3ItemButton (created in template ItemButtonTemplate)
@@ -715,7 +775,7 @@ TradePlayerItem3ItemButtonSubIconTexture = {}
 --- @type Texture
 TradePlayerItem3ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L132)
 --- child of TradePlayerItem3 (created in template PlayerTradeItemTemplate)
 --- @type PlayerTradeItemTemplate_ItemButton
 TradePlayerItem3ItemButton = {}
@@ -739,11 +799,15 @@ TradePlayerItem3NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradePlayerItem3Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L322)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L358)
 --- child of TradeFrame
 --- @class TradePlayerItem3 : Frame, PlayerTradeItemTemplate
 TradePlayerItem3 = {}
 TradePlayerItem3["SlotTexture"] = TradePlayerItem3SlotTexture -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L137)
+--- child of PlayerTradeItemTemplateItemButton
+--- @class PlayerTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradePlayerItem4ItemButton (created in template ItemButtonTemplate)
@@ -775,7 +839,7 @@ TradePlayerItem4ItemButtonSubIconTexture = {}
 --- @type Texture
 TradePlayerItem4ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L132)
 --- child of TradePlayerItem4 (created in template PlayerTradeItemTemplate)
 --- @type PlayerTradeItemTemplate_ItemButton
 TradePlayerItem4ItemButton = {}
@@ -799,11 +863,15 @@ TradePlayerItem4NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradePlayerItem4Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L327)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L363)
 --- child of TradeFrame
 --- @class TradePlayerItem4 : Frame, PlayerTradeItemTemplate
 TradePlayerItem4 = {}
 TradePlayerItem4["SlotTexture"] = TradePlayerItem4SlotTexture -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L137)
+--- child of PlayerTradeItemTemplateItemButton
+--- @class PlayerTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradePlayerItem5ItemButton (created in template ItemButtonTemplate)
@@ -835,7 +903,7 @@ TradePlayerItem5ItemButtonSubIconTexture = {}
 --- @type Texture
 TradePlayerItem5ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L132)
 --- child of TradePlayerItem5 (created in template PlayerTradeItemTemplate)
 --- @type PlayerTradeItemTemplate_ItemButton
 TradePlayerItem5ItemButton = {}
@@ -859,11 +927,15 @@ TradePlayerItem5NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradePlayerItem5Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L332)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L368)
 --- child of TradeFrame
 --- @class TradePlayerItem5 : Frame, PlayerTradeItemTemplate
 TradePlayerItem5 = {}
 TradePlayerItem5["SlotTexture"] = TradePlayerItem5SlotTexture -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L137)
+--- child of PlayerTradeItemTemplateItemButton
+--- @class PlayerTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradePlayerItem6ItemButton (created in template ItemButtonTemplate)
@@ -895,7 +967,7 @@ TradePlayerItem6ItemButtonSubIconTexture = {}
 --- @type Texture
 TradePlayerItem6ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L132)
 --- child of TradePlayerItem6 (created in template PlayerTradeItemTemplate)
 --- @type PlayerTradeItemTemplate_ItemButton
 TradePlayerItem6ItemButton = {}
@@ -919,23 +991,27 @@ TradePlayerItem6NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradePlayerItem6Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L337)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L373)
 --- child of TradeFrame
 --- @class TradePlayerItem6 : Frame, PlayerTradeItemTemplate
 TradePlayerItem6 = {}
 TradePlayerItem6["SlotTexture"] = TradePlayerItem6SlotTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L689)
 --- child of TradePlayerEnchantInset (created in template InsetFrameTemplate)
 --- @type Texture
 TradePlayerEnchantInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L378)
 --- child of TradeFrame
 --- @class TradePlayerEnchantInset : Frame, InsetFrameTemplate
 TradePlayerEnchantInset = {}
 TradePlayerEnchantInset["layoutType"] = "InsetFrameTemplate" -- inherited
 TradePlayerEnchantInset["Bg"] = TradePlayerEnchantInsetBg -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L137)
+--- child of PlayerTradeItemTemplateItemButton
+--- @class PlayerTradeItemTemplate_ItemButton_Alert : Frame, TradeItemAlertTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L10)
 --- child of TradePlayerItem7ItemButton (created in template ItemButtonTemplate)
@@ -967,7 +1043,7 @@ TradePlayerItem7ItemButtonSubIconTexture = {}
 --- @type Texture
 TradePlayerItem7ItemButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L132)
 --- child of TradePlayerItem7 (created in template PlayerTradeItemTemplate)
 --- @type PlayerTradeItemTemplate_ItemButton
 TradePlayerItem7ItemButton = {}
@@ -991,32 +1067,33 @@ TradePlayerItem7NameFrame = {}
 --- @type TradeItemTemplate_Name
 TradePlayerItem7Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L348)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L384)
 --- child of TradeFrame
 --- @class TradePlayerItem7 : Frame, PlayerTradeItemTemplate
 TradePlayerItem7 = {}
 TradePlayerItem7["SlotTexture"] = TradePlayerItem7SlotTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L377)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L413)
 --- child of TradeFrame
---- @class TradeFrameTradeButton : Button, UIPanelButtonTemplate
+--- @class TradeFrameTradeButton : Button, UIPanelButtonTemplate, TradeFrameTradeButtonMixin
+--- @field WarningIcon Texture
 TradeFrameTradeButton = {}
 TradeFrameTradeButton["fitTextCanWidthDecrease"] = true -- inherited
 TradeFrameTradeButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L390)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L438)
 --- child of TradeFrame
 --- @class TradeFrameCancelButton : Button, UIPanelButtonTemplate
 TradeFrameCancelButton = {}
 TradeFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 TradeFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L689)
 --- child of TradePlayerInputMoneyInset (created in template InsetFrameTemplate)
 --- @type Texture
 TradePlayerInputMoneyInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L403)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L451)
 --- child of TradeFrame
 --- @class TradePlayerInputMoneyInset : Frame, InsetFrameTemplate
 TradePlayerInputMoneyInset = {}
@@ -1038,7 +1115,7 @@ TradePlayerInputMoneyFrameSilver = {}
 --- @type MoneyInputFrameTemplate_Copper
 TradePlayerInputMoneyFrameCopper = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L409)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L457)
 --- child of TradeFrame
 --- @class TradePlayerInputMoneyFrame : Frame, MoneyInputFrameTemplate
 TradePlayerInputMoneyFrame = {}
@@ -1046,12 +1123,12 @@ TradePlayerInputMoneyFrame["gold"] = TradePlayerInputMoneyFrameGold -- inherited
 TradePlayerInputMoneyFrame["silver"] = TradePlayerInputMoneyFrameSilver -- inherited
 TradePlayerInputMoneyFrame["copper"] = TradePlayerInputMoneyFrameCopper -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L689)
 --- child of TradeRecipientMoneyInset (created in template InsetFrameTemplate)
 --- @type Texture
 TradeRecipientMoneyInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L426)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L474)
 --- child of TradeFrame
 --- @class TradeRecipientMoneyInset : Frame, InsetFrameTemplate
 TradeRecipientMoneyInset = {}
@@ -1073,7 +1150,7 @@ TradeRecipientMoneyBgRight = {}
 --- @type Texture
 TradeRecipientMoneyBgMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L432)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L480)
 --- child of TradeFrame
 --- @class TradeRecipientMoneyBg : Frame, ThinGoldEdgeTemplate
 TradeRecipientMoneyBg = {}
@@ -1098,7 +1175,7 @@ TradeRecipientMoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 TradeRecipientMoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L439)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L487)
 --- child of TradeFrame
 --- @class TradeRecipientMoneyFrame : Frame, SmallMoneyFrameTemplate
 TradeRecipientMoneyFrame = {}
@@ -1107,159 +1184,159 @@ TradeRecipientMoneyFrame["CopperButton"] = TradeRecipientMoneyFrameCopperButton 
 TradeRecipientMoneyFrame["SilverButton"] = TradeRecipientMoneyFrameSilverButton -- inherited
 TradeRecipientMoneyFrame["GoldButton"] = TradeRecipientMoneyFrameGoldButton -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L157)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L193)
 --- child of TradeFrame
 --- @class TradeFramePlayerPortrait : Texture
 TradeFramePlayerPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L201)
 --- child of TradeFrame
 --- @class TradeFrameRecipientPortrait : Texture
 TradeFrameRecipientPortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L173)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L209)
 --- child of TradeFrame
 --- @class TradeRecipientPortraitFrame : Texture, UI_Frame_Portrait
 TradeRecipientPortraitFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L178)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L214)
 --- child of TradeFrame
 --- @class TradeRecipientBotLeftCorner : Texture, UI_Frame_BotCornerLeft
 TradeRecipientBotLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L183)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L219)
 --- child of TradeFrame
 --- @class TradeRecipientLeftBorder : Texture, _UI_Frame_LeftTile
 TradeRecipientLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L227)
 --- child of TradeFrame
 --- @class TradeRecipientBG : Texture
 TradeRecipientBG = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L200)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L236)
 --- child of TradeFrame
 --- @class TradeFrameRecipientNameText : FontString, GameFontNormal
 TradeFrameRecipientNameText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L206)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L242)
 --- child of TradeFrame
 --- @class TradeFramePlayerNameText : FontString, GameFontNormal
 TradeFramePlayerNameText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L248)
 --- child of TradeFrame
 --- @class TradeFramePlayerEnchantText : FontString, GameFontHighlightSmall
 TradeFramePlayerEnchantText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L217)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L253)
 --- child of TradeFrame
 --- @class TradeFrameRecipientEnchantText : FontString, GameFontHighlightSmall
 TradeFrameRecipientEnchantText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L746)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L689)
 --- child of TradeFrameInset (created in template InsetFrameTemplate)
 --- @type Texture
 TradeFrameInsetBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L787)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L730)
 --- child of TradeFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_Inset
 TradeFrameInset = {}
 TradeFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
 TradeFrameInset["Bg"] = TradeFrameInsetBg -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L768)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L711)
 --- child of TradeFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerLeft
 TradeFrameBtnCornerLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L773)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L716)
 --- child of TradeFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_BtnCornerRight
 TradeFrameBtnCornerRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L778)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L721)
 --- child of TradeFrame (created in template ButtonFrameTemplate)
 --- @type ButtonFrameTemplate_ButtonBottomBorder
 TradeFrameButtonBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L604)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L547)
 --- child of TradeFrame (created in template PortraitFrameTemplate)
 --- @type PortraitFrameTemplate_CloseButton
 TradeFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L510)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L444)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 TradeFrameBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L516)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L450)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleBg
 TradeFrameTitleBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L524)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L458)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type Texture
 TradeFramePortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L532)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L475)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_PortraitFrame
 TradeFramePortraitFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L537)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L480)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopRightCorner
 TradeFrameTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L542)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L485)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopLeftCorner
 TradeFrameTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L547)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L490)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopBorder
 TradeFrameTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L553)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L496)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TitleText
 TradeFrameTitleText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L562)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L505)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_TopTileStreaks
 TradeFrameTopTileStreaks = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L568)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L511)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotLeftCorner
 TradeFrameBotLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L573)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L516)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BotRightCorner
 TradeFrameBotRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L578)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L521)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_BottomBorder
 TradeFrameBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L584)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L527)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_LeftBorder
 TradeFrameLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L590)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L533)
 --- child of TradeFrame (created in template PortraitFrameTemplateNoCloseButton)
 --- @type PortraitFrameTemplateNoCloseButton_RightBorder
 TradeFrameRightBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/TradeFrame.xml#L189)
 --- @class TradeFrame : Frame, ButtonFrameTemplate
 --- @field LeftInset TradeRecipientItemsInset | TradeRecipientEnchantInset | TradePlayerItemsInset | TradePlayerEnchantInset | TradePlayerInputMoneyInset | TradeRecipientMoneyInset
 --- @field portraitFrame TradeRecipientPortraitFrame

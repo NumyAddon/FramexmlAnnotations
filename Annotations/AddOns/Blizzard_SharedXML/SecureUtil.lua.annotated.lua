@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L3)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L2)
 --- @class ShrinkUntilTruncateFontStringMixin
 ShrinkUntilTruncateFontStringMixin = {}
 
@@ -8,16 +8,16 @@ ShrinkUntilTruncateFontStringMixin = {}
 --- @class AutoScalingFontStringMixin
 AutoScalingFontStringMixin = { }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L6)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L5)
 function ShrinkUntilTruncateFontStringMixin:SetFontObjectsToTry(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L13)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L12)
 function ShrinkUntilTruncateFontStringMixin:ApplyFontObjects() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L25)
 function ShrinkUntilTruncateFontStringMixin:SetText(text) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L38)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L37)
 function ShrinkUntilTruncateFontStringMixin:SetFormattedText(format, ...) end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/SecureUtil.lua#L55)

@@ -2,11 +2,11 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L5)
 --- Template
---- @class QuickJoinButtonMemberTemplate : FontString, UserScaledFontGameNormal
+--- @class QuickJoinButtonMemberTemplate : FontString, UserScaledFontGameNormalLarge
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L8)
 --- Template
---- @class QuickJoinButtonQueueTemplate : FontString, UserScaledFontGameNormal
+--- @class QuickJoinButtonQueueTemplate : FontString, UserScaledFontGameNormalLarge
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L24)
 --- child of QuickJoinButtonTemplate

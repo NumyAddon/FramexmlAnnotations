@@ -39,6 +39,7 @@ HousingBlueprintImportLoadingFrame = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L94)
 --- child of HousingBlueprintImportFrame_InputContent
 --- @class HousingBlueprintImportFrame_InputContent_GearDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
+--- @field ignoreInLayout boolean # true
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L58)
 --- child of HousingBlueprintImportFrame_InputContent
@@ -61,32 +62,38 @@ HousingBlueprintImportLoadingFrame = {}
 --- @field ShareCodeLabel HousingBlueprintImportFrame_InputContent_ShareCodeLabel
 --- @field NoticeText HousingBlueprintImportFrame_InputContent_NoticeText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L115)
 --- child of HousingBlueprintImportFrame_ValidationContent
 --- @class HousingBlueprintImportFrame_ValidationContent_ContentSummary : Frame, HousingBlueprintContentSummaryTemplate
 --- @field layoutIndex number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L120)
+--- child of HousingBlueprintImportFrame_ValidationContent
+--- @class HousingBlueprintImportFrame_ValidationContent_GearDropdown : DropdownButton, UIPanelIconDropdownButtonTemplate
+--- @field ignoreInLayout boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L128)
 --- child of HousingBlueprintImportFrame_ValidationContent
 --- @class HousingBlueprintImportFrame_ValidationContent_ImportButton : Button, UIPanelDynamicResizeButtonTemplate
 --- @field layoutIndex number # 3
 --- @field align string # center
 --- @field topPadding number # 10
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L139)
 --- child of HousingBlueprintImportFrame_ValidationContent
 --- @class HousingBlueprintImportFrame_ValidationContent_NoticeText : FontString, GameFontHighlight
 --- @field layoutIndex number # 2
 --- @field expand boolean # true
 --- @field topPadding number # 10
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L105)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintImport.xml#L108)
 --- child of HousingBlueprintImportFrame
 --- @class HousingBlueprintImportFrame_ValidationContent : Frame, HousingBlueprintImportContentTemplate, VerticalLayoutFrame, HousingBlueprintImportValidationContentMixin
 --- @field minimumWidth number # 100
 --- @field spacing number # 10
 --- @field bottomPadding number # 0
 --- @field ContentSummary HousingBlueprintImportFrame_ValidationContent_ContentSummary
+--- @field GearDropdown HousingBlueprintImportFrame_ValidationContent_GearDropdown
 --- @field ImportButton HousingBlueprintImportFrame_ValidationContent_ImportButton
 --- @field NoticeText HousingBlueprintImportFrame_ValidationContent_NoticeText
 

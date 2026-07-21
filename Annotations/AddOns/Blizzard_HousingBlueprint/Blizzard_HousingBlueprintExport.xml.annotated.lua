@@ -54,35 +54,35 @@
 --- @field NameInputLabel HousingBlueprintExportFrame_InputContent_NameInputLabel
 --- @field ErrorText HousingBlueprintExportFrame_InputContent_ErrorText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L108)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L107)
 --- child of HousingBlueprintExportFrame_SuccessContent
 --- @class HousingBlueprintExportFrame_SuccessContent_BlueprintsCollectionButton : Button, UIPanelDynamicResizeButtonTemplate
 --- @field maxWidth number # 300
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L116)
 --- child of HousingBlueprintExportFrame_SuccessContent
 --- @class HousingBlueprintExportFrame_SuccessContent_ShareCodeBox : ScrollFrame, InputScrollFrameTemplate
 --- @field hideCharCount boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L128)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L127)
 --- child of HousingBlueprintExportFrame_SuccessContent
 --- @class HousingBlueprintExportFrame_SuccessContent_ChatLinkButton : Button, UIPanelButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L134)
 --- child of HousingBlueprintExportFrame_SuccessContent
 --- @class HousingBlueprintExportFrame_SuccessContent_ClipboardButton : Button, UIPanelButtonTemplate
 --- @field tooltipText any # TALENT_FRAME_DROP_DOWN_EXPORT_CLIPBOARD
 --- @field tooltipAnchor string # ANCHOR_BOTTOM
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L98)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L97)
 --- child of HousingBlueprintExportFrame_SuccessContent
 --- @class HousingBlueprintExportFrame_SuccessContent_SavedName : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L149)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L148)
 --- child of HousingBlueprintExportFrame_SuccessContent
 --- @class HousingBlueprintExportFrame_SuccessContent_ShareCodeLabel : FontString, GameFontHighlightSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L94)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L93)
 --- child of HousingBlueprintExportFrame
 --- @class HousingBlueprintExportFrame_SuccessContent : Frame, ResizeLayoutFrame, HousingBlueprintExportContentTemplate, HousingBlueprintExportSuccessContentMixin
 --- @field BlueprintsCollectionButton HousingBlueprintExportFrame_SuccessContent_BlueprintsCollectionButton
@@ -92,11 +92,11 @@
 --- @field SavedName HousingBlueprintExportFrame_SuccessContent_SavedName
 --- @field ShareCodeLabel HousingBlueprintExportFrame_SuccessContent_ShareCodeLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L171)
 --- child of HousingBlueprintExportFrame_LoadingOverlay
 --- @class HousingBlueprintExportFrame_LoadingOverlay_Spinner : Frame, SpinnerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L163)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintExport.xml#L162)
 --- child of HousingBlueprintExportFrame
 --- @class HousingBlueprintExportFrame_LoadingOverlay : Frame
 --- @field ignoreInLayout boolean # true

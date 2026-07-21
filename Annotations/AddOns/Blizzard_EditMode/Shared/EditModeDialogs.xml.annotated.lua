@@ -147,47 +147,52 @@ EditModeUnsavedChangesDialog = {}
 --- Template
 --- @class EditModeSystemSettingsDialogButtonTemplate : Button, UIPanelButtonTemplate, UIButtonTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L250)
+--- child of EditModeSystemSettingsDialogExtraButtonTemplate
+--- @class EditModeSystemSettingsDialogExtraButtonTemplate_NewOptionsFrame : Frame, NewFeatureLabelTemplate
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L247)
 --- Template
---- @class EditModeSystemSettingsDialogExtraButtonTemplate : Button, UIPanelButtonTemplate, UIButtonTemplate
+--- @class EditModeSystemSettingsDialogExtraButtonTemplate : Button, UIPanelButtonTemplate, UIButtonTemplate, NewDefinitionsCheckerTemplate, NewDefinitionsCheckerButtonMixin
+--- @field NewOptionsFrame EditModeSystemSettingsDialogExtraButtonTemplate_NewOptionsFrame
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L273)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Border : Frame, DialogBorderTranslucentTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L278)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_CloseButton : Button, UIPanelCloseButton
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L286)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Settings : Frame, VerticalLayoutFrame
 --- @field spacing number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L303)
 --- child of EditModeSystemSettingsDialog_Buttons
 --- @class EditModeSystemSettingsDialog_Buttons_RevertChangesButton : Button, EditModeSystemSettingsDialogButtonTemplate
 --- @field layoutIndex number # 1
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L308)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L311)
 --- child of EditModeSystemSettingsDialog_Buttons
 --- @class EditModeSystemSettingsDialog_Buttons_Divider : Texture
 --- @field layoutIndex number # 2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L295)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Buttons : Frame, VerticalLayoutFrame
 --- @field spacing number # 2
 --- @field RevertChangesButton EditModeSystemSettingsDialog_Buttons_RevertChangesButton
 --- @field Divider EditModeSystemSettingsDialog_Buttons_Divider
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L262)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L265)
 --- child of EditModeSystemSettingsDialog
 --- @class EditModeSystemSettingsDialog_Title : FontString, GameFontHighlightLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L251)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EditMode/Shared/EditModeDialogs.xml#L254)
 --- @class EditModeSystemSettingsDialog : Frame, EditModeBaseDialogTemplate, ResizeLayoutFrame, EditModeSystemSettingsDialogMixin
 --- @field widthPadding number # 40
 --- @field heightPadding number # 40

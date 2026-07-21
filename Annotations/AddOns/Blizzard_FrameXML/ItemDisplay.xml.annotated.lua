@@ -1,38 +1,38 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L66)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L64)
 --- child of LootItemExtended
 --- @class LootItemExtended_Count : FontString, NumberFontNormalLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L120)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L118)
 --- child of LootItemExtended
 --- @class LootItemExtended_Arrow1 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L123)
 --- child of LootItemExtended
 --- @class LootItemExtended_Arrow2 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L128)
 --- child of LootItemExtended
 --- @class LootItemExtended_Arrow3 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L135)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L133)
 --- child of LootItemExtended
 --- @class LootItemExtended_Arrow4 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L138)
 --- child of LootItemExtended
 --- @class LootItemExtended_Arrow5 : Texture, LootUpgradeFrame_ArrowTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L11)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L9)
 --- child of LootItemExtended
 --- @class LootItemExtended_animArrows : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L28)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L26)
 --- child of LootItemExtended
 --- @class LootItemExtended_IconAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/ItemDisplay.xml#L3)
 --- Template
 --- @class LootItemExtended : Button, LootItemExtendedMixin
 --- @field Icon Texture

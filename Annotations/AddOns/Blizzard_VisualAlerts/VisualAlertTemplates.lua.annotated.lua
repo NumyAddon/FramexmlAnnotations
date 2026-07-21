@@ -8,7 +8,7 @@ VisualAlertBaseMixin = CreateFromMixins(VisualAlertMixin)
 --- @class VisualAlertMarchingAntsBaseMixin
 VisualAlertMarchingAntsBaseMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L62)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L63)
 --- @class VisualAlertFlashBaseMixin
 VisualAlertFlashBaseMixin = {}
 
@@ -42,8 +42,8 @@ function VisualAlertMarchingAntsBaseMixin:GetVertexColoredRegions() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L56)
 function VisualAlertMarchingAntsBaseMixin:GetAnchors() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L65)
 function VisualAlertFlashBaseMixin:GetVertexColoredRegions() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L68)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlertTemplates.lua#L69)
 function VisualAlertFlashBaseMixin:GetAnchors() end

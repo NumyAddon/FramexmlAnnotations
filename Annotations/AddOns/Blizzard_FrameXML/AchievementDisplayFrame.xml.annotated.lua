@@ -1,29 +1,29 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L16)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L14)
 --- child of AchievementDisplayOverviewBulletTemplate
 --- @class AchievementDisplayOverviewBulletTemplate_Dash : FontString, GameFontBlackMedium
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L20)
 --- child of AchievementDisplayOverviewBulletTemplate
 --- @class AchievementDisplayOverviewBulletTemplate_Text : FontString, GameFontBlackMedium
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L5)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L3)
 --- Template
 --- @class AchievementDisplayOverviewBulletTemplate : Frame, AchievementDisplayOverviewBulletMixin
 --- @field Check Texture
 --- @field Dash AchievementDisplayOverviewBulletTemplate_Dash
 --- @field Text AchievementDisplayOverviewBulletTemplate_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L63)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L61)
 --- child of AchievementDisplayTemplate
 --- @class AchievementDisplayTemplate_Title : FontString, GameFontNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L70)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L68)
 --- child of AchievementDisplayTemplate
 --- @class AchievementDisplayTemplate_Description : FontString, GameFontBlack
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L38)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/AchievementDisplayFrame.xml#L36)
 --- Template
 --- @class AchievementDisplayTemplate : Frame, AchievementDisplayMixin
 --- @field HeaderBackground Texture

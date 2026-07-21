@@ -1,16 +1,16 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L14)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L13)
 --- child of GhostFrameContentsFrame
 --- @class GhostFrameContentsFrameText : FontString, GameFontNormal
 GhostFrameContentsFrameText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L19)
 --- child of GhostFrameContentsFrame
 --- @class GhostFrameContentsFrameIcon : Texture
 GhostFrameContentsFrameIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L7)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L6)
 --- child of GhostFrame
 --- @class GhostFrameContentsFrame : Frame
 GhostFrameContentsFrame = {}
@@ -45,7 +45,7 @@ GhostFrameRight = {}
 --- @type Texture
 GhostFrameMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L4)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L3)
 --- @class GhostFrame : Button, UIPanelLargeSilverButton, GhostFrameMixin
 GhostFrame = {}
 

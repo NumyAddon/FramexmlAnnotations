@@ -12,7 +12,7 @@ PingableType_PlayerUnitFrameMixin = CreateFromMixins(PingableType_UnitFrameMixin
 --- @class PingableType_ActionButtonMixin : PingableTypeMixin
 PingableType_ActionButtonMixin = CreateFromMixins(PingableTypeMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L115)
 --- @class PingableType_CooldownViewerItemMixin : PingableTypeMixin
 PingableType_CooldownViewerItemMixin = CreateFromMixins(PingableTypeMixin)
 
@@ -47,14 +47,14 @@ function PingableType_ActionButtonMixin:UpdatePingAttributes() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L72)
 function PingableType_ActionButtonMixin:GetIsPingable() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L92)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L93)
 function PingableType_ActionButtonMixin:GetAllowRadialWheel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L96)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L97)
 function PingableType_ActionButtonMixin:GetTargetInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L114)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L117)
 function PingableType_CooldownViewerItemMixin:GetAllowRadialWheel() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXML/PingableType.lua#L121)
 function PingableType_CooldownViewerItemMixin:GetTargetInfo() end

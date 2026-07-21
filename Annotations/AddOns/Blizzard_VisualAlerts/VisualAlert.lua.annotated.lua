@@ -20,13 +20,16 @@ function VisualAlertMixin:ClearAlertTarget() end
 function VisualAlertMixin:GetAnchors() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlert.lua#L56)
+function VisualAlertMixin:GetAnchorScale() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlert.lua#L62)
 function VisualAlertMixin:AnchorAlertInternal(...) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlert.lua#L74)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlert.lua#L80)
 function VisualAlertMixin:AnchorAlert() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlert.lua#L79)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlert.lua#L85)
 function VisualAlertMixin:GetPriority() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlert.lua#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_VisualAlerts/VisualAlert.lua#L91)
 function VisualAlertMixin:GetAlertID() end

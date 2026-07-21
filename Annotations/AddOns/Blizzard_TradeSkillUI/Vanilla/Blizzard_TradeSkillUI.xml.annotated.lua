@@ -8,32 +8,32 @@
 --- Template
 --- @class TradeSkillItemTemplate : Button, QuestItemTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L153)
 --- child of TradeSkillRankFrameBorder
 --- @class TradeSkillRankFrameBorderNormal : Texture
 TradeSkillRankFrameBorderNormal = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L148)
 --- child of TradeSkillRankFrame
 --- @class TradeSkillRankFrameBorder : Button
 TradeSkillRankFrameBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L179)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L129)
 --- child of TradeSkillRankFrame
 --- @class TradeSkillRankFrameSkillName : FontString, GameFontNormalSmall
 TradeSkillRankFrameSkillName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L134)
 --- child of TradeSkillRankFrame
 --- @class TradeSkillRankFrameSkillRank : FontString, GameFontHighlightSmall
 TradeSkillRankFrameSkillRank = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L202)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L142)
 --- child of TradeSkillRankFrame
 --- @class TradeSkillRankFrameBackground : Texture
 TradeSkillRankFrameBackground = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L122)
 --- child of TradeSkillFrame
 --- @class TradeSkillRankFrame : StatusBar
 TradeSkillRankFrame = {}
@@ -48,49 +48,49 @@ TradeSkillCollapseAllButtonSubText = {}
 --- @type Texture
 TradeSkillCollapseAllButtonHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L195)
 --- child of TradeSkillExpandButtonFrame
 --- @class TradeSkillCollapseAllButton : Button, ClassTrainerSkillButtonTemplate
 TradeSkillCollapseAllButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L174)
 --- child of TradeSkillExpandButtonFrame
 --- @class TradeSkillExpandTabLeft : Texture
 TradeSkillExpandTabLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L180)
 --- child of TradeSkillExpandButtonFrame
 --- @class TradeSkillExpandTabMiddle : Texture
 TradeSkillExpandTabMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L186)
 --- child of TradeSkillExpandButtonFrame
 --- @class TradeSkillExpandTabRight : Texture
 TradeSkillExpandTabRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L235)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L167)
 --- child of TradeSkillFrame
 --- @class TradeSkillExpandButtonFrame : Frame
 TradeSkillExpandButtonFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L209)
 --- child of TradeSkillFrame
 --- @class TradeSkillInvSlotDropdown : DropdownButton, WowStyle1DropdownTemplate
 TradeSkillInvSlotDropdown = {}
 TradeSkillInvSlotDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L214)
 --- child of TradeSkillFrame
 --- @class TradeSkillSubClassDropdown : DropdownButton, WowStyle1DropdownTemplate
 TradeSkillSubClassDropdown = {}
 TradeSkillSubClassDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L329)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L227)
 --- child of TradeSkillHighlightFrame
 --- @class TradeSkillHighlight : Texture
 TradeSkillHighlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L220)
 --- child of TradeSkillFrame
 --- @class TradeSkillHighlightFrame : Frame
 TradeSkillHighlightFrame = {}
@@ -105,7 +105,7 @@ TradeSkillSkill1SubText = {}
 --- @type Texture
 TradeSkillSkill1Highlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L333)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L231)
 --- child of TradeSkillFrame
 --- @class TradeSkillSkill1 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill1 = {}
@@ -120,7 +120,7 @@ TradeSkillSkill2SubText = {}
 --- @type Texture
 TradeSkillSkill2Highlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L342)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L236)
 --- child of TradeSkillFrame
 --- @class TradeSkillSkill2 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill2 = {}
@@ -135,7 +135,7 @@ TradeSkillSkill3SubText = {}
 --- @type Texture
 TradeSkillSkill3Highlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L241)
 --- child of TradeSkillFrame
 --- @class TradeSkillSkill3 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill3 = {}
@@ -150,7 +150,7 @@ TradeSkillSkill4SubText = {}
 --- @type Texture
 TradeSkillSkill4Highlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L360)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L246)
 --- child of TradeSkillFrame
 --- @class TradeSkillSkill4 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill4 = {}
@@ -165,7 +165,7 @@ TradeSkillSkill5SubText = {}
 --- @type Texture
 TradeSkillSkill5Highlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L369)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L251)
 --- child of TradeSkillFrame
 --- @class TradeSkillSkill5 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill5 = {}
@@ -180,7 +180,7 @@ TradeSkillSkill6SubText = {}
 --- @type Texture
 TradeSkillSkill6Highlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L378)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L256)
 --- child of TradeSkillFrame
 --- @class TradeSkillSkill6 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill6 = {}
@@ -195,7 +195,7 @@ TradeSkillSkill7SubText = {}
 --- @type Texture
 TradeSkillSkill7Highlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L261)
 --- child of TradeSkillFrame
 --- @class TradeSkillSkill7 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill7 = {}
@@ -210,7 +210,7 @@ TradeSkillSkill8SubText = {}
 --- @type Texture
 TradeSkillSkill8Highlight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L396)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L266)
 --- child of TradeSkillFrame
 --- @class TradeSkillSkill8 : Button, TradeSkillSkillButtonTemplate
 TradeSkillSkill8 = {}
@@ -243,19 +243,19 @@ TradeSkillListScrollFrameScrollBar["ScrollUpButton"] = TradeSkillListScrollFrame
 TradeSkillListScrollFrameScrollBar["ScrollDownButton"] = TradeSkillListScrollFrameScrollBarScrollDownButton -- inherited
 TradeSkillListScrollFrameScrollBar["ThumbTexture"] = TradeSkillListScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L405)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L271)
 --- child of TradeSkillFrame
 --- @class TradeSkillListScrollFrame : ScrollFrame, ClassTrainerListScrollFrameTemplate
 TradeSkillListScrollFrame = {}
 TradeSkillListScrollFrame["ScrollChildFrame"] = TradeSkillListScrollFrameScrollChildFrame -- inherited
 TradeSkillListScrollFrame["ScrollBar"] = TradeSkillListScrollFrameScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L542)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L348)
 --- child of TradeSkillSkillIcon
 --- @class TradeSkillSkillIconCount : FontString, NumberFontNormal
 TradeSkillSkillIconCount = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L529)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L341)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillSkillIcon : Button
 TradeSkillSkillIcon = {}
@@ -280,7 +280,7 @@ TradeSkillReagent1Name = {}
 --- @type LargeItemButtonTemplate_Count
 TradeSkillReagent1Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L580)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L372)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillReagent1 : Button, TradeSkillItemTemplate
 TradeSkillReagent1 = {}
@@ -309,7 +309,7 @@ TradeSkillReagent2Name = {}
 --- @type LargeItemButtonTemplate_Count
 TradeSkillReagent2Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L589)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L377)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillReagent2 : Button, TradeSkillItemTemplate
 TradeSkillReagent2 = {}
@@ -338,7 +338,7 @@ TradeSkillReagent3Name = {}
 --- @type LargeItemButtonTemplate_Count
 TradeSkillReagent3Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L598)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L382)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillReagent3 : Button, TradeSkillItemTemplate
 TradeSkillReagent3 = {}
@@ -367,7 +367,7 @@ TradeSkillReagent4Name = {}
 --- @type LargeItemButtonTemplate_Count
 TradeSkillReagent4Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L607)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L387)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillReagent4 : Button, TradeSkillItemTemplate
 TradeSkillReagent4 = {}
@@ -396,7 +396,7 @@ TradeSkillReagent5Name = {}
 --- @type LargeItemButtonTemplate_Count
 TradeSkillReagent5Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L616)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L392)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillReagent5 : Button, TradeSkillItemTemplate
 TradeSkillReagent5 = {}
@@ -425,7 +425,7 @@ TradeSkillReagent6Name = {}
 --- @type LargeItemButtonTemplate_Count
 TradeSkillReagent6Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L625)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L397)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillReagent6 : Button, TradeSkillItemTemplate
 TradeSkillReagent6 = {}
@@ -454,7 +454,7 @@ TradeSkillReagent7Name = {}
 --- @type LargeItemButtonTemplate_Count
 TradeSkillReagent7Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L634)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L402)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillReagent7 : Button, TradeSkillItemTemplate
 TradeSkillReagent7 = {}
@@ -483,7 +483,7 @@ TradeSkillReagent8Name = {}
 --- @type LargeItemButtonTemplate_Count
 TradeSkillReagent8Count = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L643)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L407)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillReagent8 : Button, TradeSkillItemTemplate
 TradeSkillReagent8 = {}
@@ -492,37 +492,37 @@ TradeSkillReagent8["NameFrame"] = TradeSkillReagent8NameFrame -- inherited
 TradeSkillReagent8["Name"] = TradeSkillReagent8Name -- inherited
 TradeSkillReagent8["Count"] = TradeSkillReagent8Count -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L440)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L292)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillSkillName : FontString, GameFontNormal
 TradeSkillSkillName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L452)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L298)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillRequirementLabel : FontString, GameFontHighlightSmall
 TradeSkillRequirementLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L461)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L303)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillRequirementText : FontString, GameFontHighlightSmall
 TradeSkillRequirementText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L484)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L316)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillSkillCooldown : FontString, GameFontRedSmall
 TradeSkillSkillCooldown = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L493)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L321)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillDetailHeaderLeft : Texture
 TradeSkillDetailHeaderLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L517)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L333)
 --- child of TradeSkillDetailScrollChildFrame
 --- @class TradeSkillReagentLabel : FontString, GameFontNormalSmall
 TradeSkillReagentLabel = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L434)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L288)
 --- child of TradeSkillDetailScrollFrame
 --- @class TradeSkillDetailScrollChildFrame : Frame
 TradeSkillDetailScrollChildFrame = {}
@@ -560,84 +560,84 @@ TradeSkillDetailScrollFrameScrollBar["ScrollUpButton"] = TradeSkillDetailScrollF
 TradeSkillDetailScrollFrameScrollBar["ScrollDownButton"] = TradeSkillDetailScrollFrameScrollBarScrollDownButton -- inherited
 TradeSkillDetailScrollFrameScrollBar["ThumbTexture"] = TradeSkillDetailScrollFrameScrollBarThumbTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L282)
 --- child of TradeSkillFrame
 --- @class TradeSkillDetailScrollFrame : ScrollFrame, ClassTrainerDetailScrollFrameTemplate
 TradeSkillDetailScrollFrame = {}
 TradeSkillDetailScrollFrame["ScrollBar"] = TradeSkillDetailScrollFrameScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L656)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L416)
 --- child of TradeSkillFrame
 --- @class TradeSkillCreateButton : Button, UIPanelButtonTemplate
 TradeSkillCreateButton = {}
 TradeSkillCreateButton["fitTextCanWidthDecrease"] = true -- inherited
 TradeSkillCreateButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L674)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L430)
 --- child of TradeSkillFrame
 --- @class TradeSkillCancelButton : Button, UIPanelButtonTemplate
 TradeSkillCancelButton = {}
 TradeSkillCancelButton["fitTextCanWidthDecrease"] = true -- inherited
 TradeSkillCancelButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L691)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L439)
 --- child of TradeSkillFrame
 --- @class TradeSkillCreateAllButton : Button, UIPanelButtonTemplate
 TradeSkillCreateAllButton = {}
 TradeSkillCreateAllButton["fitTextCanWidthDecrease"] = true -- inherited
 TradeSkillCreateAllButton["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L710)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L454)
 --- child of TradeSkillFrame
 --- @class TradeSkillDecrementButton : Button
 TradeSkillDecrementButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L745)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L477)
 --- child of TradeSkillInputBox
 --- @class TradeSkillInputBoxLeft : Texture
 TradeSkillInputBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L758)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L484)
 --- child of TradeSkillInputBox
 --- @class TradeSkillInputBoxRight : Texture
 TradeSkillInputBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L771)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L491)
 --- child of TradeSkillInputBox
 --- @class TradeSkillInputBoxMiddle : Texture
 TradeSkillInputBoxMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L732)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L470)
 --- child of TradeSkillFrame
 --- @class TradeSkillInputBox : EditBox
 TradeSkillInputBox = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L804)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L514)
 --- child of TradeSkillFrame
 --- @class TradeSkillIncrementButton : Button
 TradeSkillIncrementButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L826)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L530)
 --- child of TradeSkillFrame
 --- @class TradeSkillFrameCloseButton : Button, UIPanelCloseButton
 TradeSkillFrameCloseButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L52)
 --- child of TradeSkillFrame
 --- @class TradeSkillFramePortrait : Texture
 TradeSkillFramePortrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L104)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L84)
 --- child of TradeSkillFrame
 --- @class TradeSkillFrameTitleText : FontString, GameFontNormal
 TradeSkillFrameTitleText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L115)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L91)
 --- child of TradeSkillFrame
 --- @class TradeSkillSkillBorderLeft : Texture
 TradeSkillSkillBorderLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L137)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_TradeSkillUI/Vanilla/Blizzard_TradeSkillUI.xml#L105)
 --- child of TradeSkillFrame
 --- @class TradeSkillHorizontalBarLeft : Texture
 TradeSkillHorizontalBarLeft = {}

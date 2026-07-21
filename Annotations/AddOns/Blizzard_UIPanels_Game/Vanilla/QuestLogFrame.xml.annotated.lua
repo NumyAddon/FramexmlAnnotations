@@ -817,162 +817,169 @@ QuestLogFrame["Text"] = QuestLogTitleText
 --- Template
 --- @class QuestWatchFontTemplate : FontString, GameFontHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L964)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L960)
 --- child of QuestWatchFrame
 --- @class QuestWatchQuestName : FontString, GameFontNormal
 QuestWatchQuestName = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L972)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L968)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine1 : FontString, QuestWatchFontTemplate
 QuestWatchLine1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L977)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L973)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine2 : FontString, QuestWatchFontTemplate
 QuestWatchLine2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L982)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L978)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine3 : FontString, QuestWatchFontTemplate
 QuestWatchLine3 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L987)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L983)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine4 : FontString, QuestWatchFontTemplate
 QuestWatchLine4 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L992)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L988)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine5 : FontString, QuestWatchFontTemplate
 QuestWatchLine5 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L997)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L993)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine6 : FontString, QuestWatchFontTemplate
 QuestWatchLine6 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1002)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L998)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine7 : FontString, QuestWatchFontTemplate
 QuestWatchLine7 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1007)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1003)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine8 : FontString, QuestWatchFontTemplate
 QuestWatchLine8 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1012)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1008)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine9 : FontString, QuestWatchFontTemplate
 QuestWatchLine9 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1017)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1013)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine10 : FontString, QuestWatchFontTemplate
 QuestWatchLine10 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1022)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1018)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine11 : FontString, QuestWatchFontTemplate
 QuestWatchLine11 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1027)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1023)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine12 : FontString, QuestWatchFontTemplate
 QuestWatchLine12 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1032)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1028)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine13 : FontString, QuestWatchFontTemplate
 QuestWatchLine13 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1037)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1033)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine14 : FontString, QuestWatchFontTemplate
 QuestWatchLine14 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1042)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1038)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine15 : FontString, QuestWatchFontTemplate
 QuestWatchLine15 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1047)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1043)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine16 : FontString, QuestWatchFontTemplate
 QuestWatchLine16 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1052)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1048)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine17 : FontString, QuestWatchFontTemplate
 QuestWatchLine17 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1057)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1053)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine18 : FontString, QuestWatchFontTemplate
 QuestWatchLine18 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1062)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1058)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine19 : FontString, QuestWatchFontTemplate
 QuestWatchLine19 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1067)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1063)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine20 : FontString, QuestWatchFontTemplate
 QuestWatchLine20 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1072)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1068)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine21 : FontString, QuestWatchFontTemplate
 QuestWatchLine21 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1077)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1073)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine22 : FontString, QuestWatchFontTemplate
 QuestWatchLine22 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1082)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1078)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine23 : FontString, QuestWatchFontTemplate
 QuestWatchLine23 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1087)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1083)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine24 : FontString, QuestWatchFontTemplate
 QuestWatchLine24 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1092)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1088)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine25 : FontString, QuestWatchFontTemplate
 QuestWatchLine25 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1097)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1093)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine26 : FontString, QuestWatchFontTemplate
 QuestWatchLine26 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1102)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1098)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine27 : FontString, QuestWatchFontTemplate
 QuestWatchLine27 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1103)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine28 : FontString, QuestWatchFontTemplate
 QuestWatchLine28 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1108)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine29 : FontString, QuestWatchFontTemplate
 QuestWatchLine29 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L1113)
 --- child of QuestWatchFrame
 --- @class QuestWatchLine30 : FontString, QuestWatchFontTemplate
 QuestWatchLine30 = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Vanilla/QuestLogFrame.xml#L951)
---- @class QuestWatchFrame : Frame
+--- @class QuestWatchFrame : Frame, UIParentRightManagedFrameTemplate
+--- @field layoutIndex number # 50
 QuestWatchFrame = {}
+QuestWatchFrame["layoutIndex"] = 50
+QuestWatchFrame["layoutParent"] = UIParentRightManagedFrameContainer -- inherited
+QuestWatchFrame["align"] = "right" -- inherited
+QuestWatchFrame["hideWhenActionBarIsOverriden"] = false -- inherited
+QuestWatchFrame["isRightManagedFrame"] = true -- inherited
+QuestWatchFrame["isManagedFrame"] = true -- inherited
 

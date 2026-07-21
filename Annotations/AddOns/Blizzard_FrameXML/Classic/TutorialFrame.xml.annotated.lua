@@ -5,7 +5,7 @@
 --- @class TutorialFrameCheckboxText : FontString, GameFontNormalSmall
 TutorialFrameCheckboxText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L417)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXML/Classic/TutorialFrame.xml#L54)
 --- child of TutorialFrameCheckButton (created in template UICheckButtonTemplate)
 --- @type UICheckButtonTemplate_Text
 TutorialFrameCheckButtonText = {}

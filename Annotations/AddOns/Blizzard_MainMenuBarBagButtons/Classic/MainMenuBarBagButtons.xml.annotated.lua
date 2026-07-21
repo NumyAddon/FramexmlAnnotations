@@ -12,7 +12,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L39)
 --- Template
---- @class BagSlotButtonTemplate : CheckButton, ItemButtonTemplate, ItemAnimTemplate
+--- @class BagSlotButtonTemplate : CheckButton, ItemButtonTemplate, ItemAnimTemplate, BagSlotButtonMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L10)
 --- child of MainMenuBarBackpackButton (created in template ItemButtonTemplate)
@@ -44,7 +44,8 @@ MainMenuBarBackpackButtonSubIconTexture = {}
 --- @type Texture
 MainMenuBarBackpackButtonNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L95)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L66)
+--- child of BagsBar
 --- @class MainMenuBarBackpackButton : CheckButton, ItemButtonTemplate, ItemAnimTemplate
 MainMenuBarBackpackButton = {}
 MainMenuBarBackpackButton["icon"] = MainMenuBarBackpackButtonIconTexture -- inherited
@@ -82,7 +83,8 @@ CharacterBag0SlotSubIconTexture = {}
 --- @type Texture
 CharacterBag0SlotNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L143)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L111)
+--- child of BagsBar
 --- @class CharacterBag0Slot : CheckButton, BagSlotButtonTemplate
 CharacterBag0Slot = {}
 CharacterBag0Slot["icon"] = CharacterBag0SlotIconTexture -- inherited
@@ -120,7 +122,8 @@ CharacterBag1SlotSubIconTexture = {}
 --- @type Texture
 CharacterBag1SlotNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L152)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L112)
+--- child of BagsBar
 --- @class CharacterBag1Slot : CheckButton, BagSlotButtonTemplate
 CharacterBag1Slot = {}
 CharacterBag1Slot["icon"] = CharacterBag1SlotIconTexture -- inherited
@@ -158,7 +161,8 @@ CharacterBag2SlotSubIconTexture = {}
 --- @type Texture
 CharacterBag2SlotNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L161)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L113)
+--- child of BagsBar
 --- @class CharacterBag2Slot : CheckButton, BagSlotButtonTemplate
 CharacterBag2Slot = {}
 CharacterBag2Slot["icon"] = CharacterBag2SlotIconTexture -- inherited
@@ -196,7 +200,8 @@ CharacterBag3SlotSubIconTexture = {}
 --- @type Texture
 CharacterBag3SlotNormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L170)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L114)
+--- child of BagsBar
 --- @class CharacterBag3Slot : CheckButton, BagSlotButtonTemplate
 CharacterBag3Slot = {}
 CharacterBag3Slot["icon"] = CharacterBag3SlotIconTexture -- inherited
@@ -204,13 +209,28 @@ CharacterBag3Slot["Count"] = CharacterBag3SlotCount -- inherited
 CharacterBag3Slot["searchOverlay"] = CharacterBag3SlotSearchOverlay -- inherited
 CharacterBag3Slot["subicon"] = CharacterBag3SlotSubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L189)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L118)
 --- child of KeyRingButton
 --- @class KeyRingButton_flyin : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L179)
---- @class KeyRingButton : CheckButton
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L115)
+--- child of BagsBar
+--- @class KeyRingButton : CheckButton, KeyringMixin
 --- @field animIcon Texture
 --- @field flyin KeyRingButton_flyin
 KeyRingButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_MainMenuBarBagButtons/Classic/MainMenuBarBagButtons.xml#L54)
+--- @class BagsBar : Frame, EditModeBagsSystemTemplate, BagsBarMixin
+--- @field isHorizontal boolean # true
+--- @field direction any # Enum.BagsDirection.Left
+--- @field bagPadding number # 5
+--- @field hideExpandToggle boolean # true
+BagsBar = {}
+BagsBar["isHorizontal"] = true
+BagsBar["direction"] = Enum.BagsDirection.Left
+BagsBar["bagPadding"] = 5
+BagsBar["hideExpandToggle"] = true
+BagsBar["system"] = Enum.EditModeSystem.Bags -- inherited
+BagsBar["systemNameString"] = HUD_EDIT_MODE_BAGS_LABEL -- inherited
 

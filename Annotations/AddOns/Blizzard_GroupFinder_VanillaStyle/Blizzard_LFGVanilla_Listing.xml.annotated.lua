@@ -145,97 +145,62 @@ LFGListingFrameGroupRoleButtonsInitiateRolePoll = {}
 LFGListingFrameGroupRoleButtonsInitiateRolePoll["fitTextCanWidthDecrease"] = true -- inherited
 LFGListingFrameGroupRoleButtonsInitiateRolePoll["fitTextWidthPadding"] = 40 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L284)
---- child of LFGListingFrameGroupRoleButtonsRoleDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_Button
-LFGListingFrameGroupRoleButtonsRoleDropDownButton = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L226)
---- child of LFGListingFrameGroupRoleButtonsRoleDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListingFrameGroupRoleButtonsRoleDropDownLeft = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L239)
---- child of LFGListingFrameGroupRoleButtonsRoleDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListingFrameGroupRoleButtonsRoleDropDownMiddle = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L248)
---- child of LFGListingFrameGroupRoleButtonsRoleDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListingFrameGroupRoleButtonsRoleDropDownRight = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L257)
---- child of LFGListingFrameGroupRoleButtonsRoleDropDown (created in template UIDropDownMenuTemplate)
---- @type UIDropDownMenuTemplate_Text
-LFGListingFrameGroupRoleButtonsRoleDropDownText = {}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L271)
---- child of LFGListingFrameGroupRoleButtonsRoleDropDown (created in template UIDropDownMenuTemplate)
---- @type Texture
-LFGListingFrameGroupRoleButtonsRoleDropDownIcon = {}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L410)
 --- child of LFGListingFrameGroupRoleButtons
---- @class LFGListingFrameGroupRoleButtonsRoleDropDown : Button, LFGDropDownTemplate
-LFGListingFrameGroupRoleButtonsRoleDropDown = {}
-LFGListingFrameGroupRoleButtonsRoleDropDown["Button"] = LFGListingFrameGroupRoleButtonsRoleDropDownButton -- inherited
-LFGListingFrameGroupRoleButtonsRoleDropDown["Left"] = LFGListingFrameGroupRoleButtonsRoleDropDownLeft -- inherited
-LFGListingFrameGroupRoleButtonsRoleDropDown["Middle"] = LFGListingFrameGroupRoleButtonsRoleDropDownMiddle -- inherited
-LFGListingFrameGroupRoleButtonsRoleDropDown["Right"] = LFGListingFrameGroupRoleButtonsRoleDropDownRight -- inherited
-LFGListingFrameGroupRoleButtonsRoleDropDown["Text"] = LFGListingFrameGroupRoleButtonsRoleDropDownText -- inherited
-LFGListingFrameGroupRoleButtonsRoleDropDown["Icon"] = LFGListingFrameGroupRoleButtonsRoleDropDownIcon -- inherited
+--- @class LFGListingFrameGroupRoleButtonsRoleDropdown : DropdownButton, WowStyle1DropdownTemplate
+LFGListingFrameGroupRoleButtonsRoleDropdown = {}
+LFGListingFrameGroupRoleButtonsRoleDropdown["menuMixin"] = MenuStyle1Mixin -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L372)
 --- child of LFGListingFrame
 --- @class LFGListingFrameGroupRoleButtons : Frame
 --- @field RoleIcon LFGListingFrameGroupRoleButtonsRole
 --- @field RolePollButton LFGListingFrameGroupRoleButtonsInitiateRolePoll
---- @field RoleDropDown LFGListingFrameGroupRoleButtonsRoleDropDown
+--- @field RoleDropdown LFGListingFrameGroupRoleButtonsRoleDropdown
 LFGListingFrameGroupRoleButtons = {}
 LFGListingFrameGroupRoleButtons["RoleIcon"] = LFGListingFrameGroupRoleButtonsRole
 LFGListingFrameGroupRoleButtons["RolePollButton"] = LFGListingFrameGroupRoleButtonsInitiateRolePoll
-LFGListingFrameGroupRoleButtons["RoleDropDown"] = LFGListingFrameGroupRoleButtonsRoleDropDown
+LFGListingFrameGroupRoleButtons["RoleDropdown"] = LFGListingFrameGroupRoleButtonsRoleDropdown
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L445)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L448)
 --- child of LFGListingFrameNewPlayerFriendlyButton
 --- @class LFGListingFrameNewPlayerFriendlyButton_CheckButton : CheckButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L424)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L427)
 --- child of LFGListingFrame
 --- @class LFGListingFrameNewPlayerFriendlyButton : Button
 --- @field CheckButton LFGListingFrameNewPlayerFriendlyButton_CheckButton
 --- @field cover Texture
 LFGListingFrameNewPlayerFriendlyButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L486)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L489)
 --- child of LFGListingFrame
 --- @class LFGListingFrameOptionsButton : DropdownButton, LFGOptionsButton, LFGListingOptionsButton
 LFGListingFrameOptionsButton = {}
 LFGListingFrameOptionsButton["menuMixin"] = MenuStyle2Mixin -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L500)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L503)
 --- child of LFGListingFrameCategoryView
 --- Template
 --- Adds itself to the parent with key `CategorySelection`
 --- @class LFGListingFrameCategoryView_CategorySelection : Frame
 --- @field updateAll any # LFGListingCategorySelection_UpdateCategoryButtons
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L494)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L497)
 --- child of LFGListingFrame
 --- @class LFGListingFrameCategoryView : Frame
 --- @field CategorySelection LFGListingFrameCategoryView_CategorySelection
 --- @field CategoryButtons table<number, LFGListingCategoryTemplate>
 LFGListingFrameCategoryView = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L548)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L551)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingFrameActivityViewScrollBox : Frame, WowScrollBoxList
 LFGListingFrameActivityViewScrollBox = {}
 LFGListingFrameActivityViewScrollBox["canInterpolateScroll"] = false -- inherited
 LFGListingFrameActivityViewScrollBox["debugInspectionSystem"] = "ScrollBox" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L551)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L554)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingFrameActivityViewScrollBar : EventFrame, WowClassicScrollBar
 LFGListingFrameActivityViewScrollBar = {}
@@ -273,7 +238,7 @@ LFGListingCommentScrollBar["ScrollUpButton"] = LFGListingCommentScrollBarScrollU
 LFGListingCommentScrollBar["ScrollDownButton"] = LFGListingCommentScrollBarScrollDownButton -- inherited
 LFGListingCommentScrollBar["ThumbTexture"] = LFGListingCommentScrollBarThumbTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L557)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L560)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingComment : ScrollFrame, UIPanelInputScrollFrameTemplate
 --- @field maxLetters number # 255
@@ -285,22 +250,22 @@ LFGListingComment["instructions"] = DESCRIPTION_OF_YOUR_GROUP
 LFGListingComment["hideCharCount"] = true
 LFGListingComment["ScrollBar"] = LFGListingCommentScrollBar -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L522)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L525)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingFrameActivityViewBarLeft : Texture
 LFGListingFrameActivityViewBarLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L531)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L534)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingFrameActivityViewBarMiddle : Texture
 LFGListingFrameActivityViewBarMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L538)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L541)
 --- child of LFGListingFrameActivityView
 --- @class LFGListingFrameActivityViewBarRight : Texture
 LFGListingFrameActivityViewBarRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L515)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L518)
 --- child of LFGListingFrame
 --- @class LFGListingFrameActivityView : Frame
 --- @field ScrollBox LFGListingFrameActivityViewScrollBox
@@ -317,17 +282,17 @@ LFGListingFrameActivityView["BarLeft"] = LFGListingFrameActivityViewBarLeft
 LFGListingFrameActivityView["BarMiddle"] = LFGListingFrameActivityViewBarMiddle
 LFGListingFrameActivityView["BarRight"] = LFGListingFrameActivityViewBarRight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L602)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L605)
 --- child of LFGListingFrameLockedView
 --- @class LFGListingFrameLockedViewErrorText : FontString, GameFontNormal
 LFGListingFrameLockedViewErrorText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L608)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L611)
 --- child of LFGListingFrameLockedView
 --- @class LFGListingFrameLockedViewActivityText : FontString, GameFontNormal
 LFGListingFrameLockedViewActivityText = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L595)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_GroupFinder_VanillaStyle/Blizzard_LFGVanilla_Listing.xml#L598)
 --- child of LFGListingFrame
 --- @class LFGListingFrameLockedView : Frame
 --- @field ErrorText LFGListingFrameLockedViewErrorText

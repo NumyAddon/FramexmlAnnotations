@@ -63,165 +63,165 @@ AzeriteItemInBagHelpBox["tutorialIndex"] = LE_FRAME_TUTORIAL_AZERITE_ITEM_IN_SLO
 --- @field newitemglowAnim ContainerFrameItemButtonTemplate_newitemglowAnim
 --- @field flashAnim ContainerFrameItemButtonTemplate_flashAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_MoneyFrame : Frame, SmallMoneyFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item1 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item2 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item3 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item4 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item5 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item6 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item7 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item8 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item9 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item10 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item11 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item12 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item13 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item14 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item15 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item16 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item17 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item18 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item19 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item20 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item21 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item22 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item23 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item24 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item25 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item26 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item27 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item28 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item29 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item30 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item31 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item32 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item33 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item34 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item35 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Item36 : Button, ContainerFrameItemButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_AddSlotsButton : Button
 --- @field Border Texture
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrameTemplate
 --- @class ContainerFrameTemplate_Name : FontString, GameFontHighlight
 
@@ -231,6 +231,7 @@ AzeriteItemInBagHelpBox["tutorialIndex"] = LE_FRAME_TUTORIAL_AZERITE_ITEM_IN_SLO
 --- @field PortraitButton Button
 --- @field ClickableTitleFrame Button
 --- @field Portrait Texture
+--- @field CircleMask MaskTexture
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L159)
 --- child of ContainerFrame1MoneyFrame (created in template SmallMoneyFrameTemplate)
@@ -252,7 +253,7 @@ ContainerFrame1MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame1MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame1MoneyFrame = {}
@@ -301,7 +302,7 @@ ContainerFrame1Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame1Item1 = {}
@@ -350,7 +351,7 @@ ContainerFrame1Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame1Item2 = {}
@@ -399,7 +400,7 @@ ContainerFrame1Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame1Item3 = {}
@@ -448,7 +449,7 @@ ContainerFrame1Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame1Item4 = {}
@@ -497,7 +498,7 @@ ContainerFrame1Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame1Item5 = {}
@@ -546,7 +547,7 @@ ContainerFrame1Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame1Item6 = {}
@@ -595,7 +596,7 @@ ContainerFrame1Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame1Item7 = {}
@@ -644,7 +645,7 @@ ContainerFrame1Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame1Item8 = {}
@@ -693,7 +694,7 @@ ContainerFrame1Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame1Item9 = {}
@@ -742,7 +743,7 @@ ContainerFrame1Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame1Item10 = {}
@@ -791,7 +792,7 @@ ContainerFrame1Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame1Item11 = {}
@@ -840,7 +841,7 @@ ContainerFrame1Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame1Item12 = {}
@@ -889,7 +890,7 @@ ContainerFrame1Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame1Item13 = {}
@@ -938,7 +939,7 @@ ContainerFrame1Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame1Item14 = {}
@@ -987,7 +988,7 @@ ContainerFrame1Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame1Item15 = {}
@@ -1036,7 +1037,7 @@ ContainerFrame1Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame1Item16 = {}
@@ -1085,7 +1086,7 @@ ContainerFrame1Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame1Item17 = {}
@@ -1134,7 +1135,7 @@ ContainerFrame1Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame1Item18 = {}
@@ -1183,7 +1184,7 @@ ContainerFrame1Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame1Item19 = {}
@@ -1232,7 +1233,7 @@ ContainerFrame1Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame1Item20 = {}
@@ -1281,7 +1282,7 @@ ContainerFrame1Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame1Item21 = {}
@@ -1330,7 +1331,7 @@ ContainerFrame1Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame1Item22 = {}
@@ -1379,7 +1380,7 @@ ContainerFrame1Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame1Item23 = {}
@@ -1428,7 +1429,7 @@ ContainerFrame1Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame1Item24 = {}
@@ -1477,7 +1478,7 @@ ContainerFrame1Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame1Item25 = {}
@@ -1526,7 +1527,7 @@ ContainerFrame1Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame1Item26 = {}
@@ -1575,7 +1576,7 @@ ContainerFrame1Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame1Item27 = {}
@@ -1624,7 +1625,7 @@ ContainerFrame1Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame1Item28 = {}
@@ -1673,7 +1674,7 @@ ContainerFrame1Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame1Item29 = {}
@@ -1722,7 +1723,7 @@ ContainerFrame1Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame1Item30 = {}
@@ -1771,7 +1772,7 @@ ContainerFrame1Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame1Item31 = {}
@@ -1820,7 +1821,7 @@ ContainerFrame1Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame1Item32 = {}
@@ -1869,7 +1870,7 @@ ContainerFrame1Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame1Item33 = {}
@@ -1918,7 +1919,7 @@ ContainerFrame1Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame1Item34 = {}
@@ -1967,7 +1968,7 @@ ContainerFrame1Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame1Item35 = {}
@@ -2016,7 +2017,7 @@ ContainerFrame1Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame1Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame1Item36 = {}
@@ -2025,17 +2026,17 @@ ContainerFrame1Item36["Count"] = ContainerFrame1Item36Count -- inherited
 ContainerFrame1Item36["searchOverlay"] = ContainerFrame1Item36SearchOverlay -- inherited
 ContainerFrame1Item36["subicon"] = ContainerFrame1Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame1PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame1AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame1CloseButton = {}
@@ -2045,37 +2046,37 @@ ContainerFrame1CloseButton = {}
 --- @type Texture
 ContainerFrame1Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame1BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame1BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame1BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame1BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame1Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame1 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame1Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L408)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L417)
 --- @class ContainerFrame1 : Frame, ContainerFrameTemplate
 ContainerFrame1 = {}
 ContainerFrame1["PortraitButton"] = ContainerFrame1PortraitButton -- inherited
@@ -2101,7 +2102,7 @@ ContainerFrame2MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame2MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame2MoneyFrame = {}
@@ -2150,7 +2151,7 @@ ContainerFrame2Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame2Item1 = {}
@@ -2199,7 +2200,7 @@ ContainerFrame2Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame2Item2 = {}
@@ -2248,7 +2249,7 @@ ContainerFrame2Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame2Item3 = {}
@@ -2297,7 +2298,7 @@ ContainerFrame2Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame2Item4 = {}
@@ -2346,7 +2347,7 @@ ContainerFrame2Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame2Item5 = {}
@@ -2395,7 +2396,7 @@ ContainerFrame2Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame2Item6 = {}
@@ -2444,7 +2445,7 @@ ContainerFrame2Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame2Item7 = {}
@@ -2493,7 +2494,7 @@ ContainerFrame2Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame2Item8 = {}
@@ -2542,7 +2543,7 @@ ContainerFrame2Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame2Item9 = {}
@@ -2591,7 +2592,7 @@ ContainerFrame2Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame2Item10 = {}
@@ -2640,7 +2641,7 @@ ContainerFrame2Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame2Item11 = {}
@@ -2689,7 +2690,7 @@ ContainerFrame2Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame2Item12 = {}
@@ -2738,7 +2739,7 @@ ContainerFrame2Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame2Item13 = {}
@@ -2787,7 +2788,7 @@ ContainerFrame2Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame2Item14 = {}
@@ -2836,7 +2837,7 @@ ContainerFrame2Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame2Item15 = {}
@@ -2885,7 +2886,7 @@ ContainerFrame2Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame2Item16 = {}
@@ -2934,7 +2935,7 @@ ContainerFrame2Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame2Item17 = {}
@@ -2983,7 +2984,7 @@ ContainerFrame2Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame2Item18 = {}
@@ -3032,7 +3033,7 @@ ContainerFrame2Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame2Item19 = {}
@@ -3081,7 +3082,7 @@ ContainerFrame2Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame2Item20 = {}
@@ -3130,7 +3131,7 @@ ContainerFrame2Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame2Item21 = {}
@@ -3179,7 +3180,7 @@ ContainerFrame2Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame2Item22 = {}
@@ -3228,7 +3229,7 @@ ContainerFrame2Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame2Item23 = {}
@@ -3277,7 +3278,7 @@ ContainerFrame2Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame2Item24 = {}
@@ -3326,7 +3327,7 @@ ContainerFrame2Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame2Item25 = {}
@@ -3375,7 +3376,7 @@ ContainerFrame2Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame2Item26 = {}
@@ -3424,7 +3425,7 @@ ContainerFrame2Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame2Item27 = {}
@@ -3473,7 +3474,7 @@ ContainerFrame2Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame2Item28 = {}
@@ -3522,7 +3523,7 @@ ContainerFrame2Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame2Item29 = {}
@@ -3571,7 +3572,7 @@ ContainerFrame2Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame2Item30 = {}
@@ -3620,7 +3621,7 @@ ContainerFrame2Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame2Item31 = {}
@@ -3669,7 +3670,7 @@ ContainerFrame2Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame2Item32 = {}
@@ -3718,7 +3719,7 @@ ContainerFrame2Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame2Item33 = {}
@@ -3767,7 +3768,7 @@ ContainerFrame2Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame2Item34 = {}
@@ -3816,7 +3817,7 @@ ContainerFrame2Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame2Item35 = {}
@@ -3865,7 +3866,7 @@ ContainerFrame2Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame2Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame2Item36 = {}
@@ -3874,17 +3875,17 @@ ContainerFrame2Item36["Count"] = ContainerFrame2Item36Count -- inherited
 ContainerFrame2Item36["searchOverlay"] = ContainerFrame2Item36SearchOverlay -- inherited
 ContainerFrame2Item36["subicon"] = ContainerFrame2Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame2PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame2AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame2CloseButton = {}
@@ -3894,37 +3895,37 @@ ContainerFrame2CloseButton = {}
 --- @type Texture
 ContainerFrame2Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame2BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame2BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame2BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame2BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame2Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame2 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame2Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L409)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L418)
 --- @class ContainerFrame2 : Frame, ContainerFrameTemplate
 ContainerFrame2 = {}
 ContainerFrame2["PortraitButton"] = ContainerFrame2PortraitButton -- inherited
@@ -3950,7 +3951,7 @@ ContainerFrame3MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame3MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame3MoneyFrame = {}
@@ -3999,7 +4000,7 @@ ContainerFrame3Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame3Item1 = {}
@@ -4048,7 +4049,7 @@ ContainerFrame3Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame3Item2 = {}
@@ -4097,7 +4098,7 @@ ContainerFrame3Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame3Item3 = {}
@@ -4146,7 +4147,7 @@ ContainerFrame3Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame3Item4 = {}
@@ -4195,7 +4196,7 @@ ContainerFrame3Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame3Item5 = {}
@@ -4244,7 +4245,7 @@ ContainerFrame3Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame3Item6 = {}
@@ -4293,7 +4294,7 @@ ContainerFrame3Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame3Item7 = {}
@@ -4342,7 +4343,7 @@ ContainerFrame3Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame3Item8 = {}
@@ -4391,7 +4392,7 @@ ContainerFrame3Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame3Item9 = {}
@@ -4440,7 +4441,7 @@ ContainerFrame3Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame3Item10 = {}
@@ -4489,7 +4490,7 @@ ContainerFrame3Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame3Item11 = {}
@@ -4538,7 +4539,7 @@ ContainerFrame3Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame3Item12 = {}
@@ -4587,7 +4588,7 @@ ContainerFrame3Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame3Item13 = {}
@@ -4636,7 +4637,7 @@ ContainerFrame3Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame3Item14 = {}
@@ -4685,7 +4686,7 @@ ContainerFrame3Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame3Item15 = {}
@@ -4734,7 +4735,7 @@ ContainerFrame3Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame3Item16 = {}
@@ -4783,7 +4784,7 @@ ContainerFrame3Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame3Item17 = {}
@@ -4832,7 +4833,7 @@ ContainerFrame3Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame3Item18 = {}
@@ -4881,7 +4882,7 @@ ContainerFrame3Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame3Item19 = {}
@@ -4930,7 +4931,7 @@ ContainerFrame3Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame3Item20 = {}
@@ -4979,7 +4980,7 @@ ContainerFrame3Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame3Item21 = {}
@@ -5028,7 +5029,7 @@ ContainerFrame3Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame3Item22 = {}
@@ -5077,7 +5078,7 @@ ContainerFrame3Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame3Item23 = {}
@@ -5126,7 +5127,7 @@ ContainerFrame3Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame3Item24 = {}
@@ -5175,7 +5176,7 @@ ContainerFrame3Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame3Item25 = {}
@@ -5224,7 +5225,7 @@ ContainerFrame3Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame3Item26 = {}
@@ -5273,7 +5274,7 @@ ContainerFrame3Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame3Item27 = {}
@@ -5322,7 +5323,7 @@ ContainerFrame3Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame3Item28 = {}
@@ -5371,7 +5372,7 @@ ContainerFrame3Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame3Item29 = {}
@@ -5420,7 +5421,7 @@ ContainerFrame3Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame3Item30 = {}
@@ -5469,7 +5470,7 @@ ContainerFrame3Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame3Item31 = {}
@@ -5518,7 +5519,7 @@ ContainerFrame3Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame3Item32 = {}
@@ -5567,7 +5568,7 @@ ContainerFrame3Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame3Item33 = {}
@@ -5616,7 +5617,7 @@ ContainerFrame3Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame3Item34 = {}
@@ -5665,7 +5666,7 @@ ContainerFrame3Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame3Item35 = {}
@@ -5714,7 +5715,7 @@ ContainerFrame3Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame3Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame3Item36 = {}
@@ -5723,17 +5724,17 @@ ContainerFrame3Item36["Count"] = ContainerFrame3Item36Count -- inherited
 ContainerFrame3Item36["searchOverlay"] = ContainerFrame3Item36SearchOverlay -- inherited
 ContainerFrame3Item36["subicon"] = ContainerFrame3Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame3PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame3AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame3CloseButton = {}
@@ -5743,37 +5744,37 @@ ContainerFrame3CloseButton = {}
 --- @type Texture
 ContainerFrame3Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame3BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame3BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame3BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame3BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame3Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame3 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame3Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L410)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L419)
 --- @class ContainerFrame3 : Frame, ContainerFrameTemplate
 ContainerFrame3 = {}
 ContainerFrame3["PortraitButton"] = ContainerFrame3PortraitButton -- inherited
@@ -5799,7 +5800,7 @@ ContainerFrame4MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame4MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame4MoneyFrame = {}
@@ -5848,7 +5849,7 @@ ContainerFrame4Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame4Item1 = {}
@@ -5897,7 +5898,7 @@ ContainerFrame4Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame4Item2 = {}
@@ -5946,7 +5947,7 @@ ContainerFrame4Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame4Item3 = {}
@@ -5995,7 +5996,7 @@ ContainerFrame4Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame4Item4 = {}
@@ -6044,7 +6045,7 @@ ContainerFrame4Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame4Item5 = {}
@@ -6093,7 +6094,7 @@ ContainerFrame4Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame4Item6 = {}
@@ -6142,7 +6143,7 @@ ContainerFrame4Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame4Item7 = {}
@@ -6191,7 +6192,7 @@ ContainerFrame4Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame4Item8 = {}
@@ -6240,7 +6241,7 @@ ContainerFrame4Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame4Item9 = {}
@@ -6289,7 +6290,7 @@ ContainerFrame4Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame4Item10 = {}
@@ -6338,7 +6339,7 @@ ContainerFrame4Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame4Item11 = {}
@@ -6387,7 +6388,7 @@ ContainerFrame4Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame4Item12 = {}
@@ -6436,7 +6437,7 @@ ContainerFrame4Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame4Item13 = {}
@@ -6485,7 +6486,7 @@ ContainerFrame4Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame4Item14 = {}
@@ -6534,7 +6535,7 @@ ContainerFrame4Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame4Item15 = {}
@@ -6583,7 +6584,7 @@ ContainerFrame4Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame4Item16 = {}
@@ -6632,7 +6633,7 @@ ContainerFrame4Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame4Item17 = {}
@@ -6681,7 +6682,7 @@ ContainerFrame4Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame4Item18 = {}
@@ -6730,7 +6731,7 @@ ContainerFrame4Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame4Item19 = {}
@@ -6779,7 +6780,7 @@ ContainerFrame4Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame4Item20 = {}
@@ -6828,7 +6829,7 @@ ContainerFrame4Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame4Item21 = {}
@@ -6877,7 +6878,7 @@ ContainerFrame4Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame4Item22 = {}
@@ -6926,7 +6927,7 @@ ContainerFrame4Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame4Item23 = {}
@@ -6975,7 +6976,7 @@ ContainerFrame4Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame4Item24 = {}
@@ -7024,7 +7025,7 @@ ContainerFrame4Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame4Item25 = {}
@@ -7073,7 +7074,7 @@ ContainerFrame4Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame4Item26 = {}
@@ -7122,7 +7123,7 @@ ContainerFrame4Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame4Item27 = {}
@@ -7171,7 +7172,7 @@ ContainerFrame4Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame4Item28 = {}
@@ -7220,7 +7221,7 @@ ContainerFrame4Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame4Item29 = {}
@@ -7269,7 +7270,7 @@ ContainerFrame4Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame4Item30 = {}
@@ -7318,7 +7319,7 @@ ContainerFrame4Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame4Item31 = {}
@@ -7367,7 +7368,7 @@ ContainerFrame4Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame4Item32 = {}
@@ -7416,7 +7417,7 @@ ContainerFrame4Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame4Item33 = {}
@@ -7465,7 +7466,7 @@ ContainerFrame4Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame4Item34 = {}
@@ -7514,7 +7515,7 @@ ContainerFrame4Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame4Item35 = {}
@@ -7563,7 +7564,7 @@ ContainerFrame4Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame4Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame4Item36 = {}
@@ -7572,17 +7573,17 @@ ContainerFrame4Item36["Count"] = ContainerFrame4Item36Count -- inherited
 ContainerFrame4Item36["searchOverlay"] = ContainerFrame4Item36SearchOverlay -- inherited
 ContainerFrame4Item36["subicon"] = ContainerFrame4Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame4PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame4AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame4CloseButton = {}
@@ -7592,37 +7593,37 @@ ContainerFrame4CloseButton = {}
 --- @type Texture
 ContainerFrame4Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame4BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame4BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame4BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame4BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame4Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame4 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame4Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L411)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L420)
 --- @class ContainerFrame4 : Frame, ContainerFrameTemplate
 ContainerFrame4 = {}
 ContainerFrame4["PortraitButton"] = ContainerFrame4PortraitButton -- inherited
@@ -7648,7 +7649,7 @@ ContainerFrame5MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame5MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame5MoneyFrame = {}
@@ -7697,7 +7698,7 @@ ContainerFrame5Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame5Item1 = {}
@@ -7746,7 +7747,7 @@ ContainerFrame5Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame5Item2 = {}
@@ -7795,7 +7796,7 @@ ContainerFrame5Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame5Item3 = {}
@@ -7844,7 +7845,7 @@ ContainerFrame5Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame5Item4 = {}
@@ -7893,7 +7894,7 @@ ContainerFrame5Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame5Item5 = {}
@@ -7942,7 +7943,7 @@ ContainerFrame5Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame5Item6 = {}
@@ -7991,7 +7992,7 @@ ContainerFrame5Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame5Item7 = {}
@@ -8040,7 +8041,7 @@ ContainerFrame5Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame5Item8 = {}
@@ -8089,7 +8090,7 @@ ContainerFrame5Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame5Item9 = {}
@@ -8138,7 +8139,7 @@ ContainerFrame5Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame5Item10 = {}
@@ -8187,7 +8188,7 @@ ContainerFrame5Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame5Item11 = {}
@@ -8236,7 +8237,7 @@ ContainerFrame5Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame5Item12 = {}
@@ -8285,7 +8286,7 @@ ContainerFrame5Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame5Item13 = {}
@@ -8334,7 +8335,7 @@ ContainerFrame5Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame5Item14 = {}
@@ -8383,7 +8384,7 @@ ContainerFrame5Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame5Item15 = {}
@@ -8432,7 +8433,7 @@ ContainerFrame5Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame5Item16 = {}
@@ -8481,7 +8482,7 @@ ContainerFrame5Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame5Item17 = {}
@@ -8530,7 +8531,7 @@ ContainerFrame5Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame5Item18 = {}
@@ -8579,7 +8580,7 @@ ContainerFrame5Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame5Item19 = {}
@@ -8628,7 +8629,7 @@ ContainerFrame5Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame5Item20 = {}
@@ -8677,7 +8678,7 @@ ContainerFrame5Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame5Item21 = {}
@@ -8726,7 +8727,7 @@ ContainerFrame5Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame5Item22 = {}
@@ -8775,7 +8776,7 @@ ContainerFrame5Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame5Item23 = {}
@@ -8824,7 +8825,7 @@ ContainerFrame5Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame5Item24 = {}
@@ -8873,7 +8874,7 @@ ContainerFrame5Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame5Item25 = {}
@@ -8922,7 +8923,7 @@ ContainerFrame5Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame5Item26 = {}
@@ -8971,7 +8972,7 @@ ContainerFrame5Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame5Item27 = {}
@@ -9020,7 +9021,7 @@ ContainerFrame5Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame5Item28 = {}
@@ -9069,7 +9070,7 @@ ContainerFrame5Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame5Item29 = {}
@@ -9118,7 +9119,7 @@ ContainerFrame5Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame5Item30 = {}
@@ -9167,7 +9168,7 @@ ContainerFrame5Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame5Item31 = {}
@@ -9216,7 +9217,7 @@ ContainerFrame5Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame5Item32 = {}
@@ -9265,7 +9266,7 @@ ContainerFrame5Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame5Item33 = {}
@@ -9314,7 +9315,7 @@ ContainerFrame5Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame5Item34 = {}
@@ -9363,7 +9364,7 @@ ContainerFrame5Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame5Item35 = {}
@@ -9412,7 +9413,7 @@ ContainerFrame5Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame5Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame5Item36 = {}
@@ -9421,17 +9422,17 @@ ContainerFrame5Item36["Count"] = ContainerFrame5Item36Count -- inherited
 ContainerFrame5Item36["searchOverlay"] = ContainerFrame5Item36SearchOverlay -- inherited
 ContainerFrame5Item36["subicon"] = ContainerFrame5Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame5PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame5AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame5CloseButton = {}
@@ -9441,37 +9442,37 @@ ContainerFrame5CloseButton = {}
 --- @type Texture
 ContainerFrame5Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame5BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame5BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame5BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame5BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame5Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame5 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame5Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L412)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L421)
 --- @class ContainerFrame5 : Frame, ContainerFrameTemplate
 ContainerFrame5 = {}
 ContainerFrame5["PortraitButton"] = ContainerFrame5PortraitButton -- inherited
@@ -9497,7 +9498,7 @@ ContainerFrame6MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame6MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame6MoneyFrame = {}
@@ -9546,7 +9547,7 @@ ContainerFrame6Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame6Item1 = {}
@@ -9595,7 +9596,7 @@ ContainerFrame6Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame6Item2 = {}
@@ -9644,7 +9645,7 @@ ContainerFrame6Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame6Item3 = {}
@@ -9693,7 +9694,7 @@ ContainerFrame6Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame6Item4 = {}
@@ -9742,7 +9743,7 @@ ContainerFrame6Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame6Item5 = {}
@@ -9791,7 +9792,7 @@ ContainerFrame6Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame6Item6 = {}
@@ -9840,7 +9841,7 @@ ContainerFrame6Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame6Item7 = {}
@@ -9889,7 +9890,7 @@ ContainerFrame6Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame6Item8 = {}
@@ -9938,7 +9939,7 @@ ContainerFrame6Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame6Item9 = {}
@@ -9987,7 +9988,7 @@ ContainerFrame6Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame6Item10 = {}
@@ -10036,7 +10037,7 @@ ContainerFrame6Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame6Item11 = {}
@@ -10085,7 +10086,7 @@ ContainerFrame6Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame6Item12 = {}
@@ -10134,7 +10135,7 @@ ContainerFrame6Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame6Item13 = {}
@@ -10183,7 +10184,7 @@ ContainerFrame6Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame6Item14 = {}
@@ -10232,7 +10233,7 @@ ContainerFrame6Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame6Item15 = {}
@@ -10281,7 +10282,7 @@ ContainerFrame6Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame6Item16 = {}
@@ -10330,7 +10331,7 @@ ContainerFrame6Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame6Item17 = {}
@@ -10379,7 +10380,7 @@ ContainerFrame6Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame6Item18 = {}
@@ -10428,7 +10429,7 @@ ContainerFrame6Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame6Item19 = {}
@@ -10477,7 +10478,7 @@ ContainerFrame6Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame6Item20 = {}
@@ -10526,7 +10527,7 @@ ContainerFrame6Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame6Item21 = {}
@@ -10575,7 +10576,7 @@ ContainerFrame6Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame6Item22 = {}
@@ -10624,7 +10625,7 @@ ContainerFrame6Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame6Item23 = {}
@@ -10673,7 +10674,7 @@ ContainerFrame6Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame6Item24 = {}
@@ -10722,7 +10723,7 @@ ContainerFrame6Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame6Item25 = {}
@@ -10771,7 +10772,7 @@ ContainerFrame6Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame6Item26 = {}
@@ -10820,7 +10821,7 @@ ContainerFrame6Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame6Item27 = {}
@@ -10869,7 +10870,7 @@ ContainerFrame6Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame6Item28 = {}
@@ -10918,7 +10919,7 @@ ContainerFrame6Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame6Item29 = {}
@@ -10967,7 +10968,7 @@ ContainerFrame6Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame6Item30 = {}
@@ -11016,7 +11017,7 @@ ContainerFrame6Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame6Item31 = {}
@@ -11065,7 +11066,7 @@ ContainerFrame6Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame6Item32 = {}
@@ -11114,7 +11115,7 @@ ContainerFrame6Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame6Item33 = {}
@@ -11163,7 +11164,7 @@ ContainerFrame6Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame6Item34 = {}
@@ -11212,7 +11213,7 @@ ContainerFrame6Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame6Item35 = {}
@@ -11261,7 +11262,7 @@ ContainerFrame6Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame6Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame6Item36 = {}
@@ -11270,17 +11271,17 @@ ContainerFrame6Item36["Count"] = ContainerFrame6Item36Count -- inherited
 ContainerFrame6Item36["searchOverlay"] = ContainerFrame6Item36SearchOverlay -- inherited
 ContainerFrame6Item36["subicon"] = ContainerFrame6Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame6PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame6AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame6CloseButton = {}
@@ -11290,37 +11291,37 @@ ContainerFrame6CloseButton = {}
 --- @type Texture
 ContainerFrame6Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame6BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame6BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame6BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame6BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame6Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame6 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame6Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L413)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L422)
 --- @class ContainerFrame6 : Frame, ContainerFrameTemplate
 ContainerFrame6 = {}
 ContainerFrame6["PortraitButton"] = ContainerFrame6PortraitButton -- inherited
@@ -11346,7 +11347,7 @@ ContainerFrame7MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame7MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame7MoneyFrame = {}
@@ -11395,7 +11396,7 @@ ContainerFrame7Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame7Item1 = {}
@@ -11444,7 +11445,7 @@ ContainerFrame7Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame7Item2 = {}
@@ -11493,7 +11494,7 @@ ContainerFrame7Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame7Item3 = {}
@@ -11542,7 +11543,7 @@ ContainerFrame7Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame7Item4 = {}
@@ -11591,7 +11592,7 @@ ContainerFrame7Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame7Item5 = {}
@@ -11640,7 +11641,7 @@ ContainerFrame7Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame7Item6 = {}
@@ -11689,7 +11690,7 @@ ContainerFrame7Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame7Item7 = {}
@@ -11738,7 +11739,7 @@ ContainerFrame7Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame7Item8 = {}
@@ -11787,7 +11788,7 @@ ContainerFrame7Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame7Item9 = {}
@@ -11836,7 +11837,7 @@ ContainerFrame7Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame7Item10 = {}
@@ -11885,7 +11886,7 @@ ContainerFrame7Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame7Item11 = {}
@@ -11934,7 +11935,7 @@ ContainerFrame7Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame7Item12 = {}
@@ -11983,7 +11984,7 @@ ContainerFrame7Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame7Item13 = {}
@@ -12032,7 +12033,7 @@ ContainerFrame7Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame7Item14 = {}
@@ -12081,7 +12082,7 @@ ContainerFrame7Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame7Item15 = {}
@@ -12130,7 +12131,7 @@ ContainerFrame7Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame7Item16 = {}
@@ -12179,7 +12180,7 @@ ContainerFrame7Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame7Item17 = {}
@@ -12228,7 +12229,7 @@ ContainerFrame7Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame7Item18 = {}
@@ -12277,7 +12278,7 @@ ContainerFrame7Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame7Item19 = {}
@@ -12326,7 +12327,7 @@ ContainerFrame7Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame7Item20 = {}
@@ -12375,7 +12376,7 @@ ContainerFrame7Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame7Item21 = {}
@@ -12424,7 +12425,7 @@ ContainerFrame7Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame7Item22 = {}
@@ -12473,7 +12474,7 @@ ContainerFrame7Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame7Item23 = {}
@@ -12522,7 +12523,7 @@ ContainerFrame7Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame7Item24 = {}
@@ -12571,7 +12572,7 @@ ContainerFrame7Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame7Item25 = {}
@@ -12620,7 +12621,7 @@ ContainerFrame7Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame7Item26 = {}
@@ -12669,7 +12670,7 @@ ContainerFrame7Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame7Item27 = {}
@@ -12718,7 +12719,7 @@ ContainerFrame7Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame7Item28 = {}
@@ -12767,7 +12768,7 @@ ContainerFrame7Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame7Item29 = {}
@@ -12816,7 +12817,7 @@ ContainerFrame7Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame7Item30 = {}
@@ -12865,7 +12866,7 @@ ContainerFrame7Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame7Item31 = {}
@@ -12914,7 +12915,7 @@ ContainerFrame7Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame7Item32 = {}
@@ -12963,7 +12964,7 @@ ContainerFrame7Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame7Item33 = {}
@@ -13012,7 +13013,7 @@ ContainerFrame7Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame7Item34 = {}
@@ -13061,7 +13062,7 @@ ContainerFrame7Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame7Item35 = {}
@@ -13110,7 +13111,7 @@ ContainerFrame7Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame7Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame7Item36 = {}
@@ -13119,17 +13120,17 @@ ContainerFrame7Item36["Count"] = ContainerFrame7Item36Count -- inherited
 ContainerFrame7Item36["searchOverlay"] = ContainerFrame7Item36SearchOverlay -- inherited
 ContainerFrame7Item36["subicon"] = ContainerFrame7Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame7PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame7AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame7CloseButton = {}
@@ -13139,37 +13140,37 @@ ContainerFrame7CloseButton = {}
 --- @type Texture
 ContainerFrame7Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame7BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame7BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame7BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame7BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame7Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame7 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame7Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L414)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L423)
 --- @class ContainerFrame7 : Frame, ContainerFrameTemplate
 ContainerFrame7 = {}
 ContainerFrame7["PortraitButton"] = ContainerFrame7PortraitButton -- inherited
@@ -13195,7 +13196,7 @@ ContainerFrame8MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame8MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame8MoneyFrame = {}
@@ -13244,7 +13245,7 @@ ContainerFrame8Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame8Item1 = {}
@@ -13293,7 +13294,7 @@ ContainerFrame8Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame8Item2 = {}
@@ -13342,7 +13343,7 @@ ContainerFrame8Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame8Item3 = {}
@@ -13391,7 +13392,7 @@ ContainerFrame8Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame8Item4 = {}
@@ -13440,7 +13441,7 @@ ContainerFrame8Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame8Item5 = {}
@@ -13489,7 +13490,7 @@ ContainerFrame8Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame8Item6 = {}
@@ -13538,7 +13539,7 @@ ContainerFrame8Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame8Item7 = {}
@@ -13587,7 +13588,7 @@ ContainerFrame8Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame8Item8 = {}
@@ -13636,7 +13637,7 @@ ContainerFrame8Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame8Item9 = {}
@@ -13685,7 +13686,7 @@ ContainerFrame8Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame8Item10 = {}
@@ -13734,7 +13735,7 @@ ContainerFrame8Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame8Item11 = {}
@@ -13783,7 +13784,7 @@ ContainerFrame8Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame8Item12 = {}
@@ -13832,7 +13833,7 @@ ContainerFrame8Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame8Item13 = {}
@@ -13881,7 +13882,7 @@ ContainerFrame8Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame8Item14 = {}
@@ -13930,7 +13931,7 @@ ContainerFrame8Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame8Item15 = {}
@@ -13979,7 +13980,7 @@ ContainerFrame8Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame8Item16 = {}
@@ -14028,7 +14029,7 @@ ContainerFrame8Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame8Item17 = {}
@@ -14077,7 +14078,7 @@ ContainerFrame8Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame8Item18 = {}
@@ -14126,7 +14127,7 @@ ContainerFrame8Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame8Item19 = {}
@@ -14175,7 +14176,7 @@ ContainerFrame8Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame8Item20 = {}
@@ -14224,7 +14225,7 @@ ContainerFrame8Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame8Item21 = {}
@@ -14273,7 +14274,7 @@ ContainerFrame8Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame8Item22 = {}
@@ -14322,7 +14323,7 @@ ContainerFrame8Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame8Item23 = {}
@@ -14371,7 +14372,7 @@ ContainerFrame8Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame8Item24 = {}
@@ -14420,7 +14421,7 @@ ContainerFrame8Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame8Item25 = {}
@@ -14469,7 +14470,7 @@ ContainerFrame8Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame8Item26 = {}
@@ -14518,7 +14519,7 @@ ContainerFrame8Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame8Item27 = {}
@@ -14567,7 +14568,7 @@ ContainerFrame8Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame8Item28 = {}
@@ -14616,7 +14617,7 @@ ContainerFrame8Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame8Item29 = {}
@@ -14665,7 +14666,7 @@ ContainerFrame8Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame8Item30 = {}
@@ -14714,7 +14715,7 @@ ContainerFrame8Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame8Item31 = {}
@@ -14763,7 +14764,7 @@ ContainerFrame8Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame8Item32 = {}
@@ -14812,7 +14813,7 @@ ContainerFrame8Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame8Item33 = {}
@@ -14861,7 +14862,7 @@ ContainerFrame8Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame8Item34 = {}
@@ -14910,7 +14911,7 @@ ContainerFrame8Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame8Item35 = {}
@@ -14959,7 +14960,7 @@ ContainerFrame8Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame8Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame8Item36 = {}
@@ -14968,17 +14969,17 @@ ContainerFrame8Item36["Count"] = ContainerFrame8Item36Count -- inherited
 ContainerFrame8Item36["searchOverlay"] = ContainerFrame8Item36SearchOverlay -- inherited
 ContainerFrame8Item36["subicon"] = ContainerFrame8Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame8PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame8AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame8CloseButton = {}
@@ -14988,37 +14989,37 @@ ContainerFrame8CloseButton = {}
 --- @type Texture
 ContainerFrame8Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame8BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame8BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame8BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame8BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame8Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame8 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame8Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L415)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L424)
 --- @class ContainerFrame8 : Frame, ContainerFrameTemplate
 ContainerFrame8 = {}
 ContainerFrame8["PortraitButton"] = ContainerFrame8PortraitButton -- inherited
@@ -15044,7 +15045,7 @@ ContainerFrame9MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame9MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame9MoneyFrame = {}
@@ -15093,7 +15094,7 @@ ContainerFrame9Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame9Item1 = {}
@@ -15142,7 +15143,7 @@ ContainerFrame9Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame9Item2 = {}
@@ -15191,7 +15192,7 @@ ContainerFrame9Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame9Item3 = {}
@@ -15240,7 +15241,7 @@ ContainerFrame9Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame9Item4 = {}
@@ -15289,7 +15290,7 @@ ContainerFrame9Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame9Item5 = {}
@@ -15338,7 +15339,7 @@ ContainerFrame9Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame9Item6 = {}
@@ -15387,7 +15388,7 @@ ContainerFrame9Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame9Item7 = {}
@@ -15436,7 +15437,7 @@ ContainerFrame9Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame9Item8 = {}
@@ -15485,7 +15486,7 @@ ContainerFrame9Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame9Item9 = {}
@@ -15534,7 +15535,7 @@ ContainerFrame9Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame9Item10 = {}
@@ -15583,7 +15584,7 @@ ContainerFrame9Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame9Item11 = {}
@@ -15632,7 +15633,7 @@ ContainerFrame9Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame9Item12 = {}
@@ -15681,7 +15682,7 @@ ContainerFrame9Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame9Item13 = {}
@@ -15730,7 +15731,7 @@ ContainerFrame9Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame9Item14 = {}
@@ -15779,7 +15780,7 @@ ContainerFrame9Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame9Item15 = {}
@@ -15828,7 +15829,7 @@ ContainerFrame9Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame9Item16 = {}
@@ -15877,7 +15878,7 @@ ContainerFrame9Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame9Item17 = {}
@@ -15926,7 +15927,7 @@ ContainerFrame9Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame9Item18 = {}
@@ -15975,7 +15976,7 @@ ContainerFrame9Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame9Item19 = {}
@@ -16024,7 +16025,7 @@ ContainerFrame9Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame9Item20 = {}
@@ -16073,7 +16074,7 @@ ContainerFrame9Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame9Item21 = {}
@@ -16122,7 +16123,7 @@ ContainerFrame9Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame9Item22 = {}
@@ -16171,7 +16172,7 @@ ContainerFrame9Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame9Item23 = {}
@@ -16220,7 +16221,7 @@ ContainerFrame9Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame9Item24 = {}
@@ -16269,7 +16270,7 @@ ContainerFrame9Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame9Item25 = {}
@@ -16318,7 +16319,7 @@ ContainerFrame9Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame9Item26 = {}
@@ -16367,7 +16368,7 @@ ContainerFrame9Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame9Item27 = {}
@@ -16416,7 +16417,7 @@ ContainerFrame9Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame9Item28 = {}
@@ -16465,7 +16466,7 @@ ContainerFrame9Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame9Item29 = {}
@@ -16514,7 +16515,7 @@ ContainerFrame9Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame9Item30 = {}
@@ -16563,7 +16564,7 @@ ContainerFrame9Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame9Item31 = {}
@@ -16612,7 +16613,7 @@ ContainerFrame9Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame9Item32 = {}
@@ -16661,7 +16662,7 @@ ContainerFrame9Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame9Item33 = {}
@@ -16710,7 +16711,7 @@ ContainerFrame9Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame9Item34 = {}
@@ -16759,7 +16760,7 @@ ContainerFrame9Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame9Item35 = {}
@@ -16808,7 +16809,7 @@ ContainerFrame9Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame9Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame9Item36 = {}
@@ -16817,17 +16818,17 @@ ContainerFrame9Item36["Count"] = ContainerFrame9Item36Count -- inherited
 ContainerFrame9Item36["searchOverlay"] = ContainerFrame9Item36SearchOverlay -- inherited
 ContainerFrame9Item36["subicon"] = ContainerFrame9Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame9PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame9AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame9CloseButton = {}
@@ -16837,37 +16838,37 @@ ContainerFrame9CloseButton = {}
 --- @type Texture
 ContainerFrame9Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame9BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame9BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame9BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame9BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame9Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame9 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame9Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L416)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L425)
 --- @class ContainerFrame9 : Frame, ContainerFrameTemplate
 ContainerFrame9 = {}
 ContainerFrame9["PortraitButton"] = ContainerFrame9PortraitButton -- inherited
@@ -16893,7 +16894,7 @@ ContainerFrame10MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame10MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame10MoneyFrame = {}
@@ -16942,7 +16943,7 @@ ContainerFrame10Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame10Item1 = {}
@@ -16991,7 +16992,7 @@ ContainerFrame10Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame10Item2 = {}
@@ -17040,7 +17041,7 @@ ContainerFrame10Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame10Item3 = {}
@@ -17089,7 +17090,7 @@ ContainerFrame10Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame10Item4 = {}
@@ -17138,7 +17139,7 @@ ContainerFrame10Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame10Item5 = {}
@@ -17187,7 +17188,7 @@ ContainerFrame10Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame10Item6 = {}
@@ -17236,7 +17237,7 @@ ContainerFrame10Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame10Item7 = {}
@@ -17285,7 +17286,7 @@ ContainerFrame10Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame10Item8 = {}
@@ -17334,7 +17335,7 @@ ContainerFrame10Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame10Item9 = {}
@@ -17383,7 +17384,7 @@ ContainerFrame10Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame10Item10 = {}
@@ -17432,7 +17433,7 @@ ContainerFrame10Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame10Item11 = {}
@@ -17481,7 +17482,7 @@ ContainerFrame10Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame10Item12 = {}
@@ -17530,7 +17531,7 @@ ContainerFrame10Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame10Item13 = {}
@@ -17579,7 +17580,7 @@ ContainerFrame10Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame10Item14 = {}
@@ -17628,7 +17629,7 @@ ContainerFrame10Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame10Item15 = {}
@@ -17677,7 +17678,7 @@ ContainerFrame10Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame10Item16 = {}
@@ -17726,7 +17727,7 @@ ContainerFrame10Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame10Item17 = {}
@@ -17775,7 +17776,7 @@ ContainerFrame10Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame10Item18 = {}
@@ -17824,7 +17825,7 @@ ContainerFrame10Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame10Item19 = {}
@@ -17873,7 +17874,7 @@ ContainerFrame10Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame10Item20 = {}
@@ -17922,7 +17923,7 @@ ContainerFrame10Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame10Item21 = {}
@@ -17971,7 +17972,7 @@ ContainerFrame10Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame10Item22 = {}
@@ -18020,7 +18021,7 @@ ContainerFrame10Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame10Item23 = {}
@@ -18069,7 +18070,7 @@ ContainerFrame10Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame10Item24 = {}
@@ -18118,7 +18119,7 @@ ContainerFrame10Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame10Item25 = {}
@@ -18167,7 +18168,7 @@ ContainerFrame10Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame10Item26 = {}
@@ -18216,7 +18217,7 @@ ContainerFrame10Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame10Item27 = {}
@@ -18265,7 +18266,7 @@ ContainerFrame10Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame10Item28 = {}
@@ -18314,7 +18315,7 @@ ContainerFrame10Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame10Item29 = {}
@@ -18363,7 +18364,7 @@ ContainerFrame10Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame10Item30 = {}
@@ -18412,7 +18413,7 @@ ContainerFrame10Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame10Item31 = {}
@@ -18461,7 +18462,7 @@ ContainerFrame10Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame10Item32 = {}
@@ -18510,7 +18511,7 @@ ContainerFrame10Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame10Item33 = {}
@@ -18559,7 +18560,7 @@ ContainerFrame10Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame10Item34 = {}
@@ -18608,7 +18609,7 @@ ContainerFrame10Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame10Item35 = {}
@@ -18657,7 +18658,7 @@ ContainerFrame10Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame10Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame10Item36 = {}
@@ -18666,17 +18667,17 @@ ContainerFrame10Item36["Count"] = ContainerFrame10Item36Count -- inherited
 ContainerFrame10Item36["searchOverlay"] = ContainerFrame10Item36SearchOverlay -- inherited
 ContainerFrame10Item36["subicon"] = ContainerFrame10Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame10PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame10AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame10CloseButton = {}
@@ -18686,37 +18687,37 @@ ContainerFrame10CloseButton = {}
 --- @type Texture
 ContainerFrame10Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame10BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame10BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame10BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame10BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame10Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame10 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame10Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L417)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L426)
 --- @class ContainerFrame10 : Frame, ContainerFrameTemplate
 ContainerFrame10 = {}
 ContainerFrame10["PortraitButton"] = ContainerFrame10PortraitButton -- inherited
@@ -18742,7 +18743,7 @@ ContainerFrame11MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame11MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame11MoneyFrame = {}
@@ -18791,7 +18792,7 @@ ContainerFrame11Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame11Item1 = {}
@@ -18840,7 +18841,7 @@ ContainerFrame11Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame11Item2 = {}
@@ -18889,7 +18890,7 @@ ContainerFrame11Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame11Item3 = {}
@@ -18938,7 +18939,7 @@ ContainerFrame11Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame11Item4 = {}
@@ -18987,7 +18988,7 @@ ContainerFrame11Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame11Item5 = {}
@@ -19036,7 +19037,7 @@ ContainerFrame11Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame11Item6 = {}
@@ -19085,7 +19086,7 @@ ContainerFrame11Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame11Item7 = {}
@@ -19134,7 +19135,7 @@ ContainerFrame11Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame11Item8 = {}
@@ -19183,7 +19184,7 @@ ContainerFrame11Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame11Item9 = {}
@@ -19232,7 +19233,7 @@ ContainerFrame11Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame11Item10 = {}
@@ -19281,7 +19282,7 @@ ContainerFrame11Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame11Item11 = {}
@@ -19330,7 +19331,7 @@ ContainerFrame11Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame11Item12 = {}
@@ -19379,7 +19380,7 @@ ContainerFrame11Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame11Item13 = {}
@@ -19428,7 +19429,7 @@ ContainerFrame11Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame11Item14 = {}
@@ -19477,7 +19478,7 @@ ContainerFrame11Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame11Item15 = {}
@@ -19526,7 +19527,7 @@ ContainerFrame11Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame11Item16 = {}
@@ -19575,7 +19576,7 @@ ContainerFrame11Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame11Item17 = {}
@@ -19624,7 +19625,7 @@ ContainerFrame11Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame11Item18 = {}
@@ -19673,7 +19674,7 @@ ContainerFrame11Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame11Item19 = {}
@@ -19722,7 +19723,7 @@ ContainerFrame11Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame11Item20 = {}
@@ -19771,7 +19772,7 @@ ContainerFrame11Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame11Item21 = {}
@@ -19820,7 +19821,7 @@ ContainerFrame11Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame11Item22 = {}
@@ -19869,7 +19870,7 @@ ContainerFrame11Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame11Item23 = {}
@@ -19918,7 +19919,7 @@ ContainerFrame11Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame11Item24 = {}
@@ -19967,7 +19968,7 @@ ContainerFrame11Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame11Item25 = {}
@@ -20016,7 +20017,7 @@ ContainerFrame11Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame11Item26 = {}
@@ -20065,7 +20066,7 @@ ContainerFrame11Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame11Item27 = {}
@@ -20114,7 +20115,7 @@ ContainerFrame11Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame11Item28 = {}
@@ -20163,7 +20164,7 @@ ContainerFrame11Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame11Item29 = {}
@@ -20212,7 +20213,7 @@ ContainerFrame11Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame11Item30 = {}
@@ -20261,7 +20262,7 @@ ContainerFrame11Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame11Item31 = {}
@@ -20310,7 +20311,7 @@ ContainerFrame11Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame11Item32 = {}
@@ -20359,7 +20360,7 @@ ContainerFrame11Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame11Item33 = {}
@@ -20408,7 +20409,7 @@ ContainerFrame11Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame11Item34 = {}
@@ -20457,7 +20458,7 @@ ContainerFrame11Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame11Item35 = {}
@@ -20506,7 +20507,7 @@ ContainerFrame11Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame11Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame11Item36 = {}
@@ -20515,17 +20516,17 @@ ContainerFrame11Item36["Count"] = ContainerFrame11Item36Count -- inherited
 ContainerFrame11Item36["searchOverlay"] = ContainerFrame11Item36SearchOverlay -- inherited
 ContainerFrame11Item36["subicon"] = ContainerFrame11Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame11PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame11AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame11CloseButton = {}
@@ -20535,37 +20536,37 @@ ContainerFrame11CloseButton = {}
 --- @type Texture
 ContainerFrame11Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame11BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame11BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame11BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame11BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame11Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame11 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame11Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L418)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L427)
 --- @class ContainerFrame11 : Frame, ContainerFrameTemplate
 ContainerFrame11 = {}
 ContainerFrame11["PortraitButton"] = ContainerFrame11PortraitButton -- inherited
@@ -20591,7 +20592,7 @@ ContainerFrame12MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame12MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame12MoneyFrame = {}
@@ -20640,7 +20641,7 @@ ContainerFrame12Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame12Item1 = {}
@@ -20689,7 +20690,7 @@ ContainerFrame12Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame12Item2 = {}
@@ -20738,7 +20739,7 @@ ContainerFrame12Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame12Item3 = {}
@@ -20787,7 +20788,7 @@ ContainerFrame12Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame12Item4 = {}
@@ -20836,7 +20837,7 @@ ContainerFrame12Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame12Item5 = {}
@@ -20885,7 +20886,7 @@ ContainerFrame12Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame12Item6 = {}
@@ -20934,7 +20935,7 @@ ContainerFrame12Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame12Item7 = {}
@@ -20983,7 +20984,7 @@ ContainerFrame12Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame12Item8 = {}
@@ -21032,7 +21033,7 @@ ContainerFrame12Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame12Item9 = {}
@@ -21081,7 +21082,7 @@ ContainerFrame12Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame12Item10 = {}
@@ -21130,7 +21131,7 @@ ContainerFrame12Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame12Item11 = {}
@@ -21179,7 +21180,7 @@ ContainerFrame12Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame12Item12 = {}
@@ -21228,7 +21229,7 @@ ContainerFrame12Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame12Item13 = {}
@@ -21277,7 +21278,7 @@ ContainerFrame12Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame12Item14 = {}
@@ -21326,7 +21327,7 @@ ContainerFrame12Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame12Item15 = {}
@@ -21375,7 +21376,7 @@ ContainerFrame12Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame12Item16 = {}
@@ -21424,7 +21425,7 @@ ContainerFrame12Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame12Item17 = {}
@@ -21473,7 +21474,7 @@ ContainerFrame12Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame12Item18 = {}
@@ -21522,7 +21523,7 @@ ContainerFrame12Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame12Item19 = {}
@@ -21571,7 +21572,7 @@ ContainerFrame12Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame12Item20 = {}
@@ -21620,7 +21621,7 @@ ContainerFrame12Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame12Item21 = {}
@@ -21669,7 +21670,7 @@ ContainerFrame12Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame12Item22 = {}
@@ -21718,7 +21719,7 @@ ContainerFrame12Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame12Item23 = {}
@@ -21767,7 +21768,7 @@ ContainerFrame12Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame12Item24 = {}
@@ -21816,7 +21817,7 @@ ContainerFrame12Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame12Item25 = {}
@@ -21865,7 +21866,7 @@ ContainerFrame12Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame12Item26 = {}
@@ -21914,7 +21915,7 @@ ContainerFrame12Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame12Item27 = {}
@@ -21963,7 +21964,7 @@ ContainerFrame12Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame12Item28 = {}
@@ -22012,7 +22013,7 @@ ContainerFrame12Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame12Item29 = {}
@@ -22061,7 +22062,7 @@ ContainerFrame12Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame12Item30 = {}
@@ -22110,7 +22111,7 @@ ContainerFrame12Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame12Item31 = {}
@@ -22159,7 +22160,7 @@ ContainerFrame12Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame12Item32 = {}
@@ -22208,7 +22209,7 @@ ContainerFrame12Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame12Item33 = {}
@@ -22257,7 +22258,7 @@ ContainerFrame12Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame12Item34 = {}
@@ -22306,7 +22307,7 @@ ContainerFrame12Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame12Item35 = {}
@@ -22355,7 +22356,7 @@ ContainerFrame12Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame12Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame12Item36 = {}
@@ -22364,17 +22365,17 @@ ContainerFrame12Item36["Count"] = ContainerFrame12Item36Count -- inherited
 ContainerFrame12Item36["searchOverlay"] = ContainerFrame12Item36SearchOverlay -- inherited
 ContainerFrame12Item36["subicon"] = ContainerFrame12Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame12PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame12AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame12CloseButton = {}
@@ -22384,37 +22385,37 @@ ContainerFrame12CloseButton = {}
 --- @type Texture
 ContainerFrame12Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame12BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame12BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame12BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame12BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame12Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame12 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame12Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L419)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L428)
 --- @class ContainerFrame12 : Frame, ContainerFrameTemplate
 ContainerFrame12 = {}
 ContainerFrame12["PortraitButton"] = ContainerFrame12PortraitButton -- inherited
@@ -22440,7 +22441,7 @@ ContainerFrame13MoneyFrameSilverButton = {}
 --- @type SmallMoneyFrameTemplate_GoldButton
 ContainerFrame13MoneyFrameGoldButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L265)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_MoneyFrame
 ContainerFrame13MoneyFrame = {}
@@ -22489,7 +22490,7 @@ ContainerFrame13Item1SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item1NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item1
 ContainerFrame13Item1 = {}
@@ -22538,7 +22539,7 @@ ContainerFrame13Item2SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item2NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L269)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item2
 ContainerFrame13Item2 = {}
@@ -22587,7 +22588,7 @@ ContainerFrame13Item3SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item3NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L270)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item3
 ContainerFrame13Item3 = {}
@@ -22636,7 +22637,7 @@ ContainerFrame13Item4SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item4NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item4
 ContainerFrame13Item4 = {}
@@ -22685,7 +22686,7 @@ ContainerFrame13Item5SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item5NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item5
 ContainerFrame13Item5 = {}
@@ -22734,7 +22735,7 @@ ContainerFrame13Item6SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item6NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L273)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item6
 ContainerFrame13Item6 = {}
@@ -22783,7 +22784,7 @@ ContainerFrame13Item7SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item7NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item7
 ContainerFrame13Item7 = {}
@@ -22832,7 +22833,7 @@ ContainerFrame13Item8SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item8NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L275)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item8
 ContainerFrame13Item8 = {}
@@ -22881,7 +22882,7 @@ ContainerFrame13Item9SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item9NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L276)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item9
 ContainerFrame13Item9 = {}
@@ -22930,7 +22931,7 @@ ContainerFrame13Item10SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item10NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L277)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item10
 ContainerFrame13Item10 = {}
@@ -22979,7 +22980,7 @@ ContainerFrame13Item11SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item11NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L278)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item11
 ContainerFrame13Item11 = {}
@@ -23028,7 +23029,7 @@ ContainerFrame13Item12SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item12NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item12
 ContainerFrame13Item12 = {}
@@ -23077,7 +23078,7 @@ ContainerFrame13Item13SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item13NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item13
 ContainerFrame13Item13 = {}
@@ -23126,7 +23127,7 @@ ContainerFrame13Item14SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item14NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L281)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item14
 ContainerFrame13Item14 = {}
@@ -23175,7 +23176,7 @@ ContainerFrame13Item15SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item15NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L282)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item15
 ContainerFrame13Item15 = {}
@@ -23224,7 +23225,7 @@ ContainerFrame13Item16SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item16NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L283)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item16
 ContainerFrame13Item16 = {}
@@ -23273,7 +23274,7 @@ ContainerFrame13Item17SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item17NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item17
 ContainerFrame13Item17 = {}
@@ -23322,7 +23323,7 @@ ContainerFrame13Item18SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item18NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item18
 ContainerFrame13Item18 = {}
@@ -23371,7 +23372,7 @@ ContainerFrame13Item19SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item19NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item19
 ContainerFrame13Item19 = {}
@@ -23420,7 +23421,7 @@ ContainerFrame13Item20SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item20NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item20
 ContainerFrame13Item20 = {}
@@ -23469,7 +23470,7 @@ ContainerFrame13Item21SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item21NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L288)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item21
 ContainerFrame13Item21 = {}
@@ -23518,7 +23519,7 @@ ContainerFrame13Item22SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item22NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L289)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item22
 ContainerFrame13Item22 = {}
@@ -23567,7 +23568,7 @@ ContainerFrame13Item23SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item23NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L290)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item23
 ContainerFrame13Item23 = {}
@@ -23616,7 +23617,7 @@ ContainerFrame13Item24SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item24NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item24
 ContainerFrame13Item24 = {}
@@ -23665,7 +23666,7 @@ ContainerFrame13Item25SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item25NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item25
 ContainerFrame13Item25 = {}
@@ -23714,7 +23715,7 @@ ContainerFrame13Item26SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item26NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item26
 ContainerFrame13Item26 = {}
@@ -23763,7 +23764,7 @@ ContainerFrame13Item27SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item27NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L294)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item27
 ContainerFrame13Item27 = {}
@@ -23812,7 +23813,7 @@ ContainerFrame13Item28SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item28NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L304)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item28
 ContainerFrame13Item28 = {}
@@ -23861,7 +23862,7 @@ ContainerFrame13Item29SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item29NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L296)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item29
 ContainerFrame13Item29 = {}
@@ -23910,7 +23911,7 @@ ContainerFrame13Item30SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item30NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L306)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item30
 ContainerFrame13Item30 = {}
@@ -23959,7 +23960,7 @@ ContainerFrame13Item31SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item31NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L298)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L307)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item31
 ContainerFrame13Item31 = {}
@@ -24008,7 +24009,7 @@ ContainerFrame13Item32SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item32NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L308)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item32
 ContainerFrame13Item32 = {}
@@ -24057,7 +24058,7 @@ ContainerFrame13Item33SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item33NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L309)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item33
 ContainerFrame13Item33 = {}
@@ -24106,7 +24107,7 @@ ContainerFrame13Item34SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item34NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L301)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L310)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item34
 ContainerFrame13Item34 = {}
@@ -24155,7 +24156,7 @@ ContainerFrame13Item35SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item35NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L302)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L311)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item35
 ContainerFrame13Item35 = {}
@@ -24204,7 +24205,7 @@ ContainerFrame13Item36SubIconTexture = {}
 --- @type Texture
 ContainerFrame13Item36NormalTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L303)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L312)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Item36
 ContainerFrame13Item36 = {}
@@ -24213,17 +24214,17 @@ ContainerFrame13Item36["Count"] = ContainerFrame13Item36Count -- inherited
 ContainerFrame13Item36["searchOverlay"] = ContainerFrame13Item36SearchOverlay -- inherited
 ContainerFrame13Item36["subicon"] = ContainerFrame13Item36SubIconTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L314)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type Button
 ContainerFrame13PortraitButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L315)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L324)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_AddSlotsButton
 ContainerFrame13AddSlotsButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L361)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L370)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_CloseButton
 ContainerFrame13CloseButton = {}
@@ -24233,72 +24234,72 @@ ContainerFrame13CloseButton = {}
 --- @type Texture
 ContainerFrame13Portrait = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L213)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L222)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame13BackgroundTop = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L219)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L228)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame13BackgroundMiddle1 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L226)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L235)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame13BackgroundMiddle2 = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L233)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L242)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame13BackgroundBottom = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L249)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type ContainerFrameTemplate_Name
 ContainerFrame13Name = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L246)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L255)
 --- child of ContainerFrame13 (created in template ContainerFrameTemplate)
 --- @type Texture
 ContainerFrame13Background1Slot = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L420)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L429)
 --- @class ContainerFrame13 : Frame, ContainerFrameTemplate
 ContainerFrame13 = {}
 ContainerFrame13["PortraitButton"] = ContainerFrame13PortraitButton -- inherited
 ContainerFrame13["Portrait"] = ContainerFrame13Portrait -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L463)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L472)
 --- child of BagHelpBox
 --- @class BagHelpBox_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L476)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L485)
 --- child of BagHelpBox
 --- @class BagHelpBox_Arrow : Frame, GlowBoxArrowTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L454)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L463)
 --- child of BagHelpBox
 --- @class BagHelpBox_Text : FontString, GameFontHighlightLeft
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L450)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L459)
 --- @class BagHelpBox : Frame, GlowBoxTemplate
 --- @field CloseButton BagHelpBox_CloseButton
 --- @field Arrow BagHelpBox_Arrow
 --- @field Text BagHelpBox_Text
 BagHelpBox = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L1164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L44)
 --- child of BagItemSearchBox (created in template SearchBoxTemplate)
 --- @type SearchBoxTemplate_ClearButton
 BagItemSearchBoxClearButton = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L1155)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L35)
 --- child of BagItemSearchBox (created in template SearchBoxTemplate)
 --- @type Texture
 BagItemSearchBoxSearchIcon = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L495)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_UIPanels_Game/Classic/ContainerFrame.xml#L504)
 --- @class BagItemSearchBox : EditBox, BagSearchBoxTemplate
 BagItemSearchBox = {}
 BagItemSearchBox["instructionText"] = SEARCH -- inherited

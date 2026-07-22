@@ -12,6 +12,7 @@ class Frame
     /** @var array<string, KeyValueDTO> */
     private array $keyValues;
     private ProtectedEnum $protected = ProtectedEnum::UNPROTECTED;
+    private bool $useForbiddenObjectTable = false;
 
     public function __construct(
         private readonly string $name,
@@ -37,6 +38,11 @@ class Frame
         }
 
         return $node;
+    }
+
+    public function setUseForbiddenObjectTable(bool $useForbiddenObjectTable): void
+    {
+        $this->useForbiddenObjectTable = $useForbiddenObjectTable;
     }
 
     public function getName(bool $emptyParent = false): string
@@ -150,6 +156,17 @@ class Frame
         $secureMixins = (string) $this->xmlElement->attributes()['secureMixin'] ?? '';
         $secureMixins = str_replace(' ', '', $secureMixins);
         $secureMixins = $secureMixins === '' ? [] : explode(',', $secureMixins);
+
+        if (isset($this->xmlElement->Mixins->Mixin)) {
+            $defaultTargetPartition = $this->useForbiddenObjectTable ? 'forbidden' : 'public';
+            foreach ($this->xmlElement->Mixins->Mixin as $mixin) {
+                $targetPartition = (string) $mixin->attributes()['targetPartition'] ?: $defaultTargetPartition;
+                if ($targetPartition === 'forbidden') {
+                    continue;
+                }
+                $mixins[] = (string) $mixin->attributes()['key'];
+            }
+        }
 
         return array_unique(array_merge($mixins, $secureMixins));
     }

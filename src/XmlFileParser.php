@@ -83,7 +83,7 @@ class XmlFileParser
         }
     }
 
-    private function parseNode(SimpleXMLElement $node, Registry $fileRegistry, string $filename, ?Frame $parent = null): void
+    private function parseNode(SimpleXMLElement $node, Registry $fileRegistry, string $filename, ?Frame $parent = null, bool $useForbiddenObjectTable = false): void
     {
         if ($node->getName() === 'Script') {
             $content = (string) $node;
@@ -97,6 +97,35 @@ class XmlFileParser
 
             return;
         }
+
+        if ($node->getName() === 'ScopedModifier') {
+            $useForbiddenObjectTable = false;
+            foreach ($node->attributes() as $attribute => $value) {
+                switch ($attribute) {
+                    case 'forbidden':
+                    case 'scriptsUseGivenEnv':
+                    case 'hideFromGlobalEnv':
+                    case 'fullLockdown':
+                        if ((string) $value === 'true') {
+                            return;
+                        }
+                        break;
+                    case 'addToSecureEnv':
+                        // nothing special to do
+                        break;
+                    case 'useForbiddenObjectTable':
+                        // mixins are in the forbidden partition by default
+                        $useForbiddenObjectTable = true;
+                        break;
+                    default:
+                        throw new RuntimeException('Unknown ScopedModifier attribute: ' . $attribute);
+                }
+            }
+            foreach ($node->children() as $child) {
+                $this->parseNode($child, $fileRegistry, $filename, $parent, $useForbiddenObjectTable);
+            }
+        }
+
         $name = (string) $node->attributes()['name'] ?? '';
         if (!$parent && empty($name)) {
             return;
@@ -119,6 +148,7 @@ class XmlFileParser
             $frame = new Frame($name, $type, $node, $isProtected, $parent);
             $this->frameRegistry->register($frame->getClassName(), $frame);
         }
+        $frame->setUseForbiddenObjectTable($useForbiddenObjectTable);
         if (!empty($name)) {
             $fileRegistry->register($frame->getClassName(), $frame);
         }
@@ -126,13 +156,13 @@ class XmlFileParser
 
         if (self::TYPE_SCROLL_FRAME === $type && isset($node->ScrollChild)) {
             foreach ($node->ScrollChild->children() as $scrollChild) {
-                $this->parseNode($scrollChild, $fileRegistry, $filename, $frame);
+                $this->parseNode($scrollChild, $fileRegistry, $filename, $frame, $useForbiddenObjectTable);
             }
         }
         if (isset($node->Frames)) {
             foreach ($node->Frames as $framesNode) {
                 foreach ($framesNode->children() as $frameChild) {
-                    $this->parseNode($frameChild, $fileRegistry, $filename, $frame);
+                    $this->parseNode($frameChild, $fileRegistry, $filename, $frame, $useForbiddenObjectTable);
                 }
             }
         }
@@ -140,7 +170,7 @@ class XmlFileParser
             foreach ($node->Layers as $layersNode) {
                 foreach ($layersNode->children() as $layer) {
                     foreach ($layer->children() as $frameChild) {
-                        $this->parseNode($frameChild, $fileRegistry, $filename, $frame);
+                        $this->parseNode($frameChild, $fileRegistry, $filename, $frame, $useForbiddenObjectTable);
                     }
                 }
             }
@@ -148,18 +178,18 @@ class XmlFileParser
         if (isset($node->Animations)) {
             foreach ($node->Animations as $animationsNode) {
                 foreach ($animationsNode->children() as $animationGroup) {
-                    $this->parseNode($animationGroup, $fileRegistry, $filename, $frame);
+                    $this->parseNode($animationGroup, $fileRegistry, $filename, $frame, $useForbiddenObjectTable);
                 }
             }
         }
         if (self::TYPE_ANIMATION_GROUP === $type) {
             foreach ($node->children() as $animation) {
-                $this->parseNode($animation, $fileRegistry, $filename, $frame);
+                $this->parseNode($animation, $fileRegistry, $filename, $frame, $useForbiddenObjectTable);
             }
         }
         foreach (self::SPECIAL_CHILDREN as $specialChild) {
             if (isset($node->$specialChild)) {
-                $this->parseNode($node->$specialChild, $fileRegistry, $filename, $frame);
+                $this->parseNode($node->$specialChild, $fileRegistry, $filename, $frame, $useForbiddenObjectTable);
             }
         }
     }

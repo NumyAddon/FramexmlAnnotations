@@ -1,5 +1,10 @@
 --- @meta _
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.xml#L4)
+--- Explicitly protected
+--- @class UIParent : Frame
+UIParent = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.xml#L37)
 --- Template
 --- @class UIParentManagedFrameTemplate : Frame, UIParentManagedFrameMixin

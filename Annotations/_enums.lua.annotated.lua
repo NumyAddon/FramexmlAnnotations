@@ -1,41 +1,46 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
---- @enum Settings.CategorySet
-local Settings_CategorySet = {
-    ["Game"] = 1,
-    ["AddOns"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapBountyBoard.lua#L1)
+--- @enum BountyFrameType
+local BountyFrameType = {
+    ["BountyBoard"] = 1,
+    ["ActivityTracker"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L27)
---- @enum Settings.ControlType
-local Settings_ControlType = {
-    ["Radio"] = 1,
-    ["Checkbox"] = 2,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L3)
---- @enum SettingsLayoutMixin.LayoutType
-local SettingsLayoutMixin_LayoutType = {
-    ["Vertical"] = 1,
-    ["Canvas"] = 2,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L268)
---- @enum MapPinHighlightType
-local MapPinHighlightType = {
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L1)
+--- @enum QuestLogButtonTypes
+local QuestLogButtonTypes = {
     ["None"] = 1,
-    ["BountyRing"] = 2, -- Golden ring around the pin, used by the Emissary/Bounty Board, not really used any more after a consistency pass on quest pins
-    ["SupertrackedHighlight"] = 3, -- Blue glow + animated icon pulse, used by Covenant Callings and the World Map Activity Tracker
-    ["DreamsurgeHighlight"] = 4, -- Green glow + animated icon pulse, used by the Dreamsurge event
-    ["ImportantHubQuestHighlight"] = 5, -- Animated background glow, used by Quest Hub with important (manually specified) quests
+    ["Any"] = 2,
+    ["Header"] = 3,
+    ["HeaderCampaign"] = 4,
+    ["HeaderCampaignMinimal"] = 5,
+    ["HeaderCallings"] = 6,
+    ["StoryHeader"] = 7,
+    ["Quest"] = 8,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L280)
---- @enum MapPinHighlightAnimType
-local MapPinHighlightAnimType = {
-    ["ExpandAndFade"] = 1, -- Expands and fades the MapPoi icon, and shows a glow texture
-    ["BackgroundPulse"] = 2, -- Pulses a background glow a specified number of times
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L3)
+--- @enum QuestLogDisplayMode
+local QuestLogDisplayMode = {
+    ["Quests"] = 1,
+    ["Events"] = 2,
+    ["MapLegend"] = 3,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L125)
+--- @enum CooldownViewerVisual
+local CooldownViewerVisual = {
+    ["MarchingAnts"] = 1,
+    ["MarchingAntsCyan"] = 2,
+    ["MarchingAntsRed"] = 3,
+    ["MarchingAntsGreen"] = 4,
+    ["MarchingAntsBlue"] = 5,
+    ["Flash"] = 6,
+    ["FlashCyan"] = 7,
+    ["FlashRed"] = 8,
+    ["FlashGreen"] = 9,
+    ["FlashBlue"] = 10,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L4)
@@ -89,13 +94,47 @@ local CraftingQualityStatLine = {
     ["Concentration"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1814)
---- @enum PVPUIHonorInsetPanelType
-local PVPUIHonorInsetPanelType = {
-    ["Casual"] = 1,
-    ["Rated"] = 2,
-    ["Plunderstorm"] = 3,
-    ["TrainingGrounds"] = 4,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLBase/Mainline/IconDataProvider.lua#L45)
+--- @enum IconDataProviderIconType
+local IconDataProviderIconType = {
+    ["Spell"] = 1,
+    ["Item"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L189)
+--- @enum AuraUtil.AuraUpdateChangedType
+local AuraUtil_AuraUpdateChangedType = {
+    ["None"] = 1,
+    ["Debuff"] = 2,
+    ["Buff"] = 3,
+    ["Dispel"] = 4,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L196)
+--- @enum AuraUtil.UnitFrameDebuffType
+local AuraUtil_UnitFrameDebuffType = {
+    ["BossDebuff"] = 1,
+    ["BossBuff"] = 2,
+    ["PriorityDebuff"] = 3,
+    ["NonBossRaidDebuff"] = 4,
+    ["NonBossDebuff"] = 5,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L268)
+--- @enum MapPinHighlightType
+local MapPinHighlightType = {
+    ["None"] = 1,
+    ["BountyRing"] = 2, -- Golden ring around the pin, used by the Emissary/Bounty Board, not really used any more after a consistency pass on quest pins
+    ["SupertrackedHighlight"] = 3, -- Blue glow + animated icon pulse, used by Covenant Callings and the World Map Activity Tracker
+    ["DreamsurgeHighlight"] = 4, -- Green glow + animated icon pulse, used by the Dreamsurge event
+    ["ImportantHubQuestHighlight"] = 5, -- Animated background glow, used by Quest Hub with important (manually specified) quests
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L280)
+--- @enum MapPinHighlightAnimType
+local MapPinHighlightAnimType = {
+    ["ExpandAndFade"] = 1, -- Expands and fades the MapPoi icon, and shows a glow texture
+    ["BackgroundPulse"] = 2, -- Pulses a background glow a specified number of times
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L40)
@@ -121,41 +160,6 @@ local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
     ["Spell"] = 2,
     ["Item"] = 3,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapBountyBoard.lua#L1)
---- @enum BountyFrameType
-local BountyFrameType = {
-    ["BountyBoard"] = 1,
-    ["ActivityTracker"] = 2,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L1)
---- @enum QuestLogButtonTypes
-local QuestLogButtonTypes = {
-    ["None"] = 1,
-    ["Any"] = 2,
-    ["Header"] = 3,
-    ["HeaderCampaign"] = 4,
-    ["HeaderCampaignMinimal"] = 5,
-    ["HeaderCallings"] = 6,
-    ["StoryHeader"] = 7,
-    ["Quest"] = 8,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L3)
---- @enum QuestLogDisplayMode
-local QuestLogDisplayMode = {
-    ["Quests"] = 1,
-    ["Events"] = 2,
-    ["MapLegend"] = 3,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLBase/Mainline/IconDataProvider.lua#L45)
---- @enum IconDataProviderIconType
-local IconDataProviderIconType = {
-    ["Spell"] = 1,
-    ["Item"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ObjectiveTracker/Blizzard_ObjectiveTrackerShared.lua#L366)
@@ -194,38 +198,25 @@ local SpellFlyoutOpenReason = {
     ["GlyphActivated"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L125)
---- @enum CooldownViewerVisual
-local CooldownViewerVisual = {
-    ["MarchingAnts"] = 1,
-    ["MarchingAntsCyan"] = 2,
-    ["MarchingAntsRed"] = 3,
-    ["MarchingAntsGreen"] = 4,
-    ["MarchingAntsBlue"] = 5,
-    ["Flash"] = 6,
-    ["FlashCyan"] = 7,
-    ["FlashRed"] = 8,
-    ["FlashGreen"] = 9,
-    ["FlashBlue"] = 10,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
+--- @enum Settings.CategorySet
+local Settings_CategorySet = {
+    ["Game"] = 1,
+    ["AddOns"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L189)
---- @enum AuraUtil.AuraUpdateChangedType
-local AuraUtil_AuraUpdateChangedType = {
-    ["None"] = 1,
-    ["Debuff"] = 2,
-    ["Buff"] = 3,
-    ["Dispel"] = 4,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L27)
+--- @enum Settings.ControlType
+local Settings_ControlType = {
+    ["Radio"] = 1,
+    ["Checkbox"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L196)
---- @enum AuraUtil.UnitFrameDebuffType
-local AuraUtil_UnitFrameDebuffType = {
-    ["BossDebuff"] = 1,
-    ["BossBuff"] = 2,
-    ["PriorityDebuff"] = 3,
-    ["NonBossRaidDebuff"] = 4,
-    ["NonBossDebuff"] = 5,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_SettingsLayouts.lua#L3)
+--- @enum SettingsLayoutMixin.LayoutType
+local SettingsLayoutMixin_LayoutType = {
+    ["Vertical"] = 1,
+    ["Canvas"] = 2,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_ProfessionsCustomerOrders/Blizzard_ProfessionsCustomerOrders.lua#L1)
@@ -233,5 +224,14 @@ local AuraUtil_UnitFrameDebuffType = {
 local ProfessionsCustomerOrdersMode = {
     ["Browse"] = 1,
     ["Orders"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/beta/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1814)
+--- @enum PVPUIHonorInsetPanelType
+local PVPUIHonorInsetPanelType = {
+    ["Casual"] = 1,
+    ["Rated"] = 2,
+    ["Plunderstorm"] = 3,
+    ["TrainingGrounds"] = 4,
 }
 

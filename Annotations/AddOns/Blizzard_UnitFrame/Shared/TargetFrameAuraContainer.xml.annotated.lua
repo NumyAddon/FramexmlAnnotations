@@ -1,2 +1,23 @@
 --- @meta _
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.xml#L4)
+--- Template
+--- @class TargetFrameAuraContainerTemplate : AuraContainer, TargetFrameAuraContainerInboundMixin
+--- @field maxBuffs any # TargetFrameAuraContainerDefaults.MaxBuffs
+--- @field maxDebuffs any # TargetFrameAuraContainerDefaults.MaxDebuffs
+--- @field buffFilterString any # TargetFrameAuraContainerDefaults.BuffFilterString
+--- @field debuffFilterString any # TargetFrameAuraContainerDefaults.DebuffFilterString
+--- @field smallAuraSize any # TargetFrameAuraContainerDefaults.SmallAuraSize
+--- @field largeAuraSize any # TargetFrameAuraContainerDefaults.LargeAuraSize
+--- @field auraElementSpacingX any # TargetFrameAuraContainerDefaults.AuraElementSpacingX
+--- @field auraElementSpacingY any # TargetFrameAuraContainerDefaults.AuraElementSpacingY
+--- @field auraPaddingLeft any # TargetFrameAuraContainerDefaults.AuraPaddingLeft
+--- @field auraPaddingRight any # TargetFrameAuraContainerDefaults.AuraPaddingRight
+--- @field auraPaddingTop any # TargetFrameAuraContainerDefaults.AuraPaddingTop
+--- @field auraPaddingBottom any # TargetFrameAuraContainerDefaults.AuraPaddingBottom
+--- @field constrainedAuraRowWidth any # TargetFrameAuraContainerDefaults.ConstrainedAuraRowWidth
+--- @field auraRowWidth any # TargetFrameAuraContainerDefaults.AuraRowWidth
+--- @field numConstrainedAuraRows any # TargetFrameAuraContainerDefaults.NumConstrainedAuraRows
+--- @field mirrorVertically any # TargetFrameAuraContainerDefaults.MirrorVertically
+--- @field showAuraCount any # TargetFrameAuraContainerDefaults.ShowAuraCount
+

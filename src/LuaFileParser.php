@@ -11,7 +11,7 @@ class LuaFileParser
 {
     /** @var array<string, array<string, array{lineNr: int, classAnnotation: string, annotated: string}> [filename => [mixin name => mixin data]] */
     private array $mixins = [];
-    /** @var array<string, list<array{lineNr: int, enumAnnotation: null|string, typeAnnotation: string}>> [filename => list of enum data] */
+    /** @var array<string, list<array{lineNr: int, enumName?: string, enumAnnotation?: string, typeAnnotation: string}>> [filename => list of enum data] */
     private array $enums = [];
     /** @var array<string, array<string, string> [filename => [function name => function data]] */
     private array $functions = [];
@@ -82,12 +82,17 @@ class LuaFileParser
         }
 
         $data = "--- @meta _\n\n";
+        $allEnums = [];
         foreach ($this->enums as $enums) {
             foreach ($enums as $enumInfo) {
                 if ($enumInfo['enumAnnotation']) {
-                    $data .= $enumInfo['enumAnnotation'] . "\n\n";
+                    $allEnums[$enumInfo['enumName']] = $enumInfo['enumAnnotation'];
                 }
             }
+        }
+        ksort($allEnums);
+        foreach ($allEnums as $enumAnnotation) {
+            $data .= $enumAnnotation . "\n\n";
         }
 
         file_put_contents($targetFile, $data);
@@ -299,6 +304,7 @@ class LuaFileParser
             }
             $enums[] = [
                 'lineNr' => $lineNr,
+                'enumName' => $enumName,
                 'enumAnnotation' => $enumAnnotation,
                 'typeAnnotation' => $typeAnnotation,
             ];

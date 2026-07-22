@@ -16,25 +16,6 @@ local IconDataProviderIconType = {
     ["Item"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L188)
---- @enum AuraUtil.AuraUpdateChangedType
-local AuraUtil_AuraUpdateChangedType = {
-    ["None"] = 1,
-    ["Debuff"] = 2,
-    ["Buff"] = 3,
-    ["Dispel"] = 4,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L195)
---- @enum AuraUtil.UnitFrameDebuffType
-local AuraUtil_UnitFrameDebuffType = {
-    ["BossDebuff"] = 1,
-    ["BossBuff"] = 2,
-    ["PriorityDebuff"] = 3,
-    ["NonBossRaidDebuff"] = 4,
-    ["NonBossDebuff"] = 5,
-}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L40)
 --- @enum MinimalSliderWithSteppersMixin.Label
 local MinimalSliderWithSteppersMixin_Label = {
@@ -58,6 +39,25 @@ local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
     ["Spell"] = 2,
     ["Item"] = 3,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L188)
+--- @enum AuraUtil.AuraUpdateChangedType
+local AuraUtil_AuraUpdateChangedType = {
+    ["None"] = 1,
+    ["Debuff"] = 2,
+    ["Buff"] = 3,
+    ["Dispel"] = 4,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L195)
+--- @enum AuraUtil.UnitFrameDebuffType
+local AuraUtil_UnitFrameDebuffType = {
+    ["BossDebuff"] = 1,
+    ["BossBuff"] = 2,
+    ["PriorityDebuff"] = 3,
+    ["NonBossRaidDebuff"] = 4,
+    ["NonBossDebuff"] = 5,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)

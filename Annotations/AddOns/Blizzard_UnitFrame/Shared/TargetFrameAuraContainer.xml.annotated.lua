@@ -9,15 +9,14 @@
 --- @field debuffFilterString any # TargetFrameAuraContainerDefaults.DebuffFilterString
 --- @field smallAuraSize any # TargetFrameAuraContainerDefaults.SmallAuraSize
 --- @field largeAuraSize any # TargetFrameAuraContainerDefaults.LargeAuraSize
---- @field auraElementSpacingX any # TargetFrameAuraContainerDefaults.AuraElementSpacingX
---- @field auraElementSpacingY any # TargetFrameAuraContainerDefaults.AuraElementSpacingY
---- @field auraPaddingLeft any # TargetFrameAuraContainerDefaults.AuraPaddingLeft
---- @field auraPaddingRight any # TargetFrameAuraContainerDefaults.AuraPaddingRight
---- @field auraPaddingTop any # TargetFrameAuraContainerDefaults.AuraPaddingTop
---- @field auraPaddingBottom any # TargetFrameAuraContainerDefaults.AuraPaddingBottom
---- @field constrainedAuraRowWidth any # TargetFrameAuraContainerDefaults.ConstrainedAuraRowWidth
---- @field auraRowWidth any # TargetFrameAuraContainerDefaults.AuraRowWidth
---- @field numConstrainedAuraRows any # TargetFrameAuraContainerDefaults.NumConstrainedAuraRows
---- @field mirrorVertically any # TargetFrameAuraContainerDefaults.MirrorVertically
+--- @field flowLayoutElementSpacing any # TargetFrameAuraContainerDefaults.FlowLayoutElementSpacing
+--- @field flowLayoutLineSize any # TargetFrameAuraContainerDefaults.FlowLayoutLineSize
+--- @field flowLayoutLineSpacing any # TargetFrameAuraContainerDefaults.FlowLayoutLineSpacing
+--- @field flowLayoutPaddingBottom any # TargetFrameAuraContainerDefaults.FlowLayoutPaddingBottom
+--- @field flowLayoutPaddingLeft any # TargetFrameAuraContainerDefaults.FlowLayoutPaddingLeft
+--- @field flowLayoutPaddingRight any # TargetFrameAuraContainerDefaults.FlowLayoutPaddingRight
+--- @field flowLayoutPaddingTop any # TargetFrameAuraContainerDefaults.FlowLayoutPaddingTop
+--- @field constrainedFlowLayoutLineSize any # TargetFrameAuraContainerDefaults.ConstrainedFlowLayoutLineSize
+--- @field numConstrainedFlowLayoutLines any # TargetFrameAuraContainerDefaults.NumConstrainedFlowLayoutLines
 --- @field showAuraCount any # TargetFrameAuraContainerDefaults.ShowAuraCount
 

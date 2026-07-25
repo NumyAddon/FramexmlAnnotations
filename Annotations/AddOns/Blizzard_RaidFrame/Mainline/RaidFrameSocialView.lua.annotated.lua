@@ -20,11 +20,11 @@ RaidFrameSocialGroupMixin = {}
 --- @class RaidFrameSocialMixin
 RaidFrameSocialMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L297)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L303)
 --- @class RaidFrameSocialPlayerMixin
 RaidFrameSocialPlayerMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L388)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L394)
 --- @class RaidFrameSocialPlayerRoleIconMixin
 RaidFrameSocialPlayerRoleIconMixin = {}
 
@@ -91,47 +91,47 @@ function RaidFrameSocialMixin:OnEvent(event, ...) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L221)
 function RaidFrameSocialMixin:MakeGroupFactoryFunction() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L237)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L239)
 function RaidFrameSocialMixin:UpdateContents() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L285)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L291)
 function RaidFrameSocialMixin:UpdateReadyChecks() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L291)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L297)
 function RaidFrameSocialMixin:FinishReadyChecks() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L299)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L305)
 function RaidFrameSocialPlayerMixin:OnClick(button, down) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L316)
 function RaidFrameSocialPlayerMixin:RefreshDragVisual() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L316)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L322)
 function RaidFrameSocialPlayerMixin:UpdateReadyCheck() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L335)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L341)
 function RaidFrameSocialPlayerMixin:FinishReadyCheck() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L345)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L351)
 function RaidFrameSocialPlayerMixin:OnDragStart() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L353)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L359)
 function RaidFrameSocialPlayerMixin:OnDragStop() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L380)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L386)
 function RaidFrameSocialPlayerMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L384)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L390)
 function RaidFrameSocialPlayerMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L390)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L396)
 function RaidFrameSocialPlayerRoleIconMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L394)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L400)
 function RaidFrameSocialPlayerRoleIconMixin:TryShowTooltip() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L404)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L410)
 function RaidFrameSocialPlayerRoleIconMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L408)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.lua#L414)
 function RaidFrameSocialPlayerRoleIconMixin:HideTooltip() end

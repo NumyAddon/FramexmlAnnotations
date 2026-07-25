@@ -1,142 +1,143 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L20)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L15)
 --- @class TargetFrameAuraContainerSharedMixin : ManagedAuraContainerSharedMixin
 TargetFrameAuraContainerSharedMixin = CreateFromMixins(ManagedAuraContainerSharedMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L255)
---- @class TargetFrameAuraContainerInboundMixin : ManagedAuraContainerInboundMixin, TargetFrameAuraContainerSharedMixin
-TargetFrameAuraContainerInboundMixin = CreateFromMixins(ManagedAuraContainerInboundMixin, TargetFrameAuraContainerSharedMixin)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L224)
+--- @class TargetFrameAuraContainerInboundMixin : ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, TargetFrameAuraContainerSharedMixin
+TargetFrameAuraContainerInboundMixin = CreateFromMixins(ManagedAuraContainerInboundMixin, AuraContainerFlowLayoutInboundMixin, TargetFrameAuraContainerSharedMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L256)
---- @class TargetFrameAuraContainerPrivateMixin : ManagedAuraContainerPrivateMixin, TargetFrameAuraContainerSharedMixin
-TargetFrameAuraContainerPrivateMixin = CreateFromMixins(ManagedAuraContainerPrivateMixin, TargetFrameAuraContainerSharedMixin)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L225)
+--- @class TargetFrameAuraContainerPrivateMixin : ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, TargetFrameAuraContainerSharedMixin
+TargetFrameAuraContainerPrivateMixin = CreateFromMixins(ManagedAuraContainerPrivateMixin, AuraContainerFlowLayoutPrivateMixin, TargetFrameAuraContainerSharedMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L22)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L427)
+--- @class TargetFrameAuraFlowLayoutMixin : AnchorUtil.FlowLayoutMixin
+TargetFrameAuraFlowLayoutMixin = CreateFromMixins(AnchorUtil.FlowLayoutMixin)
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L17)
 function TargetFrameAuraContainerSharedMixin:GetBuffTemplate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L21)
 function TargetFrameAuraContainerSharedMixin:GetDebuffTemplate() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L30)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L25)
 function TargetFrameAuraContainerSharedMixin:GetBuffFilterString() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L34)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L29)
 function TargetFrameAuraContainerSharedMixin:SetBuffFilterString(filterString) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L44)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L39)
 function TargetFrameAuraContainerSharedMixin:GetDebuffFilterString() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L48)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L43)
 function TargetFrameAuraContainerSharedMixin:SetDebuffFilterString(filterString) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L58)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L53)
 function TargetFrameAuraContainerSharedMixin:GetMaxBuffs() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L62)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L57)
 function TargetFrameAuraContainerSharedMixin:SetMaxBuffs(maxBuffs) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L72)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L67)
 function TargetFrameAuraContainerSharedMixin:GetMaxDebuffs() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L76)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L71)
 function TargetFrameAuraContainerSharedMixin:SetMaxDebuffs(maxDebuffs) end
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L81)
+function TargetFrameAuraContainerSharedMixin:IsFlowLayoutMirroredVertically() end
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L86)
-function TargetFrameAuraContainerSharedMixin:ShouldMirrorAurasVertically() end
+function TargetFrameAuraContainerSharedMixin:SetFlowLayoutMirroredVertically(mirrorVertically) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L90)
-function TargetFrameAuraContainerSharedMixin:SetMirrorAurasVertically(mirrorVertically) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L99)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L102)
 function TargetFrameAuraContainerSharedMixin:ShouldShowAuraCount() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L103)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L106)
 function TargetFrameAuraContainerSharedMixin:SetShowAuraCount(showAuraCount) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L112)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L115)
 function TargetFrameAuraContainerSharedMixin:IsPlayerTarget() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L116)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L119)
 function TargetFrameAuraContainerSharedMixin:SetPlayerIsTarget(playerIsTarget) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L128)
 function TargetFrameAuraContainerSharedMixin:IsTargetFriendly() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L132)
 function TargetFrameAuraContainerSharedMixin:SetTargetIsFriendly(targetIsFriendly) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L143)
 function TargetFrameAuraContainerSharedMixin:GetSmallAuraSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L144)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L147)
 function TargetFrameAuraContainerSharedMixin:SetSmallAuraSize(size) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L153)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L156)
 function TargetFrameAuraContainerSharedMixin:GetLargeAuraSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L157)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L160)
 function TargetFrameAuraContainerSharedMixin:SetLargeAuraSize(size) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L166)
-function TargetFrameAuraContainerSharedMixin:GetAuraPadding() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L169)
+function TargetFrameAuraContainerSharedMixin:GetFlowLayoutSpacing() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L170)
-function TargetFrameAuraContainerSharedMixin:SetAuraPadding(left, right, top, bottom) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L173)
+function TargetFrameAuraContainerSharedMixin:SetFlowLayoutSpacing(elementSpacing, lineSpacing) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L186)
-function TargetFrameAuraContainerSharedMixin:GetAuraSpacing() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L184)
+function TargetFrameAuraContainerSharedMixin:GetConstrainedFlowLayoutLineSize() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L190)
-function TargetFrameAuraContainerSharedMixin:SetAuraSpacing(elementSpacingX, elementSpacingY) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L188)
+function TargetFrameAuraContainerSharedMixin:SetConstrainedFlowLayoutLineSize(lineSize) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L202)
-function TargetFrameAuraContainerSharedMixin:GetAuraRowWidth() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L197)
+function TargetFrameAuraContainerSharedMixin:GetNumConstrainedFlowLayoutLines() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L206)
-function TargetFrameAuraContainerSharedMixin:SetAuraRowWidth(rowWidth) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L201)
+function TargetFrameAuraContainerSharedMixin:SetNumConstrainedFlowLayoutLines(numLines) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L215)
-function TargetFrameAuraContainerSharedMixin:GetConstrainedAuraRowWidth() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L219)
-function TargetFrameAuraContainerSharedMixin:SetConstrainedAuraRowWidth(rowWidth) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L228)
-function TargetFrameAuraContainerSharedMixin:GetNumConstrainedAuraRows() end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L232)
-function TargetFrameAuraContainerSharedMixin:SetNumConstrainedAuraRows(numRows) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L241)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L210)
 function TargetFrameAuraContainerSharedMixin:GetAuraContainerAnchorsChangedCallback() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L214)
 function TargetFrameAuraContainerSharedMixin:SetAuraContainerAnchorsChangedCallback(callbackFunction) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L251)
-function TargetFrameAuraContainerSharedMixin:GetNumVisibleAuraRows() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L220)
+function TargetFrameAuraContainerSharedMixin:GetNumVisibleFlowLayoutLines() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L258)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L227)
 function TargetFrameAuraContainerPrivateMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L366)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L341)
 function TargetFrameAuraContainerPrivateMixin:ResetPooledAuraFrame(_pool, frame) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L372)
-function TargetFrameAuraContainerPrivateMixin:GetFlowLayoutGroups() end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L347)
+function TargetFrameAuraContainerPrivateMixin:SetNumVisibleFlowLayoutLines(lineCount) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L376)
-function TargetFrameAuraContainerPrivateMixin:SetNumVisibleAuraRows(rowCount) end
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L380)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L351)
 function TargetFrameAuraContainerPrivateMixin:SignalAuraContainerAnchorsChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L387)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L358)
 function TargetFrameAuraContainerPrivateMixin:ShouldShowAuraAsBuff(auraData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L407)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L378)
 function TargetFrameAuraContainerPrivateMixin:ShouldShowAuraAsDebuff(auraData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L442)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L413)
 function TargetFrameAuraContainerPrivateMixin:ShouldShowAuraWithLargeSize(auraData) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L429)
+function TargetFrameAuraFlowLayoutMixin:GetMaximumLineSizeForLine(container, lineIndex, _group) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L437)
+function TargetFrameAuraFlowLayoutMixin:GetElementSize(container, element, _group) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L448)
+function TargetFrameAuraFlowLayoutMixin:ApplyElementLayout(container, element, anchorPoint, offsetX, offsetY, width, height) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.lua#L454)
+function TargetFrameAuraFlowLayoutMixin:OnLayoutComplete(container, width, height, _hasPlacedElement, lineCount) end

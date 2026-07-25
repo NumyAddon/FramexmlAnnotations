@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L150)
 --- @class ScaleControlArrowButtonMixin : ButtonStateBehaviorMixin
 ScaleControlArrowButtonMixin = CreateFromMixins(ButtonStateBehaviorMixin)
 
@@ -44,23 +44,23 @@ function ScaleControlFrameMixin:UpdateDefaultAnchor() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L104)
 function ScaleControlFrameMixin:UpdateFill() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L147)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L152)
 function ScaleControlArrowButtonMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L155)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L160)
 function ScaleControlArrowButtonMixin:OnButtonStateChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L165)
 function ScaleControlArrowButtonMixin:SetHoverCallbacks(onEnterCallback, onLeaveCallback) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L170)
 function ScaleControlArrowButtonMixin:OnEnter() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L177)
 function ScaleControlArrowButtonMixin:OnLeave() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L179)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L184)
 function ScaleControlArrowButtonMixin:OnMouseDown() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L185)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_TransformManipulator/Blizzard_ScaleControlFrame.lua#L190)
 function ScaleControlArrowButtonMixin:OnMouseUp() end

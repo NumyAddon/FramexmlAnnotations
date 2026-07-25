@@ -8,9 +8,9 @@ AnchorMixin = {}
 --- @class GridLayoutMixin
 GridLayoutMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L473)
---- @class FlowLayoutDescriptionBaseMixin
-FlowLayoutDescriptionBaseMixin = {}
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L479)
+--- @class FlowLayoutMixin
+FlowLayoutMixin = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L4)
 function AnchorMixin:Init(point, relativeTo, relativePoint, x, y) end
@@ -48,26 +48,59 @@ function GridLayoutMixin:SetCustomOffsetFunction(func) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L101)
 function GridLayoutMixin:GetCustomOffset(row, col) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L476)
-function FlowLayoutDescriptionBaseMixin:GetAnchorPoint(_container) end
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L482)
-function FlowLayoutDescriptionBaseMixin:GetHorizontalGrowthDirection(_container) end
+function FlowLayoutMixin:Init() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L488)
-function FlowLayoutDescriptionBaseMixin:GetVerticalGrowthDirection(_container) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L486)
+function FlowLayoutMixin:ResetOptions() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L494)
-function FlowLayoutDescriptionBaseMixin:GetPadding(_container) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L498)
+function FlowLayoutMixin:GetLayoutAxis() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L502)
-function FlowLayoutDescriptionBaseMixin:GetRowWidth(_container, _rowIndex, _group) end
+function FlowLayoutMixin:SetLayoutAxis(layoutAxis) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L508)
-function FlowLayoutDescriptionBaseMixin:GetElementSize(_container, element, _group) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L511)
+function FlowLayoutMixin:GetAnchorPoint() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L515)
-function FlowLayoutDescriptionBaseMixin:ApplyElementLayout(container, element, anchorPoint, offsetX, offsetY, _width, _height) end
+function FlowLayoutMixin:SetAnchorPoint(anchorPoint) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L525)
-function FlowLayoutDescriptionBaseMixin:OnLayoutComplete(container, width, height, _hasPlacedElement, _rowCount) end
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L524)
+function FlowLayoutMixin:GetHorizontalGrowthDirection() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L528)
+function FlowLayoutMixin:GetVerticalGrowthDirection() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L532)
+function FlowLayoutMixin:GetGrowthDirection() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L536)
+function FlowLayoutMixin:SetGrowthDirection(horizontalDirection, verticalDirection) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L546)
+function FlowLayoutMixin:GetPadding() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L550)
+function FlowLayoutMixin:SetPadding(left, right, top, bottom) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L562)
+function FlowLayoutMixin:GetMaximumLineSize() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L566)
+function FlowLayoutMixin:SetMaximumLineSize(maximumLineSize) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L575)
+function FlowLayoutMixin:GetMaximumLineSizeForLine(_container, _lineIndex, _group) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L581)
+function FlowLayoutMixin:GetElementSize(_container, element, _group) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L587)
+function FlowLayoutMixin:ApplyElementLayout(container, element, anchorPoint, offsetX, offsetY, _width, _height) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L597)
+function FlowLayoutMixin:OnLayoutComplete(container, width, height, _hasPlacedElement, _lineCount) end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_SharedXMLBase/AnchorUtil.lua#L602)
+function FlowLayoutMixin:Apply(container, groups) end

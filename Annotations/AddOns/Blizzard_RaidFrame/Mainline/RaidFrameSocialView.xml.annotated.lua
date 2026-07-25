@@ -56,8 +56,9 @@
 --- @class RaidFrameSocialPlayerTemplate_CharacterClass : FontString, GameFontNormal
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RaidFrame/Mainline/RaidFrameSocialView.xml#L66)
+--- Explicitly protected
 --- Template
---- @class RaidFrameSocialPlayerTemplate : Button, UIButtonTemplate, RaidFrameSocialPlayerMixin
+--- @class RaidFrameSocialPlayerTemplate : Button, SecureUnitButtonTemplate, RaidFrameSocialPlayerMixin
 --- @field LeaderIcon RaidFrameSocialPlayerTemplate_LeaderIcon
 --- @field RoleIcon RaidFrameSocialPlayerTemplate_RoleIcon
 --- @field ReadyCheck RaidFrameSocialPlayerTemplate_ReadyCheck

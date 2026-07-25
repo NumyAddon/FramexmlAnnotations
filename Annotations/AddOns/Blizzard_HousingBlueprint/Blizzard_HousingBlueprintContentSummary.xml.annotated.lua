@@ -4,25 +4,25 @@
 --- Template
 --- @class HousingBlueprintContentSummaryScriptsTemplate : Frame, HousingBlueprintContentSummaryMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentSummary.xml#L36)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentSummary.xml#L37)
 --- child of HousingBlueprintContentSummaryTemplate
 --- @class HousingBlueprintContentSummaryTemplate_BudgetsContainer : Frame, HousingBlueprintBudgetsContainerTemplate
 --- @field layoutIndex number # 1
 --- @field align string # center
 --- @field expand boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentSummary.xml#L43)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentSummary.xml#L44)
 --- child of HousingBlueprintContentSummaryTemplate
 --- @class HousingBlueprintContentSummaryTemplate_ContentsListButton : Button, UIPanelDynamicResizeButtonTemplate
 --- @field layoutIndex number # 3
 --- @field align string # center
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentSummary.xml#L50)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentSummary.xml#L51)
 --- child of HousingBlueprintContentSummaryTemplate
 --- @class HousingBlueprintContentSummaryTemplate_LoadingSpinner : Frame, SpinnerTemplate
 --- @field ignoreInLayout boolean # true
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentSummary.xml#L26)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_HousingBlueprint/Blizzard_HousingBlueprintContentSummary.xml#L27)
 --- child of HousingBlueprintContentSummaryTemplate
 --- @class HousingBlueprintContentSummaryTemplate_CountText : FontString, GameFontHighlightMedium
 --- @field layoutIndex number # 2
@@ -40,6 +40,7 @@
 --- @field topPadding number # 12
 --- @field leftPadding number # 14
 --- @field rightPadding number # 14
+--- @field skipLayoutOnShow boolean # true
 --- @field BudgetsContainer HousingBlueprintContentSummaryTemplate_BudgetsContainer
 --- @field ContentsListButton HousingBlueprintContentSummaryTemplate_ContentsListButton
 --- @field LoadingSpinner HousingBlueprintContentSummaryTemplate_LoadingSpinner

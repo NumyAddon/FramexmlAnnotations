@@ -111,6 +111,7 @@ class XmlFileParser
                         }
                         break;
                     case 'addToSecureEnv':
+                    case 'allowUntaintedCreation':
                         // nothing special to do
                         break;
                     case 'useForbiddenObjectTable':

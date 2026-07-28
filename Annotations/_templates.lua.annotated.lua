@@ -756,6 +756,7 @@
 --- | "HelpPlateBox-Shadow-TopLeft"
 --- | "HelpPlateBox-Shadow-TopRight"
 --- | "HelpPlateTile"
+--- | "HelpTipTemplate"
 --- | "HonorAwardedAlertFrameTemplate"
 --- | "HonorFrameContributionButtonTemplate"
 --- | "HonorFrameDKButtonTemplate"

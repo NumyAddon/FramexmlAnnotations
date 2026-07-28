@@ -1,37 +1,5 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXMLBase/IconDataProvider.lua#L45)
---- @enum IconDataProviderIconType
-local IconDataProviderIconType = {
-    ["Spell"] = 1,
-    ["Item"] = 2,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L40)
---- @enum MinimalSliderWithSteppersMixin.Label
-local MinimalSliderWithSteppersMixin_Label = {
-    ["Left"] = 1,
-    ["Right"] = 2,
-    ["Top"] = 3,
-    ["Min"] = 4,
-    ["Max"] = 5,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1278)
---- @enum IconSelectorPopupFrameModes
-local IconSelectorPopupFrameModes = {
-    ["New"] = 1,
-    ["Edit"] = 2,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1283)
---- @enum IconSelectorPopupFrameIconFilterTypes
-local IconSelectorPopupFrameIconFilterTypes = {
-    ["All"] = 1,
-    ["Spell"] = 2,
-    ["Item"] = 3,
-}
-
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L188)
 --- @enum AuraUtil.AuraUpdateChangedType
 local AuraUtil_AuraUpdateChangedType = {
@@ -51,11 +19,36 @@ local AuraUtil_UnitFrameDebuffType = {
     ["NonBossDebuff"] = 5,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)
---- @enum SpellFlyoutOpenReason
-local SpellFlyoutOpenReason = {
-    ["GlyphPending"] = 1,
-    ["GlyphActivated"] = 2,
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_FrameXMLBase/IconDataProvider.lua#L45)
+--- @enum IconDataProviderIconType
+local IconDataProviderIconType = {
+    ["Spell"] = 1,
+    ["Item"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1283)
+--- @enum IconSelectorPopupFrameIconFilterTypes
+local IconSelectorPopupFrameIconFilterTypes = {
+    ["All"] = 1,
+    ["Spell"] = 2,
+    ["Item"] = 3,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Classic/SharedUIPanelTemplates.lua#L1278)
+--- @enum IconSelectorPopupFrameModes
+local IconSelectorPopupFrameModes = {
+    ["New"] = 1,
+    ["Edit"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L40)
+--- @enum MinimalSliderWithSteppersMixin.Label
+local MinimalSliderWithSteppersMixin_Label = {
+    ["Left"] = 1,
+    ["Right"] = 2,
+    ["Top"] = 3,
+    ["Min"] = 4,
+    ["Max"] = 5,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
@@ -77,5 +70,12 @@ local Settings_ControlType = {
 local SettingsLayoutMixin_LayoutType = {
     ["Vertical"] = 1,
     ["Canvas"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)
+--- @enum SpellFlyoutOpenReason
+local SpellFlyoutOpenReason = {
+    ["GlyphPending"] = 1,
+    ["GlyphActivated"] = 2,
 }
 

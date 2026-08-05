@@ -92,7 +92,7 @@ RecruitAFriendRewardsFrame["backgroundAtlas"] = "RecruitAFriend_RewardPane_Parch
 --- @field BorderGlow Texture
 --- @field UnclaimedRewardsAnim RecruitAFriendRewardTabTemplate_UnclaimedRewardsAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L205)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L204)
 --- Template
 --- @class RecruitAFriendRewardButtonTemplate : Button, RecruitAFriendRewardButtonMixin
 --- @field Icon_RingClaimed string # RecruitAFriend_ClaimPane_GoldRing
@@ -100,71 +100,69 @@ RecruitAFriendRewardsFrame["backgroundAtlas"] = "RecruitAFriend_RewardPane_Parch
 --- @field Icon Texture
 --- @field IconOverlay Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L232)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L231)
 --- child of RecruitAFriendRewardTemplate
 --- @class RecruitAFriendRewardTemplate_Button : Button, RecruitAFriendRewardButtonTemplate, RecruitAFriendRewardButtonWithCheckMixin
 --- @field IconBorder Texture
 --- @field CheckMark Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L257)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L256)
 --- child of RecruitAFriendRewardTemplate_Months
 --- @class RecruitAFriendRewardTemplate_Months_Text : FontString, UserScaledFontGameNormal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L250)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L249)
 --- child of RecruitAFriendRewardTemplate
 --- @class RecruitAFriendRewardTemplate_Months : Frame, TruncatedTooltipScriptTemplate
 --- @field Text RecruitAFriendRewardTemplate_Months_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L229)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L228)
 --- Template
 --- @class RecruitAFriendRewardTemplate : Frame, RecruitAFriendRewardMixin
 --- @field Button RecruitAFriendRewardTemplate_Button
 --- @field Months RecruitAFriendRewardTemplate_Months
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L309)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L308)
 --- child of RecruitAFriendRecruitmentFrame
 --- @class RecruitAFriendRecruitmentFrame_Border : Frame, DialogBorderTranslucentTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L310)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L309)
 --- child of RecruitAFriendRecruitmentFrame
 --- @class RecruitAFriendRecruitmentFrame_CloseButton : Button, UIPanelCloseButton
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L320)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L319)
 --- child of RecruitAFriendRecruitmentFrame
 --- @class RecruitAFriendRecruitmentFrame_GenerateOrCopyLinkButton : Button, FriendsFrameButtonTemplate, RecruitAFriendGenerateOrCopyLinkButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L338)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L337)
 --- child of RecruitAFriendRecruitmentFrame_EditBox
 --- @class RecruitAFriendRecruitmentFrame_EditBox_Instructions : FontString, GameFontDisableSmall2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L331)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L330)
 --- child of RecruitAFriendRecruitmentFrame
---- Template
---- Adds itself to the parent with key `EditBox`
 --- @class RecruitAFriendRecruitmentFrame_EditBox : EditBox, InputBoxTemplate
 --- @field Instructions RecruitAFriendRecruitmentFrame_EditBox_Instructions
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L274)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L273)
 --- child of RecruitAFriendRecruitmentFrame
 --- @class RecruitAFriendRecruitmentFrame_Title : FontString, SystemFont_Shadow_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L280)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L279)
 --- child of RecruitAFriendRecruitmentFrame
 --- @class RecruitAFriendRecruitmentFrame_Description : FontString, FriendsFont_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L287)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L286)
 --- child of RecruitAFriendRecruitmentFrame
 --- @class RecruitAFriendRecruitmentFrame_FactionAndRealm : FontString, FriendsFont_Normal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L293)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L292)
 --- child of RecruitAFriendRecruitmentFrame
 --- @class RecruitAFriendRecruitmentFrame_InfoText1 : FontString, FriendsFont_Normal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L300)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L299)
 --- child of RecruitAFriendRecruitmentFrame
 --- @class RecruitAFriendRecruitmentFrame_InfoText2 : FontString, FriendsFont_Normal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L267)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L266)
 --- @class RecruitAFriendRecruitmentFrame : Frame, RecruitAFriendRecruitmentFrameMixin
 --- @field Border RecruitAFriendRecruitmentFrame_Border
 --- @field CloseButton RecruitAFriendRecruitmentFrame_CloseButton
@@ -177,35 +175,35 @@ RecruitAFriendRewardsFrame["backgroundAtlas"] = "RecruitAFriend_RewardPane_Parch
 --- @field InfoText2 RecruitAFriendRecruitmentFrame_InfoText2
 RecruitAFriendRecruitmentFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L356)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L355)
 --- Template
 --- @class RecruitTextTemplate : FontString, FriendsFont_Normal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L360)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L359)
 --- Template
 --- @class RecruitSmallTextTemplate : FontString, FriendsFont_Small
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L395)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L394)
 --- child of RecruitActivityButtonTemplate
 --- @class RecruitActivityButtonTemplate_Model : Model, RecruitActivityButtonModelMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L411)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L410)
 --- child of RecruitActivityButtonTemplate
 --- @class RecruitActivityButtonTemplate_ClaimGlowSpinAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L414)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L413)
 --- child of RecruitActivityButtonTemplate
 --- @class RecruitActivityButtonTemplate_ClaimGlowInAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L418)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L417)
 --- child of RecruitActivityButtonTemplate
 --- @class RecruitActivityButtonTemplate_ClaimGlowOutAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L422)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L421)
 --- child of RecruitActivityButtonTemplate
 --- @class RecruitActivityButtonTemplate_ModelFadeOutAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L364)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L363)
 --- Template
 --- @class RecruitActivityButtonTemplate : Button, RecruitActivityButtonMixin
 --- @field Icon_CursorOverChecked string # RecruitAFriend_RecruitedFriends_CursorOverChecked
@@ -222,15 +220,15 @@ RecruitAFriendRecruitmentFrame = {}
 --- @field ClaimGlowOutAnim RecruitActivityButtonTemplate_ClaimGlowOutAnim
 --- @field ModelFadeOutAnim RecruitActivityButtonTemplate_ModelFadeOutAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L459)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L458)
 --- child of RecruitListButtonTemplate
 --- @class RecruitListButtonTemplate_Name : FontString, RecruitTextTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L465)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L464)
 --- child of RecruitListButtonTemplate
 --- @class RecruitListButtonTemplate_InfoText : FontString, RecruitSmallTextTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L435)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L434)
 --- Template
 --- @class RecruitListButtonTemplate : Button, RecruitListButtonMixin
 --- @field dynamicBackground boolean # true
@@ -241,51 +239,51 @@ RecruitAFriendRecruitmentFrame = {}
 --- @field InfoText RecruitListButtonTemplate_InfoText
 --- @field Activities table<number, RecruitActivityButtonTemplate>
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L555)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L554)
 --- child of RewardClaimingTemplate_MonthCount
 --- @class RewardClaimingTemplate_MonthCount_Text : FontString, FriendsFont_Large, AutoScalingFontStringMixin
 --- @field minLineHeight number # 12
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L549)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L548)
 --- child of RewardClaimingTemplate
 --- @class RewardClaimingTemplate_MonthCount : Frame, TruncatedTooltipFontStringWrapperTemplate
 --- @field Text RewardClaimingTemplate_MonthCount_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L571)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L570)
 --- child of RewardClaimingTemplate_NextRewardName
 --- @class RewardClaimingTemplate_NextRewardName_Text : FontString, FriendsFont_Normal, AutoScalingFontStringMixin
 --- @field minLineHeight number # 10
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L565)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L564)
 --- child of RewardClaimingTemplate
 --- @class RewardClaimingTemplate_NextRewardName : Frame, TruncatedTooltipFontStringWrapperTemplate
 --- @field Text RewardClaimingTemplate_NextRewardName_Text
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L580)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L579)
 --- child of RewardClaimingTemplate
 --- @class RewardClaimingTemplate_NextRewardInfoButton : Button, RAFInfoButtonTemplate, RecruitAFriendNextRewardInfoButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L637)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L636)
 --- child of RewardClaimingTemplate_NextRewardButton
 --- @class RewardClaimingTemplate_NextRewardButton_ModelScene : ModelScene, NonInteractableWrappedModelSceneTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L645)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L644)
 --- child of RewardClaimingTemplate_NextRewardButton
 --- @class RewardClaimingTemplate_NextRewardButton_ClaimGlowSpinAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L648)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L647)
 --- child of RewardClaimingTemplate_NextRewardButton
 --- @class RewardClaimingTemplate_NextRewardButton_ClaimGlowInAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L652)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L651)
 --- child of RewardClaimingTemplate_NextRewardButton
 --- @class RewardClaimingTemplate_NextRewardButton_ClaimGlowOutAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L656)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L655)
 --- child of RewardClaimingTemplate_NextRewardButton
 --- @class RewardClaimingTemplate_NextRewardButton_ClaimFlashAnim : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L589)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L588)
 --- child of RewardClaimingTemplate
 --- @class RewardClaimingTemplate_NextRewardButton : Button, RecruitAFriendRewardButtonTemplate, RecruitAFriendRewardButtonWithFanfareMixin
 --- @field ModelScene RewardClaimingTemplate_NextRewardButton_ModelScene
@@ -300,19 +298,19 @@ RecruitAFriendRecruitmentFrame = {}
 --- @field ClaimGlowOutAnim RewardClaimingTemplate_NextRewardButton_ClaimGlowOutAnim
 --- @field ClaimFlashAnim RewardClaimingTemplate_NextRewardButton_ClaimFlashAnim
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L667)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L666)
 --- child of RewardClaimingTemplate
 --- @class RewardClaimingTemplate_Inset : Frame, InsetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L668)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L667)
 --- child of RewardClaimingTemplate
 --- @class RewardClaimingTemplate_ClaimOrViewRewardButton : Button, FriendsFrameButtonTemplate, RAFClaimRewardButtonBaseTemplate, RecruitAFriendClaimOrViewRewardButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L540)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L539)
 --- child of RewardClaimingTemplate
 --- @class RewardClaimingTemplate_EarnInfo : FontString, FriendsFont_Normal
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L498)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L497)
 --- Template
 --- @class RewardClaimingTemplate : Frame, RewardClaimingMixin
 --- @field legacyBackgroundAtlas string # RecruitAFriend_ClaimPane_Parchment
@@ -331,38 +329,38 @@ RecruitAFriendRecruitmentFrame = {}
 --- @field Watermark Texture
 --- @field EarnInfo RewardClaimingTemplate_EarnInfo
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L687)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L686)
 --- child of RecruitAFriendFrame
 --- @class RecruitAFriendFrame_RewardClaiming : Frame, RewardClaimingTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L727)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L726)
 --- child of RecruitAFriendFrame_RecruitList_Header
 --- @class RecruitAFriendFrame_RecruitList_Header_RecruitedFriends : FontString, RecruitTextTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L732)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L731)
 --- child of RecruitAFriendFrame_RecruitList_Header
 --- @class RecruitAFriendFrame_RecruitList_Header_Count : FontString, RecruitTextTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L710)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L709)
 --- child of RecruitAFriendFrame_RecruitList
 --- @class RecruitAFriendFrame_RecruitList_Header : Frame
 --- @field Background Texture
 --- @field RecruitedFriends RecruitAFriendFrame_RecruitList_Header_RecruitedFriends
 --- @field Count RecruitAFriendFrame_RecruitList_Header_Count
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L741)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L740)
 --- child of RecruitAFriendFrame_RecruitList
 --- @class RecruitAFriendFrame_RecruitList_ScrollFrameInset : Frame, InsetFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L747)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L746)
 --- child of RecruitAFriendFrame_RecruitList
 --- @class RecruitAFriendFrame_RecruitList_ScrollBox : Frame, WowScrollBoxList
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L754)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L753)
 --- child of RecruitAFriendFrame_RecruitList
 --- @class RecruitAFriendFrame_RecruitList_ScrollBar : EventFrame, MinimalScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L694)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L693)
 --- child of RecruitAFriendFrame
 --- @class RecruitAFriendFrame_RecruitList : Frame
 --- @field NoRecruitsDesc SimpleHTML
@@ -371,23 +369,23 @@ RecruitAFriendRecruitmentFrame = {}
 --- @field ScrollBox RecruitAFriendFrame_RecruitList_ScrollBox
 --- @field ScrollBar RecruitAFriendFrame_RecruitList_ScrollBar
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L762)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L761)
 --- child of RecruitAFriendFrame
 --- @class RecruitAFriendFrame_RecruitmentButton : Button, FriendsFrameButtonTemplate_BottomLeft, RecruitAFriendRecruitmentButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L860)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L859)
 --- child of RecruitAFriendFrame_SplashFrame
 --- @class RecruitAFriendFrame_SplashFrame_OKButton : Button, FriendsFrameButtonTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L795)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L794)
 --- child of RecruitAFriendFrame_SplashFrame
 --- @class RecruitAFriendFrame_SplashFrame_Title : FontString, SystemFont_Shadow_Large
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L801)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L800)
 --- child of RecruitAFriendFrame_SplashFrame
 --- @class RecruitAFriendFrame_SplashFrame_Description : FontString, SystemFont_Med2
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L767)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L766)
 --- child of RecruitAFriendFrame
 --- @class RecruitAFriendFrame_SplashFrame : Frame
 --- @field legacyBackgroundAtlas string # RecruitAFriend_Splash_Parchment
@@ -408,7 +406,7 @@ RecruitAFriendRecruitmentFrame = {}
 --- @field PictureFrame_Bracket_BottomRight Texture
 --- @field PictureFrame_Bracket_BottomLeft Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L681)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_RecruitAFriend/RecruitAFriendFrame.xml#L680)
 --- @class RecruitAFriendFrame : Frame, CallbackRegistrantTemplate, RecruitAFriendFrameMixin
 --- @field fractionString any # RAF_RECRUITED_FRIENDS_COUNT
 --- @field scrollContentsTemplate string # RecruitListButtonTemplate

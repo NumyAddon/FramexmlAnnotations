@@ -19,13 +19,11 @@ InspectGuildFrameBG = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Mainline/InspectGuildFrame.xml#L36)
 --- child of InspectGuildFrame
---- Template
 --- @class InspectGuildFrameBanner : Texture
 InspectGuildFrameBanner = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_InspectUI/Mainline/InspectGuildFrame.xml#L45)
 --- child of InspectGuildFrame
---- Template
 --- @class InspectGuildFrameBannerBorder : Texture
 InspectGuildFrameBannerBorder = {}
 

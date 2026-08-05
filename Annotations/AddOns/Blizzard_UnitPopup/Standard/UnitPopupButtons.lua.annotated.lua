@@ -48,35 +48,35 @@ UnitPopupGuildRecruitmentSettingButtonMixin = CreateFromMixins(UnitPopupButtonBa
 --- @class UnitPopupGuildInviteButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupGuildInviteButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L591)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L597)
 --- @class UnitPopupLootMethodButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupLootMethodButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L654)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L660)
 --- @class UnitPopupLootFreeForAllButtonMixin : UnitPopupRadioButtonMixin
 UnitPopupLootFreeForAllButtonMixin = CreateFromMixins(UnitPopupRadioButtonMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L692)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L698)
 --- @class UnitPopupLootRoundRobinButtonMixin : UnitPopupLootFreeForAllButtonMixin
 UnitPopupLootRoundRobinButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L706)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L712)
 --- @class UnitPopupMasterLooterButtonMixin : UnitPopupLootFreeForAllButtonMixin
 UnitPopupMasterLooterButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L724)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L730)
 --- @class UnitPopupGroupLootButtonMixin : UnitPopupLootFreeForAllButtonMixin
 UnitPopupGroupLootButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L738)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L744)
 --- @class UnitPopupNeedBeforeGreedButtonMixin : UnitPopupLootFreeForAllButtonMixin
 UnitPopupNeedBeforeGreedButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L752)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L758)
 --- @class UnitPopupPersonalLootButtonMixin : UnitPopupLootFreeForAllButtonMixin
 UnitPopupPersonalLootButtonMixin = CreateFromMixins(UnitPopupLootFreeForAllButtonMixin)
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L766)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L772)
 --- @class UnitPopupLootThresholdButtonMixin : UnitPopupButtonBaseMixin
 UnitPopupLootThresholdButtonMixin = CreateFromMixins(UnitPopupButtonBaseMixin)
 
@@ -185,104 +185,104 @@ function UnitPopupGuildInviteButtonMixin:OnClick(contextData) end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L303)
 function UnitPopupGuildInviteButtonMixin:CanShow() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L593)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L599)
 function UnitPopupLootMethodButtonMixin:GetSelectedLootMixin() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L604)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L610)
 function UnitPopupLootMethodButtonMixin:GetText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L614)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L620)
 function UnitPopupLootMethodButtonMixin:GetTooltipText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L624)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L630)
 function UnitPopupLootMethodButtonMixin:CanShow(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L629)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L635)
 function UnitPopupLootMethodButtonMixin:IsEnabled(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L635)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L641)
 function UnitPopupLootMethodButtonMixin:TooltipWhileDisabled() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L638)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L644)
 function UnitPopupLootMethodButtonMixin:NoTooltipWhileEnabled() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L642)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L648)
 function UnitPopupLootMethodButtonMixin:GetEntries() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L656)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L662)
 function UnitPopupLootFreeForAllButtonMixin:GetText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L660)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L666)
 function UnitPopupLootFreeForAllButtonMixin:GetTooltipText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L664)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L670)
 function UnitPopupLootFreeForAllButtonMixin:GetLootMethod() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L668)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L674)
 function UnitPopupLootFreeForAllButtonMixin:IsChecked(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L672)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L678)
 function UnitPopupLootFreeForAllButtonMixin:CanShow(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L688)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L694)
 function UnitPopupLootFreeForAllButtonMixin:OnClick(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L694)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L700)
 function UnitPopupLootRoundRobinButtonMixin:GetText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L698)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L704)
 function UnitPopupLootRoundRobinButtonMixin:GetTooltipText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L702)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L708)
 function UnitPopupLootRoundRobinButtonMixin:GetLootMethod() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L708)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L714)
 function UnitPopupMasterLooterButtonMixin:GetText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L712)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L718)
 function UnitPopupMasterLooterButtonMixin:GetTooltipText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L716)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L722)
 function UnitPopupMasterLooterButtonMixin:GetLootMethod() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L720)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L726)
 function UnitPopupMasterLooterButtonMixin:OnClick(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L726)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L732)
 function UnitPopupGroupLootButtonMixin:GetText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L730)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L736)
 function UnitPopupGroupLootButtonMixin:GetTooltipText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L734)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L740)
 function UnitPopupGroupLootButtonMixin:GetLootMethod() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L740)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L746)
 function UnitPopupNeedBeforeGreedButtonMixin:GetText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L744)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L750)
 function UnitPopupNeedBeforeGreedButtonMixin:GetLootMethod() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L748)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L754)
 function UnitPopupNeedBeforeGreedButtonMixin:GetTooltipText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L754)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L760)
 function UnitPopupPersonalLootButtonMixin:GetText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L758)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L764)
 function UnitPopupPersonalLootButtonMixin:GetTooltipText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L762)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L768)
 function UnitPopupPersonalLootButtonMixin:GetLootMethod() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L768)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L774)
 function UnitPopupLootThresholdButtonMixin:GetText(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L772)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L778)
 function UnitPopupLootThresholdButtonMixin:GetColor() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L777)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L783)
 function UnitPopupLootThresholdButtonMixin:CanShow(contextData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L790)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_UnitPopup/Standard/UnitPopupButtons.lua#L796)
 function UnitPopupLootThresholdButtonMixin:GetEntries() end

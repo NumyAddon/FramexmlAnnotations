@@ -535,15 +535,11 @@ CarouselContainer["bottomPadding"] = 0
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L875)
 --- child of CatalogShopFrame_CatalogShopErrorFrame (created in template CatalogShopErrorFrameTemplate)
---- Template
---- Adds itself to the parent with key `Icon`
 --- @type Texture
 _G["store-error-icon"] = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop.xml#L884)
 --- child of CatalogShopFrame_CatalogShopErrorFrame (created in template CatalogShopErrorFrameTemplate)
---- Template
---- Adds itself to the parent with key `Line`
 --- @type Texture
 _G["store-error-line"] = {}
 

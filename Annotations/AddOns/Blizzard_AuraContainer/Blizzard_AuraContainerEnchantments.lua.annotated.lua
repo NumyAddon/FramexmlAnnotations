@@ -4,11 +4,11 @@
 --- @class AuraContainerItemEnchantmentManagerMixin
 AuraContainerItemEnchantmentManagerMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L220)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L234)
 --- @class AuraContainerItemEnchantmentMixin
 AuraContainerItemEnchantmentMixin = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L341)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L355)
 --- @class AuraContainerItemEnchantmentOwnerMixin
 AuraContainerItemEnchantmentOwnerMixin = {}
 
@@ -58,70 +58,73 @@ function AuraContainerItemEnchantmentManagerMixin:EnumerateItemEnchantments() en
 function AuraContainerItemEnchantmentManagerMixin:EnumerateActiveItemEnchantments() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L143)
+function AuraContainerItemEnchantmentManagerMixin:ClearActiveItemEnchantments() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L157)
 function AuraContainerItemEnchantmentManagerMixin:RebuildActiveItemEnchantments() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L178)
 function AuraContainerItemEnchantmentManagerMixin:RefreshItemEnchantments() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L176)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L190)
 function AuraContainerItemEnchantmentManagerMixin:RefreshItemEnchantment(itemEnchantment) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L208)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L222)
 function AuraContainerItemEnchantmentManagerMixin:InitializeItemEnchantmentFrame(itemEnchantment) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L212)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L226)
 function AuraContainerItemEnchantmentManagerMixin:UpdateItemEnchantmentFrame(itemEnchantment) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L216)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L230)
 function AuraContainerItemEnchantmentManagerMixin:ClearItemEnchantmentFrame(itemEnchantment) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L222)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L236)
 function AuraContainerItemEnchantmentMixin:Init(itemEnchantmentSlot, description) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L240)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L254)
 function AuraContainerItemEnchantmentMixin:GetItemEnchantmentSlot() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L244)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L258)
 function AuraContainerItemEnchantmentMixin:GetInventorySlot() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L248)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L262)
 function AuraContainerItemEnchantmentMixin:GetAuraFrame() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L252)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L266)
 function AuraContainerItemEnchantmentMixin:ShouldHidePermanentEnchantments() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L256)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L270)
 function AuraContainerItemEnchantmentMixin:IsActive() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L274)
 function AuraContainerItemEnchantmentMixin:GetAuraData() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L264)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L278)
 function AuraContainerItemEnchantmentMixin:GetRemainingTimeMs() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L268)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L282)
 function AuraContainerItemEnchantmentMixin:HasExpirationTime() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L286)
 function AuraContainerItemEnchantmentMixin:ShouldReassignForEnchantmentInfo(enchantmentInfo) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L292)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L306)
 function AuraContainerItemEnchantmentMixin:SetEnchantmentInfo(enchantmentInfo, resetDuration) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L312)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L326)
 function AuraContainerItemEnchantmentMixin:ClearEnchantmentInfo() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L323)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L337)
 function AuraContainerItemEnchantmentMixin:CreateAuraData() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L343)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L357)
 function AuraContainerItemEnchantmentOwnerMixin:OnItemEnchantmentsChanged() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L348)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L362)
 function AuraContainerItemEnchantmentOwnerMixin:InitializeItemEnchantmentFrame(_itemEnchantment, _auraFrame, _unitToken, _auraData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L353)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L367)
 function AuraContainerItemEnchantmentOwnerMixin:UpdateItemEnchantmentFrame(_itemEnchantment, _auraFrame, _unitToken, _auraData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L357)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerEnchantments.lua#L371)
 function AuraContainerItemEnchantmentOwnerMixin:ClearItemEnchantmentFrame(_itemEnchantment, _auraFrame) end

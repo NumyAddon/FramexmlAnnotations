@@ -308,3 +308,6 @@ function ConsolidatedBuffsTooltipAurasMixin:ShouldShowAura(potentialAuraInfo) en
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1385)
 function ConsolidatedBuffsTooltipAurasMixin:Update() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/classic_era/Interface/AddOns/Blizzard_BuffFrame/BuffFrame.lua#L1390)
+function ConsolidatedBuffsTooltipAurasMixin:UpdateAuraContainerAnchor() end

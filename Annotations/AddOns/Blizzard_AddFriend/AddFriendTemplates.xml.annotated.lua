@@ -48,40 +48,40 @@ BattleNetInviteFrame["useScaleWeight"] = true
 BattleNetInviteFrame["useScaleWeightForHeight"] = true
 BattleNetInviteFrame["scaleWeight"] = 0.8
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L60)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L61)
 --- Template
 --- @class AddFriendIconHolderTemplate : Frame, AddFriendIconHolderMixin
 --- @field FriendIcon Texture
 --- @field SecondaryIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L88)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L89)
 --- Template
 --- @class AddFriendButtonTemplate : Button
 --- @field baseWidth number # 131
 --- @field baseHeight number # 22
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L121)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L122)
 --- child of AddFriendFrame
 --- @class AddFriendFrame_Border : Frame, DialogBorderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L122)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L123)
 --- child of AddFriendFrame
 --- @class AddFriendFrame_CloseButton : Button, UIPanelCloseButtonNoScripts, AddFriendCloseButtonMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L156)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L157)
 --- child of AddFriendInfoFrame_InfoContainer_LeftTextContainer
 --- @class AddFriendInfoFrame_InfoContainer_LeftTextContainer_IconHolder : Frame, AddFriendIconHolderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L164)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L165)
 --- child of AddFriendInfoFrame_InfoContainer_LeftTextContainer
 --- @class AddFriendInfoFrame_InfoContainer_LeftTextContainer_Title : FontString, UserScaledFontGameNormalLarge, UserScaledFontStringTemplate
 --- @field baseWidth number # 240
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L172)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L173)
 --- child of AddFriendInfoFrame_InfoContainer_LeftTextContainer
 --- @class AddFriendInfoFrame_InfoContainer_LeftTextContainer_Description : FontString, UserScaledFontGameHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L146)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L147)
 --- child of AddFriendInfoFrame_InfoContainer
 --- @class AddFriendInfoFrame_InfoContainer_LeftTextContainer : Frame, ResizeLayoutFrame
 --- @field heightPadding number # 4
@@ -89,21 +89,21 @@ BattleNetInviteFrame["scaleWeight"] = 0.8
 --- @field Title AddFriendInfoFrame_InfoContainer_LeftTextContainer_Title
 --- @field Description AddFriendInfoFrame_InfoContainer_LeftTextContainer_Description
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L191)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L192)
 --- child of AddFriendInfoFrame_InfoContainer_RightTextContainer
 --- @class AddFriendInfoFrame_InfoContainer_RightTextContainer_IconHolder : Frame, AddFriendIconHolderTemplate
 --- @field secondaryIconAtlas string # friends-icon-addFriend-logo-WoW
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L202)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L203)
 --- child of AddFriendInfoFrame_InfoContainer_RightTextContainer
 --- @class AddFriendInfoFrame_InfoContainer_RightTextContainer_Title : FontString, UserScaledFontGameNormalLarge, UserScaledFontStringTemplate
 --- @field baseWidth number # 240
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L210)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L211)
 --- child of AddFriendInfoFrame_InfoContainer_RightTextContainer
 --- @class AddFriendInfoFrame_InfoContainer_RightTextContainer_Description : FontString, UserScaledFontGameHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L181)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L182)
 --- child of AddFriendInfoFrame_InfoContainer
 --- @class AddFriendInfoFrame_InfoContainer_RightTextContainer : Frame, ResizeLayoutFrame
 --- @field heightPadding number # 4
@@ -111,17 +111,17 @@ BattleNetInviteFrame["scaleWeight"] = 0.8
 --- @field Title AddFriendInfoFrame_InfoContainer_RightTextContainer_Title
 --- @field Description AddFriendInfoFrame_InfoContainer_RightTextContainer_Description
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L140)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L141)
 --- child of AddFriendInfoFrame
 --- @class AddFriendInfoFrame_InfoContainer : Frame, ResizeLayoutFrame
 --- @field LeftTextContainer AddFriendInfoFrame_InfoContainer_LeftTextContainer
 --- @field RightTextContainer AddFriendInfoFrame_InfoContainer_RightTextContainer
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L221)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L222)
 --- child of AddFriendInfoFrame
 --- @class AddFriendInfoFrame_OkayButton : Button, AddFriendButtonTemplate, UserScaledFrameTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L130)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L131)
 --- child of AddFriendFrame
 --- @class AddFriendInfoFrame : Frame, ResizeLayoutFrame
 --- @field widthPadding number # 80
@@ -137,7 +137,7 @@ AddFriendInfoFrame["heightPadding"] = 26
 --- @type Texture
 AddFriendEntryFrameInfoButtonTexture = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L245)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L246)
 --- child of AddFriendEntryFrame
 --- @class AddFriendEntryFrameInfoButton : Button, UIPanelInfoButton, UserScaledFrameTemplate, AddFriendEntryFrameInfoButtonMixin
 --- @field baseWidth number # 16
@@ -149,31 +149,31 @@ AddFriendEntryFrameInfoButton["baseHeight"] = 16
 AddFriendEntryFrameInfoButton["ignoreInLayout"] = true
 AddFriendEntryFrameInfoButton["texture"] = AddFriendEntryFrameInfoButtonTexture -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L271)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L272)
 --- child of AddFriendEntryFrame_TitleContainer
 --- @class AddFriendEntryFrame_TitleContainer_Title : FontString, UserScaledFontGameNormalLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L260)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L261)
 --- child of AddFriendEntryFrame
 --- @class AddFriendEntryFrame_TitleContainer : Frame, ResizeLayoutFrame
 --- @field widthPadding number # 70
 --- @field heightPadding number # 6
 --- @field Title AddFriendEntryFrame_TitleContainer_Title
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L305)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L306)
 --- child of AddFriendEntryFrame_OptionsContainer_LeftTextContainer
 --- @class AddFriendEntryFrame_OptionsContainer_LeftTextContainer_IconHolder : Frame, AddFriendIconHolderTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L313)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L314)
 --- child of AddFriendEntryFrame_OptionsContainer_LeftTextContainer
 --- @class AddFriendEntryFrame_OptionsContainer_LeftTextContainer_Title : FontString, UserScaledFontGameNormalLarge, UserScaledFontStringTemplate
 --- @field baseWidth number # 150
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L321)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L322)
 --- child of AddFriendEntryFrame_OptionsContainer_LeftTextContainer
 --- @class AddFriendEntryFrame_OptionsContainer_LeftTextContainer_Description : FontString, UserScaledFontGameHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L295)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L296)
 --- child of AddFriendEntryFrame_OptionsContainer
 --- @class AddFriendEntryFrame_OptionsContainer_LeftTextContainer : Frame, ResizeLayoutFrame
 --- @field heightPadding number # 4
@@ -181,21 +181,21 @@ AddFriendEntryFrameInfoButton["texture"] = AddFriendEntryFrameInfoButtonTexture 
 --- @field Title AddFriendEntryFrame_OptionsContainer_LeftTextContainer_Title
 --- @field Description AddFriendEntryFrame_OptionsContainer_LeftTextContainer_Description
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L340)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L341)
 --- child of AddFriendEntryFrame_OptionsContainer_RightTextContainer
 --- @class AddFriendEntryFrame_OptionsContainer_RightTextContainer_IconHolder : Frame, AddFriendIconHolderTemplate
 --- @field secondaryIconAtlas string # friends-icon-addFriend-logo-WoW
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L351)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L352)
 --- child of AddFriendEntryFrame_OptionsContainer_RightTextContainer
 --- @class AddFriendEntryFrame_OptionsContainer_RightTextContainer_Title : FontString, UserScaledFontGameNormalLarge, UserScaledFontStringTemplate
 --- @field baseWidth number # 150
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L359)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L360)
 --- child of AddFriendEntryFrame_OptionsContainer_RightTextContainer
 --- @class AddFriendEntryFrame_OptionsContainer_RightTextContainer_Description : FontString, UserScaledFontGameHighlight
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L330)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L331)
 --- child of AddFriendEntryFrame_OptionsContainer
 --- @class AddFriendEntryFrame_OptionsContainer_RightTextContainer : Frame, ResizeLayoutFrame
 --- @field heightPadding number # 4
@@ -203,38 +203,38 @@ AddFriendEntryFrameInfoButton["texture"] = AddFriendEntryFrameInfoButtonTexture 
 --- @field Title AddFriendEntryFrame_OptionsContainer_RightTextContainer_Title
 --- @field Description AddFriendEntryFrame_OptionsContainer_RightTextContainer_Description
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L286)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L287)
 --- child of AddFriendEntryFrame_OptionsContainer
 --- @class AddFriendEntryFrame_OptionsContainer_OrLabel : FontString, UserScaledFontGameNormalLarge
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L279)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L280)
 --- child of AddFriendEntryFrame
 --- @class AddFriendEntryFrame_OptionsContainer : Frame, ResizeLayoutFrame
 --- @field LeftTextContainer AddFriendEntryFrame_OptionsContainer_LeftTextContainer
 --- @field RightTextContainer AddFriendEntryFrame_OptionsContainer_RightTextContainer
 --- @field OrLabel AddFriendEntryFrame_OptionsContainer_OrLabel
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L392)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L393)
 --- child of AddFriendNameEditBox
 --- @class AddFriendNameEditBoxLeft : Texture
 AddFriendNameEditBoxLeft = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L400)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L401)
 --- child of AddFriendNameEditBox
 --- @class AddFriendNameEditBoxRight : Texture
 AddFriendNameEditBoxRight = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L408)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L409)
 --- child of AddFriendNameEditBox
 --- @class AddFriendNameEditBoxMiddle : Texture
 AddFriendNameEditBoxMiddle = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L418)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L419)
 --- child of AddFriendNameEditBox
 --- @class AddFriendNameEditBoxFill : FontString, UserScaledFontGameDisableSmall
 AddFriendNameEditBoxFill = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L380)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L381)
 --- child of AddFriendEntryFrame_EditBoxContainer
 --- @class AddFriendNameEditBox : EditBox, AutoCompleteEditBoxTemplate, UserScaledFrameTemplate
 --- @field baseWidth number # 280
@@ -247,28 +247,28 @@ AddFriendNameEditBox["Right"] = AddFriendNameEditBoxRight
 AddFriendNameEditBox["baseWidth"] = 280
 AddFriendNameEditBox["baseHeight"] = 20
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L443)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L444)
 --- child of AddFriendEntryFrame_EditBoxContainer
 --- @class AddFriendEntryFrameAcceptButton : Button, AddFriendButtonTemplate, UserScaledFrameTemplate
 AddFriendEntryFrameAcceptButton = {}
 AddFriendEntryFrameAcceptButton["baseWidth"] = 131 -- inherited
 AddFriendEntryFrameAcceptButton["baseHeight"] = 22 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L451)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L452)
 --- child of AddFriendEntryFrame_EditBoxContainer
 --- @class AddFriendEntryFrameCancelButton : Button, AddFriendButtonTemplate, UserScaledFrameTemplate
 AddFriendEntryFrameCancelButton = {}
 AddFriendEntryFrameCancelButton["baseWidth"] = 131 -- inherited
 AddFriendEntryFrameCancelButton["baseHeight"] = 22 -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L464)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L465)
 --- child of AddFriendEntryFrame_EditBoxContainer
 --- @class AddFriendEntryFrame_EditBoxContainer_RequestInfoText : FontString, UserScaledFontGameHighlight, UserScaledFontStringTemplate
 --- @field baseWidth number # 300
 --- @field useScaleWeight boolean # true
 --- @field scaleWeight number # 0.8
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L370)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L371)
 --- child of AddFriendEntryFrame
 --- @class AddFriendEntryFrame_EditBoxContainer : Frame, ResizeLayoutFrame
 --- @field heightPadding number # 20
@@ -277,7 +277,7 @@ AddFriendEntryFrameCancelButton["baseHeight"] = 22 -- inherited
 --- @field CancelButton AddFriendEntryFrameCancelButton
 --- @field RequestInfoText AddFriendEntryFrame_EditBoxContainer_RequestInfoText
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L234)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L235)
 --- child of AddFriendFrame
 --- @class AddFriendEntryFrame : Frame, ResizeLayoutFrame
 --- @field widthPadding number # 40
@@ -291,7 +291,7 @@ AddFriendEntryFrame["widthPadding"] = 40
 AddFriendEntryFrame["heightPadding"] = 8
 AddFriendEntryFrame["minimumWidth"] = 450
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L118)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_AddFriend/AddFriendTemplates.xml#L119)
 --- @class AddFriendFrame : Frame, ResizeLayoutFrame, AddFriendFrameMixin
 --- @field Border AddFriendFrame_Border
 --- @field CloseButton AddFriendFrame_CloseButton

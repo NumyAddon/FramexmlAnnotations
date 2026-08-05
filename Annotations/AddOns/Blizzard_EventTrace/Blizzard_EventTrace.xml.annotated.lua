@@ -139,8 +139,6 @@ EventTraceSearchIcon = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L250)
 --- child of EventTrace_Log_Bar
---- Template
---- Adds itself to the parent with key `SearchBox`
 --- @class EventTrace_Log_Bar_SearchBox : EditBox, SearchBoxTemplate
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr/Interface/AddOns/Blizzard_EventTrace/Blizzard_EventTrace.xml#L226)

@@ -133,7 +133,7 @@ jobs:
           cd ./.wow-ui-source
           remote_commit_hash=$(git rev-parse HEAD)
           cd ../.annotations_temp
-          local_commit_hash=$(git log --oneline -n1 | grep -Po "Synced to commit \K.*" || echo "unknown")
+          local_commit_hash=$(git log --oneline -n1 | grep -oE '[0-9a-fA-F]{40}' || echo "unknown")
           echo "${target_branch_name}: ${local_commit_hash} -> ${remote_commit_hash}"
           if [[ "${local_commit_hash}" == "${remote_commit_hash}" ]]; then
             echo "Branch is already up-to-date."
@@ -163,7 +163,8 @@ jobs:
           flavor=${{ inputs.FLAVOR }}
           cd ./.wow-ui-source
           remote_commit_hash=$(git rev-parse HEAD)
-          message="Synced to commit ${remote_commit_hash}"
+          remote_commit_message=$(git log -1 --pretty=%B)
+          message="Synced to commit ${remote_commit_message} - ${remote_commit_hash}"
           cd ..
           extraArgs=""
           if [[ "${{ inputs.MIX_ANNOTATIONS_INTO_SOURCE }}" == "true" ]]; then
@@ -186,6 +187,12 @@ jobs:
               echo "Unable to commit."
             fi
           else
-            echo "Nothing to commit."
+            if [[ "${{ inputs.FORCE_UPDATE }}" == "true" ]]; then
+              echo "Force update is enabled, pushing empty commit."
+              git commit --allow-empty --message "${message}" >/dev/null 2>&1
+              git push --force-with-lease --set-upstream origin "${target_branch_name}"
+            else
+              echo "Nothing to commit."
+            fi
           fi
           echo "Done!"

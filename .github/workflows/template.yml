@@ -164,7 +164,7 @@ jobs:
           cd ./.wow-ui-source
           remote_commit_hash=$(git rev-parse HEAD)
           remote_commit_message=$(git log -1 --pretty=%B)
-          message="Synced to commit ${remote_commit_message} - ${remote_commit_hash}"
+          message="Synced to ${remote_commit_message} - ${remote_commit_hash}"
           cd ..
           extraArgs=""
           if [[ "${{ inputs.MIX_ANNOTATIONS_INTO_SOURCE }}" == "true" ]]; then

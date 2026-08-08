@@ -74,7 +74,7 @@ class TocFileParser
 
         $dir = dirname($tocFilePath);
         $files = [];
-        $pattern = '/\[(?<name>[^ \]]+)(?: (?<value>[^\]]+))?\]/';
+        $pattern = '/\[(?<name>[^ :\]]+)(?:[ :]+(?<value>[^\]]+))?\]/';
         foreach ($fileLines as $line) {
             $line = strtr(
                 $line,
@@ -105,11 +105,13 @@ class TocFileParser
                             }
                             break;
                         case 'AllowLoadEnvironment':
+                        case 'AllowLoadTextLocale':
+                            // could decide to only parse enUS files, but for now we'll just ignore them
                         case 'LoadIntoEnvironment':
                         case 'Bootstrap':
                             break; // ignore for now
                         default:
-                            throw new RuntimeException("Unrecognized in-line directive ($name) in TOC line: $line");
+                            throw new RuntimeException("Unrecognized in-line directive ($name) in TOC line: $line; TOC file: $tocFilePath");
                     }
                     $line = str_replace($match[0], '', $line);
                 }

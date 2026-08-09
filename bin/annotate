@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use App\FlavorEnum;
 use App\LuaFileParser;
+use App\OverridesWriter;
 use App\Registry;
 use App\TocFileParser;
 use App\XmlFileParser;
@@ -33,6 +34,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
     ->addOption('linkPrefix', 'l', InputOption::VALUE_REQUIRED, 'Prefix for links in the output')
     ->addOption('mixAnnotationsIntoSource', 'm', InputOption::VALUE_NONE, 'Include all Lua source files, and add class annotations to the source files')
     ->addOption('includeRawXmlSource', 'x', InputOption::VALUE_NONE, 'Include the raw XML and TOC source files in the output')
+    ->addOption('skipOverrides', null, InputOption::VALUE_NONE, 'Skip writing _overrides.lua')
     ->setCode(function (InputInterface $input, ConsoleOutput $output) {
         $io = new SymfonyStyle($input, $output);
 
@@ -41,6 +43,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
         $linkPrefix = $input->getOption('linkPrefix');
         $mixAnnotationsIntoSource = $input->getOption('mixAnnotationsIntoSource');
         $includeRawXmlSource = $input->getOption('includeRawXmlSource');
+        $skipOverrides = $input->getOption('skipOverrides');
         try {
             $flavor = FlavorEnum::from($input->getArgument('flavor'));
         } catch (Throwable) {
@@ -89,6 +92,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
         $frameRegistry = new Registry();
         $xmlFileParser = new XmlFileParser($intrinsicRegistry, $templateRegistry, $frameRegistry);
         $luaFileParser = new LuaFileParser($mixAnnotationsIntoSource);
+        $overridesWriter = new OverridesWriter();
 
         $io->writeln('Parsing files...');
         $progressBar = $io->createProgressBar(count($fileList));
@@ -120,6 +124,9 @@ require_once __DIR__ . '/../vendor/autoload.php';
         }
         $xmlFileParser->writeTemplatesFile('_templates.lua', $outputDir);
         $luaFileParser->writeEnumsFile('_enums.lua', $outputDir);
+        if (!$skipOverrides) {
+            $overridesWriter->writeOverridesFile('_overrides.lua', $outputDir);
+        }
         $progressBar->finish();
 
         $io->success('Done!');

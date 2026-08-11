@@ -1,5 +1,11 @@
 MatchCelebrationPartyPoseMixin = CreateFromMixins(PartyPoseMixin);--- @class MatchCelebrationPartyPoseMixin : PartyPoseMixin
 
+local function MatchCelebrationPartyPoseFrame_EscapePressed()
+	return MatchCelebrationPartyPoseFrame:IsShown();
+end
+
+RegisterGameMenuEscHandler(GameMenuEscPriority.AddOn, MatchCelebrationPartyPoseFrame_EscapePressed);
+
 function MatchCelebrationPartyPoseMixin:OnLoad()
 	PartyPoseMixin.OnLoad(self);
 	PartyPoseUtil.AddDismissClickHandler(self.LeaveButton, self);

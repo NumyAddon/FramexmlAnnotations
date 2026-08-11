@@ -935,8 +935,6 @@ AlertFrameSystemsRegistrar = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/live/Interface/AddOns/Blizzard_FrameXML/Mainline/AlertFrameSystems.xml#L2059)
 --- child of GarrisonStandardMissionAlertFrameTemplate
---- Template
---- Adds itself to the parent with key `EncounterIcon`
 --- @class GarrisonStandardMissionAlertFrameTemplate_EncounterIcon : Frame
 --- @field Portrait Texture
 --- @field PortraitBorder Texture

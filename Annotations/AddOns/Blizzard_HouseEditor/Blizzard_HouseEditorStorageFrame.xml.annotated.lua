@@ -44,9 +44,14 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L132)
 --- child of HouseEditorStorageFrameTemplate
+--- @class HouseEditorStorageFrameTemplate_BlueprintCollection : Frame, HousingBlueprintCollectionTemplate
+--- @field showReset boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L142)
+--- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_LoadingSpinner : Frame, SpinnerTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L139)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L149)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_TabSystem : Frame, TabSystemTemplate
 --- @field minTabWidth number # 100
@@ -54,13 +59,13 @@
 --- @field tabSelectSound any # SOUNDKIT.UI_CLASS_TALENT_TAB
 --- @field tabTemplate string # HouseEditorStorageTabTemplate
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L151)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L161)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_CollapseButton : Button
 --- @field Icon Texture
 --- @field OverlayIcon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L165)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HouseEditor/Blizzard_HouseEditorStorageFrame.xml#L175)
 --- child of HouseEditorStorageFrameTemplate
 --- @class HouseEditorStorageFrameTemplate_ResizeButton : Button, PanelResizeButtonMixin
 
@@ -77,6 +82,7 @@
 --- @field Filters HouseEditorStorageFrameTemplate_Filters
 --- @field Categories HouseEditorStorageFrameTemplate_Categories
 --- @field OptionsContainer HouseEditorStorageFrameTemplate_OptionsContainer
+--- @field BlueprintCollection HouseEditorStorageFrameTemplate_BlueprintCollection
 --- @field LoadingSpinner HouseEditorStorageFrameTemplate_LoadingSpinner
 --- @field TabSystem HouseEditorStorageFrameTemplate_TabSystem
 --- @field CollapseButton HouseEditorStorageFrameTemplate_CollapseButton
@@ -84,4 +90,6 @@
 --- @field Background Texture
 --- @field HeaderBackground Texture
 --- @field CornerBorder Texture
+--- @field CatalogElements table<number, HouseEditorStorageFrameTemplate_SearchBox | HouseEditorStorageFrameTemplate_Filters | HouseEditorStorageFrameTemplate_Categories | HouseEditorStorageFrameTemplate_OptionsContainer | Texture>
+--- @field BlueprintElements table<number, HouseEditorStorageFrameTemplate_BlueprintCollection>
 

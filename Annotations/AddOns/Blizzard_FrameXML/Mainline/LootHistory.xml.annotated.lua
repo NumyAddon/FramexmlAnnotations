@@ -148,8 +148,6 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/Mainline/LootHistory.xml#L271)
 --- child of GroupLootHistoryFrame
---- Template
---- Adds itself to the parent with key `PerfectAnimFrame`
 --- @class GroupLootHistoryFrame_PerfectAnimFrame : Frame, LootHistoryElementTemplate, LootHistoryElementAnimationMixin
 --- @field PerfectRollFrame GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollFrame
 --- @field PerfectRollTopFrame GroupLootHistoryFrame_PerfectAnimFrame_PerfectRollTopFrame

@@ -137,12 +137,22 @@ MinimapBackdrop = {}
 --- @field ZoomOut Minimap_ZoomOut
 Minimap = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L404)
+--- child of MinimapCluster_MinimapContainer_PlayerCoords
+--- @class MinimapCluster_MinimapContainer_PlayerCoords_CoordText : FontString, GameFontHighlightSmall
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L397)
+--- child of MinimapCluster_MinimapContainer
+--- @class MinimapCluster_MinimapContainer_PlayerCoords : Frame, MinimapPlayerCoordsMixin
+--- @field CoordText MinimapCluster_MinimapContainer_PlayerCoords_CoordText
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L172)
 --- child of MinimapCluster
 --- @class MinimapCluster_MinimapContainer : Frame
 --- @field Minimap Minimap
+--- @field PlayerCoords MinimapCluster_MinimapContainer_PlayerCoords
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L399)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Minimap/Mainline/Minimap.xml#L414)
 --- child of MinimapCluster
 --- @class MinimapCluster_InstanceDifficulty : Frame, InstanceDifficultyTemplate, InstanceDifficultyMixin
 

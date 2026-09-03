@@ -19,6 +19,11 @@
 --- @class CompactUnitFrameTemplate_ReadyCheckIcon : Frame, CompactUnitFrameReadyCheckMixin
 --- @field Icon Texture
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L94)
+--- child of CompactUnitFrameTemplate
+--- @class CompactUnitFrameTemplate_pingIconFrame : Frame, UnitPingIconFrameTemplate
+--- @field isRaidFrame boolean # true
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.xml#L31)
 --- child of CompactUnitFrameTemplate
 --- @class CompactUnitFrameTemplate_Name : FontString, GameFontHighlightSmall
@@ -37,6 +42,7 @@
 --- @field powerBar CompactUnitFrameTemplate_PowerBar
 --- @field centerStatusIcon CompactUnitFrameTemplate_CenterStatusIcon
 --- @field readyCheckIcon CompactUnitFrameTemplate_ReadyCheckIcon
+--- @field pingIconFrame CompactUnitFrameTemplate_pingIconFrame
 --- @field background Texture
 --- @field myHealPrediction Texture
 --- @field otherHealPrediction Texture

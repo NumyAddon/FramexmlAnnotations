@@ -303,47 +303,47 @@ HousingCornerstoneHouseInfoFrame["CloseButton"] = HousingCornerstoneHouseInfoFra
 --- child of BuyHouseConfirmationDialog
 --- @class BuyHouseConfirmationDialog_Text : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1024)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L988)
 --- child of BuyHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type Texture
 BuyHouseConfirmationDialogBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1033)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L997)
 --- child of BuyHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 BuyHouseConfirmationDialogTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1038)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1002)
 --- child of BuyHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 BuyHouseConfirmationDialogTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1043)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1007)
 --- child of BuyHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 BuyHouseConfirmationDialogBottomLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1048)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1012)
 --- child of BuyHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 BuyHouseConfirmationDialogBottomRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1053)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1017)
 --- child of BuyHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 BuyHouseConfirmationDialogTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1059)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1023)
 --- child of BuyHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 BuyHouseConfirmationDialogBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1065)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1029)
 --- child of BuyHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 BuyHouseConfirmationDialogLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1071)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1035)
 --- child of BuyHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 BuyHouseConfirmationDialogRightBorder = {}
@@ -441,47 +441,47 @@ MoveHouseConfirmationDialogTrialErrorButton = {}
 --- child of MoveHouseConfirmationDialog
 --- @class MoveHouseConfirmationDialog_PriceLabel : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1024)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L988)
 --- child of MoveHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type Texture
 MoveHouseConfirmationDialogBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1033)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L997)
 --- child of MoveHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 MoveHouseConfirmationDialogTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1038)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1002)
 --- child of MoveHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 MoveHouseConfirmationDialogTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1043)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1007)
 --- child of MoveHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 MoveHouseConfirmationDialogBottomLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1048)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1012)
 --- child of MoveHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 MoveHouseConfirmationDialogBottomRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1053)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1017)
 --- child of MoveHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 MoveHouseConfirmationDialogTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1059)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1023)
 --- child of MoveHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 MoveHouseConfirmationDialogBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1065)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1029)
 --- child of MoveHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 MoveHouseConfirmationDialogLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1071)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1035)
 --- child of MoveHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 MoveHouseConfirmationDialogRightBorder = {}
@@ -528,47 +528,47 @@ MoveHouseConfirmationDialog["RightBorder"] = MoveHouseConfirmationDialogRightBor
 --- child of ImportHouseConfirmationDialog
 --- @class ImportHouseConfirmationDialog_HouseToImportText : FontString, Game15Font_Shadow
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1024)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L988)
 --- child of ImportHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type Texture
 ImportHouseConfirmationDialogBg = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1033)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L997)
 --- child of ImportHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopLeftCorner
 ImportHouseConfirmationDialogTopLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1038)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1002)
 --- child of ImportHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopRightCorner
 ImportHouseConfirmationDialogTopRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1043)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1007)
 --- child of ImportHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomLeftCorner
 ImportHouseConfirmationDialogBottomLeftCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1048)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1012)
 --- child of ImportHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomRightCorner
 ImportHouseConfirmationDialogBottomRightCorner = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1053)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1017)
 --- child of ImportHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_TopBorder
 ImportHouseConfirmationDialogTopBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1059)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1023)
 --- child of ImportHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_BottomBorder
 ImportHouseConfirmationDialogBottomBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1065)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1029)
 --- child of ImportHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_LeftBorder
 ImportHouseConfirmationDialogLeftBorder = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1071)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_HousingCornerstone/Blizzard_HousingCornerstone.xml#L1035)
 --- child of ImportHouseConfirmationDialog (created in template TranslucentFrameTemplate)
 --- @type TranslucentFrameTemplate_RightBorder
 ImportHouseConfirmationDialogRightBorder = {}

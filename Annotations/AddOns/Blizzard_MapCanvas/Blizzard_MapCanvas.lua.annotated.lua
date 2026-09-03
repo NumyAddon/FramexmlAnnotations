@@ -299,76 +299,79 @@ function MapCanvasMixin:GetNormalizedCursorPosition() end
 function MapCanvasMixin:IsCanvasMouseFocus() end
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L936)
+function MapCanvasMixin:IsCanvasMouseFocusOrPinFocus() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L951)
 function MapCanvasMixin:AddLockReason(reason) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L941)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L956)
 function MapCanvasMixin:RemoveLockReason(reason) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L946)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L961)
 function MapCanvasMixin:EvaluateLockReasons() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L962)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L977)
 function MapCanvasMixin:GetPinFrameLevelsManager() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L978)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L993)
 function MapCanvasMixin:NavigateToParentMap() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L985)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1000)
 function MapCanvasMixin:NavigateToCursor(ignoreZoneMapPositionData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L998)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1013)
 function MapCanvasMixin:AddCanvasClickHandler(handler, priority) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1002)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1017)
 function MapCanvasMixin:RemoveCanvasClickHandler(handler, priority) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1006)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1021)
 function MapCanvasMixin:ProcessCanvasClickHandlers(button, cursorX, cursorY) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1014)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1029)
 function MapCanvasMixin:AddGlobalPinMouseActionHandler(handler, priority) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1018)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1033)
 function MapCanvasMixin:RemoveGlobalPinMouseActionHandler(handler, priority) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1022)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1037)
 function MapCanvasMixin:ProcessGlobalPinMouseActionHandlers(mouseAction, button) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1027)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1042)
 function MapCanvasMixin:AddCursorHandler(handler, priority) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1031)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1046)
 function MapCanvasMixin:RemoveCursorHandler(handler, priority) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1035)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1050)
 function MapCanvasMixin:ProcessCursorHandlers() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1060)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1075)
 function MapCanvasMixin:GetGlobalPinScale() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1077)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1092)
 function MapCanvasMixin:GetGlobalAlpha() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1098)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1113)
 function MapCanvasMixin:SetMaskTexture(maskTexture) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1113)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1128)
 function MapCanvasMixin:GetMaskTexture() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1117)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1132)
 function MapCanvasMixin:SetUseMaskTexture(useMaskTexture) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1125)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1140)
 function MapCanvasMixin:GetUseMaskTexture() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1129)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1144)
 function MapCanvasMixin:AddMaskableTexture(texture) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1145)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1160)
 function MapCanvasMixin:RefreshMaskableTextures() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1160)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1175)
 function MapCanvasMixin:HandleUIAction(actionType) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1166)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua#L1181)
 function MapCanvasMixin:SetAllPinsByTemplateGlowing(pinTemplate, glowing, glowLoopCount) end

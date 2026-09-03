@@ -66,7 +66,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PlunderstormBasics/Blizzard_PlunderstormBasics.xml#L15)
 --- @class PlunderstormBasicsContainerFrame : Frame, VerticalLayoutFrame, PlunderstormBasicsContainerFrameMixin
---- @field fixedWidth string # 476
+--- @field fixedWidth number # 476
 --- @field PlunderDisplay PlunderstormBasicsContainerFrame_PlunderDisplay
 --- @field Border PlunderstormBasicsContainerFrame_Border
 --- @field PlunderstormSwords PlunderstormBasicsContainerFrame_PlunderstormSwords
@@ -75,5 +75,5 @@
 --- @field PlunderstormBasicsBody PlunderstormBasicsContainerFrame_PlunderstormBasicsBody
 --- @field PlunderstormBasicsLine PlunderstormBasicsContainerFrame_PlunderstormBasicsLine
 PlunderstormBasicsContainerFrame = {}
-PlunderstormBasicsContainerFrame["fixedWidth"] = "476"
+PlunderstormBasicsContainerFrame["fixedWidth"] = 476
 

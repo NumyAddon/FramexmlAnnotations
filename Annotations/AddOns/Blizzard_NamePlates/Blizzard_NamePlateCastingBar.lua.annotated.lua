@@ -7,5 +7,8 @@ NamePlateCastingBarMixin = CreateFromMixins(CastingBarMixin, NamePlateComponentM
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateCastingBar.lua#L5)
 function NamePlateCastingBarMixin:OnLoad() end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateCastingBar.lua#L12)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateCastingBar.lua#L14)
 function NamePlateCastingBarMixin:ShouldShowCastBar() end
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_NamePlates/Blizzard_NamePlateCastingBar.lua#L26)
+function NamePlateCastingBarMixin:ApplyStyleAndAnchoring(setupOptions) end

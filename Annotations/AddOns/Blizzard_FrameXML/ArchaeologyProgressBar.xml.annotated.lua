@@ -1,38 +1,36 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L83)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L81)
 --- child of ArcheologyDigsiteProgressBar
 --- @class ArcheologyDigsiteProgressBar_FillBar : StatusBar, ArcheologyDigsiteProgressFillBarMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L31)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L29)
 --- child of ArcheologyDigsiteProgressBar
 --- @class ArcheologyDigsiteProgressBar_BarTitle : FontString, GameFontWhiteSmall
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L71)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L69)
 --- child of ArcheologyDigsiteProgressBar_Flash
 --- @class ArcheologyDigsiteProgressBar_Flash_AnimIn : AnimationGroup, ArcheologyDigsiteProgressBarFlashAnimInMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L64)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L62)
 --- child of ArcheologyDigsiteProgressBar
---- Template
---- Adds itself to the parent with key `Flash`
 --- @class ArcheologyDigsiteProgressBar_Flash : Texture
 --- @field AnimIn ArcheologyDigsiteProgressBar_Flash_AnimIn
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L11)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L9)
 --- child of ArcheologyDigsiteProgressBar
 --- @class ArcheologyDigsiteProgressBar_AnimIn : AnimationGroup
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L15)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L13)
 --- child of ArcheologyDigsiteProgressBar
 --- @class ArcheologyDigsiteProgressBar_AnimOut : AnimationGroup, ArcheologyDigsiteProgressBarAnimOutMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L21)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L19)
 --- child of ArcheologyDigsiteProgressBar
 --- @class ArcheologyDigsiteProgressBar_AnimOutAndTriggerToast : AnimationGroup, ArcheologyDigsiteProgressBarAnimOutAndTriggerToastMixin
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L5)
---- @class ArcheologyDigsiteProgressBar : Frame, UIParentBottomManagedFrameTemplate, EditModeArchaeologyBarSystemTemplate, ArcheologyDigsiteProgressBarMixin
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXML/ArchaeologyProgressBar.xml#L3)
+--- @class ArcheologyDigsiteProgressBar : Frame, BottomManagedFrameTemplate, EditModeArchaeologyBarSystemTemplate, ArcheologyDigsiteProgressBarMixin
 --- @field layoutIndex number # 7
 --- @field FillBar ArcheologyDigsiteProgressBar_FillBar
 --- @field BarTitle ArcheologyDigsiteProgressBar_BarTitle
@@ -45,7 +43,7 @@
 --- @field AnimOutAndTriggerToast ArcheologyDigsiteProgressBar_AnimOutAndTriggerToast
 ArcheologyDigsiteProgressBar = {}
 ArcheologyDigsiteProgressBar["layoutIndex"] = 7
-ArcheologyDigsiteProgressBar["layoutParent"] = UIParentBottomManagedFrameContainer -- inherited
+ArcheologyDigsiteProgressBar["layoutParent"] = BottomManagedFrameContainer -- inherited
 ArcheologyDigsiteProgressBar["align"] = "center" -- inherited
 ArcheologyDigsiteProgressBar["hideWhenActionBarIsOverriden"] = true -- inherited
 ArcheologyDigsiteProgressBar["ignoreInLayoutWhenActionBarIsOverriden"] = false -- inherited

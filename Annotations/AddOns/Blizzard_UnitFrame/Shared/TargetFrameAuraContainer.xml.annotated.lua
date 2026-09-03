@@ -1,0 +1,23 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UnitFrame/Shared/TargetFrameAuraContainer.xml#L4)
+--- Template
+--- @class TargetFrameAuraContainerTemplate : AuraContainer, TargetFrameAuraContainerInboundMixin
+--- @field maxBuffs any # TargetFrameAuraContainerDefaults.MaxBuffs
+--- @field maxDebuffs any # TargetFrameAuraContainerDefaults.MaxDebuffs
+--- @field buffFilterString any # TargetFrameAuraContainerDefaults.BuffFilterString
+--- @field debuffFilterString any # TargetFrameAuraContainerDefaults.DebuffFilterString
+--- @field smallAuraSize any # TargetFrameAuraContainerDefaults.SmallAuraSize
+--- @field largeAuraSize any # TargetFrameAuraContainerDefaults.LargeAuraSize
+--- @field flowLayoutElementSpacing any # TargetFrameAuraContainerDefaults.FlowLayoutElementSpacing
+--- @field flowLayoutLineSize any # TargetFrameAuraContainerDefaults.FlowLayoutLineSize
+--- @field flowLayoutLineSpacing any # TargetFrameAuraContainerDefaults.FlowLayoutLineSpacing
+--- @field flowLayoutPaddingBottom any # TargetFrameAuraContainerDefaults.FlowLayoutPaddingBottom
+--- @field flowLayoutPaddingLeft any # TargetFrameAuraContainerDefaults.FlowLayoutPaddingLeft
+--- @field flowLayoutPaddingRight any # TargetFrameAuraContainerDefaults.FlowLayoutPaddingRight
+--- @field flowLayoutPaddingTop any # TargetFrameAuraContainerDefaults.FlowLayoutPaddingTop
+--- @field constrainedFlowLayoutLineSize any # TargetFrameAuraContainerDefaults.ConstrainedFlowLayoutLineSize
+--- @field numConstrainedFlowLayoutLines any # TargetFrameAuraContainerDefaults.NumConstrainedFlowLayoutLines
+--- @field showAuraCount any # TargetFrameAuraContainerDefaults.ShowAuraCount
+--- @field editModePreviewEnabled boolean # true
+

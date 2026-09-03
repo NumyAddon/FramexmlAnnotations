@@ -23,13 +23,12 @@
 --- @field Background Texture
 --- @field Icon Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Menu/MenuTemplates.xml#L85)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Menu/MenuTemplates.xml#L86)
 --- Template
 --- @class WowMenuAutoHideButtonTemplate : Button
 --- @field Texture Texture
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Menu/MenuTemplates.xml#L93)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Menu/MenuTemplates.xml#L95)
 --- Template
---- @class WowMenuDropdownHighlightRadioTemplate : Button, DarkMenuElementTemplate
---- @field Text FontString
+--- @class WowMenuDropdownHighlightButtonTemplate : Button, DarkMenuElementTemplate
 

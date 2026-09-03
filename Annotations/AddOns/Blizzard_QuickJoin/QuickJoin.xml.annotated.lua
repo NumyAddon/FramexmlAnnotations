@@ -2,11 +2,11 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L5)
 --- Template
---- @class QuickJoinButtonMemberTemplate : FontString, UserScaledFontGameNormalSmall
+--- @class QuickJoinButtonMemberTemplate : FontString, UserScaledFontGameNormalLarge
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L8)
 --- Template
---- @class QuickJoinButtonQueueTemplate : FontString, UserScaledFontGameNormalSmall
+--- @class QuickJoinButtonQueueTemplate : FontString, UserScaledFontGameNormalLarge
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L24)
 --- child of QuickJoinButtonTemplate
@@ -38,7 +38,7 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L82)
 --- child of QuickJoinFrame
---- @class QuickJoinFrame_JoinQueueButton : Button, MagicButtonTemplate
+--- @class QuickJoinFrame_JoinQueueButton : Button, MagicButtonTemplate, JoinQueueButtonMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L68)
 --- @class QuickJoinFrame : Frame, QuickJoinMixin
@@ -47,7 +47,7 @@
 --- @field JoinQueueButton QuickJoinFrame_JoinQueueButton
 QuickJoinFrame = {}
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L107)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_QuickJoin/QuickJoin.xml#L101)
 --- @class QuickJoinRoleSelectionFrame : Frame, RoleSelectionTemplate, QuickJoinRoleSelectionMixin
 QuickJoinRoleSelectionFrame = {}
 

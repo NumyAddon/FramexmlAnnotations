@@ -1,6 +1,6 @@
 --- @meta _
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L188)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L331)
 --- @enum AuraUtil.AuraUpdateChangedType
 local AuraUtil_AuraUpdateChangedType = {
     ["None"] = 1,
@@ -9,7 +9,7 @@ local AuraUtil_AuraUpdateChangedType = {
     ["Dispel"] = 4,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L195)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXMLUtil/AuraUtil.lua#L338)
 --- @enum AuraUtil.UnitFrameDebuffType
 local AuraUtil_UnitFrameDebuffType = {
     ["BossDebuff"] = 1,
@@ -19,26 +19,30 @@ local AuraUtil_UnitFrameDebuffType = {
     ["NonBossDebuff"] = 5,
 }
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListConstants.lua#L1)
+--- @enum BattleNetFriendPartyInviteRestrictionType
+local BattleNetFriendPartyInviteRestrictionType = {
+    ["None"] = 1,
+    ["NoGameAccounts"] = 2,
+    ["Client"] = 3,
+    ["Leader"] = 4,
+    ["Faction"] = 5,
+    ["Realm"] = 6,
+    ["MissingRealmInfo"] = 7,
+    ["DifferentWowProject"] = 8,
+    ["WowProjectMainline"] = 9,
+    ["WowProjectClassic"] = 10,
+    ["Mobile"] = 11,
+    ["DifferentRegion"] = 12,
+    ["QuestSession"] = 13,
+    ["IncompatibleGameMode"] = 14,
+}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapBountyBoard.lua#L1)
 --- @enum BountyFrameType
 local BountyFrameType = {
     ["BountyBoard"] = 1,
     ["ActivityTracker"] = 2,
-}
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettingsConstants.lua#L125)
---- @enum CooldownViewerVisual
-local CooldownViewerVisual = {
-    ["MarchingAnts"] = 1,
-    ["MarchingAntsCyan"] = 2,
-    ["MarchingAntsRed"] = 3,
-    ["MarchingAntsGreen"] = 4,
-    ["MarchingAntsBlue"] = 5,
-    ["Flash"] = 6,
-    ["FlashCyan"] = 7,
-    ["FlashRed"] = 8,
-    ["FlashGreen"] = 9,
-    ["FlashBlue"] = 10,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.lua#L23)
@@ -49,14 +53,14 @@ local CraftingQualityStatLine = {
     ["Concentration"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXMLBase/Mainline/IconDataProvider.lua#L45)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_FrameXMLBase/IconDataProvider.lua#L45)
 --- @enum IconDataProviderIconType
 local IconDataProviderIconType = {
     ["Spell"] = 1,
     ["Item"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1696)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1672)
 --- @enum IconSelectorPopupFrameIconFilterTypes
 local IconSelectorPopupFrameIconFilterTypes = {
     ["All"] = 1,
@@ -64,21 +68,21 @@ local IconSelectorPopupFrameIconFilterTypes = {
     ["Item"] = 3,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1691)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua#L1667)
 --- @enum IconSelectorPopupFrameModes
 local IconSelectorPopupFrameModes = {
     ["New"] = 1,
     ["Edit"] = 2,
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L284)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L286)
 --- @enum MapPinHighlightAnimType
 local MapPinHighlightAnimType = {
     ["ExpandAndFade"] = 1, -- Expands and fades the MapPoi icon, and shows a glow texture
     ["BackgroundPulse"] = 2, -- Pulses a background glow a specified number of times
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L272)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L274)
 --- @enum MapPinHighlightType
 local MapPinHighlightType = {
     ["None"] = 1,
@@ -88,7 +92,7 @@ local MapPinHighlightType = {
     ["ImportantHubQuestHighlight"] = 5, -- Animated background glow, used by Quest Hub with important (manually specified) quests
 }
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L40)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L43)
 --- @enum MinimalSliderWithSteppersMixin.Label
 local MinimalSliderWithSteppersMixin_Label = {
     ["Left"] = 1,
@@ -239,6 +243,26 @@ local Settings_ControlType = {
 local SettingsLayoutMixin_LayoutType = {
     ["Vertical"] = 1,
     ["Canvas"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedConstants.lua#L10)
+--- @enum SocialUISideWindowType
+local SocialUISideWindowType = {
+    ["BattleNetBroadcastFrame"] = 1,
+    ["BattleNetUnavailableNoticeFrame"] = 2,
+    ["IgnoreListFrame"] = 3,
+    ["RaidInfoFrame"] = 4,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedConstants.lua#L1)
+--- @enum SocialUITabType
+local SocialUITabType = {
+    ["Friends"] = 1,
+    ["FriendRequests"] = 2,
+    ["QuickJoin"] = 3,
+    ["RaidList"] = 4,
+    ["RecruitAFriend"] = 5,
+    ["RecentAllies"] = 6,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L6)

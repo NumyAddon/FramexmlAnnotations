@@ -38,6 +38,22 @@ end
 
 local GuildRenameMode = EnumUtil.MakeEnum("Title", "DoRename");--- @type {["Title"]: 1, ["DoRename"]: 2}
 
+local function ShowGuildRenameFrame()
+	GuildRenameFrame:BeginInteraction();
+end
+
+local function RegisterWithPlayerInteractionManager()
+	local frameInfo =
+	{
+		frame = "GuildRenameFrame",
+		showFunc = ShowGuildRenameFrame,
+	};
+
+	RegisterPlayerInteraction(Enum.PlayerInteractionType.GuildRename, frameInfo);
+end
+
+RegisterWithPlayerInteractionManager();
+
 GuildRenameFrameMixin = {};--- @class GuildRenameFrameMixin
 
 function GuildRenameFrameMixin:OnLoad()

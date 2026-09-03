@@ -558,29 +558,45 @@
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L452)
 --- Template
---- @class UserScaledFontGameNormalLarge : Font, GameFontNormalLarge
+--- @class UserScaledFontGameNormalMed2 : Font, GameFontNormalMed2
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L454)
 --- Template
---- @class UserScaledChatFontNormal : Font, ChatFontNormal
+--- @class UserScaledFontGame15Shadow : Font, Game15Font_Shadow
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L456)
 --- Template
---- @class UserScaledFontNumberNormalRight : Font, NumberFontNormalRight
+--- @class UserScaledFontGameNormalLarge : Font, GameFontNormalLarge
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L457)
 --- Template
---- @class UserScaledFontNumberNormalRightRed : Font, NumberFontNormalRightRed
-
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L458)
---- Template
---- @class UserScaledFontNumberNormalRightYellow : Font, NumberFontNormalRightYellow
+--- @class UserScaledFontGameHighlightLarge : Font, GameFontHighlightLarge
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L459)
 --- Template
+--- @class UserScaledChatFontNormal : Font, ChatFontNormal
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L461)
+--- Template
+--- @class UserScaledFontNumberNormalRight : Font, NumberFontNormalRight
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L462)
+--- Template
+--- @class UserScaledFontNumberNormalRightRed : Font, NumberFontNormalRightRed
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L463)
+--- Template
+--- @class UserScaledFontNumberNormalRightYellow : Font, NumberFontNormalRightYellow
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L464)
+--- Template
 --- @class UserScaledFontNumberNormalRightGray : Font, NumberFontNormalRightGray
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L460)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L465)
 --- Template
 --- @class UserScaledFontNumberNormalRightGreen : Font, NumberFontNormalRightGreen
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_Fonts_Shared/Shared/FontStyles.xml#L467)
+--- Template
+--- @class UserScaledFontSystem15Shadow : Font, System15Font_Shadow
 

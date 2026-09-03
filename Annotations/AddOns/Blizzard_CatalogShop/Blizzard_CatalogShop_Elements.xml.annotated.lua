@@ -319,7 +319,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CatalogShop/Blizzard_CatalogShop_Elements.xml#L712)
 --- child of CatalogShopProductContainerFrameTemplate
 --- @class CatalogShopProductContainerFrameTemplate_ProductsHeader : Frame, VerticalLayoutFrame, ProductsHeaderMixin
---- @field fixedWidth string # 752
+--- @field fixedWidth number # 752
 --- @field ProductName CatalogShopProductContainerFrameTemplate_ProductsHeader_ProductName
 --- @field ProductType CatalogShopProductContainerFrameTemplate_ProductsHeader_ProductType
 --- @field ProductDescription CatalogShopProductContainerFrameTemplate_ProductsHeader_ProductDescription

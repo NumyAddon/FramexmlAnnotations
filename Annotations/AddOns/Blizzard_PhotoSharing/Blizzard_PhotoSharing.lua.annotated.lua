@@ -2,6 +2,17 @@ PHOTO_SHARING_TAB_LIST = {};
 PHOTO_SHARING_TAB_LIST[1] = "PhotoSharingTitleEditBox";
 PHOTO_SHARING_TAB_LIST[2] = "PhotoSharingDescriptionEditBox";
 
+function PhotoSharingFrame_EscapePressed()
+	if PhotoSharingFrame and PhotoSharingFrame:IsShown() then
+		PhotoSharingFrame:Hide();
+		return true;
+	end
+
+	return false;
+end
+
+RegisterGameMenuEscHandler(GameMenuEscPriority.AddOn, PhotoSharingFrame_EscapePressed);
+
 PhotoSharingMixin = {};--- @class PhotoSharingMixin
 
 function PhotoSharingMixin:ResetEditBoxes()

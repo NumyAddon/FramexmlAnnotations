@@ -8,6 +8,7 @@ Currently, the annotations are generated for the following branches:
   - Annotations/[ptr](https://github.com/NumyAddon/FramexmlAnnotations/tree/ptr) Annotations/[ptr-mix-into-source](https://github.com/NumyAddon/FramexmlAnnotations/tree/ptr-mix-into-source) Gethe/[ptr](https://github.com/gethe/wow-ui-source/tree/ptr)
   - Annotations/[ptr2](https://github.com/NumyAddon/FramexmlAnnotations/tree/ptr2) Annotations/[ptr2-mix-into-source](https://github.com/NumyAddon/FramexmlAnnotations/tree/ptr2-mix-into-source) Gethe/[ptr2](https://github.com/gethe/wow-ui-source/tree/ptr2)
   - Annotations/[beta](https://github.com/NumyAddon/FramexmlAnnotations/tree/beta) Annotations/[beta-mix-into-source](https://github.com/NumyAddon/FramexmlAnnotations/tree/beta-mix-into-source) Gethe/[beta](https://github.com/gethe/wow-ui-source/tree/beta)
+  - Annotations/[forever](https://github.com/NumyAddon/FramexmlAnnotations/tree/forever) Annotations/[forever-mix-into-source](https://github.com/NumyAddon/FramexmlAnnotations/tree/forever-mix-into-source) Gethe/[forever](https://github.com/gethe/wow-ui-source/tree/forever)
   - Annotations/[classic](https://github.com/NumyAddon/FramexmlAnnotations/tree/classic) Annotations/[classic-mix-into-source](https://github.com/NumyAddon/FramexmlAnnotations/tree/classic-mix-into-source) Gethe/[classic](https://github.com/gethe/wow-ui-source/tree/classic)
   - Annotations/[classic_ptr](https://github.com/NumyAddon/FramexmlAnnotations/tree/classic_ptr) Annotations/[classic_ptr-mix-into-source](https://github.com/NumyAddon/FramexmlAnnotations/tree/classic_ptr-mix-into-source) Gethe/[classic_ptr](https://github.com/gethe/wow-ui-source/tree/classic_ptr)
   - Annotations/[classic_beta](https://github.com/NumyAddon/FramexmlAnnotations/tree/classic_beta) Annotations/[classic_beta-mix-into-source](https://github.com/NumyAddon/FramexmlAnnotations/tree/classic_beta-mix-into-source) Gethe/[classic_ptr](https://github.com/gethe/wow-ui-source/tree/classic_beta)
@@ -16,15 +17,15 @@ Currently, the annotations are generated for the following branches:
   - Annotations/[classic_era_ptr](https://github.com/NumyAddon/FramexmlAnnotations/tree/classic_era_ptr) Annotations/[classic_era_ptr-mix-into-source](https://github.com/NumyAddon/FramexmlAnnotations/tree/classic_era_ptr-mix-into-source) Gethe/[classic_era_ptr](https://github.com/gethe/wow-ui-source/tree/classic_era_ptr)
 
 Generated annotations are limited to
- - Frames
-   - Global frames
-   - Frame Templates
-   - Intrinsic Frame Templates
-   - Limited support for inheritance, children, and <KeyValues>
- - Mixins - some mixins, especially local ones, may be missing
-   - "methods" for a given mixin
-   - inheritance through `CreateFromMixins`
-- Enums created with `EnumUtil.MakeEnum`
+  - Frames
+    - Global frames
+    - Frame Templates
+    - Intrinsic Frame Templates
+    - Limited support for inheritance, children, and <KeyValues>
+  - Mixins - some mixins, especially local ones, may be missing
+    - "methods" for a given mixin
+    - inheritance through `CreateFromMixins`
+  - Enums created with `EnumUtil.MakeEnum`
 
 Disclaimer: Generated annotations by their very nature are not 100% accurate and may be imprecise or missing altogether.
 

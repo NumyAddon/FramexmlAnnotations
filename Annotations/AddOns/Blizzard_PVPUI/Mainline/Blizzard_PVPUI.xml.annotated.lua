@@ -746,9 +746,9 @@ TrainingGroundsFrameTypeDropdown = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1543)
 --- child of TrainingGroundsFrame_BonusTrainingGroundList
---- @class TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundButton : Button, PVPTrainingGroundActivityButtonTemplate
+--- @class TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundBGButton : Button, PVPTrainingGroundActivityButtonTemplate
 --- @field titleText any # RANDOM_TRAINING_GROUNDS_BATTLEGROUNDS_LABEL
---- @field queueOption string # RandomTrainingGround
+--- @field queueOption string # RandomTrainingGroundBG
 --- @field tooltipTitle any # RANDOM_TRAINING_GROUNDS_BATTLEGROUNDS_LABEL
 --- @field tooltipDescription any # BONUS_BUTTON_RANDOM_TRAINING_GROUND_DESC
 
@@ -807,11 +807,11 @@ TrainingGroundsFrameRight = {}
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1528)
 --- child of TrainingGroundsFrame
 --- @class TrainingGroundsFrame_BonusTrainingGroundList : Frame, BonusTrainingGroundListMixin
---- @field RandomTrainingGroundButton TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundButton
+--- @field RandomTrainingGroundBGButton TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundBGButton
 --- @field RandomTrainingGroundArenaButton TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundArenaButton
 --- @field ShadowOverlay TrainingGroundsFrame_BonusTrainingGroundList_ShadowOverlay
 --- @field WorldBattlesTexture Texture
---- @field BonusTrainingGroundButtons table<number, TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundButton | TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundArenaButton>
+--- @field BonusTrainingGroundButtons table<number, TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundBGButton | TrainingGroundsFrame_BonusTrainingGroundList_RandomTrainingGroundArenaButton>
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.xml#L1581)
 --- child of TrainingGroundsFrame

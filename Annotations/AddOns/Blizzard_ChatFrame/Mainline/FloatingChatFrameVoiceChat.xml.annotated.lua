@@ -1,8 +1,17 @@
 --- @meta _
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/FloatingChatFrameVoiceChat.xml#L15)
+--- child of ChatFrameChannelButton_Flash
+--- @class ChatFrameChannelButton_Flash_FlashAnim : AnimationGroup
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/FloatingChatFrameVoiceChat.xml#L10)
+--- child of ChatFrameChannelButton
+--- @class ChatFrameChannelButton_Flash : Texture
+--- @field FlashAnim ChatFrameChannelButton_Flash_FlashAnim
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/FloatingChatFrameVoiceChat.xml#L4)
 --- @class ChatFrameChannelButton : Button, VoiceToggleButtonTemplate, ChannelFrameButtonMixin
---- @field Flash Texture
+--- @field Flash ChatFrameChannelButton_Flash
 ChatFrameChannelButton = {}
 ChatFrameChannelButton["fixedWidth"] = 27 -- inherited
 ChatFrameChannelButton["fixedHeight"] = 26 -- inherited
@@ -19,7 +28,7 @@ ChatFrameChannelButton["highlightAtlas"] = "chatframe-button-highlight" -- inher
 ChatFrameChannelButton["tooltipFrame"] = GameTooltip -- inherited
 ChatFrameChannelButton["tooltipPoint"] = "ANCHOR_RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/FloatingChatFrameVoiceChat.xml#L18)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/FloatingChatFrameVoiceChat.xml#L24)
 --- @class ChatFrameToggleVoiceDeafenButton : Button, ToggleVoiceDeafenButtonTemplate
 ChatFrameToggleVoiceDeafenButton = {}
 ChatFrameToggleVoiceDeafenButton["fixedWidth"] = 27 -- inherited
@@ -37,7 +46,7 @@ ChatFrameToggleVoiceDeafenButton["highlightAtlas"] = "chatframe-button-highlight
 ChatFrameToggleVoiceDeafenButton["tooltipFrame"] = GameTooltip -- inherited
 ChatFrameToggleVoiceDeafenButton["tooltipPoint"] = "ANCHOR_RIGHT" -- inherited
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/FloatingChatFrameVoiceChat.xml#L23)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_ChatFrame/Mainline/FloatingChatFrameVoiceChat.xml#L29)
 --- @class ChatFrameToggleVoiceMuteButton : Button, ToggleVoiceMuteButtonTemplate
 ChatFrameToggleVoiceMuteButton = {}
 ChatFrameToggleVoiceMuteButton["fixedWidth"] = 27 -- inherited

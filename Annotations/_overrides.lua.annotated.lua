@@ -1,6 +1,7 @@
 --- @meta _
 
 -- This file is auto-generated based on hardcoded overrides found in https://github.com/NumyAddon/FramexmlAnnotations/tree/master/overrides
+
 --*************** SecureHandlers.lua ***************
 do
 --- Defined in [SecureHandler_OnLoad](https://www.townlong-yak.com/framexml/go/SecureHandler_OnLoad)

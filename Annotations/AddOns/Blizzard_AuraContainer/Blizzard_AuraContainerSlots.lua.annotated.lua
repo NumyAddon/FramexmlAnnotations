@@ -180,11 +180,11 @@ function AuraContainerAuraSlotOwnerMixin:OnAuraSlotsChanged() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L412)
 function AuraContainerAuraSlotOwnerMixin:ShouldIncludeAuraInSlot(auraSlot, unitToken, auraData, hasMatchedFilterString) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L429)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L433)
 function AuraContainerAuraSlotOwnerMixin:InitializeAuraSlotFrame(_auraSlot, _auraFrame, _unitToken, _auraData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L433)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L437)
 function AuraContainerAuraSlotOwnerMixin:UpdateAuraSlotFrame(_auraSlot, _auraFrame, _unitToken, _auraData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L437)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerSlots.lua#L441)
 function AuraContainerAuraSlotOwnerMixin:ClearAuraSlotFrame(_auraSlot, _auraFrame) end

@@ -60,7 +60,7 @@
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L139)
 --- Template
 --- Adds itself to the parent inside the array `TabButtons`
---- @class CooldownViewerSettingsTabTemplate : Frame, LargeSideTabButtonTemplate
+--- @class CooldownViewerSettingsTabTemplate : Frame, LargeSideTabButtonTemplate, CooldownViewerSettingsTabMixin
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_CooldownViewer/CooldownViewerSettings.xml#L141)
 --- Template

@@ -180,8 +180,8 @@ function AuraContainerAuraGroupOwnerMixin:OnAuraGroupsChanged() end
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerGroups.lua#L541)
 function AuraContainerAuraGroupOwnerMixin:ShouldIncludeAuraInGroup(auraGroup, unitToken, auraData, hasMatchedFilterString) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerGroups.lua#L557)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerGroups.lua#L561)
 function AuraContainerAuraGroupOwnerMixin:InitializeAuraGroupFrame(_auraGroup, _auraFrame, _unitToken, _auraData) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerGroups.lua#L561)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_AuraContainer/Blizzard_AuraContainerGroups.lua#L565)
 function AuraContainerAuraGroupOwnerMixin:UpdateAuraGroupFrame(_auraGroup, _auraFrame, _unitToken, _auraData) end

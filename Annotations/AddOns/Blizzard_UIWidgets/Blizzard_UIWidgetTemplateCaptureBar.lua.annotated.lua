@@ -10,5 +10,5 @@ function UIWidgetTemplateCaptureBarMixin:AdjustCaptureBarShadows(inLeftZone, inR
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateCaptureBar.lua#L61)
 function UIWidgetTemplateCaptureBarMixin:Setup(widgetInfo, widgetContainer) end
 
---- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateCaptureBar.lua#L265)
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/ptr2/Interface/AddOns/Blizzard_UIWidgets/Blizzard_UIWidgetTemplateCaptureBar.lua#L260)
 function UIWidgetTemplateCaptureBarMixin:AnimOut() end

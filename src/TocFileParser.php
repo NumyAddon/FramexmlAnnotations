@@ -196,6 +196,7 @@ class TocFileParser
     {
         $gameTypes = match ($flavor) {
             FlavorEnum::MAINLINE => ['Standard', 'Mainline'],
+            FlavorEnum::CAMELOT => ['Camelot'],
             FlavorEnum::MISTS => ['Mists'],
             FlavorEnum::CATA => ['Cata'],
             FlavorEnum::WRATH => ['Wrath', 'WOTLKC'],

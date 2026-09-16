@@ -72,6 +72,23 @@ jobs:
       INCLUDE_RAW_XML_SOURCE: true
       FORCE_UPDATE: true
 
+  forever:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: forever
+      FLAVOR: camelot
+      FORCE_UPDATE: true
+
+  forever-mix-into-source:
+    uses: ./.github/workflows/template.yml
+    with:
+      BRANCH: forever
+      FLAVOR: camelot
+      TARGET_BRANCH_SUFFIX: '-mix-into-source'
+      MIX_ANNOTATIONS_INTO_SOURCE: true
+      INCLUDE_RAW_XML_SOURCE: true
+      FORCE_UPDATE: true
+
   classic:
     uses: ./.github/workflows/template.yml
     with:

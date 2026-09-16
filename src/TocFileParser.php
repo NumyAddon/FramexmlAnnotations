@@ -128,7 +128,7 @@ class TocFileParser
                     glob(dirname($filePath) . '/*')
                 ));
                 if (!$result || !file_exists($result)) {
-                    throw new RuntimeException("File not found: $filePath");
+                    throw new RuntimeException("File not found: $filePath, defined in $tocFilePath");
                 }
                 $filePath = $result;
             }
@@ -203,7 +203,7 @@ class TocFileParser
             FlavorEnum::TBC => ['TBC', 'BCC'],
             FlavorEnum::VANILLA => ['Vanilla'],
         };
-        if ($flavor !== FlavorEnum::MAINLINE) {
+        if ($flavor !== FlavorEnum::MAINLINE && $flavor !== FlavorEnum::CAMELOT) {
             $gameTypes[] = 'Classic';
         }
 

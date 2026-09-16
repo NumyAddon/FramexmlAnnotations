@@ -1,4 +1,4 @@
-name: classic
+name: forever
 
 on:
   workflow_dispatch:

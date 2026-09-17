@@ -21,15 +21,27 @@ GuildRegistrarFrameGoodbyeButton = {}
 GuildRegistrarFrameGoodbyeButton["fitTextCanWidthDecrease"] = true -- inherited
 GuildRegistrarFrameGoodbyeButton["fitTextWidthPadding"] = 40 -- inherited
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L136)
+--- child of GuildRegistrarButton1 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+GuildRegistrarButton1QuestIcon = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L74)
 --- child of GuildRegistrarGreetingFrame
 --- @class GuildRegistrarButton1 : Button, QuestTitleButtonTemplate
 GuildRegistrarButton1 = {}
+GuildRegistrarButton1["Icon"] = GuildRegistrarButton1QuestIcon -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L136)
+--- child of GuildRegistrarButton2 (created in template QuestTitleButtonTemplate)
+--- @type Texture
+GuildRegistrarButton2QuestIcon = {}
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L82)
 --- child of GuildRegistrarGreetingFrame
 --- @class GuildRegistrarButton2 : Button, QuestTitleButtonTemplate
 GuildRegistrarButton2 = {}
+GuildRegistrarButton2["Icon"] = GuildRegistrarButton2QuestIcon -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/GuildRegistrarFrame.xml#L54)
 --- child of GuildRegistrarGreetingFrame

@@ -1,0 +1,20 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/ClassResourceBarTemplate.xml#L5)
+--- Template
+--- @class ClassResourceBarTemplate : Frame, ClassPowerBarFrame, HorizontalLayoutFrame, PlayerBottomManagedFrameTemplate, ClassPowerBar, ClassResourceBarMixin
+--- @field maxUsablePoints number # 5
+--- @field powerType any # Enum.PowerType.None
+--- @field resourceBarMixin any # ClassPowerBar
+--- @field layoutIndex number # 1
+--- @field usePooledResourceButtons boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/ClassResourceBarTemplate.xml#L16)
+--- Template
+--- @class ClassResourceBarSelfManagedPointsTemplate : Frame, ClassPowerBarFrame, PlayerBottomManagedFrameTemplate, ClassPowerBar, ClassResourceBarMixin
+--- @field maxUsablePoints number # 5
+--- @field powerType any # Enum.PowerType.None
+--- @field resourceBarMixin any # ClassPowerBar
+--- @field layoutIndex number # 1
+--- @field usePooledResourceButtons boolean # false
+

@@ -111,6 +111,42 @@ InspectModelFrameBorderBottom = {}
 --- @class InspectModelFrameBorderBottom2 : Texture, Char_Inner_Bottom
 InspectModelFrameBorderBottom2 = {}
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L100)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ControlFrame_ZoomInButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
+--- @field zoomIn boolean # true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L109)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ControlFrame_ZoomOutButton : Button, ModelControlButtonTemplate, ModelControlZoomButtonMixin
+--- @field zoomIn boolean # false
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L118)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ControlFrame_PanButton : Button, ModelControlButtonTemplate, ModelControlPanButtonMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L124)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ControlFrame_RotateLeftButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
+--- @field rotateDirection string # left
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L133)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ControlFrame_RotateRightButton : Button, ModelControlButtonTemplate, ModelControlRotateButtonMixin
+--- @field rotateDirection string # right
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L142)
+--- child of ModelWithControlsTemplateControlFrame
+--- @class ModelWithControlsTemplate_ControlFrame_RotateResetButton : Button, ModelControlButtonTemplate, ModelControlResetButtonMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L67)
+--- child of InspectModelFrame (created in template ModelWithControlsTemplate)
+--- @type ModelWithControlsTemplate_ControlFrame
+InspectModelFrameControlFrame = {}
+InspectModelFrameControlFrame["panButton"] = ModelWithControlsTemplateControlFramePanButton
+InspectModelFrameControlFrame["rotateLeftButton"] = ModelWithControlsTemplateControlFrameRotateLeftButton
+InspectModelFrameControlFrame["rotateRightButton"] = ModelWithControlsTemplateControlFrameRotateRightButton
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L99)
 --- child of InspectPaperDollFrame
 --- @class InspectModelFrame : PlayerModel, ModelWithControlsTemplate
@@ -125,6 +161,7 @@ InspectModelFrame["BackgroundTopRight"] = InspectModelFrameBackgroundTopRight
 InspectModelFrame["BackgroundBotLeft"] = InspectModelFrameBackgroundBotLeft
 InspectModelFrame["BackgroundBotRight"] = InspectModelFrameBackgroundBotRight
 InspectModelFrame["BackgroundOverlay"] = InspectModelFrameBackgroundOverlay
+InspectModelFrame["controlFrame"] = InspectModelFrameControlFrame -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_InspectUI/Camelot/InspectPaperDollFrame.xml#L217)
 --- child of InspectPaperDollItemsFrame

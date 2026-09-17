@@ -1,0 +1,51 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L13)
+--- child of GhostFrameContentsFrame
+--- @class GhostFrameContentsFrameText : FontString, GameFontNormal
+GhostFrameContentsFrameText = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L19)
+--- child of GhostFrameContentsFrame
+--- @class GhostFrameContentsFrameIcon : Texture
+GhostFrameContentsFrameIcon = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L6)
+--- child of GhostFrame
+--- @class GhostFrameContentsFrame : Frame
+GhostFrameContentsFrame = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L102)
+--- child of GhostFrame (created in template UIPanelLargeSilverButton)
+--- @type Texture
+GhostFrameLeft = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L108)
+--- child of GhostFrame (created in template UIPanelLargeSilverButton)
+--- @type Texture
+GhostFrameRight = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L114)
+--- child of GhostFrame (created in template UIPanelLargeSilverButton)
+--- @type Texture
+GhostFrameMiddle = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L123)
+--- child of GhostFrame (created in template UIPanelLargeSilverButton)
+--- @type Texture
+GhostFrameLeft = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L129)
+--- child of GhostFrame (created in template UIPanelLargeSilverButton)
+--- @type Texture
+GhostFrameRight = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L135)
+--- child of GhostFrame (created in template UIPanelLargeSilverButton)
+--- @type Texture
+GhostFrameMiddle = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FrameXML/GhostFrame.xml#L3)
+--- @class GhostFrame : Button, UIPanelLargeSilverButton, GhostFrameMixin
+GhostFrame = {}
+

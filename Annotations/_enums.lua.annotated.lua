@@ -19,6 +19,32 @@ local AuraUtil_UnitFrameDebuffType = {
     ["NonBossDebuff"] = 5,
 }
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_FriendsFrame/Mainline/FriendsListConstants.lua#L1)
+--- @enum BattleNetFriendPartyInviteRestrictionType
+local BattleNetFriendPartyInviteRestrictionType = {
+    ["None"] = 1,
+    ["NoGameAccounts"] = 2,
+    ["Client"] = 3,
+    ["Leader"] = 4,
+    ["Faction"] = 5,
+    ["Realm"] = 6,
+    ["MissingRealmInfo"] = 7,
+    ["DifferentWowProject"] = 8,
+    ["WowProjectMainline"] = 9,
+    ["WowProjectClassic"] = 10,
+    ["Mobile"] = 11,
+    ["DifferentRegion"] = 12,
+    ["QuestSession"] = 13,
+    ["IncompatibleGameMode"] = 14,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/WorldMapBountyBoard.lua#L1)
+--- @enum BountyFrameType
+local BountyFrameType = {
+    ["BountyBoard"] = 1,
+    ["ActivityTracker"] = 2,
+}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_ProfessionsRecipeCrafterDetails.lua#L23)
 --- @enum CraftingQualityStatLine
 local CraftingQualityStatLine = {
@@ -47,6 +73,23 @@ local IconSelectorPopupFrameIconFilterTypes = {
 local IconSelectorPopupFrameModes = {
     ["New"] = 1,
     ["Edit"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L286)
+--- @enum MapPinHighlightAnimType
+local MapPinHighlightAnimType = {
+    ["ExpandAndFade"] = 1, -- Expands and fades the MapPoi icon, and shows a glow texture
+    ["BackgroundPulse"] = 2, -- Pulses a background glow a specified number of times
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedMapDataProviders/SharedMapPoiTemplates.lua#L274)
+--- @enum MapPinHighlightType
+local MapPinHighlightType = {
+    ["None"] = 1,
+    ["BountyRing"] = 2, -- Golden ring around the pin, used by the Emissary/Bounty Board, not really used any more after a consistency pass on quest pins
+    ["SupertrackedHighlight"] = 3, -- Blue glow + animated icon pulse, used by Covenant Callings and the World Map Activity Tracker
+    ["DreamsurgeHighlight"] = 4, -- Green glow + animated icon pulse, used by the Dreamsurge event
+    ["ImportantHubQuestHighlight"] = 5, -- Animated background glow, used by Quest Hub with important (manually specified) quests
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SharedXML/Shared/Slider/MinimalSlider.lua#L43)
@@ -101,6 +144,15 @@ local ObjectiveTrackerSlidingState = {
     ["SlideOut"] = 3,
 }
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_PVPUI/Mainline/Blizzard_PVPUI.lua#L1782)
+--- @enum PVPUIHonorInsetPanelType
+local PVPUIHonorInsetPanelType = {
+    ["Casual"] = 1,
+    ["Rated"] = 2,
+    ["Plunderstorm"] = 3,
+    ["TrainingGrounds"] = 4,
+}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ProfessionsTemplates/Blizzard_Professions.lua#L6)
 --- @enum Professions.ProfessionType
 local Professions_ProfessionType = {
@@ -151,6 +203,27 @@ local ProfessionsSortOrder = {
     ["CustomerName"] = 15,
 }
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L1)
+--- @enum QuestLogButtonTypes
+local QuestLogButtonTypes = {
+    ["None"] = 1,
+    ["Any"] = 2,
+    ["Header"] = 3,
+    ["HeaderCampaign"] = 4,
+    ["HeaderCampaignMinimal"] = 5,
+    ["HeaderCallings"] = 6,
+    ["StoryHeader"] = 7,
+    ["Quest"] = 8,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/QuestMapFrame.lua#L3)
+--- @enum QuestLogDisplayMode
+local QuestLogDisplayMode = {
+    ["Quests"] = 1,
+    ["Events"] = 2,
+    ["MapLegend"] = 3,
+}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_Settings_Shared/Blizzard_Settings.lua#L24)
 --- @enum Settings.CategorySet
 local Settings_CategorySet = {
@@ -170,6 +243,26 @@ local Settings_ControlType = {
 local SettingsLayoutMixin_LayoutType = {
     ["Vertical"] = 1,
     ["Canvas"] = 2,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedConstants.lua#L10)
+--- @enum SocialUISideWindowType
+local SocialUISideWindowType = {
+    ["BattleNetBroadcastFrame"] = 1,
+    ["BattleNetUnavailableNoticeFrame"] = 2,
+    ["IgnoreListFrame"] = 3,
+    ["RaidInfoFrame"] = 4,
+}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_SocialUIShared/SocialUISharedConstants.lua#L1)
+--- @enum SocialUITabType
+local SocialUITabType = {
+    ["Friends"] = 1,
+    ["FriendRequests"] = 2,
+    ["QuickJoin"] = 3,
+    ["RaidList"] = 4,
+    ["RecruitAFriend"] = 5,
+    ["RecentAllies"] = 6,
 }
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_ActionBar/Shared/SpellFlyout.lua#L9)

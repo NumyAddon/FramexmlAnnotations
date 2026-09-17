@@ -68,6 +68,11 @@ PetStableFrameRight = {}
 --- child of PetStableFrame_modelScene
 --- @class PetStableFrame_modelScene_PetModelSceneShadow : Frame, ShadowOverlayTemplate
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L9)
+--- child of PetStableFrame_modelScene_diet (created in template PetFrameHappinessTemplate)
+--- @type Texture
+PetFrameHappinessTexture = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_StableUI/Camelot/Blizzard_StableUI.xml#L177)
 --- child of PetStableFrame_modelScene
 --- @class PetStableFrame_modelScene_diet : Frame, PetFrameHappinessTemplate

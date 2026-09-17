@@ -379,10 +379,16 @@ PaperDollFrameNewSet = {}
 --- @field FrameFX CharacterModelScene_GearEnchantAnimation_FrameFX
 --- @field TopFrame CharacterModelScene_GearEnchantAnimation_TopFrame
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L9)
+--- child of PetPaperDollPetHappinessInfo (created in template PetFrameHappinessTemplate)
+--- @type Texture
+PetFrameHappinessTexture = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L740)
 --- child of CharacterModelScene
 --- @class PetPaperDollPetHappinessInfo : Frame, PetFrameHappinessTemplate
 PetPaperDollPetHappinessInfo = {}
+PetPaperDollPetHappinessInfo["texture"] = PetFrameHappinessTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L745)
 --- child of CharacterModelScene
@@ -451,6 +457,7 @@ CharacterHeadSlot["flyoutDirection"] = "RIGHT" -- inherited
 CharacterHeadSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterHeadSlot["Cooldown"] = CharacterHeadSlotCooldown -- inherited
 CharacterHeadSlot["popoutButton"] = CharacterHeadSlotPopoutButton -- inherited
+CharacterHeadSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterNeckSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -473,6 +480,7 @@ CharacterNeckSlot["flyoutDirection"] = "RIGHT" -- inherited
 CharacterNeckSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterNeckSlot["Cooldown"] = CharacterNeckSlotCooldown -- inherited
 CharacterNeckSlot["popoutButton"] = CharacterNeckSlotPopoutButton -- inherited
+CharacterNeckSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterShoulderSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -495,6 +503,7 @@ CharacterShoulderSlot["flyoutDirection"] = "RIGHT" -- inherited
 CharacterShoulderSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterShoulderSlot["Cooldown"] = CharacterShoulderSlotCooldown -- inherited
 CharacterShoulderSlot["popoutButton"] = CharacterShoulderSlotPopoutButton -- inherited
+CharacterShoulderSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterBackSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -517,6 +526,7 @@ CharacterBackSlot["flyoutDirection"] = "RIGHT" -- inherited
 CharacterBackSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterBackSlot["Cooldown"] = CharacterBackSlotCooldown -- inherited
 CharacterBackSlot["popoutButton"] = CharacterBackSlotPopoutButton -- inherited
+CharacterBackSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterChestSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -539,6 +549,7 @@ CharacterChestSlot["flyoutDirection"] = "RIGHT" -- inherited
 CharacterChestSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterChestSlot["Cooldown"] = CharacterChestSlotCooldown -- inherited
 CharacterChestSlot["popoutButton"] = CharacterChestSlotPopoutButton -- inherited
+CharacterChestSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterShirtSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -561,6 +572,7 @@ CharacterShirtSlot["flyoutDirection"] = "RIGHT" -- inherited
 CharacterShirtSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterShirtSlot["Cooldown"] = CharacterShirtSlotCooldown -- inherited
 CharacterShirtSlot["popoutButton"] = CharacterShirtSlotPopoutButton -- inherited
+CharacterShirtSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterTabardSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -583,6 +595,7 @@ CharacterTabardSlot["flyoutDirection"] = "RIGHT" -- inherited
 CharacterTabardSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterTabardSlot["Cooldown"] = CharacterTabardSlotCooldown -- inherited
 CharacterTabardSlot["popoutButton"] = CharacterTabardSlotPopoutButton -- inherited
+CharacterTabardSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterWristSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -605,6 +618,7 @@ CharacterWristSlot["flyoutDirection"] = "RIGHT" -- inherited
 CharacterWristSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterWristSlot["Cooldown"] = CharacterWristSlotCooldown -- inherited
 CharacterWristSlot["popoutButton"] = CharacterWristSlotPopoutButton -- inherited
+CharacterWristSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterHandsSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -627,6 +641,7 @@ CharacterHandsSlot["flyoutDirection"] = "LEFT" -- inherited
 CharacterHandsSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterHandsSlot["Cooldown"] = CharacterHandsSlotCooldown -- inherited
 CharacterHandsSlot["popoutButton"] = CharacterHandsSlotPopoutButton -- inherited
+CharacterHandsSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterWaistSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -649,6 +664,7 @@ CharacterWaistSlot["flyoutDirection"] = "LEFT" -- inherited
 CharacterWaistSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterWaistSlot["Cooldown"] = CharacterWaistSlotCooldown -- inherited
 CharacterWaistSlot["popoutButton"] = CharacterWaistSlotPopoutButton -- inherited
+CharacterWaistSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterLegsSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -671,6 +687,7 @@ CharacterLegsSlot["flyoutDirection"] = "LEFT" -- inherited
 CharacterLegsSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterLegsSlot["Cooldown"] = CharacterLegsSlotCooldown -- inherited
 CharacterLegsSlot["popoutButton"] = CharacterLegsSlotPopoutButton -- inherited
+CharacterLegsSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterFeetSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -693,6 +710,7 @@ CharacterFeetSlot["flyoutDirection"] = "LEFT" -- inherited
 CharacterFeetSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterFeetSlot["Cooldown"] = CharacterFeetSlotCooldown -- inherited
 CharacterFeetSlot["popoutButton"] = CharacterFeetSlotPopoutButton -- inherited
+CharacterFeetSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterFinger0Slot (created in template PaperDollItemSlotButtonTemplate)
@@ -715,6 +733,7 @@ CharacterFinger0Slot["flyoutDirection"] = "LEFT" -- inherited
 CharacterFinger0Slot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterFinger0Slot["Cooldown"] = CharacterFinger0SlotCooldown -- inherited
 CharacterFinger0Slot["popoutButton"] = CharacterFinger0SlotPopoutButton -- inherited
+CharacterFinger0Slot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterFinger1Slot (created in template PaperDollItemSlotButtonTemplate)
@@ -737,6 +756,7 @@ CharacterFinger1Slot["flyoutDirection"] = "LEFT" -- inherited
 CharacterFinger1Slot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterFinger1Slot["Cooldown"] = CharacterFinger1SlotCooldown -- inherited
 CharacterFinger1Slot["popoutButton"] = CharacterFinger1SlotPopoutButton -- inherited
+CharacterFinger1Slot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterTrinket0Slot (created in template PaperDollItemSlotButtonTemplate)
@@ -759,6 +779,7 @@ CharacterTrinket0Slot["flyoutDirection"] = "LEFT" -- inherited
 CharacterTrinket0Slot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterTrinket0Slot["Cooldown"] = CharacterTrinket0SlotCooldown -- inherited
 CharacterTrinket0Slot["popoutButton"] = CharacterTrinket0SlotPopoutButton -- inherited
+CharacterTrinket0Slot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterTrinket1Slot (created in template PaperDollItemSlotButtonTemplate)
@@ -781,6 +802,7 @@ CharacterTrinket1Slot["flyoutDirection"] = "LEFT" -- inherited
 CharacterTrinket1Slot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterTrinket1Slot["Cooldown"] = CharacterTrinket1SlotCooldown -- inherited
 CharacterTrinket1Slot["popoutButton"] = CharacterTrinket1SlotPopoutButton -- inherited
+CharacterTrinket1Slot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterMainHandSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -802,6 +824,7 @@ CharacterMainHandSlot["flyoutDirection"] = "UP" -- inherited
 CharacterMainHandSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterMainHandSlot["Cooldown"] = CharacterMainHandSlotCooldown -- inherited
 CharacterMainHandSlot["popoutButton"] = CharacterMainHandSlotPopoutButton -- inherited
+CharacterMainHandSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterSecondaryHandSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -823,6 +846,7 @@ CharacterSecondaryHandSlot["flyoutDirection"] = "UP" -- inherited
 CharacterSecondaryHandSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterSecondaryHandSlot["Cooldown"] = CharacterSecondaryHandSlotCooldown -- inherited
 CharacterSecondaryHandSlot["popoutButton"] = CharacterSecondaryHandSlotPopoutButton -- inherited
+CharacterSecondaryHandSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L58)
 --- child of CharacterRangedSlot (created in template PaperDollItemSlotButtonTemplate)
@@ -844,6 +868,7 @@ CharacterRangedSlot["flyoutDirection"] = "UP" -- inherited
 CharacterRangedSlot["buttonContext"] = "ButtonContext_PaperDollItemSlotButton" -- inherited
 CharacterRangedSlot["Cooldown"] = CharacterRangedSlotCooldown -- inherited
 CharacterRangedSlot["popoutButton"] = CharacterRangedSlotPopoutButton -- inherited
+CharacterRangedSlot["HasPaperDollAzeriteItemOverlay"] = "true" -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Camelot/PaperDollFrame.xml#L892)
 --- child of CharacterAmmoSlot

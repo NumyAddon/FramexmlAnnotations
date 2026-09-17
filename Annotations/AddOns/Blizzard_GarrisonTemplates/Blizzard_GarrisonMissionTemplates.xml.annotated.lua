@@ -157,6 +157,7 @@
 --- @class GarrisonMissionPartyBuffsFrameTemplate : Frame
 --- @field BuffsBG Texture
 --- @field BuffsTitle GarrisonMissionPartyBuffsFrameTemplate_BuffsTitle
+--- @field Buffs table<number, GarrisonMissionPartyBuffTemplate>
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_GarrisonTemplates/Blizzard_GarrisonMissionTemplates.xml#L501)
 --- child of StartMissionButtonTemplate

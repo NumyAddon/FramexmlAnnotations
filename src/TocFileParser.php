@@ -195,7 +195,7 @@ class TocFileParser
     private function getGameTypesForFlavor(FlavorEnum $flavor): array
     {
         $gameTypes = match ($flavor) {
-            FlavorEnum::MAINLINE => ['Standard', 'Mainline'],
+            FlavorEnum::STANDARD => ['Standard'],
             FlavorEnum::CAMELOT => ['Camelot'],
             FlavorEnum::MISTS => ['Mists'],
             FlavorEnum::CATA => ['Cata'],
@@ -203,9 +203,7 @@ class TocFileParser
             FlavorEnum::TBC => ['TBC', 'BCC'],
             FlavorEnum::VANILLA => ['Vanilla'],
         };
-        if ($flavor !== FlavorEnum::MAINLINE && $flavor !== FlavorEnum::CAMELOT) {
-            $gameTypes[] = 'Classic';
-        }
+        $gameTypes[] = $flavor->family();
 
         return $gameTypes;
     }

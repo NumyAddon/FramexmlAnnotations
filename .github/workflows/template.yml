@@ -16,10 +16,11 @@ on:
       FLAVOR:
         description: 'Flavor to filter the input for'
         required: true
-        default: 'mainline'
+        default: 'standard'
         type: choice
         options:
-          - mainline
+          - standard
+          - camelot
           - mists
           - cata
           - wrath
@@ -55,7 +56,7 @@ on:
       FLAVOR:
         description: 'Flavor to filter the input for'
         required: true
-        default: 'mainline'
+        default: 'standard'
         type: string
       FORCE_UPDATE:
         description: 'Force update the branch'

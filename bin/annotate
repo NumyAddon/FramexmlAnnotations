@@ -23,7 +23,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
     ->addArgument(
         'flavor',
         InputArgument::REQUIRED,
-        'Flavor to filter toc files on. E.g. "mainline", "cata", "vanilla"',
+        'Flavor to filter toc files on. E.g. "standard", "cata", "vanilla"',
         suggestedValues: fn () => array_map(
             fn (FlavorEnum $flavor) => $flavor->value,
             FlavorEnum::cases(),

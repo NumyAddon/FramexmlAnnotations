@@ -6,7 +6,7 @@ namespace App;
 
 enum FlavorEnum: string
 {
-    case MAINLINE = 'mainline';
+    case STANDARD = 'standard';
     case CAMELOT = 'camelot';
     case MISTS = 'mists';
     case CATA = 'cata';
@@ -17,7 +17,7 @@ enum FlavorEnum: string
     public function family(): string
     {
         return match ($this) {
-            self::MAINLINE, self::CAMELOT => 'Mainline',
+            self::STANDARD, self::CAMELOT => 'Mainline',
             default => 'Classic',
         };
     }
@@ -25,7 +25,7 @@ enum FlavorEnum: string
     public function game(): string
     {
         return match ($this) {
-            self::MAINLINE => 'Standard',
+            self::STANDARD => 'Standard',
             self::CAMELOT => 'Camelot',
             self::MISTS => 'Mists',
             self::CATA => 'Cata',

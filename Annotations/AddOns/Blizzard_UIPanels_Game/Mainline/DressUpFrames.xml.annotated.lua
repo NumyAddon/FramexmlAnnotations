@@ -1,0 +1,230 @@
+--- @meta _
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L13)
+--- child of DressUpCustomSetSlotFrameTemplate
+--- @class DressUpCustomSetSlotFrameTemplate_Name : FontString, GameFontNormalSmall2
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L3)
+--- Template
+--- @class DressUpCustomSetSlotFrameTemplate : Frame, DressUpCustomSetDetailsSlotMixin
+--- @field Icon Texture
+--- @field Name DressUpCustomSetSlotFrameTemplate_Name
+--- @field IconBorder Texture
+--- @field HiddenIcon Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L93)
+--- child of SideDressUpFrame_ModelScene
+--- @class SideDressUpFrame_ModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L82)
+--- child of SideDressUpFrame
+--- @class SideDressUpFrame_ModelScene : ModelScene, PanningModelSceneMixinTemplate
+--- @field normalIntensity number # 0.75
+--- @field highlightIntensity number # 1.2
+--- @field ControlFrame SideDressUpFrame_ModelScene_ControlFrame
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L100)
+--- child of SideDressUpFrame
+--- @class SideDressUpFrame_ResetButton : Button, UIPanelButtonTemplate, DressUpModelFrameResetButtonMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L110)
+--- child of SideDressUpFrame
+--- @class SideDressUpFrameCloseButton : Button, UIPanelCloseButton, DressUpModelFrameCloseButtonMixin
+SideDressUpFrameCloseButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L51)
+--- child of SideDressUpFrame
+--- @class SideDressUpFrameTop : Texture
+SideDressUpFrameTop = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L65)
+--- child of SideDressUpFrame
+--- @class SideDressUpFrameBackgroundTop : Texture
+SideDressUpFrameBackgroundTop = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L72)
+--- child of SideDressUpFrame
+--- @class SideDressUpFrameBackgroundBot : Texture
+SideDressUpFrameBackgroundBot = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L44)
+--- @class SideDressUpFrame : Frame, SideDressUpModelFrameFrameMixin
+--- @field hasCustomSetControls boolean # false
+--- @field ModelScene SideDressUpFrame_ModelScene
+--- @field ResetButton SideDressUpFrame_ResetButton
+--- @field BGTopLeft SideDressUpFrameBackgroundTop
+--- @field BGBottomLeft SideDressUpFrameBackgroundBot
+SideDressUpFrame = {}
+SideDressUpFrame["BGTopLeft"] = SideDressUpFrameBackgroundTop
+SideDressUpFrame["BGBottomLeft"] = SideDressUpFrameBackgroundBot
+SideDressUpFrame["hasCustomSetControls"] = false
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L54)
+--- child of TransmogAndMountDressupFrame_ShowMountCheckButton (created in template UICheckButtonTemplate)
+--- @type UICheckButtonTemplate_Text
+TransmogAndMountDressupFrameText = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L141)
+--- child of TransmogAndMountDressupFrame
+--- @class TransmogAndMountDressupFrame_ShowMountCheckButton : CheckButton, UICheckButtonTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L152)
+--- child of TransmogAndMountDressupFrame
+--- @class TransmogAndMountDressupFrame_ModelScene : ModelScene, ModelSceneMixinTemplate
+--- @field normalIntensity number # 0.75
+--- @field highlightIntensity number # 1.2
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L136)
+--- @class TransmogAndMountDressupFrame : Frame, TransmogAndMountDressupFrameMixin
+--- @field hasCustomSetControls boolean # false
+--- @field ShowMountCheckButton TransmogAndMountDressupFrame_ShowMountCheckButton
+--- @field ModelScene TransmogAndMountDressupFrame_ModelScene
+TransmogAndMountDressupFrame = {}
+TransmogAndMountDressupFrame["hasCustomSetControls"] = false
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L208)
+--- child of DressUpFrameTransmogSetTemplate
+--- @class DressUpFrameTransmogSetTemplate_ScrollBox : Frame, WowScrollBoxList
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L214)
+--- child of DressUpFrameTransmogSetTemplate
+--- @class DressUpFrameTransmogSetTemplate_ScrollBar : EventFrame, MinimalScrollBar
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L195)
+--- child of DressUpFrameTransmogSetTemplate
+--- @class DressUpFrameTransmogSetTemplate_SetName : FontString, GameFontHighlightLarge, DressUpFrameSetSelectionLabelMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L174)
+--- Template
+--- @class DressUpFrameTransmogSetTemplate : Frame, DressUpFrameTransmogSetMixin
+--- @field ScrollBox DressUpFrameTransmogSetTemplate_ScrollBox
+--- @field ScrollBar DressUpFrameTransmogSetTemplate_ScrollBar
+--- @field BlackBackground Texture
+--- @field Border Texture
+--- @field SetName DressUpFrameTransmogSetTemplate_SetName
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L252)
+--- child of DressUpFrameTransmogSetButtonTemplate
+--- @class DressUpFrameTransmogSetButtonTemplate_ItemSlot : FontString, GameFontNormal
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L258)
+--- child of DressUpFrameTransmogSetButtonTemplate
+--- @class DressUpFrameTransmogSetButtonTemplate_ItemName : FontString, GameFontNormalMed3
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L228)
+--- Template
+--- @class DressUpFrameTransmogSetButtonTemplate : Button, DressUpFrameTransmogSetButtonMixin
+--- @field BackgroundTexture Texture
+--- @field Icon Texture
+--- @field SelectedTexture Texture
+--- @field HighlightTexture Texture
+--- @field IconBorder Texture
+--- @field ItemSlot DressUpFrameTransmogSetButtonTemplate_ItemSlot
+--- @field ItemName DressUpFrameTransmogSetButtonTemplate_ItemName
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L285)
+--- child of DressUpFrame
+--- @class DressUpFrameCustomSetDropdown : DropdownButton, WardrobeCustomSetDropdownTemplate, DressUpCustomSetMixin
+--- @field width number # 163
+--- @field minMenuStringWidth number # 127
+--- @field maxMenuStringWidth number # 190
+--- @field replaceInvalidSources boolean # true
+DressUpFrameCustomSetDropdown = {}
+DressUpFrameCustomSetDropdown["width"] = 163
+DressUpFrameCustomSetDropdown["minMenuStringWidth"] = 127
+DressUpFrameCustomSetDropdown["maxMenuStringWidth"] = 190
+DressUpFrameCustomSetDropdown["replaceInvalidSources"] = true
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L296)
+--- child of DressUpFrame
+--- @class DressUpFrame_MaximizeMinimizeFrame : Frame, MaximizeMinimizeButtonFrameTemplate, DressUpModelFrameMaximizeMinimizeMixin
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L304)
+--- child of DressUpFrame
+--- @class DressUpFrameCancelButton : Button, UIPanelButtonTemplate, DressUpModelFrameCancelButtonMixin
+DressUpFrameCancelButton = {}
+DressUpFrameCancelButton["fitTextCanWidthDecrease"] = true -- inherited
+DressUpFrameCancelButton["fitTextWidthPadding"] = 40 -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L353)
+--- child of DressUpFrame_ModelScene
+--- @class DressUpFrame_ModelScene_ControlFrame : Frame, ModelSceneControlFrameTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L313)
+--- child of DressUpFrame
+--- @class DressUpFrame_ModelScene : ModelScene, PanningModelSceneMixinTemplate
+--- @field normalIntensity number # 0.75
+--- @field highlightIntensity number # 1.2
+--- @field ControlFrame DressUpFrame_ModelScene_ControlFrame
+--- @field BGTopLeft Texture
+--- @field BGTopRight Texture
+--- @field BGBottomLeft Texture
+--- @field BGBottomRight Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L365)
+--- child of DressUpFrame
+--- @class DressUpFrame_ToggleCustomSetDetailsButton : Button
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L391)
+--- child of DressUpFrame
+--- @class DressUpFrame_SetSelectionPanel : Frame, DressUpFrameTransmogSetTemplate
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L397)
+--- child of DressUpFrame
+--- @class DressUpFrame_CustomSetDetailsPanel : Frame, DressUpCustomSetDetailsPanelMixin
+--- @field BlackBackground Texture
+--- @field ClassBackground Texture
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L434)
+--- child of DressUpFrame
+--- @class DressUpFrameResetButton : Button, UIPanelButtonTemplate, DressUpModelFrameResetButtonMixin
+DressUpFrameResetButton = {}
+DressUpFrameResetButton["fitTextCanWidthDecrease"] = true -- inherited
+DressUpFrameResetButton["fitTextWidthPadding"] = 40 -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L444)
+--- child of DressUpFrame
+--- @class DressUpFrame_LinkButton : DropdownButton, UIPanelButtonTemplate, DressUpModelFrameLinkButtonMixin
+--- @field menuPointX number # 15
+--- @field menuPointY number # 2
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L713)
+--- child of DressUpFrame (created in template ButtonFrameTemplate)
+--- @type ButtonFrameTemplate_Inset
+DressUpFrameInset = {}
+DressUpFrameInset["layoutType"] = "InsetFrameTemplate" -- inherited
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L707)
+--- child of DressUpFrame (created in template ButtonFrameBaseTemplate)
+--- @type ButtonFrameBaseTemplate_CloseButton
+DressUpFrameCloseButton = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L690)
+--- child of DressUpFrame (created in template ButtonFrameBaseTemplate)
+--- @type Texture
+DressUpFrameBg = {}
+
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UIPanels_Game/Mainline/DressUpFrames.xml#L272)
+--- @class DressUpFrame : Frame, ButtonFrameTemplateMinimizable, DressUpModelFrameMixin
+--- @field hasCustomSetControls boolean # true
+--- @field transmogSetDressUpEnabled boolean # true
+--- @field CustomSetDropdown DressUpFrameCustomSetDropdown
+--- @field MaximizeMinimizeFrame DressUpFrame_MaximizeMinimizeFrame
+--- @field MaxMinButtonFrame DressUpFrame_MaximizeMinimizeFrame
+--- @field ModelScene DressUpFrame_ModelScene
+--- @field ToggleCustomSetDetailsButton DressUpFrame_ToggleCustomSetDetailsButton
+--- @field SetSelectionPanel DressUpFrame_SetSelectionPanel
+--- @field CustomSetDetailsPanel DressUpFrame_CustomSetDetailsPanel
+--- @field ResetButton DressUpFrameResetButton
+--- @field LinkButton DressUpFrame_LinkButton
+--- @field ModelBackground Texture
+DressUpFrame = {}
+DressUpFrame["CustomSetDropdown"] = DressUpFrameCustomSetDropdown
+DressUpFrame["ResetButton"] = DressUpFrameResetButton
+DressUpFrame["hasCustomSetControls"] = true
+DressUpFrame["transmogSetDressUpEnabled"] = true
+DressUpFrame["layoutType"] = "PortraitFrameTemplateMinimizable" -- inherited
+DressUpFrame["Inset"] = DressUpFrameInset -- inherited
+DressUpFrame["CloseButton"] = DressUpFrameCloseButton -- inherited
+DressUpFrame["Bg"] = DressUpFrameBg -- inherited
+

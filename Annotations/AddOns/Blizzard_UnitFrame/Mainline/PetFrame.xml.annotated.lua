@@ -109,10 +109,16 @@ PetFrameManaBar = {}
 --- @class PetFrame_AuraFrameContainer : Frame, HorizontalLayoutFrame
 --- @field spacing number # 2
 
+--- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/PetFrame.xml#L9)
+--- child of PetFrameHappiness (created in template PetFrameHappinessTemplate)
+--- @type Texture
+PetFrameHappinessTexture = {}
+
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/PetFrame.xml#L179)
 --- child of PetFrame
 --- @class PetFrameHappiness : Frame, PetFrameHappinessTemplate
 PetFrameHappiness = {}
+PetFrameHappiness["texture"] = PetFrameHappinessTexture -- inherited
 
 --- [Source](https://github.com/Gethe/wow-ui-source/blob/forever/Interface/AddOns/Blizzard_UnitFrame/Mainline/PetFrame.xml#L24)
 --- child of PetFrame
